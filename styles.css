@@ -1519,124 +1519,89 @@ main {
 }
 
 /* =============================================================================
-   Authentication Overlay Styles
+   Authentication Gate Styles
    ============================================================================= */
 
-#auth-overlay {
+.auth-gate {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, var(--color-teal-dark) 0%, var(--color-teal) 50%, #1a5a5a 100%);
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #2a5a5a 0%, #1a3a3a 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 10000;
-  transition: opacity 0.3s ease;
+  z-index: 9999;
 }
 
-.auth-modal {
-  background: var(--color-warm-white);
-  border-radius: 16px;
-  padding: var(--spacing-xl);
-  max-width: 420px;
-  width: 90%;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+.auth-container {
+  background: #f5f0e6;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  max-width: 400px;
+  width: 90%;
 }
 
-.auth-modal::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 6px;
-  background: linear-gradient(90deg,
-    var(--color-coral) 0%,
-    var(--color-butter) 50%,
-    var(--color-coral) 100%);
-}
-
-.auth-header {
-  margin-bottom: var(--spacing-lg);
-}
-
-.auth-header h2 {
-  color: var(--color-teal-dark);
+.auth-container h1 {
+  color: #2a5a5a;
+  margin-bottom: 1rem;
   font-family: var(--font-script);
-  font-size: 2rem;
-  margin-bottom: var(--spacing-xs);
 }
 
-.auth-subtitle {
-  color: var(--color-text-muted);
-  font-size: 0.95rem;
-  font-style: italic;
-}
-
-.auth-content {
-  margin-bottom: var(--spacing-lg);
-}
-
-.auth-content p {
-  margin-bottom: var(--spacing-md);
+.auth-container p {
   color: var(--color-text);
+  margin-bottom: 1rem;
 }
 
-.auth-question {
+.auth-container label {
   display: block;
   font-weight: 600;
-  color: var(--color-brown);
-  font-size: 1.1rem;
-  margin-bottom: var(--spacing-sm);
+  color: var(--color-charcoal);
+  margin-bottom: 0.5rem;
 }
 
-.auth-input {
+.auth-container input {
   width: 100%;
-  padding: var(--spacing-md);
-  font-size: 1.1rem;
-  border: 2px solid var(--color-teal-light);
+  padding: 0.75rem;
+  border: 2px solid #ddd;
   border-radius: 8px;
-  text-align: center;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.auth-container input:focus {
   outline: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-  margin-bottom: var(--spacing-sm);
+  border-color: #2a5a5a;
+  box-shadow: 0 0 0 3px rgba(42, 90, 90, 0.15);
 }
 
-.auth-input:focus {
-  border-color: var(--color-teal);
-  box-shadow: 0 0 0 3px rgba(0, 128, 128, 0.15);
+.auth-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #2a5a5a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
-.auth-input-error {
-  border-color: var(--color-coral) !important;
-  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.2) !important;
+.auth-container button:hover {
+  background: #1a3a3a;
 }
 
 .auth-error {
-  color: var(--color-coral-dark);
-  font-size: 0.9rem;
-  margin-bottom: var(--spacing-sm);
-  font-weight: 500;
+  color: #c0392b;
+  margin-top: 1rem;
 }
 
-.auth-btn {
-  width: 100%;
-  padding: var(--spacing-md);
-  font-size: 1.1rem;
-  margin-top: var(--spacing-sm);
-}
-
-.auth-footer {
-  color: var(--color-teal);
-  font-family: var(--font-script);
-  font-size: 1.1rem;
-  margin: 0;
-  opacity: 0.8;
+.auth-input-error {
+  border-color: #c0392b !important;
+  box-shadow: 0 0 0 3px rgba(192, 57, 43, 0.2) !important;
 }
 
 /* Shake animation for wrong answer */
@@ -1644,4 +1609,54 @@ main {
   0%, 100% { transform: translateX(0); }
   10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
   20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+/* =============================================================================
+   Family Collections Navigation
+   ============================================================================= */
+
+.family-collections {
+  background: #f5f0e6;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.family-collections .container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.family-collections .nav-label {
+  font-weight: 500;
+  color: #666;
+}
+
+.family-collections a {
+  color: #2a5a5a;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.family-collections a:hover {
+  background: rgba(42, 90, 90, 0.1);
+}
+
+.family-collections a.active {
+  background: #2a5a5a;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .family-collections .container {
+    justify-content: center;
+  }
+
+  .family-collections .nav-label {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
 }

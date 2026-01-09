@@ -73,9 +73,9 @@ let currentFilter = { search: '', category: '', tag: '', collection: '' };
 let showMetric = false; // Toggle for metric conversions
 let isAuthenticated = false;
 
-// Authentication configuration
-const AUTH_KEY = 'grandmas_kitchen_auth';
-const AUTH_ANSWER = 'baker'; // Case-insensitive
+// Authentication configuration - MUST use this exact key for cross-site auth
+const AUTH_KEY = 'grandmas-kitchen-auth';
+const CORRECT_ANSWER = 'Baker';  // Grandma's last name (case-sensitive)
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', init);
@@ -109,36 +109,33 @@ function saveAuth() {
  * Show the family authentication prompt
  */
 function showAuthPrompt() {
-  // Create overlay
-  const overlay = document.createElement('div');
-  overlay.id = 'auth-overlay';
-  overlay.innerHTML = `
-    <div class="auth-modal">
-      <div class="auth-header">
-        <h2>Welcome to Grandma's Kitchen</h2>
-        <p class="auth-subtitle">This is a private family recipe collection</p>
-      </div>
-      <div class="auth-content">
-        <p>To access these treasured family recipes, please answer:</p>
-        <label for="auth-answer" class="auth-question">What was Grandma's last name?</label>
-        <input type="text" id="auth-answer" class="auth-input" placeholder="Enter your answer..." autocomplete="off">
-        <p id="auth-error" class="auth-error" style="display: none;">That's not quite right. Try again!</p>
-        <button id="auth-submit" class="btn btn-primary auth-btn">Enter the Kitchen</button>
-      </div>
-      <p class="auth-footer">Soli Deo Gloria</p>
+  // Create auth gate overlay
+  const authGate = document.createElement('div');
+  authGate.id = 'auth-gate';
+  authGate.className = 'auth-gate';
+  authGate.innerHTML = `
+    <div class="auth-container">
+      <h1>Grandma's Kitchen</h1>
+      <p>This is a private family recipe archive.</p>
+      <form id="auth-form">
+        <label for="auth-answer">What is Grandma's last name?</label>
+        <input type="text" id="auth-answer" autocomplete="off" required>
+        <button type="submit" class="btn btn-primary">Enter</button>
+        <p id="auth-error" class="auth-error" style="display: none;">Incorrect. Please try again.</p>
+      </form>
     </div>
   `;
-  document.body.appendChild(overlay);
+  document.body.appendChild(authGate);
 
   // Focus the input
   setTimeout(() => {
     document.getElementById('auth-answer').focus();
   }, 100);
 
-  // Handle submit
-  document.getElementById('auth-submit').addEventListener('click', handleAuthSubmit);
-  document.getElementById('auth-answer').addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') handleAuthSubmit();
+  // Handle form submit
+  document.getElementById('auth-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    handleAuthSubmit();
   });
 }
 
@@ -148,20 +145,20 @@ function showAuthPrompt() {
 async function handleAuthSubmit() {
   const input = document.getElementById('auth-answer');
   const error = document.getElementById('auth-error');
-  const answer = input.value.trim().toLowerCase();
+  const answer = input.value.trim();
 
-  if (answer === AUTH_ANSWER) {
+  if (answer === CORRECT_ANSWER) {
     // Success!
     saveAuth();
     isAuthenticated = true;
 
-    // Fade out overlay
-    const overlay = document.getElementById('auth-overlay');
-    overlay.style.opacity = '0';
-    setTimeout(() => {
-      overlay.remove();
-      loadContent();
-    }, 300);
+    // Hide auth gate and show site content
+    const authGate = document.getElementById('auth-gate');
+    if (authGate) {
+      authGate.style.display = 'none';
+      authGate.remove();
+    }
+    loadContent();
   } else {
     // Wrong answer
     error.style.display = 'block';
