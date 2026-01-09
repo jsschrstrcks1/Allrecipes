@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "title": "Kitchen Tips & Techniques",
+    "description": "A collection of cooking tips, ingredient selection guides, and kitchen wisdom - organized by topic and linked to ingredients for contextual display with recipes",
+    "created": "2026-01-09",
+    "last_updated": "2026-01-09",
+    "version": "1.0.0",
+    "total_tips": 19,
+    "schema_version": "1.0"
+  },
+  "categories": {
+    "selection": "How to choose and buy ingredients",
+    "storage": "How to store ingredients for freshness",
+    "preparation": "Prep techniques and shortcuts",
+    "cooking": "Cooking methods and temperature guidance",
+    "substitution": "Ingredient swaps and alternatives",
+    "technique": "General cooking techniques",
+    "equipment": "Kitchen tools and equipment tips",
+    "safety": "Food safety and handling",
+    "serving": "Presentation and serving suggestions"
+  },
+  "tips": [
+    {
+      "id": "selecting-fresh-asparagus",
+      "title": "Selecting Fresh Asparagus",
+      "content": "Look for firm, bright green spears with tightly closed, compact tips. The cut ends should look fresh and moist, not dried out or woody. Thinner spears are more tender, while thicker spears have more flavor but may need peeling at the base. Avoid bunches with slimy or mushy spots.",
+      "related_ingredients": ["asparagus"],
+      "related_tags": ["vegetables", "spring", "produce"],
+      "category": "selection",
+      "source_note": "Family cooking wisdom",
+      "image_refs": [],
+      "search_terms": ["asparagus", "picking", "buying", "fresh", "vegetable", "spring"]
+    },
+    {
+      "id": "storing-asparagus",
+      "title": "Storing Asparagus",
+      "content": "Treat asparagus like fresh flowers - trim the ends and stand the spears upright in a glass with an inch of water. Cover loosely with a plastic bag and refrigerate. Use within 3-4 days for best quality. Alternatively, wrap the cut ends in a damp paper towel and store in a plastic bag.",
+      "related_ingredients": ["asparagus"],
+      "related_tags": ["vegetables", "storage"],
+      "category": "storage",
+      "source_note": "Family cooking wisdom",
+      "image_refs": [],
+      "search_terms": ["asparagus", "storing", "refrigerate", "fresh", "keep"]
+    },
+    {
+      "id": "selecting-ripe-bananas",
+      "title": "Selecting Bananas for Different Uses",
+      "content": "For eating fresh: choose yellow bananas with light brown speckles. For baking (muffins, bread): use very ripe bananas with lots of brown spots - they're sweeter and easier to mash. For cooking (fried bananas): use firm, just-yellow bananas. Green bananas are starchy and not yet sweet.",
+      "related_ingredients": ["banana", "bananas"],
+      "related_tags": ["fruit", "baking", "produce"],
+      "category": "selection",
+      "source_note": "Family cooking wisdom",
+      "image_refs": [],
+      "search_terms": ["banana", "ripe", "baking", "muffins", "bread", "picking"]
+    },
+    {
+      "id": "storing-berries",
+      "title": "Keeping Berries Fresh",
+      "content": "Don't wash berries until ready to use - moisture speeds spoilage. Store in a single layer on paper towels in a ventilated container. Strawberries last longer with stems attached. For longer storage, rinse berries in 1 part vinegar to 3 parts water, dry completely, then refrigerate.",
+      "related_ingredients": ["blueberries", "raspberries", "strawberries", "blackberries", "berries"],
+      "related_tags": ["fruit", "storage"],
+      "category": "storage",
+      "source_note": "Family cooking wisdom",
+      "image_refs": [],
+      "search_terms": ["berries", "blueberry", "raspberry", "strawberry", "fresh", "storing", "refrigerate"]
+    },
+    {
+      "id": "muffin-mixing-technique",
+      "title": "The Secret to Tender Muffins",
+      "content": "Mix wet and dry ingredients separately, then combine just until the flour is moistened - the batter should still look lumpy. Over-mixing develops gluten and creates tough, dense muffins with tunnels. A few streaks of flour are perfectly fine. Let batter rest 15-20 minutes before baking for even better texture.",
+      "related_ingredients": ["flour", "muffin", "batter"],
+      "related_tags": ["baking", "muffins", "technique"],
+      "category": "technique",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["muffin", "mixing", "batter", "tender", "baking", "technique"]
+    },
+    {
+      "id": "measuring-flour",
+      "title": "Properly Measuring Flour",
+      "content": "For consistent results, use the spoon-and-level method: stir flour to loosen it, spoon into measuring cup (don't scoop directly), then level with a straight edge. Scooping packs flour and can add 20-30% more than intended, making baked goods dense and dry.",
+      "related_ingredients": ["flour", "all-purpose flour", "cake flour", "bread flour"],
+      "related_tags": ["baking", "technique", "measuring"],
+      "category": "technique",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["flour", "measuring", "cup", "baking", "spoon", "level"]
+    },
+    {
+      "id": "room-temp-eggs",
+      "title": "Why Room Temperature Eggs Matter",
+      "content": "Room temperature eggs blend more evenly into batters, creating better texture and more volume in cakes. Cold eggs can cause butter to seize up. To quickly warm eggs: place in a bowl of warm (not hot) water for 5-10 minutes. This is especially important for creaming butter-based recipes.",
+      "related_ingredients": ["egg", "eggs"],
+      "related_tags": ["baking", "technique"],
+      "category": "technique",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["egg", "room temperature", "baking", "butter", "cake"]
+    },
+    {
+      "id": "softening-butter",
+      "title": "Properly Softened Butter",
+      "content": "Butter should be pliable but still cool - it should hold its shape when you press it, leaving a slight indent. If it's greasy or shiny, it's too soft. Microwave in 5-second bursts, or cut into cubes and leave at room temp for 30-60 minutes. Too-soft butter won't cream properly and makes cookies spread too much.",
+      "related_ingredients": ["butter"],
+      "related_tags": ["baking", "technique"],
+      "category": "technique",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["butter", "softening", "room temperature", "baking", "cream"]
+    },
+    {
+      "id": "buttermilk-substitute",
+      "title": "No Buttermilk? Make Your Own",
+      "content": "For 1 cup buttermilk substitute: Add 1 tablespoon lemon juice or white vinegar to a measuring cup, then fill to 1 cup with regular milk. Let sit 5-10 minutes until slightly curdled. Works well in muffins, pancakes, and quick breads. Plain yogurt thinned with milk also works.",
+      "related_ingredients": ["buttermilk", "milk", "lemon juice", "vinegar"],
+      "related_tags": ["baking", "substitution"],
+      "category": "substitution",
+      "source_note": "Kitchen wisdom",
+      "image_refs": [],
+      "search_terms": ["buttermilk", "substitute", "replacement", "lemon", "vinegar", "milk"]
+    },
+    {
+      "id": "creaming-butter-sugar",
+      "title": "Creaming Butter and Sugar",
+      "content": "Beat softened butter and sugar for 3-5 minutes until light and fluffy. The mixture should be pale yellow and increased in volume. This step incorporates air for tender, light baked goods. Don't rush it - under-creaming leads to dense results. Scrape the bowl occasionally.",
+      "related_ingredients": ["butter", "sugar"],
+      "related_tags": ["baking", "technique"],
+      "category": "technique",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["creaming", "butter", "sugar", "mixing", "baking", "light", "fluffy"]
+    },
+    {
+      "id": "seeding-pomegranate",
+      "title": "Easy Pomegranate Seeding",
+      "content": "Cut pomegranate in half horizontally. Hold cut-side down over a bowl and whack the back firmly with a wooden spoon - seeds will fall out. Alternatively, score the skin into quarters, submerge in a bowl of water, and break apart. Seeds sink, white pith floats. This method is less messy and prevents juice stains.",
+      "related_ingredients": ["pomegranate", "pomegranate seeds"],
+      "related_tags": ["fruit", "preparation"],
+      "category": "preparation",
+      "source_note": "Kitchen wisdom",
+      "image_refs": [],
+      "search_terms": ["pomegranate", "seeds", "seeding", "arils", "prep", "easy", "stain"]
+    },
+    {
+      "id": "selecting-pomegranate",
+      "title": "Selecting a Ripe Pomegranate",
+      "content": "Choose pomegranates that feel heavy for their size - this indicates juicy seeds. The skin should be firm, taut, and free of cracks or soft spots. Color ranges from pink to deep red depending on variety; darker isn't necessarily riper. Ripe pomegranates should have a slightly squared shape from the seeds pressing outward.",
+      "related_ingredients": ["pomegranate", "pomegranate seeds"],
+      "related_tags": ["fruit", "selection", "produce"],
+      "category": "selection",
+      "source_note": "Kitchen wisdom",
+      "image_refs": [],
+      "search_terms": ["pomegranate", "picking", "buying", "ripe", "fresh", "fruit"]
+    },
+    {
+      "id": "zesting-lemons",
+      "title": "Getting the Most from Lemon Zest",
+      "content": "Zest lemons before juicing - it's much easier on a whole fruit. Use a microplane or fine grater and only remove the yellow part; the white pith is bitter. One medium lemon yields about 1 tablespoon of zest. For recipes calling for both zest and juice, zest first, then roll the lemon firmly on the counter before juicing to get more juice.",
+      "related_ingredients": ["lemon", "lemons", "lemon zest", "lemon juice"],
+      "related_tags": ["citrus", "baking", "preparation"],
+      "category": "preparation",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["lemon", "zest", "zesting", "citrus", "juice", "grating"]
+    },
+    {
+      "id": "storing-lemons",
+      "title": "Keeping Lemons Fresh",
+      "content": "Whole lemons last 1 week at room temperature or up to 4 weeks refrigerated. For even longer storage, place in a sealed plastic bag in the fridge - they'll last 4-6 weeks. Cut lemons should be wrapped tightly and used within 2-3 days. Freeze lemon juice in ice cube trays for long-term storage.",
+      "related_ingredients": ["lemon", "lemons"],
+      "related_tags": ["citrus", "storage"],
+      "category": "storage",
+      "source_note": "Kitchen wisdom",
+      "image_refs": [],
+      "search_terms": ["lemon", "storing", "storage", "refrigerate", "fresh", "keep"]
+    },
+    {
+      "id": "canned-pumpkin-tips",
+      "title": "Working with Canned Pumpkin",
+      "content": "Use pure canned pumpkin (not pumpkin pie filling, which has sugar and spices added). If mixture seems watery, spread pumpkin on paper towels for 10 minutes to absorb excess moisture. One 15-oz can equals about 1 3/4 cups. Leftover pumpkin freezes well in portions for up to 3 months.",
+      "related_ingredients": ["canned pumpkin", "pumpkin"],
+      "related_tags": ["baking", "fall", "preparation"],
+      "category": "preparation",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["pumpkin", "canned", "pie", "baking", "moisture", "prep"]
+    },
+    {
+      "id": "pumpkin-pie-spice",
+      "title": "DIY Pumpkin Pie Spice",
+      "content": "Make your own pumpkin pie spice: 3 tbsp ground cinnamon, 2 tsp ground ginger, 2 tsp ground nutmeg, 1 tsp ground allspice, 1 tsp ground cloves. Mix well and store in an airtight container. Adjust ratios to your taste - some prefer more cinnamon, others more ginger. Freshly ground spices have the best flavor.",
+      "related_ingredients": ["pumpkin pie spice", "cinnamon", "ginger", "nutmeg", "allspice", "cloves"],
+      "related_tags": ["baking", "fall", "spices", "substitution"],
+      "category": "substitution",
+      "source_note": "Kitchen wisdom",
+      "image_refs": [],
+      "search_terms": ["pumpkin pie spice", "spice mix", "homemade", "cinnamon", "fall", "substitute"]
+    },
+    {
+      "id": "folding-berries",
+      "title": "Folding Berries into Batter",
+      "content": "Toss berries with a tablespoon of flour before folding into batter - this helps prevent them from sinking to the bottom. For frozen berries, don't thaw first; fold them in frozen to prevent bleeding. Use a gentle folding motion (not stirring) to avoid crushing delicate berries like raspberries.",
+      "related_ingredients": ["blueberries", "raspberries", "berries", "cranberries"],
+      "related_tags": ["baking", "muffins", "technique"],
+      "category": "technique",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["berries", "folding", "batter", "muffins", "frozen", "sinking", "bleeding"]
+    },
+    {
+      "id": "cake-flour-substitute",
+      "title": "No Cake Flour? Make Your Own",
+      "content": "For 1 cup cake flour: Measure 1 cup all-purpose flour, remove 2 tablespoons, and replace with 2 tablespoons cornstarch. Sift together 3-4 times to blend well. This approximates cake flour's lower protein content, resulting in more tender cakes and muffins.",
+      "related_ingredients": ["cake flour", "all-purpose flour", "flour", "cornstarch"],
+      "related_tags": ["baking", "substitution"],
+      "category": "substitution",
+      "source_note": "Baking fundamentals",
+      "image_refs": [],
+      "search_terms": ["cake flour", "substitute", "replacement", "all-purpose", "cornstarch"]
+    }
+  ]
+}

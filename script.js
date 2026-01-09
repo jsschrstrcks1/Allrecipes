@@ -65,16 +65,123 @@ function escapeAttr(value) {
 
 // Global state
 let recipes = [];
+let tips = [];
 let categories = new Set();
 let allTags = new Set();
+let tipCategories = new Set();
 let currentFilter = { search: '', category: '', tag: '', collection: '' };
 let showMetric = false; // Toggle for metric conversions
+let isAuthenticated = false;
+
+// Authentication configuration
+const AUTH_KEY = 'grandmas_kitchen_auth';
+const AUTH_ANSWER = 'baker'; // Case-insensitive
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
-  await loadRecipes();
+  // Check if already authenticated
+  if (checkAuth()) {
+    isAuthenticated = true;
+    await loadContent();
+  } else {
+    showAuthPrompt();
+  }
+}
+
+/**
+ * Check if user is authenticated via localStorage
+ */
+function checkAuth() {
+  const stored = localStorage.getItem(AUTH_KEY);
+  return stored === 'true';
+}
+
+/**
+ * Save authentication state
+ */
+function saveAuth() {
+  localStorage.setItem(AUTH_KEY, 'true');
+}
+
+/**
+ * Show the family authentication prompt
+ */
+function showAuthPrompt() {
+  // Create overlay
+  const overlay = document.createElement('div');
+  overlay.id = 'auth-overlay';
+  overlay.innerHTML = `
+    <div class="auth-modal">
+      <div class="auth-header">
+        <h2>Welcome to Grandma's Kitchen</h2>
+        <p class="auth-subtitle">This is a private family recipe collection</p>
+      </div>
+      <div class="auth-content">
+        <p>To access these treasured family recipes, please answer:</p>
+        <label for="auth-answer" class="auth-question">What was Grandma's last name?</label>
+        <input type="text" id="auth-answer" class="auth-input" placeholder="Enter your answer..." autocomplete="off">
+        <p id="auth-error" class="auth-error" style="display: none;">That's not quite right. Try again!</p>
+        <button id="auth-submit" class="btn btn-primary auth-btn">Enter the Kitchen</button>
+      </div>
+      <p class="auth-footer">Soli Deo Gloria</p>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  // Focus the input
+  setTimeout(() => {
+    document.getElementById('auth-answer').focus();
+  }, 100);
+
+  // Handle submit
+  document.getElementById('auth-submit').addEventListener('click', handleAuthSubmit);
+  document.getElementById('auth-answer').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') handleAuthSubmit();
+  });
+}
+
+/**
+ * Handle authentication submission
+ */
+async function handleAuthSubmit() {
+  const input = document.getElementById('auth-answer');
+  const error = document.getElementById('auth-error');
+  const answer = input.value.trim().toLowerCase();
+
+  if (answer === AUTH_ANSWER) {
+    // Success!
+    saveAuth();
+    isAuthenticated = true;
+
+    // Fade out overlay
+    const overlay = document.getElementById('auth-overlay');
+    overlay.style.opacity = '0';
+    setTimeout(() => {
+      overlay.remove();
+      loadContent();
+    }, 300);
+  } else {
+    // Wrong answer
+    error.style.display = 'block';
+    input.classList.add('auth-input-error');
+    input.value = '';
+    input.focus();
+
+    // Shake animation
+    input.style.animation = 'shake 0.5s';
+    setTimeout(() => {
+      input.style.animation = '';
+    }, 500);
+  }
+}
+
+/**
+ * Load all content after authentication
+ */
+async function loadContent() {
+  await Promise.all([loadRecipes(), loadTips()]);
   setupEventListeners();
   handleRouting();
 }
@@ -84,7 +191,7 @@ async function init() {
  */
 async function loadRecipes() {
   try {
-    const response = await fetch('data/recipes_master.json');
+    const response = await fetch('all/recipes_master.json');
     const data = await response.json();
     recipes = data.recipes || [];
 
@@ -100,6 +207,178 @@ async function loadRecipes() {
     console.error('Failed to load recipes:', error);
     showError('Unable to load recipes. Please refresh the page.');
   }
+}
+
+/**
+ * Load tips from JSON file
+ */
+async function loadTips() {
+  try {
+    const response = await fetch('all/tips_master.json');
+    const data = await response.json();
+    tips = data.tips || [];
+
+    // Extract tip categories
+    tips.forEach(tip => {
+      if (tip.category) tipCategories.add(tip.category);
+    });
+
+    console.log(`Loaded ${tips.length} tips`);
+  } catch (error) {
+    console.error('Failed to load tips:', error);
+    // Tips are optional - don't show error to user
+  }
+}
+
+// =============================================================================
+// Fuzzy Search Implementation
+// =============================================================================
+
+/**
+ * Calculate Levenshtein distance between two strings
+ * Used for fuzzy matching
+ */
+function levenshteinDistance(str1, str2) {
+  const m = str1.length;
+  const n = str2.length;
+  const dp = Array(m + 1).fill(null).map(() => Array(n + 1).fill(0));
+
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      if (str1[i - 1] === str2[j - 1]) {
+        dp[i][j] = dp[i - 1][j - 1];
+      } else {
+        dp[i][j] = 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+      }
+    }
+  }
+  return dp[m][n];
+}
+
+/**
+ * Calculate fuzzy match score (0 to 1, higher is better)
+ */
+function fuzzyScore(query, text) {
+  query = query.toLowerCase();
+  text = text.toLowerCase();
+
+  // Exact match
+  if (text.includes(query)) return 1;
+
+  // Word-level matching
+  const queryWords = query.split(/\s+/);
+  const textWords = text.split(/\s+/);
+
+  let matchedWords = 0;
+  for (const qWord of queryWords) {
+    for (const tWord of textWords) {
+      // Check for prefix match or close match
+      if (tWord.startsWith(qWord) || qWord.startsWith(tWord)) {
+        matchedWords++;
+        break;
+      }
+      // Fuzzy match with tolerance
+      const maxDist = Math.floor(Math.max(qWord.length, tWord.length) * 0.3);
+      if (levenshteinDistance(qWord, tWord) <= maxDist) {
+        matchedWords++;
+        break;
+      }
+    }
+  }
+
+  return matchedWords / queryWords.length;
+}
+
+/**
+ * Search tips with fuzzy matching
+ * @param {string} query - Search query
+ * @param {number} minScore - Minimum fuzzy score (0-1)
+ * @returns {Array} - Matched tips with scores
+ */
+function searchTips(query, minScore = 0.5) {
+  if (!query || query.length < 2) return [];
+
+  const results = [];
+  for (const tip of tips) {
+    // Build searchable text from tip
+    const searchText = [
+      tip.title,
+      tip.content,
+      ...(tip.search_terms || []),
+      ...(tip.related_tags || [])
+    ].join(' ');
+
+    const score = fuzzyScore(query, searchText);
+    if (score >= minScore) {
+      results.push({ tip, score });
+    }
+  }
+
+  // Sort by score descending
+  results.sort((a, b) => b.score - a.score);
+  return results.map(r => r.tip);
+}
+
+/**
+ * Find tips relevant to a recipe based on its ingredients
+ * @param {Object} recipe - Recipe object
+ * @returns {Array} - Related tips
+ */
+function findTipsForRecipe(recipe) {
+  if (!recipe || !recipe.ingredients || tips.length === 0) return [];
+
+  // Extract ingredient names from recipe
+  const ingredientNames = recipe.ingredients.map(ing =>
+    ing.item.toLowerCase().trim()
+  );
+
+  // Also include tags if present
+  const recipeTags = (recipe.tags || []).map(t => t.toLowerCase());
+
+  const matchedTips = [];
+  const seenTips = new Set();
+
+  for (const tip of tips) {
+    if (seenTips.has(tip.id)) continue;
+
+    // Check if any tip's related ingredients match recipe ingredients
+    const tipIngredients = (tip.related_ingredients || []).map(i => i.toLowerCase());
+    const tipTags = (tip.related_tags || []).map(t => t.toLowerCase());
+
+    let isMatch = false;
+
+    // Check ingredient matches
+    for (const tipIng of tipIngredients) {
+      for (const recipeIng of ingredientNames) {
+        // Match if either contains the other (handles "banana" matching "bananas, mashed")
+        if (recipeIng.includes(tipIng) || tipIng.includes(recipeIng.split(',')[0].trim())) {
+          isMatch = true;
+          break;
+        }
+      }
+      if (isMatch) break;
+    }
+
+    // Also check tag matches
+    if (!isMatch) {
+      for (const tipTag of tipTags) {
+        if (recipeTags.includes(tipTag)) {
+          isMatch = true;
+          break;
+        }
+      }
+    }
+
+    if (isMatch) {
+      matchedTips.push(tip);
+      seenTips.add(tip.id);
+    }
+  }
+
+  return matchedTips;
 }
 
 /**
@@ -447,6 +726,7 @@ function renderRecipeDetail(recipeId) {
       ${recipe.notes && recipe.notes.length > 0 ? renderNotes(recipe.notes) : ''}
       ${recipe.conversions?.conversion_assumptions?.length > 0 && showMetric ? renderConversionNotes(recipe.conversions) : ''}
       ${renderTags(recipe.tags)}
+      ${renderRelatedTips(recipe)}
       ${renderConfidenceFlags(recipe.confidence?.flags)}
       ${renderOriginalScan(recipe.image_refs, recipe.collection)}
     </article>
@@ -689,6 +969,85 @@ function renderTags(tags) {
   return `
     <div class="recipe-tags">
       ${tags.map(tag => `<span class="recipe-tag">${escapeHtml(tag)}</span>`).join('')}
+    </div>
+  `;
+}
+
+/**
+ * Render related tips for a recipe
+ */
+function renderRelatedTips(recipe) {
+  const relatedTips = findTipsForRecipe(recipe);
+  if (relatedTips.length === 0) return '';
+
+  const categoryLabels = {
+    selection: 'Selecting',
+    storage: 'Storage',
+    preparation: 'Prep Tips',
+    cooking: 'Cooking',
+    substitution: 'Substitutions',
+    technique: 'Technique',
+    equipment: 'Equipment',
+    safety: 'Safety',
+    serving: 'Serving'
+  };
+
+  return `
+    <section class="tips-section">
+      <h3>Related Tips</h3>
+      <div class="tips-list">
+        ${relatedTips.map(tip => `
+          <div class="tip-card" data-tip-id="${escapeAttr(tip.id)}">
+            <div class="tip-header">
+              <span class="tip-category">${escapeHtml(categoryLabels[tip.category] || tip.category)}</span>
+              <h4 class="tip-title">${escapeHtml(tip.title)}</h4>
+            </div>
+            <p class="tip-content">${escapeHtml(tip.content)}</p>
+            ${tip.related_ingredients && tip.related_ingredients.length > 0 ? `
+              <div class="tip-ingredients">
+                <small>Related: ${tip.related_ingredients.map(i => escapeHtml(i)).join(', ')}</small>
+              </div>
+            ` : ''}
+          </div>
+        `).join('')}
+      </div>
+    </section>
+  `;
+}
+
+/**
+ * Render a single tip card (for tips page)
+ */
+function renderTipCard(tip) {
+  const categoryLabels = {
+    selection: 'Selecting',
+    storage: 'Storage',
+    preparation: 'Prep Tips',
+    cooking: 'Cooking',
+    substitution: 'Substitutions',
+    technique: 'Technique',
+    equipment: 'Equipment',
+    safety: 'Safety',
+    serving: 'Serving'
+  };
+
+  return `
+    <div class="tip-card" data-tip-id="${escapeAttr(tip.id)}">
+      <div class="tip-header">
+        <span class="tip-category">${escapeHtml(categoryLabels[tip.category] || tip.category)}</span>
+        <h4 class="tip-title">${escapeHtml(tip.title)}</h4>
+      </div>
+      <p class="tip-content">${escapeHtml(tip.content)}</p>
+      ${tip.related_ingredients && tip.related_ingredients.length > 0 ? `
+        <div class="tip-ingredients">
+          <small>Applies to: ${tip.related_ingredients.map(i => escapeHtml(i)).join(', ')}</small>
+        </div>
+      ` : ''}
+      ${tip.related_tags && tip.related_tags.length > 0 ? `
+        <div class="tip-tags">
+          ${tip.related_tags.map(tag => `<span class="tip-tag">${escapeHtml(tag)}</span>`).join('')}
+        </div>
+      ` : ''}
     </div>
   `;
 }
