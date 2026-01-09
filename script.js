@@ -71,11 +71,116 @@ let allTags = new Set();
 let tipCategories = new Set();
 let currentFilter = { search: '', category: '', tag: '', collection: '' };
 let showMetric = false; // Toggle for metric conversions
+let isAuthenticated = false;
+
+// Authentication configuration
+const AUTH_KEY = 'grandmas_kitchen_auth';
+const AUTH_ANSWER = 'baker'; // Case-insensitive
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
+  // Check if already authenticated
+  if (checkAuth()) {
+    isAuthenticated = true;
+    await loadContent();
+  } else {
+    showAuthPrompt();
+  }
+}
+
+/**
+ * Check if user is authenticated via localStorage
+ */
+function checkAuth() {
+  const stored = localStorage.getItem(AUTH_KEY);
+  return stored === 'true';
+}
+
+/**
+ * Save authentication state
+ */
+function saveAuth() {
+  localStorage.setItem(AUTH_KEY, 'true');
+}
+
+/**
+ * Show the family authentication prompt
+ */
+function showAuthPrompt() {
+  // Create overlay
+  const overlay = document.createElement('div');
+  overlay.id = 'auth-overlay';
+  overlay.innerHTML = `
+    <div class="auth-modal">
+      <div class="auth-header">
+        <h2>Welcome to Grandma's Kitchen</h2>
+        <p class="auth-subtitle">This is a private family recipe collection</p>
+      </div>
+      <div class="auth-content">
+        <p>To access these treasured family recipes, please answer:</p>
+        <label for="auth-answer" class="auth-question">What was Grandma's last name?</label>
+        <input type="text" id="auth-answer" class="auth-input" placeholder="Enter your answer..." autocomplete="off">
+        <p id="auth-error" class="auth-error" style="display: none;">That's not quite right. Try again!</p>
+        <button id="auth-submit" class="btn btn-primary auth-btn">Enter the Kitchen</button>
+      </div>
+      <p class="auth-footer">Soli Deo Gloria</p>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  // Focus the input
+  setTimeout(() => {
+    document.getElementById('auth-answer').focus();
+  }, 100);
+
+  // Handle submit
+  document.getElementById('auth-submit').addEventListener('click', handleAuthSubmit);
+  document.getElementById('auth-answer').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') handleAuthSubmit();
+  });
+}
+
+/**
+ * Handle authentication submission
+ */
+async function handleAuthSubmit() {
+  const input = document.getElementById('auth-answer');
+  const error = document.getElementById('auth-error');
+  const answer = input.value.trim().toLowerCase();
+
+  if (answer === AUTH_ANSWER) {
+    // Success!
+    saveAuth();
+    isAuthenticated = true;
+
+    // Fade out overlay
+    const overlay = document.getElementById('auth-overlay');
+    overlay.style.opacity = '0';
+    setTimeout(() => {
+      overlay.remove();
+      loadContent();
+    }, 300);
+  } else {
+    // Wrong answer
+    error.style.display = 'block';
+    input.classList.add('auth-input-error');
+    input.value = '';
+    input.focus();
+
+    // Shake animation
+    input.style.animation = 'shake 0.5s';
+    setTimeout(() => {
+      input.style.animation = '';
+    }, 500);
+  }
+}
+
+/**
+ * Load all content after authentication
+ */
+async function loadContent() {
   await Promise.all([loadRecipes(), loadTips()]);
   setupEventListeners();
   handleRouting();
