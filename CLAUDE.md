@@ -13,6 +13,15 @@ We are endeavoring to preserve well-loved recipes from three generations of fami
 
 ---
 
+## Pending Tasks
+
+**IMPORTANT:** Check `PENDING_TASKS.md` for deferred work that needs to be completed in future sessions.
+
+Current pending items:
+- **Nutrition Data Pass** - Add nutrition information to all reference collection muffin recipes (see tracker for details)
+
+---
+
 ## Recipe Collections
 
 ### Collection Configuration
