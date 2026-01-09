@@ -1519,124 +1519,89 @@ main {
 }
 
 /* =============================================================================
-   Authentication Overlay Styles
+   Authentication Gate Styles
    ============================================================================= */
 
-#auth-overlay {
+.auth-gate {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, var(--color-teal-dark) 0%, var(--color-teal) 50%, #1a5a5a 100%);
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #2a5a5a 0%, #1a3a3a 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 10000;
-  transition: opacity 0.3s ease;
+  z-index: 9999;
 }
 
-.auth-modal {
-  background: var(--color-warm-white);
-  border-radius: 16px;
-  padding: var(--spacing-xl);
-  max-width: 420px;
-  width: 90%;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+.auth-container {
+  background: #f5f0e6;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  max-width: 400px;
+  width: 90%;
 }
 
-.auth-modal::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 6px;
-  background: linear-gradient(90deg,
-    var(--color-coral) 0%,
-    var(--color-butter) 50%,
-    var(--color-coral) 100%);
-}
-
-.auth-header {
-  margin-bottom: var(--spacing-lg);
-}
-
-.auth-header h2 {
-  color: var(--color-teal-dark);
+.auth-container h1 {
+  color: #2a5a5a;
+  margin-bottom: 1rem;
   font-family: var(--font-script);
-  font-size: 2rem;
-  margin-bottom: var(--spacing-xs);
 }
 
-.auth-subtitle {
-  color: var(--color-text-muted);
-  font-size: 0.95rem;
-  font-style: italic;
-}
-
-.auth-content {
-  margin-bottom: var(--spacing-lg);
-}
-
-.auth-content p {
-  margin-bottom: var(--spacing-md);
+.auth-container p {
   color: var(--color-text);
+  margin-bottom: 1rem;
 }
 
-.auth-question {
+.auth-container label {
   display: block;
   font-weight: 600;
-  color: var(--color-brown);
-  font-size: 1.1rem;
-  margin-bottom: var(--spacing-sm);
+  color: var(--color-charcoal);
+  margin-bottom: 0.5rem;
 }
 
-.auth-input {
+.auth-container input {
   width: 100%;
-  padding: var(--spacing-md);
-  font-size: 1.1rem;
-  border: 2px solid var(--color-teal-light);
+  padding: 0.75rem;
+  border: 2px solid #ddd;
   border-radius: 8px;
-  text-align: center;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.auth-container input:focus {
   outline: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-  margin-bottom: var(--spacing-sm);
+  border-color: #2a5a5a;
+  box-shadow: 0 0 0 3px rgba(42, 90, 90, 0.15);
 }
 
-.auth-input:focus {
-  border-color: var(--color-teal);
-  box-shadow: 0 0 0 3px rgba(0, 128, 128, 0.15);
+.auth-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #2a5a5a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
-.auth-input-error {
-  border-color: var(--color-coral) !important;
-  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.2) !important;
+.auth-container button:hover {
+  background: #1a3a3a;
 }
 
 .auth-error {
-  color: var(--color-coral-dark);
-  font-size: 0.9rem;
-  margin-bottom: var(--spacing-sm);
-  font-weight: 500;
+  color: #c0392b;
+  margin-top: 1rem;
 }
 
-.auth-btn {
-  width: 100%;
-  padding: var(--spacing-md);
-  font-size: 1.1rem;
-  margin-top: var(--spacing-sm);
-}
-
-.auth-footer {
-  color: var(--color-teal);
-  font-family: var(--font-script);
-  font-size: 1.1rem;
-  margin: 0;
-  opacity: 0.8;
+.auth-input-error {
+  border-color: #c0392b !important;
+  box-shadow: 0 0 0 3px rgba(192, 57, 43, 0.2) !important;
 }
 
 /* Shake animation for wrong answer */
@@ -1644,4 +1609,460 @@ main {
   0%, 100% { transform: translateX(0); }
   10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
   20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+/* =============================================================================
+   Family Collections Navigation
+   ============================================================================= */
+
+.family-collections {
+  background: #f5f0e6;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.family-collections .container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.family-collections .nav-label {
+  font-weight: 500;
+  color: #666;
+}
+
+.family-collections a {
+  color: #2a5a5a;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.family-collections a:hover {
+  background: rgba(42, 90, 90, 0.1);
+}
+
+.family-collections a.active {
+  background: #2a5a5a;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .family-collections .container {
+    justify-content: center;
+  }
+
+  .family-collections .nav-label {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
+}
+
+/* =============================================================================
+   Mobile Compatibility - iOS & Android Optimizations
+   ============================================================================= */
+
+/* iOS Safe Area Support */
+@supports (padding: env(safe-area-inset-top)) {
+  .site-header {
+    padding-top: calc(var(--spacing-xl) + env(safe-area-inset-top));
+  }
+
+  .site-footer {
+    padding-bottom: calc(var(--spacing-xl) + env(safe-area-inset-bottom));
+  }
+
+  .auth-gate {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+}
+
+/* Prevent iOS auto-zoom on input focus (requires 16px minimum) */
+@media screen and (max-width: 768px) {
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="url"],
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* iOS tap highlight customization */
+* {
+  -webkit-tap-highlight-color: rgba(77, 182, 172, 0.3);
+}
+
+/* Prevent text size adjustment on orientation change */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Touch-friendly tap targets (44px minimum per Apple HIG) */
+@media (max-width: 768px) {
+  /* Navigation links */
+  .site-nav a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .site-nav ul {
+    gap: var(--spacing-xs);
+  }
+
+  /* Family collections nav - horizontal scroll on small screens */
+  .family-collections {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .family-collections::-webkit-scrollbar {
+    display: none;
+  }
+
+  .family-collections .container {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-bottom: 0.25rem;
+  }
+
+  .family-collections .nav-label {
+    width: auto;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .family-collections a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Buttons */
+  .btn {
+    min-height: 44px;
+    padding: var(--spacing-md) var(--spacing-lg);
+  }
+
+  .collection-btn {
+    min-height: 44px;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .filter-tag {
+    min-height: 36px;
+    padding: var(--spacing-sm) var(--spacing-md);
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .tips-filter-btn {
+    min-height: 44px;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  /* Search box improvements */
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-box input {
+    width: 100%;
+    padding: var(--spacing-md);
+    font-size: 16px;
+  }
+
+  .search-box button {
+    width: 100%;
+    min-height: 48px;
+  }
+}
+
+/* Auth Gate Mobile Optimizations */
+@media (max-width: 768px) {
+  .auth-gate {
+    padding: 1rem;
+  }
+
+  .auth-container {
+    width: 95%;
+    max-width: none;
+    padding: 1.5rem;
+  }
+
+  .auth-container h1 {
+    font-size: 1.75rem;
+  }
+
+  .auth-container p {
+    font-size: 0.95rem;
+  }
+
+  .auth-container label {
+    font-size: 1rem;
+  }
+
+  .auth-container input {
+    font-size: 16px; /* Prevents iOS zoom */
+    padding: 1rem;
+    min-height: 48px;
+  }
+
+  .auth-container button {
+    font-size: 1rem;
+    padding: 1rem;
+    min-height: 48px;
+  }
+}
+
+/* Small phones (iPhone SE, etc.) */
+@media (max-width: 375px) {
+  html {
+    font-size: 13px;
+  }
+
+  .site-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .site-header .tagline {
+    font-size: 0.9rem;
+  }
+
+  .auth-container {
+    padding: 1.25rem;
+  }
+
+  .auth-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .recipe-detail {
+    padding: var(--spacing-sm);
+  }
+
+  .recipe-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .instructions-list li {
+    padding-left: 50px;
+  }
+
+  .instructions-list li::before {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+}
+
+/* Landscape phone optimizations */
+@media (max-width: 896px) and (orientation: landscape) {
+  .auth-gate {
+    overflow-y: auto;
+  }
+
+  .auth-container {
+    margin: 1rem auto;
+    max-height: none;
+  }
+
+  .site-header {
+    padding: var(--spacing-md) 0;
+  }
+
+  .site-header h1 {
+    font-size: 2rem;
+  }
+
+  .site-header .tagline {
+    font-size: 0.85rem;
+  }
+}
+
+/* Touch device hover state prevention */
+@media (hover: none) and (pointer: coarse) {
+  .recipe-card:hover {
+    transform: none;
+  }
+
+  .recipe-card:active {
+    transform: scale(0.98);
+  }
+
+  .btn:hover {
+    transform: none;
+  }
+
+  .btn:active {
+    transform: translateY(1px);
+  }
+
+  .family-collections a:hover {
+    background: transparent;
+  }
+
+  .family-collections a:active {
+    background: rgba(42, 90, 90, 0.2);
+  }
+
+  .family-collections a.active:hover,
+  .family-collections a.active:active {
+    background: #2a5a5a;
+  }
+}
+
+/* Better focus states for accessibility */
+@media (max-width: 768px) {
+  input:focus,
+  select:focus,
+  button:focus,
+  a:focus {
+    outline: 3px solid var(--color-teal);
+    outline-offset: 2px;
+  }
+
+  .auth-container input:focus {
+    outline: 3px solid #2a5a5a;
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+}
+
+/* Improved scroll behavior for iOS */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Recipe grid improvements for mobile */
+@media (max-width: 480px) {
+  .recipe-grid {
+    gap: var(--spacing-md);
+  }
+
+  .recipe-card-image {
+    height: 140px;
+  }
+
+  .recipe-card-content {
+    padding: var(--spacing-sm);
+  }
+
+  .recipe-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .recipe-card .description {
+    font-size: 0.85rem;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .recipe-card .meta {
+    font-size: 0.8rem;
+  }
+}
+
+/* Tips page mobile improvements */
+@media (max-width: 768px) {
+  .tips-search-input {
+    font-size: 16px;
+    padding: var(--spacing-md);
+  }
+
+  .tips-filter-buttons {
+    gap: var(--spacing-xs);
+  }
+
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tip-card {
+    padding: var(--spacing-md);
+  }
+}
+
+/* Collection filter mobile improvements */
+@media (max-width: 768px) {
+  .collection-filter {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: var(--spacing-sm);
+  }
+
+  .collection-buttons {
+    flex-wrap: nowrap;
+  }
+
+  .collection-btn {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}
+
+/* Alpha index mobile improvements */
+@media (max-width: 480px) {
+  .alpha-index {
+    gap: 4px;
+  }
+
+  .alpha-index a {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
+  }
+
+  .recipe-index-list {
+    columns: 1;
+  }
+}
+
+/* Nutrition grid mobile */
+@media (max-width: 480px) {
+  .nutrition-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-sm);
+  }
+
+  .nutrition-item {
+    padding: var(--spacing-xs);
+  }
+
+  .nutrition-value {
+    font-size: 1rem;
+  }
+
+  .nutrition-label {
+    font-size: 0.6rem;
+  }
+}
+
+/* Print button hide on very small screens */
+@media (max-width: 375px) {
+  .btn-print {
+    display: none;
+  }
 }
