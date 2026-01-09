@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Image Processing Script for Grandma's Recipe Archive
+Image Processing Script for Other Family Recipes
 
 Handles:
 1. Images larger than 2000px in any dimension (resizes for AI processing)
@@ -9,10 +9,9 @@ Handles:
 4. Non-destructive processing (creates optimized copies)
 
 Usage:
-    python scripts/process_images.py                    # Process all collections
-    python scripts/process_images.py --collection mom   # Process MomMom's images only
-    python scripts/process_images.py --dry-run          # Preview without changes
-    python scripts/process_images.py --fix-broken       # Attempt recovery of broken images
+    python scripts/process_images.py              # Process all images
+    python scripts/process_images.py --dry-run    # Preview without changes
+    python scripts/process_images.py --fix-broken # Attempt recovery of broken images
 """
 
 import json
@@ -38,12 +37,9 @@ MAX_DIMENSION = 2000  # Maximum pixels in any dimension
 JPEG_QUALITY = 92     # Quality for resized images (high quality for OCR)
 PROCESSED_FOLDER = "processed"  # Subfolder for resized images
 
-# Collection paths relative to data/
+# Single collection - all images in data/
 COLLECTIONS = {
-    "grandma": "",           # data/*.jpeg
-    "mommom": "mom/",        # data/mom/*.jpeg
-    "granny": "granny/",     # data/granny/*.jpeg (future)
-    "reference": "all/"      # data/all/*.PNG (Kindle screenshots)
+    "all": ""  # data/*.jpeg, data/*.PNG
 }
 
 
@@ -431,12 +427,6 @@ def main():
         description="Process recipe archive images for AI-friendly dimensions"
     )
     parser.add_argument(
-        '--collection', '-c',
-        choices=['grandma', 'mommom', 'granny', 'reference', 'all'],
-        default='all',
-        help="Collection to process (default: all)"
-    )
-    parser.add_argument(
         '--dry-run', '-n',
         action='store_true',
         help="Preview changes without modifying files"
@@ -462,11 +452,8 @@ def main():
     if args.dry_run:
         print("\n*** DRY RUN MODE - No files will be modified ***\n")
 
-    # Process collections
-    if args.collection == 'all':
-        results = processor.process_all_collections()
-    else:
-        results = {args.collection: processor.process_collection(args.collection)}
+    # Process all images
+    results = processor.process_all_collections()
 
     # Print summary
     print_summary(results)
