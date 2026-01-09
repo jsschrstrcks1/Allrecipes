@@ -1660,3 +1660,409 @@ main {
     margin-bottom: 0.25rem;
   }
 }
+
+/* =============================================================================
+   Mobile Compatibility - iOS & Android Optimizations
+   ============================================================================= */
+
+/* iOS Safe Area Support */
+@supports (padding: env(safe-area-inset-top)) {
+  .site-header {
+    padding-top: calc(var(--spacing-xl) + env(safe-area-inset-top));
+  }
+
+  .site-footer {
+    padding-bottom: calc(var(--spacing-xl) + env(safe-area-inset-bottom));
+  }
+
+  .auth-gate {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+}
+
+/* Prevent iOS auto-zoom on input focus (requires 16px minimum) */
+@media screen and (max-width: 768px) {
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="url"],
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* iOS tap highlight customization */
+* {
+  -webkit-tap-highlight-color: rgba(77, 182, 172, 0.3);
+}
+
+/* Prevent text size adjustment on orientation change */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Touch-friendly tap targets (44px minimum per Apple HIG) */
+@media (max-width: 768px) {
+  /* Navigation links */
+  .site-nav a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .site-nav ul {
+    gap: var(--spacing-xs);
+  }
+
+  /* Family collections nav - horizontal scroll on small screens */
+  .family-collections {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .family-collections::-webkit-scrollbar {
+    display: none;
+  }
+
+  .family-collections .container {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-bottom: 0.25rem;
+  }
+
+  .family-collections .nav-label {
+    width: auto;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .family-collections a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Buttons */
+  .btn {
+    min-height: 44px;
+    padding: var(--spacing-md) var(--spacing-lg);
+  }
+
+  .collection-btn {
+    min-height: 44px;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .filter-tag {
+    min-height: 36px;
+    padding: var(--spacing-sm) var(--spacing-md);
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .tips-filter-btn {
+    min-height: 44px;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  /* Search box improvements */
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-box input {
+    width: 100%;
+    padding: var(--spacing-md);
+    font-size: 16px;
+  }
+
+  .search-box button {
+    width: 100%;
+    min-height: 48px;
+  }
+}
+
+/* Auth Gate Mobile Optimizations */
+@media (max-width: 768px) {
+  .auth-gate {
+    padding: 1rem;
+  }
+
+  .auth-container {
+    width: 95%;
+    max-width: none;
+    padding: 1.5rem;
+  }
+
+  .auth-container h1 {
+    font-size: 1.75rem;
+  }
+
+  .auth-container p {
+    font-size: 0.95rem;
+  }
+
+  .auth-container label {
+    font-size: 1rem;
+  }
+
+  .auth-container input {
+    font-size: 16px; /* Prevents iOS zoom */
+    padding: 1rem;
+    min-height: 48px;
+  }
+
+  .auth-container button {
+    font-size: 1rem;
+    padding: 1rem;
+    min-height: 48px;
+  }
+}
+
+/* Small phones (iPhone SE, etc.) */
+@media (max-width: 375px) {
+  html {
+    font-size: 13px;
+  }
+
+  .site-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .site-header .tagline {
+    font-size: 0.9rem;
+  }
+
+  .auth-container {
+    padding: 1.25rem;
+  }
+
+  .auth-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .recipe-detail {
+    padding: var(--spacing-sm);
+  }
+
+  .recipe-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .instructions-list li {
+    padding-left: 50px;
+  }
+
+  .instructions-list li::before {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+}
+
+/* Landscape phone optimizations */
+@media (max-width: 896px) and (orientation: landscape) {
+  .auth-gate {
+    overflow-y: auto;
+  }
+
+  .auth-container {
+    margin: 1rem auto;
+    max-height: none;
+  }
+
+  .site-header {
+    padding: var(--spacing-md) 0;
+  }
+
+  .site-header h1 {
+    font-size: 2rem;
+  }
+
+  .site-header .tagline {
+    font-size: 0.85rem;
+  }
+}
+
+/* Touch device hover state prevention */
+@media (hover: none) and (pointer: coarse) {
+  .recipe-card:hover {
+    transform: none;
+  }
+
+  .recipe-card:active {
+    transform: scale(0.98);
+  }
+
+  .btn:hover {
+    transform: none;
+  }
+
+  .btn:active {
+    transform: translateY(1px);
+  }
+
+  .family-collections a:hover {
+    background: transparent;
+  }
+
+  .family-collections a:active {
+    background: rgba(42, 90, 90, 0.2);
+  }
+
+  .family-collections a.active:hover,
+  .family-collections a.active:active {
+    background: #2a5a5a;
+  }
+}
+
+/* Better focus states for accessibility */
+@media (max-width: 768px) {
+  input:focus,
+  select:focus,
+  button:focus,
+  a:focus {
+    outline: 3px solid var(--color-teal);
+    outline-offset: 2px;
+  }
+
+  .auth-container input:focus {
+    outline: 3px solid #2a5a5a;
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+}
+
+/* Improved scroll behavior for iOS */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Recipe grid improvements for mobile */
+@media (max-width: 480px) {
+  .recipe-grid {
+    gap: var(--spacing-md);
+  }
+
+  .recipe-card-image {
+    height: 140px;
+  }
+
+  .recipe-card-content {
+    padding: var(--spacing-sm);
+  }
+
+  .recipe-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .recipe-card .description {
+    font-size: 0.85rem;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .recipe-card .meta {
+    font-size: 0.8rem;
+  }
+}
+
+/* Tips page mobile improvements */
+@media (max-width: 768px) {
+  .tips-search-input {
+    font-size: 16px;
+    padding: var(--spacing-md);
+  }
+
+  .tips-filter-buttons {
+    gap: var(--spacing-xs);
+  }
+
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tip-card {
+    padding: var(--spacing-md);
+  }
+}
+
+/* Collection filter mobile improvements */
+@media (max-width: 768px) {
+  .collection-filter {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: var(--spacing-sm);
+  }
+
+  .collection-buttons {
+    flex-wrap: nowrap;
+  }
+
+  .collection-btn {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}
+
+/* Alpha index mobile improvements */
+@media (max-width: 480px) {
+  .alpha-index {
+    gap: 4px;
+  }
+
+  .alpha-index a {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
+  }
+
+  .recipe-index-list {
+    columns: 1;
+  }
+}
+
+/* Nutrition grid mobile */
+@media (max-width: 480px) {
+  .nutrition-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-sm);
+  }
+
+  .nutrition-item {
+    padding: var(--spacing-xs);
+  }
+
+  .nutrition-value {
+    font-size: 1rem;
+  }
+
+  .nutrition-label {
+    font-size: 0.6rem;
+  }
+}
+
+/* Print button hide on very small screens */
+@media (max-width: 375px) {
+  .btn-print {
+    display: none;
+  }
+}
