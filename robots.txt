@@ -1,11 +1,53 @@
-# Grandma's Recipe Archive - No Indexing Allowed
-# This is a private family project
+# Grandma's Recipe Archive - PRIVATE FAMILY SITE
+# DO NOT INDEX - DO NOT CRAWL - DO NOT ARCHIVE
+# This is a private family project. No exceptions.
 
-# Block all search engines
+# Block ALL crawlers unconditionally
 User-agent: *
 Disallow: /
+Noindex: /
 
-# Block specific AI crawlers
+# Block all known search engine crawlers explicitly
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Googlebot-News
+Disallow: /
+
+User-agent: Googlebot-Video
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: facebot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+# Block AI/LLM crawlers
 User-agent: GPTBot
 Disallow: /
 
@@ -24,6 +66,9 @@ Disallow: /
 User-agent: Claude-Web
 Disallow: /
 
+User-agent: ClaudeBot
+Disallow: /
+
 User-agent: Amazonbot
 Disallow: /
 
@@ -31,6 +76,9 @@ User-agent: FacebookBot
 Disallow: /
 
 User-agent: Bytespider
+Disallow: /
+
+User-agent: Applebot
 Disallow: /
 
 User-agent: Applebot-Extended
@@ -51,5 +99,71 @@ Disallow: /
 User-agent: cohere-ai
 Disallow: /
 
-# No sitemap - we don't want indexing
-# Sitemap: none
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# Block archive crawlers
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: Wayback
+Disallow: /
+
+# Block SEO and analytics crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Screaming Frog
+Disallow: /
+
+# Block content scrapers
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: Pinterestbot
+Disallow: /
+
+User-agent: LinkedInBot
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: Slackbot
+Disallow: /
+
+User-agent: WhatsApp
+Disallow: /
+
+User-agent: TelegramBot
+Disallow: /
+
+# NO SITEMAP - This site should not be indexed
+# Sitemap: NONE

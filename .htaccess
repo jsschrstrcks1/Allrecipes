@@ -1,0 +1,115 @@
+# Grandma's Recipe Archive - PRIVATE FAMILY SITE
+# Anti-indexing and anti-crawling configuration
+
+# Set X-Robots-Tag header to block indexing
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet, noimageindex"
+
+    # Prevent caching
+    Header set Cache-Control "no-cache, no-store, must-revalidate, private, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+
+    # Prevent clickjacking
+    Header set X-Frame-Options "SAMEORIGIN"
+
+    # Prevent MIME sniffing
+    Header set X-Content-Type-Options "nosniff"
+
+    # Referrer policy - don't leak URLs
+    Header set Referrer-Policy "no-referrer"
+
+    # Block common bot user agents at the server level
+    SetEnvIfNoCase User-Agent "Googlebot" bad_bot
+    SetEnvIfNoCase User-Agent "Bingbot" bad_bot
+    SetEnvIfNoCase User-Agent "Slurp" bad_bot
+    SetEnvIfNoCase User-Agent "DuckDuckBot" bad_bot
+    SetEnvIfNoCase User-Agent "Baiduspider" bad_bot
+    SetEnvIfNoCase User-Agent "YandexBot" bad_bot
+    SetEnvIfNoCase User-Agent "Sogou" bad_bot
+    SetEnvIfNoCase User-Agent "Exabot" bad_bot
+    SetEnvIfNoCase User-Agent "ia_archiver" bad_bot
+    SetEnvIfNoCase User-Agent "GPTBot" bad_bot
+    SetEnvIfNoCase User-Agent "ChatGPT" bad_bot
+    SetEnvIfNoCase User-Agent "CCBot" bad_bot
+    SetEnvIfNoCase User-Agent "anthropic" bad_bot
+    SetEnvIfNoCase User-Agent "Claude" bad_bot
+    SetEnvIfNoCase User-Agent "Amazonbot" bad_bot
+    SetEnvIfNoCase User-Agent "Bytespider" bad_bot
+    SetEnvIfNoCase User-Agent "Applebot" bad_bot
+    SetEnvIfNoCase User-Agent "PerplexityBot" bad_bot
+    SetEnvIfNoCase User-Agent "AhrefsBot" bad_bot
+    SetEnvIfNoCase User-Agent "SemrushBot" bad_bot
+    SetEnvIfNoCase User-Agent "MJ12bot" bad_bot
+    SetEnvIfNoCase User-Agent "DotBot" bad_bot
+    SetEnvIfNoCase User-Agent "PetalBot" bad_bot
+    SetEnvIfNoCase User-Agent "archive.org" bad_bot
+    SetEnvIfNoCase User-Agent "Wayback" bad_bot
+    SetEnvIfNoCase User-Agent "facebookexternalhit" bad_bot
+    SetEnvIfNoCase User-Agent "Twitterbot" bad_bot
+    SetEnvIfNoCase User-Agent "LinkedInBot" bad_bot
+    SetEnvIfNoCase User-Agent "Pinterestbot" bad_bot
+    SetEnvIfNoCase User-Agent "Slackbot" bad_bot
+    SetEnvIfNoCase User-Agent "WhatsApp" bad_bot
+    SetEnvIfNoCase User-Agent "TelegramBot" bad_bot
+    SetEnvIfNoCase User-Agent "Discordbot" bad_bot
+    SetEnvIfNoCase User-Agent "Scrapy" bad_bot
+    SetEnvIfNoCase User-Agent "Python-urllib" bad_bot
+    SetEnvIfNoCase User-Agent "curl" bad_bot
+    SetEnvIfNoCase User-Agent "wget" bad_bot
+    SetEnvIfNoCase User-Agent "HTTrack" bad_bot
+    SetEnvIfNoCase User-Agent "WebCopier" bad_bot
+    SetEnvIfNoCase User-Agent "WebZIP" bad_bot
+    SetEnvIfNoCase User-Agent "Offline Explorer" bad_bot
+</IfModule>
+
+# Deny access to bots (returns 403 Forbidden)
+<IfModule mod_authz_core.c>
+    <RequireAll>
+        Require all granted
+        Require not env bad_bot
+    </RequireAll>
+</IfModule>
+
+# For older Apache versions
+<IfModule !mod_authz_core.c>
+    Order Allow,Deny
+    Allow from all
+    Deny from env=bad_bot
+</IfModule>
+
+# Block access to sensitive files
+<FilesMatch "\.(json|md|txt|log)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Allow,Deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Allow access to specific JSON files needed by the app (via JavaScript only)
+<FilesMatch "^(recipes_master|tips_master|collections)\.json$">
+    <IfModule mod_authz_core.c>
+        Require all granted
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Allow,Deny
+        Allow from all
+    </IfModule>
+</FilesMatch>
+
+# Disable directory listing
+Options -Indexes
+
+# Prevent access to hidden files
+<FilesMatch "^\.">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Allow,Deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
