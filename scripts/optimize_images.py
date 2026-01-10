@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
-Image Optimization Script for Grandma's Recipe Archive
+Image Optimization Script for Other Family Recipes
 
 Reduces repository bloat by optimizing JPEG quality while maintaining
-human readability. Scanner images (Grandma's) are often saved at 100%
-quality and can be reduced 80-90% with no visible quality loss.
+human readability. Scanner images are often saved at 100% quality
+and can be reduced 80-90% with no visible quality loss.
 
 Usage:
-    python scripts/optimize_images.py --dry-run          # Preview changes
-    python scripts/optimize_images.py --collection grandma  # Optimize one collection
-    python scripts/optimize_images.py                    # Optimize all collections
-    python scripts/optimize_images.py --quality 80       # Custom quality (default: 85)
-    python scripts/optimize_images.py --backup           # Keep .original files
+    python scripts/optimize_images.py --dry-run    # Preview changes
+    python scripts/optimize_images.py              # Optimize all images
+    python scripts/optimize_images.py --quality 80 # Custom quality (default: 85)
+    python scripts/optimize_images.py --backup     # Keep .original files
 
 Key features:
 - Preserves dimensions (no resizing)
@@ -42,10 +41,9 @@ except ImportError:
 DEFAULT_QUALITY = 85  # Excellent quality, major size reduction
 MIN_SAVINGS_PERCENT = 10  # Skip if savings < 10%
 
+# Single collection - all images in data/
 COLLECTIONS = {
-    "grandma": {"path": "", "expected_savings": 0.85},
-    "mommom": {"path": "mom/", "expected_savings": 0.30},
-    "granny": {"path": "granny/", "expected_savings": 0.50}
+    "all": {"path": "", "expected_savings": 0.50}
 }
 
 
@@ -332,12 +330,6 @@ def main():
         description="Optimize recipe archive images to reduce repository size"
     )
     parser.add_argument(
-        '--collection', '-c',
-        choices=['grandma', 'mommom', 'granny', 'all'],
-        default='all',
-        help="Collection to optimize (default: all)"
-    )
-    parser.add_argument(
         '--quality', '-q',
         type=int,
         default=DEFAULT_QUALITY,
@@ -380,10 +372,7 @@ def main():
         print("\n*** DRY RUN MODE - No files will be modified ***\n")
 
     # Run optimization
-    if args.collection == 'all':
-        results = optimizer.optimize_all()
-    else:
-        results = {args.collection: optimizer.optimize_collection(args.collection)}
+    results = optimizer.optimize_all()
 
     # Save manifest (unless dry run)
     if not args.dry_run:

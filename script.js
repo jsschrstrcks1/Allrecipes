@@ -1,5 +1,5 @@
 /**
- * Grandma's Recipe Archive - Client-side JavaScript
+ * Other Family Recipes - Client-side JavaScript
  * Handles recipe loading, search, filtering, and navigation
  */
 
@@ -94,7 +94,7 @@ async function loadContent() {
  */
 async function loadRecipes() {
   try {
-    const response = await fetch('all/recipes_master.json');
+    const response = await fetch('data/recipes.json');
     const data = await response.json();
     recipes = data.recipes || [];
 
@@ -105,7 +105,6 @@ async function loadRecipes() {
     });
 
     console.log(`Loaded ${recipes.length} recipes`);
-    updateCollectionCounts();
   } catch (error) {
     console.error('Failed to load recipes:', error);
     showError('Unable to load recipes. Please refresh the page.');
@@ -117,7 +116,7 @@ async function loadRecipes() {
  */
 async function loadTips() {
   try {
-    const response = await fetch('all/tips_master.json');
+    const response = await fetch('data/tips_master.json');
     const data = await response.json();
     tips = data.tips || [];
 
@@ -361,21 +360,6 @@ function setupEventListeners() {
     printBtn.addEventListener('click', () => window.print());
   }
 
-  // Collection filter buttons
-  const collectionFilters = document.getElementById('collection-filters');
-  if (collectionFilters) {
-    collectionFilters.querySelectorAll('.collection-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        // Update active state
-        collectionFilters.querySelectorAll('.collection-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        // Update filter
-        currentFilter.collection = btn.dataset.collection;
-        renderRecipeGrid();
-      });
-    });
-  }
-
   // Tags toggle (collapsible)
   const tagsToggle = document.getElementById('tags-toggle');
   const tagFilters = document.getElementById('tag-filters');
@@ -498,11 +482,6 @@ function renderRecipeGrid() {
       return false;
     }
 
-    // Collection filter
-    if (currentFilter.collection && recipe.collection !== currentFilter.collection) {
-      return false;
-    }
-
     return true;
   });
 
@@ -577,7 +556,7 @@ function renderRecipeDetail(recipeId) {
   const variants = findVariants(recipe);
 
   // Update page title
-  document.title = `${recipe.title} - Grandma's Recipe Archive`;
+  document.title = `${recipe.title} - Other Family Recipes`;
 
   let html = `
     <article class="recipe-detail">
@@ -981,13 +960,8 @@ function renderConfidenceFlags(flags) {
  * Get the folder path for a collection's images
  */
 function getCollectionImagePath(collection) {
-  const collectionPaths = {
-    'grandma': 'grandma/',
-    'mommom': 'mom/',
-    'granny': 'granny/',
-    'reference': 'all/'
-  };
-  return collectionPaths[collection] || 'grandma/';
+  // Single collection - all images are in data/
+  return 'data/';
 }
 
 /**
@@ -1036,7 +1010,7 @@ function getCategoryIcon(category) {
  * Clear all filters
  */
 function clearFilters() {
-  currentFilter = { search: '', category: '', tag: '', collection: '' };
+  currentFilter = { search: '', category: '', tag: '' };
 
   const searchInput = document.getElementById('search-input');
   if (searchInput) searchInput.value = '';
@@ -1045,14 +1019,6 @@ function clearFilters() {
   if (categorySelect) categorySelect.value = '';
 
   document.querySelectorAll('.filter-tag').forEach(el => el.classList.remove('active'));
-
-  // Reset collection buttons
-  const collectionFilters = document.getElementById('collection-filters');
-  if (collectionFilters) {
-    collectionFilters.querySelectorAll('.collection-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.collection === '');
-    });
-  }
 
   renderRecipeGrid();
 }

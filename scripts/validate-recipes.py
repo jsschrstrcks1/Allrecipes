@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Recipe Validation Script for Grandma's Recipe Archive
-Validates recipes_master.json for schema compliance and common issues.
+Recipe Validation Script for Other Family Recipes
+Validates recipes.json for schema compliance and common issues.
 
 Usage:
     python scripts/validate-recipes.py
@@ -271,7 +271,7 @@ def main():
 
     # Find recipes file
     script_dir = Path(__file__).parent
-    recipes_file = script_dir.parent / 'data' / 'recipes_master.json'
+    recipes_file = script_dir.parent / 'data' / 'recipes.json'
 
     if not recipes_file.exists():
         print(f"ERROR: Cannot find {recipes_file}")
