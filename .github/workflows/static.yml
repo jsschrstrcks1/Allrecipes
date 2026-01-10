@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "claude/investigate-missing-content-atTEj"]
   workflow_dispatch:
 
 permissions:
