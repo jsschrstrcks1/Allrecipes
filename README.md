@@ -1,6 +1,6 @@
-# Grandma's Recipe Archive
+# Other Family Recipes
 
-A treasured collection of family recipes, preserved with love.
+A collection of digital cookbook recipes and magazine clippings, preserved with love.
 
 > *Soli Deo Gloria*
 
@@ -8,30 +8,50 @@ A treasured collection of family recipes, preserved with love.
 
 ## About This Project
 
-This archive preserves Grandma's recipes—collected from handwritten cards, newspaper clippings, magazine cuttings, and other family treasures. The recipes span her journey from Michigan to Florida, representing both Northern and Southern culinary traditions.
+This archive contains reference recipes from digital cookbooks, magazines, and other sources - collected and used with permission. This is part of the multi-repo Family Recipe Archive system.
 
-**Current Status:** 5 unique recipes extracted from 6 scanned images
+**Current Status:** 1546 recipes
+
+---
+
+## Multi-Repo Family Recipe Archive
+
+This repository is part of a larger family recipe preservation project:
+
+| Repository | Collection | Description |
+|------------|------------|-------------|
+| MomsRecipes | MomMom Baker | Family heirloom recipes |
+| GrandmasRecipes | Grandma Baker | Michigan to Florida recipes |
+| GrannysRecipes | Granny Hudson | Additional family collection |
+| **Allrecipes** | **Other Recipes** | **Digital cookbooks & magazines (THIS REPO)** |
+| FamilyRecipeHub | Aggregator | Combines all collections |
 
 ---
 
 ## Project Structure
 
 ```
-Grandmasrecipes/
-├── CLAUDE.md                  # AI assistant context & guidelines
-├── README.md                  # This file
+Allrecipes/
+├── CLAUDE.md                 # AI assistant context & guidelines
+├── README.md                 # This file
+├── index.html                # Home page with search & filters
+├── recipe.html               # Recipe detail page
+├── styles.css                # Stylesheet
+├── script.js                 # Client-side JavaScript
 ├── data/
-│   ├── *.jpeg                 # Original scanned recipe images
-│   ├── recipes_master.json    # All recipes in structured format
-│   └── processed_images.json  # Scan processing log & metadata
-├── site/
-│   ├── index.html             # Home page with search & filters
-│   ├── recipe.html            # Recipe detail page
-│   ├── styles.css             # Stylesheet
-│   └── script.js              # Client-side JavaScript
+│   ├── *.jpeg               # Magazine scans
+│   ├── *.PNG                # Kindle screenshots
+│   ├── processed/           # AI-friendly resized images
+│   ├── recipes.json         # All recipes in structured format
+│   └── collections.json     # Collection metadata
+├── scripts/
+│   ├── validate-recipes.py  # Recipe validation
+│   ├── process_images.py    # Image resizing
+│   ├── image_safeguards.py  # Image validation
+│   └── optimize_images.py   # JPEG optimization
 └── ebook/
-    ├── book.html              # Print-optimized e-book HTML
-    └── print.css              # Print stylesheet
+    ├── book.html            # Print-optimized e-book HTML
+    └── print.css            # Print stylesheet
 ```
 
 ---
@@ -42,10 +62,10 @@ Grandmasrecipes/
 
 1. **Using Python (recommended):**
    ```bash
-   cd Grandmasrecipes
+   cd Allrecipes
    python -m http.server 8000
    ```
-   Then open http://localhost:8000/site/ in your browser.
+   Then open http://localhost:8000 in your browser.
 
 2. **Using Node.js:**
    ```bash
@@ -61,22 +81,33 @@ Grandmasrecipes/
 
 1. Push this repository to GitHub
 2. Go to **Settings → Pages**
-3. Set source to your main branch and `/site` folder (or root)
-4. Your site will be live at `https://yourusername.github.io/Grandmasrecipes/site/`
+3. Set source to your main branch and root folder
+4. Your site will be live at `https://yourusername.github.io/Allrecipes/`
 
-### Host on Netlify
+---
 
-1. Push to GitHub/GitLab
-2. Connect to Netlify
-3. Set publish directory to `site`
-4. Deploy!
+## Image Processing
 
-### Host on Vercel
+This collection contains images from multiple sources that may exceed Claude's 2000px API limit:
 
-1. Push to GitHub
-2. Import project in Vercel
-3. Set output directory to `site`
-4. Deploy!
+| Source | Format | Typical Size | Action |
+|--------|--------|--------------|--------|
+| Kindle screenshots | PNG | 1320x2868px | Use `data/processed/` |
+| iPhone photos | JPEG | Variable | Check dimensions |
+| Magazine scans | JPEG | Variable | Usually safe |
+
+### Process Oversized Images
+
+```bash
+# Preview what needs processing
+python scripts/process_images.py --dry-run
+
+# Process all oversized images
+python scripts/process_images.py
+
+# Validate image status
+python scripts/image_safeguards.py status
+```
 
 ---
 
@@ -101,51 +132,8 @@ wkhtmltopdf \
   --margin-bottom 0.75in \
   --margin-left 1in \
   --margin-right 1in \
-  ebook/book.html grandmas-recipes.pdf
+  ebook/book.html other-family-recipes.pdf
 ```
-
-### Method 3: Using Pandoc
-
-```bash
-pandoc ebook/book.html \
-  -o grandmas-recipes.pdf \
-  --pdf-engine=wkhtmltopdf \
-  --css=ebook/print.css
-```
-
-### Method 4: Using Calibre (for EPUB/MOBI)
-
-1. Open Calibre
-2. Add book → Select `ebook/book.html`
-3. Convert book → Select output format (EPUB, MOBI, etc.)
-4. Adjust settings as needed
-5. Convert
-
----
-
-## Adding New Recipes
-
-### 1. Scan Your Recipe
-
-- Scan at 300 DPI or higher
-- Save as JPEG in `data/` folder
-- Name format: `Grandmas-recipes - N.jpeg`
-
-### 2. Extract the Recipe
-
-Follow the workflow in `CLAUDE.md`:
-1. Analyze the scan for orientation and content
-2. Extract all recipe data following the JSON schema
-3. Check for duplicates against existing recipes
-4. Add to `recipes_master.json`
-5. Update `processed_images.json`
-
-### 3. Update the E-Book
-
-Add the new recipe to `ebook/book.html`:
-- Add to Table of Contents
-- Add recipe in appropriate section
-- Update the Index
 
 ---
 
@@ -154,15 +142,15 @@ Add the new recipe to `ebook/book.html`:
 ```json
 {
   "id": "recipe-slug",
+  "collection": "all",
+  "collection_display": "Other Family Recipes",
   "title": "Recipe Title",
-  "attribution": "Source/Author",
-  "source_note": "Where it came from",
-  "description": "Brief description",
   "category": "desserts|mains|sides|etc",
+  "attribution": "Source/Author",
+  "source_note": "e.g., Kindle cookbook, magazine clipping",
   "servings_yield": "4 servings",
   "prep_time": "15 minutes",
   "cook_time": "30 minutes",
-  "total_time": "45 minutes",
   "ingredients": [
     {"item": "flour", "quantity": "2", "unit": "cups", "prep_note": "sifted"}
   ],
@@ -170,96 +158,32 @@ Add the new recipe to `ebook/book.html`:
     {"step": 1, "text": "Preheat oven to 350°F."}
   ],
   "temperature": "350°F (175°C)",
-  "pan_size": "9x13 inch pan",
-  "notes": ["Any additional notes"],
-  "tags": ["dessert", "holiday", "vintage"],
-  "confidence": {
-    "overall": "high|medium|low",
-    "flags": []
-  },
-  "image_refs": ["filename.jpeg"]
+  "tags": ["dessert", "holiday"],
+  "confidence": {"overall": "high|medium|low"},
+  "image_refs": ["filename.PNG"]
 }
 ```
 
 ---
 
-## Current Recipes
-
-| Recipe | Category | Source | Confidence |
-|--------|----------|--------|------------|
-| Ginger-Onion Lo Mein | Mains | Magazine clipping | Medium* |
-| Glazed Carrots | Sides | Tampa Tribune, 1994 | High |
-| Jubilie Jumbles | Desserts | Typed card (Betty Crocker, 1955) | High |
-| Original Chex Party Mix | Snacks | Cereal box | High |
-| She's a Geisha Cocktail | Beverages | Izumi restaurant menu | High |
-
-*\* Instructions partially inferred from standard technique*
-
----
-
-## Known Issues & Flags
-
-### Ginger-Onion Lo Mein
-- Original clipping was cut off
-- Steps 5-7 inferred from standard lo mein technique
-- **If you find the original source, please update!**
-
-### Jubilie Jumbles
-- Original card showed "2 tsp" butter in glaze
-- Corrected to "2 tbsp" per canonical Carnation recipe
-- Spelling "Jubilie" preserved from original (may be "Jubilee")
-
----
-
-## Recommended Tools for Future Processing
-
-### OCR & Text Extraction
-- **EasyOCR** - Good for messy scans
-- **PaddleOCR** - Excellent for mixed layouts
-- **Tesseract** - Gold standard open-source OCR
-
-### Image Preprocessing
-- **OpenCV** - Deskewing, denoising, contrast
-- **unpaper** - Post-processing scanned pages
-- **ScanTailor** - Batch processing with GUI
-
-### E-Book Generation
-- **Calibre** - Full-featured e-book management
-- **Pandoc** - Universal document converter
-- **ebooklib** - Python library for EPUB creation
-
----
-
-## File Integrity
-
-After modifying recipes, validate:
+## Validation
 
 ```bash
-# Check JSON syntax
-python -m json.tool data/recipes_master.json > /dev/null && echo "JSON valid"
+# Check JSON syntax and required fields
+python scripts/validate-recipes.py
 
-# Check for required fields (basic)
-python -c "
-import json
-with open('data/recipes_master.json') as f:
-    data = json.load(f)
-    for r in data['recipes']:
-        assert 'id' in r, f'Missing id in {r.get(\"title\", \"unknown\")}'
-        assert 'title' in r, f'Missing title in {r[\"id\"]}'
-        assert 'ingredients' in r, f'Missing ingredients in {r[\"title\"]}'
-        assert 'instructions' in r, f'Missing instructions in {r[\"title\"]}'
-print('All recipes valid!')
-"
+# Strict mode (fail on warnings)
+python scripts/validate-recipes.py --strict
 ```
 
 ---
 
 ## Contributing
 
-This is a family project. If you're family and have:
-- Additional scans of Grandma's recipes
+This is a family project. If you have:
+- Additional digital cookbook recipes (with permission)
 - Corrections to existing recipes
-- Memories or context about specific recipes
+- Magazine clippings to add
 
 Please reach out!
 

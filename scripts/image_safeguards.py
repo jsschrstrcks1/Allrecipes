@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Image Safeguards for Grandma's Recipe Archive
+Image Safeguards for Other Family Recipes
 
 This module provides safeguards to prevent broken images from crashing
 AI processing sessions. It creates a processing manifest that tracks:
@@ -38,11 +38,9 @@ except ImportError:
 MANIFEST_FILE = "image_manifest.json"
 MAX_DIMENSION = 2000
 
+# Single collection - all images in data/
 COLLECTIONS = {
-    "grandma": {"path": "", "prefix": "Grandmas-recipes"},
-    "mommom": {"path": "mom/", "prefix": "Moms Recipes"},
-    "granny": {"path": "granny/", "prefix": "Granny"},
-    "reference": {"path": "all/", "prefix": "IMG_"}
+    "all": {"path": "", "prefix": ""}
 }
 
 # Image statuses
