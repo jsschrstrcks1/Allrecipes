@@ -36,21 +36,40 @@ jobs:
           shopt -s nullglob
           for f in *.html *.htm; do cp -a "$f" public/; done
 
-          # Copy directories you want to publish (adjust as repo layout)
-          # e.g. css, js, images, all (if your static content is in data/all)
+          # Copy CSS and JS files (at root level, not in directories)
+          cp -a styles.css public/ 2>/dev/null || true
+          cp -a script.js public/ 2>/dev/null || true
+
+          # Copy data directory containing recipes JSON
+          cp -a all public/ 2>/dev/null || true
+
+          # Copy Jekyll bypass and configuration files
+          cp -a .nojekyll public/ 2>/dev/null || true
+          cp -a _headers public/ 2>/dev/null || true
+          cp -a robots.txt public/ 2>/dev/null || true
+
+          # Copy any additional asset directories if they exist
+          cp -a images public/ 2>/dev/null || true
           cp -a css public/ 2>/dev/null || true
           cp -a js public/ 2>/dev/null || true
-          cp -a all public/ 2>/dev/null || true
-          cp -a images public/ 2>/dev/null || true
-
-          # If you have a Python script that builds the site, invoke it instead:
-          # pip install -r requirements.txt
-          # python scripts/build_site.py --out public
 
       - name: Show publish contents (debug)
         run: |
           echo "Publishing directory: $(pwd)/public"
+          echo "--- Root contents ---"
           ls -la public || true
+          echo ""
+          echo "--- Verifying critical files ---"
+          for f in index.html styles.css script.js .nojekyll; do
+            if [ -f "public/$f" ]; then
+              echo "✓ $f present"
+            else
+              echo "✗ $f MISSING!"
+            fi
+          done
+          echo ""
+          echo "--- JSON data files ---"
+          ls -la public/all/*.json 2>/dev/null || echo "No JSON files in public/all/"
 
       - name: Show large files (debug)
         run: |
