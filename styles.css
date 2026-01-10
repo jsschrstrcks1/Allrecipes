@@ -42,11 +42,18 @@
 /* Reset & Base */
 *, *::before, *::after {
   box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Allow specific elements to have larger max-width */
+html, body, .auth-gate {
+  max-width: none;
 }
 
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -56,6 +63,9 @@ body {
   background-color: var(--color-cream);
   color: var(--color-text);
   line-height: 1.6;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
   /* Subtle retro pattern background */
   background-image:
     radial-gradient(circle at 25px 25px, var(--color-teal-light) 2px, transparent 0),
@@ -108,8 +118,10 @@ a:hover {
 /* Layout */
 .container {
   max-width: var(--max-width);
+  width: 100%;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
+  box-sizing: border-box;
 }
 
 .content {
@@ -227,11 +239,13 @@ main {
 /* Search & Filter */
 .search-section {
   background-color: var(--color-warm-white);
-  padding: var(--spacing-lg);
+  padding: 4%;
   border-radius: 12px;
   margin-bottom: var(--spacing-xl);
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   border: 2px solid var(--color-teal-light);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .search-box {
@@ -304,8 +318,9 @@ main {
 /* Recipe Grid */
 .recipe-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: 4%;
+  width: 100%;
 }
 
 /* Recipe Card - Like a Recipe Box Card */
@@ -403,10 +418,12 @@ main {
 .recipe-detail {
   background-color: var(--color-warm-white);
   border-radius: 12px;
-  padding: var(--spacing-xl);
+  padding: 5%;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   border: 3px solid var(--color-teal-light);
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Decorative corner */
@@ -924,19 +941,23 @@ main {
 
   .recipe-grid {
     grid-template-columns: 1fr;
+    gap: 3%;
   }
 
   .recipe-detail {
-    padding: var(--spacing-md);
+    padding: 4%;
   }
 
   .instructions-list li {
-    padding-left: 60px;
+    padding-left: 18%;
   }
 
   .instructions-list li::before {
-    width: 40px;
-    height: 40px;
+    width: 12%;
+    min-width: 36px;
+    max-width: 44px;
+    height: auto;
+    aspect-ratio: 1;
     font-size: 1rem;
   }
 
@@ -1358,8 +1379,9 @@ main {
 
 .tips-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--spacing-md);
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+  gap: 3%;
+  width: 100%;
 }
 
 .tip-card {
@@ -1441,7 +1463,8 @@ main {
 }
 
 .tips-search-box {
-  max-width: 500px;
+  max-width: min(500px, 90%);
+  width: 100%;
   margin: var(--spacing-lg) auto;
 }
 
@@ -1492,9 +1515,10 @@ main {
 
 .tips-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+  gap: 4%;
   padding: var(--spacing-lg) 0;
+  width: 100%;
 }
 
 .tips-empty-state {
@@ -1541,8 +1565,9 @@ main {
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.3);
   text-align: center;
-  max-width: 400px;
+  max-width: min(400px, 90%);
   width: 90%;
+  box-sizing: border-box;
 }
 
 .auth-container h1 {
@@ -1797,13 +1822,13 @@ html {
 /* Auth Gate Mobile Optimizations */
 @media (max-width: 768px) {
   .auth-gate {
-    padding: 1rem;
+    padding: 4%;
   }
 
   .auth-container {
-    width: 95%;
-    max-width: none;
-    padding: 1.5rem;
+    width: 92%;
+    max-width: 100%;
+    padding: 6%;
   }
 
   .auth-container h1 {
@@ -1846,7 +1871,8 @@ html {
   }
 
   .auth-container {
-    padding: 1.25rem;
+    padding: 5%;
+    width: 94%;
   }
 
   .auth-container h1 {
@@ -1854,7 +1880,7 @@ html {
   }
 
   .recipe-detail {
-    padding: var(--spacing-sm);
+    padding: 3%;
   }
 
   .recipe-header h1 {
@@ -1862,17 +1888,20 @@ html {
   }
 
   .instructions-list li {
-    padding-left: 50px;
+    padding-left: 15%;
   }
 
   .instructions-list li::before {
-    width: 36px;
-    height: 36px;
+    width: 10%;
+    min-width: 32px;
+    max-width: 36px;
+    height: auto;
+    aspect-ratio: 1;
     font-size: 0.9rem;
   }
 
   .container {
-    padding: 0 var(--spacing-sm);
+    padding: 0 3%;
   }
 }
 

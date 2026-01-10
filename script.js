@@ -71,111 +71,17 @@ let allTags = new Set();
 let tipCategories = new Set();
 let currentFilter = { search: '', category: '', tag: '', collection: '' };
 let showMetric = false; // Toggle for metric conversions
-let isAuthenticated = false;
 
-// Authentication configuration - MUST use this exact key for cross-site auth
-const AUTH_KEY = 'grandmas-kitchen-auth';
-const CORRECT_ANSWER = 'Baker';  // Grandma's last name (case-sensitive)
-
-// DOM Ready
+// DOM Ready - Auth is handled by inline script in HTML
 document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
-  // Check if already authenticated
-  if (checkAuth()) {
-    isAuthenticated = true;
-    await loadContent();
-  } else {
-    showAuthPrompt();
-  }
+  // Load content directly - auth gate is handled by inline script in HTML
+  await loadContent();
 }
 
 /**
- * Check if user is authenticated via localStorage
- */
-function checkAuth() {
-  const stored = localStorage.getItem(AUTH_KEY);
-  return stored === 'true';
-}
-
-/**
- * Save authentication state
- */
-function saveAuth() {
-  localStorage.setItem(AUTH_KEY, 'true');
-}
-
-/**
- * Show the family authentication prompt
- */
-function showAuthPrompt() {
-  // Create auth gate overlay
-  const authGate = document.createElement('div');
-  authGate.id = 'auth-gate';
-  authGate.className = 'auth-gate';
-  authGate.innerHTML = `
-    <div class="auth-container">
-      <h1>Grandma's Kitchen</h1>
-      <p>This is a private family recipe archive.</p>
-      <form id="auth-form">
-        <label for="auth-answer">What is Grandma's last name?</label>
-        <input type="text" id="auth-answer" autocomplete="off" required>
-        <button type="submit" class="btn btn-primary">Enter</button>
-        <p id="auth-error" class="auth-error" style="display: none;">Incorrect. Please try again.</p>
-      </form>
-    </div>
-  `;
-  document.body.appendChild(authGate);
-
-  // Focus the input
-  setTimeout(() => {
-    document.getElementById('auth-answer').focus();
-  }, 100);
-
-  // Handle form submit
-  document.getElementById('auth-form').addEventListener('submit', (e) => {
-    e.preventDefault();
-    handleAuthSubmit();
-  });
-}
-
-/**
- * Handle authentication submission
- */
-async function handleAuthSubmit() {
-  const input = document.getElementById('auth-answer');
-  const error = document.getElementById('auth-error');
-  const answer = input.value.trim();
-
-  if (answer === CORRECT_ANSWER) {
-    // Success!
-    saveAuth();
-    isAuthenticated = true;
-
-    // Hide auth gate and show site content
-    const authGate = document.getElementById('auth-gate');
-    if (authGate) {
-      authGate.style.display = 'none';
-      authGate.remove();
-    }
-    loadContent();
-  } else {
-    // Wrong answer
-    error.style.display = 'block';
-    input.classList.add('auth-input-error');
-    input.value = '';
-    input.focus();
-
-    // Shake animation
-    input.style.animation = 'shake 0.5s';
-    setTimeout(() => {
-      input.style.animation = '';
-    }, 500);
-  }
-}
-
-/**
- * Load all content after authentication
+ * Load all content
  */
 async function loadContent() {
   await Promise.all([loadRecipes(), loadTips()]);
