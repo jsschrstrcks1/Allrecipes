@@ -1,0 +1,69 @@
+name: Deploy static content to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare publish directory
+        run: |
+          rm -rf public
+          mkdir -p public
+
+          # Copy top-level html files
+          shopt -s nullglob
+          for f in *.html *.htm; do cp -a "$f" public/; done
+
+          # Copy directories you want to publish (adjust as repo layout)
+          # e.g. css, js, images, all (if your static content is in data/all)
+          cp -a css public/ 2>/dev/null || true
+          cp -a js public/ 2>/dev/null || true
+          cp -a all public/ 2>/dev/null || true
+          cp -a images public/ 2>/dev/null || true
+
+          # If you have a Python script that builds the site, invoke it instead:
+          # pip install -r requirements.txt
+          # python scripts/build_site.py --out public
+
+      - name: Show publish contents (debug)
+        run: |
+          echo "Publishing directory: $(pwd)/public"
+          ls -la public || true
+
+      - name: Show large files (debug)
+        run: |
+          echo "Large files in repo (>10MB):"
+          find . -type f -size +10M -exec ls -lh {} \; || true
+          echo "Sizes of files in public:"
+          du -sh public || true
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
