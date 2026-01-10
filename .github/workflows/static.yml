@@ -40,9 +40,9 @@ jobs:
           cp -a styles.css public/ 2>/dev/null || true
           cp -a script.js public/ 2>/dev/null || true
 
-          # Copy only JSON data files from all/ directory (not images)
-          mkdir -p public/all
-          cp -a all/*.json public/all/ 2>/dev/null || true
+          # Copy JSON data files from data/ directory (not images)
+          mkdir -p public/data
+          cp -a data/*.json public/data/ 2>/dev/null || true
 
           # Copy Jekyll bypass and configuration files
           cp -a .nojekyll public/ 2>/dev/null || true
@@ -70,7 +70,7 @@ jobs:
           done
           echo ""
           echo "--- JSON data files ---"
-          ls -la public/all/*.json 2>/dev/null || echo "No JSON files in public/all/"
+          ls -la public/data/*.json 2>/dev/null || echo "No JSON files in public/data/"
 
       - name: Show large files (debug)
         run: |
