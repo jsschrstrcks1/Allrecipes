@@ -40,8 +40,9 @@ jobs:
           cp -a styles.css public/ 2>/dev/null || true
           cp -a script.js public/ 2>/dev/null || true
 
-          # Copy data directory containing recipes JSON
-          cp -a all public/ 2>/dev/null || true
+          # Copy only JSON data files from all/ directory (not images)
+          mkdir -p public/all
+          cp -a all/*.json public/all/ 2>/dev/null || true
 
           # Copy Jekyll bypass and configuration files
           cp -a .nojekyll public/ 2>/dev/null || true
