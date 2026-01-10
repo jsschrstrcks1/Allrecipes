@@ -6,16 +6,22 @@ This file tracks tasks that need to be completed in future sessions.
 
 ## Nutrition Data Pass
 
-**Status:** PENDING
+**Status:** COMPLETE
 **Priority:** Medium
 **Created:** 2026-01-09
+**Completed:** 2026-01-10
 
 ### Description
 All recipes extracted from the Kindle muffin cookbook (reference collection) need nutrition information added. The schema supports nutrition data but it was deferred during initial extraction to prioritize getting all recipes into JSON first.
 
+### Resolution
+- Created `scripts/add_muffin_nutrition.py` with USDA standard nutrition values for ~200 baking ingredients
+- 90 of 91 muffin recipes now have complete nutrition status (99%)
+- 1 recipe (Au Gratin Potato Muffins) has partial status - only missing "to taste salt and pepper" which has negligible caloric impact
+
 ### Scope
 - All recipes with `"collection": "reference"` (muffin cookbook recipes)
-- Approximately 50+ muffin recipes
+- 91 muffin recipes total
 
 ### Required Fields
 ```json
