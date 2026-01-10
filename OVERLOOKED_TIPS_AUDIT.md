@@ -12,20 +12,25 @@
 
 ### Work Completed
 - **152 magazine recipe images** reviewed in full
-- **44 recipes** updated with recovered tips and nutrition data
-- **Script created:** `scripts/add_recovered_tips.py` for reproducible updates
+- **368 Kindle cookbook screenshots (IMG_4695-5063)** reviewed in full
+- **91 recipes** updated with recovered tips and nutrition data
+- **Scripts created:**
+  - `scripts/add_recovered_tips.py` - Magazine recipe tips
+  - `scripts/add_img_tips.py` - Kindle cookbook tips
 
 ### Content Recovered
 | Category | Items Added |
 |----------|-------------|
 | Cooking tips | 150+ tips |
-| Make-ahead notes | 25+ notes |
-| Serving suggestions | 40+ suggestions |
-| Storage instructions | 20+ instructions |
+| Make-ahead notes | 35+ notes |
+| Serving suggestions | 60+ suggestions |
+| Storage instructions | 25+ instructions |
 | Nutrition data | 20+ recipes with full data |
-| Editorial comments | 15+ comments |
+| Editorial comments | 20+ comments |
 | Safety tips | 5 safety guidelines |
 | Historical context | 3 historical notes |
+| Author preferences | 30+ personal notes |
+| Cross-references | 15+ recipe links |
 
 ---
 
