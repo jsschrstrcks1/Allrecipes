@@ -117,6 +117,12 @@ async function loadRecipes() {
 async function loadTips() {
   try {
     const response = await fetch('data/tips_master.json');
+    if (!response.ok) {
+      // Tips file doesn't exist or couldn't be loaded
+      console.log('Tips file not available (this is optional)');
+      tips = [];
+      return;
+    }
     const data = await response.json();
     tips = data.tips || [];
 
@@ -129,6 +135,7 @@ async function loadTips() {
   } catch (error) {
     console.error('Failed to load tips:', error);
     // Tips are optional - don't show error to user
+    tips = [];
   }
 }
 

@@ -31,6 +31,8 @@
   <title>Kitchen Tips - Other Family Recipes</title>
   <!-- SHARED STYLES FROM HUB - includes auth gate, nav, mobile responsive -->
   <link rel="stylesheet" href="https://jsschrstrcks1.github.io/Grandmasrecipes/styles.css">
+  <!-- Local fallback styles in case external CSS fails to load -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Authentication Gate -->
@@ -93,8 +95,8 @@
 
   <header class="site-header">
     <div class="container">
-      <h1>Grandma's Kitchen</h1>
-      <p class="tagline">A treasured collection of family recipes, preserved with love</p>
+      <h1>Other Family Recipes</h1>
+      <p class="tagline">Digital cookbook recipes and magazine clippings, preserved with love</p>
       <p class="tagline" style="font-size: 0.9rem; opacity: 0.8;">Soli Deo Gloria</p>
     </div>
   </header>
@@ -170,8 +172,8 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>Grandma's Kitchen &middot; A Family Treasure</p>
-      <p style="margin-top: 0.5rem; font-size: 0.8rem;">From Michigan to Florida &middot; Preserved with Love</p>
+      <p>Other Family Recipes &middot; A Family Treasure</p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem;">Digital Cookbook Recipes &middot; Preserved with Love</p>
     </div>
   </footer>
 
@@ -188,15 +190,50 @@
       setTimeout(initTipsPage, 500);
     });
 
+    let tipsLoadAttempts = 0;
+    const MAX_TIPS_LOAD_ATTEMPTS = 10;
+
     function initTipsPage() {
-      if (!window.tips || tips.length === 0) {
-        setTimeout(initTipsPage, 300);
+      tipsLoadAttempts++;
+
+      // If tips array exists (even if empty), we've finished loading
+      if (Array.isArray(window.tips)) {
+        if (tips.length === 0) {
+          // Tips file doesn't exist or is empty - show message
+          const container = document.getElementById('tips-grid');
+          if (container) {
+            container.innerHTML = `
+              <div class="tips-empty-state" style="grid-column: 1/-1;">
+                <p>Kitchen tips coming soon!</p>
+              </div>
+            `;
+          }
+          const indexContainer = document.getElementById('ingredient-list');
+          if (indexContainer) {
+            indexContainer.innerHTML = '<p class="text-muted">No tips available yet.</p>';
+          }
+          return;
+        }
+        renderTipsGrid();
+        buildIngredientIndex();
+        setupTipsEventListeners();
         return;
       }
 
-      renderTipsGrid();
-      buildIngredientIndex();
-      setupTipsEventListeners();
+      // Still loading, retry up to max attempts
+      if (tipsLoadAttempts < MAX_TIPS_LOAD_ATTEMPTS) {
+        setTimeout(initTipsPage, 300);
+      } else {
+        // Gave up waiting - show message
+        const container = document.getElementById('tips-grid');
+        if (container) {
+          container.innerHTML = `
+            <div class="tips-empty-state" style="grid-column: 1/-1;">
+              <p>Unable to load tips. Please refresh the page.</p>
+            </div>
+          `;
+        }
+      }
     }
 
     function setupTipsEventListeners() {
