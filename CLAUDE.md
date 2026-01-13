@@ -1,5 +1,26 @@
 # Other Family Recipes - AI Assistant Context
 
+> **Version 1.1** | Updated January 2026
+
+## Quick Start Essentials
+
+1. **Images are stored flat** in `data/` - no subdirectories for source files
+2. **Never read images >2000px** directly - use `data/processed/` versions
+3. **Never invent** recipe content - mark unclear items as `[UNCLEAR]`
+4. **Always run validation** before committing: `python scripts/validate-recipes.py`
+5. **Check PENDING_TASKS.md** for deferred work
+
+## Priority Framework
+
+When making decisions, follow this hierarchy:
+
+1. **Accuracy-First** - Never guess or invent content
+2. **Preservation-First** - Keep all source references
+3. **Fidelity-First** - Preserve original voice and intent
+4. **Readability-First** - Normalize formatting for clarity
+
+---
+
 ## Project Mission & Values
 
 This is a labor of love being performed by a Reformed Baptist family. Our ethos is **Soli Deo Gloria** (Glory to God Alone).
@@ -27,6 +48,20 @@ This is a **standalone collection repository**, part of the multi-repo Family Re
 
 Current pending items:
 - **Nutrition Data Pass** - Add nutrition information to all reference collection muffin recipes (see tracker for details)
+
+---
+
+## Additional Documentation
+
+For detailed workflows and configuration, see the `.claude/` directory:
+
+| Document | Purpose |
+|----------|---------|
+| `.claude/ONBOARDING.md` | Quick start guide for new sessions |
+| `.claude/MAINTENANCE.md` | Step-by-step maintenance workflows |
+| `.claude/mcp-servers.md` | Optional MCP server integrations |
+| `.claude/skill-rules.json` | Skill activation rules |
+| `.claude/settings.json` | Permissions and hook configuration |
 
 ---
 
@@ -204,12 +239,25 @@ For e-reader/Kindle screenshots (identified by "Location X of Y" footer):
 
 ```
 Allrecipes/
-├── CLAUDE.md                 # This file
+├── CLAUDE.md                 # This file - primary AI context
+├── PENDING_TASKS.md          # Deferred work tracking
 ├── README.md                 # Setup and hosting instructions
 ├── index.html                # Home page
 ├── recipe.html               # Recipe detail page
 ├── styles.css                # Stylesheet
 ├── script.js                 # Client-side rendering
+├── .claude/                  # AI assistant configuration
+│   ├── settings.json         # Permissions and hooks
+│   ├── skill-rules.json      # Skill activation rules
+│   ├── ONBOARDING.md         # Quick start guide
+│   ├── MAINTENANCE.md        # Detailed workflows
+│   ├── mcp-servers.md        # Optional MCP integrations
+│   ├── hooks/                # Automation scripts
+│   │   ├── post-write-validate.sh
+│   │   └── image-safety-check.sh
+│   └── skills/               # Skill definitions
+│       ├── recipe-transcription/
+│       └── recipe-validation/
 ├── data/
 │   ├── *.jpeg               # Magazine scans
 │   ├── *.PNG                # Kindle screenshots (OVERSIZED!)
@@ -277,6 +325,9 @@ python scripts/image_safeguards.py mark "IMG_4034.PNG" skipped "Not a recipe"
 3. **Preserve original intent**, but normalize spelling and formatting
 4. **Verify copyright/permission** before processing commercial cookbook images
 5. **Never discard a scan reference** - keep all image_refs
+6. **Never read oversized images** (>2000px) directly - use processed versions
+7. **Always run validation** before committing recipe changes
+8. **Check PENDING_TASKS.md** for deferred work at session start
 
 ---
 
@@ -308,3 +359,12 @@ python scripts/validate-recipes.py --strict
 
 *"She looketh well to the ways of her household, and eateth not the bread of idleness."*
 — Proverbs 31:27
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.1 | Jan 2026 | Added .claude directory with settings, hooks, skills, and documentation. Added Quick Start Essentials and Priority Framework. Expanded Non-Negotiable Rules. |
+| 1.0 | Original | Initial CLAUDE.md with recipe schema, OCR guidelines, and image processing documentation. |

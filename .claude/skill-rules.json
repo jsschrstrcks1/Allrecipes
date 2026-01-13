@@ -1,0 +1,84 @@
+{
+  "skills": {
+    "recipe-transcription": {
+      "description": "Transcribe recipes from Kindle screenshots and magazine scans",
+      "triggers": {
+        "file_patterns": ["data/*.jpeg", "data/*.jpg", "data/*.PNG", "data/processed/*.jpeg"],
+        "keywords": ["transcribe", "OCR", "extract", "screenshot", "kindle", "magazine", "scan"]
+      },
+      "guardrails": {
+        "must": [
+          "Mark unclear text as [UNCLEAR]",
+          "Preserve original measurements and temperatures",
+          "Verify copyright/permission for cookbook images",
+          "Check image dimensions before processing"
+        ],
+        "must_not": [
+          "Invent or guess recipe content",
+          "Skip validation after transcription",
+          "Delete source images"
+        ]
+      },
+      "activation": {
+        "auto": true,
+        "priority": "high"
+      }
+    },
+    "recipe-validation": {
+      "description": "Validate recipe schema and data quality",
+      "triggers": {
+        "file_patterns": ["data/recipes.json"],
+        "keywords": ["validate", "check", "schema", "verify"]
+      },
+      "guardrails": {
+        "must": [
+          "Run validation before committing",
+          "Fix all errors before proceeding",
+          "Investigate warnings thoroughly"
+        ],
+        "must_not": [
+          "Commit recipes with validation errors",
+          "Ignore sanity limit warnings",
+          "Invent data to pass validation"
+        ]
+      },
+      "activation": {
+        "auto": true,
+        "priority": "high"
+      }
+    },
+    "image-safety": {
+      "description": "Check image dimensions before AI processing",
+      "triggers": {
+        "file_patterns": ["data/*.PNG", "data/*.jpeg", "data/*.jpg"],
+        "keywords": ["read image", "view image", "process image"]
+      },
+      "guardrails": {
+        "must": [
+          "Check manifest before reading images",
+          "Use processed/ versions for oversized images",
+          "Run image_safeguards.py for unknown images"
+        ],
+        "must_not": [
+          "Read images >2000px directly",
+          "Skip dimension verification"
+        ]
+      },
+      "activation": {
+        "auto": true,
+        "priority": "critical"
+      }
+    }
+  },
+  "global": {
+    "auto_activate": true,
+    "max_concurrent_skills": 2,
+    "verbose_logging": false,
+    "skill_context_cache": true
+  },
+  "philosophy": {
+    "principle": "Accuracy-First",
+    "motto": "Accuracy is more important than speed",
+    "ethos": "Soli Deo Gloria"
+  }
+}
