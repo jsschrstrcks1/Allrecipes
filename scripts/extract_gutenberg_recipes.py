@@ -125,10 +125,22 @@ def extract_recipes_from_html(html_file):
 
     recipes = []
 
-    # Find all elements with margin-top: 2em (recipe titles)
-    # Can be in <p>, <h3>, or <h4> tags
-    pattern = r'<(?:p|h[234])[^>]*style="margin-top:\s*2em"[^>]*>(.*?)</(?:p|h[234])>'
-    title_matches = list(re.finditer(pattern, content, re.DOTALL))
+    # Try multiple patterns for recipe titles
+    patterns = [
+        # Pattern 1: margin-top: 2em style (Italian cookbook, etc.)
+        r'<(?:p|h[234])[^>]*style="margin-top:\s*2em"[^>]*>(.*?)</(?:p|h[234])>',
+        # Pattern 2: class="recipe_title" (Pennsylvania Dutch, etc.)
+        r'<h3[^>]*class="recipe_title"[^>]*>(.*?)</h3>',
+        # Pattern 3: class="recipe"
+        r'<(?:p|h[234])[^>]*class="recipe"[^>]*>(.*?)</(?:p|h[234])>',
+    ]
+
+    title_matches = []
+    for pattern in patterns:
+        matches = list(re.finditer(pattern, content, re.DOTALL))
+        if matches:
+            title_matches = matches
+            break
 
     for i, match in enumerate(title_matches):
         title_raw = clean_html(match.group(1))
@@ -158,6 +170,15 @@ def extract_recipes_from_html(html_file):
 
         ingredients = []
         instructions = []
+
+        # Check for structured ingredient lists first (e.g., Pennsylvania Dutch format)
+        ingredient_items = re.findall(r'<li[^>]*class="ingredient"[^>]*>(.*?)</li>', recipe_content, re.DOTALL)
+        for item in ingredient_items:
+            item_clean = clean_html(item)
+            if item_clean:
+                ing = parse_single_ingredient(item_clean)
+                if ing:
+                    ingredients.append(ing)
 
         for p in paragraphs:
             p_clean = clean_html(p)
