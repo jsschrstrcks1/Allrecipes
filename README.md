@@ -20,11 +20,11 @@ This repository is part of a larger family recipe preservation project:
 
 | Repository | Collection | Description |
 |------------|------------|-------------|
-| MomsRecipes | MomMom Baker | Family heirloom recipes |
-| GrandmasRecipes | Grandma Baker | Michigan to Florida recipes |
-| GrannysRecipes | Granny Hudson | Additional family collection |
-| **Allrecipes** | **Other Recipes** | **Digital cookbooks & magazines (THIS REPO)** |
-| FamilyRecipeHub | Aggregator | Combines all collections |
+| MomsRecipes | MomMom | Family heirloom recipes |
+| GrandmasRecipes | Grandma | Michigan to Florida recipes, AND the aggregator of all the others | 
+| GrannysRecipes | Granny Hudson | Florida to Boston and Back Again |
+| **Allrecipes** | **Other Recipes** | Assorted recipes from other parts of the family, and their cookbooks|
+| 
 
 ---
 
