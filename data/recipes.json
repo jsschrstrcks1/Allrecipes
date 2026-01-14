@@ -5,7 +5,7 @@
     "created": "2026-01-05",
     "last_updated": "2026-01-14",
     "version": "3.0.0",
-    "total_recipes": 5238
+    "total_recipes": 5245
   },
   "recipes": [
     {
@@ -536519,6 +536519,712 @@
       },
       "image_refs": [
         "processed/img_5963.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "syllabub-from-cow-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "A Fine Syllabub from the Cow",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 59 (IMG_5966)",
+      "description": "A traditional colonial syllabub made by milking a cow directly into sweetened cider.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cider",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "double refined sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to sweeten"
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "grated"
+        },
+        {
+          "item": "fresh milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "milked from the cow"
+        },
+        {
+          "item": "sweetest cream",
+          "quantity": "1/2",
+          "unit": "pint",
+          "prep_note": "or more"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Sweeten a quart of cider with double refined sugar, grate nutmeg into it."
+        },
+        {
+          "step": 2,
+          "text": "Then milk your cow into your liquor."
+        },
+        {
+          "step": 3,
+          "text": "When you have thus added what quantity of milk you think proper, pour half a pint or more, in proportion to the quantity of syllabub you make, of the sweetest cream you can get all over it."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "Syllabub was a popular colonial dessert/drink"
+      ],
+      "tags": [
+        "syllabub",
+        "dessert",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5966.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "whipt-syllabub-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "A Whipt Syllabub",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 59 (IMG_5966)",
+      "description": "A light whipped colonial syllabub with cream, wine, lemon, and egg whites.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cream",
+          "quantity": "2",
+          "unit": "porringers",
+          "prep_note": ""
+        },
+        {
+          "item": "white wine",
+          "quantity": "1",
+          "unit": "porringer",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "grate in the skin"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to sweeten"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take two porringers of cream and one of white wine, grate in the skin of a lemon."
+        },
+        {
+          "step": 2,
+          "text": "Take the whites of three eggs, sweeten it to your taste."
+        },
+        {
+          "step": 3,
+          "text": "Then whip it with a whisk, take off the froth as it rises and put it into your syllabub glasses or pots, and they are fit for use."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "syllabub glasses",
+      "notes": [
+        "Original 1796 recipe"
+      ],
+      "tags": [
+        "syllabub",
+        "dessert",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5966.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "plumb-cake-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Plumb Cake",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 61 (IMG_5968)",
+      "description": "A rich colonial fruit cake with currants, citron, candied orange peel, almonds, and wine.",
+      "servings_yield": "1 large cake",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "currants",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1",
+          "unit": "drachm",
+          "prep_note": ""
+        },
+        {
+          "item": "mace",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "a little"
+        },
+        {
+          "item": "citron",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "candied orange peal",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "blanched almonds",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "6",
+          "unit": "lb",
+          "prep_note": "well dry'd"
+        },
+        {
+          "item": "eggs",
+          "quantity": "21",
+          "unit": "",
+          "prep_note": "beat"
+        },
+        {
+          "item": "new ale yeast",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "wine",
+          "quantity": "1/2",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "cream",
+          "quantity": "3 1/2",
+          "unit": "pints",
+          "prep_note": ""
+        },
+        {
+          "item": "raisins",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix one pound currants, one drachm nutmeg, mace and cinnamon each, a little salt, one pound of citron, orange peal candied, and almonds bleach'd, 6 pound of flour (well dry'd)."
+        },
+        {
+          "step": 2,
+          "text": "Beat 21 eggs, and add with 1 quart new ale yeast, half pint of wine, 3 half pints of cream and raisins q.f."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "q.f. = quantum sufficit (as much as sufficient)"
+      ],
+      "tags": [
+        "cake",
+        "fruit-cake",
+        "plum-cake",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5968.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "plain-cake-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Plain Cake",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 61 (IMG_5968)",
+      "description": "A simple colonial cake with butter, eggs, rose-water, and wine.",
+      "servings_yield": "1 cake",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "flour",
+          "quantity": "9",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "emptins (yeast)",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "9",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "spice",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "rose-water",
+          "quantity": "1",
+          "unit": "gill",
+          "prep_note": ""
+        },
+        {
+          "item": "wine",
+          "quantity": "1",
+          "unit": "gill",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Nine pound of flour, 3 pound of sugar, 3 pound of butter, 1 quart emptins, 1 quart milk, 9 eggs, 1 ounce of spice, 1 gill of rose-water, 1 gill of wine."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "Emptins = semiliquid prepared yeast"
+      ],
+      "tags": [
+        "cake",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5968.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "johnnycake-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Juhny Cake, or Hoe Cake (Johnnycake)",
+      "category": "breads",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 61 (IMG_5969)",
+      "description": "An early American cornmeal bread, one of the first recorded recipes for Johnnycake.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": "scalded"
+        },
+        {
+          "item": "indian meal (cornmeal)",
+          "quantity": "3",
+          "unit": "pints",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "pint",
+          "prep_note": "flower/flour"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Scald 1 pint of milk and put to 3 pints of indian meal, and half pint of flower\u2014bake before the fire."
+        },
+        {
+          "step": 2,
+          "text": "Or scald with milk two thirds of the indian meal, or wet two thirds with boiling water, add salt, molasses and shortening, work up with cold water pretty stiff, and bake as above."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "One of the earliest recorded Johnnycake recipes",
+        "Also called Hoe Cake"
+      ],
+      "tags": [
+        "johnnycake",
+        "cornbread",
+        "bread",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage",
+        "new-england"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5969.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "indian-slapjack-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Indian Slapjack",
+      "category": "breakfast",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 61 (IMG_5969)",
+      "description": "An early American cornmeal pancake, predecessor to modern pancakes.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "indian meal (cornmeal)",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "4",
+          "unit": "spoons",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "little"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "One quart of milk, 1 pint of indian meal, 4 eggs, 4 spoons of flour, little salt, beat together."
+        },
+        {
+          "step": 2,
+          "text": "Bake on griddles, or fry in a dry pan, or baked in a pan which has been rub'd with suet, lard or butter."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "griddle or pan",
+      "notes": [
+        "Original 1796 recipe",
+        "Early American pancake"
+      ],
+      "tags": [
+        "pancake",
+        "slapjack",
+        "breakfast",
+        "cornmeal",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5969.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "trifle-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "A Trifle",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 61 (IMG_5968)",
+      "description": "A colonial trifle with broken biscuit, rusk, spiced cake, wine, custard, and syllabub.",
+      "servings_yield": "1 trifle",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "biscuit",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "finely broken"
+        },
+        {
+          "item": "rusk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "spiced cake",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "wine",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to wet"
+        },
+        {
+          "item": "boiled custard",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "good, not too thick"
+        },
+        {
+          "item": "syllabub",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "jelly",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        },
+        {
+          "item": "flowers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Fill a dish with biscuit finely broken, rusk and spiced cake, wet with wine."
+        },
+        {
+          "step": 2,
+          "text": "Then pour a good boil'd custard (not too thick) over the rusk."
+        },
+        {
+          "step": 3,
+          "text": "Put a syllabub over that; garnish with jelly and flowers."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "dish",
+      "notes": [
+        "Original 1796 recipe",
+        "A classic English dessert adapted for American kitchens"
+      ],
+      "tags": [
+        "trifle",
+        "dessert",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5968.jpeg"
       ],
       "nutrition": {
         "status": "insufficient_data",
