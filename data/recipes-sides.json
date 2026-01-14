@@ -439,13 +439,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 405,
+          "calories": 403,
           "fat_g": 13.4,
-          "carbs_g": 67.9,
+          "carbs_g": 67.3,
           "protein_g": 4.7,
-          "sodium_mg": 418,
+          "sodium_mg": 416,
           "fiber_g": 10.0,
-          "sugar_g": 19.8
+          "sugar_g": 19.3
         },
         "missing_inputs": [
           "1/4 cup orange juice or orange liqueur"
@@ -12122,19 +12122,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 139,
+          "calories": 151,
           "fat_g": 12.4,
-          "carbs_g": 4.3,
+          "carbs_g": 7.5,
           "protein_g": 4.0,
           "sodium_mg": 405,
           "fiber_g": 0.3,
-          "sugar_g": 2.4
+          "sugar_g": 5.5
         },
-        "missing_inputs": [
-          "1 tbsp honey or sugar"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
@@ -14052,16 +14050,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 14,
+          "calories": 16,
           "fat_g": 0.0,
-          "carbs_g": 3.5,
+          "carbs_g": 3.6,
           "protein_g": 0.1,
           "sodium_mg": 436,
           "fiber_g": 0.1,
           "sugar_g": 3.2
         },
         "missing_inputs": [
-          "1/4 cup vinegar or lemon juice",
           "3/4 cup salad oil"
         ],
         "assumptions": [
@@ -16854,13 +16851,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 83,
+          "calories": 82,
           "fat_g": 4.3,
-          "carbs_g": 8.8,
+          "carbs_g": 8.7,
           "protein_g": 2.7,
           "sodium_mg": 102,
           "fiber_g": 0.9,
-          "sugar_g": 5.6
+          "sugar_g": 5.5
         },
         "missing_inputs": [
           "2  kaf\ufb01r lime leafs",
@@ -17686,18 +17683,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
+          "calories": 48,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 12.5,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 12.5
         },
         "missing_inputs": [
           "1/4 tsp Four ripeorthree green peppers,",
           "1 tsp Two tablespoonsful ofsalt.",
-          "1/4 cup Two tablespoonsful ofsugar.",
           "1/2 tsp One tablespoonful ofcinnamon,",
           "Three cups ofvinegar."
         ],
@@ -22245,17 +22241,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 387,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 100.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 1,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 100.0
         },
         "missing_inputs": [
-          "1 quart ofredcurrants andthesame ofredraspber-",
-          "2 cup ofwhitesugar."
+          "1 quart ofredcurrants andthesame ofredraspber-"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -23614,20 +23609,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 9,
-          "fat_g": 0.0,
+          "calories": 34,
+          "fat_g": 2.9,
           "carbs_g": 1.9,
-          "protein_g": 0.2,
-          "sodium_mg": 581,
+          "protein_g": 0.3,
+          "sodium_mg": 601,
           "fiber_g": 0.1,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "3  or 4 potatoes Vegetable-knife",
-          "1  ^cupsmilk Baking-dish",
-          "1  %tablespoons butter"
+          "1  ^cupsmilk Baking-dish"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -24167,13 +24161,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 194,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 50.0,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 50.0
         },
         "missing_inputs": [
           "1  Putthesugar inthefrymg-pan"
