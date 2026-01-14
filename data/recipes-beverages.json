@@ -785,16 +785,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 129,
-          "fat_g": 0.0,
-          "carbs_g": 34.9,
-          "protein_g": 0.1,
+          "calories": 137,
+          "fat_g": 0.1,
+          "carbs_g": 37.4,
+          "protein_g": 0.4,
           "sodium_mg": 2,
-          "fiber_g": 0.0,
-          "sugar_g": 34.8
+          "fiber_g": 1.0,
+          "sugar_g": 35.5
         },
         "missing_inputs": [
-          "2  lemons, juiced",
           "2 cups apricot nectar",
           "1 cup vodka (optional)",
           "1 bottle sparkling apple juice",
@@ -1321,16 +1320,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.1,
-          "carbs_g": 3.5,
-          "protein_g": 0.5,
+          "calories": 136,
+          "fat_g": 0.5,
+          "carbs_g": 33.5,
+          "protein_g": 2.5,
           "sodium_mg": 2,
-          "fiber_g": 1.1,
-          "sugar_g": 0.8
+          "fiber_g": 7.1,
+          "sugar_g": 24.8
         },
         "missing_inputs": [
-          "2  oranges",
           "1 small piece ginger"
         ],
         "assumptions": [
@@ -3425,20 +3423,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 459,
           "fat_g": 2.7,
           "carbs_g": 109.0,
           "protein_g": 3.1,
-          "sodium_mg": 646,
+          "sodium_mg": 961,
           "fiber_g": 0.4,
           "sugar_g": 106.7
         },
         "missing_inputs": [
           "1 cup soft shortening",
-          "3  \u00bd cups sifted GOLD MEDAL Flour",
-          "1 tsp soda"
+          "3  \u00bd cups sifted GOLD MEDAL Flour"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -4320,18 +4317,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 387,
-          "fat_g": 0.0,
-          "carbs_g": 100.0,
-          "protein_g": 0.0,
-          "sodium_mg": 1,
-          "fiber_g": 0.0,
-          "sugar_g": 100.0
+          "calories": 400,
+          "fat_g": 0.1,
+          "carbs_g": 104.2,
+          "protein_g": 0.2,
+          "sodium_mg": 2,
+          "fiber_g": 0.2,
+          "sugar_g": 101.5
         },
         "missing_inputs": [
-          "1 cup (half pint) lemon juice.",
           "1  lemon cutinvery thin slices.",
-          "1  orange cutinvery thin slices."
+          "1  orange cutinvery thin slices.",
+          "4 quarts water."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -4565,7 +4562,8 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3  rounding tablespoons ground coffee."
+          "3  rounding tablespoons ground coffee.",
+          "1 pint water."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -5198,18 +5196,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 16,
+          "fat_g": 0.1,
+          "carbs_g": 3.8,
+          "protein_g": 0.2,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 0.8,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
           "One gallon ofcider,",
           "Three bananas^ cutintothin slices.",
-          "Two oranges, cutintothin slices.",
           "Three baked apples, cutinto bits."
         ],
         "assumptions": [

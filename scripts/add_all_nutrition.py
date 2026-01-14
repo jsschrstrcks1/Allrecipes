@@ -104,7 +104,8 @@ NUTRITION_DB = {
     # =========================================================================
     "butter": {"cup": {"cal": 1628, "fat": 184, "carbs": 0, "protein": 2, "sodium": 1246, "fiber": 0, "sugar": 0},
               "tbsp": {"cal": 102, "fat": 11.5, "carbs": 0, "protein": 0.1, "sodium": 78, "fiber": 0, "sugar": 0},
-              "tsp": {"cal": 34, "fat": 4, "carbs": 0, "protein": 0, "sodium": 26, "fiber": 0, "sugar": 0}},
+              "tsp": {"cal": 34, "fat": 4, "carbs": 0, "protein": 0, "sodium": 26, "fiber": 0, "sugar": 0},
+              "": {"cal": 102, "fat": 11.5, "carbs": 0, "protein": 0.1, "sodium": 78, "fiber": 0, "sugar": 0}},
     "margarine": {"tbsp": {"cal": 100, "fat": 11, "carbs": 0, "protein": 0, "sodium": 90, "fiber": 0, "sugar": 0}},
     "vegetable oil": {"cup": {"cal": 1927, "fat": 218, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
                      "tbsp": {"cal": 120, "fat": 14, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
@@ -426,9 +427,11 @@ NUTRITION_DB = {
     "salt": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 2325, "fiber": 0, "sugar": 0},
             "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 6975, "fiber": 0, "sugar": 0},
             "pinch": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 150, "fiber": 0, "sugar": 0},
-            "to taste": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 300, "fiber": 0, "sugar": 0}},
+            "to taste": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 300, "fiber": 0, "sugar": 0},
+            "": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 300, "fiber": 0, "sugar": 0}},
     "pepper": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.5, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0},
-              "to taste": {"cal": 1, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0}},
+              "to taste": {"cal": 1, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0},
+              "": {"cal": 1, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0}},
     "black pepper": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.5, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
     "garlic powder": {"tsp": {"cal": 10, "fat": 0, "carbs": 2, "protein": 0.5, "sodium": 2, "fiber": 0.3, "sugar": 0}},
     "onion powder": {"tsp": {"cal": 8, "fat": 0, "carbs": 2, "protein": 0.2, "sodium": 2, "fiber": 0.2, "sugar": 0.4}},
@@ -504,6 +507,32 @@ NUTRITION_DB = {
     "tortilla chips": {"cup": {"cal": 267, "fat": 14, "carbs": 33, "protein": 3, "sodium": 179, "fiber": 2, "sugar": 0}},
     "potato chips": {"cup": {"cal": 274, "fat": 19, "carbs": 25, "protein": 3, "sodium": 303, "fiber": 2, "sugar": 1}},
     "french fried onions": {"cup": {"cal": 320, "fat": 24, "carbs": 24, "protein": 4, "sodium": 520, "fiber": 2, "sugar": 4}},
+
+    # Cooking sprays & zests
+    "cooking spray": {"": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "nonstick spray": {"": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "lemon zest": {"tsp": {"cal": 1, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0.1},
+                   "tbsp": {"cal": 3, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.4, "sugar": 0.2}},
+    "orange zest": {"tsp": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0, "sodium": 0, "fiber": 0.2, "sugar": 0.2},
+                    "tbsp": {"cal": 6, "fat": 0, "carbs": 1.5, "protein": 0.1, "sodium": 0, "fiber": 0.6, "sugar": 0.4}},
+    "lime zest": {"tsp": {"cal": 1, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0.1},
+                  "tbsp": {"cal": 3, "fat": 0, "carbs": 0.9, "protein": 0, "sodium": 0, "fiber": 0.3, "sugar": 0.2}},
+    "onion juice": {"tbsp": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 1, "fiber": 0, "sugar": 0.4},
+                    "tsp": {"cal": 1, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0.1}},
+    "grated onion": {"tbsp": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 1, "fiber": 0.1, "sugar": 0.4}},
+
+    # Cream and creamed soups
+    "cream": {"cup": {"cal": 821, "fat": 88, "carbs": 7, "protein": 5, "sodium": 89, "fiber": 0, "sugar": 7}},
+    "whipped topping": {"cup": {"cal": 239, "fat": 19, "carbs": 17, "protein": 1, "sodium": 5, "fiber": 0, "sugar": 14}},
+    "cool whip": {"cup": {"cal": 239, "fat": 19, "carbs": 17, "protein": 1, "sodium": 5, "fiber": 0, "sugar": 14}},
+    "cream of chicken soup": {"can": {"cal": 226, "fat": 14, "carbs": 18, "protein": 6, "sodium": 1764, "fiber": 1, "sugar": 2}},
+    "cream of mushroom soup": {"can": {"cal": 260, "fat": 18, "carbs": 18, "protein": 4, "sodium": 1740, "fiber": 2, "sugar": 4}},
+    "cream of celery soup": {"can": {"cal": 180, "fat": 10, "carbs": 18, "protein": 2, "sodium": 1760, "fiber": 2, "sugar": 4}},
+    "tomato soup": {"can": {"cal": 160, "fat": 2, "carbs": 34, "protein": 4, "sodium": 1400, "fiber": 2, "sugar": 20}},
+
+    # Pinch/dash for minimal seasonings
+    "pinch": {"": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 75, "fiber": 0, "sugar": 0}},
+    "dash": {"": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 75, "fiber": 0, "sugar": 0}},
 }
 
 # =============================================================================
@@ -598,6 +627,47 @@ def normalize_ingredient(item):
         return ""
 
     item = str(item).lower().strip()
+
+    # Fix unicode fractions
+    unicode_fractions = {
+        '½': '1/2', '¼': '1/4', '¾': '3/4', '⅓': '1/3', '⅔': '2/3',
+        '⅛': '1/8', '⅜': '3/8', '⅝': '5/8', '⅞': '7/8'
+    }
+    for uf, replacement in unicode_fractions.items():
+        item = item.replace(uf, replacement)
+
+    # Fix common OCR quirks in ingredient text
+    ocr_fixes = [
+        (r'^ful[s]?\s+of\s*', ''),           # item starts with "ful of" (OCR artifact)
+        (r'^ful[s]?\s+', ''),                # item starts with "ful " (OCR artifact)
+        (r'\btsp\s*ful\s*of\b', ''),         # "tsp ful of" -> ""
+        (r'\btbsp\s*ful[s]?\s*of\b', ''),    # "tbsp fuls of" -> ""
+        (r'\btsp\s*ful\b', ''),              # "tsp ful" -> ""
+        (r'\btbsp\s*ful[s]?\b', ''),         # "tbsp fuls" -> ""
+        (r'\btblsp\.?\b', ''),               # "tblsp" -> ""
+        (r'\blevel\s+tablespoonful[s]?\s+of\b', ''),  # "level tablespoonfuls of"
+        (r'\blevel\s+teaspoonful[s]?\s+of\b', ''),    # "level teaspoonfuls of"
+        (r'\bsaltspoonful\s+of\b', ''),      # "saltspoonful of" -> ""
+        (r'\bfew\s+grains\b', ''),           # "few grains" -> ""
+        (r'\bdash\s+of\b', ''),              # "dash of" -> ""
+        (r'\bdash\s+', ''),                  # "dash " embedded in item
+        (r'\bpinch\s+', ''),                 # "pinch " embedded in item
+        (r'\btsp\.?\s+', ''),                # "tsp " or "tsp. " embedded in item
+        (r'\btbsp\.?\s+', ''),               # "tbsp " embedded in item
+        (r'\bcup[s]?\s+', ''),               # "cup " embedded in item
+        (r'\bpint[s]?\s+', ''),              # "pint " embedded in item
+        (r'\bquart[s]?\s+', ''),             # "quart " embedded in item
+        (r'\bpound[s]?\s+', ''),             # "pound " embedded in item
+        (r'\s+of\s+', ' '),                  # " of " -> " "
+        (r'\s*\.\s*$', ''),                  # trailing period
+        (r'\s*\.\s+', ' '),                  # period in middle
+        (r'-\s+', ' '),                      # hyphen with trailing space (OCR line-break)
+        (r'\s+-', ' '),                      # space before hyphen
+        (r',\s*$', ''),                      # trailing comma
+        (r'\s{2,}', ' '),                    # multiple spaces
+    ]
+    for pattern, replacement in ocr_fixes:
+        item = re.sub(pattern, replacement, item)
 
     # Remove prep notes after comma
     if "," in item:
@@ -845,6 +915,34 @@ def normalize_ingredient(item):
         "skinless trout": "trout",
         "skinless salmon": "salmon",
 
+        # Leavening
+        "soda": "baking soda",
+        "bicarbonate of soda": "baking soda",
+        "bicarb": "baking soda",
+        "dry active yeast": "yeast",
+        "dry yeast": "yeast",
+
+        # Citrus zest
+        "lemon rind": "lemon zest",
+        "grated lemon rind": "lemon zest",
+        "lemon peel": "lemon zest",
+        "orange rind": "orange zest",
+        "grated orange rind": "orange zest",
+        "orange peel": "orange zest",
+        "lime rind": "lime zest",
+        "grated lime rind": "lime zest",
+
+        # Salt & pepper
+        "salt and pepper": "salt",
+        "salt & pepper": "salt",
+        "kosher salt and pepper": "salt",
+        "kosher salt and freshly ground pepper": "salt",
+        "salt and freshly ground pepper": "salt",
+        "salt and freshly ground black pepper": "salt",
+        "salt to taste": "salt",
+        "pepper to taste": "pepper",
+        "paprika": "paprika",
+
         # Misc
         "fresh lemon juice": "lemon juice",
         "fresh lime juice": "lime juice",
@@ -856,6 +954,43 @@ def normalize_ingredient(item):
         "thick cut bacon": "bacon",
         "turkey bacon": "bacon",
         "center-cut bacon": "bacon",
+
+        # Cooking spray
+        "cooking spray": "cooking spray",
+        "nonstick cooking spray": "cooking spray",
+        "non-stick cooking spray": "cooking spray",
+        "vegetable cooking spray": "cooking spray",
+        "butter flavored cooking spray": "cooking spray",
+
+        # Pie crust
+        "savory deep dish pie crust": "pie crust",
+        "deep dish pie crust": "pie crust",
+        "9-inch pie crust": "pie crust",
+        "unbaked pie crust": "pie crust",
+        "prepared pie crust": "pie crust",
+        "refrigerated pie crust": "pie crust",
+
+        # Creamed soups
+        "cream chicken soup": "cream of chicken soup",
+        "cream mushroom soup": "cream of mushroom soup",
+        "cream celery soup": "cream of celery soup",
+
+        # Tortillas
+        "large flour tortillas": "flour tortilla",
+        "flour tortillas": "flour tortilla",
+        "corn tortillas": "corn tortilla",
+        "10-inch flour tortillas": "flour tortilla",
+        "8-inch flour tortillas": "flour tortilla",
+
+        # Lemons/citrus
+        "lemons": "lemon",
+        "limes": "lime",
+        "oranges": "orange",
+
+        # Gelatin
+        "envelope unflavored gelatin": "gelatin",
+        "packet unflavored gelatin": "gelatin",
+        "unflavored gelatine": "gelatin",
     }
 
     # Check for exact match first

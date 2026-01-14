@@ -74,17 +74,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 51,
+          "calories": 52,
           "fat_g": 5.8,
-          "carbs_g": 0.1,
+          "carbs_g": 0.2,
           "protein_g": 0.1,
           "sodium_mg": 330,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 lb trimmed Brussels sprouts, halved lengthwise",
-          "1 tsp grated lemon rind"
+          "1 lb trimmed Brussels sprouts, halved lengthwise"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -439,19 +438,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 38,
-          "fat_g": 0.0,
+          "calories": 155,
+          "fat_g": 13.2,
           "carbs_g": 10.0,
-          "protein_g": 0.1,
-          "sodium_mg": 168,
+          "protein_g": 0.2,
+          "sodium_mg": 258,
           "fiber_g": 1.0,
           "sugar_g": 8.2
         },
         "missing_inputs": [
           "1/4 cup orange juice or orange liqueur",
-          "8 tbsp (1 stick) butter",
           "4-5 lbs sweet potatoes"
         ],
         "assumptions": [
@@ -9917,22 +9915,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 20,
-          "fat_g": 1.1,
-          "carbs_g": 1.6,
-          "protein_g": 1.2,
-          "sodium_mg": 121,
-          "fiber_g": 0.0,
+          "calories": 79,
+          "fat_g": 6.8,
+          "carbs_g": 3.2,
+          "protein_g": 1.5,
+          "sodium_mg": 450,
+          "fiber_g": 0.1,
           "sugar_g": 1.5
         },
         "missing_inputs": [
-          "2 tbsp fuls of butter",
-          "1  yolk of an egg",
-          "1  saltspoonful of pepper",
-          "1 tbsp ful of flour",
-          "1/2 tsp ful of salt"
+          "1  yolk of an egg"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10007,22 +10001,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
+          "calories": 65,
+          "fat_g": 5.8,
+          "carbs_g": 3.1,
+          "protein_g": 0.5,
+          "sodium_mg": 330,
+          "fiber_g": 0.1,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 tbsp fuls of butter",
-          "1/2 pint milk",
-          "2 tbsp fuls of flour",
-          "1/2 tsp ful of salt",
-          "1  saltspoonful of pepper"
+          "1/2 pint milk"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10183,22 +10173,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.1,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.1,
+          "calories": 117,
+          "fat_g": 11.6,
+          "carbs_g": 3.2,
+          "protein_g": 0.5,
+          "sodium_mg": 369,
+          "fiber_g": 0.2,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "4 tbsp fuls of butter",
           "1/2 pint stock",
           "1  glass of white wine",
-          "1/2 tsp ful of salt",
-          "2 tbsp fuls of flour",
           "2  chopped truffles",
-          "1  saltspoonful of pepper",
           "1 tsp ful of kitchen bouquet"
         ],
         "assumptions": [
@@ -10300,21 +10286,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 29,
-          "fat_g": 1.3,
+          "calories": 80,
+          "fat_g": 7.0,
           "carbs_g": 2.6,
           "protein_g": 1.8,
-          "sodium_mg": 19,
+          "sodium_mg": 639,
           "fiber_g": 0.5,
           "sugar_g": 1.4
         },
         "missing_inputs": [
           "2 cup mashed potatoes",
           "1  qt. stale bread",
-          "2  tblsp. butter",
           "\u00bd cup celery",
           "1  tblsp. minced parsley",
-          "1 tsp . salt",
           "pinch of pepper"
         ],
         "assumptions": [
@@ -10398,20 +10382,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 37,
-          "fat_g": 2.0,
+          "calories": 88,
+          "fat_g": 7.8,
           "carbs_g": 3.0,
           "protein_g": 2.0,
-          "sodium_mg": 26,
+          "sodium_mg": 140,
           "fiber_g": 0.0,
           "sugar_g": 3.0
         },
         "missing_inputs": [
-          "2  tblsp. butter",
           "2  tblsp. flour",
           "\u00bc cup grated horseradish",
-          "\u00bc tsp. dry mustard",
-          "salt and pepper"
+          "\u00bc tsp. dry mustard"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10486,15 +10468,14 @@
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 75,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "2  or 3 lbs. ham or ham bone",
           "1  qt. green string beans",
-          "potatoes",
-          "salt and pepper"
+          "potatoes"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10581,21 +10562,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 59,
           "fat_g": 3.2,
-          "carbs_g": 3.5,
+          "carbs_g": 3.6,
           "protein_g": 4.0,
-          "sodium_mg": 142,
+          "sodium_mg": 723,
           "fiber_g": 1.0,
           "sugar_g": 2.5
         },
         "missing_inputs": [
           "1  qt. string beans",
-          "3 medium onions",
-          "1 tsp . salt",
-          "\u00bc tsp. pepper"
+          "3 medium onions"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10690,19 +10669,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 86,
-          "fat_g": 4.0,
-          "carbs_g": 8.5,
-          "protein_g": 4.2,
-          "sodium_mg": 54,
+          "calories": 162,
+          "fat_g": 12.7,
+          "carbs_g": 8.6,
+          "protein_g": 4.3,
+          "sodium_mg": 1274,
           "fiber_g": 0.5,
           "sugar_g": 7.2
         },
         "missing_inputs": [
           "6  potatoes",
-          "2 tsp . salt",
-          "pepper",
-          "3  tblsp. butter",
           "2  tblsp. flour",
           "\u00be cup grated cheese"
         ],
@@ -10805,21 +10781,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 44,
-          "fat_g": 4.1,
-          "carbs_g": 0.1,
-          "protein_g": 1.6,
-          "sodium_mg": 38,
-          "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "calories": 70,
+          "fat_g": 6.9,
+          "carbs_g": 0.4,
+          "protein_g": 1.7,
+          "sodium_mg": 41,
+          "fiber_g": 0.1,
+          "sugar_g": 0.3
         },
         "missing_inputs": [
           "1  \u00bd cups cold mashed potatoes",
-          "2 tbsp cream",
           "corn meal",
           "\u00bc teaspoon salt",
-          "\u00bd teaspoon minced onion",
-          "dash of pepper"
+          "\u00bd teaspoon minced onion"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10914,21 +10888,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 110,
-          "fat_g": 6.5,
-          "carbs_g": 6.2,
-          "protein_g": 7.0,
-          "sodium_mg": 88,
+          "calories": 213,
+          "fat_g": 18.0,
+          "carbs_g": 6.3,
+          "protein_g": 7.1,
+          "sodium_mg": 241,
           "fiber_g": 0.0,
           "sugar_g": 6.2
         },
         "missing_inputs": [
           "2 lb s. spinach",
-          "4  tblsp. butter",
-          "salt",
           "2 cup bread crumbs",
-          "\u00bd cup chopped bacon",
-          "pepper"
+          "\u00bd cup chopped bacon"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11011,20 +10982,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 88,
-          "fat_g": 0.4,
+          "calories": 139,
+          "fat_g": 6.2,
           "carbs_g": 15.8,
           "protein_g": 6.0,
-          "sodium_mg": 5,
+          "sodium_mg": 119,
           "fiber_g": 5.2,
           "sugar_g": 6.0
         },
         "missing_inputs": [
           "12 small new potatoes",
-          "1  \u00bd tsp. salt",
           "1  \u00bd cups milk",
-          "1  \u00bd tsp. flour",
-          "2  tblsp. butter"
+          "1  \u00bd tsp. flour"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11123,13 +11092,12 @@
           "fat_g": 0.0,
           "carbs_g": 1.8,
           "protein_g": 0.2,
-          "sodium_mg": 1,
+          "sodium_mg": 76,
           "fiber_g": 0.2,
           "sugar_g": 0.8
         },
         "missing_inputs": [
           "2 cup navy beans",
-          "1  \u00bd tsp. salt",
           "4  tblsp. molasses",
           "1 tsp . dry mustard",
           "4  tblsp. catsup",
@@ -11215,7 +11183,7 @@
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 75,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
@@ -11223,8 +11191,7 @@
           "6 medium",
           "shortening",
           "3  raw green peppers",
-          "\u00bc teaspoon celery salt",
-          "salt and pepper"
+          "\u00bc teaspoon celery salt"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11319,19 +11286,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 25,
+          "calories": 26,
           "fat_g": 0.2,
-          "carbs_g": 5.5,
-          "protein_g": 0.9,
-          "sodium_mg": 4,
+          "carbs_g": 5.6,
+          "protein_g": 1.0,
+          "sodium_mg": 1181,
           "fiber_g": 1.4,
-          "sugar_g": 3.2
+          "sugar_g": 3.3
         },
         "missing_inputs": [
           "2 cup dried limas",
           "4 slices bacon or salt pork",
-          "2 tsp . salt",
-          "1 tsp . mustard",
           "2  tblsp. brown sugar"
         ],
         "assumptions": [
@@ -11437,7 +11402,7 @@
           "fat_g": 2.5,
           "carbs_g": 0.2,
           "protein_g": 3.0,
-          "sodium_mg": 36,
+          "sodium_mg": 110,
           "fiber_g": 0.0,
           "sugar_g": 0.2
         },
@@ -11447,7 +11412,6 @@
           "\u00bd cup sweet milk",
           "2  \u00bd cups flour",
           "1  \u00bd tblsp. shortening",
-          "\u00bd tsp. salt",
           "\u215b tsp. nutmeg",
           "1  tblsp. baking powder"
         ],
@@ -11752,22 +11716,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 20,
-          "fat_g": 1.1,
-          "carbs_g": 1.6,
-          "protein_g": 1.2,
-          "sodium_mg": 121,
-          "fiber_g": 0.0,
+          "calories": 79,
+          "fat_g": 6.8,
+          "carbs_g": 3.2,
+          "protein_g": 1.5,
+          "sodium_mg": 450,
+          "fiber_g": 0.1,
           "sugar_g": 1.5
         },
         "missing_inputs": [
-          "2 tbsp fuls of butter",
-          "1  yolk of an egg",
-          "1  saltspoonful of pepper",
-          "1 tbsp ful of flour",
-          "1/2 tsp ful of salt"
+          "1  yolk of an egg"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11840,22 +11800,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
+          "calories": 65,
+          "fat_g": 5.8,
+          "carbs_g": 3.1,
+          "protein_g": 0.5,
+          "sodium_mg": 330,
+          "fiber_g": 0.1,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 tbsp fuls of butter",
-          "1/2 pint milk",
-          "2 tbsp fuls of flour",
-          "1/2 tsp ful of salt",
-          "1  saltspoonful of pepper"
+          "1/2 pint milk"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12012,22 +11968,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.1,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.1,
+          "calories": 117,
+          "fat_g": 11.6,
+          "carbs_g": 3.2,
+          "protein_g": 0.5,
+          "sodium_mg": 369,
+          "fiber_g": 0.2,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "4 tbsp fuls of butter",
           "1/2 pint stock",
           "1  glass of white wine",
-          "1/2 tsp ful of salt",
-          "2 tbsp fuls of flour",
           "2  chopped truffles",
-          "1  saltspoonful of pepper",
           "1 tsp ful of kitchen bouquet"
         ],
         "assumptions": [
@@ -12196,18 +12148,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 34,
-          "fat_g": 1.3,
-          "carbs_g": 3.1,
-          "protein_g": 3.3,
-          "sodium_mg": 394,
+          "calories": 137,
+          "fat_g": 12.3,
+          "carbs_g": 4.0,
+          "protein_g": 3.9,
+          "sodium_mg": 405,
           "fiber_g": 0.1,
-          "sugar_g": 1.4
+          "sugar_g": 2.2
         },
         "missing_inputs": [
-          "1/2 cup cream",
           "1 tbsp honey or sugar",
           "Dash paprika"
         ],
@@ -12380,14 +12331,13 @@
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.1,
           "protein_g": 0.0,
           "sodium_mg": 291,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "few grains Pepper",
           "1/2 cup Carnation"
         ],
         "assumptions": [
@@ -12715,16 +12665,15 @@
         "per_serving": {
           "calories": 121,
           "fat_g": 7.7,
-          "carbs_g": 7.8,
+          "carbs_g": 7.9,
           "protein_g": 5.1,
-          "sodium_mg": 87,
+          "sodium_mg": 162,
           "fiber_g": 0.1,
           "sugar_g": 4.8
         },
         "missing_inputs": [
           "6  potatoes",
-          "1  \u00bd tsp. salt",
-          "Few grains pepper",
+          "1  \u00bc cups water",
           "Bread crumbs",
           "6  pork chops"
         ],
@@ -13677,7 +13626,7 @@
         "per_serving": {
           "calories": 51,
           "fat_g": 5.8,
-          "carbs_g": 0.0,
+          "carbs_g": 0.1,
           "protein_g": 0.1,
           "sodium_mg": 184,
           "fiber_g": 0.0,
@@ -13686,7 +13635,6 @@
         "missing_inputs": [
           "8  carrots",
           "8  onions",
-          "Dash of pepper",
           "1/4 cup GRANDMA\u2019S MOLASSES"
         ],
         "assumptions": [
@@ -13760,20 +13708,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 552,
+          "calories": 554,
           "fat_g": 61.8,
-          "carbs_g": 0.8,
+          "carbs_g": 1.2,
           "protein_g": 1.2,
           "sodium_mg": 422,
-          "fiber_g": 0.0,
-          "sugar_g": 0.8
+          "fiber_g": 0.2,
+          "sugar_g": 0.9
         },
         "missing_inputs": [
           "2  \u00bc cups sifted confectioners\u2019 sugar",
-          "2 tbsp GRANDMA\u2019S MOLASSES",
-          "1 tsp flavoring or \u00bd teaspoon grated orange rind"
+          "2 tbsp GRANDMA\u2019S MOLASSES"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -14345,18 +14292,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 7,
+          "calories": 8,
           "fat_g": 0.0,
-          "carbs_g": 0.1,
+          "carbs_g": 0.4,
           "protein_g": 0.0,
           "sodium_mg": 1163,
           "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "sugar_g": 0.2
         },
         "missing_inputs": [
           "1  \u00bc cups sugar",
           "2 tsp dry mustard",
-          "1 tbsp onion juice",
           "2 cup salad oil",
           "2 tbsp celery seed"
         ],
@@ -14757,12 +14703,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 151,
+          "calories": 152,
           "fat_g": 7.1,
           "carbs_g": 17.4,
           "protein_g": 3.8,
-          "sodium_mg": 900,
-          "fiber_g": 0.1,
+          "sodium_mg": 882,
+          "fiber_g": 0.6,
           "sugar_g": 1.0
         },
         "missing_inputs": [
@@ -14881,19 +14827,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 279,
-          "fat_g": 22.9,
+          "calories": 285,
+          "fat_g": 23.6,
           "carbs_g": 12.1,
           "protein_g": 7.9,
-          "sodium_mg": 120,
+          "sodium_mg": 125,
           "fiber_g": 0.1,
           "sugar_g": 10.9
         },
         "missing_inputs": [
           "2 small frye r chickens",
-          "1/4 lb butter or margarine",
           "1/4 cup sherry"
         ],
         "assumptions": [
@@ -15242,16 +15187,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
+          "calories": 51,
+          "fat_g": 5.8,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 291,
+          "protein_g": 0.1,
+          "sodium_mg": 330,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 stick butter",
           "1/2 cup cider vinegar",
           "1/2 cup ketchup",
           "2 bottle prepared horseradish (9 oz)",
@@ -15363,17 +15307,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 283,
-          "fat_g": 6.0,
+          "calories": 309,
+          "fat_g": 8.9,
           "carbs_g": 0.6,
           "protein_g": 52.6,
-          "sodium_mg": 432,
+          "sodium_mg": 452,
           "fiber_g": 0.2,
           "sugar_g": 0.2
         },
         "missing_inputs": [
           "1 bag potato chips",
-          "1 stick butter",
           "1/2 tsp garlic salt",
           "1/2 tsp onion salt"
         ],
@@ -16082,12 +16025,11 @@
           "fat_g": 0.0,
           "carbs_g": 0.8,
           "protein_g": 0.1,
-          "sodium_mg": 1,
+          "sodium_mg": 38,
           "fiber_g": 0.1,
           "sugar_g": 0.2
         },
         "missing_inputs": [
-          "1/2 cup salt",
           "1/2 stick oleo"
         ],
         "assumptions": [
@@ -16355,13 +16297,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 216,
-          "fat_g": 13.0,
-          "carbs_g": 17.8,
-          "protein_g": 6.8,
-          "sodium_mg": 1333,
-          "fiber_g": 0.5,
-          "sugar_g": 6.8
+          "calories": 232,
+          "fat_g": 14.0,
+          "carbs_g": 18.8,
+          "protein_g": 6.5,
+          "sodium_mg": 1362,
+          "fiber_g": 1.2,
+          "sugar_g": 7.8
         },
         "missing_inputs": [
           "1 1/2 cup regular rice",
@@ -16670,8 +16612,8 @@
           "fat_g": 7.0,
           "carbs_g": 9.6,
           "protein_g": 3.0,
-          "sodium_mg": 901,
-          "fiber_g": 0.0,
+          "sodium_mg": 883,
+          "fiber_g": 0.5,
           "sugar_g": 1.2
         },
         "missing_inputs": [
@@ -17390,7 +17332,6 @@
         "missing_inputs": [
           "2 tbsp all-purpose \ufb02our",
           "1  \u00bd cups vegetable broth",
-          "1/4 tsp \u00bd tsp cayenne pepper",
           "6  leaves fresh sage"
         ],
         "assumptions": [
@@ -17532,21 +17473,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 225,
+          "fat_g": 3.2,
+          "carbs_g": 51.5,
+          "protein_g": 0.6,
+          "sodium_mg": 21,
+          "fiber_g": 0.9,
+          "sugar_g": 50.0
         },
-        "missing_inputs": [
-          "1 tbsp ful ofbutter,",
-          "1 cup ful ofsugar,",
-          "2 tbsp ful ofcocoa,"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -18106,19 +18043,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
+          "calories": 3,
           "fat_g": 0.0,
-          "carbs_g": 0.1,
+          "carbs_g": 0.7,
           "protein_g": 0.0,
           "sodium_mg": 727,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 0.6
         },
-        "missing_inputs": [
-          "1 tsp powdered sugar."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -18293,20 +18228,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
+          "calories": 43,
+          "fat_g": 3.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 3.0,
+          "sodium_mg": 137,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "4 large potatoes,",
-          "4 tbsp grated cheese,",
-          "4 slices bacon."
+          "4 tbsp grated cheese,"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -19109,13 +19043,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 69,
+          "calories": 70,
           "fat_g": 1.5,
-          "carbs_g": 0.2,
+          "carbs_g": 0.4,
           "protein_g": 13.1,
-          "sodium_mg": 30,
-          "fiber_g": 0.1,
-          "sugar_g": 0.1
+          "sodium_mg": 31,
+          "fiber_g": 0.2,
+          "sugar_g": 0.2
         },
         "missing_inputs": [
           "1/2  \" slices",
@@ -19123,7 +19057,6 @@
           "1  c chopped onion 1 c chopped celery",
           "1  tbs chopped parsley 1 (8 oz) can tomato sauce",
           "1 tsp garlic salt 1/2 tsp pepper",
-          "1/2 tsp Hungarian paprika 1/2 tsp dried thyme",
           "1/4 tsp red pepper 6 c uncooked rice"
         ],
         "assumptions": [
@@ -19803,22 +19736,20 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 63,
-          "fat_g": 7.0,
-          "carbs_g": 0.8,
-          "protein_g": 0.0,
-          "sodium_mg": 42,
-          "fiber_g": 0.0,
-          "sugar_g": 0.5
+          "calories": 107,
+          "fat_g": 7.2,
+          "carbs_g": 10.2,
+          "protein_g": 1.9,
+          "sodium_mg": 600,
+          "fiber_g": 2.1,
+          "sugar_g": 4.5
         },
         "missing_inputs": [
           "1 cup finely cutonion.",
           "2 tbsp finely cutgreen peppers.",
-          "2 cup tomato sauce.",
           "1 tbsp sugar; 2 teaspoons salt.",
           "1  /^teaspoon whole cloves andallspice.",
           "Small piecewhole mace.",
-          "2 tbsp flour.",
           "2 tbsp finely cutparsley.",
           "1 tbsp caramel."
         ],
@@ -20129,17 +20060,16 @@
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.1,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 1,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "2 cup stale bread.",
           "1 tbsp finely chopped onion.",
-          "1 tbsp drippings.",
-          "1 tbsp chopped parsley."
+          "1 tbsp drippings."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -20338,21 +20268,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 6,
-          "fat_g": 0.1,
-          "carbs_g": 1.2,
-          "protein_g": 0.2,
-          "sodium_mg": 2,
+          "calories": 33,
+          "fat_g": 1.1,
+          "carbs_g": 5.9,
+          "protein_g": 0.5,
+          "sodium_mg": 8,
           "fiber_g": 0.4,
-          "sugar_g": 0.8
+          "sugar_g": 3.9
         },
         "missing_inputs": [
-          "1 tbsp sugar.",
-          "1  levelteaspoon salt.",
-          "1 tsp butter.",
-          "1 tbsp flour."
+          "1  levelteaspoon salt."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -20570,22 +20497,20 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
+          "calories": 11,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
+          "sodium_mg": 1745,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
           "6 large , firm",
           "3 cup breadcrumbs orcoldboiled rice.",
           "1 cup grated strong American cheese.",
           "1 tbsp melted butter substitute.",
-          "1 tbsp grated onion.",
-          "1 tbsp finely cutparsley orgreen pepper.",
-          "1 tbsp salt."
+          "1 tbsp finely cutparsley orgreen pepper."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -20775,23 +20700,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 44,
+          "fat_g": 2.0,
+          "carbs_g": 4.6,
+          "protein_g": 2.2,
+          "sodium_mg": 608,
+          "fiber_g": 0.1,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
           "1 quart potatoes.",
-          "1 cup milk.",
-          "1 tbsp oleomargarine.",
-          "1 tbsp flour.",
-          "1 tsp salt.",
-          "1 tsp onion juice."
+          "1 tbsp oleomargarine."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -20977,19 +20898,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 11,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.2,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 0.1
         },
         "missing_inputs": [
           "1 lb tripe.",
-          "1 cup vinegar.",
           "1 cup liced onion."
         ],
         "assumptions": [
@@ -21099,22 +21019,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 50,
+          "fat_g": 0.4,
+          "carbs_g": 12.8,
+          "protein_g": 0.7,
+          "sodium_mg": 1747,
+          "fiber_g": 2.1,
+          "sugar_g": 5.5
         },
         "missing_inputs": [
           "1 lb lima beans.",
-          "14 lb saltporkorbacon.",
-          "2 tbsp molasses.",
-          "1 tbsp salt.",
-          "14 tsp pepper."
+          "14 lb saltporkorbacon."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -21189,20 +21106,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 16,
           "fat_g": 0.2,
-          "carbs_g": 3.5,
+          "carbs_g": 3.6,
           "protein_g": 1.0,
-          "sodium_mg": 4,
+          "sodium_mg": 5,
           "fiber_g": 1.0,
           "sugar_g": 2.5
         },
         "missing_inputs": [
           "8 slices cornmeal mush",
-          "2 tbsp grated cheese.",
-          "1 tbsp chopped parsley."
+          "2 tbsp grated cheese."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -21291,16 +21207,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 74,
+          "fat_g": 4.0,
+          "carbs_g": 6.0,
+          "protein_g": 4.0,
+          "sodium_mg": 52,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 6.0
         },
         "missing_inputs": [
-          "2 cup milk.",
           "2 tbsp finely chopped bacon orham fat.",
           "1  level tablespoon ofsalt.",
           "1 tbsp finely chopped parsley orcelery tops."
@@ -21654,18 +21569,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 34,
+          "fat_g": 2.9,
+          "carbs_g": 1.8,
+          "protein_g": 0.2,
+          "sodium_mg": 20,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "1 tbsp butter.",
-          "1 tbsp onion juice.",
-          "1 tbsp flour.",
           "1 tbsp chopped orgrated carrot.",
           "1  tea^oon salt",
           "1 tbsp chopped parley orlemon juice."
@@ -21866,15 +21778,14 @@
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.1,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 cup stewed dried peaches",
-          "1 tsp grated lemon rind."
+          "2 cup stewed dried peaches"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -22756,11 +22667,11 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.1,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
@@ -22768,8 +22679,7 @@
         },
         "missing_inputs": [
           "1 tbsp orange juice 2 tablespoons finely- 2 tablespoons finely-",
-          "1 tbsp lemon juice chopped green pepper chopped pimentoes",
-          "1 tsp onion juice"
+          "1 tbsp lemon juice chopped green pepper chopped pimentoes"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -24177,18 +24087,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 38,
-          "fat_g": 2.5,
-          "carbs_g": 0.7,
-          "protein_g": 3.0,
-          "sodium_mg": 36,
-          "fiber_g": 0.0,
-          "sugar_g": 0.4
+          "calories": 59,
+          "fat_g": 3.5,
+          "carbs_g": 4.9,
+          "protein_g": 4.0,
+          "sodium_mg": 42,
+          "fiber_g": 2.8,
+          "sugar_g": 2.1
         },
         "missing_inputs": [
           "1 tsp drymustard Bowl",
           "1/2  teaapoon salt Fork",
-          "14 tsp paprika Small saucepan",
           "4 tbsp butter Double-boiler",
           "2 tbsp vinegar Dover beater",
           "1/2 cup thickcream"
@@ -25197,20 +25106,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.1,
           "protein_g": 0.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "1  eggyolk",
-          "1/2  'teaspoonful salt juice orvinegar",
-          "1/4 tsp ful paprika 1 cupful olive oil"
+          "1/2  'teaspoonful salt juice orvinegar"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -25281,9 +25189,9 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 453,
+          "calories": 456,
           "fat_g": 51.2,
           "carbs_g": 0.0,
           "protein_g": 0.0,
@@ -25293,8 +25201,7 @@
         },
         "missing_inputs": [
           "2  eggyolks",
-          "1 tsp ful mustard y^teaspoonful black pepper",
-          "4 tbsp fuls vinegar"
+          "1 tsp ful mustard y^teaspoonful black pepper"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -27434,13 +27341,12 @@
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 75,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "cucumbers",
-          "salt",
           "water",
           "white wine vinegar",
           "cloves",
@@ -27549,20 +27455,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 31,
+          "fat_g": 0.1,
+          "carbs_g": 7.5,
+          "protein_g": 0.5,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 1.5,
+          "sugar_g": 6.0
         },
         "missing_inputs": [
           "1 peck quinces",
           "2 lb frost grapes",
           "3 quarts water",
-          "1 1/4 lb sugar",
-          "2  oranges"
+          "1 1/4 lb sugar"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -28148,21 +28053,19 @@
         "processed/img_5989.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 16,
-          "fat_g": 0.1,
+          "calories": 41,
+          "fat_g": 2.9,
           "carbs_g": 3.8,
-          "protein_g": 0.2,
-          "sodium_mg": 0,
+          "protein_g": 0.3,
+          "sodium_mg": 94,
           "fiber_g": 0.8,
           "sugar_g": 3.0
         },
         "missing_inputs": [
           "asparagus",
-          "salt",
-          "toast",
-          "melted butter"
+          "toast"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -28270,7 +28173,7 @@
           "fat_g": 22.3,
           "carbs_g": 1.5,
           "protein_g": 1.0,
-          "sodium_mg": 67,
+          "sodium_mg": 117,
           "fiber_g": 0.0,
           "sugar_g": 1.2
         },
@@ -28278,7 +28181,6 @@
           "1  medium onion",
           "4 ears corn",
           "1 tsp curry powder",
-          "salt and freshly ground black pepper",
           "1 can green chiles"
         ],
         "assumptions": [
@@ -28770,13 +28672,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 58,
-          "fat_g": 4.5,
-          "carbs_g": 3.5,
+          "calories": 65,
+          "fat_g": 5.1,
+          "carbs_g": 3.9,
           "protein_g": 1.0,
-          "sodium_mg": 225,
-          "fiber_g": 0.4,
-          "sugar_g": 1.1
+          "sodium_mg": 230,
+          "fiber_g": 0.6,
+          "sugar_g": 1.3
         },
         "missing_inputs": [
           "1 pkg (10 oz) frozen broccoli, chopped",
@@ -29219,7 +29121,7 @@
           "fat_g": 0.9,
           "carbs_g": 1.2,
           "protein_g": 0.4,
-          "sodium_mg": 4,
+          "sodium_mg": 54,
           "fiber_g": 0.4,
           "sugar_g": 0.5
         },
@@ -29227,8 +29129,6 @@
           "4  strips bacon",
           "3  medium potatoes, cubed",
           "1 pt sour cream",
-          "salt",
-          "pepper",
           "garlic salt",
           "1 can (4 oz) green chiles"
         ],
@@ -29508,7 +29408,7 @@
         "per_serving": {
           "calories": 3,
           "fat_g": 0.0,
-          "carbs_g": 0.7,
+          "carbs_g": 0.8,
           "protein_g": 0.1,
           "sodium_mg": 354,
           "fiber_g": 0.2,
@@ -29516,7 +29416,6 @@
         },
         "missing_inputs": [
           "6  zucchini (4-5 cups)",
-          "freshly ground pepper",
           "Parmesan cheese, grated",
           "oil for frying",
           "4  cloves garlic",
@@ -29723,11 +29622,11 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 55,
-          "fat_g": 2.5,
+          "calories": 72,
+          "fat_g": 4.4,
           "carbs_g": 2.0,
-          "protein_g": 6.2,
-          "sodium_mg": 205,
+          "protein_g": 6.3,
+          "sodium_mg": 218,
           "fiber_g": 0.0,
           "sugar_g": 1.2
         },
@@ -29738,8 +29637,7 @@
           "1  large onion, chopped",
           "6 large green chiles, chopped",
           "1 can (4 oz) black olives",
-          "Parmesan cheese, grated",
-          "butter"
+          "Parmesan cheese, grated"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -29826,12 +29724,12 @@
         "status": "insufficient_data",
         "per_serving": {
           "calories": 167,
-          "fat_g": 2.1,
-          "carbs_g": 32.8,
-          "protein_g": 3.2,
-          "sodium_mg": 276,
-          "fiber_g": 0.6,
-          "sugar_g": 0.3
+          "fat_g": 1.9,
+          "carbs_g": 33.0,
+          "protein_g": 3.0,
+          "sodium_mg": 295,
+          "fiber_g": 0.7,
+          "sugar_g": 0.7
         },
         "missing_inputs": [
           "1 carton (8 oz) sour cream",
@@ -30132,13 +30030,12 @@
           "fat_g": 12.4,
           "carbs_g": 2.0,
           "protein_g": 2.3,
-          "sodium_mg": 20,
+          "sodium_mg": 95,
           "fiber_g": 1.0,
           "sugar_g": 0.4
         },
         "missing_inputs": [
-          "2 cups pearled barley",
-          "dash salt"
+          "2 cups pearled barley"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -30211,19 +30108,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 60,
           "fat_g": 7.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 75,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "1 lb very young fava beans (leave in pods)",
-          "flour seasoned with salt and pepper for coating",
           "lemon wedges"
         ],
         "assumptions": [
