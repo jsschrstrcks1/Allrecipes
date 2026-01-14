@@ -5,7 +5,7 @@
     "created": "2026-01-05",
     "last_updated": "2026-01-14",
     "version": "3.0.0",
-    "total_recipes": 5245
+    "total_recipes": 5252
   },
   "recipes": [
     {
@@ -537225,6 +537225,694 @@
       },
       "image_refs": [
         "processed/img_5968.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cookies-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Cookies",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 63 (IMG_5971)",
+      "description": "One of the earliest recorded cookie recipes in America, flavored with pearl ash (early leavening) and coriander.",
+      "servings_yield": "several dozen",
+      "prep_time": "",
+      "cook_time": "15-20 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "boiled slowly in half pint water, scum well and cool"
+        },
+        {
+          "item": "pearl ash",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": "dissolved in milk"
+        },
+        {
+          "item": "flour",
+          "quantity": "2 1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "rub in"
+        },
+        {
+          "item": "coriander seed",
+          "quantity": "2",
+          "unit": "large spoons",
+          "prep_note": "finely powdered"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "One pound sugar boiled slowly in half pint water, scum well and cool."
+        },
+        {
+          "step": 2,
+          "text": "Add two tea spoons pearl ash dissolved in milk, then two and half pounds flour, rub in 4 ounces butter, and two large spoons of finely powdered coriander seed."
+        },
+        {
+          "step": 3,
+          "text": "Wet with above; make rolls half an inch thick and cut to the shape you please."
+        },
+        {
+          "step": 4,
+          "text": "Bake fifteen or twenty minutes in a slack oven\u2014good three weeks."
+        }
+      ],
+      "temperature": "slack oven (low heat)",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "One of the earliest American cookie recipes",
+        "Pearl ash was an early leavening agent (potassium carbonate)",
+        "Keeps good for three weeks"
+      ],
+      "tags": [
+        "cookies",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage",
+        "historic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5971.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "christmas-cookey-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Another Christmas Cookey",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 63-64 (IMG_5971-5972)",
+      "description": "An early American Christmas cookie recipe with coriander, ginger, and rose-water.",
+      "servings_yield": "several dozen",
+      "prep_time": "",
+      "cook_time": "15-20 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "flour",
+          "quantity": "3",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "coriander seed",
+          "quantity": "1",
+          "unit": "tea cup",
+          "prep_note": "fine powdered"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "rub in"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "pearl ash",
+          "quantity": "3",
+          "unit": "tsp",
+          "prep_note": "dissolved in tea cup of milk"
+        },
+        {
+          "item": "ginger",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "rose water",
+          "quantity": "4",
+          "unit": "spoons",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To three pound flour, sprinkle a tea cup of fine powdered coriander seed, rub in one pound butter, and one and half pound sugar."
+        },
+        {
+          "step": 2,
+          "text": "Dissolve three tea spoonfuls of pearl ash in a tea cup of milk, 4 ounces ginger, 4 spoons rose water."
+        },
+        {
+          "step": 3,
+          "text": "Knead all together well, roll three quarters of an inch thick, and cut or stamp into shape and size you please."
+        },
+        {
+          "step": 4,
+          "text": "Bake slowly fifteen or twenty minutes; tho' hard and dry at first, if put into an earthen pot, and dry cellar, or damp room, they will be finer, softer and better when six months old."
+        }
+      ],
+      "temperature": "slow (low heat)",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "These cookies improve with age - best at 6 months old!",
+        "Store in earthen pot in dry cellar"
+      ],
+      "tags": [
+        "cookies",
+        "christmas",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5971.jpeg",
+        "processed/img_5972.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "molasses-gingerbread-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Molasses Gingerbread",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 64 (IMG_5972)",
+      "description": "Traditional colonial molasses gingerbread, beaten until light and white.",
+      "servings_yield": "1 gingerbread",
+      "prep_time": "",
+      "cook_time": "15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "coriander or allspice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "some"
+        },
+        {
+          "item": "pearl ash",
+          "quantity": "4",
+          "unit": "tsp",
+          "prep_note": "dissolved in half pint water"
+        },
+        {
+          "item": "flour",
+          "quantity": "4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "molasses",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "One table spoon of cinnamon, some coriander or allspice, put to four tea spoons pearl ash, dissolved in half pint water, four pound flour, one quart molasses, four ounces butter."
+        },
+        {
+          "step": 2,
+          "text": "If in summer rub in the butter, if in winter, warm the butter and molasses and pour to the spiced flour."
+        },
+        {
+          "step": 3,
+          "text": "Knead well 'till stiff, the more the better, the lighter and whiter it will be."
+        },
+        {
+          "step": 4,
+          "text": "Bake brisk fifteen minutes; don't scorch; before it is put in, wash it with whites and sugar beat together."
+        }
+      ],
+      "temperature": "brisk (high heat)",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "Wash with egg white and sugar glaze before baking"
+      ],
+      "tags": [
+        "gingerbread",
+        "molasses",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5972.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gingerbread-cakes-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Gingerbread Cakes",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 64 (IMG_5972)",
+      "description": "Colonial gingerbread cakes with nutmeg, ginger, and pearl ash.",
+      "servings_yield": "several cakes",
+      "prep_time": "",
+      "cook_time": "15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "flour",
+          "quantity": "3",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "grated"
+        },
+        {
+          "item": "ginger",
+          "quantity": "2",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "pearl ash",
+          "quantity": "3",
+          "unit": "small spoons",
+          "prep_note": "dissolved in cream"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Three pounds of flour, a grated nutmeg, two ounces ginger, one pound sugar, three small spoons pearl ash dissolved in cream, one pound butter, four eggs."
+        },
+        {
+          "step": 2,
+          "text": "Knead it stiff, shape it to your fancy, bake 15 minutes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "Or use butter and sugar Gingerbread"
+      ],
+      "tags": [
+        "gingerbread",
+        "cakes",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5972.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "queens-cake-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Queens Cake",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 64 (IMG_5973)",
+      "description": "An elegant colonial cake whipped to a cream, baked quickly in pans.",
+      "servings_yield": "1 cake",
+      "prep_time": "",
+      "cook_time": "12-16 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "whip to a cream"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "10",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "wine",
+          "quantity": "1",
+          "unit": "glass",
+          "prep_note": ""
+        },
+        {
+          "item": "rose water",
+          "quantity": "1/2",
+          "unit": "gill",
+          "prep_note": ""
+        },
+        {
+          "item": "spices",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to your taste"
+        },
+        {
+          "item": "flour",
+          "quantity": "1 1/4",
+          "unit": "lb",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whip half pound butter to a cream, add 1 pound sugar, ten eggs, one glass wine, half gill rose water, and spices to your taste."
+        },
+        {
+          "step": 2,
+          "text": "All worked into one and a quarter pound flour, put into pans, cover with paper, and bake in a quick well heat oven, 12 or 16 minutes."
+        }
+      ],
+      "temperature": "quick well heat oven (hot)",
+      "pan_size": "pans",
+      "notes": [
+        "Original 1796 recipe",
+        "Cover with paper while baking"
+      ],
+      "tags": [
+        "cake",
+        "queens-cake",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5973.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "pound-cake-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pound Cake",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 64-65 (IMG_5973-5974)",
+      "description": "The classic pound cake - one pound each of sugar, butter, flour, and eggs.",
+      "servings_yield": "1 cake",
+      "prep_time": "",
+      "cook_time": "15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "10",
+          "unit": "",
+          "prep_note": "one pound or ten eggs"
+        },
+        {
+          "item": "rose water",
+          "quantity": "1",
+          "unit": "gill",
+          "prep_note": ""
+        },
+        {
+          "item": "spices",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to your taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "One pound sugar, one pound butter, one pound flour, one pound or ten eggs, rose water one gill, spices to your taste."
+        },
+        {
+          "step": 2,
+          "text": "Watch it well, it will bake in a slow oven in 15 minutes."
+        }
+      ],
+      "temperature": "slow oven",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "The classic 1:1:1:1 ratio pound cake"
+      ],
+      "tags": [
+        "cake",
+        "pound-cake",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5973.jpeg",
+        "processed/img_5974.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "shrewsbury-cake-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Shrewsbury Cake",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 65 (IMG_5974)",
+      "description": "A colonial adaptation of the English Shrewsbury cake, rolled into small cakes.",
+      "servings_yield": "several small cakes",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "mace",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "a little"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "mixed and beat with your hand, till very light"
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "One pound butter, three quarters of a pound sugar, a little mace, four eggs mixed and beat with your hand, till very light."
+        },
+        {
+          "step": 2,
+          "text": "Put the composition to one pound flour, roll into small cakes\u2014bake with a light oven."
+        }
+      ],
+      "temperature": "light oven (moderate)",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "Named after Shrewsbury, England"
+      ],
+      "tags": [
+        "cake",
+        "shrewsbury",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage",
+        "english"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5974.jpeg"
       ],
       "nutrition": {
         "status": "insufficient_data",
