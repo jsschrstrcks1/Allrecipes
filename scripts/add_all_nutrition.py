@@ -594,6 +594,177 @@ NUTRITION_DB = {
                    "cup": {"cal": 320, "fat": 1.6, "carbs": 80, "protein": 4.8, "sodium": 3200, "fiber": 3.2, "sugar": 48}},
     "pickles": {"cup": {"cal": 17, "fat": 0.2, "carbs": 3.7, "protein": 0.4, "sodium": 1208, "fiber": 1, "sugar": 2}},
     "pickle": {"": {"cal": 12, "fat": 0.1, "carbs": 2.7, "protein": 0.3, "sodium": 870, "fiber": 0.8, "sugar": 1}},
+
+    # =========================================================================
+    # ADDITIONAL FROM MomsRecipes DATABASE
+    # =========================================================================
+
+    # Meat variants & poultry
+    "chicken thighs": {"lb": {"cal": 900, "fat": 56, "carbs": 0, "protein": 80, "sodium": 340, "fiber": 0, "sugar": 0}},
+    "extra-lean ground beef": {"lb": {"cal": 800, "fat": 48, "carbs": 0, "protein": 88, "sodium": 300, "fiber": 0, "sugar": 0}},
+    "pork chops": {"oz": {"cal": 52, "fat": 2.5, "carbs": 0, "protein": 7, "sodium": 18, "fiber": 0, "sugar": 0},
+                   "": {"cal": 231, "fat": 13, "carbs": 0, "protein": 26, "sodium": 62, "fiber": 0, "sugar": 0}},
+    "spareribs": {"lb": {"cal": 1200, "fat": 96, "carbs": 0, "protein": 80, "sodium": 400, "fiber": 0, "sugar": 0}},
+    "lamb": {"lb": {"cal": 1100, "fat": 80, "carbs": 0, "protein": 88, "sodium": 280, "fiber": 0, "sugar": 0}},
+    "andouille sausage": {"oz": {"cal": 90, "fat": 8, "carbs": 1, "protein": 4, "sodium": 300, "fiber": 0, "sugar": 0}},
+    "tofu": {"oz": {"cal": 22, "fat": 1.3, "carbs": 0.5, "protein": 2, "sodium": 2, "fiber": 0, "sugar": 0},
+             "cup": {"cal": 176, "fat": 10, "carbs": 4, "protein": 16, "sodium": 16, "fiber": 0, "sugar": 0}},
+    "fish": {"oz": {"cal": 35, "fat": 0.8, "carbs": 0, "protein": 7, "sodium": 45, "fiber": 0, "sugar": 0},
+             "lb": {"cal": 560, "fat": 13, "carbs": 0, "protein": 112, "sodium": 720, "fiber": 0, "sugar": 0}},
+
+    # Dairy aliases & variants
+    "unsalted butter": {"cup": {"cal": 1628, "fat": 184, "carbs": 0, "protein": 2, "sodium": 12, "fiber": 0, "sugar": 0},
+                        "tbsp": {"cal": 102, "fat": 11.5, "carbs": 0, "protein": 0.1, "sodium": 1, "fiber": 0, "sugar": 0}},
+    "butter or margarine": {"cup": {"cal": 1628, "fat": 184, "carbs": 0, "protein": 2, "sodium": 1284, "fiber": 0, "sugar": 0},
+                            "tbsp": {"cal": 102, "fat": 11.5, "carbs": 0, "protein": 0.1, "sodium": 80, "fiber": 0, "sugar": 0}},
+    "oleo (margarine)": {"tbsp": {"cal": 100, "fat": 11, "carbs": 0, "protein": 0, "sodium": 90, "fiber": 0, "sugar": 0}},
+    "whipping cream": {"cup": {"cal": 821, "fat": 88, "carbs": 7, "protein": 5, "sodium": 89, "fiber": 0, "sugar": 7}},
+    "half-and-half": {"cup": {"cal": 315, "fat": 28, "carbs": 10, "protein": 7, "sodium": 98, "fiber": 0, "sugar": 10},
+                      "tbsp": {"cal": 20, "fat": 1.7, "carbs": 0.6, "protein": 0.4, "sodium": 6, "fiber": 0, "sugar": 0.6}},
+    "shredded cheddar cheese": {"cup": {"cal": 455, "fat": 37, "carbs": 1.5, "protein": 28, "sodium": 700, "fiber": 0, "sugar": 0}},
+    "grated parmesan cheese": {"tbsp": {"cal": 22, "fat": 1.4, "carbs": 0.2, "protein": 2, "sodium": 76, "fiber": 0, "sugar": 0},
+                               "cup": {"cal": 352, "fat": 22, "carbs": 3, "protein": 32, "sodium": 1216, "fiber": 0, "sugar": 0}},
+    "cheese": {"cup": {"cal": 400, "fat": 32, "carbs": 2, "protein": 24, "sodium": 650, "fiber": 0, "sugar": 0},
+               "oz": {"cal": 100, "fat": 8, "carbs": 0.5, "protein": 6, "sodium": 162, "fiber": 0, "sugar": 0}},
+    "large eggs": {"": {"cal": 72, "fat": 5, "carbs": 0.4, "protein": 6, "sodium": 71, "fiber": 0, "sugar": 0.4}},
+    "egg whites": {"": {"cal": 17, "fat": 0, "carbs": 0.2, "protein": 3.6, "sodium": 55, "fiber": 0, "sugar": 0}},
+    "egg yolks": {"": {"cal": 55, "fat": 4.5, "carbs": 0.6, "protein": 2.7, "sodium": 8, "fiber": 0, "sugar": 0}},
+
+    # Grains & starches
+    "quick oats": {"cup": {"cal": 307, "fat": 5, "carbs": 55, "protein": 11, "sodium": 5, "fiber": 8, "sugar": 1}},
+    "oatmeal": {"cup": {"cal": 307, "fat": 5, "carbs": 55, "protein": 11, "sodium": 5, "fiber": 8, "sugar": 1}},
+    "noodles": {"cup": {"cal": 220, "fat": 2, "carbs": 40, "protein": 8, "sodium": 10, "fiber": 2, "sugar": 0}},
+    "linguine": {"oz": {"cal": 100, "fat": 0.5, "carbs": 20, "protein": 3.5, "sodium": 1, "fiber": 1, "sugar": 0}},
+    "elbow macaroni": {"cup": {"cal": 200, "fat": 1, "carbs": 41, "protein": 7, "sodium": 2, "fiber": 2, "sugar": 1}},
+    "rotini": {"cup": {"cal": 200, "fat": 1, "carbs": 41, "protein": 7, "sodium": 2, "fiber": 2, "sugar": 1}},
+    "fresh chinese noodles": {"oz": {"cal": 100, "fat": 1, "carbs": 20, "protein": 3, "sodium": 150, "fiber": 1, "sugar": 0}},
+    "bread crumbs": {"cup": {"cal": 427, "fat": 6, "carbs": 78, "protein": 14, "sodium": 930, "fiber": 3, "sugar": 6}},
+    "bread slices": {"": {"cal": 79, "fat": 1, "carbs": 15, "protein": 3, "sodium": 147, "fiber": 1, "sugar": 1}},
+    "kashi pilaf": {"cup": {"cal": 170, "fat": 1, "carbs": 34, "protein": 6, "sodium": 0, "fiber": 6, "sugar": 0}},
+    "biscuit mix": {"cup": {"cal": 480, "fat": 16, "carbs": 72, "protein": 8, "sodium": 1360, "fiber": 2, "sugar": 8}},
+    "bisquick": {"cup": {"cal": 480, "fat": 16, "carbs": 72, "protein": 8, "sodium": 1360, "fiber": 2, "sugar": 8}},
+    "graham crackers": {"cup": {"cal": 440, "fat": 10, "carbs": 80, "protein": 6, "sodium": 520, "fiber": 2, "sugar": 24}},
+    "graham cracker crust": {"": {"cal": 800, "fat": 36, "carbs": 112, "protein": 8, "sodium": 600, "fiber": 2, "sugar": 40}},
+
+    # Sugar aliases
+    "granulated sugar": {"cup": {"cal": 774, "fat": 0, "carbs": 200, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 200},
+                         "tbsp": {"cal": 48, "fat": 0, "carbs": 12.5, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 12.5}},
+    "white sugar": {"cup": {"cal": 774, "fat": 0, "carbs": 200, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 200}},
+    "light brown sugar": {"cup": {"cal": 829, "fat": 0, "carbs": 214, "protein": 0, "sodium": 57, "fiber": 0, "sugar": 212}},
+    "packed brown sugar": {"cup": {"cal": 829, "fat": 0, "carbs": 214, "protein": 0, "sodium": 57, "fiber": 0, "sugar": 212}},
+    "confectioners' sugar": {"cup": {"cal": 467, "fat": 0, "carbs": 119, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 117}},
+
+    # Oils
+    "oil": {"tbsp": {"cal": 120, "fat": 14, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+            "cup": {"cal": 1920, "fat": 224, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "sesame oil": {"tbsp": {"cal": 120, "fat": 14, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+
+    # Vegetables
+    "onions": {"cup": {"cal": 64, "fat": 0.2, "carbs": 15, "protein": 1.8, "sodium": 6, "fiber": 3, "sugar": 7}},
+    "green onions": {"cup": {"cal": 32, "fat": 0.2, "carbs": 7, "protein": 1.8, "sodium": 16, "fiber": 2.6, "sugar": 2.3},
+                     "bunch": {"cal": 32, "fat": 0.2, "carbs": 7, "protein": 1.8, "sodium": 16, "fiber": 2.6, "sugar": 2.3}},
+    "carrots": {"cup": {"cal": 52, "fat": 0.3, "carbs": 12, "protein": 1.2, "sodium": 88, "fiber": 3.6, "sugar": 6}},
+    "tomatoes": {"can": {"cal": 80, "fat": 0.4, "carbs": 16, "protein": 4, "sodium": 600, "fiber": 4, "sugar": 10},
+                 "cup": {"cal": 32, "fat": 0.4, "carbs": 7, "protein": 1.6, "sodium": 9, "fiber": 2, "sugar": 5}},
+    "potatoes": {"lb": {"cal": 350, "fat": 0.4, "carbs": 80, "protein": 9, "sodium": 28, "fiber": 9, "sugar": 4}},
+    "rhubarb": {"cup": {"cal": 26, "fat": 0.2, "carbs": 6, "protein": 1.1, "sodium": 5, "fiber": 2, "sugar": 1.3}},
+    "pumpkin": {"cup": {"cal": 83, "fat": 0.3, "carbs": 20, "protein": 3, "sodium": 12, "fiber": 3, "sugar": 8}},
+    "okra": {"cup": {"cal": 33, "fat": 0.2, "carbs": 7, "protein": 2, "sodium": 7, "fiber": 3, "sugar": 1}},
+    "sauerkraut": {"cup": {"cal": 27, "fat": 0.2, "carbs": 6, "protein": 1.3, "sodium": 939, "fiber": 4, "sugar": 3}},
+    "green chilies": {"can": {"cal": 30, "fat": 0, "carbs": 6, "protein": 1, "sodium": 550, "fiber": 2, "sugar": 3}},
+    "chopped green chilies": {"can": {"cal": 30, "fat": 0, "carbs": 6, "protein": 1, "sodium": 550, "fiber": 2, "sugar": 3}},
+    "frozen mixed vegetables": {"cup": {"cal": 82, "fat": 0.5, "carbs": 16, "protein": 4, "sodium": 64, "fiber": 5, "sugar": 4}},
+    "mixed vegetables": {"cup": {"cal": 82, "fat": 0.5, "carbs": 16, "protein": 4, "sodium": 64, "fiber": 5, "sugar": 4}},
+    "beans": {"cup": {"cal": 225, "fat": 1, "carbs": 40, "protein": 15, "sodium": 400, "fiber": 12, "sugar": 1}},
+
+    # Fruits
+    "calamondin": {"": {"cal": 12, "fat": 0.1, "carbs": 3, "protein": 0.2, "sodium": 1, "fiber": 0.5, "sugar": 1.5}},
+    "calamondins": {"cup": {"cal": 60, "fat": 0.5, "carbs": 15, "protein": 1, "sodium": 5, "fiber": 2.5, "sugar": 7.5}},
+    "crushed pineapple": {"can": {"cal": 280, "fat": 0.4, "carbs": 68, "protein": 2, "sodium": 4, "fiber": 4, "sugar": 60}},
+    "apricots": {"cup": {"cal": 79, "fat": 0.6, "carbs": 18, "protein": 2.3, "sodium": 2, "fiber": 3, "sugar": 15}},
+    "dried apricots": {"cup": {"cal": 313, "fat": 0.7, "carbs": 81, "protein": 4.4, "sodium": 13, "fiber": 9.5, "sugar": 69}},
+    "lemons": {"": {"cal": 17, "fat": 0.2, "carbs": 5, "protein": 0.6, "sodium": 1, "fiber": 1.6, "sugar": 1.5}},
+    "lemon": {"": {"cal": 17, "fat": 0.2, "carbs": 5, "protein": 0.6, "sodium": 1, "fiber": 1.6, "sugar": 1.5}},
+    "cranberry juice": {"cup": {"cal": 116, "fat": 0.3, "carbs": 31, "protein": 0, "sodium": 5, "fiber": 0.3, "sugar": 31}},
+
+    # Nuts
+    "chopped pecans": {"cup": {"cal": 753, "fat": 78, "carbs": 15, "protein": 10, "sodium": 0, "fiber": 10, "sugar": 4}},
+    "pecan halves": {"cup": {"cal": 753, "fat": 78, "carbs": 15, "protein": 10, "sodium": 0, "fiber": 10, "sugar": 4}},
+    "chopped nuts": {"cup": {"cal": 800, "fat": 72, "carbs": 24, "protein": 20, "sodium": 5, "fiber": 8, "sugar": 4}},
+    "nuts": {"cup": {"cal": 800, "fat": 72, "carbs": 24, "protein": 20, "sodium": 5, "fiber": 8, "sugar": 4}},
+    "wheat germ": {"tbsp": {"cal": 26, "fat": 0.7, "carbs": 3.7, "protein": 2, "sodium": 0, "fiber": 1, "sugar": 0},
+                   "cup": {"cal": 414, "fat": 11, "carbs": 60, "protein": 27, "sodium": 4, "fiber": 15, "sugar": 0}},
+
+    # Baking & chocolate
+    "chocolate": {"oz": {"cal": 155, "fat": 9, "carbs": 17, "protein": 1.4, "sodium": 7, "fiber": 2, "sugar": 14}},
+    "unsweetened cocoa": {"tbsp": {"cal": 12, "fat": 0.7, "carbs": 3, "protein": 1, "sodium": 1, "fiber": 2, "sugar": 0}},
+    "vanilla": {"tsp": {"cal": 12, "fat": 0, "carbs": 0.5, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0.5}},
+    "lemon extract": {"tsp": {"cal": 10, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0.3}},
+    "active dry yeast": {"packet": {"cal": 21, "fat": 0.3, "carbs": 3, "protein": 3, "sodium": 4, "fiber": 1, "sugar": 0}},
+    "yellow cake mix": {"package": {"cal": 1600, "fat": 32, "carbs": 312, "protein": 16, "sodium": 2800, "fiber": 4, "sugar": 168}},
+    "brownie mix": {"package": {"cal": 1600, "fat": 32, "carbs": 280, "protein": 16, "sodium": 800, "fiber": 4, "sugar": 160}},
+    "liquid pectin": {"pouch": {"cal": 10, "fat": 0, "carbs": 3, "protein": 0, "sodium": 5, "fiber": 1, "sugar": 0}},
+
+    # Pie shells
+    "pie shell": {"": {"cal": 650, "fat": 40, "carbs": 64, "protein": 8, "sodium": 400, "fiber": 2, "sugar": 2}},
+    "baked pie shell": {"": {"cal": 650, "fat": 40, "carbs": 64, "protein": 8, "sodium": 400, "fiber": 2, "sugar": 2}},
+    "unbaked pie shell": {"": {"cal": 650, "fat": 40, "carbs": 64, "protein": 8, "sodium": 400, "fiber": 2, "sugar": 2}},
+
+    # Herbs & spices - dried variants
+    "ground cinnamon": {"tsp": {"cal": 6, "fat": 0, "carbs": 2, "protein": 0.1, "sodium": 0, "fiber": 1, "sugar": 0}},
+    "ground nutmeg": {"tsp": {"cal": 12, "fat": 0.8, "carbs": 1.1, "protein": 0.1, "sodium": 0, "fiber": 0.5, "sugar": 0}},
+    "ground ginger": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.3, "protein": 0.2, "sodium": 1, "fiber": 0.2, "sugar": 0.1}},
+    "ground cumin": {"tsp": {"cal": 8, "fat": 0.5, "carbs": 0.9, "protein": 0.4, "sodium": 4, "fiber": 0.2, "sugar": 0}},
+    "fresh ginger": {"tbsp": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 1, "fiber": 0.1, "sugar": 0.1}},
+    "fresh parsley": {"tbsp": {"cal": 1, "fat": 0, "carbs": 0.2, "protein": 0.1, "sodium": 2, "fiber": 0.1, "sugar": 0}},
+    "fresh dill": {"tbsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 2, "fiber": 0, "sugar": 0}},
+    "dried dill": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.5, "protein": 0.2, "sodium": 2, "fiber": 0.1, "sugar": 0}},
+    "dried oregano": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.7, "protein": 0.1, "sodium": 0, "fiber": 0.4, "sugar": 0}},
+    "dried thyme": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.6, "protein": 0.1, "sodium": 1, "fiber": 0.3, "sugar": 0}},
+    "dried parsley": {"tbsp": {"cal": 4, "fat": 0.1, "carbs": 0.6, "protein": 0.3, "sodium": 6, "fiber": 0.2, "sugar": 0.1}},
+    "dried parsley flakes": {"tbsp": {"cal": 4, "fat": 0.1, "carbs": 0.6, "protein": 0.3, "sodium": 6, "fiber": 0.2, "sugar": 0.1}},
+    "parsley flakes": {"tbsp": {"cal": 4, "fat": 0.1, "carbs": 0.6, "protein": 0.3, "sodium": 6, "fiber": 0.2, "sugar": 0.1}},
+    "turmeric": {"tsp": {"cal": 8, "fat": 0.2, "carbs": 1.4, "protein": 0.3, "sodium": 1, "fiber": 0.5, "sugar": 0.1}},
+    "poultry seasoning": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.2, "sugar": 0}},
+    "white pepper": {"tsp": {"cal": 7, "fat": 0.1, "carbs": 1.6, "protein": 0.3, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "salt and pepper": {"tsp": {"cal": 3, "fat": 0, "carbs": 0.7, "protein": 0.1, "sodium": 1163, "fiber": 0.3, "sugar": 0}},
+    "seasoned salt": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1360, "fiber": 0, "sugar": 0}},
+    "garlic salt": {"tsp": {"cal": 3, "fat": 0, "carbs": 0.7, "protein": 0.1, "sodium": 1480, "fiber": 0, "sugar": 0}},
+
+    # Condiments & sauces
+    "oyster sauce": {"tbsp": {"cal": 9, "fat": 0, "carbs": 2, "protein": 0.2, "sodium": 437, "fiber": 0, "sugar": 1}},
+    "white vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "tabasco sauce": {"tsp": {"cal": 1, "fat": 0, "carbs": 0, "protein": 0, "sodium": 124, "fiber": 0, "sugar": 0}},
+    "marinara sauce": {"cup": {"cal": 80, "fat": 2, "carbs": 12, "protein": 2, "sodium": 560, "fiber": 2, "sugar": 8}},
+
+    # Alcohol
+    "wine": {"cup": {"cal": 200, "fat": 0, "carbs": 5, "protein": 0.2, "sodium": 12, "fiber": 0, "sugar": 2}},
+    "chinese cooking wine": {"tbsp": {"cal": 15, "fat": 0, "carbs": 2, "protein": 0, "sodium": 180, "fiber": 0, "sugar": 1}},
+    "sherry": {"oz": {"cal": 45, "fat": 0, "carbs": 2, "protein": 0.1, "sodium": 3, "fiber": 0, "sugar": 1},
+               "tbsp": {"cal": 22, "fat": 0, "carbs": 1, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 0.5}},
+    "brandy": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+               "tbsp": {"cal": 32, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+
+    # Water variants
+    "warm water": {"cup": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "hot water": {"cup": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "cold water": {"cup": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "boiling water": {"cup": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+
+    # Miscellaneous
+    "miniature marshmallows": {"cup": {"cal": 159, "fat": 0.1, "carbs": 41, "protein": 1.4, "sodium": 22, "fiber": 0, "sugar": 29}},
+    "pretzels": {"cup": {"cal": 229, "fat": 2, "carbs": 48, "protein": 5, "sodium": 814, "fiber": 2, "sugar": 1}},
+    "chex cereal": {"cup": {"cal": 110, "fat": 0.5, "carbs": 25, "protein": 2, "sodium": 220, "fiber": 1, "sugar": 2}},
+    "lemon rind": {"tbsp": {"cal": 3, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.4, "sugar": 0.4}},
+    "grated lemon rind": {"tbsp": {"cal": 3, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.4, "sugar": 0.4}},
+    "grated lemon peel": {"tbsp": {"cal": 3, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.4, "sugar": 0.4}},
+    "orange peel": {"tbsp": {"cal": 6, "fat": 0, "carbs": 2, "protein": 0.1, "sodium": 0, "fiber": 0.6, "sugar": 1}},
+    "grated orange peel": {"tbsp": {"cal": 6, "fat": 0, "carbs": 2, "protein": 0.1, "sodium": 0, "fiber": 0.6, "sugar": 1}},
+    "food coloring": {"drop": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "green food coloring": {"drop": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "red food coloring": {"drop": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "vegetable cooking spray": {"": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "nonstick cooking spray": {"": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
 }
 
 # =============================================================================

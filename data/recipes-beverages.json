@@ -470,12 +470,12 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.0,
-          "carbs_g": 0.5,
-          "protein_g": 0.0,
+          "calories": 38,
+          "fat_g": 0.7,
+          "carbs_g": 4.2,
+          "protein_g": 2.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
+          "fiber_g": 1.0,
           "sugar_g": 0.5
         },
         "missing_inputs": [
@@ -483,7 +483,6 @@
           "1  large ripe banana",
           "4 oz yogurt",
           "1/2 cup fresh or frozen strawberries",
-          "2 tbsp wheat germ",
           "1 tsp banana essence"
         ],
         "assumptions": [
@@ -688,25 +687,25 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
+          "calories": 2,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.6,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 0.6
         },
         "missing_inputs": [
           "FRENCH 75 (BUBBLY):",
           "1 oz gin",
           "1/2 oz lemon juice",
-          "1 tsp confectioners' sugar",
           "to top champagne",
           "GIBSON (DRY):",
           "3 oz gin",
           "1/2 oz dry vermouth",
           "for garnish cocktail onions",
-          "BRONX (SWEET):"
+          "BRONX (SWEET):",
+          "1 oz gin"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -790,7 +789,7 @@
           "carbs_g": 37.4,
           "protein_g": 0.4,
           "sodium_mg": 2,
-          "fiber_g": 1.0,
+          "fiber_g": 0.8,
           "sugar_g": 35.5
         },
         "missing_inputs": [
@@ -867,7 +866,7 @@
           "carbs_g": 2.5,
           "protein_g": 0.3,
           "sodium_mg": 0,
-          "fiber_g": 1.0,
+          "fiber_g": 0.8,
           "sugar_g": 0.8
         },
         "missing_inputs": [
@@ -1325,7 +1324,7 @@
           "carbs_g": 33.5,
           "protein_g": 2.5,
           "sodium_mg": 2,
-          "fiber_g": 7.1,
+          "fiber_g": 6.9,
           "sugar_g": 24.8
         },
         "missing_inputs": [
@@ -1438,7 +1437,7 @@
           "carbs_g": 8.5,
           "protein_g": 0.9,
           "sodium_mg": 43,
-          "fiber_g": 2.9,
+          "fiber_g": 2.8,
           "sugar_g": 4.1
         },
         "missing_inputs": [
@@ -2236,12 +2235,12 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.0,
-          "carbs_g": 0.5,
-          "protein_g": 0.0,
+          "calories": 38,
+          "fat_g": 0.7,
+          "carbs_g": 4.2,
+          "protein_g": 2.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
+          "fiber_g": 1.0,
           "sugar_g": 0.5
         },
         "missing_inputs": [
@@ -2249,7 +2248,6 @@
           "1  large ripe banana",
           "4 oz yogurt",
           "1/2 cup fresh or frozen strawberries",
-          "2 tbsp wheat germ",
           "1 tsp banana essence"
         ],
         "assumptions": [
@@ -5043,7 +5041,8 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "4 large tbisp. coffee Ieggwhite"
+          "4 large tbisp. coffee Ieggwhite",
+          "1 qt boiling water"
         ],
         "assumptions": [
           "Calculated for 4 servings"

@@ -330,19 +330,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 171,
-          "fat_g": 7.3,
-          "carbs_g": 21.4,
-          "protein_g": 5.9,
+          "calories": 179,
+          "fat_g": 7.5,
+          "carbs_g": 22.7,
+          "protein_g": 6.5,
           "sodium_mg": 238,
-          "fiber_g": 2.6,
+          "fiber_g": 2.9,
           "sugar_g": 7.9
         },
-        "missing_inputs": [
-          "1/4 cup wheat germ"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -2259,7 +2257,7 @@
           "carbs_g": 21.6,
           "protein_g": 4.4,
           "sodium_mg": 92,
-          "fiber_g": 0.9,
+          "fiber_g": 0.8,
           "sugar_g": 1.4
         },
         "missing_inputs": [
@@ -5158,19 +5156,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 146,
+          "calories": 149,
           "fat_g": 10.6,
-          "carbs_g": 0.7,
-          "protein_g": 11.3,
-          "sodium_mg": 202,
-          "fiber_g": 0.0,
-          "sugar_g": 0.6
+          "carbs_g": 1.4,
+          "protein_g": 11.4,
+          "sodium_mg": 203,
+          "fiber_g": 0.1,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "5  chopped bacon slices",
-          "3 tbsp chopped onions",
           "3  small potatoes, cooked and cubed"
         ],
         "assumptions": [
@@ -5283,21 +5280,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 201,
-          "fat_g": 14.1,
-          "carbs_g": 2.5,
-          "protein_g": 15.4,
-          "sodium_mg": 252,
-          "fiber_g": 0.1,
-          "sugar_g": 2.4
+          "calories": 369,
+          "fat_g": 16.4,
+          "carbs_g": 33.6,
+          "protein_g": 20.9,
+          "sodium_mg": 602,
+          "fiber_g": 1.6,
+          "sugar_g": 5.5
         },
         "missing_inputs": [
           "3 tbsp sweet butter",
-          "1/2 cup chopped onions",
-          "3 tbsp white flour",
-          "1 1/2 cups bread crumbs"
+          "3 tbsp white flour"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -6833,17 +6828,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 336,
-          "fat_g": 23.8,
-          "carbs_g": 3.9,
-          "protein_g": 28.0,
-          "sodium_mg": 638,
+          "calories": 395,
+          "fat_g": 29.0,
+          "carbs_g": 5.8,
+          "protein_g": 29.3,
+          "sodium_mg": 656,
           "fiber_g": 0.0,
-          "sugar_g": 1.2
+          "sugar_g": 3.1
         },
         "missing_inputs": [
-          "1  9-inch store-bought piecrust",
-          "3/4 cup half-and-half"
+          "1  9-inch store-bought piecrust"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -7497,19 +7491,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 372,
-          "fat_g": 29.1,
-          "carbs_g": 15.8,
-          "protein_g": 11.1,
-          "sodium_mg": 272,
+          "calories": 490,
+          "fat_g": 39.6,
+          "carbs_g": 19.5,
+          "protein_g": 13.8,
+          "sodium_mg": 309,
           "fiber_g": 0.2,
-          "sugar_g": 13.8
+          "sugar_g": 17.5
         },
         "missing_inputs": [
           "1  loaf of French bread, cubed",
-          "1 1/2 cups half-and-half",
           "powdered sugar for dusting"
         ],
         "assumptions": [
@@ -9852,17 +9845,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 379,
-          "fat_g": 29.1,
-          "carbs_g": 17.7,
-          "protein_g": 11.1,
-          "sodium_mg": 272,
+          "calories": 497,
+          "fat_g": 39.6,
+          "carbs_g": 21.4,
+          "protein_g": 13.8,
+          "sodium_mg": 309,
           "fiber_g": 0.2,
-          "sugar_g": 15.6
+          "sugar_g": 19.3
         },
         "missing_inputs": [
-          "1  loaf of French bread, cubed",
-          "1 1/2 cups half-and-half"
+          "1  loaf of French bread, cubed"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -12475,19 +12467,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 26,
+          "fat_g": 0.7,
+          "carbs_g": 3.7,
+          "protein_g": 2.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
+          "fiber_g": 1.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "2  large ripe bananas, peeled and sliced",
           "2  grapefruits",
-          "2 tbsp wheat germ",
           "2 tbsp linseeds",
+          "as needed boiling water",
           "honey, warmed and stirred"
         ],
         "assumptions": [
@@ -13658,17 +13650,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 229,
+          "calories": 239,
           "fat_g": 18.9,
-          "carbs_g": 14.3,
-          "protein_g": 1.9,
+          "carbs_g": 16.6,
+          "protein_g": 2.2,
           "sodium_mg": 284,
-          "fiber_g": 0.1,
-          "sugar_g": 14.1
+          "fiber_g": 0.5,
+          "sugar_g": 15.9
         },
         "missing_inputs": [
-          "3 cups self-raising flour",
-          "1 cup dried apricots"
+          "3 cups self-raising flour"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -16721,7 +16712,7 @@
           "carbs_g": 77.3,
           "protein_g": 10.3,
           "sodium_mg": 514,
-          "fiber_g": 2.2,
+          "fiber_g": 2.1,
           "sugar_g": 28.6
         },
         "missing_inputs": [
@@ -17066,19 +17057,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 484,
-          "fat_g": 15.3,
-          "carbs_g": 76.6,
-          "protein_g": 10.1,
-          "sodium_mg": 514,
-          "fiber_g": 1.9,
-          "sugar_g": 28.2
+          "calories": 497,
+          "fat_g": 15.4,
+          "carbs_g": 79.6,
+          "protein_g": 10.4,
+          "sodium_mg": 536,
+          "fiber_g": 2.9,
+          "sugar_g": 29.8
         },
-        "missing_inputs": [
-          "1 cup carrots"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
@@ -18583,21 +18572,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 239,
-          "fat_g": 9.5,
-          "carbs_g": 34.4,
-          "protein_g": 5.8,
-          "sodium_mg": 148,
-          "fiber_g": 4.8,
-          "sugar_g": 6.3
+          "calories": 284,
+          "fat_g": 10.5,
+          "carbs_g": 41.6,
+          "protein_g": 8.3,
+          "sodium_mg": 149,
+          "fiber_g": 6.4,
+          "sugar_g": 8.2
         },
         "missing_inputs": [
-          "1/3 cup wheat germ",
           "2 tbsp Truvia natural sweetener spoonable",
           "2 tsp pumpkin pie spice",
           "2 tbsp walnut oil",
           "1/2 cup blanched almonds, coarsely chopped",
-          "1/2 cup dried apricots, chopped",
           "1/4 cup golden raisins or dried figs, chopped",
           "Greek yogurt, per serving suggestion"
         ],
@@ -19836,16 +19823,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 157,
-          "fat_g": 7.2,
-          "carbs_g": 17.9,
-          "protein_g": 5.8,
+          "calories": 165,
+          "fat_g": 7.5,
+          "carbs_g": 19.2,
+          "protein_g": 6.3,
           "sodium_mg": 238,
-          "fiber_g": 1.9,
+          "fiber_g": 2.2,
           "sugar_g": 5.4
         },
         "missing_inputs": [
-          "1/4 cup wheat germ",
           "2 cups frozen or fresh blueberries"
         ],
         "assumptions": [
@@ -22395,7 +22381,7 @@
           "carbs_g": 21.6,
           "protein_g": 4.4,
           "sodium_mg": 92,
-          "fiber_g": 0.9,
+          "fiber_g": 0.8,
           "sugar_g": 1.4
         },
         "missing_inputs": [
@@ -26568,19 +26554,18 @@
       ],
       "source_note": "Reference cookbook - Easy Breakfast Recipes",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 146,
+          "calories": 149,
           "fat_g": 10.6,
-          "carbs_g": 0.7,
-          "protein_g": 11.3,
+          "carbs_g": 1.4,
+          "protein_g": 11.4,
           "sodium_mg": 240,
-          "fiber_g": 0.0,
-          "sugar_g": 0.6
+          "fiber_g": 0.1,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "5  bacon slices",
-          "3 tbsp onions",
           "3  small potatoes"
         ],
         "assumptions": [
@@ -26710,21 +26695,19 @@
       ],
       "source_note": "Reference cookbook - Easy Breakfast Recipes",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 134,
-          "fat_g": 9.4,
-          "carbs_g": 1.7,
-          "protein_g": 10.3,
-          "sodium_mg": 193,
-          "fiber_g": 0.0,
-          "sugar_g": 1.6
+          "calories": 246,
+          "fat_g": 10.9,
+          "carbs_g": 22.4,
+          "protein_g": 13.9,
+          "sodium_mg": 426,
+          "fiber_g": 1.0,
+          "sugar_g": 3.7
         },
         "missing_inputs": [
           "3 tbsp sweet butter",
-          "1/2 cup onions",
-          "3 tbsp white flour",
-          "1 1/2 cups bread crumbs"
+          "3 tbsp white flour"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -28405,17 +28388,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 224,
-          "fat_g": 15.8,
-          "carbs_g": 2.6,
-          "protein_g": 18.7,
-          "sodium_mg": 450,
+          "calories": 263,
+          "fat_g": 19.3,
+          "carbs_g": 3.9,
+          "protein_g": 19.5,
+          "sodium_mg": 462,
           "fiber_g": 0.0,
-          "sugar_g": 0.8
+          "sugar_g": 2.1
         },
         "missing_inputs": [
-          "1 9-inch store-bought piecrust",
-          "3/4 cup half-and-half"
+          "1 9-inch store-bought piecrust"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -29141,17 +29123,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 190,
-          "fat_g": 14.5,
-          "carbs_g": 8.8,
-          "protein_g": 5.6,
-          "sodium_mg": 136,
+          "calories": 249,
+          "fat_g": 19.8,
+          "carbs_g": 10.7,
+          "protein_g": 6.9,
+          "sodium_mg": 154,
           "fiber_g": 0.1,
-          "sugar_g": 7.8
+          "sugar_g": 9.7
         },
         "missing_inputs": [
-          "1 loaf French bread",
-          "1 1/2 cups half-and-half"
+          "1 loaf French bread"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -31779,17 +31760,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 190,
-          "fat_g": 14.5,
-          "carbs_g": 8.8,
-          "protein_g": 5.6,
-          "sodium_mg": 136,
+          "calories": 249,
+          "fat_g": 19.8,
+          "carbs_g": 10.7,
+          "protein_g": 6.9,
+          "sodium_mg": 154,
           "fiber_g": 0.1,
-          "sugar_g": 7.8
+          "sugar_g": 9.7
         },
         "missing_inputs": [
-          "1 loaf French bread",
-          "1 1/2 cups half-and-half"
+          "1 loaf French bread"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -34857,19 +34837,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 26,
+          "fat_g": 0.7,
+          "carbs_g": 3.7,
+          "protein_g": 2.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
+          "fiber_g": 1.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "2  large ripe bananas",
           "2  grapefruits",
-          "2 tbsp wheat germ",
           "2 tbsp linseeds",
+          "boiling water",
           "honey"
         ],
         "assumptions": [
@@ -36345,17 +36325,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 229,
+          "calories": 239,
           "fat_g": 18.9,
-          "carbs_g": 14.3,
-          "protein_g": 1.9,
+          "carbs_g": 16.6,
+          "protein_g": 2.2,
           "sodium_mg": 284,
-          "fiber_g": 0.1,
-          "sugar_g": 14.1
+          "fiber_g": 0.5,
+          "sugar_g": 15.9
         },
         "missing_inputs": [
-          "3 cups self-raising flour",
-          "1 cup dried apricots"
+          "3 cups self-raising flour"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -38613,17 +38592,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 159,
-          "fat_g": 13.2,
-          "carbs_g": 0.7,
-          "protein_g": 9.1,
-          "sodium_mg": 436,
-          "fiber_g": 0.0,
-          "sugar_g": 0.6
+          "calories": 266,
+          "fat_g": 14.8,
+          "carbs_g": 20.2,
+          "protein_g": 12.6,
+          "sodium_mg": 669,
+          "fiber_g": 0.8,
+          "sugar_g": 2.1
         },
         "missing_inputs": [
           "2  lamb's kidneys",
-          "1 cup ful of fresh bread crumbs",
           "2  level tablespoonfuls of flour",
           "1/2 pint stock",
           "1 tsp ful of kitchen bouquet"
@@ -39629,18 +39607,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 110,
+          "calories": 121,
           "fat_g": 7.6,
-          "carbs_g": 0.8,
+          "carbs_g": 1.3,
           "protein_g": 9.2,
-          "sodium_mg": 505,
+          "sodium_mg": 506,
           "fiber_g": 0.0,
-          "sugar_g": 0.6
+          "sugar_g": 0.9
         },
         "missing_inputs": [
           "6  squares of toast",
           "1  tureen of pate-de-foie-gras",
-          "2 tbsp fuls of sherry",
           "1 tsp ful of kitchen bouquet"
         ],
         "assumptions": [
@@ -39824,18 +39801,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 159,
+          "calories": 170,
           "fat_g": 13.2,
-          "carbs_g": 0.7,
+          "carbs_g": 1.2,
           "protein_g": 9.1,
           "sodium_mg": 146,
           "fiber_g": 0.0,
-          "sugar_g": 0.6
+          "sugar_g": 0.9
         },
         "missing_inputs": [
           "1 small egg plant",
           "1  thin slice of ham",
-          "2 tbsp fuls of sherry",
           "2 tbsp fuls of tomato catsup"
         ],
         "assumptions": [
@@ -40223,20 +40199,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 159,
-          "fat_g": 13.2,
-          "carbs_g": 0.6,
-          "protein_g": 9.1,
-          "sodium_mg": 436,
-          "fiber_g": 0.0,
-          "sugar_g": 0.6
+          "calories": 212,
+          "fat_g": 14.0,
+          "carbs_g": 10.3,
+          "protein_g": 10.8,
+          "sodium_mg": 552,
+          "fiber_g": 0.4,
+          "sugar_g": 1.4
         },
         "missing_inputs": [
           "1 tsp ful of anchovy sauce",
-          "1 tbsp ful of finely chopped chives or onion",
-          "1/2 cup ful of bread crumbs"
+          "1 tbsp ful of finely chopped chives or onion"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -45479,7 +45454,7 @@
           "carbs_g": 5.0,
           "protein_g": 0.6,
           "sodium_mg": 1,
-          "fiber_g": 2.0,
+          "fiber_g": 1.6,
           "sugar_g": 1.5
         },
         "missing_inputs": [
@@ -46056,7 +46031,7 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 107,
+          "calories": 108,
           "fat_g": 2.7,
           "carbs_g": 15.1,
           "protein_g": 5.0,
@@ -46068,7 +46043,6 @@
           "1/2 cup chilled butter, cut into small pieces",
           "10  strips lean bacon",
           "2 cup light cream",
-          "1/4 tsp white pepper",
           "1/2 cup shredded Gruy\u00e8re cheese",
           "1/2 cup shredded white Cheddar cheese"
         ],
@@ -46279,18 +46253,17 @@
         "processed/img_6002_medium.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 4,
-          "fat_g": 0.2,
-          "carbs_g": 0.4,
-          "protein_g": 0.2,
-          "sodium_mg": 13,
-          "fiber_g": 0.1,
-          "sugar_g": 0.3
+          "calories": 38,
+          "fat_g": 1.4,
+          "carbs_g": 5.4,
+          "protein_g": 0.7,
+          "sodium_mg": 109,
+          "fiber_g": 0.2,
+          "sugar_g": 0.9
         },
         "missing_inputs": [
-          "4 cups biscuit mix",
           "1 lb hot pork sausage",
           "1 lb regular pork sausage"
         ],

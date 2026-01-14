@@ -1711,7 +1711,7 @@
           "carbs_g": 27.3,
           "protein_g": 4.0,
           "sodium_mg": 132,
-          "fiber_g": 1.4,
+          "fiber_g": 1.3,
           "sugar_g": 10.1
         },
         "missing_inputs": [
@@ -3903,19 +3903,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 2440,
+          "calories": 2469,
           "fat_g": 27.4,
-          "carbs_g": 461.6,
+          "carbs_g": 469.0,
           "protein_g": 74.9,
           "sodium_mg": 819,
           "fiber_g": 18.9,
-          "sugar_g": 24.4
+          "sugar_g": 31.7
         },
         "missing_inputs": [
           "1/4 cup fine sugar",
           "1/2 cup nonfat plain yogurt",
-          "1/4 cup dried currants",
-          "1 tbsp confectioners' sugar"
+          "1/4 cup dried currants"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -5289,21 +5288,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 1974,
+          "calories": 2033,
           "fat_g": 78.4,
-          "carbs_g": 263.6,
+          "carbs_g": 278.4,
           "protein_g": 47.6,
           "sodium_mg": 1423,
           "fiber_g": 11.7,
-          "sugar_g": 5.5
+          "sugar_g": 20.1
         },
         "missing_inputs": [
           "1/4 cup fine sugar",
           "5 oz semisweet chocolate",
-          "1/3 cup fine sugar",
-          "1/4 cup confectioners' sugar"
+          "1/3 cup fine sugar"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -6524,7 +6522,7 @@
           "carbs_g": 25.7,
           "protein_g": 2.7,
           "sodium_mg": 153,
-          "fiber_g": 1.0,
+          "fiber_g": 0.9,
           "sugar_g": 9.7
         },
         "missing_inputs": [
@@ -6780,18 +6778,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 165,
+          "calories": 172,
           "fat_g": 7.2,
-          "carbs_g": 21.8,
-          "protein_g": 3.3,
-          "sodium_mg": 175,
-          "fiber_g": 0.4,
-          "sugar_g": 9.8
+          "carbs_g": 23.5,
+          "protein_g": 3.5,
+          "sodium_mg": 176,
+          "fiber_g": 0.7,
+          "sugar_g": 10.4
         },
         "missing_inputs": [
           "1 cup whole wheat pastry flour",
           "1 tsp pumpkin pie spice",
-          "1 cup canned pumpkin",
           "1/2 cup fresh pomegranate seeds"
         ],
         "assumptions": [
@@ -7168,19 +7165,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 203,
+          "calories": 208,
           "fat_g": 7.7,
-          "carbs_g": 29.1,
-          "protein_g": 4.2,
+          "carbs_g": 30.4,
+          "protein_g": 4.4,
           "sodium_mg": 152,
-          "fiber_g": 0.9,
-          "sugar_g": 7.9
+          "fiber_g": 1.1,
+          "sugar_g": 8.4
         },
-        "missing_inputs": [
-          "3/4 cup canned pumpkin"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -7297,19 +7292,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 281,
+          "calories": 285,
           "fat_g": 15.3,
-          "carbs_g": 32.9,
-          "protein_g": 4.2,
-          "sodium_mg": 146,
-          "fiber_g": 1.5,
-          "sugar_g": 14.8
+          "carbs_g": 33.9,
+          "protein_g": 4.3,
+          "sodium_mg": 154,
+          "fiber_g": 1.8,
+          "sugar_g": 15.3
         },
-        "missing_inputs": [
-          "1 cup carrots, peeled and shredded"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -7438,19 +7431,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 156,
+          "calories": 160,
           "fat_g": 3.4,
-          "carbs_g": 29.4,
-          "protein_g": 3.0,
-          "sodium_mg": 49,
-          "fiber_g": 1.0,
-          "sugar_g": 13.5
+          "carbs_g": 30.3,
+          "protein_g": 3.1,
+          "sodium_mg": 50,
+          "fiber_g": 1.1,
+          "sugar_g": 13.8
         },
-        "missing_inputs": [
-          "1/2 cup canned pumpkin"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -10306,8 +10297,8 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 1617,
-          "fat_g": 5.0,
+          "calories": 1737,
+          "fat_g": 19.0,
           "carbs_g": 322.8,
           "protein_g": 53.0,
           "sodium_mg": 3495,
@@ -10318,7 +10309,6 @@
           "3/4 cup rye flour",
           "3 tbsp honey or malt syrup",
           "2 tbsp caraway seeds",
-          "1 tbsp oil",
           "for baking tray cornmeal"
         ],
         "assumptions": [
@@ -12481,7 +12471,7 @@
           "carbs_g": 27.3,
           "protein_g": 4.0,
           "sodium_mg": 132,
-          "fiber_g": 1.4,
+          "fiber_g": 1.3,
           "sugar_g": 10.1
         },
         "missing_inputs": [
@@ -13472,18 +13462,17 @@
       ],
       "source_note": "Muffin Recipes digital cookbook",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 159,
+          "calories": 164,
           "fat_g": 5.7,
-          "carbs_g": 22.6,
-          "protein_g": 3.7,
-          "sodium_mg": 143,
-          "fiber_g": 0.8,
-          "sugar_g": 2.4
+          "carbs_g": 23.8,
+          "protein_g": 3.9,
+          "sodium_mg": 144,
+          "fiber_g": 1.0,
+          "sugar_g": 2.9
         },
         "missing_inputs": [
-          "3/4 cup canned pumpkin",
           "1 tsp pumpkin pie spice",
           "4 tbsp cinnamon sugar"
         ],
@@ -13953,16 +13942,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 153,
-          "fat_g": 15.0,
-          "carbs_g": 4.2,
-          "protein_g": 1.3,
-          "sodium_mg": 13,
-          "fiber_g": 0.4,
-          "sugar_g": 3.4
+          "calories": 286,
+          "fat_g": 17.7,
+          "carbs_g": 27.6,
+          "protein_g": 2.6,
+          "sodium_mg": 79,
+          "fiber_g": 0.8,
+          "sugar_g": 16.8
         },
         "missing_inputs": [
-          "1 package brownie mix",
           "2 tsp peppermint extract",
           "3/4 cup crushed candy canes",
           "1/2 cup mini chocolate chips or chocolate shavings"
@@ -19670,6 +19658,7 @@
         },
         "missing_inputs": [
           "140 Pound Cake",
+          "a pint boiling water",
           "a pint very rich sweet milk",
           "half a cup rich milk",
           "a pint meal",
@@ -19677,8 +19666,7 @@
           "a cup sifted meal",
           "a cup lard or butter",
           "a pint cold water",
-          "one pint vinegar",
-          "a teaspoon powdered saltpeter"
+          "one pint vinegar"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -20281,18 +20269,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 148,
-          "fat_g": 4.8,
-          "carbs_g": 22.2,
-          "protein_g": 4.7,
-          "sodium_mg": 782,
-          "fiber_g": 0.0,
-          "sugar_g": 21.5
+          "calories": 348,
+          "fat_g": 22.8,
+          "carbs_g": 28.2,
+          "protein_g": 9.7,
+          "sodium_mg": 783,
+          "fiber_g": 2.0,
+          "sugar_g": 22.5
         },
         "missing_inputs": [
           "1  \u00bd cups bread flour",
           "1  \u00bd cups graham flour",
-          "1 cup chopped nuts",
           "2 tbsp fat"
         ],
         "assumptions": [
@@ -21221,21 +21208,20 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 1796,
-          "fat_g": 64.0,
-          "carbs_g": 266.1,
-          "protein_g": 37.3,
-          "sodium_mg": 3101,
-          "fiber_g": 6.8,
-          "sugar_g": 76.1
+          "calories": 2196,
+          "fat_g": 100.0,
+          "carbs_g": 278.1,
+          "protein_g": 47.3,
+          "sodium_mg": 3103,
+          "fiber_g": 10.8,
+          "sugar_g": 78.1
         },
         "missing_inputs": [
           "3/4 tsp double-acting or 1\u00bc teaspoons cream of tartar baking powder",
           "1/2 cup GRANDMA\u2019S MOLASSES",
           "1  \u00bd teaspoons grated lemon rind",
           "1/3 cup chopped figs or dates",
-          "1/4 cup sliced citron",
-          "1/2 cup chopped nuts"
+          "1/4 cup sliced citron"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -23279,17 +23265,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 107,
+          "fat_g": 1.5,
+          "carbs_g": 19.5,
+          "protein_g": 3.5,
+          "sodium_mg": 232,
+          "fiber_g": 0.8,
+          "sugar_g": 1.5
         },
         "missing_inputs": [
-          "6  chops,",
-          "1 cup ful ofbread crumbs."
+          "6  chops,"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -23559,7 +23544,7 @@
           "carbs_g": 30.0,
           "protein_g": 1.4,
           "sodium_mg": 5,
-          "fiber_g": 1.8,
+          "fiber_g": 1.6,
           "sugar_g": 21.9
         },
         "missing_inputs": [
@@ -33208,20 +33193,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 2612,
-          "fat_g": 18.5,
-          "carbs_g": 543.0,
-          "protein_g": 69.3,
-          "sodium_mg": 4844,
-          "fiber_g": 15.7,
-          "sugar_g": 160.2
+          "calories": 2765,
+          "fat_g": 21.0,
+          "carbs_g": 570.5,
+          "protein_g": 74.8,
+          "sodium_mg": 4846,
+          "fiber_g": 19.7,
+          "sugar_g": 160.7
         },
         "missing_inputs": [
           "2 tbsp soy",
           "1/4 cup veg oil",
           "1/2 cup flax seed",
           "1/2 cup sesame seed",
-          "1/2 cup oatmeal",
           "2/3 cup Lundberg [UNCLEAR]",
           "cilantro"
         ],
