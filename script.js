@@ -64,7 +64,10 @@ function escapeAttr(value) {
 // =============================================================================
 
 // Global state
-let recipes = [];
+let recipes = [];          // Index data (minimal metadata for all recipes)
+let recipesFull = {};      // Full recipe data cache, keyed by id
+let loadedShards = {};     // Cache of loaded shard data, keyed by category
+let shardManifest = [];    // List of available shards
 let tips = [];
 let categories = new Set();
 let allTags = new Set();
@@ -86,29 +89,96 @@ async function init() {
 async function loadContent() {
   await Promise.all([loadRecipes(), loadTips()]);
   setupEventListeners();
-  handleRouting();
+  await handleRouting();
 }
 
 /**
- * Load recipes from JSON file
+ * Load recipe index (sharded architecture)
+ * Loads minimal metadata for all recipes, full data loaded on demand
  */
 async function loadRecipes() {
   try {
-    const response = await fetch('data/recipes.json');
-    const data = await response.json();
-    recipes = data.recipes || [];
+    // Try sharded index first, fall back to monolithic file
+    let response = await fetch('data/recipes-index.json');
+    if (!response.ok) {
+      // Fallback to old monolithic file
+      response = await fetch('data/recipes.json');
+      const data = await response.json();
+      recipes = data.recipes || [];
+      // Populate full cache from monolithic file
+      recipes.forEach(r => { recipesFull[r.id] = r; });
+      console.log(`Loaded ${recipes.length} recipes (monolithic)`);
+    } else {
+      const data = await response.json();
+      recipes = data.recipes || [];
+      shardManifest = data.shards || [];
+      console.log(`Loaded index with ${recipes.length} recipes (${shardManifest.length} shards available)`);
+    }
 
-    // Extract categories and tags
+    // Extract categories and tags from index
     recipes.forEach(recipe => {
       if (recipe.category) categories.add(recipe.category);
       if (recipe.tags) recipe.tags.forEach(tag => allTags.add(tag));
     });
 
-    console.log(`Loaded ${recipes.length} recipes`);
   } catch (error) {
     console.error('Failed to load recipes:', error);
     showError('Unable to load recipes. Please refresh the page.');
   }
+}
+
+/**
+ * Load a category shard (full recipe data for a category)
+ * @param {string} category - The category to load
+ * @returns {Promise<Array>} - Array of full recipe objects
+ */
+async function loadShard(category) {
+  if (loadedShards[category]) {
+    return loadedShards[category];
+  }
+
+  try {
+    const response = await fetch(`data/recipes-${category}.json`);
+    if (!response.ok) {
+      console.warn(`Shard not found for category: ${category}`);
+      return [];
+    }
+    const data = await response.json();
+    const shardRecipes = data.recipes || [];
+
+    // Cache the shard and populate full recipe cache
+    loadedShards[category] = shardRecipes;
+    shardRecipes.forEach(r => { recipesFull[r.id] = r; });
+
+    console.log(`Loaded shard: ${category} (${shardRecipes.length} recipes)`);
+    return shardRecipes;
+  } catch (error) {
+    console.error(`Failed to load shard ${category}:`, error);
+    return [];
+  }
+}
+
+/**
+ * Get full recipe data by ID (loads shard if needed)
+ * @param {string} recipeId - The recipe ID
+ * @returns {Promise<Object|null>} - Full recipe object or null
+ */
+async function getFullRecipe(recipeId) {
+  // Check cache first
+  if (recipesFull[recipeId]) {
+    return recipesFull[recipeId];
+  }
+
+  // Find recipe in index to get category
+  const indexEntry = recipes.find(r => r.id === recipeId);
+  if (!indexEntry) {
+    return null;
+  }
+
+  // Load the shard for this category
+  await loadShard(indexEntry.category);
+
+  return recipesFull[recipeId] || null;
 }
 
 /**
@@ -375,13 +445,13 @@ function setupEventListeners() {
 /**
  * Handle client-side routing based on URL hash
  */
-function handleRouting() {
+async function handleRouting() {
   const path = window.location.pathname;
   const hash = window.location.hash;
 
   if (path.includes('recipe.html') && hash) {
     const recipeId = hash.slice(1);
-    renderRecipeDetail(recipeId);
+    await renderRecipeDetail(recipeId);
   } else if (path.includes('index.html') || path.endsWith('/')) {
     renderHomePage();
   }
@@ -534,21 +604,30 @@ function renderRecipeCard(recipe) {
 
 /**
  * Render full recipe detail page
+ * Loads full recipe data from shard if needed
  */
-function renderRecipeDetail(recipeId) {
-  const recipe = recipes.find(r => r.id === recipeId);
+async function renderRecipeDetail(recipeId) {
   const container = document.getElementById('recipe-content');
+  if (!container) return;
 
-  if (!recipe || !container) {
-    if (container) {
-      container.innerHTML = `
-        <div class="text-center">
-          <h2>Recipe Not Found</h2>
-          <p>Sorry, we couldn't find that recipe.</p>
-          <a href="index.html" class="btn btn-primary">Back to Recipes</a>
-        </div>
-      `;
-    }
+  // Show loading state
+  container.innerHTML = `
+    <div class="text-center" style="padding: 2rem;">
+      <p>Loading recipe...</p>
+    </div>
+  `;
+
+  // Get full recipe data (may load shard)
+  const recipe = await getFullRecipe(recipeId);
+
+  if (!recipe) {
+    container.innerHTML = `
+      <div class="text-center">
+        <h2>Recipe Not Found</h2>
+        <p>Sorry, we couldn't find that recipe.</p>
+        <a href="index.html" class="btn btn-primary">Back to Recipes</a>
+      </div>
+    `;
     return;
   }
 
