@@ -69,7 +69,26 @@
         "Add garlic, and cook just until it begins to brown lightly, taking care not to burn it.",
         "Add enough of the pasta cooking water to the sauce to give the dish a creamy texture and marry the sauce to the pasta.",
         "Learn about common pasta shapes and how to pair them with the proper sauce at CookingLight.com/features"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 6,
+          "fat_g": 0.1,
+          "carbs_g": 1.5,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "extra-virgin olive oil"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
+      }
     },
     {
       "id": "fresh-pasta-dough-technique",
@@ -130,6 +149,25 @@
         "flags": [
           "technique guide"
         ]
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 18,
+          "fat_g": 1.2,
+          "carbs_g": 0.1,
+          "protein_g": 1.5,
+          "sodium_mg": 93,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "flour"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
       }
     },
     {
@@ -184,6 +222,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 2.5,
+          "carbs_g": 0.2,
+          "protein_g": 3.0,
+          "sodium_mg": 326,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "5.6 oz soft wheat flour (about 1 1/4 cups)"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     }
   ]

@@ -75,6 +75,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 2.5,
+          "carbs_g": 2.5,
+          "protein_g": 1.5,
+          "sodium_mg": 5,
+          "fiber_g": 0.0,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [
+          "2 cups full cream milk",
+          "2 cups strong hot coffee",
+          "4  cinnamon sticks"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -149,6 +169,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 79,
+          "fat_g": 3.2,
+          "carbs_g": 12.5,
+          "protein_g": 1.8,
+          "sodium_mg": 2,
+          "fiber_g": 4.0,
+          "sugar_g": 7.5
+        },
+        "missing_inputs": [
+          "1/2  large banana",
+          "3 oz plain yogurt",
+          "1/4 cup sweetened condensed milk",
+          "1/4 cup ice cubes"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -218,6 +259,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 89,
+          "fat_g": 1.3,
+          "carbs_g": 18.8,
+          "protein_g": 1.5,
+          "sodium_mg": 20,
+          "fiber_g": 0.0,
+          "sugar_g": 18.8
+        },
+        "missing_inputs": [
+          "2  large ripe mango",
+          "1 cup apple juice or cider",
+          "1/2 cup unsalted cashew nuts"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -306,6 +367,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 190,
+          "fat_g": 10.1,
+          "carbs_g": 20.6,
+          "protein_g": 10.8,
+          "sodium_mg": 108,
+          "fiber_g": 5.1,
+          "sugar_g": 12.4
+        },
+        "missing_inputs": [
+          "1/2 cup plus 1 tbsp  caster sugar",
+          "1 tbsp instant coffee"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -387,6 +467,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 0.7,
+          "carbs_g": 4.2,
+          "protein_g": 2.0,
+          "sodium_mg": 0,
+          "fiber_g": 1.0,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1 cup pineapple juice",
+          "1  large ripe banana",
+          "4 oz yogurt",
+          "1/2 cup fresh or frozen strawberries",
+          "1 tsp banana essence"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -450,7 +552,29 @@
         "From 'Punch: The Delights (and Dangers) of the Flowing Bowl' by drinks historian David Wondrich.",
         "Includes historically accurate recipes dating back as far as 1668.",
         "This recipe from 1867 is the 19th-century version of that college favorite 'jungle juice.'"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 27,
+          "fat_g": 0.1,
+          "carbs_g": 7.0,
+          "protein_g": 0.2,
+          "sodium_mg": 0,
+          "fiber_g": 0.5,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "750 ml cognac",
+          "2 1/2 cups seltzer or club soda",
+          "1/4 cup superfine sugar",
+          "375-750 ml cold demi-sec champagne"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
+      }
     },
     {
       "id": "gin-three-ways-cocktails",
@@ -559,6 +683,34 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.6,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "FRENCH 75 (BUBBLY):",
+          "1 oz gin",
+          "1/2 oz lemon juice",
+          "to top champagne",
+          "GIBSON (DRY):",
+          "3 oz gin",
+          "1/2 oz dry vermouth",
+          "for garnish cocktail onions",
+          "BRONX (SWEET):",
+          "1 oz gin"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
       }
     },
     {
@@ -628,6 +780,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 137,
+          "fat_g": 0.1,
+          "carbs_g": 37.4,
+          "protein_g": 0.4,
+          "sodium_mg": 2,
+          "fiber_g": 0.8,
+          "sugar_g": 35.5
+        },
+        "missing_inputs": [
+          "2 cups apricot nectar",
+          "1 cup vodka (optional)",
+          "1 bottle sparkling apple juice",
+          "lemon slices, for serving"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
       }
     },
     {
@@ -685,8 +859,22 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {}
+        "status": "partial",
+        "per_serving": {
+          "calories": 8,
+          "fat_g": 0.1,
+          "carbs_g": 2.5,
+          "protein_g": 0.3,
+          "sodium_mg": 0,
+          "fiber_g": 0.8,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "1/2  pineapple"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -733,8 +921,22 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {}
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4  fresh pears"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -793,8 +995,23 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {}
+        "status": "partial",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 0.2,
+          "carbs_g": 15.0,
+          "protein_g": 1.0,
+          "sodium_mg": 0,
+          "fiber_g": 3.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "1/2 medium papaya",
+          "4-6 leaves kale"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -858,7 +1075,23 @@
       },
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {}
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1/2 medium papaya",
+          "1 small slice ginger",
+          "4-6 leaves kale"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -924,8 +1157,22 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {}
+        "status": "partial",
+        "per_serving": {
+          "calories": 69,
+          "fat_g": 0.5,
+          "carbs_g": 15.5,
+          "protein_g": 2.1,
+          "sodium_mg": 165,
+          "fiber_g": 5.6,
+          "sugar_g": 7.2
+        },
+        "missing_inputs": [
+          "1  beet"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -991,8 +1238,23 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {}
+        "status": "partial",
+        "per_serving": {
+          "calories": 95,
+          "fat_g": 0.3,
+          "carbs_g": 25.0,
+          "protein_g": 0.5,
+          "sodium_mg": 2,
+          "fiber_g": 4.0,
+          "sugar_g": 19.0
+        },
+        "missing_inputs": [
+          "6  carrots",
+          "1  celery stalk"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -1055,8 +1317,22 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {}
+        "status": "partial",
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 0.5,
+          "carbs_g": 33.5,
+          "protein_g": 2.5,
+          "sodium_mg": 2,
+          "fiber_g": 6.9,
+          "sugar_g": 24.8
+        },
+        "missing_inputs": [
+          "1 small piece ginger"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -1155,7 +1431,25 @@
       },
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {}
+        "per_serving": {
+          "calories": 35,
+          "fat_g": 0.2,
+          "carbs_g": 8.5,
+          "protein_g": 0.9,
+          "sodium_mg": 43,
+          "fiber_g": 2.8,
+          "sugar_g": 4.1
+        },
+        "missing_inputs": [
+          "2  apples",
+          "1 inch cucumber",
+          "1/4 stick celery",
+          "1 inch stem broccoli",
+          "1 inch slice beetroot"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -1242,7 +1536,24 @@
       },
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {}
+        "per_serving": {
+          "calories": 12,
+          "fat_g": 0.2,
+          "carbs_g": 2.0,
+          "protein_g": 1.5,
+          "sodium_mg": 29,
+          "fiber_g": 1.2,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "1 small red bell pepper",
+          "3 medium carrots",
+          "1/2  mango",
+          "1/4-1/8  honeydew melon"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -1313,8 +1624,23 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {}
+        "status": "partial",
+        "per_serving": {
+          "calories": 65,
+          "fat_g": 0.2,
+          "carbs_g": 17.0,
+          "protein_g": 0.3,
+          "sodium_mg": 1,
+          "fiber_g": 3.0,
+          "sugar_g": 13.0
+        },
+        "missing_inputs": [
+          "1  pomegranate",
+          "3 medium carrots"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -1375,8 +1701,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {}
+        "status": "complete",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 0.6,
+          "carbs_g": 37.0,
+          "protein_g": 3.7,
+          "sodium_mg": 33,
+          "fiber_g": 8.5,
+          "sugar_g": 23.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -1455,7 +1793,27 @@
         "recipes - 342",
         "recipes - 343"
       ],
-      "source_note": "Recipe Keeper digital cookbook"
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 2.5,
+          "carbs_g": 2.5,
+          "protein_g": 1.5,
+          "sodium_mg": 5,
+          "fiber_g": 0.0,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [
+          "2 cups full cream milk",
+          "2 cups strong hot coffee",
+          "4  cinnamon sticks"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "fruity-smoothie-with-ground-flax-seed",
@@ -1535,7 +1893,28 @@
       "image_refs": [
         "recipes - 344"
       ],
-      "source_note": "Recipe Keeper digital cookbook"
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 79,
+          "fat_g": 3.2,
+          "carbs_g": 12.5,
+          "protein_g": 1.8,
+          "sodium_mg": 2,
+          "fiber_g": 4.0,
+          "sugar_g": 7.5
+        },
+        "missing_inputs": [
+          "1/2  large banana",
+          "3 oz plain yogurt",
+          "1/4 cup sweetened condensed milk",
+          "1/4 cup ice cubes"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "fruity-yogurt-smoothie",
@@ -1608,7 +1987,27 @@
       "image_refs": [
         "recipes - 345"
       ],
-      "source_note": "Recipe Keeper digital cookbook"
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 89,
+          "fat_g": 1.3,
+          "carbs_g": 18.8,
+          "protein_g": 1.5,
+          "sodium_mg": 20,
+          "fiber_g": 0.0,
+          "sugar_g": 18.8
+        },
+        "missing_inputs": [
+          "2  large ripe mango",
+          "1 cup apple juice or cider",
+          "1/2 cup unsalted cashew nuts"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "mexican-breakfast-choco-drink",
@@ -1720,7 +2119,28 @@
         "recipes - 346",
         "recipes - 347"
       ],
-      "source_note": "Recipe Keeper digital cookbook"
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 190,
+          "fat_g": 10.1,
+          "carbs_g": 20.6,
+          "protein_g": 10.8,
+          "sodium_mg": 108,
+          "fiber_g": 5.1,
+          "sugar_g": 12.4
+        },
+        "missing_inputs": [
+          "1/2 cup plus 1 tbsp  caster sugar",
+          "1 tbsp instant coffee",
+          "whipped cream",
+          "grated chocolate"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "quick-fruity-breakfast-smoothie",
@@ -1812,7 +2232,29 @@
       "image_refs": [
         "recipes - 348"
       ],
-      "source_note": "Recipe Keeper digital cookbook"
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 0.7,
+          "carbs_g": 4.2,
+          "protein_g": 2.0,
+          "sodium_mg": 0,
+          "fiber_g": 1.0,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1 cup pineapple juice",
+          "1  large ripe banana",
+          "4 oz yogurt",
+          "1/2 cup fresh or frozen strawberries",
+          "1 tsp banana essence"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "batch-spicy-coconut-lime-margarita",
@@ -2511,12 +2953,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 9,
+          "fat_g": 0.6,
+          "carbs_g": 0.1,
+          "protein_g": 0.8,
+          "sodium_mg": 10,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
       }
     },
     {
@@ -2589,12 +3040,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 2.5,
+          "carbs_g": 0.3,
+          "protein_g": 3.0,
+          "sodium_mg": 132,
+          "fiber_g": 0.0,
+          "sugar_g": 0.3
+        },
         "missing_inputs": [
-          "all"
+          "1/4 cup GRANDMA\u2019S MOLASSES",
+          "2 cup scalded milk"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -2675,12 +3137,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 83,
+          "fat_g": 0.1,
+          "carbs_g": 21.3,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.1,
+          "sugar_g": 20.4
+        },
         "missing_inputs": [
-          "all"
+          "1 quart chilled ginger ale"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 11 servings"
+        ]
       }
     },
     {
@@ -2762,11 +3234,23 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 284,
+          "fat_g": 0.0,
+          "carbs_g": 73.0,
+          "protein_g": 0.0,
+          "sodium_mg": 26,
+          "fiber_g": 0.0,
+          "sugar_g": 71.8
+        },
         "missing_inputs": [
-          "all"
+          "One 6-oz. can frozen orange juice",
+          "1  bottle (1 pint) cranberry juice",
+          "Red food coloring"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -2817,12 +3301,24 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "2 quarts lime sherbet",
+          "2 quarts ginger ale"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
       }
     },
     {
@@ -2925,12 +3421,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 459,
+          "fat_g": 2.7,
+          "carbs_g": 109.0,
+          "protein_g": 3.1,
+          "sodium_mg": 961,
+          "fiber_g": 0.4,
+          "sugar_g": 106.7
+        },
         "missing_inputs": [
-          "all"
+          "1 cup soft shortening",
+          "3  \u00bd cups sifted GOLD MEDAL Flour"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3009,12 +3516,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 1.4,
+          "carbs_g": 0.3,
+          "protein_g": 1.6,
+          "sodium_mg": 20,
+          "fiber_g": 0.0,
+          "sugar_g": 0.3
+        },
         "missing_inputs": [
-          "all"
+          "2 lb beef round steak",
+          "1 cup crushed saltine crackers"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3098,11 +3616,24 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "1/4 cup Two cups ofsugar.",
+          "One pint ofstrawberry syrup.",
+          "Two cans ofgrated pineapple,",
+          "One large bottle ofMaraschino cherries."
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3178,11 +3709,23 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "2 lb pkg Ground beef 1 1/3 c Milk",
+          "2 tsp Salt Margarine",
+          "1/4 tsp Pepper 2 cans Mushroom Soup"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3250,11 +3793,23 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 15,
+          "fat_g": 0.1,
+          "carbs_g": 3.5,
+          "protein_g": 0.4,
+          "sodium_mg": 1,
+          "fiber_g": 0.6,
+          "sugar_g": 1.5
+        },
         "missing_inputs": [
-          "all"
+          "3 lb round steak 3 stalks celery",
+          "3  tbs butter 1/2 c catsup",
+          "1 tsp salt 1 tbs chopped parsley"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3336,11 +3891,25 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "1 lb mushrooms sliced 1/2 tsp salt",
+          "2  c onions",
+          "1/4 lb butter 1 round steak",
+          "8 oz can tomato sauce flour",
+          "1  tbs Worcestershire sauce"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3419,12 +3988,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 14,
+          "fat_g": 0.9,
+          "carbs_g": 1.2,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
+        },
         "missing_inputs": [
-          "all"
+          "1-1  /2 lb round steak 1 jar home style beef gravy",
+          "1 lb mushrooms"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3510,11 +4090,25 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "4-6  flank steaks 4-6 pineapple slices",
+          "1  tbs salad oil 1/2 c soy sauce",
+          "1/4  c sugar 2 tbs sherry (optional)",
+          "1 tsp ginger 1 clove garlic",
+          "1/2 tsp MSG"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3600,11 +4194,24 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 2.5,
+          "carbs_g": 0.2,
+          "protein_g": 3.0,
+          "sodium_mg": 36,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
         "missing_inputs": [
-          "all"
+          "2 lb ground beef 2/3 c bread crumbs",
+          "1 tsp salt 1/2 tsp pepper",
+          "2 can (10 oz) condensed beef 2 cans (4 oz) mushrooms",
+          "4  tbs cornstarch"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3706,11 +4313,23 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 400,
+          "fat_g": 0.1,
+          "carbs_g": 104.2,
+          "protein_g": 0.2,
+          "sodium_mg": 2,
+          "fiber_g": 0.2,
+          "sugar_g": 101.5
+        },
         "missing_inputs": [
-          "all"
+          "1  lemon cutinvery thin slices.",
+          "1  orange cutinvery thin slices.",
+          "4 quarts water."
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3777,12 +4396,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "6  heaping teaspoons finely ground coffee."
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3841,12 +4470,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "11/2 cup ground coffee."
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3909,12 +4548,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "3  rounding tablespoons ground coffee.",
+          "1 pint water."
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -4008,11 +4658,23 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "44  9",
+          "450  BEVERAGES",
+          "1  The coffee should beroasted justbefore use ;asifkept"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -4286,11 +4948,30 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "19  5",
+          "19  5",
+          "19  6",
+          "19  8",
+          "19  6",
+          "19  6",
+          "19  7",
+          "19  7",
+          "19  7",
+          "19  7"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -4349,12 +5030,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "4 large tbisp. coffee Ieggwhite",
+          "1 qt boiling water"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -4421,12 +5113,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "1 medium One onion, minced fine.",
+          "Two tablespoons ofparsley."
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -4490,11 +5193,23 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 16,
+          "fat_g": 0.1,
+          "carbs_g": 3.8,
+          "protein_g": 0.2,
+          "sodium_mg": 0,
+          "fiber_g": 0.8,
+          "sugar_g": 3.0
+        },
         "missing_inputs": [
-          "all"
+          "One gallon ofcider,",
+          "Three bananas^ cutintothin slices.",
+          "Three baked apples, cutinto bits."
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -4565,12 +5280,22 @@
         "processed/img_5658.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 148,
+          "fat_g": 2.9,
+          "carbs_g": 29.0,
+          "protein_g": 3.7,
+          "sodium_mg": 39,
+          "fiber_g": 0.6,
+          "sugar_g": 25.0
+        },
         "missing_inputs": [
-          "all"
+          "1/2 cup vanilla yogurt"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
       }
     },
     {
@@ -4674,11 +5399,26 @@
       ],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "4 oz hops",
+          "1 gallon water",
+          "16 gallons warm water",
+          "2 gallons molasses",
+          "8 oz essence of spruce",
+          "1/2 pint emptins (yeast)"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     }
   ]
