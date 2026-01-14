@@ -541399,6 +541399,537 @@
       "confidence": {"overall": "high", "flags": []},
       "image_refs": [],
       "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "smoked-ghost-pepper-hot-sauce-tcb",
+      "collection": "all",
+      "collection_display": "The Chopping Block",
+      "title": "Smoked Ghost Pepper Hot Sauce",
+      "category": "sides",
+      "attribution": "The Chopping Block",
+      "source_note": "https://www.thechoppingblock.com/blog/smoked-ghost-pepper-hot-sauce-will-scare-your-taste-buds",
+      "description": "Intensely spicy hot sauce made from dried, smoked ghost peppers with roasted garlic and vinegar. The smokiness makes this the most flavorful hot sauce.",
+      "servings_yield": "20 five-ounce bottles",
+      "prep_time": "1 month (drying) plus prep",
+      "cook_time": "1 hour (reduction)",
+      "total_time": "1 month+ (including drying time)",
+      "ingredients": [
+        {"item": "organic apple cider vinegar", "quantity": "1", "unit": "gallon", "prep_note": ""},
+        {"item": "roasted garlic", "quantity": "4", "unit": "heads", "prep_note": "see instructions"},
+        {"item": "ghost peppers", "quantity": "20", "unit": "", "prep_note": "dried and smoked"},
+        {"item": "salt", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "sugar", "quantity": "2", "unit": "cups", "prep_note": ""},
+        {"item": "garlic heads", "quantity": "4", "unit": "", "prep_note": "for roasting"},
+        {"item": "extra virgin olive oil", "quantity": "4", "unit": "tbsp", "prep_note": "for roasting garlic"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Dry fresh, ripe ghost peppers by tying string to stems and hanging in pantry for approximately one month until completely dried. Ensure peppers don't touch for air circulation."},
+        {"step": 2, "text": "Smoke dried peppers on a smoker for 10-20 minutes, monitoring to prevent over-charring."},
+        {"step": 3, "text": "For roasted garlic: cut tops off heads, place in baking dish, drizzle with olive oil, cover with foil, bake at 375°F for 1 hour until soft and caramelized."},
+        {"step": 4, "text": "Remove seeds and stems from smoked peppers (wear gloves!). Discard any with mold."},
+        {"step": 5, "text": "Puree all ingredients in a powerful blender (Vitamix recommended) until smooth."},
+        {"step": 6, "text": "Heat sauce in large pot on medium heat with proper ventilation, reducing to about 80% original volume."},
+        {"step": 7, "text": "Strain through fine sieve."},
+        {"step": 8, "text": "Funnel into sterilized jars."}
+      ],
+      "temperature": "375°F (190°C) for roasting garlic",
+      "notes": [
+        "Ghost peppers reach over 1 million Scoville Heat Units - use extreme caution.",
+        "Store unopened at room temperature; refrigerate after opening.",
+        "For shelf-stable storage: heat bottles in boiling water, fill with sauce at 180°F+, flip upside down 5 minutes.",
+        "Sauce will separate - shake before use."
+      ],
+      "tags": ["hot-sauce", "ghost-pepper", "smoked", "extreme-heat", "the-chopping-block"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "hot-pepper-salt-foragerchef",
+      "collection": "all",
+      "collection_display": "Forager Chef",
+      "title": "Hot Carolina Reaper or Ghost Pepper Salt",
+      "category": "sides",
+      "attribution": "Forager Chef",
+      "source_note": "https://foragerchef.com/chili-pepper-salt/",
+      "description": "Homemade spicy salt blend combining super-hot peppers with aromatic varieties. Customizable proportions work well with fresh or frozen peppers.",
+      "servings_yield": "About 1 lb",
+      "prep_time": "5 minutes",
+      "cook_time": "12+ hours (drying)",
+      "total_time": "1-2 days",
+      "ingredients": [
+        {"item": "super-hot peppers", "quantity": "1-2", "unit": "oz", "prep_note": "about 6 peppers - Carolina reapers, scorpion, or ghost peppers"},
+        {"item": "aromatic hot peppers", "quantity": "1", "unit": "oz", "prep_note": "about 6 peppers - habanero, scotch bonnet, or fatalii"},
+        {"item": "coarse kosher salt", "quantity": "1", "unit": "lb", "prep_note": "Morton kosher salt works well"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Wearing gloves, remove stems from all peppers."},
+        {"step": 2, "text": "Cut peppers into pieces directly into a food processor."},
+        {"step": 3, "text": "Add salt and puree until finely ground with no large particles or skin pieces."},
+        {"step": 4, "text": "Spread mixture on parchment-lined baking sheet."},
+        {"step": 5, "text": "Air-dry 1-2 days until no longer wet. Fans accelerate drying."},
+        {"step": 6, "text": "Alternative: use dehydrator at 90°F for approximately 12 hours."},
+        {"step": 7, "text": "Store in labeled container in refrigerator for long-term storage."}
+      ],
+      "notes": [
+        "Use proportions as a template - customize to taste.",
+        "Works well with frozen peppers.",
+        "Drying releases strong aromas - consider drying in garage if using dehydrator.",
+        "Super-hot peppers add heat while aromatic peppers add fruity flavor."
+      ],
+      "tags": ["spice-blend", "salt", "ghost-pepper", "carolina-reaper", "extreme-heat", "forager-chef"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "nacho-cheese-sauce-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Nacho Cheese Sauce",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/nacho-cheese-sauce-recipe/",
+      "description": "Spicy homemade nacho cheese sauce that tastes just like movie theater nachos, using a trick learned behind the concession stand.",
+      "servings_yield": "About 2 cups",
+      "prep_time": "5 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {"item": "butter", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "all-purpose flour", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "milk", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "shredded cheddar cheese", "quantity": "2", "unit": "cups", "prep_note": ""},
+        {"item": "pickled jalapeño brine", "quantity": "2", "unit": "tbsp", "prep_note": "the secret ingredient"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "1/4", "unit": "tsp", "prep_note": "optional"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Melt butter in a saucepan over medium heat."},
+        {"step": 2, "text": "Whisk in flour and cook 1 minute to form roux."},
+        {"step": 3, "text": "Slowly whisk in milk until smooth."},
+        {"step": 4, "text": "Add cheese and stir until melted."},
+        {"step": 5, "text": "Stir in jalapeño brine, salt, and cayenne if using."},
+        {"step": 6, "text": "Serve immediately with tortilla chips."}
+      ],
+      "notes": [
+        "The jalapeño brine is the movie theater secret.",
+        "Can use American cheese for smoother consistency.",
+        "Add more cayenne for extra heat."
+      ],
+      "tags": ["cheese-sauce", "nachos", "appetizers", "movie-theater", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "texas-nachos-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Texas Nachos",
+      "category": "appetizers",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/appetizers/the-ultimate-texas-nachos/",
+      "description": "The ultimate appetizer with crispy corn tortillas topped with refried beans, melty cheese and pickled jalapeño peppers. Perfect for parties or game day!",
+      "servings_yield": "4-6 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "tortilla chips", "quantity": "1", "unit": "bag", "prep_note": "about 10 oz"},
+        {"item": "refried beans", "quantity": "1", "unit": "can", "prep_note": "15 oz"},
+        {"item": "shredded cheese", "quantity": "2", "unit": "cups", "prep_note": "cheddar or Mexican blend"},
+        {"item": "pickled jalapeños", "quantity": "1/2", "unit": "cup", "prep_note": "sliced"},
+        {"item": "sour cream", "quantity": "", "unit": "", "prep_note": "for topping"},
+        {"item": "guacamole", "quantity": "", "unit": "", "prep_note": "for topping"},
+        {"item": "salsa", "quantity": "", "unit": "", "prep_note": "for topping"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Preheat oven to 375°F."},
+        {"step": 2, "text": "Spread tortilla chips on large baking sheet."},
+        {"step": 3, "text": "Warm refried beans and dollop over chips."},
+        {"step": 4, "text": "Top with shredded cheese and jalapeños."},
+        {"step": 5, "text": "Bake 10-15 minutes until cheese is melted and bubbly."},
+        {"step": 6, "text": "Add sour cream, guacamole, and salsa. Serve immediately."}
+      ],
+      "temperature": "375°F (190°C)",
+      "notes": [
+        "Layer chips in a single layer for best results.",
+        "Add seasoned ground beef for loaded nachos.",
+        "Serve immediately - don't let them sit or chips get soggy."
+      ],
+      "tags": ["nachos", "texas", "appetizers", "game-day", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "enchilada-sauce-quick-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Quick and Easy Enchilada Sauce",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/sauces/quick-and-easy-enchilada-sauce/",
+      "description": "Very flavorful quick and easy enchilada sauce ready in only 10 minutes. So much better than canned sauce.",
+      "servings_yield": "About 2 cups",
+      "prep_time": "5 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {"item": "vegetable oil", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "chili powder", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "all-purpose flour", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "tomato sauce", "quantity": "15", "unit": "oz", "prep_note": ""},
+        {"item": "chicken broth", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "oregano", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Heat oil in saucepan over medium heat."},
+        {"step": 2, "text": "Whisk in chili powder and flour. Cook 1 minute."},
+        {"step": 3, "text": "Add tomato sauce and broth. Whisk until smooth."},
+        {"step": 4, "text": "Add cumin, garlic powder, oregano, and salt."},
+        {"step": 5, "text": "Simmer 10 minutes until thickened."}
+      ],
+      "notes": [
+        "Use on enchiladas, quesadillas, burritos, or tacos.",
+        "Can add chipotle for smoky version.",
+        "Keeps refrigerated for 1 week."
+      ],
+      "tags": ["sauce", "enchilada", "mexican", "quick", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "cheese-enchiladas-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Cheese Enchiladas",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/cheese-enchiladas/",
+      "description": "Traditional Mexican-inspired cheese enchiladas - simple, satisfying, and perfect for a family dinner everyone will love.",
+      "servings_yield": "8 enchiladas",
+      "prep_time": "15 minutes",
+      "cook_time": "25 minutes",
+      "total_time": "40 minutes",
+      "ingredients": [
+        {"item": "corn tortillas", "quantity": "8", "unit": "", "prep_note": ""},
+        {"item": "shredded cheese", "quantity": "3", "unit": "cups", "prep_note": "Mexican blend, divided"},
+        {"item": "enchilada sauce", "quantity": "2", "unit": "cups", "prep_note": "homemade or store-bought"},
+        {"item": "diced onion", "quantity": "1/2", "unit": "cup", "prep_note": "optional"},
+        {"item": "sour cream", "quantity": "", "unit": "", "prep_note": "for serving"},
+        {"item": "fresh cilantro", "quantity": "", "unit": "", "prep_note": "for garnish"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Preheat oven to 375°F."},
+        {"step": 2, "text": "Spread 1/2 cup enchilada sauce in bottom of 9x13 baking dish."},
+        {"step": 3, "text": "Warm tortillas to make them pliable."},
+        {"step": 4, "text": "Fill each tortilla with cheese (and onion if using). Roll up."},
+        {"step": 5, "text": "Place seam-side down in dish. Pour remaining sauce over top."},
+        {"step": 6, "text": "Top with remaining cheese."},
+        {"step": 7, "text": "Bake 20-25 minutes until bubbly. Garnish and serve."}
+      ],
+      "temperature": "375°F (190°C)",
+      "notes": [
+        "Warm tortillas so they don't crack when rolling.",
+        "Can add beans, ground beef, or chicken.",
+        "Top with crumbled cotija for authentic touch."
+      ],
+      "tags": ["enchiladas", "mexican", "cheese", "mains", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "lo-mein-noodles-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Lo Mein Noodles",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/lo-mein-noodles/",
+      "description": "Easy lo mein noodles ready in 15 minutes with simple ingredients and customizable with vegetables and spices.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "20 minutes",
+      "ingredients": [
+        {"item": "lo mein noodles", "quantity": "8", "unit": "oz", "prep_note": "or spaghetti"},
+        {"item": "dark soy sauce", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "light soy sauce", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "oyster sauce", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "sesame oil", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "sugar or honey", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "ginger", "quantity": "1", "unit": "tsp", "prep_note": "minced"},
+        {"item": "sriracha", "quantity": "1", "unit": "tsp", "prep_note": "or to taste"},
+        {"item": "vegetables", "quantity": "2", "unit": "cups", "prep_note": "bell pepper, cabbage, snap peas, etc."},
+        {"item": "vegetable oil", "quantity": "2", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Cook noodles according to package. Drain and set aside."},
+        {"step": 2, "text": "Whisk together both soy sauces, oyster sauce, sesame oil, sugar, ginger, and sriracha."},
+        {"step": 3, "text": "Heat oil in wok over high heat. Stir-fry vegetables 2-3 minutes."},
+        {"step": 4, "text": "Add noodles and sauce. Toss to coat evenly."},
+        {"step": 5, "text": "Cook 2 more minutes. Serve immediately."}
+      ],
+      "notes": [
+        "Lo mein means 'stirred noodles' - noodles are tossed into stir-fry.",
+        "Add chicken, beef, shrimp, or tofu for protein.",
+        "Customize vegetables to your preference."
+      ],
+      "tags": ["noodles", "chinese", "lo-mein", "quick", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "pad-see-ew-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Pad See Ew (Thai Stir-Fried Noodles)",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/pad-see-ew/",
+      "description": "Delicious Thai noodle dish with wide rice noodles stir-fried in savory sauce with vegetables and your choice of protein.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "30 minutes",
+      "ingredients": [
+        {"item": "wide rice noodles", "quantity": "8", "unit": "oz", "prep_note": "fresh or dried"},
+        {"item": "Chinese broccoli", "quantity": "8", "unit": "oz", "prep_note": "or regular broccoli"},
+        {"item": "eggs", "quantity": "2", "unit": "", "prep_note": ""},
+        {"item": "protein", "quantity": "8", "unit": "oz", "prep_note": "chicken, beef, or tofu"},
+        {"item": "dark soy sauce", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "light soy sauce", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "oyster sauce", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "sugar", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "3", "unit": "cloves", "prep_note": "minced"},
+        {"item": "vegetable oil", "quantity": "3", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "If using dried noodles, soak in warm water until pliable."},
+        {"step": 2, "text": "Mix soy sauces, oyster sauce, and sugar for sauce."},
+        {"step": 3, "text": "Heat wok over high heat. Add oil and stir-fry protein until cooked. Set aside."},
+        {"step": 4, "text": "Scramble eggs in wok. Set aside."},
+        {"step": 5, "text": "Add more oil, stir-fry garlic 30 seconds. Add noodles."},
+        {"step": 6, "text": "Add sauce and toss. Let noodles caramelize slightly on wok."},
+        {"step": 7, "text": "Add broccoli, protein, and eggs. Toss and serve."}
+      ],
+      "notes": [
+        "Wide rice noodles caramelize better in the wok.",
+        "Chinese broccoli (gai lan) is traditional but regular broccoli works.",
+        "High heat is essential for proper wok cooking."
+      ],
+      "tags": ["thai", "noodles", "stir-fry", "pad-see-ew", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "smoked-pulled-pork-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "No-Fail Smoked Pulled Pork",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/smoked-pulled-pork/",
+      "description": "The juiciest, most tender smoky pulled pork, perfect for tacos, sandwiches, and more.",
+      "servings_yield": "10-12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "8-10 hours",
+      "total_time": "10+ hours",
+      "ingredients": [
+        {"item": "pork shoulder (Boston butt)", "quantity": "8-10", "unit": "lb", "prep_note": "bone-in"},
+        {"item": "dry rub", "quantity": "1/2", "unit": "cup", "prep_note": "your favorite blend"},
+        {"item": "yellow mustard", "quantity": "2", "unit": "tbsp", "prep_note": "as binder"},
+        {"item": "apple cider vinegar", "quantity": "1", "unit": "cup", "prep_note": "for spritzing"},
+        {"item": "wood chips", "quantity": "", "unit": "", "prep_note": "hickory, apple, or cherry"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Coat pork with mustard, then generously apply dry rub."},
+        {"step": 2, "text": "Let sit 1 hour or refrigerate overnight."},
+        {"step": 3, "text": "Heat smoker to 225°F."},
+        {"step": 4, "text": "Smoke pork for 4 hours, adding wood chips regularly."},
+        {"step": 5, "text": "Spritz with apple cider vinegar every hour after first 4 hours."},
+        {"step": 6, "text": "Continue smoking until internal temp reaches 195-205°F."},
+        {"step": 7, "text": "Rest 30 minutes, then pull apart with forks."}
+      ],
+      "temperature": "225°F (107°C) smoker temp, 195-205°F internal",
+      "notes": [
+        "The stall around 160°F is normal - be patient.",
+        "Can wrap in foil at 160°F to push through stall faster.",
+        "Rest is essential for juicy meat."
+      ],
+      "tags": ["pulled-pork", "smoked", "bbq", "slow-cooked", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "oven-baked-ribs-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Oven Baked Ribs with Honey-Sriracha Glaze",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/oven-baked-ribs/",
+      "description": "Tender oven baked baby back ribs drenched in tangy honey-sriracha glaze. Super easy to make.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "2.5-3 hours",
+      "total_time": "3+ hours",
+      "ingredients": [
+        {"item": "baby back ribs", "quantity": "2", "unit": "racks", "prep_note": "about 4 lbs"},
+        {"item": "dry rub", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "honey", "quantity": "1/4", "unit": "cup", "prep_note": "for glaze"},
+        {"item": "sriracha", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "soy sauce", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "rice vinegar", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "2", "unit": "cloves", "prep_note": "minced"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Remove membrane from back of ribs."},
+        {"step": 2, "text": "Apply dry rub generously on both sides."},
+        {"step": 3, "text": "Wrap in foil and bake at 300°F for 2-2.5 hours."},
+        {"step": 4, "text": "Mix honey, sriracha, soy sauce, vinegar, and garlic for glaze."},
+        {"step": 5, "text": "Unwrap ribs, brush with glaze."},
+        {"step": 6, "text": "Broil 3-5 minutes or grill to caramelize glaze."}
+      ],
+      "temperature": "300°F (150°C)",
+      "notes": [
+        "Internal temp should reach 145°F minimum.",
+        "Ribs are done when meat pulls back from bones.",
+        "Can use BBQ sauce instead of honey-sriracha."
+      ],
+      "tags": ["ribs", "bbq", "oven-baked", "honey-sriracha", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "jamaican-jerk-seasoning-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Jamaican Jerk Seasoning",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/spice-blends/homemade-jamaican-jerk-seasoning/",
+      "description": "Homemade Jamaican jerk seasoning blend filled with piquant and aromatic spices. Perfect for chicken thighs and pork chops.",
+      "servings_yield": "About 1/2 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {"item": "allspice", "quantity": "2", "unit": "tbsp", "prep_note": "ground"},
+        {"item": "dried thyme", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "onion powder", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "cinnamon", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "nutmeg", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "brown sugar", "quantity": "1", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine all ingredients in a bowl and mix well."},
+        {"step": 2, "text": "Store in airtight container."},
+        {"step": 3, "text": "Use as dry rub or mix with oil and vinegar for wet marinade."}
+      ],
+      "notes": [
+        "Allspice is the key flavor in jerk seasoning.",
+        "Marinate meat 1-2 hours for best flavor.",
+        "Keeps for months in airtight container."
+      ],
+      "tags": ["spice-blend", "jamaican", "jerk", "caribbean", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "adobo-seasoning-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Adobo Seasoning",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/adobo-seasoning/",
+      "description": "Staple seasoning blend in Latin American, Caribbean and Spanish cuisine. An all-purpose seasoning for rubs and marinades.",
+      "servings_yield": "About 1/3 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {"item": "garlic powder", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "onion powder", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "dried oregano", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "2", "unit": "tsp", "prep_note": ""},
+        {"item": "chili powder", "quantity": "1", "unit": "tsp", "prep_note": "optional"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine all ingredients and mix well."},
+        {"step": 2, "text": "Store in airtight container."},
+        {"step": 3, "text": "Use on meats, vegetables, rice, beans, and more."}
+      ],
+      "notes": [
+        "Essential in Puerto Rican and Filipino cooking.",
+        "Use as all-purpose seasoning or marinade base.",
+        "Add citrus juice for wet marinade."
+      ],
+      "tags": ["spice-blend", "adobo", "latin", "all-purpose", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "chicken-wings-dry-rub-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Chicken Wings Dry Rub",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/chicken-wings-dry-rub/",
+      "description": "Personal wing dry rub using 13 different spices for vibrant, bold flavor that takes wings to a whole new level.",
+      "servings_yield": "About 1/2 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {"item": "paprika", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "chili powder", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "onion powder", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "brown sugar", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "salt", "quantity": "2", "unit": "tsp", "prep_note": ""},
+        {"item": "dried thyme", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "dried oregano", "quantity": "1/2", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Mix all spices together in a bowl."},
+        {"step": 2, "text": "Pat wings dry and coat generously with rub."},
+        {"step": 3, "text": "Let sit 30 minutes or refrigerate overnight."},
+        {"step": 4, "text": "Bake, grill, fry, or smoke wings as desired."}
+      ],
+      "notes": [
+        "Works for any cooking method.",
+        "Brown sugar helps with caramelization.",
+        "Adjust cayenne for desired heat."
+      ],
+      "tags": ["spice-blend", "dry-rub", "wings", "chicken", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
     }
   ],
   "version": "2.97.0"
