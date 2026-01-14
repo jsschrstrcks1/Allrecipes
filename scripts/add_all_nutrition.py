@@ -2076,12 +2076,152 @@ def normalize_ingredient(item):
 
 
 # =============================================================================
+# EQUIPMENT FILTER - Items that are not food
+# =============================================================================
+
+EQUIPMENT_WORDS = {
+    # Kitchen equipment
+    "mixing-bowl", "mixing bowl", "bowl", "mixing-spoon", "spoon", "fork",
+    "dover beater", "beater", "double-boiler", "double boiler", "saucepan",
+    "flour sifter", "sifter", "vegetable-knife", "knife", "grater",
+    "egg mixing-bowl", "butter mixing-bowl", "ugar mixing-spoon",
+    "milk dover beater", "milk double-boiler",
+    # Meta instructions
+    "for the cake:", "for the frosting:", "for the filling:",
+    "mrs.wilson's cookbook", "-inch", "-sized",
+    # Non-food items
+    "each", "s", "d 227", "egg .03",
+}
+
+def is_equipment(item):
+    """Check if an item is equipment/non-food rather than an ingredient."""
+    item_lower = item.lower().strip()
+
+    # Direct matches
+    if item_lower in EQUIPMENT_WORDS:
+        return True
+
+    # Partial matches for equipment patterns
+    equipment_patterns = [
+        "mixing-bowl", "mixing bowl", "double-boiler", "double boiler",
+        "dover beater", "vegetable-knife", "flour sifter",
+        "for the ", "cookbook", "-inch", "-sized potatoes vegetable",
+    ]
+    for pattern in equipment_patterns:
+        if pattern in item_lower:
+            return True
+
+    # Very short items that are likely OCR garbage
+    if len(item_lower) <= 2 and not item_lower.isdigit():
+        return True
+
+    return False
+
+
+# =============================================================================
+# SERVING INFERENCE - Smart defaults based on category
+# =============================================================================
+
+def infer_servings(recipe):
+    """Infer serving size based on recipe characteristics."""
+    # Check if we have explicit servings
+    servings_yield = recipe.get("servings_yield", "")
+    if servings_yield:
+        parsed = parse_servings(servings_yield)
+        if parsed:
+            return parsed
+
+    category = recipe.get("category", "").lower()
+    title = recipe.get("title", "").lower()
+    ingredients = recipe.get("ingredients", [])
+
+    # Count key ingredients to estimate yield
+    flour_cups = 0
+    meat_lbs = 0
+    egg_count = 0
+
+    for ing in ingredients:
+        item = ing.get("item", "").lower()
+        unit = ing.get("unit", "").lower()
+        try:
+            qty = float(ing.get("quantity", 0) or 0)
+        except:
+            qty = 1
+
+        if "flour" in item and "cup" in unit:
+            flour_cups += qty
+        elif any(m in item for m in ["beef", "chicken", "pork", "turkey", "lamb"]) and "lb" in unit:
+            meat_lbs += qty
+        elif "egg" in item and unit in ("", "each", "large"):
+            egg_count += qty
+
+    # Category-based defaults
+    if category == "beverages":
+        return 4
+    elif category == "appetizers":
+        return 8  # Appetizers usually serve more
+    elif category == "desserts":
+        if "cookie" in title or "bar" in title:
+            return 24  # Cookies/bars make many
+        elif "cake" in title:
+            return 12
+        elif "pie" in title:
+            return 8
+        elif flour_cups >= 3:
+            return 16  # Large batch
+        else:
+            return 8
+    elif category == "breads":
+        if "muffin" in title:
+            return 12
+        elif "roll" in title or "biscuit" in title:
+            return 12
+        elif "loaf" in title or "bread" in title:
+            return 12  # One loaf = ~12 slices
+        else:
+            return 8
+    elif category == "breakfast":
+        if "pancake" in title or "waffle" in title:
+            return 4
+        else:
+            return 4
+    elif category == "mains":
+        if meat_lbs >= 2:
+            return 8
+        elif meat_lbs >= 1:
+            return 6
+        else:
+            return 4
+    elif category == "soups":
+        return 6
+    elif category == "salads":
+        return 6
+    elif category == "sides":
+        return 6
+
+    # Fallback based on ingredient volume
+    if flour_cups >= 4:
+        return 16
+    elif flour_cups >= 2:
+        return 8
+    elif meat_lbs >= 2:
+        return 8
+
+    return 4  # Default
+
+
+# =============================================================================
 # NUTRITION CALCULATION
 # =============================================================================
 
 def get_nutrition_for_ingredient(ingredient):
     """Calculate nutrition for a single ingredient entry."""
     item = normalize_ingredient(ingredient.get("item", ""))
+
+    # Skip equipment and non-food items
+    if is_equipment(item):
+        return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0, "_skipped": True}
+
     quantity = parse_quantity(ingredient.get("quantity", "1"))
     unit = normalize_unit(ingredient.get("unit", ""))
 
@@ -2168,20 +2308,34 @@ def parse_servings(servings_str, default=4):
 def calculate_recipe_nutrition(recipe, default_servings=4):
     """Calculate complete nutrition for a recipe."""
     ingredients = recipe.get("ingredients", [])
-    servings = parse_servings(recipe.get("servings_yield", ""), default_servings)
+
+    # Use smart serving inference
+    servings = infer_servings(recipe)
+    serving_inferred = not recipe.get("servings_yield")
 
     total = {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}
     missing = []
+    skipped_equipment = 0
+    actual_ingredients = 0
 
     for ing in ingredients:
         nutr = get_nutrition_for_ingredient(ing)
         if nutr:
-            for key in total:
-                total[key] += nutr.get(key, 0)
+            # Check if it was skipped equipment
+            if nutr.get("_skipped"):
+                skipped_equipment += 1
+            else:
+                actual_ingredients += 1
+                for key in total:
+                    total[key] += nutr.get(key, 0)
         else:
-            ing_str = f"{ing.get('quantity', '')} {ing.get('unit', '')} {ing.get('item', '')}".strip()
-            if ing_str:
-                missing.append(ing_str)
+            # Check if it's equipment before adding to missing
+            item = normalize_ingredient(ing.get("item", ""))
+            if not is_equipment(item):
+                actual_ingredients += 1
+                ing_str = f"{ing.get('quantity', '')} {ing.get('unit', '')} {ing.get('item', '')}".strip()
+                if ing_str:
+                    missing.append(ing_str)
 
     # Calculate per-serving values
     per_serving = {
@@ -2194,20 +2348,21 @@ def calculate_recipe_nutrition(recipe, default_servings=4):
         "sugar_g": round(total["sugar"] / servings, 1)
     }
 
-    # Determine status
-    total_ingredients = len(ingredients)
+    # Determine status (based on actual food ingredients, not equipment)
+    total_food_ingredients = actual_ingredients
     missing_count = len(missing)
 
     if missing_count == 0:
         status = "complete"
-    elif missing_count <= 2 or (total_ingredients > 0 and missing_count / total_ingredients <= 0.2):
+    elif missing_count <= 2 or (total_food_ingredients > 0 and missing_count / total_food_ingredients <= 0.2):
         status = "partial"
     else:
         status = "insufficient_data"
 
     assumptions = [f"Calculated for {servings} servings"]
-    if servings == default_servings and not recipe.get("servings_yield"):
-        assumptions.append(f"Default serving size assumed ({default_servings})")
+    if serving_inferred:
+        category = recipe.get("category", "unknown")
+        assumptions.append(f"Serving size inferred from {category} category")
 
     return {
         "status": status,

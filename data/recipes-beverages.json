@@ -570,7 +570,7 @@
         ],
         "assumptions": [
           "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Serving size inferred from beverages category"
         ]
       }
     },
@@ -707,7 +707,7 @@
         ],
         "assumptions": [
           "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Serving size inferred from beverages category"
         ]
       }
     },
@@ -798,7 +798,7 @@
         ],
         "assumptions": [
           "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Serving size inferred from beverages category"
         ]
       }
     },
@@ -3316,7 +3316,7 @@
         ],
         "assumptions": [
           "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Serving size inferred from beverages category"
         ]
       }
     },
@@ -4654,7 +4654,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -4665,7 +4665,6 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "44  9",
           "450  BEVERAGES",
           "1  The coffee should beroasted justbefore use ;asifkept"
         ],
@@ -4944,7 +4943,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -4954,18 +4953,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "19  5",
-          "19  5",
-          "19  6",
-          "19  8",
-          "19  6",
-          "19  6",
-          "19  7",
-          "19  7",
-          "19  7",
-          "19  7"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

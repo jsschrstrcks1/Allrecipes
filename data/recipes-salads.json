@@ -7147,20 +7147,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 134,
-          "fat_g": 5.2,
-          "carbs_g": 10.0,
-          "protein_g": 13.0,
-          "sodium_mg": 410,
-          "fiber_g": 1.5,
-          "sugar_g": 6.0
+          "calories": 90,
+          "fat_g": 3.5,
+          "carbs_g": 6.7,
+          "protein_g": 8.7,
+          "sodium_mg": 274,
+          "fiber_g": 1.0,
+          "sugar_g": 4.0
         },
         "missing_inputs": [
           "3 tbsp honey French dressing"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
         ]
       }
     },
@@ -7324,21 +7324,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 33,
-          "fat_g": 0.3,
-          "carbs_g": 7.5,
-          "protein_g": 1.5,
-          "sodium_mg": 9,
-          "fiber_g": 2.2,
-          "sugar_g": 4.5
+          "calories": 22,
+          "fat_g": 0.2,
+          "carbs_g": 5.0,
+          "protein_g": 1.0,
+          "sodium_mg": 6,
+          "fiber_g": 1.5,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
           "1 head lettuce",
           "Mayonnaise"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
         ]
       }
     },
@@ -7417,13 +7417,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 290,
-          "fat_g": 30.5,
-          "carbs_g": 1.8,
-          "protein_g": 2.5,
-          "sodium_mg": 251,
+          "calories": 193,
+          "fat_g": 20.3,
+          "carbs_g": 1.2,
+          "protein_g": 1.7,
+          "sodium_mg": 167,
           "fiber_g": 0.0,
-          "sugar_g": 1.5
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "6  peaches",
@@ -7431,8 +7431,8 @@
           "Lettuce leaves"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
         ]
       }
     },
@@ -7543,21 +7543,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 148,
-          "fat_g": 10.7,
-          "carbs_g": 9.8,
-          "protein_g": 3.7,
-          "sodium_mg": 672,
+          "calories": 99,
+          "fat_g": 7.1,
+          "carbs_g": 6.5,
+          "protein_g": 2.5,
+          "sodium_mg": 448,
           "fiber_g": 0.0,
-          "sugar_g": 9.5
+          "sugar_g": 6.3
         },
         "missing_inputs": [
           "Dash cayenne",
           "1  \u00bd tbsp. flour"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
         ]
       }
     },
@@ -8073,21 +8073,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 11,
+          "calories": 7,
           "fat_g": 0.0,
-          "carbs_g": 2.5,
+          "carbs_g": 1.7,
           "protein_g": 0.2,
           "sodium_mg": 1,
-          "fiber_g": 0.5,
-          "sugar_g": 1.2
+          "fiber_g": 0.3,
+          "sugar_g": 0.8
         },
         "missing_inputs": [
           "1  envelope unflavored gelatin",
           "1  \u00be cups bouillon or soup stock"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
         ]
       }
     },
@@ -9056,20 +9056,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 81,
-          "fat_g": 7.5,
-          "carbs_g": 3.0,
-          "protein_g": 0.4,
-          "sodium_mg": 356,
-          "fiber_g": 0.7,
-          "sugar_g": 1.4
+          "calories": 54,
+          "fat_g": 5.0,
+          "carbs_g": 2.0,
+          "protein_g": 0.3,
+          "sodium_mg": 237,
+          "fiber_g": 0.5,
+          "sugar_g": 0.9
         },
         "missing_inputs": [
           "1 cup flaked salmon"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
         ]
       }
     },
@@ -12309,7 +12309,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -12319,10 +12319,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "369-38  3",
-          "380  ,383"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

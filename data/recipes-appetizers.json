@@ -1317,7 +1317,6 @@
           "sugar_g": 13.3
         },
         "missing_inputs": [
-          "FOR THE GRAVLAX:",
           "1 tbsp white peppercorns",
           "2 tsp black peppercorns",
           "1 tsp coriander seeds",
@@ -1326,7 +1325,8 @@
           "2 10-to-12-oz center-cut skin-on salmon fillets, pin bones removed",
           "1 bunch fresh dill, chopped",
           "FOR SERVING:",
-          "sliced pumpernickel cocktail bread"
+          "sliced pumpernickel cocktail bread",
+          "1 bunch fresh chives, thinly sliced"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -1393,13 +1393,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 489,
-          "fat_g": 0.6,
-          "carbs_g": 111.0,
-          "protein_g": 12.0,
-          "sodium_mg": 76,
-          "fiber_g": 12.0,
-          "sugar_g": 6.0
+          "calories": 244,
+          "fat_g": 0.3,
+          "carbs_g": 55.5,
+          "protein_g": 6.0,
+          "sodium_mg": 38,
+          "fiber_g": 6.0,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
           "for topping cr\u00e8me fra\u00eeche",
@@ -1407,8 +1407,8 @@
           "for topping fresh dill and/or parsley"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 8 servings",
+          "Serving size inferred from appetizers category"
         ]
       }
     },
@@ -1730,11 +1730,11 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 76,
-          "fat_g": 8.6,
+          "calories": 38,
+          "fat_g": 4.3,
           "carbs_g": 0.0,
-          "protein_g": 0.1,
-          "sodium_mg": 96,
+          "protein_g": 0.0,
+          "sodium_mg": 48,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
@@ -1745,8 +1745,8 @@
           "chopped chives"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 8 servings",
+          "Serving size inferred from appetizers category"
         ]
       }
     },
@@ -7701,21 +7701,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 82,
-          "fat_g": 1.1,
-          "carbs_g": 3.0,
-          "protein_g": 14.0,
-          "sodium_mg": 459,
+          "calories": 41,
+          "fat_g": 0.6,
+          "carbs_g": 1.5,
+          "protein_g": 7.0,
+          "sodium_mg": 230,
           "fiber_g": 0.0,
-          "sugar_g": 2.5
+          "sugar_g": 1.2
         },
         "missing_inputs": [
           "1 tbsp bouillon paste",
           "few drops onion juice"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 8 servings",
+          "Serving size inferred from appetizers category"
         ]
       }
     },
@@ -7935,7 +7935,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -7945,10 +7945,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "1  8",
-          "274  MRS.WILSON'S COOKBOOK"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -9030,7 +9027,6 @@
           "sugar_g": 0.3
         },
         "missing_inputs": [
-          "20  cooked franks or 1 pkg (1 lb) franks cut into 1\u00bd-inch strips",
           "1 can (10 oz) green chile strips or sauce"
         ],
         "assumptions": [

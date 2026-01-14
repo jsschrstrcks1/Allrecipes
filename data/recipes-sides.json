@@ -532,21 +532,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 139,
-          "fat_g": 0.8,
-          "carbs_g": 32.9,
-          "protein_g": 2.2,
-          "sodium_mg": 148,
-          "fiber_g": 5.8,
-          "sugar_g": 23.4
+          "calories": 92,
+          "fat_g": 0.6,
+          "carbs_g": 21.9,
+          "protein_g": 1.5,
+          "sodium_mg": 99,
+          "fiber_g": 3.9,
+          "sugar_g": 15.6
         },
         "missing_inputs": [
           "1/4 cup cider vinegar",
           "1 1/2 tsp crushed coriander seeds"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -719,21 +719,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 129,
-          "fat_g": 6.1,
-          "carbs_g": 18.9,
-          "protein_g": 1.3,
-          "sodium_mg": 165,
-          "fiber_g": 3.8,
-          "sugar_g": 12.4
+          "calories": 86,
+          "fat_g": 4.0,
+          "carbs_g": 12.6,
+          "protein_g": 0.9,
+          "sodium_mg": 110,
+          "fiber_g": 2.5,
+          "sugar_g": 8.3
         },
         "missing_inputs": [
           "celery stalks, sliced",
           "1 1/2 cups frozen pearl onions"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -810,13 +810,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 252,
-          "fat_g": 17.9,
-          "carbs_g": 19.1,
-          "protein_g": 6.4,
-          "sodium_mg": 61,
-          "fiber_g": 4.1,
-          "sugar_g": 2.1
+          "calories": 168,
+          "fat_g": 11.9,
+          "carbs_g": 12.7,
+          "protein_g": 4.3,
+          "sodium_mg": 41,
+          "fiber_g": 2.7,
+          "sugar_g": 1.4
         },
         "missing_inputs": [
           "chicken broth",
@@ -824,8 +824,8 @@
           "for garnish chopped parsley"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -891,20 +891,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 63,
-          "fat_g": 3.2,
-          "carbs_g": 4.0,
-          "protein_g": 4.0,
-          "sodium_mg": 391,
-          "fiber_g": 0.8,
-          "sugar_g": 1.8
+          "calories": 42,
+          "fat_g": 2.1,
+          "carbs_g": 2.7,
+          "protein_g": 2.7,
+          "sodium_mg": 261,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
           "1 lb frozen collard greens, thawed"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -981,13 +981,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 111,
-          "fat_g": 10.8,
-          "carbs_g": 4.2,
-          "protein_g": 0.8,
-          "sodium_mg": 75,
-          "fiber_g": 0.3,
-          "sugar_g": 0.3
+          "calories": 74,
+          "fat_g": 7.2,
+          "carbs_g": 2.8,
+          "protein_g": 0.5,
+          "sodium_mg": 50,
+          "fiber_g": 0.2,
+          "sugar_g": 0.2
         },
         "missing_inputs": [
           "8  sage leaves, minced",
@@ -996,8 +996,8 @@
           "acorn squash, cut into thin wedges"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -1062,11 +1062,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 31,
-          "fat_g": 3.5,
+          "calories": 21,
+          "fat_g": 2.3,
           "carbs_g": 0.2,
-          "protein_g": 0.1,
-          "sodium_mg": 582,
+          "protein_g": 0.0,
+          "sodium_mg": 388,
           "fiber_g": 0.1,
           "sugar_g": 0.1
         },
@@ -1075,8 +1075,8 @@
           "3 tbsp peanut oil"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -11163,7 +11163,6 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "6 medium",
           "shortening",
           "3  raw green peppers",
           "\u00bc teaspoon celery salt"
@@ -12299,9 +12298,9 @@
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
-          "carbs_g": 0.1,
+          "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 291,
+          "sodium_mg": 194,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
@@ -12309,8 +12308,8 @@
           "1/2 cup Carnation"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -12401,20 +12400,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 114,
-          "fat_g": 8.2,
-          "carbs_g": 7.9,
-          "protein_g": 2.8,
-          "sodium_mg": 364,
-          "fiber_g": 0.4,
-          "sugar_g": 3.9
+          "calories": 76,
+          "fat_g": 5.5,
+          "carbs_g": 5.3,
+          "protein_g": 1.9,
+          "sodium_mg": 242,
+          "fiber_g": 0.2,
+          "sugar_g": 2.6
         },
         "missing_inputs": [
           "1/4 cup capers"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -12515,20 +12514,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 233,
-          "fat_g": 20.5,
-          "carbs_g": 8.3,
-          "protein_g": 5.2,
-          "sodium_mg": 442,
+          "calories": 156,
+          "fat_g": 13.7,
+          "carbs_g": 5.5,
+          "protein_g": 3.5,
+          "sodium_mg": 295,
           "fiber_g": 0.1,
-          "sugar_g": 4.8
+          "sugar_g": 3.2
         },
         "missing_inputs": [
           "Few grains cayenne"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -12631,13 +12630,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 468,
-          "fat_g": 27.2,
-          "carbs_g": 7.9,
-          "protein_g": 44.1,
-          "sodium_mg": 255,
+          "calories": 312,
+          "fat_g": 18.2,
+          "carbs_g": 5.2,
+          "protein_g": 29.4,
+          "sodium_mg": 170,
           "fiber_g": 0.1,
-          "sugar_g": 4.8
+          "sugar_g": 3.2
         },
         "missing_inputs": [
           "6  potatoes",
@@ -12645,8 +12644,8 @@
           "Bread crumbs"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -12747,13 +12746,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 165,
-          "fat_g": 13.1,
-          "carbs_g": 7.8,
-          "protein_g": 4.3,
-          "sodium_mg": 423,
-          "fiber_g": 0.2,
-          "sugar_g": 3.1
+          "calories": 110,
+          "fat_g": 8.7,
+          "carbs_g": 5.2,
+          "protein_g": 2.9,
+          "sodium_mg": 282,
+          "fiber_g": 0.1,
+          "sugar_g": 2.1
         },
         "missing_inputs": [
           "1 can Spinach (No. 2)",
@@ -12761,8 +12760,8 @@
           "Stir \u00bd cup dried bread crumbs in 2 tbsp. butter"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -12853,20 +12852,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 79,
-          "fat_g": 7.4,
-          "carbs_g": 1.1,
-          "protein_g": 2.4,
-          "sodium_mg": 663,
-          "fiber_g": 0.1,
-          "sugar_g": 0.8
+          "calories": 53,
+          "fat_g": 4.9,
+          "carbs_g": 0.7,
+          "protein_g": 1.6,
+          "sodium_mg": 442,
+          "fiber_g": 0.0,
+          "sugar_g": 0.6
         },
         "missing_inputs": [
           "6 medium sized potatoes"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -12951,13 +12950,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 105,
-          "fat_g": 2.9,
-          "carbs_g": 16.4,
-          "protein_g": 4.5,
-          "sodium_mg": 439,
-          "fiber_g": 2.0,
-          "sugar_g": 9.7
+          "calories": 70,
+          "fat_g": 1.9,
+          "carbs_g": 11.0,
+          "protein_g": 3.0,
+          "sodium_mg": 292,
+          "fiber_g": 1.3,
+          "sugar_g": 6.5
         },
         "missing_inputs": [
           "2 cup Carnationnaise",
@@ -12965,8 +12964,8 @@
           "3 tbsp chopped sweet pickle"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -13039,20 +13038,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 529,
-          "fat_g": 15.1,
-          "carbs_g": 100.5,
-          "protein_g": 3.3,
-          "sodium_mg": 208,
+          "calories": 352,
+          "fat_g": 10.0,
+          "carbs_g": 67.0,
+          "protein_g": 2.2,
+          "sodium_mg": 139,
           "fiber_g": 0.0,
-          "sugar_g": 99.8
+          "sugar_g": 66.5
         },
         "missing_inputs": [
           "Chopped nuts"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -14050,20 +14049,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 16,
+          "calories": 11,
           "fat_g": 0.0,
-          "carbs_g": 3.6,
-          "protein_g": 0.1,
-          "sodium_mg": 436,
+          "carbs_g": 2.4,
+          "protein_g": 0.0,
+          "sodium_mg": 291,
           "fiber_g": 0.1,
-          "sugar_g": 3.2
+          "sugar_g": 2.1
         },
         "missing_inputs": [
           "3/4 cup salad oil"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -14141,20 +14140,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 25,
-          "fat_g": 0.1,
-          "carbs_g": 6.1,
-          "protein_g": 0.2,
-          "sodium_mg": 291,
-          "fiber_g": 0.1,
-          "sugar_g": 5.1
+          "calories": 17,
+          "fat_g": 0.0,
+          "carbs_g": 4.1,
+          "protein_g": 0.1,
+          "sodium_mg": 194,
+          "fiber_g": 0.0,
+          "sugar_g": 3.4
         },
         "missing_inputs": [
           "1/4 cup salad oil"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -14242,21 +14241,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 25,
-          "fat_g": 1.1,
-          "carbs_g": 1.9,
-          "protein_g": 0.9,
-          "sodium_mg": 1168,
-          "fiber_g": 0.4,
-          "sugar_g": 0.2
+          "calories": 16,
+          "fat_g": 0.7,
+          "carbs_g": 1.3,
+          "protein_g": 0.6,
+          "sodium_mg": 778,
+          "fiber_g": 0.3,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
           "1  \u00bc cups sugar",
           "2 cup salad oil"
         ],
         "assumptions": [
-          "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
         ]
       }
     },
@@ -19398,7 +19397,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -19410,9 +19409,7 @@
         },
         "missing_inputs": [
           "3  d 218\"4 th 218",
-          "2  d 219\"meat 217 Cmmb pie 224",
-          "2  d 227",
-          "3  d 227"
+          "2  d 219\"meat 217 Cmmb pie 224"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -20397,7 +20394,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 37,
           "fat_g": 2.9,
@@ -20408,7 +20405,6 @@
           "sugar_g": 1.3
         },
         "missing_inputs": [
-          "6 large , firm",
           "3 cup breadcrumbs orcoldboiled rice.",
           "1 cup grated strong American cheese."
         ],
@@ -20710,8 +20706,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 quarts rind",
-          "1  lemon or 2-inch piece ofgreen ginger root."
+          "2 quarts rind"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -21975,7 +21970,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -21985,10 +21980,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "22  4",
-          "22  7"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -22073,7 +22065,6 @@
         "missing_inputs": [
           "1 cup \u00bd cup milk .01",
           "2 tbsp \u00bd tablespoonful butter .01",
-          "1  egg .03",
           "1 cup \u00bd tablespoonful flour (see croquettes, page 293)",
           "1 pint cranberries .09"
         ],
@@ -22783,7 +22774,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 37,
           "fat_g": 2.5,
@@ -22795,7 +22786,6 @@
         },
         "missing_inputs": [
           "3 tbsp butter Bowl",
-          "2 tbsp flour Dover beater",
           "2 tbsp vinegar orlemon juice Tablespoon"
         ],
         "assumptions": [
@@ -23208,7 +23198,6 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3 medium -sized potatoes Vegetable-knife",
           "2 tbsp butter Saucepan",
           "1/2 cup warm milk Colander",
           "1 tsp salt Potato-masher orrioer",
@@ -23497,7 +23486,6 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3  or 4 potatoes Vegetable-knife",
           "1 tbsp butter Frying-pan",
           "14 cup cream Pancake-turner",
           "1  Prepare and boilthepotatoes inaccordance with"
@@ -23620,7 +23608,6 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3  or 4 potatoes Vegetable-knife",
           "1  ^cupsmilk Baking-dish"
         ],
         "assumptions": [
@@ -23989,8 +23976,6 @@
         "missing_inputs": [
           "1 tsp drymustard Bowl",
           "1/2  teaapoon salt Fork",
-          "4 tbsp butter Double-boiler",
-          "2 tbsp vinegar Dover beater",
           "1/2 cup thickcream"
         ],
         "assumptions": [
@@ -25910,7 +25895,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 18,
           "fat_g": 1.2,
@@ -25920,9 +25905,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.1
         },
-        "missing_inputs": [
-          "1  c"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -26219,8 +26202,7 @@
           "Two tablespoons oflemon juice.",
           "Three tablespoons offinely minced parsley.",
           "Two tablespoons ofgrated cheese.",
-          "Two tablespoons of&iely minced parsley.",
-          "196  MRS.WILSON'S COOKBOOK"
+          "Two tablespoons of&iely minced parsley."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -26292,8 +26274,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 tbsp Three tablespoons, ofbutter.",
-          "198  MRS.WILSON'S COOKBOOK"
+          "2 tbsp Three tablespoons, ofbutter."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -26433,7 +26414,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -26445,8 +26426,7 @@
         },
         "missing_inputs": [
           "Four tablespoons ofvinegar,",
-          "Three tablespoons ofgrated cheese.",
-          "284  MRS.WILSON'S COOKBOOK"
+          "Three tablespoons ofgrated cheese."
         ],
         "assumptions": [
           "Calculated for 4 servings"
