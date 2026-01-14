@@ -5,7 +5,7 @@
     "created": "2026-01-05",
     "last_updated": "2026-01-14",
     "version": "3.0.0",
-    "total_recipes": 5258
+    "total_recipes": 5266
   },
   "recipes": [
     {
@@ -538863,6 +538863,841 @@
       "image_refs": [
         "processed/img_5977.jpeg",
         "processed/img_5978.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "roast-mutton-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Roast Mutton",
+      "category": "mains",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 45 (IMG_5945)",
+      "description": "Colonial roasting instructions for mutton with garnishes.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "varies by cut",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "mutton",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "breast, leg, chine, saddle, or leg"
+        },
+        {
+          "item": "horseradish",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "scraped, for garnish"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "beans",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "colliflowers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "water-cresses",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "If a breast let it be cauled, if a leg, shuffled or not, let it be done more gently than beef, and done more."
+        },
+        {
+          "step": 2,
+          "text": "The chine, saddle or leg require more fire and longer time than the breast, etc."
+        },
+        {
+          "step": 3,
+          "text": "Garnish with scraped horseradish, and serve with potatoes, beans, colliflowers, water-cresses, or boiled onion, caper sauce, mashed turnip, or lettuce."
+        }
+      ],
+      "temperature": "moderate fire",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "Rare done is the healthiest and the taste of this age"
+      ],
+      "tags": [
+        "roast",
+        "mutton",
+        "meat",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5945.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "roast-veal-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Roast Veal",
+      "category": "mains",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 45 (IMG_5945)",
+      "description": "Colonial roasting instructions for veal - more tender than beef, requires careful basting.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "1 hour 15 minutes per 15 lb",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "veal",
+          "quantity": "15",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "paper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for covering fat parts"
+        },
+        {
+          "item": "green-parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        },
+        {
+          "item": "sliced lemon",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "As it is more tender than beef or mutton, and easily scorched, paper it, especially the fat parts."
+        },
+        {
+          "step": 2,
+          "text": "Lay it some distance from the fire a while to heat gently, baste it well."
+        },
+        {
+          "step": 3,
+          "text": "A 15 pound piece requires one hour and a quarter roasting."
+        },
+        {
+          "step": 4,
+          "text": "Garnish with green-parsley and sliced lemon."
+        }
+      ],
+      "temperature": "gentle heat, then increase",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe"
+      ],
+      "tags": [
+        "roast",
+        "veal",
+        "meat",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5945.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "roast-lamb-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Roast Lamb",
+      "category": "mains",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 45 (IMG_5945)",
+      "description": "Colonial roasting instructions for lamb with butter basting.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "lamb",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for basting"
+        },
+        {
+          "item": "flour",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dust on"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "a little"
+        },
+        {
+          "item": "parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "shred fine"
+        },
+        {
+          "item": "green peas",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "fresh beans",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "colliflower",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "asparagus",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Lay down to a clear good fire that will not want stirring or altering, baste with butter."
+        },
+        {
+          "step": 2,
+          "text": "Dust on flour, baste with the dripping, and before you take it up, add more butter and sprinkle on a little salt and parsley shred fine."
+        },
+        {
+          "step": 3,
+          "text": "Send to table with a nice salad, green peas, fresh beans, or a colliflower, or asparagus."
+        }
+      ],
+      "temperature": "clear good fire",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe"
+      ],
+      "tags": [
+        "roast",
+        "lamb",
+        "meat",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5945.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "turkey-stuffing-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "To Stuff a Turkey",
+      "category": "mains",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 45-46 (IMG_5945-5946)",
+      "description": "Colonial turkey stuffing with wheat bread, salt pork, butter, eggs, and herbs.",
+      "servings_yield": "stuffing for 1 turkey",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "wheat loaf",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "grated"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "salt pork",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sweet marjoram",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "a little"
+        },
+        {
+          "item": "summer savory",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "parsley and sage",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "if liked"
+        },
+        {
+          "item": "pepper and salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Grate a wheat loaf, one quarter of a pound butter, one quarter of a pound salt pork, finely chopped, 2 eggs, a little sweet marjoram, summer savory, parsley and sage, pepper and salt (if the pork be not sufficient)."
+        },
+        {
+          "step": 2,
+          "text": "Fill the bird therewith and sew up."
+        },
+        {
+          "step": 3,
+          "text": "Hang down to a steady solid fire, basting frequently with salt and water, and roast until a steam emits from the breast."
+        },
+        {
+          "step": 4,
+          "text": "Put one third of a pound of butter into the gravy, dust flour over the bird and baste with the gravy; serve up with boiled onions and cranberry sauce, mangoes, pickles or celery."
+        }
+      ],
+      "temperature": "steady solid fire",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe",
+        "One of earliest American turkey recipes",
+        "Serve with cranberry sauce - establishing an American tradition"
+      ],
+      "tags": [
+        "turkey",
+        "stuffing",
+        "thanksgiving",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5945.jpeg",
+        "processed/img_5946.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "alamode-beef-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "To Alamode a Round of Beef",
+      "category": "mains",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 47 (IMG_5948)",
+      "description": "Colonial pot-roasted beef round with herbs, spices, and wine gravy.",
+      "servings_yield": "serves many",
+      "prep_time": "48 hours (curing)",
+      "cook_time": "4-5 hours",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "round of beef",
+          "quantity": "14-16",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "saltpetre",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": "for curing"
+        },
+        {
+          "item": "beef",
+          "quantity": "1 1/2",
+          "unit": "lb",
+          "prep_note": "for stuffing"
+        },
+        {
+          "item": "salt pork",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "grated bread",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cayenne",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "summer savory",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "thyme",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "hot water",
+          "quantity": "3",
+          "unit": "pints",
+          "prep_note": ""
+        },
+        {
+          "item": "ketchup",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "wine",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To a 14 or 16 pound round of beef, put one ounce saltpetre, 48 hours after stuff it with the following: one and half pound beef, one pound salt pork, two pound grated bread, chop all fine and rub in half pound butter, salt, pepper and cayenne, summer savory, thyme."
+        },
+        {
+          "step": 2,
+          "text": "Lay it on skewers in a large pot, over 3 pints hot water (which it must occasionally be supplied with), the steam of which in 4 or 5 hours will tender the round tender if over a moderate fire."
+        },
+        {
+          "step": 3,
+          "text": "When tender, take away the gravy and thicken with flour and butter, and boil, brown the round with butter and flour, adding ketchup and wine to your taste."
+        }
+      ],
+      "temperature": "moderate fire",
+      "pan_size": "large pot",
+      "notes": [
+        "Original 1796 recipe",
+        "Alamode = braised/pot roasted"
+      ],
+      "tags": [
+        "beef",
+        "pot-roast",
+        "alamode",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5948.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "currant-jelly-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Currant Jelly",
+      "category": "sides",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 71 (IMG_5983)",
+      "description": "Colonial currant jelly preserved with brandy-dipped paper.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "30+ minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "currants",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "stripped from stalks"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "per pint of juice"
+        },
+        {
+          "item": "brandy",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for dipping papers"
+        },
+        {
+          "item": "white papers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for sealing"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Having stripped the currants from the stalks, put them in a stone jar, stop it close, set it in a kettle of boiling water, half way the jar."
+        },
+        {
+          "step": 2,
+          "text": "Let it boil half an hour, take it out and (strain the juice through a coarse hair sieve, to a pint of juice put a pound of sugar."
+        },
+        {
+          "step": 3,
+          "text": "Set it over a fine quick fire in a preserving pan, or a bell-metal skillet, keep stirring it all the time till the sugar be melted, then skim the skum off as fast as it rises."
+        },
+        {
+          "step": 4,
+          "text": "When the jelly is very clear and fine, pour it into earthen or china cups, when cold, cut white papers just the bigness of the top of the pot, and lay on the jelly, dip those papers in brandy, then cover the top of the pot and prick it full of holes."
+        },
+        {
+          "step": 5,
+          "text": "Set it in a dry place; you may put some into glasses for present use."
+        }
+      ],
+      "temperature": "fine quick fire",
+      "pan_size": "preserving pan or skillet",
+      "notes": [
+        "Original 1796 recipe",
+        "Cover with brandy-dipped paper to preserve"
+      ],
+      "tags": [
+        "jelly",
+        "currant",
+        "preserves",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5983.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "keep-green-peas-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "To Keep Green Peas till Christmas",
+      "category": "sides",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 74 (IMG_5988)",
+      "description": "Colonial method for preserving green peas through winter using mutton suet.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "young peas",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "shelled"
+        },
+        {
+          "item": "mutton suet fat",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to cover"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take young peas, shell them, put them in a cullender to drain."
+        },
+        {
+          "step": 2,
+          "text": "Then lay a cloth four or five times double on a table, then spread them on, dry them very well."
+        },
+        {
+          "step": 3,
+          "text": "Have your bottles ready, fill them, cover them with mutton suet fat when it is a little soft."
+        },
+        {
+          "step": 4,
+          "text": "Fill the necks almost to the top, cork them, tie a bladder and a leather over them and set them in a dry cool place."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "bottles",
+      "notes": [
+        "Original 1796 recipe",
+        "Colonial preservation method for winter storage"
+      ],
+      "tags": [
+        "peas",
+        "preserving",
+        "vegetables",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5988.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "boil-asparagus-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "To Boil Asparagus",
+      "category": "sides",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 75 (IMG_5989)",
+      "description": "Colonial method for preparing asparagus with toast and butter.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "asparagus",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "scraped, tied in small bundles"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "toast",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "melted butter",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "orange",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "cut into small pieces, for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Scrape asparagus, cut them even lengths and tie them in small bundles."
+        },
+        {
+          "step": 2,
+          "text": "Put them into boiling water with salt in it."
+        },
+        {
+          "step": 3,
+          "text": "When tender, take them up carefully, dip the toast in the asparagus water."
+        },
+        {
+          "step": 4,
+          "text": "Lay it in the bottom of your dish; then lay the heads of the asparagus on it, with the white ends outwards."
+        },
+        {
+          "step": 5,
+          "text": "Pour a little melted butter over the heads; cut an orange into small pieces, and stick them between for garnish."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe"
+      ],
+      "tags": [
+        "asparagus",
+        "vegetables",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5989.jpeg"
       ],
       "nutrition": {
         "status": "insufficient_data",
