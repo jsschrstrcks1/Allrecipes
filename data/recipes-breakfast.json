@@ -5910,17 +5910,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 198,
-          "fat_g": 17.4,
-          "carbs_g": 1.2,
-          "protein_g": 9.3,
-          "sodium_mg": 188,
+          "calories": 225,
+          "fat_g": 19.4,
+          "carbs_g": 1.6,
+          "protein_g": 11.1,
+          "sodium_mg": 207,
           "fiber_g": 0.0,
           "sugar_g": 0.9
         },
         "missing_inputs": [
-          "2 tbsp chopped basil and thyme",
-          "4 tbsp ricotta"
+          "2 tbsp chopped basil and thyme"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -7896,20 +7895,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 188,
-          "fat_g": 12.6,
-          "carbs_g": 2.5,
-          "protein_g": 15.2,
-          "sodium_mg": 216,
+          "calories": 225,
+          "fat_g": 15.6,
+          "carbs_g": 3.0,
+          "protein_g": 17.2,
+          "sodium_mg": 374,
           "fiber_g": 0.5,
-          "sugar_g": 2.0
+          "sugar_g": 2.5
         },
         "missing_inputs": [
           "6  slices of chopped bacon",
-          "1 cup diced cooked potatoes",
-          "2 oz feta cheese"
+          "1 cup diced cooked potatoes"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -8734,17 +8732,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 105,
+          "calories": 109,
           "fat_g": 9.0,
-          "carbs_g": 3.6,
+          "carbs_g": 4.4,
           "protein_g": 3.8,
           "sodium_mg": 0,
           "fiber_g": 2.1,
-          "sugar_g": 0.8
+          "sugar_g": 1.6
         },
         "missing_inputs": [
           "1 1/4 cups muesli",
-          "2 tbsp apple juice",
           "1 1/4 cups plain nonfat yoghurt",
           "1 1/2 cups frozen mixed berries"
         ],
@@ -8846,12 +8843,12 @@
         "status": "partial",
         "per_serving": {
           "calories": 170,
-          "fat_g": 6.0,
+          "fat_g": 6.1,
           "carbs_g": 23.2,
           "protein_g": 6.5,
           "sodium_mg": 57,
           "fiber_g": 1.7,
-          "sugar_g": 12.6
+          "sugar_g": 12.1
         },
         "missing_inputs": [
           "3/4 cup fresh or frozen mixed berries",
@@ -11847,18 +11844,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 174,
+          "calories": 161,
           "fat_g": 13.2,
-          "carbs_g": 12.0,
-          "protein_g": 2.5,
+          "carbs_g": 8.8,
+          "protein_g": 2.3,
           "sodium_mg": 115,
-          "fiber_g": 0.4,
-          "sugar_g": 11.2
+          "fiber_g": 0.0,
+          "sugar_g": 8.3
         },
         "missing_inputs": [
           "2  whole ciabatta",
+          "1/4 cup ripe mango, mashed",
           "8  fresh cherries, halved"
         ],
         "assumptions": [
@@ -13183,16 +13181,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 108,
+          "calories": 126,
           "fat_g": 10.4,
-          "carbs_g": 0.1,
-          "protein_g": 3.6,
-          "sodium_mg": 417,
-          "fiber_g": 0.0,
+          "carbs_g": 4.0,
+          "protein_g": 3.9,
+          "sodium_mg": 418,
+          "fiber_g": 0.1,
           "sugar_g": 0.1
         },
         "missing_inputs": [
-          "1-1/2 cups grits",
           "ground black pepper"
         ],
         "assumptions": [
@@ -16705,19 +16702,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 487,
-          "fat_g": 15.4,
-          "carbs_g": 77.3,
-          "protein_g": 10.3,
-          "sodium_mg": 514,
-          "fiber_g": 2.1,
-          "sugar_g": 28.6
+          "calories": 510,
+          "fat_g": 17.4,
+          "carbs_g": 78.3,
+          "protein_g": 11.1,
+          "sodium_mg": 515,
+          "fiber_g": 2.4,
+          "sugar_g": 28.8
         },
-        "missing_inputs": [
-          "2 tbsp poppy seeds"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
@@ -17983,19 +17978,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 336,
-          "fat_g": 15.1,
-          "carbs_g": 44.0,
-          "protein_g": 6.9,
+          "calories": 360,
+          "fat_g": 15.5,
+          "carbs_g": 51.0,
+          "protein_g": 8.6,
           "sodium_mg": 513,
-          "fiber_g": 0.8,
+          "fiber_g": 5.5,
           "sugar_g": 19.8
         },
-        "missing_inputs": [
-          "1-1/2 cups wheat bran"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
@@ -18981,7 +18974,7 @@
         "per_serving": {
           "calories": 244,
           "fat_g": 13.3,
-          "carbs_g": 22.2,
+          "carbs_g": 22.3,
           "protein_g": 9.3,
           "sodium_mg": 194,
           "fiber_g": 1.9,
@@ -27392,17 +27385,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 132,
-          "fat_g": 11.6,
-          "carbs_g": 0.8,
-          "protein_g": 6.2,
-          "sodium_mg": 150,
+          "calories": 150,
+          "fat_g": 12.9,
+          "carbs_g": 1.1,
+          "protein_g": 7.4,
+          "sodium_mg": 163,
           "fiber_g": 0.0,
           "sugar_g": 0.6
         },
         "missing_inputs": [
-          "2 tbsp basil and thyme",
-          "4 tbsp ricotta"
+          "2 tbsp basil and thyme"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -29689,17 +29681,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 168,
-          "fat_g": 11.4,
-          "carbs_g": 1.7,
-          "protein_g": 13.2,
-          "sodium_mg": 306,
+          "calories": 193,
+          "fat_g": 13.4,
+          "carbs_g": 2.0,
+          "protein_g": 14.5,
+          "sodium_mg": 411,
           "fiber_g": 0.3,
-          "sugar_g": 1.3
+          "sugar_g": 1.7
         },
         "missing_inputs": [
-          "1 cup cooked potatoes",
-          "2 oz feta cheese"
+          "1 cup cooked potatoes"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -30551,17 +30542,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 105,
+          "calories": 109,
           "fat_g": 9.0,
-          "carbs_g": 3.6,
+          "carbs_g": 4.4,
           "protein_g": 3.8,
           "sodium_mg": 0,
           "fiber_g": 2.1,
-          "sugar_g": 0.8
+          "sugar_g": 1.6
         },
         "missing_inputs": [
           "1 1/4 cups muesli",
-          "2 tbsp apple juice",
           "1 1/4 cups plain nonfat yoghurt",
           "1 1/2 cups frozen mixed berries"
         ],
@@ -30673,12 +30663,12 @@
         "status": "partial",
         "per_serving": {
           "calories": 170,
-          "fat_g": 6.0,
+          "fat_g": 6.1,
           "carbs_g": 23.2,
           "protein_g": 6.5,
           "sodium_mg": 57,
           "fiber_g": 1.7,
-          "sugar_g": 12.6
+          "sugar_g": 12.1
         },
         "missing_inputs": [
           "3/4 cup fresh or frozen mixed berries",
@@ -34072,18 +34062,19 @@
       ],
       "source_note": "Reference cookbook - Book Four: Other Recipes",
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 174,
+          "calories": 161,
           "fat_g": 13.2,
-          "carbs_g": 12.0,
-          "protein_g": 2.5,
+          "carbs_g": 8.8,
+          "protein_g": 2.3,
           "sodium_mg": 115,
-          "fiber_g": 0.4,
-          "sugar_g": 11.2
+          "fiber_g": 0.0,
+          "sugar_g": 8.3
         },
         "missing_inputs": [
           "2  whole ciabatta",
+          "1/4 cup ripe mango",
           "8  fresh cherries"
         ],
         "assumptions": [
@@ -35682,16 +35673,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 108,
+          "calories": 126,
           "fat_g": 10.4,
-          "carbs_g": 0.1,
-          "protein_g": 3.6,
-          "sodium_mg": 417,
-          "fiber_g": 0.0,
+          "carbs_g": 4.0,
+          "protein_g": 3.9,
+          "sodium_mg": 418,
+          "fiber_g": 0.1,
           "sugar_g": 0.1
         },
         "missing_inputs": [
-          "1-1/2 cups grits",
           "ground black pepper"
         ],
         "assumptions": [
@@ -37042,19 +37032,17 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 142,
-          "fat_g": 5.0,
-          "carbs_g": 22.4,
-          "protein_g": 2.5,
+          "calories": 149,
+          "fat_g": 5.2,
+          "carbs_g": 24.4,
+          "protein_g": 3.0,
           "sodium_mg": 172,
-          "fiber_g": 0.6,
+          "fiber_g": 1.9,
           "sugar_g": 13.0
         },
-        "missing_inputs": [
-          "1-1/4 cup wheat bran"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -37183,19 +37171,17 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 205,
-          "fat_g": 9.2,
-          "carbs_g": 26.6,
-          "protein_g": 3.9,
-          "sodium_mg": 205,
-          "fiber_g": 1.2,
-          "sugar_g": 9.7
+          "calories": 213,
+          "fat_g": 9.9,
+          "carbs_g": 26.9,
+          "protein_g": 4.2,
+          "sodium_mg": 206,
+          "fiber_g": 1.3,
+          "sugar_g": 9.8
         },
-        "missing_inputs": [
-          "2 tbsp poppy seeds"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]

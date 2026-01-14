@@ -173,17 +173,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 324,
-          "fat_g": 10.0,
-          "carbs_g": 54.0,
-          "protein_g": 7.8,
-          "sodium_mg": 100,
+          "calories": 79,
+          "fat_g": 3.2,
+          "carbs_g": 12.5,
+          "protein_g": 1.8,
+          "sodium_mg": 2,
           "fiber_g": 4.0,
-          "sugar_g": 49.0
+          "sugar_g": 7.5
         },
         "missing_inputs": [
           "1/2  large banana",
           "3 oz plain yogurt",
+          "1/4 cup sweetened condensed milk",
           "1/4 cup ice cubes"
         ],
         "assumptions": [
@@ -555,16 +556,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 27,
+          "fat_g": 0.1,
+          "carbs_g": 7.0,
+          "protein_g": 0.2,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 0.5,
+          "sugar_g": 6.2
         },
         "missing_inputs": [
-          "1 cup pineapple chunks",
           "750 ml cognac",
           "2 1/2 cups seltzer or club soda",
           "1/4 cup superfine sugar",
@@ -1897,17 +1897,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 324,
-          "fat_g": 10.0,
-          "carbs_g": 54.0,
-          "protein_g": 7.8,
-          "sodium_mg": 100,
+          "calories": 79,
+          "fat_g": 3.2,
+          "carbs_g": 12.5,
+          "protein_g": 1.8,
+          "sodium_mg": 2,
           "fiber_g": 4.0,
-          "sugar_g": 49.0
+          "sugar_g": 7.5
         },
         "missing_inputs": [
           "1/2  large banana",
           "3 oz plain yogurt",
+          "1/4 cup sweetened condensed milk",
           "1/4 cup ice cubes"
         ],
         "assumptions": [
@@ -3234,19 +3235,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 202,
+          "calories": 284,
           "fat_g": 0.0,
-          "carbs_g": 52.0,
+          "carbs_g": 73.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 26,
           "fiber_g": 0.0,
-          "sugar_g": 50.8
+          "sugar_g": 71.8
         },
         "missing_inputs": [
           "One 6-oz. can frozen orange juice",
           "1  bottle (1 pint) cranberry juice",
-          "Red food coloring",
-          "1 cup ginger ale"
+          "Red food coloring"
         ],
         "assumptions": [
           "Calculated for 1 servings"
