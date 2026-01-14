@@ -539707,6 +539707,75 @@
         ],
         "assumptions": []
       }
+    },
+    {
+      "id": "onion-soup-swedish-meatball-sauce",
+      "collection": "all",
+      "collection_display": "Handwritten Family Recipe",
+      "title": "Onion-Soup-Based Swedish Meatball Sauce",
+      "category": "sauces",
+      "attribution": "",
+      "source_note": "Family recipe card with handwritten modifications",
+      "description": "A creamy Swedish meatball sauce using mushroom gravy and onion soup mixes. Handwritten notes suggest adjustments for larger batches.",
+      "servings_yield": "varies",
+      "ingredients": [
+        {"item": "mushroom gravy mix", "quantity": "2", "unit": "packages", "prep_note": "or 3 cans mushroom soup per handwritten note"},
+        {"item": "onion soup mix", "quantity": "1", "unit": "package", "prep_note": "or 3 packages per handwritten note"},
+        {"item": "water", "quantity": "2", "unit": "cups", "prep_note": "or 1 can water per handwritten note"},
+        {"item": "sour cream", "quantity": "2", "unit": "cups", "prep_note": "or 1/2 container per handwritten note"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine gravy and soup mixes and water."},
+        {"step": 2, "text": "Bring to a boil stirring constantly."},
+        {"step": 3, "text": "Simmer for one minute."},
+        {"step": 4, "text": "Reduce heat to low, and add sour cream."}
+      ],
+      "notes": ["Handwritten annotations suggest variations: use 3 cans mushroom soup, 3 packages onion soup mix, 1 can water, and 1/2 container sour cream for a different proportion."],
+      "tags": ["sauce", "swedish-meatballs", "gravy", "family-recipe", "handwritten"],
+      "confidence": {
+        "overall": "high",
+        "flags": ["handwritten-annotations"]
+      },
+      "image_refs": ["handwritten/IMG_5650.jpeg"],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "watermelon-smoothie",
+      "collection": "all",
+      "collection_display": "Handwritten Family Recipe",
+      "title": "Watermelon Smoothie",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Handwritten recipe card",
+      "description": "A refreshing watermelon smoothie with milk, vanilla yogurt, and maple syrup.",
+      "servings_yield": "2-4 servings",
+      "ingredients": [
+        {"item": "watermelon", "quantity": "3", "unit": "cups"},
+        {"item": "milk", "quantity": "1", "unit": "cup"},
+        {"item": "vanilla yogurt", "quantity": "1/2", "unit": "cup"},
+        {"item": "maple syrup", "quantity": "3", "unit": "tablespoons"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Put in blender all together."},
+        {"step": 2, "text": "Mix until smooth."}
+      ],
+      "tags": ["smoothie", "beverage", "watermelon", "fruit", "family-recipe", "handwritten"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": ["handwritten/IMG_5658.jpeg"],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
     }
   ],
   "version": "2.97.0"
