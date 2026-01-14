@@ -5993,20 +5993,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 127,
+          "calories": 138,
           "fat_g": 13.0,
-          "carbs_g": 0.2,
-          "protein_g": 3.0,
-          "sodium_mg": 110,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
+          "carbs_g": 2.8,
+          "protein_g": 3.2,
+          "sodium_mg": 112,
+          "fiber_g": 0.5,
+          "sugar_g": 1.4
         },
-        "missing_inputs": [
-          "a little grated onion",
-          "pinch of pepper"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -6448,7 +6445,7 @@
         "per_serving": {
           "calories": 136,
           "fat_g": 8.1,
-          "carbs_g": 5.1,
+          "carbs_g": 5.2,
           "protein_g": 9.4,
           "sodium_mg": 791,
           "fiber_g": 0.9,
@@ -6456,7 +6453,6 @@
         },
         "missing_inputs": [
           "\u00bc cup vinegar",
-          "\u215b teaspoon pepper",
           "1  qt. hot",
           "\u00bc cup grated raw carrot"
         ],
@@ -11488,19 +11484,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 12,
+          "fat_g": 0.1,
+          "carbs_g": 2.5,
+          "protein_g": 0.4,
+          "sodium_mg": 2,
+          "fiber_g": 0.8,
+          "sugar_g": 1.5
         },
         "missing_inputs": [
           "1 can hrimp.",
-          "2 tbsp finely cutgreen peppers.",
           "2 tbsp finely cutrawcarrot."
         ],
         "assumptions": [
@@ -14415,16 +14410,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 11,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 581,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
+          "sodium_mg": 582,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
-          "1 medium Three medium-sized onions, chopped fine.",
           "Five tablespoons offinely chopped parsley."
         ],
         "assumptions": [
@@ -14769,17 +14763,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 5,
+          "calories": 2,
           "fat_g": 0.1,
-          "carbs_g": 1.0,
-          "protein_g": 0.2,
-          "sodium_mg": 12,
-          "fiber_g": 0.2,
-          "sugar_g": 0.4
+          "carbs_g": 0.1,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
         },
         "missing_inputs": [
           "1 pkg (3 oz) lime gelatin",
           "1 carton lemon (8 oz) sour cream",
+          "2 cups peeled cucumber, chopped",
+          "1/3 cup green chiles, chopped",
           "1 cup salad dressing"
         ],
         "assumptions": [
