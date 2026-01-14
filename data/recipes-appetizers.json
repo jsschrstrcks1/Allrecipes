@@ -86,7 +86,27 @@
       "notes": [
         "Save cooked potato for mashed potatoes or hash browns.",
         "Brush inside and outside of skins with steak seasoning and Parmesan."
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 217,
+          "fat_g": 13.3,
+          "carbs_g": 19.1,
+          "protein_g": 5.9,
+          "sodium_mg": 528,
+          "fiber_g": 2.0,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "3/4 tsp steak seasoning",
+          "4 strips bacon, cooked and crumbled",
+          "2 tsp snipped fresh chives"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "warm-creamy-bacon-dip",
@@ -155,6 +175,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 20.3,
+          "carbs_g": 2.8,
+          "protein_g": 7.0,
+          "sodium_mg": 194,
+          "fiber_g": 0.2,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "3 oz bacon bits"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -244,6 +282,31 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 0.1,
+          "carbs_g": 13.6,
+          "protein_g": 1.5,
+          "sodium_mg": 5,
+          "fiber_g": 1.6,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "4 cups Indian puffed rice",
+          "1 cup chopped seeded plum tomato",
+          "1/2 cup chopped peeled ripe mango",
+          "1 cup sev (fine Indian noodles)",
+          "1 cup chopped fresh cilantro",
+          "3 tbsp tamarind-date chutney",
+          "1 tbsp mint chutney",
+          "2 tsp finely chopped seeded serrano chile (about 1 chile)"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -377,6 +440,33 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 26,
+          "fat_g": 1.9,
+          "carbs_g": 2.1,
+          "protein_g": 0.2,
+          "sodium_mg": 389,
+          "fiber_g": 0.5,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "2 1/4 cups loosely packed cilantro leaves (about 1 1/2 ounces)",
+          "1 cup mint leaves, torn",
+          "1  small garlic clove, quartered",
+          "Cooking spray",
+          "1/2 cup finely chopped onion",
+          "2 tsp finely chopped seeded serrano chile (about 1 chile)",
+          "4 oz chickpea (garbanzo bean) flour (about 1 cup)",
+          "1 1/2 oz semolina or pasta flour (about 1/4 cup)",
+          "1 tsp ground fennel seeds, crushed",
+          "6 tbsp plain fat-free yogurt"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -491,6 +581,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 15,
+          "fat_g": 1.4,
+          "carbs_g": 1.0,
+          "protein_g": 0.2,
+          "sodium_mg": 220,
+          "fiber_g": 0.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "2 tbsp tahini (sesame paste)",
+          "1 15 1/2-oz can chickpeas (garbanzo beans), rinsed and drained",
+          "1/4 tsp ground red pepper",
+          "6  mini whole-wheat pitas, split in half horizontally",
+          "Cooking spray"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -543,6 +655,26 @@
         "overall": "high",
         "flags": [
           "sponsored advertisement recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 14-oz can Ocean Spray Jellied Cranberry Sauce",
+          "1 12-oz bottle Heinz Chili Sauce",
+          "1 2-lb bag frozen, pre-cooked, cocktail-size meatballs"
+        ],
+        "assumptions": [
+          "Calculated for 30 servings"
         ]
       }
     },
@@ -597,6 +729,26 @@
         "overall": "high",
         "flags": [
           "sponsored advertisement recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 12-oz bottle Heinz Chili Sauce",
+          "1 14-oz can Ocean Spray Jellied Cranberry Sauce",
+          "24  chicken drummettes"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
         ]
       }
     },
@@ -701,6 +853,32 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 238,
+          "fat_g": 1.0,
+          "carbs_g": 49.1,
+          "protein_g": 7.2,
+          "sodium_mg": 452,
+          "fiber_g": 1.8,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "olive oil cooking spray",
+          "4 tsp Greek seasoning, divided",
+          "1 lb ground lamb",
+          "1 tsp garlic salt",
+          "16 oz container prepared hummus",
+          "1 1/2 cups tzatziki (gyro sauce)",
+          "1 cup iceberg lettuce, shredded",
+          "1 cup kalamata olives, chopped",
+          "4 oz container crumbled feta cheese"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
       }
     },
     {
@@ -780,6 +958,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.5,
+          "protein_g": 0.0,
+          "sodium_mg": 6,
+          "fiber_g": 0.0,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1 1/2 cups instant rice",
+          "3/4 tsp salt-free all-purpose seasoning",
+          "3 4-oz packages sliced smoked salmon",
+          "sesame seeds (optional)",
+          "soy sauce, for dipping"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
       }
     },
     {
@@ -857,6 +1057,29 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 11-oz packages pie dough mix",
+          "1 9.75-oz can white chicken meat, drained (or 1\u00bc cups shredded rotisserie chicken)",
+          "1 cup chunky salsa",
+          "1 3-oz can sliced ripe olives",
+          "1 cup shredded Mexican cheese blend",
+          "all-purpose flour, for dusting"
+        ],
+        "assumptions": [
+          "Calculated for 36 servings"
+        ]
       }
     },
     {
@@ -931,6 +1154,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 6,
+          "fat_g": 0.7,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  baguette, cut into \u00bd-inch-thick slices",
+          "1 8-oz package cream cheese",
+          "4 oz crumbled gorgonzola cheese",
+          "2 15-oz cans sliced pears in juice, drained",
+          "1/2 cup candied pecans, chopped"
+        ],
+        "assumptions": [
+          "Calculated for 40 servings"
+        ]
       }
     },
     {
@@ -1073,6 +1318,33 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 90,
+          "fat_g": 2.5,
+          "carbs_g": 13.9,
+          "protein_g": 3.1,
+          "sodium_mg": 36,
+          "fiber_g": 0.2,
+          "sugar_g": 13.3
+        },
+        "missing_inputs": [
+          "FOR THE GRAVLAX:",
+          "1 tbsp fennel seeds",
+          "1 tbsp white peppercorns",
+          "2 tsp black peppercorns",
+          "1 tsp coriander seeds",
+          "1 cup kosher salt",
+          "1 tbsp grated grapefruit zest",
+          "2 tbsp fresh grapefruit juice",
+          "2 10-to-12-oz center-cut skin-on salmon fillets, pin bones removed",
+          "1 bunch fresh dill, chopped"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -1131,6 +1403,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 489,
+          "fat_g": 0.6,
+          "carbs_g": 111.0,
+          "protein_g": 12.0,
+          "sodium_mg": 76,
+          "fiber_g": 12.0,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "for topping cr\u00e8me fra\u00eeche",
+          "for topping chopped chives",
+          "for topping fresh dill and/or parsley"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
       }
     },
     {
@@ -1282,6 +1575,30 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 283,
+          "fat_g": 15.5,
+          "carbs_g": 17.9,
+          "protein_g": 16.7,
+          "sodium_mg": 271,
+          "fiber_g": 1.0,
+          "sugar_g": 4.1
+        },
+        "missing_inputs": [
+          "1/2  medium onion, finely chopped",
+          "2 tsp dry sherry",
+          "1/2 tsp mustard powder",
+          "vegetable oil, for frying",
+          "3 tbsp lingonberry preserves or cranberry preserves",
+          "chopped fresh dill, for topping",
+          "fresh pickled cucumber slices, for serving"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -1348,6 +1665,24 @@
         "flags": [
           "sponsored advertisement recipe"
         ]
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 20.3,
+          "carbs_g": 2.8,
+          "protein_g": 7.0,
+          "sodium_mg": 194,
+          "fiber_g": 0.2,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "3 oz bacon bits"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -1409,6 +1744,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 76,
+          "fat_g": 8.6,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 96,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 pinch cayenne",
+          "refrigerated biscuit dough",
+          "shredded cheddar cheese",
+          "chopped chives"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
       }
     },
     {
@@ -1521,6 +1878,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 254,
+          "fat_g": 18.4,
+          "carbs_g": 10.2,
+          "protein_g": 12.8,
+          "sodium_mg": 483,
+          "fiber_g": 0.8,
+          "sugar_g": 6.1
+        },
+        "missing_inputs": [
+          "2 10-oz bags spinach, stems removed",
+          "1  clove garlic, minced",
+          "1/2 cup shredded white sharp cheddar cheese",
+          "1/2 cup frozen artichoke hearts, thawed, squeezed dry and roughly chopped",
+          "tortilla chips and salsa, for serving"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -1606,7 +1985,24 @@
       },
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {}
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 can crescent rolls",
+          "40  pepperoni slices",
+          "4 pieces mozzarella string cheese",
+          "for serving marinara sauce"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       },
       "notes": [
         "Serve with warm marinara sauce."
@@ -1762,7 +2158,27 @@
       },
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {}
+        "per_serving": {
+          "calories": 250,
+          "fat_g": 18.6,
+          "carbs_g": 1.1,
+          "protein_g": 17.6,
+          "sodium_mg": 252,
+          "fiber_g": 0.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "2 tsp sesame oil",
+          "1 cup panko crumbs",
+          "for topping toasted sesame seeds",
+          "2/3 cup hoisin sauce",
+          "1/4 cup rice vinegar",
+          "2  garlic cloves",
+          "1 tsp sesame oil"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
       }
     },
     {
@@ -7309,11 +7725,24 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "2 cup sieved cottage cheese",
+          "1 tbsp bouillon paste",
+          "few drops onion juice"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
       }
     },
     {
@@ -7379,11 +7808,23 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "1 cup lemon juice.",
+          "1 tbsp grated lemon rind.",
+          "1 cup ugar"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -7457,11 +7898,23 @@
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "One leek.",
+          "Four branches ofparsley.",
+          "One tomato."
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -7512,12 +7965,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "1  8",
+          "274  MRS.WILSON'S COOKBOOK"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -7725,11 +8189,30 @@
       ],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 2.5,
+          "carbs_g": 12.4,
+          "protein_g": 2.7,
+          "sodium_mg": 72,
+          "fiber_g": 0.7,
+          "sugar_g": 2.5
+        },
         "missing_inputs": [
-          "all"
+          "1 quart oil",
+          "ground cayenne pepper",
+          "red pepper flakes",
+          "seasoning salt",
+          "salt",
+          "ground coarse black pepper",
+          "1 cup chopped conch",
+          "1/4  red bell pepper",
+          "2  garlic cloves",
+          "1 tsp Tabasco sauce"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -7809,11 +8292,23 @@
       ],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 5,
+          "fat_g": 0.0,
+          "carbs_g": 1.2,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.3,
+          "sugar_g": 0.6
+        },
         "missing_inputs": [
-          "all"
+          "4-6  green chiles",
+          "2 packages cream cheese",
+          "1/2 tsp seasoning salt"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 13 servings"
+        ]
       }
     },
     {
@@ -7883,12 +8378,23 @@
         "processed/img_6015_medium.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.3,
+          "protein_g": 0.1,
+          "sodium_mg": 332,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "1 carton sour cream",
+          "4 oz green chiles"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -7974,11 +8480,24 @@
       ],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 13,
+          "fat_g": 1.4,
+          "carbs_g": 0.2,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [
-          "all"
+          "1 lb Colby cheese",
+          "8 oz green chiles",
+          "2  avocados",
+          "salt and pepper"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
       }
     },
     {
@@ -8075,11 +8594,24 @@
       ],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 16,
+          "fat_g": 1.1,
+          "carbs_g": 0.2,
+          "protein_g": 1.1,
+          "sodium_mg": 25,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [
-          "all"
+          "salt",
+          "2 cans biscuits",
+          "1/2 lb mozzarella cheese",
+          "1-2 cans green chiles"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 80 servings"
+        ]
       }
     },
     {
@@ -8154,11 +8686,24 @@
       ],
       "nutrition": {
         "status": "insufficient_data",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "20  cooked franks",
+          "1 can green chile strips or sauce",
+          "12  corn tortillas",
+          "oil"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -8231,6 +8776,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 108,
+          "fat_g": 7.5,
+          "carbs_g": 0.6,
+          "protein_g": 9.0,
+          "sodium_mg": 106,
+          "fiber_g": 0.0,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "1 lb cheddar cheese, grated",
+          "2 cans (4 oz each) green chiles, chopped",
+          "for dusting paprika"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -8305,6 +8870,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.2,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1 large pkg hot roll mix",
+          "1/2 lb crisp bacon",
+          "1 can (4 oz) green chiles, drained and chopped"
+        ],
+        "assumptions": [
+          "Calculated for 48 servings"
+        ]
       }
     },
     {
@@ -8393,6 +8978,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 14,
+          "fat_g": 1.1,
+          "carbs_g": 0.0,
+          "protein_g": 1.0,
+          "sodium_mg": 6,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2  Triscuit (1\u00bd oz, each)",
+          "1 can refrigerator biscuits",
+          "1 can (8 oz) Spanish-style tomato sauce",
+          "1/2 lb mozzarella cheese",
+          "1-2 cans (4 oz each) green chiles, chopped"
+        ],
+        "assumptions": [
+          "Calculated for 80 servings"
+        ]
       }
     },
     {
@@ -8448,6 +9055,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "20  cooked franks or 1 pkg (1 lb) franks cut into 1\u00bd-inch strips",
+          "1 can (10 oz) green chile strips or sauce",
+          "12  corn tortillas, cut into 1\u00bd-inch pieces"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -8549,6 +9176,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 6.9,
+          "carbs_g": 2.1,
+          "protein_g": 3.8,
+          "sodium_mg": 628,
+          "fiber_g": 0.4,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "1 cup biscuit mix",
+          "4 tbsp green chile, chopped",
+          "1/4 tsp celery seed",
+          "cooking oil for deep-fat frying"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     }
   ]
