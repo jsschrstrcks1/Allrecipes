@@ -70,7 +70,10 @@ NUTRITION_DB = {
     # DAIRY
     # =========================================================================
     "milk": {"cup": {"cal": 149, "fat": 8, "carbs": 12, "protein": 8, "sodium": 105, "fiber": 0, "sugar": 12},
-            "tbsp": {"cal": 9, "fat": 0.5, "carbs": 0.75, "protein": 0.5, "sodium": 7, "fiber": 0, "sugar": 0.75}},
+            "tbsp": {"cal": 9, "fat": 0.5, "carbs": 0.75, "protein": 0.5, "sodium": 7, "fiber": 0, "sugar": 0.75},
+            "pint": {"cal": 298, "fat": 16, "carbs": 24, "protein": 16, "sodium": 210, "fiber": 0, "sugar": 24},
+            "quart": {"cal": 596, "fat": 32, "carbs": 48, "protein": 32, "sodium": 420, "fiber": 0, "sugar": 48},
+            "ml": {"cal": 0.63, "fat": 0.03, "carbs": 0.05, "protein": 0.03, "sodium": 0.44, "fiber": 0, "sugar": 0.05}},
     "skim milk": {"cup": {"cal": 83, "fat": 0.2, "carbs": 12, "protein": 8, "sodium": 103, "fiber": 0, "sugar": 12}},
     "evaporated milk": {"cup": {"cal": 338, "fat": 19, "carbs": 25, "protein": 17, "sodium": 267, "fiber": 0, "sugar": 25}},
     "sweetened condensed milk": {"cup": {"cal": 982, "fat": 27, "carbs": 166, "protein": 24, "sodium": 389, "fiber": 0, "sugar": 166}},
@@ -1418,6 +1421,91 @@ NUTRITION_DB = {
     # Misc prepared
     "stove top stuffing": {"cup": {"cal": 177, "fat": 9, "carbs": 21, "protein": 4, "sodium": 522, "fiber": 1, "sugar": 3}},
     "fine sugar": {"cup": {"cal": 774, "fat": 0, "carbs": 200, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 200}},
+
+    # =========================================================================
+    # GAP ANALYSIS - ROUND 7 (final cleanup)
+    # =========================================================================
+
+    # Herbs & leaves
+    "mint leaves": {"tbsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 1, "fiber": 0, "sugar": 0}},
+    "oregano leaves": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.7, "protein": 0.1, "sodium": 0, "fiber": 0.4, "sugar": 0}},
+    "thyme sprigs": {"each": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "fresh oregano": {"tbsp": {"cal": 3, "fat": 0.1, "carbs": 0.5, "protein": 0.1, "sodium": 0, "fiber": 0.3, "sugar": 0}},
+
+    # Spices & seasonings
+    "ground red pepper": {"tsp": {"cal": 6, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 1, "fiber": 0.5, "sugar": 0.2}},
+    "garam masala": {"tsp": {"cal": 7, "fat": 0.3, "carbs": 1.3, "protein": 0.2, "sodium": 2, "fiber": 0.5, "sugar": 0.1}},
+    "turmeric powder": {"tsp": {"cal": 8, "fat": 0.2, "carbs": 1.4, "protein": 0.3, "sodium": 1, "fiber": 0.5, "sugar": 0.1}},
+    "turmeric": {"tsp": {"cal": 8, "fat": 0.2, "carbs": 1.4, "protein": 0.3, "sodium": 1, "fiber": 0.5, "sugar": 0.1}},
+    "powdered thyme": {"tsp": {"cal": 4, "fat": 0.1, "carbs": 0.9, "protein": 0.1, "sodium": 1, "fiber": 0.5, "sugar": 0}},
+    "black peppercorns": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "peppercorns": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "alum": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 0}},
+
+    # Nuts & seeds
+    "pecan meats": {"cup": {"cal": 753, "fat": 78, "carbs": 15, "protein": 10, "sodium": 0, "fiber": 10, "sugar": 4}},
+    "cashew nuts": {"cup": {"cal": 786, "fat": 63, "carbs": 45, "protein": 21, "sodium": 16, "fiber": 4, "sugar": 6}},
+    "cashews": {"cup": {"cal": 786, "fat": 63, "carbs": 45, "protein": 21, "sodium": 16, "fiber": 4, "sugar": 6}},
+
+    # Peppers
+    "serrano chile": {"each": {"cal": 2, "fat": 0, "carbs": 0.4, "protein": 0.1, "sodium": 1, "fiber": 0.2, "sugar": 0.2}},
+    "poblano pepper": {"each": {"cal": 48, "fat": 0.5, "carbs": 9, "protein": 2, "sodium": 6, "fiber": 4, "sugar": 5}},
+    "poblano": {"each": {"cal": 48, "fat": 0.5, "carbs": 9, "protein": 2, "sodium": 6, "fiber": 4, "sugar": 5}},
+
+    # Vegetables
+    "yellow squash": {"cup": {"cal": 18, "fat": 0.2, "carbs": 4, "protein": 1, "sodium": 2, "fiber": 1, "sugar": 2}},
+    "sliced cucumber": {"cup": {"cal": 14, "fat": 0.1, "carbs": 3, "protein": 0.6, "sodium": 2, "fiber": 0.5, "sugar": 1.5}},
+    "corn kernels": {"cup": {"cal": 132, "fat": 1.8, "carbs": 29, "protein": 5, "sodium": 23, "fiber": 4, "sugar": 5}},
+    "one leek": {"each": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1.3, "sodium": 18, "fiber": 1.6, "sugar": 3.5}},
+    "celery stalk": {"each": {"cal": 6, "fat": 0.1, "carbs": 1, "protein": 0.3, "sodium": 32, "fiber": 0.6, "sugar": 0.6}},
+    "stalks celery": {"each": {"cal": 6, "fat": 0.1, "carbs": 1, "protein": 0.3, "sodium": 32, "fiber": 0.6, "sugar": 0.6}},
+    "capers": {"tbsp": {"cal": 2, "fat": 0, "carbs": 0.4, "protein": 0.2, "sodium": 255, "fiber": 0.3, "sugar": 0}},
+    "guacamole": {"cup": {"cal": 368, "fat": 32, "carbs": 20, "protein": 4, "sodium": 700, "fiber": 14, "sugar": 2}},
+
+    # Beans
+    "red kidney beans": {"cup": {"cal": 225, "fat": 0.9, "carbs": 40, "protein": 15, "sodium": 2, "fiber": 11, "sugar": 0.6}},
+    "chili beans": {"cup": {"cal": 286, "fat": 2.6, "carbs": 52, "protein": 17, "sodium": 920, "fiber": 18, "sugar": 6}},
+
+    # Cheese
+    "asiago cheese": {"oz": {"cal": 111, "fat": 9, "carbs": 1, "protein": 7, "sodium": 340, "fiber": 0, "sugar": 0.5}},
+    "parmigiano-reggiano cheese": {"oz": {"cal": 111, "fat": 7, "carbs": 1, "protein": 10, "sodium": 330, "fiber": 0, "sugar": 0}},
+    "mozzarella": {"cup": {"cal": 318, "fat": 22, "carbs": 3, "protein": 26, "sodium": 627, "fiber": 0, "sugar": 1}},
+    "cheese slices": {"slice": {"cal": 104, "fat": 9, "carbs": 0.5, "protein": 5, "sodium": 406, "fiber": 0, "sugar": 0.3}},
+
+    # Dairy
+    "crème fraîche": {"cup": {"cal": 440, "fat": 46, "carbs": 3, "protein": 4, "sodium": 40, "fiber": 0, "sugar": 3}},
+    "creme fraiche": {"cup": {"cal": 440, "fat": 46, "carbs": 3, "protein": 4, "sodium": 40, "fiber": 0, "sugar": 3}},
+    "full cream milk": {"cup": {"cal": 149, "fat": 8, "carbs": 12, "protein": 8, "sodium": 105, "fiber": 0, "sugar": 12}},
+    "ice cubes": {"cup": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+
+    # Meats
+    "ground turkey breast": {"lb": {"cal": 544, "fat": 8, "carbs": 0, "protein": 112, "sodium": 320, "fiber": 0, "sugar": 0}},
+    "lean beef": {"lb": {"cal": 680, "fat": 28, "carbs": 0, "protein": 100, "sodium": 260, "fiber": 0, "sugar": 0}},
+    "ham fat": {"oz": {"cal": 170, "fat": 18, "carbs": 0, "protein": 1.5, "sodium": 320, "fiber": 0, "sugar": 0}},
+
+    # Juices & beverages
+    "grapefruit juice": {"cup": {"cal": 96, "fat": 0.3, "carbs": 23, "protein": 1.2, "sodium": 2, "fiber": 0.2, "sugar": 20}},
+    "strong hot coffee": {"cup": {"cal": 2, "fat": 0, "carbs": 0, "protein": 0.3, "sodium": 5, "fiber": 0, "sugar": 0}},
+    "apricot nectar": {"cup": {"cal": 140, "fat": 0.2, "carbs": 36, "protein": 0.9, "sodium": 8, "fiber": 1.5, "sugar": 33}},
+    "apple juice or cider": {"cup": {"cal": 114, "fat": 0.3, "carbs": 28, "protein": 0.2, "sodium": 10, "fiber": 0.2, "sugar": 24}},
+
+    # Breads
+    "baguette": {"each": {"cal": 680, "fat": 2, "carbs": 140, "protein": 24, "sodium": 1400, "fiber": 6, "sugar": 2}},
+
+    # Oils
+    "peanut oil": {"tbsp": {"cal": 119, "fat": 14, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+
+    # Condiments & canned
+    "jellied cranberry sauce": {"cup": {"cal": 418, "fat": 0.4, "carbs": 108, "protein": 0.5, "sodium": 80, "fiber": 3, "sugar": 87}},
+    "condensed french onion soup": {"can": {"cal": 140, "fat": 4, "carbs": 18, "protein": 5, "sodium": 2440, "fiber": 2, "sugar": 5}},
+    "mushrooms canned": {"cup": {"cal": 33, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 561, "fiber": 2, "sugar": 2}},
+
+    # Sweeteners
+    "swerve sweetener": {"cup": {"cal": 0, "fat": 0, "carbs": 96, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+
+    # Misc
+    "large banana": {"each": {"cal": 121, "fat": 0.4, "carbs": 31, "protein": 1.5, "sodium": 1, "fiber": 3.5, "sugar": 17}},
+    "frozen strawberries": {"cup": {"cal": 77, "fat": 0.2, "carbs": 20, "protein": 1, "sodium": 3, "fiber": 3.3, "sugar": 13}},
 }
 
 # =============================================================================
@@ -1550,10 +1638,10 @@ def normalize_ingredient(item):
         item = item.replace(uf, replacement)
 
     # Normalize curly quotes and special characters
-    item = item.replace(''', "'")   # Right single curly quote
-    item = item.replace(''', "'")   # Left single curly quote
-    item = item.replace('"', '"')   # Left double curly quote
-    item = item.replace('"', '"')   # Right double curly quote
+    item = item.replace('\u2019', "'")   # Right single curly quote '
+    item = item.replace('\u2018', "'")   # Left single curly quote '
+    item = item.replace('\u201c', '"')   # Left double curly quote "
+    item = item.replace('\u201d', '"')   # Right double curly quote "
     item = item.replace('ﬂ', 'fl')  # fi/fl ligature
     item = item.replace('ﬁ', 'fi')  # fi ligature
 
@@ -1575,6 +1663,15 @@ def normalize_ingredient(item):
         (r'\bpinch\s+', ''),                 # "pinch " embedded in item
         (r'\btsp\.?\s+', ''),                # "tsp " or "tsp. " embedded in item
         (r'\btbsp\.?\s+', ''),               # "tbsp " embedded in item
+        (r'^t\s+', ''),                      # "t " at start (abbreviation for tsp)
+        (r'^c\s+', ''),                      # "c " at start (abbreviation for cup)
+        (r'^T\s+', ''),                      # "T " at start (abbreviation for tbsp)
+        (r'\b1/2\s+cups?\s+', ''),           # "1/2 cup(s) " embedded
+        (r'\b1/4\s+cups?\s+', ''),           # "1/4 cup(s) " embedded
+        (r'\b3/4\s+cups?\s+', ''),           # "3/4 cup(s) " embedded
+        (r'\b1/2\s+tsp\.?\s+', ''),          # "1/2 tsp " embedded
+        (r'\b1/4\s+tsp\.?\s+', ''),          # "1/4 tsp " embedded
+        (r'\b1/2\s+tbsp\.?\s+', ''),         # "1/2 tbsp " embedded
         (r'\bcup[s]?\s+', ''),               # "cup " embedded in item
         (r'\bpint[s]?\s+', ''),              # "pint " embedded in item
         (r'\bquart[s]?\s+', ''),             # "quart " embedded in item
@@ -1594,8 +1691,9 @@ def normalize_ingredient(item):
     if "," in item:
         item = item.split(",")[0].strip()
 
-    # Remove parenthetical notes
-    item = re.sub(r'\s*\([^)]*\)', '', item)
+    # Remove parenthetical notes (including leading ones like "(4 oz)")
+    item = re.sub(r'^\([^)]*\)\s*', '', item)  # Leading parenthetical
+    item = re.sub(r'\s*\([^)]*\)', '', item)   # Embedded parenthetical
 
     # Remove leading numbers/quantities that got mixed in
     item = re.sub(r'^\d+[\s/\d]*\s*', '', item)
@@ -1621,10 +1719,9 @@ def normalize_ingredient(item):
         if item.startswith(prefix):
             item = item[len(prefix):]
 
-    # Brand name normalization
+    # Brand name normalization (use straight quotes since curly quotes are normalized earlier)
     brand_map = {
         "grandma's molasses": "molasses",
-        "grandma's molasses": "molasses",  # Curly apostrophe variant
         "grandmas molasses": "molasses",
         "carnation milk": "evaporated milk",
         "gold medal flour": "flour",
@@ -1640,6 +1737,11 @@ def normalize_ingredient(item):
         "knox": "gelatin",
         "bisquick": "biscuit mix",
         "jiffy": "corn muffin mix",
+        "shedd's spread country crock calcium plus vitamin d": "margarine",
+        "shedd's spread country crock": "margarine",
+        "shedd's spread": "margarine",
+        "country crock": "margarine",
+        "i can't believe it's not butter": "margarine",
         "campbell's": "",
         "swanson": "",
         "progresso": "",
@@ -2060,6 +2162,86 @@ def normalize_ingredient(item):
         "miniature marshmallows or 20 regular marshmallows": "miniature marshmallows",
         "orange zest strips": "orange zest",
         "stove top stuffi ng": "stove top stuffing",
+
+        # Round 8 synonyms - OCR artifacts
+        "tblsp. flour": "flour",
+        "tblsp. sugar": "sugar",
+        "tblsp. vinegar": "vinegar",
+        "tblsp flour": "flour",
+        "tblsp sugar": "sugar",
+        "t vanilla": "vanilla extract",
+        "t. vanilla": "vanilla extract",
+        "tsp. vanilla": "vanilla extract",
+        "level tablespoonfuls of flour": "flour",
+        "level tablespoons of flour": "flour",
+        "level tablespoonfuls flour": "flour",
+        "tablespoonfuls of flour": "flour",
+        "tablespoons of flour": "flour",
+        "tablespoons flour": "flour",
+        "½ cups sugar": "sugar",
+        "½ cups flour": "flour",
+        "½ cup sugar": "sugar",
+        "½ cup shortening": "shortening",
+        "½ cup milk": "milk",
+        "½ tsp. baking powder": "baking powder",
+        "½ tsp. cloves": "cloves",
+        "½ tsp baking powder": "baking powder",
+        "¾ cup sugar": "sugar",
+
+        # Rose water variants
+        "rose-water": "rose water",
+        "rosewater": "rose water",
+
+        # Catsup/ketchup
+        "catsup": "ketchup",
+
+        # Green items
+        "green peppers": "green pepper",
+        "green chiles, chopped": "green chiles",
+        "(4 oz) green chiles, chopped": "green chiles",
+        "green chiles chopped": "green chiles",
+        "chopped green chiles": "green chiles",
+
+        # Whole spices
+        "whole cloves": "cloves",
+        "whole allspice": "allspice",
+
+        # Common plurals and variants
+        "potatoes": "potato",
+        "onions": "onion",
+        "carrots": "carrot",
+        "apples": "apple",
+        "avocados": "avocado",
+        "raisins": "raisins",
+        "bread crumbs": "breadcrumbs",
+
+        # Cream variants
+        "cream": "heavy cream",
+
+        # Gelatin
+        "envelope unflavored gelatin": "gelatin",
+        "envelopes unflavored gelatin": "gelatin",
+        "packet gelatin": "gelatin",
+
+        # Wine
+        "wine": "dry white wine",
+        "white wine": "dry white wine",
+        "red wine": "dry red wine",
+
+        # Soy sauce
+        "soy sauce": "soy sauce",
+
+        # Mace
+        "mace": "nutmeg",  # Similar flavor profile
+
+        # Sliced variants
+        "slices bacon": "bacon",
+        "bacon slices": "bacon",
+
+        # Water variants
+        "boiling water": "water",
+        "cold water": "water",
+        "qts. water": "water",
     }
 
     # Check for exact match first
@@ -2264,6 +2446,20 @@ def get_nutrition_for_ingredient(ingredient):
         elif unit == "tbsp" and "tsp" in db_entry:
             base = db_entry["tsp"]
             return {k: v * quantity * 3 for k, v in base.items()}
+        # Pint/quart to cup conversions
+        elif unit == "pint" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 2 for k, v in base.items()}  # 1 pint = 2 cups
+        elif unit == "quart" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 4 for k, v in base.items()}  # 1 quart = 4 cups
+        elif unit == "gallon" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 16 for k, v in base.items()}  # 1 gallon = 16 cups
+        # ML to cup conversion
+        elif unit == "ml" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity / 237 for k, v in base.items()}  # ~237 ml per cup
 
     # Try without unit for counted items
     if item in NUTRITION_DB and "" in NUTRITION_DB[item]:

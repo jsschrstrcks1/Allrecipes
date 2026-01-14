@@ -155,7 +155,7 @@
           "protein_g": 24.2,
           "sodium_mg": 655,
           "fiber_g": 0.8,
-          "sugar_g": 0.9
+          "sugar_g": 0.8
         },
         "missing_inputs": [
           "2  shallots, chopped",
@@ -420,8 +420,8 @@
         "per_serving": {
           "calories": 552,
           "fat_g": 55.3,
-          "carbs_g": 14.1,
-          "protein_g": 2.1,
+          "carbs_g": 14.2,
+          "protein_g": 2.2,
           "sodium_mg": 47,
           "fiber_g": 1.8,
           "sugar_g": 1.5
@@ -429,7 +429,6 @@
         "missing_inputs": [
           "2 lbs boneless beef short ribs",
           "10 cups low-sodium beef broth",
-          "1 1/2 tbsp chopped fresh oregano",
           "15 oz can cannellini beans, drained and rinsed",
           "for garnish taco-blend cheese",
           "for garnish guacamole, sour cream",
@@ -813,16 +812,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 126,
+          "calories": 138,
           "fat_g": 6.5,
-          "carbs_g": 12.9,
-          "protein_g": 5.1,
-          "sodium_mg": 638,
-          "fiber_g": 1.4,
-          "sugar_g": 9.3
+          "carbs_g": 15.9,
+          "protein_g": 5.4,
+          "sodium_mg": 659,
+          "fiber_g": 2.4,
+          "sugar_g": 10.8
         },
         "missing_inputs": [
-          "2 lbs carrots, cut into 1/2-inch pieces",
           "dash ground ginger"
         ],
         "assumptions": [
@@ -1084,21 +1082,20 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 95,
+          "calories": 97,
           "fat_g": 3.2,
-          "carbs_g": 2.7,
-          "protein_g": 13.3,
+          "carbs_g": 3.2,
+          "protein_g": 13.4,
           "sodium_mg": 239,
-          "fiber_g": 0.8,
-          "sugar_g": 1.6
+          "fiber_g": 0.9,
+          "sugar_g": 1.8
         },
         "missing_inputs": [
           "1 16-oz bag frozen pepper stir-fry (such as Birds Eye)",
           "1 4-oz can chopped green chiles, drained",
-          "1 32-oz carton less-sodium beef broth",
-          "1 1/2 cups shredded yellow squash"
+          "1 32-oz carton less-sodium beef broth"
         ],
         "assumptions": [
           "Calculated for 12 servings"
@@ -1324,16 +1321,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 70,
-          "fat_g": 4.4,
+          "calories": 103,
+          "fat_g": 8.1,
           "carbs_g": 3.8,
           "protein_g": 3.8,
-          "sodium_mg": 77,
+          "sodium_mg": 107,
           "fiber_g": 0.3,
           "sugar_g": 2.9
         },
         "missing_inputs": [
-          "2 tbsp Shedd's Spread Country Crock Calcium plus Vitamin D",
           "1  can (14 oz) chicken broth",
           "1 package (10 oz) frozen broccoli florets, thawed",
           "Ground black pepper"
@@ -1970,20 +1966,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 33,
+          "calories": 52,
           "fat_g": 0.6,
-          "carbs_g": 5.2,
-          "protein_g": 2.7,
-          "sodium_mg": 900,
-          "fiber_g": 0.4,
-          "sugar_g": 3.6
+          "carbs_g": 8.4,
+          "protein_g": 3.0,
+          "sodium_mg": 921,
+          "fiber_g": 1.4,
+          "sugar_g": 5.1
         },
         "missing_inputs": [
           "1/4 lb thick-sliced ham, diced",
-          "2 tbsp dry sherry or Chinese rice wine",
           "1 1-inch piece ginger, peeled and thinly sliced",
           "4 3-inch orange zest strips",
-          "2  medium carrots, thinly sliced",
           "2 to 3  napa cabbage leaves, thinly sliced",
           "24  frozen chicken or vegetable dumplings or pot stickers",
           "soy sauce, for drizzling (optional)"
@@ -2154,16 +2148,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 430,
-          "fat_g": 30.1,
-          "carbs_g": 13.1,
-          "protein_g": 25.7,
-          "sodium_mg": 1473,
+          "calories": 442,
+          "fat_g": 30.5,
+          "carbs_g": 13.9,
+          "protein_g": 27.3,
+          "sodium_mg": 2161,
           "fiber_g": 1.3,
           "sugar_g": 1.6
         },
         "missing_inputs": [
-          "1 quart chicken broth",
           "2  celery stalks",
           "1 14-oz can whole tomatoes",
           "2 tsp Cajun seasoning",
@@ -2423,19 +2416,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 222,
-          "fat_g": 6.4,
-          "carbs_g": 10.8,
-          "protein_g": 30.2,
-          "sodium_mg": 567,
+          "calories": 234,
+          "fat_g": 6.8,
+          "carbs_g": 11.6,
+          "protein_g": 31.8,
+          "sodium_mg": 1255,
           "fiber_g": 2.8,
           "sugar_g": 5.8
         },
-        "missing_inputs": [
-          "1 quart chicken broth"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 5 servings"
         ]
@@ -5933,20 +5924,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 186,
-          "fat_g": 7.1,
-          "carbs_g": 3.8,
-          "protein_g": 25.5,
-          "sodium_mg": 68,
-          "fiber_g": 0.9,
-          "sugar_g": 2.0
+          "calories": 268,
+          "fat_g": 7.2,
+          "carbs_g": 22.2,
+          "protein_g": 27.5,
+          "sodium_mg": 74,
+          "fiber_g": 2.9,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
-          "2 quarts water",
           "1/2 lb beef bones",
-          "2 small potatoes",
           "Parsley"
         ],
         "assumptions": [
@@ -6148,19 +6137,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 8,
+          "fat_g": 0.2,
+          "carbs_g": 0.5,
+          "protein_g": 1.0,
+          "sodium_mg": 430,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "1/2 quart stock 2 slices of lean pork"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -6514,20 +6501,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 148,
-          "fat_g": 4.2,
-          "carbs_g": 23.4,
-          "protein_g": 6.8,
-          "sodium_mg": 219,
-          "fiber_g": 4.2,
-          "sugar_g": 7.2
+          "calories": 378,
+          "fat_g": 12.3,
+          "carbs_g": 53.9,
+          "protein_g": 16.8,
+          "sodium_mg": 330,
+          "fiber_g": 6.2,
+          "sugar_g": 20.2
         },
         "missing_inputs": [
-          "1  tblsp. celery",
-          "2  potatoes",
-          "2 pints milk"
+          "1  tblsp. celery"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -6622,19 +6607,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 15,
+          "calories": 56,
           "fat_g": 0.1,
-          "carbs_g": 3.3,
-          "protein_g": 0.4,
-          "sodium_mg": 96,
-          "fiber_g": 1.0,
-          "sugar_g": 1.5
+          "carbs_g": 12.5,
+          "protein_g": 1.4,
+          "sodium_mg": 100,
+          "fiber_g": 2.0,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
           "1 lb . soup beans",
           "1  ham bone",
-          "1  can tomato sauce",
-          "\u00bd cup diced potatoes"
+          "1  can tomato sauce"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -6729,19 +6713,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 15,
+          "calories": 28,
           "fat_g": 0.1,
-          "carbs_g": 3.6,
-          "protein_g": 0.4,
-          "sodium_mg": 76,
-          "fiber_g": 0.7,
-          "sugar_g": 1.5
+          "carbs_g": 6.6,
+          "protein_g": 0.7,
+          "sodium_mg": 97,
+          "fiber_g": 1.6,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
           "1 lb . split peas",
           "3  qts. water",
           "1  ham bone",
-          "2  carrots",
           "1  stalk celery"
         ],
         "assumptions": [
@@ -6825,19 +6808,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 26,
-          "fat_g": 2.9,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 94,
+          "calories": 174,
+          "fat_g": 10.9,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 200,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 12.0
         },
         "missing_inputs": [
           "1  \u00bd cups diced salsify",
           "1  \u00bd cups water",
-          "1  tblsp. vinegar",
-          "1 quart milk"
+          "1  tblsp. vinegar"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -6942,7 +6924,6 @@
         },
         "missing_inputs": [
           "1  soup bone",
-          "2 quarts water",
           "1  \u00bd cups flour",
           "\u00bd cup milk"
         ],
@@ -7268,19 +7249,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 1059,
+          "calories": 1060,
           "fat_g": 41.6,
-          "carbs_g": 33.4,
+          "carbs_g": 33.7,
           "protein_g": 126.4,
           "sodium_mg": 624,
-          "fiber_g": 2.3,
+          "fiber_g": 2.4,
           "sugar_g": 1.5
         },
         "missing_inputs": [
           "2  \u00bd qts. water",
-          "1 tsp . peppercorns",
           "1  tblsp. parsley"
         ],
         "assumptions": [
@@ -7390,20 +7370,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 186,
-          "fat_g": 7.1,
-          "carbs_g": 3.8,
-          "protein_g": 25.5,
-          "sodium_mg": 68,
-          "fiber_g": 0.9,
-          "sugar_g": 2.0
+          "calories": 268,
+          "fat_g": 7.2,
+          "carbs_g": 22.2,
+          "protein_g": 27.5,
+          "sodium_mg": 74,
+          "fiber_g": 2.9,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
-          "2 quarts water",
           "1/2 lb beef bones",
-          "2 small potatoes",
           "Parsley"
         ],
         "assumptions": [
@@ -7599,19 +7577,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 8,
+          "fat_g": 0.2,
+          "carbs_g": 0.5,
+          "protein_g": 1.0,
+          "sodium_mg": 430,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "1/2 quart stock 2 slices of lean pork"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -7685,7 +7661,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
@@ -7697,7 +7673,6 @@
         },
         "missing_inputs": [
           "1 liberal pound of fresh codfish",
-          "1 quart water",
           "Parsley"
         ],
         "assumptions": [
@@ -8227,19 +8202,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 171,
-          "fat_g": 10.3,
-          "carbs_g": 13.8,
-          "protein_g": 6.3,
-          "sodium_mg": 220,
-          "fiber_g": 0.8,
-          "sugar_g": 10.0
+          "calories": 253,
+          "fat_g": 10.4,
+          "carbs_g": 32.3,
+          "protein_g": 8.3,
+          "sodium_mg": 227,
+          "fiber_g": 2.8,
+          "sugar_g": 11.0
         },
-        "missing_inputs": [
-          "3 medium sized potatoes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
@@ -8553,16 +8526,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 3.9,
-          "carbs_g": 0.3,
-          "protein_g": 0.1,
-          "sodium_mg": 468,
+          "calories": 92,
+          "fat_g": 5.9,
+          "carbs_g": 3.6,
+          "protein_g": 5.8,
+          "sodium_mg": 641,
           "fiber_g": 0.2,
           "sugar_g": 0.1
         },
         "missing_inputs": [
-          "1 pint oysters",
           "2 cup Carnation"
         ],
         "assumptions": [
@@ -8674,18 +8646,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 161,
-          "fat_g": 10.2,
-          "carbs_g": 11.5,
-          "protein_g": 6.1,
-          "sodium_mg": 216,
-          "fiber_g": 0.2,
-          "sugar_g": 8.8
+          "calories": 238,
+          "fat_g": 10.3,
+          "carbs_g": 28.9,
+          "protein_g": 8.1,
+          "sodium_mg": 222,
+          "fiber_g": 2.2,
+          "sugar_g": 9.5
         },
         "missing_inputs": [
-          "4 cup raw potatoes",
           "8  crackers",
           "1  No. 2 can corn"
         ],
@@ -8794,16 +8765,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 102,
-          "fat_g": 7.0,
-          "carbs_g": 6.8,
-          "protein_g": 3.2,
-          "sodium_mg": 496,
-          "fiber_g": 0.2,
-          "sugar_g": 4.4
+          "calories": 141,
+          "fat_g": 7.1,
+          "carbs_g": 15.5,
+          "protein_g": 4.2,
+          "sodium_mg": 499,
+          "fiber_g": 1.2,
+          "sugar_g": 4.8
         },
         "missing_inputs": [
-          "2 cup raw potatoes",
           "1 can minced clams (7 oz. can)"
         ],
         "assumptions": [
@@ -9294,19 +9264,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 386,
+          "fat_g": 12.2,
+          "carbs_g": 55.0,
+          "protein_g": 16.0,
+          "sodium_mg": 170,
+          "fiber_g": 4.0,
+          "sugar_g": 20.0
         },
         "missing_inputs": [
-          "4  potatoes,",
-          "3 pints ofmilk.",
           "1 medium Small piece ofonion."
         ],
         "assumptions": [
@@ -9394,17 +9362,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 2,
-          "fat_g": 0.0,
-          "carbs_g": 0.5,
-          "protein_g": 0.1,
-          "sodium_mg": 0,
+          "calories": 151,
+          "fat_g": 8.0,
+          "carbs_g": 12.5,
+          "protein_g": 8.1,
+          "sodium_mg": 105,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 12.0
         },
         "missing_inputs": [
-          "25  oysters,",
-          "1 quart ofmilk."
+          "25  oysters,"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10330,17 +10297,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 457,
-          "fat_g": 26.1,
-          "carbs_g": 3.9,
-          "protein_g": 50.8,
-          "sodium_mg": 145,
-          "fiber_g": 1.1,
-          "sugar_g": 2.2
+          "calories": 1307,
+          "fat_g": 29.5,
+          "carbs_g": 207.9,
+          "protein_g": 71.2,
+          "sodium_mg": 1573,
+          "fiber_g": 69.1,
+          "sugar_g": 104.2
         },
         "missing_inputs": [
-          "1/2 tsp pepper 1 bay leaf",
-          "136  carrots"
+          "1/2 tsp pepper 1 bay leaf"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10431,16 +10397,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 392,
+          "calories": 414,
           "fat_g": 8.2,
-          "carbs_g": 4.2,
-          "protein_g": 70.8,
-          "sodium_mg": 175,
-          "fiber_g": 1.2,
-          "sugar_g": 2.2
+          "carbs_g": 9.2,
+          "protein_g": 71.3,
+          "sodium_mg": 177,
+          "fiber_g": 2.2,
+          "sugar_g": 4.8
         },
         "missing_inputs": [
-          "2 medium onions",
           "1/2  c celery"
         ],
         "assumptions": [
@@ -10530,19 +10495,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 18,
+          "calories": 40,
           "fat_g": 0.2,
-          "carbs_g": 4.2,
-          "protein_g": 0.8,
-          "sodium_mg": 5,
-          "fiber_g": 1.2,
-          "sugar_g": 2.2
+          "carbs_g": 9.2,
+          "protein_g": 1.4,
+          "sodium_mg": 7,
+          "fiber_g": 2.2,
+          "sugar_g": 4.8
         },
         "missing_inputs": [
           "2 lb small scallops 2 lb fresh okra",
-          "2 medium onions",
           "1/2  c celery"
         ],
         "assumptions": [
@@ -10652,19 +10616,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 66,
+          "fat_g": 0.2,
+          "carbs_g": 15.2,
+          "protein_g": 1.6,
+          "sodium_mg": 45,
+          "fiber_g": 3.0,
+          "sugar_g": 3.5
         },
         "missing_inputs": [
           "2  beef soup bones 7 c water",
           "1-1  /2 lb stew beef",
-          "1 tsp pepper 4 med potatoes",
-          "4 medium carrots",
           "1  hot red pepper 1/2 small cabbage",
           "1  (17 oz) can whole kernel corn 1 (15 oz) can English peas"
         ],
@@ -10731,12 +10693,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 175,
+          "calories": 177,
           "fat_g": 0.2,
           "carbs_g": 40.0,
           "protein_g": 4.5,
-          "sodium_mg": 12,
-          "fiber_g": 4.0,
+          "sodium_mg": 14,
+          "fiber_g": 4.5,
           "sugar_g": 2.0
         },
         "missing_inputs": [
@@ -11284,20 +11246,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 41,
+          "fat_g": 0.1,
+          "carbs_g": 9.2,
+          "protein_g": 1.0,
+          "sodium_mg": 3,
+          "fiber_g": 1.0,
+          "sugar_g": 0.5
         },
         "missing_inputs": [
           "1 lb stewing lamb.",
-          "1 quart string beans.",
-          "1 quart small potatoes."
+          "1 quart string beans."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11370,17 +11331,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 29,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 6.5,
+          "protein_g": 0.8,
+          "sodium_mg": 2,
+          "fiber_g": 0.8,
+          "sugar_g": 0.2
         },
         "missing_inputs": [
-          "1 lb soup meat.",
-          "1 cup each ofdiced potatoes"
+          "1 lb soup meat."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11471,20 +11431,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 8,
+          "calories": 72,
           "fat_g": 0.1,
-          "carbs_g": 1.8,
-          "protein_g": 0.5,
-          "sodium_mg": 4,
-          "fiber_g": 0.8,
-          "sugar_g": 0.5
+          "carbs_g": 16.2,
+          "protein_g": 2.1,
+          "sodium_mg": 19,
+          "fiber_g": 2.8,
+          "sugar_g": 1.8
         },
         "missing_inputs": [
-          "1 lb neck orbreast ofmutton.",
-          "1 quart diced carrots.",
-          "2 cup dicednewpotatoes."
+          "1 lb neck orbreast ofmutton."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11581,20 +11539,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 67,
+          "fat_g": 0.2,
+          "carbs_g": 15.2,
+          "protein_g": 1.5,
+          "sodium_mg": 47,
+          "fiber_g": 3.0,
+          "sugar_g": 3.5
         },
         "missing_inputs": [
-          "1 lb necklamb chops.",
-          "1 quart potatoes.",
-          "2 cup cutcarrots"
+          "1 lb necklamb chops."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11695,16 +11651,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 169,
-          "fat_g": 5.3,
-          "carbs_g": 25.5,
-          "protein_g": 8.1,
-          "sodium_mg": 483,
-          "fiber_g": 2.1,
-          "sugar_g": 8.5
+          "calories": 227,
+          "fat_g": 5.4,
+          "carbs_g": 38.5,
+          "protein_g": 9.6,
+          "sodium_mg": 488,
+          "fiber_g": 3.6,
+          "sugar_g": 9.0
         },
         "missing_inputs": [
-          "2 cup diced potatoes.",
           "1 tbsp oleomargarine orbutter."
         ],
         "assumptions": [
@@ -11919,20 +11874,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 26,
-          "fat_g": 2.9,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 20,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 215,
+          "fat_g": 10.9,
+          "carbs_g": 21.2,
+          "protein_g": 9.0,
+          "sodium_mg": 128,
+          "fiber_g": 1.0,
+          "sugar_g": 12.5
         },
         "missing_inputs": [
-          "1 quart milk.",
           "25  oysters.",
-          "1 quart diced white potatoes.",
           "1 cup cracker crumbs ordried breadcrumbs."
         ],
         "assumptions": [
@@ -12016,17 +11969,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 8,
-          "fat_g": 0.2,
-          "carbs_g": 0.5,
-          "protein_g": 1.0,
-          "sodium_mg": 430,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 66,
+          "fat_g": 0.3,
+          "carbs_g": 13.5,
+          "protein_g": 2.5,
+          "sodium_mg": 434,
+          "fiber_g": 1.5,
+          "sugar_g": 0.5
         },
         "missing_inputs": [
-          "25 medium -sized oysters.",
-          "2 cup finely diced potatoes."
+          "25 medium -sized oysters."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12133,20 +12085,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 1923,
-          "fat_g": 6.9,
-          "carbs_g": 437.0,
-          "protein_g": 45.0,
-          "sodium_mg": 67,
-          "fiber_g": 65.0,
-          "sugar_g": 31.9
+          "calories": 1994,
+          "fat_g": 7.1,
+          "carbs_g": 453.0,
+          "protein_g": 46.8,
+          "sodium_mg": 94,
+          "fiber_g": 67.5,
+          "sugar_g": 33.9
         },
         "missing_inputs": [
-          "1  %pounds soupmeat.",
-          "1 cup finely diced carrots.",
-          "2 cup diced potatoes."
+          "1  %pounds soupmeat."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12249,17 +12199,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 241,
-          "fat_g": 0.8,
-          "carbs_g": 42.6,
-          "protein_g": 18.3,
-          "sodium_mg": 6,
-          "fiber_g": 16.5,
-          "sugar_g": 5.3
+          "calories": 270,
+          "fat_g": 0.9,
+          "carbs_g": 49.1,
+          "protein_g": 19.0,
+          "sodium_mg": 8,
+          "fiber_g": 17.3,
+          "sugar_g": 5.5
         },
         "missing_inputs": [
-          "2 tbsp finely cutbacon.",
-          "1 cup diced potatoes."
+          "2 tbsp finely cutbacon."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12454,19 +12403,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 52,
-          "fat_g": 3.5,
-          "carbs_g": 4.2,
-          "protein_g": 1.5,
-          "sodium_mg": 432,
-          "fiber_g": 0.8,
-          "sugar_g": 1.8
+          "calories": 93,
+          "fat_g": 3.6,
+          "carbs_g": 13.5,
+          "protein_g": 2.5,
+          "sodium_mg": 435,
+          "fiber_g": 1.8,
+          "sugar_g": 2.2
         },
         "missing_inputs": [
           "1 lb steakfish.",
-          "1 quart diced white potatoes.",
           "1 cup cracker ordried breadcrumbs."
         ],
         "assumptions": [
@@ -12674,11 +12622,11 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 37,
-          "fat_g": 0.1,
-          "carbs_g": 8.2,
+          "calories": 38,
+          "fat_g": 0.2,
+          "carbs_g": 8.3,
           "protein_g": 0.9,
           "sodium_mg": 583,
           "fiber_g": 1.1,
@@ -12686,8 +12634,7 @@
         },
         "missing_inputs": [
           "1  beefkidney.",
-          "2 tbsp oleomargarine ordrippings.",
-          "1/4 tsp powdered mace."
+          "2 tbsp oleomargarine ordrippings."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12782,19 +12729,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 86,
+          "calories": 97,
           "fat_g": 5.0,
-          "carbs_g": 6.5,
-          "protein_g": 4.1,
-          "sodium_mg": 641,
-          "fiber_g": 0.1,
-          "sugar_g": 6.0
+          "carbs_g": 9.0,
+          "protein_g": 4.4,
+          "sodium_mg": 642,
+          "fiber_g": 0.6,
+          "sugar_g": 7.3
         },
-        "missing_inputs": [
-          "1 quart ofonions."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -13896,21 +13841,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 476,
-          "fat_g": 1.2,
-          "carbs_g": 119.2,
-          "protein_g": 3.3,
-          "sodium_mg": 62,
+          "calories": 1092,
+          "fat_g": 67.2,
+          "carbs_g": 124.5,
+          "protein_g": 7.0,
+          "sodium_mg": 129,
           "fiber_g": 4.0,
-          "sugar_g": 104.5
+          "sugar_g": 109.8
         },
         "missing_inputs": [
           "1 tsp salt 1 sliceonion Saltandpepper",
-          "1 pint boiling water",
-          "1 pint water",
-          "3 cup milkCREAM OFCELERY",
           "2 tbsp rice icupflourmixed with"
         ],
         "assumptions": [
@@ -14108,22 +14050,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 11,
-          "fat_g": 0.0,
-          "carbs_g": 2.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
-          "fiber_g": 0.5,
-          "sugar_g": 1.2
+          "calories": 486,
+          "fat_g": 8.4,
+          "carbs_g": 88.5,
+          "protein_g": 16.2,
+          "sodium_mg": 132,
+          "fiber_g": 8.5,
+          "sugar_g": 17.2
         },
         "missing_inputs": [
-          "1 pint boiling water",
           "3  inches 1 tablespoon salt",
-          "1 quart milk",
-          "8  crackers 2 cups flaked cod",
-          "8  potatoes"
+          "8  crackers 2 cups flaked cod"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -14744,13 +14683,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 14,
-          "fat_g": 0.1,
-          "carbs_g": 3.0,
-          "protein_g": 0.4,
-          "sodium_mg": 0,
-          "fiber_g": 0.1,
-          "sugar_g": 0.0
+          "calories": 96,
+          "fat_g": 0.2,
+          "carbs_g": 21.5,
+          "protein_g": 2.4,
+          "sodium_mg": 6,
+          "fiber_g": 2.1,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "1 lb beeformutton Meat-knife",
@@ -14997,19 +14936,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 6,
-          "fat_g": 0.1,
-          "carbs_g": 1.2,
-          "protein_g": 0.2,
-          "sodium_mg": 2,
+          "calories": 20,
+          "fat_g": 0.6,
+          "carbs_g": 2.2,
+          "protein_g": 2.2,
+          "sodium_mg": 862,
           "fiber_g": 0.4,
           "sugar_g": 0.8
         },
-        "missing_inputs": [
-          "1 qt brown stock Salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -15075,16 +15012,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 11,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
-          "1 medium Four onions chopped fine.",
           "One carrot cutindice."
         ],
         "assumptions": [
@@ -15166,19 +15102,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 11,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
           "Three pints ofchicken stock.",
-          "1 medium Four onions chopped fine.",
           "One clove."
         ],
         "assumptions": [
@@ -15340,16 +15275,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 11,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
-          "1 medium Four onions.",
           "Two cloves."
         ],
         "assumptions": [
@@ -15425,16 +15359,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 11,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
-          "1 medium Three onions, chopped fine.",
           "1 tsp Two slices ofsaltpork, cutinto dice."
         ],
         "assumptions": [
@@ -15898,18 +15831,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 81,
-          "fat_g": 5.5,
-          "carbs_g": 8.1,
-          "protein_g": 1.3,
-          "sodium_mg": 7,
-          "fiber_g": 2.1,
-          "sugar_g": 4.3
+          "calories": 143,
+          "fat_g": 5.6,
+          "carbs_g": 23.1,
+          "protein_g": 4.0,
+          "sodium_mg": 988,
+          "fiber_g": 3.6,
+          "sugar_g": 16.3
         },
         "missing_inputs": [
-          "1 1/2 quarts tomato juice",
           "1  cucumber, peeled and chopped",
           "dash dried oregano"
         ],
