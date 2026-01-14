@@ -539713,7 +539713,7 @@
       "collection": "all",
       "collection_display": "Handwritten Family Recipe",
       "title": "Onion-Soup-Based Swedish Meatball Sauce",
-      "category": "sauces",
+      "category": "sides",
       "attribution": "",
       "source_note": "Family recipe card with handwritten modifications",
       "description": "A creamy Swedish meatball sauce using mushroom gravy and onion soup mixes. Handwritten notes suggest adjustments for larger batches.",
@@ -539775,6 +539775,116 @@
         "per_serving": {},
         "missing_inputs": ["all"],
         "assumptions": []
+      }
+    },
+    {
+      "id": "slow-cooker-ghost-pepper-hot-sauce",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Slow Cooker Ghost Pepper Hot Sauce",
+      "category": "sides",
+      "attribution": "Family Recipe",
+      "source_note": "User-provided recipe",
+      "description": "A slow-cooker method for making ghost pepper hot sauce with brown sugar, molasses, and vegetables for a complex, fiery condiment.",
+      "servings_yield": "About 2 cups",
+      "prep_time": "15 minutes",
+      "cook_time": "1-2 hours",
+      "total_time": "2+ hours",
+      "ingredients": [
+        {"item": "ghost peppers (bhut jolokia)", "quantity": "3-4", "unit": "", "prep_note": "stems removed, seeds optional (remove for less heat)"},
+        {"item": "brown sugar", "quantity": "2-3", "unit": "tbsp", "prep_note": "to taste"},
+        {"item": "molasses", "quantity": "1", "unit": "tbsp", "prep_note": "optional, for deeper flavor"},
+        {"item": "ketchup", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "mustard", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "vinegar", "quantity": "1/4", "unit": "cup", "prep_note": "white or apple cider"},
+        {"item": "water", "quantity": "1/2", "unit": "cup", "prep_note": "for processing"},
+        {"item": "carrots", "quantity": "2", "unit": "", "prep_note": "chopped, adds sweetness and body"},
+        {"item": "fresh garlic", "quantity": "3-4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": "to taste"},
+        {"item": "xanthan gum", "quantity": "1/4", "unit": "tsp", "prep_note": "optional, for thickening"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "SAFETY FIRST: Wear nitrile gloves when handling ghost peppers. Work in a well-ventilated area. Avoid touching your face."},
+        {"step": 2, "text": "Remove stems from ghost peppers. Remove seeds if you want less heat (seeds and membrane contain the most capsaicin)."},
+        {"step": 3, "text": "Add all ingredients to the slow cooker: peppers, brown sugar, molasses (if using), ketchup, mustard, vinegar, water, carrots, garlic, and salt."},
+        {"step": 4, "text": "Cook on low until mixture reaches 180°F, about 1-2 hours. The carrots should be soft."},
+        {"step": 5, "text": "Transfer contents to a blender or food processor. Blend until completely smooth."},
+        {"step": 6, "text": "If using xanthan gum for thickening, add it while blending and process for another 30 seconds."},
+        {"step": 7, "text": "Taste carefully (it's HOT!) and adjust salt and sugar as needed."},
+        {"step": 8, "text": "For bottling: Sterilize bottles by boiling in water for 10 minutes. Pour hot sauce into hot bottles, leaving 1/4 inch headspace. Seal immediately."},
+        {"step": 9, "text": "Store in refrigerator for up to 6 months. Flavors will develop and meld over 1-2 weeks."}
+      ],
+      "temperature": "180°F (82°C) internal",
+      "notes": [
+        "Ghost peppers are EXTREMELY hot - one of the hottest peppers in the world. Use caution.",
+        "The carrots add natural sweetness and help cut the heat slightly.",
+        "Molasses gives a deeper, more complex flavor profile.",
+        "Xanthan gum helps the sauce cling to food better but is optional.",
+        "Flavors improve with age - wait at least a week before using for best results."
+      ],
+      "tags": ["sauces", "spicy", "condiments", "ghost-pepper", "slow-cooker", "hot-sauce"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "ghost-pepper-hot-sauce-stovetop",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Ghost Pepper Hot Sauce (Stovetop)",
+      "category": "sides",
+      "attribution": "Mike Hultquist",
+      "source_note": "Chili Pepper Madness recipe",
+      "description": "Make your own ghost pepper hot sauce at home with plenty of chopped ghost peppers, tomatoes, vinegar and salt. Big flavor, big spice with a pleasant blast of heat. Drizzle it over everything!",
+      "servings_yield": "About 2 cups (20 servings)",
+      "prep_time": "10 minutes",
+      "cook_time": "35 minutes",
+      "total_time": "45 minutes",
+      "ingredients": [
+        {"item": "olive oil", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "ghost peppers (bhut jolokia)", "quantity": "6", "unit": "", "prep_note": "chopped"},
+        {"item": "onion", "quantity": "1", "unit": "small", "prep_note": "diced"},
+        {"item": "tomatoes", "quantity": "2", "unit": "medium", "prep_note": "chopped"},
+        {"item": "red wine vinegar", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "water", "quantity": "1/2", "unit": "cup", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Heat oil in a pan and add peppers and onions. Stir."},
+        {"step": 2, "text": "Add tomatoes and stir. Cook about 10 minutes."},
+        {"step": 3, "text": "Add vinegar, salt and water. Simmer 20 minutes to allow flavors to develop."},
+        {"step": 4, "text": "Transfer contents to a food processor and process until smooth."},
+        {"step": 5, "text": "Transfer to a container. Seal and refrigerate until ready to use."}
+      ],
+      "notes": [
+        "The flavors will grow more intense the longer you wait.",
+        "Heat Level: VERY HOT. Ghost peppers are one of the hottest chili peppers in the world, so beware.",
+        "Makes about 2 cups of hot sauce."
+      ],
+      "tags": ["sauces", "spicy", "condiments", "ghost-pepper", "hot-sauce", "stovetop"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 12,
+          "carbs_g": 1,
+          "sodium_mg": 117,
+          "potassium_mg": 46
+        },
+        "missing_inputs": [],
+        "assumptions": ["Based on 20 servings from about 2 cups total"]
       }
     }
   ],
