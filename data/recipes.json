@@ -5,7 +5,7 @@
     "created": "2026-01-05",
     "last_updated": "2026-01-14",
     "version": "3.0.0",
-    "total_recipes": 5266
+    "total_recipes": 5273
   },
   "recipes": [
     {
@@ -539276,6 +539276,637 @@
       },
       "image_refs": [
         "processed/img_5989.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chile-breakfast-whirls",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Chile Breakfast Whirls",
+      "category": "breakfast",
+      "attribution": "",
+      "source_note": "Chile Cookbook (IMG_6002)",
+      "description": "Biscuit pinwheels filled with sausage and green chiles, perfect for breakfast appetizers.",
+      "servings_yield": "50-65 pieces",
+      "prep_time": "20 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "40 minutes plus freezing",
+      "ingredients": [
+        {
+          "item": "biscuit mix",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "hot pork sausage",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "regular pork sausage",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix the biscuit mix, margarine, and milk well; refrigerate 1/2 hour."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, mix the sausages and green chiles and let stand to room temperature."
+        },
+        {
+          "step": 3,
+          "text": "Divide the dough in half. Roll out each piece to a large rectangle about 1/4 inch thick."
+        },
+        {
+          "step": 4,
+          "text": "Spread half of the sausage mixture completely over each piece of dough; roll up as for a jelly roll. Wrap in plastic wrap and freeze for 1 hour."
+        },
+        {
+          "step": 5,
+          "text": "Remove from freezer and slice 1/2 inch thick. Freeze until ready to use."
+        },
+        {
+          "step": 6,
+          "text": "Place the frozen slices on a cookie sheet and bake in preheated 400-degree oven for 20 minutes."
+        },
+        {
+          "step": 7,
+          "text": "This is the perfect accompaniment to breakfast eggs, and it also makes a hearty appetizer."
+        }
+      ],
+      "temperature": "400\u00b0F (205\u00b0C)",
+      "pan_size": "cookie sheet",
+      "notes": [
+        "Can be made ahead and frozen"
+      ],
+      "tags": [
+        "breakfast",
+        "appetizer",
+        "chile",
+        "sausage",
+        "southwestern"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "processed/img_6002_medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "huevos-y-chilaquiles",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Huevos y Chilaquiles",
+      "category": "breakfast",
+      "attribution": "",
+      "source_note": "Chile Cookbook (IMG_6002)",
+      "description": "Traditional Mexican breakfast dish with tortillas, eggs, green chiles, and Parmesan cheese.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "20 minutes",
+      "ingredients": [
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "minced"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "tortillas",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "cut into 1-inch squares"
+        },
+        {
+          "item": "mild chili powder",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "eggs",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": "slightly beaten"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Saute the onion in heated butter. Add the tortillas and chili powder, stirring well to coat the tortillas with powder. Cook until browned."
+        },
+        {
+          "step": 2,
+          "text": "Add the eggs, green chiles, salt, and pepper; scramble."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle with the Parmesan cheese and parsley."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "skillet",
+      "notes": [],
+      "tags": [
+        "breakfast",
+        "mexican",
+        "eggs",
+        "chile",
+        "tortillas",
+        "southwestern"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "processed/img_6002_medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "i-cant-stand-eggs",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "I Can't Stand Eggs",
+      "category": "breakfast",
+      "attribution": "",
+      "source_note": "Chile Cookbook (IMG_6005)",
+      "description": "Baked eggs in custard cups with green chile sauce or salsa and cheese.",
+      "servings_yield": "varies",
+      "prep_time": "5 minutes",
+      "cook_time": "until set",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "custard cups",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "buttered"
+        },
+        {
+          "item": "eggs",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "per cup"
+        },
+        {
+          "item": "green chile sauce or salsa",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "per egg"
+        },
+        {
+          "item": "cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "small slice per cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Butter custard cups and break an egg into each. Add 2 tablespoons green chile sauce or salsa and top with a small slice of cheese."
+        },
+        {
+          "step": 3,
+          "text": "Place cups in a pan of hot water and bake until eggs are set."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "custard cups in water bath",
+      "notes": [
+        "Even people who don't like eggs enjoy this dish"
+      ],
+      "tags": [
+        "breakfast",
+        "eggs",
+        "chile",
+        "baked",
+        "southwestern"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "processed/img_6005_medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "baked-eggs-cheese-chile",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Baked Eggs with Cheese and Chile",
+      "category": "breakfast",
+      "attribution": "",
+      "source_note": "Chile Cookbook (IMG_6005)",
+      "description": "Blended eggs with cheese and green chiles, baked until set. Great for brunch or lunch.",
+      "servings_yield": "4-6 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
+      "total_time": "35 minutes",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "4 oz, chopped"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 325 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Whirl the eggs, milk, and cheese in a blender until mixed. Add the green chiles, salt, and pepper and pour into a buttered 9-inch square baking dish."
+        },
+        {
+          "step": 3,
+          "text": "Bake for 25 minutes. Great for brunch or lunch or cold as an appetizer."
+        }
+      ],
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "9-inch square baking dish",
+      "notes": [
+        "Can be served cold as appetizer"
+      ],
+      "tags": [
+        "breakfast",
+        "brunch",
+        "eggs",
+        "chile",
+        "cheese",
+        "southwestern"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "processed/img_6005_medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "picante-dip",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Picante Dip",
+      "category": "appetizers",
+      "attribution": "",
+      "source_note": "Chile Cookbook (IMG_6015)",
+      "description": "Creamy tomato and onion dip with cream cheese, served with tostadas.",
+      "servings_yield": "12-14 servings",
+      "prep_time": "25 minutes",
+      "cook_time": "",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "tomatoes",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "10 oz"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "4-6",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "packages",
+          "prep_note": "8 oz each, softened"
+        },
+        {
+          "item": "seasoning salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Simmer the tomatoes and onions about 20 minutes. Cool and stir until it is only warm."
+        },
+        {
+          "step": 2,
+          "text": "Add the rest of the ingredients and mix to the desired consistency for a dip."
+        },
+        {
+          "step": 3,
+          "text": "Serve with tostadas."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "chile",
+        "southwestern"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "processed/img_6015_medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "green-chile-dip",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Green Chile Dip",
+      "category": "appetizers",
+      "attribution": "",
+      "source_note": "Chile Cookbook (IMG_6015)",
+      "description": "Simple sour cream dip with green chiles and garlic, served with tortilla or potato chips.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "carton",
+          "prep_note": "8 oz"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "canned or frozen, chopped"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all the ingredients."
+        },
+        {
+          "step": 2,
+          "text": "Serve with tortilla chips or potato chips."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "chile",
+        "southwestern",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "processed/img_6015_medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "avocado-dip-chile",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Avocado Dip",
+      "category": "appetizers",
+      "attribution": "",
+      "source_note": "Chile Cookbook (IMG_6015)",
+      "description": "Guacamole-style dip with Colby cheese, green chiles, and green onions.",
+      "servings_yield": "10 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "10 minutes plus chilling",
+      "ingredients": [
+        {
+          "item": "Colby cheese",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "grated"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "canned or frozen, chopped"
+        },
+        {
+          "item": "avocados",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "mashed"
+        },
+        {
+          "item": "green onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients and chill."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "guacamole",
+        "avocado",
+        "chile",
+        "southwestern"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "processed/img_6015_medium.jpeg"
       ],
       "nutrition": {
         "status": "insufficient_data",
