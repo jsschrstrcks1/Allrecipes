@@ -540820,6 +540820,585 @@
         "missing_inputs": ["all"],
         "assumptions": []
       }
+    },
+    {
+      "id": "buffalo-sauce-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Homemade Buffalo Sauce",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/sauces/homemade-buffalo-sauce/",
+      "description": "Buttery, tangy, spicy homemade Buffalo sauce that's better than store-bought, perfect for wings, chicken, dips, pizza, and more.",
+      "servings_yield": "About 1 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "5 minutes",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {"item": "unsalted butter", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "hot sauce", "quantity": "1/2", "unit": "cup", "prep_note": "Louisiana-style like Frank's"},
+        {"item": "white vinegar", "quantity": "1", "unit": "tbsp", "prep_note": "or apple cider vinegar"},
+        {"item": "Worcestershire sauce", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "paprika", "quantity": "1/2", "unit": "tsp", "prep_note": "smoked or Hungarian hot"},
+        {"item": "garlic powder", "quantity": "1/4", "unit": "tsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "1/4", "unit": "tsp", "prep_note": "optional, for extra heat"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Melt butter in a small saucepan over medium heat."},
+        {"step": 2, "text": "Whisk in hot sauce, vinegar, Worcestershire, and spices."},
+        {"step": 3, "text": "Simmer for 2-3 minutes, whisking constantly."},
+        {"step": 4, "text": "Remove from heat. Use immediately or store refrigerated."}
+      ],
+      "notes": [
+        "Add ghost pepper flakes for extreme heat.",
+        "Use for wings, dips, sandwiches, pizza, and more.",
+        "Keeps refrigerated for up to 2 weeks."
+      ],
+      "tags": ["buffalo-sauce", "sauce", "wings", "spicy", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "crispy-buffalo-wings-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Crispy Buffalo Wings",
+      "category": "appetizers",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/buffalo-wings/",
+      "description": "Crispy on the outside, juicy inside, drenched in fiery buttery Buffalo sauce. The ultimate bar-style wings experience.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "55 minutes",
+      "ingredients": [
+        {"item": "chicken wings", "quantity": "2", "unit": "lb", "prep_note": "separated into flats and drums"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp", "prep_note": "for crispy skin"},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "Buffalo sauce", "quantity": "1/2", "unit": "cup", "prep_note": "homemade or store-bought"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Pat wings completely dry with paper towels - this is key for crispy skin."},
+        {"step": 2, "text": "Toss wings with baking powder, salt, and garlic powder."},
+        {"step": 3, "text": "Arrange on wire rack over baking sheet."},
+        {"step": 4, "text": "Bake at 425°F for 45-50 minutes, flipping halfway, until crispy."},
+        {"step": 5, "text": "Toss hot wings with Buffalo sauce. Serve with ranch or blue cheese."}
+      ],
+      "temperature": "425°F (220°C)",
+      "notes": [
+        "Baking powder helps create extra crispy skin.",
+        "Pat wings as dry as possible for best results.",
+        "Recipe originated at Anchor Bar in Buffalo, NY."
+      ],
+      "tags": ["wings", "buffalo", "appetizers", "game-day", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "bacon-wrapped-jalapeno-poppers-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Bacon Wrapped Jalapeño Poppers",
+      "category": "appetizers",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/bacon-wrapped-jalapeno-poppers/",
+      "description": "Spicy jalapeño poppers filled with seasoned cream cheese and cheddar, wrapped in smoky bacon and baked to crispy perfection.",
+      "servings_yield": "24 poppers",
+      "prep_time": "20 minutes",
+      "cook_time": "25 minutes",
+      "total_time": "45 minutes",
+      "ingredients": [
+        {"item": "jalapeño peppers", "quantity": "12", "unit": "large", "prep_note": "halved and seeded"},
+        {"item": "cream cheese", "quantity": "8", "unit": "oz", "prep_note": "softened"},
+        {"item": "shredded cheddar cheese", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "onion powder", "quantity": "1/4", "unit": "tsp", "prep_note": ""},
+        {"item": "bacon", "quantity": "12", "unit": "slices", "prep_note": "cut in half"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Preheat oven to 400°F."},
+        {"step": 2, "text": "Mix cream cheese, cheddar, garlic powder, and onion powder."},
+        {"step": 3, "text": "Fill each jalapeño half with cheese mixture."},
+        {"step": 4, "text": "Wrap each popper with half slice of bacon, securing with toothpick."},
+        {"step": 5, "text": "Arrange on baking sheet. Bake 20-25 minutes until bacon is crispy."}
+      ],
+      "temperature": "400°F (200°C)",
+      "notes": [
+        "Wear gloves when handling jalapeños.",
+        "Can be grilled instead of baked.",
+        "Remove seeds for less heat."
+      ],
+      "tags": ["appetizers", "jalapeno-poppers", "bacon", "game-day", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "chicken-vindaloo-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Chicken Vindaloo",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/chicken/chicken-vindaloo/",
+      "description": "Fiery and tangy Indian curry from Goa with chicken marinated in spiced vinegar-based sauce. One of the spiciest curries.",
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "40 minutes",
+      "total_time": "1 hour (plus marinating)",
+      "ingredients": [
+        {"item": "chicken thighs", "quantity": "2", "unit": "lb", "prep_note": "boneless, cubed"},
+        {"item": "dried red chilies", "quantity": "6-8", "unit": "", "prep_note": "soaked in hot water"},
+        {"item": "white wine vinegar", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "diced"},
+        {"item": "garlic", "quantity": "6", "unit": "cloves", "prep_note": ""},
+        {"item": "ginger", "quantity": "1", "unit": "inch", "prep_note": "fresh"},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "turmeric", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "cinnamon", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "mustard seeds", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "tomatoes", "quantity": "2", "unit": "", "prep_note": "diced"},
+        {"item": "vegetable oil", "quantity": "3", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Blend soaked chilies, vinegar, garlic, ginger, and spices into paste."},
+        {"step": 2, "text": "Coat chicken in paste. Marinate at least 1 hour, preferably overnight."},
+        {"step": 3, "text": "Heat oil, add mustard seeds until they pop. Add onion and cook until soft."},
+        {"step": 4, "text": "Add marinated chicken and cook until browned."},
+        {"step": 5, "text": "Add tomatoes and enough water to create sauce. Simmer 30-40 minutes."},
+        {"step": 6, "text": "Adjust seasoning. Serve over basmati rice."}
+      ],
+      "notes": [
+        "Name comes from Portuguese 'carne de vinha d'alhos' - meat in wine vinegar and garlic.",
+        "One of the hottest Indian curries - adjust chilies to preference.",
+        "Keeps 5 days refrigerated."
+      ],
+      "tags": ["indian", "curry", "vindaloo", "chicken", "spicy", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "butter-chicken-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Butter Chicken (Murgh Makhani)",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/butter-chicken/",
+      "description": "Popular creamy Indian curry with rich buttery gravy and warming spices. Incredibly easy to make and not spicy hot.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "45 minutes (plus marinating)",
+      "ingredients": [
+        {"item": "chicken breast", "quantity": "1.5", "unit": "lb", "prep_note": "cubed"},
+        {"item": "plain yogurt", "quantity": "1/2", "unit": "cup", "prep_note": "for marinade"},
+        {"item": "garam masala", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "turmeric", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "butter", "quantity": "4", "unit": "tbsp", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "diced"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "ginger", "quantity": "1", "unit": "tbsp", "prep_note": "minced"},
+        {"item": "tomato puree", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "heavy cream", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "kasuri methi", "quantity": "1", "unit": "tbsp", "prep_note": "dried fenugreek leaves, optional"},
+        {"item": "salt", "quantity": "", "unit": "", "prep_note": "to taste"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Mix yogurt, half the garam masala, and turmeric. Marinate chicken 30+ minutes."},
+        {"step": 2, "text": "Cook marinated chicken in butter until lightly browned. Set aside."},
+        {"step": 3, "text": "In same pan, add more butter. Sauté onion, garlic, and ginger."},
+        {"step": 4, "text": "Add remaining garam masala and tomato puree. Simmer 10 minutes."},
+        {"step": 5, "text": "Stir in cream and return chicken to pan. Simmer 10-15 minutes."},
+        {"step": 6, "text": "Add kasuri methi if using. Serve with naan and basmati rice."}
+      ],
+      "notes": [
+        "Mild curry - great for those who love flavor but not heat.",
+        "Garam masala and turmeric are essential.",
+        "Marinate overnight for deeper flavor."
+      ],
+      "tags": ["indian", "curry", "butter-chicken", "chicken", "creamy", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "lamb-korma-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Lamb Korma",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/lamb-korma/",
+      "description": "Comforting Indian curry with tender lamb simmered in creamy cashew-yogurt sauce until super tender. Includes slow cooker method.",
+      "servings_yield": "6 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "1 hour",
+      "total_time": "1 hour 20 minutes (plus marinating)",
+      "ingredients": [
+        {"item": "lamb", "quantity": "2", "unit": "lb", "prep_note": "cubed (shoulder or leg)"},
+        {"item": "raw cashews", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "plain yogurt", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "tomato paste", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": ""},
+        {"item": "ginger", "quantity": "1", "unit": "inch", "prep_note": "fresh"},
+        {"item": "garam masala", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "coriander", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "diced"},
+        {"item": "heavy cream", "quantity": "1/2", "unit": "cup", "prep_note": "or coconut milk"},
+        {"item": "vegetable oil", "quantity": "3", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Pulse cashews in food processor. Add tomato paste, garlic, ginger, spices to form paste."},
+        {"step": 2, "text": "Mix paste with yogurt. Coat lamb and marinate 1+ hours."},
+        {"step": 3, "text": "Brown marinated lamb in oil. Set aside."},
+        {"step": 4, "text": "Sauté onion until golden. Return lamb with marinade."},
+        {"step": 5, "text": "Add water to cover. Simmer 60 minutes until lamb is tender."},
+        {"step": 6, "text": "Stir in cream. Adjust seasoning and serve."}
+      ],
+      "notes": [
+        "For slow cooker: cook on low 6-8 hours.",
+        "The cashew paste creates incredibly creamy sauce.",
+        "Can use chicken or beef instead of lamb."
+      ],
+      "tags": ["indian", "curry", "korma", "lamb", "creamy", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "shrimp-tacos-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Shrimp Tacos with Creamy Jalapeño Sauce",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/shrimp-tacos/",
+      "description": "Spiced shrimp on warm tortillas with crunchy Fresno chili slaw and creamy jalapeño sauce (salsa doña style).",
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "30 minutes",
+      "ingredients": [
+        {"item": "large shrimp", "quantity": "1", "unit": "lb", "prep_note": "peeled and deveined"},
+        {"item": "chili powder", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "olive oil", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "flour or corn tortillas", "quantity": "8", "unit": "", "prep_note": ""},
+        {"item": "shredded cabbage", "quantity": "2", "unit": "cups", "prep_note": "for slaw"},
+        {"item": "Fresno chili", "quantity": "1", "unit": "", "prep_note": "sliced thin"},
+        {"item": "lime juice", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "mayonnaise", "quantity": "1/2", "unit": "cup", "prep_note": "for sauce"},
+        {"item": "jalapeño", "quantity": "1", "unit": "", "prep_note": "seeded, for sauce"},
+        {"item": "cilantro", "quantity": "1/4", "unit": "cup", "prep_note": "for sauce"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Season shrimp with chili powder, cumin, garlic powder, and salt."},
+        {"step": 2, "text": "Blend mayo, jalapeño, cilantro, and lime juice for creamy sauce."},
+        {"step": 3, "text": "Toss cabbage with Fresno chili and lime juice for slaw."},
+        {"step": 4, "text": "Cook shrimp in oil 2-3 minutes per side until pink."},
+        {"step": 5, "text": "Warm tortillas. Fill with slaw, shrimp, and drizzle with sauce."}
+      ],
+      "notes": [
+        "The creamy jalapeño sauce makes the dish.",
+        "Can grill the shrimp for smoky flavor.",
+        "Add avocado for extra creaminess."
+      ],
+      "tags": ["tacos", "shrimp", "mexican", "seafood", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "fish-tacos-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Fish Tacos",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/fish-tacos/",
+      "description": "Seasoned pan-seared white fish with crunchy slaw, avocado, and creamy homemade fish taco sauce.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "white fish fillets", "quantity": "1", "unit": "lb", "prep_note": "snapper, cod, or mahi-mahi"},
+        {"item": "garlic powder", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "onion powder", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "paprika", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "white pepper", "quantity": "1/4", "unit": "tsp", "prep_note": ""},
+        {"item": "olive oil", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "flour tortillas", "quantity": "8", "unit": "", "prep_note": ""},
+        {"item": "shredded cabbage", "quantity": "2", "unit": "cups", "prep_note": ""},
+        {"item": "roasted jalapeño", "quantity": "1", "unit": "", "prep_note": "diced"},
+        {"item": "cilantro", "quantity": "1/4", "unit": "cup", "prep_note": "chopped"},
+        {"item": "lime juice", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "honey", "quantity": "1", "unit": "tsp", "prep_note": "for slaw"},
+        {"item": "avocado", "quantity": "1", "unit": "", "prep_note": "sliced"},
+        {"item": "fish taco sauce", "quantity": "", "unit": "", "prep_note": "see recipe or use store-bought"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Season fish with garlic powder, onion powder, paprika, white pepper, and salt."},
+        {"step": 2, "text": "Make slaw: toss cabbage, jalapeño, cilantro, lime, and honey."},
+        {"step": 3, "text": "Pan-sear fish in oil 3-4 minutes per side until flaky."},
+        {"step": 4, "text": "Break fish into chunks."},
+        {"step": 5, "text": "Warm tortillas. Layer slaw, fish, avocado, and sauce."}
+      ],
+      "notes": [
+        "Use any mild white fish - snapper, cod, tilapia, or mahi-mahi.",
+        "The roasted jalapeño in the slaw adds nice smoky heat.",
+        "Serve with extra lime wedges."
+      ],
+      "tags": ["tacos", "fish", "mexican", "seafood", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "chimichurri-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Chimichurri",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/marinades/chimichurri/",
+      "description": "Timeless Argentinian sauce made with oil, garlic and fresh herbs - perfect as sauce or marinade for grilled meats and seafood.",
+      "servings_yield": "About 1 cup",
+      "prep_time": "10 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {"item": "fresh parsley", "quantity": "1", "unit": "cup", "prep_note": "packed, finely chopped"},
+        {"item": "fresh oregano", "quantity": "2", "unit": "tbsp", "prep_note": "or 1 tbsp dried"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "red wine vinegar", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "olive oil", "quantity": "1/2", "unit": "cup", "prep_note": "extra virgin"},
+        {"item": "red pepper flakes", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine parsley, oregano, and garlic in a bowl."},
+        {"step": 2, "text": "Whisk in vinegar, then slowly drizzle in olive oil while whisking."},
+        {"step": 3, "text": "Add red pepper flakes and salt. Mix well."},
+        {"step": 4, "text": "Let sit 10-15 minutes for flavors to meld. Best after 30 minutes."}
+      ],
+      "notes": [
+        "A very personal recipe - adjust herbs to taste.",
+        "Perfect with grilled steak, especially skirt or flank.",
+        "Can add cilantro for a twist."
+      ],
+      "tags": ["sauce", "argentinian", "marinade", "grilling", "no-cook", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "cuban-mojo-sauce-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Cuban Mojo Marinade",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/marinades/cuban-mojo-sauce/",
+      "description": "Traditional Cuban sauce with garlic, sour orange, olive oil and herbs - great for marinating fish, chicken, or pork, or as a garlicky sauce.",
+      "servings_yield": "About 1 cup",
+      "prep_time": "10 minutes",
+      "cook_time": "5 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {"item": "garlic", "quantity": "10", "unit": "cloves", "prep_note": "minced"},
+        {"item": "sour orange juice", "quantity": "1/2", "unit": "cup", "prep_note": "or 1/4 cup each orange and lime juice"},
+        {"item": "olive oil", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "dried oregano", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1/2", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Heat olive oil in a pan over medium heat."},
+        {"step": 2, "text": "Add garlic and cook until fragrant but not browned, about 1 minute."},
+        {"step": 3, "text": "Remove from heat. Whisk in citrus juice, cumin, oregano, salt, and pepper."},
+        {"step": 4, "text": "Let cool. Use as marinade or sauce."}
+      ],
+      "notes": [
+        "Sour orange (naranja agria) is traditional but can substitute with regular citrus mix.",
+        "Essential components: garlic, sour orange juice, oregano, salt.",
+        "Marinate seafood 1 hour, pork 4-6 hours, overnight for deeper flavor."
+      ],
+      "tags": ["sauce", "cuban", "marinade", "mojo", "garlic", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "candied-bacon-jalapeno-poppers-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Candied Bacon Jalapeño Poppers",
+      "category": "appetizers",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/stuffed-chili-peppers/candied-bacon-jalapeno-poppers/",
+      "description": "Jalapeños stuffed with honey-sweetened ghost pepper cream cheese, wrapped in candied bacon. Sweet and spicy perfection.",
+      "servings_yield": "24 poppers",
+      "prep_time": "25 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "55 minutes",
+      "ingredients": [
+        {"item": "jalapeño peppers", "quantity": "12", "unit": "large", "prep_note": "halved and seeded"},
+        {"item": "cream cheese", "quantity": "8", "unit": "oz", "prep_note": "softened"},
+        {"item": "honey", "quantity": "2", "unit": "tbsp", "prep_note": "for filling"},
+        {"item": "ghost pepper flakes", "quantity": "1/4", "unit": "tsp", "prep_note": "or cayenne"},
+        {"item": "garlic powder", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "bacon", "quantity": "12", "unit": "slices", "prep_note": ""},
+        {"item": "brown sugar", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "honey", "quantity": "2", "unit": "tbsp", "prep_note": "for bacon glaze"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Preheat oven to 375°F."},
+        {"step": 2, "text": "Mix cream cheese, 2 tbsp honey, ghost pepper flakes, and garlic powder."},
+        {"step": 3, "text": "Fill each jalapeño half with cheese mixture."},
+        {"step": 4, "text": "Mix brown sugar and remaining honey. Rub over bacon slices."},
+        {"step": 5, "text": "Wrap each popper with candied bacon. Secure with toothpicks."},
+        {"step": 6, "text": "Bake 25-30 minutes until bacon is caramelized and crispy."}
+      ],
+      "temperature": "375°F (190°C)",
+      "notes": [
+        "The sweet-spicy combination is addictive.",
+        "Ghost pepper flakes add serious heat - adjust to preference.",
+        "Can smoke these for extra flavor."
+      ],
+      "tags": ["appetizers", "jalapeno-poppers", "bacon", "candied", "sweet-spicy", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "hot-honey-wings-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Hot Honey Wings",
+      "category": "appetizers",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/hot-honey-wings/",
+      "description": "Crispy baked chicken wings glazed with spicy hot honey - the perfect balance of sweet heat.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "55 minutes",
+      "ingredients": [
+        {"item": "chicken wings", "quantity": "2", "unit": "lb", "prep_note": "separated into flats and drums"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "honey", "quantity": "1/3", "unit": "cup", "prep_note": ""},
+        {"item": "hot sauce", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "butter", "quantity": "2", "unit": "tbsp", "prep_note": "melted"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Pat wings dry. Toss with baking powder, salt, and pepper."},
+        {"step": 2, "text": "Arrange on wire rack over baking sheet."},
+        {"step": 3, "text": "Bake at 425°F for 45 minutes, flipping halfway."},
+        {"step": 4, "text": "Whisk honey, hot sauce, cayenne, and melted butter for glaze."},
+        {"step": 5, "text": "Toss hot wings with hot honey glaze. Serve immediately."}
+      ],
+      "temperature": "425°F (220°C)",
+      "notes": [
+        "The sweet-heat combo is incredibly addictive.",
+        "Can make your own hot honey by infusing honey with chili flakes.",
+        "Serve with blue cheese or ranch for dipping."
+      ],
+      "tags": ["wings", "hot-honey", "appetizers", "sweet-spicy", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "classic-jalapeno-poppers-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Classic Jalapeño Poppers",
+      "category": "appetizers",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/jalapeno-poppers/",
+      "description": "The original crispy fried jalapeño poppers stuffed with cream cheese and coated in seasoned breading.",
+      "servings_yield": "24 poppers",
+      "prep_time": "20 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "35 minutes",
+      "ingredients": [
+        {"item": "jalapeño peppers", "quantity": "12", "unit": "large", "prep_note": "halved and seeded"},
+        {"item": "cream cheese", "quantity": "8", "unit": "oz", "prep_note": "softened"},
+        {"item": "shredded cheddar", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "all-purpose flour", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "eggs", "quantity": "2", "unit": "", "prep_note": "beaten"},
+        {"item": "breadcrumbs", "quantity": "1", "unit": "cup", "prep_note": "panko preferred"},
+        {"item": "vegetable oil", "quantity": "", "unit": "", "prep_note": "for frying"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Mix cream cheese, cheddar, and garlic powder."},
+        {"step": 2, "text": "Fill each jalapeño half with cheese mixture."},
+        {"step": 3, "text": "Set up breading station: flour, beaten eggs, breadcrumbs."},
+        {"step": 4, "text": "Dredge each popper in flour, dip in egg, coat with breadcrumbs."},
+        {"step": 5, "text": "Heat oil to 350°F. Fry poppers 2-3 minutes until golden."},
+        {"step": 6, "text": "Drain on paper towels. Serve with ranch."}
+      ],
+      "notes": [
+        "Can also bake at 400°F for 20 minutes.",
+        "Double-breading makes them extra crispy.",
+        "Perfect for game day or parties."
+      ],
+      "tags": ["appetizers", "jalapeno-poppers", "fried", "classic", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "homemade-taco-seasoning-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Homemade Taco Seasoning",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/spice-blends/homemade-taco-seasoning/",
+      "description": "Homemade taco seasoning loaded with chili powder, paprika, cumin, garlic, onion and more - better than store-bought packets.",
+      "servings_yield": "About 1/4 cup (4 batches)",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {"item": "chili powder", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "paprika", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "onion powder", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "oregano", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "1/4", "unit": "tsp", "prep_note": "optional, for heat"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine all ingredients in a bowl and mix well."},
+        {"step": 2, "text": "Store in an airtight container."},
+        {"step": 3, "text": "Use 2 tablespoons per 1 lb of meat."}
+      ],
+      "notes": [
+        "Use for tacos, burritos, nachos, taco salads, and more.",
+        "No fillers or preservatives like store-bought.",
+        "Adjust cayenne for desired heat level."
+      ],
+      "tags": ["spice-blend", "taco-seasoning", "mexican", "homemade", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
     }
   ],
   "version": "2.97.0"
