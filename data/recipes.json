@@ -541930,6 +541930,456 @@
       "confidence": {"overall": "high", "flags": []},
       "image_refs": [],
       "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "carnitas-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Carnitas (Mexican Pulled Pork)",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/carnitas/",
+      "description": "The ultimate Mexican pulled pork with seasoned pork shoulder cooked low and slow in lard, orange juice and milk until fall-apart tender. Perfect for tacos.",
+      "servings_yield": "8-10 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "3-4 hours",
+      "total_time": "4+ hours",
+      "ingredients": [
+        {"item": "pork shoulder", "quantity": "4", "unit": "lb", "prep_note": "cut into 2-inch chunks"},
+        {"item": "lard or vegetable oil", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "orange juice", "quantity": "1", "unit": "cup", "prep_note": "fresh"},
+        {"item": "whole milk", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "medium", "prep_note": "quartered"},
+        {"item": "garlic", "quantity": "6", "unit": "cloves", "prep_note": ""},
+        {"item": "bay leaves", "quantity": "2", "unit": "", "prep_note": ""},
+        {"item": "dried oregano", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "2", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Season pork chunks generously with salt, cumin, and oregano."},
+        {"step": 2, "text": "Place pork in large pot with lard, orange juice, milk, onion, garlic, and bay leaves."},
+        {"step": 3, "text": "Bring to simmer over medium heat."},
+        {"step": 4, "text": "Reduce heat to low, cover partially, and cook 3-4 hours until tender."},
+        {"step": 5, "text": "Shred pork and crisp in hot skillet or under broiler."},
+        {"step": 6, "text": "Serve in tacos with salsa, onion, and cilantro."}
+      ],
+      "notes": [
+        "Originated in Michoacán, Mexico.",
+        "Lard is traditional but oil works too.",
+        "Crisping the edges after shredding is essential."
+      ],
+      "tags": ["carnitas", "mexican", "pulled-pork", "tacos", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "barbacoa-beef-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Beef Barbacoa",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/beef-barbacoa/",
+      "description": "Tender shredded beef seasoned with ancho, guajillo, and chipotle peppers, cooked low and slow until juicy and tender.",
+      "servings_yield": "8 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "8 hours",
+      "total_time": "8+ hours",
+      "ingredients": [
+        {"item": "beef chuck roast", "quantity": "3-4", "unit": "lb", "prep_note": ""},
+        {"item": "dried ancho chiles", "quantity": "3", "unit": "", "prep_note": "stemmed and seeded"},
+        {"item": "dried guajillo chiles", "quantity": "3", "unit": "", "prep_note": "stemmed and seeded"},
+        {"item": "chipotles in adobo", "quantity": "2", "unit": "", "prep_note": "plus 1 tbsp sauce"},
+        {"item": "beef broth", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "apple cider vinegar", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "oregano", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "cloves", "quantity": "3", "unit": "", "prep_note": "whole"},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Toast dried chiles in dry skillet. Soak in hot water 20 minutes."},
+        {"step": 2, "text": "Blend soaked chiles, chipotles, broth, vinegar, garlic, and spices until smooth."},
+        {"step": 3, "text": "Place beef in slow cooker. Pour sauce over."},
+        {"step": 4, "text": "Cook on low 8 hours until fall-apart tender."},
+        {"step": 5, "text": "Shred beef and mix with cooking liquid."},
+        {"step": 6, "text": "Serve in tacos, burritos, or over rice."}
+      ],
+      "notes": [
+        "Can also use beef cheek or brisket.",
+        "The three-chili blend creates complex flavor.",
+        "Chipotle adds smoky heat."
+      ],
+      "tags": ["barbacoa", "mexican", "beef", "slow-cooker", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "carne-asada-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Carne Asada",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/carne-asada/",
+      "description": "Restaurant-style grilled steak with juicy citrus-garlic marinade for tender, smoky meat. Perfect for tacos or burritos.",
+      "servings_yield": "4-6 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "25 minutes (plus marinating)",
+      "ingredients": [
+        {"item": "skirt or flank steak", "quantity": "2", "unit": "lb", "prep_note": ""},
+        {"item": "lime juice", "quantity": "1/4", "unit": "cup", "prep_note": "fresh"},
+        {"item": "orange juice", "quantity": "1/4", "unit": "cup", "prep_note": "fresh"},
+        {"item": "olive oil", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "jalapeño", "quantity": "1", "unit": "", "prep_note": "minced"},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "fresh cilantro", "quantity": "1/4", "unit": "cup", "prep_note": "chopped"},
+        {"item": "salt and pepper", "quantity": "", "unit": "", "prep_note": "to taste"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Whisk lime juice, orange juice, olive oil, garlic, jalapeño, cumin, and cilantro."},
+        {"step": 2, "text": "Pour marinade over steak. Refrigerate at least 2 hours, preferably overnight."},
+        {"step": 3, "text": "Remove steak from marinade. Pat dry and season with salt and pepper."},
+        {"step": 4, "text": "Grill over high heat 4-5 minutes per side for medium-rare."},
+        {"step": 5, "text": "Rest 5 minutes, then slice against the grain."}
+      ],
+      "notes": [
+        "Carne asada means 'grilled meat' in Spanish.",
+        "Skirt steak is traditional but flank works well.",
+        "Slice thin against the grain for tender bites."
+      ],
+      "tags": ["carne-asada", "mexican", "beef", "grilling", "tacos", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "pozole-rojo-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Pozole Rojo (Mexican Red Posole)",
+      "category": "soups",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/pozole-rojo/",
+      "description": "Comforting Mexican soup loaded with shredded pork and hominy, spiced with mild, vibrant red chilies and lots of toppings.",
+      "servings_yield": "8 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "2 hours",
+      "total_time": "2.5 hours",
+      "ingredients": [
+        {"item": "pork shoulder", "quantity": "2", "unit": "lb", "prep_note": "cut into chunks"},
+        {"item": "hominy", "quantity": "2", "unit": "cans", "prep_note": "15 oz each, drained"},
+        {"item": "dried guajillo chiles", "quantity": "4", "unit": "", "prep_note": "stemmed and seeded"},
+        {"item": "dried ancho chiles", "quantity": "2", "unit": "", "prep_note": "stemmed and seeded"},
+        {"item": "chicken broth", "quantity": "8", "unit": "cups", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "quartered"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": ""},
+        {"item": "dried oregano", "quantity": "1", "unit": "tbsp", "prep_note": "Mexican oregano preferred"},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "", "unit": "", "prep_note": "to taste"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Toast dried chiles in dry skillet. Soak in hot water 20 minutes."},
+        {"step": 2, "text": "Blend soaked chiles with 1 cup broth until smooth."},
+        {"step": 3, "text": "Simmer pork in remaining broth with onion and garlic until tender, about 1.5 hours."},
+        {"step": 4, "text": "Shred pork and return to pot."},
+        {"step": 5, "text": "Add chile sauce, hominy, oregano, and cumin. Simmer 30 minutes."},
+        {"step": 6, "text": "Serve with shredded cabbage, radishes, oregano, lime, and tortilla chips."}
+      ],
+      "notes": [
+        "Traditional Mexican celebration dish.",
+        "Toppings are essential - don't skip them!",
+        "Can use chicken instead of pork."
+      ],
+      "tags": ["pozole", "mexican", "soup", "pork", "hominy", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "chili-verde-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Chili Verde (Pork Chile Verde)",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/chili-verde/",
+      "description": "Tender pork shoulder cooked low and slow in a rich verde sauce of roasted tomatillos, poblanos, and jalapeño peppers.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "2-3 hours",
+      "total_time": "3+ hours",
+      "ingredients": [
+        {"item": "pork shoulder", "quantity": "3", "unit": "lb", "prep_note": "cut into 2-inch cubes"},
+        {"item": "tomatillos", "quantity": "1", "unit": "lb", "prep_note": "husked and rinsed"},
+        {"item": "poblano peppers", "quantity": "2", "unit": "", "prep_note": ""},
+        {"item": "jalapeño peppers", "quantity": "2", "unit": "", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "medium", "prep_note": "quartered"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": ""},
+        {"item": "chicken broth", "quantity": "2", "unit": "cups", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "oregano", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "fresh cilantro", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "vegetable oil", "quantity": "2", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Roast tomatillos, poblanos, jalapeños, and onion under broiler until charred."},
+        {"step": 2, "text": "Blend roasted vegetables with garlic and cilantro until smooth."},
+        {"step": 3, "text": "Season pork with salt, cumin, and oregano. Brown in oil in large pot."},
+        {"step": 4, "text": "Add verde sauce and broth. Bring to simmer."},
+        {"step": 5, "text": "Cover and cook 2-3 hours until pork is tender."},
+        {"step": 6, "text": "Serve over rice or in tortillas with sour cream."}
+      ],
+      "notes": [
+        "Roasting the vegetables adds depth of flavor.",
+        "Can make in slow cooker on low for 8 hours.",
+        "Add more jalapeños for extra heat."
+      ],
+      "tags": ["chili-verde", "mexican", "pork", "tomatillo", "slow-cooked", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "kimchi-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Kimchi",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/kimchi/",
+      "description": "Homemade Korean spicy fermented vegetables with ingredient swaps so you can make it your own way.",
+      "servings_yield": "About 1 quart",
+      "prep_time": "30 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "3-7 days (fermentation)",
+      "ingredients": [
+        {"item": "napa cabbage", "quantity": "2", "unit": "lb", "prep_note": "about 1 medium head"},
+        {"item": "kosher salt", "quantity": "1/4", "unit": "cup", "prep_note": "for brining"},
+        {"item": "gochugaru (Korean red pepper flakes)", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "fish sauce", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "6", "unit": "cloves", "prep_note": "minced"},
+        {"item": "ginger", "quantity": "1", "unit": "tbsp", "prep_note": "minced"},
+        {"item": "green onions", "quantity": "4", "unit": "", "prep_note": "chopped"},
+        {"item": "daikon radish", "quantity": "4", "unit": "oz", "prep_note": "julienned, optional"},
+        {"item": "sugar", "quantity": "1", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Cut cabbage into 2-inch pieces. Toss with salt and let sit 2 hours."},
+        {"step": 2, "text": "Rinse cabbage well and squeeze out excess water."},
+        {"step": 3, "text": "Mix gochugaru, fish sauce, garlic, ginger, and sugar to make paste."},
+        {"step": 4, "text": "Toss cabbage, green onions, and radish with paste. Pack into jar."},
+        {"step": 5, "text": "Press down to remove air. Leave 1 inch headspace."},
+        {"step": 6, "text": "Let ferment at room temperature 3-7 days, pressing down daily."},
+        {"step": 7, "text": "Refrigerate when tangy to your liking."}
+      ],
+      "notes": [
+        "Gochugaru is essential - it's not the same as regular red pepper flakes.",
+        "Use gochujang instead of gochugaru for different flavor.",
+        "Fermentation time affects sourness - longer = tangier."
+      ],
+      "tags": ["kimchi", "korean", "fermented", "probiotic", "vegetable", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "kimchi-fried-rice-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Kimchi Fried Rice (Kimchi Bokkeumbap)",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/kimchi-fried-rice/",
+      "description": "Popular Korean dish of kimchi stir-fried with rice and vegetables, flavored with gochujang and soy sauce, finished with sesame oil.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "cooked rice", "quantity": "4", "unit": "cups", "prep_note": "day-old rice works best"},
+        {"item": "kimchi", "quantity": "1", "unit": "cup", "prep_note": "chopped"},
+        {"item": "kimchi juice", "quantity": "2", "unit": "tbsp", "prep_note": "from jar"},
+        {"item": "gochujang", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "soy sauce", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "sesame oil", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "vegetable oil", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "eggs", "quantity": "2", "unit": "", "prep_note": "fried sunny-side up"},
+        {"item": "green onions", "quantity": "2", "unit": "", "prep_note": "sliced"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Heat vegetable oil in large skillet or wok over high heat."},
+        {"step": 2, "text": "Add kimchi and stir-fry 2-3 minutes."},
+        {"step": 3, "text": "Add rice, gochujang, soy sauce, and kimchi juice. Stir-fry 5 minutes."},
+        {"step": 4, "text": "Drizzle with sesame oil and toss."},
+        {"step": 5, "text": "Top with fried eggs and green onions. Serve immediately."}
+      ],
+      "notes": [
+        "Use day-old rice for best texture.",
+        "Add protein like spam, bacon, or pork belly.",
+        "The runny egg yolk mixed in is essential."
+      ],
+      "tags": ["fried-rice", "korean", "kimchi", "quick", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "mango-habanero-hot-sauce-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Caribbean-Style Mango-Habanero Hot Sauce",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/hot-sauces/caribbean-style-mango-habanero-hot-sauce-video/",
+      "description": "Caribbean-inspired hot sauce with habanero peppers, velvety mango, vinegar, honey, and allspice. Great on grilled meats and seafood.",
+      "servings_yield": "About 2 cups",
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "35 minutes",
+      "ingredients": [
+        {"item": "habanero peppers", "quantity": "6-8", "unit": "", "prep_note": "stemmed"},
+        {"item": "ripe mangoes", "quantity": "2", "unit": "medium", "prep_note": "peeled and chopped"},
+        {"item": "apple cider vinegar", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "honey", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "2", "unit": "cloves", "prep_note": ""},
+        {"item": "allspice", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine all ingredients in a saucepan."},
+        {"step": 2, "text": "Bring to a boil, then reduce heat and simmer 15-20 minutes."},
+        {"step": 3, "text": "Let cool slightly."},
+        {"step": 4, "text": "Blend until smooth."},
+        {"step": 5, "text": "Strain if desired for smoother consistency."},
+        {"step": 6, "text": "Bottle and refrigerate."}
+      ],
+      "notes": [
+        "Perfect balance of sweet mango and fiery habanero.",
+        "Allspice adds Caribbean authenticity.",
+        "Great on jerk chicken, pulled pork, and fish tacos."
+      ],
+      "tags": ["hot-sauce", "mango", "habanero", "caribbean", "fruity", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "pineapple-habanero-hot-sauce-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Pineapple-Habanero Hot Sauce",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/hot-sauces/pineapple-habanero-hot-sauce/",
+      "description": "Sweet pineapple balanced with spicy habanero peppers and cilantro. Perfect for dashing over meals or spicing up cocktails.",
+      "servings_yield": "About 1.5 cups",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "fresh pineapple", "quantity": "2", "unit": "cups", "prep_note": "chopped"},
+        {"item": "habanero peppers", "quantity": "4-6", "unit": "", "prep_note": "stemmed"},
+        {"item": "white vinegar", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "fresh cilantro", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "garlic", "quantity": "2", "unit": "cloves", "prep_note": ""},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine pineapple, habaneros, vinegar, and garlic in saucepan."},
+        {"step": 2, "text": "Simmer 10-15 minutes until pineapple softens."},
+        {"step": 3, "text": "Add cilantro and salt."},
+        {"step": 4, "text": "Blend until smooth."},
+        {"step": 5, "text": "Bottle and refrigerate."}
+      ],
+      "notes": [
+        "Cilantro adds fresh brightness.",
+        "Perfect for Bloody Marys and margaritas.",
+        "Adjust habaneros for desired heat."
+      ],
+      "tags": ["hot-sauce", "pineapple", "habanero", "tropical", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "gochujang-sauce-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Gochujang Sauce",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/sauces/gochujang-sauce/",
+      "description": "5-ingredient gochujang sauce that's easy to make and done in minutes. Perfect for stir-fries, rice bowls, and noodles.",
+      "servings_yield": "About 1/2 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {"item": "gochujang paste", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "soy sauce", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "sesame oil", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "rice vinegar", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "honey or sugar", "quantity": "1", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Whisk all ingredients together until smooth."},
+        {"step": 2, "text": "Adjust sweetness and heat to taste."},
+        {"step": 3, "text": "Use immediately or refrigerate."}
+      ],
+      "notes": [
+        "Gochujang is Korean fermented red chili paste.",
+        "Add minced garlic for extra flavor.",
+        "Great as dipping sauce, marinade, or stir-fry sauce."
+      ],
+      "tags": ["sauce", "korean", "gochujang", "quick", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
+    },
+    {
+      "id": "salsa-verde-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Salsa Verde (Mexican Green Salsa)",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/salsas/salsa-verde/",
+      "description": "Traditional Mexican green salsa with roasted tomatillos, jalapeños, and fresh cilantro. Tangy, spicy, and incredibly versatile.",
+      "servings_yield": "About 2 cups",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "tomatillos", "quantity": "1", "unit": "lb", "prep_note": "husked and rinsed"},
+        {"item": "jalapeño peppers", "quantity": "2", "unit": "", "prep_note": ""},
+        {"item": "onion", "quantity": "1/4", "unit": "medium", "prep_note": ""},
+        {"item": "garlic", "quantity": "2", "unit": "cloves", "prep_note": ""},
+        {"item": "fresh cilantro", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "lime juice", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Roast tomatillos and jalapeños under broiler or on grill until charred."},
+        {"step": 2, "text": "Add to blender with onion, garlic, cilantro, lime juice, and salt."},
+        {"step": 3, "text": "Blend until desired consistency."},
+        {"step": 4, "text": "Taste and adjust seasoning."}
+      ],
+      "notes": [
+        "Roasting adds depth - don't skip it!",
+        "Remove jalapeño seeds for milder salsa.",
+        "Keeps refrigerated for 1 week."
+      ],
+      "tags": ["salsa", "mexican", "tomatillo", "green-salsa", "chili-pepper-madness"],
+      "confidence": {"overall": "high", "flags": []},
+      "image_refs": [],
+      "nutrition": {"status": "insufficient_data", "per_serving": {}, "missing_inputs": ["all"], "assumptions": []}
     }
   ],
   "version": "2.97.0"
