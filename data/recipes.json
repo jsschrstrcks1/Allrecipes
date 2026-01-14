@@ -5,7 +5,7 @@
     "created": "2026-01-05",
     "last_updated": "2026-01-14",
     "version": "3.0.0",
-    "total_recipes": 5252
+    "total_recipes": 5258
   },
   "recipes": [
     {
@@ -537913,6 +537913,534 @@
       },
       "image_refs": [
         "processed/img_5974.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "biscuit-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Biscuit",
+      "category": "breads",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 66 (IMG_5976)",
+      "description": "Simple colonial biscuit recipe with flour, butter, egg, and milk.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to wet"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "One pound flour, one ounce butter, one egg, wet with milk and break while oven is heating, and in the same proportion."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original 1796 recipe"
+      ],
+      "tags": [
+        "biscuit",
+        "bread",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5976.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "butter-drop-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "A Butter Drop",
+      "category": "desserts",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 66 (IMG_5976)",
+      "description": "Colonial butter drop cookies baked in tin pans.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "egg whites",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "rose water",
+          "quantity": "2",
+          "unit": "spoons",
+          "prep_note": ""
+        },
+        {
+          "item": "mace",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "a little"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Four yolks, two whites, one pound flour, a quarter of a pound butter, one pound sugar, two spoons rose water, a little mace, baked in tin pans."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "tin pans",
+      "notes": [
+        "Original 1796 recipe"
+      ],
+      "tags": [
+        "cookies",
+        "butter-drop",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5976.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "preserving-quinces-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "For Preserving Quinces",
+      "category": "sides",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 66-67 (IMG_5976-5977)",
+      "description": "Colonial method for preserving quinces with oranges in sugar syrup.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "5+ hours",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "quinces",
+          "quantity": "1",
+          "unit": "peck",
+          "prep_note": "pared, cores removed"
+        },
+        {
+          "item": "frost grapes",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": "parings and cores boiled with"
+        },
+        {
+          "item": "water",
+          "quantity": "3",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/4",
+          "unit": "lb",
+          "prep_note": "per pound of quince"
+        },
+        {
+          "item": "oranges",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut up and mixed with quince"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take a peck of Quinces, pare them, take out the core with a sharp knife; boil parings and cores with two pound frost grapes, in 3 quarts water, boil the liquor an hour and an half, or till it is thick."
+        },
+        {
+          "step": 2,
+          "text": "Strain it through a coarse hair sieve, add one and a quarter pound sugar to every pound of quince."
+        },
+        {
+          "step": 3,
+          "text": "Put the sugar into the syrup, scald and skim it till it is clear, put the quinces into the syrup."
+        },
+        {
+          "step": 4,
+          "text": "Cut up two oranges and mix with the quince, hang them over a gentle fire for five hours."
+        },
+        {
+          "step": 5,
+          "text": "Then put them in a stone pot for use, set them in a dry cool place."
+        }
+      ],
+      "temperature": "gentle fire",
+      "pan_size": "stone pot",
+      "notes": [
+        "Original 1796 recipe",
+        "Frost grapes are a native American grape species"
+      ],
+      "tags": [
+        "preserves",
+        "quinces",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5976.jpeg",
+        "processed/img_5977.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "american-citron-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "The American Citron (Watermelon Rind Preserve)",
+      "category": "sides",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 68 (IMG_5978)",
+      "description": "An early American preserve made from watermelon rind - a uniquely American adaptation using native fruit.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "4 hours",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "watermelon rind",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "from large watermelon not too ripe, cut into small pieces"
+        },
+        {
+          "item": "loaf sugar",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take the rine of a large watermelon not too ripe, cut it into small pieces, take two pound of loaf sugar, one pint of water, put it all into a kettle."
+        },
+        {
+          "step": 2,
+          "text": "Let it boil gently for four hours."
+        },
+        {
+          "step": 3,
+          "text": "Then put it into pots for use."
+        }
+      ],
+      "temperature": "gentle boil",
+      "pan_size": "pots",
+      "notes": [
+        "Original 1796 recipe",
+        "This is an early American adaptation - using watermelon rind as a substitute for imported citron"
+      ],
+      "tags": [
+        "preserves",
+        "watermelon",
+        "citron",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage",
+        "uniquely-american"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5978.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "marmalade-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "To Make Marmalade",
+      "category": "sides",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 69 (IMG_5979)",
+      "description": "Colonial quince marmalade recipe.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "45+ minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "quinces",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "springwater",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To two pounds of quinces, put three quarters of a pound of sugar and a pint of springwater."
+        },
+        {
+          "step": 2,
+          "text": "Then put them over the fire, and boil them till they are tender."
+        },
+        {
+          "step": 3,
+          "text": "Then take them up and bruise them; then put them into the liquor, let it boil three quarters of an hour."
+        },
+        {
+          "step": 4,
+          "text": "Then put it into your pots or faucers."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "pots or saucers",
+      "notes": [
+        "Original 1796 recipe"
+      ],
+      "tags": [
+        "marmalade",
+        "preserves",
+        "quinces",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5979.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "all"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "preserving-strawberries-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "For Preserving Strawberries",
+      "category": "sides",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 67-68 (IMG_5977-5978)",
+      "description": "Colonial method for preserving whole strawberries in syrup.",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "10+ minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "strawberries",
+          "quantity": "2",
+          "unit": "quarts",
+          "prep_note": "squeezed through cloth"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "whole strawberries",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": "with stems up, without bruising"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take two quarts of Strawberries, squeeze them through a cloth, add half a pint of water and two pound of sugar."
+        },
+        {
+          "step": 2,
+          "text": "Put it into a sauce pan on a chaffing dish, let your sauce pan on the fire, scald and skim it."
+        },
+        {
+          "step": 3,
+          "text": "Take two pound of Strawberries with stems, let your sauce pan on a chaffing dish, put as many Strawberries into the dish as you can with the stems up without bruising them."
+        },
+        {
+          "step": 4,
+          "text": "Let them boil for about ten minutes, then take them out gently with a fork and put them into a stone pot for use."
+        },
+        {
+          "step": 5,
+          "text": "When you have done the whole turn the syrup into the pot, when hot; set them in a cool place for use."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "stone pot",
+      "notes": [
+        "Original 1796 recipe",
+        "Handle gently to preserve whole berries"
+      ],
+      "tags": [
+        "preserves",
+        "strawberry",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "processed/img_5977.jpeg",
+        "processed/img_5978.jpeg"
       ],
       "nutrition": {
         "status": "insufficient_data",
