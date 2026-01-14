@@ -539886,6 +539886,940 @@
         "missing_inputs": [],
         "assumptions": ["Based on 20 servings from about 2 cups total"]
       }
+    },
+    {
+      "id": "habanero-hot-sauce-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Habanero Hot Sauce",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/habanero-hot-sauce/",
+      "description": "The perfect mix of fire and flavor with Caribbean red habaneros, carrot, shallot, garlic, and a blend of spices.",
+      "servings_yield": "About 1 cup",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "habanero peppers", "quantity": "6-8", "unit": "", "prep_note": "Caribbean red or orange habaneros"},
+        {"item": "carrot", "quantity": "1", "unit": "medium", "prep_note": "chopped, adds body and sweetness"},
+        {"item": "shallot", "quantity": "1", "unit": "", "prep_note": "chopped"},
+        {"item": "garlic", "quantity": "2", "unit": "cloves", "prep_note": ""},
+        {"item": "distilled white vinegar", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "sweet paprika", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "oregano", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1/4", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Add all ingredients (carrots, shallots, habaneros, garlic, vinegar, spices) to a small pot or sauce pan and bring to a boil."},
+        {"step": 2, "text": "Reduce heat and simmer, covered, for 10-15 minutes, or until all ingredients are softened."},
+        {"step": 3, "text": "Transfer to a blender or food processor and blend until smooth."},
+        {"step": 4, "text": "Taste and adjust for salt and spices. For thinner consistency, add water 1 tablespoon at a time."},
+        {"step": 5, "text": "Bottle and serve. Better after 1-2 days to let flavors mingle."}
+      ],
+      "notes": [
+        "Strain for thinner consistency or add more vinegar to thin out.",
+        "Use apple cider vinegar for tangier flavor.",
+        "Habaneros range 100,000-350,000 Scoville Heat Units - very hot!"
+      ],
+      "tags": ["hot-sauce", "spicy", "habanero", "condiments", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "classic-chili-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Classic Chili",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/chili-recipe/",
+      "description": "Loaded with ground beef, fire roasted tomatoes, beans, and perfect seasonings - thick, chunky, and easy to make.",
+      "servings_yield": "8 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "1 hour",
+      "total_time": "1 hour 10 minutes",
+      "ingredients": [
+        {"item": "ground beef", "quantity": "2", "unit": "lb", "prep_note": "can use turkey or chicken"},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "diced"},
+        {"item": "jalapeño peppers", "quantity": "2", "unit": "", "prep_note": "diced, or use bell peppers for milder"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "fire roasted tomatoes", "quantity": "28", "unit": "oz", "prep_note": "canned"},
+        {"item": "crushed tomatoes", "quantity": "15", "unit": "oz", "prep_note": "canned"},
+        {"item": "tomato paste", "quantity": "6", "unit": "oz", "prep_note": ""},
+        {"item": "beef broth", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "red kidney beans", "quantity": "30", "unit": "oz", "prep_note": "drained and rinsed"},
+        {"item": "chili powder", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "1/2", "unit": "tsp", "prep_note": "optional, for heat"},
+        {"item": "salt and pepper", "quantity": "", "unit": "", "prep_note": "to taste"},
+        {"item": "olive oil", "quantity": "2", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Heat oil in a large pot over medium heat. Add onion and peppers, cook 2-3 minutes to soften."},
+        {"step": 2, "text": "Add garlic and cook for 1 minute."},
+        {"step": 3, "text": "Add ground beef and break apart with wooden spoon. Cook until browned."},
+        {"step": 4, "text": "Add tomato paste, fire roasted tomatoes, crushed tomatoes, and beef broth. Stir to combine."},
+        {"step": 5, "text": "Add chili powder, cumin, cayenne (if using), salt and pepper."},
+        {"step": 6, "text": "Add beans and stir well."},
+        {"step": 7, "text": "Bring to a boil, then reduce heat and simmer for 45 minutes to 1 hour, stirring occasionally."},
+        {"step": 8, "text": "Taste and adjust seasonings. Serve with your favorite toppings."}
+      ],
+      "notes": [
+        "Can use chuck roast or brisket cooked low and slow for amazing results.",
+        "Mix kidney beans with black beans or pinto beans for variety.",
+        "Use a mix of chili powders: ancho, guajillo, chipotle for complex flavor."
+      ],
+      "tags": ["chili", "ground-beef", "mains", "comfort-food", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "homemade-salsa-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Restaurant-Style Salsa",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/homemade-salsa/",
+      "description": "Classic restaurant-style salsa with juicy tomatoes, jalapeño, onion, lime and a special ingredient.",
+      "servings_yield": "2 cups",
+      "prep_time": "10 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {"item": "tomatoes", "quantity": "4", "unit": "medium", "prep_note": "quartered"},
+        {"item": "jalapeño pepper", "quantity": "1", "unit": "", "prep_note": "stemmed"},
+        {"item": "white onion", "quantity": "1/4", "unit": "cup", "prep_note": "roughly chopped"},
+        {"item": "garlic", "quantity": "2", "unit": "cloves", "prep_note": ""},
+        {"item": "cilantro", "quantity": "1/4", "unit": "cup", "prep_note": "fresh, packed"},
+        {"item": "lime juice", "quantity": "2", "unit": "tbsp", "prep_note": "fresh"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": "or to taste"},
+        {"item": "cumin", "quantity": "1/4", "unit": "tsp", "prep_note": "optional"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Add all ingredients to a food processor or blender."},
+        {"step": 2, "text": "Pulse until you reach your preferred consistency - best when still a bit chunky."},
+        {"step": 3, "text": "Taste and adjust salt and lime as needed."},
+        {"step": 4, "text": "Transfer to a bowl and refrigerate for at least 30 minutes to let flavors meld."}
+      ],
+      "notes": [
+        "Use fire-roasted tomatoes for smoky flavor.",
+        "Add more jalapeños or serrano peppers for extra heat.",
+        "Keeps refrigerated for up to 1 week."
+      ],
+      "tags": ["salsa", "mexican", "appetizers", "no-cook", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "jalapeno-hot-sauce-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Jalapeño Hot Sauce",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/jalapeno-hot-sauce/",
+      "description": "Bright and citrusy jalapeño hot sauce with fresh jalapeños and lime juice, perfect for drizzling over everything.",
+      "servings_yield": "About 1 cup",
+      "prep_time": "10 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {"item": "jalapeño peppers", "quantity": "8-10", "unit": "", "prep_note": "stemmed"},
+        {"item": "lime juice", "quantity": "1/4", "unit": "cup", "prep_note": "fresh"},
+        {"item": "white vinegar", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "garlic", "quantity": "2", "unit": "cloves", "prep_note": ""},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "water", "quantity": "2", "unit": "tbsp", "prep_note": "as needed for consistency"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Add jalapeños, lime juice, vinegar, garlic, and salt to a blender."},
+        {"step": 2, "text": "Blend until smooth, adding water as needed for desired consistency."},
+        {"step": 3, "text": "Taste and adjust salt and lime."},
+        {"step": 4, "text": "Transfer to a bottle and refrigerate."}
+      ],
+      "notes": [
+        "No cooking required - fresh and bright flavor.",
+        "Made with only 6 ingredients.",
+        "Great on tacos, nachos, eggs, and more."
+      ],
+      "tags": ["hot-sauce", "jalapeno", "no-cook", "quick", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "texas-chili-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Texas Chili",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/texas-chili/",
+      "description": "Bold and authentic Texas Chili with tender beef chuck and rich chili paste - no beans, the perfect hearty meal.",
+      "servings_yield": "8 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "2 hours",
+      "total_time": "2 hours 20 minutes",
+      "ingredients": [
+        {"item": "beef chuck", "quantity": "3", "unit": "lb", "prep_note": "cut into 1-inch cubes"},
+        {"item": "dried ancho chiles", "quantity": "4", "unit": "", "prep_note": "stemmed and seeded"},
+        {"item": "dried guajillo chiles", "quantity": "2", "unit": "", "prep_note": "stemmed and seeded"},
+        {"item": "beef broth", "quantity": "4", "unit": "cups", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "diced"},
+        {"item": "garlic", "quantity": "6", "unit": "cloves", "prep_note": "minced"},
+        {"item": "cumin", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "oregano", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "vegetable oil", "quantity": "2", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Toast dried chiles in a dry skillet for 1-2 minutes. Soak in hot water for 20 minutes."},
+        {"step": 2, "text": "Blend soaked chiles with 1 cup beef broth until smooth to make chili paste."},
+        {"step": 3, "text": "Season beef with salt. Brown in batches in oil in a large pot. Set aside."},
+        {"step": 4, "text": "Sauté onion until soft, add garlic and cook 1 minute."},
+        {"step": 5, "text": "Add chili paste, remaining broth, cumin, and oregano. Stir well."},
+        {"step": 6, "text": "Return beef to pot. Bring to boil, reduce heat, and simmer 2+ hours until beef is tender."},
+        {"step": 7, "text": "Adjust seasoning and serve."}
+      ],
+      "notes": [
+        "Texas chili traditionally has NO beans.",
+        "The longer you simmer, the more tender the beef.",
+        "Serve with cornbread, crackers, or over rice."
+      ],
+      "tags": ["chili", "texas", "beef", "no-beans", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "stuffed-peppers-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Classic Stuffed Peppers",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/stuffed-peppers/",
+      "description": "The quintessential stuffed bell peppers with seasoned ground beef, rice, and melty cheese.",
+      "servings_yield": "6 stuffed peppers",
+      "prep_time": "20 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "1 hour 5 minutes",
+      "ingredients": [
+        {"item": "bell peppers", "quantity": "6", "unit": "large", "prep_note": "any color, tops removed and seeded"},
+        {"item": "ground beef", "quantity": "1", "unit": "lb", "prep_note": ""},
+        {"item": "cooked rice", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "medium", "prep_note": "diced"},
+        {"item": "garlic", "quantity": "3", "unit": "cloves", "prep_note": "minced"},
+        {"item": "tomato sauce", "quantity": "15", "unit": "oz", "prep_note": ""},
+        {"item": "shredded cheese", "quantity": "1", "unit": "cup", "prep_note": "cheddar or Mexican blend"},
+        {"item": "Italian seasoning", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "salt and pepper", "quantity": "", "unit": "", "prep_note": "to taste"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Preheat oven to 375°F (190°C)."},
+        {"step": 2, "text": "Brown ground beef with onion and garlic in a large skillet. Drain excess fat."},
+        {"step": 3, "text": "Stir in cooked rice, half the tomato sauce, Italian seasoning, salt and pepper."},
+        {"step": 4, "text": "Stuff peppers with beef mixture and place in baking dish."},
+        {"step": 5, "text": "Pour remaining tomato sauce over peppers."},
+        {"step": 6, "text": "Cover with foil and bake 35 minutes."},
+        {"step": 7, "text": "Remove foil, top with cheese, and bake 10 more minutes until cheese melts."}
+      ],
+      "temperature": "375°F (190°C)",
+      "notes": [
+        "Use any color bell pepper - green, yellow, red, or orange.",
+        "Can substitute ground turkey or Italian sausage.",
+        "Add jalapeño to filling for extra heat."
+      ],
+      "tags": ["stuffed-peppers", "mains", "ground-beef", "comfort-food", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "pepper-jelly-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Pepper Jelly",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/pepper-jelly/",
+      "description": "A simple, super addictive jam that makes it to the recipe box of best all-time recipes. A no-worry recipe.",
+      "servings_yield": "4 half-pint jars",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "bell peppers", "quantity": "2", "unit": "cups", "prep_note": "finely chopped, mix of colors"},
+        {"item": "jalapeño peppers", "quantity": "1/2", "unit": "cup", "prep_note": "finely chopped"},
+        {"item": "apple cider vinegar", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "sugar", "quantity": "3", "unit": "cups", "prep_note": ""},
+        {"item": "liquid pectin", "quantity": "3", "unit": "oz", "prep_note": "1 pouch"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine peppers, vinegar, and sugar in a large pot."},
+        {"step": 2, "text": "Bring to a rolling boil, stirring constantly."},
+        {"step": 3, "text": "Stir in pectin and return to boil for 1 minute."},
+        {"step": 4, "text": "Remove from heat and skim off any foam."},
+        {"step": 5, "text": "Ladle into sterilized jars, leaving 1/4 inch headspace."},
+        {"step": 6, "text": "Process in boiling water bath for 10 minutes or refrigerate."}
+      ],
+      "notes": [
+        "Perfect over cream cheese with crackers.",
+        "Great as a glaze for grilled meats.",
+        "Add more jalapeños for spicier jelly."
+      ],
+      "tags": ["jelly", "preserves", "peppers", "appetizers", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "pickled-jalapenos-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Pickled Jalapeños",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/pickled-jalapenos/",
+      "description": "The best crunchy, spicy pickled jalapeños with a touch of sweet, ready in only 10 minutes.",
+      "servings_yield": "1 pint jar",
+      "prep_time": "10 minutes",
+      "cook_time": "5 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {"item": "jalapeño peppers", "quantity": "1", "unit": "lb", "prep_note": "sliced into rings"},
+        {"item": "white vinegar", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "water", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "sugar", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "2", "unit": "cloves", "prep_note": "optional"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Pack sliced jalapeños into a clean jar."},
+        {"step": 2, "text": "Combine vinegar, water, sugar, and salt in a saucepan. Bring to boil."},
+        {"step": 3, "text": "Pour hot brine over jalapeños, making sure they're fully covered."},
+        {"step": 4, "text": "Let cool, then seal and refrigerate."},
+        {"step": 5, "text": "Best after 24 hours. Keeps for several weeks refrigerated."}
+      ],
+      "notes": [
+        "Add garlic cloves for extra flavor.",
+        "Leave seeds in for more heat.",
+        "Perfect for tacos, nachos, sandwiches."
+      ],
+      "tags": ["pickled", "jalapeno", "quick", "preserving", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cajun-seasoning-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Homemade Cajun Seasoning",
+      "category": "sides",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/spice-blends/homemade-cajun-seasoning/",
+      "description": "The perfect blend of everyday spices to add flavor and zing to meats, seafood, soups, stews, and gumbos.",
+      "servings_yield": "About 1/2 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {"item": "paprika", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic powder", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "onion powder", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "2", "unit": "tsp", "prep_note": "adjust for heat"},
+        {"item": "dried thyme", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "dried oregano", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "white pepper", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine all ingredients in a bowl and mix well."},
+        {"step": 2, "text": "Transfer to an airtight container."},
+        {"step": 3, "text": "Store in a cool, dark place for up to 6 months."}
+      ],
+      "notes": [
+        "Adjust cayenne for more or less heat.",
+        "Great on chicken, shrimp, fish, and vegetables.",
+        "Use for gumbo, jambalaya, and blackened dishes."
+      ],
+      "tags": ["spice-blend", "cajun", "seasoning", "homemade", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "kung-pao-chicken-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Kung Pao Chicken",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/kung-pao-chicken/",
+      "description": "Authentic Sichuan style wok-fried chicken in sweet, savory, and spicy sauce with peanuts and dried chilies. Ready in 10 minutes.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "chicken breast", "quantity": "1.5", "unit": "lb", "prep_note": "cut into 1-inch pieces"},
+        {"item": "dried red chilies", "quantity": "10-12", "unit": "", "prep_note": "whole"},
+        {"item": "roasted peanuts", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "soy sauce", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "rice vinegar", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "sesame oil", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "sugar", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "cornstarch", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "3", "unit": "cloves", "prep_note": "minced"},
+        {"item": "ginger", "quantity": "1", "unit": "tbsp", "prep_note": "minced"},
+        {"item": "green onions", "quantity": "4", "unit": "", "prep_note": "chopped"},
+        {"item": "vegetable oil", "quantity": "2", "unit": "tbsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Mix soy sauce, rice vinegar, sesame oil, sugar, and cornstarch for sauce. Set aside."},
+        {"step": 2, "text": "Heat oil in wok over high heat until smoking."},
+        {"step": 3, "text": "Add dried chilies and stir-fry 30 seconds until fragrant."},
+        {"step": 4, "text": "Add chicken and stir-fry until cooked through, about 5 minutes."},
+        {"step": 5, "text": "Add garlic and ginger, cook 30 seconds."},
+        {"step": 6, "text": "Pour in sauce and toss to coat."},
+        {"step": 7, "text": "Add peanuts and green onions. Serve immediately over rice."}
+      ],
+      "notes": [
+        "Use Sichuan peppercorns for authentic flavor.",
+        "Dried chilies add flavor, not just heat.",
+        "Can substitute with chicken thighs for juicier meat."
+      ],
+      "tags": ["chicken", "chinese", "sichuan", "stir-fry", "asian", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "jamaican-jerk-chicken-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Jamaican Jerk Chicken",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/jamaican-jerk-chicken/",
+      "description": "Loaded with Caribbean flavor, marinated in spicy Scotch bonnet sauce, perfect for grilling or baking.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "40 minutes",
+      "total_time": "55 minutes (plus marinating)",
+      "ingredients": [
+        {"item": "chicken thighs or legs", "quantity": "2", "unit": "lb", "prep_note": "bone-in, skin-on"},
+        {"item": "Scotch bonnet peppers", "quantity": "2-3", "unit": "", "prep_note": "seeded and chopped"},
+        {"item": "green onions", "quantity": "6", "unit": "", "prep_note": "chopped"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": ""},
+        {"item": "fresh thyme", "quantity": "1", "unit": "tbsp", "prep_note": "or 1 tsp dried"},
+        {"item": "allspice", "quantity": "1", "unit": "tbsp", "prep_note": "ground"},
+        {"item": "soy sauce", "quantity": "1/4", "unit": "cup", "prep_note": ""},
+        {"item": "lime juice", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "brown sugar", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "vegetable oil", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "black pepper", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "cinnamon", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "nutmeg", "quantity": "1/4", "unit": "tsp", "prep_note": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Blend all marinade ingredients (peppers through nutmeg) until smooth."},
+        {"step": 2, "text": "Score chicken pieces and coat thoroughly with marinade."},
+        {"step": 3, "text": "Marinate at least 2 hours, preferably overnight."},
+        {"step": 4, "text": "Grill over medium heat for 35-40 minutes, turning occasionally."},
+        {"step": 5, "text": "Or bake at 375°F for 45 minutes until internal temp reaches 165°F."}
+      ],
+      "temperature": "375°F (190°C) for baking",
+      "notes": [
+        "Scotch bonnets are very hot - use gloves when handling.",
+        "Can substitute habaneros if Scotch bonnets unavailable.",
+        "Traditional jerk is cooked over pimento wood."
+      ],
+      "tags": ["chicken", "jamaican", "jerk", "caribbean", "grilling", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "birria-tacos-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Birria Tacos",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/birria-tacos/",
+      "description": "Tender shredded beef simmered in chili sauce on lightly fried tortillas, served with consommé for dipping.",
+      "servings_yield": "8-10 tacos",
+      "prep_time": "30 minutes",
+      "cook_time": "3 hours",
+      "total_time": "3 hours 30 minutes",
+      "ingredients": [
+        {"item": "beef chuck roast", "quantity": "3", "unit": "lb", "prep_note": "cut into large chunks"},
+        {"item": "dried ancho chiles", "quantity": "4", "unit": "", "prep_note": "stemmed and seeded"},
+        {"item": "dried guajillo chiles", "quantity": "4", "unit": "", "prep_note": "stemmed and seeded"},
+        {"item": "chiles de arbol", "quantity": "2", "unit": "", "prep_note": "optional, for heat"},
+        {"item": "beef broth", "quantity": "4", "unit": "cups", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "quartered"},
+        {"item": "garlic", "quantity": "6", "unit": "cloves", "prep_note": ""},
+        {"item": "tomatoes", "quantity": "2", "unit": "medium", "prep_note": ""},
+        {"item": "cumin", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "oregano", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "cloves", "quantity": "3", "unit": "", "prep_note": "whole"},
+        {"item": "apple cider vinegar", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "corn tortillas", "quantity": "16", "unit": "", "prep_note": ""},
+        {"item": "shredded cheese", "quantity": "1", "unit": "cup", "prep_note": "Oaxaca or mozzarella"},
+        {"item": "fresh cilantro", "quantity": "", "unit": "", "prep_note": "for garnish"},
+        {"item": "diced onion", "quantity": "", "unit": "", "prep_note": "for garnish"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Toast dried chiles in dry skillet. Cover with hot water and soak 20 minutes."},
+        {"step": 2, "text": "Blend soaked chiles with tomatoes, onion, garlic, spices, and 1 cup broth until smooth."},
+        {"step": 3, "text": "Season beef chunks with salt. Brown in a large pot in batches."},
+        {"step": 4, "text": "Add chili sauce and remaining broth to pot. Bring to boil."},
+        {"step": 5, "text": "Reduce heat, cover, and simmer 2.5-3 hours until beef is fall-apart tender."},
+        {"step": 6, "text": "Remove beef and shred. Reserve cooking liquid (consommé)."},
+        {"step": 7, "text": "Dip tortillas in consommé, then fry in skillet. Add cheese and shredded beef."},
+        {"step": 8, "text": "Fold and crisp on both sides. Serve with consommé for dipping, cilantro, and onion."}
+      ],
+      "notes": [
+        "The consommé is key - don't skip the dipping!",
+        "Can make in slow cooker on low for 8 hours.",
+        "For quesabirria, add extra cheese and fold tortilla in half."
+      ],
+      "tags": ["tacos", "mexican", "birria", "beef", "slow-cooked", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "shakshuka-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Shakshuka",
+      "category": "breakfast",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/shakshuka/",
+      "description": "Popular North African and Middle Eastern dish of eggs poached in spicy tomato sauce, perfect for breakfast or any time.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
+      "total_time": "35 minutes",
+      "ingredients": [
+        {"item": "eggs", "quantity": "6", "unit": "large", "prep_note": ""},
+        {"item": "crushed tomatoes", "quantity": "28", "unit": "oz", "prep_note": "canned"},
+        {"item": "onion", "quantity": "1", "unit": "medium", "prep_note": "diced"},
+        {"item": "bell pepper", "quantity": "1", "unit": "", "prep_note": "diced"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "paprika", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "cayenne pepper", "quantity": "1/2", "unit": "tsp", "prep_note": "adjust for heat"},
+        {"item": "olive oil", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp", "prep_note": ""},
+        {"item": "fresh cilantro or parsley", "quantity": "", "unit": "", "prep_note": "for garnish"},
+        {"item": "feta cheese", "quantity": "", "unit": "", "prep_note": "optional, crumbled"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Heat oil in a large skillet over medium heat. Sauté onion and bell pepper until soft."},
+        {"step": 2, "text": "Add garlic and cook 1 minute."},
+        {"step": 3, "text": "Add tomatoes, cumin, paprika, cayenne, and salt. Simmer 10 minutes."},
+        {"step": 4, "text": "Make 6 wells in the sauce. Crack an egg into each well."},
+        {"step": 5, "text": "Cover and cook 8-10 minutes until egg whites are set but yolks are still runny."},
+        {"step": 6, "text": "Garnish with herbs and feta. Serve with crusty bread for dipping."}
+      ],
+      "notes": [
+        "The runny yolk mixed with sauce is the best part.",
+        "Add harissa for more heat and authentic flavor.",
+        "Serve straight from the skillet."
+      ],
+      "tags": ["breakfast", "eggs", "middle-eastern", "one-pan", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "pad-thai-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Pad Thai",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/pad-thai/",
+      "description": "Restaurant quality Pad Thai with chewy rice noodles, shrimp, scrambled eggs and vegetables in flavorful sauce. Done in 30 minutes.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "30 minutes",
+      "ingredients": [
+        {"item": "rice noodles", "quantity": "8", "unit": "oz", "prep_note": "flat, medium width"},
+        {"item": "shrimp", "quantity": "1/2", "unit": "lb", "prep_note": "peeled and deveined"},
+        {"item": "eggs", "quantity": "2", "unit": "", "prep_note": "beaten"},
+        {"item": "bean sprouts", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "green onions", "quantity": "4", "unit": "", "prep_note": "chopped"},
+        {"item": "garlic", "quantity": "3", "unit": "cloves", "prep_note": "minced"},
+        {"item": "fish sauce", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "tamarind paste", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "brown sugar", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "rice vinegar", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "vegetable oil", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "crushed peanuts", "quantity": "1/4", "unit": "cup", "prep_note": "for garnish"},
+        {"item": "lime wedges", "quantity": "", "unit": "", "prep_note": "for serving"},
+        {"item": "dried red pepper flakes", "quantity": "", "unit": "", "prep_note": "optional, for heat"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Soak rice noodles in warm water for 30 minutes until pliable. Drain."},
+        {"step": 2, "text": "Mix fish sauce, tamarind, brown sugar, and vinegar for sauce."},
+        {"step": 3, "text": "Heat oil in wok over high heat. Cook shrimp until pink, set aside."},
+        {"step": 4, "text": "Add more oil, scramble eggs, and set aside."},
+        {"step": 5, "text": "Add garlic, cook 30 seconds. Add noodles and sauce, toss to coat."},
+        {"step": 6, "text": "Add shrimp, eggs, half the bean sprouts and green onions. Toss together."},
+        {"step": 7, "text": "Serve topped with remaining sprouts, peanuts, and lime wedges."}
+      ],
+      "notes": [
+        "Use tamarind paste, not concentrate - dilute if needed.",
+        "Can substitute chicken or tofu for shrimp.",
+        "Work quickly - high heat is key."
+      ],
+      "tags": ["thai", "noodles", "asian", "shrimp", "stir-fry", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "buffalo-chicken-dip-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Buffalo Chicken Dip",
+      "category": "appetizers",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/chili-pepper-recipes/dips/buffalo-chicken-dip/",
+      "description": "Rich, cheesy, and spicy dip made with three cheeses, tender chicken, and Buffalo sauce. Includes slow cooker and oven directions.",
+      "servings_yield": "12 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "30 minutes",
+      "ingredients": [
+        {"item": "cooked chicken", "quantity": "2", "unit": "cups", "prep_note": "shredded"},
+        {"item": "cream cheese", "quantity": "8", "unit": "oz", "prep_note": "softened"},
+        {"item": "Buffalo sauce", "quantity": "1/2", "unit": "cup", "prep_note": "like Frank's RedHot"},
+        {"item": "ranch dressing", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "shredded cheddar cheese", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "shredded mozzarella", "quantity": "1/2", "unit": "cup", "prep_note": ""},
+        {"item": "green onions", "quantity": "2", "unit": "", "prep_note": "sliced, for garnish"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Preheat oven to 350°F."},
+        {"step": 2, "text": "Mix cream cheese, Buffalo sauce, and ranch in a bowl until smooth."},
+        {"step": 3, "text": "Fold in shredded chicken and half the cheddar."},
+        {"step": 4, "text": "Transfer to baking dish and top with remaining cheeses."},
+        {"step": 5, "text": "Bake 20 minutes until bubbly and golden."},
+        {"step": 6, "text": "Garnish with green onions. Serve with celery, chips, or bread."}
+      ],
+      "temperature": "350°F (175°C)",
+      "notes": [
+        "For slow cooker: combine all, cook low 2-3 hours, stir occasionally.",
+        "Use rotisserie chicken for easy prep.",
+        "Adjust Buffalo sauce for desired heat level."
+      ],
+      "tags": ["dip", "appetizers", "buffalo", "chicken", "game-day", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chicken-tikka-masala-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Chicken Tikka Masala",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/chicken-tikka-masala/",
+      "description": "Indian-style curry with yogurt-marinated chicken roasted and simmered in creamy tomato-based curry sauce.",
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "50 minutes (plus marinating)",
+      "ingredients": [
+        {"item": "chicken breast", "quantity": "1.5", "unit": "lb", "prep_note": "cut into chunks"},
+        {"item": "plain yogurt", "quantity": "1", "unit": "cup", "prep_note": "for marinade"},
+        {"item": "garam masala", "quantity": "2", "unit": "tbsp", "prep_note": "divided"},
+        {"item": "cumin", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "turmeric", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "crushed tomatoes", "quantity": "14", "unit": "oz", "prep_note": "canned"},
+        {"item": "heavy cream", "quantity": "1", "unit": "cup", "prep_note": ""},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "diced"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "ginger", "quantity": "1", "unit": "tbsp", "prep_note": "minced"},
+        {"item": "butter", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "paprika", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "salt", "quantity": "", "unit": "", "prep_note": "to taste"},
+        {"item": "fresh cilantro", "quantity": "", "unit": "", "prep_note": "for garnish"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Mix yogurt, 1 tbsp garam masala, cumin, turmeric, and salt. Marinate chicken 1+ hours."},
+        {"step": 2, "text": "Roast marinated chicken at 425°F for 15-20 minutes until charred edges."},
+        {"step": 3, "text": "Melt butter in pan. Sauté onion until soft. Add garlic and ginger."},
+        {"step": 4, "text": "Add remaining garam masala, paprika. Cook 1 minute."},
+        {"step": 5, "text": "Add crushed tomatoes, simmer 10 minutes."},
+        {"step": 6, "text": "Stir in cream and roasted chicken. Simmer 5 minutes."},
+        {"step": 7, "text": "Garnish with cilantro. Serve over basmati rice with naan."}
+      ],
+      "temperature": "425°F (220°C) for chicken",
+      "notes": [
+        "Longer marinating = more flavorful chicken.",
+        "Can use coconut cream for dairy-free version.",
+        "Traditional tikka is cooked in tandoor oven."
+      ],
+      "tags": ["indian", "curry", "chicken", "tikka-masala", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chili-oil-noodles-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Chili Oil Noodles",
+      "category": "mains",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/chili-oil-noodles/",
+      "description": "Satisfying noodles tossed with garlic, chilies, scallions, and cilantro in spicy hot oil.",
+      "servings_yield": "2 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {"item": "noodles", "quantity": "8", "unit": "oz", "prep_note": "wheat, rice, or egg noodles"},
+        {"item": "vegetable oil", "quantity": "3", "unit": "tbsp", "prep_note": ""},
+        {"item": "dried red pepper flakes", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "soy sauce", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "rice vinegar", "quantity": "1", "unit": "tbsp", "prep_note": ""},
+        {"item": "sesame oil", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "sugar", "quantity": "1", "unit": "tsp", "prep_note": ""},
+        {"item": "green onions", "quantity": "3", "unit": "", "prep_note": "sliced"},
+        {"item": "cilantro", "quantity": "2", "unit": "tbsp", "prep_note": "chopped"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Cook noodles according to package. Drain and place in serving bowls."},
+        {"step": 2, "text": "Place pepper flakes and garlic in a heatproof bowl."},
+        {"step": 3, "text": "Heat vegetable oil until shimmering. Carefully pour over pepper flakes (it will sizzle)."},
+        {"step": 4, "text": "Add soy sauce, vinegar, sesame oil, and sugar to the chili oil. Mix well."},
+        {"step": 5, "text": "Pour chili oil mixture over noodles. Toss to coat."},
+        {"step": 6, "text": "Top with green onions and cilantro. Serve immediately."}
+      ],
+      "notes": [
+        "Works with any type of noodles.",
+        "Add a fried egg on top for extra protein.",
+        "Adjust chili flakes for desired heat."
+      ],
+      "tags": ["noodles", "chinese", "chili-oil", "quick", "vegetarian", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "seafood-gumbo-cpm",
+      "collection": "all",
+      "collection_display": "Chili Pepper Madness",
+      "title": "Seafood Gumbo",
+      "category": "soups",
+      "attribution": "Mike Hultquist - Chili Pepper Madness",
+      "source_note": "https://www.chilipeppermadness.com/recipes/seafood-gumbo/",
+      "description": "Flavorful Louisiana gumbo with shrimp, white fish, crab, and oysters with plenty of Cajun seasonings.",
+      "servings_yield": "8 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "1 hour",
+      "total_time": "1 hour 30 minutes",
+      "ingredients": [
+        {"item": "shrimp", "quantity": "1", "unit": "lb", "prep_note": "peeled and deveined"},
+        {"item": "white fish", "quantity": "1/2", "unit": "lb", "prep_note": "like snapper or catfish, cubed"},
+        {"item": "crab meat", "quantity": "1/2", "unit": "lb", "prep_note": ""},
+        {"item": "smoked oysters", "quantity": "4", "unit": "oz", "prep_note": "optional"},
+        {"item": "andouille sausage", "quantity": "1/2", "unit": "lb", "prep_note": "sliced"},
+        {"item": "all-purpose flour", "quantity": "1/2", "unit": "cup", "prep_note": "for roux"},
+        {"item": "vegetable oil", "quantity": "1/2", "unit": "cup", "prep_note": "for roux"},
+        {"item": "onion", "quantity": "1", "unit": "large", "prep_note": "diced"},
+        {"item": "celery", "quantity": "2", "unit": "stalks", "prep_note": "diced"},
+        {"item": "bell pepper", "quantity": "1", "unit": "", "prep_note": "diced"},
+        {"item": "garlic", "quantity": "4", "unit": "cloves", "prep_note": "minced"},
+        {"item": "seafood or chicken stock", "quantity": "6", "unit": "cups", "prep_note": ""},
+        {"item": "Cajun seasoning", "quantity": "2", "unit": "tbsp", "prep_note": ""},
+        {"item": "bay leaves", "quantity": "2", "unit": "", "prep_note": ""},
+        {"item": "okra", "quantity": "1", "unit": "cup", "prep_note": "sliced, optional"},
+        {"item": "file powder", "quantity": "1", "unit": "tbsp", "prep_note": "optional, for thickening"},
+        {"item": "cooked rice", "quantity": "", "unit": "", "prep_note": "for serving"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Make roux: heat oil, whisk in flour, cook stirring constantly until dark brown (20-30 min)."},
+        {"step": 2, "text": "Add onion, celery, bell pepper (the 'trinity'). Cook 5 minutes."},
+        {"step": 3, "text": "Add garlic, cook 1 minute."},
+        {"step": 4, "text": "Slowly whisk in stock. Add Cajun seasoning, bay leaves, and sausage."},
+        {"step": 5, "text": "Simmer 30 minutes."},
+        {"step": 6, "text": "Add fish and cook 10 minutes."},
+        {"step": 7, "text": "Add shrimp, crab, and oysters. Cook until shrimp are pink, about 5 minutes."},
+        {"step": 8, "text": "Remove bay leaves. Serve over rice with hot sauce."}
+      ],
+      "notes": [
+        "The roux is critical - don't burn it or you'll have to start over.",
+        "File powder thickens and adds earthy flavor - add off heat.",
+        "Okra also helps thicken traditionally."
+      ],
+      "tags": ["gumbo", "cajun", "seafood", "louisiana", "soup", "chili-pepper-madness"],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": ["all"],
+        "assumptions": []
+      }
     }
   ],
   "version": "2.97.0"
