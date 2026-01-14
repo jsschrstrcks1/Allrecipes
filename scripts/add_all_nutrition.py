@@ -1221,6 +1221,203 @@ NUTRITION_DB = {
     "grated nutmeg": {"tsp": {"cal": 12, "fat": 0.8, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.5, "sugar": 0.1}},
     "tomato catsup": {"tbsp": {"cal": 17, "fat": 0, "carbs": 4.5, "protein": 0.2, "sodium": 154, "fiber": 0, "sugar": 3.5}},
     "gelatine": {"envelope": {"cal": 23, "fat": 0, "carbs": 0, "protein": 6, "sodium": 14, "fiber": 0, "sugar": 0}},
+
+    # =========================================================================
+    # GAP ANALYSIS - ROUND 5 (remaining missing ingredients)
+    # =========================================================================
+
+    # Vegetables
+    "avocados": {"each": {"cal": 322, "fat": 29, "carbs": 17, "protein": 4, "sodium": 14, "fiber": 13, "sugar": 1}},
+    "avocado": {"each": {"cal": 322, "fat": 29, "carbs": 17, "protein": 4, "sodium": 14, "fiber": 13, "sugar": 1}},
+    "broccoli florets": {"cup": {"cal": 31, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 30, "fiber": 2.4, "sugar": 1.5}},
+    "broccoli": {"cup": {"cal": 31, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 30, "fiber": 2.4, "sugar": 1.5}},
+    "cucumbers": {"each": {"cal": 45, "fat": 0.3, "carbs": 11, "protein": 2, "sodium": 6, "fiber": 1.5, "sugar": 5}},
+    "cucumber": {"each": {"cal": 45, "fat": 0.3, "carbs": 11, "protein": 2, "sodium": 6, "fiber": 1.5, "sugar": 5}},
+    "baby spinach": {"cup": {"cal": 7, "fat": 0.1, "carbs": 1.1, "protein": 0.9, "sodium": 24, "fiber": 0.7, "sugar": 0.1}},
+    "spring onions": {"each": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.3, "sodium": 2, "fiber": 0.4, "sugar": 0.4}},
+    "rocket": {"cup": {"cal": 5, "fat": 0.1, "carbs": 0.7, "protein": 0.5, "sodium": 5, "fiber": 0.3, "sugar": 0.4}},
+    "arugula": {"cup": {"cal": 5, "fat": 0.1, "carbs": 0.7, "protein": 0.5, "sodium": 5, "fiber": 0.3, "sugar": 0.4}},
+    "mashed potatoes": {"cup": {"cal": 237, "fat": 9, "carbs": 35, "protein": 4, "sodium": 699, "fiber": 3, "sugar": 3}},
+    "new potatoes": {"lb": {"cal": 350, "fat": 0.4, "carbs": 80, "protein": 9, "sodium": 25, "fiber": 8, "sugar": 4}},
+    "small potatoes": {"each": {"cal": 130, "fat": 0.1, "carbs": 30, "protein": 3.5, "sodium": 8, "fiber": 3, "sugar": 1}},
+
+    # Beans & legumes
+    "cannellini beans": {"cup": {"cal": 225, "fat": 0.9, "carbs": 40, "protein": 15, "sodium": 4, "fiber": 11, "sugar": 0.6}},
+    "white beans": {"cup": {"cal": 225, "fat": 0.9, "carbs": 40, "protein": 15, "sodium": 4, "fiber": 11, "sugar": 0.6}},
+    "great northern beans": {"cup": {"cal": 209, "fat": 0.8, "carbs": 37, "protein": 15, "sodium": 4, "fiber": 12, "sugar": 0.6}},
+    "pork & beans": {"cup": {"cal": 268, "fat": 4, "carbs": 51, "protein": 13, "sodium": 1047, "fiber": 14, "sugar": 16}},
+    "soybeans": {"cup": {"cal": 298, "fat": 15, "carbs": 17, "protein": 29, "sodium": 1, "fiber": 10, "sugar": 6}},
+    "edamame": {"cup": {"cal": 188, "fat": 8, "carbs": 14, "protein": 18, "sodium": 9, "fiber": 8, "sugar": 3}},
+
+    # Meats
+    "flank steak": {"lb": {"cal": 720, "fat": 32, "carbs": 0, "protein": 104, "sodium": 280, "fiber": 0, "sugar": 0}},
+    "round beef": {"lb": {"cal": 680, "fat": 28, "carbs": 0, "protein": 100, "sodium": 260, "fiber": 0, "sugar": 0}},
+    "streaky bacon": {"slice": {"cal": 43, "fat": 3.3, "carbs": 0.1, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0}},
+    "bacon strips": {"slice": {"cal": 43, "fat": 3.3, "carbs": 0.1, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0}},
+    "slices bacon": {"slice": {"cal": 43, "fat": 3.3, "carbs": 0.1, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0}},
+    "strips bacon": {"slice": {"cal": 43, "fat": 3.3, "carbs": 0.1, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0}},
+    "chopped cooked ham": {"cup": {"cal": 203, "fat": 8, "carbs": 2, "protein": 30, "sodium": 1684, "fiber": 0, "sugar": 0}},
+    "chicken breast halves": {"each": {"cal": 284, "fat": 6, "carbs": 0, "protein": 53, "sodium": 104, "fiber": 0, "sugar": 0}},
+
+    # Grains & pasta
+    "white rice": {"cup": {"cal": 205, "fat": 0.4, "carbs": 45, "protein": 4, "sodium": 2, "fiber": 0.6, "sugar": 0}},
+    "macaroni": {"cup": {"cal": 221, "fat": 1.3, "carbs": 43, "protein": 8, "sodium": 1, "fiber": 2.5, "sugar": 1}},
+    "elbow macaroni": {"cup": {"cal": 221, "fat": 1.3, "carbs": 43, "protein": 8, "sodium": 1, "fiber": 2.5, "sugar": 1}},
+    "soft bread crumbs": {"cup": {"cal": 120, "fat": 2, "carbs": 22, "protein": 4, "sodium": 200, "fiber": 1, "sugar": 2}},
+    "wheat bread": {"slice": {"cal": 81, "fat": 1, "carbs": 15, "protein": 4, "sodium": 146, "fiber": 2, "sugar": 1}},
+    "slices wheat bread": {"slice": {"cal": 81, "fat": 1, "carbs": 15, "protein": 4, "sodium": 146, "fiber": 2, "sugar": 1}},
+    "ciabatta": {"each": {"cal": 200, "fat": 1.3, "carbs": 40, "protein": 7, "sodium": 400, "fiber": 1.5, "sugar": 1}},
+    "muesli": {"cup": {"cal": 289, "fat": 4, "carbs": 66, "protein": 8, "sodium": 14, "fiber": 6, "sugar": 26}},
+    "cornflakes": {"cup": {"cal": 101, "fat": 0.2, "carbs": 24, "protein": 2, "sodium": 203, "fiber": 0.7, "sugar": 3}},
+
+    # Cheese
+    "longhorn cheese": {"cup": {"cal": 455, "fat": 37, "carbs": 1.4, "protein": 28, "sodium": 701, "fiber": 0, "sugar": 0.5}},
+    "muenster cheese": {"oz": {"cal": 104, "fat": 8.5, "carbs": 0.3, "protein": 7, "sodium": 178, "fiber": 0, "sugar": 0.3}},
+    "sieved cottage cheese": {"cup": {"cal": 163, "fat": 2.3, "carbs": 6, "protein": 28, "sodium": 918, "fiber": 0, "sugar": 5}},
+
+    # Condiments & sauces
+    "chunky salsa": {"cup": {"cal": 70, "fat": 0.4, "carbs": 14, "protein": 3, "sodium": 1200, "fiber": 4, "sugar": 8}},
+    "salsa": {"cup": {"cal": 70, "fat": 0.4, "carbs": 14, "protein": 3, "sodium": 1200, "fiber": 4, "sugar": 8}},
+    "seasoning salt": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1600, "fiber": 0, "sugar": 0}},
+    "low-sodium soy sauce": {"tbsp": {"cal": 10, "fat": 0, "carbs": 1, "protein": 1, "sodium": 533, "fiber": 0, "sugar": 0}},
+    "bottled minced garlic": {"tsp": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0, "sugar": 0}},
+
+    # Spices
+    "whole allspice": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 1.4, "protein": 0.1, "sodium": 1, "fiber": 0.4, "sugar": 0}},
+    "pumpkin pie spice": {"tsp": {"cal": 6, "fat": 0.2, "carbs": 1.2, "protein": 0.1, "sodium": 1, "fiber": 0.4, "sugar": 0}},
+    "greek seasoning": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 1, "protein": 0.2, "sodium": 5, "fiber": 0.3, "sugar": 0}},
+    "sage leaves": {"each": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+
+    # Alcohol
+    "gin": {"oz": {"cal": 73, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "vodka": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "tequila": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "whiskey": {"oz": {"cal": 70, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "bourbon": {"oz": {"cal": 70, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "scotch": {"oz": {"cal": 70, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "cognac": {"oz": {"cal": 69, "fat": 0, "carbs": 1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "brandy": {"oz": {"cal": 69, "fat": 0, "carbs": 1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "triple sec": {"oz": {"cal": 103, "fat": 0, "carbs": 11, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 11}},
+    "kahlua": {"oz": {"cal": 91, "fat": 0, "carbs": 14, "protein": 0, "sodium": 3, "fiber": 0, "sugar": 14}},
+    "amaretto": {"oz": {"cal": 110, "fat": 0, "carbs": 17, "protein": 0, "sodium": 3, "fiber": 0, "sugar": 17}},
+    "grand marnier": {"oz": {"cal": 76, "fat": 0, "carbs": 7, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 7}},
+
+    # Gelatin flavors
+    "lemon-flavored gelatin": {"package": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+    "strawberry gelatin": {"package": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+    "lime gelatin": {"package": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+    "orange gelatin": {"package": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+    "cherry gelatin": {"package": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+
+    # Fruits
+    "grapefruits": {"each": {"cal": 103, "fat": 0.3, "carbs": 26, "protein": 2, "sodium": 0, "fiber": 4, "sugar": 17}},
+    "grapefruit": {"each": {"cal": 103, "fat": 0.3, "carbs": 26, "protein": 2, "sodium": 0, "fiber": 4, "sugar": 17}},
+    "large apple": {"each": {"cal": 116, "fat": 0.4, "carbs": 31, "protein": 0.6, "sodium": 2, "fiber": 5.4, "sugar": 23}},
+    "large bananas": {"each": {"cal": 121, "fat": 0.4, "carbs": 31, "protein": 1.5, "sodium": 1, "fiber": 3.5, "sugar": 17}},
+    "large mangos": {"each": {"cal": 202, "fat": 1.3, "carbs": 50, "protein": 2.8, "sodium": 3, "fiber": 5.4, "sugar": 45}},
+    "mixed berries": {"cup": {"cal": 70, "fat": 0.5, "carbs": 17, "protein": 1, "sodium": 1, "fiber": 4, "sugar": 10}},
+
+    # Yogurt flavors
+    "plain nonfat yoghurt": {"cup": {"cal": 137, "fat": 0.4, "carbs": 19, "protein": 14, "sodium": 189, "fiber": 0, "sugar": 19}},
+    "banana-flavored yogurt": {"cup": {"cal": 193, "fat": 2.8, "carbs": 36, "protein": 11, "sodium": 148, "fiber": 0, "sugar": 33}},
+    "mango flavored yogurt": {"cup": {"cal": 193, "fat": 2.8, "carbs": 36, "protein": 11, "sodium": 148, "fiber": 0, "sugar": 33}},
+
+    # Chiles & peppers
+    "whole green chiles": {"can": {"cal": 30, "fat": 0, "carbs": 6, "protein": 1, "sodium": 680, "fiber": 2, "sugar": 3}},
+    "green chiles": {"can": {"cal": 30, "fat": 0, "carbs": 6, "protein": 1, "sodium": 680, "fiber": 2, "sugar": 3}},
+    "diced green chiles": {"can": {"cal": 30, "fat": 0, "carbs": 6, "protein": 1, "sodium": 680, "fiber": 2, "sugar": 3}},
+
+    # Seeds
+    "linseeds": {"tbsp": {"cal": 55, "fat": 4.3, "carbs": 3, "protein": 2, "sodium": 3, "fiber": 2.8, "sugar": 0.2}},
+    "flaxseeds": {"tbsp": {"cal": 55, "fat": 4.3, "carbs": 3, "protein": 2, "sodium": 3, "fiber": 2.8, "sugar": 0.2}},
+    "flax seeds": {"tbsp": {"cal": 55, "fat": 4.3, "carbs": 3, "protein": 2, "sodium": 3, "fiber": 2.8, "sugar": 0.2}},
+
+    # Historical/vintage ingredients (for old cookbooks)
+    "pearl ash": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "saleratus": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 629, "fiber": 0, "sugar": 0}},
+    "emptins": {"cup": {"cal": 30, "fat": 1, "carbs": 4, "protein": 2, "sodium": 10, "fiber": 1, "sugar": 0}},
+
+    # Misc
+    "thick cream": {"cup": {"cal": 821, "fat": 88, "carbs": 7, "protein": 5, "sodium": 89, "fiber": 0, "sugar": 7}},
+    "truffles": {"oz": {"cal": 84, "fat": 9, "carbs": 2, "protein": 1, "sodium": 15, "fiber": 0, "sugar": 0}},
+    "minced parsley": {"tbsp": {"cal": 1, "fat": 0, "carbs": 0.2, "protein": 0.1, "sodium": 2, "fiber": 0.1, "sugar": 0}},
+
+    # =========================================================================
+    # GAP ANALYSIS - ROUND 6 (final pass)
+    # =========================================================================
+
+    # Meats & sausages
+    "pork sausage": {"lb": {"cal": 1360, "fat": 112, "carbs": 0, "protein": 64, "sodium": 1400, "fiber": 0, "sugar": 0}},
+    "pork sausage links": {"each": {"cal": 80, "fat": 7, "carbs": 0, "protein": 4, "sodium": 200, "fiber": 0, "sugar": 0}},
+    "stewing beef": {"lb": {"cal": 800, "fat": 48, "carbs": 0, "protein": 88, "sodium": 280, "fiber": 0, "sugar": 0}},
+
+    # Chocolate & chips
+    "milk chocolate": {"oz": {"cal": 153, "fat": 8, "carbs": 17, "protein": 2, "sodium": 23, "fiber": 0.8, "sugar": 15}},
+    "milk chocolate chips": {"cup": {"cal": 840, "fat": 48, "carbs": 92, "protein": 10, "sodium": 128, "fiber": 4, "sugar": 84}},
+    "peanut butter chips": {"cup": {"cal": 800, "fat": 48, "carbs": 80, "protein": 16, "sodium": 320, "fiber": 2, "sugar": 72}},
+    "butterscotch chips": {"cup": {"cal": 800, "fat": 40, "carbs": 100, "protein": 2, "sodium": 300, "fiber": 0, "sugar": 92}},
+    "squares unsweetened chocolate": {"each": {"cal": 145, "fat": 15, "carbs": 8, "protein": 3, "sodium": 4, "fiber": 5, "sugar": 0}},
+
+    # Nuts
+    "black walnuts": {"cup": {"cal": 760, "fat": 71, "carbs": 12, "protein": 30, "sodium": 2, "fiber": 6, "sugar": 1}},
+    "chopped walnuts": {"cup": {"cal": 785, "fat": 79, "carbs": 16, "protein": 18, "sodium": 1, "fiber": 8, "sugar": 3}},
+    "broken pecans": {"cup": {"cal": 753, "fat": 78, "carbs": 15, "protein": 10, "sodium": 0, "fiber": 10, "sugar": 4}},
+    "cut-up nuts": {"cup": {"cal": 785, "fat": 79, "carbs": 16, "protein": 18, "sodium": 1, "fiber": 8, "sugar": 3}},
+
+    # Dried fruits
+    "cut-up raisins": {"cup": {"cal": 434, "fat": 0.5, "carbs": 115, "protein": 5, "sodium": 18, "fiber": 6, "sugar": 86}},
+    "cut-up dates": {"cup": {"cal": 415, "fat": 0.6, "carbs": 110, "protein": 4, "sodium": 3, "fiber": 12, "sugar": 93}},
+    "eeded raisins": {"cup": {"cal": 434, "fat": 0.5, "carbs": 115, "protein": 5, "sodium": 18, "fiber": 6, "sugar": 86}},
+
+    # Coconut variants
+    "sweetened shredded coconut": {"cup": {"cal": 466, "fat": 33, "carbs": 44, "protein": 3, "sodium": 244, "fiber": 4, "sugar": 40}},
+    "cocoanut": {"cup": {"cal": 283, "fat": 27, "carbs": 12, "protein": 3, "sodium": 16, "fiber": 7, "sugar": 5}},
+
+    # Spreads & condiments
+    "apple butter": {"tbsp": {"cal": 29, "fat": 0.1, "carbs": 7, "protein": 0.1, "sodium": 1, "fiber": 0.3, "sugar": 6}},
+    "spicy salsa": {"cup": {"cal": 70, "fat": 0.4, "carbs": 14, "protein": 3, "sodium": 1400, "fiber": 4, "sugar": 8}},
+
+    # Seeds & spices
+    "mustard seed": {"tsp": {"cal": 15, "fat": 1, "carbs": 1, "protein": 0.8, "sodium": 0, "fiber": 0.4, "sugar": 0}},
+    "caraway seeds": {"tsp": {"cal": 7, "fat": 0.3, "carbs": 1, "protein": 0.4, "sodium": 0, "fiber": 0.8, "sugar": 0}},
+    "caraway seed": {"tsp": {"cal": 7, "fat": 0.3, "carbs": 1, "protein": 0.4, "sodium": 0, "fiber": 0.8, "sugar": 0}},
+    "coriander seed": {"tsp": {"cal": 5, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 1, "fiber": 0.8, "sugar": 0}},
+    "spice": {"tsp": {"cal": 6, "fat": 0.2, "carbs": 1, "protein": 0.1, "sodium": 1, "fiber": 0.5, "sugar": 0}},
+    "mild chili powder": {"tsp": {"cal": 8, "fat": 0.4, "carbs": 1.4, "protein": 0.3, "sodium": 26, "fiber": 0.9, "sugar": 0.2}},
+
+    # Dairy
+    "eggnog": {"cup": {"cal": 343, "fat": 19, "carbs": 34, "protein": 10, "sodium": 137, "fiber": 0, "sugar": 34}},
+    "coconut custard": {"cup": {"cal": 280, "fat": 14, "carbs": 32, "protein": 8, "sodium": 180, "fiber": 1, "sugar": 28}},
+    "milk or cream": {"cup": {"cal": 150, "fat": 8, "carbs": 12, "protein": 8, "sodium": 105, "fiber": 0, "sugar": 12}},
+    "lukewarm milk": {"cup": {"cal": 149, "fat": 8, "carbs": 12, "protein": 8, "sodium": 105, "fiber": 0, "sugar": 12}},
+
+    # Flour variants
+    "buckwheat flour": {"cup": {"cal": 402, "fat": 4, "carbs": 85, "protein": 15, "sodium": 13, "fiber": 12, "sugar": 3}},
+
+    # Apples
+    "tart apples": {"each": {"cal": 80, "fat": 0.3, "carbs": 21, "protein": 0.4, "sodium": 1, "fiber": 4, "sugar": 15}},
+    "tart cooking apples": {"each": {"cal": 80, "fat": 0.3, "carbs": 21, "protein": 0.4, "sodium": 1, "fiber": 4, "sugar": 15}},
+
+    # Yeast variants
+    "yeast cake": {"each": {"cal": 10, "fat": 0.1, "carbs": 1.5, "protein": 1.3, "sodium": 4, "fiber": 0.8, "sugar": 0}},
+    "cake yeast": {"each": {"cal": 10, "fat": 0.1, "carbs": 1.5, "protein": 1.3, "sodium": 4, "fiber": 0.8, "sugar": 0}},
+    "granulated yeast": {"tsp": {"cal": 8, "fat": 0.1, "carbs": 1, "protein": 1, "sodium": 2, "fiber": 0.5, "sugar": 0}},
+
+    # Canned goods
+    "can tomato soup": {"can": {"cal": 161, "fat": 2.4, "carbs": 33, "protein": 4, "sodium": 1710, "fiber": 1.6, "sugar": 20}},
+    "strained tomato": {"cup": {"cal": 41, "fat": 0.3, "carbs": 9, "protein": 2, "sodium": 800, "fiber": 2, "sugar": 7}},
+
+    # Cereals
+    "kellogg's rice krispies cereal": {"cup": {"cal": 96, "fat": 0.3, "carbs": 23, "protein": 2, "sodium": 190, "fiber": 0.3, "sugar": 3}},
+    "rice krispies": {"cup": {"cal": 96, "fat": 0.3, "carbs": 23, "protein": 2, "sodium": 190, "fiber": 0.3, "sugar": 3}},
+
+    # Vegetables
+    "shelled peas": {"cup": {"cal": 117, "fat": 0.6, "carbs": 21, "protein": 8, "sodium": 7, "fiber": 7, "sugar": 8}},
+    "one carrot": {"each": {"cal": 25, "fat": 0.1, "carbs": 6, "protein": 0.6, "sodium": 42, "fiber": 1.7, "sugar": 3}},
+
+    # Misc prepared
+    "stove top stuffing": {"cup": {"cal": 177, "fat": 9, "carbs": 21, "protein": 4, "sodium": 522, "fiber": 1, "sugar": 3}},
+    "fine sugar": {"cup": {"cal": 774, "fat": 0, "carbs": 200, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 200}},
 }
 
 # =============================================================================
@@ -1803,6 +2000,66 @@ def normalize_ingredient(item):
         "% milk": "milk",
         "spices": "allspice",
         "flavoring": "vanilla extract",
+
+        # Round 5 gap analysis synonyms
+        "c walnuts": "walnuts",
+        "c salad oil": "salad oil",
+        "c lemo n juice": "lemon juice",
+        "tbs flour": "flour",
+        "mozzarella chees e": "mozzarella cheese",
+        "d onion": "onion",
+        "cutgreen peppers": "green pepper",
+        "pulverized sugar": "powdered sugar",
+        "teaspoon pepper": "pepper",
+        "of pepper": "pepper",
+        "t cold water": "water",
+        "glass white wine": "dry white wine",
+        "olive or vegetable oil": "olive oil",
+        "margarine or butter": "butter",
+        "cereals or muesli": "muesli",
+        "two tablespoons ofbutter": "butter",
+        "two tablespoonfuls ofsugar": "sugar",
+        "four branches ofparsley": "parsley",
+        "three tablespoons offinely minced parsley": "parsley",
+        "two teaspoonfuls ofsalt": "salt",
+        "one teaspoonful ofsalt": "salt",
+        "two level tablespoons ofbaking powder": "baking powder",
+        "three cupsofflour": "flour",
+        "ofmilk": "milk",
+
+        # Historical cookbook OCR artifacts
+        "double-acting or 11/2 teaspoons cream tartar baking powder": "baking powder",
+        "double-acting or 11/4 teaspoons cream tartar baking powder": "baking powder",
+        "double-acting or 3 teaspoons cream tartar baking powder": "baking powder",
+        "pastry for 2-crust": "pie crust",
+        "cooked": "chicken",
+        "meal": "cornmeal",
+
+        # Round 6 synonyms
+        "confectioners' sugar": "powdered sugar",
+        "ugar": "sugar",
+        "ugar;": "sugar",
+        "cheddar": "cheddar cheese",
+        "tablespoons butter": "butter",
+        "vinegar or lemon juice": "vinegar",
+        "c brown sugar": "brown sugar",
+        "two ofsugar": "sugar",
+        "and a half sugar": "sugar",
+        "butter with two sugar": "butter",
+        "three teaspoonfuls baking powder": "baking powder",
+        "three tablespoons ofbaking powder": "baking powder",
+        "four cupsofsifted flour": "flour",
+        "two tablespoons ofshortening": "shortening",
+        "to 4 flour": "flour",
+        "juice 1 lemon": "lemon juice",
+        "black molasses": "molasses",
+        "no 2 can crushed pineapple": "crushed pineapple",
+        "one 9-inch pie shell": "pie crust",
+        "pastry for 9\" shell": "pie crust",
+        "s stewing beef": "stewing beef",
+        "miniature marshmallows or 20 regular marshmallows": "miniature marshmallows",
+        "orange zest strips": "orange zest",
+        "stove top stuffi ng": "stove top stuffing",
     }
 
     # Check for exact match first
