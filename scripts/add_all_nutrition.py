@@ -163,6 +163,8 @@ NUTRITION_DB = {
     "pork loin": {"lb": {"cal": 680, "fat": 24, "carbs": 0, "protein": 116, "sodium": 280, "fiber": 0, "sugar": 0}},
     "pork tenderloin": {"lb": {"cal": 544, "fat": 12, "carbs": 0, "protein": 104, "sodium": 240, "fiber": 0, "sugar": 0}},
     "bacon": {"slice": {"cal": 43, "fat": 3, "carbs": 0, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0},
+             "strip": {"cal": 43, "fat": 3, "carbs": 0, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0},
+             "strips": {"cal": 43, "fat": 3, "carbs": 0, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0},
              "lb": {"cal": 2420, "fat": 232, "carbs": 0, "protein": 60, "sodium": 3040, "fiber": 0, "sugar": 0}},
     "ham": {"cup": {"cal": 207, "fat": 11, "carbs": 2, "protein": 24, "sodium": 1684, "fiber": 0, "sugar": 0},
            "lb": {"cal": 620, "fat": 32, "carbs": 4, "protein": 80, "sodium": 5050, "fiber": 0, "sugar": 0}},
@@ -178,6 +180,10 @@ NUTRITION_DB = {
               "cup": {"cal": 120, "fat": 2, "carbs": 1, "protein": 23, "sodium": 200, "fiber": 0, "sugar": 0}},
     "salmon": {"lb": {"cal": 936, "fat": 56, "carbs": 0, "protein": 104, "sodium": 260, "fiber": 0, "sugar": 0},
               "oz": {"cal": 59, "fat": 3.5, "carbs": 0, "protein": 6.5, "sodium": 16, "fiber": 0, "sugar": 0}},
+    "trout": {"lb": {"cal": 680, "fat": 28, "carbs": 0, "protein": 104, "sodium": 260, "fiber": 0, "sugar": 0},
+              "oz": {"cal": 43, "fat": 1.8, "carbs": 0, "protein": 6.5, "sodium": 16, "fiber": 0, "sugar": 0},
+              "fillet": {"cal": 215, "fat": 9, "carbs": 0, "protein": 33, "sodium": 81, "fiber": 0, "sugar": 0},
+              "fillets": {"cal": 215, "fat": 9, "carbs": 0, "protein": 33, "sodium": 81, "fiber": 0, "sugar": 0}},
     "tuna": {"can": {"cal": 179, "fat": 1, "carbs": 0, "protein": 40, "sodium": 558, "fiber": 0, "sugar": 0},
             "cup": {"cal": 179, "fat": 1, "carbs": 0, "protein": 40, "sodium": 558, "fiber": 0, "sugar": 0}},
     "cod": {"lb": {"cal": 372, "fat": 4, "carbs": 0, "protein": 80, "sodium": 280, "fiber": 0, "sugar": 0}},
@@ -278,6 +284,22 @@ NUTRITION_DB = {
     "avocado": {"": {"cal": 234, "fat": 21, "carbs": 12, "protein": 3, "sodium": 10, "fiber": 10, "sugar": 1},
                "cup": {"cal": 234, "fat": 21, "carbs": 12, "protein": 3, "sodium": 10, "fiber": 10, "sugar": 1}},
     "artichoke": {"": {"cal": 60, "fat": 0.2, "carbs": 13, "protein": 4, "sodium": 120, "fiber": 7, "sugar": 1}},
+    "leek": {"cup": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1, "sodium": 18, "fiber": 2, "sugar": 3},
+             "": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1, "sodium": 18, "fiber": 2, "sugar": 3}},
+    "leeks": {"cup": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1, "sodium": 18, "fiber": 2, "sugar": 3},
+              "": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1, "sodium": 18, "fiber": 2, "sugar": 3}},
+    "parsley": {"cup": {"cal": 22, "fat": 0.5, "carbs": 4, "protein": 2, "sodium": 34, "fiber": 2, "sugar": 0.5},
+                "tbsp": {"cal": 1, "fat": 0, "carbs": 0.2, "protein": 0.1, "sodium": 2, "fiber": 0.1, "sugar": 0}},
+    "cilantro": {"cup": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 3, "fiber": 0.2, "sugar": 0},
+                 "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "basil": {"cup": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.2, "sodium": 0, "fiber": 0.1, "sugar": 0},
+              "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "chives": {"tbsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 0, "fiber": 0.1, "sugar": 0}},
+    "dill": {"tbsp": {"cal": 0, "fat": 0, "carbs": 0.1, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0}},
+    "mint": {"tbsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0}},
+    "rosemary": {"tbsp": {"cal": 2, "fat": 0.1, "carbs": 0.4, "protein": 0, "sodium": 1, "fiber": 0.2, "sugar": 0}},
+    "thyme": {"tbsp": {"cal": 1, "fat": 0, "carbs": 0.2, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0}},
+    "sage": {"tbsp": {"cal": 2, "fat": 0.1, "carbs": 0.4, "protein": 0.1, "sodium": 0, "fiber": 0.3, "sugar": 0}},
 
     # =========================================================================
     # FRUITS
@@ -344,6 +366,11 @@ NUTRITION_DB = {
              "lb": {"cal": 756, "fat": 4.5, "carbs": 148, "protein": 27, "sodium": 3, "fiber": 10, "sugar": 3}},
     "egg noodles": {"cup": {"cal": 221, "fat": 3.3, "carbs": 40, "protein": 7, "sodium": 8, "fiber": 2, "sugar": 0.5}},
     "oats": {"cup": {"cal": 307, "fat": 5, "carbs": 55, "protein": 11, "sodium": 5, "fiber": 8, "sugar": 1}},
+    "instant oatmeal": {"packet": {"cal": 100, "fat": 2, "carbs": 19, "protein": 4, "sodium": 75, "fiber": 3, "sugar": 1},
+                        "packets": {"cal": 100, "fat": 2, "carbs": 19, "protein": 4, "sodium": 75, "fiber": 3, "sugar": 1},
+                        "oz": {"cal": 100, "fat": 2, "carbs": 19, "protein": 4, "sodium": 75, "fiber": 3, "sugar": 1},
+                        "1-oz": {"cal": 100, "fat": 2, "carbs": 19, "protein": 4, "sodium": 75, "fiber": 3, "sugar": 1},
+                        "cup": {"cal": 150, "fat": 3, "carbs": 28, "protein": 6, "sodium": 113, "fiber": 4, "sugar": 1}},
     "quinoa": {"cup": {"cal": 222, "fat": 3.6, "carbs": 39, "protein": 8, "sodium": 13, "fiber": 5, "sugar": 2}},
     "couscous": {"cup": {"cal": 176, "fat": 0.3, "carbs": 36, "protein": 6, "sodium": 8, "fiber": 2, "sugar": 0}},
     "breadcrumbs": {"cup": {"cal": 427, "fat": 6, "carbs": 78, "protein": 14, "sodium": 791, "fiber": 5, "sugar": 6}},
@@ -447,7 +474,8 @@ NUTRITION_DB = {
                "cup": {"cal": 43, "fat": 0, "carbs": 0.9, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 0.4}},
     "apple cider vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0.1, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0}},
     "balsamic vinegar": {"tbsp": {"cal": 14, "fat": 0, "carbs": 3, "protein": 0, "sodium": 4, "fiber": 0, "sugar": 2}},
-    "red wine vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0}},
+    "red wine vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0},
+                         "cup": {"cal": 45, "fat": 0, "carbs": 0, "protein": 0, "sodium": 12, "fiber": 0, "sugar": 0}},
     "white wine vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0}},
     "rice vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
 
@@ -755,6 +783,16 @@ def normalize_ingredient(item):
         "vanilla": "vanilla extract",
         "pure vanilla": "vanilla extract",
 
+        # Oatmeal
+        "instant oatmeal packets": "instant oatmeal",
+        "instant oatmeal packets plain": "instant oatmeal",
+        "oatmeal packets": "instant oatmeal",
+        "quaker instant oatmeal": "instant oatmeal",
+        "quaker oats instant oatmeal": "instant oatmeal",
+        "quick oats": "oats",
+        "rolled oats": "oats",
+        "old fashioned oats": "oats",
+
         # Baking
         "baking cocoa": "cocoa powder",
         "unsweetened cocoa": "cocoa powder",
@@ -787,6 +825,26 @@ def normalize_ingredient(item):
         "stewed tomatoes": "canned tomatoes",
         "whole tomatoes": "canned tomatoes",
 
+        # Herbs
+        "fresh parsley": "parsley",
+        "flat-leaf parsley": "parsley",
+        "italian parsley": "parsley",
+        "fresh cilantro": "cilantro",
+        "fresh basil": "basil",
+        "fresh dill": "dill",
+        "fresh thyme": "thyme",
+        "fresh rosemary": "rosemary",
+        "fresh mint": "mint",
+        "fresh sage": "sage",
+
+        # Fish
+        "trout fillets": "trout",
+        "trout fillet": "trout",
+        "salmon fillets": "salmon",
+        "salmon fillet": "salmon",
+        "skinless trout": "trout",
+        "skinless salmon": "salmon",
+
         # Misc
         "fresh lemon juice": "lemon juice",
         "fresh lime juice": "lime juice",
@@ -794,6 +852,10 @@ def normalize_ingredient(item):
         "sour cream": "sour cream",
         "plain greek yogurt": "greek yogurt",
         "non-fat greek yogurt": "greek yogurt",
+        "thick-cut bacon": "bacon",
+        "thick cut bacon": "bacon",
+        "turkey bacon": "bacon",
+        "center-cut bacon": "bacon",
     }
 
     # Check for exact match first
@@ -818,6 +880,13 @@ def get_nutrition_for_ingredient(ingredient):
     item = normalize_ingredient(ingredient.get("item", ""))
     quantity = parse_quantity(ingredient.get("quantity", "1"))
     unit = normalize_unit(ingredient.get("unit", ""))
+
+    # Handle compound units like "5-oz" or "6-inch" -> extract multiplier
+    compound_match = re.match(r'^(\d+(?:\.\d+)?)-?(\w+)$', unit)
+    if compound_match:
+        unit_multiplier = float(compound_match.group(1))
+        unit = compound_match.group(2)
+        quantity = quantity * unit_multiplier
 
     # Handle "to taste" - minimal impact
     if "to taste" in str(ingredient.get("unit", "")).lower() or "to taste" in str(ingredient.get("item", "")).lower():

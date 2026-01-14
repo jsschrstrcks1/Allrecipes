@@ -333,16 +333,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 145,
-          "fat_g": 6.9,
-          "carbs_g": 16.9,
-          "protein_g": 5.0,
-          "sodium_mg": 237,
-          "fiber_g": 1.9,
-          "sugar_g": 7.8
+          "calories": 171,
+          "fat_g": 7.3,
+          "carbs_g": 21.4,
+          "protein_g": 5.9,
+          "sodium_mg": 238,
+          "fiber_g": 2.6,
+          "sugar_g": 7.9
         },
         "missing_inputs": [
-          "1 cup old fashioned oats",
           "1/4 cup wheat germ"
         ],
         "assumptions": [
@@ -7269,9 +7268,9 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 176,
+          "calories": 177,
           "fat_g": 10.5,
-          "carbs_g": 7.8,
+          "carbs_g": 7.9,
           "protein_g": 12.3,
           "sodium_mg": 183,
           "fiber_g": 0.1,
@@ -7282,8 +7281,7 @@
           "1  chopped shallot",
           "4 oz grated mild cheddar",
           "1/2 tsp mustard powder",
-          "4 oz chopped ham",
-          "1 1/2 tbsp chopped chives"
+          "4 oz chopped ham"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -8568,16 +8566,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 213,
-          "fat_g": 9.6,
-          "carbs_g": 33.7,
-          "protein_g": 2.8,
-          "sodium_mg": 292,
-          "fiber_g": 2.8,
-          "sugar_g": 29.4
+          "calories": 329,
+          "fat_g": 11.4,
+          "carbs_g": 54.3,
+          "protein_g": 6.9,
+          "sodium_mg": 294,
+          "fiber_g": 5.8,
+          "sugar_g": 29.8
         },
         "missing_inputs": [
-          "1 1/2 cups rolled oats",
           "1/4 cup whole-wheat flour",
           "1/4 cup unsweetened orange juice",
           "1 1/2 cups granny smith apples, peeled and grated"
@@ -9105,13 +9102,12 @@
           "carbs_g": 0.9,
           "protein_g": 16.1,
           "sodium_mg": 358,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 0.7
         },
         "missing_inputs": [
           "4  ciabatta rolls",
           "8  slices of deli cooked ham",
-          "2 tbsp chives, chopped",
           "8  slices of tomato"
         ],
         "assumptions": [
@@ -9325,13 +9321,12 @@
           "calories": 216,
           "fat_g": 19.6,
           "carbs_g": 0.9,
-          "protein_g": 9.1,
+          "protein_g": 9.2,
           "sodium_mg": 203,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 0.6
         },
         "missing_inputs": [
-          "2 tbsp chives, chopped",
           "1  large plum tomato, diced",
           "1/4 cup fresh basil, chopped finely",
           "1  large French baguette"
@@ -9972,9 +9967,9 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 144,
+          "calories": 145,
           "fat_g": 10.0,
           "carbs_g": 0.9,
           "protein_g": 12.1,
@@ -9984,8 +9979,7 @@
         },
         "missing_inputs": [
           "8 oz ricotta cheese",
-          "1 tbsp spring onion greens, minced",
-          "1 tbsp chives, finely chopped"
+          "1 tbsp spring onion greens, minced"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12706,16 +12700,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 273,
+          "calories": 274,
           "fat_g": 22.5,
-          "carbs_g": 0.9,
+          "carbs_g": 1.0,
           "protein_g": 16.1,
           "sodium_mg": 612,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 0.7
         },
         "missing_inputs": [
-          "3 tbsp fresh chives, minced",
           "2  whole ciabatta, sliced lengthwise and toasted",
           "8  slices spiced ham, cooked and sliced diagonally",
           "12  bacon strips, cooked and drained",
@@ -13823,20 +13816,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 246,
-          "fat_g": 18.4,
-          "carbs_g": 20.3,
-          "protein_g": 1.4,
+          "calories": 266,
+          "fat_g": 18.7,
+          "carbs_g": 23.7,
+          "protein_g": 2.1,
           "sodium_mg": 279,
-          "fiber_g": 0.1,
-          "sugar_g": 19.3
+          "fiber_g": 0.6,
+          "sugar_g": 19.4
         },
         "missing_inputs": [
           "1-3/4 cups self-raising flour",
-          "1/2 cup whole-wheat flour",
-          "1/2 cup rolled oats"
+          "1/2 cup whole-wheat flour"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -17928,19 +17920,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 342,
-          "fat_g": 15.0,
-          "carbs_g": 46.9,
-          "protein_g": 6.1,
-          "sodium_mg": 513,
-          "fiber_g": 0.9,
-          "sugar_g": 28.2
+          "calories": 419,
+          "fat_g": 16.2,
+          "carbs_g": 60.7,
+          "protein_g": 8.8,
+          "sodium_mg": 514,
+          "fiber_g": 2.9,
+          "sugar_g": 28.4
         },
-        "missing_inputs": [
-          "1 cup rolled oats"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
@@ -18627,16 +18617,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 86,
-          "fat_g": 7.0,
-          "carbs_g": 6.9,
-          "protein_g": 0.2,
-          "sodium_mg": 146,
-          "fiber_g": 0.8,
-          "sugar_g": 5.8
+          "calories": 239,
+          "fat_g": 9.5,
+          "carbs_g": 34.4,
+          "protein_g": 5.8,
+          "sodium_mg": 148,
+          "fiber_g": 4.8,
+          "sugar_g": 6.3
         },
         "missing_inputs": [
-          "2 cups old-fashioned rolled oats",
           "1/3 cup wheat germ",
           "2 tbsp Truvia natural sweetener spoonable",
           "2 tsp pumpkin pie spice",
@@ -19884,16 +19873,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 131,
-          "fat_g": 6.8,
-          "carbs_g": 13.4,
-          "protein_g": 4.8,
-          "sodium_mg": 237,
-          "fiber_g": 1.2,
-          "sugar_g": 5.3
+          "calories": 157,
+          "fat_g": 7.2,
+          "carbs_g": 17.9,
+          "protein_g": 5.8,
+          "sodium_mg": 238,
+          "fiber_g": 1.9,
+          "sugar_g": 5.4
         },
         "missing_inputs": [
-          "1 cup old fashioned oats",
           "1/4 cup wheat germ",
           "2 cups frozen or fresh blueberries"
         ],
@@ -28956,10 +28944,10 @@
         "per_serving": {
           "calories": 118,
           "fat_g": 7.0,
-          "carbs_g": 5.2,
+          "carbs_g": 5.3,
           "protein_g": 8.2,
           "sodium_mg": 97,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 3.4
         },
         "missing_inputs": [
@@ -28968,8 +28956,7 @@
           "4 oz grated mild cheddar",
           "1/2 tsp mustard powder",
           "salt and pepper",
-          "4 oz chopped ham",
-          "1 1/2 tbsp chopped chives"
+          "4 oz chopped ham"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -30454,16 +30441,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 71,
-          "fat_g": 3.2,
-          "carbs_g": 11.2,
-          "protein_g": 0.9,
-          "sodium_mg": 97,
-          "fiber_g": 0.9,
-          "sugar_g": 9.8
+          "calories": 110,
+          "fat_g": 3.8,
+          "carbs_g": 18.1,
+          "protein_g": 2.3,
+          "sodium_mg": 98,
+          "fiber_g": 1.9,
+          "sugar_g": 9.9
         },
         "missing_inputs": [
-          "1 1/2 cups rolled oats",
           "1/4 cup whole-wheat flour",
           "1/4 cup unsweetened orange juice",
           "1 1/2 cups granny smith apples"
@@ -31036,7 +31022,7 @@
         "per_serving": {
           "calories": 317,
           "fat_g": 22.9,
-          "carbs_g": 10.8,
+          "carbs_g": 10.9,
           "protein_g": 18.1,
           "sodium_mg": 333,
           "fiber_g": 3.0,
@@ -31045,7 +31031,6 @@
         "missing_inputs": [
           "4  ciabatta rolls",
           "8 slices deli cooked ham",
-          "2 tbsp chives",
           "salt and pepper"
         ],
         "assumptions": [
@@ -31274,13 +31259,12 @@
           "calories": 216,
           "fat_g": 19.6,
           "carbs_g": 0.9,
-          "protein_g": 9.1,
+          "protein_g": 9.2,
           "sodium_mg": 165,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 0.6
         },
         "missing_inputs": [
-          "2 tbsp chives",
           "1 large plum tomato",
           "salt and pepper",
           "1/4 cup fresh basil",
@@ -31743,16 +31727,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 137,
-          "fat_g": 11.9,
+          "calories": 180,
+          "fat_g": 14.9,
           "carbs_g": 0.4,
-          "protein_g": 6.9,
-          "sodium_mg": 132,
+          "protein_g": 9.9,
+          "sodium_mg": 269,
           "fiber_g": 0.0,
           "sugar_g": 0.4
         },
         "missing_inputs": [
-          "8 slices thick cut bacon",
           "salt and pepper"
         ],
         "assumptions": [
@@ -32014,7 +31997,6 @@
         "missing_inputs": [
           "8 oz ricotta cheese",
           "1 tbsp spring onion greens",
-          "1 tbsp chives",
           "salt and pepper"
         ],
         "assumptions": [
@@ -32806,18 +32788,17 @@
       ],
       "source_note": "Reference cookbook - Book Four: More Quick and Easy Breakfast Recipes",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 128,
-          "fat_g": 6.2,
+          "calories": 160,
+          "fat_g": 8.5,
           "carbs_g": 9.9,
-          "protein_g": 8.0,
-          "sodium_mg": 97,
+          "protein_g": 10.2,
+          "sodium_mg": 199,
           "fiber_g": 1.1,
           "sugar_g": 1.0
         },
         "missing_inputs": [
-          "6 slices thick cut bacon",
           "salt and pepper",
           "1 large plum tomato"
         ],
@@ -35230,16 +35211,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 317,
+          "calories": 318,
           "fat_g": 22.9,
-          "carbs_g": 10.9,
+          "carbs_g": 11.0,
           "protein_g": 18.1,
           "sodium_mg": 624,
-          "fiber_g": 3.0,
+          "fiber_g": 3.1,
           "sugar_g": 6.7
         },
         "missing_inputs": [
-          "3 tbsp fresh chives",
           "2  whole ciabatta",
           "8 slices spiced ham",
           "12  bacon strips"
@@ -36608,20 +36588,19 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 246,
-          "fat_g": 18.4,
-          "carbs_g": 20.3,
-          "protein_g": 1.4,
+          "calories": 266,
+          "fat_g": 18.7,
+          "carbs_g": 23.7,
+          "protein_g": 2.1,
           "sodium_mg": 279,
-          "fiber_g": 0.1,
-          "sugar_g": 19.3
+          "fiber_g": 0.6,
+          "sugar_g": 19.4
         },
         "missing_inputs": [
           "1-3/4 cups self-raising flour",
-          "1/2 cup whole-wheat flour",
-          "1/2 cup rolled oats"
+          "1/2 cup whole-wheat flour"
         ],
         "assumptions": [
           "Calculated for 8 servings"
