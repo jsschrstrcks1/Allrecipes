@@ -1898,6 +1898,81 @@ NUTRITION_DB = {
              "oz": {"cal": 152, "fat": 10, "carbs": 14, "protein": 1.7, "sodium": 149, "fiber": 1.1, "sugar": 0.3}},
     "pita": {"each": {"cal": 165, "fat": 0.7, "carbs": 34, "protein": 5.5, "sodium": 322, "fiber": 1.3, "sugar": 0.7},
             "half": {"cal": 82, "fat": 0.4, "carbs": 17, "protein": 2.8, "sodium": 161, "fiber": 0.7, "sugar": 0.4}},
+
+    # BATCH 16: Remaining missing ingredients and expanded units
+    # Alcohol/beverages
+    "silver tequila": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+                      "shot": {"cal": 97, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "tequila": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+               "shot": {"cal": 97, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "ginger beer": {"cup": {"cal": 124, "fat": 0, "carbs": 32, "protein": 0, "sodium": 13, "fiber": 0, "sugar": 31},
+                   "oz": {"cal": 15, "fat": 0, "carbs": 4, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 4}},
+    "light rum": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+                 "shot": {"cal": 97, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "dark rum": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+                "shot": {"cal": 97, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "orange liqueur": {"oz": {"cal": 103, "fat": 0, "carbs": 11, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 11},
+                      "tbsp": {"cal": 32, "fat": 0, "carbs": 3.4, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 3.4}},
+    # Specialty ingredients
+    "black sesame seeds": {"tbsp": {"cal": 52, "fat": 4.5, "carbs": 2, "protein": 1.6, "sodium": 1, "fiber": 1, "sugar": 0},
+                          "tsp": {"cal": 17, "fat": 1.5, "carbs": 0.7, "protein": 0.5, "sodium": 0, "fiber": 0.3, "sugar": 0}},
+    "ghee": {"tbsp": {"cal": 112, "fat": 13, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+            "cup": {"cal": 1792, "fat": 208, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+            "tsp": {"cal": 37, "fat": 4.3, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "white miso paste": {"tbsp": {"cal": 33, "fat": 1, "carbs": 4, "protein": 2, "sodium": 634, "fiber": 0.5, "sugar": 1},
+                        "tsp": {"cal": 11, "fat": 0.3, "carbs": 1.3, "protein": 0.7, "sodium": 211, "fiber": 0.2, "sugar": 0.3}},
+    "miso paste": {"tbsp": {"cal": 33, "fat": 1, "carbs": 4, "protein": 2, "sodium": 634, "fiber": 0.5, "sugar": 1},
+                  "tsp": {"cal": 11, "fat": 0.3, "carbs": 1.3, "protein": 0.7, "sodium": 211, "fiber": 0.2, "sugar": 0.3}},
+    "ground sumac": {"tsp": {"cal": 5, "fat": 0.1, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.3, "sugar": 0.2}},
+    "tajin": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 190, "fiber": 0, "sugar": 0}},
+    "char siu sauce": {"tbsp": {"cal": 45, "fat": 0, "carbs": 10, "protein": 1, "sodium": 520, "fiber": 0, "sugar": 8}},
+    "chipotle paste": {"tbsp": {"cal": 15, "fat": 0.5, "carbs": 3, "protein": 0.5, "sodium": 180, "fiber": 1, "sugar": 1},
+                      "tsp": {"cal": 5, "fat": 0.2, "carbs": 1, "protein": 0.2, "sodium": 60, "fiber": 0.3, "sugar": 0.3}},
+    "fine salt": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 2325, "fiber": 0, "sugar": 0}},
+    "chai masala": {"tsp": {"cal": 6, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 1, "fiber": 0.4, "sugar": 0}},
+    "summer savory": {"tsp": {"cal": 4, "fat": 0.1, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    # Meat
+    "beef ribs": {"lb": {"cal": 1060, "fat": 84, "carbs": 0, "protein": 72, "sodium": 280, "fiber": 0, "sugar": 0},
+                 "each": {"cal": 265, "fat": 21, "carbs": 0, "protein": 18, "sodium": 70, "fiber": 0, "sugar": 0}},
+    "ground lamb": {"lb": {"cal": 1120, "fat": 88, "carbs": 0, "protein": 76, "sodium": 320, "fiber": 0, "sugar": 0},
+                   "oz": {"cal": 70, "fat": 5.5, "carbs": 0, "protein": 4.8, "sodium": 20, "fiber": 0, "sugar": 0}},
+    "imitation crabmeat": {"oz": {"cal": 25, "fat": 0.3, "carbs": 3, "protein": 2.5, "sodium": 180, "fiber": 0, "sugar": 0.5},
+                          "cup": {"cal": 81, "fat": 1, "carbs": 10, "protein": 8, "sodium": 580, "fiber": 0, "sugar": 1.5}},
+    # Vegetables
+    "large carrot": {"": {"cal": 30, "fat": 0.2, "carbs": 7, "protein": 0.7, "sodium": 50, "fiber": 2, "sugar": 3.5}},
+    "medium beets": {"": {"cal": 35, "fat": 0.1, "carbs": 8, "protein": 1.3, "sodium": 64, "fiber": 2.3, "sugar": 6}},
+    "nori sheets": {"each": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.5, "sodium": 5, "fiber": 0.3, "sugar": 0}},
+    "nori": {"sheet": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.5, "sodium": 5, "fiber": 0.3, "sugar": 0}},
+    # Pickles
+    "dill pickles": {"each": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0.2, "sodium": 283, "fiber": 0.3, "sugar": 0.4},
+                    "cup": {"cal": 17, "fat": 0.2, "carbs": 4, "protein": 0.8, "sodium": 1208, "fiber": 1.2, "sugar": 1.5}},
+    "dill pickle spears": {"each": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0.2, "sodium": 283, "fiber": 0.3, "sugar": 0.4}},
+    "dill pickle juice": {"tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 210, "fiber": 0, "sugar": 0},
+                         "cup": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0, "sodium": 3360, "fiber": 0, "sugar": 0}},
+    # Cheese
+    "provolone": {"slice": {"cal": 75, "fat": 5.7, "carbs": 0.6, "protein": 5.5, "sodium": 190, "fiber": 0, "sugar": 0.2},
+                 "oz": {"cal": 100, "fat": 7.5, "carbs": 0.8, "protein": 7.3, "sodium": 250, "fiber": 0, "sugar": 0.3},
+                 "cup": {"cal": 463, "fat": 35, "carbs": 4, "protein": 34, "sodium": 1157, "fiber": 0, "sugar": 1}},
+    # Pudding/dessert
+    "vanilla pudding": {"cup": {"cal": 150, "fat": 2.5, "carbs": 28, "protein": 4, "sodium": 380, "fiber": 0, "sugar": 21},
+                       "pkg": {"cal": 100, "fat": 0, "carbs": 24, "protein": 0, "sodium": 350, "fiber": 0, "sugar": 20}},
+    # Rice
+    "quick-cooking rice": {"cup": {"cal": 165, "fat": 0.4, "carbs": 36, "protein": 3.4, "sodium": 1, "fiber": 0.6, "sugar": 0}},
+    # Expanded units for existing items with unit mismatches
+    "ground beef": {"lb": {"cal": 1152, "fat": 80, "carbs": 0, "protein": 96, "sodium": 320, "fiber": 0, "sugar": 0},
+                   "oz": {"cal": 72, "fat": 5, "carbs": 0, "protein": 6, "sodium": 20, "fiber": 0, "sugar": 0},
+                   "cup": {"cal": 339, "fat": 24, "carbs": 0, "protein": 28, "sodium": 94, "fiber": 0, "sugar": 0}},
+    "tomato sauce": {"cup": {"cal": 59, "fat": 0.5, "carbs": 13, "protein": 2.5, "sodium": 1284, "fiber": 3.4, "sugar": 8},
+                    "can": {"cal": 89, "fat": 0.8, "carbs": 20, "protein": 3.8, "sodium": 1926, "fiber": 5, "sugar": 12},
+                    "oz": {"cal": 7, "fat": 0.1, "carbs": 1.6, "protein": 0.3, "sodium": 160, "fiber": 0.4, "sugar": 1}},
+    "bacon": {"slice": {"cal": 43, "fat": 3.3, "carbs": 0.1, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0},
+             "strip": {"cal": 43, "fat": 3.3, "carbs": 0.1, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0},
+             "strips": {"cal": 43, "fat": 3.3, "carbs": 0.1, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0},
+             "lb": {"cal": 2400, "fat": 184, "carbs": 5, "protein": 168, "sodium": 7600, "fiber": 0, "sugar": 0},
+             "oz": {"cal": 150, "fat": 11.5, "carbs": 0.3, "protein": 10.5, "sodium": 475, "fiber": 0, "sugar": 0},
+             "cup": {"cal": 573, "fat": 44, "carbs": 1, "protein": 40, "sodium": 1820, "fiber": 0, "sugar": 0}},
+    "ketchup": {"tbsp": {"cal": 17, "fat": 0, "carbs": 4.5, "protein": 0.2, "sodium": 154, "fiber": 0, "sugar": 3.6},
+               "cup": {"cal": 272, "fat": 0, "carbs": 72, "protein": 3.2, "sodium": 2464, "fiber": 0, "sugar": 58}},
 }
 
 # =============================================================================
@@ -4833,6 +4908,89 @@ def normalize_ingredient(item):
         "lime wedges": "lime",
         "lime wedge": "lime",
         "orange wedges": "oranges",
+
+        # Batch 16: More synonyms for remaining variations
+        # Alcohol
+        "blanco tequila": "silver tequila",
+        "white tequila": "silver tequila",
+        "reposado tequila": "tequila",
+        "gold tequila": "tequila",
+        "triple sec": "orange liqueur",
+        "cointreau": "orange liqueur",
+        "grand marnier": "orange liqueur",
+        "orange liquor": "orange liqueur",
+        "white rum": "light rum",
+        "spiced rum": "dark rum",
+        "coconut rum": "light rum",
+        # Asian ingredients
+        "red miso": "miso paste",
+        "yellow miso": "miso paste",
+        "awase miso": "miso paste",
+        "hoisin": "hoisin sauce",
+        "chinese bbq sauce": "char siu sauce",
+        "seaweed sheets": "nori sheets",
+        "sushi nori": "nori sheets",
+        "roasted seaweed": "nori sheets",
+        # Pickles
+        "kosher dill pickles": "dill pickles",
+        "pickle spears": "dill pickle spears",
+        "pickle juice": "dill pickle juice",
+        # Cheese
+        "sliced provolone": "provolone",
+        "provolone cheese": "provolone",
+        "sharp provolone": "provolone",
+        # Carrot sizes
+        "carrots": "carrots",
+        "baby carrots": "carrots",
+        # Beets
+        "beets": "medium beets",
+        "red beets": "medium beets",
+        "golden beets": "medium beets",
+        # Chiles
+        "green chilli": "green chiles",
+        "green chillies": "green chiles",
+        "diced green chiles": "green chiles",
+        "chopped green chiles": "green chiles",
+        "green chilies": "green chiles",
+        # Rice
+        "minute rice": "quick-cooking rice",
+        "instant rice": "quick-cooking rice",
+        # Salt
+        "sea salt": "fine salt",
+        "kosher salt": "salt",
+        "table salt": "salt",
+        "flaky salt": "salt",
+        # Meat
+        "lamb": "ground lamb",
+        "ground lamb or beef": "ground lamb",
+        "beef or lamb": "ground beef",
+        "short ribs": "beef ribs",
+        "beef short ribs": "beef ribs",
+        "spare ribs": "beef ribs",
+        "crab sticks": "imitation crabmeat",
+        "imitation crabmeat sticks": "imitation crabmeat",
+        "surimi": "imitation crabmeat",
+        "krab": "imitation crabmeat",
+        # OCR artifacts to ignore
+        "specialist kit": "",
+        "congress st": "",
+        "tbutter": "butter",
+        "tflour": "flour",
+        "pn salt": "salt",
+        "^peck": "",
+        # Juice parsing issues
+        "juice from 1/2 lime juice": "lime juice",
+        "juice 1 lime": "lime juice",
+        "squeeze lime juice": "lime juice",
+        "lime juice)": "lime juice",
+        "fresh lime juice": "lime juice",
+        "fresh lemon juice": "lemon juice",
+        # Misc
+        "raisin": "raisins",
+        "tomato liquid": "tomato juice",
+        "torn romaine": "lettuce",
+        "g feta": "feta",
+        "g coriander": "coriander",
     }
 
     # Check for exact match first
@@ -4859,6 +5017,11 @@ EQUIPMENT_WORDS = {
     "flour sifter", "sifter", "vegetable-knife", "knife", "grater",
     "egg mixing-bowl", "butter mixing-bowl", "ugar mixing-spoon",
     "milk dover beater", "milk double-boiler",
+    # Batch 16: More equipment
+    "bamboo sushi mat", "sushi mat", "rolling mat", "bamboo mat",
+    "plastic wrap", "parchment paper", "aluminum foil", "wax paper",
+    "skewer", "skewers", "toothpick", "toothpicks",
+    "specialist kit",
     # Meta instructions
     "for the cake:", "for the frosting:", "for the filling:",
     "mrs.wilson's cookbook", "-inch", "-sized",
