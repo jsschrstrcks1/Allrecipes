@@ -1056,11 +1056,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 33,
+          "calories": 32,
           "fat_g": 2.8,
-          "carbs_g": 0.8,
+          "carbs_g": 0.6,
           "protein_g": 1.1,
-          "sodium_mg": 55,
+          "sodium_mg": 53,
           "fiber_g": 0.0,
           "sugar_g": 0.2
         },
@@ -1176,17 +1176,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 363,
-          "fat_g": 24.3,
-          "carbs_g": 8.2,
-          "protein_g": 28.1,
-          "sodium_mg": 185,
-          "fiber_g": 0.3,
-          "sugar_g": 7.3
+          "calories": 500,
+          "fat_g": 26.0,
+          "carbs_g": 35.2,
+          "protein_g": 33.4,
+          "sodium_mg": 447,
+          "fiber_g": 1.4,
+          "sugar_g": 9.9
         },
         "missing_inputs": [
-          "1 bunch fresh dill",
-          "1 loaf pumpernickel bread"
+          "1 bunch fresh dill"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -1588,19 +1587,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 109,
-          "fat_g": 9.6,
-          "carbs_g": 0.9,
-          "protein_g": 4.8,
-          "sodium_mg": 133,
-          "fiber_g": 0.0,
-          "sugar_g": 0.5
+          "calories": 119,
+          "fat_g": 9.8,
+          "carbs_g": 2.8,
+          "protein_g": 5.2,
+          "sodium_mg": 152,
+          "fiber_g": 0.1,
+          "sugar_g": 0.7
         },
-        "missing_inputs": [
-          "1 sheet puff pastry"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from appetizers category"
