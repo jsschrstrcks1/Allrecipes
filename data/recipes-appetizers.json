@@ -1166,99 +1166,70 @@
       "total_time": "40 min (plus 2 days curing)",
       "ingredients": [
         {
-          "item": "FOR THE GRAVLAX:",
-          "quantity": "",
-          "unit": ""
-        },
-        {
           "item": "fennel seeds",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": ""
         },
         {
           "item": "white peppercorns",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": ""
         },
         {
           "item": "black peppercorns",
           "quantity": "2",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
-          "item": "coriander seeds",
+          "item": "coriander seed",
           "quantity": "1",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
-          "item": "kosher salt",
+          "item": "salt",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "kosher"
         },
         {
           "item": "sugar",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
         },
         {
-          "item": "grated grapefruit zest",
+          "item": "grapefruit zest",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": "grated"
         },
         {
-          "item": "fresh grapefruit juice",
+          "item": "salmon",
           "quantity": "2",
-          "unit": "tbsp"
+          "unit": "lb",
+          "prep_note": "center-cut, skin-on fillets"
         },
         {
-          "item": "center-cut skin-on salmon fillets, pin bones removed",
-          "quantity": "2",
-          "unit": "10-to-12-oz"
-        },
-        {
-          "item": "fresh dill, chopped",
+          "item": "dill",
           "quantity": "1",
-          "unit": "bunch"
+          "unit": "bunch",
+          "prep_note": "fresh, chopped"
         },
         {
-          "item": "FOR SERVING:",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "hard-cooked eggs, whites and yolks separated",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "sliced pumpernickel cocktail bread",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "small red onion, minced",
+          "item": "pumpernickel bread",
           "quantity": "1",
-          "unit": ""
+          "unit": "loaf",
+          "prep_note": "cocktail slices"
         },
         {
-          "item": "fresh chives, thinly sliced",
+          "item": "chives",
           "quantity": "1",
-          "unit": "bunch"
-        },
-        {
-          "item": "capers",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "prepared beet horseradish",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "radishes, thinly sliced",
-          "quantity": "1",
-          "unit": "bunch"
+          "unit": "bunch",
+          "prep_note": "thinly sliced"
         }
       ],
       "instructions": [
@@ -1298,23 +1269,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 98,
-          "fat_g": 2.7,
-          "carbs_g": 15.7,
-          "protein_g": 3.4,
-          "sodium_mg": 75,
-          "fiber_g": 1.0,
-          "sugar_g": 13.6
+          "calories": 289,
+          "fat_g": 14.2,
+          "carbs_g": 13.9,
+          "protein_g": 26.3,
+          "sodium_mg": 104,
+          "fiber_g": 0.8,
+          "sugar_g": 12.5
         },
         "missing_inputs": [
-          "1 tbsp grated grapefruit zest",
-          "2 10-to-12-oz center-cut skin-on salmon fillets, pin bones removed",
-          "1 bunch fresh dill, chopped",
-          "sliced pumpernickel cocktail bread",
-          "1 bunch fresh chives, thinly sliced",
-          "1/4 cup capers",
-          "1/4 cup prepared beet horseradish",
-          "1 bunch radishes, thinly sliced"
+          "1 tbsp grapefruit zest",
+          "1 bunch dill",
+          "1 loaf pumpernickel bread",
+          "1 bunch chives"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -1330,29 +1297,34 @@
       "source_note": "Food Network Magazine December 2010",
       "ingredients": [
         {
-          "item": "halved baby red potatoes",
+          "item": "baby red potatoes",
           "quantity": "12",
-          "unit": ""
+          "unit": "",
+          "prep_note": "halved"
         },
         {
-          "item": "sea salt",
+          "item": "salt",
           "quantity": "",
-          "unit": "to taste"
+          "unit": "to taste",
+          "prep_note": "sea salt"
         },
         {
-          "item": "cr\u00e8me fra\u00eeche",
-          "quantity": "",
-          "unit": "for topping"
+          "item": "sour cream",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "or cr\u00e8me fra\u00eeche"
         },
         {
-          "item": "chopped chives",
-          "quantity": "",
-          "unit": "for topping"
+          "item": "chives",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
         },
         {
-          "item": "fresh dill and/or parsley",
-          "quantity": "",
-          "unit": "for topping"
+          "item": "dill",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "fresh, or parsley"
         }
       ],
       "instructions": [
@@ -1379,21 +1351,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 244,
-          "fat_g": 0.3,
-          "carbs_g": 55.5,
-          "protein_g": 6.0,
-          "sodium_mg": 38,
-          "fiber_g": 6.0,
-          "sugar_g": 3.0
+          "calories": 259,
+          "fat_g": 1.7,
+          "carbs_g": 55.9,
+          "protein_g": 6.2,
+          "sodium_mg": 42,
+          "fiber_g": 6.1,
+          "sugar_g": 3.2
         },
-        "missing_inputs": [
-          "for topping cr\u00e8me fra\u00eeche",
-          "for topping chopped chives",
-          "for topping fresh dill and/or parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from appetizers category"
@@ -7797,20 +7765,20 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "One leek.",
-          "quantity": "",
+          "item": "leek",
+          "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "Four branches ofparsley.",
-          "quantity": "",
-          "unit": "",
+          "item": "parsley",
+          "quantity": "4",
+          "unit": "branches",
           "prep_note": ""
         },
         {
-          "item": "One tomato.",
-          "quantity": "",
+          "item": "tomato",
+          "quantity": "1",
           "unit": "",
           "prep_note": ""
         }
@@ -7852,20 +7820,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 6,
+          "fat_g": 0.1,
+          "carbs_g": 1.2,
+          "protein_g": 0.2,
+          "sodium_mg": 2,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
         },
         "missing_inputs": [
-          "One leek.",
-          "Four branches ofparsley.",
-          "One tomato."
+          "1  leek",
+          "4 branches parsley"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -8456,22 +8423,22 @@
       "total_time": "35 minutes",
       "ingredients": [
         {
-          "item": "lean ground beef",
+          "item": "ground beef",
           "quantity": "1",
           "unit": "lb",
-          "prep_note": ""
+          "prep_note": "lean"
         },
         {
           "item": "salt",
           "quantity": "",
-          "unit": "",
-          "prep_note": "to taste"
+          "unit": "to taste",
+          "prep_note": ""
         },
         {
           "item": "biscuits",
           "quantity": "2",
           "unit": "cans",
-          "prep_note": "10 count, flaky style"
+          "prep_note": "refrigerated"
         },
         {
           "item": "mozzarella cheese",
@@ -8483,13 +8450,13 @@
           "item": "tomato sauce",
           "quantity": "1",
           "unit": "can",
-          "prep_note": "8 oz"
+          "prep_note": ""
         },
         {
           "item": "green chiles",
-          "quantity": "1-2",
-          "unit": "cans",
-          "prep_note": "4 oz each, chopped"
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
@@ -8540,9 +8507,9 @@
           "fat_g": 1.1,
           "carbs_g": 0.1,
           "protein_g": 1.0,
-          "sodium_mg": 18,
+          "sodium_mg": 14,
           "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "sugar_g": 0.0
         },
         "missing_inputs": [
           "2 cans biscuits",
@@ -8840,39 +8807,46 @@
       "servings_yield": "80 pieces",
       "ingredients": [
         {
-          "item": "lean ground beef",
+          "item": "ground beef",
           "quantity": "1",
-          "unit": "lb"
+          "unit": "lb",
+          "prep_note": "lean"
         },
         {
           "item": "salt",
           "quantity": "",
-          "unit": "to taste"
+          "unit": "to taste",
+          "prep_note": ""
         },
         {
-          "item": "Triscuit (1\u00bd oz, each)",
+          "item": "crackers",
           "quantity": "2",
-          "unit": ""
+          "unit": "",
+          "prep_note": "Triscuit, 1.5 oz each"
         },
         {
-          "item": "refrigerator biscuits",
+          "item": "biscuits",
           "quantity": "1",
-          "unit": "can"
+          "unit": "can",
+          "prep_note": "refrigerated"
         },
         {
-          "item": "Spanish-style tomato sauce",
-          "quantity": "1",
-          "unit": "can (8 oz)"
+          "item": "tomato sauce",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "Spanish-style"
         },
         {
           "item": "mozzarella cheese",
           "quantity": "1/2",
-          "unit": "lb"
+          "unit": "lb",
+          "prep_note": ""
         },
         {
-          "item": "green chiles, chopped",
-          "quantity": "1-2",
-          "unit": "cans (4 oz each)"
+          "item": "green chiles",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
@@ -8928,11 +8902,11 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2  Triscuit (1\u00bd oz, each)",
-          "1 can refrigerator biscuits",
-          "1 can (8 oz) Spanish-style tomato sauce",
+          "2  crackers",
+          "1 can biscuits",
+          "8 oz tomato sauce",
           "1/2 lb mozzarella cheese",
-          "1-2 cans (4 oz each) green chiles, chopped"
+          "4 oz green chiles"
         ],
         "assumptions": [
           "Calculated for 80 servings"

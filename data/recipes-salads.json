@@ -5742,15 +5742,15 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bd cup sugar",
-          "quantity": "",
-          "unit": "",
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tblsp. flour",
-          "quantity": "1",
-          "unit": "",
+          "item": "flour",
+          "quantity": "1 1/2",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
@@ -5760,15 +5760,15 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup pineapple juice",
-          "quantity": "",
-          "unit": "",
+          "item": "pineapple juice",
+          "quantity": "1/2",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup lemon juice",
-          "quantity": "",
-          "unit": "",
+          "item": "lemon juice",
+          "quantity": "1/2",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -5801,22 +5801,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 96,
-          "fat_g": 8.0,
-          "carbs_g": 1.9,
-          "protein_g": 3.8,
-          "sodium_mg": 50,
-          "fiber_g": 0.0,
-          "sugar_g": 1.9
+          "calories": 226,
+          "fat_g": 8.2,
+          "carbs_g": 35.3,
+          "protein_g": 4.3,
+          "sodium_mg": 52,
+          "fiber_g": 0.3,
+          "sugar_g": 30.8
         },
-        "missing_inputs": [
-          "\u00bd cup sugar",
-          "1  \u00bd tblsp. flour",
-          "\u00bd cup pineapple juice",
-          "\u00bd cup lemon juice"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -7170,46 +7165,46 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "lemon-flavored gelatin",
+          "item": "gelatin",
           "quantity": "1",
           "unit": "pkg",
-          "prep_note": ""
+          "prep_note": "lemon-flavored"
         },
         {
-          "item": "hot water",
+          "item": "water",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "hot"
         },
         {
-          "item": "creamy cottage cheese",
+          "item": "cottage cheese",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "creamy"
         },
         {
           "item": "heavy cream",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "whipped"
+          "prep_note": ""
         },
         {
-          "item": "broken walnut meats",
+          "item": "walnuts",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "broken"
         },
         {
           "item": "maraschino cherries",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": "quartered"
+          "prep_note": ""
         },
         {
           "item": "crushed pineapple",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "well drained"
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -7233,20 +7228,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 113,
-          "fat_g": 11.0,
-          "carbs_g": 3.6,
-          "protein_g": 0.8,
-          "sodium_mg": 11,
-          "fiber_g": 0.2,
-          "sugar_g": 2.9
+          "calories": 177,
+          "fat_g": 16.4,
+          "carbs_g": 5.1,
+          "protein_g": 4.2,
+          "sodium_mg": 64,
+          "fiber_g": 0.8,
+          "sugar_g": 3.4
         },
         "missing_inputs": [
-          "1 pkg lemon-flavored gelatin",
-          "1/2 cup creamy cottage cheese",
-          "1/2 cup broken walnut meats",
           "1/2 cup maraschino cherries"
         ],
         "assumptions": [
@@ -8413,10 +8405,10 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "No. 2\u00bd can Bing cherries",
+          "item": "cherries",
           "quantity": "1",
-          "unit": "",
-          "prep_note": "pitted"
+          "unit": "can",
+          "prep_note": "Bing, pitted (No. 2\u00bd can)"
         },
         {
           "item": "lemon juice",
@@ -8425,22 +8417,22 @@
           "prep_note": ""
         },
         {
-          "item": "cherry-flavored gelatin",
+          "item": "gelatin",
           "quantity": "1",
           "unit": "pkg",
-          "prep_note": ""
+          "prep_note": "cherry-flavored"
         },
         {
-          "item": "broken pecan meats",
+          "item": "pecans",
           "quantity": "3/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "broken"
         },
         {
-          "item": "One 3-ounce bottle stuffed olives",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "sliced"
+          "item": "olives",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "stuffed, sliced"
         }
       ],
       "instructions": [
@@ -8464,20 +8456,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 6,
-          "fat_g": 0.0,
-          "carbs_g": 1.1,
-          "protein_g": 0.8,
+          "calories": 77,
+          "fat_g": 7.3,
+          "carbs_g": 2.5,
+          "protein_g": 1.8,
           "sodium_mg": 2,
-          "fiber_g": 0.1,
-          "sugar_g": 0.4
+          "fiber_g": 1.0,
+          "sugar_g": 0.8
         },
         "missing_inputs": [
-          "1  No. 2\u00bd can Bing cherries",
-          "3/4 cup broken pecan meats",
-          "One 3-ounce bottle stuffed olives"
+          "1 can cherries",
+          "3 oz olives"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -8641,22 +8632,22 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bd envelopes unflavored gelatin",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "gelatin",
+          "quantity": "1 1/2",
+          "unit": "envelope",
+          "prep_note": "unflavored"
         },
         {
-          "item": "cold water",
+          "item": "water",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "cold"
         },
         {
-          "item": "hot pineapple juice",
+          "item": "pineapple juice",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "hot"
         },
         {
           "item": "lemon juice",
@@ -8683,34 +8674,28 @@
           "prep_note": ""
         },
         {
-          "item": "chopped celery",
+          "item": "celery",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "chopped"
         },
         {
-          "item": "chopped red skinned apples",
+          "item": "apple",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "red skinned, chopped"
         },
         {
-          "item": "chopped dates",
+          "item": "dates",
           "quantity": "1/3",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "chopped"
         },
         {
-          "item": "broken pecans",
+          "item": "pecans",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "Few drops green vegetable coloring",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "prep_note": "broken"
         }
       ],
       "instructions": [
@@ -8734,20 +8719,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 99,
+          "calories": 104,
           "fat_g": 5.0,
           "carbs_g": 14.5,
-          "protein_g": 1.0,
-          "sodium_mg": 82,
+          "protein_g": 2.1,
+          "sodium_mg": 84,
           "fiber_g": 1.3,
           "sugar_g": 11.9
         },
         "missing_inputs": [
-          "1  \u00bd envelopes unflavored gelatin",
-          "1 cup chopped red skinned apples",
-          "Few drops green vegetable coloring"
+          "1 cup apple"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -12814,19 +12797,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 4,
-          "fat_g": 0.1,
-          "carbs_g": 0.8,
-          "protein_g": 0.2,
-          "sodium_mg": 20,
-          "fiber_g": 0.5,
-          "sugar_g": 0.2
+          "calories": 75,
+          "fat_g": 6.8,
+          "carbs_g": 3.8,
+          "protein_g": 0.9,
+          "sodium_mg": 24,
+          "fiber_g": 2.2,
+          "sugar_g": 1.5
         },
-        "missing_inputs": [
-          "1 cup cubed apple Icupnutmeats Salad dressing tomoisten"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

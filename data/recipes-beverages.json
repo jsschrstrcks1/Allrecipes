@@ -714,37 +714,44 @@
         {
           "item": "honey",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
         },
         {
-          "item": "boiling water",
+          "item": "water",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "boiling"
         },
         {
-          "item": "lemons, juiced",
+          "item": "lemon juice",
           "quantity": "2",
-          "unit": ""
+          "unit": "",
+          "prep_note": "from 2 lemons"
         },
         {
           "item": "apricot nectar",
           "quantity": "2",
-          "unit": "cups"
+          "unit": "cups",
+          "prep_note": ""
         },
         {
-          "item": "vodka (optional)",
+          "item": "vodka",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "optional"
         },
         {
           "item": "sparkling apple juice",
           "quantity": "1",
-          "unit": "bottle"
+          "unit": "bottle",
+          "prep_note": ""
         },
         {
-          "item": "lemon slices, for serving",
-          "quantity": "",
-          "unit": ""
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced, for serving"
         }
       ],
       "instructions": [
@@ -774,18 +781,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 207,
+          "calories": 203,
           "fat_g": 0.2,
-          "carbs_g": 55.4,
-          "protein_g": 0.9,
+          "carbs_g": 54.1,
+          "protein_g": 0.7,
           "sodium_mg": 6,
-          "fiber_g": 1.6,
-          "sugar_g": 52.0
+          "fiber_g": 1.1,
+          "sugar_g": 51.6
         },
         "missing_inputs": [
-          "1 cup vodka (optional)",
-          "1 bottle sparkling apple juice",
-          "lemon slices, for serving"
+          "2  lemon juice",
+          "1 cup vodka",
+          "1 bottle sparkling apple juice"
         ],
         "assumptions": [
           "Calculated for 4 servings",
