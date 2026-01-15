@@ -161,19 +161,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 40,
-          "fat_g": 4.3,
-          "carbs_g": 0.7,
-          "protein_g": 0.2,
-          "sodium_mg": 207,
-          "fiber_g": 0.1,
-          "sugar_g": 0.0
+          "calories": 81,
+          "fat_g": 4.7,
+          "carbs_g": 8.7,
+          "protein_g": 3.5,
+          "sodium_mg": 247,
+          "fiber_g": 3.3,
+          "sugar_g": 2.0
         },
-        "missing_inputs": [
-          "8 cups broccoli rabe, cut into 2-inch pieces"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]

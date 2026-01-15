@@ -22051,10 +22051,10 @@
           "prep_note": ""
         },
         {
-          "item": "unsweetened applesauce",
+          "item": "applesauce",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "unsweetened"
         },
         {
           "item": "cinnamon",
@@ -22063,22 +22063,16 @@
           "prep_note": ""
         },
         {
-          "item": "nonfat milk",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
           "item": "apple",
           "quantity": "1",
           "unit": "",
-          "prep_note": "peeled and diced"
+          "prep_note": "diced"
         },
         {
-          "item": "sugar free jam",
+          "item": "jam",
           "quantity": "",
-          "unit": "",
-          "prep_note": "for serving"
+          "unit": "for serving",
+          "prep_note": "sugar free"
         }
       ],
       "instructions": [
@@ -22132,18 +22126,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 184,
-          "fat_g": 11.0,
-          "carbs_g": 18.5,
-          "protein_g": 4.3,
-          "sodium_mg": 58,
+          "calories": 171,
+          "fat_g": 10.3,
+          "carbs_g": 17.5,
+          "protein_g": 3.7,
+          "sodium_mg": 49,
           "fiber_g": 2.5,
-          "sugar_g": 4.0
+          "sugar_g": 3.0
         },
         "missing_inputs": [
-          "1/2 cup unsweetened applesauce",
+          "1/2 cup applesauce",
           "1  apple",
-          "sugar free jam"
+          "for serving jam"
         ],
         "assumptions": [
           "Calculated for 12 servings"
@@ -42245,16 +42239,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 86,
+          "calories": 90,
           "fat_g": 4.4,
-          "carbs_g": 7.4,
-          "protein_g": 4.3,
+          "carbs_g": 8.2,
+          "protein_g": 4.4,
           "sodium_mg": 137,
           "fiber_g": 0.0,
-          "sugar_g": 7.4
+          "sugar_g": 8.0
         },
         "missing_inputs": [
-          "2 tbsp fruit juice",
           "Few gratings of nutmeg"
         ],
         "assumptions": [

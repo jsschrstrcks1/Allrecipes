@@ -6527,10 +6527,10 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": ". soup beans",
+          "item": "navy beans",
           "quantity": "1",
           "unit": "lb",
-          "prep_note": ""
+          "prep_note": "dried"
         },
         {
           "item": "ham bone",
@@ -6539,39 +6539,45 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup chopped onion",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
         },
         {
-          "item": "diced celery",
+          "item": "celery",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "diced"
         },
         {
-          "item": "can tomato sauce",
+          "item": "tomato sauce",
           "quantity": "1",
-          "unit": "",
+          "unit": "can",
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup diced potatoes",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "potato",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "diced"
         },
         {
-          "item": ". minced parsley",
+          "item": "parsley",
           "quantity": "2",
           "unit": "tsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "to taste",
           "prep_note": ""
         },
         {
-          "item": "salt and pepper",
+          "item": "pepper",
           "quantity": "",
-          "unit": "",
+          "unit": "to taste",
           "prep_note": ""
         }
       ],
@@ -6600,18 +6606,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 56,
+          "calories": 27,
           "fat_g": 0.1,
-          "carbs_g": 12.5,
-          "protein_g": 1.4,
-          "sodium_mg": 100,
-          "fiber_g": 2.0,
-          "sugar_g": 2.0
+          "carbs_g": 5.9,
+          "protein_g": 0.9,
+          "sodium_mg": 98,
+          "fiber_g": 1.3,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
-          "1 lb . soup beans",
+          "1 lb navy beans",
           "1  ham bone",
-          "1  can tomato sauce"
+          "1 can tomato sauce"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -6942,12 +6948,12 @@
           "item": "stewing hen",
           "quantity": "1",
           "unit": "",
-          "prep_note": "about 4-lbs."
+          "prep_note": "about 4 lbs"
         },
         {
-          "item": "qts. water",
+          "item": "water",
           "quantity": "4",
-          "unit": "",
+          "unit": "quart",
           "prep_note": ""
         },
         {
@@ -6957,15 +6963,15 @@
           "prep_note": "chopped"
         },
         {
-          "item": "ears corn",
+          "item": "corn",
           "quantity": "10",
-          "unit": "",
+          "unit": "ears",
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup celery",
-          "quantity": "",
-          "unit": "",
+          "item": "celery",
+          "quantity": "1/2",
+          "unit": "cup",
           "prep_note": "chopped with leaves"
         },
         {
@@ -6975,16 +6981,22 @@
           "prep_note": ""
         },
         {
-          "item": "salt and pepper",
+          "item": "salt",
           "quantity": "",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "to taste"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
         },
         {
           "item": "rivels",
           "quantity": "",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "egg noodle dumplings"
         }
       ],
       "instructions": [
@@ -7010,20 +7022,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 240,
+          "calories": 242,
           "fat_g": 5.0,
-          "carbs_g": 45.2,
+          "carbs_g": 45.6,
           "protein_g": 10.8,
-          "sodium_mg": 114,
-          "fiber_g": 5.5,
-          "sugar_g": 8.9
+          "sodium_mg": 124,
+          "fiber_g": 5.8,
+          "sugar_g": 9.1
         },
         "missing_inputs": [
           "1  stewing hen",
-          "4  qts. water",
-          "\u00bd cup celery",
           "rivels"
         ],
         "assumptions": [

@@ -5533,15 +5533,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 107,
-          "fat_g": 6.2,
-          "carbs_g": 12.8,
-          "protein_g": 1.5,
-          "sodium_mg": 42,
+          "calories": 95,
+          "fat_g": 6.1,
+          "carbs_g": 10.0,
+          "protein_g": 1.3,
+          "sodium_mg": 18,
           "fiber_g": 0.9,
-          "sugar_g": 7.6
+          "sugar_g": 7.2
         },
         "missing_inputs": [
+          "2 cups Kellogg's Rice Krispies cereal",
           "1/2 cup chopped dried cherries"
         ],
         "assumptions": [
@@ -5646,17 +5647,18 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 99,
-          "fat_g": 4.7,
-          "carbs_g": 14.6,
-          "protein_g": 1.1,
-          "sodium_mg": 42,
+          "calories": 87,
+          "fat_g": 4.6,
+          "carbs_g": 11.8,
+          "protein_g": 0.8,
+          "sodium_mg": 18,
           "fiber_g": 0.8,
-          "sugar_g": 9.0
+          "sugar_g": 8.6
         },
         "missing_inputs": [
+          "2 cups Kellogg's Rice Krispies cereal",
           "1 cup butterscotch morsels",
           "1/2 cup crunchy peanut butter"
         ],
@@ -11797,9 +11799,9 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bc cups flour",
-          "quantity": "2",
-          "unit": "",
+          "item": "flour",
+          "quantity": "2 1/4",
+          "unit": "cup",
           "prep_note": "sifted"
         },
         {
@@ -11809,27 +11811,27 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bd tsp. baking powder",
-          "quantity": "3",
-          "unit": "",
+          "item": "baking powder",
+          "quantity": "3 1/2",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": ". salt",
+          "item": "salt",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u2153 cup shortening",
-          "quantity": "",
-          "unit": "",
+          "item": "shortening",
+          "quantity": "1/3",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u2153 cup sugar",
-          "quantity": "",
-          "unit": "",
+          "item": "sugar",
+          "quantity": "1/3",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -11839,28 +11841,28 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bc cup butter",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bc cup sugar",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "dry bread crumbs",
-          "quantity": "1",
+          "item": "butter",
+          "quantity": "1/4",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": ". cinnamon",
+          "item": "brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "for topping"
+        },
+        {
+          "item": "cinnamon",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": ""
+          "prep_note": "for topping"
+        },
+        {
+          "item": "nuts",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "chopped, for topping"
         }
       ],
       "instructions": [
@@ -11894,23 +11896,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 189,
-          "fat_g": 7.6,
-          "carbs_g": 23.1,
-          "protein_g": 7.0,
-          "sodium_mg": 842,
-          "fiber_g": 1.5,
-          "sugar_g": 4.6
+          "calories": 795,
+          "fat_g": 38.5,
+          "carbs_g": 101.3,
+          "protein_g": 12.6,
+          "sodium_mg": 821,
+          "fiber_g": 2.8,
+          "sugar_g": 45.3
         },
-        "missing_inputs": [
-          "2  \u00bc cups flour",
-          "3  \u00bd tsp. baking powder",
-          "\u2153 cup shortening",
-          "\u2153 cup sugar",
-          "\u00bc cup sugar"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -16390,25 +16386,25 @@
           "prep_note": ""
         },
         {
-          "item": "diced onion",
+          "item": "onion",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "diced"
         },
         {
-          "item": "hot cooked potatoes",
+          "item": "mashed potatoes",
           "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cups",
+          "prep_note": "hot, cooked"
         },
         {
-          "item": "3-oz. can chopped broiled mushrooms",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "mushrooms",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "canned, chopped"
         },
         {
-          "item": "creamed cottage cheese",
+          "item": "cottage cheese",
           "quantity": "1",
           "unit": "lb",
           "prep_note": ""
@@ -16430,24 +16426,6 @@
           "quantity": "1/8",
           "unit": "tsp",
           "prep_note": ""
-        },
-        {
-          "item": "gravy maker",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "eggs",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "well beaten"
-        },
-        {
-          "item": "9-inch pastry shell",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "unbaked"
         }
       ],
       "instructions": [
@@ -16471,20 +16449,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 131,
-          "fat_g": 9.4,
-          "carbs_g": 1.1,
-          "protein_g": 9.9,
-          "sodium_mg": 360,
-          "fiber_g": 0.1,
-          "sugar_g": 0.6
+          "calories": 87,
+          "fat_g": 5.8,
+          "carbs_g": 7.8,
+          "protein_g": 1.5,
+          "sodium_mg": 320,
+          "fiber_g": 1.0,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
-          "1  3-oz. can chopped broiled mushrooms",
-          "1 lb creamed cottage cheese",
-          "1/2 tsp gravy maker"
+          "1 lb cottage cheese"
         ],
         "assumptions": [
           "Calculated for 8 servings",
@@ -28037,10 +28013,10 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "soft shortening",
+          "item": "shortening",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "soft"
         },
         {
           "item": "sugar",
@@ -28067,19 +28043,19 @@
           "prep_note": ""
         },
         {
-          "item": "sifted GOLD MEDAL Flour",
+          "item": "flour",
           "quantity": "2",
           "unit": "cup",
+          "prep_note": "sifted"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1 1/2",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tsp. baking powder",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "soda",
+          "item": "baking soda",
           "quantity": "1/4",
           "unit": "tsp",
           "prep_note": ""
@@ -28091,16 +28067,16 @@
           "prep_note": ""
         },
         {
-          "item": "broken nuts",
+          "item": "raisins",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "to 2 cups cut-up raisins or dates",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "nuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
@@ -28142,21 +28118,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 596,
-          "fat_g": 15.7,
-          "carbs_g": 105.6,
-          "protein_g": 9.0,
-          "sodium_mg": 417,
-          "fiber_g": 1.7,
-          "sugar_g": 49.6
+          "calories": 806,
+          "fat_g": 24.8,
+          "carbs_g": 137.6,
+          "protein_g": 12.8,
+          "sodium_mg": 472,
+          "fiber_g": 4.0,
+          "sugar_g": 71.6
         },
-        "missing_inputs": [
-          "1  \u00bd tsp. baking powder",
-          "1 cup broken nuts",
-          "1  to 2 cups cut-up raisins or dates"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -30800,28 +30772,28 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "(9\") refrigerated pie crusts",
+          "item": "pie crust",
           "quantity": "2",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "9-inch, refrigerated"
         },
         {
-          "item": "(6 3/4 oz) can boneless chicke n in broth",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "undr ained & chopped"
+          "item": "chicken",
+          "quantity": "6 3/4",
+          "unit": "oz",
+          "prep_note": "canned, boneless, in broth"
         },
         {
-          "item": "(16 oz) can mixed v egetables",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "drained"
+          "item": "mixed vegetables",
+          "quantity": "16",
+          "unit": "oz",
+          "prep_note": "canned"
         },
         {
-          "item": "(10 3/4 oz) can cream of chicken soup",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "undiluted"
+          "item": "cream of chicken soup",
+          "quantity": "10 3/4",
+          "unit": "oz",
+          "prep_note": "condensed"
         },
         {
           "item": "pepper",
@@ -30881,18 +30853,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 47,
-          "fat_g": 1.0,
+          "calories": 1,
+          "fat_g": 0.0,
           "carbs_g": 0.2,
-          "protein_g": 8.8,
-          "sodium_mg": 21,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
           "fiber_g": 0.1,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2  (9\") refrigerated pie crusts",
-          "1  (16 oz) can mixed v egetables",
-          "1  (10 3/4 oz) can cream of chicken soup",
+          "2  pie crust",
+          "6 3/4 oz chicken",
+          "16 oz mixed vegetables",
+          "10 3/4 oz cream of chicken soup",
           "1/4 tsp celery flakes"
         ],
         "assumptions": [
@@ -31705,7 +31678,9 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true,
+      "flag_reason": "Puzzle recipe - Bible verse references need manual lookup"
     },
     {
       "id": "southern-sweet-potato-biscuits-auntcaroli",
@@ -36356,31 +36331,37 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "ourmilk;",
+          "item": "buttermilk",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "vanilla;3 eggs;",
+          "item": "vanilla extract",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "flour;",
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
           "quantity": "2 1/2",
-          "unit": "cup",
+          "unit": "cups",
           "prep_note": ""
         },
         {
-          "item": "baking soda;",
+          "item": "baking soda",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "Zatek Cocoa.",
+          "item": "cocoa powder",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -36411,21 +36392,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 18,
-          "fat_g": 1.2,
-          "carbs_g": 0.1,
-          "protein_g": 1.5,
-          "sodium_mg": 333,
-          "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "calories": 415,
+          "fat_g": 8.1,
+          "carbs_g": 74.5,
+          "protein_g": 18.9,
+          "sodium_mg": 438,
+          "fiber_g": 9.4,
+          "sugar_g": 3.9
         },
-        "missing_inputs": [
-          "1 cup ourmilk;",
-          "2 1/2 cup flour;",
-          "1 cup Zatek Cocoa."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -55370,22 +55347,22 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Four tablespoons ofshortening.",
-          "quantity": "",
-          "unit": "",
+          "item": "shortening",
+          "quantity": "4",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "Three andone-half cups ofoatmeal.",
-          "quantity": "",
-          "unit": "",
+          "item": "oatmeal",
+          "quantity": "3 1/2",
+          "unit": "cups",
           "prep_note": ""
         },
         {
-          "item": "One level tablespoon ofbaking powder.",
+          "item": "baking powder",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": "[quantity inferred]"
+          "unit": "tbsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -55417,21 +55394,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 501,
+          "fat_g": 16.5,
+          "carbs_g": 82.8,
+          "protein_g": 8.8,
+          "sodium_mg": 138,
+          "fiber_g": 7.9,
+          "sugar_g": 0.9
         },
-        "missing_inputs": [
-          "Four tablespoons ofshortening.",
-          "Three andone-half cups ofoatmeal.",
-          "1 tsp One level tablespoon ofbaking powder."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -59300,13 +59273,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1948,
+          "calories": 1972,
           "fat_g": 174.2,
-          "carbs_g": 48.5,
+          "carbs_g": 49.5,
           "protein_g": 55.0,
           "sodium_mg": 258,
           "fiber_g": 6.0,
-          "sugar_g": 32.9
+          "sugar_g": 33.9
         },
         "missing_inputs": [
           "1/2 lb sugar",
@@ -59335,37 +59308,37 @@
           "item": "milk",
           "quantity": "1",
           "unit": "quart",
-          "prep_note": "sweetened"
+          "prep_note": "sweetened to taste"
         },
         {
           "item": "nutmeg",
           "quantity": "",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "to taste, grated"
         },
         {
           "item": "wine",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "optional"
         },
         {
           "item": "brandy",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "optional"
         },
         {
-          "item": "rose-water",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "rose water",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "optional"
         },
         {
           "item": "eggs",
           "quantity": "6",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "beaten"
         }
       ],
       "instructions": [
@@ -59401,21 +59374,18 @@
         "processed/img_5963.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 257,
-          "fat_g": 15.5,
-          "carbs_g": 12.6,
-          "protein_g": 17.0,
-          "sodium_mg": 212,
+          "calories": 117,
+          "fat_g": 7.5,
+          "carbs_g": 0.9,
+          "protein_g": 9.0,
+          "sodium_mg": 107,
           "fiber_g": 0.0,
-          "sugar_g": 12.6
+          "sugar_g": 0.8
         },
         "missing_inputs": [
-          "nutmeg",
-          "wine",
-          "brandy",
-          "rose-water"
+          "1 tbsp brandy"
         ],
         "assumptions": [
           "Calculated for 4 servings"
