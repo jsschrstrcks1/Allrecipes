@@ -1029,19 +1029,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 80,
-          "fat_g": 9.3,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 388,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 458,
+          "fat_g": 11.6,
+          "carbs_g": 74.0,
+          "protein_g": 13.5,
+          "sodium_mg": 389,
+          "fiber_g": 5.0,
+          "sugar_g": 1.5
         },
-        "missing_inputs": [
-          "3 3-oz packages ramen noodles (discard seasoning packets)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from sides category"

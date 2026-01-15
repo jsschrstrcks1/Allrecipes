@@ -51,7 +51,10 @@ NUTRITION_DB = {
                   "tbsp": {"cal": 30, "fat": 0, "carbs": 7, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0}},
     "tapioca": {"cup": {"cal": 544, "fat": 0, "carbs": 135, "protein": 0, "sodium": 2, "fiber": 1, "sugar": 5},
                "tbsp": {"cal": 34, "fat": 0, "carbs": 8, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
-    "cornmeal": {"cup": {"cal": 442, "fat": 4, "carbs": 94, "protein": 10, "sodium": 43, "fiber": 9, "sugar": 1}},
+    "cornmeal": {"cup": {"cal": 442, "fat": 4, "carbs": 94, "protein": 10, "sodium": 43, "fiber": 9, "sugar": 1},
+                 "package": {"cal": 850, "fat": 7, "carbs": 180, "protein": 18, "sodium": 1400, "fiber": 6, "sugar": 24},
+                 "packet": {"cal": 850, "fat": 7, "carbs": 180, "protein": 18, "sodium": 1400, "fiber": 6, "sugar": 24},
+                 "oz": {"cal": 104, "fat": 1, "carbs": 22, "protein": 2.5, "sodium": 10, "fiber": 2, "sugar": 0.2}},
     "masa harina": {"cup": {"cal": 416, "fat": 4, "carbs": 87, "protein": 11, "sodium": 6, "fiber": 7, "sugar": 1}},
     "chickpea flour": {"cup": {"cal": 356, "fat": 6, "carbs": 53, "protein": 21, "sodium": 59, "fiber": 10, "sugar": 10},
                       "oz": {"cal": 100, "fat": 1.7, "carbs": 15, "protein": 6, "sodium": 17, "fiber": 3, "sugar": 3}},
@@ -473,7 +476,10 @@ NUTRITION_DB = {
                   "": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0.3}},
     "orange juice": {"cup": {"cal": 112, "fat": 0.5, "carbs": 26, "protein": 2, "sodium": 2, "fiber": 0.5, "sugar": 21}},
     "blueberries": {"cup": {"cal": 84, "fat": 0.5, "carbs": 21, "protein": 1, "sodium": 1, "fiber": 4, "sugar": 15}},
-    "strawberries": {"cup": {"cal": 49, "fat": 0.5, "carbs": 12, "protein": 1, "sodium": 2, "fiber": 3, "sugar": 7}},
+    "strawberries": {"cup": {"cal": 49, "fat": 0.5, "carbs": 12, "protein": 1, "sodium": 2, "fiber": 3, "sugar": 7},
+                     "dozen": {"cal": 48, "fat": 0.5, "carbs": 11, "protein": 1, "sodium": 2, "fiber": 3, "sugar": 7},
+                     "oz": {"cal": 9, "fat": 0.1, "carbs": 2.2, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 1.4},
+                     "": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.3, "sugar": 0.6}},
     "raspberries": {"cup": {"cal": 64, "fat": 0.8, "carbs": 15, "protein": 1.5, "sodium": 1, "fiber": 8, "sugar": 5}},
     "blackberries": {"cup": {"cal": 62, "fat": 0.7, "carbs": 14, "protein": 2, "sodium": 1, "fiber": 8, "sugar": 7}},
     "berries": {"cup": {"cal": 65, "fat": 0.6, "carbs": 16, "protein": 1, "sodium": 1, "fiber": 6, "sugar": 9}},
@@ -1871,8 +1877,10 @@ NUTRITION_DB = {
     "garam masala": {"tsp": {"cal": 6, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 1, "fiber": 0.4, "sugar": 0},
                     "tbsp": {"cal": 18, "fat": 0.9, "carbs": 3, "protein": 0.6, "sodium": 3, "fiber": 1.2, "sugar": 0}},
     "cardamom": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
-    "green cardamom": {"pod": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
-    "black cardamom": {"pod": {"cal": 6, "fat": 0.2, "carbs": 1.2, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "green cardamom": {"pod": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0},
+                       "": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "black cardamom": {"pod": {"cal": 6, "fat": 0.2, "carbs": 1.2, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0},
+                       "": {"cal": 6, "fat": 0.2, "carbs": 1.2, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
     "peppercorns": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.5, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
     "lavender": {"tsp": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0.1, "sodium": 0, "fiber": 0.2, "sugar": 0}},
     "dried lavender": {"tsp": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0.1, "sodium": 0, "fiber": 0.2, "sugar": 0}},
@@ -2367,11 +2375,16 @@ def normalize_unit(unit):
         "large": "large", "lg": "large",
     }
 
-    # Handle embedded sizes like "can (17 oz)" or "cup (4 oz)" → strip the size
+    # Handle embedded sizes like "can (17 oz)" or "cup (4 oz)" or "cans (15.5 oz each)" → strip the size
     import re
-    embedded_size = re.match(r'^(\w+)\s*\([\d\s.]+\s*oz\)$', unit)
+    embedded_size = re.match(r'^(\w+)s?\s*\([\d\s.]+\s*oz(?:\s+each)?\)$', unit)
     if embedded_size:
         unit = embedded_size.group(1)
+
+    # Handle "3-oz packages" or "2-oz pkgs" → "package" (strip size prefix)
+    oz_packages = re.match(r'^[\d\s./-]+\s*oz\.?\s*(?:packages?|pkgs?)$', unit)
+    if oz_packages:
+        unit = "package"
 
     # Handle "15 1/2 oz cans" or "14.5-oz cans" or plain "oz can" → "can"
     oz_cans = re.match(r'^(?:[\d\s./½¼¾-]+\s*)?oz\.?\s*cans?$', unit)
