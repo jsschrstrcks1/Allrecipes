@@ -9060,7 +9060,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 242,
           "fat_g": 19.9,
@@ -9070,9 +9070,7 @@
           "fiber_g": 0.6,
           "sugar_g": 1.8
         },
-        "missing_inputs": [
-          "1/4 cup fresh basil, chopped finely"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
@@ -30452,7 +30450,7 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 242,
           "fat_g": 19.9,
@@ -30462,9 +30460,7 @@
           "fiber_g": 0.6,
           "sugar_g": 1.8
         },
-        "missing_inputs": [
-          "1/4 cup fresh basil"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

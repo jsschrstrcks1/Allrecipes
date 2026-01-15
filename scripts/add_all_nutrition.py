@@ -321,7 +321,8 @@ NUTRITION_DB = {
                    "cup": {"cal": 31, "fat": 0.2, "carbs": 7, "protein": 2, "sodium": 6, "fiber": 3, "sugar": 3}},
     "corn": {"can": {"cal": 210, "fat": 2, "carbs": 50, "protein": 6, "sodium": 600, "fiber": 4, "sugar": 12},
             "cup": {"cal": 132, "fat": 2, "carbs": 29, "protein": 5, "sodium": 1, "fiber": 4, "sugar": 5},
-            "ear": {"cal": 77, "fat": 1, "carbs": 17, "protein": 3, "sodium": 1, "fiber": 2, "sugar": 3}},
+            "ear": {"cal": 77, "fat": 1, "carbs": 17, "protein": 3, "sodium": 1, "fiber": 2, "sugar": 3},
+            "": {"cal": 77, "fat": 1, "carbs": 17, "protein": 3, "sodium": 1, "fiber": 2, "sugar": 3}},
     "cream-style corn": {"can": {"cal": 184, "fat": 1, "carbs": 46, "protein": 4, "sodium": 730, "fiber": 3, "sugar": 11}},
     "peas": {"cup": {"cal": 117, "fat": 0.6, "carbs": 21, "protein": 8, "sodium": 7, "fiber": 7, "sugar": 8},
             "can": {"cal": 175, "fat": 0.9, "carbs": 31, "protein": 12, "sodium": 800, "fiber": 10, "sugar": 12}},
@@ -394,7 +395,13 @@ NUTRITION_DB = {
                 "packet": {"cal": 62, "fat": 0.6, "carbs": 12, "protein": 6, "sodium": 60, "fiber": 4, "sugar": 4},
                 "": {"cal": 31, "fat": 0.3, "carbs": 6, "protein": 3, "sodium": 30, "fiber": 2, "sugar": 2}},
     "cauliflower": {"cup": {"cal": 27, "fat": 0.3, "carbs": 5, "protein": 2, "sodium": 32, "fiber": 2, "sugar": 2}},
-    "spinach": {"cup": {"cal": 7, "fat": 0.1, "carbs": 1, "protein": 1, "sodium": 24, "fiber": 0.7, "sugar": 0.1}},
+    "spinach": {"cup": {"cal": 7, "fat": 0.1, "carbs": 1, "protein": 1, "sodium": 24, "fiber": 0.7, "sugar": 0.1},
+                "oz": {"cal": 7, "fat": 0.1, "carbs": 1, "protein": 0.9, "sodium": 22, "fiber": 0.6, "sugar": 0.1},
+                "packet": {"cal": 65, "fat": 1, "carbs": 10, "protein": 8, "sodium": 220, "fiber": 6, "sugar": 1},
+                "package": {"cal": 65, "fat": 1, "carbs": 10, "protein": 8, "sodium": 220, "fiber": 6, "sugar": 1},
+                "bunch": {"cal": 78, "fat": 1.2, "carbs": 12, "protein": 10, "sodium": 268, "fiber": 8, "sugar": 1.4},
+                "bag": {"cal": 65, "fat": 1, "carbs": 10, "protein": 8, "sodium": 220, "fiber": 6, "sugar": 1},
+                "": {"cal": 7, "fat": 0.1, "carbs": 1, "protein": 1, "sodium": 24, "fiber": 0.7, "sugar": 0.1}},
     "lettuce": {"cup": {"cal": 5, "fat": 0.1, "carbs": 1, "protein": 0.5, "sodium": 5, "fiber": 0.5, "sugar": 0.5}},
     "cabbage": {"cup": {"cal": 22, "fat": 0.1, "carbs": 5, "protein": 1, "sodium": 16, "fiber": 2, "sugar": 3},
                "head": {"cal": 218, "fat": 1, "carbs": 52, "protein": 11, "sodium": 164, "fiber": 22, "sugar": 28},
@@ -427,7 +434,9 @@ NUTRITION_DB = {
     "cilantro": {"cup": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 3, "fiber": 0.2, "sugar": 0},
                  "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
     "basil": {"cup": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.2, "sodium": 0, "fiber": 0.1, "sugar": 0},
-              "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+              "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+              "tsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 0, "fiber": 0.1, "sugar": 0},
+              "": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
     "chives": {"tbsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 0, "fiber": 0.1, "sugar": 0},
                "cup": {"cal": 6, "fat": 0.1, "carbs": 0.6, "protein": 0.5, "sodium": 1, "fiber": 0.4, "sugar": 0.2},
                "": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 0, "fiber": 0.1, "sugar": 0}},
@@ -646,7 +655,6 @@ NUTRITION_DB = {
                     "": {"cal": 8, "fat": 0.4, "carbs": 1.4, "protein": 0.3, "sodium": 26, "fiber": 0.9, "sugar": 0.3}},
     "cayenne pepper": {"tsp": {"cal": 6, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 1, "fiber": 0.5, "sugar": 0.2}},
     "oregano": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0.4, "sugar": 0}},
-    "basil": {"tsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 0, "fiber": 0.1, "sugar": 0}},
     "thyme": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.6, "protein": 0.1, "sodium": 1, "fiber": 0.4, "sugar": 0}},
     "rosemary": {"tsp": {"cal": 2, "fat": 0.1, "carbs": 0.4, "protein": 0, "sodium": 1, "fiber": 0.2, "sugar": 0}},
     "sage": {"tsp": {"cal": 2, "fat": 0.1, "carbs": 0.4, "protein": 0.1, "sodium": 0, "fiber": 0.3, "sugar": 0}},
@@ -1304,7 +1312,9 @@ NUTRITION_DB = {
                "small": {"cal": 90, "fat": 0.3, "carbs": 23, "protein": 1.1, "sodium": 1, "fiber": 2.6, "sugar": 12}},
     "peaches": {"each": {"cal": 59, "fat": 0.4, "carbs": 14, "protein": 1.4, "sodium": 0, "fiber": 2.3, "sugar": 13},
                 "large": {"cal": 68, "fat": 0.4, "carbs": 17, "protein": 1.6, "sodium": 0, "fiber": 2.6, "sugar": 15},
-                "medium": {"cal": 59, "fat": 0.4, "carbs": 14, "protein": 1.4, "sodium": 0, "fiber": 2.3, "sugar": 13}},
+                "medium": {"cal": 59, "fat": 0.4, "carbs": 14, "protein": 1.4, "sodium": 0, "fiber": 2.3, "sugar": 13},
+                "cup": {"cal": 60, "fat": 0.4, "carbs": 15, "protein": 1.4, "sodium": 0, "fiber": 2.3, "sugar": 13},
+                "": {"cal": 59, "fat": 0.4, "carbs": 14, "protein": 1.4, "sodium": 0, "fiber": 2.3, "sugar": 13}},
     "peach": {"each": {"cal": 59, "fat": 0.4, "carbs": 14, "protein": 1.4, "sodium": 0, "fiber": 2.3, "sugar": 13},
               "large": {"cal": 68, "fat": 0.4, "carbs": 17, "protein": 1.6, "sodium": 0, "fiber": 2.6, "sugar": 15},
               "medium": {"cal": 59, "fat": 0.4, "carbs": 14, "protein": 1.4, "sodium": 0, "fiber": 2.3, "sugar": 13}},
@@ -2502,7 +2512,7 @@ def normalize_ingredient(item):
 
     # Remove prep notes after comma, but preserve compound terms that include commas
     # e.g., "fat-free, less-sodium chicken broth" should NOT be split
-    compound_comma_terms = ["less-sodium", "reduced-sodium", "low-sodium"]
+    compound_comma_terms = ["less-sodium", "reduced-sodium", "low-sodium", "deveined", "peeled shrimp"]
     should_split_comma = True
     for term in compound_comma_terms:
         if term in item:
