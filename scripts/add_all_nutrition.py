@@ -42,6 +42,15 @@ NUTRITION_DB = {
                "tbsp": {"cal": 34, "fat": 0, "carbs": 8, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
     "cornmeal": {"cup": {"cal": 442, "fat": 4, "carbs": 94, "protein": 10, "sodium": 43, "fiber": 9, "sugar": 1}},
     "masa harina": {"cup": {"cal": 416, "fat": 4, "carbs": 87, "protein": 11, "sodium": 6, "fiber": 7, "sugar": 1}},
+    "chickpea flour": {"cup": {"cal": 356, "fat": 6, "carbs": 53, "protein": 21, "sodium": 59, "fiber": 10, "sugar": 10},
+                      "oz": {"cal": 100, "fat": 1.7, "carbs": 15, "protein": 6, "sodium": 17, "fiber": 3, "sugar": 3}},
+    "garbanzo bean flour": {"cup": {"cal": 356, "fat": 6, "carbs": 53, "protein": 21, "sodium": 59, "fiber": 10, "sugar": 10}},
+    "semolina": {"cup": {"cal": 601, "fat": 1.8, "carbs": 122, "protein": 21, "sodium": 2, "fiber": 6.5, "sugar": 0},
+                "oz": {"cal": 106, "fat": 0.3, "carbs": 22, "protein": 4, "sodium": 0, "fiber": 1, "sugar": 0}},
+    "semolina flour": {"cup": {"cal": 601, "fat": 1.8, "carbs": 122, "protein": 21, "sodium": 2, "fiber": 6.5, "sugar": 0}},
+    "rye flour": {"cup": {"cal": 361, "fat": 2, "carbs": 75, "protein": 11, "sodium": 2, "fiber": 15, "sugar": 1}},
+    "whole wheat flour": {"cup": {"cal": 408, "fat": 2.2, "carbs": 87, "protein": 16, "sodium": 6, "fiber": 15, "sugar": 0.4},
+                         "oz": {"cal": 96, "fat": 0.5, "carbs": 20, "protein": 4, "sodium": 1, "fiber": 3.5, "sugar": 0.1}},
 
     # =========================================================================
     # SUGARS & SWEETENERS
@@ -609,6 +618,10 @@ NUTRITION_DB = {
                    "": {"cal": 231, "fat": 13, "carbs": 0, "protein": 26, "sodium": 62, "fiber": 0, "sugar": 0}},
     "spareribs": {"lb": {"cal": 1200, "fat": 96, "carbs": 0, "protein": 80, "sodium": 400, "fiber": 0, "sugar": 0}},
     "lamb": {"lb": {"cal": 1100, "fat": 80, "carbs": 0, "protein": 88, "sodium": 280, "fiber": 0, "sugar": 0}},
+    "ground lamb": {"lb": {"cal": 1100, "fat": 80, "carbs": 0, "protein": 88, "sodium": 280, "fiber": 0, "sugar": 0}},
+    "lamb chops": {"lb": {"cal": 880, "fat": 60, "carbs": 0, "protein": 84, "sodium": 260, "fiber": 0, "sugar": 0}},
+    "guanciale": {"oz": {"cal": 155, "fat": 14, "carbs": 0, "protein": 6, "sodium": 480, "fiber": 0, "sugar": 0}},
+    "pancetta": {"oz": {"cal": 145, "fat": 13, "carbs": 0, "protein": 7, "sodium": 500, "fiber": 0, "sugar": 0}},
     "andouille sausage": {"oz": {"cal": 90, "fat": 8, "carbs": 1, "protein": 4, "sodium": 300, "fiber": 0, "sugar": 0}},
     "tofu": {"oz": {"cal": 22, "fat": 1.3, "carbs": 0.5, "protein": 2, "sodium": 2, "fiber": 0, "sugar": 0},
              "cup": {"cal": 176, "fat": 10, "carbs": 4, "protein": 16, "sodium": 16, "fiber": 0, "sugar": 0}},
@@ -833,6 +846,14 @@ NUTRITION_DB = {
     "feta cheese": {"oz": {"cal": 75, "fat": 6, "carbs": 1, "protein": 4, "sodium": 316, "fiber": 0, "sugar": 1}},
     "feta": {"oz": {"cal": 75, "fat": 6, "carbs": 1, "protein": 4, "sodium": 316, "fiber": 0, "sugar": 1}},
     "goat cheese": {"oz": {"cal": 76, "fat": 6, "carbs": 0, "protein": 5, "sodium": 104, "fiber": 0, "sugar": 0}},
+    "gorgonzola": {"oz": {"cal": 100, "fat": 9, "carbs": 1, "protein": 6, "sodium": 375, "fiber": 0, "sugar": 0}},
+    "gorgonzola cheese": {"oz": {"cal": 100, "fat": 9, "carbs": 1, "protein": 6, "sodium": 375, "fiber": 0, "sugar": 0}},
+    "string cheese": {"each": {"cal": 80, "fat": 6, "carbs": 1, "protein": 7, "sodium": 200, "fiber": 0, "sugar": 0}},
+    "mozzarella string cheese": {"each": {"cal": 80, "fat": 6, "carbs": 1, "protein": 7, "sodium": 200, "fiber": 0, "sugar": 0}},
+    "crème fraîche": {"cup": {"cal": 450, "fat": 45, "carbs": 3, "protein": 3, "sodium": 40, "fiber": 0, "sugar": 3},
+                     "tbsp": {"cal": 28, "fat": 2.8, "carbs": 0.2, "protein": 0.2, "sodium": 2, "fiber": 0, "sugar": 0.2}},
+    "creme fraiche": {"cup": {"cal": 450, "fat": 45, "carbs": 3, "protein": 3, "sodium": 40, "fiber": 0, "sugar": 3},
+                     "tbsp": {"cal": 28, "fat": 2.8, "carbs": 0.2, "protein": 0.2, "sodium": 2, "fiber": 0, "sugar": 0.2}},
     "ice cream": {"cup": {"cal": 273, "fat": 15, "carbs": 31, "protein": 5, "sodium": 100, "fiber": 0.7, "sugar": 28}},
     "vanilla ice cream": {"cup": {"cal": 273, "fat": 15, "carbs": 31, "protein": 5, "sodium": 100, "fiber": 0.7, "sugar": 28}},
     "sweetened condensed milk": {"can": {"cal": 982, "fat": 27, "carbs": 166, "protein": 24, "sodium": 389, "fiber": 0, "sugar": 166}},
@@ -1497,6 +1518,11 @@ NUTRITION_DB = {
 
     # Condiments & canned
     "jellied cranberry sauce": {"cup": {"cal": 418, "fat": 0.4, "carbs": 108, "protein": 0.5, "sodium": 80, "fiber": 3, "sugar": 87}},
+    "cranberry sauce": {"cup": {"cal": 418, "fat": 0.4, "carbs": 108, "protein": 0.5, "sodium": 80, "fiber": 3, "sugar": 87},
+                       "can": {"cal": 418, "fat": 0.4, "carbs": 108, "protein": 0.5, "sodium": 80, "fiber": 3, "sugar": 87}},
+    "tzatziki": {"cup": {"cal": 150, "fat": 10, "carbs": 10, "protein": 6, "sodium": 400, "fiber": 0.5, "sugar": 6}},
+    "tzatziki sauce": {"cup": {"cal": 150, "fat": 10, "carbs": 10, "protein": 6, "sodium": 400, "fiber": 0.5, "sugar": 6}},
+    "onion soup": {"can": {"cal": 140, "fat": 4, "carbs": 18, "protein": 5, "sodium": 2440, "fiber": 2, "sugar": 5}},
     "condensed french onion soup": {"can": {"cal": 140, "fat": 4, "carbs": 18, "protein": 5, "sodium": 2440, "fiber": 2, "sugar": 5}},
     "mushrooms canned": {"cup": {"cal": 33, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 561, "fiber": 2, "sugar": 2}},
 
@@ -2242,6 +2268,44 @@ def normalize_ingredient(item):
         "boiling water": "water",
         "cold water": "water",
         "qts. water": "water",
+
+        # Spice synonyms
+        "white peppercorns": "peppercorns",
+        "black peppercorns": "peppercorns",
+        "coriander seeds": "coriander seed",
+        "ground fennel seeds": "fennel seeds",
+        "fennel seeds, crushed": "fennel seeds",
+        "ground cayenne pepper": "cayenne",
+        "ground cayenne": "cayenne",
+        "pinch cayenne": "cayenne",
+        "red pepper flakes": "crushed red pepper",
+        "seasoning salt": "salt",
+
+        # Panko/breadcrumbs
+        "panko crumbs": "panko",
+        "panko breadcrumbs": "panko",
+
+        # Cheese synonyms
+        "crumbled feta cheese": "feta cheese",
+        "crumbled gorgonzola cheese": "gorgonzola",
+        "crumbled feta": "feta cheese",
+        "crumbled gorgonzola": "gorgonzola",
+        "romano cheese": "parmesan cheese",
+        "parmigiano-reggiano cheese": "parmesan cheese",
+        "parmigiano-reggiano": "parmesan cheese",
+
+        # Pasta synonyms
+        "penne pasta": "pasta",
+        "bucatini": "pasta",
+        "uncooked penne pasta": "pasta",
+        "uncooked bucatini": "pasta",
+
+        # Brand name cleanup
+        "campbell's condensed french onion soup": "onion soup",
+        "pepperidge farm classic sandwich buns": "hamburger bun",
+        "ocean spray jellied cranberry sauce": "cranberry sauce",
+        "heinz chili sauce": "chili sauce",
+        "bird's eye": "",
     }
 
     # Check for exact match first
@@ -2288,6 +2352,8 @@ def is_equipment(item):
         "mixing-bowl", "mixing bowl", "double-boiler", "double boiler",
         "dover beater", "vegetable-knife", "flour sifter",
         "for the ", "cookbook", "-inch", "-sized potatoes vegetable",
+        "for topping", "for serving", "for dipping", "for garnish",
+        "for dusting", "(optional)", "optional",
     ]
     for pattern in equipment_patterns:
         if pattern in item_lower:
@@ -2414,8 +2480,13 @@ def get_nutrition_for_ingredient(ingredient):
         unit = compound_match.group(2)
         quantity = quantity * unit_multiplier
 
-    # Handle "to taste" - minimal impact
-    if "to taste" in str(ingredient.get("unit", "")).lower() or "to taste" in str(ingredient.get("item", "")).lower():
+    # Handle "to taste" / "to sweeten" - minimal impact (check unit, item, and prep_note)
+    to_taste_fields = [
+        str(ingredient.get("unit", "")).lower(),
+        str(ingredient.get("item", "")).lower(),
+        str(ingredient.get("prep_note", "")).lower()
+    ]
+    if any("to taste" in f or "to sweeten" in f for f in to_taste_fields):
         if "salt" in item or "pepper" in item:
             return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 150, "fiber": 0, "sugar": 0}
         return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}
