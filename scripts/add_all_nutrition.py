@@ -2105,7 +2105,8 @@ NUTRITION_DB = {
              "cup": {"cal": 122, "fat": 1.5, "carbs": 23, "protein": 4.2, "sodium": 227, "fiber": 0.9, "sugar": 2.3},
              "oz": {"cal": 75, "fat": 1, "carbs": 14, "protein": 2.6, "sodium": 140, "fiber": 0.6, "sugar": 1.4}},
     "tortillas": {"each": {"cal": 94, "fat": 2.4, "carbs": 15, "protein": 2.5, "sodium": 191, "fiber": 1, "sugar": 0.4},
-                 "cup": {"cal": 188, "fat": 4.8, "carbs": 30, "protein": 5, "sodium": 382, "fiber": 2, "sugar": 0.8}},
+                 "cup": {"cal": 188, "fat": 4.8, "carbs": 30, "protein": 5, "sodium": 382, "fiber": 2, "sugar": 0.8},
+                 "": {"cal": 94, "fat": 2.4, "carbs": 15, "protein": 2.5, "sodium": 191, "fiber": 1, "sugar": 0.4}},
     "beans": {"cup": {"cal": 239, "fat": 0.9, "carbs": 43, "protein": 16, "sodium": 1, "fiber": 16, "sugar": 0.6},
              "can": {"cal": 358, "fat": 1.4, "carbs": 64, "protein": 24, "sodium": 880, "fiber": 24, "sugar": 1}},
     "broccoli": {"cup": {"cal": 31, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 30, "fiber": 2.4, "sugar": 1.5},
@@ -2151,6 +2152,16 @@ def parse_quantity(qty_str):
         return 1.0
 
     qty_str = str(qty_str).strip().lower()
+
+    # Handle word numbers (historical recipes)
+    word_numbers = {
+        "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
+        "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
+        "eleven": 11, "twelve": 12, "a": 1, "an": 1,
+        "half": 0.5, "quarter": 0.25
+    }
+    if qty_str in word_numbers:
+        return float(word_numbers[qty_str])
 
     # Handle ranges like "1-2" or "6-8" - take midpoint
     if '-' in qty_str and not qty_str.startswith('-'):
@@ -2303,6 +2314,14 @@ def normalize_ingredient(item):
     import re
     item = re.sub(r'^\d+[\s/\d.-]*\s*', '', item)
 
+    # Remove leading WORD numbers (historical recipes)
+    word_numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight',
+                    'nine', 'ten', 'eleven', 'twelve', 'a', 'an', 'half', 'quarter']
+    for word in word_numbers:
+        if item.startswith(word + ' '):
+            item = item[len(word)+1:]
+            break
+
     # Fix common OCR quirks in ingredient text
     ocr_fixes = [
         (r'^ful[s]?\s+of\s*', ''),           # item starts with "ful of" (OCR artifact)
@@ -2327,6 +2346,10 @@ def normalize_ingredient(item):
         # Full-word units embedded in item (Batch 14)
         (r'^teaspoons?\s+', ''),             # "teaspoon " or "teaspoons " at start
         (r'^tablespoons?\s+', ''),           # "tablespoon " or "tablespoons " at start
+        (r'^teaspoonful[s]?\s+of\s*', ''),   # "teaspoonfuls of" at start
+        (r'^tablespoonful[s]?\s+of\s*', ''), # "tablespoonfuls of" at start
+        (r'^teaspoonful[s]?\s+', ''),        # "teaspoonfuls " at start
+        (r'^tablespoonful[s]?\s+', ''),      # "tablespoonfuls " at start
         (r'^ounces?\s+', ''),                # "ounce " or "ounces " at start
         (r'^pounds?\s+', ''),                # "pound " or "pounds " at start
         (r'\b1/2\s+cups?\s+', ''),           # "1/2 cup(s) " embedded
@@ -4434,11 +4457,10 @@ def normalize_ingredient(item):
         "cheerios": "oats",
         "granola": "oats",
 
-        # Applesauce and fruit purees
-        "applesauce": "apples",
-        "unsweetened applesauce": "apples",
-        "apple sauce": "apples",
-        "apple butter": "apples",
+        # Applesauce and fruit purees (applesauce is in DB)
+        "applesauce": "applesauce",  # Exact match to prevent "apples" pattern matching
+        "unsweetened applesauce": "applesauce",
+        "apple sauce": "applesauce",
         "pumpkin puree": "pumpkin",
         "canned pumpkin": "pumpkin",
         "pumpkin pie filling": "pumpkin",
@@ -6171,7 +6193,6 @@ def normalize_ingredient(item):
         "onion juice": "onion",
         "long grain rice": "rice",
         "long grain brown rice": "brown rice",
-        "chicken broth": "chicken stock",
         "mild chili beans": "kidney beans",
         "mild chili seasoning": "chili powder",
         "saltpork": "salt pork",
@@ -6211,9 +6232,9 @@ def normalize_ingredient(item):
         "ears corn": "corn",
         "can creamed corn": "creamed corn",
         "creamed corn": "corn",
-        "can chicken broth": "chicken stock",
-        "cups chicken broth": "chicken stock",
-        "cup chicken broth": "chicken stock",
+        "can chicken broth": "chicken broth",
+        "cups chicken broth": "chicken broth",
+        "cup chicken broth": "chicken broth",
         "optional shredded": "garnish",
         "optional sour cream": "garnish",
         "optional": "garnish",
@@ -6448,8 +6469,8 @@ def normalize_ingredient(item):
         "slice ginger": "ginger",
         "oz jar pizza sauce": "pizza sauce",
         "jar pizza sauce": "pizza sauce",
-        "oz can chicken broth": "chicken stock",
-        "can chicken broth": "chicken stock",
+        "oz can chicken broth": "chicken broth",
+        "can chicken broth": "chicken broth",
         "oz can kidney beans": "kidney beans",
         "can kidney beans": "kidney beans",
         "oz pkgs onion soup": "onion powder",
@@ -6587,7 +6608,7 @@ def normalize_ingredient(item):
         "criseo": "shortening",
         "j2 teaspoonful": "garnish",
         "cup ful milk": "milk",
-        "cupfuls chicken broth": "chicken stock",
+        "cupfuls chicken broth": "chicken broth",
         "_'cupful chicken gravy": "gravy",
         "'_'cupful": "garnish",
         "bak-'_'cupful": "garnish",
@@ -6626,7 +6647,7 @@ def normalize_ingredient(item):
         "inch stem broccoli": "broccoli",
         "inch slice beetroot": "beets",
         "large shredded carrots": "carrots",
-        "1/2 oz can chicken broth": "chicken stock",
+        "1/2 oz can chicken broth": "chicken broth",
         "shredded cheddar cheese": "cheddar cheese",
         "optional shredded": "garnish",
         "for garnish shredded": "garnish",
@@ -6650,7 +6671,7 @@ def normalize_ingredient(item):
         "juice and rind": "garnish",
         "pieces boneless breast of": "chicken",
         "boneless breast of chicken": "chicken",
-        "can chicken broth": "chicken stock",
+        "can chicken broth": "chicken broth",
         "slices mozzarella cheese": "mozzarella cheese",
         "oz turkey polish kielbasa": "sausage",
         "turkey polish kielbasa": "sausage",
@@ -6671,7 +6692,7 @@ def normalize_ingredient(item):
         "1/2 cup dijon mustard": "mustard",
         "1/2 inch slice ginger": "ginger",
         "inch slice ginger": "ginger",
-        "cup chicken broth": "chicken stock",
+        "cup chicken broth": "chicken broth",
         "for serving cooked rice": "garnish",
         "spoons biscuit": "biscuit",
 
@@ -6723,8 +6744,8 @@ def normalize_ingredient(item):
         "package pepperonis": "pepperoni",
         "oz jar pizza sauce": "pizza sauce",
         "small can tomato paste": "tomato paste",
-        "oz can chicken broth": "chicken stock",
-        "can chicken broth": "chicken stock",
+        "oz can chicken broth": "chicken broth",
+        "can chicken broth": "chicken broth",
         "optional shredded cheddar": "garnish",
         "optional sour cream": "garnish",
         "oz pkgs onion soup mix": "onion powder",
@@ -6772,7 +6793,7 @@ def normalize_ingredient(item):
         "fid criseo j2 teaspoonful": "shortening",
         "j2 teaspoonful salt": "salt",
         "cup ful milk (about)": "milk",
-        "cupfuls chicken broth": "chicken stock",
+        "cupfuls chicken broth": "chicken broth",
         "tablespoons ofgirated horseradish": "horseradish",
         "tablespoons ofgirated horseradish,": "horseradish",
         "tablespoons ofgrated cheese.": "cheese",
@@ -6818,8 +6839,8 @@ def normalize_ingredient(item):
         "1/4 stick celery": "celery",
 
         # Batch 16 - Partial recipes common missing items
-        "cup chicken broth": "chicken stock",
-        "can chicken broth": "chicken stock",
+        "cup chicken broth": "chicken broth",
+        "can chicken broth": "chicken broth",
         "large flour tortillas": "tortillas",
         "cup salad oil": "vegetable oil",
         "salad oil": "vegetable oil",
@@ -6911,6 +6932,126 @@ def normalize_ingredient(item):
         "two cloves.": "cloves",
         "two cloves": "cloves",
         "can milk": "evaporated milk",
+
+        # Batch 17 - More partial recipe patterns
+        "vegetable spray": "cooking spray",
+        "lump crabmeat": "crab",
+        "crabmeat": "crab",
+        "loaf of french bread": "bread",
+        "french bread": "bread",
+        "chopped chilis": "chili peppers",
+        "chopped chili": "chili peppers",
+        "frozen pizza dough": "pizza dough",
+        "pizza dough": "bread",
+        "breakfast sausage": "sausage",
+        "chorizo sausage": "chorizo",
+        "ciabatta rolls": "bread",
+        "ciabatta roll": "bread",
+        "ciabatta": "bread",
+        "pesto sauce": "pesto",
+        "cheese sauce": "cheese",
+        "plain chocolate chips": "chocolate chips",
+        "pineapple marmalade": "jam",
+        "pieces flour tortillas": "tortillas",
+        "flour tortillas": "tortillas",
+        "semi sweet chocolate chips": "chocolate chips",
+        "semi-sweet chocolate chips": "chocolate chips",
+        "semisweet chocolate chips": "chocolate chips",
+        "frozen shredded hash browns": "hash browns",
+        "shredded hash browns": "hash browns",
+        "hash browns": "potatoes",
+        "cook and serve vanilla pudding": "pudding",
+        "vanilla pudding": "pudding",
+        "instant pudding": "pudding",
+        "box pudding": "pudding",
+        "lemon lemon zest": "lemon zest",
+        "bacon bits": "bacon",
+        "semi-sweet baking chocolate": "chocolate",
+        "semisweet baking chocolate": "chocolate",
+        "baking chocolate": "chocolate",
+        "campbell's condensed french onion soup": "onion soup",
+        "campbell's condensed": "soup",
+        "condensed french onion soup": "onion soup",
+        "french onion soup": "onion soup",
+        "onion soup": "soup",
+        "corn tortillas": "tortillas",
+        "-inch corn tortillas": "tortillas",
+        "heinz chili sauce": "chili sauce",
+        "-oz bottle": "garnish",
+        "for garnish sour cream": "garnish",
+        "for garnish shredded cheddar cheese": "garnish",
+        "for garnish": "garnish",
+        "cup apple butter": "jam",
+        "apple butter": "jam",
+        "peeled and grated": "garnish",
+        "tub (": "garnish",
+        "level tablespoons ofbaking powder": "baking powder",
+        "level tablespoons of baking powder": "baking powder",
+        "tsp three level tablespoons": "garnish",
+
+        # Batch 18 - More historical OCR and remaining patterns
+        "tablespoonfuls shortening": "shortening",
+        "tablespoonfuls ofshortening": "shortening",
+        "tablespoons offinely": "garnish",
+        "offinely minced parsley": "parsley",
+        "tablespoons ofparsley": "parsley",
+        "ofparsley": "parsley",
+        "tablespoonfuls ofsyrup": "maple syrup",
+        "tablespoons ofsyrup": "maple syrup",
+        "tablespoonfuls syrup": "maple syrup",
+        "syrup.": "maple syrup",
+        "syrup": "maple syrup",
+        "tablespoonful ofbutter": "butter",
+        "tablespoonfuls ofbutter": "butter",
+        "tablespoonful offlour": "flour",
+        "tablespoonfuls offlour": "flour",
+        "%cups flour": "flour",
+        "two eggis": "eggs",
+        "eggis": "eggs",
+        "teaspoonfuls ofbaking powder": "baking powder",
+        "teaspoonfuls ofcinnamon": "cinnamon",
+        "ofcinnamon": "cinnamon",
+        "teaspoon ofpepper": "black pepper",
+        "ofpepper": "black pepper",
+        "gill rose-water": "rosewater",
+        "rose-water": "rosewater",
+        "rosewater": "vanilla",
+        "slices swiss cheese": "swiss cheese",
+        "swiss cheese": "cheese",
+        "huckleberries": "blueberries",
+        "cup huckleberries": "blueberries",
+        "green apple": "apples",
+        "small can tomato sauce": "tomato sauce",
+        "packet taco seasoning": "chili powder",
+        "pkg taco seasoning": "chili powder",
+        "taco seasoning": "chili powder",
+        "graham flour": "whole wheat flour",
+        "cup graham flour": "whole wheat flour",
+        "medium papaya": "mango",
+        "papaya": "mango",
+        "pkg chocolate bits": "chocolate chips",
+        "chocolate bits": "chocolate chips",
+        "box chocolate pudding": "pudding",
+        "large box chocolate pudding": "pudding",
+        "chocolate pudding": "pudding",
+        "box vanilla pudding": "pudding",
+        "heinz chili sauce": "chili sauce",
+        "chili sauce": "ketchup",
+        "nutella": "chocolate",
+        "cup nutella": "chocolate",
+        "thin ": "garnish",
+        "bit of cinnamon": "cinnamon",
+        "small bit of cinnamon": "cinnamon",
+        "a lemon's yellow rind": "lemon zest",
+        "lemon's yellow rind": "lemon zest",
+        "yellow rind": "lemon zest",
+        "-oz squares": "garnish",
+        "squares semi-sweet baking chocolate": "chocolate",
+        "baking chocolate, melted": "chocolate",
+        "condensed french onion soup": "soup",
+        "campbell's condensed": "soup",
+        "for garnish sour cream": "garnish",
+        "for garnish shredded": "garnish",
     }
 
     # Check for exact match first

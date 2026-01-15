@@ -13561,19 +13561,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 39,
-          "fat_g": 0.1,
-          "carbs_g": 10.0,
-          "protein_g": 0.4,
-          "sodium_mg": 0,
-          "fiber_g": 1.9,
-          "sugar_g": 7.8
+          "calories": 66,
+          "fat_g": 0.2,
+          "carbs_g": 16.8,
+          "protein_g": 0.7,
+          "sodium_mg": 1,
+          "fiber_g": 2.6,
+          "sugar_g": 11.2
         },
-        "missing_inputs": [
-          "Three bananas."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
