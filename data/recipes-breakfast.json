@@ -9237,18 +9237,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 216,
-          "fat_g": 19.6,
-          "carbs_g": 0.9,
-          "protein_g": 9.2,
-          "sodium_mg": 203,
-          "fiber_g": 0.1,
-          "sugar_g": 0.6
+          "calories": 222,
+          "fat_g": 19.7,
+          "carbs_g": 2.2,
+          "protein_g": 9.4,
+          "sodium_mg": 204,
+          "fiber_g": 0.5,
+          "sugar_g": 1.4
         },
         "missing_inputs": [
-          "1  large plum tomato, diced",
           "1/4 cup fresh basil, chopped finely",
           "1  large French baguette"
         ],
@@ -10587,19 +10586,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 321,
-          "fat_g": 16.9,
-          "carbs_g": 19.9,
-          "protein_g": 20.4,
-          "sodium_mg": 436,
-          "fiber_g": 2.2,
-          "sugar_g": 2.0
+          "calories": 326,
+          "fat_g": 17.0,
+          "carbs_g": 21.1,
+          "protein_g": 20.6,
+          "sodium_mg": 438,
+          "fiber_g": 2.6,
+          "sugar_g": 2.8
         },
-        "missing_inputs": [
-          "1  large plum tomato, thinly sliced"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
@@ -12765,16 +12762,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 141,
-          "fat_g": 5.1,
-          "carbs_g": 17.6,
-          "protein_g": 5.2,
-          "sodium_mg": 270,
-          "fiber_g": 1.1,
-          "sugar_g": 1.5
+          "calories": 146,
+          "fat_g": 5.3,
+          "carbs_g": 18.4,
+          "protein_g": 5.3,
+          "sodium_mg": 304,
+          "fiber_g": 1.2,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
-          "1/4 cup bottled spaghetti sauce",
           "2  whole strips of bacon, each cut in to 8 pieces"
         ],
         "assumptions": [
@@ -30980,18 +30976,17 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 216,
-          "fat_g": 19.6,
-          "carbs_g": 0.9,
-          "protein_g": 9.2,
-          "sodium_mg": 203,
-          "fiber_g": 0.1,
-          "sugar_g": 0.6
+          "calories": 222,
+          "fat_g": 19.7,
+          "carbs_g": 2.2,
+          "protein_g": 9.4,
+          "sodium_mg": 204,
+          "fiber_g": 0.5,
+          "sugar_g": 1.4
         },
         "missing_inputs": [
-          "1 large plum tomato",
           "1/4 cup fresh basil",
           "1 large French baguette"
         ],
@@ -32499,19 +32494,17 @@
       ],
       "source_note": "Reference cookbook - Book Four: More Quick and Easy Breakfast Recipes",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 160,
+          "calories": 163,
           "fat_g": 8.5,
-          "carbs_g": 9.9,
-          "protein_g": 10.2,
-          "sodium_mg": 218,
-          "fiber_g": 1.1,
-          "sugar_g": 1.0
+          "carbs_g": 10.6,
+          "protein_g": 10.3,
+          "sodium_mg": 219,
+          "fiber_g": 1.3,
+          "sugar_g": 1.4
         },
-        "missing_inputs": [
-          "1 large plum tomato"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -35129,16 +35122,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 141,
-          "fat_g": 5.1,
-          "carbs_g": 17.6,
-          "protein_g": 5.2,
-          "sodium_mg": 270,
-          "fiber_g": 1.1,
-          "sugar_g": 1.5
+          "calories": 146,
+          "fat_g": 5.3,
+          "carbs_g": 18.4,
+          "protein_g": 5.3,
+          "sodium_mg": 304,
+          "fiber_g": 1.2,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
-          "1/4 cup bottled spaghetti sauce",
           "2  whole strips of bacon"
         ],
         "assumptions": [
@@ -38385,13 +38377,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 274,
+          "calories": 271,
           "fat_g": 14.9,
-          "carbs_g": 21.4,
+          "carbs_g": 20.7,
           "protein_g": 13.1,
-          "sodium_mg": 851,
+          "sodium_mg": 874,
           "fiber_g": 1.3,
-          "sugar_g": 2.9
+          "sugar_g": 2.1
         },
         "missing_inputs": [
           "2  lamb's kidneys",
@@ -39386,13 +39378,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 125,
+          "calories": 122,
           "fat_g": 7.6,
-          "carbs_g": 2.3,
+          "carbs_g": 1.6,
           "protein_g": 9.2,
-          "sodium_mg": 508,
+          "sodium_mg": 531,
           "fiber_g": 0.0,
-          "sugar_g": 1.6
+          "sugar_g": 0.9
         },
         "missing_inputs": [
           "6  squares of toast",
@@ -45260,17 +45252,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 36,
+          "fat_g": 2.5,
+          "carbs_g": 0.2,
+          "protein_g": 3.0,
+          "sodium_mg": 36,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 0.2
         },
         "missing_inputs": [
-          "2  c.hotmilk 2 raweggyolks",
-          "2  tblsp. butter 1 hard boiled egg"
+          "2  c.hotmilk 2 raweggyolks"
         ],
         "assumptions": [
           "Calculated for 4 servings"

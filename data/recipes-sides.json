@@ -334,18 +334,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 46,
-          "fat_g": 3.7,
-          "carbs_g": 3.4,
-          "protein_g": 0.9,
-          "sodium_mg": 107,
-          "fiber_g": 0.9,
+          "calories": 74,
+          "fat_g": 5.7,
+          "carbs_g": 3.9,
+          "protein_g": 2.6,
+          "sodium_mg": 126,
+          "fiber_g": 1.0,
           "sugar_g": 2.5
         },
         "missing_inputs": [
           "1 tbsp finely chopped green onion tops",
-          "6 tbsp torn mint leaves",
-          "6 tbsp freshly crumbled ricotta salata cheese",
           "2  sheets pane carasau (Sardinian music bread), each broken into 3 pieces",
           "Mint sprigs (optional)"
         ],
@@ -1693,7 +1691,7 @@
           "fat_g": 4.7,
           "carbs_g": 0.9,
           "protein_g": 0.3,
-          "sodium_mg": 148,
+          "sodium_mg": 147,
           "fiber_g": 0.1,
           "sugar_g": 0.0
         },
@@ -10141,13 +10139,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 124,
+          "calories": 122,
           "fat_g": 11.7,
-          "carbs_g": 4.5,
+          "carbs_g": 3.7,
           "protein_g": 1.0,
-          "sodium_mg": 586,
+          "sodium_mg": 609,
           "fiber_g": 0.2,
-          "sugar_g": 0.8
+          "sugar_g": 0.0
         },
         "missing_inputs": [
           "1  glass of white wine",
@@ -11910,13 +11908,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 124,
+          "calories": 122,
           "fat_g": 11.7,
-          "carbs_g": 4.5,
+          "carbs_g": 3.7,
           "protein_g": 1.0,
-          "sodium_mg": 586,
+          "sodium_mg": 609,
           "fiber_g": 0.2,
-          "sugar_g": 0.8
+          "sugar_g": 0.0
         },
         "missing_inputs": [
           "1  glass of white wine",
@@ -17196,7 +17194,7 @@
           "fat_g": 5.8,
           "carbs_g": 4.1,
           "protein_g": 0.8,
-          "sodium_mg": 114,
+          "sodium_mg": 113,
           "fiber_g": 0.3,
           "sugar_g": 0.1
         },
@@ -29738,19 +29736,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 121,
-          "fat_g": 12.4,
-          "carbs_g": 2.0,
-          "protein_g": 2.3,
-          "sodium_mg": 95,
-          "fiber_g": 1.0,
-          "sugar_g": 0.4
+          "calories": 218,
+          "fat_g": 12.7,
+          "carbs_g": 24.0,
+          "protein_g": 4.3,
+          "sodium_mg": 97,
+          "fiber_g": 4.0,
+          "sugar_g": 0.6
         },
-        "missing_inputs": [
-          "2 cups pearled barley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

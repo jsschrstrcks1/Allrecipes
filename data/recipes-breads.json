@@ -23837,7 +23837,9 @@
       ],
       "temperature": "",
       "pan_size": "",
-      "notes": [],
+      "notes": [
+        "[AUTO-FLAGGED] Non-recipe: Corrupted multi-ingredient lines, incomplete recipe"
+      ],
       "tags": [
         "vintage",
         "pdf-extracted"
@@ -23868,7 +23870,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true
     },
     {
       "id": "monkey-bread-dutchovenc",
