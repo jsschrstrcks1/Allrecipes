@@ -19549,20 +19549,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 134,
-          "fat_g": 7.5,
-          "carbs_g": 16.1,
-          "protein_g": 2.9,
-          "sodium_mg": 2526,
+          "calories": 144,
+          "fat_g": 7.7,
+          "carbs_g": 18.1,
+          "protein_g": 3.0,
+          "sodium_mg": 2532,
           "fiber_g": 3.2,
-          "sugar_g": 7.8
+          "sugar_g": 9.3
         },
         "missing_inputs": [
           "1  /^teaspoon whole cloves andallspice.",
-          "Small piecewhole mace.",
-          "1 tbsp caramel."
+          "Small piecewhole mace."
         ],
         "assumptions": [
           "Calculated for 4 servings"

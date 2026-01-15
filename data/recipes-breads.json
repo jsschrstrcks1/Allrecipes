@@ -7447,20 +7447,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 158,
-          "fat_g": 5.0,
-          "carbs_g": 25.2,
-          "protein_g": 3.2,
-          "sodium_mg": 109,
+          "calories": 197,
+          "fat_g": 5.8,
+          "carbs_g": 33.2,
+          "protein_g": 3.7,
+          "sodium_mg": 134,
           "fiber_g": 0.7,
-          "sugar_g": 9.2
+          "sugar_g": 15.2
         },
         "missing_inputs": [
           "1/4 cup applesauce",
-          "3/4 cup apples",
-          "12  caramels"
+          "3/4 cup apples"
         ],
         "assumptions": [
           "Calculated for 12 servings"
@@ -9953,17 +9952,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 2614,
-          "fat_g": 118.9,
-          "carbs_g": 337.4,
-          "protein_g": 60.8,
-          "sodium_mg": 1831,
-          "fiber_g": 11.4,
+          "calories": 2762,
+          "fat_g": 130.9,
+          "carbs_g": 345.4,
+          "protein_g": 66.1,
+          "sodium_mg": 1839,
+          "fiber_g": 19.4,
           "sugar_g": 160.1
         },
         "missing_inputs": [
-          "1 1/2 cups mashed bananas",
-          "1/4 cup ground flaxseed"
+          "1 1/2 cups mashed bananas"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -10106,17 +10104,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1704,
-          "fat_g": 34.0,
-          "carbs_g": 311.8,
-          "protein_g": 39.2,
-          "sodium_mg": 3502,
-          "fiber_g": 34.5,
+          "calories": 1778,
+          "fat_g": 40.0,
+          "carbs_g": 315.8,
+          "protein_g": 41.9,
+          "sodium_mg": 3506,
+          "fiber_g": 38.5,
           "sugar_g": 53.4
         },
         "missing_inputs": [
-          "1 package yeast",
-          "2 tbsp caraway seeds"
+          "1 package yeast"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -20254,46 +20251,41 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "butter",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": "melted"
-        },
-        {
-          "item": "yeast cake dissolved in \u00bc cup lukewarm water",
+          "item": "yeast",
           "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "unit": "package",
+          "prep_note": "dissolved in 1/4 cup lukewarm water"
         },
         {
-          "item": "Carnation Milk",
+          "item": "bread flour",
+          "quantity": "7 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "1 1/3",
+          "unit": "cups",
+          "prep_note": "hot"
+        },
+        {
+          "item": "evaporated milk",
           "quantity": "2/3",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd cups bread flour",
-          "quantity": "7",
-          "unit": "",
-          "prep_note": "approximately"
+          "unit": "cup"
         },
         {
           "item": "sugar",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
+          "quantity": "1/4",
+          "unit": "cup"
         },
         {
           "item": "salt",
           "quantity": "2",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "tsp"
         },
         {
-          "item": "\u2153 cups hot water",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -20318,20 +20310,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 42,
-          "fat_g": 3.3,
-          "carbs_g": 2.8,
-          "protein_g": 0.5,
-          "sodium_mg": 413,
-          "fiber_g": 0.0,
-          "sugar_g": 2.8
+          "calories": 368,
+          "fat_g": 5.2,
+          "carbs_g": 66.7,
+          "protein_g": 10.5,
+          "sodium_mg": 421,
+          "fiber_g": 2.1,
+          "sugar_g": 5.0
         },
         "missing_inputs": [
-          "1  yeast cake dissolved in \u00bc cup lukewarm water",
-          "7  \u00bd cups bread flour",
-          "1  \u2153 cups hot water"
+          "1 package yeast"
         ],
         "assumptions": [
           "Calculated for 12 servings",
@@ -32561,18 +32551,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 2248,
-          "fat_g": 59.3,
-          "carbs_g": 384.8,
-          "protein_g": 42.6,
-          "sodium_mg": 2341,
-          "fiber_g": 12.9,
+          "calories": 2544,
+          "fat_g": 83.3,
+          "carbs_g": 400.8,
+          "protein_g": 53.1,
+          "sodium_mg": 2357,
+          "fiber_g": 28.9,
           "sugar_g": 70.4
         },
         "missing_inputs": [
           "2 tbsp soy flour",
           "1/2 cup flax seed",
-          "1/2 cup sesame seeds",
           "1 package yeast"
         ],
         "assumptions": [

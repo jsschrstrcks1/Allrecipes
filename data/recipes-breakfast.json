@@ -7882,34 +7882,9 @@
       "cook_time": "30 minutes",
       "ingredients": [
         {
-          "item": "mild ground pork sausage",
-          "quantity": "1",
-          "unit": "lb"
-        },
-        {
-          "item": "sweet butter",
-          "quantity": "3",
-          "unit": "tbsp"
-        },
-        {
-          "item": "sliced scallions",
-          "quantity": "4",
+          "item": "eggs",
+          "quantity": "8",
           "unit": ""
-        },
-        {
-          "item": "chopped cilantro",
-          "quantity": "3",
-          "unit": "tbsp"
-        },
-        {
-          "item": "large eggs",
-          "quantity": "14",
-          "unit": ""
-        },
-        {
-          "item": "Salt and pepper",
-          "quantity": "",
-          "unit": "to taste"
         },
         {
           "item": "flour tortillas",
@@ -7917,39 +7892,32 @@
           "unit": ""
         },
         {
-          "item": "shredded Monterey Jack cheese",
+          "item": "green onions",
           "quantity": "4",
-          "unit": "oz"
+          "unit": "",
+          "prep_note": "sliced"
         },
         {
-          "item": "sweet butter",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "for cheese sauce"
+          "item": "Monterey Jack cheese",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "shredded"
         },
         {
-          "item": "all-purpose flour",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "for cheese sauce"
+          "item": "sausage",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "cooked, crumbled"
         },
         {
-          "item": "whole milk",
-          "quantity": "3",
-          "unit": "cups",
-          "prep_note": "for cheese sauce"
-        },
-        {
-          "item": "shredded Cheddar cheese",
-          "quantity": "2",
-          "unit": "cups",
-          "prep_note": "for cheese sauce"
-        },
-        {
-          "item": "salt",
+          "item": "salsa",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": "for cheese sauce"
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -8017,18 +7985,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 1085,
-          "fat_g": 87.2,
-          "carbs_g": 17.8,
-          "protein_g": 56.0,
-          "sodium_mg": 2144,
-          "fiber_g": 0.2,
-          "sugar_g": 10.7
+          "calories": 218,
+          "fat_g": 15.8,
+          "carbs_g": 5.3,
+          "protein_g": 13.1,
+          "sodium_mg": 483,
+          "fiber_g": 1.4,
+          "sugar_g": 3.2
         },
         "missing_inputs": [
-          "4  sliced scallions",
           "8  flour tortillas",
-          "4 oz shredded Monterey Jack cheese"
+          "4 oz Monterey Jack cheese",
+          "8 oz sausage"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -8145,16 +8113,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 570,
-          "fat_g": 44.8,
-          "carbs_g": 3.9,
-          "protein_g": 33.1,
-          "sodium_mg": 975,
-          "fiber_g": 0.5,
-          "sugar_g": 2.1
+          "calories": 601,
+          "fat_g": 46.3,
+          "carbs_g": 8.2,
+          "protein_g": 33.6,
+          "sodium_mg": 1067,
+          "fiber_g": 0.6,
+          "sugar_g": 2.6
         },
         "missing_inputs": [
-          "1 8 oz package crescent roll dough",
           "1 cup frozen shredded hash browns, thawed"
         ],
         "assumptions": [
@@ -8779,20 +8746,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 95,
-          "fat_g": 1.9,
-          "carbs_g": 17.5,
-          "protein_g": 2.1,
-          "sodium_mg": 14,
-          "fiber_g": 0.4,
-          "sugar_g": 5.9
+          "calories": 117,
+          "fat_g": 2.8,
+          "carbs_g": 21.0,
+          "protein_g": 2.6,
+          "sodium_mg": 15,
+          "fiber_g": 2.1,
+          "sugar_g": 7.6
         },
-        "missing_inputs": [
-          "3/4 cup mixed berries",
-          "1 tbsp sunflower seeds"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
@@ -9078,19 +9042,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 163,
-          "fat_g": 10.1,
-          "carbs_g": 17.4,
-          "protein_g": 2.2,
-          "sodium_mg": 86,
-          "fiber_g": 0.8,
-          "sugar_g": 16.1
+          "calories": 417,
+          "fat_g": 22.1,
+          "carbs_g": 51.4,
+          "protein_g": 6.2,
+          "sodium_mg": 822,
+          "fiber_g": 1.8,
+          "sugar_g": 20.1
         },
-        "missing_inputs": [
-          "8 oz store bought refrigerator crescent rolls"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
@@ -10217,17 +10179,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 210,
-          "fat_g": 19.3,
-          "carbs_g": 1.3,
-          "protein_g": 9.0,
-          "sodium_mg": 153,
-          "fiber_g": 0.3,
-          "sugar_g": 0.7
+          "calories": 333,
+          "fat_g": 20.7,
+          "carbs_g": 25.3,
+          "protein_g": 14.3,
+          "sodium_mg": 422,
+          "fiber_g": 1.4,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
-          "1 tbsp pesto sauce",
-          "4  slices baguette, toasted"
+          "1 tbsp pesto sauce"
         ],
         "assumptions": [
           "Calculated for 3 servings"
@@ -12519,18 +12480,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 134,
-          "fat_g": 9.3,
-          "carbs_g": 0.4,
-          "protein_g": 9.3,
-          "sodium_mg": 496,
-          "fiber_g": 0.2,
-          "sugar_g": 0.1
+          "calories": 684,
+          "fat_g": 15.3,
+          "carbs_g": 108.4,
+          "protein_g": 33.4,
+          "sodium_mg": 1708,
+          "fiber_g": 5.2,
+          "sugar_g": 6.2
         },
         "missing_inputs": [
-          "2 loaves ciabatta bread",
           "8 slices ham",
           "8 slices swiss cheese"
         ],
@@ -12801,16 +12761,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 290,
-          "fat_g": 26.1,
-          "carbs_g": 3.0,
-          "protein_g": 10.5,
-          "sodium_mg": 458,
-          "fiber_g": 0.3,
-          "sugar_g": 1.9
+          "calories": 840,
+          "fat_g": 32.0,
+          "carbs_g": 111.0,
+          "protein_g": 34.5,
+          "sodium_mg": 1670,
+          "fiber_g": 5.3,
+          "sugar_g": 7.9
         },
         "missing_inputs": [
-          "1 loaf ciabatta bread",
           "4 slices smoked salmon"
         ],
         "assumptions": [
@@ -28866,16 +28825,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 340,
-          "fat_g": 31.0,
-          "carbs_g": 9.2,
-          "protein_g": 6.5,
-          "sodium_mg": 153,
-          "fiber_g": 0.1,
-          "sugar_g": 8.2
+          "calories": 477,
+          "fat_g": 32.5,
+          "carbs_g": 36.2,
+          "protein_g": 12.5,
+          "sodium_mg": 456,
+          "fiber_g": 1.3,
+          "sugar_g": 9.7
         },
         "missing_inputs": [
-          "1 loaf French bread",
           "powdered sugar"
         ],
         "assumptions": [
@@ -29455,52 +29413,42 @@
       "pan_size": "9x13 inch baking dish",
       "ingredients": [
         {
-          "item": "mild ground pork sausage",
-          "quantity": "1",
-          "unit": "lb",
-          "prep_note": ""
+          "item": "eggs",
+          "quantity": "8",
+          "unit": ""
         },
         {
-          "item": "sweet butter",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": ""
+          "item": "flour tortillas",
+          "quantity": "8",
+          "unit": ""
         },
         {
-          "item": "scallions",
+          "item": "green onions",
           "quantity": "4",
           "unit": "",
           "prep_note": "sliced"
         },
         {
-          "item": "cilantro",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": "chopped"
-        },
-        {
-          "item": "large eggs",
-          "quantity": "14",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "salt and pepper",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "to taste"
-        },
-        {
-          "item": "flour tortillas",
-          "quantity": "8",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "shredded Monterey Jack cheese",
+          "item": "Monterey Jack cheese",
           "quantity": "4",
           "unit": "oz",
-          "prep_note": ""
+          "prep_note": "shredded"
+        },
+        {
+          "item": "sausage",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "cooked, crumbled"
+        },
+        {
+          "item": "salsa",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -29563,18 +29511,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 308,
-          "fat_g": 25.6,
-          "carbs_g": 1.2,
-          "protein_g": 17.5,
-          "sodium_mg": 527,
-          "fiber_g": 0.0,
-          "sugar_g": 0.7
+          "calories": 109,
+          "fat_g": 7.9,
+          "carbs_g": 2.6,
+          "protein_g": 6.6,
+          "sodium_mg": 242,
+          "fiber_g": 0.7,
+          "sugar_g": 1.6
         },
         "missing_inputs": [
-          "4  scallions",
           "8  flour tortillas",
-          "4 oz shredded Monterey Jack cheese"
+          "4 oz Monterey Jack cheese",
+          "8 oz sausage"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -29703,16 +29651,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 285,
-          "fat_g": 22.4,
-          "carbs_g": 2.0,
-          "protein_g": 16.6,
-          "sodium_mg": 488,
-          "fiber_g": 0.2,
-          "sugar_g": 1.1
+          "calories": 301,
+          "fat_g": 23.1,
+          "carbs_g": 4.1,
+          "protein_g": 16.8,
+          "sodium_mg": 534,
+          "fiber_g": 0.3,
+          "sugar_g": 1.3
         },
         "missing_inputs": [
-          "1 8 oz package crescent roll dough",
           "1 cup frozen shredded hash browns"
         ],
         "assumptions": [
@@ -30370,20 +30317,17 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 95,
-          "fat_g": 1.9,
-          "carbs_g": 17.5,
-          "protein_g": 2.1,
-          "sodium_mg": 14,
-          "fiber_g": 0.4,
-          "sugar_g": 5.9
+          "calories": 117,
+          "fat_g": 2.8,
+          "carbs_g": 21.0,
+          "protein_g": 2.6,
+          "sodium_mg": 15,
+          "fiber_g": 2.1,
+          "sugar_g": 7.6
         },
-        "missing_inputs": [
-          "3/4 cup mixed berries",
-          "1 tbsp sunflower seeds"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -30701,19 +30645,17 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 82,
-          "fat_g": 5.0,
-          "carbs_g": 8.7,
-          "protein_g": 1.1,
-          "sodium_mg": 43,
-          "fiber_g": 0.4,
-          "sugar_g": 8.1
+          "calories": 209,
+          "fat_g": 11.0,
+          "carbs_g": 25.7,
+          "protein_g": 3.1,
+          "sodium_mg": 411,
+          "fiber_g": 0.9,
+          "sugar_g": 10.1
         },
-        "missing_inputs": [
-          "8 oz refrigerator crescent rolls"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -31452,16 +31394,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 340,
-          "fat_g": 31.0,
-          "carbs_g": 9.2,
-          "protein_g": 6.5,
-          "sodium_mg": 153,
-          "fiber_g": 0.1,
-          "sugar_g": 8.2
+          "calories": 477,
+          "fat_g": 32.5,
+          "carbs_g": 36.2,
+          "protein_g": 12.5,
+          "sodium_mg": 456,
+          "fiber_g": 1.3,
+          "sugar_g": 9.7
         },
         "missing_inputs": [
-          "1 loaf French bread",
           "powdered sugar"
         ],
         "assumptions": [
@@ -34708,18 +34649,17 @@
       ],
       "source_note": "Reference cookbook - Book Four: Other Recipes",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 134,
-          "fat_g": 9.3,
-          "carbs_g": 0.4,
-          "protein_g": 9.3,
-          "sodium_mg": 496,
-          "fiber_g": 0.2,
-          "sugar_g": 0.1
+          "calories": 684,
+          "fat_g": 15.3,
+          "carbs_g": 108.4,
+          "protein_g": 33.4,
+          "sodium_mg": 1708,
+          "fiber_g": 5.2,
+          "sugar_g": 6.2
         },
         "missing_inputs": [
-          "2 loaves ciabatta bread",
           "8 slices ham",
           "8 slices swiss cheese"
         ],
@@ -35045,16 +34985,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 290,
-          "fat_g": 26.1,
-          "carbs_g": 3.0,
-          "protein_g": 10.5,
-          "sodium_mg": 458,
-          "fiber_g": 0.3,
-          "sugar_g": 1.9
+          "calories": 840,
+          "fat_g": 32.0,
+          "carbs_g": 111.0,
+          "protein_g": 34.5,
+          "sodium_mg": 1670,
+          "fiber_g": 5.3,
+          "sugar_g": 7.9
         },
         "missing_inputs": [
-          "1 loaf ciabatta bread",
           "4 slices smoked salmon"
         ],
         "assumptions": [
@@ -41436,11 +41375,11 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 200,
           "fat_g": 8.3,
-          "carbs_g": 14.0,
+          "carbs_g": 14.1,
           "protein_g": 17.3,
           "sodium_mg": 1125,
           "fiber_g": 0.7,
@@ -41448,8 +41387,7 @@
         },
         "missing_inputs": [
           "1  eggplant",
-          "1 whole pimiento",
-          "1/4 tsp marjoram"
+          "1 whole pimiento"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -44400,9 +44338,10 @@
         "pdf-extracted"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
-          "pdf-extraction"
+          "pdf-extraction",
+          "OCR-CORRUPTED: Instructions mixed with ingredients"
         ]
       },
       "image_refs": [],

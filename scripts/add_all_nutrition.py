@@ -82,6 +82,9 @@ NUTRITION_DB = {
     "agave": {"tbsp": {"cal": 60, "fat": 0, "carbs": 16, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 15}},
     "stevia": {"tsp": {"cal": 0, "fat": 0, "carbs": 1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
     "splenda": {"tsp": {"cal": 0, "fat": 0, "carbs": 1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "caramels": {"": {"cal": 39, "fat": 0.8, "carbs": 8, "protein": 0.5, "sodium": 25, "fiber": 0, "sugar": 6},
+                "cup": {"cal": 624, "fat": 13, "carbs": 128, "protein": 8, "sodium": 400, "fiber": 0, "sugar": 96}},
+    "caramel": {"": {"cal": 39, "fat": 0.8, "carbs": 8, "protein": 0.5, "sodium": 25, "fiber": 0, "sugar": 6}},
 
     # =========================================================================
     # DAIRY
@@ -396,6 +399,8 @@ NUTRITION_DB = {
     "strawberries": {"cup": {"cal": 49, "fat": 0.5, "carbs": 12, "protein": 1, "sodium": 2, "fiber": 3, "sugar": 7}},
     "raspberries": {"cup": {"cal": 64, "fat": 0.8, "carbs": 15, "protein": 1.5, "sodium": 1, "fiber": 8, "sugar": 5}},
     "blackberries": {"cup": {"cal": 62, "fat": 0.7, "carbs": 14, "protein": 2, "sodium": 1, "fiber": 8, "sugar": 7}},
+    "berries": {"cup": {"cal": 65, "fat": 0.6, "carbs": 16, "protein": 1, "sodium": 1, "fiber": 6, "sugar": 9}},
+    "mixed berries": {"cup": {"cal": 65, "fat": 0.6, "carbs": 16, "protein": 1, "sodium": 1, "fiber": 6, "sugar": 9}},
     "cranberries": {"cup": {"cal": 46, "fat": 0.1, "carbs": 12, "protein": 0.4, "sodium": 2, "fiber": 5, "sugar": 4}},
     "grapes": {"cup": {"cal": 104, "fat": 0.2, "carbs": 27, "protein": 1, "sodium": 3, "fiber": 1, "sugar": 23}},
     "peach": {"cup": {"cal": 60, "fat": 0.4, "carbs": 14, "protein": 1, "sodium": 0, "fiber": 2, "sugar": 12},
@@ -430,6 +435,9 @@ NUTRITION_DB = {
     "sesame seeds": {"cup": {"cal": 825, "fat": 72, "carbs": 34, "protein": 25, "sodium": 16, "fiber": 17, "sugar": 0},
                     "tbsp": {"cal": 52, "fat": 4.5, "carbs": 2, "protein": 1.6, "sodium": 1, "fiber": 1, "sugar": 0}},
     "flax seeds": {"tbsp": {"cal": 37, "fat": 3, "carbs": 2, "protein": 1.3, "sodium": 2, "fiber": 2, "sugar": 0}},
+    "flaxseed": {"tbsp": {"cal": 37, "fat": 3, "carbs": 2, "protein": 1.3, "sodium": 2, "fiber": 2, "sugar": 0},
+                "cup": {"cal": 592, "fat": 48, "carbs": 32, "protein": 21, "sodium": 32, "fiber": 32, "sugar": 0}},
+    "ground flaxseed": {"tbsp": {"cal": 37, "fat": 3, "carbs": 2, "protein": 1.3, "sodium": 2, "fiber": 2, "sugar": 0}},
     "chia seeds": {"tbsp": {"cal": 58, "fat": 4, "carbs": 5, "protein": 2, "sodium": 2, "fiber": 4, "sugar": 0}},
     "coconut": {"cup": {"cal": 283, "fat": 27, "carbs": 12, "protein": 3, "sodium": 16, "fiber": 7, "sugar": 5}},
 
@@ -472,6 +480,17 @@ NUTRITION_DB = {
     "pie crust": {"": {"cal": 648, "fat": 40, "carbs": 63, "protein": 7, "sodium": 520, "fiber": 2, "sugar": 2}},
     "pizza dough": {"lb": {"cal": 680, "fat": 8, "carbs": 130, "protein": 22, "sodium": 1200, "fiber": 5, "sugar": 4}},
     "biscuit": {"": {"cal": 127, "fat": 6, "carbs": 17, "protein": 2, "sodium": 368, "fiber": 0.5, "sugar": 2}},
+    "biscuits": {"": {"cal": 127, "fat": 6, "carbs": 17, "protein": 2, "sodium": 368, "fiber": 0.5, "sugar": 2},
+                "can": {"cal": 800, "fat": 38, "carbs": 102, "protein": 12, "sodium": 2200, "fiber": 3, "sugar": 12}},
+    "refrigerated biscuits": {"can": {"cal": 800, "fat": 38, "carbs": 102, "protein": 12, "sodium": 2200, "fiber": 3, "sugar": 12}},
+    "crescent rolls": {"can": {"cal": 880, "fat": 48, "carbs": 96, "protein": 12, "sodium": 1920, "fiber": 0, "sugar": 12}},
+    "croissant": {"": {"cal": 231, "fat": 12, "carbs": 26, "protein": 5, "sodium": 319, "fiber": 1.5, "sugar": 5}},
+    "french bread": {"slice": {"cal": 92, "fat": 1, "carbs": 18, "protein": 4, "sodium": 202, "fiber": 0.8, "sugar": 1},
+                    "loaf": {"cal": 1100, "fat": 12, "carbs": 216, "protein": 48, "sodium": 2424, "fiber": 10, "sugar": 12}},
+    "rye bread": {"slice": {"cal": 83, "fat": 1, "carbs": 15, "protein": 3, "sodium": 211, "fiber": 1.9, "sugar": 1}},
+    "sourdough": {"slice": {"cal": 93, "fat": 0.6, "carbs": 18, "protein": 4, "sodium": 206, "fiber": 0.6, "sugar": 0.5}},
+    "ciabatta": {"": {"cal": 150, "fat": 2, "carbs": 28, "protein": 6, "sodium": 310, "fiber": 1, "sugar": 1},
+                "loaf": {"cal": 600, "fat": 8, "carbs": 112, "protein": 24, "sodium": 1240, "fiber": 4, "sugar": 4}},
 
     # =========================================================================
     # CHOCOLATE & BAKING
@@ -528,6 +547,10 @@ NUTRITION_DB = {
     "thyme": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.6, "protein": 0.1, "sodium": 1, "fiber": 0.4, "sugar": 0}},
     "rosemary": {"tsp": {"cal": 2, "fat": 0.1, "carbs": 0.4, "protein": 0, "sodium": 1, "fiber": 0.2, "sugar": 0}},
     "sage": {"tsp": {"cal": 2, "fat": 0.1, "carbs": 0.4, "protein": 0.1, "sodium": 0, "fiber": 0.3, "sugar": 0}},
+    "marjoram": {"tsp": {"cal": 2, "fat": 0.1, "carbs": 0.4, "protein": 0.1, "sodium": 0, "fiber": 0.2, "sugar": 0}},
+    "tarragon": {"tsp": {"cal": 2, "fat": 0, "carbs": 0.4, "protein": 0.1, "sodium": 0, "fiber": 0.1, "sugar": 0}},
+    "bay leaf": {"": {"cal": 2, "fat": 0.1, "carbs": 0.5, "protein": 0, "sodium": 0, "fiber": 0.2, "sugar": 0}},
+    "bay leaves": {"": {"cal": 2, "fat": 0.1, "carbs": 0.5, "protein": 0, "sodium": 0, "fiber": 0.2, "sugar": 0}},
     "parsley": {"tsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 2, "fiber": 0.1, "sugar": 0},
                "cup": {"cal": 22, "fat": 0.5, "carbs": 4, "protein": 2, "sodium": 34, "fiber": 2, "sugar": 0.5}},
     "cilantro": {"cup": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0.1, "sodium": 3, "fiber": 0.2, "sugar": 0}},
@@ -588,6 +611,25 @@ NUTRITION_DB = {
     "rum": {"tbsp": {"cal": 32, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
     "bourbon": {"tbsp": {"cal": 32, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
     "vodka": {"tbsp": {"cal": 32, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "champagne": {"cup": {"cal": 168, "fat": 0, "carbs": 3, "protein": 0.5, "sodium": 10, "fiber": 0, "sugar": 1.5},
+                 "oz": {"cal": 21, "fat": 0, "carbs": 0.4, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0.2}},
+    "sparkling wine": {"cup": {"cal": 168, "fat": 0, "carbs": 3, "protein": 0.5, "sodium": 10, "fiber": 0, "sugar": 1.5}},
+    "prosecco": {"cup": {"cal": 160, "fat": 0, "carbs": 2, "protein": 0.4, "sodium": 10, "fiber": 0, "sugar": 1}},
+    "dry vermouth": {"oz": {"cal": 35, "fat": 0, "carbs": 3.5, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 1.5}},
+    "sweet vermouth": {"oz": {"cal": 45, "fat": 0, "carbs": 5, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 4}},
+    "vermouth": {"oz": {"cal": 40, "fat": 0, "carbs": 4, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 2}},
+    "sherry": {"cup": {"cal": 258, "fat": 0, "carbs": 8, "protein": 0.5, "sodium": 20, "fiber": 0, "sugar": 2}},
+    "port": {"cup": {"cal": 352, "fat": 0, "carbs": 20, "protein": 0.5, "sodium": 20, "fiber": 0, "sugar": 18}},
+    "brandy": {"oz": {"cal": 65, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "cognac": {"oz": {"cal": 65, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "whiskey": {"oz": {"cal": 70, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "scotch": {"oz": {"cal": 70, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "tequila": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "triple sec": {"oz": {"cal": 103, "fat": 0, "carbs": 11, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 11}},
+    "kahlua": {"oz": {"cal": 91, "fat": 0.1, "carbs": 14, "protein": 0, "sodium": 3, "fiber": 0, "sugar": 14}},
+    "amaretto": {"oz": {"cal": 110, "fat": 0, "carbs": 17, "protein": 0, "sodium": 3, "fiber": 0, "sugar": 17}},
+    "grand marnier": {"oz": {"cal": 76, "fat": 0, "carbs": 7, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 7}},
+    "simple syrup": {"oz": {"cal": 52, "fat": 0, "carbs": 13, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 13}},
 
     # =========================================================================
     # MISCELLANEOUS

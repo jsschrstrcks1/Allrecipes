@@ -1414,19 +1414,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 930,
-          "fat_g": 22.8,
-          "carbs_g": 176.1,
-          "protein_g": 13.2,
-          "sodium_mg": 1902,
-          "fiber_g": 4.5,
+          "calories": 967,
+          "fat_g": 25.8,
+          "carbs_g": 178.1,
+          "protein_g": 14.5,
+          "sodium_mg": 1904,
+          "fiber_g": 6.5,
           "sugar_g": 168.5
         },
-        "missing_inputs": [
-          "2 tbsp flaxseed"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -1779,52 +1777,18 @@
       "temperature": "425\u00b0F (220\u00b0C)",
       "ingredients": [
         {
-          "item": "apples, peeled",
+          "item": "apples",
           "quantity": "3",
-          "unit": "cups"
+          "unit": "cups",
+          "prep_note": "peeled, sliced"
         },
         {
-          "item": "fresh lemon zest",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "fresh lemon juice",
-          "quantity": "1",
-          "unit": "tbsp"
-        },
-        {
-          "item": "fresh strawberries, sliced",
+          "item": "berries",
           "quantity": "1",
           "unit": "cup"
         },
         {
-          "item": "blueberries, fresh or frozen",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "blackberries, fresh or frozen",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp"
-        },
-        {
-          "item": "cinnamon, ground",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "cornstarch",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "Truvia natural sweetener spoonable",
+          "item": "truvia",
           "quantity": "1/3",
           "unit": "cup"
         },
@@ -1834,8 +1798,18 @@
           "unit": ""
         },
         {
-          "item": "butter",
+          "item": "cornstarch",
           "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
           "unit": "tbsp"
         }
       ],
@@ -1901,17 +1875,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 59,
-          "fat_g": 3.1,
-          "carbs_g": 8.0,
-          "protein_g": 0.5,
-          "sodium_mg": 166,
-          "fiber_g": 2.0,
-          "sugar_g": 3.7
+          "calories": 29,
+          "fat_g": 1.5,
+          "carbs_g": 4.0,
+          "protein_g": 0.1,
+          "sodium_mg": 10,
+          "fiber_g": 0.9,
+          "sugar_g": 1.1
         },
         "missing_inputs": [
-          "3 cups apples, peeled",
-          "1/3 cup Truvia natural sweetener spoonable",
+          "3 cups apples",
+          "1/3 cup truvia",
           "1  pie crust"
         ],
         "assumptions": [
@@ -2213,24 +2187,27 @@
       "description": "A customizable chocolate treat with your choice of toppings - choose from crunchy toppings (nuts, toffee, peppermints), chewy toppings (dried fruits, marshmallows), and spices (sea salt, cardamom, pink peppercorns).",
       "ingredients": [
         {
-          "item": "chocolate (bittersweet, semisweet, white, or combination)",
+          "item": "chocolate",
           "quantity": "1",
-          "unit": "lb"
+          "unit": "lb",
+          "prep_note": "bittersweet, semisweet, or white"
         },
         {
-          "item": "crunchy toppings of choice, chopped",
+          "item": "almonds",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "chopped, for topping"
         },
         {
-          "item": "chewy toppings of choice, chopped",
+          "item": "dried cranberries",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "for topping"
         },
         {
-          "item": "spices (optional)",
-          "quantity": "",
-          "unit": ""
+          "item": "sea salt",
+          "quantity": "1/4",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -2267,21 +2244,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 437,
+          "fat_g": 36.0,
+          "carbs_g": 20.0,
+          "protein_g": 15.2,
+          "sodium_mg": 583,
+          "fiber_g": 11.0,
+          "sugar_g": 5.0
         },
         "missing_inputs": [
-          "1 lb chocolate (bittersweet, semisweet, white, or combination)",
-          "1/2 cup crunchy toppings of choice, chopped",
-          "1/2 cup chewy toppings of choice, chopped",
-          "spices (optional)"
+          "1 lb chocolate"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -2791,16 +2765,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 25,
-          "fat_g": 0.0,
-          "carbs_g": 6.4,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.1,
+          "calories": 37,
+          "fat_g": 1.0,
+          "carbs_g": 7.1,
+          "protein_g": 0.4,
+          "sodium_mg": 1,
+          "fiber_g": 0.8,
           "sugar_g": 6.2
         },
         "missing_inputs": [
-          "1/2 cup sesame seeds",
           "1  frozen puff pastry sheet, thawed"
         ],
         "assumptions": [
@@ -2821,54 +2794,36 @@
       "temperature": "325\u00b0F (165\u00b0C)",
       "ingredients": [
         {
-          "item": "unsalted butter, softened",
-          "quantity": "3",
-          "unit": "sticks"
-        },
-        {
-          "item": "granulated sugar",
+          "item": "puff pastry",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "sheet"
         },
         {
-          "item": "large egg yolks",
-          "quantity": "2",
-          "unit": ""
-        },
-        {
-          "item": "vanilla extract",
-          "quantity": "2",
-          "unit": "tsp"
-        },
-        {
-          "item": "light corn syrup",
+          "item": "coffee liqueur",
           "quantity": "2",
           "unit": "tbsp"
         },
         {
-          "item": "all-purpose flour",
-          "quantity": "4",
-          "unit": "cups"
-        },
-        {
-          "item": "coffee-flavored liqueur",
+          "item": "espresso powder",
           "quantity": "2",
           "unit": "tbsp"
         },
         {
-          "item": "finely ground espresso beans",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "finely chopped semisweet chocolate",
+          "item": "chocolate chips",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "finely chopped"
         },
         {
-          "item": "raw sugar (optional)",
+          "item": "sugar",
           "quantity": "1/4",
           "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten for egg wash"
         }
       ],
       "instructions": [
@@ -2910,20 +2865,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 139,
-          "fat_g": 2.1,
-          "carbs_g": 27.6,
-          "protein_g": 2.4,
-          "sodium_mg": 13,
-          "fiber_g": 0.6,
-          "sugar_g": 11.3
+          "calories": 28,
+          "fat_g": 1.2,
+          "carbs_g": 4.2,
+          "protein_g": 0.4,
+          "sodium_mg": 3,
+          "fiber_g": 0.2,
+          "sugar_g": 3.8
         },
         "missing_inputs": [
-          "2 tbsp coffee-flavored liqueur",
-          "2 tbsp finely ground espresso beans",
-          "1/2 cup finely chopped semisweet chocolate"
+          "1 sheet puff pastry",
+          "2 tbsp coffee liqueur"
         ],
         "assumptions": [
           "Calculated for 24 servings"
@@ -3685,34 +3639,35 @@
       "servings_yield": "8 servings",
       "ingredients": [
         {
-          "item": "Baker's semi-sweet chocolate squares",
+          "item": "chocolate",
           "quantity": "8",
-          "unit": "squares (1 pkg)"
+          "unit": "oz",
+          "prep_note": "semi-sweet, chopped"
         },
         {
-          "item": "milk",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "Cool Whip whipped topping, thawed",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "Nilla wafer pie crust",
+          "item": "graham cracker crust",
           "quantity": "1",
           "unit": ""
         },
         {
-          "item": "Philadelphia cream cheese",
+          "item": "cream cheese",
           "quantity": "8",
-          "unit": "oz package"
+          "unit": "oz"
         },
         {
-          "item": "Eagle Brand sweetened condensed milk",
+          "item": "sweetened condensed milk",
           "quantity": "14",
-          "unit": "oz can"
+          "unit": "oz"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -3756,21 +3711,18 @@
         "Top torte with remaining COOL WHIP, berries and chocolate curls."
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 32,
-          "fat_g": 2.9,
-          "carbs_g": 1.1,
-          "protein_g": 0.5,
-          "sodium_mg": 9,
-          "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "calories": 458,
+          "fat_g": 34.5,
+          "carbs_g": 32.9,
+          "protein_g": 5.0,
+          "sodium_mg": 179,
+          "fiber_g": 2.2,
+          "sugar_g": 20.7
         },
         "missing_inputs": [
-          "8 squares (1 pkg) Baker's semi-sweet chocolate squares",
-          "1  Nilla wafer pie crust",
-          "8 oz package Philadelphia cream cheese",
-          "14 oz can Eagle Brand sweetened condensed milk"
+          "14 oz sweetened condensed milk"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -4406,114 +4358,57 @@
       "pan_size": "Two 9-inch-round cake pans",
       "ingredients": [
         {
-          "item": "FOR THE CAKE:",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "unsalted butter, at room temperature (for the pans)",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "cold butter, cut into 12 pieces (for the cake)",
-          "quantity": "12",
-          "unit": "tbsp"
-        },
-        {
-          "item": "cake flour, plus more for the pans",
-          "quantity": "2 1/2",
-          "unit": "cups"
-        },
-        {
-          "item": "whole milk, at room temperature",
-          "quantity": "3/4",
-          "unit": "cup"
-        },
-        {
-          "item": "egg whites, at room temperature",
-          "quantity": "6",
-          "unit": "large"
-        },
-        {
-          "item": "vanilla bean, split lengthwise, seeds scraped out and reserved",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "pure vanilla extract",
-          "quantity": "1 1/2",
-          "unit": "tsp"
-        },
-        {
-          "item": "granulated sugar",
-          "quantity": "1 1/2",
-          "unit": "cups"
-        },
-        {
-          "item": "plus 1 tsp baking powder",
-          "quantity": "1",
-          "unit": "tbsp"
-        },
-        {
-          "item": "salt",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "FOR THE COCONUT FILLING:",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "Coconut Custard (right), cold",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "cold heavy cream",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "FOR THE COCONUT BUTTERCREAM:",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "unsalted butter, at room temperature",
+          "item": "flour",
           "quantity": "3",
-          "unit": "sticks"
+          "unit": "cups"
         },
         {
-          "item": "confectioners' sugar",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "Coconut Custard (right)",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "pinch of salt",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "FOR ASSEMBLY:",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "Coconut Simple Syrup (right)",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "sweetened flaked coconut, lightly toasted, for garnish",
+          "item": "sugar",
           "quantity": "2",
           "unit": "cups"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "coconut",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "toasted"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "for frosting"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "for frosting"
         }
       ],
       "instructions": [
@@ -4558,25 +4453,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 1193,
-          "fat_g": 62.0,
-          "carbs_g": 146.7,
-          "protein_g": 13.5,
-          "sodium_mg": 1103,
-          "fiber_g": 1.2,
-          "sugar_g": 93.2
+          "calories": 2368,
+          "fat_g": 87.4,
+          "carbs_g": 383.5,
+          "protein_g": 23.8,
+          "sodium_mg": 693,
+          "fiber_g": 6.0,
+          "sugar_g": 308.1
         },
-        "missing_inputs": [
-          "1  vanilla bean, split lengthwise, seeds scraped out and reserved",
-          "1 tbsp plus 1 tsp baking powder",
-          "1/2 cup Coconut Custard (right), cold",
-          "1/2 cup Coconut Custard (right)",
-          "FOR ASSEMBLY:",
-          "Coconut Simple Syrup (right)",
-          "2 cups sweetened flaked coconut, lightly toasted, for garnish"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -5114,28 +5001,30 @@
       "ingredients": [
         {
           "item": "chocolate chips",
-          "quantity": "",
-          "unit": ""
+          "quantity": "2",
+          "unit": "cups"
         },
         {
           "item": "heavy cream",
-          "quantity": "",
-          "unit": ""
+          "quantity": "1/2",
+          "unit": "cup"
         },
         {
           "item": "peppermint extract",
-          "quantity": "",
-          "unit": ""
+          "quantity": "1/4",
+          "unit": "tsp"
         },
         {
-          "item": "cocoa powder, for dusting",
-          "quantity": "",
-          "unit": ""
+          "item": "cocoa powder",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for dusting"
         },
         {
-          "item": "crushed candy canes",
-          "quantity": "",
-          "unit": ""
+          "item": "candy canes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "crushed"
         }
       ],
       "instructions": [
@@ -5192,22 +5081,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 259,
+          "fat_g": 18.4,
+          "carbs_g": 26.9,
+          "protein_g": 2.6,
+          "sodium_mg": 12,
+          "fiber_g": 3.4,
+          "sugar_g": 20.7
         },
-        "missing_inputs": [
-          "chocolate chips",
-          "heavy cream",
-          "peppermint extract",
-          "cocoa powder, for dusting"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
@@ -10000,10 +9884,11 @@
         "public-domain"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
           "vintage-recipe",
-          "public-domain"
+          "public-domain",
+          "MISCLASSIFIED: This is a main dish, not a dessert"
         ]
       },
       "image_refs": [],
@@ -10189,10 +10074,11 @@
         "public-domain"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
           "vintage-recipe",
-          "public-domain"
+          "public-domain",
+          "MISCLASSIFIED: This is a main dish, not a dessert"
         ]
       },
       "image_refs": [],
@@ -10388,10 +10274,11 @@
         "public-domain"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
           "vintage-recipe",
-          "public-domain"
+          "public-domain",
+          "MISCLASSIFIED: This is a main dish, not a dessert"
         ]
       },
       "image_refs": [],
@@ -10708,46 +10595,39 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "can golden crushed corn",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "corn",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
         },
         {
           "item": "eggs",
           "quantity": "2",
-          "unit": "",
-          "prep_note": "slightly beaten"
-        },
-        {
-          "item": "tbs. flour",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "tbs. sugar",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
+          "unit": ""
         },
         {
           "item": "milk",
           "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "salt and pepper",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "lots of butter",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -10773,21 +10653,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 73,
-          "fat_g": 4.5,
-          "carbs_g": 3.2,
-          "protein_g": 5.0,
-          "sodium_mg": 137,
-          "fiber_g": 0.0,
-          "sugar_g": 3.2
+          "calories": 228,
+          "fat_g": 11.3,
+          "carbs_g": 26.9,
+          "protein_g": 7.9,
+          "sodium_mg": 392,
+          "fiber_g": 2.1,
+          "sugar_g": 11.9
         },
-        "missing_inputs": [
-          "2  tbs. flour",
-          "2  tbs. sugar",
-          "lots of butter"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -11464,58 +11340,45 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bc cup shortening",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup"
         },
         {
-          "item": "\u00bd cups flour",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "flour",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1/8",
+          "unit": "tsp"
         },
         {
           "item": "brown sugar",
           "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "molasses",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "boiling"
         },
         {
-          "item": "\u00be teaspoon baking soda",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u215b teaspoon nutmeg",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "a little ginger",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "cinnamon and cloves"
-        },
-        {
-          "item": "\u00bc teaspoon salt",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00be cup molasses",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00be cup hot water",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "pie crust",
+          "quantity": "1",
+          "unit": ""
         }
       ],
       "instructions": [
@@ -11545,24 +11408,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 194,
-          "fat_g": 0.0,
-          "carbs_g": 50.0,
-          "protein_g": 0.0,
-          "sodium_mg": 76,
-          "fiber_g": 0.0,
-          "sugar_g": 50.0
+          "calories": 722,
+          "fat_g": 13.3,
+          "carbs_g": 148.7,
+          "protein_g": 4.9,
+          "sodium_mg": 268,
+          "fiber_g": 1.3,
+          "sugar_g": 95.9
         },
         "missing_inputs": [
-          "\u00bc cup shortening",
-          "1  \u00bd cups flour",
-          "\u00be teaspoon baking soda",
-          "\u215b teaspoon nutmeg",
-          "a little ginger",
-          "\u00be cup molasses",
-          "\u00be cup hot water"
+          "1  pie crust"
         ],
         "assumptions": [
           "Calculated for 4 servings"
