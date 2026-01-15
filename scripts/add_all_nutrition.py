@@ -598,6 +598,12 @@ NUTRITION_DB = {
              "tbsp": {"cal": 23, "fat": 0.4, "carbs": 3, "protein": 3, "sodium": 4, "fiber": 2, "sugar": 0},
              "tsp": {"cal": 8, "fat": 0.1, "carbs": 1, "protein": 1, "sodium": 1, "fiber": 0.6, "sugar": 0}},
     "cream of tartar": {"tsp": {"cal": 8, "fat": 0, "carbs": 2, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 0}},
+    "marshmallow": {"cup": {"cal": 159, "fat": 0.2, "carbs": 41, "protein": 1, "sodium": 23, "fiber": 0, "sugar": 29},
+                   "jar": {"cal": 635, "fat": 0.8, "carbs": 164, "protein": 4, "sodium": 92, "fiber": 0, "sugar": 116},
+                   "": {"cal": 25, "fat": 0, "carbs": 6, "protein": 0.2, "sodium": 4, "fiber": 0, "sugar": 5}},
+    "marshmallow cream": {"cup": {"cal": 635, "fat": 0.8, "carbs": 164, "protein": 4, "sodium": 92, "fiber": 0, "sugar": 116},
+                         "jar": {"cal": 635, "fat": 0.8, "carbs": 164, "protein": 4, "sodium": 92, "fiber": 0, "sugar": 116},
+                         "": {"cal": 40, "fat": 0.1, "carbs": 10, "protein": 0.2, "sodium": 6, "fiber": 0, "sugar": 7}},
 
     # =========================================================================
     # SPICES & SEASONINGS
