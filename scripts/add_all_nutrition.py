@@ -27,11 +27,19 @@ NUTRITION_DB = {
     # FLOURS & STARCHES
     # =========================================================================
     "all-purpose flour": {"cup": {"cal": 455, "fat": 1.2, "carbs": 95, "protein": 13, "sodium": 2, "fiber": 3.4, "sugar": 0.3},
-                         "tbsp": {"cal": 28, "fat": 0.1, "carbs": 6, "protein": 0.8, "sodium": 0, "fiber": 0.2, "sugar": 0}},
+                         "tbsp": {"cal": 28, "fat": 0.1, "carbs": 6, "protein": 0.8, "sodium": 0, "fiber": 0.2, "sugar": 0},
+                         "oz": {"cal": 103, "fat": 0.3, "carbs": 22, "protein": 3, "sodium": 0, "fiber": 0.8, "sugar": 0.1},
+                         "g": {"cal": 3.6, "fat": 0.01, "carbs": 0.76, "protein": 0.1, "sodium": 0, "fiber": 0.03, "sugar": 0}},
     "flour": {"cup": {"cal": 455, "fat": 1.2, "carbs": 95, "protein": 13, "sodium": 2, "fiber": 3.4, "sugar": 0.3},
-             "tbsp": {"cal": 28, "fat": 0.1, "carbs": 6, "protein": 0.8, "sodium": 0, "fiber": 0.2, "sugar": 0}},
-    "whole wheat flour": {"cup": {"cal": 408, "fat": 2.2, "carbs": 87, "protein": 16, "sodium": 6, "fiber": 15, "sugar": 0.4}},
-    "bread flour": {"cup": {"cal": 495, "fat": 1.5, "carbs": 99, "protein": 16, "sodium": 2, "fiber": 3.4, "sugar": 0.3}},
+             "tbsp": {"cal": 28, "fat": 0.1, "carbs": 6, "protein": 0.8, "sodium": 0, "fiber": 0.2, "sugar": 0},
+             "oz": {"cal": 103, "fat": 0.3, "carbs": 22, "protein": 3, "sodium": 0, "fiber": 0.8, "sugar": 0.1},
+             "g": {"cal": 3.6, "fat": 0.01, "carbs": 0.76, "protein": 0.1, "sodium": 0, "fiber": 0.03, "sugar": 0}},
+    "whole wheat flour": {"cup": {"cal": 408, "fat": 2.2, "carbs": 87, "protein": 16, "sodium": 6, "fiber": 15, "sugar": 0.4},
+                         "oz": {"cal": 97, "fat": 0.5, "carbs": 21, "protein": 4, "sodium": 1, "fiber": 3.6, "sugar": 0.1},
+                         "g": {"cal": 3.4, "fat": 0.02, "carbs": 0.73, "protein": 0.13, "sodium": 0.05, "fiber": 0.13, "sugar": 0}},
+    "bread flour": {"cup": {"cal": 495, "fat": 1.5, "carbs": 99, "protein": 16, "sodium": 2, "fiber": 3.4, "sugar": 0.3},
+                   "oz": {"cal": 110, "fat": 0.3, "carbs": 22, "protein": 3.6, "sodium": 0, "fiber": 0.8, "sugar": 0.1},
+                   "g": {"cal": 3.9, "fat": 0.01, "carbs": 0.78, "protein": 0.13, "sodium": 0, "fiber": 0.03, "sugar": 0}},
     "cake flour": {"cup": {"cal": 400, "fat": 1, "carbs": 88, "protein": 9, "sodium": 2, "fiber": 2, "sugar": 0.3}},
     "self-rising flour": {"cup": {"cal": 443, "fat": 1.2, "carbs": 93, "protein": 12, "sodium": 1520, "fiber": 3, "sugar": 0.3}},
     "almond flour": {"cup": {"cal": 640, "fat": 56, "carbs": 24, "protein": 24, "sodium": 0, "fiber": 12, "sugar": 4}},
@@ -101,9 +109,11 @@ NUTRITION_DB = {
     "cottage cheese": {"cup": {"cal": 220, "fat": 10, "carbs": 8, "protein": 25, "sodium": 819, "fiber": 0, "sugar": 5}},
     "ricotta cheese": {"cup": {"cal": 428, "fat": 32, "carbs": 7, "protein": 28, "sodium": 307, "fiber": 0, "sugar": 0.5}},
     "cheddar cheese": {"cup": {"cal": 455, "fat": 37, "carbs": 1, "protein": 28, "sodium": 702, "fiber": 0, "sugar": 0.5},
-                      "oz": {"cal": 113, "fat": 9, "carbs": 0.3, "protein": 7, "sodium": 175, "fiber": 0, "sugar": 0.1}},
+                      "oz": {"cal": 113, "fat": 9, "carbs": 0.3, "protein": 7, "sodium": 175, "fiber": 0, "sugar": 0.1},
+                      "g": {"cal": 4.0, "fat": 0.33, "carbs": 0.01, "protein": 0.25, "sodium": 6.2, "fiber": 0, "sugar": 0}},
     "parmesan cheese": {"cup": {"cal": 431, "fat": 29, "carbs": 4, "protein": 38, "sodium": 1529, "fiber": 0, "sugar": 1},
-                       "tbsp": {"cal": 22, "fat": 1.4, "carbs": 0.2, "protein": 2, "sodium": 76, "fiber": 0, "sugar": 0}},
+                       "tbsp": {"cal": 22, "fat": 1.4, "carbs": 0.2, "protein": 2, "sodium": 76, "fiber": 0, "sugar": 0},
+                       "g": {"cal": 3.9, "fat": 0.26, "carbs": 0.03, "protein": 0.34, "sodium": 13.9, "fiber": 0, "sugar": 0}},
     "mozzarella cheese": {"cup": {"cal": 336, "fat": 25, "carbs": 2, "protein": 25, "sodium": 627, "fiber": 0, "sugar": 1},
                          "oz": {"cal": 84, "fat": 6, "carbs": 0.6, "protein": 6, "sodium": 157, "fiber": 0, "sugar": 0.2}},
     "swiss cheese": {"cup": {"cal": 420, "fat": 31, "carbs": 6, "protein": 30, "sodium": 228, "fiber": 0, "sugar": 2},
@@ -456,6 +466,7 @@ NUTRITION_DB = {
                      "tbsp": {"cal": 5, "fat": 0, "carbs": 2, "protein": 0, "sodium": 400, "fiber": 0, "sugar": 0}},
     "baking soda": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1260, "fiber": 0, "sugar": 0}},
     "yeast": {"packet": {"cal": 21, "fat": 0.3, "carbs": 3, "protein": 3, "sodium": 4, "fiber": 2, "sugar": 0},
+             "sachet": {"cal": 21, "fat": 0.3, "carbs": 3, "protein": 3, "sodium": 4, "fiber": 2, "sugar": 0},
              "tbsp": {"cal": 23, "fat": 0.4, "carbs": 3, "protein": 3, "sodium": 4, "fiber": 2, "sugar": 0},
              "tsp": {"cal": 8, "fat": 0.1, "carbs": 1, "protein": 1, "sodium": 1, "fiber": 0.6, "sugar": 0}},
     "cream of tartar": {"tsp": {"cal": 8, "fat": 0, "carbs": 2, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 0}},
@@ -1095,7 +1106,9 @@ NUTRITION_DB = {
     "pastry flour": {"cup": {"cal": 400, "fat": 1, "carbs": 84, "protein": 9, "sodium": 2, "fiber": 2, "sugar": 0}},
     "whole wheat pastry flour": {"cup": {"cal": 400, "fat": 2, "carbs": 80, "protein": 12, "sodium": 2, "fiber": 12, "sugar": 0}},
     "cake flour": {"cup": {"cal": 400, "fat": 1, "carbs": 85, "protein": 8, "sodium": 2, "fiber": 2, "sugar": 0}},
-    "bread flour": {"cup": {"cal": 495, "fat": 1.5, "carbs": 99, "protein": 16, "sodium": 2, "fiber": 3, "sugar": 0}},
+    "bread flour": {"cup": {"cal": 495, "fat": 1.5, "carbs": 99, "protein": 16, "sodium": 2, "fiber": 3.4, "sugar": 0.3},
+                   "oz": {"cal": 110, "fat": 0.3, "carbs": 22, "protein": 3.6, "sodium": 0, "fiber": 0.8, "sugar": 0.1},
+                   "g": {"cal": 3.9, "fat": 0.01, "carbs": 0.78, "protein": 0.13, "sodium": 0, "fiber": 0.03, "sugar": 0}},
     "self-rising flour": {"cup": {"cal": 443, "fat": 1.2, "carbs": 93, "protein": 12, "sodium": 1588, "fiber": 3, "sugar": 0}},
     "yellow cornmeal": {"cup": {"cal": 442, "fat": 4, "carbs": 94, "protein": 10, "sodium": 4, "fiber": 9, "sugar": 1}},
     "white cornmeal": {"cup": {"cal": 442, "fat": 4, "carbs": 94, "protein": 10, "sodium": 4, "fiber": 9, "sugar": 1}},
@@ -1638,6 +1651,7 @@ def normalize_unit(unit):
         "cloves": "clove",
         "cans": "can",
         "packages": "packet", "pkg": "packet", "pkgs": "packet", "packets": "packet",
+        "sachet (7g)": "sachet", "sachets": "sachet",
         "envelopes": "envelope",
         "stalks": "stalk",
         "sprigs": "sprig",
@@ -1797,6 +1811,7 @@ def normalize_ingredient(item):
         "plain flour": "flour",
         "unbleached flour": "flour",
         "enriched flour": "flour",
+        "strong white bread flour": "bread flour",
 
         # Sugar
         "granulated sugar": "sugar",
@@ -1978,6 +1993,28 @@ def normalize_ingredient(item):
         "bicarb": "baking soda",
         "dry active yeast": "yeast",
         "dry yeast": "yeast",
+        "fast-action dried yeast": "yeast",
+        "fast action dried yeast": "yeast",
+        "quick rise yeast": "yeast",
+
+        # Milk variants
+        "lukewarm milk": "milk",
+        "warm milk": "milk",
+        "cold milk": "milk",
+        "whole milk": "milk",
+        "2% milk": "milk",
+
+        # Mustard variants
+        "english mustard powder": "mustard powder",
+        "dry mustard powder": "mustard powder",
+        "coleman's mustard": "mustard powder",
+
+        # Cheese variants
+        "extra mature cheddar cheese": "cheddar cheese",
+        "extra sharp cheddar cheese": "cheddar cheese",
+        "sharp cheddar cheese": "cheddar cheese",
+        "mild cheddar cheese": "cheddar cheese",
+        "mature cheddar cheese": "cheddar cheese",
 
         # Citrus zest
         "lemon rind": "lemon zest",
@@ -2491,9 +2528,15 @@ def infer_servings(recipe):
 def get_nutrition_for_ingredient(ingredient):
     """Calculate nutrition for a single ingredient entry."""
     item = normalize_ingredient(ingredient.get("item", ""))
+    unit = str(ingredient.get("unit", "")).lower()
 
     # Skip equipment and non-food items
     if is_equipment(item):
+        return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0, "_skipped": True}
+
+    # Skip items where unit indicates non-countable usage (greasing, brushing, etc.)
+    non_countable_units = ["for greasing", "for brushing", "for drizzling", "as needed"]
+    if any(ncu in unit for ncu in non_countable_units):
         return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0, "_skipped": True}
 
     quantity = parse_quantity(ingredient.get("quantity", "1"))
