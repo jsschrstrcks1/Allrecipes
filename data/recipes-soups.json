@@ -1300,15 +1300,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 107,
-          "fat_g": 8.2,
-          "carbs_g": 4.2,
-          "protein_g": 4.2,
-          "sodium_mg": 250,
+          "calories": 104,
+          "fat_g": 8.1,
+          "carbs_g": 4.0,
+          "protein_g": 3.9,
+          "sodium_mg": 107,
           "fiber_g": 0.4,
           "sugar_g": 2.9
         },
         "missing_inputs": [
+          "1  can (14 oz) chicken broth",
           "1 package (10 oz) frozen broccoli florets, thawed"
         ],
         "assumptions": [
@@ -2247,20 +2248,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 113,
-          "fat_g": 7.3,
-          "carbs_g": 7.7,
-          "protein_g": 5.5,
-          "sodium_mg": 461,
-          "fiber_g": 1.5,
-          "sugar_g": 4.2
+          "calories": 183,
+          "fat_g": 8.0,
+          "carbs_g": 24.4,
+          "protein_g": 7.5,
+          "sodium_mg": 661,
+          "fiber_g": 2.9,
+          "sugar_g": 8.2
         },
         "missing_inputs": [
           "2 cups chicken broth",
-          "2  ears of corn",
-          "1 can creamed corn"
+          "2  ears of corn"
         ],
         "assumptions": [
           "Calculated for 3 servings"
@@ -11388,19 +11388,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 227,
-          "fat_g": 5.4,
+          "calories": 252,
+          "fat_g": 8.1,
           "carbs_g": 38.5,
           "protein_g": 9.6,
-          "sodium_mg": 488,
+          "sodium_mg": 510,
           "fiber_g": 3.6,
           "sugar_g": 9.0
         },
-        "missing_inputs": [
-          "1 tbsp oleomargarine orbutter."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -11613,19 +11611,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1265,
-          "fat_g": 23.4,
-          "carbs_g": 58.8,
-          "protein_g": 190.3,
-          "sodium_mg": 922,
-          "fiber_g": 1.0,
-          "sugar_g": 12.5
+          "calories": 1386,
+          "fat_g": 27.2,
+          "carbs_g": 78.2,
+          "protein_g": 192.8,
+          "sodium_mg": 1192,
+          "fiber_g": 1.8,
+          "sugar_g": 14.0
         },
-        "missing_inputs": [
-          "1 cup cracker crumbs ordried breadcrumbs."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12360,17 +12356,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 38,
-          "fat_g": 0.2,
+          "calories": 88,
+          "fat_g": 5.6,
           "carbs_g": 8.3,
           "protein_g": 0.9,
-          "sodium_mg": 583,
+          "sodium_mg": 628,
           "fiber_g": 1.1,
           "sugar_g": 2.6
         },
         "missing_inputs": [
-          "1  beefkidney.",
-          "2 tbsp oleomargarine ordrippings."
+          "1  beefkidney."
         ],
         "assumptions": [
           "Calculated for 4 servings"

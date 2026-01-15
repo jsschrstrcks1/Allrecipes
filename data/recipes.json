@@ -9052,13 +9052,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 89,
-          "fat_g": 6.3,
-          "carbs_g": 1.5,
-          "protein_g": 6.6,
-          "sodium_mg": 311,
+          "calories": 97,
+          "fat_g": 7.3,
+          "carbs_g": 1.4,
+          "protein_g": 6.0,
+          "sodium_mg": 316,
           "fiber_g": 0.2,
-          "sugar_g": 0.5
+          "sugar_g": 0.4
         },
         "missing_inputs": [
           "1  frozen pizza dough",
@@ -31222,15 +31222,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 107,
-          "fat_g": 8.2,
-          "carbs_g": 4.2,
-          "protein_g": 4.2,
-          "sodium_mg": 250,
+          "calories": 104,
+          "fat_g": 8.1,
+          "carbs_g": 4.0,
+          "protein_g": 3.9,
+          "sodium_mg": 107,
           "fiber_g": 0.4,
           "sugar_g": 2.9
         },
         "missing_inputs": [
+          "1  can (14 oz) chicken broth",
           "1 package (10 oz) frozen broccoli florets, thawed"
         ],
         "assumptions": [
@@ -39832,7 +39833,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 244,
           "fat_g": 0.3,
@@ -39844,8 +39845,7 @@
         },
         "missing_inputs": [
           "for topping cr\u00e8me fra\u00eeche",
-          "for topping chopped chives",
-          "for topping fresh dill and/or parsley"
+          "for topping chopped chives"
         ],
         "assumptions": [
           "Calculated for 8 servings",
@@ -40972,19 +40972,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 322,
-          "fat_g": 25.4,
-          "carbs_g": 18.9,
-          "protein_g": 5.9,
-          "sodium_mg": 247,
-          "fiber_g": 0.0,
-          "sugar_g": 18.4
+          "calories": 382,
+          "fat_g": 27.3,
+          "carbs_g": 28.6,
+          "protein_g": 7.1,
+          "sodium_mg": 382,
+          "fiber_g": 0.4,
+          "sugar_g": 19.2
         },
-        "missing_inputs": [
-          "1 1/2 cups graham cracker crumbs"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -52641,20 +52639,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 113,
-          "fat_g": 7.3,
-          "carbs_g": 7.7,
-          "protein_g": 5.5,
-          "sodium_mg": 461,
-          "fiber_g": 1.5,
-          "sugar_g": 4.2
+          "calories": 183,
+          "fat_g": 8.0,
+          "carbs_g": 24.4,
+          "protein_g": 7.5,
+          "sodium_mg": 661,
+          "fiber_g": 2.9,
+          "sugar_g": 8.2
         },
         "missing_inputs": [
           "2 cups chicken broth",
-          "2  ears of corn",
-          "1 can creamed corn"
+          "2  ears of corn"
         ],
         "assumptions": [
           "Calculated for 3 servings"
@@ -53564,12 +53561,12 @@
         "status": "partial",
         "per_serving": {
           "calories": 402,
-          "fat_g": 24.0,
-          "carbs_g": 14.6,
-          "protein_g": 28.1,
-          "sodium_mg": 1170,
+          "fat_g": 24.9,
+          "carbs_g": 14.3,
+          "protein_g": 27.0,
+          "sodium_mg": 1157,
           "fiber_g": 2.1,
-          "sugar_g": 8.4
+          "sugar_g": 8.3
         },
         "missing_inputs": [
           "1 package oven-ready lasagna noodles",
@@ -54715,17 +54712,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 179,
-          "fat_g": 4.7,
-          "carbs_g": 30.0,
-          "protein_g": 4.7,
-          "sodium_mg": 24,
-          "fiber_g": 2.4,
-          "sugar_g": 0.9
+          "calories": 324,
+          "fat_g": 9.2,
+          "carbs_g": 53.4,
+          "protein_g": 7.7,
+          "sodium_mg": 348,
+          "fiber_g": 3.3,
+          "sugar_g": 2.7
         },
         "missing_inputs": [
-          "1 can canned salmon",
-          "1 1/2 cups cracker crumbs"
+          "1 can canned salmon"
         ],
         "assumptions": [
           "Calculated for 5 servings"
@@ -81809,13 +81805,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 89,
-          "fat_g": 6.3,
-          "carbs_g": 1.5,
-          "protein_g": 6.6,
-          "sodium_mg": 311,
+          "calories": 97,
+          "fat_g": 7.3,
+          "carbs_g": 1.4,
+          "protein_g": 6.0,
+          "sodium_mg": 316,
           "fiber_g": 0.2,
-          "sugar_g": 0.5
+          "sugar_g": 0.4
         },
         "missing_inputs": [
           "1  frozen pizza dough",
@@ -90638,12 +90634,12 @@
         "status": "partial",
         "per_serving": {
           "calories": 382,
-          "fat_g": 17.9,
-          "carbs_g": 5.9,
-          "protein_g": 47.3,
-          "sodium_mg": 361,
+          "fat_g": 19.6,
+          "carbs_g": 5.2,
+          "protein_g": 44.9,
+          "sodium_mg": 336,
           "fiber_g": 1.6,
-          "sugar_g": 1.4
+          "sugar_g": 1.1
         },
         "missing_inputs": [
           "3 cups keto alfredo sauce"
@@ -213315,19 +213311,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 184,
+          "calories": 190,
           "fat_g": 8.3,
-          "carbs_g": 19.8,
-          "protein_g": 8.8,
-          "sodium_mg": 382,
-          "fiber_g": 1.7,
-          "sugar_g": 15.0
+          "carbs_g": 21.2,
+          "protein_g": 8.9,
+          "sodium_mg": 817,
+          "fiber_g": 2.1,
+          "sugar_g": 15.5
         },
-        "missing_inputs": [
-          "3 tbsp chopped sweet pickle"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
@@ -232727,15 +232721,14 @@
         "per_serving": {
           "calories": 86,
           "fat_g": 7.6,
-          "carbs_g": 1.3,
+          "carbs_g": 1.4,
           "protein_g": 2.6,
-          "sodium_mg": 773,
+          "sodium_mg": 802,
           "fiber_g": 0.4,
-          "sugar_g": 0.6
+          "sugar_g": 0.7
         },
         "missing_inputs": [
-          "12 medium sized cooked potatoes",
-          "1/3 cup chopped sweet pickle"
+          "12 medium sized cooked potatoes"
         ],
         "assumptions": [
           "Calculated for 10 servings"
@@ -232836,11 +232829,11 @@
         "per_serving": {
           "calories": 139,
           "fat_g": 12.3,
-          "carbs_g": 2.9,
+          "carbs_g": 2.6,
           "protein_g": 4.4,
-          "sodium_mg": 328,
+          "sodium_mg": 357,
           "fiber_g": 0.6,
-          "sugar_g": 1.6
+          "sugar_g": 1.3
         },
         "missing_inputs": [
           "2 cup flaked tuna fish (two 7-ounce cans)"
@@ -233437,21 +233430,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 38,
+          "calories": 41,
           "fat_g": 0.2,
-          "carbs_g": 8.0,
-          "protein_g": 2.0,
-          "sodium_mg": 439,
-          "fiber_g": 2.1,
-          "sugar_g": 4.3
+          "carbs_g": 8.4,
+          "protein_g": 2.3,
+          "sodium_mg": 481,
+          "fiber_g": 2.3,
+          "sugar_g": 4.4
         },
-        "missing_inputs": [
-          "3/4 cup finely diced celery",
-          "1 pkg frozen green shrimp",
-          "1/4 cup chopped sweet pickle"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
         ]
@@ -244110,17 +244099,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 200,
+          "calories": 201,
           "fat_g": 21.3,
-          "carbs_g": 0.5,
-          "protein_g": 1.8,
-          "sodium_mg": 184,
-          "fiber_g": 0.2,
-          "sugar_g": 0.2
+          "carbs_g": 0.7,
+          "protein_g": 1.9,
+          "sodium_mg": 256,
+          "fiber_g": 0.3,
+          "sugar_g": 0.3
         },
         "missing_inputs": [
-          "1 can chicken",
-          "1/3 cup chopped sweet pickle"
+          "1 can chicken"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -244900,7 +244888,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 164,
           "fat_g": 11.7,
@@ -244911,7 +244899,6 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3  to 3 1/2 l bs. chicken",
           "1  (10 1/2 oz) can condensed cream of chicken soup",
           "1 tsp instant chicken bouillon cry stals or 1 chicken bouillon cube"
         ],
@@ -247432,19 +247419,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 254,
-          "fat_g": 9.8,
-          "carbs_g": 7.9,
-          "protein_g": 32.2,
-          "sodium_mg": 900,
-          "fiber_g": 2.4,
-          "sugar_g": 3.5
+          "calories": 451,
+          "fat_g": 15.7,
+          "carbs_g": 40.0,
+          "protein_g": 36.4,
+          "sodium_mg": 1333,
+          "fiber_g": 3.6,
+          "sugar_g": 6.0
         },
         "missing_inputs": [
-          "1/2  loaf white bread cubed",
-          "1 1/2 cup cracker crumbs",
           "3 cup chicken broth"
         ],
         "assumptions": [
@@ -247781,19 +247766,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 571,
-          "fat_g": 48.8,
-          "carbs_g": 12.8,
-          "protein_g": 22.7,
-          "sodium_mg": 999,
-          "fiber_g": 5.1,
-          "sugar_g": 2.6
+          "calories": 692,
+          "fat_g": 52.6,
+          "carbs_g": 32.3,
+          "protein_g": 25.2,
+          "sodium_mg": 1269,
+          "fiber_g": 5.8,
+          "sugar_g": 4.1
         },
-        "missing_inputs": [
-          "1 cup cracker crumbs (I use Zesta)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -250676,7 +250659,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 618,
           "fat_g": 47.5,
@@ -250686,9 +250669,7 @@
           "fiber_g": 3.0,
           "sugar_g": 3.6
         },
-        "missing_inputs": [
-          "1 cup Special K cereal (or cornflakes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -252816,20 +252797,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 418,
-          "fat_g": 29.0,
+          "calories": 480,
+          "fat_g": 35.9,
           "carbs_g": 12.0,
           "protein_g": 24.8,
-          "sodium_mg": 1253,
+          "sodium_mg": 1309,
           "fiber_g": 1.2,
           "sugar_g": 3.0
         },
         "missing_inputs": [
           "1 cup chicken broth",
-          "1 pkg corn tortillas (12)",
-          "2-3 tbsp ol eo"
+          "1 pkg corn tortillas (12)"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -255625,12 +255605,12 @@
         "status": "partial",
         "per_serving": {
           "calories": 305,
-          "fat_g": 13.9,
-          "carbs_g": 0.9,
-          "protein_g": 41.2,
-          "sodium_mg": 251,
+          "fat_g": 14.5,
+          "carbs_g": 0.6,
+          "protein_g": 40.3,
+          "sodium_mg": 241,
           "fiber_g": 0.1,
-          "sugar_g": 0.4
+          "sugar_g": 0.3
         },
         "missing_inputs": [
           "1/2 cup seasoned breadcrumbs",
@@ -257674,13 +257654,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 508,
-          "fat_g": 25.9,
-          "carbs_g": 26.1,
-          "protein_g": 41.9,
-          "sodium_mg": 884,
+          "calories": 526,
+          "fat_g": 28.2,
+          "carbs_g": 25.8,
+          "protein_g": 40.4,
+          "sodium_mg": 894,
           "fiber_g": 2.9,
-          "sugar_g": 5.2
+          "sugar_g": 4.9
         },
         "missing_inputs": [
           "2 tsp minced fresh garlic"
@@ -257897,19 +257877,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 250,
-          "fat_g": 15.7,
-          "carbs_g": 5.3,
-          "protein_g": 20.9,
-          "sodium_mg": 266,
-          "fiber_g": 0.3,
+          "calories": 251,
+          "fat_g": 15.8,
+          "carbs_g": 5.4,
+          "protein_g": 21.0,
+          "sodium_mg": 294,
+          "fiber_g": 0.4,
           "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "2 tsp Dijon style mustard"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -260507,19 +260485,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 136,
-          "fat_g": 3.5,
-          "carbs_g": 21.5,
-          "protein_g": 4.0,
-          "sodium_mg": 20,
-          "fiber_g": 1.5,
-          "sugar_g": 0.4
+          "calories": 223,
+          "fat_g": 4.0,
+          "carbs_g": 37.0,
+          "protein_g": 10.0,
+          "sodium_mg": 420,
+          "fiber_g": 6.5,
+          "sugar_g": 6.4
         },
-        "missing_inputs": [
-          "2 can mixed vegetables"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -264729,19 +264705,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 749,
-          "fat_g": 56.8,
-          "carbs_g": 42.6,
-          "protein_g": 15.2,
-          "sodium_mg": 2130,
-          "fiber_g": 2.2,
-          "sugar_g": 6.7
+          "calories": 836,
+          "fat_g": 57.3,
+          "carbs_g": 58.1,
+          "protein_g": 21.2,
+          "sodium_mg": 2530,
+          "fiber_g": 7.2,
+          "sugar_g": 12.7
         },
         "missing_inputs": [
           "2 cup diced",
-          "2 can mixed vegetables",
           "1/2 cup chicken broth"
         ],
         "assumptions": [
@@ -268913,12 +268888,12 @@
         "status": "partial",
         "per_serving": {
           "calories": 221,
-          "fat_g": 14.0,
-          "carbs_g": 3.2,
-          "protein_g": 19.8,
-          "sodium_mg": 376,
+          "fat_g": 16.5,
+          "carbs_g": 2.2,
+          "protein_g": 16.2,
+          "sodium_mg": 337,
           "fiber_g": 0.2,
-          "sugar_g": 1.1
+          "sugar_g": 0.6
         },
         "missing_inputs": [
           "1 large bunch broccoli rabe"
@@ -269065,164 +269040,6 @@
           "sugar_g": 0.5
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "for-four-goodandche",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "For Four",
-      "category": "mains",
-      "attribution": "",
-      "source_note": "Good And Cheap Obooko Fd0016 (PDF cookbook)",
-      "description": "Vintage recipe from Good And Cheap Obooko Fd0016",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "grits",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd cups vegetable or chicken stock",
-          "quantity": "4",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd cup sharp cheddar, grated",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "scallions",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": "\ufb01nely chopped"
-        },
-        {
-          "item": "shrimp",
-          "quantity": "1",
-          "unit": "lb",
-          "prep_note": "peeled and deveined"
-        },
-        {
-          "item": "butter or vegetable oil",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "onion",
-          "quantity": "1",
-          "unit": "medium",
-          "prep_note": "chopped"
-        },
-        {
-          "item": "bell pepper",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "chopped"
-        },
-        {
-          "item": "celery",
-          "quantity": "2",
-          "unit": "stick",
-          "prep_note": "chopped"
-        },
-        {
-          "item": "garlic",
-          "quantity": "2",
-          "unit": "cloves",
-          "prep_note": "\ufb01nely chopped"
-        },
-        {
-          "item": "green chili",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "\ufb01nely diced (optional)"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "1 tomato, choppedBring the stock to a boil in a medium-sized pot, then"
-        },
-        {
-          "step": 2,
-          "text": "turn the heat down to low and slowly pour the in the"
-        },
-        {
-          "step": 3,
-          "text": "cornmeal while stirring briskly with a wooden spoon."
-        },
-        {
-          "step": 4,
-          "text": "Stirring while pouring is a crucial to keep the grits"
-        },
-        {
-          "step": 5,
-          "text": "creamy and smooth\u2014no lumps! Once the grits become"
-        },
-        {
-          "step": 6,
-          "text": "smooth and a little thicker, place the lid on the pot with"
-        },
-        {
-          "step": 7,
-          "text": "the spoon still in it so that steam can escape."
-        },
-        {
-          "step": 8,
-          "text": "Let the grits cook while you prepare the rest of the"
-        },
-        {
-          "step": 9,
-          "text": "meal, checking in occasionally to give them a stir. The"
-        },
-        {
-          "step": 10,
-          "text": "total cooking time should be about 25 to 30 minutes."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 307,
-          "fat_g": 12.0,
-          "carbs_g": 15.0,
-          "protein_g": 33.5,
-          "sodium_mg": 1240,
-          "fiber_g": 1.5,
-          "sugar_g": 2.4
-        },
-        "missing_inputs": [
-          "1 tbsp butter or vegetable oil",
-          "2 stick celery",
-          "1  green chili"
-        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -270217,171 +270034,6 @@
         },
         "missing_inputs": [
           "1  tb Olive oil"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "78-c-water-boiling-sandwichre",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "7/8 c -- water, boiling",
-      "category": "mains",
-      "attribution": "",
-      "source_note": "Sandwichrecipes Obooko Fd0007 (PDF cookbook)",
-      "description": "Vintage recipe from Sandwichrecipes Obooko Fd0007",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "c TVP\u00ae granules or flakes",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "md Onion -- chopped",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Green pepper -- chopped",
-          "quantity": "1/2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Garlic clove -- minced",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "c Mushrooms (6 large) -- chopped",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ts Olive oil",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "tb Olive oil",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "t Cumin",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ts Chili powder",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "t Oregano",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ts Salt",
-          "quantity": "1/2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Tomato -- chopped OR 8 oz Tomato sauce",
-          "quantity": "1",
-          "unit": "large",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Dissolve the yeast in 1/4 cup warm water and honey,"
-        },
-        {
-          "step": 2,
-          "text": "and let stand a few minutes. Add 1 cup of warm water"
-        },
-        {
-          "step": 3,
-          "text": "and 1 tbs olive oil. Stir in the flour."
-        },
-        {
-          "step": 4,
-          "text": "Turn the dough out onto a work surface and knead for"
-        },
-        {
-          "step": 5,
-          "text": "5 minutes or more until smooth, adding more flour if"
-        },
-        {
-          "step": 6,
-          "text": "needed. Cover and let rise for an hour."
-        },
-        {
-          "step": 7,
-          "text": "Mix the boiling water and TVP\u00ae. Let it stand while you"
-        },
-        {
-          "step": 8,
-          "text": "Heat a non-stick skillet and add 2 tsp olive oil."
-        },
-        {
-          "step": 9,
-          "text": "Delicious Sandwich, Wrap and Bun Recipes from www.obooko.com"
-        },
-        {
-          "step": 10,
-          "text": "Saute the onons, pepper and garlic a few minutes to"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 145,
-          "fat_g": 8.0,
-          "carbs_g": 11.2,
-          "protein_g": 9.8,
-          "sodium_mg": 42,
-          "fiber_g": 5.3,
-          "sugar_g": 4.3
-        },
-        "missing_inputs": [
-          "1  c Mushrooms (6 large) -- chopped",
-          "1  tb Olive oil",
-          "1/2  ts Salt",
-          "1 large Tomato -- chopped OR 8 oz Tomato sauce"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -280015,13 +279667,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 256,
-          "fat_g": 0.5,
-          "carbs_g": 56.8,
-          "protein_g": 7.3,
-          "sodium_mg": 87,
-          "fiber_g": 8.0,
-          "sugar_g": 5.8
+          "calories": 274,
+          "fat_g": 0.6,
+          "carbs_g": 59.3,
+          "protein_g": 9.3,
+          "sodium_mg": 58,
+          "fiber_g": 9.0,
+          "sugar_g": 7.8
         },
         "missing_inputs": [
           "1 pt bee f chun ks and juice"
@@ -297112,17 +296764,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 59,
-          "fat_g": 0.1,
+          "calories": 84,
+          "fat_g": 2.9,
           "carbs_g": 13.2,
           "protein_g": 1.4,
-          "sodium_mg": 4,
+          "sodium_mg": 27,
           "fiber_g": 1.6,
           "sugar_g": 1.8
         },
         "missing_inputs": [
-          "1 pint shelled newpeas.",
-          "1 tbsp oleomargarine."
+          "1 pint shelled newpeas."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -304369,19 +304020,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 96,
-          "fat_g": 2.1,
+          "calories": 121,
+          "fat_g": 4.9,
           "carbs_g": 16.2,
           "protein_g": 3.5,
-          "sodium_mg": 612,
+          "sodium_mg": 634,
           "fiber_g": 1.6,
           "sugar_g": 4.8
         },
-        "missing_inputs": [
-          "1 tbsp oleomargarine."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -304479,19 +304128,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 227,
-          "fat_g": 5.4,
+          "calories": 252,
+          "fat_g": 8.1,
           "carbs_g": 38.5,
           "protein_g": 9.6,
-          "sodium_mg": 488,
+          "sodium_mg": 510,
           "fiber_g": 3.6,
           "sugar_g": 9.0
         },
-        "missing_inputs": [
-          "1 tbsp oleomargarine orbutter."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -307312,19 +306959,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1265,
-          "fat_g": 23.4,
-          "carbs_g": 58.8,
-          "protein_g": 190.3,
-          "sodium_mg": 922,
-          "fiber_g": 1.0,
-          "sugar_g": 12.5
+          "calories": 1386,
+          "fat_g": 27.2,
+          "carbs_g": 78.2,
+          "protein_g": 192.8,
+          "sodium_mg": 1192,
+          "fiber_g": 1.8,
+          "sugar_g": 14.0
         },
-        "missing_inputs": [
-          "1 cup cracker crumbs ordried breadcrumbs."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -309328,17 +308973,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 38,
-          "fat_g": 0.2,
+          "calories": 88,
+          "fat_g": 5.6,
           "carbs_g": 8.3,
           "protein_g": 0.9,
-          "sodium_mg": 583,
+          "sodium_mg": 628,
           "fiber_g": 1.1,
           "sugar_g": 2.6
         },
         "missing_inputs": [
-          "1  beefkidney.",
-          "2 tbsp oleomargarine ordrippings."
+          "1  beefkidney."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -310096,19 +309740,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 166,
-          "fat_g": 0.4,
+          "calories": 191,
+          "fat_g": 3.2,
           "carbs_g": 33.9,
           "protein_g": 6.3,
-          "sodium_mg": 1819,
+          "sodium_mg": 1842,
           "fiber_g": 4.5,
           "sugar_g": 0.4
         },
-        "missing_inputs": [
-          "1 tbsp oleomargarine ordrippings."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -321625,93 +321267,6 @@
       }
     },
     {
-      "id": "sauce-to-mi-x-them-thecentury",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Sauce To Mi X Them",
-      "category": "sides",
-      "attribution": "",
-      "source_note": "The Century Cookbook 1922 (PDF cookbook)",
-      "description": "Vintage recipe from The Century Cookbook 1922",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "\u00bd cup milk .01",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": "[quantity inferred]"
-        },
-        {
-          "item": "\u00bd tablespoonful butter .01",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "[quantity inferred]"
-        },
-        {
-          "item": "egg .03",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd tablespoonful flour (see croquettes, page 293)",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": "[quantity inferred]"
-        },
-        {
-          "item": "cranberries .09",
-          "quantity": "1",
-          "unit": "pint",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Sweet potatoes left from day before, cut in strips andbrowned (see page"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [
-          "1 cup \u00bd cup milk .01",
-          "2 tbsp \u00bd tablespoonful butter .01",
-          "1 cup \u00bd tablespoonful flour (see croquettes, page 293)",
-          "1 pint cranberries .09"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "sauce-to-mi-x-it-thecentury",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -322577,116 +322132,6 @@
         },
         "missing_inputs": [
           "417  WELLS STREET phone Grand 4048"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "florists-theeastmil",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Florists",
-      "category": "mains",
-      "attribution": "",
-      "source_note": "The East Milwaukee Cook Book 1917 (PDF cookbook)",
-      "description": "Vintage recipe from The East Milwaukee Cook Book 1917",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "13 WISCONSIN STREET",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Farwell Ave.",
-          "quantity": "247",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Downer Ave.",
-          "quantity": "1327",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "|J__,_ \\^^^Ar/RfkatProtect theHealth ofYourself andyour Family bynave \\^^J/UC9 I.Buying only theBest of.Everything in"
-        },
-        {
-          "step": 2,
-          "text": "5 TREI55 GUTH -PETRANENGRAVING CD.WESTWATER S.WELLSPHONE GRANO ISEO.\u2014MILWAUKEE -"
-        },
-        {
-          "step": 3,
-          "text": "THEEASTMILWAUKEE COOK BOOK."
-        },
-        {
-          "step": 4,
-          "text": "V/2 lb.salmon, cooked 3 t.salt"
-        },
-        {
-          "step": 5,
-          "text": "1 pt.cream >4 t.pepper"
-        },
-        {
-          "step": 6,
-          "text": "Foraquart mould oradozen small moulds useoneand"
-        },
-        {
-          "step": 7,
-          "text": "one-half pounds ofsalmon. Cook salmon and letcool. Free"
-        },
-        {
-          "step": 8,
-          "text": "from bones and skin. Canned salmon may alsobeused. Put"
-        },
-        {
-          "step": 9,
-          "text": "bread andcream together andcook until smooth. Chop, pound"
-        },
-        {
-          "step": 10,
-          "text": "and siftthesalmon andaddtheseasoning. Mix allingredi-"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [
-          "1  13 WISCONSIN STREET",
-          "247  Farwell Ave.",
-          "1327  Downer Ave."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -330269,19 +329714,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1253,
-          "fat_g": 19.5,
-          "carbs_g": 46.5,
-          "protein_g": 205.2,
-          "sodium_mg": 1059,
-          "fiber_g": 0.1,
-          "sugar_g": 2.0
+          "calories": 1374,
+          "fat_g": 23.2,
+          "carbs_g": 66.0,
+          "protein_g": 207.8,
+          "sodium_mg": 1329,
+          "fiber_g": 0.9,
+          "sugar_g": 3.5
         },
-        "missing_inputs": [
-          "1 cup buttered cracker crumbs"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -333079,129 +332522,6 @@
       }
     },
     {
-      "id": "baked-beans-theplainsa",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Baked Beans",
-      "category": "sides",
-      "attribution": "",
-      "source_note": "The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922 (PDF cookbook)",
-      "description": "Vintage recipe from The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "dried beans Baking-dish orbean-pot",
-          "quantity": "14",
-          "unit": "lb",
-          "prep_note": ""
-        },
-        {
-          "item": "saltpork Covered saucepan",
-          "quantity": "1/2",
-          "unit": "lb",
-          "prep_note": ""
-        },
-        {
-          "item": "salt Tablespoon",
-          "quantity": "14",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "table^oon sugar Knife",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Putthebeans inthebaking-dish orpot",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "coverthem"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "2.Pour offthewater, wash thebeans infresh water,"
-        },
-        {
-          "step": 2,
-          "text": "3.Cover thebeans withwater, place thesaucepan onthe"
-        },
-        {
-          "step": 3,
-          "text": "stove, and letthewater come slowly toaboil."
-        },
-        {
-          "step": 4,
-          "text": "4.Cover thesaucepan, reduce theheat, and letthe"
-        },
-        {
-          "step": 5,
-          "text": "beans simmer fortwohours."
-        },
-        {
-          "step": 6,
-          "text": "6.Pour thebeans, with theliquid inwhich they boiled,"
-        },
-        {
-          "step": 7,
-          "text": "intothebaking-dish orbean-pot, andaddthesalt"
-        },
-        {
-          "step": 8,
-          "text": "6.Scald thepork with boiling water, scrape itsentire"
-        },
-        {
-          "step": 9,
-          "text": "surface withaknife, andslash therinddeeply sev-"
-        },
-        {
-          "step": 10,
-          "text": "7.Press theporkdown intothebeans with therind"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 12,
-          "fat_g": 0.0,
-          "carbs_g": 3.1,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 3.1
-        },
-        "missing_inputs": [
-          "14 lb dried beans Baking-dish orbean-pot",
-          "1/2 lb saltpork Covered saucepan",
-          "14 tbsp salt Tablespoon",
-          "1  Putthebeans inthebaking-dish orpot"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "stuffed-peppers-theplainsa",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -333425,134 +332745,6 @@
         },
         "missing_inputs": [
           "2 tbsp milk Frying-pan"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "tomato-jelly-salad-theplainsa",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Tomato- Jelly Salad",
-      "category": "salads",
-      "attribution": "",
-      "source_note": "The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922 (PDF cookbook)",
-      "description": "Vintage recipe from The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "tomato juice Bowl",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "chopped parsley Tablespoon",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "onion juice Saucepan",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "Soak thegelatine inabowl with 2 tablespoons of",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Put alltheother materials inasaucepan",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "setoverthe"
-        },
-        {
-          "item": "Take thesaucepan from the fire",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": "addthegelatine,"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "4.Pour intosmall cups ormoulds, andsetinacoolplace"
-        },
-        {
-          "step": 2,
-          "text": "The jelly should beprepared sixoreight hours before"
-        },
-        {
-          "step": 3,
-          "text": "serving time,andsetintheice-box tochill.When ready"
-        },
-        {
-          "step": 4,
-          "text": "toserve, wrap acloth wrung outofvery hotwater"
-        },
-        {
-          "step": 5,
-          "text": "around eachcupormould, and letthejelly slipoutof"
-        },
-        {
-          "step": 6,
-          "text": "Serve with ateaspoon ofFrench Dressing (page 82)"
-        },
-        {
-          "step": 7,
-          "text": "poured overeach portion, andatablespoon ofMayon-"
-        },
-        {
-          "step": 8,
-          "text": "naise (page 83)putonthetop.Afew slices ofcucum-"
-        },
-        {
-          "step": 9,
-          "text": "ber,apiece ofhard-boiled egg,orafew olives, capers,"
-        },
-        {
-          "step": 10,
-          "text": "etc.,maybeusedwith thissalad."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 32,
-          "fat_g": 0.1,
-          "carbs_g": 5.8,
-          "protein_g": 2.4,
-          "sodium_mg": 326,
-          "fiber_g": 1.4,
-          "sugar_g": 3.2
-        },
-        "missing_inputs": [
-          "1 tsp chopped parsley Tablespoon",
-          "2  Put alltheother materials inasaucepan",
-          "3  Take thesaucepan from the fire"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -336061,158 +335253,6 @@
           "sugar_g": 50.5
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "doughnuts-theplainsa",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Doughnuts",
-      "category": "mains",
-      "attribution": "",
-      "source_note": "The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922 (PDF cookbook)",
-      "description": "Vintage recipe from The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "flour Bowl",
-          "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "baking-powder Tablespoon",
-          "quantity": "214",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt Small saucepan",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "egg Sifter",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "powdered sugar Dover beater",
-          "quantity": "14",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "butter Deep ironkettle",
-          "quantity": "114",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "or 3 pounds lardorsimilar fat Doughnut-cutter",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Beat theegginabowl",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "addthesugar, andbeat"
-        },
-        {
-          "item": "Melt thebutter inasmall saucepan",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "add itwith the"
-        },
-        {
-          "item": "Sifttheflour",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": "baking-powder, andsalttogether, and"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "addwith themilk, alternately andalittle ata"
-        },
-        {
-          "step": 2,
-          "text": "time, tothemixture inthebowl, stirring con-"
-        },
-        {
-          "step": 3,
-          "text": "4.Setthebowl intheice-box foranhour ormore."
-        },
-        {
-          "step": 4,
-          "text": "5.When ready tofrythedoughnuts, putthefatinthe"
-        },
-        {
-          "step": 5,
-          "text": "6.Sprinkle thebread-board androlling-pin with flour,"
-        },
-        {
-          "step": 6,
-          "text": "place halfthedough ontheboard, and roll it"
-        },
-        {
-          "step": 7,
-          "text": "7.Dipthedoughnut-cutter inflour, andcutoutthe"
-        },
-        {
-          "step": 8,
-          "text": "8.Take theremaining dough fromthemixing-bowl, and"
-        },
-        {
-          "step": 9,
-          "text": "repeat theoperation. The scraps ofdough left"
-        },
-        {
-          "step": 10,
-          "text": "ontheboard should beworked together, rolled"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 3169,
-          "fat_g": 14.1,
-          "carbs_g": 785.1,
-          "protein_g": 8.1,
-          "sodium_mg": 7471,
-          "fiber_g": 1.7,
-          "sugar_g": 700.2
-        },
-        "missing_inputs": [
-          "1  egg Sifter",
-          "114 tbsp butter Deep ironkettle",
-          "3  Sifttheflour"
-        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -349016,17 +348056,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 7,
-          "fat_g": 0.0,
-          "carbs_g": 1.8,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
-          "fiber_g": 0.2,
-          "sugar_g": 0.8
+          "calories": 128,
+          "fat_g": 3.8,
+          "carbs_g": 21.2,
+          "protein_g": 2.7,
+          "sodium_mg": 271,
+          "fiber_g": 1.0,
+          "sugar_g": 2.2
         },
         "missing_inputs": [
-          "6 slices saltpork orbacon Thick slice ofhalibut",
-          "1  c.cracker crumbs dampened withmelted butter"
+          "6 slices saltpork orbacon Thick slice ofhalibut"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -383154,10 +382193,10 @@
         "status": "insufficient_data",
         "per_serving": {
           "calories": 19,
-          "fat_g": 1.2,
-          "carbs_g": 0.1,
-          "protein_g": 1.6,
-          "sodium_mg": 15,
+          "fat_g": 1.3,
+          "carbs_g": 0.0,
+          "protein_g": 1.5,
+          "sodium_mg": 14,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
@@ -386805,19 +385844,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 944,
-          "fat_g": 58.9,
-          "carbs_g": 69.5,
-          "protein_g": 33.0,
-          "sodium_mg": 2260,
-          "fiber_g": 6.7,
+          "calories": 963,
+          "fat_g": 60.6,
+          "carbs_g": 70.5,
+          "protein_g": 33.1,
+          "sodium_mg": 2455,
+          "fiber_g": 7.1,
           "sugar_g": 6.9
         },
-        "missing_inputs": [
-          "1/2 cup pitted ripe olives, sliced"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

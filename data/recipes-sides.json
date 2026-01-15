@@ -12846,19 +12846,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 184,
+          "calories": 190,
           "fat_g": 8.3,
-          "carbs_g": 19.8,
-          "protein_g": 8.8,
-          "sodium_mg": 382,
-          "fiber_g": 1.7,
-          "sugar_g": 15.0
+          "carbs_g": 21.2,
+          "protein_g": 8.9,
+          "sodium_mg": 817,
+          "fiber_g": 2.1,
+          "sugar_g": 15.5
         },
-        "missing_inputs": [
-          "3 tbsp chopped sweet pickle"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
@@ -14329,7 +14327,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 164,
           "fat_g": 11.7,
@@ -14340,7 +14338,6 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3  to 3 1/2 l bs. chicken",
           "1  (10 1/2 oz) can condensed cream of chicken soup",
           "1 tsp instant chicken bouillon cry stals or 1 chicken bouillon cube"
         ],
@@ -20248,19 +20245,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 96,
-          "fat_g": 2.1,
+          "calories": 121,
+          "fat_g": 4.9,
           "carbs_g": 16.2,
           "protein_g": 3.5,
-          "sodium_mg": 612,
+          "sodium_mg": 634,
           "fiber_g": 1.6,
           "sugar_g": 4.8
         },
-        "missing_inputs": [
-          "1 tbsp oleomargarine."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -21620,88 +21615,6 @@
           "sodium_mg": 0,
           "fiber_g": 0.0,
           "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "sauce-to-mi-x-them-thecentury",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Sauce To Mi X Them",
-      "category": "sides",
-      "attribution": "",
-      "source_note": "The Century Cookbook 1922 (PDF cookbook)",
-      "description": "Vintage recipe from The Century Cookbook 1922",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "milk",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "butter",
-          "quantity": "1/2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "flour",
-          "quantity": "1/2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "cranberries",
-          "quantity": "1",
-          "unit": "pint",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Sweet potatoes left from day before, cut in strips andbrowned (see page"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 76,
-          "fat_g": 3.8,
-          "carbs_g": 8.3,
-          "protein_g": 2.8,
-          "sodium_mg": 42,
-          "fiber_g": 2.5,
-          "sugar_g": 3.6
         },
         "missing_inputs": [],
         "assumptions": [
@@ -23229,118 +23142,6 @@
         "missing_inputs": [
           "1  ^cupsmilk Baking-dish"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "baked-beans-theplainsa",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Baked Beans",
-      "category": "sides",
-      "attribution": "",
-      "source_note": "The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922 (PDF cookbook)",
-      "description": "Vintage recipe from The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "dried beans",
-          "quantity": "1/4",
-          "unit": "lb",
-          "prep_note": ""
-        },
-        {
-          "item": "salt pork",
-          "quantity": "1/2",
-          "unit": "lb",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1/4",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "sugar",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "2.Pour offthewater, wash thebeans infresh water,"
-        },
-        {
-          "step": 2,
-          "text": "3.Cover thebeans withwater, place thesaucepan onthe"
-        },
-        {
-          "step": 3,
-          "text": "stove, and letthewater come slowly toaboil."
-        },
-        {
-          "step": 4,
-          "text": "4.Cover thesaucepan, reduce theheat, and letthe"
-        },
-        {
-          "step": 5,
-          "text": "beans simmer fortwohours."
-        },
-        {
-          "step": 6,
-          "text": "6.Pour thebeans, with theliquid inwhich they boiled,"
-        },
-        {
-          "step": 7,
-          "text": "intothebaking-dish orbean-pot, andaddthesalt"
-        },
-        {
-          "step": 8,
-          "text": "6.Scald thepork with boiling water, scrape itsentire"
-        },
-        {
-          "step": 9,
-          "text": "surface withaknife, andslash therinddeeply sev-"
-        },
-        {
-          "step": 10,
-          "text": "7.Press theporkdown intothebeans with therind"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 342,
-          "fat_g": 23.1,
-          "carbs_g": 9.1,
-          "protein_g": 23.0,
-          "sodium_mg": 1386,
-          "fiber_g": 2.0,
-          "sugar_g": 3.2
-        },
-        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
