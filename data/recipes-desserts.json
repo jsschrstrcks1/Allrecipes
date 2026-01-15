@@ -1856,12 +1856,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 133,
-          "fat_g": 6.5,
-          "carbs_g": 18.5,
-          "protein_g": 1.1,
-          "sodium_mg": 63,
-          "fiber_g": 2.0,
+          "calories": 71,
+          "fat_g": 1.8,
+          "carbs_g": 13.9,
+          "protein_g": 0.8,
+          "sodium_mg": 39,
+          "fiber_g": 1.9,
           "sugar_g": 7.0
         },
         "missing_inputs": [
@@ -4270,20 +4270,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 2674,
+          "calories": 2677,
           "fat_g": 139.5,
           "carbs_g": 339.0,
-          "protein_g": 31.2,
-          "sodium_mg": 1476,
+          "protein_g": 31.3,
+          "sodium_mg": 1478,
           "fiber_g": 11.6,
           "sugar_g": 256.4
         },
-        "missing_inputs": [
-          "1 1/2 cups strong brewed black coffee, at room temperature",
-          "2 tsp coconut rum (optional)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -4487,9 +4484,9 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 84,
+          "calories": 85,
           "fat_g": 3.5,
           "carbs_g": 10.8,
           "protein_g": 2.5,
@@ -4497,9 +4494,7 @@
           "fiber_g": 0.0,
           "sugar_g": 7.9
         },
-        "missing_inputs": [
-          "2 tsp coconut rum"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
@@ -4549,19 +4544,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 6,
-          "fat_g": 0.0,
-          "carbs_g": 1.6,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 1.6
+          "calories": 33,
+          "fat_g": 2.5,
+          "carbs_g": 2.7,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
+          "fiber_g": 0.7,
+          "sugar_g": 2.0
         },
-        "missing_inputs": [
-          "3/4 cup sweetened flaked coconut"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
@@ -4909,19 +4902,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 460,
           "fat_g": 14.3,
-          "carbs_g": 76.7,
+          "carbs_g": 76.9,
           "protein_g": 6.4,
           "sodium_mg": 55,
-          "fiber_g": 2.3,
+          "fiber_g": 2.5,
           "sugar_g": 64.4
         },
-        "missing_inputs": [
-          "1/2 tsp Roasted Saigon Cinnamon"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -30003,13 +29994,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 759,
-          "fat_g": 36.7,
-          "carbs_g": 40.7,
-          "protein_g": 61.5,
-          "sodium_mg": 382,
-          "fiber_g": 4.5,
-          "sugar_g": 5.0
+          "calories": 510,
+          "fat_g": 17.9,
+          "carbs_g": 22.2,
+          "protein_g": 60.1,
+          "sodium_mg": 286,
+          "fiber_g": 4.0,
+          "sugar_g": 5.2
         },
         "missing_inputs": [
           "10 3/4 oz cream of chicken soup",

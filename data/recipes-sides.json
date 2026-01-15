@@ -430,19 +430,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 380,
+          "calories": 384,
           "fat_g": 13.4,
-          "carbs_g": 60.9,
+          "carbs_g": 61.8,
           "protein_g": 6.0,
           "sodium_mg": 274,
           "fiber_g": 6.8,
-          "sugar_g": 10.3
+          "sugar_g": 11.0
         },
-        "missing_inputs": [
-          "1/4 cup orange juice or orange liqueur"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
         ]
