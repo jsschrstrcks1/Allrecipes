@@ -210,7 +210,10 @@ NUTRITION_DB = {
     # SEAFOOD
     # =========================================================================
     "shrimp": {"lb": {"cal": 480, "fat": 8, "carbs": 4, "protein": 92, "sodium": 800, "fiber": 0, "sugar": 0},
-              "cup": {"cal": 120, "fat": 2, "carbs": 1, "protein": 23, "sodium": 200, "fiber": 0, "sugar": 0}},
+              "cup": {"cal": 120, "fat": 2, "carbs": 1, "protein": 23, "sodium": 200, "fiber": 0, "sugar": 0},
+              "": {"cal": 7, "fat": 0.1, "carbs": 0, "protein": 1.5, "sodium": 13, "fiber": 0, "sugar": 0}},
+    "chipotle pepper": {"": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0.2, "sodium": 100, "fiber": 0.3, "sugar": 0.5},
+                       "tbsp": {"cal": 17, "fat": 0.5, "carbs": 3, "protein": 0.5, "sodium": 400, "fiber": 1, "sugar": 2}},
     "salmon": {"lb": {"cal": 936, "fat": 56, "carbs": 0, "protein": 104, "sodium": 260, "fiber": 0, "sugar": 0},
               "oz": {"cal": 59, "fat": 3.5, "carbs": 0, "protein": 6.5, "sodium": 16, "fiber": 0, "sugar": 0}},
     "trout": {"lb": {"cal": 680, "fat": 28, "carbs": 0, "protein": 104, "sodium": 260, "fiber": 0, "sugar": 0},
@@ -259,7 +262,9 @@ NUTRITION_DB = {
     "diced tomatoes": {"can": {"cal": 66, "fat": 0.4, "carbs": 16, "protein": 3, "sodium": 564, "fiber": 4, "sugar": 9}},
     "crushed tomatoes": {"can": {"cal": 70, "fat": 0.5, "carbs": 16, "protein": 3, "sodium": 600, "fiber": 4, "sugar": 10}},
     "canned tomatoes": {"can": {"cal": 66, "fat": 0.4, "carbs": 16, "protein": 3, "sodium": 564, "fiber": 4, "sugar": 9}},
-    "salsa": {"cup": {"cal": 70, "fat": 0.3, "carbs": 15, "protein": 3, "sodium": 1990, "fiber": 4, "sugar": 8}},
+    "salsa": {"cup": {"cal": 70, "fat": 0.3, "carbs": 15, "protein": 3, "sodium": 1990, "fiber": 4, "sugar": 8},
+             "can": {"cal": 140, "fat": 0.6, "carbs": 30, "protein": 6, "sodium": 3980, "fiber": 8, "sugar": 16},
+             "oz": {"cal": 9, "fat": 0, "carbs": 2, "protein": 0.4, "sodium": 249, "fiber": 0.5, "sugar": 1}},
     "enchilada sauce": {"cup": {"cal": 60, "fat": 1, "carbs": 11, "protein": 2, "sodium": 1160, "fiber": 2, "sugar": 4}},
     "black beans": {"can": {"cal": 339, "fat": 1, "carbs": 61, "protein": 22, "sodium": 660, "fiber": 15, "sugar": 1},
                    "cup": {"cal": 227, "fat": 0.9, "carbs": 41, "protein": 15, "sodium": 440, "fiber": 10, "sugar": 0.5}},
@@ -1061,8 +1066,16 @@ NUTRITION_DB = {
     "dill pickle relish": {"tbsp": {"cal": 4, "fat": 0.1, "carbs": 1, "protein": 0, "sodium": 210, "fiber": 0.2, "sugar": 0.5}},
 
     # Vegetables
-    "pimiento": {"oz": {"cal": 6, "fat": 0.1, "carbs": 1.3, "protein": 0.2, "sodium": 4, "fiber": 0.4, "sugar": 0.8}},
-    "pimentos": {"oz": {"cal": 6, "fat": 0.1, "carbs": 1.3, "protein": 0.2, "sodium": 4, "fiber": 0.4, "sugar": 0.8}},
+    "pimiento": {"oz": {"cal": 6, "fat": 0.1, "carbs": 1.3, "protein": 0.2, "sodium": 4, "fiber": 0.4, "sugar": 0.8},
+                "tbsp": {"cal": 3, "fat": 0, "carbs": 0.6, "protein": 0.1, "sodium": 2, "fiber": 0.2, "sugar": 0.4},
+                "": {"cal": 6, "fat": 0.1, "carbs": 1.3, "protein": 0.2, "sodium": 4, "fiber": 0.4, "sugar": 0.8}},
+    "pimentos": {"oz": {"cal": 6, "fat": 0.1, "carbs": 1.3, "protein": 0.2, "sodium": 4, "fiber": 0.4, "sugar": 0.8},
+                "": {"cal": 6, "fat": 0.1, "carbs": 1.3, "protein": 0.2, "sodium": 4, "fiber": 0.4, "sugar": 0.8}},
+    "water chestnuts": {"can": {"cal": 66, "fat": 0.1, "carbs": 15, "protein": 1, "sodium": 11, "fiber": 2, "sugar": 3},
+                       "cup": {"cal": 60, "fat": 0.1, "carbs": 13, "protein": 1, "sodium": 10, "fiber": 2, "sugar": 3}},
+    "jicama": {"cup": {"cal": 46, "fat": 0.1, "carbs": 11, "protein": 0.9, "sodium": 5, "fiber": 6, "sugar": 2}},
+    "mango": {"cup": {"cal": 99, "fat": 0.6, "carbs": 25, "protein": 1.4, "sodium": 2, "fiber": 2.6, "sugar": 23},
+             "": {"cal": 135, "fat": 0.8, "carbs": 35, "protein": 1.9, "sodium": 3, "fiber": 3.7, "sugar": 31}},
     "green peppers": {"cup": {"cal": 30, "fat": 0.3, "carbs": 7, "protein": 1.3, "sodium": 4, "fiber": 2.5, "sugar": 4}},
     "red peppers": {"cup": {"cal": 39, "fat": 0.4, "carbs": 9, "protein": 1.5, "sodium": 6, "fiber": 3, "sugar": 6}},
     "apples": {"each": {"cal": 95, "fat": 0.3, "carbs": 25, "protein": 0.5, "sodium": 2, "fiber": 4.4, "sugar": 19}},
@@ -1290,7 +1303,9 @@ NUTRITION_DB = {
 
     # Vegetables
     "avocados": {"each": {"cal": 322, "fat": 29, "carbs": 17, "protein": 4, "sodium": 14, "fiber": 13, "sugar": 1}},
-    "avocado": {"each": {"cal": 322, "fat": 29, "carbs": 17, "protein": 4, "sodium": 14, "fiber": 13, "sugar": 1}},
+    "avocado": {"each": {"cal": 322, "fat": 29, "carbs": 17, "protein": 4, "sodium": 14, "fiber": 13, "sugar": 1},
+               "": {"cal": 322, "fat": 29, "carbs": 17, "protein": 4, "sodium": 14, "fiber": 13, "sugar": 1},
+               "cup": {"cal": 234, "fat": 21, "carbs": 12, "protein": 3, "sodium": 10, "fiber": 10, "sugar": 1}},
     "broccoli florets": {"cup": {"cal": 31, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 30, "fiber": 2.4, "sugar": 1.5}},
     "broccoli": {"cup": {"cal": 31, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 30, "fiber": 2.4, "sugar": 1.5}},
     "cucumbers": {"each": {"cal": 45, "fat": 0.3, "carbs": 11, "protein": 2, "sodium": 6, "fiber": 1.5, "sugar": 5}},
@@ -1338,8 +1353,12 @@ NUTRITION_DB = {
     "sieved cottage cheese": {"cup": {"cal": 163, "fat": 2.3, "carbs": 6, "protein": 28, "sodium": 918, "fiber": 0, "sugar": 5}},
 
     # Condiments & sauces
-    "chunky salsa": {"cup": {"cal": 70, "fat": 0.4, "carbs": 14, "protein": 3, "sodium": 1200, "fiber": 4, "sugar": 8}},
-    "salsa": {"cup": {"cal": 70, "fat": 0.4, "carbs": 14, "protein": 3, "sodium": 1200, "fiber": 4, "sugar": 8}},
+    "chunky salsa": {"cup": {"cal": 70, "fat": 0.4, "carbs": 14, "protein": 3, "sodium": 1200, "fiber": 4, "sugar": 8},
+                    "can": {"cal": 140, "fat": 0.8, "carbs": 28, "protein": 6, "sodium": 2400, "fiber": 8, "sugar": 16},
+                    "oz": {"cal": 9, "fat": 0.1, "carbs": 2, "protein": 0.4, "sodium": 150, "fiber": 0.5, "sugar": 1}},
+    "salsa": {"cup": {"cal": 70, "fat": 0.4, "carbs": 14, "protein": 3, "sodium": 1200, "fiber": 4, "sugar": 8},
+             "can": {"cal": 140, "fat": 0.8, "carbs": 28, "protein": 6, "sodium": 2400, "fiber": 8, "sugar": 16},
+             "oz": {"cal": 9, "fat": 0.1, "carbs": 2, "protein": 0.4, "sodium": 150, "fiber": 0.5, "sugar": 1}},
     "seasoning salt": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1600, "fiber": 0, "sugar": 0}},
     "low-sodium soy sauce": {"tbsp": {"cal": 10, "fat": 0, "carbs": 1, "protein": 1, "sodium": 533, "fiber": 0, "sugar": 0}},
     "bottled minced garlic": {"tsp": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0, "sugar": 0}},
@@ -1691,6 +1710,21 @@ def normalize_unit(unit):
     embedded_size = re.match(r'^(\w+)\s*\([\d\s.]+\s*oz\)$', unit)
     if embedded_size:
         unit = embedded_size.group(1)
+
+    # Handle "15 1/2 oz cans" or "14.5-oz cans" → "can"
+    oz_cans = re.match(r'^[\d\s./½¼¾-]+\s*oz\.?\s*cans?$', unit)
+    if oz_cans:
+        unit = "can"
+
+    # Handle "oz jar" or "16 oz jar" → "jar" (treat as can equivalent)
+    oz_jar = re.match(r'^(?:[\d\s./]+\s*)?oz\.?\s*jar$', unit)
+    if oz_jar:
+        unit = "can"  # jars are roughly equivalent to cans
+
+    # Descriptive units that should be treated as empty (each)
+    descriptive_units = ["ripe", "fresh"]
+    if unit in descriptive_units:
+        unit = ""
 
     return unit_map.get(unit, unit)
 
@@ -2492,6 +2526,71 @@ def normalize_ingredient(item):
         "oz mushrooms": "mushrooms",
         "mushrooms, sliced": "mushrooms",
         "sliced mushrooms": "mushrooms",
+
+        # Shrimp variants (from batch 2 analysis)
+        "large shrimp": "shrimp",
+        "medium shrimp": "shrimp",
+        "small shrimp": "shrimp",
+        "jumbo shrimp": "shrimp",
+
+        # Chipotle variants
+        "chipotle pepper in adobo": "chipotle pepper",
+        "chipotle peppers in adobo": "chipotle pepper",
+        "chipotle in adobo": "chipotle pepper",
+        "chipotles in adobo": "chipotle pepper",
+
+        # Salsa variants
+        "chunky salsa": "salsa",
+        "mild salsa": "salsa",
+        "hot salsa": "salsa",
+        "medium salsa": "salsa",
+
+        # Pimiento variants
+        "diced pimiento": "pimiento",
+        "chopped pimiento": "pimiento",
+        "jarred pimiento": "pimiento",
+
+        # Walnut variants
+        "black walnuts": "walnuts",
+        "chopped black walnuts": "walnuts",
+        "english walnuts": "walnuts",
+
+        # Corn syrup variants
+        "dark corn syrup": "corn syrup",
+        "light corn syrup": "corn syrup",
+
+        # Cold/cooked variants
+        "cold chicken": "chicken",
+        "cooked chicken": "chicken",
+        "cooked cubed chicken": "chicken",
+
+        # Wild rice variants
+        "uncle ben's wild rice": "wild rice",
+        "wild rice mix": "wild rice",
+
+        # Water chestnuts variants
+        "sliced water chestnuts": "water chestnuts",
+        "canned water chestnuts": "water chestnuts",
+
+        # Peeled/sliced variants
+        "peeled jicama": "jicama",
+        "julienne-cut peeled jicama": "jicama",
+        "sliced peeled ripe mango": "mango",
+        "peeled ripe mango": "mango",
+
+        # Celery soup
+        "cream of celery soup": "cream of chicken soup",
+        "celery soup": "cream of chicken soup",
+
+        # French green beans
+        "french green beans": "green beans",
+        "french cut green beans": "green beans",
+
+        # Rhubarb
+        "stewed rhubarb": "rhubarb",
+
+        # Brand names
+        "carnation milk": "evaporated milk",
     }
 
     # Check for exact match first

@@ -5763,19 +5763,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 100,
-          "fat_g": 7.8,
-          "carbs_g": 0.9,
-          "protein_g": 6.3,
-          "sodium_mg": 115,
-          "fiber_g": 0.0,
-          "sugar_g": 0.7
+          "calories": 180,
+          "fat_g": 15.1,
+          "carbs_g": 5.2,
+          "protein_g": 7.3,
+          "sodium_mg": 119,
+          "fiber_g": 3.3,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "1 jar spicy salsa",
-          "1  diced avocado",
           "4 oz tortilla chips"
         ],
         "assumptions": [
@@ -8380,17 +8379,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 281,
-          "fat_g": 25.8,
-          "carbs_g": 2.9,
-          "protein_g": 9.9,
-          "sodium_mg": 279,
-          "fiber_g": 0.3,
-          "sugar_g": 1.5
+          "calories": 338,
+          "fat_g": 29.3,
+          "carbs_g": 7.4,
+          "protein_g": 11.4,
+          "sodium_mg": 720,
+          "fiber_g": 0.5,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
-          "1 lb frozen shredded hash browns, thawed",
-          "1 10 oz can condensed cream of chicken soup"
+          "1 lb frozen shredded hash browns, thawed"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -11778,19 +11776,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 161,
+          "calories": 174,
           "fat_g": 13.2,
-          "carbs_g": 8.8,
-          "protein_g": 2.3,
+          "carbs_g": 12.0,
+          "protein_g": 2.5,
           "sodium_mg": 115,
-          "fiber_g": 0.0,
-          "sugar_g": 8.3
+          "fiber_g": 0.3,
+          "sugar_g": 11.2
         },
         "missing_inputs": [
           "2  whole ciabatta",
-          "1/4 cup ripe mango, mashed",
           "8  fresh cherries, halved"
         ],
         "assumptions": [
@@ -27119,19 +27116,18 @@
       ],
       "source_note": "Reference cookbook - Easy Breakfast Recipes",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 100,
-          "fat_g": 7.8,
-          "carbs_g": 0.9,
-          "protein_g": 6.3,
-          "sodium_mg": 115,
-          "fiber_g": 0.0,
-          "sugar_g": 0.7
+          "calories": 180,
+          "fat_g": 15.1,
+          "carbs_g": 5.2,
+          "protein_g": 7.3,
+          "sodium_mg": 119,
+          "fiber_g": 3.3,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "1 jar spicy salsa",
-          "1  avocado",
           "4 oz tortilla chips"
         ],
         "assumptions": [
@@ -30059,17 +30055,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 141,
-          "fat_g": 12.9,
-          "carbs_g": 1.5,
-          "protein_g": 4.9,
-          "sodium_mg": 140,
-          "fiber_g": 0.1,
-          "sugar_g": 0.8
+          "calories": 169,
+          "fat_g": 14.6,
+          "carbs_g": 3.7,
+          "protein_g": 5.7,
+          "sodium_mg": 360,
+          "fiber_g": 0.3,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
-          "1 lb frozen shredded hash browns",
-          "1 10 oz can condensed cream of chicken soup"
+          "1 lb frozen shredded hash browns"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -33896,19 +33891,18 @@
       ],
       "source_note": "Reference cookbook - Book Four: Other Recipes",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 161,
+          "calories": 174,
           "fat_g": 13.2,
-          "carbs_g": 8.8,
-          "protein_g": 2.3,
+          "carbs_g": 12.0,
+          "protein_g": 2.5,
           "sodium_mg": 115,
-          "fiber_g": 0.0,
-          "sugar_g": 8.3
+          "fiber_g": 0.3,
+          "sugar_g": 11.2
         },
         "missing_inputs": [
           "2  whole ciabatta",
-          "1/4 cup ripe mango",
           "8  fresh cherries"
         ],
         "assumptions": [
@@ -41951,19 +41945,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 226,
+          "calories": 227,
           "fat_g": 15.7,
-          "carbs_g": 9.8,
+          "carbs_g": 9.9,
           "protein_g": 11.9,
           "sodium_mg": 366,
           "fiber_g": 0.2,
-          "sugar_g": 4.5
+          "sugar_g": 4.6
         },
-        "missing_inputs": [
-          "1/2 tsp minced pimiento"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
