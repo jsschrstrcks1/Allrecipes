@@ -337,8 +337,8 @@
         "per_serving": {
           "calories": 74,
           "fat_g": 5.7,
-          "carbs_g": 4.1,
-          "protein_g": 2.7,
+          "carbs_g": 4.0,
+          "protein_g": 2.6,
           "sodium_mg": 127,
           "fiber_g": 1.0,
           "sugar_g": 2.6
@@ -1052,14 +1052,15 @@
         "per_serving": {
           "calories": 80,
           "fat_g": 9.3,
-          "carbs_g": 0.2,
+          "carbs_g": 0.0,
           "protein_g": 0.0,
           "sodium_mg": 388,
-          "fiber_g": 0.1,
-          "sugar_g": 0.1
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3 3-oz packages ramen noodles (discard seasoning packets)"
+          "3 3-oz packages ramen noodles (discard seasoning packets)",
+          "for topping scallions and/or cilantro"
         ],
         "assumptions": [
           "Calculated for 6 servings",
@@ -1144,7 +1145,7 @@
           "carbs_g": 12.3,
           "protein_g": 4.3,
           "sodium_mg": 16,
-          "fiber_g": 4.7,
+          "fiber_g": 4.6,
           "sugar_g": 3.7
         },
         "missing_inputs": [
@@ -11036,13 +11037,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 212,
+          "calories": 197,
           "fat_g": 0.7,
-          "carbs_g": 44.9,
+          "carbs_g": 41.4,
           "protein_g": 8.0,
-          "sodium_mg": 237,
-          "fiber_g": 9.8,
-          "sugar_g": 15.2
+          "sodium_mg": 437,
+          "fiber_g": 6.3,
+          "sugar_g": 15.8
         },
         "missing_inputs": [
           "\u00bc lb. salt pork",
@@ -14492,19 +14493,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 170,
-          "fat_g": 11.3,
+          "calories": 357,
+          "fat_g": 15.3,
           "carbs_g": 15.7,
-          "protein_g": 1.6,
-          "sodium_mg": 91,
+          "protein_g": 36.6,
+          "sodium_mg": 176,
           "fiber_g": 0.4,
           "sugar_g": 7.9
         },
-        "missing_inputs": [
-          "4  chicken breast halves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -15553,16 +15552,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 331,
+          "calories": 330,
           "fat_g": 16.8,
-          "carbs_g": 6.9,
-          "protein_g": 36.1,
-          "sodium_mg": 416,
-          "fiber_g": 0.4,
-          "sugar_g": 0.1
+          "carbs_g": 6.7,
+          "protein_g": 36.0,
+          "sodium_mg": 415,
+          "fiber_g": 0.3,
+          "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1/4 lb mushrooms"
+          "1/4 lb mushrooms",
+          "1  green onion"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -17172,17 +17172,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 70,
+          "calories": 69,
           "fat_g": 5.8,
-          "carbs_g": 4.1,
-          "protein_g": 0.8,
+          "carbs_g": 3.9,
+          "protein_g": 0.7,
           "sodium_mg": 113,
-          "fiber_g": 0.3,
-          "sugar_g": 0.1
+          "fiber_g": 0.2,
+          "sugar_g": 0.0
         },
         "missing_inputs": [
+          "1  shallot or 3 scallions",
           "1  \u00bd cups vegetable broth",
           "6  leaves fresh sage"
         ],
@@ -18880,11 +18881,11 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 99,
-          "fat_g": 1.6,
+          "calories": 116,
+          "fat_g": 3.1,
           "carbs_g": 6.3,
-          "protein_g": 14.0,
-          "sodium_mg": 31,
+          "protein_g": 15.5,
+          "sodium_mg": 36,
           "fiber_g": 0.4,
           "sugar_g": 0.2
         },
@@ -22466,7 +22467,7 @@
           "carbs_g": 0.2,
           "protein_g": 0.0,
           "sodium_mg": 0,
-          "fiber_g": 0.1,
+          "fiber_g": 0.0,
           "sugar_g": 0.1
         },
         "missing_inputs": [
@@ -24679,19 +24680,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 85,
+          "calories": 88,
           "fat_g": 9.8,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 0.6,
+          "protein_g": 0.1,
+          "sodium_mg": 52,
+          "fiber_g": 0.1,
+          "sugar_g": 0.4
         },
-        "missing_inputs": [
-          "3 tbsp fuls flour 1 cupftd tomato puree"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -26829,15 +26828,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 2,
+          "calories": 0,
           "fat_g": 0.0,
-          "carbs_g": 0.3,
-          "protein_g": 0.1,
-          "sodium_mg": 1,
-          "fiber_g": 0.1,
-          "sugar_g": 0.2
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
         },
         "missing_inputs": [
+          "Four finely chopped pimentoes.",
           "Four tablespoons offinely chopped parsley.",
           "Three tablespoons ofvinegar orlemon juice.",
           "Three tablespoons ofcatsup."
@@ -29532,16 +29532,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 234,
+          "calories": 243,
           "fat_g": 22.0,
-          "carbs_g": 0.6,
-          "protein_g": 8.7,
+          "carbs_g": 2.6,
+          "protein_g": 8.8,
           "sodium_mg": 565,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 0.3
         },
         "missing_inputs": [
-          "1/2 cup quick hominy grits",
           "1 tsp savory salt"
         ],
         "assumptions": [
@@ -29629,16 +29628,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 212,
+          "calories": 230,
           "fat_g": 15.2,
-          "carbs_g": 6.3,
-          "protein_g": 12.5,
+          "carbs_g": 10.2,
+          "protein_g": 12.9,
           "sodium_mg": 615,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 6.2
         },
         "missing_inputs": [
-          "1 cup hominy grits, uncooked",
           "1/2-1 cup green chiles, chopped"
         ],
         "assumptions": [
@@ -30228,16 +30226,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 256,
+          "calories": 272,
           "fat_g": 21.2,
-          "carbs_g": 9.4,
-          "protein_g": 8.0,
-          "sodium_mg": 287,
-          "fiber_g": 1.6,
-          "sugar_g": 5.3
+          "carbs_g": 13.2,
+          "protein_g": 8.5,
+          "sodium_mg": 289,
+          "fiber_g": 2.3,
+          "sugar_g": 7.1
         },
         "missing_inputs": [
-          "1 cup julienned leeks",
           "1/2 cup slivered toasted almonds"
         ],
         "assumptions": [

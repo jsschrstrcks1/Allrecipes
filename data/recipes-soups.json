@@ -149,17 +149,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 364,
-          "fat_g": 22.2,
-          "carbs_g": 12.3,
-          "protein_g": 24.4,
-          "sodium_mg": 657,
-          "fiber_g": 0.8,
-          "sugar_g": 1.7
+          "calories": 298,
+          "fat_g": 15.2,
+          "carbs_g": 13.1,
+          "protein_g": 23.2,
+          "sodium_mg": 583,
+          "fiber_g": 1.4,
+          "sugar_g": 2.2
         },
         "missing_inputs": [
           "3  Anaheim chile peppers",
           "10 oz box frozen chopped spinach, thawed and squeezed dry",
+          "3/4 cup grated monterey jack cheese",
           "1  chicken",
           "15 oz can cannellini beans",
           "cheese, for garnish"
@@ -1087,9 +1088,9 @@
           "fat_g": 3.2,
           "carbs_g": 3.7,
           "protein_g": 13.5,
-          "sodium_mg": 296,
+          "sodium_mg": 297,
           "fiber_g": 1.1,
-          "sugar_g": 2.1
+          "sugar_g": 2.2
         },
         "missing_inputs": [
           "1 16-oz bag frozen pepper stir-fry (such as Birds Eye)",
@@ -1216,20 +1217,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 148,
+          "calories": 158,
           "fat_g": 9.6,
-          "carbs_g": 11.7,
-          "protein_g": 4.9,
-          "sodium_mg": 251,
-          "fiber_g": 0.8,
-          "sugar_g": 7.3
+          "carbs_g": 13.5,
+          "protein_g": 5.7,
+          "sodium_mg": 260,
+          "fiber_g": 1.5,
+          "sugar_g": 7.8
         },
         "missing_inputs": [
           "1 14-oz can fat-free, less-sodium chicken broth",
           "4 oz uncooked vermicelli, broken into 2-inch pieces",
           "2 cups (8 oz) shredded light processed cheese (such as Velveeta Light)",
-          "4 cups (1-inch) cubed cooked chicken breast",
-          "3 cups small broccoli florets (8 ounces)"
+          "4 cups (1-inch) cubed cooked chicken breast"
         ],
         "assumptions": [
           "Calculated for 10 servings"
@@ -1962,18 +1962,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 52,
+          "calories": 49,
           "fat_g": 0.6,
-          "carbs_g": 8.4,
-          "protein_g": 3.0,
-          "sodium_mg": 921,
-          "fiber_g": 1.4,
-          "sugar_g": 5.1
+          "carbs_g": 7.9,
+          "protein_g": 2.8,
+          "sodium_mg": 920,
+          "fiber_g": 1.2,
+          "sugar_g": 4.9
         },
         "missing_inputs": [
           "1/4 lb thick-sliced ham, diced",
           "1 1-inch piece ginger, peeled and thinly sliced",
           "4 3-inch orange zest strips",
+          "2  scallions, sliced, white and green parts separated",
           "2 to 3  napa cabbage leaves, thinly sliced",
           "24  frozen chicken or vegetable dumplings or pot stickers",
           "soy sauce, for drizzling (optional)"
@@ -2277,19 +2278,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 114,
+          "calories": 112,
           "fat_g": 7.6,
-          "carbs_g": 6.4,
-          "protein_g": 6.3,
+          "carbs_g": 6.0,
+          "protein_g": 6.2,
           "sodium_mg": 1029,
-          "fiber_g": 0.8,
-          "sugar_g": 3.6
+          "fiber_g": 0.7,
+          "sugar_g": 3.4
         },
         "missing_inputs": [
           "2  ears of corn",
-          "1 can creamed corn"
+          "1 can creamed corn",
+          "1  green onion"
         ],
         "assumptions": [
           "Calculated for 3 servings"
@@ -9026,13 +9028,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 214,
+          "calories": 213,
           "fat_g": 1.6,
           "carbs_g": 41.3,
           "protein_g": 9.6,
-          "sodium_mg": 1823,
+          "sodium_mg": 1822,
           "fiber_g": 4.4,
-          "sugar_g": 3.6
+          "sugar_g": 4.6
         },
         "missing_inputs": [
           "1  chicken",
@@ -10292,10 +10294,10 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1307,
-          "fat_g": 29.5,
+          "calories": 1367,
+          "fat_g": 37.5,
           "carbs_g": 207.9,
-          "protein_g": 71.2,
+          "protein_g": 67.2,
           "sodium_mg": 1573,
           "fiber_g": 69.1,
           "sugar_g": 104.2

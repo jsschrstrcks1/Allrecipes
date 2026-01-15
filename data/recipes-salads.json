@@ -208,20 +208,20 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 76,
-          "fat_g": 5.8,
-          "carbs_g": 5.2,
-          "protein_g": 1.4,
-          "sodium_mg": 86,
-          "fiber_g": 1.4,
-          "sugar_g": 2.7
+          "calories": 190,
+          "fat_g": 12.8,
+          "carbs_g": 4.5,
+          "protein_g": 14.2,
+          "sodium_mg": 116,
+          "fiber_g": 1.1,
+          "sugar_g": 2.4
         },
         "missing_inputs": [
           "1  large pink or red grapefruit",
+          "3  scallions, thinly sliced",
           "1 bunch watercress, trimmed",
           "2  heads endive, thinly sliced crosswise",
-          "1 head Bibb lettuce, torn into bite-size pieces",
-          "1/2 lb smoked trout, skin discarded and fish flaked"
+          "1 head Bibb lettuce, torn into bite-size pieces"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -355,19 +355,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 213,
-          "fat_g": 22.0,
-          "carbs_g": 4.0,
-          "protein_g": 1.9,
-          "sodium_mg": 119,
-          "fiber_g": 0.5,
-          "sugar_g": 1.6
+          "calories": 221,
+          "fat_g": 22.1,
+          "carbs_g": 5.2,
+          "protein_g": 2.5,
+          "sodium_mg": 131,
+          "fiber_g": 1.4,
+          "sugar_g": 2.2
         },
         "missing_inputs": [
           "4  medium beets, trimmed",
           "1/2 cup goat cheese",
-          "4 to 8  fresh sage leaves",
-          "2 cups baby arugula"
+          "4 to 8  fresh sage leaves"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -6188,18 +6187,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 66,
-          "fat_g": 3.8,
-          "carbs_g": 2.8,
-          "protein_g": 4.8,
-          "sodium_mg": 129,
-          "fiber_g": 0.5,
-          "sugar_g": 1.6
+          "calories": 235,
+          "fat_g": 4.5,
+          "carbs_g": 32.8,
+          "protein_g": 16.0,
+          "sodium_mg": 429,
+          "fiber_g": 9.5,
+          "sugar_g": 2.3
         },
         "missing_inputs": [
-          "3 cup navy beans baked or boiled",
           "2  tblsp. pickle relish or 1-large pickle",
           "\u2154 cup boiled salad dressing"
         ],
@@ -10029,13 +10027,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 456,
-          "fat_g": 41.5,
+          "calories": 455,
+          "fat_g": 41.6,
           "carbs_g": 1.8,
           "protein_g": 18.0,
-          "sodium_mg": 484,
+          "sodium_mg": 483,
           "fiber_g": 0.6,
-          "sugar_g": 0.5
+          "sugar_g": 0.4
         },
         "missing_inputs": [
           "1/2 cup French dressing."
@@ -10418,10 +10416,10 @@
           "calories": 26,
           "fat_g": 1.3,
           "carbs_g": 1.9,
-          "protein_g": 2.0,
+          "protein_g": 1.9,
           "sodium_mg": 22,
-          "fiber_g": 0.8,
-          "sugar_g": 0.6
+          "fiber_g": 0.7,
+          "sugar_g": 0.7
         },
         "missing_inputs": [
           "1 quart dandelion."
@@ -11048,9 +11046,9 @@
           "calories": 10,
           "fat_g": 0.1,
           "carbs_g": 2.2,
-          "protein_g": 0.8,
+          "protein_g": 0.7,
           "sodium_mg": 6,
-          "fiber_g": 1.0,
+          "fiber_g": 0.9,
           "sugar_g": 0.8
         },
         "missing_inputs": [
@@ -11130,17 +11128,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 23,
+          "calories": 22,
           "fat_g": 0.2,
-          "carbs_g": 5.2,
-          "protein_g": 1.1,
+          "carbs_g": 5.0,
+          "protein_g": 1.0,
           "sodium_mg": 6,
-          "fiber_g": 1.6,
-          "sugar_g": 3.1
+          "fiber_g": 1.5,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
+          "1  ^cupcutscallions.",
           "1 cup hredded lettuce.",
           "3  /^cupFrench dressing."
         ],
