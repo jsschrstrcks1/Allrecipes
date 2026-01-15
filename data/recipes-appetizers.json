@@ -870,19 +870,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 51,
           "fat_g": 2.0,
           "carbs_g": 4.3,
-          "protein_g": 3.6,
-          "sodium_mg": 56,
+          "protein_g": 3.7,
+          "sodium_mg": 93,
           "fiber_g": 0.1,
           "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "soy sauce"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 24 servings"
         ]
@@ -981,11 +979,11 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 24,
+          "calories": 25,
           "fat_g": 1.5,
-          "carbs_g": 0.3,
+          "carbs_g": 0.4,
           "protein_g": 2.1,
           "sodium_mg": 42,
           "fiber_g": 0.1,
@@ -993,8 +991,7 @@
         },
         "missing_inputs": [
           "2 packages pie dough",
-          "1 can black olives",
-          "flour"
+          "1 can black olives"
         ],
         "assumptions": [
           "Calculated for 36 servings"
@@ -1069,19 +1066,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 20,
-          "fat_g": 2.0,
-          "carbs_g": 0.2,
-          "protein_g": 0.4,
-          "sodium_mg": 17,
+          "calories": 30,
+          "fat_g": 2.8,
+          "carbs_g": 0.3,
+          "protein_g": 1.0,
+          "sodium_mg": 50,
           "fiber_g": 0.0,
           "sugar_g": 0.2
         },
         "missing_inputs": [
           "1  baguette",
-          "4 oz gorgonzola cheese",
           "2 cans canned pears"
         ],
         "assumptions": [
@@ -1443,17 +1439,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 324,
+          "calories": 322,
           "fat_g": 19.4,
           "carbs_g": 18.6,
-          "protein_g": 17.4,
-          "sodium_mg": 308,
+          "protein_g": 16.9,
+          "sodium_mg": 312,
           "fiber_g": 1.1,
           "sugar_g": 4.5
         },
         "missing_inputs": [
-          "3 tbsp lingonberry preserves or cranberry preserves",
-          "chopped fresh dill, for topping"
+          "3 tbsp lingonberry preserves or cranberry preserves"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -1744,17 +1739,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 355,
-          "fat_g": 27.2,
-          "carbs_g": 10.9,
-          "protein_g": 17.3,
-          "sodium_mg": 688,
-          "fiber_g": 1.2,
-          "sugar_g": 6.4
+          "calories": 410,
+          "fat_g": 30.8,
+          "carbs_g": 15.9,
+          "protein_g": 17.9,
+          "sodium_mg": 742,
+          "fiber_g": 1.6,
+          "sugar_g": 6.5
         },
         "missing_inputs": [
-          "2 10-oz bags spinach, stems removed",
-          "tortilla chips and salsa, for serving"
+          "2 10-oz bags spinach, stems removed"
         ],
         "assumptions": [
           "Calculated for 5 servings"
@@ -8017,18 +8011,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1044,
+          "calories": 1045,
           "fat_g": 114.5,
-          "carbs_g": 12.4,
+          "carbs_g": 12.7,
           "protein_g": 2.8,
-          "sodium_mg": 151,
-          "fiber_g": 0.7,
-          "sugar_g": 2.3
+          "sodium_mg": 163,
+          "fiber_g": 0.8,
+          "sugar_g": 2.5
         },
         "missing_inputs": [
           "1 cup chopped conch",
-          "1/4  yellow bell pepper",
-          "1/4  red bell pepper"
+          "1/4  yellow bell pepper"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -8300,16 +8293,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 78,
-          "fat_g": 7.2,
-          "carbs_g": 3.6,
-          "protein_g": 0.9,
-          "sodium_mg": 18,
+          "calories": 169,
+          "fat_g": 14.6,
+          "carbs_g": 3.8,
+          "protein_g": 6.5,
+          "sodium_mg": 159,
           "fiber_g": 2.7,
-          "sugar_g": 0.3
+          "sugar_g": 0.4
         },
         "missing_inputs": [
-          "1 lb Colby cheese",
           "8 oz green chiles"
         ],
         "assumptions": [
@@ -8397,18 +8389,17 @@
         "processed/img_6030_medium.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 20,
-          "fat_g": 0.9,
-          "carbs_g": 2.5,
-          "protein_g": 0.3,
-          "sodium_mg": 55,
+          "calories": 24,
+          "fat_g": 1.2,
+          "carbs_g": 2.6,
+          "protein_g": 0.7,
+          "sodium_mg": 64,
           "fiber_g": 0.1,
           "sugar_g": 0.3
         },
         "missing_inputs": [
-          "1/2 lb mozzarella cheese",
           "1 can tomato sauce",
           "4 oz green chilies"
         ],
@@ -8490,17 +8481,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 563,
-          "fat_g": 62.5,
-          "carbs_g": 2.3,
-          "protein_g": 0.4,
-          "sodium_mg": 257,
-          "fiber_g": 0.4,
-          "sugar_g": 0.9
+          "calories": 821,
+          "fat_g": 69.4,
+          "carbs_g": 46.9,
+          "protein_g": 7.3,
+          "sodium_mg": 840,
+          "fiber_g": 3.9,
+          "sugar_g": 2.6
         },
         "missing_inputs": [
-          "20  hot dogs",
-          "12  corn tortillas"
+          "20  hot dogs"
         ],
         "assumptions": [
           "Calculated for 7 servings"
@@ -8581,16 +8571,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 109,
-          "fat_g": 7.5,
-          "carbs_g": 0.8,
-          "protein_g": 9.0,
-          "sodium_mg": 107,
+          "calories": 222,
+          "fat_g": 16.8,
+          "carbs_g": 1.0,
+          "protein_g": 16.0,
+          "sodium_mg": 282,
           "fiber_g": 0.1,
-          "sugar_g": 0.7
+          "sugar_g": 0.8
         },
         "missing_inputs": [
-          "1 lb cheddar cheese, grated",
           "2 cans (4 oz each) green chiles, chopped"
         ],
         "assumptions": [
@@ -8771,20 +8760,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 10,
-          "fat_g": 0.5,
-          "carbs_g": 1.3,
-          "protein_g": 0.1,
-          "sodium_mg": 28,
-          "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "calories": 27,
+          "fat_g": 1.1,
+          "carbs_g": 3.4,
+          "protein_g": 0.8,
+          "sodium_mg": 77,
+          "fiber_g": 0.1,
+          "sugar_g": 0.4
         },
         "missing_inputs": [
-          "2  crackers",
-          "8 oz tomato sauce",
-          "1/2 lb mozzarella cheese",
           "4 oz green chilies"
         ],
         "assumptions": [
@@ -8858,17 +8844,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 562,
-          "fat_g": 62.4,
-          "carbs_g": 2.0,
-          "protein_g": 0.4,
-          "sodium_mg": 214,
-          "fiber_g": 0.4,
-          "sugar_g": 0.7
+          "calories": 819,
+          "fat_g": 69.3,
+          "carbs_g": 46.6,
+          "protein_g": 7.3,
+          "sodium_mg": 797,
+          "fiber_g": 3.9,
+          "sugar_g": 2.4
         },
         "missing_inputs": [
-          "20  hot dogs",
-          "12  corn tortillas"
+          "20  hot dogs"
         ],
         "assumptions": [
           "Calculated for 7 servings"

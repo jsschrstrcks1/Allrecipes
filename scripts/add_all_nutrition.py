@@ -1831,6 +1831,73 @@ NUTRITION_DB = {
     "lettuce": {"cup": {"cal": 5, "fat": 0.1, "carbs": 1, "protein": 0.5, "sodium": 5, "fiber": 0.5, "sugar": 0.4},
                "leaf": {"cal": 1, "fat": 0, "carbs": 0.2, "protein": 0.1, "sodium": 1, "fiber": 0.1, "sugar": 0.1},
                "head": {"cal": 54, "fat": 0.5, "carbs": 10, "protein": 5, "sodium": 50, "fiber": 5, "sugar": 4}},
+
+    # BATCH 15: More missing ingredients and expanded units
+    # Spices & seasonings
+    "italian herbs": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.6, "protein": 0.1, "sodium": 1, "fiber": 0.3, "sugar": 0},
+                     "tbsp": {"cal": 9, "fat": 0.3, "carbs": 1.8, "protein": 0.3, "sodium": 3, "fiber": 0.9, "sugar": 0}},
+    "ground pepper": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 1, "fiber": 0.6, "sugar": 0},
+                     "tbsp": {"cal": 18, "fat": 0.3, "carbs": 4.2, "protein": 0.6, "sodium": 3, "fiber": 1.8, "sugar": 0}},
+    "lemon-pepper seasoning": {"tsp": {"cal": 7, "fat": 0.1, "carbs": 1.5, "protein": 0.2, "sodium": 340, "fiber": 0.3, "sugar": 0.2}},
+    "ground mustard": {"tsp": {"cal": 9, "fat": 0.5, "carbs": 0.6, "protein": 0.5, "sodium": 0, "fiber": 0.2, "sugar": 0}},
+    "rubbed sage": {"tsp": {"cal": 2, "fat": 0.1, "carbs": 0.4, "protein": 0.1, "sodium": 0, "fiber": 0.3, "sugar": 0}},
+    "cajun seasoning": {"tsp": {"cal": 8, "fat": 0.3, "carbs": 1.5, "protein": 0.3, "sodium": 200, "fiber": 0.5, "sugar": 0.2},
+                       "tbsp": {"cal": 24, "fat": 0.9, "carbs": 4.5, "protein": 0.9, "sodium": 600, "fiber": 1.5, "sugar": 0.6}},
+    "ground cardamom": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "ground turmeric": {"tsp": {"cal": 8, "fat": 0.2, "carbs": 1.4, "protein": 0.3, "sodium": 1, "fiber": 0.5, "sugar": 0.1}},
+    "chipotle": {"tsp": {"cal": 8, "fat": 0.4, "carbs": 1.5, "protein": 0.3, "sodium": 26, "fiber": 0.9, "sugar": 0.5},
+                "each": {"cal": 15, "fat": 0.8, "carbs": 3, "protein": 0.6, "sodium": 52, "fiber": 1.8, "sugar": 1}},
+    "pepper sauce": {"tsp": {"cal": 1, "fat": 0, "carbs": 0.1, "protein": 0, "sodium": 124, "fiber": 0, "sugar": 0},
+                    "tbsp": {"cal": 3, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 372, "fiber": 0, "sugar": 0}},
+    # Cheese
+    "part-skim mozzarella cheese": {"cup": {"cal": 336, "fat": 20, "carbs": 4, "protein": 32, "sodium": 704, "fiber": 0, "sugar": 2},
+                                    "oz": {"cal": 72, "fat": 4.5, "carbs": 0.8, "protein": 7, "sodium": 150, "fiber": 0, "sugar": 0.4}},
+    "jack cheese": {"cup": {"cal": 422, "fat": 34, "carbs": 2, "protein": 28, "sodium": 660, "fiber": 0, "sugar": 0.5},
+                   "oz": {"cal": 106, "fat": 8.5, "carbs": 0.5, "protein": 7, "sodium": 165, "fiber": 0, "sugar": 0.1}},
+    "blue cheese crumbles": {"cup": {"cal": 476, "fat": 39, "carbs": 3, "protein": 29, "sodium": 1395, "fiber": 0, "sugar": 0.5},
+                            "oz": {"cal": 100, "fat": 8, "carbs": 0.7, "protein": 6, "sodium": 325, "fiber": 0, "sugar": 0.1},
+                            "tbsp": {"cal": 30, "fat": 2.5, "carbs": 0.2, "protein": 1.8, "sodium": 87, "fiber": 0, "sugar": 0}},
+    # Vegetables
+    "fresh mushrooms": {"cup": {"cal": 15, "fat": 0.2, "carbs": 2.3, "protein": 2.2, "sodium": 4, "fiber": 0.7, "sugar": 1.4},
+                       "oz": {"cal": 6, "fat": 0.1, "carbs": 0.9, "protein": 0.9, "sodium": 1.5, "fiber": 0.3, "sugar": 0.5}},
+    "fresh gingerroot": {"tbsp": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 1, "fiber": 0.1, "sugar": 0.1},
+                        "tsp": {"cal": 2, "fat": 0, "carbs": 0.4, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+                        "inch": {"cal": 8, "fat": 0.1, "carbs": 1.8, "protein": 0.2, "sodium": 1, "fiber": 0.2, "sugar": 0.2}},
+    "medium green pepper": {"": {"cal": 24, "fat": 0.2, "carbs": 5.5, "protein": 1, "sodium": 4, "fiber": 2, "sugar": 3}},
+    "medium zucchini": {"": {"cal": 33, "fat": 0.4, "carbs": 6, "protein": 2.4, "sodium": 16, "fiber": 2, "sugar": 5}},
+    "medium ripe avocado": {"": {"cal": 240, "fat": 22, "carbs": 13, "protein": 3, "sodium": 11, "fiber": 10, "sugar": 1}},
+    "medium carrot": {"": {"cal": 25, "fat": 0.1, "carbs": 6, "protein": 0.6, "sodium": 42, "fiber": 1.7, "sugar": 3}},
+    "medium cucumber": {"": {"cal": 24, "fat": 0.2, "carbs": 6, "protein": 1, "sodium": 3, "fiber": 0.7, "sugar": 3}},
+    "coleslaw mix": {"cup": {"cal": 17, "fat": 0.1, "carbs": 4, "protein": 1, "sodium": 13, "fiber": 1.4, "sugar": 2},
+                    "bag": {"cal": 85, "fat": 0.5, "carbs": 20, "protein": 5, "sodium": 65, "fiber": 7, "sugar": 10}},
+    # Meat
+    "pork loin chops": {"lb": {"cal": 680, "fat": 28, "carbs": 0, "protein": 100, "sodium": 260, "fiber": 0, "sugar": 0},
+                       "oz": {"cal": 43, "fat": 1.8, "carbs": 0, "protein": 6.3, "sodium": 16, "fiber": 0, "sugar": 0},
+                       "each": {"cal": 170, "fat": 7, "carbs": 0, "protein": 25, "sodium": 65, "fiber": 0, "sugar": 0}},
+    "lean ground turkey": {"lb": {"cal": 720, "fat": 36, "carbs": 0, "protein": 92, "sodium": 400, "fiber": 0, "sugar": 0},
+                          "oz": {"cal": 45, "fat": 2.3, "carbs": 0, "protein": 5.8, "sodium": 25, "fiber": 0, "sugar": 0}},
+    "beef steak": {"lb": {"cal": 880, "fat": 56, "carbs": 0, "protein": 88, "sodium": 280, "fiber": 0, "sugar": 0},
+                  "oz": {"cal": 55, "fat": 3.5, "carbs": 0, "protein": 5.5, "sodium": 18, "fiber": 0, "sugar": 0}},
+    "white fish": {"lb": {"cal": 400, "fat": 4, "carbs": 0, "protein": 84, "sodium": 300, "fiber": 0, "sugar": 0},
+                  "oz": {"cal": 25, "fat": 0.3, "carbs": 0, "protein": 5.3, "sodium": 19, "fiber": 0, "sugar": 0},
+                  "fillet": {"cal": 100, "fat": 1, "carbs": 0, "protein": 21, "sodium": 75, "fiber": 0, "sugar": 0}},
+    # Broths
+    "reduced-sodium chicken broth": {"cup": {"cal": 15, "fat": 0.5, "carbs": 1, "protein": 2, "sodium": 450, "fiber": 0, "sugar": 0},
+                                    "can": {"cal": 22, "fat": 0.8, "carbs": 1.5, "protein": 3, "sodium": 675, "fiber": 0, "sugar": 0}},
+    "reduced-sodium beef broth": {"cup": {"cal": 17, "fat": 0.5, "carbs": 1, "protein": 3, "sodium": 440, "fiber": 0, "sugar": 0},
+                                 "can": {"cal": 25, "fat": 0.8, "carbs": 1.5, "protein": 4.5, "sodium": 660, "fiber": 0, "sugar": 0}},
+    "beef bouillon granules": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 0.5, "protein": 0.5, "sodium": 900, "fiber": 0, "sugar": 0},
+                              "tbsp": {"cal": 15, "fat": 0.6, "carbs": 1.5, "protein": 1.5, "sodium": 2700, "fiber": 0, "sugar": 0}},
+    # Sauces
+    "barbecue sauce": {"tbsp": {"cal": 29, "fat": 0.1, "carbs": 7, "protein": 0.2, "sodium": 175, "fiber": 0.2, "sugar": 5},
+                      "cup": {"cal": 464, "fat": 1.6, "carbs": 112, "protein": 3.2, "sodium": 2800, "fiber": 3.2, "sugar": 80}},
+    "bechamel sauce": {"cup": {"cal": 308, "fat": 22, "carbs": 18, "protein": 9, "sodium": 680, "fiber": 0.5, "sugar": 8},
+                      "tbsp": {"cal": 19, "fat": 1.4, "carbs": 1.1, "protein": 0.6, "sodium": 42, "fiber": 0, "sugar": 0.5}},
+    # Miscellaneous
+    "chips": {"cup": {"cal": 274, "fat": 18, "carbs": 25, "protein": 3, "sodium": 268, "fiber": 2, "sugar": 0.5},
+             "oz": {"cal": 152, "fat": 10, "carbs": 14, "protein": 1.7, "sodium": 149, "fiber": 1.1, "sugar": 0.3}},
+    "pita": {"each": {"cal": 165, "fat": 0.7, "carbs": 34, "protein": 5.5, "sodium": 322, "fiber": 1.3, "sugar": 0.7},
+            "half": {"cal": 82, "fat": 0.4, "carbs": 17, "protein": 2.8, "sodium": 161, "fiber": 0.7, "sugar": 0.4}},
 }
 
 # =============================================================================
@@ -4676,6 +4743,96 @@ def normalize_ingredient(item):
         "rotini": "pasta",
         "angel hair": "pasta",
         "egg noodles": "pasta",
+
+        # Batch 15: More synonyms for remaining variations
+        # Ginger variants
+        "gingerroot": "fresh gingerroot",
+        "fresh ginger": "fresh gingerroot",
+        "ginger root": "fresh gingerroot",
+        "minced ginger": "fresh gingerroot",
+        "grated ginger": "fresh gingerroot",
+        # Mushroom variants
+        "sliced mushrooms": "fresh mushrooms",
+        "white mushrooms": "fresh mushrooms",
+        "cremini mushrooms": "fresh mushrooms",
+        "button mushrooms": "fresh mushrooms",
+        "baby bella mushrooms": "fresh mushrooms",
+        # Cheese variants
+        "mozzarella cheese": "part-skim mozzarella cheese",
+        "shredded mozzarella": "part-skim mozzarella cheese",
+        "fresh mozzarella": "part-skim mozzarella cheese",
+        "monterey jack cheese": "jack cheese",
+        "pepper jack cheese": "jack cheese",
+        "colby jack cheese": "jack cheese",
+        "crumbled blue cheese": "blue cheese crumbles",
+        # Pepper variants
+        "green pepper": "medium green pepper",
+        "large green pepper": "medium green pepper",
+        "small green pepper": "medium green pepper",
+        "diced green pepper": "medium green pepper",
+        # Avocado
+        "ripe avocado": "medium ripe avocado",
+        "large avocado": "medium ripe avocado",
+        "haas avocado": "medium ripe avocado",
+        "hass avocado": "medium ripe avocado",
+        # Zucchini
+        "small zucchini": "medium zucchini",
+        "large zucchini": "medium zucchini",
+        "diced zucchini": "zucchini",
+        "sliced zucchini": "zucchini",
+        # Broth variants
+        "low-sodium chicken broth": "reduced-sodium chicken broth",
+        "low sodium chicken broth": "reduced-sodium chicken broth",
+        "less sodium chicken broth": "reduced-sodium chicken broth",
+        "low-sodium beef broth": "reduced-sodium beef broth",
+        "low sodium beef broth": "reduced-sodium beef broth",
+        # Sauce variants
+        "hot sauce": "pepper sauce",
+        "hot pepper sauce": "pepper sauce",
+        "tabasco": "pepper sauce",
+        "franks hot sauce": "pepper sauce",
+        "louisiana hot sauce": "pepper sauce",
+        "sriracha": "pepper sauce",
+        "bbq sauce": "barbecue sauce",
+        "white sauce": "bechamel sauce",
+        # Section headers (to ignore)
+        "sauce:": "",
+        "filling:": "",
+        "topping:": "",
+        "dressing:": "",
+        "salad:": "",
+        "for the sauce:": "",
+        "for the filling:": "",
+        "for the topping:": "",
+        # Meat variants
+        "pork chops": "pork loin chops",
+        "boneless pork chops": "pork loin chops",
+        "thick-cut pork chops": "pork loin chops",
+        "ground turkey": "lean ground turkey",
+        "extra lean ground turkey": "lean ground turkey",
+        "flank steak": "beef steak",
+        "sirloin steak": "beef steak",
+        "strip steak": "beef steak",
+        "ribeye steak": "beef steak",
+        "tilapia": "white fish",
+        "halibut": "white fish",
+        "mahi mahi": "white fish",
+        "snapper": "white fish",
+        "sea bass": "white fish",
+        # Seasoning variants
+        "lemon pepper": "lemon-pepper seasoning",
+        "creole seasoning": "cajun seasoning",
+        "blackening seasoning": "cajun seasoning",
+        "dry mustard": "ground mustard",
+        "mustard powder": "ground mustard",
+        "sage": "rubbed sage",
+        "dried sage": "rubbed sage",
+        "ground sage": "rubbed sage",
+        # Garnishes (minimal calories)
+        "lemon wedges": "lemon",
+        "lime wedges": "lime",
+        "lime wedge": "lime",
+        "orange wedges": "oranges",
     }
 
     # Check for exact match first
@@ -4993,6 +5150,34 @@ def get_nutrition_for_ingredient(ingredient):
         elif unit == "bushel" and "cup" in db_entry:
             base = db_entry["cup"]
             return {k: v * quantity * 128 for k, v in base.items()}  # 1 bushel = 128 cups
+        # Batch 15: Weight to volume conversions for common baking items
+        elif unit == "lb" and "cup" in db_entry:
+            # Common conversions: flour ~4 cups/lb, sugar ~2.25 cups/lb, butter ~2 cups/lb
+            if "flour" in item:
+                base = db_entry["cup"]
+                return {k: v * quantity * 4 for k, v in base.items()}  # 1 lb flour ≈ 4 cups
+            elif "sugar" in item:
+                base = db_entry["cup"]
+                return {k: v * quantity * 2.25 for k, v in base.items()}  # 1 lb sugar ≈ 2.25 cups
+            else:
+                base = db_entry["cup"]
+                return {k: v * quantity * 2 for k, v in base.items()}  # Generic: 1 lb ≈ 2 cups
+        elif unit == "oz" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity / 8 for k, v in base.items()}  # 8 oz = 1 cup (volume)
+        elif unit == "oz" and "tbsp" in db_entry:
+            base = db_entry["tbsp"]
+            return {k: v * quantity * 2 for k, v in base.items()}  # 1 oz = 2 tbsp
+        elif unit == "tsp" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity / 48 for k, v in base.items()}  # 48 tsp = 1 cup
+        # Empty unit fallback - use first available unit as reasonable default
+        elif unit == "" and db_entry:
+            # Prefer common units in order
+            for preferred in ["tbsp", "tsp", "cup", "oz", "each", ""]:
+                if preferred in db_entry:
+                    base = db_entry[preferred]
+                    return {k: v * quantity for k, v in base.items()}
 
     # Try without unit for counted items
     if item in NUTRITION_DB and "" in NUTRITION_DB[item]:
