@@ -5432,16 +5432,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 490,
-          "fat_g": 32.5,
-          "carbs_g": 36.9,
-          "protein_g": 15.0,
-          "sodium_mg": 632,
+          "calories": 536,
+          "fat_g": 34.8,
+          "carbs_g": 37.5,
+          "protein_g": 19.7,
+          "sodium_mg": 942,
           "fiber_g": 1.5,
           "sugar_g": 6.5
         },
         "missing_inputs": [
-          "4 slices ham",
           "4 slices gruyere cheese"
         ],
         "assumptions": [
@@ -7622,17 +7621,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 204,
-          "fat_g": 17.5,
-          "carbs_g": 0.8,
-          "protein_g": 10.4,
-          "sodium_mg": 486,
+          "calories": 220,
+          "fat_g": 18.8,
+          "carbs_g": 1.1,
+          "protein_g": 11.2,
+          "sodium_mg": 555,
           "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "sugar_g": 0.3
         },
         "missing_inputs": [
-          "1 lb pizza dough",
-          "1/4 cup feta cheese"
+          "1 lb pizza dough"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -7716,19 +7714,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 453,
-          "fat_g": 32.5,
-          "carbs_g": 24.0,
-          "protein_g": 18.6,
-          "sodium_mg": 348,
-          "fiber_g": 0.0,
-          "sugar_g": 23.5
+          "calories": 544,
+          "fat_g": 33.6,
+          "carbs_g": 41.2,
+          "protein_g": 21.7,
+          "sodium_mg": 518,
+          "fiber_g": 0.7,
+          "sugar_g": 25.2
         },
-        "missing_inputs": [
-          "3 cups cubed bread"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
@@ -7954,13 +7950,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 624,
-          "fat_g": 32.4,
-          "carbs_g": 57.8,
-          "protein_g": 28.1,
-          "sodium_mg": 1328,
+          "calories": 700,
+          "fat_g": 34.0,
+          "carbs_g": 65.8,
+          "protein_g": 30.1,
+          "sodium_mg": 1412,
           "fiber_g": 5.4,
-          "sugar_g": 5.3
+          "sugar_g": 4.9
         },
         "missing_inputs": [
           "8 oz sausage"
@@ -8517,13 +8513,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 474,
-          "fat_g": 20.2,
-          "carbs_g": 54.5,
-          "protein_g": 20.9,
-          "sodium_mg": 1024,
+          "calories": 550,
+          "fat_g": 21.8,
+          "carbs_g": 62.5,
+          "protein_g": 22.9,
+          "sodium_mg": 1108,
           "fiber_g": 4.5,
-          "sugar_g": 3.7
+          "sugar_g": 3.3
         },
         "missing_inputs": [
           "6 oz chorizo"
@@ -8920,19 +8916,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 167,
-          "fat_g": 11.2,
-          "carbs_g": 10.4,
-          "protein_g": 8.1,
-          "sodium_mg": 122,
+          "calories": 259,
+          "fat_g": 15.9,
+          "carbs_g": 11.6,
+          "protein_g": 18.7,
+          "sodium_mg": 742,
           "fiber_g": 3.0,
           "sugar_g": 6.4
         },
         "missing_inputs": [
           "4  ciabatta rolls",
-          "8 slices ham",
           "4 slices swiss cheese"
         ],
         "assumptions": [
@@ -9234,13 +9229,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 276,
-          "fat_g": 13.3,
-          "carbs_g": 29.0,
-          "protein_g": 11.5,
-          "sodium_mg": 560,
+          "calories": 314,
+          "fat_g": 14.1,
+          "carbs_g": 33.0,
+          "protein_g": 12.5,
+          "sodium_mg": 602,
           "fiber_g": 2.7,
-          "sugar_g": 2.4
+          "sugar_g": 2.2
         },
         "missing_inputs": [
           "to saut\u00e9 olive oil"
@@ -11293,19 +11288,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 125,
-          "fat_g": 2.2,
-          "carbs_g": 23.2,
-          "protein_g": 4.9,
-          "sodium_mg": 189,
+          "calories": 217,
+          "fat_g": 7.0,
+          "carbs_g": 24.4,
+          "protein_g": 15.5,
+          "sodium_mg": 809,
           "fiber_g": 3.4,
           "sugar_g": 6.9
         },
-        "missing_inputs": [
-          "8  slices Canadian bacon"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12114,7 +12107,7 @@
           "calories": 320,
           "fat_g": 11.6,
           "carbs_g": 49.3,
-          "protein_g": 7.4,
+          "protein_g": 7.0,
           "sodium_mg": 281,
           "fiber_g": 3.2,
           "sugar_g": 25.3
@@ -12341,16 +12334,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 96,
-          "fat_g": 5.2,
-          "carbs_g": 12.3,
-          "protein_g": 1.3,
-          "sodium_mg": 44,
-          "fiber_g": 1.0,
-          "sugar_g": 10.4
+          "calories": 218,
+          "fat_g": 6.7,
+          "carbs_g": 35.3,
+          "protein_g": 5.5,
+          "sodium_mg": 271,
+          "fiber_g": 1.9,
+          "sugar_g": 12.7
         },
         "missing_inputs": [
-          "2  freshly baked croissant",
           "1/4 cup dark chocolate, grated"
         ],
         "assumptions": [
@@ -12427,16 +12419,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 684,
-          "fat_g": 16.2,
-          "carbs_g": 108.7,
-          "protein_g": 33.4,
-          "sodium_mg": 1708,
+          "calories": 776,
+          "fat_g": 21.1,
+          "carbs_g": 109.9,
+          "protein_g": 44.0,
+          "sodium_mg": 2328,
           "fiber_g": 5.2,
           "sugar_g": 6.2
         },
         "missing_inputs": [
-          "8 slices ham",
           "8 slices swiss cheese"
         ],
         "assumptions": [
@@ -25931,19 +25922,17 @@
       ],
       "source_note": "Recipe Keeper App",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 226,
-          "fat_g": 22.0,
-          "carbs_g": 0.7,
-          "protein_g": 7.2,
-          "sodium_mg": 228,
-          "fiber_g": 0.0,
-          "sugar_g": 0.5
+          "calories": 348,
+          "fat_g": 23.5,
+          "carbs_g": 23.7,
+          "protein_g": 11.4,
+          "sodium_mg": 455,
+          "fiber_g": 0.9,
+          "sugar_g": 2.8
         },
-        "missing_inputs": [
-          "6  English muffins"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -26526,16 +26515,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 434,
-          "fat_g": 30.0,
-          "carbs_g": 30.4,
-          "protein_g": 12.2,
-          "sodium_mg": 521,
+          "calories": 480,
+          "fat_g": 32.4,
+          "carbs_g": 31.0,
+          "protein_g": 16.9,
+          "sodium_mg": 831,
           "fiber_g": 1.2,
           "sugar_g": 3.4
         },
         "missing_inputs": [
-          "4 slices cooked ham",
           "4 slices Gruyere cheese"
         ],
         "assumptions": [
@@ -27986,10 +27974,10 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 327,
-          "fat_g": 26.8,
-          "carbs_g": 3.5,
-          "protein_g": 19.3,
+          "calories": 334,
+          "fat_g": 27.2,
+          "carbs_g": 3.7,
+          "protein_g": 20.1,
           "sodium_mg": 436,
           "fiber_g": 0.0,
           "sugar_g": 1.7
@@ -28916,17 +28904,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 204,
-          "fat_g": 17.5,
-          "carbs_g": 0.8,
-          "protein_g": 10.4,
-          "sodium_mg": 486,
+          "calories": 220,
+          "fat_g": 18.8,
+          "carbs_g": 1.1,
+          "protein_g": 11.2,
+          "sodium_mg": 555,
           "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "sugar_g": 0.3
         },
         "missing_inputs": [
-          "1 lb pizza dough",
-          "1/4 cup feta cheese"
+          "1 lb pizza dough"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -29043,13 +29030,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 277,
-          "fat_g": 14.2,
-          "carbs_g": 27.9,
-          "protein_g": 11.3,
-          "sodium_mg": 456,
+          "calories": 315,
+          "fat_g": 14.9,
+          "carbs_g": 31.9,
+          "protein_g": 12.3,
+          "sodium_mg": 498,
           "fiber_g": 2.3,
-          "sugar_g": 2.4
+          "sugar_g": 2.2
         },
         "missing_inputs": [
           "1 package hot breakfast sausage"
@@ -29147,19 +29134,17 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 226,
-          "fat_g": 16.2,
-          "carbs_g": 12.0,
-          "protein_g": 9.3,
-          "sodium_mg": 174,
-          "fiber_g": 0.0,
-          "sugar_g": 11.8
+          "calories": 272,
+          "fat_g": 16.8,
+          "carbs_g": 20.6,
+          "protein_g": 10.9,
+          "sodium_mg": 259,
+          "fiber_g": 0.3,
+          "sugar_g": 12.6
         },
-        "missing_inputs": [
-          "3 cups cubed bread"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -29393,13 +29378,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 312,
-          "fat_g": 16.2,
-          "carbs_g": 28.9,
-          "protein_g": 14.1,
-          "sodium_mg": 664,
+          "calories": 350,
+          "fat_g": 17.0,
+          "carbs_g": 32.9,
+          "protein_g": 15.1,
+          "sodium_mg": 706,
           "fiber_g": 2.7,
-          "sugar_g": 2.6
+          "sugar_g": 2.5
         },
         "missing_inputs": [
           "8 oz sausage"
@@ -29988,13 +29973,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 237,
-          "fat_g": 10.1,
-          "carbs_g": 27.2,
-          "protein_g": 10.4,
-          "sodium_mg": 512,
+          "calories": 275,
+          "fat_g": 10.9,
+          "carbs_g": 31.2,
+          "protein_g": 11.4,
+          "sodium_mg": 554,
           "fiber_g": 2.3,
-          "sugar_g": 1.8
+          "sugar_g": 1.6
         },
         "missing_inputs": [
           "6 oz chorizo"
@@ -33097,19 +33082,17 @@
       ],
       "source_note": "Reference cookbook - Book Four: Other Recipes",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 125,
-          "fat_g": 2.2,
-          "carbs_g": 23.2,
-          "protein_g": 4.9,
-          "sodium_mg": 189,
+          "calories": 217,
+          "fat_g": 7.0,
+          "carbs_g": 24.4,
+          "protein_g": 15.5,
+          "sodium_mg": 809,
           "fiber_g": 3.4,
           "sugar_g": 6.9
         },
-        "missing_inputs": [
-          "8 slices Canadian bacon"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -34111,7 +34094,7 @@
           "calories": 320,
           "fat_g": 11.6,
           "carbs_g": 49.3,
-          "protein_g": 7.4,
+          "protein_g": 7.0,
           "sodium_mg": 281,
           "fiber_g": 3.2,
           "sugar_g": 25.3
@@ -34406,16 +34389,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 96,
-          "fat_g": 5.2,
-          "carbs_g": 12.3,
-          "protein_g": 1.3,
-          "sodium_mg": 44,
-          "fiber_g": 1.0,
-          "sugar_g": 10.4
+          "calories": 218,
+          "fat_g": 6.7,
+          "carbs_g": 35.3,
+          "protein_g": 5.5,
+          "sodium_mg": 271,
+          "fiber_g": 1.9,
+          "sugar_g": 12.7
         },
         "missing_inputs": [
-          "2  freshly baked croissants",
           "1/4 cup dark chocolate"
         ],
         "assumptions": [
@@ -34505,16 +34487,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 684,
-          "fat_g": 16.2,
-          "carbs_g": 108.7,
-          "protein_g": 33.4,
-          "sodium_mg": 1708,
+          "calories": 776,
+          "fat_g": 21.1,
+          "carbs_g": 109.9,
+          "protein_g": 44.0,
+          "sodium_mg": 2328,
           "fiber_g": 5.2,
           "sugar_g": 6.2
         },
         "missing_inputs": [
-          "8 slices ham",
           "8 slices swiss cheese"
         ],
         "assumptions": [
@@ -45428,19 +45409,17 @@
         "processed/img_6002_medium.jpeg"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 77,
+          "calories": 79,
           "fat_g": 4.9,
-          "carbs_g": 5.4,
+          "carbs_g": 5.6,
           "protein_g": 2.7,
-          "sodium_mg": 198,
-          "fiber_g": 0.1,
-          "sugar_g": 0.8
+          "sodium_mg": 217,
+          "fiber_g": 0.2,
+          "sugar_g": 0.9
         },
-        "missing_inputs": [
-          "1 1/2 cups green chiles"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 57 servings"
         ]
@@ -45539,17 +45518,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 358,
-          "fat_g": 20.8,
-          "carbs_g": 30.7,
-          "protein_g": 14.2,
-          "sodium_mg": 820,
-          "fiber_g": 3.0,
-          "sugar_g": 3.9
+          "calories": 398,
+          "fat_g": 21.6,
+          "carbs_g": 35.2,
+          "protein_g": 15.4,
+          "sodium_mg": 908,
+          "fiber_g": 3.2,
+          "sugar_g": 4.0
         },
         "missing_inputs": [
-          "1/4 cup chili powder",
-          "1/4 cup green chilies"
+          "1/4 cup chili powder"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -45855,7 +45833,7 @@
           "calories": 771,
           "fat_g": 46.7,
           "carbs_g": 52.4,
-          "protein_g": 36.7,
+          "protein_g": 35.8,
           "sodium_mg": 1156,
           "fiber_g": 1.8,
           "sugar_g": 11.2
@@ -45947,19 +45925,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 92,
-          "fat_g": 2.2,
-          "carbs_g": 13.7,
-          "protein_g": 4.3,
-          "sodium_mg": 262,
-          "fiber_g": 0.7,
-          "sugar_g": 3.6
+          "calories": 116,
+          "fat_g": 2.5,
+          "carbs_g": 18.3,
+          "protein_g": 5.1,
+          "sodium_mg": 308,
+          "fiber_g": 0.9,
+          "sugar_g": 4.0
         },
-        "missing_inputs": [
-          "1 cup sourdough starter"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 5 servings"
         ]

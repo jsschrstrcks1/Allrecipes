@@ -208,16 +208,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 274,
-          "fat_g": 17.3,
-          "carbs_g": 12.8,
-          "protein_g": 18.4,
+          "calories": 295,
+          "fat_g": 17.4,
+          "carbs_g": 18.0,
+          "protein_g": 18.8,
           "sodium_mg": 226,
-          "fiber_g": 4.7,
-          "sugar_g": 5.3
+          "fiber_g": 5.3,
+          "sugar_g": 9.5
         },
         "missing_inputs": [
-          "1  large pink or red grapefruit",
           "1 bunch watercress, trimmed"
         ],
         "assumptions": [
@@ -6176,13 +6175,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 258,
+          "calories": 268,
           "fat_g": 7.0,
-          "carbs_g": 32.8,
-          "protein_g": 16.0,
-          "sodium_mg": 449,
-          "fiber_g": 9.5,
-          "sugar_g": 2.3
+          "carbs_g": 35.0,
+          "protein_g": 16.8,
+          "sodium_mg": 150,
+          "fiber_g": 12.5,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
           "2  tblsp. pickle relish or 1-large pickle"
@@ -14426,19 +14425,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 76,
+          "calories": 77,
           "fat_g": 6.9,
-          "carbs_g": 3.4,
+          "carbs_g": 3.7,
           "protein_g": 0.7,
-          "sodium_mg": 76,
-          "fiber_g": 1.1,
-          "sugar_g": 1.8
+          "sodium_mg": 99,
+          "fiber_g": 1.2,
+          "sugar_g": 1.9
         },
-        "missing_inputs": [
-          "4  green chiles, roasted, peeled and sliced"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -14503,14 +14500,13 @@
         "per_serving": {
           "calories": 4,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.2,
           "protein_g": 1.0,
-          "sodium_mg": 2,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sodium_mg": 18,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2  green chiles, chopped",
           "1 can (8 oz) tomato and green chile sauce"
         ],
         "assumptions": [
@@ -14591,17 +14587,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 125,
+          "calories": 126,
           "fat_g": 13.4,
-          "carbs_g": 0.7,
+          "carbs_g": 0.9,
           "protein_g": 0.8,
-          "sodium_mg": 106,
-          "fiber_g": 0.1,
-          "sugar_g": 0.3
+          "sodium_mg": 126,
+          "fiber_g": 0.2,
+          "sugar_g": 0.4
         },
         "missing_inputs": [
-          "1 carton lemon (8 oz) sour cream",
-          "1/3 cup green chiles, chopped"
+          "1 carton lemon (8 oz) sour cream"
         ],
         "assumptions": [
           "Calculated for 12 servings"
