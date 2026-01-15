@@ -538,6 +538,10 @@ NUTRITION_DB = {
     "ginger": {"tsp": {"cal": 6, "fat": 0, "carbs": 1.3, "protein": 0.2, "sodium": 1, "fiber": 0.2, "sugar": 0},
               "tbsp": {"cal": 18, "fat": 0, "carbs": 4, "protein": 0.5, "sodium": 3, "fiber": 0.6, "sugar": 0.5}},
     "allspice": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 1.4, "protein": 0.1, "sodium": 1, "fiber": 0.4, "sugar": 0}},
+    "star anise": {"": {"cal": 7, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0.3, "sugar": 0},
+                  "tsp": {"cal": 7, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0.3, "sugar": 0}},
+    "sichuan peppercorns": {"tsp": {"cal": 6, "fat": 0.2, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0.3, "sugar": 0}},
+    "long pepper": {"tsp": {"cal": 6, "fat": 0.2, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0.3, "sugar": 0}},
     "cloves": {"tsp": {"cal": 7, "fat": 0.4, "carbs": 1.3, "protein": 0.1, "sodium": 5, "fiber": 0.7, "sugar": 0}},
     "mustard": {"tsp": {"cal": 3, "fat": 0.2, "carbs": 0.3, "protein": 0.2, "sodium": 57, "fiber": 0.1, "sugar": 0.1},
                "tbsp": {"cal": 10, "fat": 0.7, "carbs": 0.8, "protein": 0.7, "sodium": 171, "fiber": 0.4, "sugar": 0.3}},
@@ -858,6 +862,8 @@ NUTRITION_DB = {
     "veal": {"lb": {"cal": 800, "fat": 32, "carbs": 0, "protein": 120, "sodium": 340, "fiber": 0, "sugar": 0}},
     "duck": {"lb": {"cal": 1300, "fat": 100, "carbs": 0, "protein": 88, "sodium": 280, "fiber": 0, "sugar": 0}},
     "liver": {"lb": {"cal": 600, "fat": 16, "carbs": 16, "protein": 92, "sodium": 300, "fiber": 0, "sugar": 0}},
+    "sweetbreads": {"lb": {"cal": 680, "fat": 32, "carbs": 0, "protein": 92, "sodium": 400, "fiber": 0, "sugar": 0},
+                   "": {"cal": 170, "fat": 8, "carbs": 0, "protein": 23, "sodium": 100, "fiber": 0, "sugar": 0}},
     "chicken liver": {"lb": {"cal": 600, "fat": 16, "carbs": 3, "protein": 84, "sodium": 320, "fiber": 0, "sugar": 0}},
     "hot dog": {"each": {"cal": 151, "fat": 13, "carbs": 2, "protein": 5, "sodium": 567, "fiber": 0, "sugar": 1}},
     "hot dogs": {"each": {"cal": 151, "fat": 13, "carbs": 2, "protein": 5, "sodium": 567, "fiber": 0, "sugar": 1}},
@@ -2711,6 +2717,76 @@ def normalize_ingredient(item):
         "slice ginger": "fresh ginger",
         "inch slice ginger": "fresh ginger",
         "slices ginger": "fresh ginger",
+
+        # Batch 4 analysis - OCR space-corrupted patterns
+        "chick en": "chicken",
+        "chick en breast": "chicken breast",
+        "slice d": "sliced",
+        "slice d mushrooms": "mushrooms",
+        "pounded chick en breast": "chicken breast",
+
+        # Batch 4 - historical/archaic ingredient names
+        "yellow corn meal": "cornmeal",
+        "sour milk": "buttermilk",
+        "sweet milk or buttermilk": "buttermilk",
+        "sour milk or buttermilk": "buttermilk",
+        "naples biscuit": "ladyfinger",
+        "naples biscuits": "ladyfinger",
+        "fine loaf crumbs": "breadcrumbs",
+        "seville oranges": "orange",
+        "seville orange": "orange",
+        "orange water": "orange extract",
+        "rose water": "rose water",
+        "races of ginger": "ginger",
+        "saltpork": "salt pork",
+        "salt pork": "salt pork",
+        "beef tips": "beef stew meat",
+
+        # Batch 4 - spice variants
+        "sichuan peppercorns": "sichuan peppercorns",
+        "szechuan peppercorns": "sichuan peppercorns",
+        "regular peppercorns": "peppercorns",
+        "white pepper corns": "peppercorns",
+
+        # Batch 4 - cheese variants
+        "slices swiss cheese": "swiss cheese",
+        "swiss cheese slices": "swiss cheese",
+
+        # Batch 4 - cherry variants
+        "bing cherries": "cherries",
+        "no. 2½ can bing cherries": "cherries",
+        "cherry-flavored gelatin": "gelatin",
+
+        # Batch 4 - stuffed olives
+        "stuffed olives": "olives",
+        "bottle stuffed olives": "olives",
+
+        # Batch 4 - mixed herbs
+        "mixed fresh herbs": "fresh herbs",
+        "fresh herbs": "parsley",
+
+        # Batch 4 - brand names
+        "carnation": "evaporated milk",
+        "carnation milk": "evaporated milk",
+        "wesson oil": "vegetable oil",
+        "grandma's molasses": "molasses",
+
+        # Batch 4 - package/envelope normalization
+        "unflavored gelatin": "gelatin",
+        "envelopes unflavored gelatin": "gelatin",
+        "1-oz instant oatmeal packet": "instant oatmeal",
+        "instant oatmeal packet plain": "instant oatmeal",
+        "instant oatmeal packets plain": "instant oatmeal",
+
+        # Batch 4 - frozen vegetables
+        "frozen pepper stir-fry": "mixed vegetables",
+        "pepper stir-fry": "mixed vegetables",
+
+        # Batch 4 - baby food (negligible calories for marinades)
+        "baby juice": "apple juice",
+        "baby food peaches": "peaches",
+        "jars baby juice": "apple juice",
+        "jars baby food peaches": "peaches",
     }
 
     # Check for exact match first

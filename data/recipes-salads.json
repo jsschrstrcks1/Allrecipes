@@ -8466,17 +8466,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 3,
+          "calories": 6,
           "fat_g": 0.0,
           "carbs_g": 1.1,
-          "protein_g": 0.1,
-          "sodium_mg": 0,
+          "protein_g": 0.8,
+          "sodium_mg": 2,
           "fiber_g": 0.1,
           "sugar_g": 0.4
         },
         "missing_inputs": [
           "1  No. 2\u00bd can Bing cherries",
-          "1 pkg cherry-flavored gelatin",
           "3/4 cup broken pecan meats",
           "One 3-ounce bottle stuffed olives"
         ],
@@ -9279,19 +9278,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 832,
-          "fat_g": 69.1,
+          "calories": 919,
+          "fat_g": 72.8,
           "carbs_g": 39.4,
-          "protein_g": 15.1,
-          "sodium_mg": 1538,
+          "protein_g": 27.1,
+          "sodium_mg": 1576,
           "fiber_g": 4.4,
           "sugar_g": 4.6
         },
-        "missing_inputs": [
-          "1 1/2 cup cooked chick en"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -9399,18 +9396,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 321,
-          "fat_g": 31.7,
+          "calories": 407,
+          "fat_g": 35.5,
           "carbs_g": 4.8,
-          "protein_g": 5.8,
-          "sodium_mg": 628,
+          "protein_g": 17.8,
+          "sodium_mg": 666,
           "fiber_g": 2.5,
           "sugar_g": 1.5
         },
         "missing_inputs": [
-          "1 1/2 cup cooked chick en",
           "1/2 cup seedless white grapes",
           "1/2 tsp dries mustard"
         ],

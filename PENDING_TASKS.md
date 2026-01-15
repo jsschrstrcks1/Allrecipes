@@ -60,7 +60,7 @@ All recipes extracted from the Kindle muffin cookbook (reference collection) nee
 **Created:** 2026-01-15
 
 ### Description
-15 entries were identified as non-recipe content (advertisements, addresses, OCR artifacts from scanned pages) and have been flagged with `flagged_for_review: true`. These should be reviewed and either:
+20 entries were identified as non-recipe content (advertisements, addresses, OCR artifacts from scanned pages) and have been flagged with `flagged_for_review: true`. These should be reviewed and either:
 - Deleted entirely if they're truly not recipes
 - Unflagged and repaired if they contain valid recipe content that was misidentified
 
@@ -82,6 +82,11 @@ All recipes extracted from the Kindle muffin cookbook (reference collection) nee
 | general-offices-thenewengl | General Offices | Business listing |
 | perpound-elementsof | Perpound | OCR garbage/advertisement |
 | breads-dutchovenc | Breads | Corrupted multi-ingredient lines |
+| dhymeasure-wilsonscoo | Dhymeasure | OCR garbage/conversion table |
+| creamed-dishes-courseofle | Creamed Dishes | Recipe header with no ingredients |
+| doughnuts-theplainsa | Doughnuts | Mixed with kitchen equipment |
+| methods-ofpreparing-food-materials-carolineki | Methods Ofpreparing Food Materials | Conversion chart |
+| lesson-and-check-your-answers-again-basicfoodp | Lesson And Check Your Answers | Military manual reference |
 
 ### How to Review
 ```bash
