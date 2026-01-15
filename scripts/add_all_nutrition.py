@@ -880,7 +880,10 @@ NUTRITION_DB = {
                    "cup": {"cal": 414, "fat": 11, "carbs": 60, "protein": 27, "sodium": 4, "fiber": 15, "sugar": 0}},
 
     # Baking & chocolate
-    "chocolate": {"oz": {"cal": 155, "fat": 9, "carbs": 17, "protein": 1.4, "sodium": 7, "fiber": 2, "sugar": 14}},
+    "chocolate": {"oz": {"cal": 155, "fat": 9, "carbs": 17, "protein": 1.4, "sodium": 7, "fiber": 2, "sugar": 14},
+                  "cup": {"cal": 840, "fat": 48, "carbs": 92, "protein": 8, "sodium": 38, "fiber": 11, "sugar": 76},
+                  "tbsp": {"cal": 50, "fat": 3, "carbs": 6, "protein": 0.5, "sodium": 2, "fiber": 0.7, "sugar": 4.5},
+                  "": {"cal": 155, "fat": 9, "carbs": 17, "protein": 1.4, "sodium": 7, "fiber": 2, "sugar": 14}},
     "unsweetened cocoa": {"tbsp": {"cal": 12, "fat": 0.7, "carbs": 3, "protein": 1, "sodium": 1, "fiber": 2, "sugar": 0}},
     "vanilla": {"tsp": {"cal": 12, "fat": 0, "carbs": 0.5, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0.5}},
     "lemon extract": {"tsp": {"cal": 10, "fat": 0, "carbs": 0.3, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0.3}},
@@ -7123,6 +7126,7 @@ def normalize_ingredient(item):
         "cup chocolate hazelnut spread": "chocolate",
         "chopped chilis": "chili peppers",
         "tbsp chopped chilis": "chili peppers",
+        "chilis": "chili peppers",
         "frozen shredded hash browns": "potatoes",
         "cups frozen shredded hash browns": "potatoes",
         "small bit of cinnamon": "cinnamon",
