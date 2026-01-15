@@ -252,15 +252,25 @@
         "flags": []
       },
       "nutrition": {
-        "status": "complete",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 7,
-          "fat_g": 0.3,
-          "carbs_g": 1.2,
-          "protein_g": 0.3,
-          "sodium_mg": 2,
-          "fiber_g": 0.7
-        }
+          "calories": 44,
+          "fat_g": 1.8,
+          "carbs_g": 7.7,
+          "protein_g": 0.5,
+          "sodium_mg": 0,
+          "fiber_g": 3.8,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1/2 cup ground black pepper",
+          "1/2 cup ground cumin",
+          "1/4 cup ground coriander",
+          "1/4 cup ground cloves"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {

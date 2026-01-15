@@ -249,13 +249,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 477,
-          "fat_g": 18.0,
-          "carbs_g": 79.1,
-          "protein_g": 8.8,
-          "sodium_mg": 32,
-          "fiber_g": 4.8,
-          "sugar_g": 63.3
+          "calories": 441,
+          "fat_g": 17.8,
+          "carbs_g": 69.1,
+          "protein_g": 8.2,
+          "sodium_mg": 31,
+          "fiber_g": 3.7,
+          "sugar_g": 55.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1127,13 +1127,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 261,
-          "fat_g": 1.1,
-          "carbs_g": 64.0,
-          "protein_g": 4.8,
-          "sodium_mg": 334,
-          "fiber_g": 18.4,
-          "sugar_g": 38.0
+          "calories": 423,
+          "fat_g": 2.3,
+          "carbs_g": 100.0,
+          "protein_g": 8.4,
+          "sodium_mg": 610,
+          "fiber_g": 28.0,
+          "sugar_g": 56.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1396,13 +1396,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 166,
-          "fat_g": 0.9,
-          "carbs_g": 40.7,
-          "protein_g": 4.2,
-          "sodium_mg": 157,
-          "fiber_g": 8.2,
-          "sugar_g": 28.2
+          "calories": 148,
+          "fat_g": 0.8,
+          "carbs_g": 35.7,
+          "protein_g": 3.9,
+          "sodium_mg": 156,
+          "fiber_g": 7.6,
+          "sugar_g": 24.1
         },
         "missing_inputs": [
           "1 small red bell pepper"
@@ -1561,10 +1561,10 @@
           "calories": 149,
           "fat_g": 0.6,
           "carbs_g": 37.0,
-          "protein_g": 3.7,
+          "protein_g": 3.2,
           "sodium_mg": 33,
-          "fiber_g": 8.5,
-          "sugar_g": 23.0
+          "fiber_g": 9.3,
+          "sugar_g": 22.5
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1828,13 +1828,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 477,
-          "fat_g": 18.0,
-          "carbs_g": 79.1,
-          "protein_g": 8.8,
-          "sodium_mg": 32,
-          "fiber_g": 4.8,
-          "sugar_g": 63.3
+          "calories": 441,
+          "fat_g": 17.8,
+          "carbs_g": 69.1,
+          "protein_g": 8.2,
+          "sodium_mg": 31,
+          "fiber_g": 3.7,
+          "sugar_g": 55.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -2129,10 +2129,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 372
+          "calories": 72,
+          "fat_g": 0.1,
+          "carbs_g": 12.9,
+          "protein_g": 0.2,
+          "sodium_mg": 586,
+          "fiber_g": 0.2,
+          "sugar_g": 12.2
         },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -2224,12 +2232,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 263
+          "calories": 29,
+          "fat_g": 0.1,
+          "carbs_g": 4.5,
+          "protein_g": 0.2,
+          "sodium_mg": 25,
+          "fiber_g": 0.3,
+          "sugar_g": 4.3
         },
-        "missing_inputs": [],
-        "assumptions": []
+        "missing_inputs": [
+          "1 cup Aperol"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -2321,12 +2339,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 119
+          "calories": 24,
+          "fat_g": 0.1,
+          "carbs_g": 5.4,
+          "protein_g": 0.3,
+          "sodium_mg": 291,
+          "fiber_g": 0.4,
+          "sugar_g": 4.2
         },
-        "missing_inputs": [],
-        "assumptions": []
+        "missing_inputs": [
+          "1/3 cup, plus 1 tablespoon  tequila",
+          "1/2 cup, plus 2 tablespoons  lime juice, plus 1 tablespoon lime zest"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -2432,10 +2461,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 391
+          "calories": 407,
+          "fat_g": 0.2,
+          "carbs_g": 84.5,
+          "protein_g": 1.1,
+          "sodium_mg": 2530,
+          "fiber_g": 2.5,
+          "sugar_g": 76.2
         },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -2547,10 +2584,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 820
+          "calories": 323,
+          "fat_g": 1.3,
+          "carbs_g": 64.9,
+          "protein_g": 1.5,
+          "sodium_mg": 2417,
+          "fiber_g": 4.0,
+          "sugar_g": 57.9
         },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -2652,14 +2697,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 58,
-          "fat_g": 0,
-          "carbohydrates_g": 10,
-          "fiber_g": 0,
-          "protein_g": 0
+          "calories": 18,
+          "fat_g": 0.0,
+          "carbs_g": 2.6,
+          "protein_g": 0.1,
+          "sodium_mg": 24,
+          "fiber_g": 0.2,
+          "sugar_g": 2.0
         },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
       }
     },
     {
@@ -2742,7 +2791,7 @@
         "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
-          "Default serving size assumed (4)"
+          "Serving size inferred from beverages category"
         ]
       }
     },
@@ -2816,19 +2865,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 79,
-          "fat_g": 2.5,
-          "carbs_g": 10.8,
-          "protein_g": 3.0,
-          "sodium_mg": 137,
+          "calories": 128,
+          "fat_g": 5.2,
+          "carbs_g": 14.8,
+          "protein_g": 5.7,
+          "sodium_mg": 172,
           "fiber_g": 0.0,
-          "sugar_g": 7.9
+          "sugar_g": 11.9
         },
-        "missing_inputs": [
-          "2 cup scalded milk"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -3363,16 +3410,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 580,
-          "fat_g": 0.0,
-          "carbs_g": 150.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2,
-          "fiber_g": 0.0,
-          "sugar_g": 150.0
+          "calories": 642,
+          "fat_g": 0.2,
+          "carbs_g": 166.5,
+          "protein_g": 0.8,
+          "sodium_mg": 3,
+          "fiber_g": 1.5,
+          "sugar_g": 162.0
         },
         "missing_inputs": [
-          "2 cans crushed pineapple",
           "1 jar maraschino cherries"
         ],
         "assumptions": [
@@ -3461,13 +3507,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 806,
-          "fat_g": 61.2,
-          "carbs_g": 13.1,
-          "protein_g": 44.7,
-          "sodium_mg": 2264,
-          "fiber_g": 1.0,
-          "sugar_g": 6.0
+          "calories": 760,
+          "fat_g": 54.2,
+          "carbs_g": 10.1,
+          "protein_g": 52.2,
+          "sodium_mg": 1968,
+          "fiber_g": 0.4,
+          "sugar_g": 5.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -3665,13 +3711,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 342,
-          "fat_g": 21.3,
+          "calories": 341,
+          "fat_g": 21.4,
           "carbs_g": 12.9,
           "protein_g": 24.8,
-          "sodium_mg": 933,
+          "sodium_mg": 974,
           "fiber_g": 1.9,
-          "sugar_g": 4.0
+          "sugar_g": 3.8
         },
         "missing_inputs": [],
         "assumptions": [
@@ -3974,10 +4020,10 @@
         "status": "complete",
         "per_serving": {
           "calories": 725,
-          "fat_g": 47.0,
+          "fat_g": 43.0,
           "carbs_g": 23.1,
-          "protein_g": 48.7,
-          "sodium_mg": 1776,
+          "protein_g": 56.7,
+          "sodium_mg": 1784,
           "fiber_g": 1.5,
           "sugar_g": 2.3
         },

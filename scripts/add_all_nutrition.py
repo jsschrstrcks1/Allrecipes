@@ -106,7 +106,8 @@ NUTRITION_DB = {
                   "tbsp": {"cal": 28, "fat": 2.8, "carbs": 0.5, "protein": 0.3, "sodium": 7, "fiber": 0, "sugar": 0.3}},
     "cream cheese": {"cup": {"cal": 793, "fat": 79, "carbs": 8, "protein": 14, "sodium": 691, "fiber": 0, "sugar": 6},
                     "oz": {"cal": 99, "fat": 10, "carbs": 1, "protein": 2, "sodium": 86, "fiber": 0, "sugar": 0.8},
-                    "tbsp": {"cal": 50, "fat": 5, "carbs": 0.5, "protein": 1, "sodium": 43, "fiber": 0, "sugar": 0.4}},
+                    "tbsp": {"cal": 50, "fat": 5, "carbs": 0.5, "protein": 1, "sodium": 43, "fiber": 0, "sugar": 0.4},
+                    "package": {"cal": 792, "fat": 80, "carbs": 8, "protein": 16, "sodium": 688, "fiber": 0, "sugar": 6}},  # 8 oz pkg
     "yogurt": {"cup": {"cal": 149, "fat": 8, "carbs": 11, "protein": 9, "sodium": 113, "fiber": 0, "sugar": 11}},
     "greek yogurt": {"cup": {"cal": 190, "fat": 10, "carbs": 8, "protein": 18, "sodium": 65, "fiber": 0, "sugar": 7}},
     "cottage cheese": {"cup": {"cal": 220, "fat": 10, "carbs": 8, "protein": 25, "sodium": 819, "fiber": 0, "sugar": 5}},
@@ -206,7 +207,8 @@ NUTRITION_DB = {
            "lb": {"cal": 620, "fat": 32, "carbs": 4, "protein": 80, "sodium": 5050, "fiber": 0, "sugar": 0}},
     "sausage": {"link": {"cal": 82, "fat": 7, "carbs": 0.5, "protein": 4, "sodium": 192, "fiber": 0, "sugar": 0},
                "lb": {"cal": 1148, "fat": 100, "carbs": 4, "protein": 56, "sodium": 2840, "fiber": 0, "sugar": 0}},
-    "italian sausage": {"link": {"cal": 125, "fat": 10, "carbs": 1, "protein": 8, "sodium": 380, "fiber": 0, "sugar": 0}},
+    "italian sausage": {"link": {"cal": 125, "fat": 10, "carbs": 1, "protein": 8, "sodium": 380, "fiber": 0, "sugar": 0},
+                       "lb": {"cal": 1040, "fat": 80, "carbs": 4, "protein": 64, "sodium": 3040, "fiber": 0, "sugar": 0}},
     "ground pork": {"lb": {"cal": 1200, "fat": 92, "carbs": 0, "protein": 80, "sodium": 280, "fiber": 0, "sugar": 0}},
 
     # =========================================================================
@@ -782,7 +784,8 @@ NUTRITION_DB = {
                  "cup": {"cal": 32, "fat": 0.4, "carbs": 7, "protein": 1.6, "sodium": 9, "fiber": 2, "sugar": 5}},
     "potatoes": {"lb": {"cal": 350, "fat": 0.4, "carbs": 80, "protein": 9, "sodium": 28, "fiber": 9, "sugar": 4}},
     "rhubarb": {"cup": {"cal": 26, "fat": 0.2, "carbs": 6, "protein": 1.1, "sodium": 5, "fiber": 2, "sugar": 1.3}},
-    "pumpkin": {"cup": {"cal": 83, "fat": 0.3, "carbs": 20, "protein": 3, "sodium": 12, "fiber": 3, "sugar": 8}},
+    "pumpkin": {"cup": {"cal": 83, "fat": 0.3, "carbs": 20, "protein": 3, "sodium": 12, "fiber": 3, "sugar": 8},
+                "can": {"cal": 145, "fat": 0.5, "carbs": 35, "protein": 5, "sodium": 21, "fiber": 5, "sugar": 14}},  # 15 oz can
     "okra": {"cup": {"cal": 33, "fat": 0.2, "carbs": 7, "protein": 2, "sodium": 7, "fiber": 3, "sugar": 1}},
     "sauerkraut": {"cup": {"cal": 27, "fat": 0.2, "carbs": 6, "protein": 1.3, "sodium": 939, "fiber": 4, "sugar": 3}},
     "green chilies": {"can": {"cal": 30, "fat": 0, "carbs": 6, "protein": 1, "sodium": 550, "fiber": 2, "sugar": 3}},
@@ -790,6 +793,8 @@ NUTRITION_DB = {
     "frozen mixed vegetables": {"cup": {"cal": 82, "fat": 0.5, "carbs": 16, "protein": 4, "sodium": 64, "fiber": 5, "sugar": 4}},
     "mixed vegetables": {"cup": {"cal": 82, "fat": 0.5, "carbs": 16, "protein": 4, "sodium": 64, "fiber": 5, "sugar": 4}},
     "beans": {"cup": {"cal": 225, "fat": 1, "carbs": 40, "protein": 15, "sodium": 400, "fiber": 12, "sugar": 1}},
+    "cassava": {"lb": {"cal": 544, "fat": 1, "carbs": 136, "protein": 5, "sodium": 51, "fiber": 6, "sugar": 6}},
+    "caviar": {"tbsp": {"cal": 40, "fat": 3, "carbs": 1, "protein": 4, "sodium": 240, "fiber": 0, "sugar": 0}},
 
     # Fruits
     "calamondin": {"": {"cal": 12, "fat": 0.1, "carbs": 3, "protein": 0.2, "sodium": 1, "fiber": 0.5, "sugar": 1.5}},
@@ -910,7 +915,8 @@ NUTRITION_DB = {
     "hot dog": {"each": {"cal": 151, "fat": 13, "carbs": 2, "protein": 5, "sodium": 567, "fiber": 0, "sugar": 1}},
     "hot dogs": {"each": {"cal": 151, "fat": 13, "carbs": 2, "protein": 5, "sodium": 567, "fiber": 0, "sugar": 1}},
     "frankfurter": {"each": {"cal": 151, "fat": 13, "carbs": 2, "protein": 5, "sodium": 567, "fiber": 0, "sugar": 1}},
-    "pepperoni": {"oz": {"cal": 138, "fat": 12, "carbs": 0.9, "protein": 6, "sodium": 463, "fiber": 0, "sugar": 0}},
+    "pepperoni": {"oz": {"cal": 138, "fat": 12, "carbs": 0.9, "protein": 6, "sodium": 463, "fiber": 0, "sugar": 0},
+                  "package": {"cal": 690, "fat": 60, "carbs": 5, "protein": 30, "sodium": 2315, "fiber": 0, "sugar": 0}},  # 5 oz pkg
     "salami": {"oz": {"cal": 119, "fat": 10, "carbs": 0.5, "protein": 6, "sodium": 529, "fiber": 0, "sugar": 0}},
     "prosciutto": {"oz": {"cal": 55, "fat": 3, "carbs": 0.3, "protein": 7, "sodium": 520, "fiber": 0, "sugar": 0}},
     "corned beef": {"lb": {"cal": 800, "fat": 48, "carbs": 2, "protein": 88, "sodium": 3200, "fiber": 0, "sugar": 0}},
@@ -1119,7 +1125,8 @@ NUTRITION_DB = {
     # Condiments & sauces
     "catsup": {"tbsp": {"cal": 17, "fat": 0, "carbs": 4.5, "protein": 0.2, "sodium": 154, "fiber": 0, "sugar": 3.5}},
     "ketchup": {"tbsp": {"cal": 17, "fat": 0, "carbs": 4.5, "protein": 0.2, "sodium": 154, "fiber": 0, "sugar": 3.5}},
-    "dijon mustard": {"tbsp": {"cal": 15, "fat": 1, "carbs": 1, "protein": 1, "sodium": 360, "fiber": 0.5, "sugar": 0}},
+    "dijon mustard": {"tbsp": {"cal": 15, "fat": 1, "carbs": 1, "protein": 1, "sodium": 360, "fiber": 0.5, "sugar": 0},
+                     "cup": {"cal": 240, "fat": 16, "carbs": 16, "protein": 16, "sodium": 5760, "fiber": 8, "sugar": 0}},
     "prepared mustard": {"tbsp": {"cal": 10, "fat": 0.6, "carbs": 0.8, "protein": 0.6, "sodium": 168, "fiber": 0.4, "sugar": 0.3}},
     "yellow mustard": {"tbsp": {"cal": 10, "fat": 0.6, "carbs": 0.8, "protein": 0.6, "sodium": 168, "fiber": 0.4, "sugar": 0.3}},
     "stone ground mustard": {"tbsp": {"cal": 15, "fat": 1, "carbs": 1, "protein": 1, "sodium": 200, "fiber": 0.5, "sugar": 0}},
@@ -1226,7 +1233,8 @@ NUTRITION_DB = {
     "fat": {"tbsp": {"cal": 115, "fat": 13, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
     "salt pork": {"oz": {"cal": 212, "fat": 23, "carbs": 0, "protein": 1.4, "sodium": 404, "fiber": 0, "sugar": 0}},
     "fatback": {"oz": {"cal": 212, "fat": 23, "carbs": 0, "protein": 1.4, "sodium": 404, "fiber": 0, "sugar": 0}},
-    "suet": {"oz": {"cal": 242, "fat": 27, "carbs": 0, "protein": 0.4, "sodium": 2, "fiber": 0, "sugar": 0}},
+    "suet": {"oz": {"cal": 242, "fat": 27, "carbs": 0, "protein": 0.4, "sodium": 2, "fiber": 0, "sugar": 0},
+            "cup": {"cal": 1936, "fat": 216, "carbs": 0, "protein": 3, "sodium": 16, "fiber": 0, "sugar": 0}},
 
     # Meats
     "chicken wings": {"lb": {"cal": 960, "fat": 68, "carbs": 0, "protein": 80, "sodium": 360, "fiber": 0, "sugar": 0}},
@@ -1327,7 +1335,8 @@ NUTRITION_DB = {
     "white sauce": {"cup": {"cal": 368, "fat": 27, "carbs": 23, "protein": 10, "sodium": 797, "fiber": 0.5, "sugar": 12}},
     "cream sauce": {"cup": {"cal": 368, "fat": 27, "carbs": 23, "protein": 10, "sodium": 797, "fiber": 0.5, "sugar": 12}},
     "cheese sauce": {"cup": {"cal": 470, "fat": 36, "carbs": 14, "protein": 24, "sodium": 1360, "fiber": 0.5, "sugar": 6}},
-    "mushroom soup": {"cup": {"cal": 129, "fat": 9, "carbs": 9, "protein": 2.3, "sodium": 871, "fiber": 0.5, "sugar": 1.6}},
+    "mushroom soup": {"cup": {"cal": 129, "fat": 9, "carbs": 9, "protein": 2.3, "sodium": 871, "fiber": 0.5, "sugar": 1.6},
+                      "can": {"cal": 168, "fat": 12, "carbs": 12, "protein": 3, "sodium": 1132, "fiber": 0.7, "sugar": 2}},  # 10.75 oz can
 
     # Breads & doughs
     "whole ciabatta": {"each": {"cal": 600, "fat": 4, "carbs": 120, "protein": 20, "sodium": 1200, "fiber": 4, "sugar": 4}},
@@ -1522,7 +1531,8 @@ NUTRITION_DB = {
     "cocoanut": {"cup": {"cal": 283, "fat": 27, "carbs": 12, "protein": 3, "sodium": 16, "fiber": 7, "sugar": 5}},
 
     # Spreads & condiments
-    "apple butter": {"tbsp": {"cal": 29, "fat": 0.1, "carbs": 7, "protein": 0.1, "sodium": 1, "fiber": 0.3, "sugar": 6}},
+    "apple butter": {"tbsp": {"cal": 29, "fat": 0.1, "carbs": 7, "protein": 0.1, "sodium": 1, "fiber": 0.3, "sugar": 6},
+                    "cup": {"cal": 464, "fat": 1.6, "carbs": 112, "protein": 1.6, "sodium": 16, "fiber": 5, "sugar": 96}},
     "spicy salsa": {"cup": {"cal": 70, "fat": 0.4, "carbs": 14, "protein": 3, "sodium": 1400, "fiber": 4, "sugar": 8}},
 
     # Seeds & spices
@@ -2032,7 +2042,133 @@ NUTRITION_DB = {
              "can": {"cal": 358, "fat": 1.4, "carbs": 64, "protein": 24, "sodium": 880, "fiber": 24, "sugar": 1}},
     "broccoli": {"cup": {"cal": 31, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 30, "fiber": 2.4, "sugar": 1.5},
                 "lb": {"cal": 154, "fat": 1.7, "carbs": 30, "protein": 13, "sodium": 150, "fiber": 12, "sugar": 7.5},
-                "oz": {"cal": 10, "fat": 0.1, "carbs": 2, "protein": 0.8, "sodium": 10, "fiber": 0.8, "sugar": 0.5}},
+                "oz": {"cal": 10, "fat": 0.1, "carbs": 2, "protein": 0.8, "sodium": 10, "fiber": 0.8, "sugar": 0.5},
+                "head": {"cal": 207, "fat": 2.3, "carbs": 40, "protein": 17, "sodium": 201, "fiber": 16, "sugar": 10}},
+
+    # BATCH 18: More missing ingredients for complete coverage
+    # Sauces
+    "alfredo sauce": {"cup": {"cal": 460, "fat": 38, "carbs": 12, "protein": 12, "sodium": 1100, "fiber": 0, "sugar": 4},
+                     "tbsp": {"cal": 29, "fat": 2.4, "carbs": 0.8, "protein": 0.8, "sodium": 69, "fiber": 0, "sugar": 0.3}},
+    "nacho cheese sauce": {"cup": {"cal": 440, "fat": 32, "carbs": 24, "protein": 16, "sodium": 1600, "fiber": 0, "sugar": 4},
+                          "tbsp": {"cal": 28, "fat": 2, "carbs": 1.5, "protein": 1, "sodium": 100, "fiber": 0, "sugar": 0.3}},
+    "steak sauce": {"tbsp": {"cal": 15, "fat": 0, "carbs": 4, "protein": 0, "sodium": 280, "fiber": 0, "sugar": 3}},
+    "korean barbecue sauce": {"tbsp": {"cal": 40, "fat": 0, "carbs": 10, "protein": 0, "sodium": 400, "fiber": 0, "sugar": 8}},
+    "gochujang chili paste": {"tbsp": {"cal": 40, "fat": 1, "carbs": 8, "protein": 1, "sodium": 500, "fiber": 0.5, "sugar": 5},
+                             "tsp": {"cal": 13, "fat": 0.3, "carbs": 2.7, "protein": 0.3, "sodium": 167, "fiber": 0.2, "sugar": 1.7}},
+    "chili crisp oil": {"tbsp": {"cal": 110, "fat": 11, "carbs": 2, "protein": 0, "sodium": 85, "fiber": 0.5, "sugar": 0.5}},
+    "grenadine syrup": {"tbsp": {"cal": 53, "fat": 0, "carbs": 13, "protein": 0, "sodium": 5, "fiber": 0, "sugar": 13}},
+    # Milk alternatives
+    "almond milk": {"cup": {"cal": 30, "fat": 2.5, "carbs": 1, "protein": 1, "sodium": 170, "fiber": 0, "sugar": 0},
+                   "tbsp": {"cal": 2, "fat": 0.2, "carbs": 0.1, "protein": 0.1, "sodium": 11, "fiber": 0, "sugar": 0}},
+    "soy milk": {"cup": {"cal": 80, "fat": 4, "carbs": 4, "protein": 7, "sodium": 85, "fiber": 1, "sugar": 1}},
+    # Meat/protein
+    "fish fillet": {"oz": {"cal": 26, "fat": 0.3, "carbs": 0, "protein": 5.5, "sodium": 50, "fiber": 0, "sugar": 0},
+                   "each": {"cal": 130, "fat": 1.5, "carbs": 0, "protein": 27, "sodium": 250, "fiber": 0, "sugar": 0}},
+    "beef tenderloin": {"lb": {"cal": 816, "fat": 48, "carbs": 0, "protein": 88, "sodium": 240, "fiber": 0, "sugar": 0},
+                       "oz": {"cal": 51, "fat": 3, "carbs": 0, "protein": 5.5, "sodium": 15, "fiber": 0, "sugar": 0}},
+    "pork belly": {"lb": {"cal": 2400, "fat": 232, "carbs": 0, "protein": 56, "sodium": 160, "fiber": 0, "sugar": 0},
+                  "oz": {"cal": 150, "fat": 14.5, "carbs": 0, "protein": 3.5, "sodium": 10, "fiber": 0, "sugar": 0}},
+    "stewing chicken": {"lb": {"cal": 960, "fat": 64, "carbs": 0, "protein": 88, "sodium": 320, "fiber": 0, "sugar": 0}},
+    "chicken nuggets": {"oz": {"cal": 60, "fat": 3.5, "carbs": 4, "protein": 3, "sodium": 150, "fiber": 0, "sugar": 0},
+                       "each": {"cal": 45, "fat": 2.6, "carbs": 3, "protein": 2.3, "sodium": 113, "fiber": 0, "sugar": 0}},
+    "sashimi grade salmon": {"oz": {"cal": 52, "fat": 2.3, "carbs": 0, "protein": 7, "sodium": 15, "fiber": 0, "sugar": 0}},
+    "sashimi grade tuna": {"oz": {"cal": 31, "fat": 0.3, "carbs": 0, "protein": 7, "sodium": 13, "fiber": 0, "sugar": 0}},
+    "lump crabmeat": {"oz": {"cal": 24, "fat": 0.3, "carbs": 0, "protein": 5, "sodium": 100, "fiber": 0, "sugar": 0},
+                     "cup": {"cal": 134, "fat": 1.7, "carbs": 0, "protein": 28, "sodium": 560, "fiber": 0, "sugar": 0}},
+    # Vegetables/fruits
+    "tomatillos": {"cup": {"cal": 42, "fat": 1.3, "carbs": 8, "protein": 1.3, "sodium": 1, "fiber": 2.6, "sugar": 5},
+                  "each": {"cal": 11, "fat": 0.3, "carbs": 2, "protein": 0.3, "sodium": 0, "fiber": 0.7, "sugar": 1.3}},
+    "kiwifruit": {"each": {"cal": 42, "fat": 0.4, "carbs": 10, "protein": 0.8, "sodium": 2, "fiber": 2, "sugar": 6}},
+    "fava beans": {"cup": {"cal": 187, "fat": 0.7, "carbs": 33, "protein": 13, "sodium": 8, "fiber": 9, "sugar": 3}},
+    "english peas": {"cup": {"cal": 117, "fat": 0.6, "carbs": 21, "protein": 8, "sodium": 7, "fiber": 7, "sugar": 8}},
+    "fresh pineapple": {"cup": {"cal": 82, "fat": 0.2, "carbs": 22, "protein": 0.9, "sodium": 2, "fiber": 2.3, "sugar": 16}},
+    "papaya": {"cup": {"cal": 55, "fat": 0.2, "carbs": 14, "protein": 0.9, "sodium": 4, "fiber": 2.5, "sugar": 8}},
+    "mango": {"each": {"cal": 202, "fat": 1.3, "carbs": 50, "protein": 2.8, "sodium": 3, "fiber": 5, "sugar": 46},
+             "cup": {"cal": 99, "fat": 0.6, "carbs": 25, "protein": 1.4, "sodium": 2, "fiber": 2.6, "sugar": 23}},
+    "rhubarb": {"cup": {"cal": 26, "fat": 0.2, "carbs": 6, "protein": 1, "sodium": 5, "fiber": 2, "sugar": 1},
+               "pkg": {"cal": 52, "fat": 0.4, "carbs": 12, "protein": 2, "sodium": 10, "fiber": 4, "sugar": 2}},
+    "strawberry yogurt": {"cup": {"cal": 220, "fat": 3, "carbs": 42, "protein": 9, "sodium": 115, "fiber": 0, "sugar": 34}},
+    # Asian specialties
+    "glutinous rice": {"cup": {"cal": 340, "fat": 0.5, "carbs": 77, "protein": 6, "sodium": 3, "fiber": 2, "sugar": 0}},
+    "rice flour": {"cup": {"cal": 578, "fat": 2.2, "carbs": 127, "protein": 9, "sodium": 0, "fiber": 3.8, "sugar": 0}},
+    "glutinous rice flour": {"cup": {"cal": 528, "fat": 1, "carbs": 121, "protein": 5, "sodium": 3, "fiber": 2, "sugar": 0}},
+    "matcha": {"tsp": {"cal": 3, "fat": 0, "carbs": 0.5, "protein": 0.3, "sodium": 0, "fiber": 0.3, "sugar": 0}},
+    "ladyfinger cookies": {"each": {"cal": 30, "fat": 0.6, "carbs": 5.5, "protein": 0.7, "sodium": 10, "fiber": 0, "sugar": 3}},
+    "ras el hanout": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 1, "protein": 0.2, "sodium": 1, "fiber": 0.3, "sugar": 0}},
+    "saffron thread": {"pinch": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    # Alcohol/liqueurs
+    "mezcal": {"oz": {"cal": 64, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "blackberry liqueur": {"oz": {"cal": 103, "fat": 0, "carbs": 13, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 13}},
+    "banana liqueur": {"oz": {"cal": 92, "fat": 0, "carbs": 11, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 11}},
+    "claret": {"cup": {"cal": 200, "fat": 0, "carbs": 6, "protein": 0.2, "sodium": 12, "fiber": 0, "sugar": 1}},
+    # Specialty items
+    "xanthan gum": {"tsp": {"cal": 7, "fat": 0, "carbs": 7, "protein": 0, "sodium": 0, "fiber": 7, "sugar": 0}},
+    "nutritional yeast": {"tbsp": {"cal": 20, "fat": 0, "carbs": 2, "protein": 3, "sodium": 5, "fiber": 1, "sugar": 0}},
+    "meringue powder": {"tbsp": {"cal": 20, "fat": 0, "carbs": 5, "protein": 0.5, "sodium": 5, "fiber": 0, "sugar": 5}},
+    "soy flour": {"cup": {"cal": 366, "fat": 18, "carbs": 30, "protein": 47, "sodium": 13, "fiber": 8, "sugar": 8}},
+    "flax seed": {"tbsp": {"cal": 37, "fat": 3, "carbs": 2, "protein": 1.3, "sodium": 2, "fiber": 1.9, "sugar": 0}},
+    "raspberry vinegar": {"tbsp": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 1}},
+    "prepared wasabi": {"tsp": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.2, "sodium": 65, "fiber": 0.3, "sugar": 0.3}},
+    "steak seasoning": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.6, "protein": 0.1, "sodium": 350, "fiber": 0.2, "sugar": 0}},
+    "tvp granules": {"cup": {"cal": 222, "fat": 0.5, "carbs": 14, "protein": 35, "sodium": 3, "fiber": 12, "sugar": 6}},
+    "file powder": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.6, "protein": 0.1, "sodium": 0, "fiber": 0.3, "sugar": 0}},
+    # Expanded units for common items with mismatches
+    "streaky bacon": {"slice": {"cal": 43, "fat": 3.3, "carbs": 0.1, "protein": 3, "sodium": 137, "fiber": 0, "sugar": 0},
+                     "lb": {"cal": 2400, "fat": 184, "carbs": 5, "protein": 168, "sodium": 7600, "fiber": 0, "sugar": 0}},
+    "potatoes": {"lb": {"cal": 350, "fat": 0.4, "carbs": 80, "protein": 9, "sodium": 24, "fiber": 9, "sugar": 3.4},
+                "each": {"cal": 161, "fat": 0.2, "carbs": 37, "protein": 4.3, "sodium": 11, "fiber": 4, "sugar": 1.6},
+                "cup": {"cal": 116, "fat": 0.1, "carbs": 27, "protein": 3, "sodium": 8, "fiber": 3, "sugar": 1.2}},
+    "cauliflower": {"cup": {"cal": 27, "fat": 0.3, "carbs": 5, "protein": 2, "sodium": 32, "fiber": 2, "sugar": 2},
+                   "head": {"cal": 146, "fat": 1.6, "carbs": 29, "protein": 11, "sodium": 176, "fiber": 12, "sugar": 11}},
+    "kale": {"cup": {"cal": 33, "fat": 0.6, "carbs": 6, "protein": 2.9, "sodium": 25, "fiber": 2.6, "sugar": 0},
+            "bunch": {"cal": 228, "fat": 4, "carbs": 42, "protein": 20, "sodium": 175, "fiber": 18, "sugar": 0}},
+    "spinach": {"cup": {"cal": 7, "fat": 0.1, "carbs": 1, "protein": 0.9, "sodium": 24, "fiber": 0.7, "sugar": 0},
+               "bunch": {"cal": 78, "fat": 1.2, "carbs": 12, "protein": 10, "sodium": 268, "fiber": 8, "sugar": 1}},
+    "salad oil": {"tbsp": {"cal": 120, "fat": 14, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+                 "cup": {"cal": 1920, "fat": 224, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "chicken bouillon granules": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 0.5, "protein": 0.5, "sodium": 900, "fiber": 0, "sugar": 0}},
+
+    # BATCH 19: Final missing items and expanded units
+    # Common items still missing
+    "cake": {"slice": {"cal": 235, "fat": 10, "carbs": 35, "protein": 3, "sodium": 210, "fiber": 1, "sugar": 20}},
+    "grape jelly": {"tbsp": {"cal": 50, "fat": 0, "carbs": 13, "protein": 0, "sodium": 6, "fiber": 0, "sugar": 10}},
+    "currants": {"cup": {"cal": 408, "fat": 0.4, "carbs": 107, "protein": 5.9, "sodium": 12, "fiber": 10, "sugar": 95}},
+    "lima beans": {"cup": {"cal": 216, "fat": 0.7, "carbs": 39, "protein": 15, "sodium": 4, "fiber": 13, "sugar": 6},
+                  "can": {"cal": 324, "fat": 1, "carbs": 58, "protein": 22, "sodium": 810, "fiber": 19, "sugar": 9}},
+    "oyster liquor": {"cup": {"cal": 15, "fat": 0.5, "carbs": 2, "protein": 1, "sodium": 320, "fiber": 0, "sugar": 0}},
+    "boiled shrimp": {"cup": {"cal": 240, "fat": 3, "carbs": 2, "protein": 48, "sodium": 380, "fiber": 0, "sugar": 0}},
+    "ancho chili powder": {"tsp": {"cal": 8, "fat": 0.4, "carbs": 1.4, "protein": 0.4, "sodium": 4, "fiber": 0.9, "sugar": 0.3}},
+    "chipotle chile powder": {"tsp": {"cal": 8, "fat": 0.4, "carbs": 1.4, "protein": 0.3, "sodium": 26, "fiber": 0.9, "sugar": 0.5}},
+    "chile powder": {"tsp": {"cal": 8, "fat": 0.4, "carbs": 1.4, "protein": 0.3, "sodium": 26, "fiber": 0.9, "sugar": 0.5},
+                    "tbsp": {"cal": 24, "fat": 1.2, "carbs": 4.2, "protein": 0.9, "sodium": 78, "fiber": 2.7, "sugar": 1.5}},
+    "fritos": {"cup": {"cal": 320, "fat": 20, "carbs": 32, "protein": 4, "sodium": 340, "fiber": 2, "sugar": 0},
+              "oz": {"cal": 160, "fat": 10, "carbs": 16, "protein": 2, "sodium": 170, "fiber": 1, "sugar": 0}},
+    "corn tacos": {"each": {"cal": 60, "fat": 2, "carbs": 9, "protein": 1, "sodium": 50, "fiber": 1, "sugar": 0}},
+    "tortilla wraps": {"each": {"cal": 130, "fat": 3.5, "carbs": 22, "protein": 3, "sodium": 340, "fiber": 1, "sugar": 1}},
+    "pork loin roast": {"lb": {"cal": 680, "fat": 28, "carbs": 0, "protein": 100, "sodium": 260, "fiber": 0, "sugar": 0}},
+    "caramel sauce": {"tbsp": {"cal": 60, "fat": 1.5, "carbs": 11, "protein": 0.5, "sodium": 45, "fiber": 0, "sugar": 10}},
+    "vegetable juice cocktail": {"cup": {"cal": 46, "fat": 0.2, "carbs": 10, "protein": 1.5, "sodium": 653, "fiber": 1.9, "sugar": 6}},
+    "goat cheese": {"oz": {"cal": 75, "fat": 6, "carbs": 0, "protein": 5, "sodium": 130, "fiber": 0, "sugar": 0},
+                   "cup": {"cal": 464, "fat": 37, "carbs": 1, "protein": 31, "sodium": 805, "fiber": 0, "sugar": 1}},
+    # Expanded units for items with mismatches
+    "chili powder": {"tsp": {"cal": 8, "fat": 0.4, "carbs": 1.4, "protein": 0.4, "sodium": 26, "fiber": 0.9, "sugar": 0.3},
+                    "tbsp": {"cal": 24, "fat": 1.2, "carbs": 4.2, "protein": 1.2, "sodium": 78, "fiber": 2.7, "sugar": 0.9},
+                    "package": {"cal": 48, "fat": 2.4, "carbs": 8.4, "protein": 2.4, "sodium": 156, "fiber": 5.4, "sugar": 1.8}},
+    "green chilies": {"can": {"cal": 30, "fat": 0.2, "carbs": 6, "protein": 1.5, "sodium": 550, "fiber": 2, "sugar": 3},
+                     "oz": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.2, "sodium": 90, "fiber": 0.3, "sugar": 0.5},
+                     "cup": {"cal": 40, "fat": 0.3, "carbs": 8, "protein": 2, "sodium": 733, "fiber": 2.7, "sugar": 4}},
+    "kidney beans": {"can": {"cal": 330, "fat": 1, "carbs": 58, "protein": 22, "sodium": 759, "fiber": 19, "sugar": 4},
+                    "cup": {"cal": 225, "fat": 0.9, "carbs": 40, "protein": 15, "sodium": 2, "fiber": 13, "sugar": 3}},
+    "red kidney beans": {"can": {"cal": 330, "fat": 1, "carbs": 58, "protein": 22, "sodium": 759, "fiber": 19, "sugar": 4},
+                        "cup": {"cal": 225, "fat": 0.9, "carbs": 40, "protein": 15, "sodium": 2, "fiber": 13, "sugar": 3}},
+    "chili beans": {"can": {"cal": 290, "fat": 2, "carbs": 51, "protein": 17, "sodium": 890, "fiber": 14, "sugar": 6},
+                   "cup": {"cal": 193, "fat": 1.3, "carbs": 34, "protein": 11, "sodium": 593, "fiber": 9.3, "sugar": 4}},
+    "pinto beans": {"can": {"cal": 330, "fat": 1, "carbs": 59, "protein": 20, "sodium": 780, "fiber": 18, "sugar": 2},
+                   "cup": {"cal": 245, "fat": 1, "carbs": 45, "protein": 15, "sodium": 2, "fiber": 15, "sugar": 1}},
+    "black beans": {"can": {"cal": 370, "fat": 1.5, "carbs": 65, "protein": 24, "sodium": 820, "fiber": 25, "sugar": 1},
+                   "cup": {"cal": 227, "fat": 0.9, "carbs": 41, "protein": 15, "sodium": 1, "fiber": 15, "sugar": 0.6}},
+    "chickpeas": {"can": {"cal": 400, "fat": 6, "carbs": 64, "protein": 20, "sodium": 720, "fiber": 17, "sugar": 11},
+                 "cup": {"cal": 269, "fat": 4.2, "carbs": 45, "protein": 14, "sodium": 11, "fiber": 12, "sugar": 8}},
 }
 
 # =============================================================================
@@ -2168,8 +2304,8 @@ def normalize_unit(unit):
     if embedded_size:
         unit = embedded_size.group(1)
 
-    # Handle "15 1/2 oz cans" or "14.5-oz cans" → "can"
-    oz_cans = re.match(r'^[\d\s./½¼¾-]+\s*oz\.?\s*cans?$', unit)
+    # Handle "15 1/2 oz cans", "14.5-oz cans", or "oz can" → "can"
+    oz_cans = re.match(r'^(?:[\d\s./½¼¾-]+\s*)?oz\.?\s*cans?$', unit)
     if oz_cans:
         unit = "can"
 
@@ -2177,6 +2313,16 @@ def normalize_unit(unit):
     oz_jar = re.match(r'^(?:[\d\s./]+\s*)?oz\.?\s*jar$', unit)
     if oz_jar:
         unit = "can"  # jars are roughly equivalent to cans
+
+    # Handle "oz bottle" patterns → "bottle" or equivalent
+    oz_bottle = re.match(r'^(?:[\d\s./-]+\s*)?oz\.?\s*bottle$', unit)
+    if oz_bottle:
+        unit = "bottle"
+
+    # Handle "oz pkg" or "oz package" patterns
+    oz_pkg = re.match(r'^(?:[\d\s./-]+\s*)?oz\.?\s*(?:pkg|package)$', unit)
+    if oz_pkg:
+        unit = "package"
 
     # Descriptive units that should be treated as empty (each)
     descriptive_units = ["ripe", "fresh"]
@@ -2215,6 +2361,22 @@ def normalize_ingredient(item):
 
     # Fix common OCR quirks in ingredient text
     ocr_fixes = [
+        # BATCH 19: Strip "for garnish" prefix early
+        (r'^for\s+garnish\s+', ''),          # "for garnish shredded cheese" -> "shredded cheese"
+        (r'^for\s+topping\s+', ''),          # "for topping ..."
+        (r'^for\s+serving\s+', ''),          # "for serving ..."
+        # Can with embedded sizes (strip the oz prefix)
+        (r'^\d+[\s\d/]*\s*oz\.?\s+can\s+', ''),  # "16 oz can kidney beans" -> "kidney beans"
+        (r'^can\s+(of\s+)?cream\s+of\s+', 'cream of '),  # "can cream of mushroom soup" -> "cream of mushroom soup"
+        (r'^can\s+(of\s+)?', ''),            # "can black beans" -> "black beans"
+        # Historical measurements
+        (r'^one\s+cup\s+', ''),              # "one cup tart dark jelly" -> "tart dark jelly"
+        (r'^a\s+pint\s+', ''),               # "a pint rum" -> "rum"
+        (r'^a\s+cup\s+', ''),                # "a cup milk" -> "milk"
+        (r'^half\s+a?\s*cup\s+', ''),        # "half a cup ..." -> "..."
+        (r'^one\s+pint\s+', ''),             # "one pint ..." -> "..."
+        (r'^one\s+quart\s+', ''),            # "one quart ..." -> "..."
+        (r'^a\s+quart\s+', ''),              # "a quart ..." -> "..."
         (r'^ful[s]?\s+of\s*', ''),           # item starts with "ful of" (OCR artifact)
         (r'^ful[s]?\s+', ''),                # item starts with "ful " (OCR artifact)
         (r'\btsp\s*ful\s*of\b', ''),         # "tsp ful of" -> ""
@@ -3305,7 +3467,7 @@ def normalize_ingredient(item):
         "anaheim chile peppers": "green chiles",
         "anaheim chiles": "green chiles",
         "melba toast crumbs": "bread crumbs",
-        "apple butter": "applesauce",
+        # "apple butter": "applesauce",  # REMOVED - apple butter exists in DB
         "peach syrup": "simple syrup",
         "white sauce": "bechamel sauce",
         "petite diced tomatoes": "diced tomatoes",
@@ -4348,7 +4510,7 @@ def normalize_ingredient(item):
         "applesauce": "apples",
         "unsweetened applesauce": "apples",
         "apple sauce": "apples",
-        "apple butter": "apples",
+        # "apple butter": "apples",  # REMOVED - apple butter exists in DB
         "pumpkin puree": "pumpkin",
         "canned pumpkin": "pumpkin",
         "pumpkin pie filling": "pumpkin",
@@ -4960,7 +5122,7 @@ def normalize_ingredient(item):
         "blackening seasoning": "cajun seasoning",
         "dry mustard": "ground mustard",
         "mustard powder": "ground mustard",
-        "sage": "rubbed sage",
+        # "sage": "rubbed sage",  # REMOVED - matches "sausage" as substring!
         "dried sage": "rubbed sage",
         "ground sage": "rubbed sage",
         # Garnishes (minimal calories)
@@ -5120,6 +5282,331 @@ def normalize_ingredient(item):
         "ground coriander": "coriander",
         "coriander seeds": "coriander",
         "coriander powder": "coriander",
+
+        # Batch 18: More synonyms for complete coverage
+        # Sauces
+        "keto alfredo sauce": "alfredo sauce",
+        "jarred alfredo sauce": "alfredo sauce",
+        "a1 steak sauce": "steak sauce",
+        "kalbi sauce": "korean barbecue sauce",
+        "korean bbq sauce": "korean barbecue sauce",
+        "gochujang paste": "gochujang chili paste",
+        "gochujang": "gochujang chili paste",
+        "chili crisp with oil": "chili crisp oil",
+        "lao gan ma": "chili crisp oil",
+        "grenadine": "grenadine syrup",
+        "splash grenadine syrup": "grenadine syrup",
+        # Meat
+        "breaded chicken nuggets": "chicken nuggets",
+        "frozen chicken nuggets": "chicken nuggets",
+        "grade salmon": "sashimi grade salmon",
+        "grade tuna": "sashimi grade tuna",
+        "crab meat": "lump crabmeat",
+        "jumbo lump crab": "lump crabmeat",
+        # Vegetables/fruits
+        "medium mango": "mango",
+        "ripe mango": "mango",
+        "peeled papaya": "papaya",
+        "fresh or frozen rhubarb": "rhubarb",
+        "frozen rhubarb": "rhubarb",
+        "kiwi": "kiwifruit",
+        "kiwi fruit": "kiwifruit",
+        "fresh fava beans": "fava beans",
+        "broad beans": "fava beans",
+        "frozen peas": "english peas",
+        "garden peas": "english peas",
+        "petit peas": "english peas",
+        "cubed fresh pineapple": "fresh pineapple",
+        "diced pineapple": "fresh pineapple",
+        # Asian
+        "sticky rice": "glutinous rice",
+        "sweet rice": "glutinous rice",
+        "mochi flour": "glutinous rice flour",
+        "sweet rice flour": "glutinous rice flour",
+        "matcha powder": "matcha",
+        "ceremonial grade matcha": "matcha",
+        "green tea powder": "matcha",
+        "ladyfingers": "ladyfinger cookies",
+        "savoiardi": "ladyfinger cookies",
+        "saffron threads": "saffron thread",
+        "saffron": "saffron thread",
+        # Alcohol
+        "creme de cassis": "blackberry liqueur",
+        "chambord": "blackberry liqueur",
+        "creme de banane": "banana liqueur",
+        "red wine": "claret",
+        "burgundy": "claret",
+        # Specialty
+        "nutritional yeast flakes": "nutritional yeast",
+        "nooch": "nutritional yeast",
+        "flaxseed": "flax seed",
+        "flax meal": "flax seed",
+        "ground flax": "flax seed",
+        "soy protein": "tvp granules",
+        "textured vegetable protein": "tvp granules",
+        "tvp": "tvp granules",
+        "gumbo file": "file powder",
+        "sassafras": "file powder",
+        "wasabi paste": "prepared wasabi",
+        "wasabi": "prepared wasabi",
+        "montreal steak seasoning": "steak seasoning",
+        # Section headers to ignore
+        "icing:": "",
+        "tropical fruit salsa:": "",
+        "spice blend:": "",
+        "chicken and marinade:": "",
+        "biryani:": "",
+        "rice:": "",
+        "fried peppers:": "",
+        "toppings:": "",
+        "vinaigrette:": "",
+        "enchiladas:": "",
+        "homemade chai:": "",
+        "chaider:": "",
+        "chai masala:": "",
+        "soaking liquid:": "",
+        "chicken sliders:": "",
+        "mojo:": "",
+        "fries:": "",
+        # OCR garbage patterns to ignore
+        "index to armed forces": "",
+        "armed forces recipe": "",
+        "guidelines from armed": "",
+        "standard recipe from": "",
+        "general methods": "",
+        "general principles": "",
+        "project gutenberg": "",
+        "technical manuals": "",
+        "field manuals": "",
+
+        # BATCH 19: Canned goods with embedded oz sizes
+        "16 oz can kidney beans": "kidney beans",
+        "15 oz can kidney beans": "kidney beans",
+        "15 1/2 oz can kidney beans": "kidney beans",
+        "14 oz can kidney beans": "kidney beans",
+        "oz can kidney beans": "kidney beans",
+        "15 1/4 oz can corn": "corn",
+        "15 oz can corn": "corn",
+        "oz can corn": "corn",
+        "15 oz can tomato sauce": "tomato sauce",
+        "8 oz can tomato sauce": "tomato sauce",
+        "oz can tomato sauce": "tomato sauce",
+        "can mushroom soup": "mushroom soup",
+        "cream mushroom soup": "mushroom soup",
+        "condensed mushroom soup": "mushroom soup",
+
+        # Historical measurement patterns
+        "one cup": "",  # quantity already captured, just need the item after
+        "a pint": "",
+        "a cup": "",
+        "half a cup": "",
+        "a quart": "",
+        "one pint": "",
+        "one quart": "",
+        "half pint": "",
+
+        # Historical ingredient patterns
+        "tart dark jelly": "jam",
+        "blackberry jam": "jam",
+        "crumbled rich stale cake": "cake",
+        "raw grated sweet potato": "sweet potato",
+        "very rich milk": "milk",
+        "nuts rolled small": "walnuts",
+        "crumbled macaroons": "almond cookies",
+        "coldmilk": "milk",
+        "boiling milk": "milk",
+        "scalded milk": "milk",
+        "calded milk": "milk",  # OCR error
+        "warm milk": "milk",
+        "warm (not hot)": "",  # just temperature note
+        "cupdates": "dates",  # OCR merge
+        "ofbuttermilk": "buttermilk",
+        "ofbran": "bran",
+        "offlour": "flour",
+        "ofbutter": "butter",
+        "ofsugar": "sugar",
+        "oleomargarine": "margarine",
+        "oroleomargarine": "margarine",  # OCR merge
+        "melted butter oroleomargarine": "butter",
+
+        # Produce patterns
+        "large plum tomato": "tomato",
+        "plum tomato": "tomato",
+        "roma tomato": "tomato",
+        "large french baguette": "french bread",
+        "french baguette": "french bread",
+        "baguette": "french bread",
+        "fresh basil": "basil",
+        "basil leaves": "basil",
+
+        # Chicken variants
+        "stewing chicken": "chicken",
+        "stewing hen": "chicken",
+        "a little flour": "flour",
+        "pastry crust": "pie crust",
+        "pie crust": "pie crust",
+
+        # OCR garbage - Army cookbook index pages
+        "index to armed forces recipe service": "",
+        "appetizers.": "",
+        "general principles of coffee brewing": "",
+        "standard recipes for hot tea": "",
+        "standard recipe for cocoa": "",
+        "standard recipe for hot rolls": "",
+        "guide for hot-roll makeup": "",
+        "standard recipe for sweet dough": "",
+        "recipe conversion from armed forces": "",
+
+        # More historical patterns
+        "stale cake crumbs": "cake",
+        "stale cake": "cake",
+        "good whiskey": "whiskey",
+        "strong coffee": "coffee",
+        "cream of mushroom soup": "mushroom soup",
+        "cream of chicken soup": "cream of chicken soup",
+        "cream of celery soup": "cream of celery soup",
+        "inch cucumber": "cucumber",
+        "inch stem broccoli": "broccoli",
+        "inch slice beetroot": "beets",
+
+        # Bible references (Scripture recipes - citations not ingredients)
+        "butter judges": "butter",
+        "flour i-kings": "flour",
+        "salt leviticus": "salt",
+        "figs i-samuel": "figs",
+        "sugar jeremiah": "sugar",
+        "baking powder luke": "baking powder",
+        "honey proverbs": "honey",
+        "almonds genesis": "almonds",
+        "ofjudge": "",
+        "jeremiah": "",
+        "nehum": "",
+        "numbers": "",
+        "ikings": "",
+        "i-kings": "",
+        "i-samuel": "",
+        "leviticus": "",
+        "proverbs": "",
+        "genesis": "",
+        "luke": "",
+
+        # OCR merged words
+        "soured milk": "buttermilk",
+        "nutme g": "nutmeg",
+        "softed flour": "flour",
+        "andcutrind": "",  # OCR garbage
+        "broken cinnamon stick": "cinnamon stick",
+        "level teaspoons cloves": "cloves",
+        "large tablespoonfuls": "",  # just a unit
+        "pound cake": "cake",  # 140 Pound Cake -> cake
+
+        # BATCH 19: More synonym fixes
+        "sucralose sweetener": "sugar",  # Treat as sugar equivalent for calories
+        "granular sucralose sweetener": "sugar",
+        "splenda": "sugar",
+        "sesame bun": "hamburger bun",
+        "bun": "hamburger bun",
+        "some chopped scallions": "green onion",
+        "chopped scallions": "green onion",
+        "pumpkin puree": "pumpkin",
+        "can pumpkin puree": "pumpkin",
+        "can pumpkin": "pumpkin",
+
+        # OCR garbage - non-recipe content
+        "rusk": "",  # Historical term, not specific
+        "spiced cake": "cake",
+        "syllabub": "",  # Historical dessert, unclear
+        "flowers": "",  # Not food
+
+        # OCR artifacts that are actually equipment text mixed with ingredients
+        "frying-pan": "",
+        "pancake-tumer": "",  # turner, OCR error
+        "pancake-turner": "",
+        "wooden cake-apoon": "",  # spoon, OCR error
+        "cake-apoon": "",
+        "small saucepan": "",
+        "cake-pan": "",
+        "small bowl": "",
+        "bread-board": "",
+        "rolling-pin": "",
+        "cookie-cutter": "",
+        "big mac": "",  # Not an ingredient!
+
+        # Historical text OCR artifacts
+        "mould themashed": "mashed potato",
+        "melt thebutter": "butter",
+        "beat theegg": "egg",
+
+        # BATCH 19: More ingredient mappings
+        "cod fillet": "cod",
+        "premium tuna": "tuna",
+        "whole smoked ham": "ham",
+        "smoked ham": "ham",
+        "corn tortillas": "tortilla",
+        "corn tortilla": "tortilla",
+        "wheat tortillas": "tortilla",
+        "french bread baguette": "french bread",
+        "whole-wheat french bread": "french bread",
+        "turkey": "turkey breast",
+        "deli-sliced turkey": "turkey breast",
+        "oven-roasted turkey": "turkey breast",
+        "muenster cheese": "swiss cheese",
+        "gouda cheese": "swiss cheese",
+        "slices cheese": "cheese",
+        "pepperonis": "pepperoni",
+        "package pepperonis": "pepperoni",
+        "chipotle chile pepper": "chipotle powder",
+        "ground chipotle": "chipotle powder",
+        "saffron threads": "saffron",
+        "freshly grated nutmeg": "nutmeg",
+        "sliced fresh basil": "basil",
+        "bottle clam juice": "clam juice",
+        "dash black pepper": "black pepper",
+        "julienne-cut": "",  # just prep note
+        "peeled jicama": "jicama",
+
+        # Historical cookbook patterns (abbreviated units)
+        "c.suet": "suet",
+        "c.molasses": "molasses",
+        "c.sourmilk": "buttermilk",
+        "sourmilk": "buttermilk",
+        "cupful milk": "milk",
+        "teaspoonful salt": "salt",
+        "tablespoonful ginger": "ginger",
+        "tablespoonful cinnamon": "cinnamon",
+        "cupsyrup": "corn syrup",
+        "eggyolks": "egg yolk",
+        "eggyolk": "egg yolk",
+        "pound whole smoked ham": "ham",
+        "shredded carrots": "carrots",
+        "shredded carrot": "carrots",
+        "pinch cinnamon": "cinnamon",
+        "jar pizza sauce": "tomato sauce",
+        "small can tomato paste": "tomato paste",
+        "pizza sauce": "tomato sauce",
+
+        # BATCH 19: More common variations
+        "zucchinis": "zucchini",
+        "pork loin roast": "pork loin",
+        "boneless pork loin": "pork loin",
+        "unsweetened apple juice": "apple juice",
+        "brown bread": "bread",
+        "canned brown bread": "bread",
+        "ikura": "caviar",
+        "fish roe": "caviar",
+        "yuca": "cassava",
+        "cassava root": "cassava",
+        "sour orange marinade": "orange juice",
+        "nori sheet": "nori",
+        "chipotle sauce": "hot sauce",
+        "taco bell chipotle sauce": "hot sauce",
+        "ready-to-serve spanish rice": "spanish rice",
+        "green lettuce": "lettuce",
+        "red lettuce": "lettuce",
+        "head lettuce": "lettuce",
+        "lime juice": "lime juice",
+        "big squeeze lime juice": "lime juice",
+        "splash olive oil": "olive oil",
     }
 
     # Check for exact match first
@@ -5151,11 +5638,72 @@ EQUIPMENT_WORDS = {
     "plastic wrap", "parchment paper", "aluminum foil", "wax paper",
     "skewer", "skewers", "toothpick", "toothpicks",
     "specialist kit",
+    # Batch 18: More equipment and non-food items
+    "wooden spoon", "frying pan", "saucepans", "bread pans", "cake pans",
+    "muffin pans", "cake-pan", "bread-board", "cookie-cutter", "rolling-pin",
+    "strainer", "colander", "potato-masher", "large spoon", "tablespoon",
+    "freezer pop molds", "ice lolly moulds", "pop sticks", "metal skewers",
+    "lidded barbecue", "smoking chips", "cm loose-bottomed cake tin",
+    "dish-towels", "dish-cloths", "dish-pans", "asbestos holders", "asbestos mats",
+    "salt-shaker", "pepper-shaker", "chopping-bowl", "doughnut-cutter",
+    "frying-kettle", "ironkettle", "pancake-turner",
+    # OCR garbage - addresses and non-recipe text
+    "liberty avenue", "baam street", "fourth ave", "fifth avenue",
+    "farnam street", "douglas street", "wisconsin street", "farwell ave",
+    "downer ave", "charles street", "berkeley street", "broadway",
+    "central square", "newton st", "ford st", "warren street",
+    "clifton street", "boylston street", "causeway street", "winnisimmet street",
+    "south 16 th street", "citynational bank",
+    # Bible references (from scripture recipes)
+    "judges", "leviticus", "i-samuel", "luke", "genesis",
+    "jeremiah", "nehum", "numbers", "ikings", "ofjudge",
+    # Historical cookbook garbage
+    "offlour equal", "ofbutter equal", "ofliquid equals",
+    "isequivalent to", "gills equal", "coffeecupfuls equal",
+    "saltequal", "equal onequart", "equal onegallon",
+    "equal oneounce", "avoirdupois", "dracbms", "pecks",
+    # Cookie recipe names (from index pages)
+    "almond crescents", "almond macaroons", "marzipan", "almond wreaths",
+    "animal cookies", "bar cookies", "bell cookies", "berliner kranser",
+    "boy and girl cookies", "brownies", "burnt butter icing",
+    "busy-day coconut drops", "busy-day nut drops", "butter cookies",
+    "butter fingers", "butterscotch cookies", "caraway cookies",
+    "cherry and hatchet cookies", "cherry-coconut macaroons",
+    "chocolate chip cookies", "chocolate-coconut macaroons",
+    "chocolate cream drops", "chocolate-frosted brownies", "chocolate icing",
+    "chocolate pinwheels", "chocolate refrigerator cookies", "chocolate spritz",
+    "christmas tree cookies", "coconut jumbles", "coconut-lemon bars",
+    "coconut macaroons", "coffee-and-spice drops", "cookies with faces",
+    "dainty tea brownies", "date-and-nut squares", "date-apricot bars",
+    "date bars or matrimonial cake", "date-nut refrigerator cookies",
+    "decorating icing", "drop cookies", "english tea cakes",
+    "fig bars", "filled bar cookies", "filled cookies", "finska kakor",
+    "flower cookies", "frosted gingies", "fruit-and-nut drops",
+    "ginger creams", "ginger refrigerator cookies", "gingerbread boys",
+    "gingies", "glazed orange jumbles", "glazing icing", "gold cookies",
+    "hazelnut bars", "heart cookies", "hermits", "holiday fruit cookies",
+    "jell-meringue-filbert bars", "jewelled cookies", "lebkuchen",
+    "lemon icing", "lemon snowdrops", "mandel kager", "marie's chocolate icing",
+    "merry christmas cookies", "mincemeat cookies", "miscellaneous cookies",
+    "molasses crinkles", "molded cookies", "monkey-faced cookies",
+    "new northland cookies", "nurnberger", "nut refrigerator cookies",
+    "old-time cinnamon jumbles", "orange-almond refrigerator cookies",
+    "orange-chocolate chip cookies", "peanut butter cookies", "peanut macaroons",
+    "petticoat tails", "pineapple filling", "place cards or favors",
+    "plantation fruit bars", "poinsettias", "press cookies", "prune filling",
+    "prune-orange bars", "quick cream icing", "refrigerator cookies",
+    "rolled cookies", "russian tea cakes", "peanut cookies", "sandbakelser",
+    "scotch shortbread", "simple white icing", "snickerdoodles",
+    "spiced prune drops", "spritz", "star cookies", "-in-1 jumbles",
+    "thumbprint cookies", "toffee-nut bars", "toy cookies",
+    "tutti-frutti surprises", "walnut squares", "washboards",
+    "wheaties-coconut macaroons", "wheaties drop cookies", "wreath cookies",
+    "zucker hütchen",
     # Meta instructions
     "for the cake:", "for the frosting:", "for the filling:",
-    "mrs.wilson's cookbook", "-inch", "-sized",
+    "mrs.wilson's cookbook", "-inch", "-sized", "directions",
     # Non-food items
-    "each", "s", "d 227", "egg .03",
+    "each", "s", "d 227", "egg .03", "cleaned",
 }
 
 def is_equipment(item):
@@ -5173,6 +5721,8 @@ def is_equipment(item):
         "for the ", "cookbook", "-inch", "-sized potatoes vegetable",
         "for topping", "for serving", "for dipping", "for garnish",
         "for dusting", "(optional)", "optional",
+        "index to armed forces", "recipe service", "tm 10-412",
+        "armed forces recipe", "general principles",
     ]
     for pattern in equipment_patterns:
         if pattern in item_lower:
@@ -5323,8 +5873,14 @@ def get_nutrition_for_ingredient(ingredient):
         return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0, "_skipped": True}
 
     # Skip items where unit indicates non-countable usage (greasing, brushing, etc.)
-    non_countable_units = ["for greasing", "for brushing", "for drizzling", "as needed"]
+    non_countable_units = ["for greasing", "for brushing", "for drizzling", "as needed",
+                          "for garnish", "for topping", "for serving", "for decoration"]
     if any(ncu in unit for ncu in non_countable_units):
+        return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0, "_skipped": True}
+
+    # Also skip items where the item field itself contains garnish indicators
+    item_lower = item.lower()
+    if any(phrase in item_lower for phrase in [", for garnish", "for garnish", "plus more for garnish"]):
         return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0, "_skipped": True}
 
     quantity = parse_quantity(ingredient.get("quantity", "1"))
@@ -5463,6 +6019,10 @@ def get_nutrition_for_ingredient(ingredient):
         elif unit == "tsp" and "cup" in db_entry:
             base = db_entry["cup"]
             return {k: v * quantity / 48 for k, v in base.items()}  # 48 tsp = 1 cup
+        # BATCH 19: Can->cup fallback
+        elif unit == "can" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 1.5 for k, v in base.items()}  # 1 can ≈ 1.5 cups
         # Empty unit fallback - use first available unit as reasonable default
         elif unit == "" and db_entry:
             # Prefer common units in order
