@@ -1973,6 +1973,66 @@ NUTRITION_DB = {
              "cup": {"cal": 573, "fat": 44, "carbs": 1, "protein": 40, "sodium": 1820, "fiber": 0, "sugar": 0}},
     "ketchup": {"tbsp": {"cal": 17, "fat": 0, "carbs": 4.5, "protein": 0.2, "sodium": 154, "fiber": 0, "sugar": 3.6},
                "cup": {"cal": 272, "fat": 0, "carbs": 72, "protein": 3.2, "sodium": 2464, "fiber": 0, "sugar": 58}},
+
+    # BATCH 17: Remaining missing ingredients and expanded units
+    # Spices/herbs
+    "coriander": {"tsp": {"cal": 5, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 1, "fiber": 0.8, "sugar": 0},
+                 "tbsp": {"cal": 15, "fat": 0.9, "carbs": 3, "protein": 0.6, "sodium": 3, "fiber": 2.4, "sugar": 0}},
+    "angostura bitters": {"dash": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0.5},
+                         "tsp": {"cal": 10, "fat": 0, "carbs": 2.5, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 2.5}},
+    # Vegetables
+    "beetroot": {"cup": {"cal": 58, "fat": 0.2, "carbs": 13, "protein": 2.2, "sodium": 106, "fiber": 3.8, "sugar": 9},
+                "medium": {"cal": 35, "fat": 0.1, "carbs": 8, "protein": 1.3, "sodium": 64, "fiber": 2.3, "sugar": 6}},
+    "persian cucumbers": {"cup": {"cal": 16, "fat": 0.1, "carbs": 4, "protein": 0.7, "sodium": 2, "fiber": 0.5, "sugar": 2},
+                         "each": {"cal": 8, "fat": 0.1, "carbs": 2, "protein": 0.3, "sodium": 1, "fiber": 0.3, "sugar": 1}},
+    "medium sweet yellow pepper": {"": {"cal": 50, "fat": 0.4, "carbs": 12, "protein": 1.9, "sodium": 4, "fiber": 2, "sugar": 8}},
+    "medium red grapefruit": {"": {"cal": 82, "fat": 0.3, "carbs": 21, "protein": 1.5, "sodium": 0, "fiber": 2.8, "sugar": 17}},
+    # Beans
+    "refried pinto beans": {"cup": {"cal": 234, "fat": 3, "carbs": 36, "protein": 14, "sodium": 753, "fiber": 12, "sugar": 1},
+                           "can": {"cal": 351, "fat": 4.5, "carbs": 54, "protein": 21, "sodium": 1130, "fiber": 18, "sugar": 1.5}},
+    # Asian ingredients
+    "rice papers": {"each": {"cal": 30, "fat": 0, "carbs": 7, "protein": 0.3, "sodium": 10, "fiber": 0, "sugar": 0}},
+    "chow mein noodles": {"cup": {"cal": 237, "fat": 14, "carbs": 26, "protein": 4, "sodium": 198, "fiber": 1.8, "sugar": 0},
+                         "oz": {"cal": 148, "fat": 8.7, "carbs": 16, "protein": 2.5, "sodium": 124, "fiber": 1.1, "sugar": 0}},
+    "broccoli coleslaw mix": {"cup": {"cal": 20, "fat": 0.1, "carbs": 4, "protein": 1.5, "sodium": 15, "fiber": 2, "sugar": 2}},
+    # Alcohol
+    "whiskey": {"oz": {"cal": 70, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+               "shot": {"cal": 105, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "german beer": {"cup": {"cal": 103, "fat": 0, "carbs": 9, "protein": 1, "sodium": 12, "fiber": 0, "sugar": 0},
+                   "oz": {"cal": 13, "fat": 0, "carbs": 1.1, "protein": 0.1, "sodium": 1.5, "fiber": 0, "sugar": 0}},
+    # Specialty
+    "ube extract": {"tsp": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 1}},
+    "pretzel salt": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1800, "fiber": 0, "sugar": 0}},
+    "blackberry jam": {"tbsp": {"cal": 50, "fat": 0, "carbs": 13, "protein": 0, "sodium": 6, "fiber": 0.3, "sugar": 10}},
+    "chipotle in adobo": {"each": {"cal": 15, "fat": 0.5, "carbs": 2.5, "protein": 0.5, "sodium": 130, "fiber": 0.8, "sugar": 1},
+                         "tbsp": {"cal": 15, "fat": 0.5, "carbs": 3, "protein": 0.5, "sodium": 180, "fiber": 1, "sugar": 1}},
+    "guacamole": {"cup": {"cal": 184, "fat": 15, "carbs": 12, "protein": 2.3, "sodium": 372, "fiber": 7, "sugar": 1},
+                 "tbsp": {"cal": 12, "fat": 1, "carbs": 0.8, "protein": 0.1, "sodium": 23, "fiber": 0.4, "sugar": 0.1}},
+    # Expanded units for items with mismatches
+    "green chiles": {"can": {"cal": 30, "fat": 0.2, "carbs": 6, "protein": 1.5, "sodium": 550, "fiber": 2, "sugar": 3},
+                    "oz": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.2, "sodium": 90, "fiber": 0.3, "sugar": 0.5},
+                    "cup": {"cal": 40, "fat": 0.3, "carbs": 8, "protein": 2, "sodium": 733, "fiber": 2.7, "sugar": 4},
+                    "tbsp": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0.1, "sodium": 46, "fiber": 0.2, "sugar": 0.2}},
+    "ham": {"cup": {"cal": 249, "fat": 13, "carbs": 3, "protein": 29, "sodium": 1684, "fiber": 0, "sugar": 0},
+           "lb": {"cal": 680, "fat": 36, "carbs": 8, "protein": 80, "sodium": 4600, "fiber": 0, "sugar": 0},
+           "oz": {"cal": 43, "fat": 2.3, "carbs": 0.5, "protein": 5, "sodium": 290, "fiber": 0, "sugar": 0},
+           "slice": {"cal": 46, "fat": 2.4, "carbs": 0.6, "protein": 5.3, "sodium": 310, "fiber": 0, "sugar": 0}},
+    "feta": {"oz": {"cal": 75, "fat": 6, "carbs": 1, "protein": 4, "sodium": 316, "fiber": 0, "sugar": 1},
+            "cup": {"cal": 396, "fat": 32, "carbs": 6, "protein": 21, "sodium": 1668, "fiber": 0, "sugar": 5},
+            "tbsp": {"cal": 25, "fat": 2, "carbs": 0.3, "protein": 1.3, "sodium": 105, "fiber": 0, "sugar": 0.3}},
+    "carrots": {"cup": {"cal": 52, "fat": 0.3, "carbs": 12, "protein": 1.2, "sodium": 88, "fiber": 3.6, "sugar": 6},
+               "medium": {"cal": 25, "fat": 0.1, "carbs": 6, "protein": 0.6, "sodium": 42, "fiber": 1.7, "sugar": 3},
+               "lb": {"cal": 186, "fat": 1, "carbs": 43, "protein": 4.3, "sodium": 314, "fiber": 13, "sugar": 21}},
+    "bread": {"slice": {"cal": 79, "fat": 1, "carbs": 15, "protein": 2.7, "sodium": 147, "fiber": 0.6, "sugar": 1.5},
+             "cup": {"cal": 122, "fat": 1.5, "carbs": 23, "protein": 4.2, "sodium": 227, "fiber": 0.9, "sugar": 2.3},
+             "oz": {"cal": 75, "fat": 1, "carbs": 14, "protein": 2.6, "sodium": 140, "fiber": 0.6, "sugar": 1.4}},
+    "tortillas": {"each": {"cal": 94, "fat": 2.4, "carbs": 15, "protein": 2.5, "sodium": 191, "fiber": 1, "sugar": 0.4},
+                 "cup": {"cal": 188, "fat": 4.8, "carbs": 30, "protein": 5, "sodium": 382, "fiber": 2, "sugar": 0.8}},
+    "beans": {"cup": {"cal": 239, "fat": 0.9, "carbs": 43, "protein": 16, "sodium": 1, "fiber": 16, "sugar": 0.6},
+             "can": {"cal": 358, "fat": 1.4, "carbs": 64, "protein": 24, "sodium": 880, "fiber": 24, "sugar": 1}},
+    "broccoli": {"cup": {"cal": 31, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 30, "fiber": 2.4, "sugar": 1.5},
+                "lb": {"cal": 154, "fat": 1.7, "carbs": 30, "protein": 13, "sodium": 150, "fiber": 12, "sugar": 7.5},
+                "oz": {"cal": 10, "fat": 0.1, "carbs": 2, "protein": 0.8, "sodium": 10, "fiber": 0.8, "sugar": 0.5}},
 }
 
 # =============================================================================
@@ -4991,6 +5051,75 @@ def normalize_ingredient(item):
         "torn romaine": "lettuce",
         "g feta": "feta",
         "g coriander": "coriander",
+
+        # Batch 17: More synonyms for parsing issues
+        # Parsing artifacts (extra words)
+        "plus olive oil": "olive oil",
+        "to 4 tablespoons lemon juice": "lemon juice",
+        "assorted fresh vegetables": "mixed vegetables",
+        "guacamole)": "guacamole",
+        "mixed": "mixed vegetables",
+        "ml tequila blanco": "tequila",
+        "dashes angostura bitters": "angostura bitters",
+        "x 75ml ice lolly moulds": "",
+        "round rice papers": "rice papers",
+        "crispy chow mein noodles": "chow mein noodles",
+        "grams bread flour": "flour",
+        "grams quick-rise yeast": "yeast",
+        "dry long grain rice": "rice",
+        "avocado and yogurt": "avocado",
+        "powdered saltpeter": "salt",
+        "to the gallon fruit": "",
+        "at a time": "",
+        "to the pound": "",
+        "tart dark jelly": "grape jelly",
+        "rich stale cake": "cake",
+        "tajín seasoning to sprinkle": "tajin",
+        # Citrus/zest
+        "orange or tangerine zest": "orange zest",
+        "tangerine zest": "orange zest",
+        # Broth alternatives
+        "rum or chicken broth": "chicken broth",
+        "wine or chicken broth": "chicken broth",
+        "wine or broth": "chicken broth",
+        # Vegetables
+        "sweet yellow pepper": "medium sweet yellow pepper",
+        "yellow pepper": "medium sweet yellow pepper",
+        "red grapefruit": "medium red grapefruit",
+        "pink grapefruit": "medium red grapefruit",
+        "beet": "beetroot",
+        "raw beet": "beetroot",
+        "cooked beet": "beetroot",
+        # Asian
+        "spring roll wrappers": "rice papers",
+        "egg roll wrappers": "rice papers",
+        "vietnamese rice papers": "rice papers",
+        "fried chow mein noodles": "chow mein noodles",
+        "crunchy chow mein noodles": "chow mein noodles",
+        "la choy chow mein noodles": "chow mein noodles",
+        # Bitters
+        "bitters": "angostura bitters",
+        "aromatic bitters": "angostura bitters",
+        # Beans
+        "refried beans": "refried pinto beans",
+        # Chiles
+        "canned green chiles": "green chiles",
+        "mild green chiles": "green chiles",
+        "diced green chilies": "green chiles",
+        # Whiskey
+        "good whiskey": "whiskey",
+        "bourbon whiskey": "whiskey",
+        "rye whiskey": "whiskey",
+        "irish whiskey": "whiskey",
+        # Chipotle
+        "chipotle chili in adobo": "chipotle in adobo",
+        "chipotle peppers in adobo": "chipotle in adobo",
+        "chipotles in adobo": "chipotle in adobo",
+        "adobo sauce": "chipotle in adobo",
+        # Coriander
+        "ground coriander": "coriander",
+        "coriander seeds": "coriander",
+        "coriander powder": "coriander",
     }
 
     # Check for exact match first
