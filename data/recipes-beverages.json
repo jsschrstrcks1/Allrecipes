@@ -781,16 +781,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 203,
-          "fat_g": 0.2,
-          "carbs_g": 54.1,
-          "protein_g": 0.7,
-          "sodium_mg": 6,
-          "fiber_g": 1.1,
-          "sugar_g": 51.6
+          "calories": 133,
+          "fat_g": 0.1,
+          "carbs_g": 36.1,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
+          "fiber_g": 0.4,
+          "sugar_g": 35.1
         },
         "missing_inputs": [
           "2  lemon juice",
+          "2 cups apricot nectar",
           "1 cup vodka",
           "1 bottle sparkling apple juice"
         ],
@@ -3731,19 +3732,19 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "round steak 3 stalks celery",
+          "item": "round steak",
           "quantity": "3",
           "unit": "lb",
-          "prep_note": "peeled, chopped"
-        },
-        {
-          "item": "tbs butter 1/2 c catsup",
-          "quantity": "3",
-          "unit": "",
           "prep_note": ""
         },
         {
-          "item": "salt 1 tbs chopped parsley",
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
@@ -3753,6 +3754,24 @@
           "quantity": "1",
           "unit": "large",
           "prep_note": "diced"
+        },
+        {
+          "item": "celery",
+          "quantity": "3",
+          "unit": "stalks",
+          "prep_note": "peeled, chopped"
+        },
+        {
+          "item": "ketchup",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
@@ -3780,20 +3799,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 15,
-          "fat_g": 0.1,
-          "carbs_g": 3.5,
-          "protein_g": 0.4,
-          "sodium_mg": 1,
-          "fiber_g": 0.6,
-          "sugar_g": 1.5
+          "calories": 636,
+          "fat_g": 26.8,
+          "carbs_g": 4.3,
+          "protein_g": 90.7,
+          "sodium_mg": 846,
+          "fiber_g": 1.1,
+          "sugar_g": 1.9
         },
         "missing_inputs": [
-          "3 lb round steak 3 stalks celery",
-          "3  tbs butter 1/2 c catsup",
-          "1 tsp salt 1 tbs chopped parsley"
+          "1/2 cup ketchup"
         ],
         "assumptions": [
           "Calculated for 4 servings"

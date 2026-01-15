@@ -12029,64 +12029,52 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "cakes yeast",
+          "item": "yeast",
           "quantity": "2",
-          "unit": "",
+          "unit": "cakes",
           "prep_note": ""
         },
         {
-          "item": "lukewarm milk",
+          "item": "milk",
           "quantity": "2",
+          "unit": "cup",
+          "prep_note": "lukewarm"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "lukewarm"
+        },
+        {
+          "item": "butter",
+          "quantity": "2/3",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup lukewarm water",
-          "quantity": "",
-          "unit": "",
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u2154 cup butter",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00be cup sugar",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd teaspoons salt",
+          "item": "salt",
           "quantity": "1",
-          "unit": "",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
           "item": "eggs",
           "quantity": "2",
           "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd lemon grated ring and juice",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bc teaspoon nutmeg",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "prep_note": "beaten"
         },
         {
           "item": "flour",
-          "quantity": "8",
+          "quantity": "7",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "approximately"
         }
       ],
       "instructions": [
@@ -12112,22 +12100,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 1046,
-          "fat_g": 11.8,
-          "carbs_g": 196.2,
-          "protein_g": 33.0,
-          "sodium_mg": 186,
-          "fiber_g": 6.8,
-          "sugar_g": 6.8
+          "calories": 1323,
+          "fat_g": 39.3,
+          "carbs_g": 209.9,
+          "protein_g": 30.1,
+          "sodium_mg": 881,
+          "fiber_g": 6.0,
+          "sugar_g": 44.2
         },
         "missing_inputs": [
-          "2  cakes yeast",
-          "\u00bd cup lukewarm water",
-          "\u00be cup sugar",
-          "\u00bd lemon grated ring and juice",
-          "\u00bc teaspoon nutmeg"
+          "2 cakes yeast"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -15657,33 +15641,33 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00be cups flour",
-          "quantity": "1",
-          "unit": "",
+          "item": "flour",
+          "quantity": "1 3/4",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tsp. baking powder",
-          "quantity": "2",
-          "unit": "",
+          "item": "baking powder",
+          "quantity": "2 1/2",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tsp. salt",
-          "quantity": "",
-          "unit": "",
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bc cup butter",
-          "quantity": "",
-          "unit": "",
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
           "prep_note": "or other fat"
         },
         {
-          "item": "\u00be cup sugar",
-          "quantity": "",
-          "unit": "",
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -15693,15 +15677,15 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bd tsp. lemon extract",
-          "quantity": "",
-          "unit": "",
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u2154 cup milk",
-          "quantity": "",
-          "unit": "",
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
           "prep_note": ""
         }
       ],
@@ -15728,23 +15712,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 44,
-          "fat_g": 4.1,
-          "carbs_g": 0.1,
-          "protein_g": 1.5,
-          "sodium_mg": 112,
-          "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "calories": 496,
+          "fat_g": 14.8,
+          "carbs_g": 82.0,
+          "protein_g": 8.8,
+          "sodium_mg": 490,
+          "fiber_g": 1.5,
+          "sugar_g": 40.1
         },
-        "missing_inputs": [
-          "1  \u00be cups flour",
-          "2  \u00bd tsp. baking powder",
-          "\u00be cup sugar",
-          "\u00bd tsp. lemon extract",
-          "\u2154 cup milk"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -17737,19 +17715,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 125,
-          "fat_g": 1.2,
+          "calories": 193,
+          "fat_g": 8.8,
           "carbs_g": 25.4,
-          "protein_g": 3.4,
-          "sodium_mg": 47,
+          "protein_g": 3.5,
+          "sodium_mg": 99,
           "fiber_g": 1.0,
           "sugar_g": 8.8
         },
-        "missing_inputs": [
-          "1/2 cup cold fat"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings",
           "Serving size inferred from desserts category"
@@ -17859,19 +17835,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 86,
-          "fat_g": 1.3,
+          "calories": 95,
+          "fat_g": 2.3,
           "carbs_g": 17.5,
-          "protein_g": 1.4,
-          "sodium_mg": 190,
+          "protein_g": 1.5,
+          "sodium_mg": 197,
           "fiber_g": 0.0,
           "sugar_g": 17.4
         },
         "missing_inputs": [
           "1  \u00be cups pastry flour",
-          "\u215c cup fat",
           "2  squares chocolate"
         ],
         "assumptions": [
@@ -17975,20 +17950,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 60,
-          "fat_g": 0.7,
+          "calories": 94,
+          "fat_g": 4.5,
           "carbs_g": 12.9,
           "protein_g": 0.8,
-          "sodium_mg": 59,
+          "sodium_mg": 85,
           "fiber_g": 0.0,
           "sugar_g": 12.9
         },
         "missing_inputs": [
           "1  \u2153 cups pastry flour",
-          "2  \u00bd tsp. baking powder",
-          "1/4 cup fat"
+          "2  \u00bd tsp. baking powder"
         ],
         "assumptions": [
           "Calculated for 12 servings",
@@ -18113,19 +18087,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 85,
-          "fat_g": 1.3,
+          "calories": 153,
+          "fat_g": 8.9,
           "carbs_g": 17.7,
           "protein_g": 1.4,
-          "sodium_mg": 99,
+          "sodium_mg": 151,
           "fiber_g": 0.1,
           "sugar_g": 17.3
         },
         "missing_inputs": [
           "Few grains cayenne",
           "1  \u00bd tbsp. boiling water",
-          "1  \u00be cups pastry flour",
-          "1/2 cup fat"
+          "1  \u00be cups pastry flour"
         ],
         "assumptions": [
           "Calculated for 12 servings",
@@ -18226,17 +18199,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 72,
-          "fat_g": 0.2,
+          "calories": 80,
+          "fat_g": 1.2,
           "carbs_g": 17.2,
-          "protein_g": 0.8,
-          "sodium_mg": 142,
+          "protein_g": 0.9,
+          "sodium_mg": 149,
           "fiber_g": 0.0,
           "sugar_g": 17.0
         },
         "missing_inputs": [
-          "1  \u00bd cups pastry flour",
-          "\u215c cup fat"
+          "1  \u00bd cups pastry flour"
         ],
         "assumptions": [
           "Calculated for 12 servings",
@@ -18459,17 +18431,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 33,
-          "fat_g": 1.4,
+          "calories": 50,
+          "fat_g": 3.3,
           "carbs_g": 4.9,
           "protein_g": 0.5,
-          "sodium_mg": 29,
+          "sodium_mg": 42,
           "fiber_g": 0.3,
           "sugar_g": 4.5
         },
         "missing_inputs": [
-          "1  \u00bd cups pastry flour",
-          "1/4 cup fat"
+          "1  \u00bd cups pastry flour"
         ],
         "assumptions": [
           "Calculated for 24 servings",
@@ -18598,16 +18569,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 212,
-          "fat_g": 4.7,
+          "calories": 263,
+          "fat_g": 10.4,
           "carbs_g": 38.5,
-          "protein_g": 4.2,
-          "sodium_mg": 77,
+          "protein_g": 4.3,
+          "sodium_mg": 116,
           "fiber_g": 0.8,
           "sugar_g": 25.8
         },
         "missing_inputs": [
-          "1/4 cup fat",
           "2  squares chocolate"
         ],
         "assumptions": [
@@ -20515,11 +20485,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 89,
-          "fat_g": 5.9,
+          "calories": 85,
+          "fat_g": 5.4,
           "carbs_g": 7.8,
           "protein_g": 1.7,
-          "sodium_mg": 260,
+          "sodium_mg": 286,
           "fiber_g": 0.2,
           "sugar_g": 5.6
         },
@@ -40293,16 +40263,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 276,
-          "fat_g": 6.0,
+          "calories": 302,
+          "fat_g": 8.9,
           "carbs_g": 48.9,
           "protein_g": 11.5,
-          "sodium_mg": 707,
+          "sodium_mg": 726,
           "fiber_g": 6.0,
           "sugar_g": 7.5
         },
         "missing_inputs": [
-          "1 tbsp melted fatoroil.",
           "1 tbsp syrup."
         ],
         "assumptions": [
@@ -41282,16 +41251,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
+          "calories": 407,
+          "fat_g": 46.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 75,
+          "protein_g": 0.5,
+          "sodium_mg": 386,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 cup rye 2 cupsmilk 1 tablespoon melted fat",
           "4 tsp baking-powder 2 tablespoons cornsyrup"
         ],
         "assumptions": [
@@ -41673,19 +41641,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 194,
-          "fat_g": 0.0,
+          "calories": 600,
+          "fat_g": 46.0,
           "carbs_g": 50.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 0.5,
+          "sodium_mg": 312,
           "fiber_g": 0.0,
           "sugar_g": 50.0
         },
-        "missing_inputs": [
-          "1 cup mashed potato orGrated rind ofIlemon Jcupmelted fat"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -42033,11 +41999,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 274,
-          "fat_g": 6.8,
+          "calories": 268,
+          "fat_g": 6.0,
           "carbs_g": 57.5,
           "protein_g": 2.5,
-          "sodium_mg": 84,
+          "sodium_mg": 123,
           "fiber_g": 2.5,
           "sugar_g": 43.0
         },
@@ -42431,19 +42397,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 18,
-          "fat_g": 1.2,
+          "calories": 69,
+          "fat_g": 7.0,
           "carbs_g": 0.1,
-          "protein_g": 1.5,
-          "sodium_mg": 18,
+          "protein_g": 1.6,
+          "sodium_mg": 57,
           "fiber_g": 0.0,
           "sugar_g": 0.1
         },
-        "missing_inputs": [
-          "2 tbsp fat 1 teaspoon baking- 2 itablespoons milk"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -42698,123 +42662,45 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "egg;",
+          "item": "egg",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "butter;",
+          "item": "butter",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "Automatic Flour;",
+          "item": "flour",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "ugar;2 eggs;",
+          "item": "sugar",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "%cupsAutomatic Fi.our;",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ugar;",
-          "quantity": "1",
+          "item": "milk",
+          "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "butter",
-          "quantity": "1-3",
-          "unit": "cup",
-          "prep_note": "creamed;"
-        },
-        {
-          "item": "eggs;",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "chocolate orcocoa dissolved in>4 cup",
-          "quantity": "1-3",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "Automatic Flour;",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "vanilla.",
+          "item": "baking powder",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "eggs",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "wellbeaten;"
-        },
-        {
-          "item": "ugar;",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "Automatic Flour;",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "ugar;",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "eggs (whites only)",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "beaten \u00abtift;"
-        },
-        {
-          "item": "Automatic Flour;",
-          "quantity": "12-3",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "almond orvanilla;",
+          "item": "vanilla",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "levelteaspoon melted butter;",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "egg;",
-          "quantity": "1",
-          "unit": "",
           "prep_note": ""
         }
       ],
@@ -42875,24 +42761,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 2721,
-          "fat_g": 103.9,
-          "carbs_g": 400.3,
-          "protein_g": 45.6,
-          "sodium_mg": 754,
-          "fiber_g": 8.9,
-          "sugar_g": 151.7
+          "calories": 551,
+          "fat_g": 25.6,
+          "carbs_g": 75.6,
+          "protein_g": 6.0,
+          "sodium_mg": 221,
+          "fiber_g": 0.8,
+          "sugar_g": 51.8
         },
-        "missing_inputs": [
-          "1  egg;",
-          "1/2 cup butter;",
-          "1  %cupsAutomatic Fi.our;",
-          "1-3 cup chocolate orcocoa dissolved in>4 cup",
-          "1  levelteaspoon melted butter;",
-          "1  egg;"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -49764,22 +49643,40 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "c.bread crumbs 4 eggyolks",
+          "item": "bread crumbs",
           "quantity": "2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
           "unit": "",
           "prep_note": "beaten light"
         },
         {
-          "item": "milk 1 lemon rind",
+          "item": "lemon rind",
           "quantity": "1",
-          "unit": "qt",
+          "unit": "",
           "prep_note": "grated"
         },
         {
-          "item": "c.sugar Butter",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "sizeofanegg,melted"
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "size of an egg, melted"
         }
       ],
       "instructions": [
@@ -49815,20 +49712,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 662,
+          "fat_g": 21.8,
+          "carbs_g": 101.6,
+          "protein_g": 18.1,
+          "sodium_mg": 548,
+          "fiber_g": 2.5,
+          "sugar_g": 65.1
         },
         "missing_inputs": [
-          "2  c.bread crumbs 4 eggyolks",
-          "1 qt milk 1 lemon rind",
-          "1  c.sugar Butter"
+          "1  lemon rind"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -58632,7 +58527,7 @@
         {
           "item": "cream",
           "quantity": "3",
-          "unit": "pints",
+          "unit": "pint",
           "prep_note": ""
         },
         {
@@ -58643,27 +58538,33 @@
         },
         {
           "item": "sugar",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1",
+          "unit": "cup",
           "prep_note": "to taste"
         },
         {
           "item": "mace",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1/4",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
           "item": "nutmeg",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1/4",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
           "item": "ginger",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pie crust",
           "quantity": "",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "for shell"
         }
       ],
       "instructions": [
@@ -58710,20 +58611,18 @@
         "processed/img_5960.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 5906,
-          "fat_g": 574.2,
-          "carbs_g": 125.6,
-          "protein_g": 96.0,
-          "sodium_mg": 1221,
-          "fiber_g": 12.0,
+          "calories": 5915,
+          "fat_g": 574.6,
+          "carbs_g": 126.8,
+          "protein_g": 96.2,
+          "sodium_mg": 1222,
+          "fiber_g": 12.3,
           "sugar_g": 77.6
         },
         "missing_inputs": [
-          "mace",
-          "nutmeg",
-          "ginger"
+          "pie crust"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -58853,67 +58752,61 @@
         {
           "item": "squash",
           "quantity": "1",
-          "unit": "good",
+          "unit": "",
           "prep_note": "cored, boiled, and skinned"
         },
         {
-          "item": "large apples",
+          "item": "apples",
           "quantity": "6",
-          "unit": "",
+          "unit": "large",
           "prep_note": "pared, cored, and stewed tender"
         },
         {
-          "item": "dry bread or biscuit",
-          "quantity": "6-7",
-          "unit": "spoons",
-          "prep_note": "rendered fine as meal"
+          "item": "bread crumbs",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": "fine as meal"
         },
         {
-          "item": "milk or cream",
+          "item": "milk",
           "quantity": "1/2",
           "unit": "pint",
-          "prep_note": ""
+          "prep_note": "or cream"
         },
         {
-          "item": "rose-water",
+          "item": "rose water",
           "quantity": "2",
-          "unit": "spoons",
-          "prep_note": ""
-        },
-        {
-          "item": "wine",
-          "quantity": "2",
-          "unit": "do.",
-          "prep_note": ""
-        },
-        {
-          "item": "eggs",
-          "quantity": "5-6",
-          "unit": "",
-          "prep_note": "beaten and strained"
-        },
-        {
-          "item": "nutmeg",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "",
-          "unit": "",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
           "item": "sugar",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "to taste"
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
         },
         {
-          "item": "flour",
+          "item": "eggs",
+          "quantity": "6-8",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mace",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
           "quantity": "1",
-          "unit": "spoon",
+          "unit": "tsp",
           "prep_note": ""
         }
       ],
@@ -58959,24 +58852,19 @@
         "processed/img_5960.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 546,
-          "fat_g": 35.5,
-          "carbs_g": 14.2,
-          "protein_g": 41.0,
-          "sodium_mg": 796,
-          "fiber_g": 0.0,
-          "sugar_g": 14.2
+          "calories": 1278,
+          "fat_g": 45.7,
+          "carbs_g": 147.6,
+          "protein_g": 55.3,
+          "sodium_mg": 3225,
+          "fiber_g": 2.1,
+          "sugar_g": 120.0
         },
         "missing_inputs": [
-          "1 good squash",
-          "6  large apples",
-          "6-7 spoons dry bread or biscuit",
-          "2 spoons rose-water",
-          "2 do. wine",
-          "nutmeg",
-          "1 spoon flour"
+          "1  squash",
+          "6 large apples"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -59754,25 +59642,25 @@
           "prep_note": ""
         },
         {
-          "item": "double refined sugar",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "to sweeten"
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "refined, to sweeten"
         },
         {
           "item": "nutmeg",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1/2",
+          "unit": "tsp",
           "prep_note": "grated"
         },
         {
-          "item": "fresh milk",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "milked from the cow"
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": "fresh"
         },
         {
-          "item": "sweetest cream",
+          "item": "cream",
           "quantity": "1/2",
           "unit": "pint",
           "prep_note": "or more"
@@ -59816,21 +59704,18 @@
         "processed/img_5966.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 281,
+          "fat_g": 26.1,
+          "carbs_g": 7.9,
+          "protein_g": 5.3,
+          "sodium_mg": 75,
+          "fiber_g": 0.1,
+          "sugar_g": 7.8
         },
         "missing_inputs": [
-          "1 quart cider",
-          "nutmeg",
-          "fresh milk",
-          "1/2 pint sweetest cream"
+          "1 quart cider"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -60440,7 +60325,7 @@
           "fat_g": 3.8,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 26,
+          "sodium_mg": 236,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
@@ -60562,7 +60447,7 @@
           "fat_g": 1.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 6,
+          "sodium_mg": 322,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
@@ -60677,7 +60562,7 @@
           "fat_g": 46.0,
           "carbs_g": 1014.0,
           "protein_g": 0.4,
-          "sodium_mg": 796,
+          "sodium_mg": 5836,
           "fiber_g": 3.0,
           "sugar_g": 732.0
         },
@@ -60729,22 +60614,22 @@
           "prep_note": ""
         },
         {
-          "item": "pearl ash",
-          "quantity": "3",
-          "unit": "small spoons",
-          "prep_note": "dissolved in cream"
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "dissolved in cream (pearl ash equivalent)"
         },
         {
-          "item": "butter",
+          "item": "cream",
           "quantity": "1",
           "unit": "lb",
           "prep_note": ""
         },
         {
-          "item": "eggs",
-          "quantity": "4",
-          "unit": "",
-          "prep_note": ""
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "melted"
         }
       ],
       "instructions": [
@@ -60783,20 +60668,20 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 98,
-          "fat_g": 7.9,
-          "carbs_g": 0.4,
-          "protein_g": 6.0,
-          "sodium_mg": 90,
+          "calories": 13,
+          "fat_g": 1.4,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 325,
           "fiber_g": 0.0,
-          "sugar_g": 0.4
+          "sugar_g": 0.0
         },
         "missing_inputs": [
           "3 lb flour",
           "1  nutmeg",
           "2 oz ginger",
           "1 lb sugar",
-          "3 small spoons pearl ash"
+          "1 lb cream"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -61051,15 +60936,15 @@
         },
         {
           "item": "mace",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1/4",
+          "unit": "tsp",
           "prep_note": "a little"
         },
         {
           "item": "eggs",
           "quantity": "4",
           "unit": "",
-          "prep_note": "mixed and beat with your hand, till very light"
+          "prep_note": "mixed and beat till very light"
         },
         {
           "item": "flour",
@@ -61103,11 +60988,11 @@
         "processed/img_5974.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 98,
           "fat_g": 7.9,
-          "carbs_g": 0.4,
+          "carbs_g": 0.5,
           "protein_g": 6.0,
           "sodium_mg": 90,
           "fiber_g": 0.0,
@@ -61115,7 +61000,6 @@
         },
         "missing_inputs": [
           "3/4 lb sugar",
-          "mace",
           "1 lb flour"
         ],
         "assumptions": [

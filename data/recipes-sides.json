@@ -1682,20 +1682,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 44,
+          "calories": 46,
           "fat_g": 4.7,
           "carbs_g": 0.9,
           "protein_g": 0.3,
-          "sodium_mg": 147,
+          "sodium_mg": 333,
           "fiber_g": 0.1,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "1 lb zucchini",
-          "1 inch piece ginger",
-          "2 tbsp Sriracha sauce"
+          "1 inch piece ginger"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -14403,12 +14402,12 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 173,
+          "calories": 179,
           "fat_g": 11.7,
-          "carbs_g": 15.8,
+          "carbs_g": 16.9,
           "protein_g": 1.6,
-          "sodium_mg": 80,
-          "fiber_g": 0.4,
+          "sodium_mg": 79,
+          "fiber_g": 0.2,
           "sugar_g": 0.0
         },
         "missing_inputs": [
@@ -20949,28 +20948,34 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "milk.",
+          "item": "milk",
           "quantity": "2",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "finely chopped bacon orham fat.",
+          "item": "bacon",
           "quantity": "2",
           "unit": "tbsp",
-          "prep_note": ""
+          "prep_note": "finely chopped (or ham fat)"
         },
         {
-          "item": "level tablespoon ofsalt.",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "finely chopped parsley orcelery tops.",
+          "item": "salt",
           "quantity": "1",
           "unit": "tbsp",
           "prep_note": ""
+        },
+        {
+          "item": "parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "finely chopped (or celery tops)"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "4",
+          "unit": "medium",
+          "prep_note": "sliced"
         }
       ],
       "instructions": [
@@ -21014,20 +21019,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 74,
-          "fat_g": 4.0,
-          "carbs_g": 6.0,
-          "protein_g": 4.0,
-          "sodium_mg": 52,
-          "fiber_g": 0.0,
-          "sugar_g": 6.0
+          "calories": 238,
+          "fat_g": 4.2,
+          "carbs_g": 43.1,
+          "protein_g": 8.0,
+          "sodium_mg": 1810,
+          "fiber_g": 4.0,
+          "sugar_g": 8.0
         },
         "missing_inputs": [
-          "2 tbsp finely chopped bacon orham fat.",
-          "1  level tablespoon ofsalt.",
-          "1 tbsp finely chopped parsley orcelery tops."
+          "2 tbsp bacon"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -22994,20 +22997,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
+          "calories": 102,
+          "fat_g": 11.5,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 581,
+          "protein_g": 0.1,
+          "sodium_mg": 659,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 tbsp hotfat Bowl",
-          "1  When allthechicken hasbeentaken from thefrying-",
-          "2 tbsp ofthehotfatinwhich thechicken"
+          "1  When allthechicken hasbeentaken from thefrying-"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -28381,12 +28382,12 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 89,
+          "calories": 91,
           "fat_g": 5.1,
-          "carbs_g": 9.1,
+          "carbs_g": 9.5,
           "protein_g": 1.5,
           "sodium_mg": 230,
-          "fiber_g": 0.7,
+          "fiber_g": 0.6,
           "sugar_g": 1.3
         },
         "missing_inputs": [
