@@ -953,19 +953,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 76,
-          "fat_g": 7.2,
-          "carbs_g": 2.7,
-          "protein_g": 0.5,
-          "sodium_mg": 1,
+          "calories": 109,
+          "fat_g": 9.9,
+          "carbs_g": 2.9,
+          "protein_g": 2.5,
+          "sodium_mg": 55,
           "fiber_g": 0.9,
           "sugar_g": 0.8
         },
-        "missing_inputs": [
-          "1/2 cup grated parmesan"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
@@ -28673,11 +28671,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 192,
-          "fat_g": 14.5,
-          "carbs_g": 8.0,
-          "protein_g": 8.1,
-          "sodium_mg": 649,
+          "calories": 204,
+          "fat_g": 15.6,
+          "carbs_g": 8.1,
+          "protein_g": 8.8,
+          "sodium_mg": 663,
           "fiber_g": 1.2,
           "sugar_g": 3.9
         },
