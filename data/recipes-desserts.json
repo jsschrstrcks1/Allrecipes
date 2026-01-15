@@ -148,20 +148,17 @@
         "Refrigerate until ready to serve, then sprinkle with the cereal."
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 268,
-          "fat_g": 14.5,
-          "carbs_g": 31.8,
-          "protein_g": 3.4,
-          "sodium_mg": 116,
-          "fiber_g": 0.8,
-          "sugar_g": 22.9
+          "calories": 291,
+          "fat_g": 15.1,
+          "carbs_g": 36.7,
+          "protein_g": 4.5,
+          "sodium_mg": 142,
+          "fiber_g": 1.7,
+          "sugar_g": 24.4
         },
         "missing_inputs": [
-          "1 3/4 cups cups crispy rice cereal",
-          "3/4 cup Dutch-process cocoa powder",
-          "1/2 cup malted milk powder",
           "3/4 tsp fine salt"
         ],
         "assumptions": [
@@ -321,7 +318,7 @@
           "protein_g": 2.3,
           "sodium_mg": 133,
           "fiber_g": 0.7,
-          "sugar_g": 14.8
+          "sugar_g": 14.0
         },
         "missing_inputs": [
           "1/2 cup cream of coconut",
@@ -460,16 +457,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 289,
-          "fat_g": 6.6,
-          "carbs_g": 55.1,
-          "protein_g": 2.9,
-          "sodium_mg": 155,
-          "fiber_g": 0.4,
+          "calories": 297,
+          "fat_g": 7.1,
+          "carbs_g": 57.1,
+          "protein_g": 3.6,
+          "sodium_mg": 156,
+          "fiber_g": 1.6,
           "sugar_g": 42.6
         },
         "missing_inputs": [
-          "1 cup Dutch-process cocoa powder",
           "1/2 cup creamy peanut butter",
           "10 oz bags, 2 peanut butter chips"
         ],
@@ -791,16 +787,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 296,
-          "fat_g": 5.9,
-          "carbs_g": 59.0,
-          "protein_g": 3.1,
-          "sodium_mg": 164,
-          "fiber_g": 1.1,
-          "sugar_g": 45.6
+          "calories": 305,
+          "fat_g": 6.4,
+          "carbs_g": 61.0,
+          "protein_g": 3.8,
+          "sodium_mg": 165,
+          "fiber_g": 2.3,
+          "sugar_g": 42.7
         },
         "missing_inputs": [
-          "1 cup Dutch-process cocoa powder",
           "1/4 cup vegetable shortening or cocoa butter, softened"
         ],
         "assumptions": [
@@ -930,16 +925,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 224,
-          "fat_g": 12.2,
-          "carbs_g": 26.7,
-          "protein_g": 2.1,
+          "calories": 228,
+          "fat_g": 12.5,
+          "carbs_g": 27.6,
+          "protein_g": 2.4,
           "sodium_mg": 107,
-          "fiber_g": 0.4,
+          "fiber_g": 1.0,
           "sugar_g": 20.0
         },
         "missing_inputs": [
-          "1/2 cup Dutch-process cocoa powder",
           "10 oz bag peanut butter chips"
         ],
         "assumptions": [
@@ -1614,18 +1608,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 18,
-          "fat_g": 0.1,
-          "carbs_g": 4.5,
-          "protein_g": 0.3,
-          "sodium_mg": 0,
-          "fiber_g": 0.1,
-          "sugar_g": 2.9
+          "calories": 67,
+          "fat_g": 0.4,
+          "carbs_g": 17.0,
+          "protein_g": 1.0,
+          "sodium_mg": 2,
+          "fiber_g": 1.4,
+          "sugar_g": 14.4
         },
         "missing_inputs": [
-          "4 cups cubed peeled ripe mango (about 3 pounds)",
           "1/4 cup tequila",
           "1/4 cup light agave nectar"
         ],
@@ -2920,7 +2913,7 @@
           "protein_g": 2.4,
           "sodium_mg": 13,
           "fiber_g": 0.6,
-          "sugar_g": 11.8
+          "sugar_g": 11.3
         },
         "missing_inputs": [
           "2 tbsp coffee-flavored liqueur",
@@ -3027,7 +3020,7 @@
         "per_serving": {
           "calories": 66,
           "fat_g": 3.1,
-          "carbs_g": 8.3,
+          "carbs_g": 8.4,
           "protein_g": 1.3,
           "sodium_mg": 30,
           "fiber_g": 0.2,
@@ -3143,11 +3136,11 @@
         "per_serving": {
           "calories": 92,
           "fat_g": 5.6,
-          "carbs_g": 10.7,
+          "carbs_g": 10.6,
           "protein_g": 1.1,
           "sodium_mg": 44,
           "fiber_g": 0.9,
-          "sugar_g": 9.7
+          "sugar_g": 9.2
         },
         "missing_inputs": [
           "Coarse sugar crystals, for decorating"
@@ -3437,20 +3430,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 151,
-          "fat_g": 9.9,
-          "carbs_g": 13.8,
-          "protein_g": 1.5,
-          "sodium_mg": 109,
-          "fiber_g": 0.3,
-          "sugar_g": 6.5
+          "calories": 164,
+          "fat_g": 10.3,
+          "carbs_g": 16.3,
+          "protein_g": 2.1,
+          "sodium_mg": 124,
+          "fiber_g": 0.6,
+          "sugar_g": 8.1
         },
-        "missing_inputs": [
-          "1/4 cup Dutch-process cocoa powder, plus more for dusting (optional)",
-          "1/2 cup malted milk powder"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 20 servings"
         ]
@@ -3551,16 +3541,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 104,
-          "fat_g": 3.4,
-          "carbs_g": 17.2,
-          "protein_g": 1.3,
+          "calories": 106,
+          "fat_g": 3.5,
+          "carbs_g": 17.7,
+          "protein_g": 1.5,
           "sodium_mg": 80,
-          "fiber_g": 0.2,
+          "fiber_g": 0.5,
           "sugar_g": 11.2
         },
         "missing_inputs": [
-          "1/4 cup Dutch-process cocoa powder",
           "1/2 cup white chocolate chips"
         ],
         "assumptions": [
@@ -3905,7 +3894,7 @@
           "protein_g": 0.3,
           "sodium_mg": 36,
           "fiber_g": 0.0,
-          "sugar_g": 23.1
+          "sugar_g": 21.6
         },
         "missing_inputs": [
           "1 tsp fine fleur de sel, plus extra for sprinkling"
@@ -4127,7 +4116,7 @@
           "protein_g": 4.8,
           "sodium_mg": 259,
           "fiber_g": 0.7,
-          "sugar_g": 36.1
+          "sugar_g": 33.4
         },
         "missing_inputs": [
           "1 2-inch piece fresh ginger, peeled and coarsely chopped",
@@ -4384,13 +4373,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 2555,
+          "calories": 2554,
           "fat_g": 124.1,
-          "carbs_g": 344.0,
+          "carbs_g": 343.8,
           "protein_g": 29.8,
-          "sodium_mg": 1694,
+          "sodium_mg": 1693,
           "fiber_g": 9.6,
-          "sugar_g": 270.1
+          "sugar_g": 263.9
         },
         "missing_inputs": [
           "1 cup plus 2 tbsp  unsweetened Dutch-process cocoa powder",
@@ -15000,13 +14989,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 283,
-          "fat_g": 22.8,
-          "carbs_g": 7.9,
-          "protein_g": 14.1,
+          "calories": 284,
+          "fat_g": 24.1,
+          "carbs_g": 8.9,
+          "protein_g": 11.1,
           "sodium_mg": 72,
-          "fiber_g": 1.6,
-          "sugar_g": 0.7
+          "fiber_g": 2.1,
+          "sugar_g": 1.1
         },
         "missing_inputs": [
           "1  \u00bd cups sugar",
@@ -16590,17 +16579,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 131,
+          "calories": 132,
           "fat_g": 5.2,
-          "carbs_g": 12.3,
+          "carbs_g": 12.6,
           "protein_g": 8.9,
           "sodium_mg": 527,
-          "fiber_g": 1.5,
-          "sugar_g": 3.5
+          "fiber_g": 1.6,
+          "sugar_g": 3.6
         },
         "missing_inputs": [
-          "3  \u00bc cups sour cream",
-          "3 tbsp chopped pimiento"
+          "3  \u00bc cups sour cream"
         ],
         "assumptions": [
           "Calculated for 8 servings",
@@ -25150,7 +25138,7 @@
           "protein_g": 8.5,
           "sodium_mg": 233,
           "fiber_g": 0.0,
-          "sugar_g": 175.4
+          "sugar_g": 151.4
         },
         "missing_inputs": [
           "3  squares (ounces) unsweetened chocolate"
@@ -39358,20 +39346,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 113,
-          "fat_g": 0.1,
-          "carbs_g": 29.8,
-          "protein_g": 1.3,
+          "calories": 304,
+          "fat_g": 19.1,
+          "carbs_g": 33.8,
+          "protein_g": 5.8,
           "sodium_mg": 5,
-          "fiber_g": 1.3,
-          "sugar_g": 22.3
+          "fiber_g": 3.3,
+          "sugar_g": 23.0
         },
         "missing_inputs": [
           "1 cup dates after stone isremoved.",
-          "1 cup figs.",
-          "1 cup English walnuts orpecans."
+          "1 cup figs."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -44620,20 +44607,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 64,
+          "fat_g": 3.0,
+          "carbs_g": 8.5,
+          "protein_g": 1.0,
+          "sodium_mg": 184,
+          "fiber_g": 0.2,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "2 cup strawberries Bowl",
           "5  icuppowdered sugar Potato-masher",
           "3 tbsp butter Pie-pan",
           "1  Stem theberries",
-          "2  Prepare thebiscuit dough inaccordance with the",
           "3  Divide thedough intotwo parts"
         ],
         "assumptions": [
