@@ -8732,7 +8732,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 16,
           "fat_g": 0.0,
@@ -8744,8 +8744,7 @@
         },
         "missing_inputs": [
           "1 pkg frozen rhubarb",
-          "1 pkg frozen strawberries",
-          "Red vegetable coloring"
+          "1 pkg frozen strawberries"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -12223,19 +12222,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 16,
+          "calories": 19,
           "fat_g": 1.0,
-          "carbs_g": 2.0,
+          "carbs_g": 2.6,
           "protein_g": 0.0,
-          "sodium_mg": 6,
+          "sodium_mg": 7,
           "fiber_g": 0.0,
-          "sugar_g": 2.0
+          "sugar_g": 2.4
         },
-        "missing_inputs": [
-          "1 tsp salt Fewgrains cayenne Yolks"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12299,19 +12296,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 17,
+          "calories": 19,
           "fat_g": 1.4,
-          "carbs_g": 1.1,
+          "carbs_g": 1.7,
           "protein_g": 0.1,
           "sodium_mg": 1,
           "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "sugar_g": 1.6
         },
-        "missing_inputs": [
-          "1 tsp salt Fewgrains pepper Jcuphotvinegar"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -14124,7 +14119,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
@@ -14134,9 +14129,7 @@
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Five tablespoons offinely chopped parsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

@@ -5671,6 +5671,136 @@ def normalize_ingredient(item):
         "gorgonzola cheese": "blue cheese",
         "rocket": "arugula",
         "arugula": "lettuce",
+
+        # Batch 8 - Historical OCR patterns
+        # Space-in-word OCR artifacts
+        "cinna mon": "cinnamon",
+        "ap ples": "apples",
+        "appl e": "apple",
+        "almo nds": "almonds",
+        "all-purp ose flour": "flour",
+        "quick-cooki ng oats": "oats",
+        "semi- sweet": "semi-sweet",
+        "semi-sweet real chocolate": "chocolate chips",
+        "choco late": "chocolate",
+        "marga rine": "margarine",
+
+        # "fuls" suffix patterns (historical measurement)
+        "cup ful": "cup",
+        "cupful": "cup",
+        "cupsful": "cups",
+        "cup fuls": "cups",
+        "tbsp ful": "tbsp",
+        "tablespoonful": "tbsp",
+        "tablespoonfuls": "tbsp",
+        "teaspoonful": "tsp",
+        "teaspoonfuls": "tsp",
+        "^teaspoonful": "tsp",
+        "^cupsful": "cups",
+
+        # Measurement abbreviations with periods/spaces
+        "lb s.": "lb",
+        "tsp s.": "tsp",
+
+        # Brand names
+        "land o lakes ® butter": "butter",
+        "land o lakes ® margarine": "margarine",
+        "land o lakes": "butter",
+
+        # Frozen/packaged items
+        "pkg frozen green shrimp": "shrimp",
+        "frozen green shrimp": "shrimp",
+        "pkg frozen rhubarb": "rhubarb",
+        "frozen rhubarb": "rhubarb",
+        "pkg frozen strawberries": "strawberries",
+        "frozen strawberries": "strawberries",
+        "red vegetable coloring": "garnish",
+        "vegetable coloring": "garnish",
+
+        # Descriptors that should map to base ingredient
+        "finely diced celery": "celery",
+        "finely chopped": "garnish",
+        "chopped sweet pickle": "pickle",
+        "rounds of toast": "bread",
+        "round of toast": "bread",
+        "cut up": "garnish",
+        "chicken cut up": "chicken",
+        "butter for frying": "butter",
+        "for frying": "garnish",
+        "boiled rice": "rice",
+        "beaten lightly": "garnish",
+        "egg beaten lightly": "egg",
+        "level cups flour": "flour",
+        "level teaspoons": "tsp",
+        "level tablespoons": "tbsp",
+        "small pinch each of thyme": "thyme",
+        "small pinch": "garnish",
+        "chopped olive": "olives",
+        "chopped spanish pepper": "bell pepper",
+        "spanish pepper": "bell pepper",
+
+        # OCR garbage to filter
+        "^^^^": "garnish",
+        "pure food recipes": "garnish",
+        "dark leaves outside": "garnish",
+        "incenter": "garnish",
+        "asifhalf": "garnish",
+
+        # Combined columns (treat as first item or garnish)
+        "pkg crescent rolls": "biscuit",
+        "crescent rolls": "biscuit",
+        "can crescent rolls": "biscuit",
+        "jar pizza sauce": "pizza sauce",
+        "shredded cheddar cheese": "cheddar cheese",
+        "shredded mozzarella cheese": "mozzarella cheese",
+        "ground beef": "ground beef",
+        "diced ham": "ham",
+        "c diced ham": "ham",
+        "jar pimento": "pimento",
+        "oz) pimento": "pimento",
+        "jar stuffed green": "olives",
+        "stuffed green": "olives",
+        "white pepper": "pepper",
+        "tsp white pepper": "pepper",
+        "light molasses": "molasses",
+        "c light molasses": "molasses",
+        "tsp salt": "salt",
+        "tsp pepper": "pepper",
+        "frier chicken": "chicken",
+        "lb frier chicken": "chicken",
+        "prepared mustard": "mustard",
+        "tbs prepared mustard": "mustard",
+        "tsp vanilla": "vanilla",
+        "unbaked pie shell": "pie crust",
+        "rains": "raisins",
+        "c rains": "raisins",
+        "dressing ofchoice": "garnish",
+        "sliced banana": "banana",
+        "cup sliced banana": "banana",
+        "strawberry gelatin": "gelatin",
+        "cup strawberry gelatin": "gelatin",
+        "finely cutapple": "apple",
+        "cutapple": "apple",
+
+        # Missing spaces OCR
+        "ofveal": "veal",
+        "ofchopped": "garnish",
+        "ofsalt": "salt",
+        "offlour": "flour",
+        "ofsugar": "sugar",
+        "ofbutter": "butter",
+        "ofmilk": "milk",
+
+        # Gooseberries and other fruits
+        "ripe gooseberries": "gooseberries",
+        "gooseberries": "grapes",
+
+        # Fraction artifacts from number stripping
+        "/4 stick celery": "celery",
+        "/2 stick celery": "celery",
+        "stick celery": "celery",
+        "/4 stick": "garnish",
+        "/2 stick": "garnish",
     }
 
     # Check for exact match first
