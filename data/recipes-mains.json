@@ -1127,72 +1127,86 @@
         {
           "item": "olive oil",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": ""
         },
         {
-          "item": "frozen pepper stir-fry (such as Bird's Eye)",
+          "item": "mixed vegetables",
           "quantity": "2",
-          "unit": "cups (16-oz bag)"
+          "unit": "cups",
+          "prep_note": "frozen pepper stir-fry"
         },
         {
-          "item": "canned diced tomatoes",
+          "item": "diced tomatoes",
           "quantity": "2",
-          "unit": "14.5-oz cans"
+          "unit": "cans",
+          "prep_note": "14.5-oz cans"
         },
         {
-          "item": "drained, chopped green chiles",
+          "item": "green chiles",
           "quantity": "1",
-          "unit": "4-oz can"
+          "unit": "can",
+          "prep_note": "4-oz, drained and chopped"
         },
         {
-          "item": "sodium-free chicken fat-free, less-sodium chicken broth",
-          "quantity": "1",
-          "unit": "32-oz carton"
+          "item": "chicken broth",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "low-sodium"
         },
         {
-          "item": "shredded yellow squash",
+          "item": "yellow squash",
           "quantity": "1 1/2",
-          "unit": "cups"
+          "unit": "cups",
+          "prep_note": "shredded"
         },
         {
-          "item": "uncooked long-grain white rice",
+          "item": "rice",
           "quantity": "3/4",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "uncooked long-grain white"
         },
         {
-          "item": "chopped sweet onion",
+          "item": "onion",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "sweet, chopped"
         },
         {
-          "item": "salt, divided",
+          "item": "salt",
           "quantity": "1",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": "divided"
         },
         {
-          "item": "freshly ground black pepper, divided",
+          "item": "black pepper",
           "quantity": "1",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": "freshly ground, divided"
         },
         {
-          "item": "large egg",
+          "item": "egg",
           "quantity": "1",
-          "unit": ""
+          "unit": "",
+          "prep_note": "large"
         },
         {
-          "item": "fresh lime juice",
+          "item": "lime juice",
           "quantity": "2",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": "fresh"
         },
         {
-          "item": "boneless, skinless chicken breast, trimmed and cut into 3/4-inch pieces",
+          "item": "chicken breast",
           "quantity": "1",
-          "unit": "lb (1-pound)"
+          "unit": "lb",
+          "prep_note": "boneless skinless, cut into 3/4-inch pieces"
         },
         {
           "item": "ground turkey",
           "quantity": "1",
-          "unit": "lb"
+          "unit": "lb",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -1229,21 +1243,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 118,
-          "fat_g": 5.6,
-          "carbs_g": 2.3,
-          "protein_g": 14.1,
-          "sodium_mg": 243,
-          "fiber_g": 0.5,
-          "sugar_g": 1.1
+          "calories": 185,
+          "fat_g": 6.3,
+          "carbs_g": 8.6,
+          "protein_g": 22.6,
+          "sodium_mg": 612,
+          "fiber_g": 1.6,
+          "sugar_g": 2.0
         },
-        "missing_inputs": [
-          "2 cups (16-oz bag) frozen pepper stir-fry (such as Bird's Eye)",
-          "1 4-oz can drained, chopped green chiles",
-          "1 32-oz carton sodium-free chicken fat-free, less-sodium chicken broth"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -13590,16 +13600,16 @@
       "total_time": "50-60 minutes",
       "ingredients": [
         {
-          "item": "savory deep dish pie crust",
+          "item": "pie crust",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "deep dish"
         },
         {
-          "item": "fresh button mushrooms",
+          "item": "mushrooms",
           "quantity": "3",
           "unit": "cups",
-          "prep_note": "chopped"
+          "prep_note": "fresh button, chopped"
         },
         {
           "item": "garlic",
@@ -13608,37 +13618,37 @@
           "prep_note": "minced"
         },
         {
-          "item": "sweet onion",
+          "item": "onion",
           "quantity": "1",
           "unit": "large",
-          "prep_note": "chopped"
+          "prep_note": "sweet, chopped"
         },
         {
-          "item": "unsalted butter",
+          "item": "butter",
           "quantity": "2",
           "unit": "tbsp",
-          "prep_note": ""
+          "prep_note": "unsalted"
         },
         {
-          "item": "mixed fresh herbs",
+          "item": "parsley",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": "such as thyme, oregano, sage, parsley and chives"
+          "prep_note": "mixed fresh herbs: thyme, oregano, sage, chives"
         },
         {
-          "item": "shredded Swiss cheese",
+          "item": "swiss cheese",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "shredded"
         },
         {
-          "item": "large eggs",
+          "item": "eggs",
           "quantity": "4",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "large"
         },
         {
-          "item": "half and half cream",
+          "item": "half and half",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -13700,20 +13710,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 206,
-          "fat_g": 15.0,
-          "carbs_g": 6.3,
-          "protein_g": 12.6,
-          "sodium_mg": 198,
-          "fiber_g": 1.0,
-          "sugar_g": 2.5
+          "calories": 270,
+          "fat_g": 20.6,
+          "carbs_g": 8.5,
+          "protein_g": 14.1,
+          "sodium_mg": 219,
+          "fiber_g": 1.1,
+          "sugar_g": 4.5
         },
         "missing_inputs": [
-          "1  savory deep dish pie crust",
-          "1/4 cup mixed fresh herbs",
-          "1 cup half and half cream"
+          "1  pie crust"
         ],
         "assumptions": [
           "Calculated for 5 servings"
@@ -105343,17 +105351,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1334,
-          "fat_g": 55.0,
-          "carbs_g": 195.3,
-          "protein_g": 16.0,
-          "sodium_mg": 499,
-          "fiber_g": 3.4,
-          "sugar_g": 100.6
+          "calories": 1405,
+          "fat_g": 61.7,
+          "carbs_g": 198.3,
+          "protein_g": 16.8,
+          "sodium_mg": 503,
+          "fiber_g": 5.2,
+          "sugar_g": 101.9
         },
         "missing_inputs": [
-          "1  \u00bd tsp. baking powder",
-          "1 cup moist shredded coconut (cut up any long shreds)"
+          "1  \u00bd tsp. baking powder"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -109804,22 +109811,22 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "pounded chick en breast",
+          "item": "chicken breast",
           "quantity": "10",
           "unit": "oz",
-          "prep_note": ""
+          "prep_note": "pounded"
         },
         {
-          "item": "d mushrooms",
+          "item": "mushrooms",
           "quantity": "3",
-          "unit": "slice",
+          "unit": "slices",
           "prep_note": ""
         },
         {
-          "item": "diced tomato",
+          "item": "tomato",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "diced"
         },
         {
           "item": "mustard",
@@ -109834,7 +109841,7 @@
           "prep_note": ""
         },
         {
-          "item": "cream",
+          "item": "heavy cream",
           "quantity": "3",
           "unit": "oz",
           "prep_note": ""
@@ -109884,8 +109891,8 @@
           "sugar_g": 17.9
         },
         "missing_inputs": [
-          "3 slice d mushrooms",
-          "3 oz cream"
+          "3 slices mushrooms",
+          "3 oz heavy cream"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -111632,28 +111639,28 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "boneless chicken breasts",
+          "item": "chicken breast",
           "quantity": "3",
           "unit": "",
+          "prep_note": "boneless"
+        },
+        {
+          "item": "apple juice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "or peach juice"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
           "prep_note": ""
         },
         {
-          "item": "baby juice (Apple or peach juice)",
-          "quantity": "2",
-          "unit": "jars",
-          "prep_note": ""
-        },
-        {
-          "item": "One clove",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "baby food peaches",
-          "quantity": "2",
-          "unit": "jars",
-          "prep_note": ""
+          "item": "peaches",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "pureed"
         }
       ],
       "instructions": [
@@ -111685,20 +111692,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 140,
+          "calories": 156,
           "fat_g": 3.0,
-          "carbs_g": 0.0,
-          "protein_g": 26.2,
-          "sodium_mg": 64,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 3.8,
+          "protein_g": 26.3,
+          "sodium_mg": 65,
+          "fiber_g": 0.1,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
-          "2 jars baby juice (Apple or peach juice)",
-          "One clove",
-          "2 jars baby food peaches"
+          "1/2 cup peaches"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -121079,13 +121084,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "boneless chicken breasts",
-          "quantity": "3-6",
+          "item": "chicken breast",
+          "quantity": "4",
           "unit": "",
-          "prep_note": "cu t into 2-3 inch strips"
+          "prep_note": "boneless, cut into 2-3 inch strips"
         },
         {
-          "item": "Swiss cheese",
+          "item": "swiss cheese",
           "quantity": "6",
           "unit": "slices",
           "prep_note": ""
@@ -121099,20 +121104,20 @@
         {
           "item": "milk",
           "quantity": "1/2",
-          "unit": "can",
-          "prep_note": ""
-        },
-        {
-          "item": "mixed stuffing",
-          "quantity": "2",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "melted butter",
+          "item": "stuffing mix",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "melted"
         }
       ],
       "instructions": [
@@ -121140,20 +121145,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 369,
-          "fat_g": 19.5,
-          "carbs_g": 4.5,
-          "protein_g": 41.0,
-          "sodium_mg": 614,
-          "fiber_g": 0.2,
-          "sugar_g": 0.5
+          "calories": 542,
+          "fat_g": 28.5,
+          "carbs_g": 28.0,
+          "protein_g": 40.6,
+          "sodium_mg": 1160,
+          "fiber_g": 1.8,
+          "sugar_g": 4.0
         },
         "missing_inputs": [
-          "6 slices Swiss cheese",
-          "1/2 can milk",
-          "2 cup mixed stuffing"
+          "6 slices swiss cheese"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -130515,19 +130518,19 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "olive or vegetable oil",
+          "item": "vegetable oil",
           "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "red pepper flakes",
+          "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "or dried red chilies"
         },
         {
-          "item": "\u00bc cup chili \ufb02akes or dried red chilies",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Sichuan or regular peppercorns",
+          "item": "sichuan peppercorns",
           "quantity": "2",
           "unit": "tsp",
           "prep_note": ""
@@ -130539,22 +130542,22 @@
           "prep_note": ""
         },
         {
-          "item": "cumin seeds",
+          "item": "cumin",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": ""
+          "prep_note": "seeds"
         },
         {
-          "item": "\u00bd tsp salt",
-          "quantity": "1",
+          "item": "salt",
+          "quantity": "1/2",
           "unit": "tsp",
-          "prep_note": "[quantity inferred]"
+          "prep_note": ""
         },
         {
           "item": "garlic",
           "quantity": "2",
           "unit": "cloves",
-          "prep_note": "peeled and squishedUse this spice oil on salads, in cold noodle"
+          "prep_note": "peeled and squished"
         }
       ],
       "instructions": [
@@ -130616,17 +130619,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 961,
-          "fat_g": 108.1,
-          "carbs_g": 1.4,
-          "protein_g": 0.2,
-          "sodium_mg": 582,
-          "fiber_g": 0.4,
+          "calories": 972,
+          "fat_g": 109.3,
+          "carbs_g": 1.5,
+          "protein_g": 0.3,
+          "sodium_mg": 292,
+          "fiber_g": 0.3,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "\u00bc cup chili \ufb02akes or dried red chilies",
-          "1 tsp cumin seeds"
+          "1/4 cup red pepper flakes"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -141233,33 +141235,63 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "beef tips",
+          "item": "beef stew meat",
           "quantity": "2",
           "unit": "lb",
-          "prep_note": "2\" cubes 2 tsp paprika"
+          "prep_note": "2\" cubes"
         },
         {
-          "item": "onion 1-1/2 tsp salt",
+          "item": "paprika",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
           "quantity": "1",
           "unit": "small",
           "prep_note": ""
         },
         {
-          "item": "tbs Wesson oil 1/4 tsp pepper",
-          "quantity": "3",
-          "unit": "",
+          "item": "salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "whole tomatoes 1 c sour cream",
+          "item": "vegetable oil",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "whole tomatoes",
           "quantity": "1",
           "unit": "can",
           "prep_note": ""
         },
         {
-          "item": "whole mushrooms 2 tbs flour",
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mushrooms",
           "quantity": "4",
           "unit": "oz",
+          "prep_note": "whole"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp",
           "prep_note": ""
         }
       ],
@@ -141296,19 +141328,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 558,
-          "fat_g": 26.9,
-          "carbs_g": 23.2,
-          "protein_g": 57.2,
-          "sodium_mg": 142,
-          "fiber_g": 1.2,
-          "sugar_g": 0.8
+          "calories": 608,
+          "fat_g": 38.2,
+          "carbs_g": 12.3,
+          "protein_g": 57.7,
+          "sodium_mg": 1183,
+          "fiber_g": 2.1,
+          "sugar_g": 5.1
         },
-        "missing_inputs": [
-          "1 small onion 1-1/2 tsp salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -164506,28 +164536,52 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "ful Crisco 1 tablespoonfid ginger",
+          "item": "shortening",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "ful molasses }4 teaspoonful salt",
+          "item": "ginger",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "ground"
+        },
+        {
+          "item": "molasses",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "ful brown sugar 1 teaspoonful soda",
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "Ggg.beaten light flour asneeded",
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "beaten light"
+        },
+        {
+          "item": "flour",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "as needed"
         }
       ],
       "instructions": [
@@ -164571,21 +164625,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 453,
-          "fat_g": 51.2,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 1254,
+          "fat_g": 53.4,
+          "carbs_g": 185.3,
+          "protein_g": 11.4,
+          "sodium_mg": 511,
+          "fiber_g": 2.7,
+          "sugar_g": 96.2
         },
-        "missing_inputs": [
-          "1 cup ful molasses }4 teaspoonful salt",
-          "1 cup ful brown sugar 1 teaspoonful soda",
-          "1  Ggg.beaten light flour asneeded"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -171439,17 +171489,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 11,
+          "calories": 12,
           "fat_g": 0.0,
-          "carbs_g": 2.5,
-          "protein_g": 0.2,
+          "carbs_g": 2.8,
+          "protein_g": 0.3,
           "sodium_mg": 1,
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
         "missing_inputs": [
-          "One carrot, sliced thin.",
-          "One clove."
+          "One carrot, sliced thin."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -172234,16 +172283,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 1,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 581,
+          "carbs_g": 0.2,
+          "protein_g": 0.1,
+          "sodium_mg": 582,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "One clove,",
           "Three branches ofparsley."
         ],
         "assumptions": [

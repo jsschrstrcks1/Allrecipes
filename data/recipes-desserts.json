@@ -953,69 +953,82 @@
       "total_time": "1 hr 30 min",
       "ingredients": [
         {
-          "item": "all-purpose flour",
+          "item": "flour",
           "quantity": "3/4",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "all-purpose"
         },
         {
-          "item": "instant oatmeal packets plain (about 2/3 cup)",
-          "quantity": "2",
-          "unit": "1-oz"
+          "item": "instant oatmeal",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": "plain"
         },
         {
-          "item": "ground walnuts",
+          "item": "walnuts",
           "quantity": "1/3",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "ground"
         },
         {
           "item": "sugar",
           "quantity": "1/4",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
         },
         {
           "item": "salt",
-          "quantity": "",
-          "unit": "pinch"
-        },
-        {
-          "item": "unsalted butter",
           "quantity": "1",
-          "unit": "stick"
+          "unit": "pinch",
+          "prep_note": ""
         },
         {
-          "item": "semisweet chocolate, finely chopped",
+          "item": "butter",
+          "quantity": "1",
+          "unit": "stick",
+          "prep_note": "unsalted"
+        },
+        {
+          "item": "chocolate chips",
           "quantity": "2",
-          "unit": "oz"
+          "unit": "oz",
+          "prep_note": "semisweet, finely chopped"
         },
         {
           "item": "heavy cream",
           "quantity": "1 1/2",
-          "unit": "cups"
+          "unit": "cups",
+          "prep_note": ""
         },
         {
-          "item": "instant oatmeal packet plain (about 1/3 cup)",
-          "quantity": "1",
-          "unit": "1-oz"
+          "item": "instant oatmeal",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "plain"
         },
         {
           "item": "sugar",
           "quantity": "1/3",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
         },
         {
           "item": "vanilla extract",
           "quantity": "1",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
-          "item": "freshly grated nutmeg",
+          "item": "nutmeg",
           "quantity": "1/4",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": "freshly grated"
         },
         {
-          "item": "bananas, thinly sliced",
+          "item": "banana",
           "quantity": "2",
-          "unit": ""
+          "unit": "",
+          "prep_note": "thinly sliced"
         }
       ],
       "instructions": [
@@ -1054,17 +1067,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 678,
-          "fat_g": 42.1,
-          "carbs_g": 71.5,
-          "protein_g": 7.9,
-          "sodium_mg": 148,
-          "fiber_g": 3.8,
-          "sugar_g": 39.2
+          "calories": 710,
+          "fat_g": 43.5,
+          "carbs_g": 74.6,
+          "protein_g": 8.3,
+          "sodium_mg": 102,
+          "fiber_g": 3.6,
+          "sugar_g": 32.5
         },
         "missing_inputs": [
-          "1/3 cup ground walnuts",
-          "2  bananas, thinly sliced"
+          "2 oz chocolate chips",
+          "2  banana"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -3133,13 +3146,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 92,
-          "fat_g": 5.6,
-          "carbs_g": 10.6,
+          "calories": 77,
+          "fat_g": 5.1,
+          "carbs_g": 8.0,
           "protein_g": 1.1,
-          "sodium_mg": 44,
-          "fiber_g": 0.9,
-          "sugar_g": 9.2
+          "sodium_mg": 25,
+          "fiber_g": 1.1,
+          "sugar_g": 6.3
         },
         "missing_inputs": [
           "Coarse sugar crystals, for decorating"
@@ -4372,13 +4385,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 2554,
-          "fat_g": 124.1,
-          "carbs_g": 343.8,
+          "calories": 2485,
+          "fat_g": 121.9,
+          "carbs_g": 331.8,
           "protein_g": 29.8,
-          "sodium_mg": 1693,
-          "fiber_g": 9.6,
-          "sugar_g": 263.9
+          "sodium_mg": 1608,
+          "fiber_g": 10.7,
+          "sugar_g": 250.8
         },
         "missing_inputs": [
           "1 cup plus 2 tbsp  unsweetened Dutch-process cocoa powder",
@@ -11360,39 +11373,39 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bd cups yellow corn meal",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "cornmeal",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "yellow"
         },
         {
-          "item": "\u00be cup flour",
-          "quantity": "",
-          "unit": "",
+          "item": "flour",
+          "quantity": "3/4",
+          "unit": "cup",
           "prep_note": "sifted"
         },
         {
-          "item": "\u00bd tsp. baking powder",
-          "quantity": "1",
-          "unit": "",
+          "item": "baking powder",
+          "quantity": "1 1/2",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u00be tsp. baking soda",
-          "quantity": "",
-          "unit": "",
+          "item": "baking soda",
+          "quantity": "3/4",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": ". salt",
+          "item": "salt",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "tblsp. sugar",
+          "item": "sugar",
           "quantity": "2",
-          "unit": "",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
@@ -11402,15 +11415,15 @@
           "prep_note": "beaten"
         },
         {
-          "item": "\u00bc cups sour milk or buttermilk",
-          "quantity": "1",
-          "unit": "",
+          "item": "buttermilk",
+          "quantity": "1 1/4",
+          "unit": "cups",
           "prep_note": ""
         },
         {
-          "item": "\u00bc cup shortening",
-          "quantity": "",
-          "unit": "",
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup",
           "prep_note": "melted"
         }
       ],
@@ -11437,24 +11450,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 60,
-          "fat_g": 2.5,
-          "carbs_g": 6.5,
-          "protein_g": 3.0,
-          "sodium_mg": 617,
-          "fiber_g": 0.0,
-          "sugar_g": 6.5
+          "calories": 456,
+          "fat_g": 17.7,
+          "carbs_g": 63.5,
+          "protein_g": 11.7,
+          "sodium_mg": 1000,
+          "fiber_g": 4.0,
+          "sugar_g": 10.6
         },
-        "missing_inputs": [
-          "1  \u00bd cups yellow corn meal",
-          "\u00be cup flour",
-          "1  \u00bd tsp. baking powder",
-          "\u00be tsp. baking soda",
-          "1  \u00bc cups sour milk or buttermilk",
-          "\u00bc cup shortening"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -17616,10 +17622,10 @@
           "prep_note": ""
         },
         {
-          "item": "vinegar or lemon juice",
+          "item": "vinegar",
           "quantity": "1",
           "unit": "tbsp",
-          "prep_note": ""
+          "prep_note": "or lemon juice"
         },
         {
           "item": "peas",
@@ -17628,21 +17634,21 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bc tbsp. butter",
-          "quantity": "2",
-          "unit": "",
+          "item": "butter",
+          "quantity": "2 1/4",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bc tbsp. flour",
-          "quantity": "2",
-          "unit": "",
+          "item": "flour",
+          "quantity": "2 1/4",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "Pepper",
+          "item": "pepper",
           "quantity": "",
-          "unit": "",
+          "unit": "to taste",
           "prep_note": ""
         },
         {
@@ -17652,10 +17658,10 @@
           "prep_note": ""
         },
         {
-          "item": "Carnation",
+          "item": "evaporated milk",
           "quantity": "3/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "Carnation"
         },
         {
           "item": "water",
@@ -17686,19 +17692,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 152,
-          "fat_g": 8.7,
-          "carbs_g": 4.1,
-          "protein_g": 13.8,
-          "sodium_mg": 240,
+          "calories": 163,
+          "fat_g": 9.1,
+          "carbs_g": 5.8,
+          "protein_g": 14.0,
+          "sodium_mg": 262,
           "fiber_g": 0.6,
           "sugar_g": 3.0
         },
-        "missing_inputs": [
-          "2  \u00bc tbsp. flour"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
@@ -18799,9 +18803,9 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bd cups brown sugar",
-          "quantity": "1",
-          "unit": "",
+          "item": "brown sugar",
+          "quantity": "1 1/2",
+          "unit": "cups",
           "prep_note": ""
         },
         {
@@ -18817,15 +18821,15 @@
           "prep_note": ""
         },
         {
-          "item": "\u00be cups Carnation Milk",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "evaporated milk",
+          "quantity": "1 3/4",
+          "unit": "cups",
+          "prep_note": "Carnation"
         },
         {
-          "item": "\u215e cup water",
-          "quantity": "",
-          "unit": "",
+          "item": "water",
+          "quantity": "7/8",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -18863,21 +18867,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 94,
-          "fat_g": 6.3,
-          "carbs_g": 6.1,
-          "protein_g": 3.1,
-          "sodium_mg": 201,
+          "calories": 313,
+          "fat_g": 10.4,
+          "carbs_g": 49.1,
+          "protein_g": 6.8,
+          "sodium_mg": 260,
           "fiber_g": 0.2,
-          "sugar_g": 0.2
+          "sugar_g": 43.1
         },
-        "missing_inputs": [
-          "1  \u00bd cups brown sugar",
-          "1  \u00be cups Carnation Milk",
-          "\u215e cup water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
@@ -23195,16 +23195,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "envelope unflavored gelatin",
+          "item": "gelatin",
           "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "unit": "envelope",
+          "prep_note": "unflavored"
         },
         {
-          "item": "cold water",
+          "item": "water",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "cold"
         },
         {
           "item": "eggs",
@@ -23225,13 +23225,13 @@
           "prep_note": ""
         },
         {
-          "item": "\u00be cups milk or light cream",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "milk",
+          "quantity": "1 3/4",
+          "unit": "cups",
+          "prep_note": "or light cream"
         },
         {
-          "item": "GRANDMA\u2019S MOLASSES",
+          "item": "molasses",
           "quantity": "1/4",
           "unit": "cup",
           "prep_note": ""
@@ -23243,22 +23243,22 @@
           "prep_note": ""
         },
         {
-          "item": "moist",
+          "item": "coconut",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": "shredded coconut"
+          "prep_note": "moist shredded"
         },
         {
-          "item": "vanilla or 2 teaspoons rum extract",
+          "item": "vanilla extract",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": ""
+          "prep_note": "or 2 tsp rum extract"
         },
         {
-          "item": "-inch",
-          "quantity": "9",
+          "item": "pie crust",
+          "quantity": "1",
           "unit": "",
-          "prep_note": "cold baked pie shell"
+          "prep_note": "9-inch, baked"
         }
       ],
       "instructions": [
@@ -23286,20 +23286,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 131,
-          "fat_g": 1.7,
-          "carbs_g": 27.4,
-          "protein_g": 2.0,
-          "sodium_mg": 77,
-          "fiber_g": 0.0,
-          "sugar_g": 24.5
+          "calories": 202,
+          "fat_g": 6.2,
+          "carbs_g": 31.9,
+          "protein_g": 5.6,
+          "sodium_mg": 112,
+          "fiber_g": 0.6,
+          "sugar_g": 28.4
         },
         "missing_inputs": [
-          "1  envelope unflavored gelatin",
-          "1  \u00be cups milk or light cream",
-          "1/2 cup moist"
+          "1  pie crust"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -28393,16 +28391,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 684,
-          "fat_g": 28.5,
-          "carbs_g": 102.2,
-          "protein_g": 6.7,
-          "sodium_mg": 361,
-          "fiber_g": 0.9,
-          "sugar_g": 75.4
+          "calories": 755,
+          "fat_g": 35.2,
+          "carbs_g": 105.2,
+          "protein_g": 7.4,
+          "sodium_mg": 365,
+          "fiber_g": 2.7,
+          "sugar_g": 76.7
         },
         "missing_inputs": [
-          "1 cup moist shredded coconut",
           "1 cup cut-up almonds (or other nuts)"
         ],
         "assumptions": [
@@ -28510,16 +28507,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 286,
-          "fat_g": 2.6,
-          "carbs_g": 65.2,
-          "protein_g": 3.6,
-          "sodium_mg": 329,
-          "fiber_g": 0.7,
-          "sugar_g": 61.2
+          "calories": 357,
+          "fat_g": 9.3,
+          "carbs_g": 68.2,
+          "protein_g": 4.4,
+          "sodium_mg": 333,
+          "fiber_g": 2.4,
+          "sugar_g": 62.4
         },
         "missing_inputs": [
-          "1 cup moist shredded coconut",
           "1 cup cut-up walnuts"
         ],
         "assumptions": [
@@ -59206,7 +59202,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "egg yolks",
+          "item": "egg yolk",
           "quantity": "16",
           "unit": "",
           "prep_note": ""
@@ -59218,34 +59214,34 @@
           "prep_note": "melted"
         },
         {
-          "item": "Seville oranges",
+          "item": "orange",
           "quantity": "2",
           "unit": "",
-          "prep_note": "grate in the rinds"
+          "prep_note": "Seville, grate in the rinds"
         },
         {
-          "item": "fine Sugar",
+          "item": "sugar",
           "quantity": "1/2",
           "unit": "lb",
-          "prep_note": ""
+          "prep_note": "fine"
         },
         {
-          "item": "orange water",
+          "item": "orange extract",
           "quantity": "2",
-          "unit": "spoons",
-          "prep_note": ""
+          "unit": "tsp",
+          "prep_note": "or orange water"
         },
         {
-          "item": "rose-water",
+          "item": "rose water",
           "quantity": "2",
-          "unit": "",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
           "item": "wine",
-          "quantity": "1",
-          "unit": "gill",
-          "prep_note": ""
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "gill"
         },
         {
           "item": "cream",
@@ -59254,10 +59250,10 @@
           "prep_note": ""
         },
         {
-          "item": "naples biscuit or fine loaf crumbs",
+          "item": "ladyfinger",
           "quantity": "2",
           "unit": "",
-          "prep_note": "or roll soaked in cream"
+          "prep_note": "naples biscuit, or roll soaked in cream"
         }
       ],
       "instructions": [
@@ -59302,22 +59298,19 @@
         "processed/img_5961.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 1876,
+          "calories": 1948,
           "fat_g": 174.2,
-          "carbs_g": 46.6,
+          "carbs_g": 48.5,
           "protein_g": 55.0,
-          "sodium_mg": 256,
+          "sodium_mg": 258,
           "fiber_g": 6.0,
-          "sugar_g": 32.6
+          "sugar_g": 32.9
         },
         "missing_inputs": [
-          "1/2 lb fine Sugar",
-          "2 spoons orange water",
-          "2  rose-water",
-          "1 gill wine",
-          "2  naples biscuit or fine loaf crumbs"
+          "1/2 lb sugar",
+          "2  ladyfinger"
         ],
         "assumptions": [
           "Calculated for 1 servings"

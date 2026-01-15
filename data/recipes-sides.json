@@ -263,49 +263,52 @@
       "description": "Ricotta salata is a firm cheese common on the island. Salata means salty; the process for making the cheese involves salting traditional soft ricotta and aging it until it's firm. Purchase pane carasau (Sardinian music bread), a paper-thin flatbread, from GourmetSardinia (www.gourmetsardinia.com).",
       "ingredients": [
         {
-          "item": "extra-virgin olive oil",
+          "item": "olive oil",
           "quantity": "1 1/2",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": "extra-virgin"
         },
         {
-          "item": "finely chopped green onion tops",
+          "item": "green onion",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": "tops, finely chopped"
         },
         {
-          "item": "cubed zucchini (about 2 pounds)",
+          "item": "zucchini",
           "quantity": "5",
-          "unit": "cups"
+          "unit": "cups",
+          "prep_note": "cubed, about 2 pounds"
         },
         {
-          "item": "chopped fresh flat-leaf parsley",
+          "item": "parsley",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": "fresh flat-leaf, chopped"
         },
         {
-          "item": "sea salt",
+          "item": "salt",
           "quantity": "1/4",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": "sea salt"
         },
         {
-          "item": "torn mint leaves",
+          "item": "mint",
           "quantity": "6",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": "leaves, torn"
         },
         {
-          "item": "freshly crumbled ricotta salata cheese",
+          "item": "ricotta cheese",
           "quantity": "6",
-          "unit": "tbsp"
+          "unit": "tbsp",
+          "prep_note": "ricotta salata, crumbled"
         },
         {
-          "item": "sheets pane carasau (Sardinian music bread), each broken into 3 pieces",
+          "item": "crackers",
           "quantity": "2",
-          "unit": ""
-        },
-        {
-          "item": "Mint sprigs (optional)",
-          "quantity": "",
-          "unit": ""
+          "unit": "sheets",
+          "prep_note": "pane carasau/Sardinian music bread"
         }
       ],
       "instructions": [
@@ -332,20 +335,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 74,
           "fat_g": 5.7,
-          "carbs_g": 3.9,
-          "protein_g": 2.6,
-          "sodium_mg": 126,
+          "carbs_g": 4.1,
+          "protein_g": 2.7,
+          "sodium_mg": 127,
           "fiber_g": 1.0,
-          "sugar_g": 2.5
+          "sugar_g": 2.6
         },
         "missing_inputs": [
-          "1 tbsp finely chopped green onion tops",
-          "2  sheets pane carasau (Sardinian music bread), each broken into 3 pieces",
-          "Mint sprigs (optional)"
+          "2 sheets crackers"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -21913,31 +21914,31 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bd cup milk .01",
-          "quantity": "1",
+          "item": "milk",
+          "quantity": "1/2",
           "unit": "cup",
-          "prep_note": "[quantity inferred]"
+          "prep_note": ""
         },
         {
-          "item": "\u00bd tablespoonful butter .01",
-          "quantity": "2",
+          "item": "butter",
+          "quantity": "1/2",
           "unit": "tbsp",
-          "prep_note": "[quantity inferred]"
+          "prep_note": ""
         },
         {
-          "item": "egg .03",
+          "item": "egg",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tablespoonful flour (see croquettes, page 293)",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": "[quantity inferred]"
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "tbsp",
+          "prep_note": ""
         },
         {
-          "item": "cranberries .09",
+          "item": "cranberries",
           "quantity": "1",
           "unit": "pint",
           "prep_note": ""
@@ -21964,22 +21965,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 76,
+          "fat_g": 3.8,
+          "carbs_g": 8.3,
+          "protein_g": 2.8,
+          "sodium_mg": 42,
+          "fiber_g": 2.5,
+          "sugar_g": 3.6
         },
-        "missing_inputs": [
-          "1 cup \u00bd cup milk .01",
-          "2 tbsp \u00bd tablespoonful butter .01",
-          "1 cup \u00bd tablespoonful flour (see croquettes, page 293)",
-          "1 pint cranberries .09"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -23536,34 +23532,28 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "dried beans Baking-dish orbean-pot",
-          "quantity": "14",
+          "item": "dried beans",
+          "quantity": "1/4",
           "unit": "lb",
           "prep_note": ""
         },
         {
-          "item": "saltpork Covered saucepan",
+          "item": "salt pork",
           "quantity": "1/2",
           "unit": "lb",
           "prep_note": ""
         },
         {
-          "item": "salt Tablespoon",
-          "quantity": "14",
+          "item": "salt",
+          "quantity": "1/4",
           "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "table^oon sugar Knife",
+          "item": "sugar",
           "quantity": "1",
-          "unit": "",
+          "unit": "tbsp",
           "prep_note": ""
-        },
-        {
-          "item": "Putthebeans inthebaking-dish orpot",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "coverthem"
         }
       ],
       "instructions": [
@@ -23623,22 +23613,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 12,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 3.1,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 436,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 3.1
         },
         "missing_inputs": [
-          "14 lb dried beans Baking-dish orbean-pot",
-          "1/2 lb saltpork Covered saucepan",
-          "14 tbsp salt Tablespoon",
-          "1  table^oon sugar Knife",
-          "1  Putthebeans inthebaking-dish orpot"
+          "1/4 lb dried beans",
+          "1/2 lb salt pork"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -26978,64 +26965,64 @@
       "total_time": "24 hours plus",
       "ingredients": [
         {
-          "item": "cucumbers",
-          "quantity": "",
+          "item": "cucumber",
+          "quantity": "12",
           "unit": "",
           "prep_note": "small, fresh gathered"
         },
         {
           "item": "salt",
-          "quantity": "",
-          "unit": "",
+          "quantity": "2",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
           "item": "water",
-          "quantity": "",
-          "unit": "",
+          "quantity": "4",
+          "unit": "cups",
           "prep_note": ""
         },
         {
           "item": "white wine vinegar",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "the best"
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
         },
         {
           "item": "cloves",
-          "quantity": "",
+          "quantity": "6",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "whole"
         },
         {
-          "item": "sliced mace",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "mace",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "sliced"
         },
         {
           "item": "nutmeg",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1/4",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "white pepper corns",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "peppercorns",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "white"
         },
         {
           "item": "long pepper",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "races of ginger",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "ginger",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "sliced"
         }
       ],
       "instructions": [
@@ -27089,26 +27076,19 @@
         "processed/img_5985.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 75,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 105,
+          "fat_g": 0.3,
+          "carbs_g": 3.7,
+          "protein_g": 0.2,
+          "sodium_mg": 3493,
+          "fiber_g": 0.4,
+          "sugar_g": 0.5
         },
         "missing_inputs": [
-          "cucumbers",
-          "water",
-          "white wine vinegar",
-          "cloves",
-          "sliced mace",
-          "nutmeg",
-          "white pepper corns",
-          "long pepper",
-          "races of ginger"
+          "12  cucumber",
+          "6  cloves"
         ],
         "assumptions": [
           "Calculated for 4 servings"

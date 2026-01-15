@@ -2787,6 +2787,25 @@ def normalize_ingredient(item):
         "baby food peaches": "peaches",
         "jars baby juice": "apple juice",
         "jars baby food peaches": "peaches",
+
+        # Batch 4 manual repairs - additional patterns found
+        "chopped red skinned apples": "apple",
+        "red skinned apples": "apple",
+        "green onion tops": "green onion",
+        "finely chopped green onion tops": "green onion",
+        "broken pecans": "pecans",
+        "broken pecan meats": "pecans",
+        "pecan meats": "pecans",
+        "mixed stuffing": "stuffing mix",
+        "savory deep dish pie crust": "pie crust",
+        "deep dish pie crust": "pie crust",
+        "half and half cream": "half and half",
+        "cumin seeds": "cumin",
+        "fine sugar": "sugar",
+        "moist shredded coconut": "coconut",
+        "moist": "coconut",
+        "shredded coconut": "coconut",
+        "one clove": "garlic",
     }
 
     # Check for exact match first
