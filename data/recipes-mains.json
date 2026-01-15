@@ -4063,17 +4063,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 63,
+          "calories": 64,
           "fat_g": 2.4,
-          "carbs_g": 9.4,
+          "carbs_g": 9.6,
           "protein_g": 0.8,
           "sodium_mg": 683,
           "fiber_g": 0.4,
           "sugar_g": 6.9
         },
         "missing_inputs": [
-          "6 8-oz veal shanks, trimmed",
-          "1  star anise"
+          "6 8-oz veal shanks, trimmed"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -103508,20 +103507,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 45,
-          "fat_g": 3.2,
-          "carbs_g": 3.5,
-          "protein_g": 0.5,
-          "sodium_mg": 184,
-          "fiber_g": 0.7,
+          "calories": 56,
+          "fat_g": 4.2,
+          "carbs_g": 4.1,
+          "protein_g": 0.6,
+          "sodium_mg": 295,
+          "fiber_g": 0.9,
           "sugar_g": 1.9
         },
         "missing_inputs": [
           "2  envelopes unflavored gelatin",
           "1/4 cup catsup",
           "3/4 cup salad dressing",
-          "2 cup flaked salmon",
-          "1/2 cup sliced stuffed olives"
+          "2 cup flaked salmon"
         ],
         "assumptions": [
           "Calculated for 7 servings"
@@ -104074,16 +104072,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 876,
-          "fat_g": 53.8,
-          "carbs_g": 100.2,
-          "protein_g": 3.0,
-          "sodium_mg": 933,
+          "calories": 888,
+          "fat_g": 54.0,
+          "carbs_g": 101.7,
+          "protein_g": 4.0,
+          "sodium_mg": 965,
           "fiber_g": 0.0,
-          "sugar_g": 100.2
+          "sugar_g": 101.7
         },
         "missing_inputs": [
-          "1/2 cup sour milk or buttermilk",
           "3  \u00bd cups sifted GOLD MEDAL Flour"
         ],
         "assumptions": [
@@ -109876,18 +109873,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 74,
-          "fat_g": 0.4,
+          "calories": 542,
+          "fat_g": 10.4,
           "carbs_g": 18.6,
-          "protein_g": 0.6,
-          "sodium_mg": 88,
+          "protein_g": 88.1,
+          "sodium_mg": 300,
           "fiber_g": 0.6,
           "sugar_g": 17.9
         },
         "missing_inputs": [
-          "10 oz pounded chick en breast",
           "3 slice d mushrooms",
           "3 oz cream"
         ],
@@ -130618,20 +130614,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 956,
-          "fat_g": 108.0,
-          "carbs_g": 0.5,
-          "protein_g": 0.1,
+          "calories": 961,
+          "fat_g": 108.1,
+          "carbs_g": 1.4,
+          "protein_g": 0.2,
           "sodium_mg": 582,
-          "fiber_g": 0.1,
+          "fiber_g": 0.4,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "\u00bc cup chili \ufb02akes or dried red chilies",
-          "2 tsp Sichuan or regular peppercorns",
-          "1  star anise",
           "1 tsp cumin seeds"
         ],
         "assumptions": [
@@ -134282,7 +134276,9 @@
       ],
       "temperature": "",
       "pan_size": "",
-      "notes": [],
+      "notes": [
+        "[AUTO-FLAGGED] Non-recipe: Military manual reference/index page"
+      ],
       "tags": [
         "vintage",
         "pdf-extracted"
@@ -134314,7 +134310,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true
     },
     {
       "id": "assistant-to-bensonwoma",
@@ -139291,7 +139288,9 @@
       ],
       "temperature": "",
       "pan_size": "",
-      "notes": [],
+      "notes": [
+        "[AUTO-FLAGGED] Non-recipe: Measurement conversion chart"
+      ],
       "tags": [
         "vintage",
         "pdf-extracted"
@@ -139328,7 +139327,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true
     },
     {
       "id": "popular-andstandard-books-commonsens",
@@ -139821,7 +139821,9 @@
       ],
       "temperature": "",
       "pan_size": "",
-      "notes": [],
+      "notes": [
+        "[AUTO-FLAGGED] Non-recipe: Recipe header with no actual ingredients"
+      ],
       "tags": [
         "vintage",
         "pdf-extracted"
@@ -139857,7 +139859,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true
     },
     {
       "id": "popovers-courseofle",
@@ -141293,20 +141296,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 108,
-          "fat_g": 0.3,
+          "calories": 558,
+          "fat_g": 26.9,
           "carbs_g": 23.2,
-          "protein_g": 3.2,
-          "sodium_mg": 2,
+          "protein_g": 57.2,
+          "sodium_mg": 142,
           "fiber_g": 1.2,
           "sugar_g": 0.8
         },
         "missing_inputs": [
-          "2 lb beef tips",
-          "1 small onion 1-1/2 tsp salt",
-          "3  tbs Wesson oil 1/4 tsp pepper"
+          "1 small onion 1-1/2 tsp salt"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -162713,7 +162714,9 @@
       ],
       "temperature": "",
       "pan_size": "",
-      "notes": [],
+      "notes": [
+        "[AUTO-FLAGGED] Non-recipe: Recipe mixed with kitchen equipment instructions"
+      ],
       "tags": [
         "vintage",
         "pdf-extracted"
@@ -162750,7 +162753,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true
     },
     {
       "id": "plain-icecream-theplainsa",
@@ -172868,7 +172872,9 @@
       ],
       "temperature": "",
       "pan_size": "",
-      "notes": [],
+      "notes": [
+        "[AUTO-FLAGGED] Non-recipe: OCR garbage/conversion table from cookbook"
+      ],
       "tags": [
         "vintage",
         "pdf-extracted"
@@ -172903,7 +172909,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true
     },
     {
       "id": "asparagus-vinaigrette-wilsonscoo",
