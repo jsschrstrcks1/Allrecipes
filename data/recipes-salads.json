@@ -208,13 +208,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 295,
-          "fat_g": 17.4,
-          "carbs_g": 18.0,
-          "protein_g": 18.8,
-          "sodium_mg": 226,
-          "fiber_g": 5.3,
-          "sugar_g": 9.5
+          "calories": 274,
+          "fat_g": 17.2,
+          "carbs_g": 13.5,
+          "protein_g": 17.6,
+          "sodium_mg": 215,
+          "fiber_g": 3.7,
+          "sugar_g": 8.1
         },
         "missing_inputs": [
           "1 bunch watercress, trimmed"
@@ -352,12 +352,12 @@
         "status": "partial",
         "per_serving": {
           "calories": 252,
-          "fat_g": 21.1,
-          "carbs_g": 14.3,
-          "protein_g": 4.7,
-          "sodium_mg": 195,
+          "fat_g": 21.0,
+          "carbs_g": 15.0,
+          "protein_g": 4.8,
+          "sodium_mg": 203,
           "fiber_g": 4.9,
-          "sugar_g": 8.2
+          "sugar_g": 8.5
         },
         "missing_inputs": [
           "1/2 cup goat cheese"
@@ -8732,7 +8732,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 16,
           "fat_g": 0.0,
@@ -8744,8 +8744,7 @@
         },
         "missing_inputs": [
           "1 pkg frozen rhubarb",
-          "1 pkg frozen strawberries",
-          "Red vegetable coloring"
+          "1 pkg frozen strawberries"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -10080,118 +10079,6 @@
       }
     },
     {
-      "id": "salads-courseofle",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Salads",
-      "category": "salads",
-      "attribution": "",
-      "source_note": "Course Of Lessons In Domestic Science 1913 (PDF cookbook)",
-      "description": "Vintage recipe from Course Of Lessons In Domestic Science 1913",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "Composition orbasis:",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Accordinr tofood principles:",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "French Dressing isused with\u2014",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Ameat salad should notbeserved with aheavy dinner."
-        },
-        {
-          "step": 2,
-          "text": "Either alone orincombination should beused\u2014"
-        },
-        {
-          "step": 3,
-          "text": "Have thesalad course atdinner dainty andsimple. Donot"
-        },
-        {
-          "step": 4,
-          "text": "unite toomany foods. Donotchop materials toofine."
-        },
-        {
-          "step": 5,
-          "text": "Utmost careshould beused inpreparing fruitandvegetables"
-        },
-        {
-          "step": 6,
-          "text": "forasalad, astheir daintiness andagreeability aretheir chief"
-        },
-        {
-          "step": 7,
-          "text": "Allleafvegetables, aslettuce, should bethoroughly washed"
-        },
-        {
-          "step": 8,
-          "text": "!Mix ingredients inorder given, and stir until well"
-        },
-        {
-          "step": 9,
-          "text": "2 Surround bowl containing mixture with icewater,"
-        },
-        {
-          "step": 10,
-          "text": "andbeatmixture until ofacreamy consistency-"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [
-          "1  Composition orbasis:",
-          "2  Accordinr tofood principles:",
-          "2  French Dressing isused with\u2014"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      },
-      "flagged_for_review": true,
-      "flag_reason": "Chapter header - not a recipe"
-    },
-    {
       "id": "salad-vegetables-homehelpsa",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -10357,10 +10244,10 @@
           "calories": 26,
           "fat_g": 1.3,
           "carbs_g": 1.9,
-          "protein_g": 1.9,
+          "protein_g": 2.0,
           "sodium_mg": 22,
-          "fiber_g": 0.7,
-          "sugar_g": 0.7
+          "fiber_g": 0.8,
+          "sugar_g": 0.6
         },
         "missing_inputs": [
           "1 quart dandelion."
@@ -10985,10 +10872,10 @@
           "calories": 10,
           "fat_g": 0.1,
           "carbs_g": 2.2,
-          "protein_g": 0.7,
+          "protein_g": 0.8,
           "sodium_mg": 6,
-          "fiber_g": 0.9,
-          "sugar_g": 0.8
+          "fiber_g": 1.0,
+          "sugar_g": 0.7
         },
         "missing_inputs": [
           "14 cup French dressing."
@@ -11068,13 +10955,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 30,
+          "calories": 23,
           "fat_g": 0.2,
-          "carbs_g": 6.8,
-          "protein_g": 1.4,
-          "sodium_mg": 10,
-          "fiber_g": 2.1,
-          "sugar_g": 3.6
+          "carbs_g": 5.2,
+          "protein_g": 1.1,
+          "sodium_mg": 6,
+          "fiber_g": 1.6,
+          "sugar_g": 3.1
         },
         "missing_inputs": [
           "1 cup hredded lettuce.",
@@ -12081,13 +11968,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 3.2,
-          "carbs_g": 0.9,
-          "protein_g": 1.2,
-          "sodium_mg": 8164,
-          "fiber_g": 0.2,
-          "sugar_g": 0.5
+          "calories": 38,
+          "fat_g": 4.1,
+          "carbs_g": 0.1,
+          "protein_g": 0.3,
+          "sodium_mg": 8168,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
           "1 cup finely shredded outside lettuce leaves."
@@ -12335,19 +12222,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 16,
+          "calories": 19,
           "fat_g": 1.0,
-          "carbs_g": 2.0,
+          "carbs_g": 2.6,
           "protein_g": 0.0,
-          "sodium_mg": 6,
+          "sodium_mg": 7,
           "fiber_g": 0.0,
-          "sugar_g": 2.0
+          "sugar_g": 2.4
         },
-        "missing_inputs": [
-          "1 tsp salt Fewgrains cayenne Yolks"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12411,19 +12296,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 17,
+          "calories": 19,
           "fat_g": 1.4,
-          "carbs_g": 1.1,
+          "carbs_g": 1.7,
           "protein_g": 0.1,
           "sodium_mg": 1,
           "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "sugar_g": 1.6
         },
-        "missing_inputs": [
-          "1 tsp salt Fewgrains pepper Jcuphotvinegar"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12832,17 +12715,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 15,
+          "calories": 26,
           "fat_g": 0.1,
-          "carbs_g": 3.2,
-          "protein_g": 0.6,
-          "sodium_mg": 321,
-          "fiber_g": 0.8,
-          "sugar_g": 2.0
+          "carbs_g": 5.8,
+          "protein_g": 0.9,
+          "sodium_mg": 322,
+          "fiber_g": 1.4,
+          "sugar_g": 3.2
         },
         "missing_inputs": [
           "1 tsp chopped parsley Tablespoon",
-          "1 tsp onion juice Saucepan",
           "1  Soak thegelatine inabowl with 2 tablespoons of",
           "2  Put alltheother materials inasaucepan",
           "3  Take thesaucepan from the fire"
@@ -14237,7 +14119,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
@@ -14247,9 +14129,7 @@
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Five tablespoons offinely chopped parsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

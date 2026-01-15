@@ -1039,15 +1039,14 @@
         "per_serving": {
           "calories": 80,
           "fat_g": 9.3,
-          "carbs_g": 0.0,
+          "carbs_g": 0.2,
           "protein_g": 0.0,
           "sodium_mg": 388,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "3 3-oz packages ramen noodles (discard seasoning packets)",
-          "for topping scallions and/or cilantro"
+          "3 3-oz packages ramen noodles (discard seasoning packets)"
         ],
         "assumptions": [
           "Calculated for 6 servings",
@@ -13366,7 +13365,7 @@
           "fat_g": 0.1,
           "carbs_g": 8.1,
           "protein_g": 0.2,
-          "sodium_mg": 247,
+          "sodium_mg": 248,
           "fiber_g": 0.4,
           "sugar_g": 5.4
         },
@@ -16700,8 +16699,8 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 82,
-          "fat_g": 4.3,
+          "calories": 122,
+          "fat_g": 9.1,
           "carbs_g": 8.7,
           "protein_g": 2.7,
           "sodium_mg": 102,
@@ -17337,7 +17336,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 82,
           "fat_g": 4.2,
@@ -17347,11 +17346,7 @@
           "fiber_g": 0.0,
           "sugar_g": 6.0
         },
-        "missing_inputs": [
-          "1 tbsp onion finely chopped,",
-          "2 tbsp ful carrot finely chopped,",
-          "1/2 cup cooked ham finely chopped."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -17439,13 +17434,12 @@
           "fat_g": 0.2,
           "carbs_g": 1.4,
           "protein_g": 0.4,
-          "sodium_mg": 44,
+          "sodium_mg": 626,
           "fiber_g": 0.5,
           "sugar_g": 0.8
         },
         "missing_inputs": [
-          "1/4 tsp Three redpeppers.",
-          "1 tsp One gillofsalt."
+          "1/4 tsp Three redpeppers."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -17528,12 +17522,11 @@
           "fat_g": 0.0,
           "carbs_g": 12.8,
           "protein_g": 0.1,
-          "sodium_mg": 0,
+          "sodium_mg": 582,
           "fiber_g": 0.1,
           "sugar_g": 12.7
         },
         "missing_inputs": [
-          "1 tsp Two tablespoonsful ofsalt.",
           "1/2 tsp One tablespoonful ofcinnamon,"
         ],
         "assumptions": [
@@ -18318,138 +18311,6 @@
           "sugar_g": 15.0
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "vegetables-courseofle",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Vegetables",
-      "category": "sides",
-      "attribution": "",
-      "source_note": "Course Of Lessons In Domestic Science 1913 (PDF cookbook)",
-      "description": "Vintage recipe from Course Of Lessons In Domestic Science 1913",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "Tubers potatoes",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "artichokes."
-        },
-        {
-          "item": "Roots\u2014parsnips",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "carrots, beets."
-        },
-        {
-          "item": "Bulb\u2014onion.",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Stems\u2014celery",
-          "quantity": "4",
-          "unit": "",
-          "prep_note": "asparagus."
-        },
-        {
-          "item": "Leaves\u2014lettuce",
-          "quantity": "5",
-          "unit": "",
-          "prep_note": "cabbage, greens, spinach, mustard, etc."
-        },
-        {
-          "item": "Flower\u2014cauliflower.",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Fruit\u2014squash",
-          "quantity": "7",
-          "unit": "",
-          "prep_note": "tomatoes, string beans, pumpkin."
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "8 Seed\u2014beans, peas. com."
-        },
-        {
-          "step": 2,
-          "text": "1 Wash thepotato. Cut intwotransversely andputincold"
-        },
-        {
-          "step": 3,
-          "text": "2 Pareone half, grate intoabowl. Taste."
-        },
-        {
-          "step": 4,
-          "text": "3 Wash grated portion through cheesecloth, saving the"
-        },
-        {
-          "step": 5,
-          "text": "4 Pour offtheliquid and testtheresidue with iodine."
-        },
-        {
-          "step": 6,
-          "text": "5 Cutathinsection from theother half,examine byholding"
-        },
-        {
-          "step": 7,
-          "text": "uptothelight. Draw whatyousee."
-        },
-        {
-          "step": 8,
-          "text": "6 Boil apiece oftheremainder 20 minutes. Taste. Note"
-        },
-        {
-          "step": 9,
-          "text": "7 Observe under micro starch grains ofcooked andun-"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 67,
-          "fat_g": 0.2,
-          "carbs_g": 15.2,
-          "protein_g": 1.6,
-          "sodium_mg": 47,
-          "fiber_g": 2.8,
-          "sugar_g": 3.5
-        },
-        "missing_inputs": [
-          "3  Bulb\u2014onion.",
-          "4  Stems\u2014celery",
-          "5  Leaves\u2014lettuce",
-          "6  Flower\u2014cauliflower.",
-          "7  Fruit\u2014squash"
-        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -19315,19 +19176,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 3,
           "fat_g": 0.2,
           "carbs_g": 0.2,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 581,
           "fiber_g": 0.1,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "1 tsp Two ounces ofsalt."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -20202,19 +20061,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 37,
-          "fat_g": 2.9,
-          "carbs_g": 2.6,
-          "protein_g": 0.3,
-          "sodium_mg": 1765,
-          "fiber_g": 0.5,
+          "calories": 191,
+          "fat_g": 3.2,
+          "carbs_g": 36.3,
+          "protein_g": 3.3,
+          "sodium_mg": 1766,
+          "fiber_g": 1.0,
           "sugar_g": 1.3
         },
-        "missing_inputs": [
-          "3 cup breadcrumbs orcoldboiled rice."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -20292,19 +20149,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 41,
-          "fat_g": 0.1,
+          "calories": 66,
+          "fat_g": 2.8,
           "carbs_g": 9.2,
           "protein_g": 1.0,
-          "sodium_mg": 3,
+          "sodium_mg": 26,
           "fiber_g": 1.0,
           "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "1 tbsp butter oroleomargarine."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -24832,16 +24687,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 456,
-          "fat_g": 51.2,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 484,
+          "fat_g": 53.8,
+          "carbs_g": 0.3,
+          "protein_g": 1.5,
+          "sodium_mg": 4,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2  eggyolks",
           "1 tsp ful mustard y^teaspoonful black pepper"
         ],
         "assumptions": [
@@ -25505,19 +25359,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 20,
           "fat_g": 0.1,
           "carbs_g": 4.8,
           "protein_g": 0.6,
-          "sodium_mg": 11,
+          "sodium_mg": 12,
           "fiber_g": 0.8,
           "sugar_g": 1.5
         },
-        "missing_inputs": [
-          "1  sprig parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -26682,7 +26534,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 15,
           "fat_g": 0.1,
@@ -26692,9 +26544,7 @@
           "fiber_g": 0.8,
           "sugar_g": 2.4
         },
-        "missing_inputs": [
-          "Four tablespoons offinely chopped parsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -28930,7 +28780,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 58,
           "fat_g": 3.1,
@@ -28940,9 +28790,7 @@
           "fiber_g": 1.2,
           "sugar_g": 3.0
         },
-        "missing_inputs": [
-          "oil for frying"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
         ]
