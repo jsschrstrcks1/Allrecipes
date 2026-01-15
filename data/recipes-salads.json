@@ -5804,11 +5804,11 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 241,
-          "fat_g": 24.5,
+          "calories": 96,
+          "fat_g": 8.0,
           "carbs_g": 1.9,
-          "protein_g": 4.2,
-          "sodium_mg": 58,
+          "protein_g": 3.8,
+          "sodium_mg": 50,
           "fiber_g": 0.0,
           "sugar_g": 1.9
         },
@@ -6196,7 +6196,7 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 65,
+          "calories": 66,
           "fat_g": 3.8,
           "carbs_g": 2.8,
           "protein_g": 4.8,
@@ -6207,7 +6207,6 @@
         "missing_inputs": [
           "3 cup navy beans baked or boiled",
           "2  tblsp. pickle relish or 1-large pickle",
-          "2  tblsp. vinegar",
           "\u2154 cup boiled salad dressing"
         ],
         "assumptions": [
@@ -6315,20 +6314,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 88,
+          "calories": 104,
           "fat_g": 8.3,
-          "carbs_g": 0.5,
+          "carbs_g": 3.6,
           "protein_g": 3.1,
           "sodium_mg": 656,
           "fiber_g": 0.2,
-          "sugar_g": 0.3
+          "sugar_g": 3.5
         },
         "missing_inputs": [
           "Young dandelion greens",
           "4  thick slices bacon",
           "\u00bd cup cream",
-          "1  tblsp. sugar",
-          "4  tblsp. vinegar",
           "black pepper"
         ],
         "assumptions": [
@@ -6534,9 +6531,9 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 11,
+          "calories": 13,
           "fat_g": 0.0,
           "carbs_g": 2.6,
           "protein_g": 0.2,
@@ -6546,7 +6543,6 @@
         },
         "missing_inputs": [
           "2 medium cucumbers",
-          "2  tblsp. vinegar",
           "sour cream"
         ],
         "assumptions": [
@@ -6844,19 +6840,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 104,
-          "fat_g": 11.0,
-          "carbs_g": 1.2,
-          "protein_g": 0.6,
-          "sodium_mg": 30,
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.3,
+          "protein_g": 0.0,
+          "sodium_mg": 19,
           "fiber_g": 0.0,
-          "sugar_g": 1.0
+          "sugar_g": 0.1
         },
         "missing_inputs": [
           "2 tbsp plain",
-          "2 lb cottage cheese"
+          "2 lb cottage cheese",
+          "1 cup cream or top milk"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -6973,16 +6970,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 461,
-          "fat_g": 41.6,
-          "carbs_g": 19.8,
-          "protein_g": 3.4,
-          "sodium_mg": 914,
+          "calories": 324,
+          "fat_g": 26.9,
+          "carbs_g": 18.6,
+          "protein_g": 2.5,
+          "sodium_mg": 899,
           "fiber_g": 2.9,
-          "sugar_g": 4.3
+          "sugar_g": 3.1
         },
         "missing_inputs": [
-          "1 tbsp chopped pimiento"
+          "1 tbsp chopped pimiento",
+          "1 cup creamy cottage cheese"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -7240,16 +7238,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 164,
-          "fat_g": 16.5,
-          "carbs_g": 4.1,
-          "protein_g": 1.1,
-          "sodium_mg": 17,
+          "calories": 113,
+          "fat_g": 11.0,
+          "carbs_g": 3.6,
+          "protein_g": 0.8,
+          "sodium_mg": 11,
           "fiber_g": 0.2,
-          "sugar_g": 3.3
+          "sugar_g": 2.9
         },
         "missing_inputs": [
           "1 pkg lemon-flavored gelatin",
+          "1/2 cup creamy cottage cheese",
           "1/2 cup broken walnut meats",
           "1/2 cup maraschino cherries"
         ],
@@ -7412,13 +7411,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 195,
-          "fat_g": 21.1,
-          "carbs_g": 1.1,
-          "protein_g": 0.9,
-          "sodium_mg": 117,
+          "calories": 193,
+          "fat_g": 20.3,
+          "carbs_g": 1.2,
+          "protein_g": 1.7,
+          "sodium_mg": 167,
           "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "6  peaches",
@@ -9408,13 +9407,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 314,
-          "fat_g": 31.8,
+          "calories": 303,
+          "fat_g": 30.5,
           "carbs_g": 4.7,
           "protein_g": 4.3,
           "sodium_mg": 610,
           "fiber_g": 2.5,
-          "sugar_g": 1.3
+          "sugar_g": 1.4
         },
         "missing_inputs": [
           "1 1/2 cup cooked chick en",
@@ -12537,16 +12536,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 17,
-          "fat_g": 1.4,
-          "carbs_g": 1.1,
-          "protein_g": 0.1,
-          "sodium_mg": 2,
+          "calories": 4,
+          "fat_g": 0.0,
+          "carbs_g": 1.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
           "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "sugar_g": 1.0
         },
         "missing_inputs": [
-          "1 tsp salt Fewgrains pepper Jcuphotvinegar"
+          "1 tsp salt Fewgrains pepper Jcuphotvinegar",
+          "1 tbsp flour 1 tablespoon melted butter oroil Jcupwhipped cream"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -14642,18 +14642,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 4,
           "fat_g": 0.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 1.0,
+          "sodium_mg": 2,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 pkg (3 oz) lime gelatin",
           "2  green chiles, chopped",
           "1 can (8 oz) tomato and green chile sauce"
         ],
@@ -14735,16 +14734,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 2,
+          "calories": 4,
           "fat_g": 0.1,
           "carbs_g": 0.1,
-          "protein_g": 0.1,
-          "sodium_mg": 0,
+          "protein_g": 0.6,
+          "sodium_mg": 2,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 pkg (3 oz) lime gelatin",
           "1 carton lemon (8 oz) sour cream",
           "2 cups peeled cucumber, chopped",
           "1/3 cup green chiles, chopped",

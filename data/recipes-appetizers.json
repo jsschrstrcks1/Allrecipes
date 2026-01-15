@@ -178,16 +178,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 152,
-          "fat_g": 13.7,
-          "carbs_g": 2.1,
-          "protein_g": 5.7,
-          "sodium_mg": 136,
+          "calories": 218,
+          "fat_g": 20.3,
+          "carbs_g": 2.8,
+          "protein_g": 7.0,
+          "sodium_mg": 194,
           "fiber_g": 0.2,
-          "sugar_g": 1.1
+          "sugar_g": 1.6
         },
         "missing_inputs": [
-          "8 oz softened cream cheese",
           "3 oz bacon bits"
         ],
         "assumptions": [
@@ -1644,16 +1643,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 152,
-          "fat_g": 13.7,
-          "carbs_g": 2.1,
-          "protein_g": 5.7,
-          "sodium_mg": 136,
+          "calories": 218,
+          "fat_g": 20.3,
+          "carbs_g": 2.8,
+          "protein_g": 7.0,
+          "sodium_mg": 194,
           "fiber_g": 0.2,
-          "sugar_g": 1.1
+          "sugar_g": 1.6
         },
         "missing_inputs": [
-          "8 oz softened cream cheese",
           "3 oz bacon bits"
         ],
         "assumptions": [
@@ -8819,20 +8817,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 1,
+          "calories": 2,
           "fat_g": 0.0,
-          "carbs_g": 0.2,
+          "carbs_g": 0.3,
           "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "sodium_mg": 14,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
         },
         "missing_inputs": [
           "1 large pkg hot roll mix",
-          "1/2 lb crisp bacon",
-          "1 can (4 oz) green chiles, drained and chopped"
+          "1/2 lb crisp bacon"
         ],
         "assumptions": [
           "Calculated for 48 servings"

@@ -119,6 +119,8 @@ NUTRITION_DB = {
     "swiss cheese": {"cup": {"cal": 420, "fat": 31, "carbs": 6, "protein": 30, "sodium": 228, "fiber": 0, "sugar": 2},
                     "oz": {"cal": 106, "fat": 8, "carbs": 1.5, "protein": 8, "sodium": 54, "fiber": 0, "sugar": 0.4}},
     "american cheese": {"slice": {"cal": 94, "fat": 7, "carbs": 2, "protein": 5, "sodium": 274, "fiber": 0, "sugar": 1}},
+    "provolone cheese": {"slice": {"cal": 98, "fat": 7, "carbs": 0.6, "protein": 7, "sodium": 248, "fiber": 0, "sugar": 0.2},
+                        "oz": {"cal": 98, "fat": 7, "carbs": 0.6, "protein": 7, "sodium": 248, "fiber": 0, "sugar": 0.2}},
     "velveeta": {"oz": {"cal": 80, "fat": 6, "carbs": 3, "protein": 4, "sodium": 410, "fiber": 0, "sugar": 2}},
     "whipped cream": {"cup": {"cal": 240, "fat": 22, "carbs": 7, "protein": 3, "sodium": 60, "fiber": 0, "sugar": 7},
                      "tbsp": {"cal": 15, "fat": 1.4, "carbs": 0.4, "protein": 0.2, "sodium": 4, "fiber": 0, "sugar": 0.4}},
@@ -268,11 +270,14 @@ NUTRITION_DB = {
     "green beans": {"can": {"cal": 44, "fat": 0.3, "carbs": 10, "protein": 2, "sodium": 620, "fiber": 4, "sugar": 2},
                    "cup": {"cal": 31, "fat": 0.2, "carbs": 7, "protein": 2, "sodium": 6, "fiber": 3, "sugar": 3}},
     "corn": {"can": {"cal": 210, "fat": 2, "carbs": 50, "protein": 6, "sodium": 600, "fiber": 4, "sugar": 12},
-            "cup": {"cal": 132, "fat": 2, "carbs": 29, "protein": 5, "sodium": 1, "fiber": 4, "sugar": 5}},
+            "cup": {"cal": 132, "fat": 2, "carbs": 29, "protein": 5, "sodium": 1, "fiber": 4, "sugar": 5},
+            "ear": {"cal": 77, "fat": 1, "carbs": 17, "protein": 3, "sodium": 1, "fiber": 2, "sugar": 3}},
+    "cream-style corn": {"can": {"cal": 184, "fat": 1, "carbs": 46, "protein": 4, "sodium": 730, "fiber": 3, "sugar": 11}},
     "peas": {"cup": {"cal": 117, "fat": 0.6, "carbs": 21, "protein": 8, "sodium": 7, "fiber": 7, "sugar": 8},
             "can": {"cal": 175, "fat": 0.9, "carbs": 31, "protein": 12, "sodium": 800, "fiber": 10, "sugar": 12}},
     "mushrooms": {"can": {"cal": 39, "fat": 0.5, "carbs": 8, "protein": 3, "sodium": 660, "fiber": 4, "sugar": 2},
-                 "cup": {"cal": 15, "fat": 0.2, "carbs": 2, "protein": 2, "sodium": 4, "fiber": 0.7, "sugar": 1}},
+                 "cup": {"cal": 15, "fat": 0.2, "carbs": 2, "protein": 2, "sodium": 4, "fiber": 0.7, "sugar": 1},
+                 "oz": {"cal": 6, "fat": 0.1, "carbs": 0.9, "protein": 0.9, "sodium": 1, "fiber": 0.3, "sugar": 0.6}},
     "olives": {"cup": {"cal": 155, "fat": 14, "carbs": 8, "protein": 1, "sodium": 1556, "fiber": 3, "sugar": 0}},
     "coconut milk": {"cup": {"cal": 445, "fat": 48, "carbs": 6, "protein": 5, "sodium": 29, "fiber": 0, "sugar": 6}},
     "pumpkin puree": {"cup": {"cal": 83, "fat": 0.7, "carbs": 20, "protein": 3, "sodium": 12, "fiber": 7, "sugar": 8}},
@@ -308,6 +313,11 @@ NUTRITION_DB = {
                     "": {"cal": 24, "fat": 0.2, "carbs": 5, "protein": 0.8, "sodium": 3, "fiber": 1.5, "sugar": 3}},
     "red pepper": {"cup": {"cal": 39, "fat": 0.4, "carbs": 9, "protein": 1, "sodium": 5, "fiber": 3, "sugar": 6}},
     "jalapeno": {"": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.4, "sugar": 0.5}},
+    "green chiles": {"cup": {"cal": 30, "fat": 0.2, "carbs": 7, "protein": 1, "sodium": 552, "fiber": 1.5, "sugar": 4},
+                    "can": {"cal": 15, "fat": 0.1, "carbs": 3, "protein": 0.5, "sodium": 276, "fiber": 0.8, "sugar": 2},
+                    "oz": {"cal": 4, "fat": 0, "carbs": 0.9, "protein": 0.1, "sodium": 69, "fiber": 0.2, "sugar": 0.5}},
+    "poblano pepper": {"": {"cal": 48, "fat": 0.4, "carbs": 9, "protein": 2, "sodium": 7, "fiber": 4, "sugar": 5}},
+    "anaheim pepper": {"": {"cal": 10, "fat": 0.1, "carbs": 2, "protein": 0.4, "sodium": 2, "fiber": 0.8, "sugar": 1}},
     "tomato": {"cup": {"cal": 32, "fat": 0.4, "carbs": 7, "protein": 2, "sodium": 9, "fiber": 2, "sugar": 5},
               "medium": {"cal": 22, "fat": 0.2, "carbs": 5, "protein": 1, "sodium": 6, "fiber": 1.5, "sugar": 3},
               "": {"cal": 22, "fat": 0.2, "carbs": 5, "protein": 1, "sodium": 6, "fiber": 1.5, "sugar": 3}},
@@ -322,7 +332,9 @@ NUTRITION_DB = {
     "cauliflower": {"cup": {"cal": 27, "fat": 0.3, "carbs": 5, "protein": 2, "sodium": 32, "fiber": 2, "sugar": 2}},
     "spinach": {"cup": {"cal": 7, "fat": 0.1, "carbs": 1, "protein": 1, "sodium": 24, "fiber": 0.7, "sugar": 0.1}},
     "lettuce": {"cup": {"cal": 5, "fat": 0.1, "carbs": 1, "protein": 0.5, "sodium": 5, "fiber": 0.5, "sugar": 0.5}},
-    "cabbage": {"cup": {"cal": 22, "fat": 0.1, "carbs": 5, "protein": 1, "sodium": 16, "fiber": 2, "sugar": 3}},
+    "cabbage": {"cup": {"cal": 22, "fat": 0.1, "carbs": 5, "protein": 1, "sodium": 16, "fiber": 2, "sugar": 3},
+               "head": {"cal": 218, "fat": 1, "carbs": 52, "protein": 11, "sodium": 164, "fiber": 22, "sugar": 28},
+               "medium": {"cal": 218, "fat": 1, "carbs": 52, "protein": 11, "sodium": 164, "fiber": 22, "sugar": 28}},
     "zucchini": {"cup": {"cal": 19, "fat": 0.2, "carbs": 4, "protein": 1, "sodium": 12, "fiber": 1, "sugar": 3},
                 "medium": {"cal": 33, "fat": 0.4, "carbs": 6, "protein": 2, "sodium": 20, "fiber": 2, "sugar": 5}},
     "squash": {"cup": {"cal": 21, "fat": 0.2, "carbs": 5, "protein": 1, "sodium": 2, "fiber": 1, "sugar": 3}},
@@ -440,6 +452,9 @@ NUTRITION_DB = {
     "pita bread": {"": {"cal": 165, "fat": 0.7, "carbs": 34, "protein": 5, "sodium": 322, "fiber": 1, "sugar": 0.5}},
     "hamburger bun": {"": {"cal": 120, "fat": 2, "carbs": 21, "protein": 4, "sodium": 206, "fiber": 0.9, "sugar": 3}},
     "hot dog bun": {"": {"cal": 100, "fat": 1.5, "carbs": 18, "protein": 3, "sodium": 180, "fiber": 0.7, "sugar": 2}},
+    "hoagie roll": {"": {"cal": 190, "fat": 3, "carbs": 35, "protein": 7, "sodium": 340, "fiber": 1.5, "sugar": 3}},
+    "sub roll": {"": {"cal": 190, "fat": 3, "carbs": 35, "protein": 7, "sodium": 340, "fiber": 1.5, "sugar": 3}},
+    "italian roll": {"": {"cal": 175, "fat": 2, "carbs": 33, "protein": 6, "sodium": 310, "fiber": 1.5, "sugar": 2}},
     "pie crust": {"": {"cal": 648, "fat": 40, "carbs": 63, "protein": 7, "sodium": 520, "fiber": 2, "sugar": 2}},
     "pizza dough": {"lb": {"cal": 680, "fat": 8, "carbs": 130, "protein": 22, "sodium": 1200, "fiber": 5, "sugar": 4}},
     "biscuit": {"": {"cal": 127, "fat": 6, "carbs": 17, "protein": 2, "sodium": 368, "fiber": 0.5, "sugar": 2}},
@@ -529,7 +544,9 @@ NUTRITION_DB = {
     # VINEGARS & ACIDS
     # =========================================================================
     "vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
-               "cup": {"cal": 43, "fat": 0, "carbs": 0.9, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 0.4}},
+               "cup": {"cal": 43, "fat": 0, "carbs": 0.9, "protein": 0, "sodium": 2, "fiber": 0, "sugar": 0.4},
+               "quart": {"cal": 172, "fat": 0, "carbs": 3.6, "protein": 0, "sodium": 8, "fiber": 0, "sugar": 1.6},
+               "pint": {"cal": 86, "fat": 0, "carbs": 1.8, "protein": 0, "sodium": 4, "fiber": 0, "sugar": 0.8}},
     "apple cider vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0.1, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0}},
     "balsamic vinegar": {"tbsp": {"cal": 14, "fat": 0, "carbs": 3, "protein": 0, "sodium": 4, "fiber": 0, "sugar": 2}},
     "red wine vinegar": {"tbsp": {"cal": 3, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 0},
@@ -1153,7 +1170,9 @@ NUTRITION_DB = {
 
     # Canned goods
     "tomato sauce": {"cup": {"cal": 59, "fat": 0.5, "carbs": 13, "protein": 2.6, "sodium": 1116, "fiber": 3, "sugar": 9}},
-    "mushrooms": {"cup": {"cal": 15, "fat": 0.2, "carbs": 2.3, "protein": 2.2, "sodium": 4, "fiber": 0.7, "sugar": 1}},
+    "mushrooms": {"can": {"cal": 39, "fat": 0.5, "carbs": 8, "protein": 3, "sodium": 660, "fiber": 4, "sugar": 2},
+                 "cup": {"cal": 15, "fat": 0.2, "carbs": 2.3, "protein": 2.2, "sodium": 4, "fiber": 0.7, "sugar": 1},
+                 "oz": {"cal": 6, "fat": 0.1, "carbs": 0.9, "protein": 0.9, "sodium": 1, "fiber": 0.3, "sugar": 0.6}},
     "canned mushrooms": {"cup": {"cal": 33, "fat": 0.3, "carbs": 6, "protein": 2.5, "sodium": 561, "fiber": 2, "sugar": 2}},
 
     # Wine & alcohol
@@ -1639,6 +1658,7 @@ def normalize_unit(unit):
         # Volume
         "cups": "cup", "c": "cup", "c.": "cup",
         "tablespoons": "tbsp", "tablespoon": "tbsp", "tbsps": "tbsp", "t": "tbsp", "tbs": "tbsp", "tbl": "tbsp",
+        "tblsp": "tbsp", "tblsps": "tbsp", "tblsp.": "tbsp", "tblsps.": "tbsp",
         "teaspoons": "tsp", "teaspoon": "tsp", "tsps": "tsp", "t.": "tsp",
         "ounces": "oz", "ounce": "oz", "ozs": "oz",
         "pounds": "lb", "pound": "lb", "lbs": "lb",
@@ -1650,11 +1670,12 @@ def normalize_unit(unit):
         "links": "link",
         "cloves": "clove",
         "cans": "can",
-        "packages": "packet", "pkg": "packet", "pkgs": "packet", "packets": "packet",
+        "packages": "packet", "pkg": "packet", "pkgs": "packet", "packets": "packet", "pkg.": "packet",
         "sachet (7g)": "sachet", "sachets": "sachet",
         "envelopes": "envelope",
         "stalks": "stalk",
         "sprigs": "sprig",
+        "ears": "ear",
         "bunches": "bunch",
         "heads": "head",
         "loaves": "loaf",
@@ -1664,6 +1685,12 @@ def normalize_unit(unit):
         "medium": "medium", "med": "medium",
         "large": "large", "lg": "large",
     }
+
+    # Handle embedded sizes like "can (17 oz)" or "cup (4 oz)" → strip the size
+    import re
+    embedded_size = re.match(r'^(\w+)\s*\([\d\s.]+\s*oz\)$', unit)
+    if embedded_size:
+        unit = embedded_size.group(1)
 
     return unit_map.get(unit, unit)
 
@@ -2304,9 +2331,6 @@ def normalize_ingredient(item):
         "raisins": "raisins",
         "bread crumbs": "breadcrumbs",
 
-        # Cream variants
-        "cream": "heavy cream",
-
         # Gelatin
         "envelope unflavored gelatin": "gelatin",
         "envelopes unflavored gelatin": "gelatin",
@@ -2369,6 +2393,105 @@ def normalize_ingredient(item):
         "ocean spray jellied cranberry sauce": "cranberry sauce",
         "heinz chili sauce": "chili sauce",
         "bird's eye": "",
+
+        # Ingredient with prep embedded (from insufficient recipes analysis)
+        "large potato": "potato",
+        "large potato, diced": "potato",
+        "medium potato": "potato",
+        "small potato": "potato",
+        "top sirloin steak": "sirloin",
+        "top sirloin": "sirloin",
+        "ribeye steaks": "steak",
+        "ribeye steak": "steak",
+        "beef ribeye steaks": "steak",
+        "hoagie rolls": "hoagie roll",
+        "italian rolls": "italian roll",
+        "sub rolls": "sub roll",
+        "crusty italian rolls": "italian roll",
+
+        # Cottage cheese variants
+        "½ cups cottage cheese": "cottage cheese",
+        "cups cottage cheese": "cottage cheese",
+
+        # Cooked rice/noodles
+        "cooked rice": "rice",
+        "cooked noodles": "noodles",
+        "fine noodles": "noodles",
+        "½ cups cooked rice": "rice",
+        "½ cups cooked rice or fine noodles": "rice",
+
+        # Tomato variants
+        "¼ cups tomato juice": "tomato juice",
+        "cups tomato juice": "tomato juice",
+
+        # Green chile variants
+        "green chiles, chopped": "green chiles",
+        "chopped green chiles": "green chiles",
+        "diced green chiles": "green chiles",
+
+        # Cherry variants
+        "sour cherries": "cherries",
+        "pitted sour cherries": "cherries",
+        "pitted cherries": "cherries",
+        "concord grapes": "grapes",
+
+        # Pepper variants
+        "poblano peppers": "poblano pepper",
+        "anaheim peppers": "anaheim pepper",
+
+        # OCR space-corruption patterns
+        "c raspb erries": "raspberries",
+        "raspb erries": "raspberries",
+        "c sugar": "sugar",
+        "c water": "water",
+        "t cornstarch": "cornstarch",
+        "t vanilla": "vanilla",
+        "t baking powder": "baking powder",
+        "t bakin g powder": "baking powder",
+        "t lemon extrac t": "lemon extract",
+        "lemon extrac t": "lemon extract",
+        "c flour": "flour",
+        "c peca ns": "pecans",
+        "peca ns": "pecans",
+        "t lem on peel": "lemon zest",
+        "lem on peel": "lemon zest",
+        "c brown sugar": "brown sugar",
+        "m iniature marshmallows": "marshmallows",
+        "mini ature marsh mallows": "marshmallows",
+        "miniature marshmallows": "marshmallows",
+        "chop ped walnuts": "walnuts",
+        "all-purpos e flour": "flour",
+        "all purpos e flour": "flour",
+        "shorte ning": "shortening",
+        "semi- sweet real chocolate": "chocolate chips",
+        "semi-sweet real chocolate": "chocolate chips",
+
+        # Ingredient with unit embedded (from Corn Relish analysis)
+        "ears corn": "corn",
+        "ears ofcorn": "corn",
+        "ears of corn": "corn",
+        "head cabbage": "cabbage",
+        "medium head cabbage": "cabbage",
+        "dry mustard": "mustard powder",
+        "red peppers": "red pepper",
+        "green peppers": "green pepper",
+
+        # Gelatin variants
+        "lime gelatin": "gelatin",
+        "lemon gelatin": "gelatin",
+        "orange gelatin": "gelatin",
+        "strawberry gelatin": "gelatin",
+        "unflavored gelatin": "gelatin",
+        "plain gelatin": "gelatin",
+
+        # More OCR patterns
+        "ofvinegar": "vinegar",
+        "pint ofvinegar": "vinegar",
+
+        # Embedded size units (strip the descriptor)
+        "oz mushrooms": "mushrooms",
+        "mushrooms, sliced": "mushrooms",
+        "sliced mushrooms": "mushrooms",
     }
 
     # Check for exact match first
@@ -2527,8 +2650,40 @@ def infer_servings(recipe):
 
 def get_nutrition_for_ingredient(ingredient):
     """Calculate nutrition for a single ingredient entry."""
-    item = normalize_ingredient(ingredient.get("item", ""))
-    unit = str(ingredient.get("unit", "")).lower()
+    raw_item = ingredient.get("item", "")
+    raw_unit = ingredient.get("unit", "")
+
+    # Extract OCR-embedded unit prefixes from item (e.g., "c sugar" -> unit="cup", item="sugar")
+    ocr_unit_prefixes = {
+        "c ": "cup",
+        "t ": "tsp",
+        "T ": "tbsp",
+        "slices ": "slice",
+        "slice ": "slice",
+        "ears ": "ear",
+        "ear ": "ear",
+        "qt. ": "quart",
+        "qt ": "quart",
+        "pt. ": "pint",
+        "pt ": "pint",
+        "oz ": "oz",
+        "lb ": "lb",
+        "cups ": "cup",
+        "cup ": "cup",
+        "tbsp ": "tbsp",
+        "tsp ": "tsp",
+        "tblsp. ": "tbsp",
+        "tblsps. ": "tbsp",
+    }
+    extracted_unit = None
+    for prefix, unit_name in ocr_unit_prefixes.items():
+        if raw_item.lower().startswith(prefix.lower()) and not raw_unit:
+            extracted_unit = unit_name
+            raw_item = raw_item[len(prefix):]
+            break
+
+    item = normalize_ingredient(raw_item)
+    unit = str(raw_unit).lower() if raw_unit else (extracted_unit or "")
 
     # Skip equipment and non-food items
     if is_equipment(item):
@@ -2540,7 +2695,9 @@ def get_nutrition_for_ingredient(ingredient):
         return {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0, "_skipped": True}
 
     quantity = parse_quantity(ingredient.get("quantity", "1"))
-    unit = normalize_unit(ingredient.get("unit", ""))
+    # Only normalize unit if we didn't extract one from OCR prefix
+    if not extracted_unit:
+        unit = normalize_unit(ingredient.get("unit", ""))
 
     # Handle compound units like "5-oz" or "6-inch" -> extract multiplier
     compound_match = re.match(r'^(\d+(?:\.\d+)?)-?(\w+)$', unit)
