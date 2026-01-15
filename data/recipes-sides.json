@@ -527,9 +527,9 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 94,
-          "fat_g": 0.6,
-          "carbs_g": 22.2,
+          "calories": 92,
+          "fat_g": 0.5,
+          "carbs_g": 22.1,
           "protein_g": 1.3,
           "sodium_mg": 99,
           "fiber_g": 4.4,
@@ -625,19 +625,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 169,
-          "fat_g": 12.1,
-          "carbs_g": 7.8,
-          "protein_g": 7.3,
-          "sodium_mg": 288,
+          "calories": 209,
+          "fat_g": 15.3,
+          "carbs_g": 8.0,
+          "protein_g": 9.7,
+          "sodium_mg": 353,
           "fiber_g": 0.6,
           "sugar_g": 1.7
         },
-        "missing_inputs": [
-          "1 cup Muenster cheese, shredded"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 10 servings"
         ]
@@ -11263,9 +11261,9 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00be cup sugar",
-          "quantity": "",
-          "unit": "",
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -11281,40 +11279,40 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup sweet milk",
-          "quantity": "",
-          "unit": "",
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "sweet"
+        },
+        {
+          "item": "flour",
+          "quantity": "2 1/2",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u00bd cups flour",
+          "item": "baking powder",
           "quantity": "2",
-          "unit": "",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tblsp. shortening",
-          "quantity": "1",
-          "unit": "",
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tsp. salt",
+          "item": "nutmeg",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "oil",
           "quantity": "",
           "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u215b tsp. nutmeg",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "tblsp. baking powder",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "prep_note": "for frying"
         }
       ],
       "instructions": [
@@ -11340,22 +11338,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 66,
-          "fat_g": 2.5,
-          "carbs_g": 7.2,
-          "protein_g": 3.8,
-          "sodium_mg": 213,
-          "fiber_g": 0.8,
-          "sugar_g": 0.5
+          "calories": 515,
+          "fat_g": 4.3,
+          "carbs_g": 105.5,
+          "protein_g": 12.9,
+          "sodium_mg": 410,
+          "fiber_g": 2.9,
+          "sugar_g": 39.6
         },
         "missing_inputs": [
-          "\u00be cup sugar",
-          "\u00bd cup sweet milk",
-          "2  \u00bd cups flour",
-          "1  \u00bd tblsp. shortening",
-          "\u215b tsp. nutmeg"
+          "oil"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -14180,11 +14174,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 16,
-          "fat_g": 0.7,
-          "carbs_g": 1.3,
-          "protein_g": 0.6,
-          "sodium_mg": 778,
+          "calories": 14,
+          "fat_g": 0.5,
+          "carbs_g": 1.1,
+          "protein_g": 0.5,
+          "sodium_mg": 2055,
           "fiber_g": 0.3,
           "sugar_g": 0.1
         },
@@ -17652,27 +17646,39 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "One string sixinches long ofredpeppers,",
-          "quantity": "1/4",
-          "unit": "tsp",
-          "prep_note": "[quantity inferred]"
-        },
-        {
-          "item": "One large cabbage ortwosmall ones.",
-          "quantity": "",
-          "unit": "",
+          "item": "red peppers",
+          "quantity": "6",
+          "unit": "inch string",
           "prep_note": ""
         },
         {
-          "item": "Four large onions.",
+          "item": "cabbage",
           "quantity": "1",
-          "unit": "medium",
-          "prep_note": "[quantity inferred]"
+          "unit": "large",
+          "prep_note": "or 2 small"
         },
         {
-          "item": "Four tablespoonsful ofcelery seed.",
-          "quantity": "",
-          "unit": "",
+          "item": "onions",
+          "quantity": "4",
+          "unit": "large",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
           "prep_note": ""
         }
       ],
@@ -17709,20 +17715,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 11,
-          "fat_g": 0.0,
-          "carbs_g": 2.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
-          "fiber_g": 0.5,
-          "sugar_g": 1.2
+          "calories": 293,
+          "fat_g": 1.1,
+          "carbs_g": 66.2,
+          "protein_g": 2.4,
+          "sodium_mg": 3846,
+          "fiber_g": 3.1,
+          "sugar_g": 56.2
         },
         "missing_inputs": [
-          "1/4 tsp One string sixinches long ofredpeppers,",
-          "One large cabbage ortwosmall ones.",
-          "Four tablespoonsful ofcelery seed."
+          "6 inch string red peppers",
+          "1 large cabbage"
         ],
         "assumptions": [
           "Calculated for 4 servings"

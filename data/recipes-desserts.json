@@ -3769,17 +3769,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 2,
-          "fat_g": 0.1,
-          "carbs_g": 0.2,
-          "protein_g": 0.1,
-          "sodium_mg": 2,
+          "calories": 32,
+          "fat_g": 2.9,
+          "carbs_g": 1.1,
+          "protein_g": 0.5,
+          "sodium_mg": 9,
           "fiber_g": 0.0,
-          "sugar_g": 0.2
+          "sugar_g": 1.1
         },
         "missing_inputs": [
           "8 squares (1 pkg) Baker's semi-sweet chocolate squares",
-          "1 cup Cool Whip whipped topping, thawed",
           "1  Nilla wafer pie crust",
           "8 oz package Philadelphia cream cheese",
           "14 oz can Eagle Brand sweetened condensed milk"
@@ -4573,17 +4572,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 1263,
-          "fat_g": 65.5,
-          "carbs_g": 154.7,
-          "protein_g": 15.5,
-          "sodium_mg": 1148,
-          "fiber_g": 1.5,
-          "sugar_g": 100.2
+          "calories": 1193,
+          "fat_g": 62.0,
+          "carbs_g": 146.7,
+          "protein_g": 13.5,
+          "sodium_mg": 1103,
+          "fiber_g": 1.2,
+          "sugar_g": 93.2
         },
         "missing_inputs": [
           "1  vanilla bean, split lengthwise, seeds scraped out and reserved",
           "1 tbsp plus 1 tsp baking powder",
+          "1/2 cup Coconut Custard (right), cold",
+          "1/2 cup Coconut Custard (right)",
           "FOR ASSEMBLY:",
           "Coconut Simple Syrup (right)",
           "2 cups sweetened flaked coconut, lightly toasted, for garnish"
@@ -10416,10 +10417,10 @@
         "status": "insufficient_data",
         "per_serving": {
           "calories": 110,
-          "fat_g": 5.9,
-          "carbs_g": 5.0,
-          "protein_g": 8.5,
-          "sodium_mg": 355,
+          "fat_g": 3.9,
+          "carbs_g": 3.0,
+          "protein_g": 14.5,
+          "sodium_mg": 158,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
@@ -11609,40 +11610,34 @@
           "prep_note": ""
         },
         {
-          "item": "heaping cup brown sugar",
+          "item": "brown sugar",
           "quantity": "1",
-          "unit": "",
+          "unit": "cup",
+          "prep_note": "heaping"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1 1/2",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tblsp. shortening",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": ". soda",
+          "item": "baking soda",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup buttermilk or sour cream",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "buttermilk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "or sour cream"
         },
         {
-          "item": "salt",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "9-inch",
+          "item": "pie crust",
           "quantity": "1",
           "unit": "",
-          "prep_note": "unbaked pastry shell"
+          "prep_note": "9-inch shell"
         }
       ],
       "instructions": [
@@ -11668,20 +11663,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 228,
-          "fat_g": 0.6,
-          "carbs_g": 47.5,
-          "protein_g": 6.5,
-          "sodium_mg": 391,
+          "calories": 476,
+          "fat_g": 5.8,
+          "carbs_g": 99.0,
+          "protein_g": 7.5,
+          "sodium_mg": 349,
           "fiber_g": 1.7,
-          "sugar_g": 0.1
+          "sugar_g": 51.6
         },
         "missing_inputs": [
-          "1  heaping cup brown sugar",
-          "1  \u00bd tblsp. shortening",
-          "\u00bd cup buttermilk or sour cream"
+          "1  pie crust"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12595,7 +12588,9 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true,
+      "flag_reason": "Puzzle recipe - Bible verse references need manual lookup"
     },
     {
       "id": "spice-layer-cake-gutenberg",
@@ -17096,15 +17091,15 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "fine melba toast crumbs",
+          "item": "melba toast crumbs",
           "quantity": "2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "fine"
         },
         {
-          "item": "\u00bd cups sugar",
-          "quantity": "1",
-          "unit": "",
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -17114,10 +17109,10 @@
           "prep_note": ""
         },
         {
-          "item": "melted butter",
+          "item": "butter",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "melted"
         },
         {
           "item": "eggs",
@@ -17126,51 +17121,45 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bd tablespoons lemon juice",
-          "quantity": "1",
-          "unit": "",
+          "item": "cottage cheese",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": "sieved"
+        },
+        {
+          "item": "flour",
+          "quantity": "3",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
           "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "coffee cream",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "cottage cheese sieved",
-          "quantity": "3",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "flour",
           "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "grated lemon rind",
-          "quantity": "2",
           "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "chopped nuts",
-          "quantity": "1/4",
-          "unit": "cup",
           "prep_note": ""
         },
         {
           "item": "vanilla",
           "quantity": "1",
           "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon rind",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "grated"
+        },
+        {
+          "item": "evaporated milk",
+          "quantity": "1",
+          "unit": "cup",
           "prep_note": ""
         }
       ],
@@ -17195,20 +17184,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 222,
-          "fat_g": 14.6,
-          "carbs_g": 16.3,
-          "protein_g": 6.4,
-          "sodium_mg": 343,
-          "fiber_g": 0.8,
-          "sugar_g": 1.7
+          "calories": 309,
+          "fat_g": 12.8,
+          "carbs_g": 42.2,
+          "protein_g": 7.0,
+          "sodium_mg": 313,
+          "fiber_g": 0.6,
+          "sugar_g": 28.4
         },
         "missing_inputs": [
-          "1  \u00bd cups sugar",
-          "1  \u00bd tablespoons lemon juice",
-          "3 cup cottage cheese sieved"
+          "2 lb cottage cheese"
         ],
         "assumptions": [
           "Calculated for 12 servings",
@@ -18611,13 +18598,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 205,
+          "calories": 212,
           "fat_g": 4.7,
-          "carbs_g": 37.1,
-          "protein_g": 3.7,
+          "carbs_g": 38.5,
+          "protein_g": 4.2,
           "sodium_mg": 77,
-          "fiber_g": 0.6,
-          "sugar_g": 25.7
+          "fiber_g": 0.8,
+          "sugar_g": 25.8
         },
         "missing_inputs": [
           "1/4 cup fat",
@@ -19503,9 +19490,9 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bc tbsp. gelatine",
-          "quantity": "1",
-          "unit": "",
+          "item": "unflavored gelatin",
+          "quantity": "1 1/4",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
@@ -19521,9 +19508,9 @@
           "prep_note": "crumbled"
         },
         {
-          "item": "\u00be cup Carnation Milk",
-          "quantity": "1",
-          "unit": "",
+          "item": "evaporated milk",
+          "quantity": "1 3/4",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -19534,7 +19521,7 @@
         },
         {
           "item": "sugar",
-          "quantity": "1/4",
+          "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
         },
@@ -19567,20 +19554,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 39,
-          "fat_g": 1.2,
-          "carbs_g": 6.5,
-          "protein_g": 0.8,
-          "sodium_mg": 2,
+          "calories": 141,
+          "fat_g": 5.4,
+          "carbs_g": 18.2,
+          "protein_g": 5.4,
+          "sodium_mg": 63,
           "fiber_g": 0.0,
-          "sugar_g": 6.3
+          "sugar_g": 18.1
         },
         "missing_inputs": [
-          "1  \u00bc tbsp. gelatine",
-          "9  macaroons",
-          "1  \u00be cup Carnation Milk"
+          "9  macaroons"
         ],
         "assumptions": [
           "Calculated for 8 servings",
@@ -25298,18 +25283,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 221,
+          "calories": 225,
           "fat_g": 16.3,
-          "carbs_g": 18.2,
-          "protein_g": 2.0,
+          "carbs_g": 19.1,
+          "protein_g": 2.1,
           "sodium_mg": 29,
-          "fiber_g": 0.2,
-          "sugar_g": 18.0
+          "fiber_g": 0.3,
+          "sugar_g": 18.7
         },
         "missing_inputs": [
           "1  envelope unflavored gelatin",
           "1  No. 2 can crushed pineapple",
-          "1/2 cup chopped maraschino cherries",
           "2  dozen lady fingers or slices of sponge cake"
         ],
         "assumptions": [
@@ -35120,18 +35104,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 52,
-          "fat_g": 0.7,
-          "carbs_g": 11.0,
-          "protein_g": 1.0,
-          "sodium_mg": 11,
-          "fiber_g": 1.5,
-          "sugar_g": 0.2
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
         },
         "missing_inputs": [
           "1-1  /2 lb ground beef 1 med jar Taco sauce",
+          "4 large corn tortillas 1 8 oz pkg shredded cheddar",
           "1 can (8 oz) tomato puree"
         ],
         "assumptions": [
@@ -35378,40 +35363,58 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "precooked pie shell 1 c Shredded Cheddar cheese",
+          "item": "pie shell",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "precooked"
         },
         {
           "item": "asparagus",
           "quantity": "1",
           "unit": "lb",
-          "prep_note": "trimmed, cut 3 tbs red pepper strips"
+          "prep_note": "trimmed, cut 1 1/2\", cooked tender-crisp"
         },
         {
-          "item": "/2\"",
-          "quantity": "1-1",
-          "unit": "",
-          "prep_note": "cooked tender-crisp 2 tbs cornstarch"
+          "item": "cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "shredded"
         },
         {
-          "item": "salt Pinch of pepper",
+          "item": "red pepper",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "strips"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
           "quantity": "1/2",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "/2 c half-&amp;-half 3 eggs",
-          "quantity": "1-1",
+          "item": "pepper",
+          "quantity": "",
           "unit": "",
-          "prep_note": "slightly beaten"
+          "prep_note": "pinch"
         },
         {
-          "item": "c grated Parmesan cheese",
-          "quantity": "1/4",
-          "unit": "",
+          "item": "half-and-half",
+          "quantity": "1 1/2",
+          "unit": "cup",
           "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "slightly beaten"
         }
       ],
       "instructions": [
@@ -35451,21 +35454,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 45,
-          "fat_g": 3.1,
-          "carbs_g": 0.3,
-          "protein_g": 3.9,
-          "sodium_mg": 113,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
+          "calories": 465,
+          "fat_g": 33.5,
+          "carbs_g": 24.3,
+          "protein_g": 16.2,
+          "sodium_mg": 657,
+          "fiber_g": 0.7,
+          "sugar_g": 5.0
         },
         "missing_inputs": [
-          "1  precooked pie shell 1 c Shredded Cheddar cheese",
-          "1 lb asparagus",
-          "1-1  /2\"",
-          "1/2 tsp salt Pinch of pepper"
+          "1 lb asparagus"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -35881,34 +35881,58 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "margarine 1/2 c chopped nuts (pecans,",
+          "item": "margarine",
           "quantity": "1",
           "unit": "stick",
           "prep_note": ""
         },
         {
-          "item": "c sugar 1 tsp vanilla",
+          "item": "sugar",
           "quantity": "1",
-          "unit": "",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "eggs 1 tsp vinegar",
+          "item": "eggs",
           "quantity": "2",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "c coconut 1 unbaked pie shell",
+          "item": "coconut",
           "quantity": "1/2",
-          "unit": "",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "c rains",
+          "item": "raisins",
           "quantity": "1/2",
-          "unit": "",
+          "unit": "cup",
           "prep_note": ""
+        },
+        {
+          "item": "nuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped (pecans)"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pie shell",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "unbaked"
         }
       ],
       "instructions": [
@@ -35944,22 +35968,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 2.5,
-          "carbs_g": 0.2,
-          "protein_g": 3.0,
-          "sodium_mg": 36,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
+          "calories": 787,
+          "fat_g": 47.7,
+          "carbs_g": 85.5,
+          "protein_g": 8.8,
+          "sodium_mg": 341,
+          "fiber_g": 3.0,
+          "sugar_g": 62.7
         },
-        "missing_inputs": [
-          "1 stick margarine 1/2 c chopped nuts (pecans,",
-          "1  c sugar 1 tsp vanilla",
-          "1/2  c coconut 1 unbaked pie shell",
-          "1/2  c rains"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -44186,64 +44205,34 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "eggs 2 bowls",
+          "item": "eggs",
           "quantity": "5",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "separated"
         },
         {
-          "item": "ugar Dover beaterHlemon Wooden spoon",
+          "item": "sugar",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "flour Grater",
+          "item": "flour",
           "quantity": "1",
           "unit": "cup",
+          "prep_note": "sifted"
+        },
+        {
+          "item": "lemon",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "juice and zest"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
           "prep_note": ""
-        },
-        {
-          "item": "Measure outthesifted flour",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "add salttothis,and"
-        },
-        {
-          "item": "Break theeggs",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "putting theyolks inonebowland"
-        },
-        {
-          "item": "Beat theyolks until they arethickandcreamy in",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Add thesugar totheegg-yolks",
-          "quantity": "4",
-          "unit": "",
-          "prep_note": "andbeat well to-"
-        },
-        {
-          "item": "Grate theouter rind ofthehalflemon",
-          "quantity": "5",
-          "unit": "",
-          "prep_note": "andsqueeze"
-        },
-        {
-          "item": "Addthegrated rindand juice tothebeaten egg-",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Beat theegg-whites until stiff",
-          "quantity": "7",
-          "unit": "",
-          "prep_note": "and\"fold\" halfof"
         }
       ],
       "instructions": [
@@ -44291,24 +44280,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 428,
-          "fat_g": 16.2,
-          "carbs_g": 51.3,
-          "protein_g": 19.5,
-          "sodium_mg": 231,
-          "fiber_g": 0.0,
-          "sugar_g": 51.3
+          "calories": 399,
+          "fat_g": 6.6,
+          "carbs_g": 74.9,
+          "protein_g": 10.8,
+          "sodium_mg": 235,
+          "fiber_g": 1.1,
+          "sugar_g": 50.8
         },
-        "missing_inputs": [
-          "1 cup flour Grater",
-          "1  Measure outthesifted flour",
-          "3  Beat theyolks until they arethickandcreamy in",
-          "4  Add thesugar totheegg-yolks",
-          "5  Grate theouter rind ofthehalflemon",
-          "7  Beat theegg-whites until stiff"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -44735,40 +44717,28 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "ugax Saucepan",
+          "item": "sugar",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "egg\u2014^white only Bowl",
+          "item": "egg white",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "vanilla (orother flavoring Dover beater",
+          "item": "vanilla",
           "quantity": "1/2",
           "unit": "tsp",
-          "prep_note": ""
+          "prep_note": "or other flavoring"
         },
         {
           "item": "boiling water",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
-        },
-        {
-          "item": "Putthesugar inasaucepan",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "andpour theboiling"
-        },
-        {
-          "item": "Place thesaucepan overaslow fire",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "and stiruntil the"
         }
       ],
       "instructions": [
@@ -44828,22 +44798,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 2,
+          "calories": 199,
           "fat_g": 0.0,
-          "carbs_g": 0.1,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "carbs_g": 50.1,
+          "protein_g": 1.0,
+          "sodium_mg": 14,
           "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "sugar_g": 50.1
         },
-        "missing_inputs": [
-          "1 cup ugax Saucepan",
-          "1  egg\u2014^white only Bowl",
-          "1  Putthesugar inasaucepan",
-          "2  Place thesaucepan overaslow fire"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -47327,13 +47292,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 284,
+          "fat_g": 0.8,
+          "carbs_g": 59.4,
+          "protein_g": 8.1,
+          "sodium_mg": 1,
+          "fiber_g": 2.1,
+          "sugar_g": 0.2
         },
         "missing_inputs": [
           "1  chicken cutinpieces iyiteaspoonfuls baking powder"
@@ -48418,15 +48383,15 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "^c.butter",
-          "quantity": "1",
-          "unit": "",
+          "item": "butter",
+          "quantity": "1 1/2",
+          "unit": "cup",
           "prep_note": "creamed"
         },
         {
-          "item": "c.sugar",
+          "item": "sugar",
           "quantity": "2",
-          "unit": "",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -48436,34 +48401,40 @@
           "prep_note": "beaten light"
         },
         {
-          "item": "c.milk",
+          "item": "milk",
           "quantity": "1",
-          "unit": "",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "|tspsoda",
+          "item": "baking soda",
           "quantity": "1",
-          "unit": "",
-          "prep_note": "inhotwater"
+          "unit": "tsp",
+          "prep_note": "in hot water"
         },
         {
-          "item": "c.Wingold flour",
+          "item": "flour",
           "quantity": "4",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "tspcream tartar",
-          "quantity": "1",
-          "unit": "large",
+          "unit": "cup",
           "prep_note": ""
         },
         {
           "item": "raisins",
-          "quantity": "2",
+          "quantity": "1",
           "unit": "lb",
           "prep_note": ""
+        },
+        {
+          "item": "currants",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "citron",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": "sliced"
         }
       ],
       "instructions": [
@@ -48501,22 +48472,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 90,
-          "fat_g": 6.2,
-          "carbs_g": 0.5,
-          "protein_g": 7.5,
-          "sodium_mg": 89,
-          "fiber_g": 0.0,
-          "sugar_g": 0.5
+          "calories": 1580,
+          "fat_g": 78.5,
+          "carbs_g": 198.5,
+          "protein_g": 23.2,
+          "sodium_mg": 900,
+          "fiber_g": 3.4,
+          "sugar_g": 103.8
         },
         "missing_inputs": [
-          "1  ^c.butter",
-          "2  c.sugar",
-          "1  c.milk",
-          "1  |tspsoda",
-          "4  c.Wingold flour",
-          "1 large tspcream tartar",
-          "2 lb raisins"
+          "1 lb raisins",
+          "1/2 lb currants",
+          "1/4 lb citron"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -59391,39 +59358,39 @@
       "ingredients": [
         {
           "item": "apples",
-          "quantity": "",
+          "quantity": "6",
           "unit": "",
           "prep_note": "stewed and strained"
         },
         {
           "item": "cinnamon",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "rose-water",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "rose water",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "optional"
         },
         {
           "item": "wine",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "optional"
         },
         {
           "item": "sugar",
-          "quantity": "",
-          "unit": "",
+          "quantity": "1/2",
+          "unit": "cup",
           "prep_note": "to taste"
         },
         {
-          "item": "orange juice",
+          "item": "pie crust",
           "quantity": "",
           "unit": "",
-          "prep_note": "squeezed on top"
+          "prep_note": "for tart shells"
         }
       ],
       "instructions": [
@@ -59463,22 +59430,19 @@
         "processed/img_5964.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 17,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 1.0,
           "protein_g": 0.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 0.2,
+          "sugar_g": 0.4
         },
         "missing_inputs": [
-          "apples",
-          "cinnamon",
-          "rose-water",
-          "wine",
-          "orange juice"
+          "6  apples",
+          "pie crust"
         ],
         "assumptions": [
           "Calculated for 4 servings"

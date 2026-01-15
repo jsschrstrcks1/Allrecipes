@@ -1970,19 +1970,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 151,
+          "calories": 157,
           "fat_g": 4.8,
-          "carbs_g": 24.8,
+          "carbs_g": 25.0,
           "protein_g": 2.2,
           "sodium_mg": 84,
           "fiber_g": 0.3,
-          "sugar_g": 10.5
+          "sugar_g": 10.7
         },
         "missing_inputs": [
           "1/2 cup vanilla yogurt",
-          "2 tbsp culinary lavender",
           "1 lemon lemon zest"
         ],
         "assumptions": [
@@ -2261,12 +2260,12 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 234,
-          "fat_g": 16.8,
-          "carbs_g": 19.5,
-          "protein_g": 3.9,
+          "calories": 240,
+          "fat_g": 16.7,
+          "carbs_g": 21.4,
+          "protein_g": 4.0,
           "sodium_mg": 142,
-          "fiber_g": 4.4,
+          "fiber_g": 3.3,
           "sugar_g": 5.3
         },
         "missing_inputs": [
@@ -12621,13 +12620,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 294,
-          "fat_g": 13.6,
-          "carbs_g": 39.3,
-          "protein_g": 4.3,
+          "calories": 305,
+          "fat_g": 13.4,
+          "carbs_g": 42.4,
+          "protein_g": 4.5,
           "sodium_mg": 222,
-          "fiber_g": 3.6,
-          "sugar_g": 17.5
+          "fiber_g": 1.8,
+          "sugar_g": 17.6
         },
         "missing_inputs": [
           "3/4 cup vanilla non-fat yogurt",
@@ -12753,12 +12752,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 267,
-          "fat_g": 13.9,
-          "carbs_g": 31.4,
-          "protein_g": 4.5,
+          "calories": 278,
+          "fat_g": 13.8,
+          "carbs_g": 34.6,
+          "protein_g": 4.7,
           "sodium_mg": 135,
-          "fiber_g": 3.7,
+          "fiber_g": 1.9,
           "sugar_g": 11.2
         },
         "missing_inputs": [
@@ -13615,12 +13614,12 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 234,
-          "fat_g": 16.8,
-          "carbs_g": 19.5,
-          "protein_g": 3.9,
+          "calories": 240,
+          "fat_g": 16.7,
+          "carbs_g": 21.4,
+          "protein_g": 4.0,
           "sodium_mg": 142,
-          "fiber_g": 4.4,
+          "fiber_g": 3.3,
           "sugar_g": 5.3
         },
         "missing_inputs": [
@@ -17592,15 +17591,15 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": ". ground beef",
+          "item": "ground beef",
           "quantity": "1",
           "unit": "lb",
           "prep_note": ""
         },
         {
-          "item": "\u2153 cup rice",
-          "quantity": "",
-          "unit": "",
+          "item": "rice",
+          "quantity": "1/3",
+          "unit": "cup",
           "prep_note": "uncooked"
         },
         {
@@ -17616,51 +17615,39 @@
           "prep_note": "chopped fine"
         },
         {
-          "item": "tblsp. shortening",
+          "item": "shortening",
           "quantity": "2",
-          "unit": "",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "Juice of 1 lemon",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "can tomato soup",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd cup celery",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "chopped"
-        },
-        {
-          "item": ". sugar",
+          "item": "salt",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": ". parsley",
-          "quantity": "1",
+          "item": "pepper",
+          "quantity": "1/4",
           "unit": "tsp",
-          "prep_note": "minced"
-        },
-        {
-          "item": "cabbage leaves",
-          "quantity": "6",
-          "unit": "",
           "prep_note": ""
         },
         {
-          "item": "salt and pepper",
-          "quantity": "",
-          "unit": "",
+          "item": "cabbage",
+          "quantity": "1",
+          "unit": "head",
+          "prep_note": "large leaves separated"
+        },
+        {
+          "item": "tomatoes",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": "canned"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
           "prep_note": ""
         }
       ],
@@ -17687,23 +17674,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 378,
-          "fat_g": 29.8,
-          "carbs_g": 3.6,
-          "protein_g": 21.8,
-          "sodium_mg": 170,
-          "fiber_g": 0.5,
-          "sugar_g": 2.4
+          "calories": 486,
+          "fat_g": 30.3,
+          "carbs_g": 29.2,
+          "protein_g": 25.8,
+          "sodium_mg": 722,
+          "fiber_g": 7.1,
+          "sugar_g": 17.1
         },
-        "missing_inputs": [
-          "\u2153 cup rice",
-          "Juice of 1 lemon",
-          "1  can tomato soup",
-          "\u00bd cup celery",
-          "6  cabbage leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -18373,12 +18354,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1106,
-          "fat_g": 2.7,
-          "carbs_g": 275.9,
-          "protein_g": 4.3,
-          "sodium_mg": 55,
-          "fiber_g": 5.9,
+          "calories": 1094,
+          "fat_g": 1.8,
+          "carbs_g": 275.0,
+          "protein_g": 3.7,
+          "sodium_mg": 1970,
+          "fiber_g": 5.6,
           "sugar_g": 261.5
         },
         "missing_inputs": [
@@ -19500,12 +19481,12 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 5098,
+          "calories": 5103,
           "fat_g": 369.8,
-          "carbs_g": 435.4,
-          "protein_g": 29.4,
+          "carbs_g": 436.3,
+          "protein_g": 29.7,
           "sodium_mg": 2522,
-          "fiber_g": 8.9,
+          "fiber_g": 9.0,
           "sugar_g": 362.4
         },
         "missing_inputs": [
@@ -28043,13 +28024,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 200,
-          "fat_g": 0.5,
-          "carbs_g": 42.0,
-          "protein_g": 4.5,
+          "calories": 228,
+          "fat_g": 0.6,
+          "carbs_g": 47.5,
+          "protein_g": 6.5,
           "sodium_mg": 1,
-          "fiber_g": 1.0,
-          "sugar_g": 0.0
+          "fiber_g": 1.7,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
           "3  eggyolks"
@@ -28224,16 +28205,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 228,
+          "fat_g": 0.6,
+          "carbs_g": 47.5,
+          "protein_g": 6.5,
+          "sodium_mg": 1,
+          "fiber_g": 1.7,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2 cup fuls pastry flour 1 teaspooiif ulsalt",
           "3  teaspooiifuls baking 3 tabk'spounfuls C'risco"
         ],
         "assumptions": [
@@ -28707,16 +28687,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 228,
+          "fat_g": 0.6,
+          "carbs_g": 47.5,
+          "protein_g": 6.5,
+          "sodium_mg": 1,
+          "fiber_g": 1.7,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2 cup fuls sifted pastry flour 1 egg",
           "4 tsp fuls baking powder 1 cupful milk (about)"
         ],
         "assumptions": [

@@ -3532,28 +3532,34 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Two cups ofsugar.",
-          "quantity": "1/4",
+          "item": "sugar",
+          "quantity": "2",
           "unit": "cup",
-          "prep_note": "[quantity inferred]"
-        },
-        {
-          "item": "One pint ofstrawberry syrup.",
-          "quantity": "",
-          "unit": "",
           "prep_note": ""
         },
         {
-          "item": "Two cans ofgrated pineapple,",
-          "quantity": "",
-          "unit": "",
+          "item": "strawberry syrup",
+          "quantity": "1",
+          "unit": "pint",
           "prep_note": ""
         },
         {
-          "item": "One large bottle ofMaraschino cherries.",
+          "item": "grated pineapple",
+          "quantity": "2",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "maraschino cherries",
+          "quantity": "1",
+          "unit": "large bottle",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
           "quantity": "",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "as needed"
         }
       ],
       "instructions": [
@@ -3599,18 +3605,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 48,
+          "calories": 387,
           "fat_g": 0.0,
-          "carbs_g": 12.5,
+          "carbs_g": 100.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 1,
           "fiber_g": 0.0,
-          "sugar_g": 12.5
+          "sugar_g": 100.0
         },
         "missing_inputs": [
-          "One pint ofstrawberry syrup.",
-          "Two cans ofgrated pineapple,",
-          "One large bottle ofMaraschino cherries."
+          "1 pint strawberry syrup",
+          "2 can grated pineapple",
+          "1 large bottle maraschino cherries",
+          "water"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -3808,34 +3815,58 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "mushrooms sliced 1/2 tsp salt",
+          "item": "mushrooms",
           "quantity": "1",
           "unit": "lb",
-          "prep_note": ""
+          "prep_note": "sliced"
         },
         {
-          "item": "c onions",
+          "item": "onions",
           "quantity": "2",
-          "unit": "",
-          "prep_note": "diced 1/2 tsp pepper"
+          "unit": "cup",
+          "prep_note": "diced"
         },
         {
-          "item": "butter 1 round steak",
+          "item": "butter",
           "quantity": "1/4",
           "unit": "lb",
           "prep_note": ""
         },
         {
-          "item": "can tomato sauce flour",
+          "item": "tomato sauce",
           "quantity": "8",
-          "unit": "oz",
+          "unit": "oz can",
           "prep_note": ""
         },
         {
-          "item": "tbs Worcestershire sauce",
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "round steak",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for dredging"
         }
       ],
       "instructions": [
@@ -3873,19 +3904,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 32,
-          "fat_g": 0.1,
-          "carbs_g": 7.5,
+          "calories": 42,
+          "fat_g": 0.8,
+          "carbs_g": 8.4,
           "protein_g": 1.0,
-          "sodium_mg": 3,
-          "fiber_g": 1.5,
-          "sugar_g": 3.5
+          "sodium_mg": 340,
+          "fiber_g": 1.6,
+          "sugar_g": 4.0
         },
         "missing_inputs": [
-          "1 lb mushrooms sliced 1/2 tsp salt",
-          "1/4 lb butter 1 round steak",
-          "8 oz can tomato sauce flour",
-          "1  tbs Worcestershire sauce"
+          "1 lb mushrooms",
+          "8 oz can tomato sauce",
+          "1  round steak",
+          "flour"
         ],
         "assumptions": [
           "Calculated for 4 servings"

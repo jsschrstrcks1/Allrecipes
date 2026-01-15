@@ -2578,13 +2578,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 774,
-          "fat_g": 14.2,
-          "carbs_g": 138.4,
-          "protein_g": 30.0,
-          "sodium_mg": 325,
-          "fiber_g": 19.2,
-          "sugar_g": 7.4
+          "calories": 150,
+          "fat_g": 5.8,
+          "carbs_g": 6.4,
+          "protein_g": 18.0,
+          "sodium_mg": 193,
+          "fiber_g": 1.2,
+          "sugar_g": 5.0
         },
         "missing_inputs": [
           "3/4 cup (3-inch) julienne-cut peeled jicama",
@@ -2592,6 +2592,7 @@
           "dash black pepper",
           "1/8 tsp ground chipotle chile pepper",
           "1 cup presliced red onion",
+          "8 6-inch corn tortillas",
           "1 cup mixed salad greens"
         ],
         "assumptions": [
@@ -3640,13 +3641,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 53,
-          "fat_g": 4.9,
-          "carbs_g": 1.7,
-          "protein_g": 1.5,
+          "calories": 66,
+          "fat_g": 6.0,
+          "carbs_g": 2.0,
+          "protein_g": 2.0,
           "sodium_mg": 302,
-          "fiber_g": 0.9,
-          "sugar_g": 0.3
+          "fiber_g": 1.2,
+          "sugar_g": 0.4
         },
         "missing_inputs": [
           "1/3 cup light garlic-and-herbs spreadable cheese (such as Boursin light)",
@@ -3836,16 +3837,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 670,
-          "fat_g": 9.0,
-          "carbs_g": 141.9,
-          "protein_g": 13.8,
-          "sodium_mg": 321,
-          "fiber_g": 19.8,
-          "sugar_g": 5.0
+          "calories": 46,
+          "fat_g": 0.6,
+          "carbs_g": 9.9,
+          "protein_g": 1.8,
+          "sodium_mg": 189,
+          "fiber_g": 1.8,
+          "sugar_g": 2.6
         },
         "missing_inputs": [
-          "2/3 cup (5 oz) goat cheese, softened"
+          "2/3 cup (5 oz) goat cheese, softened",
+          "8 6-inch corn tortillas"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -5413,21 +5415,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 133,
-          "fat_g": 6.9,
-          "carbs_g": 5.6,
-          "protein_g": 10.3,
-          "sodium_mg": 351,
-          "fiber_g": 0.2,
-          "sugar_g": 4.8
+          "calories": 151,
+          "fat_g": 7.0,
+          "carbs_g": 9.6,
+          "protein_g": 11.5,
+          "sodium_mg": 352,
+          "fiber_g": 0.7,
+          "sugar_g": 8.4
         },
         "missing_inputs": [
-          "8 oz wild mushrooms",
           "1/4 cup finely chopped fresh chives",
-          "1/4 cup (2 oz) goat cheese",
-          "1 tbsp abbamele, divided"
+          "1/4 cup (2 oz) goat cheese"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -15900,10 +15900,10 @@
         "status": "partial",
         "per_serving": {
           "calories": 366,
-          "fat_g": 26.7,
+          "fat_g": 26.6,
           "carbs_g": 6.9,
           "protein_g": 24.0,
-          "sodium_mg": 482,
+          "sodium_mg": 665,
           "fiber_g": 2.4,
           "sugar_g": 1.4
         },
@@ -86894,16 +86894,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bd lb. noodles",
-          "quantity": "",
-          "unit": "",
+          "item": "noodles",
+          "quantity": "1/2",
+          "unit": "lb",
           "prep_note": ""
         },
         {
-          "item": "\u00bd cups cooked ham",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "diced"
+          "item": "ham",
+          "quantity": "1 1/2",
+          "unit": "cup",
+          "prep_note": "cooked, diced"
         },
         {
           "item": "eggs",
@@ -86912,9 +86912,9 @@
           "prep_note": "beaten"
         },
         {
-          "item": "\u00bd cups milk",
-          "quantity": "1",
-          "unit": "",
+          "item": "milk",
+          "quantity": "1 1/2",
+          "unit": "cup",
           "prep_note": ""
         }
       ],
@@ -86941,20 +86941,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 2.5,
-          "carbs_g": 0.2,
-          "protein_g": 3.0,
-          "sodium_mg": 36,
+          "calories": 170,
+          "fat_g": 9.6,
+          "carbs_g": 5.5,
+          "protein_g": 15.0,
+          "sodium_mg": 706,
           "fiber_g": 0.0,
-          "sugar_g": 0.2
+          "sugar_g": 4.7
         },
         "missing_inputs": [
-          "\u00bd lb. noodles",
-          "1  \u00bd cups cooked ham",
-          "1  \u00bd cups milk"
+          "1/2 lb noodles"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -87373,40 +87371,40 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "young chicken",
+          "item": "chicken",
           "quantity": "1",
           "unit": "",
-          "prep_note": "cut up"
+          "prep_note": "young, cut up"
         },
         {
-          "item": "\u00bd cup flour",
-          "quantity": "",
-          "unit": "",
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "\u00bd tsp. salt",
-          "quantity": "1",
-          "unit": "",
+          "item": "salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "\u215b tsp. pepper",
-          "quantity": "",
-          "unit": "",
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "tblsp. butter",
+          "item": "butter",
           "quantity": "3",
-          "unit": "",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "\u00bd cups cream",
+          "item": "cream",
           "quantity": "1",
-          "unit": "",
-          "prep_note": "sweet or sour"
+          "unit": "cup",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -87432,20 +87430,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 77,
-          "fat_g": 8.6,
-          "carbs_g": 0.1,
-          "protein_g": 0.1,
-          "sodium_mg": 134,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 339,
+          "fat_g": 30.8,
+          "carbs_g": 13.7,
+          "protein_g": 3.0,
+          "sodium_mg": 953,
+          "fiber_g": 0.4,
+          "sugar_g": 1.8
         },
         "missing_inputs": [
-          "1  young chicken",
-          "\u00bd cup flour",
-          "1  \u00bd cups cream"
+          "1  chicken"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -92012,16 +92008,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "qts. chopped cabbage",
+          "item": "cabbage",
           "quantity": "2",
-          "unit": "",
-          "prep_note": ""
+          "unit": "quart",
+          "prep_note": "chopped"
         },
         {
-          "item": "qt. chopped green tomatoes",
+          "item": "green tomatoes",
           "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "unit": "quart",
+          "prep_note": "chopped"
         },
         {
           "item": "onions",
@@ -92037,50 +92033,38 @@
         },
         {
           "item": "salt",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "s. sugar",
-          "quantity": "2",
-          "unit": "lb",
-          "prep_note": ""
-        },
-        {
-          "item": "dry mustard",
-          "quantity": "4",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "tblsp. white mustard seed",
           "quantity": "3",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd tablespoons celery seed",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd tablespoon ginger",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "vinegar to cover (about 8 cups)",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "cloves",
-          "quantity": "1",
           "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "turmeric",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "quart",
           "prep_note": ""
         }
       ],
@@ -92111,24 +92095,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 128,
-          "fat_g": 2.5,
-          "carbs_g": 25.0,
-          "protein_g": 4.1,
-          "sodium_mg": 88,
-          "fiber_g": 5.2,
-          "sugar_g": 9.8
+          "calories": 620,
+          "fat_g": 2.3,
+          "carbs_g": 141.1,
+          "protein_g": 7.1,
+          "sodium_mg": 7203,
+          "fiber_g": 10.5,
+          "sugar_g": 120.4
         },
         "missing_inputs": [
-          "2  qts. chopped cabbage",
-          "3  sweet red peppers",
-          "2 lb s. sugar",
-          "3  tblsp. white mustard seed",
-          "1  \u00bd tablespoons celery seed",
-          "\u00bd tablespoon ginger",
-          "vinegar to cover (about 8 cups)"
+          "3  sweet red peppers"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -93720,7 +93698,7 @@
           "fat_g": 1.8,
           "carbs_g": 25.4,
           "protein_g": 6.6,
-          "sodium_mg": 267,
+          "sodium_mg": 427,
           "fiber_g": 1.1,
           "sugar_g": 1.0
         },
@@ -96562,10 +96540,10 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "pastry flour or 1\u00be cups bread flour",
+          "item": "pastry flour",
           "quantity": "2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "or 1 3/4 cups bread flour"
         },
         {
           "item": "cold fat",
@@ -96580,10 +96558,10 @@
           "prep_note": ""
         },
         {
-          "item": "Approximately \u2153 cup cold water",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "cold water",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "approximately"
         }
       ],
       "instructions": [
@@ -96608,20 +96586,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 581,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 228,
+          "fat_g": 0.6,
+          "carbs_g": 47.5,
+          "protein_g": 6.5,
+          "sodium_mg": 582,
+          "fiber_g": 1.7,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2 cup pastry flour or 1\u00be cups bread flour",
-          "1/2 cup cold fat",
-          "Approximately \u2153 cup cold water"
+          "1/2 cup cold fat"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -101893,16 +101869,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 296,
-          "fat_g": 23.2,
-          "carbs_g": 20.6,
+          "calories": 299,
+          "fat_g": 23.3,
+          "carbs_g": 21.5,
           "protein_g": 2.8,
           "sodium_mg": 40,
-          "fiber_g": 0.0,
-          "sugar_g": 20.6
+          "fiber_g": 0.1,
+          "sugar_g": 21.4
         },
         "missing_inputs": [
-          "1/3 cup maraschino cherries",
           "1/4 cup maraschino cherry juice"
         ],
         "assumptions": [
@@ -102574,20 +102549,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 118,
-          "fat_g": 1.0,
-          "carbs_g": 27.4,
-          "protein_g": 1.6,
+          "calories": 123,
+          "fat_g": 1.1,
+          "carbs_g": 28.7,
+          "protein_g": 1.7,
           "sodium_mg": 81,
-          "fiber_g": 0.1,
-          "sugar_g": 20.7
+          "fiber_g": 0.3,
+          "sugar_g": 21.8
         },
         "missing_inputs": [
           "2 cup mashed bananas",
-          "1/4 cup maraschino cherry juice",
-          "1/2 cup coarsely chopped maraschino cherries"
+          "1/4 cup maraschino cherry juice"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -114337,21 +114311,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 435,
-          "fat_g": 43.7,
-          "carbs_g": 8.8,
-          "protein_g": 5.6,
-          "sodium_mg": 495,
+          "calories": 485,
+          "fat_g": 47.7,
+          "carbs_g": 9.0,
+          "protein_g": 8.6,
+          "sodium_mg": 576,
           "fiber_g": 0.3,
           "sugar_g": 4.4
         },
         "missing_inputs": [
           "1 tsp dried dillweed",
           "1/2 cup feta cheese",
-          "1 lb angel hair pasta",
-          "1/2 cup muenster cheese"
+          "1 lb angel hair pasta"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -116243,17 +116216,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 149,
-          "fat_g": 8.3,
-          "carbs_g": 14.5,
-          "protein_g": 3.5,
-          "sodium_mg": 1095,
-          "fiber_g": 1.6,
+          "calories": 136,
+          "fat_g": 8.2,
+          "carbs_g": 11.8,
+          "protein_g": 3.2,
+          "sodium_mg": 1092,
+          "fiber_g": 1.2,
           "sugar_g": 2.8
         },
         "missing_inputs": [
           "1  chicken (2-3 lb) cooked & boned",
           "1 small can chopped mild green chilies",
+          "1 pkg corn tortillas (12)",
           "1 lb long horn cheese",
           "2-3 tbsp ol eo"
         ],
@@ -117695,21 +117669,21 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "cooked",
+          "item": "chicken",
           "quantity": "3",
           "unit": "cup",
-          "prep_note": "diced chicken"
+          "prep_note": "cooked, diced"
         },
         {
-          "item": "(8 oz) bag noodles",
-          "quantity": "1",
-          "unit": "",
+          "item": "egg noodles",
+          "quantity": "8",
+          "unit": "oz",
           "prep_note": ""
         },
         {
-          "item": "can mushrooms",
+          "item": "mushrooms",
           "quantity": "1",
-          "unit": "small",
+          "unit": "small can",
           "prep_note": ""
         },
         {
@@ -117719,16 +117693,16 @@
           "prep_note": ""
         },
         {
-          "item": "(16 oz) sour cream",
-          "quantity": "1",
-          "unit": "",
+          "item": "sour cream",
+          "quantity": "16",
+          "unit": "oz",
           "prep_note": ""
         },
         {
-          "item": "Swiss cheese",
-          "quantity": "8",
-          "unit": "oz",
-          "prep_note": ""
+          "item": "buttered bread crumbs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for topping"
         }
       ],
       "instructions": [
@@ -117758,18 +117732,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 498,
-          "fat_g": 30.5,
-          "carbs_g": 12.0,
-          "protein_g": 43.0,
-          "sodium_mg": 1065,
+          "calories": 286,
+          "fat_g": 14.5,
+          "carbs_g": 9.0,
+          "protein_g": 27.0,
+          "sodium_mg": 957,
           "fiber_g": 0.5,
-          "sugar_g": 1.8
+          "sugar_g": 1.0
         },
         "missing_inputs": [
-          "1  (8 oz) bag noodles",
+          "8 oz egg noodles",
           "1 small can mushrooms",
-          "1  (16 oz) sour cream"
+          "16 oz sour cream",
+          "buttered bread crumbs"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -119151,13 +119126,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 295,
-          "fat_g": 21.8,
-          "carbs_g": 20.5,
-          "protein_g": 5.8,
+          "calories": 321,
+          "fat_g": 24.0,
+          "carbs_g": 21.2,
+          "protein_g": 6.6,
           "sodium_mg": 543,
-          "fiber_g": 2.1,
-          "sugar_g": 1.1
+          "fiber_g": 2.7,
+          "sugar_g": 1.2
         },
         "missing_inputs": [
           "2 can boned chicken",
@@ -119417,16 +119392,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "raw Uncle Ben's original conv erted brand rice",
+          "item": "rice",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "uncooked"
         },
         {
-          "item": "boneless",
+          "item": "chicken breasts",
           "quantity": "1",
           "unit": "lb",
-          "prep_note": "skinless chicken breasts"
+          "prep_note": "boneless, skinless"
         },
         {
           "item": "cornstarch",
@@ -119447,28 +119422,10 @@
           "prep_note": "divided"
         },
         {
-          "item": "clove garlic",
-          "quantity": "1",
-          "unit": "large",
-          "prep_note": "minced"
-        },
-        {
-          "item": "peanut oil or safflower oil",
-          "quantity": "4",
+          "item": "vegetable oil",
+          "quantity": "3",
           "unit": "tbsp",
-          "prep_note": "divided"
-        },
-        {
-          "item": "carrot",
-          "quantity": "1",
-          "unit": "large",
-          "prep_note": "julienned"
-        },
-        {
-          "item": "green or red bell pepper",
-          "quantity": "1",
-          "unit": "large",
-          "prep_note": "cut into strips"
+          "prep_note": ""
         },
         {
           "item": "onion",
@@ -119477,9 +119434,21 @@
           "prep_note": "sliced"
         },
         {
-          "item": "fresh mushrooms",
-          "quantity": "1/4",
-          "unit": "lb",
+          "item": "red bell pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "broccoli florets",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "1",
+          "unit": "cup",
           "prep_note": "sliced"
         }
       ],
@@ -119536,20 +119505,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 368,
-          "fat_g": 18.1,
-          "carbs_g": 11.5,
-          "protein_g": 36.3,
-          "sodium_mg": 757,
-          "fiber_g": 1.1,
-          "sugar_g": 2.3
+          "calories": 401,
+          "fat_g": 14.9,
+          "carbs_g": 24.6,
+          "protein_g": 38.9,
+          "sodium_mg": 763,
+          "fiber_g": 2.1,
+          "sugar_g": 2.6
         },
         "missing_inputs": [
-          "1 cup raw Uncle Ben's original conv erted brand rice",
-          "1 large green or red bell pepper",
-          "1/4 lb fresh mushrooms"
+          "1  red bell pepper"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -122352,15 +122319,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 490,
-          "fat_g": 27.6,
-          "carbs_g": 41.3,
-          "protein_g": 20.7,
-          "sodium_mg": 140,
-          "fiber_g": 5.8,
-          "sugar_g": 4.9
+          "calories": 334,
+          "fat_g": 25.5,
+          "carbs_g": 8.3,
+          "protein_g": 17.7,
+          "sodium_mg": 107,
+          "fiber_g": 1.3,
+          "sugar_g": 4.3
         },
         "missing_inputs": [
+          "12  corn tortillas",
           "2 cup shredded Jack cheese"
         ],
         "assumptions": [
@@ -123981,7 +123949,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 604,
           "fat_g": 50.0,
@@ -123992,7 +123960,6 @@
           "sugar_g": 3.0
         },
         "missing_inputs": [
-          "1 pkg Uncle Ben's Wild White Rice",
           "2 cup French style green beans",
           "1 medium jar sliced pimientos (for color"
         ],
@@ -124821,13 +124788,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 622,
-          "fat_g": 52.4,
-          "carbs_g": 9.1,
-          "protein_g": 28.5,
+          "calories": 647,
+          "fat_g": 54.6,
+          "carbs_g": 9.9,
+          "protein_g": 29.3,
           "sodium_mg": 348,
-          "fiber_g": 2.8,
-          "sugar_g": 3.9
+          "fiber_g": 3.4,
+          "sugar_g": 4.0
         },
         "missing_inputs": [
           "1  (10 3/4 oz) can condensed cr eam of chicken soup",
@@ -127037,7 +127004,9 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true,
+      "flag_reason": "Recipe title is serving size - needs full review"
     },
     {
       "id": "for-six-fromscratc",
@@ -127537,13 +127506,13 @@
           "prep_note": ""
         },
         {
-          "item": "\u00bd cup \ufb01rm tofu, diced",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "firm tofu",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "diced"
         },
         {
-          "item": "whatever vegetables",
+          "item": "mixed vegetables",
           "quantity": "3-4",
           "unit": "cup",
           "prep_note": ""
@@ -127555,16 +127524,22 @@
           "prep_note": "chopped"
         },
         {
-          "item": "\u00bd cups of gai lan",
-          "quantity": "1",
-          "unit": "",
+          "item": "chinese broccoli",
+          "quantity": "1 1/2",
+          "unit": "cup",
           "prep_note": "chopped"
         },
         {
-          "item": "\u00bd cup red pepper, chopped",
-          "quantity": "1/4",
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ginger",
+          "quantity": "1",
           "unit": "tsp",
-          "prep_note": "[quantity inferred]"
+          "prep_note": "grated"
         }
       ],
       "instructions": [
@@ -127624,21 +127599,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 33,
-          "fat_g": 2.3,
-          "carbs_g": 3.0,
-          "protein_g": 0.3,
-          "sodium_mg": 22,
-          "fiber_g": 1.0,
-          "sugar_g": 1.5
+          "calories": 144,
+          "fat_g": 4.1,
+          "carbs_g": 20.6,
+          "protein_g": 7.2,
+          "sodium_mg": 531,
+          "fiber_g": 6.3,
+          "sugar_g": 5.6
         },
-        "missing_inputs": [
-          "\u00bd cup \ufb01rm tofu, diced",
-          "3-4 cup whatever vegetables",
-          "1  \u00bd cups of gai lan"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -132594,19 +132565,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 64,
-          "fat_g": 7.2,
-          "carbs_g": 0.0,
-          "protein_g": 0.1,
-          "sodium_mg": 49,
+          "calories": 148,
+          "fat_g": 8.2,
+          "carbs_g": 3.0,
+          "protein_g": 14.6,
+          "sodium_mg": 112,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "1 pints mall oysters."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -135314,34 +135283,28 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "c caramel ice cream topping",
+          "item": "caramel ice cream topping",
           "quantity": "1/2",
-          "unit": "",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "c salted peanuts",
+          "item": "salted peanuts",
           "quantity": "1/2",
-          "unit": "",
-          "prep_note": "Chopped"
+          "unit": "cup",
+          "prep_note": "chopped"
         },
         {
-          "item": "c m iniature marshmallows",
+          "item": "miniature marshmallows",
           "quantity": "1 1/2",
-          "unit": "",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "milk chocolate bar",
-          "quantity": "3 1/2",
+          "item": "milk chocolate",
+          "quantity": "4",
           "unit": "oz",
-          "prep_note": "cut into"
-        },
-        {
-          "item": "bar",
-          "quantity": "1/2",
-          "unit": "",
-          "prep_note": ""
+          "prep_note": "cut into pieces"
         }
       ],
       "instructions": [
@@ -135401,20 +135364,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 163,
-          "fat_g": 9.0,
-          "carbs_g": 18.4,
-          "protein_g": 5.1,
-          "sodium_mg": 12,
-          "fiber_g": 1.5,
-          "sugar_g": 11.6
+          "calories": 316,
+          "fat_g": 17.0,
+          "carbs_g": 35.4,
+          "protein_g": 7.1,
+          "sodium_mg": 34,
+          "fiber_g": 2.3,
+          "sugar_g": 26.6
         },
         "missing_inputs": [
-          "1/2  c caramel ice cream topping",
-          "3 1/2 oz milk chocolate bar",
-          "1/2  bar"
+          "1/2 cup caramel ice cream topping"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -141040,22 +141001,34 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Crescent rolls 8 oz Shredded Cheddar Cheese",
+          "item": "crescent rolls",
           "quantity": "2",
           "unit": "pkg",
           "prep_note": ""
         },
         {
-          "item": "Pizza Sauce 8 oz Shredded Mozzarella Cheese",
+          "item": "pizza sauce",
           "quantity": "1",
           "unit": "jar",
           "prep_note": ""
         },
         {
-          "item": "/2 lb Ground Beef",
-          "quantity": "1-1",
-          "unit": "",
+          "item": "ground beef",
+          "quantity": "1.5",
+          "unit": "lb",
           "prep_note": ""
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "mozzarella cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "shredded"
         }
       ],
       "instructions": [
@@ -141087,20 +141060,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 876,
+          "fat_g": 65.5,
+          "carbs_g": 7.3,
+          "protein_g": 57.0,
+          "sodium_mg": 888,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 1.6
         },
         "missing_inputs": [
-          "2 pkg Crescent rolls 8 oz Shredded Cheddar Cheese",
-          "1 jar Pizza Sauce 8 oz Shredded Mozzarella Cheese",
-          "1-1  /2 lb Ground Beef"
+          "1 jar pizza sauce"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -142553,34 +142524,64 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "c flour 2/3 c light molasses",
+          "item": "flour",
           "quantity": "1/4",
-          "unit": "",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "salt 1/4 tsp pepper",
+          "item": "salt",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "/2-3 lb frier chicken 1 tbs prepared mustard",
-          "quantity": "2-1",
-          "unit": "",
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "tbs oil 1 tbs cider vinegar",
+          "item": "fryer chicken",
+          "quantity": "2.5-3",
+          "unit": "lb",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "oil",
           "quantity": "2",
-          "unit": "",
+          "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "(8 oz) Sliced pineapple 1 can (16 oz) sweet potatoes,",
-          "quantity": "1",
-          "unit": "can",
+          "item": "light molasses",
+          "quantity": "2/3",
+          "unit": "cup",
           "prep_note": ""
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced pineapple",
+          "quantity": "8",
+          "unit": "oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "sweet potatoes",
+          "quantity": "16",
+          "unit": "oz can",
+          "prep_note": "drained"
         }
       ],
       "instructions": [
@@ -142624,21 +142625,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 41,
-          "fat_g": 0.1,
-          "carbs_g": 9.2,
-          "protein_g": 1.0,
-          "sodium_mg": 3,
-          "fiber_g": 1.0,
-          "sugar_g": 0.5
+          "calories": 1349,
+          "fat_g": 35.5,
+          "carbs_g": 154.3,
+          "protein_g": 99.5,
+          "sodium_mg": 937,
+          "fiber_g": 16.4,
+          "sugar_g": 8.1
         },
         "missing_inputs": [
-          "1/4  c flour 2/3 c light molasses",
-          "1 tsp salt 1/4 tsp pepper",
-          "2-1  /2-3 lb frier chicken 1 tbs prepared mustard",
-          "2  tbs oil 1 tbs cider vinegar"
+          "2/3 cup light molasses",
+          "8 oz can sliced pineapple"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -160324,22 +160323,22 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "oysters Baking-dish",
-          "quantity": "14",
+          "item": "oysters",
+          "quantity": "1",
           "unit": "pint",
           "prep_note": ""
         },
         {
-          "item": "White Sauce No.2 Strainer",
+          "item": "white sauce",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "medium thickness"
         },
         {
-          "item": "buttered cracker crumbs",
+          "item": "cracker crumbs",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "buttered"
         }
       ],
       "instructions": [
@@ -160391,20 +160390,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 84,
+          "fat_g": 1.0,
+          "carbs_g": 3.0,
+          "protein_g": 14.5,
+          "sodium_mg": 64,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "14 pint oysters Baking-dish",
-          "1 cup White Sauce No.2 Strainer",
-          "1 cup buttered cracker crumbs"
+          "1 cup white sauce",
+          "1 cup cracker crumbs"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -162341,34 +162339,40 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "granulated gelatine Tablespoon",
+          "item": "unflavored gelatin",
           "quantity": "1",
           "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "boiling water 3 bowlsKcupsugar Dover beaterMcuplemon juice Lemon-squeezer",
+          "item": "cold water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "eggs Mould",
-          "quantity": "3",
-          "unit": "",
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "Putthegelatine inabowl",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "addthecoldwater, and"
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
         },
         {
-          "item": "Addtheboiling water",
-          "quantity": "2",
+          "item": "egg whites",
+          "quantity": "3",
           "unit": "",
-          "prep_note": "thesugar, andthelemon juice,"
+          "prep_note": "beaten stiff"
         }
       ],
       "instructions": [
@@ -162416,21 +162420,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 248,
-          "fat_g": 3.8,
-          "carbs_g": 50.3,
-          "protein_g": 4.5,
-          "sodium_mg": 54,
-          "fiber_g": 0.0,
-          "sugar_g": 50.3
+          "calories": 119,
+          "fat_g": 0.0,
+          "carbs_g": 26.2,
+          "protein_g": 4.6,
+          "sodium_mg": 45,
+          "fiber_g": 0.1,
+          "sugar_g": 25.5
         },
-        "missing_inputs": [
-          "1 tbsp granulated gelatine Tablespoon",
-          "1  Putthegelatine inabowl",
-          "2  Addtheboiling water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -164663,16 +164663,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 18,
-          "fat_g": 1.2,
-          "carbs_g": 0.1,
-          "protein_g": 1.5,
-          "sodium_mg": 18618,
-          "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "calories": 246,
+          "fat_g": 1.9,
+          "carbs_g": 47.6,
+          "protein_g": 8.0,
+          "sodium_mg": 18619,
+          "fiber_g": 1.7,
+          "sugar_g": 0.2
         },
         "missing_inputs": [
-          "2 cup fuls pastry flour l'<cupfuls chopped chicken",
           "3  teaspooufuls bak-'_'cupful chicken gravy orcream sauce",
           "1/4 cup fid Criseo J2 teaspoonful salt",
           "73 cup ful milk (about) 2 cupfuls chicken broth"
@@ -167402,21 +167401,39 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "almon 1 egg",
+          "item": "canned salmon",
           "quantity": "1",
           "unit": "can",
-          "prep_note": "wellbeaten"
-        },
-        {
-          "item": "c.bread crumbs Salt",
-          "quantity": "1",
-          "unit": "",
           "prep_note": ""
         },
         {
-          "item": "c.milk Parsley",
+          "item": "egg",
           "quantity": "1",
           "unit": "",
+          "prep_note": "well beaten"
+        },
+        {
+          "item": "bread crumbs",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "parsley",
+          "quantity": "1",
+          "unit": "tbsp",
           "prep_note": "chopped"
         }
       ],
@@ -167449,20 +167466,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 162,
+          "fat_g": 4.8,
+          "carbs_g": 22.7,
+          "protein_g": 7.0,
+          "sodium_mg": 280,
+          "fiber_g": 1.3,
+          "sugar_g": 4.6
         },
         "missing_inputs": [
-          "1 can almon 1 egg",
-          "1  c.bread crumbs Salt",
-          "1  c.milk Parsley"
+          "1 can canned salmon"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -179638,19 +179653,20 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 350,
-          "fat_g": 29.4,
-          "carbs_g": 23.2,
-          "protein_g": 2.2,
-          "sodium_mg": 605,
-          "fiber_g": 3.4,
-          "sugar_g": 1.1
+          "calories": 246,
+          "fat_g": 28.1,
+          "carbs_g": 1.2,
+          "protein_g": 0.2,
+          "sodium_mg": 583,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
         },
         "missing_inputs": [
           "1 can (10 oz) red enchilada sauce",
           "1/2 cup pitted ripe olives, sliced",
           "1/2 cup green chiles, chopped",
           "2 cups Basic Ground Beef Mixture",
+          "8  corn tortillas",
           "4 oz longhorn cheese, shredded"
         ],
         "assumptions": [
@@ -181612,19 +181628,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 312,
-          "fat_g": 23.4,
-          "carbs_g": 24.2,
-          "protein_g": 4.3,
-          "sodium_mg": 118,
-          "fiber_g": 3.6,
-          "sugar_g": 0.8
+          "calories": 431,
+          "fat_g": 32.9,
+          "carbs_g": 28.8,
+          "protein_g": 10.1,
+          "sodium_mg": 978,
+          "fiber_g": 5.8,
+          "sugar_g": 1.6
         },
         "missing_inputs": [
-          "4 cups reserved chicken cooking liquid, strained",
-          "1/2 cup blanched or slivered almonds",
           "fresh thyme",
           "yogurt, optional"
         ],
