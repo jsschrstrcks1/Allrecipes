@@ -1935,20 +1935,19 @@
         }
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 81,
-          "fat_g": 0.8,
-          "carbs_g": 14.7,
-          "protein_g": 4.2,
-          "sodium_mg": 764,
-          "fiber_g": 3.4,
-          "sugar_g": 8.6
+          "calories": 561,
+          "fat_g": 18.8,
+          "carbs_g": 74.7,
+          "protein_g": 22.2,
+          "sodium_mg": 1844,
+          "fiber_g": 6.4,
+          "sugar_g": 14.6
         },
         "missing_inputs": [
           "1 1-inch piece ginger, peeled and thinly sliced",
-          "4 3-inch orange zest strips",
-          "24  frozen chicken or vegetable dumplings or pot stickers"
+          "4 3-inch orange zest strips"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -2116,15 +2115,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 466,
-          "fat_g": 30.8,
-          "carbs_g": 18.9,
-          "protein_g": 28.3,
-          "sodium_mg": 2401,
+          "calories": 454,
+          "fat_g": 30.4,
+          "carbs_g": 18.1,
+          "protein_g": 26.7,
+          "sodium_mg": 1713,
           "fiber_g": 3.1,
           "sugar_g": 4.1
         },
         "missing_inputs": [
+          "1 quart chicken broth",
           "1/2 tsp liquid smoke"
         ],
         "assumptions": [
@@ -2247,17 +2247,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 123,
-          "fat_g": 7.6,
-          "carbs_g": 8.4,
-          "protein_g": 6.8,
-          "sodium_mg": 1034,
+          "calories": 113,
+          "fat_g": 7.3,
+          "carbs_g": 7.7,
+          "protein_g": 5.5,
+          "sodium_mg": 461,
           "fiber_g": 1.5,
           "sugar_g": 4.2
         },
         "missing_inputs": [
+          "2 cups chicken broth",
           "2  ears of corn",
           "1 can creamed corn"
         ],
@@ -10365,13 +10366,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 1120,
+          "calories": 1112,
           "fat_g": 9.3,
-          "carbs_g": 264.5,
-          "protein_g": 31.6,
-          "sodium_mg": 4118,
-          "fiber_g": 25.2,
-          "sugar_g": 61.5
+          "carbs_g": 262.5,
+          "protein_g": 31.4,
+          "sodium_mg": 4117,
+          "fiber_g": 24.6,
+          "sugar_g": 60.0
         },
         "missing_inputs": [
           "2  beef soup bones",
@@ -10811,7 +10812,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -10821,9 +10822,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "35  to 40 minutesi- mash thru strainer. Toeachcupofasparagus"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12229,19 +12228,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 228,
-          "fat_g": 0.6,
+          "calories": 680,
+          "fat_g": 51.9,
           "carbs_g": 47.5,
           "protein_g": 6.5,
           "sodium_mg": 1,
           "fiber_g": 1.7,
           "sugar_g": 0.1
         },
-        "missing_inputs": [
-          "1 cup finely chopped beef suet."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12667,19 +12664,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 7,
-          "fat_g": 0.0,
+          "calories": 73,
+          "fat_g": 4.5,
           "carbs_g": 1.8,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
+          "protein_g": 6.2,
+          "sodium_mg": 19,
           "fiber_g": 0.2,
           "sugar_g": 0.8
         },
-        "missing_inputs": [
-          "1  knuckle veal. 2 or 3 celery leaves,"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -13922,7 +13917,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 28501,
           "fat_g": 1938.0,
@@ -13934,8 +13929,7 @@
         },
         "missing_inputs": [
           "2  celery tops",
-          "Large spoon",
-          "2  DIRECTIONS"
+          "Large spoon"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -14157,8 +14151,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 cup milk Small saucepan",
-          "1 tbsp flour Medium-sized saucepan"
+          "2 cup milk Small saucepan"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -14285,21 +14278,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 472,
-          "fat_g": 7.2,
-          "carbs_g": 103.1,
-          "protein_g": 18.2,
-          "sodium_mg": 801,
-          "fiber_g": 14.5,
-          "sugar_g": 18.2
+          "calories": 486,
+          "fat_g": 7.3,
+          "carbs_g": 106.4,
+          "protein_g": 18.9,
+          "sodium_mg": 1122,
+          "fiber_g": 15.3,
+          "sugar_g": 20.2
         },
         "missing_inputs": [
-          "1 tbsp redpepper Medium-sized covered sauce-",
-          "1 tbsp flour pan",
-          "1 tbsp butter Strainer",
-          "1 cup tomato pulp"
+          "1 tbsp flour pan"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -15689,11 +15679,11 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 447,
-          "fat_g": 24.9,
-          "carbs_g": 27.2,
-          "protein_g": 26.2,
-          "sodium_mg": 330,
+          "calories": 424,
+          "fat_g": 20.6,
+          "carbs_g": 27.3,
+          "protein_g": 29.6,
+          "sodium_mg": 356,
           "fiber_g": 1.3,
           "sugar_g": 2.4
         },
