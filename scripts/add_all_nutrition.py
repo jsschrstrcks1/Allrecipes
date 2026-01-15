@@ -236,6 +236,10 @@ NUTRITION_DB = {
     "beef broth": {"cup": {"cal": 17, "fat": 0.5, "carbs": 1, "protein": 3, "sodium": 890, "fiber": 0, "sugar": 0},
                   "can": {"cal": 34, "fat": 1, "carbs": 2, "protein": 6, "sodium": 1780, "fiber": 0, "sugar": 0}},
     "vegetable broth": {"cup": {"cal": 12, "fat": 0, "carbs": 3, "protein": 0, "sodium": 700, "fiber": 0, "sugar": 1}},
+    "bouillon cube": {"": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.5, "sodium": 900, "fiber": 0, "sugar": 0}},
+    "chicken bouillon cube": {"": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.5, "sodium": 900, "fiber": 0, "sugar": 0}},
+    "beef bouillon cube": {"": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.5, "sodium": 900, "fiber": 0, "sugar": 0}},
+    "bouillon": {"cube": {"cal": 5, "fat": 0, "carbs": 1, "protein": 0.5, "sodium": 900, "fiber": 0, "sugar": 0}},
     "tomato paste": {"can": {"cal": 139, "fat": 1, "carbs": 32, "protein": 7, "sodium": 170, "fiber": 7, "sugar": 21},
                     "tbsp": {"cal": 13, "fat": 0.1, "carbs": 3, "protein": 0.7, "sodium": 16, "fiber": 0.7, "sugar": 2}},
     "tomato sauce": {"cup": {"cal": 59, "fat": 0.4, "carbs": 13, "protein": 3, "sodium": 1116, "fiber": 4, "sugar": 8},
@@ -870,8 +874,10 @@ NUTRITION_DB = {
     "turnip": {"cup": {"cal": 36, "fat": 0.1, "carbs": 8, "protein": 1, "sodium": 87, "fiber": 2.3, "sugar": 5}},
     "turnips": {"cup": {"cal": 36, "fat": 0.1, "carbs": 8, "protein": 1, "sodium": 87, "fiber": 2.3, "sugar": 5}},
     "watercress": {"cup": {"cal": 4, "fat": 0, "carbs": 0.4, "protein": 0.8, "sodium": 14, "fiber": 0.2, "sugar": 0.1}},
-    "shallot": {"tbsp": {"cal": 7, "fat": 0, "carbs": 2, "protein": 0.3, "sodium": 1, "fiber": 0, "sugar": 0.8}},
-    "shallots": {"tbsp": {"cal": 7, "fat": 0, "carbs": 2, "protein": 0.3, "sodium": 1, "fiber": 0, "sugar": 0.8}},
+    "shallot": {"tbsp": {"cal": 7, "fat": 0, "carbs": 2, "protein": 0.3, "sodium": 1, "fiber": 0, "sugar": 0.8},
+               "": {"cal": 28, "fat": 0, "carbs": 7, "protein": 1, "sodium": 5, "fiber": 0, "sugar": 3}},
+    "shallots": {"tbsp": {"cal": 7, "fat": 0, "carbs": 2, "protein": 0.3, "sodium": 1, "fiber": 0, "sugar": 0.8},
+                "": {"cal": 28, "fat": 0, "carbs": 7, "protein": 1, "sodium": 5, "fiber": 0, "sugar": 3}},
     "leek": {"cup": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1.3, "sodium": 18, "fiber": 1.6, "sugar": 3.5}},
     "leeks": {"cup": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1.3, "sodium": 18, "fiber": 1.6, "sugar": 3.5}},
     "fennel": {"cup": {"cal": 27, "fat": 0.2, "carbs": 6, "protein": 1, "sodium": 45, "fiber": 3, "sugar": 3}},
@@ -2062,8 +2068,18 @@ def normalize_ingredient(item):
         "one egg": "egg",
         "eggwhites": "egg white",
 
-        # OCR artifact fixes
+        # OCR artifact fixes - space-corrupted words
         "mayonnais e": "mayonnaise",
+        "eg g yolks": "egg yolk",
+        "eg g": "egg",
+        "unsalt ed butter": "butter",
+        "lemo n peel": "lemon zest",
+        "lemo n": "lemon",
+        "m iniature marshmallows": "miniature marshmallows",
+        "bouillon c ube": "bouillon cube",
+        "unsweet ened pineapple juice": "pineapple juice",
+        "s. hard pears": "pear",
+        "s. sugar": "sugar",
         "all-purpose ﬂour": "flour",
         "ﬂour": "flour",  # Wrong fl character
         "confectioners' sugar": "powdered sugar",
@@ -2220,6 +2236,16 @@ def normalize_ingredient(item):
 
         # Catsup/ketchup
         "catsup": "ketchup",
+
+        # Corn variants
+        "kernel corn": "corn",
+        "corn kernels": "corn",
+        "whole kernel corn": "corn",
+
+        # Pimiento/pimento
+        "pimento": "pimiento",
+        "chopped pimiento": "pimiento",
+        "chopped pimento": "pimiento",
 
         # Green items
         "green peppers": "green pepper",
