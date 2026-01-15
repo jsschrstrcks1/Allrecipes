@@ -204,42 +204,18 @@
       "description": "Look for puffed rice and sev at Indian markets; you can substitute chow mein noodles for sev. Find chutneys on the supermarket's international aisle.",
       "ingredients": [
         {
-          "item": "cubed peeled baking potato",
-          "quantity": "2",
-          "unit": "cups (1/2-inch)"
-        },
-        {
-          "item": "Indian puffed rice",
+          "item": "puffed rice",
           "quantity": "4",
           "unit": "cups"
         },
         {
-          "item": "chopped seeded plum tomato",
+          "item": "noodles",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "sev, fine Indian"
         },
         {
-          "item": "finely chopped red onion",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "chopped peeled ripe mango",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "sev (fine Indian noodles)",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "chopped fresh cilantro",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "tamarind-date chutney",
+          "item": "tamarind chutney",
           "quantity": "3",
           "unit": "tbsp"
         },
@@ -249,9 +225,33 @@
           "unit": "tbsp"
         },
         {
-          "item": "finely chopped seeded serrano chile (about 1 chile)",
+          "item": "serrano chile",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeded, minced"
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "finely diced"
+        },
+        {
+          "item": "cilantro",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "boiled, diced"
+        },
+        {
+          "item": "lemon juice",
           "quantity": "2",
-          "unit": "tsp"
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -309,93 +309,56 @@
       "description": "Indian street food\u2014a variety of small snack plates\u2014often defined by a balance of spicy and acidic, salty and sweet, and soft salt and crunchy components. The idea of small plates featuring the vibrant tastes of northern and western India is starting to take hold in this country.",
       "ingredients": [
         {
-          "item": "loosely packed cilantro leaves (about 1 1/2 ounces)",
+          "item": "cilantro",
           "quantity": "2 1/4",
-          "unit": "cups"
+          "unit": "cups",
+          "prep_note": "loosely packed"
         },
         {
-          "item": "mint leaves, torn",
+          "item": "mint",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "leaves, torn"
+        },
+        {
+          "item": "serrano chile",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeded, minced"
+        },
+        {
+          "item": "semolina flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "rice flour",
           "quantity": "1",
           "unit": "cup"
         },
         {
-          "item": "chopped green onion",
-          "quantity": "3",
-          "unit": "tbsp"
-        },
-        {
-          "item": "fresh lime juice",
-          "quantity": "2",
-          "unit": "tsp"
-        },
-        {
-          "item": "canola oil",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "sugar",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "small garlic clove, quartered",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "Cooking spray",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "finely chopped red bell pepper",
+          "item": "yogurt",
           "quantity": "1/2",
           "unit": "cup"
-        },
-        {
-          "item": "finely chopped onion",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "finely chopped seeded serrano chile (about 1 chile)",
-          "quantity": "2",
-          "unit": "tsp"
-        },
-        {
-          "item": "chickpea (garbanzo bean) flour (about 1 cup)",
-          "quantity": "4",
-          "unit": "oz"
-        },
-        {
-          "item": "semolina or pasta flour (about 1/4 cup)",
-          "quantity": "1 1/2",
-          "unit": "oz"
-        },
-        {
-          "item": "salt",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "ground fennel seeds, crushed",
-          "quantity": "1",
-          "unit": "tsp"
         },
         {
           "item": "water",
-          "quantity": "1 1/2",
-          "unit": "cups"
+          "quantity": "1/2",
+          "unit": "cup"
         },
         {
-          "item": "canola oil, divided",
-          "quantity": "1 1/2",
+          "item": "black pepper",
+          "quantity": "1",
           "unit": "tsp"
         },
         {
-          "item": "plain fat-free yogurt",
-          "quantity": "6",
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
           "unit": "tbsp"
         }
       ],
@@ -433,16 +396,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 164,
-          "fat_g": 7.2,
-          "carbs_g": 20.0,
-          "protein_g": 5.7,
-          "sodium_mg": 408,
-          "fiber_g": 3.1,
-          "sugar_g": 4.8
+          "calories": 73,
+          "fat_g": 5.4,
+          "carbs_g": 5.3,
+          "protein_g": 1.4,
+          "sodium_mg": 204,
+          "fiber_g": 0.4,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
-          "1 cup mint leaves, torn"
+          "1 cup mint",
+          "1 cup rice flour"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -563,7 +527,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 38,
           "fat_g": 3.4,
@@ -573,10 +537,7 @@
           "fiber_g": 0.4,
           "sugar_g": 0.2
         },
-        "missing_inputs": [
-          "1 15 1/2-oz can chickpeas (garbanzo beans), rinsed and drained",
-          "6  mini whole-wheat pitas, split in half horizontally"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -1113,12 +1074,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 39,
-          "fat_g": 3.8,
-          "carbs_g": 0.5,
-          "protein_g": 1.1,
+          "calories": 30,
+          "fat_g": 2.8,
+          "carbs_g": 0.3,
+          "protein_g": 1.0,
           "sodium_mg": 50,
-          "fiber_g": 0.1,
+          "fiber_g": 0.0,
           "sugar_g": 0.2
         },
         "missing_inputs": [
@@ -1494,8 +1455,7 @@
         },
         "missing_inputs": [
           "3 tbsp lingonberry preserves or cranberry preserves",
-          "chopped fresh dill, for topping",
-          "fresh pickled cucumber slices, for serving"
+          "chopped fresh dill, for topping"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -2050,7 +2010,7 @@
           "protein_g": 19.2,
           "sodium_mg": 1216,
           "fiber_g": 0.4,
-          "sugar_g": 0.4
+          "sugar_g": 0.5
         },
         "missing_inputs": [
           "for topping toasted sesame seeds"
@@ -8063,7 +8023,7 @@
           "fat_g": 114.5,
           "carbs_g": 12.6,
           "protein_g": 2.8,
-          "sodium_mg": 151,
+          "sodium_mg": 132,
           "fiber_g": 0.7,
           "sugar_g": 2.4
         },
@@ -9025,9 +8985,9 @@
         "per_serving": {
           "calories": 276,
           "fat_g": 18.7,
-          "carbs_g": 20.0,
+          "carbs_g": 19.9,
           "protein_g": 6.9,
-          "sodium_mg": 1121,
+          "sodium_mg": 1041,
           "fiber_g": 0.8,
           "sugar_g": 3.2
         },

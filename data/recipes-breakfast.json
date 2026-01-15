@@ -190,19 +190,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 128,
-          "fat_g": 3.9,
-          "carbs_g": 18.5,
-          "protein_g": 4.2,
+          "calories": 135,
+          "fat_g": 4.0,
+          "carbs_g": 20.2,
+          "protein_g": 4.3,
           "sodium_mg": 203,
-          "fiber_g": 0.6,
-          "sugar_g": 2.7
+          "fiber_g": 0.9,
+          "sugar_g": 3.9
         },
-        "missing_inputs": [
-          "1 cup fresh or frozen blueberries"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -887,19 +885,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 193,
-          "fat_g": 9.0,
-          "carbs_g": 23.5,
-          "protein_g": 4.4,
+          "calories": 200,
+          "fat_g": 9.1,
+          "carbs_g": 25.3,
+          "protein_g": 4.5,
           "sodium_mg": 216,
-          "fiber_g": 1.0,
-          "sugar_g": 6.5
+          "fiber_g": 1.3,
+          "sugar_g": 7.8
         },
-        "missing_inputs": [
-          "1 cup fresh or frozen blueberries"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -1118,13 +1114,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 171,
-          "fat_g": 9.3,
-          "carbs_g": 18.2,
-          "protein_g": 4.3,
-          "sodium_mg": 259,
-          "fiber_g": 1.5,
-          "sugar_g": 3.0
+          "calories": 137,
+          "fat_g": 9.1,
+          "carbs_g": 11.0,
+          "protein_g": 3.0,
+          "sodium_mg": 258,
+          "fiber_g": 0.3,
+          "sugar_g": 2.9
         },
         "missing_inputs": [
           "2  over ripe bananas"
@@ -1347,19 +1343,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 254,
-          "fat_g": 17.7,
-          "carbs_g": 21.1,
-          "protein_g": 5.0,
+          "calories": 214,
+          "fat_g": 12.9,
+          "carbs_g": 21.9,
+          "protein_g": 4.4,
           "sodium_mg": 94,
-          "fiber_g": 3.3,
-          "sugar_g": 5.5
+          "fiber_g": 3.0,
+          "sugar_g": 6.5
         },
-        "missing_inputs": [
-          "1 cup fresh or frozen blueberries"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -1442,19 +1436,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 172,
-          "fat_g": 10.6,
-          "carbs_g": 15.8,
-          "protein_g": 3.7,
+          "calories": 179,
+          "fat_g": 10.7,
+          "carbs_g": 17.5,
+          "protein_g": 3.8,
           "sodium_mg": 161,
-          "fiber_g": 1.0,
-          "sugar_g": 3.3
+          "fiber_g": 1.3,
+          "sugar_g": 4.5
         },
-        "missing_inputs": [
-          "1 cup fresh or frozen blueberries"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -2035,38 +2027,35 @@
       "ingredients": [
         {
           "item": "whole wheat flour",
-          "quantity": "2",
-          "unit": "cups"
-        },
-        {
-          "item": "baking powder",
           "quantity": "1",
-          "unit": "tsp"
+          "unit": "cup"
         },
         {
-          "item": "salt",
+          "item": "applesauce",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "unsweetened"
+        },
+        {
+          "item": "apple",
           "quantity": "1",
-          "unit": "dash"
+          "unit": "",
+          "prep_note": "diced"
         },
         {
-          "item": "eggs",
-          "quantity": "2",
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
           "unit": ""
         },
         {
-          "item": "honey",
+          "item": "baking powder",
           "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "vegetable oil",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "unsweetened applesauce",
-          "quantity": "1/2",
-          "unit": "cup"
+          "unit": "tsp"
         },
         {
           "item": "cinnamon",
@@ -2074,21 +2063,10 @@
           "unit": "tsp"
         },
         {
-          "item": "nonfat milk",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "apple",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "peeled and diced"
-        },
-        {
-          "item": "sugar free jam",
+          "item": "jam",
           "quantity": "",
           "unit": "",
-          "prep_note": "for serving"
+          "prep_note": "sugar-free, for serving"
         }
       ],
       "instructions": [
@@ -2137,18 +2115,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 184,
-          "fat_g": 11.0,
-          "carbs_g": 18.5,
-          "protein_g": 4.3,
-          "sodium_mg": 58,
-          "fiber_g": 2.5,
-          "sugar_g": 4.0
+          "calories": 19,
+          "fat_g": 1.1,
+          "carbs_g": 1.2,
+          "protein_g": 1.2,
+          "sodium_mg": 37,
+          "fiber_g": 0.0,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
-          "1/2 cup unsweetened applesauce",
+          "1/2 cup applesauce",
           "1  apple",
-          "sugar free jam"
+          "jam"
         ],
         "assumptions": [
           "Calculated for 12 servings"
@@ -3164,13 +3142,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 639,
-          "fat_g": 36.2,
-          "carbs_g": 70.9,
-          "protein_g": 9.5,
+          "calories": 576,
+          "fat_g": 29.7,
+          "carbs_g": 69.7,
+          "protein_g": 8.6,
           "sodium_mg": 512,
-          "fiber_g": 2.0,
-          "sugar_g": 35.6
+          "fiber_g": 1.2,
+          "sugar_g": 35.3
         },
         "missing_inputs": [
           "3  ripe bananas"
@@ -3836,17 +3814,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 663,
+          "calories": 712,
           "fat_g": 50.5,
-          "carbs_g": 42.2,
+          "carbs_g": 54.7,
           "protein_g": 11.7,
           "sodium_mg": 337,
           "fiber_g": 0.8,
-          "sugar_g": 18.5
+          "sugar_g": 31.0
         },
         "missing_inputs": [
-          "3 dozen strawberries, hulled",
-          "1/4 cup strawberry syrup"
+          "3 dozen strawberries, hulled"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -5370,29 +5347,52 @@
       "description": "This is another treat from France. They really know their food.",
       "ingredients": [
         {
-          "item": "slices sourdough bread",
+          "item": "bread",
           "quantity": "8",
+          "unit": "slices",
+          "prep_note": "thick-cut"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "room temperature"
+        },
+        {
+          "item": "ham",
+          "quantity": "4",
+          "unit": "slices",
+          "prep_note": "cooked"
+        },
+        {
+          "item": "gruyere cheese",
+          "quantity": "4",
+          "unit": "slices"
+        },
+        {
+          "item": "dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
           "unit": ""
         },
         {
-          "item": "butter at room temperature",
-          "quantity": "1/2",
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
           "unit": "cup"
         },
         {
-          "item": "slices of cooked ham",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "slices of Gruyere cheese",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "large eggs",
-          "quantity": "4",
-          "unit": ""
+          "item": "nutmeg",
+          "quantity": "1/4",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -5453,20 +5453,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 230,
-          "fat_g": 7.0,
-          "carbs_g": 30.4,
-          "protein_g": 12.0,
-          "sodium_mg": 365,
-          "fiber_g": 1.2,
-          "sugar_g": 3.4
+          "calories": 490,
+          "fat_g": 32.5,
+          "carbs_g": 36.9,
+          "protein_g": 15.0,
+          "sodium_mg": 632,
+          "fiber_g": 1.5,
+          "sugar_g": 6.5
         },
         "missing_inputs": [
-          "1/2 cup butter at room temperature",
-          "4  slices of cooked ham",
-          "4  slices of Gruyere cheese"
+          "4 slices ham",
+          "4 slices gruyere cheese"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -7579,34 +7578,33 @@
       "servings_yield": "6 portions",
       "ingredients": [
         {
-          "item": "frozen pizza dough",
+          "item": "pizza dough",
           "quantity": "1",
-          "unit": ""
+          "unit": "lb",
+          "prep_note": "frozen, thawed"
         },
         {
           "item": "breakfast sausage",
           "quantity": "1",
-          "unit": "pkg"
-        },
-        {
-          "item": "chopped olives",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "shredded Mozzarella cheese",
-          "quantity": "4",
-          "unit": "oz"
+          "unit": "lb"
         },
         {
           "item": "feta cheese",
           "quantity": "1/4",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "crumbled"
         },
         {
-          "item": "large egg",
+          "item": "egg",
           "quantity": "1",
-          "unit": ""
+          "unit": "",
+          "prep_note": "beaten for egg wash"
+        },
+        {
+          "item": "parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
@@ -7653,19 +7651,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 81,
-          "fat_g": 6.0,
-          "carbs_g": 1.1,
-          "protein_g": 5.1,
-          "sodium_mg": 246,
-          "fiber_g": 0.2,
-          "sugar_g": 0.2
+          "calories": 204,
+          "fat_g": 17.5,
+          "carbs_g": 0.8,
+          "protein_g": 10.4,
+          "sodium_mg": 486,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "1  frozen pizza dough",
-          "1 pkg breakfast sausage",
+          "1 lb pizza dough",
           "1/4 cup feta cheese"
         ],
         "assumptions": [
@@ -7857,7 +7854,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 283,
           "fat_g": 18.1,
@@ -7867,9 +7864,7 @@
           "fiber_g": 0.5,
           "sugar_g": 2.5
         },
-        "missing_inputs": [
-          "6  slices of chopped bacon"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
@@ -8020,18 +8015,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 1273,
-          "fat_g": 91.2,
-          "carbs_g": 49.8,
-          "protein_g": 60.0,
-          "sodium_mg": 2526,
-          "fiber_g": 2.2,
-          "sugar_g": 11.5
+          "calories": 1085,
+          "fat_g": 87.2,
+          "carbs_g": 17.8,
+          "protein_g": 56.0,
+          "sodium_mg": 2144,
+          "fiber_g": 0.2,
+          "sugar_g": 10.7
         },
         "missing_inputs": [
           "4  sliced scallions",
+          "8  flour tortillas",
           "4 oz shredded Monterey Jack cheese"
         ],
         "assumptions": [
@@ -8491,12 +8487,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 354,
-          "fat_g": 11.6,
-          "carbs_g": 59.8,
-          "protein_g": 7.9,
+          "calories": 329,
+          "fat_g": 11.4,
+          "carbs_g": 54.3,
+          "protein_g": 6.9,
           "sodium_mg": 294,
-          "fiber_g": 6.7,
+          "fiber_g": 5.8,
           "sugar_g": 29.8
         },
         "missing_inputs": [
@@ -8523,39 +8519,31 @@
           "unit": ""
         },
         {
-          "item": "large eggs",
+          "item": "eggs",
           "quantity": "6",
           "unit": ""
         },
         {
-          "item": "fresh salsa",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "cilantro, minced",
-          "quantity": "1",
-          "unit": "bunch"
-        },
-        {
-          "item": "chorizo sausage",
+          "item": "chorizo",
           "quantity": "6",
           "unit": "oz"
         },
         {
-          "item": "milk",
-          "quantity": "2",
-          "unit": "tbsp"
+          "item": "cilantro",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "minced"
         },
         {
-          "item": "salt and pepper",
-          "quantity": "",
-          "unit": "to taste"
-        },
-        {
-          "item": "shredded sharp cheddar cheese",
-          "quantity": "1",
+          "item": "salsa",
+          "quantity": "1/2",
           "unit": "cup"
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
         }
       ],
       "instructions": [
@@ -8592,20 +8580,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 235,
-          "fat_g": 17.1,
-          "carbs_g": 3.0,
-          "protein_g": 16.6,
-          "sodium_mg": 473,
+          "calories": 174,
+          "fat_g": 12.2,
+          "carbs_g": 2.5,
+          "protein_g": 12.9,
+          "sodium_mg": 344,
           "fiber_g": 0.5,
-          "sugar_g": 2.1
+          "sugar_g": 1.7
         },
         "missing_inputs": [
           "8  corn tortillas",
-          "1 bunch cilantro, minced",
-          "6 oz chorizo sausage"
+          "6 oz chorizo"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -8714,20 +8701,16 @@
         {
           "item": "quinoa",
           "quantity": "1",
+          "unit": "cup",
+          "prep_note": "cooked"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
           "unit": "cup"
         },
         {
-          "item": "nonfat milk",
-          "quantity": "2",
-          "unit": "cups"
-        },
-        {
-          "item": "ground cinnamon",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "fresh or frozen mixed berries",
+          "item": "mixed berries",
           "quantity": "3/4",
           "unit": "cup"
         },
@@ -8742,9 +8725,14 @@
           "unit": "tbsp"
         },
         {
-          "item": "maple syrup",
-          "quantity": "2",
+          "item": "honey",
+          "quantity": "1",
           "unit": "tbsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1/4",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -8791,19 +8779,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 154,
-          "fat_g": 4.1,
-          "carbs_g": 24.2,
-          "protein_g": 5.0,
-          "sodium_mg": 54,
+          "calories": 95,
+          "fat_g": 1.9,
+          "carbs_g": 17.5,
+          "protein_g": 2.1,
+          "sodium_mg": 14,
           "fiber_g": 0.4,
-          "sugar_g": 12.0
+          "sugar_g": 5.9
         },
         "missing_inputs": [
-          "3/4 cup fresh or frozen mixed berries",
-          "2 tbsp coconut flakes",
+          "3/4 cup mixed berries",
           "1 tbsp sunflower seeds"
         ],
         "assumptions": [
@@ -8904,19 +8891,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 302,
-          "fat_g": 23.2,
-          "carbs_g": 1.5,
-          "protein_g": 19.6,
-          "sodium_mg": 377,
-          "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "calories": 485,
+          "fat_g": 24.2,
+          "carbs_g": 38.1,
+          "protein_g": 24.9,
+          "sodium_mg": 644,
+          "fiber_g": 1.3,
+          "sugar_g": 1.7
         },
-        "missing_inputs": [
-          "1 lb refrigerated pizza dough"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -8936,34 +8921,26 @@
           "unit": ""
         },
         {
-          "item": "slices of deli cooked ham",
+          "item": "ham",
           "quantity": "8",
-          "unit": ""
+          "unit": "slices",
+          "prep_note": "deli"
+        },
+        {
+          "item": "tomato",
+          "quantity": "8",
+          "unit": "slices"
+        },
+        {
+          "item": "swiss cheese",
+          "quantity": "4",
+          "unit": "slices"
         },
         {
           "item": "eggs",
-          "quantity": "6",
-          "unit": ""
-        },
-        {
-          "item": "chives, chopped",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "shredded cheddar cheese",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "slices of tomato",
-          "quantity": "8",
-          "unit": ""
-        },
-        {
-          "item": "salt and pepper",
-          "quantity": "",
-          "unit": "to taste"
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "fried"
         },
         {
           "item": "butter",
@@ -9014,18 +8991,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 274,
-          "fat_g": 22.5,
-          "carbs_g": 1.1,
-          "protein_g": 16.1,
-          "sodium_mg": 359,
-          "fiber_g": 0.1,
-          "sugar_g": 0.8
+          "calories": 167,
+          "fat_g": 11.2,
+          "carbs_g": 10.4,
+          "protein_g": 8.1,
+          "sodium_mg": 122,
+          "fiber_g": 3.0,
+          "sugar_g": 6.4
         },
         "missing_inputs": [
           "4  ciabatta rolls",
-          "8  slices of deli cooked ham",
-          "8  slices of tomato"
+          "8 slices ham",
+          "4 slices swiss cheese"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -10932,8 +10909,7 @@
           "sugar_g": 20.3
         },
         "missing_inputs": [
-          "1 1/2 cups apples, peeled and diced",
-          "8  slices day-old bread"
+          "1 1/2 cups apples, peeled and diced"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -11402,13 +11378,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 200,
-          "fat_g": 11.1,
-          "carbs_g": 15.9,
-          "protein_g": 9.8,
-          "sodium_mg": 594,
+          "calories": 96,
+          "fat_g": 2.1,
+          "carbs_g": 15.4,
+          "protein_g": 4.8,
+          "sodium_mg": 188,
           "fiber_g": 2.0,
-          "sugar_g": 1.5
+          "sugar_g": 1.2
         },
         "missing_inputs": [
           "8  slices Canadian bacon",
@@ -12326,34 +12302,30 @@
       "servings_yield": "2 servings",
       "ingredients": [
         {
-          "item": "large ripe bananas, peeled and sliced",
+          "item": "bananas",
+          "quantity": "2",
+          "unit": "large",
+          "prep_note": "ripe, sliced"
+        },
+        {
+          "item": "grapefruit",
           "quantity": "2",
           "unit": ""
         },
         {
-          "item": "grapefruits",
-          "quantity": "2",
-          "unit": ""
+          "item": "yogurt",
+          "quantity": "1",
+          "unit": "cup"
         },
         {
-          "item": "wheat germ",
+          "item": "honey",
           "quantity": "2",
           "unit": "tbsp"
         },
         {
-          "item": "linseeds",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "boiling water",
-          "quantity": "",
-          "unit": "as needed"
-        },
-        {
-          "item": "honey, warmed and stirred",
-          "quantity": "",
-          "unit": ""
+          "item": "granola",
+          "quantity": "1/2",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -12379,20 +12351,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 81,
-          "fat_g": 5.0,
-          "carbs_g": 6.7,
-          "protein_g": 4.0,
-          "sodium_mg": 3,
-          "fiber_g": 3.8,
-          "sugar_g": 0.2
+          "calories": 215,
+          "fat_g": 5.2,
+          "carbs_g": 36.2,
+          "protein_g": 7.2,
+          "sodium_mg": 59,
+          "fiber_g": 2.0,
+          "sugar_g": 22.8
         },
         "missing_inputs": [
-          "2  large ripe bananas, peeled and sliced",
-          "2  grapefruits",
-          "honey, warmed and stirred"
+          "2 large bananas",
+          "2  grapefruit"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -12490,59 +12461,32 @@
       "servings_yield": "4 servings",
       "ingredients": [
         {
-          "item": "butter",
+          "item": "ciabatta bread",
           "quantity": "2",
-          "unit": "tbsp"
+          "unit": "loaves",
+          "prep_note": "sliced lengthwise"
         },
         {
-          "item": "large eggs, beaten",
-          "quantity": "6",
-          "unit": ""
-        },
-        {
-          "item": "fresh chives, minced",
-          "quantity": "3",
-          "unit": "tbsp"
-        },
-        {
-          "item": "water",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp"
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/8",
-          "unit": "tsp"
-        },
-        {
-          "item": "whole ciabatta, sliced lengthwise and toasted",
-          "quantity": "2",
-          "unit": ""
-        },
-        {
-          "item": "slices spiced ham, cooked and sliced diagonally",
+          "item": "ham",
           "quantity": "8",
-          "unit": ""
+          "unit": "slices",
+          "prep_note": "cooked"
         },
         {
-          "item": "bacon strips, cooked and drained",
+          "item": "bacon",
           "quantity": "12",
-          "unit": ""
+          "unit": "strips",
+          "prep_note": "cooked"
         },
         {
-          "item": "slices ripe tomato",
+          "item": "swiss cheese",
           "quantity": "8",
-          "unit": ""
+          "unit": "slices"
         },
         {
-          "item": "cheddar cheese, grated",
-          "quantity": "1",
-          "unit": "cup"
+          "item": "dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -12577,18 +12521,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 318,
-          "fat_g": 22.9,
-          "carbs_g": 11.2,
-          "protein_g": 18.1,
-          "sodium_mg": 624,
-          "fiber_g": 3.1,
-          "sugar_g": 6.8
+          "calories": 134,
+          "fat_g": 9.3,
+          "carbs_g": 0.4,
+          "protein_g": 9.3,
+          "sodium_mg": 496,
+          "fiber_g": 0.2,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2  whole ciabatta, sliced lengthwise and toasted",
-          "8  slices spiced ham, cooked and sliced diagonally",
-          "12  bacon strips, cooked and drained"
+          "2 loaves ciabatta bread",
+          "8 slices ham",
+          "8 slices swiss cheese"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12680,16 +12624,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 329,
-          "fat_g": 22.3,
-          "carbs_g": 18.3,
-          "protein_g": 12.6,
-          "sodium_mg": 470,
-          "fiber_g": 1.3,
-          "sugar_g": 1.9
+          "calories": 235,
+          "fat_g": 20.3,
+          "carbs_g": 2.3,
+          "protein_g": 10.6,
+          "sodium_mg": 279,
+          "fiber_g": 0.3,
+          "sugar_g": 1.5
         },
         "missing_inputs": [
-          "1  Hungarian sausage, thinly sliced"
+          "1  Hungarian sausage, thinly sliced",
+          "4  flour tortillas (8 inches each), warmed"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12758,16 +12703,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 146,
-          "fat_g": 5.3,
-          "carbs_g": 18.4,
-          "protein_g": 5.3,
-          "sodium_mg": 304,
-          "fiber_g": 1.2,
-          "sugar_g": 2.0
+          "calories": 52,
+          "fat_g": 3.3,
+          "carbs_g": 2.4,
+          "protein_g": 3.3,
+          "sodium_mg": 114,
+          "fiber_g": 0.2,
+          "sugar_g": 1.6
         },
         "missing_inputs": [
-          "2  whole strips of bacon, each cut in to 8 pieces"
+          "4  flour tortillas (8-inch), warmed until supple"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12784,9 +12729,9 @@
       "servings_yield": "2 servings",
       "ingredients": [
         {
-          "item": "ciabatta",
+          "item": "ciabatta bread",
           "quantity": "1",
-          "unit": "whole"
+          "unit": "loaf"
         },
         {
           "item": "smoked salmon",
@@ -12794,21 +12739,25 @@
           "unit": "slices"
         },
         {
-          "item": "cream cheese",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "softened"
-        },
-        {
           "item": "bacon",
           "quantity": "4",
-          "unit": "thin slices",
-          "prep_note": "grilled until crisp"
+          "unit": "slices",
+          "prep_note": "thin"
         },
         {
-          "item": "fresh rocket",
+          "item": "arugula",
           "quantity": "1",
-          "unit": "handful"
+          "unit": "cup"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "4",
+          "unit": "oz"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -12850,21 +12799,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 50,
-          "fat_g": 5.0,
-          "carbs_g": 0.5,
-          "protein_g": 1.0,
-          "sodium_mg": 43,
-          "fiber_g": 0.0,
-          "sugar_g": 0.4
+          "calories": 290,
+          "fat_g": 26.1,
+          "carbs_g": 3.0,
+          "protein_g": 10.5,
+          "sodium_mg": 458,
+          "fiber_g": 0.3,
+          "sugar_g": 1.9
         },
         "missing_inputs": [
-          "1 whole ciabatta",
-          "4 slices smoked salmon",
-          "4 thin slices bacon",
-          "1 handful fresh rocket"
+          "1 loaf ciabatta bread",
+          "4 slices smoked salmon"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -13681,12 +13628,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 291,
-          "fat_g": 18.8,
-          "carbs_g": 29.2,
-          "protein_g": 3.1,
+          "calories": 266,
+          "fat_g": 18.7,
+          "carbs_g": 23.7,
+          "protein_g": 2.1,
           "sodium_mg": 279,
-          "fiber_g": 1.6,
+          "fiber_g": 0.6,
           "sugar_g": 19.4
         },
         "missing_inputs": [
@@ -13843,7 +13790,7 @@
           "carbs_g": 35.3,
           "protein_g": 4.9,
           "sodium_mg": 276,
-          "fiber_g": 1.4,
+          "fiber_g": 1.2,
           "sugar_g": 10.4
         },
         "missing_inputs": [
@@ -15076,7 +15023,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 483,
           "fat_g": 15.3,
@@ -15086,9 +15033,7 @@
           "fiber_g": 1.7,
           "sugar_g": 28.2
         },
-        "missing_inputs": [
-          "4  candy canes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
@@ -18994,8 +18939,7 @@
           "sugar_g": 2.7
         },
         "missing_inputs": [
-          "2  red apples, such as Macintosh, cored and diced",
-          "8  slices Pepperidge Farm 80 Calorie Cinnamon Swirl Bread"
+          "2  red apples, such as Macintosh, cored and diced"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -19696,19 +19640,17 @@
       ],
       "source_note": "Recipe Keeper App",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 165,
-          "fat_g": 7.5,
-          "carbs_g": 19.1,
-          "protein_g": 6.3,
+          "calories": 145,
+          "fat_g": 7.4,
+          "carbs_g": 15.4,
+          "protein_g": 5.1,
           "sodium_mg": 237,
-          "fiber_g": 2.2,
-          "sugar_g": 5.4
+          "fiber_g": 1.6,
+          "sugar_g": 7.8
         },
-        "missing_inputs": [
-          "2 cups frozen or fresh blueberries"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -20452,19 +20394,17 @@
       ],
       "source_note": "Recipe Keeper App",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 193,
-          "fat_g": 9.0,
-          "carbs_g": 23.5,
-          "protein_g": 4.4,
+          "calories": 200,
+          "fat_g": 9.1,
+          "carbs_g": 25.3,
+          "protein_g": 4.5,
           "sodium_mg": 216,
-          "fiber_g": 1.0,
-          "sugar_g": 6.5
+          "fiber_g": 1.3,
+          "sugar_g": 7.8
         },
-        "missing_inputs": [
-          "1 cup fresh or frozen blueberries"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -20826,13 +20766,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 171,
-          "fat_g": 9.3,
-          "carbs_g": 18.2,
-          "protein_g": 4.3,
-          "sodium_mg": 259,
-          "fiber_g": 1.5,
-          "sugar_g": 3.0
+          "calories": 137,
+          "fat_g": 9.1,
+          "carbs_g": 11.0,
+          "protein_g": 3.0,
+          "sodium_mg": 258,
+          "fiber_g": 0.3,
+          "sugar_g": 2.9
         },
         "missing_inputs": [
           "2  over ripe bananas"
@@ -21090,19 +21030,17 @@
       ],
       "source_note": "Recipe Keeper App",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 254,
-          "fat_g": 17.7,
-          "carbs_g": 21.1,
-          "protein_g": 5.0,
+          "calories": 214,
+          "fat_g": 12.9,
+          "carbs_g": 21.9,
+          "protein_g": 4.4,
           "sodium_mg": 94,
-          "fiber_g": 3.3,
-          "sugar_g": 5.5
+          "fiber_g": 3.0,
+          "sugar_g": 6.5
         },
-        "missing_inputs": [
-          "1 cup fresh or frozen blueberries"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -21202,19 +21140,17 @@
       ],
       "source_note": "Recipe Keeper App",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 172,
-          "fat_g": 10.6,
-          "carbs_g": 15.8,
-          "protein_g": 3.7,
+          "calories": 179,
+          "fat_g": 10.7,
+          "carbs_g": 17.5,
+          "protein_g": 3.8,
           "sodium_mg": 161,
-          "fiber_g": 1.0,
-          "sugar_g": 3.3
+          "fiber_g": 1.3,
+          "sugar_g": 4.5
         },
-        "missing_inputs": [
-          "1 cup fresh or frozen blueberries"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -22003,39 +21939,8 @@
       "ingredients": [
         {
           "item": "whole wheat flour",
-          "quantity": "2",
-          "unit": "cups",
-          "prep_note": ""
-        },
-        {
-          "item": "baking powder",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1",
-          "unit": "dash",
-          "prep_note": ""
-        },
-        {
-          "item": "eggs",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "honey",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "vegetable oil",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
           "item": "applesauce",
@@ -22044,22 +21949,36 @@
           "prep_note": "unsweetened"
         },
         {
-          "item": "cinnamon",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
           "item": "apple",
           "quantity": "1",
           "unit": "",
           "prep_note": "diced"
         },
         {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
           "item": "jam",
           "quantity": "",
-          "unit": "for serving",
-          "prep_note": "sugar free"
+          "unit": "",
+          "prep_note": "for serving"
         }
       ],
       "instructions": [
@@ -22113,18 +22032,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 171,
-          "fat_g": 10.3,
-          "carbs_g": 17.5,
-          "protein_g": 3.7,
-          "sodium_mg": 49,
-          "fiber_g": 2.5,
-          "sugar_g": 3.0
+          "calories": 19,
+          "fat_g": 1.1,
+          "carbs_g": 1.2,
+          "protein_g": 1.2,
+          "sodium_mg": 37,
+          "fiber_g": 0.0,
+          "sugar_g": 1.0
         },
         "missing_inputs": [
           "1/2 cup applesauce",
           "1  apple",
-          "for serving jam"
+          "jam"
         ],
         "assumptions": [
           "Calculated for 12 servings"
@@ -24049,13 +23968,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 767,
-          "fat_g": 43.4,
-          "carbs_g": 85.1,
-          "protein_g": 11.3,
+          "calories": 691,
+          "fat_g": 35.6,
+          "carbs_g": 83.6,
+          "protein_g": 10.3,
           "sodium_mg": 614,
-          "fiber_g": 2.4,
-          "sugar_g": 42.8
+          "fiber_g": 1.4,
+          "sugar_g": 42.4
         },
         "missing_inputs": [
           "3  ripe bananas"
@@ -24811,17 +24730,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 295,
+          "calories": 316,
           "fat_g": 22.5,
-          "carbs_g": 18.7,
+          "carbs_g": 24.3,
           "protein_g": 5.2,
           "sodium_mg": 150,
           "fiber_g": 0.4,
-          "sugar_g": 8.2
+          "sugar_g": 13.8
         },
         "missing_inputs": [
-          "3 dozen strawberries",
-          "1/4 cup strawberry syrup"
+          "3 dozen strawberries"
         ],
         "assumptions": [
           "Calculated for 9 servings"
@@ -26169,7 +26087,6 @@
           "sugar_g": 0.5
         },
         "missing_inputs": [
-          "12  ham slices",
           "6  English muffins"
         ],
         "assumptions": [
@@ -29082,40 +28999,33 @@
       "temperature": "400\u00b0F (200\u00b0C)",
       "ingredients": [
         {
-          "item": "frozen pizza dough",
+          "item": "pizza dough",
           "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "unit": "lb",
+          "prep_note": "frozen, thawed"
         },
         {
           "item": "breakfast sausage",
           "quantity": "1",
-          "unit": "pkg",
-          "prep_note": ""
-        },
-        {
-          "item": "chopped olives",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "shredded Mozzarella cheese",
-          "quantity": "4",
-          "unit": "oz",
-          "prep_note": ""
+          "unit": "lb"
         },
         {
           "item": "feta cheese",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "crumbled"
         },
         {
-          "item": "large egg",
+          "item": "egg",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "beaten for egg wash"
+        },
+        {
+          "item": "parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
@@ -29163,19 +29073,18 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 81,
-          "fat_g": 6.0,
-          "carbs_g": 1.1,
-          "protein_g": 5.1,
-          "sodium_mg": 246,
-          "fiber_g": 0.2,
-          "sugar_g": 0.2
+          "calories": 204,
+          "fat_g": 17.5,
+          "carbs_g": 0.8,
+          "protein_g": 10.4,
+          "sodium_mg": 486,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "1  frozen pizza dough",
-          "1 pkg breakfast sausage",
+          "1 lb pizza dough",
           "1/4 cup feta cheese"
         ],
         "assumptions": [
@@ -29293,16 +29202,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 222,
-          "fat_g": 12.2,
-          "carbs_g": 18.0,
-          "protein_g": 9.3,
-          "sodium_mg": 307,
-          "fiber_g": 1.3,
-          "sugar_g": 1.9
+          "calories": 128,
+          "fat_g": 10.2,
+          "carbs_g": 2.0,
+          "protein_g": 7.3,
+          "sodium_mg": 116,
+          "fiber_g": 0.3,
+          "sugar_g": 1.5
         },
         "missing_inputs": [
-          "1 package hot breakfast sausage"
+          "1 package hot breakfast sausage",
+          "8  flour tortillas"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -29651,18 +29561,19 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 402,
-          "fat_g": 27.6,
-          "carbs_g": 17.2,
-          "protein_g": 19.5,
-          "sodium_mg": 718,
-          "fiber_g": 1.0,
-          "sugar_g": 1.1
+          "calories": 308,
+          "fat_g": 25.6,
+          "carbs_g": 1.2,
+          "protein_g": 17.5,
+          "sodium_mg": 527,
+          "fiber_g": 0.0,
+          "sugar_g": 0.7
         },
         "missing_inputs": [
           "4  scallions",
+          "8  flour tortillas",
           "4 oz shredded Monterey Jack cheese"
         ],
         "assumptions": [
@@ -30155,12 +30066,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 118,
-          "fat_g": 3.9,
-          "carbs_g": 19.9,
-          "protein_g": 2.6,
+          "calories": 110,
+          "fat_g": 3.8,
+          "carbs_g": 18.1,
+          "protein_g": 2.3,
           "sodium_mg": 98,
-          "fiber_g": 2.2,
+          "fiber_g": 1.9,
           "sugar_g": 9.9
         },
         "missing_inputs": [
@@ -30187,50 +30098,34 @@
         {
           "item": "corn tortillas",
           "quantity": "8",
-          "unit": "",
-          "prep_note": ""
+          "unit": ""
         },
         {
-          "item": "large eggs",
+          "item": "eggs",
           "quantity": "6",
-          "unit": "",
-          "prep_note": ""
+          "unit": ""
         },
         {
-          "item": "fresh salsa",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
+          "item": "chorizo",
+          "quantity": "6",
+          "unit": "oz"
         },
         {
           "item": "cilantro",
-          "quantity": "1",
-          "unit": "bunch",
+          "quantity": "1/4",
+          "unit": "cup",
           "prep_note": "minced"
         },
         {
-          "item": "chorizo sausage",
-          "quantity": "6",
-          "unit": "oz",
-          "prep_note": ""
+          "item": "salsa",
+          "quantity": "1/2",
+          "unit": "cup"
         },
         {
-          "item": "milk",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt and pepper",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "to taste"
-        },
-        {
-          "item": "shredded sharp cheddar cheese",
-          "quantity": "1",
+          "item": "cheddar cheese",
+          "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "shredded"
         }
       ],
       "instructions": [
@@ -30263,20 +30158,19 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 118,
-          "fat_g": 8.5,
-          "carbs_g": 1.5,
-          "protein_g": 8.3,
-          "sodium_mg": 236,
-          "fiber_g": 0.2,
-          "sugar_g": 1.1
+          "calories": 87,
+          "fat_g": 6.1,
+          "carbs_g": 1.2,
+          "protein_g": 6.4,
+          "sodium_mg": 172,
+          "fiber_g": 0.3,
+          "sugar_g": 0.8
         },
         "missing_inputs": [
           "8  corn tortillas",
-          "1 bunch cilantro",
-          "6 oz chorizo sausage"
+          "6 oz chorizo"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -30398,43 +30292,37 @@
           "item": "quinoa",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "cooked"
         },
         {
-          "item": "nonfat milk",
-          "quantity": "2",
-          "unit": "cups",
-          "prep_note": ""
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
         },
         {
-          "item": "ground cinnamon",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "fresh or frozen mixed berries",
+          "item": "mixed berries",
           "quantity": "3/4",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
           "item": "coconut flakes",
           "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
+          "unit": "tbsp"
         },
         {
           "item": "sunflower seeds",
           "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
+          "unit": "tbsp"
         },
         {
-          "item": "maple syrup",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
+          "item": "honey",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1/4",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -30482,19 +30370,18 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 154,
-          "fat_g": 4.1,
-          "carbs_g": 24.2,
-          "protein_g": 5.0,
-          "sodium_mg": 54,
+          "calories": 95,
+          "fat_g": 1.9,
+          "carbs_g": 17.5,
+          "protein_g": 2.1,
+          "sodium_mg": 14,
           "fiber_g": 0.4,
-          "sugar_g": 12.0
+          "sugar_g": 5.9
         },
         "missing_inputs": [
-          "3/4 cup fresh or frozen mixed berries",
-          "2 tbsp coconut flakes",
+          "3/4 cup mixed berries",
           "1 tbsp sunflower seeds"
         ],
         "assumptions": [
@@ -30602,19 +30489,17 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 302,
-          "fat_g": 23.2,
-          "carbs_g": 1.5,
-          "protein_g": 19.6,
-          "sodium_mg": 377,
-          "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "calories": 485,
+          "fat_g": 24.2,
+          "carbs_g": 38.1,
+          "protein_g": 24.9,
+          "sodium_mg": 644,
+          "fiber_g": 1.3,
+          "sugar_g": 1.7
         },
-        "missing_inputs": [
-          "1 lb refrigerated pizza dough"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -33407,13 +33292,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 200,
-          "fat_g": 11.1,
-          "carbs_g": 15.9,
-          "protein_g": 9.8,
-          "sodium_mg": 594,
+          "calories": 96,
+          "fat_g": 2.1,
+          "carbs_g": 15.4,
+          "protein_g": 4.8,
+          "sodium_mg": 188,
           "fiber_g": 2.0,
-          "sugar_g": 1.5
+          "sugar_g": 1.2
         },
         "missing_inputs": [
           "8 slices Canadian bacon",
@@ -34548,40 +34433,30 @@
       "total_time": "10 minutes",
       "ingredients": [
         {
-          "item": "large ripe bananas",
+          "item": "bananas",
           "quantity": "2",
-          "unit": "",
-          "prep_note": "peeled and sliced"
+          "unit": "large",
+          "prep_note": "ripe, sliced"
         },
         {
-          "item": "grapefruits",
+          "item": "grapefruit",
           "quantity": "2",
-          "unit": "",
-          "prep_note": ""
+          "unit": ""
         },
         {
-          "item": "wheat germ",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "linseeds",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "boiling water",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "as needed"
+          "item": "yogurt",
+          "quantity": "1",
+          "unit": "cup"
         },
         {
           "item": "honey",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "warmed and stirred"
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "granola",
+          "quantity": "1/2",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -34621,21 +34496,19 @@
       ],
       "source_note": "Reference cookbook - Book Four: Other Recipes",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 81,
-          "fat_g": 5.0,
-          "carbs_g": 6.7,
-          "protein_g": 4.0,
-          "sodium_mg": 3,
-          "fiber_g": 3.8,
-          "sugar_g": 0.2
+          "calories": 215,
+          "fat_g": 5.2,
+          "carbs_g": 36.2,
+          "protein_g": 7.2,
+          "sodium_mg": 59,
+          "fiber_g": 2.0,
+          "sugar_g": 22.8
         },
         "missing_inputs": [
-          "2  large ripe bananas",
-          "2  grapefruits",
-          "boiling water",
-          "honey"
+          "2 large bananas",
+          "2  grapefruit"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -34768,70 +34641,32 @@
       "total_time": "25 minutes",
       "ingredients": [
         {
-          "item": "butter",
+          "item": "ciabatta bread",
           "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
+          "unit": "loaves",
+          "prep_note": "sliced lengthwise"
         },
         {
-          "item": "large eggs",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": "beaten"
-        },
-        {
-          "item": "fresh chives",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": "minced"
-        },
-        {
-          "item": "water",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/8",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "whole ciabatta",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "sliced lengthwise and toasted"
-        },
-        {
-          "item": "spiced ham",
+          "item": "ham",
           "quantity": "8",
           "unit": "slices",
-          "prep_note": "cooked and sliced diagonally"
+          "prep_note": "cooked"
         },
         {
-          "item": "bacon strips",
+          "item": "bacon",
           "quantity": "12",
-          "unit": "",
-          "prep_note": "cooked and drained"
+          "unit": "strips",
+          "prep_note": "cooked"
         },
         {
-          "item": "ripe tomato",
+          "item": "swiss cheese",
           "quantity": "8",
-          "unit": "slices",
-          "prep_note": ""
+          "unit": "slices"
         },
         {
-          "item": "cheddar cheese",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": "grated"
+          "item": "dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -34875,18 +34710,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 318,
-          "fat_g": 22.9,
-          "carbs_g": 11.2,
-          "protein_g": 18.1,
-          "sodium_mg": 624,
-          "fiber_g": 3.1,
-          "sugar_g": 6.8
+          "calories": 134,
+          "fat_g": 9.3,
+          "carbs_g": 0.4,
+          "protein_g": 9.3,
+          "sodium_mg": 496,
+          "fiber_g": 0.2,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2  whole ciabatta",
-          "8 slices spiced ham",
-          "12  bacon strips"
+          "2 loaves ciabatta bread",
+          "8 slices ham",
+          "8 slices swiss cheese"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -35004,16 +34839,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 329,
-          "fat_g": 22.3,
-          "carbs_g": 18.3,
-          "protein_g": 12.6,
-          "sodium_mg": 470,
-          "fiber_g": 1.3,
-          "sugar_g": 1.9
+          "calories": 235,
+          "fat_g": 20.3,
+          "carbs_g": 2.3,
+          "protein_g": 10.6,
+          "sodium_mg": 279,
+          "fiber_g": 0.3,
+          "sugar_g": 1.5
         },
         "missing_inputs": [
-          "1  Hungarian sausage"
+          "1  Hungarian sausage",
+          "4  flour tortillas"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -35103,16 +34939,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 146,
-          "fat_g": 5.3,
-          "carbs_g": 18.4,
-          "protein_g": 5.3,
-          "sodium_mg": 304,
-          "fiber_g": 1.2,
-          "sugar_g": 2.0
+          "calories": 52,
+          "fat_g": 3.3,
+          "carbs_g": 2.4,
+          "protein_g": 3.3,
+          "sodium_mg": 114,
+          "fiber_g": 0.2,
+          "sugar_g": 1.6
         },
         "missing_inputs": [
-          "2  whole strips of bacon"
+          "4  flour tortillas"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -35132,34 +34968,35 @@
       "total_time": "15 minutes",
       "ingredients": [
         {
-          "item": "ciabatta",
+          "item": "ciabatta bread",
           "quantity": "1",
-          "unit": "whole",
-          "prep_note": ""
+          "unit": "loaf"
         },
         {
           "item": "smoked salmon",
           "quantity": "4",
-          "unit": "slices",
-          "prep_note": ""
-        },
-        {
-          "item": "cream cheese",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "softened"
+          "unit": "slices"
         },
         {
           "item": "bacon",
           "quantity": "4",
-          "unit": "thin slices",
-          "prep_note": "grilled until crisp"
+          "unit": "slices",
+          "prep_note": "thin"
         },
         {
-          "item": "fresh rocket",
+          "item": "arugula",
           "quantity": "1",
-          "unit": "handful",
-          "prep_note": ""
+          "unit": "cup"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "4",
+          "unit": "oz"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -35206,21 +35043,19 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 50,
-          "fat_g": 5.0,
-          "carbs_g": 0.5,
-          "protein_g": 1.0,
-          "sodium_mg": 43,
-          "fiber_g": 0.0,
-          "sugar_g": 0.4
+          "calories": 290,
+          "fat_g": 26.1,
+          "carbs_g": 3.0,
+          "protein_g": 10.5,
+          "sodium_mg": 458,
+          "fiber_g": 0.3,
+          "sugar_g": 1.9
         },
         "missing_inputs": [
-          "1 whole ciabatta",
-          "4 slices smoked salmon",
-          "4 thin slices bacon",
-          "1 handful fresh rocket"
+          "1 loaf ciabatta bread",
+          "4 slices smoked salmon"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -36239,12 +36074,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 291,
-          "fat_g": 18.8,
-          "carbs_g": 29.2,
-          "protein_g": 3.1,
+          "calories": 266,
+          "fat_g": 18.7,
+          "carbs_g": 23.7,
+          "protein_g": 2.1,
           "sodium_mg": 279,
-          "fiber_g": 1.6,
+          "fiber_g": 0.6,
           "sugar_g": 19.4
         },
         "missing_inputs": [
@@ -36421,7 +36256,7 @@
           "carbs_g": 35.3,
           "protein_g": 4.9,
           "sodium_mg": 276,
-          "fiber_g": 1.4,
+          "fiber_g": 1.2,
           "sugar_g": 10.4
         },
         "missing_inputs": [
@@ -37783,7 +37618,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 134,
           "fat_g": 10.4,
@@ -37793,9 +37628,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.6
         },
-        "missing_inputs": [
-          "1 small can of asparagus tips"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -38471,70 +38304,46 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "eggs",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "dry boiled rice",
+          "item": "rice",
           "quantity": "1",
           "unit": "pint",
-          "prep_note": ""
+          "prep_note": "dry boiled"
         },
         {
-          "item": "strained tomato",
-          "quantity": "1/2",
-          "unit": "pint",
-          "prep_note": ""
+          "item": "eggs",
+          "quantity": "6",
+          "unit": ""
         },
         {
           "item": "mushrooms",
           "quantity": "2",
-          "unit": "",
-          "prep_note": ""
+          "unit": ""
         },
         {
-          "item": "fuls of grated Parmesan cheese",
+          "item": "flour",
           "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
+          "unit": "tbsp"
         },
         {
-          "item": "level tablespoonfuls of butter",
+          "item": "butter",
           "quantity": "2",
-          "unit": "",
-          "prep_note": ""
+          "unit": "tbsp"
         },
         {
-          "item": "level tablespoonfuls of flour",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "saltspoonful of grated nutmeg",
-          "quantity": "1/2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of paprika",
-          "quantity": "1/2",
+          "item": "nutmeg",
+          "quantity": "1/4",
           "unit": "tsp",
-          "prep_note": ""
+          "prep_note": "grated"
         },
         {
-          "item": "ful of salt",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "saltspoonful of pepper",
+          "item": "salt",
           "quantity": "1/2",
-          "unit": "",
-          "prep_note": ""
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -38558,21 +38367,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 181,
-          "fat_g": 14.1,
-          "carbs_g": 3.1,
-          "protein_g": 10.6,
-          "sodium_mg": 965,
-          "fiber_g": 0.6,
-          "sugar_g": 2.4
+          "calories": 277,
+          "fat_g": 13.6,
+          "carbs_g": 26.3,
+          "protein_g": 11.5,
+          "sodium_mg": 437,
+          "fiber_g": 0.5,
+          "sugar_g": 0.6
         },
         "missing_inputs": [
-          "1 pint dry boiled rice",
-          "2  mushrooms",
-          "2  level tablespoonfuls of flour",
-          "1/2  saltspoonful of grated nutmeg"
+          "2  mushrooms"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -39528,8 +39334,7 @@
           "sugar_g": 2.4
         },
         "missing_inputs": [
-          "1 small egg plant",
-          "1  thin slice of ham"
+          "1 small egg plant"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -40126,52 +39931,41 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "dozen eggs",
-          "quantity": "1",
+          "item": "eggs",
+          "quantity": "12",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "hard-boiled"
         },
         {
-          "item": "very red beets",
+          "item": "beets",
           "quantity": "3",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "very red"
         },
         {
           "item": "cider vinegar",
           "quantity": "1",
-          "unit": "quart",
-          "prep_note": ""
+          "unit": "quart"
         },
         {
           "item": "whole cloves",
           "quantity": "24",
-          "unit": "",
-          "prep_note": ""
+          "unit": ""
         },
         {
-          "item": "ful of mustard seed",
+          "item": "celery seed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "tsp"
         },
         {
-          "item": "saltspoonful of celery seed",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of salt",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "saltspoonfuls of pepper",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -40195,22 +39989,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 20,
-          "fat_g": 1.4,
-          "carbs_g": 0.2,
-          "protein_g": 1.6,
-          "sodium_mg": 599,
-          "fiber_g": 0.1,
-          "sugar_g": 0.1
+          "calories": 309,
+          "fat_g": 15.0,
+          "carbs_g": 15.0,
+          "protein_g": 18.1,
+          "sodium_mg": 215,
+          "fiber_g": 0.2,
+          "sugar_g": 14.1
         },
         "missing_inputs": [
-          "3  very red beets",
-          "1 quart cider vinegar",
-          "24  whole cloves",
-          "1  saltspoonful of celery seed",
-          "2  saltspoonfuls of pepper"
+          "3  beets",
+          "24  whole cloves"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -40582,7 +40373,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 112,
           "fat_g": 7.6,
@@ -40592,9 +40383,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.6
         },
-        "missing_inputs": [
-          "1 small can of caviar (2 tablespoonfuls)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -41151,7 +40940,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 134,
           "fat_g": 10.4,
@@ -41161,9 +40950,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.6
         },
-        "missing_inputs": [
-          "1 small can of asparagus tips"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -41586,70 +41373,46 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "egg plant",
+          "item": "eggplant",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "medium"
         },
         {
-          "item": "cottage cheese (dry)",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "bread",
-          "quantity": "3",
-          "unit": "slices",
-          "prep_note": ""
-        },
-        {
-          "item": "onion",
-          "quantity": "1/2",
-          "unit": "",
-          "prep_note": "sliced"
-        },
-        {
-          "item": "green pepper",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "chopped"
-        },
-        {
-          "item": "whole pimiento",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "chopped"
-        },
-        {
-          "item": "pepper and marjoram",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "butter",
+          "item": "cottage cheese",
           "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
+          "unit": "cups"
         },
         {
-          "item": "Paprika",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "pimiento",
+          "quantity": "1",
+          "unit": "whole",
+          "prep_note": "diced"
+        },
+        {
+          "item": "breadcrumbs",
+          "quantity": "1/2",
+          "unit": "cup"
         },
         {
           "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "marjoram",
+          "quantity": "1/4",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -41675,18 +41438,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 196,
-          "fat_g": 10.4,
-          "carbs_g": 16.1,
-          "protein_g": 10.4,
-          "sodium_mg": 664,
-          "fiber_g": 1.3,
-          "sugar_g": 4.0
+          "calories": 200,
+          "fat_g": 8.3,
+          "carbs_g": 14.0,
+          "protein_g": 17.3,
+          "sodium_mg": 1125,
+          "fiber_g": 0.7,
+          "sugar_g": 3.5
         },
         "missing_inputs": [
-          "1  egg plant",
-          "1  whole pimiento",
-          "pepper and marjoram"
+          "1  eggplant",
+          "1 whole pimiento",
+          "1/4 tsp marjoram"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -41777,19 +41540,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 99,
-          "fat_g": 6.8,
-          "carbs_g": 1.9,
-          "protein_g": 7.5,
+          "calories": 101,
+          "fat_g": 6.9,
+          "carbs_g": 2.2,
+          "protein_g": 7.6,
           "sodium_mg": 362,
           "fiber_g": 0.1,
-          "sugar_g": 1.4
+          "sugar_g": 1.6
         },
-        "missing_inputs": [
-          "3 tbsp chopped canned pimiento"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -42472,9 +42233,10 @@
         "pdf-extracted"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
-          "pdf-extraction"
+          "pdf-extraction",
+          "NOT-A-RECIPE: This is a table of contents/index"
         ]
       },
       "image_refs": [],
@@ -42700,17 +42462,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 85,
-          "fat_g": 6.4,
-          "carbs_g": 0.4,
-          "protein_g": 6.0,
-          "sodium_mg": 81,
-          "fiber_g": 0.0,
+          "calories": 241,
+          "fat_g": 9.6,
+          "carbs_g": 46.6,
+          "protein_g": 17.3,
+          "sodium_mg": 82,
+          "fiber_g": 31.2,
           "sugar_g": 0.4
         },
         "missing_inputs": [
-          "2  c boiling water 5 tsp baking soda",
-          "5  c flour 6 c raisin bran"
+          "2  c boiling water 5 tsp baking soda"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -44646,7 +44407,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -44657,6 +44418,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
+          "1  eggplant Vegetable-knife",
           "1  egg Bowl",
           "1  Peeltheeggplant andcut itinto slices aquarter"
         ],
@@ -45407,22 +45169,44 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Two tablespoons ofsyrup.",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Two tablespoons ofshortening.",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Five teaspoons ofbaking powder.",
+          "item": "cornmeal",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": "[quantity inferred]"
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -45470,21 +45254,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 446,
+          "fat_g": 16.6,
+          "carbs_g": 57.5,
+          "protein_g": 16.8,
+          "sodium_mg": 540,
+          "fiber_g": 3.1,
+          "sugar_g": 10.2
         },
-        "missing_inputs": [
-          "Two tablespoons ofsyrup.",
-          "Two tablespoons ofshortening.",
-          "1 tsp Five teaspoons ofbaking powder."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -45705,7 +45485,6 @@
           "sugar_g": 2.0
         },
         "missing_inputs": [
-          "10  strips lean bacon",
           "1/2 cup shredded Gruy\u00e8re cheese"
         ],
         "assumptions": [
@@ -45946,52 +45725,47 @@
       "total_time": "20 minutes",
       "ingredients": [
         {
-          "item": "onion",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": "minced"
-        },
-        {
-          "item": "butter",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
         },
         {
           "item": "tortillas",
           "quantity": "4",
-          "unit": "",
-          "prep_note": "cut into 1-inch squares"
+          "unit": ""
         },
         {
-          "item": "mild chili powder",
+          "item": "chili powder",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "green chilies",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "diced"
         },
         {
-          "item": "green chiles",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "chopped"
-        },
-        {
-          "item": "eggs",
-          "quantity": "8",
-          "unit": "",
-          "prep_note": "slightly beaten"
-        },
-        {
-          "item": "Parmesan cheese",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "grated"
-        },
-        {
-          "item": "parsley",
+          "item": "vegetable oil",
           "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "chopped"
+          "unit": "tbsp"
+        },
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "diced"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
         }
       ],
       "instructions": [
@@ -46029,18 +45803,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 281,
-          "fat_g": 23.4,
-          "carbs_g": 3.0,
-          "protein_g": 14.8,
-          "sodium_mg": 317,
-          "fiber_g": 0.4,
-          "sugar_g": 1.8
+          "calories": 208,
+          "fat_g": 16.8,
+          "carbs_g": 4.7,
+          "protein_g": 10.3,
+          "sodium_mg": 438,
+          "fiber_g": 0.9,
+          "sugar_g": 3.1
         },
         "missing_inputs": [
           "4  tortillas",
-          "1/4 cup mild chili powder",
-          "1/4 cup green chiles"
+          "1/4 cup chili powder",
+          "1/4 cup green chilies"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -46062,28 +45836,35 @@
       "total_time": "15 minutes",
       "ingredients": [
         {
-          "item": "custard cups",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "buttered"
-        },
-        {
           "item": "eggs",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "per cup"
+          "quantity": "4",
+          "unit": ""
         },
         {
-          "item": "green chile sauce or salsa",
+          "item": "green chile sauce",
           "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "per egg"
+          "unit": "tbsp"
         },
         {
-          "item": "cheese",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "small slice per cup"
+          "item": "cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -46120,20 +45901,18 @@
         "processed/img_6005_medium.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 18,
-          "fat_g": 1.2,
-          "carbs_g": 0.1,
-          "protein_g": 1.5,
-          "sodium_mg": 18,
+          "calories": 155,
+          "fat_g": 12.5,
+          "carbs_g": 0.6,
+          "protein_g": 9.5,
+          "sodium_mg": 324,
           "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "sugar_g": 0.5
         },
         "missing_inputs": [
-          "custard cups",
-          "2 tbsp green chile sauce or salsa",
-          "cheese"
+          "2 tbsp green chile sauce"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -46437,13 +46216,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 214,
-          "fat_g": 2.9,
-          "carbs_g": 39.8,
-          "protein_g": 9.1,
-          "sodium_mg": 264,
-          "fiber_g": 5.2,
-          "sugar_g": 3.7
+          "calories": 92,
+          "fat_g": 2.2,
+          "carbs_g": 13.7,
+          "protein_g": 4.3,
+          "sodium_mg": 262,
+          "fiber_g": 0.7,
+          "sugar_g": 3.6
         },
         "missing_inputs": [
           "1 cup sourdough starter"

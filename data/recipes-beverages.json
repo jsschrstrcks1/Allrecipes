@@ -546,74 +546,37 @@
       "description": "Buy one bottle of gin and mix up a trio of cocktails.",
       "ingredients": [
         {
-          "item": "FRENCH 75 (BUBBLY):",
-          "quantity": "",
-          "unit": ""
-        },
-        {
           "item": "gin",
-          "quantity": "1",
+          "quantity": "6",
           "unit": "oz"
         },
         {
           "item": "lemon juice",
-          "quantity": "1/2",
+          "quantity": "1",
           "unit": "oz"
         },
         {
-          "item": "confectioners' sugar",
-          "quantity": "1",
-          "unit": "tsp"
+          "item": "simple syrup",
+          "quantity": "1/2",
+          "unit": "oz"
         },
         {
           "item": "champagne",
-          "quantity": "",
-          "unit": "to top"
-        },
-        {
-          "item": "GIBSON (DRY):",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "gin",
-          "quantity": "3",
-          "unit": "oz"
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "for French 75"
         },
         {
           "item": "dry vermouth",
-          "quantity": "1/2",
-          "unit": "oz"
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": "for Gibson"
         },
         {
           "item": "cocktail onions",
-          "quantity": "",
-          "unit": "for garnish"
-        },
-        {
-          "item": "BRONX (SWEET):",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "gin",
-          "quantity": "1",
-          "unit": "oz"
-        },
-        {
-          "item": "orange juice",
-          "quantity": "2",
-          "unit": "oz"
-        },
-        {
-          "item": "sweet and dry vermouth",
-          "quantity": "1/2 oz each",
-          "unit": ""
-        },
-        {
-          "item": "orange twist",
-          "quantity": "",
-          "unit": "for garnish"
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "for Gibson garnish"
         }
       ],
       "instructions": [
@@ -647,24 +610,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 110,
-          "fat_g": 0.0,
-          "carbs_g": 4.4,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
-          "fiber_g": 0.5,
-          "sugar_g": 3.1
+          "calories": 142,
+          "fat_g": 0.1,
+          "carbs_g": 7.5,
+          "protein_g": 0.8,
+          "sodium_mg": 3,
+          "fiber_g": 1.5,
+          "sugar_g": 3.8
         },
         "missing_inputs": [
-          "FRENCH 75 (BUBBLY):",
-          "1/2 oz lemon juice",
-          "to top champagne",
-          "GIBSON (DRY):",
-          "1/2 oz dry vermouth",
-          "BRONX (SWEET):",
-          "2 oz orange juice",
-          "1/2 oz each  sweet and dry vermouth",
-          "for garnish orange twist"
+          "1 oz lemon juice",
+          "1/2 oz simple syrup",
+          "4 oz champagne",
+          "1 oz dry vermouth"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -3442,18 +3400,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 194,
+          "calories": 580,
           "fat_g": 0.0,
-          "carbs_g": 50.0,
+          "carbs_g": 150.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 2,
           "fiber_g": 0.0,
-          "sugar_g": 50.0
+          "sugar_g": 150.0
         },
         "missing_inputs": [
-          "1 pint strawberry syrup",
           "2 cans crushed pineapple",
           "1 jar maraschino cherries"
         ],
@@ -3477,28 +3434,34 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "pkg Ground beef 1 1/3 c Milk",
+          "item": "ground beef",
           "quantity": "2",
-          "unit": "lb",
-          "prep_note": ""
+          "unit": "lbs"
         },
         {
-          "item": "Salt Margarine",
-          "quantity": "2",
-          "unit": "tsp",
-          "prep_note": ""
+          "item": "milk",
+          "quantity": "1 1/3",
+          "unit": "cups"
         },
         {
-          "item": "Pepper 2 cans Mushroom Soup",
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pepper",
           "quantity": "1/4",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "tsp"
         },
         {
-          "item": "c Cracker Crumbs 1 c Water",
+          "item": "cream of mushroom soup",
           "quantity": "2",
-          "unit": "",
-          "prep_note": ""
+          "unit": "cans"
         }
       ],
       "instructions": [
@@ -3535,21 +3498,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 806,
+          "fat_g": 61.2,
+          "carbs_g": 13.1,
+          "protein_g": 44.7,
+          "sodium_mg": 2264,
+          "fiber_g": 1.0,
+          "sugar_g": 6.0
         },
-        "missing_inputs": [
-          "2 lb pkg Ground beef 1 1/3 c Milk",
-          "2 tsp Salt Margarine",
-          "1/4 tsp Pepper 2 cans Mushroom Soup"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -3639,15 +3598,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 636,
-          "fat_g": 26.8,
+          "calories": 96,
+          "fat_g": 8.8,
           "carbs_g": 4.3,
-          "protein_g": 90.7,
-          "sodium_mg": 846,
+          "protein_g": 0.7,
+          "sodium_mg": 666,
           "fiber_g": 1.1,
           "sugar_g": 1.9
         },
         "missing_inputs": [
+          "3 lb round steak",
           "1/2 cup ketchup"
         ],
         "assumptions": [
@@ -3670,58 +3630,45 @@
       "total_time": "",
       "ingredients": [
         {
+          "item": "round steak",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
           "item": "mushrooms",
           "quantity": "1",
-          "unit": "lb",
-          "prep_note": "sliced"
-        },
-        {
-          "item": "onions",
-          "quantity": "2",
-          "unit": "cup",
-          "prep_note": "diced"
-        },
-        {
-          "item": "butter",
-          "quantity": "1/4",
-          "unit": "lb",
-          "prep_note": ""
+          "unit": "lb"
         },
         {
           "item": "tomato sauce",
           "quantity": "8",
-          "unit": "oz can",
-          "prep_note": ""
-        },
-        {
-          "item": "Worcestershire sauce",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "round steak",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "unit": "oz"
         },
         {
           "item": "flour",
-          "quantity": "",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
           "unit": "",
-          "prep_note": "for dredging"
+          "prep_note": "sliced"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -3760,19 +3707,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 41,
-          "fat_g": 0.8,
-          "carbs_g": 7.9,
-          "protein_g": 1.3,
-          "sodium_mg": 518,
-          "fiber_g": 1.6,
-          "sugar_g": 3.5
+          "calories": 100,
+          "fat_g": 7.1,
+          "carbs_g": 8.5,
+          "protein_g": 1.1,
+          "sodium_mg": 582,
+          "fiber_g": 0.8,
+          "sugar_g": 1.3
         },
         "missing_inputs": [
+          "1 lb round steak",
           "1 lb mushrooms",
-          "8 oz can tomato sauce",
-          "1  round steak",
-          "flour"
+          "8 oz tomato sauce"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -3889,34 +3835,40 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "flank steaks 4-6 pineapple slices",
-          "quantity": "4-6",
-          "unit": "",
-          "prep_note": ""
+          "item": "flank steak",
+          "quantity": "4",
+          "unit": ""
         },
         {
-          "item": "tbs salad oil 1/2 c soy sauce",
+          "item": "pineapple slices",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "vegetable oil",
           "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "unit": "tbsp"
         },
         {
-          "item": "c sugar 2 tbs sherry (optional)",
-          "quantity": "1/4",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ginger 1 clove garlic",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": "crushed"
-        },
-        {
-          "item": "MSG",
+          "item": "soy sauce",
           "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "ginger",
+          "quantity": "1/2",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -3957,20 +3909,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 49,
-          "fat_g": 0.0,
-          "carbs_g": 12.8,
-          "protein_g": 0.1,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 12.5
+          "calories": 73,
+          "fat_g": 3.5,
+          "carbs_g": 8.5,
+          "protein_g": 1.9,
+          "sodium_mg": 1750,
+          "fiber_g": 0.1,
+          "sugar_g": 6.4
         },
         "missing_inputs": [
-          "4-6  flank steaks 4-6 pineapple slices",
-          "1  tbs salad oil 1/2 c soy sauce",
-          "1/2 tsp MSG"
+          "4  flank steak",
+          "4  pineapple slices"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -3992,34 +3943,46 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "ground beef 2/3 c bread crumbs",
+          "item": "ground beef",
           "quantity": "2",
-          "unit": "lb",
-          "prep_note": ""
+          "unit": "lbs"
         },
         {
-          "item": "salt 1/2 tsp pepper",
+          "item": "breadcrumbs",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": ""
         },
         {
-          "item": "eggs 2 lg onions",
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "beef broth",
           "quantity": "2",
-          "unit": "",
-          "prep_note": "sliced"
+          "unit": "cans",
+          "prep_note": "10 oz each"
         },
         {
-          "item": "(10 oz) condensed beef 2 cans (4 oz) mushrooms",
-          "quantity": "2",
-          "unit": "can",
-          "prep_note": "drained"
+          "item": "mushrooms",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "canned"
         },
         {
-          "item": "tbs cornstarch",
+          "item": "cornstarch",
           "quantity": "4",
-          "unit": "",
-          "prep_note": ""
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -4060,21 +4023,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 53,
-          "fat_g": 3.0,
-          "carbs_g": 1.2,
-          "protein_g": 6.0,
-          "sodium_mg": 926,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
+          "calories": 725,
+          "fat_g": 47.0,
+          "carbs_g": 23.1,
+          "protein_g": 48.7,
+          "sodium_mg": 1776,
+          "fiber_g": 1.5,
+          "sugar_g": 2.3
         },
-        "missing_inputs": [
-          "2 lb ground beef 2/3 c bread crumbs",
-          "1 tsp salt 1/2 tsp pepper",
-          "4  tbs cornstarch"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -4178,7 +4137,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 400,
           "fat_g": 0.1,
@@ -4188,10 +4147,7 @@
           "fiber_g": 0.2,
           "sugar_g": 101.5
         },
-        "missing_inputs": [
-          "1  lemon cutinvery thin slices.",
-          "1  orange cutinvery thin slices."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -4997,28 +4953,36 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "One gallon ofcider,",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "apple cider",
+          "quantity": "1",
+          "unit": "gallon"
         },
         {
-          "item": "Three bananas^ cutintothin slices.",
-          "quantity": "",
+          "item": "bananas",
+          "quantity": "3",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "sliced thin"
         },
         {
-          "item": "Two oranges, cutintothin slices.",
-          "quantity": "",
+          "item": "apples",
+          "quantity": "3",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "baked, cut into bits"
         },
         {
-          "item": "Three baked apples, cutinto bits.",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cinnamon sticks",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "6",
+          "unit": ""
         }
       ],
       "instructions": [
@@ -5045,18 +5009,20 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 16,
-          "fat_g": 0.1,
-          "carbs_g": 3.8,
-          "protein_g": 0.2,
+          "calories": 97,
+          "fat_g": 0.0,
+          "carbs_g": 25.0,
+          "protein_g": 0.0,
           "sodium_mg": 0,
-          "fiber_g": 0.8,
-          "sugar_g": 3.0
+          "fiber_g": 0.0,
+          "sugar_g": 25.0
         },
         "missing_inputs": [
-          "One gallon ofcider,",
-          "Three bananas^ cutintothin slices.",
-          "Three baked apples, cutinto bits."
+          "1 gallon apple cider",
+          "3  bananas",
+          "3  apples",
+          "2  cinnamon sticks",
+          "6  whole cloves"
         ],
         "assumptions": [
           "Calculated for 4 servings"
