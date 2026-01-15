@@ -1525,7 +1525,7 @@
           "fat_g": 17.3,
           "carbs_g": 18.6,
           "protein_g": 16.8,
-          "sodium_mg": 272,
+          "sodium_mg": 271,
           "fiber_g": 1.1,
           "sugar_g": 4.4
         },
@@ -8594,17 +8594,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 89,
-          "fat_g": 1.2,
-          "carbs_g": 18.9,
-          "protein_g": 1.7,
-          "sodium_mg": 19,
-          "fiber_g": 2.6,
-          "sugar_g": 0.3
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
         },
         "missing_inputs": [
           "20  cooked franks",
           "1 can green chile strips or sauce",
+          "12  corn tortillas",
           "oil"
         ],
         "assumptions": [
@@ -8968,18 +8969,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 89,
-          "fat_g": 1.2,
-          "carbs_g": 18.9,
-          "protein_g": 1.7,
-          "sodium_mg": 19,
-          "fiber_g": 2.6,
-          "sugar_g": 0.3
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 can (10 oz) green chile strips or sauce"
+          "20  cooked franks or 1 pkg (1 lb) franks cut into 1\u00bd-inch strips",
+          "1 can (10 oz) green chile strips or sauce",
+          "12  corn tortillas, cut into 1\u00bd-inch pieces"
         ],
         "assumptions": [
           "Calculated for 7 servings"
@@ -9090,10 +9093,10 @@
         "status": "partial",
         "per_serving": {
           "calories": 234,
-          "fat_g": 14.5,
+          "fat_g": 14.4,
           "carbs_g": 20.3,
           "protein_g": 5.8,
-          "sodium_mg": 968,
+          "sodium_mg": 1048,
           "fiber_g": 0.9,
           "sugar_g": 3.2
         },

@@ -10522,39 +10522,75 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "beef soup bones 7 c water",
+          "item": "beef soup bones",
           "quantity": "2",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "/2 lb stew beef",
-          "quantity": "1-1",
-          "unit": "",
-          "prep_note": "1\" cubes 1-1/2 tsp salt"
+          "item": "water",
+          "quantity": "7",
+          "unit": "cup",
+          "prep_note": ""
         },
         {
-          "item": "pepper 4 med potatoes",
+          "item": "stew beef",
+          "quantity": "1 1/2",
+          "unit": "lb",
+          "prep_note": "1\" cubes"
+        },
+        {
+          "item": "salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
           "quantity": "1",
           "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "potatoes",
+          "quantity": "4",
+          "unit": "medium",
           "prep_note": "cubed"
         },
         {
           "item": "carrots",
           "quantity": "4",
           "unit": "medium",
-          "prep_note": "coarsely chopped 2 (8 oz) cans tomato sauce"
+          "prep_note": "coarsely chopped"
         },
         {
-          "item": "hot red pepper 1/2 small cabbage",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "coarsely"
+          "item": "tomato sauce",
+          "quantity": "16",
+          "unit": "oz",
+          "prep_note": "2 (8 oz) cans"
         },
         {
-          "item": "(17 oz) can whole kernel corn 1 (15 oz) can English peas",
+          "item": "hot red pepper",
           "quantity": "1",
           "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cabbage",
+          "quantity": "1/2",
+          "unit": "small",
+          "prep_note": "coarsely chopped"
+        },
+        {
+          "item": "whole kernel corn",
+          "quantity": "17",
+          "unit": "oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "English peas",
+          "quantity": "15",
+          "unit": "oz can",
           "prep_note": ""
         }
       ],
@@ -10609,19 +10645,22 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 66,
-          "fat_g": 0.2,
-          "carbs_g": 15.2,
-          "protein_g": 1.6,
-          "sodium_mg": 45,
-          "fiber_g": 3.0,
-          "sugar_g": 3.5
+          "calories": 190,
+          "fat_g": 0.3,
+          "carbs_g": 43.4,
+          "protein_g": 4.6,
+          "sodium_mg": 927,
+          "fiber_g": 6.2,
+          "sugar_g": 5.0
         },
         "missing_inputs": [
-          "2  beef soup bones 7 c water",
-          "1-1  /2 lb stew beef",
-          "1  hot red pepper 1/2 small cabbage",
-          "1  (17 oz) can whole kernel corn 1 (15 oz) can English peas"
+          "2  beef soup bones",
+          "1 1/2 lb stew beef",
+          "16 oz tomato sauce",
+          "1  hot red pepper",
+          "1/2 small cabbage",
+          "17 oz can whole kernel corn",
+          "15 oz can English peas"
         ],
         "assumptions": [
           "Calculated for 4 servings"
