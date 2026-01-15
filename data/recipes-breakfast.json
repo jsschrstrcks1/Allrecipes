@@ -11650,19 +11650,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 522,
-          "fat_g": 14.4,
-          "carbs_g": 100.0,
-          "protein_g": 8.5,
-          "sodium_mg": 115,
-          "fiber_g": 12.3,
-          "sugar_g": 83.2
+          "calories": 644,
+          "fat_g": 15.9,
+          "carbs_g": 123.0,
+          "protein_g": 12.7,
+          "sodium_mg": 342,
+          "fiber_g": 13.2,
+          "sugar_g": 85.5
         },
-        "missing_inputs": [
-          "2  whole ciabatta"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -12417,15 +12415,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 776,
-          "fat_g": 21.1,
-          "carbs_g": 109.9,
-          "protein_g": 44.0,
-          "sodium_mg": 2328,
-          "fiber_g": 5.2,
-          "sugar_g": 6.2
+          "calories": 226,
+          "fat_g": 15.0,
+          "carbs_g": 1.9,
+          "protein_g": 20.0,
+          "sodium_mg": 1116,
+          "fiber_g": 0.2,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
+          "2 loaves ciabatta bread",
           "8 slices swiss cheese"
         ],
         "assumptions": [
@@ -12690,15 +12689,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 838,
-          "fat_g": 32.6,
-          "carbs_g": 111.0,
-          "protein_g": 34.2,
-          "sodium_mg": 1660,
-          "fiber_g": 5.2,
-          "sugar_g": 8.0
+          "calories": 288,
+          "fat_g": 26.6,
+          "carbs_g": 3.0,
+          "protein_g": 10.2,
+          "sodium_mg": 448,
+          "fiber_g": 0.1,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
+          "1 loaf ciabatta bread",
           "4 slices smoked salmon"
         ],
         "assumptions": [
@@ -18286,10 +18286,10 @@
         "per_serving": {
           "calories": 455,
           "fat_g": 21.6,
-          "carbs_g": 57.2,
+          "carbs_g": 57.3,
           "protein_g": 14.7,
           "sodium_mg": 179,
-          "fiber_g": 9.0,
+          "fiber_g": 9.1,
           "sugar_g": 17.1
         },
         "missing_inputs": [
@@ -33533,19 +33533,17 @@
       ],
       "source_note": "Reference cookbook - Book Four: Other Recipes",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 522,
-          "fat_g": 14.4,
-          "carbs_g": 100.0,
-          "protein_g": 8.5,
-          "sodium_mg": 115,
-          "fiber_g": 12.3,
-          "sugar_g": 83.2
+          "calories": 644,
+          "fat_g": 15.9,
+          "carbs_g": 123.0,
+          "protein_g": 12.7,
+          "sodium_mg": 342,
+          "fiber_g": 13.2,
+          "sugar_g": 85.5
         },
-        "missing_inputs": [
-          "2  whole ciabatta"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -34484,15 +34482,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 776,
-          "fat_g": 21.1,
-          "carbs_g": 109.9,
-          "protein_g": 44.0,
-          "sodium_mg": 2328,
-          "fiber_g": 5.2,
-          "sugar_g": 6.2
+          "calories": 226,
+          "fat_g": 15.0,
+          "carbs_g": 1.9,
+          "protein_g": 20.0,
+          "sodium_mg": 1116,
+          "fiber_g": 0.2,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
+          "2 loaves ciabatta bread",
           "8 slices swiss cheese"
         ],
         "assumptions": [
@@ -34812,15 +34811,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 838,
-          "fat_g": 32.6,
-          "carbs_g": 111.0,
-          "protein_g": 34.2,
-          "sodium_mg": 1660,
-          "fiber_g": 5.2,
-          "sugar_g": 8.0
+          "calories": 288,
+          "fat_g": 26.6,
+          "carbs_g": 3.0,
+          "protein_g": 10.2,
+          "sodium_mg": 448,
+          "fiber_g": 0.1,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
+          "1 loaf ciabatta bread",
           "4 slices smoked salmon"
         ],
         "assumptions": [
@@ -41758,238 +41758,6 @@
           "Calculated for 4 servings"
         ]
       }
-    },
-    {
-      "id": "sectionviicheese-and-eggs-basicfoodp",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Sectionviicheese And Eggs",
-      "category": "breakfast",
-      "attribution": "",
-      "source_note": "Basic Food Preparation (PDF cookbook)",
-      "description": "Vintage recipe from Basic Food Preparation",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "3",
-          "quantity": "5",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Index to Armed Forces Recipe Service (TM 10-412).57",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Appetizers. 59",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "General principles of coffee brewing from Armed 64",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Standard recipes for hot tea and iced tea. 67",
-          "quantity": "4",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Standard recipe for cocoa. 68",
-          "quantity": "5",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Standard recipe for hot rolls from Armed Forces 72",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Guide for hot-roll makeup from Armed Forces Recipe 73",
-          "quantity": "7",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Standard recipe for sweet dough from Armed Forces 74",
-          "quantity": "8",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Recipe conversion from Armed Forces Recipe Service 75",
-          "quantity": "9",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Recipe conversion from Armed Forces Recipe Service 76",
-          "quantity": "10",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Guide from Armed Forces Recipe Service for 78",
-          "quantity": "11",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Baked items made from sweet dough. 82",
-          "quantity": "12",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Standard recipe for baking powder biscuits from 87",
-          "quantity": "13",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Properly baked biscuits. 90",
-          "quantity": "14",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Well-prepared muffins. 91",
-          "quantity": "15",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Guidelines from Armed Forces Recipe Service for 98",
-          "quantity": "16",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Uses of eggs. 99",
-          "quantity": "17",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Guidelines from Armed Forces Recipe Service for 101",
-          "quantity": "18",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Standard recipe from Armed Forces Recipe Service 104",
-          "quantity": "19",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Guidelines for successful cake baking from Armed 105",
-          "quantity": "20",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Guidelines from Armed Forces Recipe Service for 106",
-          "quantity": "21",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Guidelines for preparing frostings from Armed 108",
-          "quantity": "22",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Guidelines for frosting cakes from Armed Forces 109",
-          "quantity": "23",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Directions for making a two-crust pie from 110",
-          "quantity": "24",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Some suggestions for baking pies. 111",
-          "quantity": "25",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "4",
-          "quantity": "5",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Method not fully extracted - see original source."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "NOT-A-RECIPE: This is a table of contents/index",
-          {
-            "type": "not_recipe",
-            "reason": "Book section header, not a recipe"
-          }
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 306,
-          "fat_g": 21.2,
-          "carbs_g": 1.7,
-          "protein_g": 25.5,
-          "sodium_mg": 302,
-          "fiber_g": 0.0,
-          "sugar_g": 1.7
-        },
-        "missing_inputs": [
-          "1  Index to Armed Forces Recipe Service (TM 10-412).57",
-          "2  Appetizers. 59",
-          "3  General principles of coffee brewing from Armed 64",
-          "4  Standard recipes for hot tea and iced tea. 67",
-          "5  Standard recipe for cocoa. 68",
-          "6  Standard recipe for hot rolls from Armed Forces 72",
-          "7  Guide for hot-roll makeup from Armed Forces Recipe 73",
-          "8  Standard recipe for sweet dough from Armed Forces 74",
-          "9  Recipe conversion from Armed Forces Recipe Service 75",
-          "10  Recipe conversion from Armed Forces Recipe Service 76"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      },
-      "flagged_for_review": true,
-      "flag_reason": "Section index - not a recipe"
     },
     {
       "id": "waffles-dudeskitch",
