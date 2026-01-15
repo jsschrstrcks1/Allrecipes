@@ -33368,7 +33368,16 @@
       "collection": "all",
       "description": "Vintage recipe from Sandwichrecipes Obooko Fd0007",
       "servings_yield": "4 servings",
-      "total_time": ""
+      "total_time": "",
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          {
+            "type": "ocr_garbage",
+            "reason": "OCR corruption - unreadable title"
+          }
+        ]
+      }
     },
     {
       "id": "pinch-of-salt-and-pepper-sandwichre",
@@ -33446,7 +33455,16 @@
       "collection": "all",
       "description": "Vintage recipe from Atlanta Womans Club Cook Book 1921",
       "servings_yield": "4 servings",
-      "total_time": ""
+      "total_time": "",
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          {
+            "type": "not_recipe",
+            "reason": "Kitchen equipment list, not a recipe"
+          }
+        ]
+      }
     },
     {
       "id": "scripture-cake-atlantawom",
@@ -34629,7 +34647,16 @@
       "collection": "all",
       "description": "Vintage recipe from Basic Food Preparation",
       "servings_yield": "4 servings",
-      "total_time": ""
+      "total_time": "",
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          {
+            "type": "not_recipe",
+            "reason": "Book illustration list, not a recipe"
+          }
+        ]
+      }
     },
     {
       "id": "tables-basicfoodp",
@@ -34668,7 +34695,16 @@
       "collection": "all",
       "description": "Vintage recipe from Basic Food Preparation",
       "servings_yield": "4 servings",
-      "total_time": ""
+      "total_time": "",
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          {
+            "type": "not_recipe",
+            "reason": "Book figure captions, not a recipe"
+          }
+        ]
+      }
     },
     {
       "id": "appendix-basicfoodp",
@@ -34707,7 +34743,16 @@
       "collection": "all",
       "description": "Vintage recipe from Basic Food Preparation",
       "servings_yield": "4 servings",
-      "total_time": ""
+      "total_time": "",
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          {
+            "type": "not_recipe",
+            "reason": "Book lesson page, not a recipe"
+          }
+        ]
+      }
     },
     {
       "id": "assistant-to-bensonwoma",

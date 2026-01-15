@@ -1656,6 +1656,136 @@ NUTRITION_DB = {
     # Misc
     "large banana": {"each": {"cal": 121, "fat": 0.4, "carbs": 31, "protein": 1.5, "sodium": 1, "fiber": 3.5, "sugar": 17}},
     "frozen strawberries": {"cup": {"cal": 77, "fat": 0.2, "carbs": 20, "protein": 1, "sodium": 3, "fiber": 3.3, "sugar": 13}},
+
+    # =========================================================================
+    # BATCH 13: Additional missing ingredients
+    # =========================================================================
+
+    # Dips & spreads
+    "hummus": {"cup": {"cal": 435, "fat": 21, "carbs": 50, "protein": 20, "sodium": 960, "fiber": 15, "sugar": 0},
+              "oz": {"cal": 54, "fat": 2.6, "carbs": 6, "protein": 2.5, "sodium": 120, "fiber": 2, "sugar": 0},
+              "tbsp": {"cal": 27, "fat": 1.3, "carbs": 3, "protein": 1.3, "sodium": 60, "fiber": 1, "sugar": 0}},
+    "pita chips": {"cup": {"cal": 260, "fat": 10, "carbs": 36, "protein": 6, "sodium": 380, "fiber": 2, "sugar": 1},
+                  "bag": {"cal": 780, "fat": 30, "carbs": 108, "protein": 18, "sodium": 1140, "fiber": 6, "sugar": 3},
+                  "oz": {"cal": 130, "fat": 5, "carbs": 18, "protein": 3, "sodium": 190, "fiber": 1, "sugar": 0.5}},
+    "tzatziki": {"cup": {"cal": 150, "fat": 10, "carbs": 10, "protein": 6, "sodium": 400, "fiber": 0.5, "sugar": 6}},
+
+    # Meats
+    "ground veal": {"lb": {"cal": 840, "fat": 40, "carbs": 0, "protein": 112, "sodium": 320, "fiber": 0, "sugar": 0},
+                   "oz": {"cal": 53, "fat": 2.5, "carbs": 0, "protein": 7, "sodium": 20, "fiber": 0, "sugar": 0}},
+    "veal": {"lb": {"cal": 840, "fat": 40, "carbs": 0, "protein": 112, "sodium": 320, "fiber": 0, "sugar": 0},
+             "oz": {"cal": 53, "fat": 2.5, "carbs": 0, "protein": 7, "sodium": 20, "fiber": 0, "sugar": 0}},
+    "skirt steak": {"lb": {"cal": 800, "fat": 48, "carbs": 0, "protein": 92, "sodium": 280, "fiber": 0, "sugar": 0},
+                   "oz": {"cal": 50, "fat": 3, "carbs": 0, "protein": 5.8, "sodium": 18, "fiber": 0, "sugar": 0}},
+    "beef heart": {"lb": {"cal": 560, "fat": 16, "carbs": 0, "protein": 96, "sodium": 400, "fiber": 0, "sugar": 0},
+                  "oz": {"cal": 35, "fat": 1, "carbs": 0, "protein": 6, "sodium": 25, "fiber": 0, "sugar": 0}},
+    "tripe": {"lb": {"cal": 400, "fat": 16, "carbs": 0, "protein": 60, "sodium": 180, "fiber": 0, "sugar": 0}},
+    "honeycomb tripe": {"lb": {"cal": 400, "fat": 16, "carbs": 0, "protein": 60, "sodium": 180, "fiber": 0, "sugar": 0}},
+    "veal knuckle": {"each": {"cal": 350, "fat": 12, "carbs": 0, "protein": 56, "sodium": 200, "fiber": 0, "sugar": 0}},
+
+    # Cheese varieties
+    "roquefort cheese": {"oz": {"cal": 105, "fat": 9, "carbs": 0.6, "protein": 6, "sodium": 513, "fiber": 0, "sugar": 0},
+                        "cup": {"cal": 420, "fat": 36, "carbs": 2.4, "protein": 24, "sodium": 2052, "fiber": 0, "sugar": 0}},
+    "cotija cheese": {"oz": {"cal": 106, "fat": 8, "carbs": 2, "protein": 7, "sodium": 350, "fiber": 0, "sugar": 0},
+                     "cup": {"cal": 424, "fat": 32, "carbs": 8, "protein": 28, "sodium": 1400, "fiber": 0, "sugar": 0}},
+    "queso cheese": {"cup": {"cal": 480, "fat": 36, "carbs": 8, "protein": 28, "sodium": 1200, "fiber": 0, "sugar": 2},
+                    "oz": {"cal": 60, "fat": 4.5, "carbs": 1, "protein": 3.5, "sodium": 150, "fiber": 0, "sugar": 0.3}},
+    "queso fresco": {"oz": {"cal": 80, "fat": 6, "carbs": 1, "protein": 5, "sodium": 180, "fiber": 0, "sugar": 0}},
+    "daiya cheese": {"cup": {"cal": 240, "fat": 16, "carbs": 16, "protein": 0, "sodium": 640, "fiber": 0, "sugar": 0},
+                    "oz": {"cal": 60, "fat": 4, "carbs": 4, "protein": 0, "sodium": 160, "fiber": 0, "sugar": 0}},
+    "muenster cheese": {"slice": {"cal": 104, "fat": 8.5, "carbs": 0.3, "protein": 6.6, "sodium": 178, "fiber": 0, "sugar": 0.1},
+                       "oz": {"cal": 104, "fat": 8.5, "carbs": 0.3, "protein": 6.6, "sodium": 178, "fiber": 0, "sugar": 0.1}},
+    "gouda cheese": {"slice": {"cal": 101, "fat": 8, "carbs": 0.6, "protein": 7, "sodium": 232, "fiber": 0, "sugar": 0.6},
+                    "oz": {"cal": 101, "fat": 8, "carbs": 0.6, "protein": 7, "sodium": 232, "fiber": 0, "sugar": 0.6}},
+
+    # Spices & seasonings
+    "saffron": {"tsp": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0.1, "sodium": 1, "fiber": 0, "sugar": 0},
+               "threads": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0.1, "sodium": 1, "fiber": 0, "sugar": 0}},
+    "saffron threads": {"tsp": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0.1, "sodium": 1, "fiber": 0, "sugar": 0}},
+    "garam masala": {"tsp": {"cal": 6, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 1, "fiber": 0.4, "sugar": 0},
+                    "tbsp": {"cal": 18, "fat": 0.9, "carbs": 3, "protein": 0.6, "sodium": 3, "fiber": 1.2, "sugar": 0}},
+    "cardamom": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "green cardamom": {"pod": {"cal": 6, "fat": 0.1, "carbs": 1.4, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "black cardamom": {"pod": {"cal": 6, "fat": 0.2, "carbs": 1.2, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "peppercorns": {"tsp": {"cal": 6, "fat": 0.1, "carbs": 1.5, "protein": 0.2, "sodium": 0, "fiber": 0.6, "sugar": 0}},
+    "lavender": {"tsp": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0.1, "sodium": 0, "fiber": 0.2, "sugar": 0}},
+    "dried lavender": {"tsp": {"cal": 2, "fat": 0, "carbs": 0.5, "protein": 0.1, "sodium": 0, "fiber": 0.2, "sugar": 0}},
+
+    # Sauces
+    "green chile sauce": {"cup": {"cal": 60, "fat": 1, "carbs": 11, "protein": 2, "sodium": 1200, "fiber": 2, "sugar": 4},
+                         "can": {"cal": 90, "fat": 1.5, "carbs": 16, "protein": 3, "sodium": 1800, "fiber": 3, "sugar": 6},
+                         "oz": {"cal": 8, "fat": 0.1, "carbs": 1.4, "protein": 0.3, "sodium": 150, "fiber": 0.3, "sugar": 0.5}},
+    "picante sauce": {"cup": {"cal": 70, "fat": 0.3, "carbs": 16, "protein": 3, "sodium": 2400, "fiber": 4, "sugar": 8},
+                     "jar": {"cal": 140, "fat": 0.6, "carbs": 32, "protein": 6, "sodium": 4800, "fiber": 8, "sugar": 16}},
+    "russian dressing": {"tbsp": {"cal": 57, "fat": 5, "carbs": 3, "protein": 0.2, "sodium": 133, "fiber": 0, "sugar": 2},
+                        "bottle": {"cal": 912, "fat": 80, "carbs": 48, "protein": 3, "sodium": 2128, "fiber": 0, "sugar": 32}},
+    "creamy french dressing": {"tbsp": {"cal": 70, "fat": 6, "carbs": 4, "protein": 0, "sodium": 140, "fiber": 0, "sugar": 3},
+                              "bottle": {"cal": 1120, "fat": 96, "carbs": 64, "protein": 0, "sodium": 2240, "fiber": 0, "sugar": 48}},
+    "stove top stuffing": {"pkg": {"cal": 440, "fat": 8, "carbs": 84, "protein": 12, "sodium": 1800, "fiber": 4, "sugar": 6}},
+
+    # Preserves & sweets
+    "jam": {"tbsp": {"cal": 56, "fat": 0, "carbs": 14, "protein": 0, "sodium": 6, "fiber": 0.2, "sugar": 10}},
+    "preserves": {"tbsp": {"cal": 56, "fat": 0, "carbs": 14, "protein": 0, "sodium": 6, "fiber": 0.2, "sugar": 10},
+                 "jar": {"cal": 1008, "fat": 0, "carbs": 252, "protein": 0, "sodium": 108, "fiber": 3.6, "sugar": 180}},
+    "apricot preserves": {"tbsp": {"cal": 50, "fat": 0, "carbs": 13, "protein": 0, "sodium": 8, "fiber": 0.2, "sugar": 11},
+                         "jar": {"cal": 800, "fat": 0, "carbs": 208, "protein": 0, "sodium": 128, "fiber": 3.2, "sugar": 176}},
+    "preserved ginger": {"tbsp": {"cal": 20, "fat": 0, "carbs": 5, "protein": 0, "sodium": 1, "fiber": 0, "sugar": 4}},
+    "crystallized ginger": {"oz": {"cal": 96, "fat": 0.1, "carbs": 24, "protein": 0.2, "sodium": 4, "fiber": 0.4, "sugar": 19}},
+    "lady fingers": {"each": {"cal": 40, "fat": 1, "carbs": 7, "protein": 1, "sodium": 16, "fiber": 0, "sugar": 4},
+                    "doz": {"cal": 480, "fat": 12, "carbs": 84, "protein": 12, "sodium": 192, "fiber": 0, "sugar": 48}},
+
+    # Condiments
+    "pickle relish": {"tbsp": {"cal": 14, "fat": 0.1, "carbs": 3.5, "protein": 0.1, "sodium": 164, "fiber": 0.2, "sugar": 2.5}},
+    "pickle juice": {"cup": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1800, "fiber": 0, "sugar": 0},
+                    "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 113, "fiber": 0, "sugar": 0}},
+    "horseradish": {"tbsp": {"cal": 7, "fat": 0.1, "carbs": 2, "protein": 0.2, "sodium": 47, "fiber": 0.5, "sugar": 1}},
+    "prepared horseradish": {"tbsp": {"cal": 7, "fat": 0.1, "carbs": 2, "protein": 0.2, "sodium": 47, "fiber": 0.5, "sugar": 1}},
+
+    # Fruits
+    "gooseberries": {"cup": {"cal": 66, "fat": 0.9, "carbs": 15, "protein": 1.3, "sodium": 2, "fiber": 6.5, "sugar": 0},
+                    "lb": {"cal": 134, "fat": 1.8, "carbs": 30, "protein": 2.6, "sodium": 4, "fiber": 13, "sugar": 0}},
+    "ripe gooseberries": {"lb": {"cal": 134, "fat": 1.8, "carbs": 30, "protein": 2.6, "sodium": 4, "fiber": 13, "sugar": 0}},
+    "roma tomatoes": {"each": {"cal": 11, "fat": 0.1, "carbs": 2.4, "protein": 0.5, "sodium": 3, "fiber": 0.7, "sugar": 1.6},
+                     "cup": {"cal": 32, "fat": 0.4, "carbs": 7, "protein": 1.6, "sodium": 9, "fiber": 2, "sugar": 5}},
+
+    # Meat alternatives
+    "tvp": {"cup": {"cal": 222, "fat": 0.5, "carbs": 21, "protein": 35, "sodium": 4, "fiber": 12, "sugar": 9}},
+    "textured vegetable protein": {"cup": {"cal": 222, "fat": 0.5, "carbs": 21, "protein": 35, "sodium": 4, "fiber": 12, "sugar": 9}},
+
+    # Canned goods
+    "clam juice": {"cup": {"cal": 6, "fat": 0, "carbs": 0, "protein": 1, "sodium": 640, "fiber": 0, "sugar": 0},
+                  "bottle": {"cal": 12, "fat": 0, "carbs": 0, "protein": 2, "sodium": 1280, "fiber": 0, "sugar": 0}},
+    "crabmeat": {"cup": {"cal": 134, "fat": 2, "carbs": 0, "protein": 28, "sodium": 600, "fiber": 0, "sugar": 0},
+                "can": {"cal": 100, "fat": 1.5, "carbs": 0, "protein": 21, "sodium": 450, "fiber": 0, "sugar": 0},
+                "oz": {"cal": 25, "fat": 0.4, "carbs": 0, "protein": 5, "sodium": 95, "fiber": 0, "sugar": 0}},
+    "peach syrup": {"cup": {"cal": 240, "fat": 0, "carbs": 60, "protein": 0, "sodium": 10, "fiber": 0, "sugar": 55}},
+
+    # Baked goods
+    "saltine crackers": {"each": {"cal": 13, "fat": 0.3, "carbs": 2.2, "protein": 0.3, "sodium": 38, "fiber": 0.1, "sugar": 0},
+                        "cup": {"cal": 195, "fat": 4.5, "carbs": 33, "protein": 4.5, "sodium": 570, "fiber": 1.5, "sugar": 0}},
+    "ritz crackers": {"tube": {"cal": 1600, "fat": 80, "carbs": 200, "protein": 16, "sodium": 3200, "fiber": 8, "sugar": 24},
+                     "each": {"cal": 16, "fat": 0.8, "carbs": 2, "protein": 0.2, "sodium": 32, "fiber": 0.1, "sugar": 0.2}},
+
+    # Flavored gelatin
+    "lemon-flavored gelatin": {"pkg": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+    "orange-flavored gelatin": {"pkg": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+    "strawberry gelatin": {"pkg": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+    "lime gelatin": {"pkg": {"cal": 80, "fat": 0, "carbs": 19, "protein": 2, "sodium": 120, "fiber": 0, "sugar": 19}},
+    "unflavored gelatin": {"envelope": {"cal": 23, "fat": 0, "carbs": 0, "protein": 6, "sodium": 14, "fiber": 0, "sugar": 0},
+                          "pkg": {"cal": 23, "fat": 0, "carbs": 0, "protein": 6, "sodium": 14, "fiber": 0, "sugar": 0}},
+
+    # Beverages
+    "gingerale": {"cup": {"cal": 83, "fat": 0, "carbs": 21, "protein": 0, "sodium": 26, "fiber": 0, "sugar": 21}},
+    "apple cider": {"cup": {"cal": 117, "fat": 0.3, "carbs": 29, "protein": 0.2, "sodium": 5, "fiber": 0.2, "sugar": 24},
+                   "gallon": {"cal": 1872, "fat": 4.8, "carbs": 464, "protein": 3.2, "sodium": 80, "fiber": 3.2, "sugar": 384}},
+
+    # Misc
+    "spanish rice": {"cup": {"cal": 130, "fat": 1, "carbs": 28, "protein": 3, "sodium": 510, "fiber": 1, "sugar": 2}},
+    "savory pie crust": {"each": {"cal": 620, "fat": 39, "carbs": 60, "protein": 7, "sodium": 560, "fiber": 2, "sugar": 2}},
+    "deep dish pie crust": {"each": {"cal": 720, "fat": 45, "carbs": 70, "protein": 8, "sodium": 650, "fiber": 2, "sugar": 3}},
+    "enchilada sauce": {"cup": {"cal": 60, "fat": 1, "carbs": 11, "protein": 2, "sodium": 1160, "fiber": 2, "sugar": 4},
+                       "can": {"cal": 90, "fat": 1.5, "carbs": 16, "protein": 3, "sodium": 1740, "fiber": 3, "sugar": 6}},
+    "red enchilada sauce": {"cup": {"cal": 60, "fat": 1, "carbs": 11, "protein": 2, "sodium": 1160, "fiber": 2, "sugar": 4}},
 }
 
 # =============================================================================
@@ -4224,6 +4354,166 @@ def normalize_ingredient(item):
         "for garnish": "",
         "for dipping": "",
         "optional": "",
+
+        # Batch 13: More ingredient synonyms
+        # Vegetables & Produce
+        "roma tomato": "roma tomatoes",
+        "plum tomato": "roma tomatoes",
+        "medium roma tomatoes": "roma tomatoes",
+        "medium tomatoes": "tomatoes",
+        "medium tomato": "tomatoes",
+        "diced tomatoes": "canned tomatoes",
+        "sliced cucumber": "cucumber",
+        "diced cucumber": "cucumber",
+        "chopped cucumber": "cucumber",
+        "english cucumber": "cucumber",
+        "seedless cucumber": "cucumber",
+        "peeled jicama": "jicama",
+        "julienne-cut peeled jicama": "jicama",
+        "julienne jicama": "jicama",
+        "yellow squash": "zucchini",
+
+        # Seafood
+        "yellowfin tuna steaks": "tuna",
+        "yellowfin tuna": "tuna",
+        "ahi tuna steaks": "tuna",
+        "tuna steak": "tuna",
+        "cod fillet": "cod",
+        "scrubbed mussels": "mussels",
+        "debearded mussels": "mussels",
+
+        # Meats
+        "ground veal or turkey": "ground veal",
+        "top sirloin beef": "beef steak",
+        "top sirloin": "beef steak",
+        "boneless pork steak": "pork chops",
+        "pork steak": "pork chops",
+        "beef round steak": "beef steak",
+        "boneless beef chuck roast": "beef roast",
+        "guanciale": "pancetta",
+        "finely chopped pancetta": "pancetta",
+
+        # Cheese
+        "smoked mozzarella": "mozzarella",
+        "fresh mozzarella": "mozzarella",
+        "shredded mozzarella": "mozzarella",
+        "grated mozzarella": "mozzarella",
+        "grated fresh parmigiano-reggiano cheese": "parmesan cheese",
+        "fresh parmigiano-reggiano": "parmesan cheese",
+        "parmigiano-reggiano": "parmesan cheese",
+        "grated parmesan": "parmesan cheese",
+        "freshly grated parmesan": "parmesan cheese",
+        "shredded cheddar cheese": "cheddar cheese",
+        "shredded monterey jack cheese": "monterey jack cheese",
+        "shredded mexican-blend cheese": "cheddar cheese",
+        "mexican blend cheese": "cheddar cheese",
+        "sharp cheddar": "cheddar cheese",
+        "longhorn cheese": "cheddar cheese",
+        "long horn cheese": "cheddar cheese",
+        "feta cheese": "feta",
+        "crumbled feta": "feta",
+        "crumbled cotija cheese": "cotija cheese",
+        "soft goat cheese": "goat cheese",
+
+        # Sauces & condiments
+        "shoyu": "soy sauce",
+        "tamari": "soy sauce",
+        "red russian dressing": "russian dressing",
+        "kraft creamy french dressing": "creamy french dressing",
+        "old world style pasta sauce": "tomato sauce",
+        "ragu pasta sauce": "tomato sauce",
+        "jar taco sauce": "taco sauce",
+        "bottle tomato catsup": "ketchup",
+        "tomato catsup": "ketchup",
+        "bottle russian dressing": "russian dressing",
+
+        # Bread & dough
+        "savory deep dish pie crust": "deep dish pie crust",
+        "frozen puff pastry": "puff pastry",
+        "thawed puff pastry": "puff pastry",
+        "pita bread": "pita",
+        "sandwich bread": "bread",
+        "white sandwich bread": "bread",
+        "whole wheat bread": "bread",
+
+        # Alcohol & beverages
+        "apricot brandy": "brandy",
+        "cooking wine": "white wine",
+        "unsweetened pineapple juice": "pineapple juice",
+
+        # Spices & seasonings
+        "tarragon leaves": "tarragon",
+        "fresh tarragon": "tarragon",
+        "dried tarragon": "tarragon",
+        "dried oregano leaves": "oregano",
+        "dried thyme leaves": "thyme",
+        "crushed oregano": "oregano",
+        "coriander powder": "coriander",
+        "garam masala powder": "garam masala",
+        "taco seasoning": "chili powder",
+        "chili seasoning mix": "chili powder",
+        "taco seasoning mix": "chili powder",
+        "mild chili seasoning": "chili powder",
+        "onion soup mix": "onion soup",
+        "dry onion soup": "onion soup",
+        "lipton onion soup": "onion soup",
+
+        # Canned goods
+        "can black olives": "black olives",
+        "ripe black olives": "black olives",
+        "sliced black olives": "black olives",
+        "pitted black olives": "black olives",
+        "can kidney beans": "kidney beans",
+        "can black beans": "black beans",
+        "can pinto beans": "pinto beans",
+        "can chili beans": "chili beans",
+        "can cannellini beans": "cannellini beans",
+        "can great northern beans": "great northern beans",
+        "can refried beans": "refried beans",
+        "can tomato sauce": "tomato sauce",
+        "can stewed tomatoes": "canned tomatoes",
+        "can diced tomatoes": "canned tomatoes",
+        "can tomato juice": "tomato juice",
+        "can tomato puree": "tomato puree",
+        "can green chiles": "green chilies",
+        "can diced green chiles": "green chilies",
+        "can cream of mushroom soup": "mushroom soup",
+        "can cream of chicken soup": "cream of chicken soup",
+        "can chicken broth": "chicken broth",
+        "can beef broth": "beef broth",
+        "can mixed vegetables": "mixed vegetables",
+        "can corn": "corn",
+        "canned pineapple chunk": "pineapple chunks",
+
+        # Preserves & sweets
+        "jar apricot preserves": "apricot preserves",
+        "apricot jam": "apricot preserves",
+        "strawberry preserves": "jam",
+        "fruit preserves": "jam",
+        "grape jelly": "jam",
+
+        # Misc
+        "hot dogs": "hot dog",
+        "frankfurters": "hot dog",
+        "franks": "hot dog",
+        "lesueur peas": "peas",
+        "petit pois": "peas",
+        "instant yeast": "yeast",
+        "active dry yeast": "yeast",
+        "dry yeast": "yeast",
+        "rapid rise yeast": "yeast",
+        "yeast cake": "yeast",
+        "cake yeast": "yeast",
+        "biscuit baking mix": "bisquick",
+        "baking mix": "bisquick",
+        "watercress": "arugula",
+        "tough stems removed": "",
+        "cooked rice": "rice",
+        "leftover rice": "rice",
+        "steamed rice": "rice",
+        "chopped walnuts": "walnuts",
+        "chopped pecans": "pecans",
+        "chopped almonds": "almonds",
     }
 
     # Check for exact match first
