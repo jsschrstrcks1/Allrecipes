@@ -2009,19 +2009,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 97,
+          "calories": 111,
           "fat_g": 1.8,
-          "carbs_g": 15.8,
+          "carbs_g": 19.4,
           "protein_g": 3.8,
           "sodium_mg": 57,
-          "fiber_g": 1.3,
-          "sugar_g": 1.1
+          "fiber_g": 1.5,
+          "sugar_g": 4.2
         },
-        "missing_inputs": [
-          "1 cup apple butter"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -21984,19 +21982,17 @@
       ],
       "source_note": "Recipe Keeper App",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 97,
+          "calories": 111,
           "fat_g": 1.8,
-          "carbs_g": 15.8,
+          "carbs_g": 19.4,
           "protein_g": 3.8,
           "sodium_mg": 57,
-          "fiber_g": 1.3,
-          "sugar_g": 1.1
+          "fiber_g": 1.5,
+          "sugar_g": 4.2
         },
-        "missing_inputs": [
-          "1 cup apple butter"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -39372,13 +39368,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 122,
+          "calories": 117,
           "fat_g": 7.6,
-          "carbs_g": 1.6,
-          "protein_g": 9.2,
-          "sodium_mg": 531,
+          "carbs_g": 1.2,
+          "protein_g": 9.3,
+          "sodium_mg": 530,
           "fiber_g": 0.0,
-          "sugar_g": 0.9
+          "sugar_g": 0.6
         },
         "missing_inputs": [
           "6  squares of toast",
@@ -39563,13 +39559,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 179,
+          "calories": 174,
           "fat_g": 13.2,
-          "carbs_g": 3.4,
+          "carbs_g": 3.1,
           "protein_g": 9.2,
-          "sodium_mg": 224,
+          "sodium_mg": 223,
           "fiber_g": 0.0,
-          "sugar_g": 2.6
+          "sugar_g": 2.4
         },
         "missing_inputs": [
           "1 small egg plant",
@@ -40139,15 +40135,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 252,
-          "fat_g": 14.4,
-          "carbs_g": 17.7,
-          "protein_g": 12.5,
-          "sodium_mg": 307,
-          "fiber_g": 0.3,
-          "sugar_g": 3.6
+          "calories": 160,
+          "fat_g": 7.6,
+          "carbs_g": 11.9,
+          "protein_g": 10.0,
+          "sodium_mg": 108,
+          "fiber_g": 0.2,
+          "sugar_g": 0.6
         },
         "missing_inputs": [
+          "1/2 pint white sauce",
           "suspicion of onion juice"
         ],
         "assumptions": [
@@ -42556,7 +42553,9 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true,
+      "flag_reason": "Section index - not a recipe"
     },
     {
       "id": "waffles-dudeskitch",
@@ -44253,16 +44252,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 164,
-          "fat_g": 11.8,
-          "carbs_g": 6.2,
-          "protein_g": 8.5,
-          "sodium_mg": 852,
-          "fiber_g": 0.1,
-          "sugar_g": 3.4
+          "calories": 72,
+          "fat_g": 5.0,
+          "carbs_g": 0.4,
+          "protein_g": 6.0,
+          "sodium_mg": 652,
+          "fiber_g": 0.0,
+          "sugar_g": 0.4
         },
         "missing_inputs": [
-          "14  peck spinach."
+          "14  peck spinach.",
+          "1 cup white sauce."
         ],
         "assumptions": [
           "Calculated for 4 servings"

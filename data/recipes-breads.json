@@ -17724,9 +17724,9 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bd lbs. beef",
-          "quantity": "2",
-          "unit": "",
+          "item": "beef",
+          "quantity": "2 1/2",
+          "unit": "lb",
           "prep_note": ""
         },
         {
@@ -17742,58 +17742,40 @@
           "prep_note": ""
         },
         {
-          "item": "minced parsley",
+          "item": "parsley",
           "quantity": "2",
           "unit": "tbsp",
-          "prep_note": ""
+          "prep_note": "minced"
         },
         {
-          "item": "chopped onion",
+          "item": "onion",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "chopped"
         },
         {
-          "item": "\u00bd teaspoon salt",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd cup milk",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "eggs",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "\u00bd cups flour",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "baking powder",
-          "quantity": "2",
+          "item": "salt",
+          "quantity": "1/2",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "shortening",
-          "quantity": "1",
-          "unit": "tbsp",
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "butter",
+          "item": "bread dough",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "raised twice"
+        },
+        {
+          "item": "egg",
           "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
+          "unit": "",
+          "prep_note": "beaten, for glaze"
         }
       ],
       "instructions": [
@@ -17825,20 +17807,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 579,
-          "fat_g": 16.2,
-          "carbs_g": 95.8,
-          "protein_g": 14.9,
-          "sodium_mg": 288,
+          "calories": 1114,
+          "fat_g": 50.0,
+          "carbs_g": 95.3,
+          "protein_g": 69.4,
+          "sodium_mg": 557,
           "fiber_g": 10.6,
-          "sugar_g": 6.6
+          "sugar_g": 6.4
         },
         "missing_inputs": [
-          "2  \u00bd lbs. beef",
-          "\u00bd cup milk",
-          "2  \u00bd cups flour"
+          "bread dough"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -19520,17 +19500,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 4924,
-          "fat_g": 352.7,
-          "carbs_g": 434.6,
-          "protein_g": 29.3,
-          "sodium_mg": 2520,
+          "calories": 5098,
+          "fat_g": 369.8,
+          "carbs_g": 435.4,
+          "protein_g": 29.4,
+          "sodium_mg": 2522,
           "fiber_g": 8.9,
-          "sugar_g": 362.2
+          "sugar_g": 362.4
         },
         "missing_inputs": [
           "140 Pound Cake",
-          "a cup lard or butter",
           "a teaspoon powdered saltpeter",
           "half a pound to the gallon of fruit",
           "a cup at a time",
@@ -19538,7 +19517,8 @@
           "a pound sugar",
           "a pint good whiskey",
           "a pound sugar to each pint",
-          "a pint to the pound"
+          "a pint to the pound",
+          "Half a pound shortening"
         ],
         "assumptions": [
           "Calculated for 12 servings",
@@ -23284,39 +23264,39 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "^cupsful offlour,",
-          "quantity": "13",
-          "unit": "",
+          "item": "flour",
+          "quantity": "3 1/4",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "^cupful oflard (scant),",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": ""
+          "item": "lard",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "scant"
         },
         {
-          "item": "ful ofraisins,",
+          "item": "raisins",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "cracker,",
+          "item": "cracker",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "crushed"
         },
         {
-          "item": "lemon,",
+          "item": "lemon",
           "quantity": "1",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "juice and zest"
         },
         {
-          "item": "^^^^",
-          "quantity": "1",
-          "unit": "",
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
           "prep_note": ""
         }
       ],
@@ -23357,21 +23337,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 113,
-          "fat_g": 0.2,
-          "carbs_g": 30.0,
-          "protein_g": 1.4,
-          "sodium_mg": 5,
-          "fiber_g": 1.6,
-          "sugar_g": 21.9
+          "calories": 919,
+          "fat_g": 39.6,
+          "carbs_g": 132.2,
+          "protein_g": 12.0,
+          "sodium_mg": 7,
+          "fiber_g": 4.4,
+          "sugar_g": 47.1
         },
         "missing_inputs": [
-          "13  ^cupsful offlour,",
-          "3  ^cupful oflard (scant),",
-          "1  cracker,",
-          "1  ^^^^"
+          "1  cracker"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -24434,9 +24411,9 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 2,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.5,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
@@ -27129,45 +27106,39 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "ugar Mixing-bowl",
+          "item": "sugar",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "egg Mixing-spoon",
+          "item": "egg",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "ginger Dover beater",
+          "item": "ginger",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "cinnamon Sifter",
+          "item": "cinnamon",
           "quantity": "1/2",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "^teaspoon clove Bread orcakepan",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "soda",
-          "quantity": "1",
+          "item": "clove",
+          "quantity": "1/4",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "trong hotcoffee",
-          "quantity": "14",
-          "unit": "cup",
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
           "prep_note": ""
         },
         {
@@ -27177,10 +27148,22 @@
           "prep_note": ""
         },
         {
-          "item": "Melt thebutter inasmall saucepan",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "andpour itinto"
+          "item": "molasses",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "hot water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -27232,22 +27215,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 324,
-          "fat_g": 0.6,
-          "carbs_g": 72.5,
-          "protein_g": 6.5,
-          "sodium_mg": 316,
-          "fiber_g": 1.7,
-          "sugar_g": 25.1
+          "calories": 568,
+          "fat_g": 13.3,
+          "carbs_g": 104.7,
+          "protein_g": 8.2,
+          "sodium_mg": 427,
+          "fiber_g": 1.9,
+          "sugar_g": 48.1
         },
         "missing_inputs": [
-          "1  egg Mixing-spoon",
-          "1/2 tsp cinnamon Sifter",
-          "1  ^teaspoon clove Bread orcakepan",
-          "14 cup trong hotcoffee",
-          "1  Melt thebutter inasmall saucepan"
+          "1/4 tsp clove"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -30938,27 +30917,33 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Three cups ofmashed potatoes.",
-          "quantity": "",
-          "unit": "",
+          "item": "mashed potatoes",
+          "quantity": "3",
+          "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "Three cups ofsifted flour.",
-          "quantity": "1",
+          "item": "flour",
+          "quantity": "3",
           "unit": "cup",
-          "prep_note": "[quantity inferred]"
+          "prep_note": "sifted"
         },
         {
-          "item": "Two levelteaspoons ofbaking powder.",
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "3",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": "[quantity inferred]"
-        },
-        {
-          "item": "Three level teaspoons ofshortening.",
-          "quantity": "",
-          "unit": "",
           "prep_note": ""
         }
       ],
@@ -31003,21 +30988,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 41,
-          "fat_g": 0.1,
-          "carbs_g": 9.2,
-          "protein_g": 1.0,
-          "sodium_mg": 3,
-          "fiber_g": 1.0,
-          "sugar_g": 0.5
+          "calories": 458,
+          "fat_g": 4.2,
+          "carbs_g": 91.1,
+          "protein_g": 12.0,
+          "sodium_mg": 656,
+          "fiber_g": 4.8,
+          "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "1 cup Three cups ofsifted flour.",
-          "1 tsp Two levelteaspoons ofbaking powder.",
-          "Three level teaspoons ofshortening."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

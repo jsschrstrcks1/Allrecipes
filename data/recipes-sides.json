@@ -10736,15 +10736,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 121,
-          "fat_g": 7.0,
-          "carbs_g": 12.2,
-          "protein_g": 3.0,
-          "sodium_mg": 120,
-          "fiber_g": 1.5,
-          "sugar_g": 2.1
+          "calories": 81,
+          "fat_g": 6.9,
+          "carbs_g": 2.9,
+          "protein_g": 2.0,
+          "sodium_mg": 117,
+          "fiber_g": 0.6,
+          "sugar_g": 1.6
         },
         "missing_inputs": [
+          "1  \u00bd cups cold mashed potatoes",
           "corn meal"
         ],
         "assumptions": [
@@ -13263,16 +13264,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "(2 lbs.) dried beans",
+          "item": "dried beans",
           "quantity": "4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "about 2 lbs"
         },
         {
-          "item": "Cold water",
+          "item": "cold water",
           "quantity": "",
           "unit": "",
-          "prep_note": ""
+          "prep_note": "to cover"
         },
         {
           "item": "onion",
@@ -13287,34 +13288,28 @@
           "prep_note": ""
         },
         {
-          "item": "catsup",
+          "item": "ketchup",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "GRANDMA\u2019S MOLASSES",
+          "item": "molasses",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/2",
-          "unit": "tsp",
           "prep_note": ""
         },
         {
           "item": "dry mustard",
-          "quantity": "2",
+          "quantity": "1/2",
           "unit": "tsp",
           "prep_note": ""
         },
         {
           "item": "salt pork",
-          "quantity": "1/2",
+          "quantity": "1/4",
           "unit": "lb",
-          "prep_note": ""
+          "prep_note": "sliced"
         }
       ],
       "instructions": [
@@ -13344,18 +13339,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 92,
+          "calories": 91,
           "fat_g": 0.3,
-          "carbs_g": 18.9,
+          "carbs_g": 18.8,
           "protein_g": 3.9,
           "sodium_mg": 685,
           "fiber_g": 3.2,
           "sugar_g": 6.3
         },
         "missing_inputs": [
-          "Cold water",
-          "1/2 cup catsup",
-          "1/2 lb salt pork"
+          "cold water",
+          "1/2 cup ketchup",
+          "1/4 lb salt pork"
         ],
         "assumptions": [
           "Calculated for 16 servings"
@@ -14718,17 +14713,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 285,
+          "calories": 297,
           "fat_g": 23.6,
-          "carbs_g": 12.1,
-          "protein_g": 7.9,
-          "sodium_mg": 125,
+          "carbs_g": 12.4,
+          "protein_g": 8.0,
+          "sodium_mg": 126,
           "fiber_g": 0.1,
-          "sugar_g": 10.9
+          "sugar_g": 11.0
         },
         "missing_inputs": [
-          "2 small frye r chickens",
-          "1/4 cup sherry"
+          "2 small frye r chickens"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -15597,21 +15591,21 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "skinless",
+          "item": "chicken breast",
           "quantity": "2",
           "unit": "",
-          "prep_note": "boneless chicken breast, split"
+          "prep_note": "skinless, boneless, split"
         },
         {
-          "item": "(16 oz) can tomatoes",
-          "quantity": "1",
-          "unit": "",
+          "item": "canned tomatoes",
+          "quantity": "16",
+          "unit": "oz",
           "prep_note": ""
         },
         {
-          "item": "can black olives",
+          "item": "black olives",
           "quantity": "1",
-          "unit": "small",
+          "unit": "small can",
           "prep_note": ""
         },
         {
@@ -15633,22 +15627,22 @@
           "prep_note": "sliced"
         },
         {
-          "item": "onion",
+          "item": "Italian seasoning",
           "quantity": "1",
-          "unit": "medium",
-          "prep_note": "cut in wedges"
-        },
-        {
-          "item": "oregano",
-          "quantity": "1/2",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "basil",
-          "quantity": "1/4",
-          "unit": "tsp",
-          "prep_note": ""
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "parmesan cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
         }
       ],
       "instructions": [
@@ -15710,18 +15704,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 117,
-          "fat_g": 2.1,
-          "carbs_g": 5.1,
-          "protein_g": 18.2,
-          "sodium_mg": 46,
-          "fiber_g": 1.3,
-          "sugar_g": 2.8
+          "calories": 190,
+          "fat_g": 2.9,
+          "carbs_g": 21.9,
+          "protein_g": 21.8,
+          "sodium_mg": 68,
+          "fiber_g": 6.5,
+          "sugar_g": 12.8
         },
         "missing_inputs": [
           "1 small can black olives",
           "1  zucchini",
-          "1  summer squash"
+          "1  summer squash",
+          "parmesan cheese"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -16935,11 +16930,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 246,
-          "fat_g": 19.8,
+          "calories": 245,
+          "fat_g": 19.7,
           "carbs_g": 13.8,
           "protein_g": 6.5,
-          "sodium_mg": 83,
+          "sodium_mg": 51,
           "fiber_g": 3.8,
           "sugar_g": 2.7
         },

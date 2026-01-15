@@ -7872,13 +7872,13 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 156,
-          "fat_g": 15.2,
-          "carbs_g": 4.7,
+          "calories": 162,
+          "fat_g": 16.3,
+          "carbs_g": 4.0,
           "protein_g": 1.2,
-          "sodium_mg": 176,
+          "sodium_mg": 158,
           "fiber_g": 0.6,
-          "sugar_g": 3.1
+          "sugar_g": 2.7
         },
         "missing_inputs": [
           "Two 3-ounce packages cream cheese",
@@ -8160,16 +8160,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 106,
-          "fat_g": 11.5,
-          "carbs_g": 0.6,
-          "protein_g": 0.2,
-          "sodium_mg": 101,
-          "fiber_g": 0.3,
-          "sugar_g": 0.2
+          "calories": 143,
+          "fat_g": 14.0,
+          "carbs_g": 3.1,
+          "protein_g": 0.8,
+          "sodium_mg": 349,
+          "fiber_g": 0.6,
+          "sugar_g": 0.8
         },
         "missing_inputs": [
-          "1 can condensed mushroom soup",
           "1  envelope unflavored gelatin",
           "2  pimientos",
           "1  \u00bd cups chicken"
@@ -9466,19 +9465,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 2,
-          "fat_g": 0.0,
+          "calories": 182,
+          "fat_g": 20.0,
           "carbs_g": 0.4,
-          "protein_g": 0.1,
-          "sodium_mg": 10,
+          "protein_g": 0.3,
+          "sodium_mg": 166,
           "fiber_g": 0.2,
           "sugar_g": 0.1
         },
         "missing_inputs": [
           "1 can chicken",
           "1/3 cup chopped sweet pickle",
-          "1  boiled egg",
-          "1/2 cup salad dressing"
+          "1  boiled egg"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10082,27 +10080,27 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Two cans ofwhite cherries,",
-          "quantity": "",
+          "item": "white cherries",
+          "quantity": "2",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "oranges",
+          "quantity": "6",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "One halfdozen oranges,",
-          "quantity": "",
-          "unit": "",
+          "item": "cream",
+          "quantity": "3",
+          "unit": "pint",
           "prep_note": ""
         },
         {
-          "item": "Three pints ofcream,",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Two pints ofdressing.",
-          "quantity": "",
-          "unit": "",
+          "item": "mayonnaise dressing",
+          "quantity": "2",
+          "unit": "pint",
           "prep_note": ""
         }
       ],
@@ -10143,20 +10141,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 16,
-          "fat_g": 0.1,
-          "carbs_g": 3.8,
-          "protein_g": 0.2,
-          "sodium_mg": 0,
-          "fiber_g": 0.8,
-          "sugar_g": 3.0
+          "calories": 1324,
+          "fat_g": 132.3,
+          "carbs_g": 33.0,
+          "protein_g": 9.0,
+          "sodium_mg": 134,
+          "fiber_g": 4.5,
+          "sugar_g": 28.5
         },
         "missing_inputs": [
-          "Two cans ofwhite cherries,",
-          "Three pints ofcream,",
-          "Two pints ofdressing."
+          "2 can white cherries",
+          "2 pint mayonnaise dressing"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -10271,7 +10268,9 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true,
+      "flag_reason": "Chapter header - not a recipe"
     },
     {
       "id": "salad-vegetables-homehelpsa",
@@ -10352,7 +10351,9 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "flagged_for_review": true,
+      "flag_reason": "Book text fragment - not a recipe"
     },
     {
       "id": "dandelion-andscallion-salad-scottsnort",
@@ -11358,17 +11359,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 2,
-          "fat_g": 0.1,
+          "calories": 5042,
+          "fat_g": 560.0,
           "carbs_g": 0.5,
-          "protein_g": 0.2,
-          "sodium_mg": 2,
+          "protein_g": 7.2,
+          "sodium_mg": 4378,
           "fiber_g": 0.2,
           "sugar_g": 0.2
         },
         "missing_inputs": [
-          "1 can hrimp.",
-          "14 cup mayonnaise orsalad dressing."
+          "1 can hrimp."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -14698,19 +14698,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 4,
-          "fat_g": 0.1,
+          "calories": 124,
+          "fat_g": 13.4,
           "carbs_g": 0.1,
-          "protein_g": 0.6,
-          "sodium_mg": 2,
+          "protein_g": 0.7,
+          "sodium_mg": 106,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "1 carton lemon (8 oz) sour cream",
           "2 cups peeled cucumber, chopped",
-          "1/3 cup green chiles, chopped",
-          "1 cup salad dressing"
+          "1/3 cup green chiles, chopped"
         ],
         "assumptions": [
           "Calculated for 12 servings"
