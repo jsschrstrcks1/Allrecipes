@@ -1211,8 +1211,11 @@ NUTRITION_DB = {
                 "": {"cal": 28, "fat": 0, "carbs": 7, "protein": 1, "sodium": 5, "fiber": 0, "sugar": 3}},
     "leek": {"cup": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1.3, "sodium": 18, "fiber": 1.6, "sugar": 3.5}},
     "leeks": {"cup": {"cal": 54, "fat": 0.3, "carbs": 13, "protein": 1.3, "sodium": 18, "fiber": 1.6, "sugar": 3.5}},
-    "fennel": {"cup": {"cal": 27, "fat": 0.2, "carbs": 6, "protein": 1, "sodium": 45, "fiber": 3, "sugar": 3}},
-    "fennel bulb": {"cup": {"cal": 27, "fat": 0.2, "carbs": 6, "protein": 1, "sodium": 45, "fiber": 3, "sugar": 3}},
+    "fennel": {"cup": {"cal": 27, "fat": 0.2, "carbs": 6, "protein": 1, "sodium": 45, "fiber": 3, "sugar": 3},
+               "bulb": {"cal": 73, "fat": 0.5, "carbs": 17, "protein": 3, "sodium": 122, "fiber": 7, "sugar": 8},
+               "": {"cal": 73, "fat": 0.5, "carbs": 17, "protein": 3, "sodium": 122, "fiber": 7, "sugar": 8}},
+    "fennel bulb": {"cup": {"cal": 27, "fat": 0.2, "carbs": 6, "protein": 1, "sodium": 45, "fiber": 3, "sugar": 3},
+                   "": {"cal": 73, "fat": 0.5, "carbs": 17, "protein": 3, "sodium": 122, "fiber": 7, "sugar": 8}},
     "rutabaga": {"cup": {"cal": 52, "fat": 0.3, "carbs": 12, "protein": 1.5, "sodium": 28, "fiber": 3, "sugar": 7}},
     "kohlrabi": {"cup": {"cal": 36, "fat": 0.1, "carbs": 8, "protein": 2, "sodium": 27, "fiber": 5, "sugar": 4}},
     "jicama": {"cup": {"cal": 46, "fat": 0.1, "carbs": 11, "protein": 0.9, "sodium": 5, "fiber": 6, "sugar": 2}},
@@ -1914,7 +1917,8 @@ NUTRITION_DB = {
     # Dips & spreads
     "hummus": {"cup": {"cal": 435, "fat": 21, "carbs": 50, "protein": 20, "sodium": 960, "fiber": 15, "sugar": 0},
               "oz": {"cal": 54, "fat": 2.6, "carbs": 6, "protein": 2.5, "sodium": 120, "fiber": 2, "sugar": 0},
-              "tbsp": {"cal": 27, "fat": 1.3, "carbs": 3, "protein": 1.3, "sodium": 60, "fiber": 1, "sugar": 0}},
+              "tbsp": {"cal": 27, "fat": 1.3, "carbs": 3, "protein": 1.3, "sodium": 60, "fiber": 1, "sugar": 0},
+              "container": {"cal": 864, "fat": 42, "carbs": 96, "protein": 40, "sodium": 1920, "fiber": 24, "sugar": 0}},
     "pita chips": {"cup": {"cal": 260, "fat": 10, "carbs": 36, "protein": 6, "sodium": 380, "fiber": 2, "sugar": 1},
                   "bag": {"cal": 780, "fat": 30, "carbs": 108, "protein": 18, "sodium": 1140, "fiber": 6, "sugar": 3},
                   "oz": {"cal": 130, "fat": 5, "carbs": 18, "protein": 3, "sodium": 190, "fiber": 1, "sugar": 0.5}},
@@ -2434,6 +2438,7 @@ def normalize_unit(unit):
         "loaves": "loaf", "large loaf": "loaf", "small loaf": "loaf", "medium loaf": "loaf",
         "packages": "package", "pkg": "package", "pkgs": "package", "packets": "package", "pkg.": "package",
         "packet": "package", "oz package": "package",
+        "containers": "container", "oz container": "container",
         # Handful/portions
         "handful": "", "handfuls": "",
         "sachet (7g)": "sachet", "sachets": "sachet",
@@ -8518,6 +8523,20 @@ def normalize_ingredient(item):
         "seasonings choice": "salt",
         "seasoning of choice": "salt",
         "tureen of": "liver",
+        # Batch 35 - More fixes
+        "prepared hummus": "hummus",
+        "container prepared hummus": "hummus",
+        "roma tomatoes": "tomatoes",
+        "medium roma tomatoes": "tomatoes",
+        "crumbled feta cheese": "feta cheese",
+        "container crumbled feta cheese": "feta cheese",
+        "oz container": "oz",
+        "chunk of parmesan": "parmesan",
+        "parmesan, shaved": "parmesan",
+        "parsley, basil, dill": "parsley",
+        "cup of parsley": "parsley",
+        "baking soda": "baking soda",
+        "baking powder pinch": "baking powder",
     }
 
     # Check for exact match first
