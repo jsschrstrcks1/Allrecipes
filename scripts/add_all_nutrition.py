@@ -2691,6 +2691,10 @@ def process_all_recipes():
         updated = 0
 
         for recipe in recipes:
+            # Skip flagged non-recipe content
+            if recipe.get('flagged_for_review'):
+                continue
+
             # Skip if already has complete nutrition
             existing = recipe.get('nutrition', {})
             if existing.get('status') == 'complete':
