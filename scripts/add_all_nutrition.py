@@ -5656,6 +5656,21 @@ def normalize_ingredient(item):
         "pepperonis": "pepperoni",
         "lb italian sausage": "italian sausage",
         "italian sausage": "sausage",
+
+        # Batch 7 - More cleanup patterns
+        "of a 16-oz can": "garnish",  # Partial quantity (1/2 of a can)
+        "of a can": "garnish",
+        "white corn": "corn",
+        "can white corn": "corn",
+        "coffee-flavored liqueur": "coffee liqueur",
+        "espresso beans": "coffee",
+        "finely ground espresso beans": "coffee",
+        "pompeian extra light tasting olive oil": "olive oil",
+        "extra light tasting olive oil": "olive oil",
+        "gorgonzola": "blue cheese",
+        "gorgonzola cheese": "blue cheese",
+        "rocket": "arugula",
+        "arugula": "lettuce",
     }
 
     # Check for exact match first
