@@ -6383,7 +6383,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 205,
           "fat_g": 10.0,
@@ -6393,9 +6393,7 @@
           "fiber_g": 0.9,
           "sugar_g": 10.5
         },
-        "missing_inputs": [
-          "for serving whipped cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -17518,13 +17516,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1114,
+          "calories": 1113,
           "fat_g": 50.0,
           "carbs_g": 95.3,
           "protein_g": 69.4,
           "sodium_mg": 557,
           "fiber_g": 10.6,
-          "sugar_g": 6.4
+          "sugar_g": 6.3
         },
         "missing_inputs": [
           "bread dough"
