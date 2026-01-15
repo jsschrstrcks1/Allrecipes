@@ -1185,19 +1185,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 192,
-          "fat_g": 0.6,
-          "carbs_g": 50.2,
-          "protein_g": 1.1,
-          "sodium_mg": 12,
-          "fiber_g": 9.0,
-          "sugar_g": 38.1
+          "calories": 222,
+          "fat_g": 0.9,
+          "carbs_g": 56.2,
+          "protein_g": 4.1,
+          "sodium_mg": 42,
+          "fiber_g": 11.0,
+          "sugar_g": 40.1
         },
         "missing_inputs": [
           "1 inch cucumber",
-          "1 inch stem broccoli",
           "1 inch slice beetroot"
         ],
         "assumptions": [
@@ -3243,16 +3242,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 580,
-          "fat_g": 0.0,
-          "carbs_g": 150.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2,
-          "fiber_g": 0.0,
-          "sugar_g": 150.0
+          "calories": 712,
+          "fat_g": 0.2,
+          "carbs_g": 184.0,
+          "protein_g": 1.0,
+          "sodium_mg": 4,
+          "fiber_g": 2.0,
+          "sugar_g": 178.0
         },
         "missing_inputs": [
-          "2 cans crushed pineapple",
           "1 jar maraschino cherries"
         ],
         "assumptions": [
