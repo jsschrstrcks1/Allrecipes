@@ -6980,9 +6980,9 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "\u00bd cups cottage cheese",
-          "quantity": "1",
-          "unit": "",
+          "item": "cottage cheese",
+          "quantity": "1 1/2",
+          "unit": "cup",
           "prep_note": ""
         },
         {
@@ -6998,28 +6998,28 @@
           "prep_note": ""
         },
         {
-          "item": "drained",
+          "item": "pineapple",
           "quantity": "3/4",
           "unit": "cup",
-          "prep_note": "shredded pineapple"
+          "prep_note": "shredded, drained"
         },
         {
-          "item": "finely sliced dates",
+          "item": "dates",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "finely sliced"
         },
         {
-          "item": "mayonnaise",
-          "quantity": "1/4",
+          "item": "maraschino cherries",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "pecans",
+          "quantity": "1/3",
           "unit": "cup",
-          "prep_note": "or salad dressing"
-        },
-        {
-          "item": "lemon juice",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": ""
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
@@ -7043,20 +7043,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 165,
-          "fat_g": 17.7,
-          "carbs_g": 1.4,
-          "protein_g": 0.7,
-          "sodium_mg": 257,
-          "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "calories": 244,
+          "fat_g": 17.9,
+          "carbs_g": 15.6,
+          "protein_g": 7.9,
+          "sodium_mg": 410,
+          "fiber_g": 1.8,
+          "sugar_g": 12.1
         },
         "missing_inputs": [
-          "1  \u00bd cups cottage cheese",
-          "3/4 cup drained",
-          "1/2 cup finely sliced dates"
+          "6  maraschino cherries"
         ],
         "assumptions": [
           "Calculated for 6 servings"
