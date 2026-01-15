@@ -90,11 +90,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 232,
-          "fat_g": 14.3,
+          "calories": 253,
+          "fat_g": 16.4,
           "carbs_g": 19.1,
-          "protein_g": 6.9,
-          "sodium_mg": 573,
+          "protein_g": 7.4,
+          "sodium_mg": 610,
           "fiber_g": 2.0,
           "sugar_g": 1.4
         },
@@ -177,13 +177,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 218,
-          "fat_g": 20.3,
+          "calories": 277,
+          "fat_g": 26.0,
           "carbs_g": 2.8,
-          "protein_g": 7.0,
-          "sodium_mg": 194,
+          "protein_g": 8.5,
+          "sodium_mg": 291,
           "fiber_g": 0.2,
-          "sugar_g": 1.6
+          "sugar_g": 1.8
         },
         "missing_inputs": [
           "3 oz bacon bits"
@@ -282,23 +282,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 73,
-          "fat_g": 0.2,
-          "carbs_g": 16.8,
-          "protein_g": 2.0,
-          "sodium_mg": 7,
-          "fiber_g": 2.2,
-          "sugar_g": 4.0
+          "calories": 286,
+          "fat_g": 0.8,
+          "carbs_g": 63.2,
+          "protein_g": 6.0,
+          "sodium_mg": 14,
+          "fiber_g": 3.2,
+          "sugar_g": 10.8
         },
-        "missing_inputs": [
-          "4 cups Indian puffed rice",
-          "1 cup sev (fine Indian noodles)",
-          "3 tbsp tamarind-date chutney",
-          "1 tbsp mint chutney",
-          "2 tsp finely chopped seeded serrano chile (about 1 chile)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -437,21 +431,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 136,
-          "fat_g": 7.1,
-          "carbs_g": 14.1,
-          "protein_g": 4.9,
-          "sodium_mg": 407,
-          "fiber_g": 2.7,
-          "sugar_g": 4.6
+          "calories": 164,
+          "fat_g": 7.2,
+          "carbs_g": 20.0,
+          "protein_g": 5.7,
+          "sodium_mg": 408,
+          "fiber_g": 3.1,
+          "sugar_g": 4.8
         },
         "missing_inputs": [
-          "2 1/4 cups loosely packed cilantro leaves (about 1 1/2 ounces)",
-          "1 cup mint leaves, torn",
-          "2 tsp finely chopped seeded serrano chile (about 1 chile)",
-          "1 1/2 oz semolina or pasta flour (about 1/4 cup)"
+          "1 cup mint leaves, torn"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -749,64 +740,46 @@
       "temperature": "375\u00b0F (190\u00b0C)",
       "ingredients": [
         {
-          "item": "pita bread",
-          "quantity": "14",
-          "unit": "oz package"
-        },
-        {
-          "item": "olive oil cooking spray",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "Greek seasoning, divided",
-          "quantity": "4",
-          "unit": "tsp"
-        },
-        {
-          "item": "ground lamb",
-          "quantity": "1",
-          "unit": "lb"
-        },
-        {
-          "item": "garlic salt",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "prepared hummus",
+          "item": "hummus",
           "quantity": "16",
-          "unit": "oz container"
+          "unit": "oz",
+          "prep_note": "1 container"
         },
         {
-          "item": "tzatziki (gyro sauce)",
-          "quantity": "1 1/2",
-          "unit": "cups"
-        },
-        {
-          "item": "iceberg lettuce, shredded",
+          "item": "iceberg lettuce",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "shredded"
         },
         {
-          "item": "roma tomatoes, diced",
+          "item": "roma tomatoes",
           "quantity": "2",
-          "unit": "medium"
+          "unit": "medium",
+          "prep_note": "diced"
         },
         {
-          "item": "red onion, diced",
-          "quantity": "1/2",
-          "unit": ""
-        },
-        {
-          "item": "kalamata olives, chopped",
+          "item": "cucumber",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "diced"
         },
         {
-          "item": "crumbled feta cheese",
+          "item": "feta cheese",
           "quantity": "4",
-          "unit": "oz container"
+          "unit": "oz",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "kalamata olives",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "pita chips",
+          "quantity": "1",
+          "unit": "bag",
+          "prep_note": "for serving"
         }
       ],
       "instructions": [
@@ -841,19 +814,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 388,
-          "fat_g": 12.3,
-          "carbs_g": 51.1,
-          "protein_g": 17.0,
-          "sodium_mg": 873,
-          "fiber_g": 2.0,
-          "sugar_g": 1.9
+          "calories": 38,
+          "fat_g": 3.1,
+          "carbs_g": 0.9,
+          "protein_g": 1.7,
+          "sodium_mg": 205,
+          "fiber_g": 0.2,
+          "sugar_g": 0.5
         },
         "missing_inputs": [
-          "16 oz container prepared hummus",
-          "1 cup iceberg lettuce, shredded",
-          "2 medium roma tomatoes, diced",
-          "4 oz container crumbled feta cheese"
+          "16 oz hummus",
+          "2 medium roma tomatoes",
+          "1 cup cucumber",
+          "1 bag pita chips"
         ],
         "assumptions": [
           "Calculated for 10 servings"
@@ -873,14 +846,15 @@
       "total_time": "20 min",
       "ingredients": [
         {
-          "item": "instant rice",
-          "quantity": "1 1/2",
-          "unit": "cups"
+          "item": "sushi rice",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "cooked"
         },
         {
           "item": "rice vinegar",
-          "quantity": "1 1/2",
-          "unit": "tsp"
+          "quantity": "2",
+          "unit": "tbsp"
         },
         {
           "item": "sugar",
@@ -888,29 +862,27 @@
           "unit": "tbsp"
         },
         {
-          "item": "salt-free all-purpose seasoning",
-          "quantity": "3/4",
+          "item": "salt",
+          "quantity": "1/2",
           "unit": "tsp"
         },
         {
-          "item": "salt",
+          "item": "smoked salmon",
+          "quantity": "12",
+          "unit": "oz",
+          "prep_note": "3 packages, sliced"
+        },
+        {
+          "item": "sesame seeds",
           "quantity": "1",
-          "unit": "pinch"
+          "unit": "tbsp",
+          "prep_note": "optional"
         },
         {
-          "item": "sliced smoked salmon",
-          "quantity": "3",
-          "unit": "4-oz packages"
-        },
-        {
-          "item": "sesame seeds (optional)",
+          "item": "soy sauce",
           "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "soy sauce, for dipping",
-          "quantity": "",
-          "unit": ""
+          "unit": "",
+          "prep_note": "for dipping"
         }
       ],
       "instructions": [
@@ -939,21 +911,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 15,
-          "fat_g": 0.0,
-          "carbs_g": 3.3,
-          "protein_g": 0.2,
-          "sodium_mg": 6,
+          "calories": 48,
+          "fat_g": 1.8,
+          "carbs_g": 4.2,
+          "protein_g": 3.6,
+          "sodium_mg": 56,
           "fiber_g": 0.0,
           "sugar_g": 0.5
         },
         "missing_inputs": [
-          "3/4 tsp salt-free all-purpose seasoning",
-          "3 4-oz packages sliced smoked salmon",
-          "sesame seeds (optional)",
-          "soy sauce, for dipping"
+          "1 tbsp sesame seeds",
+          "soy sauce"
         ],
         "assumptions": [
           "Calculated for 24 servings"
@@ -973,34 +943,50 @@
       "temperature": "400\u00b0F (200\u00b0C)",
       "ingredients": [
         {
-          "item": "pie dough mix",
+          "item": "pie dough",
           "quantity": "2",
-          "unit": "11-oz packages"
+          "unit": "packages",
+          "prep_note": "11-oz each"
         },
         {
-          "item": "white chicken meat, drained (or 1\u00bc cups shredded rotisserie chicken)",
-          "quantity": "1",
-          "unit": "9.75-oz can"
+          "item": "chicken",
+          "quantity": "1 1/4",
+          "unit": "cups",
+          "prep_note": "canned or shredded rotisserie"
         },
         {
-          "item": "chunky salsa",
+          "item": "black olives",
           "quantity": "1",
+          "unit": "can",
+          "prep_note": "3 oz, sliced"
+        },
+        {
+          "item": "Mexican cheese blend",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "salsa",
+          "quantity": "1/2",
           "unit": "cup"
         },
         {
-          "item": "sliced ripe olives",
+          "item": "cumin",
           "quantity": "1",
-          "unit": "3-oz can"
+          "unit": "tsp"
         },
         {
-          "item": "shredded Mexican cheese blend",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "all-purpose flour, for dusting",
+          "item": "flour",
           "quantity": "",
-          "unit": ""
+          "unit": "",
+          "prep_note": "for dusting"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten, for egg wash"
         }
       ],
       "instructions": [
@@ -1039,20 +1025,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 2,
-          "fat_g": 0.0,
-          "carbs_g": 0.4,
-          "protein_g": 0.1,
-          "sodium_mg": 33,
+          "calories": 24,
+          "fat_g": 1.5,
+          "carbs_g": 0.3,
+          "protein_g": 2.1,
+          "sodium_mg": 42,
           "fiber_g": 0.1,
-          "sugar_g": 0.2
+          "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2 11-oz packages pie dough mix",
-          "1 9.75-oz can white chicken meat, drained (or 1\u00bc cups shredded rotisserie chicken)",
-          "1 3-oz can sliced ripe olives",
-          "1 cup shredded Mexican cheese blend",
-          "all-purpose flour, for dusting"
+          "2 packages pie dough",
+          "1 can black olives",
+          "flour"
         ],
         "assumptions": [
           "Calculated for 36 servings"
@@ -1072,39 +1056,33 @@
       "temperature": "400\u00b0F (200\u00b0C)",
       "ingredients": [
         {
-          "item": "baguette, cut into \u00bd-inch-thick slices",
+          "item": "baguette",
           "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "extra-virgin olive oil",
-          "quantity": "2",
-          "unit": "tbsp"
+          "unit": "",
+          "prep_note": "cut into 1/2-inch slices"
         },
         {
           "item": "cream cheese",
-          "quantity": "1",
-          "unit": "8-oz package"
-        },
-        {
-          "item": "crumbled gorgonzola cheese",
-          "quantity": "4",
+          "quantity": "8",
           "unit": "oz"
         },
         {
-          "item": "sliced pears in juice, drained",
-          "quantity": "2",
-          "unit": "15-oz cans"
+          "item": "gorgonzola cheese",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "crumbled"
         },
         {
-          "item": "candied pecans, chopped",
+          "item": "canned pears",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": "15-oz, drained and sliced"
+        },
+        {
+          "item": "pecans",
           "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "fresh parsley, finely chopped",
-          "quantity": "2",
-          "unit": "tbsp"
+          "unit": "cup",
+          "prep_note": "candied, chopped"
         }
       ],
       "instructions": [
@@ -1133,21 +1111,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 16,
-          "fat_g": 1.5,
-          "carbs_g": 0.1,
-          "protein_g": 0.6,
-          "sodium_mg": 33,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 39,
+          "fat_g": 3.8,
+          "carbs_g": 0.5,
+          "protein_g": 1.1,
+          "sodium_mg": 50,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
         },
         "missing_inputs": [
-          "1  baguette, cut into \u00bd-inch-thick slices",
-          "1 8-oz package cream cheese",
-          "2 15-oz cans sliced pears in juice, drained",
-          "1/2 cup candied pecans, chopped"
+          "1  baguette",
+          "2 cans canned pears"
         ],
         "assumptions": [
           "Calculated for 40 servings"
@@ -1166,69 +1142,58 @@
       "total_time": "40 min (plus 2 days curing)",
       "ingredients": [
         {
-          "item": "fennel seeds",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "white peppercorns",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "black peppercorns",
+          "item": "salmon fillet",
           "quantity": "2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "coriander seed",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "lbs",
+          "prep_note": "skin-on, center-cut"
         },
         {
           "item": "salt",
-          "quantity": "1",
+          "quantity": "1/4",
           "unit": "cup",
           "prep_note": "kosher"
         },
         {
           "item": "sugar",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
+          "quantity": "1/4",
+          "unit": "cup"
         },
         {
           "item": "grapefruit zest",
           "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": "grated"
+          "unit": "tbsp"
         },
         {
-          "item": "salmon",
-          "quantity": "2",
-          "unit": "lb",
-          "prep_note": "center-cut, skin-on fillets"
-        },
-        {
-          "item": "dill",
+          "item": "black pepper",
           "quantity": "1",
-          "unit": "bunch",
-          "prep_note": "fresh, chopped"
+          "unit": "tsp",
+          "prep_note": "coarsely ground"
+        },
+        {
+          "item": "fresh dill",
+          "quantity": "1",
+          "unit": "bunch"
         },
         {
           "item": "pumpernickel bread",
           "quantity": "1",
           "unit": "loaf",
-          "prep_note": "cocktail slices"
+          "prep_note": "sliced"
         },
         {
-          "item": "chives",
-          "quantity": "1",
-          "unit": "bunch",
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "capers",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "red onion",
+          "quantity": "1/4",
+          "unit": "cup",
           "prep_note": "thinly sliced"
         }
       ],
@@ -1267,19 +1232,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 291,
-          "fat_g": 14.1,
-          "carbs_g": 14.4,
-          "protein_g": 26.4,
-          "sodium_mg": 105,
-          "fiber_g": 0.8,
-          "sugar_g": 12.8
+          "calories": 361,
+          "fat_g": 24.0,
+          "carbs_g": 8.1,
+          "protein_g": 28.1,
+          "sodium_mg": 224,
+          "fiber_g": 0.3,
+          "sugar_g": 7.3
         },
         "missing_inputs": [
-          "1 tbsp grapefruit zest",
-          "1 bunch dill",
+          "1 bunch fresh dill",
           "1 loaf pumpernickel bread"
         ],
         "assumptions": [
@@ -1520,13 +1484,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 302,
-          "fat_g": 17.3,
+          "calories": 324,
+          "fat_g": 19.4,
           "carbs_g": 18.6,
-          "protein_g": 16.8,
-          "sodium_mg": 271,
+          "protein_g": 17.4,
+          "sodium_mg": 308,
           "fiber_g": 1.1,
-          "sugar_g": 4.4
+          "sugar_g": 4.5
         },
         "missing_inputs": [
           "3 tbsp lingonberry preserves or cranberry preserves",
@@ -1606,13 +1570,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 218,
-          "fat_g": 20.3,
+          "calories": 277,
+          "fat_g": 26.0,
           "carbs_g": 2.8,
-          "protein_g": 7.0,
-          "sodium_mg": 194,
+          "protein_g": 8.5,
+          "sodium_mg": 291,
           "fiber_g": 0.2,
-          "sugar_g": 1.6
+          "sugar_g": 1.8
         },
         "missing_inputs": [
           "3 oz bacon bits"
@@ -1631,14 +1595,28 @@
       "source_note": "Food Network Magazine December 2010",
       "ingredients": [
         {
-          "item": "melted butter",
-          "quantity": "3",
-          "unit": "tbsp"
+          "item": "puff pastry",
+          "quantity": "1",
+          "unit": "sheet",
+          "prep_note": "thawed"
         },
         {
-          "item": "salt",
+          "item": "cream cheese",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "cheddar cheese",
           "quantity": "1",
-          "unit": "pinch"
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "chives",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
         },
         {
           "item": "cayenne",
@@ -1646,19 +1624,10 @@
           "unit": "pinch"
         },
         {
-          "item": "refrigerated biscuit dough",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "shredded cheddar cheese",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "chopped chives",
-          "quantity": "",
-          "unit": ""
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten, for egg wash"
         }
       ],
       "instructions": [
@@ -1683,20 +1652,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 54,
-          "fat_g": 5.1,
-          "carbs_g": 2.1,
-          "protein_g": 0.3,
-          "sodium_mg": 94,
-          "fiber_g": 0.1,
-          "sugar_g": 0.2
+          "calories": 116,
+          "fat_g": 10.3,
+          "carbs_g": 0.8,
+          "protein_g": 5.3,
+          "sodium_mg": 140,
+          "fiber_g": 0.0,
+          "sugar_g": 0.5
         },
         "missing_inputs": [
-          "1 pinch cayenne",
-          "shredded cheddar cheese",
-          "chopped chives"
+          "1 sheet puff pastry",
+          "1 pinch cayenne"
         ],
         "assumptions": [
           "Calculated for 8 servings",
@@ -1818,11 +1786,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 303,
-          "fat_g": 22.1,
-          "carbs_g": 11.0,
-          "protein_g": 15.9,
-          "sodium_mg": 554,
+          "calories": 355,
+          "fat_g": 27.2,
+          "carbs_g": 10.9,
+          "protein_g": 17.3,
+          "sodium_mg": 688,
           "fiber_g": 1.2,
           "sugar_g": 6.4
         },
@@ -1846,34 +1814,20 @@
       "servings_yield": "8 servings",
       "ingredients": [
         {
-          "item": "crescent rolls",
-          "quantity": "1",
-          "unit": "can",
-          "prep_note": ""
-        },
-        {
-          "item": "pepperoni slices",
+          "item": "pepperoni",
           "quantity": "40",
-          "unit": "",
-          "prep_note": ""
+          "unit": "slices"
         },
         {
           "item": "mozzarella string cheese",
           "quantity": "4",
-          "unit": "pieces",
-          "prep_note": "cut in half"
-        },
-        {
-          "item": "garlic powder",
-          "quantity": "",
-          "unit": "to taste",
-          "prep_note": ""
+          "unit": "pieces"
         },
         {
           "item": "marinara sauce",
-          "quantity": "",
-          "unit": "for serving",
-          "prep_note": ""
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "for serving"
         }
       ],
       "instructions": [
@@ -1917,20 +1871,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.6,
-          "carbs_g": 1.4,
+          "calories": 4,
+          "fat_g": 0.0,
+          "carbs_g": 0.8,
           "protein_g": 0.2,
-          "sodium_mg": 28,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
+          "sodium_mg": 70,
+          "fiber_g": 0.2,
+          "sugar_g": 0.6
         },
         "missing_inputs": [
-          "40  pepperoni slices",
-          "4 pieces mozzarella string cheese",
-          "for serving marinara sauce"
+          "40 slices pepperoni",
+          "4 pieces mozzarella string cheese"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -2091,17 +2044,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 286,
+          "calories": 295,
           "fat_g": 20.2,
-          "carbs_g": 5.7,
-          "protein_g": 18.2,
-          "sodium_mg": 282,
+          "carbs_g": 6.7,
+          "protein_g": 19.2,
+          "sodium_mg": 1216,
           "fiber_g": 0.4,
           "sugar_g": 0.4
         },
         "missing_inputs": [
-          "for topping toasted sesame seeds",
-          "2/3 cup hoisin sauce"
+          "for topping toasted sesame seeds"
         ],
         "assumptions": [
           "Calculated for 10 servings"
@@ -8109,9 +8061,9 @@
         "per_serving": {
           "calories": 1044,
           "fat_g": 114.5,
-          "carbs_g": 12.5,
+          "carbs_g": 12.6,
           "protein_g": 2.8,
-          "sodium_mg": 163,
+          "sodium_mg": 151,
           "fiber_g": 0.7,
           "sugar_g": 2.4
         },
@@ -8421,40 +8373,27 @@
       "total_time": "35 minutes",
       "ingredients": [
         {
-          "item": "ground beef",
-          "quantity": "1",
-          "unit": "lb",
-          "prep_note": "lean"
-        },
-        {
-          "item": "salt",
-          "quantity": "",
-          "unit": "to taste",
-          "prep_note": ""
-        },
-        {
-          "item": "biscuits",
+          "item": "refrigerated biscuits",
           "quantity": "2",
-          "unit": "cans",
-          "prep_note": "refrigerated"
+          "unit": "cans"
         },
         {
           "item": "mozzarella cheese",
           "quantity": "1/2",
           "unit": "lb",
-          "prep_note": ""
+          "prep_note": "shredded"
         },
         {
           "item": "tomato sauce",
           "quantity": "1",
           "unit": "can",
-          "prep_note": ""
+          "prep_note": "8 oz"
         },
         {
-          "item": "green chiles",
-          "quantity": "1",
-          "unit": "can",
-          "prep_note": "chopped"
+          "item": "green chilies",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "diced"
         }
       ],
       "instructions": [
@@ -8501,18 +8440,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 15,
-          "fat_g": 1.1,
-          "carbs_g": 0.1,
-          "protein_g": 1.0,
-          "sodium_mg": 14,
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 cans biscuits",
+          "2 cans refrigerated biscuits",
           "1/2 lb mozzarella cheese",
-          "1 can tomato sauce"
+          "1 can tomato sauce",
+          "4 oz green chilies"
         ],
         "assumptions": [
           "Calculated for 80 servings"
@@ -8534,13 +8474,13 @@
       "total_time": "25 minutes",
       "ingredients": [
         {
-          "item": "cooked franks",
+          "item": "hot dogs",
           "quantity": "20",
           "unit": "",
-          "prep_note": "or 1 pkg, 1 lb franks cut into 1 1/2-inch strips"
+          "prep_note": "cooked"
         },
         {
-          "item": "green chile strips or sauce",
+          "item": "green chile sauce",
           "quantity": "1",
           "unit": "can",
           "prep_note": "10 oz"
@@ -8549,13 +8489,13 @@
           "item": "corn tortillas",
           "quantity": "12",
           "unit": "",
-          "prep_note": "cut into 1 1/2-inch pieces"
+          "prep_note": "cut into 1.5-inch pieces"
         },
         {
-          "item": "oil",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "for deep frying"
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "for frying"
         }
       ],
       "instructions": [
@@ -8592,8 +8532,8 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
+          "calories": 551,
+          "fat_g": 62.3,
           "carbs_g": 0.0,
           "protein_g": 0.0,
           "sodium_mg": 0,
@@ -8601,10 +8541,9 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "20  cooked franks",
-          "1 can green chile strips or sauce",
-          "12  corn tortillas",
-          "oil"
+          "20  hot dogs",
+          "1 can green chile sauce",
+          "12  corn tortillas"
         ],
         "assumptions": [
           "Calculated for 7 servings"
@@ -8806,46 +8745,31 @@
       "servings_yield": "80 pieces",
       "ingredients": [
         {
-          "item": "ground beef",
-          "quantity": "1",
-          "unit": "lb",
-          "prep_note": "lean"
-        },
-        {
-          "item": "salt",
-          "quantity": "",
-          "unit": "to taste",
-          "prep_note": ""
-        },
-        {
           "item": "crackers",
           "quantity": "2",
-          "unit": "",
-          "prep_note": "Triscuit, 1.5 oz each"
+          "unit": ""
         },
         {
-          "item": "biscuits",
+          "item": "refrigerated biscuits",
           "quantity": "1",
-          "unit": "can",
-          "prep_note": "refrigerated"
+          "unit": "can"
         },
         {
           "item": "tomato sauce",
           "quantity": "8",
-          "unit": "oz",
-          "prep_note": "Spanish-style"
+          "unit": "oz"
         },
         {
           "item": "mozzarella cheese",
           "quantity": "1/2",
           "unit": "lb",
-          "prep_note": ""
+          "prep_note": "shredded"
         },
         {
-          "item": "green chiles",
+          "item": "green chilies",
           "quantity": "4",
           "unit": "oz",
-          "prep_note": "chopped"
+          "prep_note": "diced"
         }
       ],
       "instructions": [
@@ -8892,20 +8816,20 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 14,
-          "fat_g": 1.1,
+          "calories": 0,
+          "fat_g": 0.0,
           "carbs_g": 0.0,
-          "protein_g": 1.0,
-          "sodium_mg": 6,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "2  crackers",
-          "1 can biscuits",
+          "1 can refrigerated biscuits",
           "8 oz tomato sauce",
           "1/2 lb mozzarella cheese",
-          "4 oz green chiles"
+          "4 oz green chilies"
         ],
         "assumptions": [
           "Calculated for 80 servings"
@@ -8923,19 +8847,28 @@
       "servings_yield": "6-8 servings",
       "ingredients": [
         {
-          "item": "cooked franks or 1 pkg (1 lb) franks cut into 1\u00bd-inch strips",
+          "item": "hot dogs",
           "quantity": "20",
-          "unit": ""
+          "unit": "",
+          "prep_note": "cooked, or 1 lb cut into 1.5-inch strips"
         },
         {
-          "item": "green chile strips or sauce",
-          "quantity": "1",
-          "unit": "can (10 oz)"
+          "item": "green chile sauce",
+          "quantity": "10",
+          "unit": "oz",
+          "prep_note": "canned"
         },
         {
-          "item": "corn tortillas, cut into 1\u00bd-inch pieces",
+          "item": "corn tortillas",
           "quantity": "12",
-          "unit": ""
+          "unit": "",
+          "prep_note": "cut into 1.5-inch pieces"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "for frying"
         }
       ],
       "instructions": [
@@ -8969,8 +8902,8 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
+          "calories": 551,
+          "fat_g": 62.3,
           "carbs_g": 0.0,
           "protein_g": 0.0,
           "sodium_mg": 0,
@@ -8978,9 +8911,9 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "20  cooked franks or 1 pkg (1 lb) franks cut into 1\u00bd-inch strips",
-          "1 can (10 oz) green chile strips or sauce",
-          "12  corn tortillas, cut into 1\u00bd-inch pieces"
+          "20  hot dogs",
+          "10 oz green chile sauce",
+          "12  corn tortillas"
         ],
         "assumptions": [
           "Calculated for 7 servings"
@@ -9090,13 +9023,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 233,
-          "fat_g": 14.4,
+          "calories": 276,
+          "fat_g": 18.7,
           "carbs_g": 20.0,
-          "protein_g": 5.8,
-          "sodium_mg": 1048,
+          "protein_g": 6.9,
+          "sodium_mg": 1121,
           "fiber_g": 0.8,
-          "sugar_g": 3.1
+          "sugar_g": 3.2
         },
         "missing_inputs": [
           "4 tbsp green chile, chopped"

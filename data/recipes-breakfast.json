@@ -1118,13 +1118,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 157,
-          "fat_g": 7.9,
+          "calories": 171,
+          "fat_g": 9.3,
           "carbs_g": 18.2,
-          "protein_g": 4.0,
-          "sodium_mg": 234,
+          "protein_g": 4.3,
+          "sodium_mg": 259,
           "fiber_g": 1.5,
-          "sugar_g": 2.9
+          "sugar_g": 3.0
         },
         "missing_inputs": [
           "2  over ripe bananas"
@@ -1216,19 +1216,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 182,
-          "fat_g": 10.5,
-          "carbs_g": 18.3,
-          "protein_g": 4.2,
-          "sodium_mg": 198,
-          "fiber_g": 1.3,
-          "sugar_g": 1.1
+          "calories": 215,
+          "fat_g": 12.6,
+          "carbs_g": 22.4,
+          "protein_g": 4.5,
+          "sodium_mg": 199,
+          "fiber_g": 1.8,
+          "sugar_g": 4.5
         },
-        "missing_inputs": [
-          "1/2 cup mini chocolate chips"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -3838,11 +3836,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 445,
-          "fat_g": 25.8,
+          "calories": 663,
+          "fat_g": 50.5,
           "carbs_g": 42.2,
-          "protein_g": 11.0,
-          "sodium_mg": 326,
+          "protein_g": 11.7,
+          "sodium_mg": 337,
           "fiber_g": 0.8,
           "sugar_g": 18.5
         },
@@ -4084,11 +4082,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 348,
-          "fat_g": 20.1,
+          "calories": 565,
+          "fat_g": 44.8,
           "carbs_g": 29.7,
-          "protein_g": 10.9,
-          "sodium_mg": 287,
+          "protein_g": 11.7,
+          "sodium_mg": 298,
           "fiber_g": 0.8,
           "sugar_g": 6.1
         },
@@ -4410,11 +4408,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 346,
-          "fat_g": 20.1,
+          "calories": 564,
+          "fat_g": 44.8,
           "carbs_g": 29.7,
-          "protein_g": 10.9,
-          "sodium_mg": 287,
+          "protein_g": 11.7,
+          "sodium_mg": 298,
           "fiber_g": 0.8,
           "sugar_g": 6.0
         },
@@ -5457,16 +5455,15 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 72,
-          "fat_g": 5.0,
-          "carbs_g": 0.4,
-          "protein_g": 6.0,
-          "sodium_mg": 71,
-          "fiber_g": 0.0,
-          "sugar_g": 0.4
+          "calories": 230,
+          "fat_g": 7.0,
+          "carbs_g": 30.4,
+          "protein_g": 12.0,
+          "sodium_mg": 365,
+          "fiber_g": 1.2,
+          "sugar_g": 3.4
         },
         "missing_inputs": [
-          "8  slices sourdough bread",
           "1/2 cup butter at room temperature",
           "4  slices of cooked ham",
           "4  slices of Gruyere cheese"
@@ -5763,11 +5760,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 180,
-          "fat_g": 15.1,
+          "calories": 202,
+          "fat_g": 17.2,
           "carbs_g": 5.2,
-          "protein_g": 7.3,
-          "sodium_mg": 119,
+          "protein_g": 7.9,
+          "sodium_mg": 155,
           "fiber_g": 3.3,
           "sugar_g": 1.0
         },
@@ -7457,13 +7454,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 490,
-          "fat_g": 39.6,
-          "carbs_g": 19.5,
-          "protein_g": 13.8,
-          "sodium_mg": 309,
+          "calories": 680,
+          "fat_g": 62.1,
+          "carbs_g": 18.4,
+          "protein_g": 13.0,
+          "sodium_mg": 305,
           "fiber_g": 0.2,
-          "sugar_g": 17.5
+          "sugar_g": 16.4
         },
         "missing_inputs": [
           "1  loaf of French bread, cubed",
@@ -8376,13 +8373,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 338,
-          "fat_g": 29.3,
+          "calories": 403,
+          "fat_g": 35.7,
           "carbs_g": 7.4,
-          "protein_g": 11.4,
-          "sodium_mg": 720,
+          "protein_g": 13.1,
+          "sodium_mg": 829,
           "fiber_g": 0.5,
-          "sugar_g": 2.0
+          "sugar_g": 2.2
         },
         "missing_inputs": [
           "1 lb frozen shredded hash browns, thawed"
@@ -8794,19 +8791,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 166,
-          "fat_g": 5.2,
-          "carbs_g": 24.7,
-          "protein_g": 5.5,
+          "calories": 154,
+          "fat_g": 4.1,
+          "carbs_g": 24.2,
+          "protein_g": 5.0,
           "sodium_mg": 54,
-          "fiber_g": 0.6,
-          "sugar_g": 12.1
+          "fiber_g": 0.4,
+          "sugar_g": 12.0
         },
         "missing_inputs": [
           "3/4 cup fresh or frozen mixed berries",
-          "2 tbsp coconut flakes"
+          "2 tbsp coconut flakes",
+          "1 tbsp sunflower seeds"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -9788,13 +9786,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 490,
-          "fat_g": 39.6,
-          "carbs_g": 19.5,
-          "protein_g": 13.8,
-          "sodium_mg": 309,
+          "calories": 680,
+          "fat_g": 62.1,
+          "carbs_g": 18.4,
+          "protein_g": 13.0,
+          "sodium_mg": 305,
           "fiber_g": 0.2,
-          "sugar_g": 17.5
+          "sugar_g": 16.4
         },
         "missing_inputs": [
           "1  loaf of French bread, cubed",
@@ -11692,13 +11690,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 112,
-          "fat_g": 4.3,
-          "carbs_g": 16.6,
-          "protein_g": 2.8,
+          "calories": 126,
+          "fat_g": 5.9,
+          "carbs_g": 16.4,
+          "protein_g": 2.9,
           "sodium_mg": 322,
           "fiber_g": 0.5,
-          "sugar_g": 15.7
+          "sugar_g": 15.6
         },
         "missing_inputs": [
           "6 oz quick-cooking oats",
@@ -12682,11 +12680,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 308,
-          "fat_g": 20.2,
+          "calories": 329,
+          "fat_g": 22.3,
           "carbs_g": 18.3,
-          "protein_g": 12.1,
-          "sodium_mg": 434,
+          "protein_g": 12.6,
+          "sodium_mg": 470,
           "fiber_g": 1.3,
           "sugar_g": 1.9
         },
@@ -12996,19 +12994,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 688,
-          "fat_g": 47.9,
-          "carbs_g": 39.4,
-          "protein_g": 24.7,
-          "sodium_mg": 790,
+          "calories": 751,
+          "fat_g": 55.4,
+          "carbs_g": 39.1,
+          "protein_g": 24.4,
+          "sodium_mg": 789,
           "fiber_g": 3.5,
-          "sugar_g": 6.0
+          "sugar_g": 5.6
         },
-        "missing_inputs": [
-          "1 tbsp cilantro leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -15082,9 +15078,9 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 485,
+          "calories": 483,
           "fat_g": 15.3,
-          "carbs_g": 76.2,
+          "carbs_g": 76.1,
           "protein_g": 10.1,
           "sodium_mg": 514,
           "fiber_g": 1.7,
@@ -18465,13 +18461,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 392,
-          "fat_g": 17.4,
-          "carbs_g": 53.7,
-          "protein_g": 11.5,
+          "calories": 417,
+          "fat_g": 19.6,
+          "carbs_g": 54.4,
+          "protein_g": 12.4,
           "sodium_mg": 150,
-          "fiber_g": 8.4,
-          "sugar_g": 14.2
+          "fiber_g": 9.0,
+          "sugar_g": 14.3
         },
         "missing_inputs": [
           "2 tbsp walnut oil",
@@ -19931,16 +19927,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 118,
-          "fat_g": 3.1,
-          "carbs_g": 18.1,
-          "protein_g": 4.4,
-          "sodium_mg": 100,
-          "fiber_g": 0.4,
-          "sugar_g": 6.2
+          "calories": 168,
+          "fat_g": 6.2,
+          "carbs_g": 24.3,
+          "protein_g": 4.8,
+          "sodium_mg": 102,
+          "fiber_g": 1.1,
+          "sugar_g": 11.3
         },
         "missing_inputs": [
-          "1 cup mini chocolate chips",
           "powdered sugar"
         ],
         "assumptions": [
@@ -20831,13 +20826,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 157,
-          "fat_g": 7.9,
+          "calories": 171,
+          "fat_g": 9.3,
           "carbs_g": 18.2,
-          "protein_g": 4.0,
-          "sodium_mg": 234,
+          "protein_g": 4.3,
+          "sodium_mg": 259,
           "fiber_g": 1.5,
-          "sugar_g": 2.9
+          "sugar_g": 3.0
         },
         "missing_inputs": [
           "2  over ripe bananas"
@@ -20947,19 +20942,17 @@
       ],
       "source_note": "Recipe Keeper App",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 182,
-          "fat_g": 10.5,
-          "carbs_g": 18.3,
-          "protein_g": 4.2,
-          "sodium_mg": 198,
-          "fiber_g": 1.3,
-          "sugar_g": 1.1
+          "calories": 215,
+          "fat_g": 12.6,
+          "carbs_g": 22.4,
+          "protein_g": 4.5,
+          "sodium_mg": 199,
+          "fiber_g": 1.8,
+          "sugar_g": 4.5
         },
-        "missing_inputs": [
-          "1/2 cup mini chocolate chips"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -24818,11 +24811,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 198,
-          "fat_g": 11.5,
+          "calories": 295,
+          "fat_g": 22.5,
           "carbs_g": 18.7,
-          "protein_g": 4.9,
-          "sodium_mg": 145,
+          "protein_g": 5.2,
+          "sodium_mg": 150,
           "fiber_g": 0.4,
           "sugar_g": 8.2
         },
@@ -25079,11 +25072,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 154,
-          "fat_g": 8.9,
+          "calories": 251,
+          "fat_g": 19.9,
           "carbs_g": 13.2,
-          "protein_g": 4.9,
-          "sodium_mg": 127,
+          "protein_g": 5.2,
+          "sodium_mg": 132,
           "fiber_g": 0.4,
           "sugar_g": 2.7
         },
@@ -25428,11 +25421,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 154,
-          "fat_g": 8.9,
+          "calories": 251,
+          "fat_g": 19.9,
           "carbs_g": 13.2,
-          "protein_g": 4.9,
-          "sodium_mg": 127,
+          "protein_g": 5.2,
+          "sodium_mg": 132,
           "fiber_g": 0.4,
           "sugar_g": 2.7
         },
@@ -26763,18 +26756,17 @@
       ],
       "source_note": "Reference cookbook - Easy Breakfast Recipes",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 276,
-          "fat_g": 28.0,
-          "carbs_g": 0.4,
-          "protein_g": 6.2,
-          "sodium_mg": 227,
-          "fiber_g": 0.0,
-          "sugar_g": 0.4
+          "calories": 434,
+          "fat_g": 30.0,
+          "carbs_g": 30.4,
+          "protein_g": 12.2,
+          "sodium_mg": 521,
+          "fiber_g": 1.2,
+          "sugar_g": 3.4
         },
         "missing_inputs": [
-          "8 slices sourdough bread",
           "4 slices cooked ham",
           "4 slices Gruyere cheese"
         ],
@@ -27102,11 +27094,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 180,
-          "fat_g": 15.1,
+          "calories": 202,
+          "fat_g": 17.2,
           "carbs_g": 5.2,
-          "protein_g": 7.3,
-          "sodium_mg": 119,
+          "protein_g": 7.9,
+          "sodium_mg": 155,
           "fiber_g": 3.3,
           "sugar_g": 1.0
         },
@@ -28231,13 +28223,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 263,
-          "fat_g": 19.3,
-          "carbs_g": 3.9,
-          "protein_g": 19.5,
-          "sodium_mg": 437,
+          "calories": 327,
+          "fat_g": 26.8,
+          "carbs_g": 3.5,
+          "protein_g": 19.3,
+          "sodium_mg": 436,
           "fiber_g": 0.0,
-          "sugar_g": 2.1
+          "sugar_g": 1.7
         },
         "missing_inputs": [
           "1 9-inch store-bought piecrust"
@@ -28957,13 +28949,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 245,
-          "fat_g": 19.8,
-          "carbs_g": 9.8,
-          "protein_g": 6.9,
-          "sodium_mg": 154,
+          "calories": 340,
+          "fat_g": 31.0,
+          "carbs_g": 9.2,
+          "protein_g": 6.5,
+          "sodium_mg": 153,
           "fiber_g": 0.1,
-          "sugar_g": 8.8
+          "sugar_g": 8.2
         },
         "missing_inputs": [
           "1 loaf French bread",
@@ -30038,13 +30030,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 169,
-          "fat_g": 14.6,
+          "calories": 202,
+          "fat_g": 17.8,
           "carbs_g": 3.7,
-          "protein_g": 5.7,
-          "sodium_mg": 360,
+          "protein_g": 6.5,
+          "sodium_mg": 415,
           "fiber_g": 0.3,
-          "sugar_g": 1.0
+          "sugar_g": 1.1
         },
         "missing_inputs": [
           "1 lb frozen shredded hash browns"
@@ -30490,19 +30482,20 @@
       ],
       "source_note": "Reference cookbook - Other Delicious Breakfast Meals",
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
-          "calories": 166,
-          "fat_g": 5.2,
-          "carbs_g": 24.7,
-          "protein_g": 5.5,
+          "calories": 154,
+          "fat_g": 4.1,
+          "carbs_g": 24.2,
+          "protein_g": 5.0,
           "sodium_mg": 54,
-          "fiber_g": 0.6,
-          "sugar_g": 12.1
+          "fiber_g": 0.4,
+          "sugar_g": 12.0
         },
         "missing_inputs": [
           "3/4 cup fresh or frozen mixed berries",
-          "2 tbsp coconut flakes"
+          "2 tbsp coconut flakes",
+          "1 tbsp sunflower seeds"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -31574,13 +31567,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 245,
-          "fat_g": 19.8,
-          "carbs_g": 9.8,
-          "protein_g": 6.9,
-          "sodium_mg": 154,
+          "calories": 340,
+          "fat_g": 31.0,
+          "carbs_g": 9.2,
+          "protein_g": 6.5,
+          "sodium_mg": 153,
           "fiber_g": 0.1,
-          "sugar_g": 8.8
+          "sugar_g": 8.2
         },
         "missing_inputs": [
           "1 loaf French bread",
@@ -33775,13 +33768,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 112,
-          "fat_g": 4.3,
-          "carbs_g": 16.6,
-          "protein_g": 2.8,
+          "calories": 126,
+          "fat_g": 5.9,
+          "carbs_g": 16.4,
+          "protein_g": 2.9,
           "sodium_mg": 322,
           "fiber_g": 0.5,
-          "sugar_g": 15.7
+          "sugar_g": 15.6
         },
         "missing_inputs": [
           "6 oz quick-cooking oats",
@@ -35011,11 +35004,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 308,
-          "fat_g": 20.2,
+          "calories": 329,
+          "fat_g": 22.3,
           "carbs_g": 18.3,
-          "protein_g": 12.1,
-          "sodium_mg": 434,
+          "protein_g": 12.6,
+          "sodium_mg": 470,
           "fiber_g": 1.3,
           "sugar_g": 1.9
         },
@@ -35365,19 +35358,17 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 688,
-          "fat_g": 47.9,
-          "carbs_g": 39.4,
-          "protein_g": 24.7,
-          "sodium_mg": 790,
+          "calories": 751,
+          "fat_g": 55.4,
+          "carbs_g": 39.1,
+          "protein_g": 24.4,
+          "sodium_mg": 789,
           "fiber_g": 3.5,
-          "sugar_g": 6.0
+          "sugar_g": 5.6
         },
-        "missing_inputs": [
-          "1 tbsp cilantro leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -39337,13 +39328,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 117,
+          "calories": 118,
           "fat_g": 7.6,
           "carbs_g": 1.2,
           "protein_g": 9.3,
           "sodium_mg": 530,
           "fiber_g": 0.0,
-          "sugar_g": 0.6
+          "sugar_g": 0.7
         },
         "missing_inputs": [
           "6  squares of toast",
@@ -41992,13 +41983,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 14,
-          "fat_g": 0.6,
-          "carbs_g": 1.5,
-          "protein_g": 0.6,
-          "sodium_mg": 306,
+          "calories": 8,
+          "fat_g": 0.3,
+          "carbs_g": 1.1,
+          "protein_g": 0.3,
+          "sodium_mg": 301,
           "fiber_g": 0.1,
-          "sugar_g": 1.3
+          "sugar_g": 0.9
         },
         "missing_inputs": [
           "1/2 cup salad oil",
@@ -42097,13 +42088,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 140,
-          "fat_g": 10.3,
-          "carbs_g": 3.6,
-          "protein_g": 8.2,
-          "sodium_mg": 414,
+          "calories": 116,
+          "fat_g": 8.9,
+          "carbs_g": 2.0,
+          "protein_g": 7.0,
+          "sodium_mg": 394,
           "fiber_g": 0.0,
-          "sugar_g": 3.5
+          "sugar_g": 1.9
         },
         "missing_inputs": [
           "1  \u00bd tbsp. flour",
@@ -42196,13 +42187,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 90,
-          "fat_g": 4.4,
-          "carbs_g": 8.2,
-          "protein_g": 4.4,
-          "sodium_mg": 137,
+          "calories": 58,
+          "fat_g": 2.6,
+          "carbs_g": 6.0,
+          "protein_g": 2.9,
+          "sodium_mg": 110,
           "fiber_g": 0.0,
-          "sugar_g": 8.0
+          "sugar_g": 5.9
         },
         "missing_inputs": [
           "Few gratings of nutmeg"
@@ -45705,13 +45696,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 355,
-          "fat_g": 28.0,
-          "carbs_g": 17.4,
-          "protein_g": 8.4,
-          "sodium_mg": 254,
+          "calories": 443,
+          "fat_g": 38.5,
+          "carbs_g": 16.9,
+          "protein_g": 8.2,
+          "sodium_mg": 253,
           "fiber_g": 0.6,
-          "sugar_g": 2.5
+          "sugar_g": 2.0
         },
         "missing_inputs": [
           "10  strips lean bacon",
@@ -46349,16 +46340,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 534,
-          "fat_g": 43.7,
-          "carbs_g": 7.4,
-          "protein_g": 27.7,
-          "sodium_mg": 714,
-          "fiber_g": 0.0,
-          "sugar_g": 6.7
+          "calories": 771,
+          "fat_g": 46.7,
+          "carbs_g": 52.4,
+          "protein_g": 36.7,
+          "sodium_mg": 1156,
+          "fiber_g": 1.8,
+          "sugar_g": 11.2
         },
         "missing_inputs": [
-          "12  slices sourdough bread",
           "dash nutmeg"
         ],
         "assumptions": [

@@ -105,15 +105,9 @@
       "servings_yield": "1 serving",
       "ingredients": [
         {
-          "item": "frozen blueberries",
+          "item": "banana",
           "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "large banana",
-          "quantity": "1/2",
-          "unit": "",
-          "prep_note": "sliced"
+          "unit": "large"
         },
         {
           "item": "plain yogurt",
@@ -126,15 +120,14 @@
           "unit": "cup"
         },
         {
-          "item": "ice cubes",
-          "quantity": "1/4",
+          "item": "frozen berries",
+          "quantity": "1/2",
           "unit": "cup"
         },
         {
-          "item": "flax seeds",
+          "item": "ground flaxseed",
           "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": "ground"
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -171,18 +164,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 97,
-          "fat_g": 4.5,
-          "carbs_g": 13.5,
-          "protein_g": 2.5,
-          "sodium_mg": 4,
-          "fiber_g": 4.8,
-          "sugar_g": 7.7
+          "calories": 37,
+          "fat_g": 2.0,
+          "carbs_g": 3.0,
+          "protein_g": 2.0,
+          "sodium_mg": 26,
+          "fiber_g": 0.0,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
-          "1/2  large banana",
+          "1/2 large banana",
           "3 oz plain yogurt",
-          "1/4 cup sweetened condensed milk"
+          "1/2 cup frozen berries",
+          "1 tbsp ground flaxseed"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -367,14 +361,13 @@
           "calories": 190,
           "fat_g": 10.1,
           "carbs_g": 20.6,
-          "protein_g": 10.8,
+          "protein_g": 10.9,
           "sodium_mg": 108,
           "fiber_g": 5.1,
           "sugar_g": 12.4
         },
         "missing_inputs": [
-          "1/2 cup plus 1 tbsp  caster sugar",
-          "1 tbsp instant coffee"
+          "1/2 cup plus 1 tbsp  caster sugar"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -391,15 +384,10 @@
       "servings_yield": "2 servings",
       "ingredients": [
         {
-          "item": "pineapple juice",
+          "item": "banana",
           "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "large ripe banana",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "sliced"
+          "unit": "large",
+          "prep_note": "ripe"
         },
         {
           "item": "yogurt",
@@ -407,31 +395,15 @@
           "unit": "oz"
         },
         {
-          "item": "fresh or frozen strawberries",
+          "item": "strawberries",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": "halved"
-        },
-        {
-          "item": "wheat germ",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "optional"
+          "prep_note": "fresh or frozen"
         },
         {
           "item": "vanilla extract",
-          "quantity": "2",
-          "unit": "tsp"
-        },
-        {
-          "item": "banana essence",
           "quantity": "1",
           "unit": "tsp"
-        },
-        {
-          "item": "ice",
-          "quantity": "1/2",
-          "unit": "cup"
         }
       ],
       "instructions": [
@@ -462,21 +434,19 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 104,
-          "fat_g": 0.8,
-          "carbs_g": 20.2,
-          "protein_g": 2.5,
-          "sodium_mg": 2,
-          "fiber_g": 1.2,
-          "sugar_g": 13.0
+          "calories": 18,
+          "fat_g": 0.1,
+          "carbs_g": 3.2,
+          "protein_g": 0.2,
+          "sodium_mg": 0,
+          "fiber_g": 0.8,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
-          "1  large ripe banana",
-          "4 oz yogurt",
-          "1/2 cup fresh or frozen strawberries",
-          "1 tsp banana essence"
+          "1 large banana",
+          "4 oz yogurt"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -546,20 +516,19 @@
         "This recipe from 1867 is the 19th-century version of that college favorite 'jungle juice.'"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 76,
+          "calories": 188,
           "fat_g": 0.1,
-          "carbs_g": 19.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
+          "carbs_g": 21.0,
+          "protein_g": 0.4,
+          "sodium_mg": 8,
           "fiber_g": 0.5,
-          "sugar_g": 18.8
+          "sugar_g": 17.7
         },
         "missing_inputs": [
           "750 ml cognac",
-          "2 1/2 cups seltzer or club soda",
-          "375-750 ml cold demi-sec champagne"
+          "2 1/2 cups seltzer or club soda"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -714,44 +683,27 @@
         {
           "item": "honey",
           "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "water",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": "boiling"
+          "unit": "cup"
         },
         {
           "item": "lemon juice",
           "quantity": "2",
-          "unit": "",
-          "prep_note": "from 2 lemons"
+          "unit": "tbsp"
         },
         {
           "item": "apricot nectar",
           "quantity": "2",
-          "unit": "cups",
-          "prep_note": ""
+          "unit": "cups"
         },
         {
           "item": "vodka",
           "quantity": "1",
-          "unit": "cup",
-          "prep_note": "optional"
+          "unit": "cup"
         },
         {
           "item": "sparkling apple juice",
           "quantity": "1",
-          "unit": "bottle",
-          "prep_note": ""
-        },
-        {
-          "item": "lemon",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "sliced, for serving"
+          "unit": "bottle"
         }
       ],
       "instructions": [
@@ -779,19 +731,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 133,
-          "fat_g": 0.1,
-          "carbs_g": 36.1,
-          "protein_g": 0.3,
-          "sodium_mg": 2,
-          "fiber_g": 0.4,
-          "sugar_g": 35.1
+          "calories": 187,
+          "fat_g": 0.2,
+          "carbs_g": 48.4,
+          "protein_g": 1.1,
+          "sodium_mg": 3,
+          "fiber_g": 0.2,
+          "sugar_g": 45.5
         },
         "missing_inputs": [
-          "2  lemon juice",
-          "2 cups apricot nectar",
           "1 cup vodka",
           "1 bottle sparkling apple juice"
         ],
@@ -1344,50 +1294,27 @@
         {
           "item": "apples",
           "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "carrot",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "lemon",
-          "quantity": "1/4",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "green bell pepper",
-          "quantity": "1/4",
-          "unit": "",
-          "prep_note": ""
+          "unit": ""
         },
         {
           "item": "cucumber",
           "quantity": "1",
-          "unit": "inch",
-          "prep_note": ""
+          "unit": "inch"
         },
         {
           "item": "celery",
           "quantity": "1/4",
-          "unit": "stick",
-          "prep_note": ""
+          "unit": "stalk"
         },
         {
           "item": "broccoli",
           "quantity": "1",
-          "unit": "inch stem",
-          "prep_note": ""
+          "unit": "inch stem"
         },
         {
           "item": "beetroot",
           "quantity": "1",
-          "unit": "inch slice",
-          "prep_note": ""
+          "unit": "inch slice"
         }
       ],
       "instructions": [
@@ -1428,18 +1355,17 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 35,
-          "fat_g": 0.2,
-          "carbs_g": 8.5,
-          "protein_g": 0.9,
-          "sodium_mg": 43,
-          "fiber_g": 2.8,
-          "sugar_g": 4.1
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.2,
+          "protein_g": 0.1,
+          "sodium_mg": 8,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
           "2  apples",
           "1 inch cucumber",
-          "1/4 stick celery",
           "1 inch stem broccoli",
           "1 inch slice beetroot"
         ],
@@ -1820,40 +1746,29 @@
       "total_time": "5 minutes",
       "ingredients": [
         {
-          "item": "frozen blueberries",
+          "item": "banana",
           "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "large banana",
-          "quantity": "1/2",
-          "unit": "",
-          "prep_note": "sliced"
+          "unit": "large"
         },
         {
           "item": "plain yogurt",
           "quantity": "3",
-          "unit": "oz",
-          "prep_note": ""
+          "unit": "oz"
         },
         {
           "item": "sweetened condensed milk",
           "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "ice cubes",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
+          "item": "frozen berries",
+          "quantity": "1/2",
+          "unit": "cup"
         },
         {
-          "item": "flax seeds",
+          "item": "ground flaxseed",
           "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": "ground"
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -1889,18 +1804,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 97,
-          "fat_g": 4.5,
-          "carbs_g": 13.5,
-          "protein_g": 2.5,
-          "sodium_mg": 4,
-          "fiber_g": 4.8,
-          "sugar_g": 7.7
+          "calories": 37,
+          "fat_g": 2.0,
+          "carbs_g": 3.0,
+          "protein_g": 2.0,
+          "sodium_mg": 26,
+          "fiber_g": 0.0,
+          "sugar_g": 3.0
         },
         "missing_inputs": [
-          "1/2  large banana",
+          "1/2 large banana",
           "3 oz plain yogurt",
-          "1/4 cup sweetened condensed milk"
+          "1/2 cup frozen berries",
+          "1 tbsp ground flaxseed"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -2010,51 +1926,29 @@
       "ingredients": [
         {
           "item": "milk",
-          "quantity": "6",
-          "unit": "cups",
-          "prep_note": ""
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "plus 1 tbsp"
         },
         {
           "item": "cocoa powder",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "caster sugar",
-          "quantity": "1/2 cup plus 1 tbsp",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ground cinnamon",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
+          "quantity": "3",
+          "unit": "tbsp"
         },
         {
           "item": "instant coffee",
           "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
+          "unit": "tbsp"
         },
         {
-          "item": "vanilla essence",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "freshly ground nutmeg",
+          "item": "cinnamon",
           "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ground cloves",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "tsp"
         },
         {
           "item": "whipped cream",
@@ -2063,10 +1957,10 @@
           "prep_note": "for topping"
         },
         {
-          "item": "grated chocolate",
+          "item": "chocolate",
           "quantity": "",
           "unit": "",
-          "prep_note": "for topping"
+          "prep_note": "grated, for topping"
         }
       ],
       "instructions": [
@@ -2108,21 +2002,19 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 190,
-          "fat_g": 10.1,
-          "carbs_g": 20.6,
-          "protein_g": 10.8,
-          "sodium_mg": 108,
-          "fiber_g": 5.1,
-          "sugar_g": 12.4
+          "calories": 170,
+          "fat_g": 5.7,
+          "carbs_g": 26.3,
+          "protein_g": 5.8,
+          "sodium_mg": 71,
+          "fiber_g": 1.1,
+          "sugar_g": 24.7
         },
         "missing_inputs": [
-          "1/2 cup plus 1 tbsp  caster sugar",
-          "1 tbsp instant coffee",
           "whipped cream",
-          "grated chocolate"
+          "chocolate"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -2142,52 +2034,26 @@
       "total_time": "5 minutes",
       "ingredients": [
         {
-          "item": "pineapple juice",
+          "item": "banana",
           "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "large ripe banana",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "sliced"
+          "unit": "large",
+          "prep_note": "ripe"
         },
         {
           "item": "yogurt",
           "quantity": "4",
-          "unit": "oz",
-          "prep_note": ""
+          "unit": "oz"
         },
         {
-          "item": "fresh or frozen strawberries",
+          "item": "strawberries",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": "halved"
-        },
-        {
-          "item": "wheat germ",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "optional"
+          "prep_note": "fresh or frozen"
         },
         {
           "item": "vanilla extract",
-          "quantity": "2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "banana essence",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ice",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -2221,21 +2087,19 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 104,
-          "fat_g": 0.8,
-          "carbs_g": 20.2,
-          "protein_g": 2.5,
-          "sodium_mg": 2,
-          "fiber_g": 1.2,
-          "sugar_g": 13.0
+          "calories": 18,
+          "fat_g": 0.1,
+          "carbs_g": 3.2,
+          "protein_g": 0.2,
+          "sodium_mg": 0,
+          "fiber_g": 0.8,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
-          "1  large ripe banana",
-          "4 oz yogurt",
-          "1/2 cup fresh or frozen strawberries",
-          "1 tsp banana essence"
+          "1 large banana",
+          "4 oz yogurt"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -3155,46 +3019,26 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "sugar",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
+          "item": "frozen orange juice concentrate",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "1 can"
+        },
+        {
+          "item": "cranberry juice",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": "1 bottle"
         },
         {
           "item": "water",
-          "quantity": "3/4",
-          "unit": "cup",
-          "prep_note": ""
+          "quantity": "4",
+          "unit": "cups"
         },
         {
-          "item": "One 6-oz. can frozen orange juice",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "bottle (1 pint) cranberry juice",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "lemon juice",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "Red food coloring",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ginger ale",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -3218,20 +3062,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 284,
-          "fat_g": 0.0,
-          "carbs_g": 73.0,
-          "protein_g": 0.0,
-          "sodium_mg": 26,
-          "fiber_g": 0.0,
-          "sugar_g": 71.8
+          "calories": 611,
+          "fat_g": 1.0,
+          "carbs_g": 152.0,
+          "protein_g": 4.0,
+          "sodium_mg": 5,
+          "fiber_g": 1.0,
+          "sugar_g": 142.0
         },
         "missing_inputs": [
-          "One 6-oz. can frozen orange juice",
-          "1  bottle (1 pint) cranberry juice",
-          "Red food coloring"
+          "6 oz frozen orange juice concentrate"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -3533,34 +3375,30 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "sugar",
-          "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
           "item": "strawberry syrup",
           "quantity": "1",
-          "unit": "pint",
-          "prep_note": ""
+          "unit": "pint"
         },
         {
-          "item": "grated pineapple",
+          "item": "crushed pineapple",
           "quantity": "2",
-          "unit": "can",
-          "prep_note": ""
+          "unit": "cans"
         },
         {
           "item": "maraschino cherries",
           "quantity": "1",
-          "unit": "large bottle",
-          "prep_note": ""
+          "unit": "jar",
+          "prep_note": "large"
         },
         {
           "item": "water",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "as needed"
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -3606,19 +3444,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 387,
+          "calories": 194,
           "fat_g": 0.0,
-          "carbs_g": 100.0,
+          "carbs_g": 50.0,
           "protein_g": 0.0,
-          "sodium_mg": 1,
+          "sodium_mg": 0,
           "fiber_g": 0.0,
-          "sugar_g": 100.0
+          "sugar_g": 50.0
         },
         "missing_inputs": [
           "1 pint strawberry syrup",
-          "2 can grated pineapple",
-          "1 large bottle maraschino cherries",
-          "water"
+          "2 cans crushed pineapple",
+          "1 jar maraschino cherries"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -3690,9 +3527,10 @@
         "pdf-extracted"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
-          "pdf-extraction"
+          "pdf-extraction",
+          "MISCLASSIFIED: This is a main dish, not a beverage"
         ]
       },
       "image_refs": [],
@@ -3912,22 +3750,23 @@
         "pdf-extracted"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
-          "pdf-extraction"
+          "pdf-extraction",
+          "MISCLASSIFIED: This is a main dish, not a beverage"
         ]
       },
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 42,
+          "calories": 41,
           "fat_g": 0.8,
-          "carbs_g": 8.4,
-          "protein_g": 1.0,
-          "sodium_mg": 340,
+          "carbs_g": 7.9,
+          "protein_g": 1.3,
+          "sodium_mg": 518,
           "fiber_g": 1.6,
-          "sugar_g": 4.0
+          "sugar_g": 3.5
         },
         "missing_inputs": [
           "1 lb mushrooms",
@@ -4110,9 +3949,10 @@
         "pdf-extracted"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
-          "pdf-extraction"
+          "pdf-extraction",
+          "MISCLASSIFIED: This is a main dish, not a beverage"
         ]
       },
       "image_refs": [],
@@ -4212,27 +4052,27 @@
         "pdf-extracted"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
-          "pdf-extraction"
+          "pdf-extraction",
+          "MISCLASSIFIED: This is a main dish, not a beverage"
         ]
       },
       "image_refs": [],
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 2.5,
-          "carbs_g": 0.2,
-          "protein_g": 3.0,
-          "sodium_mg": 36,
+          "calories": 53,
+          "fat_g": 3.0,
+          "carbs_g": 1.2,
+          "protein_g": 6.0,
+          "sodium_mg": 926,
           "fiber_g": 0.0,
           "sugar_g": 0.2
         },
         "missing_inputs": [
           "2 lb ground beef 2/3 c bread crumbs",
           "1 tsp salt 1/2 tsp pepper",
-          "2 can (10 oz) condensed beef 2 cans (4 oz) mushrooms",
           "4  tbs cornstarch"
         ],
         "assumptions": [
@@ -5195,9 +5035,10 @@
         "pdf-extracted"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
-          "pdf-extraction"
+          "pdf-extraction",
+          "OCR-CORRUPTED: Text has merged words and illegible formatting"
         ]
       },
       "image_refs": [],
@@ -5290,19 +5131,17 @@
         "processed/img_5658.jpeg"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 148,
-          "fat_g": 2.9,
-          "carbs_g": 29.0,
-          "protein_g": 3.7,
-          "sodium_mg": 39,
+          "calories": 172,
+          "fat_g": 4.2,
+          "carbs_g": 30.8,
+          "protein_g": 5.2,
+          "sodium_mg": 58,
           "fiber_g": 0.6,
-          "sugar_g": 25.0
+          "sugar_g": 26.8
         },
-        "missing_inputs": [
-          "1/2 cup vanilla yogurt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
