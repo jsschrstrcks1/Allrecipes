@@ -2765,12 +2765,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 37,
-          "fat_g": 1.0,
+          "calories": 42,
+          "fat_g": 1.5,
           "carbs_g": 7.1,
-          "protein_g": 0.4,
-          "sodium_mg": 1,
-          "fiber_g": 0.8,
+          "protein_g": 0.5,
+          "sodium_mg": 0,
+          "fiber_g": 0.4,
           "sugar_g": 6.2
         },
         "missing_inputs": [
@@ -59889,20 +59889,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 1670,
+          "calories": 1767,
           "fat_g": 115.5,
-          "carbs_g": 67.6,
+          "carbs_g": 70.1,
           "protein_g": 94.3,
-          "sodium_mg": 1333,
+          "sodium_mg": 1338,
           "fiber_g": 4.0,
-          "sugar_g": 51.6
+          "sugar_g": 52.1
         },
         "missing_inputs": [
           "9 lb flour",
           "3 lb sugar",
           "1 oz spice",
-          "1 gill rose-water",
-          "1 gill wine"
+          "1 gill rose-water"
         ],
         "assumptions": [
           "Calculated for 1 servings"

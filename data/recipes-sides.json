@@ -973,7 +973,7 @@
           "fat_g": 7.2,
           "carbs_g": 2.8,
           "protein_g": 0.5,
-          "sodium_mg": 25,
+          "sodium_mg": 50,
           "fiber_g": 0.2,
           "sugar_g": 0.2
         },
@@ -15689,17 +15689,18 @@
         "status": "insufficient_data",
         "per_serving": {
           "calories": 190,
-          "fat_g": 2.9,
-          "carbs_g": 21.9,
+          "fat_g": 2.8,
+          "carbs_g": 21.8,
           "protein_g": 21.8,
           "sodium_mg": 68,
-          "fiber_g": 6.5,
+          "fiber_g": 6.4,
           "sugar_g": 12.8
         },
         "missing_inputs": [
           "1 small can black olives",
           "1  zucchini",
           "1  summer squash",
+          "1 tsp Italian seasoning",
           "parmesan cheese"
         ],
         "assumptions": [
@@ -18866,18 +18867,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 116,
-          "fat_g": 3.1,
-          "carbs_g": 6.3,
-          "protein_g": 15.5,
-          "sodium_mg": 36,
-          "fiber_g": 0.4,
-          "sugar_g": 0.2
+          "calories": 120,
+          "fat_g": 3.2,
+          "carbs_g": 7.1,
+          "protein_g": 15.6,
+          "sodium_mg": 56,
+          "fiber_g": 0.9,
+          "sugar_g": 0.4
         },
         "missing_inputs": [
-          "1  c chopped onion 1 c chopped celery",
           "1  tbs chopped parsley 1 (8 oz) can tomato sauce",
           "1 tsp garlic salt 1/2 tsp pepper"
         ],
@@ -29080,7 +29080,7 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 6,
+          "calories": 5,
           "fat_g": 0.0,
           "carbs_g": 1.3,
           "protein_g": 0.3,
@@ -29090,6 +29090,7 @@
         },
         "missing_inputs": [
           "6  zucchini (4-5 cups)",
+          "freshly ground pepper",
           "Parmesan cheese, grated",
           "oil for frying",
           "1/4 lb sharp cheddar cheese, sliced"

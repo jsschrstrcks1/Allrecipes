@@ -1786,6 +1786,51 @@ NUTRITION_DB = {
     "enchilada sauce": {"cup": {"cal": 60, "fat": 1, "carbs": 11, "protein": 2, "sodium": 1160, "fiber": 2, "sugar": 4},
                        "can": {"cal": 90, "fat": 1.5, "carbs": 16, "protein": 3, "sodium": 1740, "fiber": 3, "sugar": 6}},
     "red enchilada sauce": {"cup": {"cal": 60, "fat": 1, "carbs": 11, "protein": 2, "sodium": 1160, "fiber": 2, "sugar": 4}},
+
+    # BATCH 14: Additional missing ingredients and units
+    # New entries for missing items
+    "red onion": {"cup": {"cal": 64, "fat": 0.2, "carbs": 15, "protein": 2, "sodium": 6, "fiber": 2, "sugar": 7},
+                 "medium": {"cal": 44, "fat": 0.1, "carbs": 10, "protein": 1.3, "sodium": 4, "fiber": 1.5, "sugar": 5},
+                 "tbsp": {"cal": 4, "fat": 0, "carbs": 1, "protein": 0.1, "sodium": 0, "fiber": 0.1, "sugar": 0.4}},
+    "light mayonnaise": {"tbsp": {"cal": 35, "fat": 3.5, "carbs": 1, "protein": 0, "sodium": 100, "fiber": 0, "sugar": 1},
+                        "cup": {"cal": 560, "fat": 56, "carbs": 16, "protein": 0, "sodium": 1600, "fiber": 0, "sugar": 16}},
+    "hemp seeds": {"tbsp": {"cal": 55, "fat": 4.5, "carbs": 1, "protein": 3, "sodium": 0, "fiber": 0.5, "sugar": 0},
+                  "cup": {"cal": 880, "fat": 72, "carbs": 16, "protein": 48, "sodium": 0, "fiber": 8, "sugar": 0}},
+    "pumpkin seeds": {"cup": {"cal": 721, "fat": 63, "carbs": 25, "protein": 34, "sodium": 25, "fiber": 12, "sugar": 2},
+                     "oz": {"cal": 126, "fat": 11, "carbs": 4.4, "protein": 6, "sodium": 4, "fiber": 2, "sugar": 0.4},
+                     "tbsp": {"cal": 45, "fat": 4, "carbs": 1.5, "protein": 2, "sodium": 2, "fiber": 0.7, "sugar": 0.1}},
+    "sunflower seeds": {"cup": {"cal": 818, "fat": 72, "carbs": 28, "protein": 29, "sodium": 5, "fiber": 12, "sugar": 3},
+                       "oz": {"cal": 165, "fat": 14, "carbs": 5.6, "protein": 5.8, "sodium": 1, "fiber": 2.4, "sugar": 0.6},
+                       "tbsp": {"cal": 51, "fat": 4.5, "carbs": 1.8, "protein": 1.8, "sodium": 0, "fiber": 0.7, "sugar": 0.2}},
+    "poppy seeds": {"tbsp": {"cal": 46, "fat": 4, "carbs": 2, "protein": 1.5, "sodium": 2, "fiber": 1, "sugar": 0.3},
+                   "tsp": {"cal": 15, "fat": 1.3, "carbs": 0.7, "protein": 0.5, "sodium": 0.5, "fiber": 0.3, "sugar": 0.1}},
+    "caraway seeds": {"tsp": {"cal": 7, "fat": 0.3, "carbs": 1, "protein": 0.4, "sodium": 0.4, "fiber": 0.8, "sugar": 0},
+                     "tbsp": {"cal": 21, "fat": 0.9, "carbs": 3, "protein": 1.2, "sodium": 1, "fiber": 2.4, "sugar": 0}},
+    "dark sesame oil": {"tbsp": {"cal": 120, "fat": 14, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+                       "tsp": {"cal": 40, "fat": 4.5, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+    "ground chipotle pepper": {"tsp": {"cal": 8, "fat": 0.4, "carbs": 1.5, "protein": 0.3, "sodium": 26, "fiber": 0.9, "sugar": 0.5}},
+    "chipotle chile pepper": {"tsp": {"cal": 8, "fat": 0.4, "carbs": 1.5, "protein": 0.3, "sodium": 26, "fiber": 0.9, "sugar": 0.5}},
+    "asian chili sauce": {"tsp": {"cal": 6, "fat": 0, "carbs": 1.2, "protein": 0.2, "sodium": 100, "fiber": 0.2, "sugar": 0.8},
+                         "tbsp": {"cal": 18, "fat": 0, "carbs": 3.6, "protein": 0.6, "sodium": 300, "fiber": 0.6, "sugar": 2.4}},
+    "turkey italian sausage": {"link": {"cal": 140, "fat": 8, "carbs": 2, "protein": 14, "sodium": 480, "fiber": 0, "sugar": 1},
+                              "oz": {"cal": 44, "fat": 2.5, "carbs": 0.6, "protein": 4.4, "sodium": 150, "fiber": 0, "sugar": 0.3},
+                              "lb": {"cal": 704, "fat": 40, "carbs": 10, "protein": 70, "sodium": 2400, "fiber": 0, "sugar": 5}},
+    "clam juice": {"cup": {"cal": 5, "fat": 0, "carbs": 0, "protein": 1, "sodium": 516, "fiber": 0, "sugar": 0},
+                  "oz": {"cal": 0.6, "fat": 0, "carbs": 0, "protein": 0.1, "sodium": 64, "fiber": 0, "sugar": 0},
+                  "bottle": {"cal": 5, "fat": 0, "carbs": 0, "protein": 1, "sodium": 516, "fiber": 0, "sugar": 0}},
+    "beef roast": {"lb": {"cal": 816, "fat": 48, "carbs": 0, "protein": 88, "sodium": 280, "fiber": 0, "sugar": 0},
+                  "oz": {"cal": 51, "fat": 3, "carbs": 0, "protein": 5.5, "sodium": 18, "fiber": 0, "sugar": 0}},
+    "chuck roast": {"lb": {"cal": 1080, "fat": 72, "carbs": 0, "protein": 96, "sodium": 320, "fiber": 0, "sugar": 0},
+                   "oz": {"cal": 67, "fat": 4.5, "carbs": 0, "protein": 6, "sodium": 20, "fiber": 0, "sugar": 0}},
+    "canned tomatoes": {"can": {"cal": 72, "fat": 0.4, "carbs": 16, "protein": 3.2, "sodium": 640, "fiber": 4, "sugar": 10},
+                       "cup": {"cal": 41, "fat": 0.2, "carbs": 9, "protein": 1.8, "sodium": 360, "fiber": 2.2, "sugar": 5.5}},
+    # Additional units for existing items
+    "cucumber": {"cup": {"cal": 16, "fat": 0.1, "carbs": 4, "protein": 0.7, "sodium": 2, "fiber": 0.5, "sugar": 2},
+                "medium": {"cal": 24, "fat": 0.2, "carbs": 6, "protein": 1, "sodium": 3, "fiber": 0.7, "sugar": 3},
+                "each": {"cal": 45, "fat": 0.3, "carbs": 11, "protein": 2, "sodium": 6, "fiber": 1.5, "sugar": 5}},
+    "lettuce": {"cup": {"cal": 5, "fat": 0.1, "carbs": 1, "protein": 0.5, "sodium": 5, "fiber": 0.5, "sugar": 0.4},
+               "leaf": {"cal": 1, "fat": 0, "carbs": 0.2, "protein": 0.1, "sodium": 1, "fiber": 0.1, "sugar": 0.1},
+               "head": {"cal": 54, "fat": 0.5, "carbs": 10, "protein": 5, "sodium": 50, "fiber": 5, "sugar": 4}},
 }
 
 # =============================================================================
@@ -1881,6 +1926,19 @@ def normalize_unit(unit):
         "pints": "pint", "pt": "pint",
         "quarts": "quart", "qt": "quart",
         "gallons": "gallon", "gal": "gallon",
+        # Historical measurements (Batch 14)
+        "gill": "gill", "gills": "gill",  # 4 fl oz = 0.5 cup
+        "drachm": "drachm", "drachms": "drachm", "dram": "drachm", "drams": "drachm",  # 1/8 oz
+        "dessertspoon": "dessertspoon", "dessertspoons": "dessertspoon", "dssp": "dessertspoon",  # 2 tsp
+        "saltspoon": "saltspoon", "saltspoons": "saltspoon", "saltspoonful": "saltspoon", "saltspoonfuls": "saltspoon",  # 1/4 tsp
+        "wineglass": "wineglass", "wineglasses": "wineglass", "wine glass": "wineglass", "wine glasses": "wineglass",  # ~4 fl oz = 0.5 cup
+        "teacup": "teacup", "teacups": "teacup", "tea cup": "teacup", "tea cups": "teacup",  # ~6 fl oz = 0.75 cup
+        "coffeecup": "coffeecup", "coffeecups": "coffeecup", "coffee cup": "coffeecup", "coffee cups": "coffeecup",  # ~1 cup
+        "jigger": "jigger", "jiggers": "jigger",  # 1.5 oz = 3 tbsp
+        "peck": "peck", "pecks": "peck", "pk": "peck",  # 8 quarts (dry)
+        "bushel": "bushel", "bushels": "bushel", "bu": "bushel",  # 4 pecks = 32 quarts
+        "firkin": "firkin", "firkins": "firkin",  # 9 gallons
+        "hogshead": "hogshead", "hogsheads": "hogshead",  # 63 gallons
         # Count
         "slices": "slice",
         "links": "link",
@@ -1949,6 +2007,10 @@ def normalize_ingredient(item):
     item = item.replace('ﬂ', 'fl')  # fi/fl ligature
     item = item.replace('ﬁ', 'fi')  # fi ligature
 
+    # Remove leading numbers/quantities EARLY so unit patterns can match (Batch 14 fix)
+    import re
+    item = re.sub(r'^\d+[\s/\d.-]*\s*', '', item)
+
     # Fix common OCR quirks in ingredient text
     ocr_fixes = [
         (r'^ful[s]?\s+of\s*', ''),           # item starts with "ful of" (OCR artifact)
@@ -1970,6 +2032,11 @@ def normalize_ingredient(item):
         (r'^t\s+', ''),                      # "t " at start (abbreviation for tsp)
         (r'^c\s+', ''),                      # "c " at start (abbreviation for cup)
         (r'^T\s+', ''),                      # "T " at start (abbreviation for tbsp)
+        # Full-word units embedded in item (Batch 14)
+        (r'^teaspoons?\s+', ''),             # "teaspoon " or "teaspoons " at start
+        (r'^tablespoons?\s+', ''),           # "tablespoon " or "tablespoons " at start
+        (r'^ounces?\s+', ''),                # "ounce " or "ounces " at start
+        (r'^pounds?\s+', ''),                # "pound " or "pounds " at start
         (r'\b1/2\s+cups?\s+', ''),           # "1/2 cup(s) " embedded
         (r'\b1/4\s+cups?\s+', ''),           # "1/4 cup(s) " embedded
         (r'\b3/4\s+cups?\s+', ''),           # "3/4 cup(s) " embedded
@@ -1999,8 +2066,8 @@ def normalize_ingredient(item):
     item = re.sub(r'^\([^)]*\)\s*', '', item)  # Leading parenthetical
     item = re.sub(r'\s*\([^)]*\)', '', item)   # Embedded parenthetical
 
-    # Remove leading numbers/quantities that got mixed in
-    item = re.sub(r'^\d+[\s/\d]*\s*', '', item)
+    # Second pass: Remove any new leading numbers exposed after parenthetical removal
+    item = re.sub(r'^\d+[\s/\d.-]*\s*', '', item)
 
     # Common prefixes to remove
     prefixes = [
@@ -4018,13 +4085,10 @@ def normalize_ingredient(item):
         "flaxseed meal": "flaxseed",
         "chia seeds": "flaxseed",
         "hemp seeds": "flaxseed",
-        "hemp hearts": "flaxseed",
-        "sunflower seeds": "flaxseed",
-        "pumpkin seeds": "flaxseed",
-        "pepitas": "flaxseed",
-        "sesame seeds": "flaxseed",
-        "poppy seeds": "flaxseed",
-        "caraway seeds": "flaxseed",
+        "hemp hearts": "hemp seeds",
+        "sunflower kernels": "sunflower seeds",
+        "pepitas": "pumpkin seeds",
+        # Note: sesame seeds, poppy seeds, caraway seeds are in database - no mapping needed
 
         # Herbs (fresh)
         "bunch dill": "dill",
@@ -4514,6 +4578,104 @@ def normalize_ingredient(item):
         "chopped walnuts": "walnuts",
         "chopped pecans": "pecans",
         "chopped almonds": "almonds",
+
+        # Batch 14: Additional synonyms for common variations
+        # Onion variants
+        "purple onion": "red onion",
+        "spanish onion": "onion",
+        "yellow onion": "onion",
+        "sweet onion": "onion",
+        "vidalia onion": "onion",
+        "walla walla onion": "onion",
+        # Lettuce types -> lettuce (base mapping)
+        "bibb lettuce": "lettuce",
+        "boston lettuce": "lettuce",
+        "butterhead lettuce": "lettuce",
+        "romaine lettuce": "lettuce",
+        "iceberg lettuce": "lettuce",
+        "leaf lettuce": "lettuce",
+        "mixed greens": "lettuce",
+        "salad greens": "lettuce",
+        "spring mix": "lettuce",
+        # Celery variants
+        "chopped celery": "celery",
+        "celery stalk": "celery",
+        "celery stalks": "celery",
+        "celery ribs": "celery",
+        "celery rib": "celery",
+        # Carrot variants
+        "chopped carrot": "carrots",
+        "shredded carrot": "carrots",
+        "carrot sticks": "carrots",
+        # Pepper variants
+        "sweet red pepper": "red pepper",
+        "red bell pepper": "red pepper",
+        "green bell pepper": "green pepper",
+        "yellow bell pepper": "yellow pepper",
+        "orange bell pepper": "orange pepper",
+        "bell pepper": "green pepper",
+        # Herbs with sprigs/leaves
+        "thyme sprigs": "thyme",
+        "thyme sprig": "thyme",
+        "parsley sprigs": "parsley",
+        "parsley sprig": "parsley",
+        "dill sprigs": "dill",
+        "rosemary sprigs": "rosemary",
+        "oregano leaves": "oregano",
+        "thyme leaves": "thyme",
+        "basil leaves": "basil",
+        "sage leaves": "sage",
+        "mint leaves": "mint",
+        # Mayonnaise variants
+        "reduced-fat mayonnaise": "light mayonnaise",
+        "low-fat mayonnaise": "light mayonnaise",
+        "fat free mayonnaise": "light mayonnaise",
+        "mayo": "mayonnaise",
+        # Sesame oil
+        "toasted sesame oil": "dark sesame oil",
+        "asian sesame oil": "dark sesame oil",
+        # Large/medium/small fruit
+        "large lemon": "lemon",
+        "medium lemon": "lemon",
+        "small lemon": "lemon",
+        "large lime": "lime",
+        "medium lime": "lime",
+        "large orange": "oranges",
+        "medium orange": "oranges",
+        "navel orange": "oranges",
+        "valencia orange": "oranges",
+        # Cheese variants
+        "parmigiano-reggiano cheese": "parmesan cheese",
+        "parmigiano-reggiano": "parmesan cheese",
+        "pecorino romano": "parmesan cheese",
+        "grated parmesan": "parmesan cheese",
+        "shaved parmesan": "parmesan cheese",
+        "blue cheese": "blue cheese crumbles",
+        "gorgonzola": "blue cheese crumbles",
+        # Pepper/spices
+        "coarsely ground pepper": "black pepper",
+        "freshly ground pepper": "black pepper",
+        "ground black pepper": "black pepper",
+        "cracked pepper": "black pepper",
+        "crushed red pepper": "red pepper flakes",
+        "red pepper flakes": "red pepper flakes",
+        "italian seasoning": "italian herbs",
+        # Meat variants
+        "boneless skinless chicken": "chicken breast",
+        "chicken cutlets": "chicken breast",
+        "chicken tenders": "chicken breast",
+        "skinless chicken thighs": "chicken thighs",
+        "bone-in chicken": "chicken",
+        # Pasta
+        "penne pasta": "pasta",
+        "spaghetti": "pasta",
+        "linguine": "pasta",
+        "fettuccine": "pasta",
+        "rigatoni": "pasta",
+        "farfalle": "pasta",
+        "rotini": "pasta",
+        "angel hair": "pasta",
+        "egg noodles": "pasta",
     }
 
     # Check for exact match first
@@ -4779,6 +4941,58 @@ def get_nutrition_for_ingredient(ingredient):
         elif unit == "ml" and "cup" in db_entry:
             base = db_entry["cup"]
             return {k: v * quantity / 237 for k, v in base.items()}  # ~237 ml per cup
+        # Historical measurement conversions (Batch 14)
+        elif unit == "gill" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 0.5 for k, v in base.items()}  # 1 gill = 0.5 cup (4 fl oz)
+        elif unit == "drachm" and "oz" in db_entry:
+            base = db_entry["oz"]
+            return {k: v * quantity / 8 for k, v in base.items()}  # 1 drachm = 1/8 oz
+        elif unit == "drachm" and "tbsp" in db_entry:
+            base = db_entry["tbsp"]
+            return {k: v * quantity / 4 for k, v in base.items()}  # 1 fluid drachm ≈ 0.25 tbsp
+        elif unit == "dessertspoon" and "tsp" in db_entry:
+            base = db_entry["tsp"]
+            return {k: v * quantity * 2 for k, v in base.items()}  # 1 dessertspoon = 2 tsp
+        elif unit == "dessertspoon" and "tbsp" in db_entry:
+            base = db_entry["tbsp"]
+            return {k: v * quantity * 0.67 for k, v in base.items()}  # 1 dessertspoon = 2/3 tbsp
+        elif unit == "dessertspoon" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity / 24 for k, v in base.items()}  # 24 dessertspoons = 1 cup
+        elif unit == "saltspoon" and "tsp" in db_entry:
+            base = db_entry["tsp"]
+            return {k: v * quantity / 4 for k, v in base.items()}  # 1 saltspoon = 1/4 tsp
+        elif unit == "saltspoon" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity / 192 for k, v in base.items()}  # 192 saltspoons = 1 cup
+        elif unit == "wineglass" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 0.5 for k, v in base.items()}  # 1 wineglass ≈ 0.5 cup (4 fl oz)
+        elif unit == "teacup" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 0.75 for k, v in base.items()}  # 1 teacup ≈ 0.75 cup (6 fl oz)
+        elif unit == "coffeecup" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity for k, v in base.items()}  # 1 coffeecup ≈ 1 cup
+        elif unit == "jigger" and "tbsp" in db_entry:
+            base = db_entry["tbsp"]
+            return {k: v * quantity * 3 for k, v in base.items()}  # 1 jigger = 3 tbsp (1.5 oz)
+        elif unit == "jigger" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity / 5.33 for k, v in base.items()}  # 1 jigger ≈ 3/16 cup
+        elif unit == "peck" and "quart" in db_entry:
+            base = db_entry["quart"]
+            return {k: v * quantity * 8 for k, v in base.items()}  # 1 peck = 8 quarts
+        elif unit == "peck" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 32 for k, v in base.items()}  # 1 peck = 32 cups
+        elif unit == "bushel" and "quart" in db_entry:
+            base = db_entry["quart"]
+            return {k: v * quantity * 32 for k, v in base.items()}  # 1 bushel = 32 quarts
+        elif unit == "bushel" and "cup" in db_entry:
+            base = db_entry["cup"]
+            return {k: v * quantity * 128 for k, v in base.items()}  # 1 bushel = 128 cups
 
     # Try without unit for counted items
     if item in NUTRITION_DB and "" in NUTRITION_DB[item]:
