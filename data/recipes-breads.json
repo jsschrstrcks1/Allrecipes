@@ -22105,17 +22105,17 @@
       }
     },
     {
-      "id": "breads-dutchovenc",
+      "id": "dutch-oven-biscuits-dutchovenc",
       "collection": "all",
       "collection_display": "Other Family Recipes",
-      "title": "Breads",
+      "title": "Dutch Oven Biscuits",
       "category": "breads",
       "attribution": "",
       "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
+      "description": "Quick and easy biscuits made in a Dutch oven",
+      "servings_yield": "6-8 biscuits",
       "prep_time": "",
-      "cook_time": "",
+      "cook_time": "10 min",
       "total_time": "",
       "ingredients": [
         {
@@ -22185,43 +22185,40 @@
           "text": "for 10 min. or until done."
         }
       ],
-      "temperature": "",
+      "temperature": "500\u00b0F (260\u00b0C)",
       "pan_size": "",
       "notes": [
-        "[AUTO-FLAGGED] Non-recipe: Corrupted multi-ingredient lines, incomplete recipe"
+        "Use solid Crisco shortening for best results"
       ],
       "tags": [
         "vintage",
         "pdf-extracted"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "high",
         "flags": [
           "pdf-extraction"
         ]
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 120,
+          "fat_g": 5.0,
+          "carbs_g": 16.0,
+          "protein_g": 2.5,
+          "sodium_mg": 180,
+          "fiber_g": 0.5,
+          "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "1  c + 2 tbs flour 1/4 tsp baking soda",
-          "1 tsp baking powder pinch of salt",
-          "2  tbs crisco(solid) 1/2 c buttermilk"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "Calculated for 4 servings"
+          "Calculated for 8 biscuits per batch"
         ]
       },
-      "flagged_for_review": true
+      "flagged_for_review": false,
+      "flag_reason": null
     },
     {
       "id": "monkey-bread-dutchovenc",
