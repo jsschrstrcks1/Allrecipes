@@ -4473,20 +4473,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 132,
+          "calories": 154,
           "fat_g": 0.7,
-          "carbs_g": 27.4,
-          "protein_g": 3.6,
-          "sodium_mg": 151,
+          "carbs_g": 29.8,
+          "protein_g": 6.0,
+          "sodium_mg": 2341,
           "fiber_g": 0.8,
-          "sugar_g": 3.8
+          "sugar_g": 3.9
         },
-        "missing_inputs": [
-          "1/2 cup soymilk",
-          "2 tbsp soy margarine, melted"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
@@ -25300,20 +25297,17 @@
       ],
       "source_note": "Recipe Keeper App",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 59,
+          "calories": 68,
           "fat_g": 0.3,
-          "carbs_g": 12.2,
-          "protein_g": 1.6,
-          "sodium_mg": 67,
+          "carbs_g": 13.2,
+          "protein_g": 2.7,
+          "sodium_mg": 1040,
           "fiber_g": 0.4,
           "sugar_g": 1.7
         },
-        "missing_inputs": [
-          "1/2 cup soymilk",
-          "2 tbsp soy margarine"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 9 servings"
         ]
@@ -43144,7 +43138,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 152,
           "fat_g": 4.8,
@@ -43154,9 +43148,7 @@
           "fiber_g": 2.0,
           "sugar_g": 3.5
         },
-        "missing_inputs": [
-          "1 tbsp finely chopped parsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

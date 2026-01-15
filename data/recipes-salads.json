@@ -208,11 +208,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 274,
-          "fat_g": 17.2,
+          "calories": 227,
+          "fat_g": 11.9,
           "carbs_g": 13.5,
-          "protein_g": 17.6,
-          "sodium_mg": 215,
+          "protein_g": 18.6,
+          "sodium_mg": 273,
           "fiber_g": 3.7,
           "sugar_g": 8.1
         },
@@ -10068,89 +10068,6 @@
       }
     },
     {
-      "id": "salad-vegetables-homehelpsa",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Salad Vegetables",
-      "category": "salads",
-      "attribution": "",
-      "source_note": "Home Helps A Pure Food Cook Book A Useful Collection Of Up To Date Practical Recipes 1910 (PDF cookbook)",
-      "description": "Vintage recipe from Home Helps A Pure Food Cook Book A Useful Collection Of Up To Date Practical Recipes 1910",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "PURE FOOD RECIPES",
-          "quantity": "52",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "large dark leaves outside, andso",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "small ones incenter, asifhalf",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "three inchlengths. With radishes,",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Method not fully extracted - see original source."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [
-          "52  PURE FOOD RECIPES",
-          "large dark leaves outside, andso",
-          "small ones incenter, asifhalf",
-          "three inchlengths. With radishes,"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      },
-      "flagged_for_review": true,
-      "flag_reason": "Book text fragment - not a recipe"
-    },
-    {
       "id": "dandelion-andscallion-salad-scottsnort",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -11594,7 +11511,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 12,
           "fat_g": 0.1,
@@ -11604,9 +11521,7 @@
           "fiber_g": 0.8,
           "sugar_g": 1.5
         },
-        "missing_inputs": [
-          "2 tbsp finely chopped peppers."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12365,7 +12280,6 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 cup cooked potato cubes chopped parsley French dressing .",
           "1 cup cooked string beans"
         ],
         "assumptions": [
@@ -13110,7 +13024,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
@@ -13120,9 +13034,7 @@
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "1  c.chopped boiledham"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -14228,16 +14140,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 4,
+          "calories": 9,
           "fat_g": 0.0,
-          "carbs_g": 0.2,
-          "protein_g": 1.0,
-          "sodium_mg": 18,
-          "fiber_g": 0.1,
-          "sugar_g": 0.1
+          "carbs_g": 1.0,
+          "protein_g": 1.2,
+          "sodium_mg": 94,
+          "fiber_g": 0.3,
+          "sugar_g": 0.5
         },
         "missing_inputs": [
-          "1 can (8 oz) tomato and green chile sauce"
+          "2  green chiles, chopped"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -14317,16 +14229,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 126,
+          "calories": 125,
           "fat_g": 13.4,
-          "carbs_g": 0.9,
+          "carbs_g": 0.7,
           "protein_g": 0.8,
-          "sodium_mg": 126,
-          "fiber_g": 0.2,
-          "sugar_g": 0.4
+          "sodium_mg": 106,
+          "fiber_g": 0.1,
+          "sugar_g": 0.3
         },
         "missing_inputs": [
-          "1 carton lemon (8 oz) sour cream"
+          "1 carton lemon (8 oz) sour cream",
+          "1/3 cup green chiles, chopped"
         ],
         "assumptions": [
           "Calculated for 12 servings"
