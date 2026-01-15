@@ -21,7 +21,9 @@ NUTRITION_DB = {
     # WATER & LIQUIDS (0 or minimal calories)
     # =========================================================================
     "water": {"cup": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
-              "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
+              "tbsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+              "can": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+              "": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
     "ice": {"cup": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
 
     # =========================================================================
@@ -201,7 +203,8 @@ NUTRITION_DB = {
     # =========================================================================
     # MEATS - PORK
     # =========================================================================
-    "pork": {"lb": {"cal": 1016, "fat": 60, "carbs": 0, "protein": 112, "sodium": 260, "fiber": 0, "sugar": 0}},
+    "pork": {"lb": {"cal": 1016, "fat": 60, "carbs": 0, "protein": 112, "sodium": 260, "fiber": 0, "sugar": 0},
+            "oz": {"cal": 64, "fat": 3.8, "carbs": 0, "protein": 7, "sodium": 16, "fiber": 0, "sugar": 0}},
     "pork chop": {"": {"cal": 231, "fat": 13, "carbs": 0, "protein": 26, "sodium": 62, "fiber": 0, "sugar": 0}},
     "pork loin": {"lb": {"cal": 680, "fat": 24, "carbs": 0, "protein": 116, "sodium": 280, "fiber": 0, "sugar": 0}},
     "pork tenderloin": {"lb": {"cal": 544, "fat": 12, "carbs": 0, "protein": 104, "sodium": 240, "fiber": 0, "sugar": 0}},
@@ -502,7 +505,11 @@ NUTRITION_DB = {
                 "cup": {"cal": 592, "fat": 48, "carbs": 32, "protein": 21, "sodium": 32, "fiber": 32, "sugar": 0}},
     "ground flaxseed": {"tbsp": {"cal": 37, "fat": 3, "carbs": 2, "protein": 1.3, "sodium": 2, "fiber": 2, "sugar": 0}},
     "chia seeds": {"tbsp": {"cal": 58, "fat": 4, "carbs": 5, "protein": 2, "sodium": 2, "fiber": 4, "sugar": 0}},
-    "coconut": {"cup": {"cal": 283, "fat": 27, "carbs": 12, "protein": 3, "sodium": 16, "fiber": 7, "sugar": 5}},
+    "coconut": {"cup": {"cal": 283, "fat": 27, "carbs": 12, "protein": 3, "sodium": 16, "fiber": 7, "sugar": 5},
+                "oz": {"cal": 100, "fat": 9.5, "carbs": 4.2, "protein": 1, "sodium": 6, "fiber": 2.5, "sugar": 1.8},
+                "package": {"cal": 1400, "fat": 133, "carbs": 59, "protein": 14, "sodium": 84, "fiber": 35, "sugar": 25},
+                "packet": {"cal": 283, "fat": 27, "carbs": 12, "protein": 3, "sodium": 16, "fiber": 7, "sugar": 5},
+                "": {"cal": 283, "fat": 27, "carbs": 12, "protein": 3, "sodium": 16, "fiber": 7, "sugar": 5}},
 
     # =========================================================================
     # GRAINS & PASTA
@@ -657,7 +664,10 @@ NUTRITION_DB = {
               "pinch": {"cal": 1.5, "fat": 0.1, "carbs": 0.1, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0},
               "": {"cal": 1.5, "fat": 0.1, "carbs": 0.1, "protein": 0, "sodium": 0, "fiber": 0.1, "sugar": 0}},
     "ginger": {"tsp": {"cal": 6, "fat": 0, "carbs": 1.3, "protein": 0.2, "sodium": 1, "fiber": 0.2, "sugar": 0},
-              "tbsp": {"cal": 18, "fat": 0, "carbs": 4, "protein": 0.5, "sodium": 3, "fiber": 0.6, "sugar": 0.5}},
+              "tbsp": {"cal": 18, "fat": 0, "carbs": 4, "protein": 0.5, "sodium": 3, "fiber": 0.6, "sugar": 0.5},
+              "dash": {"cal": 1, "fat": 0, "carbs": 0.2, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+              "pinch": {"cal": 1, "fat": 0, "carbs": 0.2, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0},
+              "": {"cal": 6, "fat": 0, "carbs": 1.3, "protein": 0.2, "sodium": 1, "fiber": 0.2, "sugar": 0}},
     "allspice": {"tsp": {"cal": 5, "fat": 0.2, "carbs": 1.4, "protein": 0.1, "sodium": 1, "fiber": 0.4, "sugar": 0}},
     "star anise": {"": {"cal": 7, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0.3, "sugar": 0},
                   "tsp": {"cal": 7, "fat": 0.3, "carbs": 1, "protein": 0.2, "sodium": 0, "fiber": 0.3, "sugar": 0}},
@@ -854,7 +864,8 @@ NUTRITION_DB = {
 
     # Grains & starches
     "quick oats": {"cup": {"cal": 307, "fat": 5, "carbs": 55, "protein": 11, "sodium": 5, "fiber": 8, "sugar": 1}},
-    "oatmeal": {"cup": {"cal": 307, "fat": 5, "carbs": 55, "protein": 11, "sodium": 5, "fiber": 8, "sugar": 1}},
+    "oatmeal": {"cup": {"cal": 307, "fat": 5, "carbs": 55, "protein": 11, "sodium": 5, "fiber": 8, "sugar": 1},
+                "": {"cal": 150, "fat": 2.5, "carbs": 27, "protein": 5, "sodium": 3, "fiber": 4, "sugar": 0.5}},
     "noodles": {"cup": {"cal": 220, "fat": 2, "carbs": 40, "protein": 8, "sodium": 10, "fiber": 2, "sugar": 0}},
     "linguine": {"oz": {"cal": 100, "fat": 0.5, "carbs": 20, "protein": 3.5, "sodium": 1, "fiber": 1, "sugar": 0}},
     "elbow macaroni": {"cup": {"cal": 200, "fat": 1, "carbs": 41, "protein": 7, "sodium": 2, "fiber": 2, "sugar": 1}},
@@ -1027,7 +1038,10 @@ NUTRITION_DB = {
     "hot dog": {"each": {"cal": 151, "fat": 13, "carbs": 2, "protein": 5, "sodium": 567, "fiber": 0, "sugar": 1}},
     "hot dogs": {"each": {"cal": 151, "fat": 13, "carbs": 2, "protein": 5, "sodium": 567, "fiber": 0, "sugar": 1}},
     "frankfurter": {"each": {"cal": 151, "fat": 13, "carbs": 2, "protein": 5, "sodium": 567, "fiber": 0, "sugar": 1}},
-    "pepperoni": {"oz": {"cal": 138, "fat": 12, "carbs": 0.9, "protein": 6, "sodium": 463, "fiber": 0, "sugar": 0}},
+    "pepperoni": {"oz": {"cal": 138, "fat": 12, "carbs": 0.9, "protein": 6, "sodium": 463, "fiber": 0, "sugar": 0},
+                  "package": {"cal": 828, "fat": 72, "carbs": 5.4, "protein": 36, "sodium": 2778, "fiber": 0, "sugar": 0},
+                  "slice": {"cal": 14, "fat": 1.2, "carbs": 0.1, "protein": 0.6, "sodium": 46, "fiber": 0, "sugar": 0},
+                  "": {"cal": 14, "fat": 1.2, "carbs": 0.1, "protein": 0.6, "sodium": 46, "fiber": 0, "sugar": 0}},
     "salami": {"oz": {"cal": 119, "fat": 10, "carbs": 0.5, "protein": 6, "sodium": 529, "fiber": 0, "sugar": 0}},
     "prosciutto": {"oz": {"cal": 55, "fat": 3, "carbs": 0.3, "protein": 7, "sodium": 520, "fiber": 0, "sugar": 0}},
     "corned beef": {"lb": {"cal": 800, "fat": 48, "carbs": 2, "protein": 88, "sodium": 3200, "fiber": 0, "sugar": 0}},
@@ -2351,6 +2365,16 @@ def normalize_unit(unit):
     if oz_jar:
         unit = "can"  # jars are roughly equivalent to cans
 
+    # Handle "oz carton" or "32-oz carton" → "can" (treat as can equivalent)
+    oz_carton = re.match(r'^(?:[\d\s./-]+\s*)?oz\.?\s*cartons?$', unit)
+    if oz_carton:
+        unit = "can"  # cartons are roughly equivalent to cans
+
+    # Handle "oz box" or "10 oz box" → "package"
+    oz_box = re.match(r'^(?:[\d\s./-]+\s*)?oz\.?\s*box(?:es)?$', unit)
+    if oz_box:
+        unit = "package"
+
     # Handle "oz pkgs" or "1 1/4 oz pkgs" → "packet"
     oz_pkgs = re.match(r'^(?:[\d\s./½¼¾-]+\s*)?oz\.?\s*pkgs?$', unit)
     if oz_pkgs:
@@ -2361,7 +2385,7 @@ def normalize_unit(unit):
         unit = "garnish"
 
     # Descriptive units that should be treated as empty (each)
-    descriptive_units = ["ripe", "fresh"]
+    descriptive_units = ["ripe", "fresh", "extra", "additional"]
     if unit in descriptive_units:
         unit = ""
 
@@ -2394,6 +2418,20 @@ def normalize_ingredient(item):
     # Remove leading numbers/quantities EARLY so unit patterns can match (Batch 14 fix)
     import re
     item = re.sub(r'^\d+[\s/\d.-]*\s*', '', item)
+
+    # Batch 29: Handle fully unparsed ingredient strings that still have units at start
+    # e.g., "cups beef broth" -> "beef broth", "oz can cream of chicken soup" -> "cream of chicken soup"
+    leading_unit_patterns = [
+        r'^cups?\s+', r'^cup\s+', r'^tbsp\.?\s+', r'^tsp\.?\s+', r'^oz\.?\s+',
+        r'^ounces?\s+', r'^lb\.?\s+', r'^lbs?\s+', r'^pounds?\s+', r'^can[s]?\s+',
+        r'^package[s]?\s+', r'^pkg\.?\s+', r'^bag[s]?\s+', r'^box(es)?\s+',
+        r'^bottle[s]?\s+', r'^jar[s]?\s+', r'^carton[s]?\s+', r'^container[s]?\s+',
+        r'^bunch(es)?\s+', r'^head[s]?\s+', r'^clove[s]?\s+', r'^slice[s]?\s+',
+        r'^piece[s]?\s+', r'^small\s+', r'^medium\s+', r'^large\s+', r'^extra\s+',
+        r'^each\s+', r'^dozen\s+', r'^pinch(es)?\s+', r'^dash(es)?\s+',
+    ]
+    for pattern in leading_unit_patterns:
+        item = re.sub(pattern, '', item, flags=re.IGNORECASE)
 
     # Remove leading WORD numbers (historical recipes)
     word_numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight',
@@ -2454,8 +2492,15 @@ def normalize_ingredient(item):
     for pattern, replacement in ocr_fixes:
         item = re.sub(pattern, replacement, item)
 
-    # Remove prep notes after comma
-    if "," in item:
+    # Remove prep notes after comma, but preserve compound terms that include commas
+    # e.g., "fat-free, less-sodium chicken broth" should NOT be split
+    compound_comma_terms = ["less-sodium", "reduced-sodium", "low-sodium"]
+    should_split_comma = True
+    for term in compound_comma_terms:
+        if term in item:
+            should_split_comma = False
+            break
+    if "," in item and should_split_comma:
         item = item.split(",")[0].strip()
 
     # Remove parenthetical notes (including leading ones like "(4 oz)")
@@ -2871,6 +2916,12 @@ def normalize_ingredient(item):
         "skinless": "chicken breast",
         "low-sodium chicken broth": "chicken broth",
         "reduced sodium chicken broth": "chicken broth",
+        # Protect broths from fat-free partial match
+        "fat-free chicken broth": "chicken broth",
+        "fat-free less-sodium chicken broth": "chicken broth",
+        "fat-free, less-sodium chicken broth": "chicken broth",
+        "fat-free beef broth": "beef broth",
+        "fat-free less-sodium beef broth": "beef broth",
         "fat-free": "skim milk",
 
         # Corn syrup
@@ -3896,7 +3947,6 @@ def normalize_ingredient(item):
         "artichokes": "asparagus",
         "hearts of palm": "asparagus",
         "palm hearts": "asparagus",
-        "okra": "green beans",
         "jicama": "water chestnuts",
         "daikon": "radishes",
         "daikon radish": "radishes",
@@ -7380,10 +7430,7 @@ def normalize_ingredient(item):
         "ground ginger": "ginger",
         "dash ground ginger": "ginger",
         "ground pork": "pork",
-        "beef broth": "chicken broth",
-        "less-sodium beef broth": "chicken broth",
         "fat-free chicken broth": "chicken broth",
-        "less-sodium chicken broth": "chicken broth",
         "processed cheese": "cheese",
         "velveeta": "cheese",
         "velveeta light": "cheese",
@@ -7592,9 +7639,6 @@ def normalize_ingredient(item):
         "fat-free less-sodium chicken broth": "chicken broth",
         "oz can fat-free chicken broth": "chicken broth",
         "can fat-free chicken broth": "chicken broth",
-        "less-sodium beef broth": "chicken broth",
-        "oz carton less-sodium beef broth": "chicken broth",
-        "carton less-sodium beef broth": "chicken broth",
         "ground pork": "pork",
         "oz ground pork": "pork",
         "dash ground ginger": "ginger",
@@ -7691,10 +7735,9 @@ def normalize_ingredient(item):
         "converted rice": "rice",
         "parboiled rice": "rice",
         "instant white rice": "rice",
-        "okra": "green beans",
-        "frozen okra": "green beans",
-        "whole baby okra": "green beans",
-        "frozen whole baby okra": "green beans",
+        "frozen okra": "okra",
+        "whole baby okra": "okra",
+        "frozen whole baby okra": "okra",
         "oven-roasted turkey": "turkey",
         "leftover turkey": "turkey",
         "deli turkey": "turkey",
@@ -7714,6 +7757,181 @@ def normalize_ingredient(item):
         "goya black beans": "black beans",
         "cans goya black beans": "black beans",
         "each goya black beans": "black beans",
+        # Batch 29 - More ingredient patterns from analysis
+        "fresh basil": "basil",
+        "chopped fresh basil": "basil",
+        "sliced fresh basil": "basil",
+        "thinly sliced fresh basil": "basil",
+        "shredded coconut": "coconut",
+        "flaked coconut": "coconut",
+        "package shredded coconut": "coconut",
+        "frozen spinach": "spinach",
+        "frozen chopped spinach": "spinach",
+        "baby spinach": "spinach",
+        "frozen baby spinach": "spinach",
+        "package frozen spinach": "spinach",
+        "corn muffin mix": "cornmeal",
+        "package corn muffin mix": "cornmeal",
+        "pork tenderloin": "pork",
+        "lb pork tenderloin": "pork",
+        "pound pork tenderloin": "pork",
+        "pork loin": "pork",
+        "lb pork loin": "pork",
+        "boneless pork loin": "pork",
+        "heritage pork loin": "pork",
+        "parmigiano-reggiano": "cheese",
+        "grated parmigiano-reggiano": "cheese",
+        "fresh parmigiano-reggiano": "cheese",
+        "ground ginger": "ginger",
+        "dash ground ginger": "ginger",
+        "crystallized ginger": "ginger",
+        "minced crystallized ginger": "ginger",
+        "piece fresh ginger": "ginger",
+        "inch piece ginger": "ginger",
+        "piece ginger": "ginger",
+        "ground pork": "pork",
+        "oz ground pork": "pork",
+        "lb ground pork": "pork",
+        "ground turkey": "turkey",
+        "ground turkey breast": "turkey",
+        "oz ground turkey": "turkey",
+        "lb ground turkey": "turkey",
+        "less-sodium beef broth": "beef broth",
+        "carton beef broth": "beef broth",
+        "oz carton beef broth": "beef broth",
+        "less-sodium chicken broth": "chicken broth",
+        "fat-free chicken broth": "chicken broth",
+        "fat-free less-sodium chicken broth": "chicken broth",
+        "oz can chicken broth": "chicken broth",
+        "pizza dough": "bread",
+        "refrigerated pizza dough": "bread",
+        "thin-crust pizza dough": "bread",
+        "red curry paste": "curry powder",
+        "tbsp red curry paste": "curry powder",
+        "dijon mustard": "mustard",
+        "cup dijon mustard": "mustard",
+        "tbsp dijon mustard": "mustard",
+        "ramen noodles": "pasta",
+        "packages ramen noodles": "pasta",
+        "package ramen noodles": "pasta",
+        "smoked mozzarella": "mozzarella",
+        "slices smoked mozzarella": "mozzarella",
+        "sliced mozzarella": "mozzarella",
+        "white rice": "rice",
+        "converted white rice": "rice",
+        "parboiled white rice": "rice",
+        "instant white rice": "rice",
+        "sparkling apple juice": "apple juice",
+        "bottle sparkling apple juice": "apple juice",
+        "smoked ham": "ham",
+        "whole smoked ham": "ham",
+        "lb smoked ham": "ham",
+        "pound smoked ham": "ham",
+        "leg of lamb": "lamb",
+        "boneless leg of lamb": "lamb",
+        "lb leg of lamb": "lamb",
+        "navel orange": "orange",
+        "sectioned navel orange": "orange",
+        "chopped navel orange": "orange",
+        "fresh rosemary": "rosemary",
+        "fresh rosemary leaves": "rosemary",
+        "cups fresh rosemary": "rosemary",
+        "broccoli florets": "broccoli",
+        "frozen broccoli florets": "broccoli",
+        "package frozen broccoli": "broccoli",
+        "sliced zucchini": "zucchini",
+        "inch sliced zucchini": "zucchini",
+        "cups sliced zucchini": "zucchini",
+        "mashed bananas": "banana",
+        "ripe bananas": "banana",
+        "very ripe bananas": "banana",
+        "medium bananas": "banana",
+        "unbaked pie crust": "flour",
+        "inch unbaked pie crust": "flour",
+        "prepared pie crust": "flour",
+        "pinch cayenne": "cayenne pepper",
+        "watercress": "spinach",
+        "bunch watercress": "spinach",
+        "trimmed watercress": "spinach",
+        "arugula": "spinach",
+        "bunch arugula": "spinach",
+        "orange zest strips": "orange",
+        "inch orange zest": "orange",
+        "orange zest": "orange",
+        "jicama": "turnip",
+        "julienne jicama": "turnip",
+        "peeled jicama": "turnip",
+        "cup jicama": "turnip",
+        "sliced bread": "bread",
+        "sliced white bread": "bread",
+        "pieces sliced bread": "bread",
+        "white bread": "bread",
+        "ciabatta": "bread",
+        "whole ciabatta": "bread",
+        "ciabatta bread": "bread",
+        "hulled strawberries": "strawberries",
+        "dozen strawberries": "strawberries",
+        "rolled oats": "oatmeal",
+        "extra rolled oats": "oatmeal",
+        "old-fashioned oats": "oatmeal",
+        "quick oats": "oatmeal",
+        "daing": "fish",
+        "dried fish": "fish",
+        "flaked dried fish": "fish",
+        "deboned fish": "fish",
+        "cream of chicken soup": "cream of mushroom soup",
+        "can cream of chicken soup": "cream of mushroom soup",
+        "oz can cream of chicken soup": "cream of mushroom soup",
+        "can water": "water",
+        # Batch 30 - More ingredient mappings
+        "carton less-sodium beef broth": "beef broth",
+        "oz carton less-sodium beef broth": "beef broth",
+        "can fat-free less-sodium chicken broth": "chicken broth",
+        "oz can fat-free chicken broth": "chicken broth",
+        "oz can refrigerated pizza dough": "bread",
+        "can refrigerated pizza dough": "bread",
+        "oz package frozen spinach": "spinach",
+        "package frozen spinach": "spinach",
+        "bags spinach": "spinach",
+        "oz bags spinach": "spinach",
+        "oz package frozen broccoli": "broccoli",
+        "package frozen broccoli": "broccoli",
+        "oven-roasted turkey": "turkey",
+        "slices oven-roasted turkey": "turkey",
+        "deli-sliced turkey": "turkey",
+        "green cardamom pod": "green cardamom",
+        "black cardamom pod": "black cardamom",
+        "kasoori methi": "oregano",
+        "tbsp kasoori methi": "oregano",
+        "chili crisp": "chili sauce",
+        "tbsp chili crisp": "chili sauce",
+        "refrigerated tortellini": "pasta",
+        "oz package refrigerated tortellini": "pasta",
+        "package refrigerated tortellini": "pasta",
+        "deveined peeled shrimp": "shrimp",
+        "lb deveined peeled shrimp": "shrimp",
+        "oz package frozen okra": "okra",
+        "package frozen okra": "okra",
+        "frozen whole okra": "okra",
+        "baby okra": "okra",
+        "fresh peaches": "peach",
+        "cup fresh peaches": "peach",
+        "peeled peaches": "peach",
+        "rum or apple juice": "apple juice",
+        "cup rum": "wine",
+        "inch piece ginger": "ginger",
+        "inch slice ginger": "ginger",
+        "inch ginger": "ginger",
+        "premium tuna": "tuna",
+        "oz can premium tuna": "tuna",
+        "can premium tuna": "tuna",
+        "canned tuna": "tuna",
+        "lb boneless leg of lamb": "lamb",
+        "boneless leg lamb": "lamb",
+        "lb-boneless leg of lamb": "lamb",
+        "pound whole ham": "ham",
+        "lb whole ham": "ham",
+        "to-pound whole ham": "ham",
     }
 
     # Check for exact match first
@@ -8024,6 +8242,13 @@ def get_nutrition_for_ingredient(ingredient):
         elif unit == "saltspoon" and "cup" in db_entry:
             base = db_entry["cup"]
             return {k: v * quantity / 192 for k, v in base.items()}  # 192 saltspoons = 1 cup
+        # Batch 30: Dash and pinch conversions (for spices)
+        elif unit == "dash" and "tsp" in db_entry:
+            base = db_entry["tsp"]
+            return {k: v * quantity / 8 for k, v in base.items()}  # 1 dash ≈ 1/8 tsp
+        elif unit == "pinch" and "tsp" in db_entry:
+            base = db_entry["tsp"]
+            return {k: v * quantity / 16 for k, v in base.items()}  # 1 pinch ≈ 1/16 tsp
         elif unit == "wineglass" and "cup" in db_entry:
             base = db_entry["cup"]
             return {k: v * quantity * 0.5 for k, v in base.items()}  # 1 wineglass ≈ 0.5 cup (4 fl oz)
