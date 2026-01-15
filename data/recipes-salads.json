@@ -13263,17 +13263,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 107,
-          "fat_g": 1.5,
+          "calories": 234,
+          "fat_g": 15.9,
           "carbs_g": 19.5,
-          "protein_g": 3.5,
-          "sodium_mg": 198,
+          "protein_g": 3.6,
+          "sodium_mg": 295,
           "fiber_g": 1.2,
           "sugar_g": 1.5
         },
         "missing_inputs": [
-          "1 can ardines 1 c.thincream",
-          "5  c.butter"
+          "1 can ardines 1 c.thincream"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -13490,21 +13489,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 52,
+          "fat_g": 0.1,
+          "carbs_g": 13.0,
+          "protein_g": 1.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 2.0,
+          "sugar_g": 8.5
         },
-        "missing_inputs": [
-          "1  c.diced pineapple 2 pears",
-          "1  c.malaga grapes 1 apple",
-          "2  bananas 1 grape fruit"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
