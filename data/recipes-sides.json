@@ -957,13 +957,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 73,
+          "calories": 76,
           "fat_g": 7.2,
-          "carbs_g": 1.9,
-          "protein_g": 0.4,
+          "carbs_g": 2.7,
+          "protein_g": 0.5,
           "sodium_mg": 1,
-          "fiber_g": 0.6,
-          "sugar_g": 0.6
+          "fiber_g": 0.9,
+          "sugar_g": 0.8
         },
         "missing_inputs": [
           "1/2 cup grated parmesan"
@@ -18595,11 +18595,11 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 156,
-          "fat_g": 4.0,
+          "calories": 198,
+          "fat_g": 8.5,
           "carbs_g": 12.1,
-          "protein_g": 18.6,
-          "sodium_mg": 544,
+          "protein_g": 18.1,
+          "sodium_mg": 541,
           "fiber_g": 2.2,
           "sugar_g": 3.4
         },
@@ -28356,13 +28356,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 148,
-          "fat_g": 4.8,
-          "carbs_g": 19.7,
-          "protein_g": 6.4,
-          "sodium_mg": 90,
+          "calories": 142,
+          "fat_g": 4.3,
+          "carbs_g": 19.8,
+          "protein_g": 6.0,
+          "sodium_mg": 85,
           "fiber_g": 2.2,
-          "sugar_g": 0.9
+          "sugar_g": 0.8
         },
         "missing_inputs": [
           "1/2 cup small curd cottage cheese"
@@ -29140,19 +29140,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 64,
-          "fat_g": 7.0,
-          "carbs_g": 1.2,
-          "protein_g": 0.1,
-          "sodium_mg": 75,
-          "fiber_g": 0.4,
-          "sugar_g": 0.4
+          "calories": 172,
+          "fat_g": 7.4,
+          "carbs_g": 20.8,
+          "protein_g": 7.7,
+          "sodium_mg": 90,
+          "fiber_g": 6.9,
+          "sugar_g": 3.4
         },
-        "missing_inputs": [
-          "1 lb very young fava beans (leave in pods)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -29238,19 +29236,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 242,
-          "fat_g": 23.4,
-          "carbs_g": 6.0,
-          "protein_g": 4.2,
-          "sodium_mg": 99,
-          "fiber_g": 2.6,
-          "sugar_g": 2.0
+          "calories": 674,
+          "fat_g": 24.8,
+          "carbs_g": 84.0,
+          "protein_g": 34.1,
+          "sodium_mg": 157,
+          "fiber_g": 28.6,
+          "sugar_g": 14.0
         },
-        "missing_inputs": [
-          "4 lb unshelled fava beans"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
