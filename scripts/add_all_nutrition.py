@@ -7479,8 +7479,16 @@ def normalize_ingredient(item):
         "vanilla non-fat yogurt": "yogurt",
         "non-fat yogurt": "yogurt",
         "nonfat yogurt": "yogurt",
-        "mixed berries": "berries",
-        "pieces mixed berries": "berries",
+        "mixed berries": "blueberries",
+        "pieces mixed berries": "blueberries",
+        # Protect specific berries from partial match on "berries" -> "blueberries"
+        "strawberries": "strawberries",
+        # Fix coconut patterns
+        "cream coconut": "coconut milk",
+        "cream of coconut": "coconut milk",
+        "raspberries": "raspberries",
+        "blackberries": "blackberries",
+        "cranberries": "cranberries",
         "berries": "blueberries",
         "package brownie mix": "brownie mix",
         "bits crisp bacon": "bacon",
