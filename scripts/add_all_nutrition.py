@@ -209,6 +209,7 @@ NUTRITION_DB = {
     "dried beef": {"oz": {"cal": 116, "fat": 7, "carbs": 3, "protein": 9, "sodium": 590, "fiber": 0.4, "sugar": 3},
                   "lb": {"cal": 1856, "fat": 112, "carbs": 48, "protein": 144, "sodium": 9440, "fiber": 6.4, "sugar": 48},
                   "cup": {"cal": 232, "fat": 14, "carbs": 6, "protein": 18, "sodium": 1180, "fiber": 0.8, "sugar": 6},
+                  "slice": {"cal": 10, "fat": 0.6, "carbs": 0.3, "protein": 0.8, "sodium": 50, "fiber": 0, "sugar": 0.3},
                   "": {"cal": 116, "fat": 7, "carbs": 3, "protein": 9, "sodium": 590, "fiber": 0.4, "sugar": 3}},
 
     # =========================================================================
@@ -827,8 +828,14 @@ NUTRITION_DB = {
                    "doz": {"cal": 480, "fat": 12, "carbs": 84, "protein": 12, "sodium": 192, "fiber": 0, "sugar": 48}},
     "corn chips": {"cup": {"cal": 267, "fat": 14, "carbs": 33, "protein": 3, "sodium": 179, "fiber": 2, "sugar": 0}},
     "tortilla chips": {"cup": {"cal": 267, "fat": 14, "carbs": 33, "protein": 3, "sodium": 179, "fiber": 2, "sugar": 0}},
-    "potato chips": {"cup": {"cal": 274, "fat": 19, "carbs": 25, "protein": 3, "sodium": 303, "fiber": 2, "sugar": 1}},
+    "potato chips": {"cup": {"cal": 274, "fat": 19, "carbs": 25, "protein": 3, "sodium": 303, "fiber": 2, "sugar": 1},
+                    "bag": {"cal": 800, "fat": 55, "carbs": 73, "protein": 9, "sodium": 900, "fiber": 6, "sugar": 3}},
     "french fried onions": {"cup": {"cal": 320, "fat": 24, "carbs": 24, "protein": 4, "sodium": 520, "fiber": 2, "sugar": 4}},
+    "popcorn": {"cup": {"cal": 31, "fat": 0.4, "carbs": 6, "protein": 1, "sodium": 1, "fiber": 1, "sugar": 0.1},
+               "quart": {"cal": 124, "fat": 1.6, "carbs": 24, "protein": 4, "sodium": 4, "fiber": 4, "sugar": 0.4},
+               "bag": {"cal": 500, "fat": 32, "carbs": 50, "protein": 6, "sodium": 520, "fiber": 8, "sugar": 2}},
+    "chocolate syrup": {"tbsp": {"cal": 52, "fat": 0.4, "carbs": 12, "protein": 0.5, "sodium": 27, "fiber": 0.4, "sugar": 10},
+                       "cup": {"cal": 832, "fat": 6.4, "carbs": 192, "protein": 8, "sodium": 432, "fiber": 6.4, "sugar": 160}},
 
     # Cooking sprays & zests
     "cooking spray": {"": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 0, "fiber": 0, "sugar": 0}},
@@ -1044,6 +1051,8 @@ NUTRITION_DB = {
     "salt and pepper": {"tsp": {"cal": 3, "fat": 0, "carbs": 0.7, "protein": 0.1, "sodium": 1163, "fiber": 0.3, "sugar": 0}},
     "seasoned salt": {"tsp": {"cal": 0, "fat": 0, "carbs": 0, "protein": 0, "sodium": 1360, "fiber": 0, "sugar": 0}},
     "garlic salt": {"tsp": {"cal": 3, "fat": 0, "carbs": 0.7, "protein": 0.1, "sodium": 1480, "fiber": 0, "sugar": 0}},
+    "onion salt": {"tsp": {"cal": 3, "fat": 0, "carbs": 0.8, "protein": 0.1, "sodium": 1500, "fiber": 0.1, "sugar": 0.1}},
+    "celery salt": {"tsp": {"cal": 3, "fat": 0.1, "carbs": 0.5, "protein": 0.1, "sodium": 1470, "fiber": 0.1, "sugar": 0}},
 
     # Condiments & sauces
     "oyster sauce": {"tbsp": {"cal": 9, "fat": 0, "carbs": 2, "protein": 0.2, "sodium": 437, "fiber": 0, "sugar": 1}},
@@ -2520,6 +2529,12 @@ def normalize_ingredient(item):
 
     # Remove leading "ful of" from OCR'd "tablespoonful of" / "teaspoonful of"
     item = re.sub(r'^ful\s+of\s+', '', item)
+
+    # Remove footnote references like "[2]", "[1]", etc.
+    item = re.sub(r'\[\d+\]', '', item)
+
+    # Remove trailing non-breaking spaces
+    item = item.replace('\xa0', ' ').strip()
 
     # Batch 29: Handle fully unparsed ingredient strings that still have units at start
     # e.g., "cups beef broth" -> "beef broth", "oz can cream of chicken soup" -> "cream of chicken soup"
@@ -5624,6 +5639,36 @@ def normalize_ingredient(item):
         "ground coriander": "coriander",
         "coriander seeds": "coriander",
         "coriander powder": "coriander",
+        # Minimal ingredients - treat as zero calorie
+        "little pepper": "",
+        "a little pepper": "",
+        "little salt": "",
+        "a little salt": "",
+        "little nutmeg": "",
+        "a little nutmeg": "",
+        "dash of allspice": "allspice",
+        "dash of cinnamon": "cinnamon",
+        "dash of allspice and cinnamon": "",
+        "dash of steak sauce": "",
+        "spinach liquid": "",
+        "rennet tablet": "",
+        "dumpling recipe": "",
+        # Pumpkin variants
+        "steamed pumpkin": "pumpkin",
+        "mashed pumpkin": "pumpkin",
+        "mashed pumpkin or squash": "pumpkin",
+        "canned pumpkin": "pumpkin",
+        # Chocolate variants
+        "sq. chocolate": "unsweetened chocolate",
+        "squares chocolate": "unsweetened chocolate",
+        "square chocolate": "unsweetened chocolate",
+        # Stale bread/cake
+        "stale cake or bread": "bread",
+        "stale cake": "cake",
+        "stale bread": "bread",
+        # Rich variants - just use base item
+        "rich baking powder": "baking powder",
+        "rich milk": "milk",
 
         # Batch 1 fixes - OCR artifacts with missing spaces
         "coldmilk": "milk",
@@ -5701,6 +5746,71 @@ def normalize_ingredient(item):
         "inch slice beetroot": "beets",
         "beetroot": "beets",
         "package yeast": "yeast",
+        # Deep frying
+        "for deep frying oil": "oil",
+        "deep frying oil": "oil",
+        # Mushrooms
+        "nice mushrooms": "mushrooms",
+        "button mushrooms": "mushrooms",
+        "sliced mushrooms": "mushrooms",
+        "cremini mushrooms": "mushrooms",
+        # Gratings
+        "few gratings of nutmeg": "",
+        "gratings of nutmeg": "",
+        "gratings nutmeg": "",
+        # Popcorn
+        "popped corn": "popcorn",
+        "popped popcorn": "popcorn",
+        # Gelatin
+        "envelope gelatin": "gelatin",
+        "envelopes gelatin": "gelatin",
+        "pkg gelatin": "gelatin",
+        # Mashed variants
+        "mashed bananas": "banana",
+        "mashed banana": "banana",
+        "mashed potatoes": "potato",
+        "mashed potato": "potato",
+        # Typos and OCR artifacts
+        "baking power": "baking powder",
+        "sug ar": "sugar",
+        "carro ts": "carrots",
+        "she rry": "sherry",
+        "cats up": "ketchup",
+        "catsup": "ketchup",
+        "cat sup": "ketchup",
+        # Cereals
+        "wheaties": "cereal",
+        "cheerios": "cereal",
+        "corn flakes": "cereal",
+        "rice krispies": "cereal",
+        # Nuts
+        "broken nuts": "mixed nuts",
+        "chopped nuts": "mixed nuts",
+        # Citron
+        "cut-up citron": "candied citron",
+        "citron": "candied citron",
+        # Spice variants
+        "ginger powder": "ground ginger",
+        "dillweed": "dill",
+        "dried dillweed": "dill",
+        "celery flakes": "celery",
+        "ground thyme": "thyme",
+        "dried thyme": "thyme",
+        # Noodle variants
+        "fine noodles": "pasta",
+        "wide noodles": "pasta",
+        "egg noodles": "pasta",
+        # Broth
+        "beef consommé": "beef broth",
+        "beef consomme": "beef broth",
+        "chicken consommé": "chicken broth",
+        "chicken consomme": "chicken broth",
+        # Cut-up variants
+        "cut-up broccoli": "broccoli",
+        "cut-up celery": "celery",
+        "cut-up chicken": "chicken",
+        # Chocolate
+        "chocolate sauce": "chocolate syrup",
 
         # Batch 2 fixes - Can/package patterns
         "packet taco seasoning": "taco seasoning",
