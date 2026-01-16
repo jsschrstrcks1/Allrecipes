@@ -131,20 +131,17 @@
         "IMG_4480.PNG"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 66,
-          "fat_g": 5.9,
-          "carbs_g": 2.3,
-          "protein_g": 1.6,
-          "sodium_mg": 187,
-          "fiber_g": 0.8,
-          "sugar_g": 0.4
+          "calories": 108,
+          "fat_g": 6.3,
+          "carbs_g": 11.3,
+          "protein_g": 2.3,
+          "sodium_mg": 262,
+          "fiber_g": 1.1,
+          "sugar_g": 1.5
         },
         "missing_inputs": [
-          "3 cups Corn Chex cereal",
-          "3 cups Rice Chex cereal",
-          "3 cups Wheat Chex cereal",
           "1 cup bite-size pretzels"
         ],
         "assumptions": [
@@ -252,25 +249,15 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 44,
-          "fat_g": 1.8,
-          "carbs_g": 7.7,
-          "protein_g": 0.5,
-          "sodium_mg": 0,
-          "fiber_g": 3.8,
-          "sugar_g": 0.1
-        },
-        "missing_inputs": [
-          "1/2 cup ground black pepper",
-          "1/2 cup ground cumin",
-          "1/4 cup ground coriander",
-          "1/4 cup ground cloves"
-        ],
-        "assumptions": [
-          "Calculated for 2 servings"
-        ]
+          "calories": 7,
+          "fat_g": 0.3,
+          "carbs_g": 1.2,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
+          "fiber_g": 0.7
+        }
       }
     },
     {

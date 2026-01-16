@@ -74,13 +74,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 90,
-          "fat_g": 6.2,
-          "carbs_g": 7.7,
-          "protein_g": 3.3,
-          "sodium_mg": 367,
-          "fiber_g": 3.1,
-          "sugar_g": 1.9
+          "calories": 67,
+          "fat_g": 5.9,
+          "carbs_g": 3.2,
+          "protein_g": 1.3,
+          "sodium_mg": 345,
+          "fiber_g": 1.3,
+          "sugar_g": 0.8
         },
         "missing_inputs": [],
         "assumptions": [
@@ -234,13 +234,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 247,
-          "fat_g": 7.2,
+          "calories": 218,
+          "fat_g": 4.4,
           "carbs_g": 40.7,
-          "protein_g": 5.7,
-          "sodium_mg": 75,
+          "protein_g": 4.9,
+          "sodium_mg": 27,
           "fiber_g": 4.5,
-          "sugar_g": 2.5
+          "sugar_g": 2.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -623,13 +623,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 219,
-          "fat_g": 16.3,
-          "carbs_g": 7.8,
-          "protein_g": 10.7,
-          "sodium_mg": 279,
-          "fiber_g": 0.5,
-          "sugar_g": 1.8
+          "calories": 209,
+          "fat_g": 15.3,
+          "carbs_g": 8.0,
+          "protein_g": 9.7,
+          "sodium_mg": 353,
+          "fiber_g": 0.6,
+          "sugar_g": 1.7
         },
         "missing_inputs": [],
         "assumptions": [
@@ -707,9 +707,9 @@
           "calories": 105,
           "fat_g": 4.1,
           "carbs_g": 16.8,
-          "protein_g": 1.5,
+          "protein_g": 1.4,
           "sodium_mg": 125,
-          "fiber_g": 3.6,
+          "fiber_g": 3.9,
           "sugar_g": 10.2
         },
         "missing_inputs": [],
@@ -790,7 +790,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
           "calories": 171,
           "fat_g": 12.0,
@@ -800,7 +800,9 @@
           "fiber_g": 2.8,
           "sugar_g": 1.4
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "for garnish chopped parsley"
+        ],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
@@ -870,8 +872,8 @@
         "status": "complete",
         "per_serving": {
           "calories": 44,
-          "fat_g": 2.3,
-          "carbs_g": 3.1,
+          "fat_g": 2.1,
+          "carbs_g": 3.0,
           "protein_g": 3.0,
           "sodium_mg": 269,
           "fiber_g": 0.7,
@@ -1037,11 +1039,11 @@
         "per_serving": {
           "calories": 80,
           "fat_g": 9.3,
-          "carbs_g": 0.0,
+          "carbs_g": 0.2,
           "protein_g": 0.0,
           "sodium_mg": 388,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
         },
         "missing_inputs": [
           "3 3-oz packages ramen noodles (discard seasoning packets)"
@@ -1122,19 +1124,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 65,
-          "fat_g": 0.2,
-          "carbs_g": 9.5,
-          "protein_g": 3.3,
-          "sodium_mg": 3,
-          "fiber_g": 3.1,
-          "sugar_g": 2.5
+          "calories": 136,
+          "fat_g": 6.7,
+          "carbs_g": 12.8,
+          "protein_g": 4.3,
+          "sodium_mg": 17,
+          "fiber_g": 4.6,
+          "sugar_g": 3.9
         },
-        "missing_inputs": [
-          "1 10-oz bag Birds Eye Steamfresh Brown & Wild Rice with Broccoli & Carrots"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
@@ -1214,22 +1214,17 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
         "per_serving": {
-          "calories": 232,
-          "fat_g": 5.8,
-          "carbs_g": 39.5,
-          "protein_g": 6.4,
-          "sodium_mg": 107,
-          "fiber_g": 3.9,
-          "sugar_g": 5.1
+          "calories": 290,
+          "fat_g": 7,
+          "saturated_fat_g": 4,
+          "cholesterol_mg": 22,
+          "sodium_mg": 546,
+          "carbs_g": 46,
+          "fiber_g": 3,
+          "protein_g": 10
         },
-        "missing_inputs": [
-          "3/4 cup grated gruy\u00e8re cheese"
-        ],
-        "assumptions": [
-          "Calculated for 7 servings"
-        ]
+        "status": "complete"
       },
       "notes": [
         "Instead of cream, we used low-fat and whole milk and saved 13 g fat per serving.",
@@ -1340,7 +1335,7 @@
         "Family serving suggestions: with poached pears, tart chunky homemade applesauce, cold sour cream and caviar, confectioner's sugar, or plain. Ronnie loves his with ketchup."
       ],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
           "calories": 66,
           "fat_g": 1.4,
@@ -1350,7 +1345,9 @@
           "fiber_g": 1.2,
           "sugar_g": 0.9
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "for serving applesauce or other toppings"
+        ],
         "assumptions": [
           "Calculated for 18 servings"
         ]
@@ -1782,13 +1779,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 250,
-          "fat_g": 7.9,
-          "carbs_g": 45.4,
-          "protein_g": 2.3,
-          "sodium_mg": 360,
-          "fiber_g": 5.2,
-          "sugar_g": 36.2
+          "calories": 186,
+          "fat_g": 7.5,
+          "carbs_g": 30.6,
+          "protein_g": 0.8,
+          "sodium_mg": 252,
+          "fiber_g": 0.8,
+          "sugar_g": 29.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -2060,22 +2057,15 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 248,
-          "fat_g": 25.8,
-          "carbs_g": 4.1,
-          "protein_g": 1.3,
-          "sodium_mg": 1269,
-          "fiber_g": 0.4,
-          "sugar_g": 0.1
-        },
-        "missing_inputs": [
-          "3 cups parboiled long-grain white rice"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+          "calories": 203,
+          "fat_g": 13.4,
+          "carbs_g": 18,
+          "protein_g": 2.8,
+          "sodium_mg": 641,
+          "fiber_g": 0.8
+        }
       },
       "notes": [
         "Let everything relax for about 10 minutes before cooking.",
@@ -2135,18 +2125,14 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 1449,
-          "fat_g": 162.2,
-          "carbs_g": 5.2,
+          "calories": 191,
+          "fat_g": 20.3,
+          "carbs_g": 3,
           "protein_g": 0.5,
-          "sodium_mg": 583,
-          "fiber_g": 0.3,
-          "sugar_g": 1.5
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+          "sodium_mg": 74,
+          "fiber_g": 0.2,
+          "cholesterol_mg": 0
+        }
       },
       "tags": [
         "lebanese",
@@ -2213,18 +2199,14 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 3867,
-          "fat_g": 434.3,
-          "carbs_g": 9.5,
-          "protein_g": 0.7,
-          "sodium_mg": 6978,
-          "fiber_g": 0.6,
-          "sugar_g": 3.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 1 servings"
-        ]
+          "calories": 123,
+          "fat_g": 13.6,
+          "carbs_g": 0.9,
+          "protein_g": 0.1,
+          "sodium_mg": 165,
+          "fiber_g": 0.1,
+          "cholesterol_mg": 0
+        }
       },
       "tags": [
         "lebanese",
@@ -2307,22 +2289,16 @@
       ],
       "temperature": "375\u00b0F (190\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 100,
-          "fat_g": 1.9,
-          "carbs_g": 19.2,
-          "protein_g": 2.1,
-          "sodium_mg": 27,
-          "fiber_g": 2.1,
-          "sugar_g": 1.1
-        },
-        "missing_inputs": [
-          "1 quart oil for frying"
-        ],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+          "calories": 250,
+          "fat_g": 11.8,
+          "carbs_g": 33.4,
+          "protein_g": 4.1,
+          "sodium_mg": 17,
+          "fiber_g": 4.4,
+          "cholesterol_mg": 0
+        }
       },
       "tags": [
         "lebanese",
@@ -2406,23 +2382,16 @@
       ],
       "temperature": "375\u00b0F (190\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 28,
-          "fat_g": 0.3,
-          "carbs_g": 5.9,
-          "protein_g": 2.0,
-          "sodium_mg": 55,
-          "fiber_g": 2.1,
-          "sugar_g": 2.1
-        },
-        "missing_inputs": [
-          "1/3 cup tahini",
-          "6 cups vegetable oil for frying"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+          "calories": 301,
+          "fat_g": 29.2,
+          "carbs_g": 9.1,
+          "protein_g": 4.3,
+          "sodium_mg": 45,
+          "fiber_g": 3.7,
+          "cholesterol_mg": 0
+        }
       },
       "tags": [
         "lebanese",
@@ -2529,18 +2498,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 57,
-          "fat_g": 3.6,
-          "carbs_g": 6.1,
-          "protein_g": 0.7,
-          "sodium_mg": 99,
-          "fiber_g": 1.6,
-          "sugar_g": 2.8
+          "calories": 88,
+          "fat_g": 3,
+          "sodium_mg": 230,
+          "carbohydrates_g": 15,
+          "sugar_g": 7,
+          "fiber_g": 3,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -2594,18 +2561,15 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.8,
-          "carbs_g": 0.1,
-          "protein_g": 1.0,
-          "sodium_mg": 12,
-          "fiber_g": 0.0,
-          "sugar_g": 0.1
+          "calories": 72,
+          "fat_g": 5,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 186,
+          "sodium_mg": 71,
+          "protein_g": 6
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -2685,18 +2649,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 1.8,
-          "carbs_g": 4.8,
-          "protein_g": 0.5,
-          "sodium_mg": 39,
-          "fiber_g": 0.5,
-          "sugar_g": 0.2
+          "calories": 113,
+          "fat_g": 4,
+          "sodium_mg": 155,
+          "carbohydrates_g": 18,
+          "sugar_g": 1,
+          "fiber_g": 2,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -2778,18 +2740,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 100,
-          "fat_g": 3.7,
-          "carbs_g": 5.8,
-          "protein_g": 1.2,
-          "sodium_mg": 82,
-          "fiber_g": 1.8,
-          "sugar_g": 3.0
+          "calories": 90,
+          "fat_g": 5,
+          "saturated_fat_g": 1,
+          "sodium_mg": 163,
+          "carbohydrates_g": 8,
+          "sugar_g": 5,
+          "fiber_g": 3,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -2908,24 +2869,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 238,
-          "fat_g": 10.1,
-          "carbs_g": 37.5,
-          "protein_g": 4.8,
-          "sodium_mg": 117,
-          "fiber_g": 5.7,
-          "sugar_g": 24.1
+          "calories": 155,
+          "fat_g": 12,
+          "saturated_fat_g": 2,
+          "sodium_mg": 104,
+          "carbohydrates_g": 10,
+          "sugar_g": 2,
+          "fiber_g": 3,
+          "protein_g": 4
         },
-        "missing_inputs": [
-          "1 can (15 ounces) garbanzo beans or chickpeas, rinsed and drained",
-          "1/4 cup olive oil or pumpkin seed oil",
-          "2 tablespoons pumpkin seed oil or olive oil, optional"
-        ],
-        "assumptions": [
-          "Calculated for 3 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -3000,22 +2956,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 234,
-          "fat_g": 20.9,
-          "carbs_g": 7.2,
-          "protein_g": 7.5,
-          "sodium_mg": 360,
-          "fiber_g": 4.2,
-          "sugar_g": 1.6
+          "calories": 125,
+          "fat_g": 9,
+          "saturated_fat_g": 4,
+          "cholesterol_mg": 15,
+          "sodium_mg": 53,
+          "carbohydrates_g": 10,
+          "sugar_g": 3,
+          "fiber_g": 5,
+          "protein_g": 4
         },
-        "missing_inputs": [
-          "1 pound fresh or frozen green beans, cut into 2-inch pieces"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -3112,18 +3066,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 71,
-          "fat_g": 6.4,
-          "carbs_g": 3.1,
-          "protein_g": 1.5,
-          "sodium_mg": 380,
-          "fiber_g": 1.3,
-          "sugar_g": 0.9
+          "calories": 156,
+          "fat_g": 15,
+          "saturated_fat_g": 3,
+          "cholesterol_mg": 3,
+          "sodium_mg": 309,
+          "carbohydrates_g": 3,
+          "sugar_g": 1,
+          "fiber_g": 1,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -3237,22 +3191,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 25,
-          "fat_g": 0.6,
-          "carbs_g": 4.7,
-          "protein_g": 0.4,
-          "sodium_mg": 21,
-          "fiber_g": 0.7,
-          "sugar_g": 1.5
+          "calories": 92,
+          "fat_g": 1,
+          "sodium_mg": 119,
+          "carbohydrates_g": 20,
+          "sugar_g": 13,
+          "fiber_g": 2,
+          "protein_g": 1
         },
-        "missing_inputs": [
-          "1 large sweet potato, peeled and cubed"
-        ],
-        "assumptions": [
-          "Calculated for 24 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -3317,18 +3267,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 32,
-          "fat_g": 2.9,
-          "carbs_g": 1.2,
-          "protein_g": 0.8,
-          "sodium_mg": 58,
-          "fiber_g": 0.8,
-          "sugar_g": 0.5
+          "calories": 64,
+          "fat_g": 6,
+          "saturated_fat_g": 4,
+          "cholesterol_mg": 15,
+          "sodium_mg": 52,
+          "carbohydrates_g": 2,
+          "sugar_g": 1,
+          "fiber_g": 1,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -3409,18 +3359,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.2,
-          "carbs_g": 2.0,
-          "protein_g": 0.7,
-          "sodium_mg": 125,
-          "fiber_g": 0.6,
-          "sugar_g": 0.9
+          "calories": 44,
+          "fat_g": 1,
+          "cholesterol_mg": 2,
+          "sodium_mg": 336,
+          "carbohydrates_g": 8,
+          "sugar_g": 3,
+          "fiber_g": 3,
+          "protein_g": 3
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 10 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -3534,22 +3483,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 28,
-          "fat_g": 1.3,
-          "carbs_g": 4.1,
-          "protein_g": 0.7,
-          "sodium_mg": 40,
-          "fiber_g": 0.9,
-          "sugar_g": 1.0
+          "calories": 110,
+          "fat_g": 5,
+          "saturated_fat_g": 1,
+          "cholesterol_mg": 1,
+          "sodium_mg": 384,
+          "carbohydrates_g": 17,
+          "sugar_g": 6,
+          "fiber_g": 3,
+          "protein_g": 3
         },
-        "missing_inputs": [
-          "1 medium parsnip, peeled and cut into 1-inch cubes"
-        ],
-        "assumptions": [
-          "Calculated for 14 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -3638,22 +3585,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 38,
-          "fat_g": 2.6,
-          "carbs_g": 3.3,
-          "protein_g": 0.7,
-          "sodium_mg": 64,
-          "fiber_g": 0.9,
-          "sugar_g": 1.8
+          "calories": 88,
+          "fat_g": 5,
+          "saturated_fat_g": 1,
+          "cholesterol_mg": 1,
+          "sodium_mg": 243,
+          "carbohydrates_g": 10,
+          "sugar_g": 5,
+          "fiber_g": 4,
+          "protein_g": 3
         },
-        "missing_inputs": [
-          "1 medium head cauliflower, broken into florets"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -3753,18 +3698,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 48,
-          "fat_g": 2.6,
-          "carbs_g": 6.2,
-          "protein_g": 1.2,
-          "sodium_mg": 108,
-          "fiber_g": 1.7,
-          "sugar_g": 4.0
+          "calories": 50,
+          "fat_g": 3,
+          "sodium_mg": 106,
+          "carbohydrates_g": 6,
+          "sugar_g": 4,
+          "fiber_g": 2,
+          "protein_g": 1
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -3871,18 +3814,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 51,
-          "fat_g": 2.0,
-          "carbs_g": 8.1,
-          "protein_g": 0.9,
-          "sodium_mg": 49,
-          "fiber_g": 1.6,
-          "sugar_g": 1.2
+          "calories": 100,
+          "fat_g": 7,
+          "saturated_fat_g": 1,
+          "sodium_mg": 164,
+          "carbohydrates_g": 9,
+          "sugar_g": 3,
+          "fiber_g": 2,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -3988,22 +3930,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 62,
-          "fat_g": 3.8,
-          "carbs_g": 6.8,
-          "protein_g": 1.4,
-          "sodium_mg": 83,
-          "fiber_g": 1.8,
-          "sugar_g": 3.9
+          "calories": 202,
+          "fat_g": 18,
+          "saturated_fat_g": 2,
+          "sodium_mg": 598,
+          "carbohydrates_g": 9,
+          "sugar_g": 5,
+          "fiber_g": 2,
+          "protein_g": 3
         },
-        "missing_inputs": [
-          "8 medium fresh mushrooms"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -4093,22 +4032,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 295,
-          "fat_g": 16.8,
-          "carbs_g": 15.9,
-          "protein_g": 20.6,
-          "sodium_mg": 934,
-          "fiber_g": 3.4,
-          "sugar_g": 6.1
+          "calories": 130,
+          "fat_g": 4,
+          "saturated_fat_g": 1,
+          "cholesterol_mg": 9,
+          "sodium_mg": 207,
+          "carbohydrates_g": 21,
+          "sugar_g": 5,
+          "fiber_g": 3,
+          "protein_g": 6
         },
-        "missing_inputs": [
-          "Additional salsa, optional"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -4198,18 +4135,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 102,
-          "fat_g": 3.8,
-          "carbs_g": 14.5,
-          "protein_g": 3.0,
-          "sodium_mg": 210,
-          "fiber_g": 1.5,
-          "sugar_g": 1.7
+          "calories": 137,
+          "fat_g": 10,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 7,
+          "sodium_mg": 346,
+          "carbohydrates_g": 8,
+          "fiber_g": 2,
+          "protein_g": 5
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -4319,18 +4255,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 81,
-          "fat_g": 3.8,
-          "carbs_g": 6.9,
-          "protein_g": 5.0,
-          "sodium_mg": 185,
-          "fiber_g": 1.7,
-          "sugar_g": 2.5
+          "calories": 230,
+          "fat_g": 8,
+          "saturated_fat_g": 3,
+          "cholesterol_mg": 12,
+          "sodium_mg": 666,
+          "carbohydrates_g": 30,
+          "sugar_g": 6,
+          "fiber_g": 9,
+          "protein_g": 11
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -4460,18 +4396,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 39,
-          "fat_g": 0.4,
-          "carbs_g": 7.5,
-          "protein_g": 2.0,
-          "sodium_mg": 41,
-          "fiber_g": 2.4,
-          "sugar_g": 1.3
+          "calories": 162,
+          "fat_g": 1,
+          "sodium_mg": 536,
+          "carbohydrates_g": 29,
+          "sugar_g": 4,
+          "fiber_g": 7,
+          "protein_g": 10
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 10 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -4544,22 +4478,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 100,
-          "fat_g": 3.0,
-          "carbs_g": 6.8,
-          "protein_g": 0.6,
-          "sodium_mg": 120,
-          "fiber_g": 1.4,
-          "sugar_g": 3.2
+          "calories": 129,
+          "fat_g": 6,
+          "saturated_fat_g": 4,
+          "cholesterol_mg": 15,
+          "sodium_mg": 231,
+          "carbohydrates_g": 15,
+          "sugar_g": 7,
+          "fiber_g": 5,
+          "protein_g": 4
         },
-        "missing_inputs": [
-          "2-3/4 cups fresh snow peas"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -4636,22 +4568,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 4,
-          "fat_g": 0.1,
-          "carbs_g": 0.4,
-          "protein_g": 0.4,
-          "sodium_mg": 194,
-          "fiber_g": 0.1,
-          "sugar_g": 0.0
+          "calories": 26,
+          "sodium_mg": 308,
+          "carbohydrates_g": 5,
+          "sugar_g": 2,
+          "fiber_g": 2,
+          "protein_g": 2
         },
-        "missing_inputs": [
-          "1 large head cauliflower, chopped (about 6 cups)"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -4726,18 +4653,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 40,
-          "fat_g": 3.0,
-          "carbs_g": 3.4,
-          "protein_g": 0.4,
-          "sodium_mg": 118,
-          "fiber_g": 1.0,
-          "sugar_g": 1.5
+          "calories": 73,
+          "fat_g": 3,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 8,
+          "sodium_mg": 396,
+          "carbohydrates_g": 11,
+          "sugar_g": 5,
+          "fiber_g": 3,
+          "protein_g": 1
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -4807,18 +4734,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 1.8,
-          "carbs_g": 4.8,
-          "protein_g": 0.5,
-          "sodium_mg": 40,
-          "fiber_g": 0.5,
-          "sugar_g": 0.2
+          "calories": 160,
+          "fat_g": 7,
+          "saturated_fat_g": 1,
+          "sodium_mg": 153,
+          "carbohydrates_g": 23,
+          "sugar_g": 2,
+          "fiber_g": 2,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -4923,18 +4849,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 44,
-          "fat_g": 1.9,
-          "carbs_g": 3.7,
-          "protein_g": 3.2,
-          "sodium_mg": 43,
-          "fiber_g": 0.5,
-          "sugar_g": 0.5
+          "calories": 168,
+          "fat_g": 5,
+          "saturated_fat_g": 3,
+          "cholesterol_mg": 14,
+          "sodium_mg": 361,
+          "carbohydrates_g": 27,
+          "sugar_g": 6,
+          "fiber_g": 4,
+          "protein_g": 4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -5024,23 +4950,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 95,
-          "fat_g": 3.7,
-          "carbs_g": 14.5,
-          "protein_g": 1.3,
-          "sodium_mg": 98,
-          "fiber_g": 1.1,
-          "sugar_g": 1.6
+          "calories": 196,
+          "fat_g": 6,
+          "saturated_fat_g": 1,
+          "sodium_mg": 307,
+          "carbohydrates_g": 29,
+          "sugar_g": 1,
+          "fiber_g": 4,
+          "protein_g": 7
         },
-        "missing_inputs": [
-          "1/2 cup chopped fresh broccoli",
-          "1/2 cup coarsely chopped zucchini"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -5150,18 +5072,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 70,
-          "fat_g": 2.9,
-          "carbs_g": 11.1,
-          "protein_g": 2.0,
-          "sodium_mg": 94,
-          "fiber_g": 2.6,
-          "sugar_g": 3.8
+          "calories": 147,
+          "fat_g": 8,
+          "saturated_fat_g": 1,
+          "sodium_mg": 19,
+          "carbohydrates_g": 20,
+          "sugar_g": 8,
+          "fiber_g": 4,
+          "protein_g": 4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -5247,18 +5168,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 228,
-          "fat_g": 11.9,
-          "carbs_g": 24.0,
-          "protein_g": 9.3,
-          "sodium_mg": 132,
-          "fiber_g": 4.8,
-          "sugar_g": 13.2
+          "calories": 166,
+          "fat_g": 4,
+          "saturated_fat_g": 1,
+          "cholesterol_mg": 6,
+          "sodium_mg": 382,
+          "carbohydrates_g": 30,
+          "sugar_g": 8,
+          "fiber_g": 4,
+          "protein_g": 5
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -5345,18 +5266,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 56,
-          "fat_g": 2.9,
-          "carbs_g": 7.2,
-          "protein_g": 0.5,
-          "sodium_mg": 96,
-          "fiber_g": 0.6,
-          "sugar_g": 4.4
+          "calories": 118,
+          "fat_g": 3,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 8,
+          "sodium_mg": 717,
+          "carbohydrates_g": 21,
+          "sugar_g": 14,
+          "fiber_g": 4,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -5470,18 +5391,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 50,
-          "fat_g": 1.9,
-          "carbs_g": 7.8,
-          "protein_g": 0.9,
-          "sodium_mg": 293,
-          "fiber_g": 0.7,
-          "sugar_g": 1.0
+          "calories": 160,
+          "fat_g": 8,
+          "saturated_fat_g": 1,
+          "sodium_mg": 258,
+          "carbohydrates_g": 18,
+          "sugar_g": 2,
+          "fiber_g": 3,
+          "protein_g": 4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -5574,22 +5494,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 26,
-          "fat_g": 1.3,
-          "carbs_g": 2.0,
-          "protein_g": 1.9,
-          "sodium_mg": 272,
-          "fiber_g": 0.5,
-          "sugar_g": 0.6
+          "calories": 135,
+          "fat_g": 5,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 68,
+          "sodium_mg": 577,
+          "carbohydrates_g": 15,
+          "sugar_g": 6,
+          "fiber_g": 4,
+          "protein_g": 9
         },
-        "missing_inputs": [
-          "1 cup meatless pasta sauce, warmed"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -5712,18 +5630,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 42,
-          "fat_g": 3.1,
-          "carbs_g": 3.8,
-          "protein_g": 0.7,
-          "sodium_mg": 196,
-          "fiber_g": 1.2,
-          "sugar_g": 1.2
+          "calories": 149,
+          "fat_g": 2,
+          "sodium_mg": 380,
+          "carbohydrates_g": 28,
+          "sugar_g": 5,
+          "fiber_g": 7,
+          "protein_g": 8
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 10 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -5813,18 +5729,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 26,
-          "fat_g": 2.0,
-          "carbs_g": 2.3,
-          "protein_g": 0.1,
-          "sodium_mg": 63,
-          "fiber_g": 0.1,
-          "sugar_g": 2.1
+          "calories": 59,
+          "fat_g": 4,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 10,
+          "sodium_mg": 251,
+          "carbohydrates_g": 6,
+          "sugar_g": 3,
+          "fiber_g": 2,
+          "protein_g": 1
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -5915,18 +5831,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 48,
-          "fat_g": 3.7,
-          "carbs_g": 3.6,
-          "protein_g": 1.0,
-          "sodium_mg": 297,
-          "fiber_g": 0.7,
-          "sugar_g": 1.4
+          "calories": 115,
+          "fat_g": 7,
+          "saturated_fat_g": 1,
+          "sodium_mg": 631,
+          "carbohydrates_g": 11,
+          "sugar_g": 4,
+          "fiber_g": 4,
+          "protein_g": 4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -5998,22 +5913,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 40,
-          "fat_g": 4.5,
-          "carbs_g": 0.0,
-          "protein_g": 0.4,
-          "sodium_mg": 76,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 112,
+          "fat_g": 9,
+          "saturated_fat_g": 4,
+          "cholesterol_mg": 18,
+          "sodium_mg": 103,
+          "carbohydrates_g": 5,
+          "sugar_g": 2,
+          "fiber_g": 2,
+          "protein_g": 4
         },
-        "missing_inputs": [
-          "1 medium head cauliflower"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -6097,22 +6010,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.0,
-          "carbs_g": 2.8,
-          "protein_g": 0.2,
-          "sodium_mg": 32,
-          "fiber_g": 0.4,
-          "sugar_g": 2.0
+          "calories": 64,
+          "sodium_mg": 23,
+          "carbohydrates_g": 16,
+          "sugar_g": 12,
+          "fiber_g": 2,
+          "protein_g": 1
         },
-        "missing_inputs": [
-          "1 medium apple, sliced"
-        ],
-        "assumptions": [
-          "Calculated for 10 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -6198,18 +6106,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 64,
-          "fat_g": 2.7,
-          "carbs_g": 6.9,
-          "protein_g": 3.2,
-          "sodium_mg": 47,
-          "fiber_g": 0.7,
-          "sugar_g": 0.6
+          "calories": 178,
+          "fat_g": 3,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 12,
+          "sodium_mg": 189,
+          "carbohydrates_g": 33,
+          "sugar_g": 6,
+          "fiber_g": 3,
+          "protein_g": 6
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -6297,18 +6205,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 171,
-          "fat_g": 14.4,
-          "carbs_g": 7.7,
-          "protein_g": 5.6,
-          "sodium_mg": 52,
-          "fiber_g": 3.9,
-          "sugar_g": 2.6
+          "calories": 95,
+          "fat_g": 7,
+          "saturated_fat_g": 1,
+          "sodium_mg": 276,
+          "carbohydrates_g": 8,
+          "sugar_g": 3,
+          "fiber_g": 3,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -6391,22 +6298,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 28,
-          "fat_g": 2.4,
-          "carbs_g": 1.5,
-          "protein_g": 0.4,
-          "sodium_mg": 199,
-          "fiber_g": 0.3,
-          "sugar_g": 0.6
+          "calories": 54,
+          "sodium_mg": 127,
+          "carbohydrates_g": 12,
+          "sugar_g": 8,
+          "fiber_g": 1,
+          "protein_g": 1
         },
-        "missing_inputs": [
-          "1/4 cup apricot spreadable fruit"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -6490,22 +6392,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 17,
-          "fat_g": 1.3,
-          "carbs_g": 1.0,
-          "protein_g": 0.7,
-          "sodium_mg": 83,
-          "fiber_g": 0.5,
-          "sugar_g": 0.3
+          "calories": 143,
+          "fat_g": 6,
+          "saturated_fat_g": 3,
+          "cholesterol_mg": 16,
+          "sodium_mg": 180,
+          "carbohydrates_g": 20,
+          "sugar_g": 7,
+          "fiber_g": 2,
+          "protein_g": 5
         },
-        "missing_inputs": [
-          "6 medium ears sweet corn"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -6585,18 +6485,15 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 14,
-          "fat_g": 0.1,
-          "carbs_g": 3.4,
-          "protein_g": 0.4,
-          "sodium_mg": 148,
-          "fiber_g": 0.5,
-          "sugar_g": 2.5
+          "calories": 72,
+          "sodium_mg": 225,
+          "carbohydrates_g": 18,
+          "sugar_g": 12,
+          "fiber_g": 4,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -6688,18 +6585,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 103,
-          "fat_g": 10.0,
-          "carbs_g": 3.4,
-          "protein_g": 0.7,
-          "sodium_mg": 48,
-          "fiber_g": 0.3,
-          "sugar_g": 2.7
+          "calories": 145,
+          "fat_g": 5,
+          "saturated_fat_g": 3,
+          "cholesterol_mg": 14,
+          "sodium_mg": 161,
+          "carbohydrates_g": 26,
+          "sugar_g": 9,
+          "fiber_g": 7,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 10 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -6812,18 +6709,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 209,
-          "fat_g": 16.2,
-          "carbs_g": 7.0,
-          "protein_g": 11.2,
-          "sodium_mg": 148,
-          "fiber_g": 3.6,
-          "sugar_g": 1.3
+          "calories": 115,
+          "fat_g": 3,
+          "sodium_mg": 328,
+          "carbohydrates_g": 18,
+          "sugar_g": 1,
+          "fiber_g": 4,
+          "protein_g": 5
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -6904,18 +6799,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 94,
-          "fat_g": 6.3,
-          "carbs_g": 0.4,
-          "protein_g": 8.6,
-          "sodium_mg": 120,
-          "fiber_g": 0.1,
-          "sugar_g": 0.1
+          "calories": 191,
+          "fat_g": 6,
+          "saturated_fat_g": 1,
+          "cholesterol_mg": 4,
+          "sodium_mg": 225,
+          "carbohydrates_g": 28,
+          "fiber_g": 7,
+          "protein_g": 7
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -7018,18 +6912,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 132,
-          "fat_g": 6.2,
-          "carbs_g": 18.0,
-          "protein_g": 2.3,
-          "sodium_mg": 652,
-          "fiber_g": 2.8,
-          "sugar_g": 1.2
+          "calories": 140,
+          "fat_g": 5,
+          "saturated_fat_g": 3,
+          "cholesterol_mg": 13,
+          "sodium_mg": 608,
+          "carbohydrates_g": 23,
+          "sugar_g": 5,
+          "fiber_g": 3,
+          "protein_g": 3
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -7112,22 +7006,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 9,
-          "fat_g": 0.3,
-          "carbs_g": 1.6,
-          "protein_g": 0.4,
-          "sodium_mg": 42,
-          "fiber_g": 0.5,
-          "sugar_g": 1.0
+          "calories": 86,
+          "fat_g": 3,
+          "saturated_fat_g": 1,
+          "cholesterol_mg": 6,
+          "sodium_mg": 548,
+          "carbohydrates_g": 10,
+          "sugar_g": 4,
+          "fiber_g": 4,
+          "protein_g": 4
         },
-        "missing_inputs": [
-          "1 large head cauliflower, broken into florets"
-        ],
-        "assumptions": [
-          "Calculated for 10 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -7217,18 +7109,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 108,
-          "fat_g": 7.3,
-          "carbs_g": 4.9,
-          "protein_g": 5.5,
-          "sodium_mg": 267,
-          "fiber_g": 0.5,
-          "sugar_g": 0.2
+          "calories": 206,
+          "fat_g": 11,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 7,
+          "sodium_mg": 313,
+          "carbohydrates_g": 23,
+          "sugar_g": 2,
+          "fiber_g": 2,
+          "protein_g": 4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -7321,22 +7213,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 39,
-          "fat_g": 3.9,
-          "carbs_g": 0.9,
-          "protein_g": 0.6,
-          "sodium_mg": 94,
-          "fiber_g": 0.3,
-          "sugar_g": 0.1
+          "calories": 144,
+          "fat_g": 11,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 2,
+          "sodium_mg": 378,
+          "carbohydrates_g": 9,
+          "sugar_g": 2,
+          "fiber_g": 3,
+          "protein_g": 4
         },
-        "missing_inputs": [
-          "2 small broccoli crowns (about 8 ounces each)"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -7428,18 +7318,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 209,
-          "fat_g": 15.2,
-          "carbs_g": 15.4,
-          "protein_g": 5.2,
-          "sodium_mg": 52,
-          "fiber_g": 2.9,
-          "sugar_g": 2.7
+          "calories": 174,
+          "fat_g": 6,
+          "saturated_fat_g": 1,
+          "sodium_mg": 244,
+          "carbohydrates_g": 26,
+          "sugar_g": 2,
+          "fiber_g": 4,
+          "protein_g": 6
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -7508,18 +7397,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 55,
-          "fat_g": 1.8,
-          "carbs_g": 9.0,
-          "protein_g": 1.2,
-          "sodium_mg": 17,
-          "fiber_g": 1.5,
-          "sugar_g": 1.7
+          "calories": 138,
+          "fat_g": 3,
+          "sodium_mg": 212,
+          "carbohydrates_g": 23,
+          "sugar_g": 5,
+          "fiber_g": 5,
+          "protein_g": 4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -7604,18 +7491,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 17,
-          "fat_g": 1.2,
-          "carbs_g": 1.4,
-          "protein_g": 0.4,
-          "sodium_mg": 26,
-          "fiber_g": 0.5,
-          "sugar_g": 0.6
+          "calories": 83,
+          "fat_g": 2,
+          "sodium_mg": 98,
+          "carbohydrates_g": 15,
+          "sugar_g": 4,
+          "fiber_g": 3,
+          "protein_g": 3
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -7712,18 +7597,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 38,
-          "fat_g": 2.5,
-          "carbs_g": 4.0,
-          "protein_g": 0.5,
-          "sodium_mg": 65,
-          "fiber_g": 1.3,
-          "sugar_g": 2.0
+          "calories": 67,
+          "fat_g": 3,
+          "sodium_mg": 240,
+          "carbohydrates_g": 10,
+          "sugar_g": 5,
+          "fiber_g": 4,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -7812,22 +7695,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 22,
-          "fat_g": 1.8,
-          "carbs_g": 1.4,
-          "protein_g": 0.4,
-          "sodium_mg": 295,
-          "fiber_g": 0.5,
-          "sugar_g": 0.2
+          "calories": 152,
+          "fat_g": 9,
+          "saturated_fat_g": 1,
+          "sodium_mg": 255,
+          "carbohydrates_g": 17,
+          "sugar_g": 4,
+          "fiber_g": 3,
+          "protein_g": 4
         },
-        "missing_inputs": [
-          "1 medium pie pumpkin (about 3 pounds), peeled and cut into 3/4-inch cubes"
-        ],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -7888,22 +7768,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 20,
-          "fat_g": 2.4,
-          "carbs_g": 0.1,
-          "protein_g": 0.0,
-          "sodium_mg": 50,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 65,
+          "fat_g": 5,
+          "saturated_fat_g": 1,
+          "sodium_mg": 226,
+          "carbohydrates_g": 5,
+          "sugar_g": 2,
+          "fiber_g": 2,
+          "protein_g": 2
         },
-        "missing_inputs": [
-          "1 medium head cauliflower (about 2-1/2 pounds), broken into florets"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -7994,18 +7871,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 34,
-          "fat_g": 2.4,
-          "carbs_g": 3.1,
-          "protein_g": 0.6,
-          "sodium_mg": 56,
-          "fiber_g": 0.8,
-          "sugar_g": 1.1
+          "calories": 56,
+          "fat_g": 2,
+          "sodium_mg": 214,
+          "carbohydrates_g": 8,
+          "sugar_g": 2,
+          "fiber_g": 3,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -8082,22 +7957,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 16,
-          "fat_g": 1.8,
-          "carbs_g": 0.3,
-          "protein_g": 0.1,
-          "sodium_mg": 38,
-          "fiber_g": 0.1,
-          "sugar_g": 0.1
+          "calories": 58,
+          "fat_g": 4,
+          "sodium_mg": 254,
+          "carbohydrates_g": 6,
+          "sugar_g": 3,
+          "fiber_g": 3,
+          "protein_g": 2
         },
-        "missing_inputs": [
-          "1 large head cauliflower, broken into 1-inch florets (about 9 cups)"
-        ],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -8189,18 +8060,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 124,
-          "fat_g": 6.5,
-          "carbs_g": 9.9,
-          "protein_g": 6.4,
-          "sodium_mg": 169,
-          "fiber_g": 1.3,
-          "sugar_g": 1.7
+          "calories": 95,
+          "fat_g": 4,
+          "saturated_fat_g": 2,
+          "cholesterol_mg": 9,
+          "sodium_mg": 464,
+          "carbohydrates_g": 12,
+          "sugar_g": 5,
+          "fiber_g": 3,
+          "protein_g": 4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -8294,18 +8165,16 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 52,
-          "fat_g": 2.8,
-          "carbs_g": 7.2,
-          "protein_g": 0.7,
-          "sodium_mg": 80,
-          "fiber_g": 1.5,
-          "sugar_g": 4.5
+          "calories": 85,
+          "fat_g": 3,
+          "sodium_mg": 245,
+          "carbohydrates_g": 16,
+          "sugar_g": 8,
+          "fiber_g": 3,
+          "protein_g": 1
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -8372,18 +8241,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 21,
-          "fat_g": 1.9,
-          "carbs_g": 1.3,
-          "protein_g": 0.2,
-          "sodium_mg": 75,
-          "fiber_g": 0.3,
-          "sugar_g": 0.5
+          "calories": 88,
+          "fat_g": 7,
+          "saturated_fat_g": 1,
+          "sodium_mg": 152,
+          "carbohydrates_g": 7,
+          "sugar_g": 3,
+          "fiber_g": 4,
+          "protein_g": 1
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -8492,18 +8360,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 142,
-          "fat_g": 11.2,
-          "carbs_g": 7.9,
-          "protein_g": 4.8,
-          "sodium_mg": 160,
-          "fiber_g": 3.0,
-          "sugar_g": 3.6
+          "calories": 154,
+          "fat_g": 11,
+          "saturated_fat_g": 1,
+          "sodium_mg": 159,
+          "carbohydrates_g": 12,
+          "sugar_g": 10,
+          "fiber_g": 1,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -8605,22 +8472,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 98,
-          "fat_g": 6.4,
-          "carbs_g": 5.0,
-          "protein_g": 5.7,
-          "sodium_mg": 172,
-          "fiber_g": 1.4,
-          "sugar_g": 3.1
+          "calories": 126,
+          "fat_g": 6,
+          "saturated_fat_g": 4,
+          "cholesterol_mg": 20,
+          "sodium_mg": 678,
+          "carbohydrates_g": 14,
+          "sugar_g": 8,
+          "fiber_g": 3,
+          "protein_g": 7
         },
-        "missing_inputs": [
-          "2/3 cup condensed tomato soup, undiluted"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -8700,18 +8565,17 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 19,
-          "fat_g": 1.8,
-          "carbs_g": 0.9,
-          "protein_g": 0.2,
-          "sodium_mg": 40,
-          "fiber_g": 0.3,
-          "sugar_g": 0.4
+          "calories": 77,
+          "fat_g": 7,
+          "saturated_fat_g": 1,
+          "sodium_mg": 299,
+          "carbohydrates_g": 4,
+          "sugar_g": 2,
+          "fiber_g": 1,
+          "protein_g": 1
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -8822,23 +8686,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 24,
-          "fat_g": 1.7,
-          "carbs_g": 1.5,
-          "protein_g": 0.8,
-          "sodium_mg": 53,
-          "fiber_g": 0.5,
-          "sugar_g": 0.6
+          "calories": 178,
+          "fat_g": 7,
+          "saturated_fat_g": 4,
+          "cholesterol_mg": 49,
+          "sodium_mg": 635,
+          "carbohydrates_g": 23,
+          "sugar_g": 3,
+          "fiber_g": 3,
+          "protein_g": 6
         },
-        "missing_inputs": [
-          "6 cups cubed day-old white bread",
-          "1 can (14-1/2 ounces) reduced-sodium chicken broth or vegetable broth"
-        ],
-        "assumptions": [
-          "Calculated for 10 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -8960,18 +8821,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 65,
-          "fat_g": 1.9,
-          "carbs_g": 10.8,
-          "protein_g": 1.4,
-          "sodium_mg": 85,
-          "fiber_g": 0.9,
-          "sugar_g": 3.2
+          "calories": 116,
+          "fat_g": 3,
+          "saturated_fat_g": 1,
+          "cholesterol_mg": 4,
+          "sodium_mg": 213,
+          "carbohydrates_g": 22,
+          "sugar_g": 11,
+          "fiber_g": 3,
+          "protein_g": 2
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 16 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -9073,23 +8934,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 262,
-          "fat_g": 21.6,
-          "carbs_g": 12.5,
-          "protein_g": 8.2,
-          "sodium_mg": 243,
-          "fiber_g": 5.3,
-          "sugar_g": 3.1
+          "calories": 148,
+          "fat_g": 4,
+          "saturated_fat_g": 1,
+          "sodium_mg": 458,
+          "carbohydrates_g": 24,
+          "sugar_g": 3,
+          "fiber_g": 6,
+          "protein_g": 5
         },
-        "missing_inputs": [
-          "1/2 cup quick-cooking barley",
-          "1 cup cut fresh green beans (2-inch pieces)"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -9192,22 +9049,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 62,
-          "fat_g": 2.3,
-          "carbs_g": 8.5,
-          "protein_g": 2.1,
-          "sodium_mg": 108,
-          "fiber_g": 0.8,
-          "sugar_g": 2.4
+          "calories": 104,
+          "cholesterol_mg": 2,
+          "sodium_mg": 599,
+          "carbohydrates_g": 23,
+          "sugar_g": 3,
+          "fiber_g": 2,
+          "protein_g": 3
         },
-        "missing_inputs": [
-          "1 cup chicken or vegetable broth"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -9294,23 +9147,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 25,
-          "fat_g": 2.6,
-          "carbs_g": 0.2,
-          "protein_g": 0.4,
-          "sodium_mg": 63,
-          "fiber_g": 0.1,
-          "sugar_g": 0.0
+          "calories": 107,
+          "fat_g": 8,
+          "saturated_fat_g": 3,
+          "cholesterol_mg": 8,
+          "sodium_mg": 304,
+          "carbohydrates_g": 5,
+          "sugar_g": 2,
+          "fiber_g": 2,
+          "protein_g": 6
         },
-        "missing_inputs": [
-          "6 cups fresh broccoli spears",
-          "2 tablespoons plus 1-1/2 teaspoons lemon juice"
-        ],
-        "assumptions": [
-          "Calculated for 6 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -9405,22 +9255,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 28,
-          "fat_g": 1.8,
-          "carbs_g": 3.0,
-          "protein_g": 0.3,
-          "sodium_mg": 49,
-          "fiber_g": 0.8,
-          "sugar_g": 1.4
+          "calories": 88,
+          "fat_g": 3,
+          "sodium_mg": 229,
+          "carbohydrates_g": 15,
+          "sugar_g": 7,
+          "fiber_g": 3,
+          "protein_g": 2
         },
-        "missing_inputs": [
-          "1 to 2 teaspoons dried thyme"
-        ],
-        "assumptions": [
-          "Calculated for 8 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -9501,23 +9347,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 38,
-          "fat_g": 2.9,
-          "carbs_g": 2.8,
-          "protein_g": 0.7,
-          "sodium_mg": 22,
-          "fiber_g": 0.9,
-          "sugar_g": 0.8
+          "calories": 87,
+          "fat_g": 6,
+          "saturated_fat_g": 4,
+          "cholesterol_mg": 15,
+          "sodium_mg": 152,
+          "carbohydrates_g": 8,
+          "sugar_g": 3,
+          "fiber_g": 4,
+          "protein_g": 2
         },
-        "missing_inputs": [
-          "1/4 to 1/2 teaspoon seasoned salt",
-          "1/4 to 1/2 teaspoon chili powder"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -9622,18 +9465,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 246,
-          "fat_g": 10.5,
-          "carbs_g": 24.8,
-          "protein_g": 12.9,
-          "sodium_mg": 473,
-          "fiber_g": 2.3,
-          "sugar_g": 4.5
+          "calories": 186,
+          "fat_g": 10,
+          "saturated_fat_g": 3,
+          "cholesterol_mg": 11,
+          "sodium_mg": 553,
+          "carbohydrates_g": 17,
+          "sugar_g": 4,
+          "fiber_g": 3,
+          "protein_g": 9
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -9778,22 +9621,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 39,
-          "fat_g": 0.9,
-          "carbs_g": 4.8,
-          "protein_g": 3.1,
-          "sodium_mg": 136,
-          "fiber_g": 1.5,
-          "sugar_g": 1.5
+          "calories": 79,
+          "cholesterol_mg": 2,
+          "sodium_mg": 442,
+          "carbohydrates_g": 16,
+          "sugar_g": 5,
+          "fiber_g": 3,
+          "protein_g": 4
         },
-        "missing_inputs": [
-          "1 package (10 ounces) crowder peas, thawed, or 1 can (15-1/2 ounces) black-eyed peas, drained"
-        ],
-        "assumptions": [
-          "Calculated for 16 servings"
-        ]
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -10861,17 +10700,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 220,
+          "calories": 191,
           "fat_g": 7.9,
-          "carbs_g": 33.2,
-          "protein_g": 5.2,
-          "sodium_mg": 129,
-          "fiber_g": 3.5,
-          "sugar_g": 2.1
+          "carbs_g": 26.4,
+          "protein_g": 4.5,
+          "sodium_mg": 127,
+          "fiber_g": 2.8,
+          "sugar_g": 1.8
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "1  \u00bd cups cold mashed potatoes"
+        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -11159,13 +11000,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 400,
+          "calories": 393,
           "fat_g": 17.4,
-          "carbs_g": 43.1,
-          "protein_g": 18.9,
-          "sodium_mg": 793,
-          "fiber_g": 8.3,
-          "sugar_g": 15.7
+          "carbs_g": 41.6,
+          "protein_g": 18.4,
+          "sodium_mg": 993,
+          "fiber_g": 6.3,
+          "sugar_g": 15.8
         },
         "missing_inputs": [],
         "assumptions": [
@@ -12096,18 +11937,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 67,
-          "fat_g": 5.0,
-          "carbs_g": 1.4,
-          "protein_g": 4.3,
-          "sodium_mg": 236,
-          "fiber_g": 0.0,
-          "sugar_g": 0.9
+          "calories": 101,
+          "fat_g": 7.5,
+          "carbs_g": 2.3,
+          "protein_g": 6.3,
+          "sodium_mg": 295,
+          "fiber_g": 0.1,
+          "sugar_g": 1.4
         },
         "missing_inputs": [],
         "assumptions": [
-          "Calculated for 6 servings",
-          "Serving size inferred from sides category"
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
         ]
       }
     },
@@ -12191,18 +12032,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 101,
-          "fat_g": 8.3,
-          "carbs_g": 5.0,
-          "protein_g": 2.7,
-          "sodium_mg": 270,
-          "fiber_g": 0.2,
-          "sugar_g": 3.7
+          "calories": 151,
+          "fat_g": 12.4,
+          "carbs_g": 7.5,
+          "protein_g": 4.0,
+          "sodium_mg": 405,
+          "fiber_g": 0.3,
+          "sugar_g": 5.5
         },
         "missing_inputs": [],
         "assumptions": [
-          "Calculated for 6 servings",
-          "Serving size inferred from sides category"
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
         ]
       }
     },
@@ -12286,18 +12127,18 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 73,
-          "fat_g": 1.7,
-          "carbs_g": 10.6,
-          "protein_g": 4.3,
-          "sodium_mg": 338,
-          "fiber_g": 0.0,
-          "sugar_g": 9.5
+          "calories": 110,
+          "fat_g": 2.5,
+          "carbs_g": 16.0,
+          "protein_g": 6.5,
+          "sodium_mg": 508,
+          "fiber_g": 0.1,
+          "sugar_g": 14.2
         },
         "missing_inputs": [],
         "assumptions": [
-          "Calculated for 6 servings",
-          "Serving size inferred from sides category"
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
         ]
       }
     },
@@ -12806,15 +12647,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 167,
+          "calories": 165,
           "fat_g": 8.8,
-          "carbs_g": 17.4,
-          "protein_g": 4.7,
-          "sodium_mg": 406,
-          "fiber_g": 1.1,
+          "carbs_g": 17.1,
+          "protein_g": 4.5,
+          "sodium_mg": 400,
+          "fiber_g": 0.9,
           "sugar_g": 2.0
         },
         "missing_inputs": [
+          "1 can Spinach (No. 2)",
           "3/4 cup Spinach liquid"
         ],
         "assumptions": [
@@ -12910,13 +12752,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 212,
-          "fat_g": 4.9,
-          "carbs_g": 37.4,
-          "protein_g": 5.4,
-          "sodium_mg": 452,
+          "calories": 216,
+          "fat_g": 5.1,
+          "carbs_g": 37.7,
+          "protein_g": 5.6,
+          "sodium_mg": 455,
           "fiber_g": 4.0,
-          "sugar_g": 2.3
+          "sugar_g": 2.6
         },
         "missing_inputs": [],
         "assumptions": [
@@ -13220,7 +13062,7 @@
           "calories": 566,
           "fat_g": 35.9,
           "carbs_g": 57.5,
-          "protein_g": 4.7,
+          "protein_g": 4.6,
           "sodium_mg": 6686,
           "fiber_g": 2.9,
           "sugar_g": 36.7
@@ -13329,7 +13171,7 @@
           "fat_g": 1.7,
           "carbs_g": 20.2,
           "protein_g": 4.3,
-          "sodium_mg": 1170,
+          "sodium_mg": 1175,
           "fiber_g": 3.4,
           "sugar_g": 9.2
         },
@@ -13517,17 +13359,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 192,
-          "fat_g": 0.7,
-          "carbs_g": 39.3,
-          "protein_g": 7.4,
-          "sodium_mg": 804,
-          "fiber_g": 6.4,
-          "sugar_g": 18.6
+          "calories": 33,
+          "fat_g": 0.1,
+          "carbs_g": 8.1,
+          "protein_g": 0.2,
+          "sodium_mg": 248,
+          "fiber_g": 0.4,
+          "sugar_g": 5.4
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "2 can baked beans"
+        ],
         "assumptions": [
           "Calculated for 5 servings"
         ]
@@ -13611,13 +13455,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 304,
-          "fat_g": 6.5,
-          "carbs_g": 59.8,
-          "protein_g": 4.5,
-          "sodium_mg": 376,
-          "fiber_g": 11.2,
-          "sugar_g": 33.4
+          "calories": 250,
+          "fat_g": 6.2,
+          "carbs_g": 47.8,
+          "protein_g": 3.2,
+          "sodium_mg": 284,
+          "fiber_g": 8.0,
+          "sugar_g": 27.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -13815,8 +13659,8 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1429,
-          "fat_g": 149.6,
+          "calories": 149,
+          "fat_g": 0.3,
           "carbs_g": 34.8,
           "protein_g": 1.2,
           "sodium_mg": 995,
@@ -13824,6 +13668,7 @@
           "sugar_g": 23.7
         },
         "missing_inputs": [
+          "2 cup salad oil",
           "1 small or \u00bd large egg white"
         ],
         "assumptions": [
@@ -14067,17 +13912,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 251,
-          "fat_g": 28.0,
+          "calories": 11,
+          "fat_g": 0.0,
           "carbs_g": 2.4,
           "protein_g": 0.0,
           "sodium_mg": 291,
           "fiber_g": 0.1,
           "sugar_g": 2.1
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "3/4 cup salad oil"
+        ],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
@@ -14156,17 +14003,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 96,
-          "fat_g": 9.4,
+          "calories": 16,
+          "fat_g": 0.0,
           "carbs_g": 3.8,
           "protein_g": 0.2,
           "sodium_mg": 194,
           "fiber_g": 0.0,
           "sugar_g": 3.2
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "1/4 cup salad oil"
+        ],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
@@ -14255,17 +14104,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 657,
-          "fat_g": 74.8,
+          "calories": 17,
+          "fat_g": 0.2,
           "carbs_g": 2.6,
           "protein_g": 0.2,
           "sodium_mg": 777,
           "fiber_g": 0.1,
           "sugar_g": 2.2
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "2 cup salad oil"
+        ],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
@@ -15035,8 +14886,8 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 309,
-          "fat_g": 24.2,
+          "calories": 149,
+          "fat_g": 5.5,
           "carbs_g": 11.2,
           "protein_g": 14.0,
           "sodium_mg": 828,
@@ -15044,7 +14895,8 @@
           "sugar_g": 4.9
         },
         "missing_inputs": [
-          "1 cup long grain rice"
+          "1 cup long grain rice",
+          "1/3 cup salad oil"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -16233,13 +16085,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 266,
-          "fat_g": 15.0,
-          "carbs_g": 17.2,
-          "protein_g": 14.2,
-          "sodium_mg": 1235,
-          "fiber_g": 0.9,
-          "sugar_g": 7.2
+          "calories": 289,
+          "fat_g": 16.5,
+          "carbs_g": 18.8,
+          "protein_g": 14.5,
+          "sodium_mg": 1387,
+          "fiber_g": 1.2,
+          "sugar_g": 7.8
         },
         "missing_inputs": [
           "1 1/2 cup regular rice"
@@ -16619,17 +16471,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 355,
-          "fat_g": 5.8,
-          "carbs_g": 61.0,
-          "protein_g": 15.0,
-          "sodium_mg": 328,
-          "fiber_g": 6.7,
-          "sugar_g": 4.8
+          "calories": 313,
+          "fat_g": 2.8,
+          "carbs_g": 58.0,
+          "protein_g": 14.2,
+          "sodium_mg": 46,
+          "fiber_g": 6.5,
+          "sugar_g": 4.2
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "1 can mushroom soup"
+        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -16727,13 +16581,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 124,
+          "calories": 125,
           "fat_g": 14.2,
-          "carbs_g": 0.7,
+          "carbs_g": 0.8,
           "protein_g": 0.2,
-          "sodium_mg": 43,
+          "sodium_mg": 90,
           "fiber_g": 0.1,
-          "sugar_g": 0.3
+          "sugar_g": 0.2
         },
         "missing_inputs": [],
         "assumptions": [
@@ -16845,8 +16699,8 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 82,
-          "fat_g": 4.3,
+          "calories": 122,
+          "fat_g": 9.1,
           "carbs_g": 8.7,
           "protein_g": 2.7,
           "sodium_mg": 102,
@@ -16991,9 +16845,9 @@
           "calories": 262,
           "fat_g": 19.8,
           "carbs_g": 17.8,
-          "protein_g": 6.9,
+          "protein_g": 7.1,
           "sodium_mg": 83,
-          "fiber_g": 4.8,
+          "fiber_g": 4.9,
           "sugar_g": 5.7
         },
         "missing_inputs": [
@@ -17482,7 +17336,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 82,
           "fat_g": 4.2,
@@ -17492,11 +17346,7 @@
           "fiber_g": 0.0,
           "sugar_g": 6.0
         },
-        "missing_inputs": [
-          "1 tbsp onion finely chopped,",
-          "2 tbsp ful carrot finely chopped,",
-          "1/2 cup cooked ham finely chopped."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -17584,13 +17434,12 @@
           "fat_g": 0.2,
           "carbs_g": 1.4,
           "protein_g": 0.4,
-          "sodium_mg": 44,
+          "sodium_mg": 626,
           "fiber_g": 0.5,
           "sugar_g": 0.8
         },
         "missing_inputs": [
-          "1/4 tsp Three redpeppers.",
-          "1 tsp One gillofsalt."
+          "1/4 tsp Three redpeppers."
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -17673,12 +17522,11 @@
           "fat_g": 0.0,
           "carbs_g": 12.8,
           "protein_g": 0.1,
-          "sodium_mg": 0,
+          "sodium_mg": 582,
           "fiber_g": 0.1,
           "sugar_g": 12.7
         },
         "missing_inputs": [
-          "1 tsp Two tablespoonsful ofsalt.",
           "1/2 tsp One tablespoonful ofcinnamon,"
         ],
         "assumptions": [
@@ -17956,13 +17804,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 4,
+          "calories": 3,
           "fat_g": 0.0,
-          "carbs_g": 1.1,
+          "carbs_g": 0.7,
           "protein_g": 0.0,
           "sodium_mg": 727,
           "fiber_g": 0.0,
-          "sugar_g": 1.0
+          "sugar_g": 0.6
         },
         "missing_inputs": [],
         "assumptions": [
@@ -18139,8 +17987,8 @@
         "status": "complete",
         "per_serving": {
           "calories": 231,
-          "fat_g": 5.5,
-          "carbs_g": 37.2,
+          "fat_g": 5.2,
+          "carbs_g": 37.1,
           "protein_g": 8.5,
           "sodium_mg": 191,
           "fiber_g": 4.0,
@@ -18224,17 +18072,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 253,
-          "fat_g": 28.0,
+          "calories": 13,
+          "fat_g": 0.0,
           "carbs_g": 3.5,
           "protein_g": 0.1,
           "sodium_mg": 291,
           "fiber_g": 0.2,
           "sugar_g": 3.1
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "1/2  c salad oil"
+        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -18452,147 +18302,15 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 85,
+          "calories": 95,
           "fat_g": 0.4,
-          "carbs_g": 21.2,
+          "carbs_g": 23.5,
           "protein_g": 0.8,
           "sodium_mg": 1,
           "fiber_g": 4.0,
           "sugar_g": 15.0
         },
         "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "vegetables-courseofle",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Vegetables",
-      "category": "sides",
-      "attribution": "",
-      "source_note": "Course Of Lessons In Domestic Science 1913 (PDF cookbook)",
-      "description": "Vintage recipe from Course Of Lessons In Domestic Science 1913",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "Tubers potatoes",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "artichokes."
-        },
-        {
-          "item": "Roots\u2014parsnips",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "carrots, beets."
-        },
-        {
-          "item": "Bulb\u2014onion.",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Stems\u2014celery",
-          "quantity": "4",
-          "unit": "",
-          "prep_note": "asparagus."
-        },
-        {
-          "item": "Leaves\u2014lettuce",
-          "quantity": "5",
-          "unit": "",
-          "prep_note": "cabbage, greens, spinach, mustard, etc."
-        },
-        {
-          "item": "Flower\u2014cauliflower.",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Fruit\u2014squash",
-          "quantity": "7",
-          "unit": "",
-          "prep_note": "tomatoes, string beans, pumpkin."
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "8 Seed\u2014beans, peas. com."
-        },
-        {
-          "step": 2,
-          "text": "1 Wash thepotato. Cut intwotransversely andputincold"
-        },
-        {
-          "step": 3,
-          "text": "2 Pareone half, grate intoabowl. Taste."
-        },
-        {
-          "step": 4,
-          "text": "3 Wash grated portion through cheesecloth, saving the"
-        },
-        {
-          "step": 5,
-          "text": "4 Pour offtheliquid and testtheresidue with iodine."
-        },
-        {
-          "step": 6,
-          "text": "5 Cutathinsection from theother half,examine byholding"
-        },
-        {
-          "step": 7,
-          "text": "uptothelight. Draw whatyousee."
-        },
-        {
-          "step": 8,
-          "text": "6 Boil apiece oftheremainder 20 minutes. Taste. Note"
-        },
-        {
-          "step": 9,
-          "text": "7 Observe under micro starch grains ofcooked andun-"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 67,
-          "fat_g": 0.2,
-          "carbs_g": 15.2,
-          "protein_g": 1.6,
-          "sodium_mg": 47,
-          "fiber_g": 2.8,
-          "sugar_g": 3.5
-        },
-        "missing_inputs": [
-          "3  Bulb\u2014onion.",
-          "4  Stems\u2014celery",
-          "5  Leaves\u2014lettuce",
-          "6  Flower\u2014cauliflower.",
-          "7  Fruit\u2014squash"
-        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -18790,13 +18508,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 226,
-          "fat_g": 3.1,
-          "carbs_g": 36.8,
-          "protein_g": 13.3,
-          "sodium_mg": 100,
-          "fiber_g": 5.7,
-          "sugar_g": 6.0
+          "calories": 206,
+          "fat_g": 2.9,
+          "carbs_g": 32.2,
+          "protein_g": 12.9,
+          "sodium_mg": 65,
+          "fiber_g": 4.5,
+          "sugar_g": 3.8
         },
         "missing_inputs": [],
         "assumptions": [
@@ -19458,19 +19176,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 3,
           "fat_g": 0.2,
           "carbs_g": 0.2,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 581,
           "fiber_g": 0.1,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "1 tsp Two ounces ofsalt."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -19607,10 +19323,10 @@
           "calories": 149,
           "fat_g": 8.0,
           "carbs_g": 18.7,
-          "protein_g": 3.0,
-          "sodium_mg": 2617,
-          "fiber_g": 3.7,
-          "sugar_g": 8.8
+          "protein_g": 3.1,
+          "sodium_mg": 2533,
+          "fiber_g": 3.5,
+          "sugar_g": 9.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -20345,19 +20061,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 37,
-          "fat_g": 2.9,
-          "carbs_g": 2.6,
-          "protein_g": 0.3,
-          "sodium_mg": 1765,
-          "fiber_g": 0.5,
+          "calories": 191,
+          "fat_g": 3.2,
+          "carbs_g": 36.3,
+          "protein_g": 3.3,
+          "sodium_mg": 1766,
+          "fiber_g": 1.0,
           "sugar_g": 1.3
         },
-        "missing_inputs": [
-          "3 cup breadcrumbs orcoldboiled rice."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -20543,17 +20257,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 110,
-          "fat_g": 4.8,
+          "calories": 85,
+          "fat_g": 2.1,
           "carbs_g": 13.8,
           "protein_g": 3.2,
-          "sodium_mg": 633,
+          "sodium_mg": 611,
           "fiber_g": 1.1,
           "sugar_g": 3.5
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "1 tbsp oleomargarine."
+        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -20861,7 +20577,7 @@
           "fat_g": 0.7,
           "carbs_g": 32.2,
           "protein_g": 8.2,
-          "sodium_mg": 1749,
+          "sodium_mg": 1762,
           "fiber_g": 8.6,
           "sugar_g": 8.5
         },
@@ -21141,13 +20857,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 274,
-          "fat_g": 10.6,
-          "carbs_g": 23.0,
-          "protein_g": 20.2,
-          "sodium_mg": 226,
+          "calories": 289,
+          "fat_g": 11.8,
+          "carbs_g": 24.2,
+          "protein_g": 20.5,
+          "sodium_mg": 256,
           "fiber_g": 2.1,
-          "sugar_g": 3.0
+          "sugar_g": 4.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -22265,13 +21981,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 74,
-          "fat_g": 4.0,
-          "carbs_g": 6.0,
-          "protein_g": 4.0,
-          "sodium_mg": 202,
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 150,
           "fiber_g": 0.0,
-          "sugar_g": 6.0
+          "sugar_g": 0.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -22594,6 +22310,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
+          "1 tbsp flour Small saucepan",
           "1 tbsp butter Strainer"
         ],
         "assumptions": [
@@ -23398,7 +23115,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
           "calories": 163,
           "fat_g": 0.2,
@@ -23408,7 +23125,10 @@
           "fiber_g": 4.0,
           "sugar_g": 2.0
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "1 tbsp butter Frying-pan",
+          "14 cup cream Pancake-turner"
+        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -24697,8 +24417,8 @@
           "fat_g": 9.8,
           "carbs_g": 0.6,
           "protein_g": 0.1,
-          "sodium_mg": 60,
-          "fiber_g": 0.2,
+          "sodium_mg": 52,
+          "fiber_g": 0.1,
           "sugar_g": 0.4
         },
         "missing_inputs": [],
@@ -24882,17 +24602,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 14,
-          "fat_g": 1.3,
-          "carbs_g": 0.2,
-          "protein_g": 0.8,
-          "sodium_mg": 40,
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.1,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
           "fiber_g": 0.1,
-          "sugar_g": 0.1
+          "sugar_g": 0.0
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "1  eggyolk",
+          "1/2  'teaspoonful salt juice orvinegar"
+        ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -25104,13 +24827,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.0,
-          "carbs_g": 2.7,
-          "protein_g": 0.3,
-          "sodium_mg": 2,
-          "fiber_g": 0.6,
-          "sugar_g": 1.3
+          "calories": 17,
+          "fat_g": 0.1,
+          "carbs_g": 4.0,
+          "protein_g": 0.4,
+          "sodium_mg": 12,
+          "fiber_g": 1.0,
+          "sugar_g": 2.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -25636,19 +25359,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 20,
           "fat_g": 0.1,
           "carbs_g": 4.8,
           "protein_g": 0.6,
-          "sodium_mg": 11,
+          "sodium_mg": 12,
           "fiber_g": 0.8,
           "sugar_g": 1.5
         },
-        "missing_inputs": [
-          "1  sprig parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -26813,7 +26534,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 15,
           "fat_g": 0.1,
@@ -26823,9 +26544,7 @@
           "fiber_g": 0.8,
           "sugar_g": 2.4
         },
-        "missing_inputs": [
-          "Four tablespoons offinely chopped parsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -27564,7 +27283,7 @@
           "protein_g": 1.5,
           "sodium_mg": 4,
           "fiber_g": 2.5,
-          "sugar_g": 136.2
+          "sugar_g": 135.8
         },
         "missing_inputs": [
           "white papers"
@@ -27871,8 +27590,8 @@
           "calories": 271,
           "fat_g": 23.1,
           "carbs_g": 15.7,
-          "protein_g": 3.5,
-          "sodium_mg": 185,
+          "protein_g": 3.4,
+          "sodium_mg": 207,
           "fiber_g": 2.1,
           "sugar_g": 4.5
         },
@@ -28001,13 +27720,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 358,
-          "fat_g": 23.6,
+          "calories": 328,
+          "fat_g": 20.8,
           "carbs_g": 29.8,
-          "protein_g": 9.6,
-          "sodium_mg": 747,
+          "protein_g": 8.8,
+          "sodium_mg": 720,
           "fiber_g": 2.2,
-          "sugar_g": 8.7
+          "sugar_g": 8.6
         },
         "missing_inputs": [],
         "assumptions": [
@@ -28350,13 +28069,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 101,
-          "fat_g": 6.5,
-          "carbs_g": 8.6,
-          "protein_g": 2.1,
-          "sodium_mg": 282,
-          "fiber_g": 0.8,
-          "sugar_g": 1.6
+          "calories": 113,
+          "fat_g": 7.3,
+          "carbs_g": 9.4,
+          "protein_g": 2.2,
+          "sodium_mg": 358,
+          "fiber_g": 1.0,
+          "sugar_g": 1.9
         },
         "missing_inputs": [
           "1 pkg (10 oz) frozen broccoli, chopped",
@@ -28455,10 +28174,10 @@
         "status": "complete",
         "per_serving": {
           "calories": 307,
-          "fat_g": 23.8,
+          "fat_g": 23.7,
           "carbs_g": 23.5,
-          "protein_g": 4.8,
-          "sodium_mg": 185,
+          "protein_g": 4.7,
+          "sodium_mg": 207,
           "fiber_g": 3.5,
           "sugar_g": 5.9
         },
@@ -28671,16 +28390,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 208,
-          "fat_g": 12.1,
-          "carbs_g": 20.1,
-          "protein_g": 5.6,
-          "sodium_mg": 220,
-          "fiber_g": 5.2,
-          "sugar_g": 4.8
+          "calories": 108,
+          "fat_g": 10.6,
+          "carbs_g": 4.1,
+          "protein_g": 0.6,
+          "sodium_mg": 40,
+          "fiber_g": 0.9,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
-          "2 tsp red chile powder"
+          "2 tsp red chile powder",
+          "1 can (10 oz) chickpeas, drained"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -28786,8 +28506,8 @@
           "calories": 373,
           "fat_g": 28.1,
           "carbs_g": 23.5,
-          "protein_g": 7.6,
-          "sodium_mg": 642,
+          "protein_g": 7.5,
+          "sodium_mg": 663,
           "fiber_g": 2.8,
           "sugar_g": 4.0
         },
@@ -29060,7 +28780,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 58,
           "fat_g": 3.1,
@@ -29070,9 +28790,7 @@
           "fiber_g": 1.2,
           "sugar_g": 3.0
         },
-        "missing_inputs": [
-          "oil for frying"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
         ]
@@ -29273,18 +28991,19 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 119,
-          "fat_g": 7.9,
-          "carbs_g": 5.9,
-          "protein_g": 7.1,
-          "sodium_mg": 415,
-          "fiber_g": 1.1,
+          "calories": 84,
+          "fat_g": 4.7,
+          "carbs_g": 3.9,
+          "protein_g": 6.8,
+          "sodium_mg": 231,
+          "fiber_g": 0.4,
           "sugar_g": 2.1
         },
         "missing_inputs": [
           "1 pkg (8 oz) egg noodles, cooked and drained",
           "1 carton (8 oz) sour cream",
-          "6 large green chiles, chopped"
+          "6 large green chiles, chopped",
+          "1 can (4 oz) black olives"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -30048,15 +29767,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 529,
-          "fat_g": 27.4,
-          "carbs_g": 69.9,
-          "protein_g": 5.8,
-          "sodium_mg": 138,
-          "fiber_g": 8.1,
-          "sugar_g": 25.2
+          "calories": 355,
+          "fat_g": 27.3,
+          "carbs_g": 29.4,
+          "protein_g": 1.3,
+          "sodium_mg": 126,
+          "fiber_g": 3.6,
+          "sugar_g": 23.4
         },
         "missing_inputs": [
+          "6  medium size turnips",
           "1/4 cup fresh chopped parsley and mint"
         ],
         "assumptions": [
