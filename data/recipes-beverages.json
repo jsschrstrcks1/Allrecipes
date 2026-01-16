@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "beverages",
-    "count": 55,
+    "count": 50,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -160,19 +160,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 181,
-          "fat_g": 9.6,
-          "carbs_g": 18.1,
-          "protein_g": 7.8,
-          "sodium_mg": 72,
-          "fiber_g": 5.8,
-          "sugar_g": 11.8
+          "calories": 298,
+          "fat_g": 12.6,
+          "carbs_g": 39.4,
+          "protein_g": 10.8,
+          "sodium_mg": 113,
+          "fiber_g": 6.5,
+          "sugar_g": 26.6
         },
-        "missing_inputs": [
-          "1/2 large banana"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -427,19 +425,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 56,
-          "fat_g": 2.1,
-          "carbs_g": 6.0,
-          "protein_g": 2.5,
+          "calories": 125,
+          "fat_g": 2.4,
+          "carbs_g": 23.8,
+          "protein_g": 3.2,
           "sodium_mg": 29,
-          "fiber_g": 0.8,
-          "sugar_g": 4.8
+          "fiber_g": 2.8,
+          "sugar_g": 15.2
         },
-        "missing_inputs": [
-          "1 large banana"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -508,107 +504,15 @@
         "This recipe from 1867 is the 19th-century version of that college favorite 'jungle juice.'"
       ],
       "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 188,
-          "fat_g": 0.1,
-          "carbs_g": 21.0,
-          "protein_g": 0.4,
-          "sodium_mg": 8,
-          "fiber_g": 0.5,
-          "sugar_g": 17.7
-        },
-        "missing_inputs": [
-          "750 ml cognac",
-          "2 1/2 cups seltzer or club soda"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings",
-          "Serving size inferred from beverages category"
-        ]
-      }
-    },
-    {
-      "id": "gin-three-ways-cocktails",
-      "collection": "reference",
-      "collection_display": "Reference Cookbook",
-      "title": "Gin Three Ways",
-      "category": "beverages",
-      "source_note": "Food Network Magazine December 2010",
-      "description": "Buy one bottle of gin and mix up a trio of cocktails.",
-      "ingredients": [
-        {
-          "item": "gin",
-          "quantity": "6",
-          "unit": "oz"
-        },
-        {
-          "item": "lemon juice",
-          "quantity": "1",
-          "unit": "oz"
-        },
-        {
-          "item": "simple syrup",
-          "quantity": "1/2",
-          "unit": "oz"
-        },
-        {
-          "item": "champagne",
-          "quantity": "4",
-          "unit": "oz",
-          "prep_note": "for French 75"
-        },
-        {
-          "item": "dry vermouth",
-          "quantity": "1",
-          "unit": "oz",
-          "prep_note": "for Gibson"
-        },
-        {
-          "item": "cocktail onions",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": "for Gibson garnish"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "French 75: In a cocktail shaker, combine 1 ounce gin, \u00bd ounce lemon juice and 1 teaspoon confectioners' sugar. Shake with ice for 30 seconds, then strain into a chilled flute; top with champagne."
-        },
-        {
-          "step": 2,
-          "text": "Gibson: In a mixing glass, combine 3 ounces gin and \u00bd ounce dry vermouth. Stir with ice for 30 seconds; let sit 1 to 2 minutes. Strain into a chilled martini glass and drop in a few cocktail onions."
-        },
-        {
-          "step": 3,
-          "text": "Bronx: In a cocktail shaker, combine 1 ounce gin, 2 ounces orange juice and \u00bd ounce each sweet and dry vermouth. Shake with ice for 30 seconds, then strain into a cocktail glass; garnish with an orange twist."
-        }
-      ],
-      "tags": [
-        "beverage",
-        "cocktail",
-        "gin",
-        "party",
-        "holiday"
-      ],
-      "image_refs": [
-        "magazine-recipes - 114.jpeg"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 188,
+          "calories": 346,
           "fat_g": 0.1,
-          "carbs_g": 11.9,
-          "protein_g": 0.8,
-          "sodium_mg": 5,
-          "fiber_g": 1.5,
-          "sugar_g": 7.4
+          "carbs_g": 24.9,
+          "protein_g": 0.5,
+          "sodium_mg": 17,
+          "fiber_g": 0.5,
+          "sugar_g": 19.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -678,17 +582,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 187,
-          "fat_g": 0.2,
-          "carbs_g": 48.4,
-          "protein_g": 1.1,
-          "sodium_mg": 3,
-          "fiber_g": 0.2,
-          "sugar_g": 45.5
+          "calories": 301,
+          "fat_g": 0.6,
+          "carbs_g": 76.4,
+          "protein_g": 1.3,
+          "sodium_mg": 13,
+          "fiber_g": 0.5,
+          "sugar_g": 69.5
         },
         "missing_inputs": [
-          "1 cup vodka",
-          "1 bottle sparkling apple juice"
+          "1 cup vodka"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -811,19 +714,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 260,
+          "fat_g": 0.8,
+          "carbs_g": 68.0,
+          "protein_g": 1.2,
+          "sodium_mg": 4,
+          "fiber_g": 12.0,
+          "sugar_g": 52.0
         },
-        "missing_inputs": [
-          "4  fresh pears"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -885,20 +786,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 62,
-          "fat_g": 0.2,
-          "carbs_g": 15.0,
-          "protein_g": 1.0,
-          "sodium_mg": 0,
-          "fiber_g": 3.0,
-          "sugar_g": 12.0
+          "calories": 170,
+          "fat_g": 1.1,
+          "carbs_g": 40.0,
+          "protein_g": 4.5,
+          "sodium_mg": 32,
+          "fiber_g": 6.3,
+          "sugar_g": 29.0
         },
-        "missing_inputs": [
-          "1/2 medium papaya",
-          "4-6 leaves kale"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -964,20 +862,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 108,
+          "fat_g": 0.9,
+          "carbs_g": 25.0,
+          "protein_g": 3.5,
+          "sodium_mg": 32,
+          "fiber_g": 3.4,
+          "sugar_g": 17.0
         },
-        "missing_inputs": [
-          "1/2 medium papaya",
-          "4-6 leaves kale"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -1201,19 +1096,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 136,
+          "calories": 142,
           "fat_g": 0.5,
-          "carbs_g": 33.5,
-          "protein_g": 2.5,
+          "carbs_g": 34.8,
+          "protein_g": 2.7,
           "sodium_mg": 2,
-          "fiber_g": 6.9,
+          "fiber_g": 7.1,
           "sugar_g": 24.8
         },
-        "missing_inputs": [
-          "1 small piece ginger"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -1291,19 +1184,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 192,
-          "fat_g": 0.6,
-          "carbs_g": 50.2,
-          "protein_g": 1.1,
-          "sodium_mg": 12,
-          "fiber_g": 9.0,
-          "sugar_g": 38.1
+          "calories": 222,
+          "fat_g": 0.9,
+          "carbs_g": 56.2,
+          "protein_g": 4.1,
+          "sodium_mg": 42,
+          "fiber_g": 11.0,
+          "sugar_g": 40.1
         },
         "missing_inputs": [
           "1 inch cucumber",
-          "1 inch stem broccoli",
           "1 inch slice beetroot"
         ],
         "assumptions": [
@@ -1394,19 +1286,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 166,
-          "fat_g": 0.9,
-          "carbs_g": 40.7,
-          "protein_g": 4.2,
-          "sodium_mg": 157,
-          "fiber_g": 8.2,
-          "sugar_g": 28.2
+          "calories": 190,
+          "fat_g": 1.1,
+          "carbs_g": 45.7,
+          "protein_g": 5.0,
+          "sodium_mg": 160,
+          "fiber_g": 9.7,
+          "sugar_g": 31.2
         },
-        "missing_inputs": [
-          "1 small red bell pepper"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -1480,19 +1370,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 309,
-          "fat_g": 3.6,
-          "carbs_g": 71.0,
-          "protein_g": 6.5,
-          "sodium_mg": 134,
-          "fiber_g": 16.1,
-          "sugar_g": 48.0
+          "calories": 374,
+          "fat_g": 3.8,
+          "carbs_g": 88.0,
+          "protein_g": 6.8,
+          "sodium_mg": 135,
+          "fiber_g": 19.1,
+          "sugar_g": 61.0
         },
-        "missing_inputs": [
-          "1 cup apple, strawberries, pears, or peaches"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -1735,19 +1623,17 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 181,
-          "fat_g": 9.6,
-          "carbs_g": 18.1,
-          "protein_g": 7.8,
-          "sodium_mg": 72,
-          "fiber_g": 5.8,
-          "sugar_g": 11.8
+          "calories": 298,
+          "fat_g": 12.6,
+          "carbs_g": 39.4,
+          "protein_g": 10.8,
+          "sodium_mg": 113,
+          "fiber_g": 6.5,
+          "sugar_g": 26.6
         },
-        "missing_inputs": [
-          "1/2 large banana"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -2014,19 +1900,17 @@
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 56,
-          "fat_g": 2.1,
-          "carbs_g": 6.0,
-          "protein_g": 2.5,
+          "calories": 125,
+          "fat_g": 2.4,
+          "carbs_g": 23.8,
+          "protein_g": 3.2,
           "sodium_mg": 29,
-          "fiber_g": 0.8,
-          "sugar_g": 4.8
+          "fiber_g": 2.8,
+          "sugar_g": 15.2
         },
-        "missing_inputs": [
-          "1 large banana"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -2816,19 +2700,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 79,
-          "fat_g": 2.5,
-          "carbs_g": 10.8,
-          "protein_g": 3.0,
-          "sodium_mg": 137,
+          "calories": 128,
+          "fat_g": 5.2,
+          "carbs_g": 14.8,
+          "protein_g": 5.7,
+          "sodium_mg": 172,
           "fiber_g": 0.0,
-          "sugar_g": 7.9
+          "sugar_g": 11.9
         },
-        "missing_inputs": [
-          "2 cup scalded milk"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -2912,19 +2794,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 83,
+          "calories": 113,
           "fat_g": 0.1,
-          "carbs_g": 21.3,
+          "carbs_g": 29.0,
           "protein_g": 0.2,
-          "sodium_mg": 1,
+          "sodium_mg": 10,
           "fiber_g": 0.1,
-          "sugar_g": 20.4
+          "sugar_g": 28.0
         },
-        "missing_inputs": [
-          "1 quart chilled ginger ale"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 11 servings"
         ]
@@ -3052,19 +2932,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 166,
-          "fat_g": 0.0,
-          "carbs_g": 42.0,
-          "protein_g": 0.0,
-          "sodium_mg": 52,
-          "fiber_g": 0.0,
-          "sugar_g": 42.0
+          "calories": 740,
+          "fat_g": 30.0,
+          "carbs_g": 114.0,
+          "protein_g": 10.0,
+          "sodium_mg": 214,
+          "fiber_g": 1.4,
+          "sugar_g": 108.0
         },
-        "missing_inputs": [
-          "2 quarts lime sherbet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
@@ -3363,113 +3241,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 580,
-          "fat_g": 0.0,
-          "carbs_g": 150.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2,
-          "fiber_g": 0.0,
-          "sugar_g": 150.0
+          "calories": 712,
+          "fat_g": 0.2,
+          "carbs_g": 184.0,
+          "protein_g": 1.0,
+          "sodium_mg": 4,
+          "fiber_g": 2.0,
+          "sugar_g": 178.0
         },
         "missing_inputs": [
-          "2 cans crushed pineapple",
           "1 jar maraschino cherries"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "poor-mans-steak-dutchovenc",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Poor Man'S Steak",
-      "category": "beverages",
-      "attribution": "",
-      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "ground beef",
-          "quantity": "2",
-          "unit": "lbs"
-        },
-        {
-          "item": "milk",
-          "quantity": "1 1/3",
-          "unit": "cups"
-        },
-        {
-          "item": "salt",
-          "quantity": "2",
-          "unit": "tsp"
-        },
-        {
-          "item": "margarine",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/4",
-          "unit": "tsp"
-        },
-        {
-          "item": "cream of mushroom soup",
-          "quantity": "2",
-          "unit": "cans"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Mix together meat, salt, pepper, crumbs, and milk. Pack into"
-        },
-        {
-          "step": 2,
-          "text": "loaf pans. Let stand in refrigerator overnight or as least 6"
-        },
-        {
-          "step": 3,
-          "text": "hours. Cut into slices and brown in margarine. Mix soup with 1 c"
-        },
-        {
-          "step": 4,
-          "text": "of water and pour over meat placed in dutch oven. Bake at 350 for"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "MISCLASSIFIED: This is a main dish, not a beverage"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 806,
-          "fat_g": 61.2,
-          "carbs_g": 13.1,
-          "protein_g": 44.7,
-          "sodium_mg": 2264,
-          "fiber_g": 1.0,
-          "sugar_g": 6.0
-        },
-        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -3574,112 +3356,6 @@
       }
     },
     {
-      "id": "steak-and-mushrooms-dutchovenc",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Steak And Mushrooms",
-      "category": "beverages",
-      "attribution": "",
-      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "round steak",
-          "quantity": "1",
-          "unit": "lb"
-        },
-        {
-          "item": "mushrooms",
-          "quantity": "1",
-          "unit": "lb"
-        },
-        {
-          "item": "tomato sauce",
-          "quantity": "8",
-          "unit": "oz"
-        },
-        {
-          "item": "flour",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "vegetable oil",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "onion",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "sliced"
-        },
-        {
-          "item": "salt",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/4",
-          "unit": "tsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Cut meat into strips and coat with flour. Saute in melted"
-        },
-        {
-          "step": 2,
-          "text": "butter for 5 min. Add onion and mushrooms, cook another 5 min or"
-        },
-        {
-          "step": 3,
-          "text": "until onion turn clear. Add remaining ingredients and stir well."
-        },
-        {
-          "step": 4,
-          "text": "Simmer 1 to 1-1/2 hours. Serve over rice."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "MISCLASSIFIED: This is a main dish, not a beverage"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 342,
-          "fat_g": 21.3,
-          "carbs_g": 12.9,
-          "protein_g": 24.8,
-          "sodium_mg": 933,
-          "fiber_g": 1.9,
-          "sugar_g": 4.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "round-steak-hawaiian-dutchovenc",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -3764,222 +3440,6 @@
           "sodium_mg": 7,
           "fiber_g": 0.7,
           "sugar_g": 1.2
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "flank-steak-teriyaki-dutchovenc",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Flank Steak Teriyaki",
-      "category": "beverages",
-      "attribution": "",
-      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "flank steak",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "pineapple slices",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "vegetable oil",
-          "quantity": "1",
-          "unit": "tbsp"
-        },
-        {
-          "item": "soy sauce",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "sugar",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "garlic",
-          "quantity": "1",
-          "unit": "clove",
-          "prep_note": "minced"
-        },
-        {
-          "item": "ginger",
-          "quantity": "1/2",
-          "unit": "tsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "To form marinade, combine all except steaks and pineapple. Mix"
-        },
-        {
-          "step": 2,
-          "text": "well and pour over steaks. Let marinate 1 to 1-1/2 hours. Fry"
-        },
-        {
-          "step": 3,
-          "text": "steaks in very hot oven or skillet brushing once with marinade."
-        },
-        {
-          "step": 4,
-          "text": "Add pineapple during last few minutes, brush with marinade and"
-        },
-        {
-          "step": 5,
-          "text": "cover. Cook 3-5 min. Serve over rice."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "MISCLASSIFIED: This is a main dish, not a beverage"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 223,
-          "fat_g": 7.3,
-          "carbs_g": 33.5,
-          "protein_g": 8.0,
-          "sodium_mg": 1770,
-          "fiber_g": 4.5,
-          "sugar_g": 25.4
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "salisbury-steaks-dutchovenc",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Salisbury Steaks",
-      "category": "beverages",
-      "attribution": "",
-      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "ground beef",
-          "quantity": "2",
-          "unit": "lbs"
-        },
-        {
-          "item": "breadcrumbs",
-          "quantity": "2/3",
-          "unit": "cup"
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/2",
-          "unit": "tsp"
-        },
-        {
-          "item": "beef broth",
-          "quantity": "2",
-          "unit": "cans",
-          "prep_note": "10 oz each"
-        },
-        {
-          "item": "mushrooms",
-          "quantity": "8",
-          "unit": "oz",
-          "prep_note": "canned"
-        },
-        {
-          "item": "cornstarch",
-          "quantity": "4",
-          "unit": "tbsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Mix ground beef, bread crumbs, salt, pepper and eggs, shape"
-        },
-        {
-          "step": 2,
-          "text": "into 8 oval patties, each about 3/4\" thick. Cook patties over"
-        },
-        {
-          "step": 3,
-          "text": "medium heat, turning occasionally, until brown, about 10 min,"
-        },
-        {
-          "step": 4,
-          "text": "drain. Add onions broth and mushrooms. Heat to boiling, reduce"
-        },
-        {
-          "step": 5,
-          "text": "heat. Cover and simmer until beef is done, about 10 min."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "MISCLASSIFIED: This is a main dish, not a beverage"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 725,
-          "fat_g": 47.0,
-          "carbs_g": 23.1,
-          "protein_g": 48.7,
-          "sodium_mg": 1776,
-          "fiber_g": 1.5,
-          "sugar_g": 2.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -4165,19 +3625,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
+          "calories": 3,
           "fat_g": 0.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 0.4,
+          "sodium_mg": 8,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "6  heaping teaspoons finely ground coffee."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -4239,19 +3697,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
+          "calories": 3,
           "fat_g": 0.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 0.4,
+          "sodium_mg": 7,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "11/2 cup ground coffee."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -4317,19 +3773,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
+          "calories": 2,
           "fat_g": 0.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 0.2,
+          "sodium_mg": 4,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "3  rounding tablespoons ground coffee."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -4425,7 +3879,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -4435,10 +3889,7 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "450  BEVERAGES",
-          "1  The coffee should beroasted justbefore use ;asifkept"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -4868,19 +4319,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
           "carbs_g": 2.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Two tablespoons ofparsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -5166,7 +4615,6 @@
           "sugar_g": 1464.0
         },
         "missing_inputs": [
-          "4 oz hops",
           "8 oz essence of spruce"
         ],
         "assumptions": [

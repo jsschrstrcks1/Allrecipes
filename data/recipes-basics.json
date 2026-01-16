@@ -220,19 +220,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 2.5,
-          "carbs_g": 0.2,
-          "protein_g": 3.0,
+          "calories": 180,
+          "fat_g": 2.9,
+          "carbs_g": 31.0,
+          "protein_g": 7.2,
           "sodium_mg": 326,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
+          "fiber_g": 1.1,
+          "sugar_g": 0.3
         },
-        "missing_inputs": [
-          "5.6 oz soft wheat flour (about 1 1/4 cups)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]

@@ -55,51 +55,22 @@ All recipes extracted from the Kindle muffin cookbook (reference collection) nee
 
 ## Flagged Non-Recipe Content
 
-**Status:** NEEDS REVIEW
+**Status:** COMPLETE
 **Priority:** Low
 **Created:** 2026-01-15
+**Completed:** 2026-01-15
 
 ### Description
-20 entries were identified as non-recipe content (advertisements, addresses, OCR artifacts from scanned pages) and have been flagged with `flagged_for_review: true`. These should be reviewed and either:
-- Deleted entirely if they're truly not recipes
-- Unflagged and repaired if they contain valid recipe content that was misidentified
+20 entries were identified as non-recipe content (advertisements, addresses, OCR artifacts from scanned pages) and flagged with `flagged_for_review: true`.
 
-### Flagged Entries
-| ID | Title | Reason |
-|----|-------|--------|
-| published-forthebenefit-of-175choicer | Published Forthebenefit Of | Advertisement |
-| when-youeatat-bensonwoma | When Youeatat | Restaurant ad |
-| douglas-bensonwoma | Douglas | Address fragment |
-| rodstrom-bensonwoma | Rodstrom | Address fragment |
-| dental-rooms-bensonwoma | Dental Rooms | Advertisement |
-| someother-books-mybest250r | Someother Books | Book advertisement |
-| allplayer-music-oursisters | Allplayer Music | Advertisement |
-| estimates-furnished-oursisters | Estimates Furnished | Business ad |
-| thebestingroceries-andmeats-stevensonm | Thebestingroceries Andmeats | Grocery store ad |
-| philadelphia-thealumnae | Philadelphia | Address fragment |
-| distributors-theeastmil | Distributors | Business listing |
-| florists-theeastmil | Florists | Business listing |
-| general-offices-thenewengl | General Offices | Business listing |
-| perpound-elementsof | Perpound | OCR garbage/advertisement |
-| breads-dutchovenc | Breads | Corrupted multi-ingredient lines |
-| dhymeasure-wilsonscoo | Dhymeasure | OCR garbage/conversion table |
-| creamed-dishes-courseofle | Creamed Dishes | Recipe header with no ingredients |
-| doughnuts-theplainsa | Doughnuts | Mixed with kitchen equipment |
-| methods-ofpreparing-food-materials-carolineki | Methods Ofpreparing Food Materials | Conversion chart |
-| lesson-and-check-your-answers-again-basicfoodp | Lesson And Check Your Answers | Military manual reference |
+### Resolution
+- 12 non-recipe entries deleted (advertisements, addresses, corrupted data)
+- 1 recipe repaired: "Dutch Oven Biscuits" (was incorrectly titled "Breads")
+- 7 entries had been cleaned up in earlier sessions
 
-### How to Review
-```bash
-# Find all flagged entries
-python3 -c "
-import json
-for shard in ['mains', 'desserts', 'breads', 'breakfast', 'appetizers', 'sides', 'soups', 'salads', 'beverages']:
-    with open(f'data/recipes-{shard}.json') as f:
-        data = json.load(f)
-    for r in data.get('recipes', []):
-        if r.get('flagged_for_review'):
-            print(f\"{shard}: {r.get('title')} ({r.get('id')})\")"
-```
+### Actions Taken
+1. Deleted from mains shard: published-forthebenefit-of-175choicer, when-youeatat-bensonwoma, douglas-bensonwoma, rodstrom-bensonwoma, dental-rooms-bensonwoma, someother-books-mybest250r, allplayer-music-oursisters, estimates-furnished-oursisters, thebestingroceries-andmeats-stevensonm, philadelphia-thealumnae, distributors-theeastmil, for-six-to-eight-fromscratc
+2. Fixed breads-dutchovenc → dutch-oven-biscuits-dutchovenc (valid biscuit recipe with wrong title)
 
 ---
 
