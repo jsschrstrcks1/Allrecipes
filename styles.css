@@ -353,6 +353,15 @@ main {
   color: white;
   font-size: 3rem;
   position: relative;
+  overflow: hidden;
+}
+
+.recipe-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  image-rendering: auto;
 }
 
 /* Decorative corner fold */

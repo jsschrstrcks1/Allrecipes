@@ -578,16 +578,35 @@ function renderRecipeGrid() {
 }
 
 /**
+ * Get thumbnail path for a recipe
+ * @param {Object} recipe - Recipe object with image_refs
+ * @returns {string|null} - Path to webp thumbnail or null
+ */
+function getRecipeThumbnail(recipe) {
+  if (!recipe.image_refs || recipe.image_refs.length === 0) return null;
+
+  // Get first image ref and convert to thumbnail path
+  let ref = recipe.image_refs[0];
+  // Remove extension if present and add .webp
+  const baseName = ref.replace(/\.(jpeg|jpg|png|PNG)$/i, '');
+  return `data/thumbnails/${baseName}.webp`;
+}
+
+/**
  * Render a single recipe card
  */
 function renderRecipeCard(recipe) {
   const categoryIcon = getCategoryIcon(recipe.category);
   const timeInfo = recipe.total_time || recipe.cook_time || '';
+  const thumbnail = getRecipeThumbnail(recipe);
 
   return `
     <article class="recipe-card category-${escapeAttr(recipe.category)}">
       <div class="recipe-card-image">
-        ${categoryIcon}
+        ${thumbnail
+          ? `<img src="${escapeAttr(thumbnail)}" alt="" class="recipe-thumb" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">${categoryIcon}</span>`
+          : categoryIcon
+        }
       </div>
       <div class="recipe-card-content">
         <span class="category">${escapeHtml(recipe.category) || 'Uncategorized'}</span>
