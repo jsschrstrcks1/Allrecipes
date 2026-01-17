@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_count": 3616,
+    "total_count": 3682,
     "last_updated": "2026-01-17",
-    "total_recipes": 3616
+    "total_recipes": 3682
   },
   "recipes": [
     {
@@ -391330,7 +391330,7 @@
         },
         {
           "step": 3,
-          "text": "Monitor temperature with a thermometer. Heat to 185°F (85°C). Do not let it boil."
+          "text": "Monitor temperature with a thermometer. Heat to 185\u00b0F (85\u00b0C). Do not let it boil."
         },
         {
           "step": 4,
@@ -391365,7 +391365,7 @@
           "text": "Taste and adjust salt. Transfer to an airtight container and refrigerate."
         }
       ],
-      "temperature": "185°F (85°C)",
+      "temperature": "185\u00b0F (85\u00b0C)",
       "notes": [
         "Do NOT use ultra-pasteurized milk - it will not curdle properly",
         "Sheep's milk has about twice the fat of cow's milk, yielding richer cheese",
@@ -391435,7 +391435,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Combine sheep's milk and cream in a pot. Warm gently to 75°F (24°C)."
+          "text": "Combine sheep's milk and cream in a pot. Warm gently to 75\u00b0F (24\u00b0C)."
         },
         {
           "step": 2,
@@ -391447,7 +391447,7 @@
         },
         {
           "step": 4,
-          "text": "Cover and let culture at room temperature (70-75°F) for 12-14 hours or overnight until set like yogurt."
+          "text": "Cover and let culture at room temperature (70-75\u00b0F) for 12-14 hours or overnight until set like yogurt."
         },
         {
           "step": 5,
@@ -391474,7 +391474,7 @@
           "text": "Pack into containers and refrigerate. Best after chilling for several hours."
         }
       ],
-      "temperature": "75°F (24°C) for culturing",
+      "temperature": "75\u00b0F (24\u00b0C) for culturing",
       "notes": [
         "The cultured method develops more complex, tangy flavors than acid-set",
         "Use only 2 drops of rennet - too much creates a rubbery texture",
@@ -391511,24 +391511,78 @@
       "cook_time": "30 min",
       "total_time": "2 hours including draining",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1/2", "unit": "gallon", "prep_note": "whole, not ultra-pasteurized"},
-        {"item": "heavy cream", "quantity": "1/4", "unit": "cup", "prep_note": "optional, for extra richness"},
-        {"item": "fresh lemon juice", "quantity": "3", "unit": "tbsp", "prep_note": "or white vinegar"},
-        {"item": "fine sea salt", "quantity": "1/2", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1/2",
+          "unit": "gallon",
+          "prep_note": "whole, not ultra-pasteurized"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "optional, for extra richness"
+        },
+        {
+          "item": "fresh lemon juice",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "or white vinegar"
+        },
+        {
+          "item": "fine sea salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Pour sheep's milk and cream into a heavy pot. Add salt."},
-        {"step": 2, "text": "Heat slowly over medium heat to 185-190°F (85-88°C), stirring occasionally."},
-        {"step": 3, "text": "Remove from heat. Add lemon juice and stir gently once."},
-        {"step": 4, "text": "Let sit undisturbed 10-15 minutes until curds form."},
-        {"step": 5, "text": "Line a colander with cheesecloth. Gently ladle curds into cloth."},
-        {"step": 6, "text": "Drain 1-2 hours for creamy ricotta, longer for drier texture."},
-        {"step": 7, "text": "Transfer to container. Refrigerate up to 1 week."}
+        {
+          "step": 1,
+          "text": "Pour sheep's milk and cream into a heavy pot. Add salt."
+        },
+        {
+          "step": 2,
+          "text": "Heat slowly over medium heat to 185-190\u00b0F (85-88\u00b0C), stirring occasionally."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Add lemon juice and stir gently once."
+        },
+        {
+          "step": 4,
+          "text": "Let sit undisturbed 10-15 minutes until curds form."
+        },
+        {
+          "step": 5,
+          "text": "Line a colander with cheesecloth. Gently ladle curds into cloth."
+        },
+        {
+          "step": 6,
+          "text": "Drain 1-2 hours for creamy ricotta, longer for drier texture."
+        },
+        {
+          "step": 7,
+          "text": "Transfer to container. Refrigerate up to 1 week."
+        }
       ],
-      "temperature": "185-190°F (85-88°C)",
-      "notes": ["Sheep's milk ricotta is naturally sweeter and richer", "Use within a week for best flavor", "Perfect for lasagna, cannoli, or eating fresh with honey"],
-      "tags": ["cheese", "ricotta", "sheep milk", "fresh cheese", "Italian", "homemade"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "185-190\u00b0F (85-88\u00b0C)",
+      "notes": [
+        "Sheep's milk ricotta is naturally sweeter and richer",
+        "Use within a week for best flavor",
+        "Perfect for lasagna, cannoli, or eating fresh with honey"
+      ],
+      "tags": [
+        "cheese",
+        "ricotta",
+        "sheep milk",
+        "fresh cheese",
+        "Italian",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391545,25 +391599,81 @@
       "cook_time": "2 hours",
       "total_time": "4-5 hours",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1", "unit": "gallon", "prep_note": "skim or whole"},
-        {"item": "mesophilic starter culture", "quantity": "1/8", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "2", "unit": "drops", "prep_note": "diluted in 1/4 cup water"},
-        {"item": "heavy cream", "quantity": "1/4", "unit": "cup", "prep_note": "for dressing"},
-        {"item": "salt", "quantity": "1/2", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": "skim or whole"
+        },
+        {
+          "item": "mesophilic starter culture",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "2",
+          "unit": "drops",
+          "prep_note": "diluted in 1/4 cup water"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 72°F (22°C). Add starter, stir, let ripen 1 hour."},
-        {"step": 2, "text": "Add diluted rennet, stir gently. Cover and let set 4-6 hours until firm."},
-        {"step": 3, "text": "Cut curd into 1/2 inch cubes. Let rest 10 minutes."},
-        {"step": 4, "text": "Slowly heat to 110°F (43°C) over 30-40 minutes, stirring gently."},
-        {"step": 5, "text": "Hold at 110°F for 20-30 minutes until curds are firm."},
-        {"step": 6, "text": "Drain through cheesecloth. Rinse curds with cold water."},
-        {"step": 7, "text": "Toss curds with salt and cream. Refrigerate."}
+        {
+          "step": 1,
+          "text": "Heat milk to 72\u00b0F (22\u00b0C). Add starter, stir, let ripen 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Add diluted rennet, stir gently. Cover and let set 4-6 hours until firm."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2 inch cubes. Let rest 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Slowly heat to 110\u00b0F (43\u00b0C) over 30-40 minutes, stirring gently."
+        },
+        {
+          "step": 5,
+          "text": "Hold at 110\u00b0F for 20-30 minutes until curds are firm."
+        },
+        {
+          "step": 6,
+          "text": "Drain through cheesecloth. Rinse curds with cold water."
+        },
+        {
+          "step": 7,
+          "text": "Toss curds with salt and cream. Refrigerate."
+        }
       ],
-      "temperature": "72-110°F (22-43°C)",
-      "notes": ["Small curd develops at lower cooking temps, large curd at higher", "Add herbs or fruit for variations"],
-      "tags": ["cheese", "cottage cheese", "sheep milk", "fresh cheese", "homemade"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "72-110\u00b0F (22-43\u00b0C)",
+      "notes": [
+        "Small curd develops at lower cooking temps, large curd at higher",
+        "Add herbs or fruit for variations"
+      ],
+      "tags": [
+        "cheese",
+        "cottage cheese",
+        "sheep milk",
+        "fresh cheese",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391580,22 +391690,66 @@
       "cook_time": "12 hours culturing",
       "total_time": "18-24 hours",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1/2", "unit": "gallon"},
-        {"item": "mesophilic starter", "quantity": "1/8", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1", "unit": "drop", "prep_note": "in 1 tbsp water"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1/2",
+          "unit": "gallon"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1",
+          "unit": "drop",
+          "prep_note": "in 1 tbsp water"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F (30°C)."},
-        {"step": 2, "text": "Add starter, stir. Add diluted rennet, stir briefly."},
-        {"step": 3, "text": "Cover and let culture 12-18 hours at room temp until set like yogurt."},
-        {"step": 4, "text": "Ladle into cheesecloth-lined strainer."},
-        {"step": 5, "text": "Drain 6-12 hours until desired thickness."},
-        {"step": 6, "text": "Blend smooth if desired. Season with salt to taste."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F (30\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Add starter, stir. Add diluted rennet, stir briefly."
+        },
+        {
+          "step": 3,
+          "text": "Cover and let culture 12-18 hours at room temp until set like yogurt."
+        },
+        {
+          "step": 4,
+          "text": "Ladle into cheesecloth-lined strainer."
+        },
+        {
+          "step": 5,
+          "text": "Drain 6-12 hours until desired thickness."
+        },
+        {
+          "step": 6,
+          "text": "Blend smooth if desired. Season with salt to taste."
+        }
       ],
-      "temperature": "86°F (30°C)",
-      "notes": ["Use for baking, spreads, or eating plain", "Can substitute for sour cream or cream cheese in recipes"],
-      "tags": ["cheese", "quark", "sheep milk", "fresh cheese", "German", "homemade"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86\u00b0F (30\u00b0C)",
+      "notes": [
+        "Use for baking, spreads, or eating plain",
+        "Can substitute for sour cream or cream cheese in recipes"
+      ],
+      "tags": [
+        "cheese",
+        "quark",
+        "sheep milk",
+        "fresh cheese",
+        "German",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391612,22 +391766,67 @@
       "cook_time": "20 min",
       "total_time": "12+ hours including draining",
       "ingredients": [
-        {"item": "sheep's milk cream", "quantity": "2", "unit": "cups", "prep_note": "or heavy cream"},
-        {"item": "fresh lemon juice", "quantity": "1", "unit": "tbsp"},
-        {"item": "salt", "quantity": "1", "unit": "pinch"}
+        {
+          "item": "sheep's milk cream",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "or heavy cream"
+        },
+        {
+          "item": "fresh lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "pinch"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat cream in double boiler to 185°F (85°C)."},
-        {"step": 2, "text": "Add lemon juice, stir gently. Hold temp 5 minutes."},
-        {"step": 3, "text": "Remove from heat. Let cool 30 minutes."},
-        {"step": 4, "text": "Pour into cheesecloth-lined strainer over bowl."},
-        {"step": 5, "text": "Refrigerate and drain 12-24 hours."},
-        {"step": 6, "text": "Transfer thickened mascarpone to container."}
+        {
+          "step": 1,
+          "text": "Heat cream in double boiler to 185\u00b0F (85\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Add lemon juice, stir gently. Hold temp 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Let cool 30 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Pour into cheesecloth-lined strainer over bowl."
+        },
+        {
+          "step": 5,
+          "text": "Refrigerate and drain 12-24 hours."
+        },
+        {
+          "step": 6,
+          "text": "Transfer thickened mascarpone to container."
+        }
       ],
-      "temperature": "185°F (85°C)",
-      "notes": ["Sheep cream mascarpone is exceptionally rich", "Use within 1 week", "Perfect for tiramisu, cheesecake, pasta sauces"],
-      "tags": ["cheese", "mascarpone", "sheep milk", "Italian", "dessert", "cream cheese"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "185\u00b0F (85\u00b0C)",
+      "notes": [
+        "Sheep cream mascarpone is exceptionally rich",
+        "Use within 1 week",
+        "Perfect for tiramisu, cheesecake, pasta sauces"
+      ],
+      "tags": [
+        "cheese",
+        "mascarpone",
+        "sheep milk",
+        "Italian",
+        "dessert",
+        "cream cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391644,22 +391843,67 @@
       "cook_time": "12 hours",
       "total_time": "24 hours",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1/2", "unit": "gallon"},
-        {"item": "fromage blanc culture", "quantity": "1", "unit": "packet", "prep_note": "or 1/8 tsp mesophilic + 1 drop rennet"},
-        {"item": "salt", "quantity": "1/4", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1/2",
+          "unit": "gallon"
+        },
+        {
+          "item": "fromage blanc culture",
+          "quantity": "1",
+          "unit": "packet",
+          "prep_note": "or 1/8 tsp mesophilic + 1 drop rennet"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F (30°C)."},
-        {"step": 2, "text": "Add culture, stir thoroughly."},
-        {"step": 3, "text": "Cover and let set 12-14 hours at 72°F until thick like yogurt."},
-        {"step": 4, "text": "Gently ladle into butter muslin-lined colander."},
-        {"step": 5, "text": "Drain 6-12 hours until spreadable consistency."},
-        {"step": 6, "text": "Mix in salt. Add herbs or honey for variations."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F (30\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Add culture, stir thoroughly."
+        },
+        {
+          "step": 3,
+          "text": "Cover and let set 12-14 hours at 72\u00b0F until thick like yogurt."
+        },
+        {
+          "step": 4,
+          "text": "Gently ladle into butter muslin-lined colander."
+        },
+        {
+          "step": 5,
+          "text": "Drain 6-12 hours until spreadable consistency."
+        },
+        {
+          "step": 6,
+          "text": "Mix in salt. Add herbs or honey for variations."
+        }
       ],
-      "temperature": "86°F (30°C), then 72°F room temp",
-      "notes": ["Wonderful with fresh fruit or on toast", "Mix with herbs for savory spread", "Base for many French desserts"],
-      "tags": ["cheese", "fromage blanc", "sheep milk", "French", "fresh cheese", "homemade"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86\u00b0F (30\u00b0C), then 72\u00b0F room temp",
+      "notes": [
+        "Wonderful with fresh fruit or on toast",
+        "Mix with herbs for savory spread",
+        "Base for many French desserts"
+      ],
+      "tags": [
+        "cheese",
+        "fromage blanc",
+        "sheep milk",
+        "French",
+        "fresh cheese",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391676,25 +391920,81 @@
       "cook_time": "1 hour",
       "total_time": "2-3 hours",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1", "unit": "gallon"},
-        {"item": "citric acid", "quantity": "1.5", "unit": "tsp", "prep_note": "dissolved in 1/2 cup cool water"},
-        {"item": "liquid rennet", "quantity": "1/4", "unit": "tsp", "prep_note": "dissolved in 1/4 cup cool water"},
-        {"item": "cheese salt", "quantity": "1", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "citric acid",
+          "quantity": "1.5",
+          "unit": "tsp",
+          "prep_note": "dissolved in 1/2 cup cool water"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "dissolved in 1/4 cup cool water"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Add citric acid solution to cold milk. Heat to 90°F (32°C), stirring."},
-        {"step": 2, "text": "Remove from heat. Add rennet, stir gently 30 seconds. Cover, let set 5-10 min."},
-        {"step": 3, "text": "Check for clean break. Cut curd into 1-inch cubes."},
-        {"step": 4, "text": "Heat curds to 105°F (40°C), stirring gently."},
-        {"step": 5, "text": "Drain whey. Press curds together in pot."},
-        {"step": 6, "text": "Heat water or whey to 170°F (77°C). Submerge curd until pliable."},
-        {"step": 7, "text": "Stretch and fold curd until smooth and shiny. Add salt while stretching."},
-        {"step": 8, "text": "Form into balls. Cool in ice water bath."}
+        {
+          "step": 1,
+          "text": "Add citric acid solution to cold milk. Heat to 90\u00b0F (32\u00b0C), stirring."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat. Add rennet, stir gently 30 seconds. Cover, let set 5-10 min."
+        },
+        {
+          "step": 3,
+          "text": "Check for clean break. Cut curd into 1-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Heat curds to 105\u00b0F (40\u00b0C), stirring gently."
+        },
+        {
+          "step": 5,
+          "text": "Drain whey. Press curds together in pot."
+        },
+        {
+          "step": 6,
+          "text": "Heat water or whey to 170\u00b0F (77\u00b0C). Submerge curd until pliable."
+        },
+        {
+          "step": 7,
+          "text": "Stretch and fold curd until smooth and shiny. Add salt while stretching."
+        },
+        {
+          "step": 8,
+          "text": "Form into balls. Cool in ice water bath."
+        }
       ],
-      "temperature": "90-170°F (32-77°C)",
-      "notes": ["Sheep milk mozzarella has higher fat for better melt", "Use same day for best texture", "Store in whey or salted water up to 1 week"],
-      "tags": ["cheese", "mozzarella", "sheep milk", "pasta filata", "Italian", "fresh cheese"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-170\u00b0F (32-77\u00b0C)",
+      "notes": [
+        "Sheep milk mozzarella has higher fat for better melt",
+        "Use same day for best texture",
+        "Store in whey or salted water up to 1 week"
+      ],
+      "tags": [
+        "cheese",
+        "mozzarella",
+        "sheep milk",
+        "pasta filata",
+        "Italian",
+        "fresh cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391711,23 +392011,72 @@
       "cook_time": "1 hour",
       "total_time": "2 hours",
       "ingredients": [
-        {"item": "sheep's milk mozzarella curd", "quantity": "1", "unit": "lb", "prep_note": "freshly made, warm"},
-        {"item": "sheep's milk cream", "quantity": "1/2", "unit": "cup"},
-        {"item": "salt", "quantity": "1/2", "unit": "tsp"}
+        {
+          "item": "sheep's milk mozzarella curd",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "freshly made, warm"
+        },
+        {
+          "item": "sheep's milk cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Prepare mozzarella curd using sheep milk mozzarella recipe."},
-        {"step": 2, "text": "Reserve 1/4 of stretched curd. Shred into thin strips (stracciatella)."},
-        {"step": 3, "text": "Mix stracciatella with cream and salt."},
-        {"step": 4, "text": "Stretch remaining curd into thin sheets."},
-        {"step": 5, "text": "Form pouches, fill with stracciatella mixture."},
-        {"step": 6, "text": "Pinch closed, forming a sealed ball."},
-        {"step": 7, "text": "Store in cream or brine. Consume within 2 days."}
+        {
+          "step": 1,
+          "text": "Prepare mozzarella curd using sheep milk mozzarella recipe."
+        },
+        {
+          "step": 2,
+          "text": "Reserve 1/4 of stretched curd. Shred into thin strips (stracciatella)."
+        },
+        {
+          "step": 3,
+          "text": "Mix stracciatella with cream and salt."
+        },
+        {
+          "step": 4,
+          "text": "Stretch remaining curd into thin sheets."
+        },
+        {
+          "step": 5,
+          "text": "Form pouches, fill with stracciatella mixture."
+        },
+        {
+          "step": 6,
+          "text": "Pinch closed, forming a sealed ball."
+        },
+        {
+          "step": 7,
+          "text": "Store in cream or brine. Consume within 2 days."
+        }
       ],
-      "temperature": "170°F (77°C) for stretching",
-      "notes": ["Best eaten within 24 hours of making", "The cream should ooze out when cut open", "Serve at room temperature with tomatoes and basil"],
-      "tags": ["cheese", "burrata", "sheep milk", "Italian", "Puglia", "fresh cheese", "luxury"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "170\u00b0F (77\u00b0C) for stretching",
+      "notes": [
+        "Best eaten within 24 hours of making",
+        "The cream should ooze out when cut open",
+        "Serve at room temperature with tomatoes and basil"
+      ],
+      "tags": [
+        "cheese",
+        "burrata",
+        "sheep milk",
+        "Italian",
+        "Puglia",
+        "fresh cheese",
+        "luxury"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391744,26 +392093,85 @@
       "cook_time": "3 hours",
       "total_time": "2-12 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "lipase powder", "quantity": "1/4", "unit": "tsp", "prep_note": "for sharp flavor"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "lipase powder",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "for sharp flavor"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 97°F (36°C). Add lipase dissolved in water. Stir."},
-        {"step": 2, "text": "Add starter, let ripen 30 minutes."},
-        {"step": 3, "text": "Add diluted rennet. Let set 30-45 minutes until clean break."},
-        {"step": 4, "text": "Cut curd into 1/2-inch cubes. Stir gently, heat to 118°F (48°C)."},
-        {"step": 5, "text": "Drain whey. Let curd mat and acidify until pH 5.2 (stretches in hot water)."},
-        {"step": 6, "text": "Stretch in 170°F water until smooth. Form into traditional shapes."},
-        {"step": 7, "text": "Brine 12 hours per pound."},
-        {"step": 8, "text": "Hang to dry. Age 2-12 months in cool cave or fridge."}
+        {
+          "step": 1,
+          "text": "Heat milk to 97\u00b0F (36\u00b0C). Add lipase dissolved in water. Stir."
+        },
+        {
+          "step": 2,
+          "text": "Add starter, let ripen 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add diluted rennet. Let set 30-45 minutes until clean break."
+        },
+        {
+          "step": 4,
+          "text": "Cut curd into 1/2-inch cubes. Stir gently, heat to 118\u00b0F (48\u00b0C)."
+        },
+        {
+          "step": 5,
+          "text": "Drain whey. Let curd mat and acidify until pH 5.2 (stretches in hot water)."
+        },
+        {
+          "step": 6,
+          "text": "Stretch in 170\u00b0F water until smooth. Form into traditional shapes."
+        },
+        {
+          "step": 7,
+          "text": "Brine 12 hours per pound."
+        },
+        {
+          "step": 8,
+          "text": "Hang to dry. Age 2-12 months in cool cave or fridge."
+        }
       ],
-      "temperature": "97-170°F (36-77°C)",
-      "notes": ["Provolone Dolce: mild, aged 2-3 months", "Provolone Piccante: sharp, aged 6-12 months", "Can be smoked for additional flavor"],
-      "tags": ["cheese", "provolone", "sheep milk", "Italian", "pasta filata", "aged"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "97-170\u00b0F (36-77\u00b0C)",
+      "notes": [
+        "Provolone Dolce: mild, aged 2-3 months",
+        "Provolone Piccante: sharp, aged 6-12 months",
+        "Can be smoked for additional flavor"
+      ],
+      "tags": [
+        "cheese",
+        "provolone",
+        "sheep milk",
+        "Italian",
+        "pasta filata",
+        "aged"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391780,23 +392188,71 @@
       "cook_time": "2 hours",
       "total_time": "1-2 weeks drying",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1", "unit": "gallon"},
-        {"item": "citric acid", "quantity": "1.5", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/4", "unit": "tsp"},
-        {"item": "salt", "quantity": "1", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "citric acid",
+          "quantity": "1.5",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Make mozzarella curd using standard method."},
-        {"step": 2, "text": "Stretch until very smooth and elastic."},
-        {"step": 3, "text": "Form into pear shape with pinched 'neck' at top."},
-        {"step": 4, "text": "Tie string around neck for hanging."},
-        {"step": 5, "text": "Hang to dry 1-2 weeks in cool area."},
-        {"step": 6, "text": "Optional: cold smoke for Scamorza Affumicata."}
+        {
+          "step": 1,
+          "text": "Make mozzarella curd using standard method."
+        },
+        {
+          "step": 2,
+          "text": "Stretch until very smooth and elastic."
+        },
+        {
+          "step": 3,
+          "text": "Form into pear shape with pinched 'neck' at top."
+        },
+        {
+          "step": 4,
+          "text": "Tie string around neck for hanging."
+        },
+        {
+          "step": 5,
+          "text": "Hang to dry 1-2 weeks in cool area."
+        },
+        {
+          "step": 6,
+          "text": "Optional: cold smoke for Scamorza Affumicata."
+        }
       ],
-      "temperature": "90-170°F",
-      "notes": ["Scamorza Bianca: plain white, mild", "Scamorza Affumicata: smoked, deeper flavor", "Great melting cheese for pizza and pasta"],
-      "tags": ["cheese", "scamorza", "sheep milk", "Italian", "pasta filata", "smoked"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-170\u00b0F",
+      "notes": [
+        "Scamorza Bianca: plain white, mild",
+        "Scamorza Affumicata: smoked, deeper flavor",
+        "Great melting cheese for pizza and pasta"
+      ],
+      "tags": [
+        "cheese",
+        "scamorza",
+        "sheep milk",
+        "Italian",
+        "pasta filata",
+        "smoked"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391813,24 +392269,76 @@
       "cook_time": "3 hours",
       "total_time": "3-6 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 95°F. Add starter, ripen 45 minutes."},
-        {"step": 2, "text": "Add rennet, let set 40 minutes."},
-        {"step": 3, "text": "Cut curd small (1/4 inch). Cook to 118°F."},
-        {"step": 4, "text": "Drain and let curd acidify 3-5 hours until stretchy."},
-        {"step": 5, "text": "Stretch in hot water. Form into gourd shape with small ball on top."},
-        {"step": 6, "text": "Tie with raffia at neck. Hang in pairs over rod."},
-        {"step": 7, "text": "Brine 8-12 hours. Dry and age 3-6 months."}
+        {
+          "step": 1,
+          "text": "Heat milk to 95\u00b0F. Add starter, ripen 45 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet, let set 40 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd small (1/4 inch). Cook to 118\u00b0F."
+        },
+        {
+          "step": 4,
+          "text": "Drain and let curd acidify 3-5 hours until stretchy."
+        },
+        {
+          "step": 5,
+          "text": "Stretch in hot water. Form into gourd shape with small ball on top."
+        },
+        {
+          "step": 6,
+          "text": "Tie with raffia at neck. Hang in pairs over rod."
+        },
+        {
+          "step": 7,
+          "text": "Brine 8-12 hours. Dry and age 3-6 months."
+        }
       ],
-      "temperature": "95-170°F",
-      "notes": ["Traditional shape resembles a teardrop with a topknot", "Aged versions develop sharp, tangy flavor", "Young versions are mild and great for grilling"],
-      "tags": ["cheese", "caciocavallo", "sheep milk", "Italian", "pasta filata", "aged", "traditional"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "95-170\u00b0F",
+      "notes": [
+        "Traditional shape resembles a teardrop with a topknot",
+        "Aged versions develop sharp, tangy flavor",
+        "Young versions are mild and great for grilling"
+      ],
+      "tags": [
+        "cheese",
+        "caciocavallo",
+        "sheep milk",
+        "Italian",
+        "pasta filata",
+        "aged",
+        "traditional"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391847,26 +392355,85 @@
       "cook_time": "3 hours",
       "total_time": "2-12 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "calcium chloride", "quantity": "1/4", "unit": "tsp", "prep_note": "if pasteurized"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "calcium chloride",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "if pasteurized"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add calcium chloride if using."},
-        {"step": 2, "text": "Add starter, ripen 10 minutes. Add rennet, set 45 minutes."},
-        {"step": 3, "text": "Cut curd into 1/2-inch cubes. Let rest 5 minutes."},
-        {"step": 4, "text": "Remove 1/3 of whey. Replace with 90°F water (washing step)."},
-        {"step": 5, "text": "Slowly heat to 100°F over 30 minutes while stirring."},
-        {"step": 6, "text": "Drain whey. Press curds into mold at 10 lbs, increasing to 50 lbs."},
-        {"step": 7, "text": "Brine 12 hours. Air dry 2-3 days."},
-        {"step": 8, "text": "Wax or vacuum seal. Age 2-12 months."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add calcium chloride if using."
+        },
+        {
+          "step": 2,
+          "text": "Add starter, ripen 10 minutes. Add rennet, set 45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2-inch cubes. Let rest 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Remove 1/3 of whey. Replace with 90\u00b0F water (washing step)."
+        },
+        {
+          "step": 5,
+          "text": "Slowly heat to 100\u00b0F over 30 minutes while stirring."
+        },
+        {
+          "step": 6,
+          "text": "Drain whey. Press curds into mold at 10 lbs, increasing to 50 lbs."
+        },
+        {
+          "step": 7,
+          "text": "Brine 12 hours. Air dry 2-3 days."
+        },
+        {
+          "step": 8,
+          "text": "Wax or vacuum seal. Age 2-12 months."
+        }
       ],
-      "temperature": "86-100°F",
-      "notes": ["Washing the curd removes lactose, creating sweeter cheese", "Young Gouda (2 months): mild, creamy", "Aged Gouda (12+ months): crystalline, caramel notes"],
-      "tags": ["cheese", "gouda", "sheep milk", "Dutch", "washed curd", "aged"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86-100\u00b0F",
+      "notes": [
+        "Washing the curd removes lactose, creating sweeter cheese",
+        "Young Gouda (2 months): mild, creamy",
+        "Aged Gouda (12+ months): crystalline, caramel notes"
+      ],
+      "tags": [
+        "cheese",
+        "gouda",
+        "sheep milk",
+        "Dutch",
+        "washed curd",
+        "aged"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391883,25 +392450,79 @@
       "cook_time": "2 hours",
       "total_time": "1-4 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons", "prep_note": "partially skimmed"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons",
+          "prep_note": "partially skimmed"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Partially skim cream from milk. Heat to 86°F."},
-        {"step": 2, "text": "Add starter, ripen 30 minutes. Add rennet, set 45 minutes."},
-        {"step": 3, "text": "Cut into 1/2-inch cubes. Rest 10 minutes."},
-        {"step": 4, "text": "Remove 1/3 whey, replace with warm water."},
-        {"step": 5, "text": "Heat to 100°F. Stir 30 minutes."},
-        {"step": 6, "text": "Press into round mold. Press 3-6 hours."},
-        {"step": 7, "text": "Brine 8 hours. Dry and wax with red wax."},
-        {"step": 8, "text": "Age 1-4 months."}
+        {
+          "step": 1,
+          "text": "Partially skim cream from milk. Heat to 86\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Add starter, ripen 30 minutes. Add rennet, set 45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut into 1/2-inch cubes. Rest 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Remove 1/3 whey, replace with warm water."
+        },
+        {
+          "step": 5,
+          "text": "Heat to 100\u00b0F. Stir 30 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Press into round mold. Press 3-6 hours."
+        },
+        {
+          "step": 7,
+          "text": "Brine 8 hours. Dry and wax with red wax."
+        },
+        {
+          "step": 8,
+          "text": "Age 1-4 months."
+        }
       ],
-      "temperature": "86-100°F",
-      "notes": ["Traditional red wax coating", "Milder than Gouda due to lower fat", "Good melting cheese"],
-      "tags": ["cheese", "edam", "sheep milk", "Dutch", "semi-hard"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86-100\u00b0F",
+      "notes": [
+        "Traditional red wax coating",
+        "Milder than Gouda due to lower fat",
+        "Good melting cheese"
+      ],
+      "tags": [
+        "cheese",
+        "edam",
+        "sheep milk",
+        "Dutch",
+        "semi-hard"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391918,28 +392539,93 @@
       "cook_time": "4 hours",
       "total_time": "3-24 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "calcium chloride", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "calcium chloride",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add calcium chloride and starter. Ripen 45 minutes."},
-        {"step": 2, "text": "Add rennet, let set 45-60 minutes until clean break."},
-        {"step": 3, "text": "Cut curd into 1/4-inch cubes. Rest 5 minutes."},
-        {"step": 4, "text": "Slowly heat to 100°F over 30 minutes, stirring gently."},
-        {"step": 5, "text": "Drain whey. Cut curd mass into slabs."},
-        {"step": 6, "text": "Stack and flip slabs every 15 minutes for 2 hours (cheddaring)."},
-        {"step": 7, "text": "Mill curd into finger-sized pieces. Mix in salt."},
-        {"step": 8, "text": "Press at 50 lbs for 12 hours."},
-        {"step": 9, "text": "Air dry 3-5 days until dry to touch. Wax or bandage."},
-        {"step": 10, "text": "Age 3-24 months at 55°F."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add calcium chloride and starter. Ripen 45 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet, let set 45-60 minutes until clean break."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/4-inch cubes. Rest 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Slowly heat to 100\u00b0F over 30 minutes, stirring gently."
+        },
+        {
+          "step": 5,
+          "text": "Drain whey. Cut curd mass into slabs."
+        },
+        {
+          "step": 6,
+          "text": "Stack and flip slabs every 15 minutes for 2 hours (cheddaring)."
+        },
+        {
+          "step": 7,
+          "text": "Mill curd into finger-sized pieces. Mix in salt."
+        },
+        {
+          "step": 8,
+          "text": "Press at 50 lbs for 12 hours."
+        },
+        {
+          "step": 9,
+          "text": "Air dry 3-5 days until dry to touch. Wax or bandage."
+        },
+        {
+          "step": 10,
+          "text": "Age 3-24 months at 55\u00b0F."
+        }
       ],
-      "temperature": "86-100°F",
-      "notes": ["Cheddaring develops the signature texture", "Longer aging = sharper flavor", "Sheep milk cheddar develops complex, nutty notes"],
-      "tags": ["cheese", "cheddar", "sheep milk", "English", "hard cheese", "aged", "cheddared"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86-100\u00b0F",
+      "notes": [
+        "Cheddaring develops the signature texture",
+        "Longer aging = sharper flavor",
+        "Sheep milk cheddar develops complex, nutty notes"
+      ],
+      "tags": [
+        "cheese",
+        "cheddar",
+        "sheep milk",
+        "English",
+        "hard cheese",
+        "aged",
+        "cheddared"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391956,26 +392642,84 @@
       "cook_time": "2 hours",
       "total_time": "1-3 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "1.5", "unit": "tbsp"},
-        {"item": "annatto coloring", "quantity": "1/4", "unit": "tsp", "prep_note": "optional"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1.5",
+          "unit": "tbsp"
+        },
+        {
+          "item": "annatto coloring",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add annatto if using for orange color."},
-        {"step": 2, "text": "Add starter, ripen 45 minutes. Add rennet, set 30 minutes."},
-        {"step": 3, "text": "Cut curd into 3/8-inch cubes."},
-        {"step": 4, "text": "Heat to 102°F over 30 minutes."},
-        {"step": 5, "text": "Drain whey to curd level. Add cold water to 80°F."},
-        {"step": 6, "text": "Stir 15 minutes. Drain. Add salt."},
-        {"step": 7, "text": "Press lightly at 20 lbs for 20 minutes, then 40 lbs for 3 hours."},
-        {"step": 8, "text": "Air dry, wax, age 1-3 months."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add annatto if using for orange color."
+        },
+        {
+          "step": 2,
+          "text": "Add starter, ripen 45 minutes. Add rennet, set 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 3/8-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 102\u00b0F over 30 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Drain whey to curd level. Add cold water to 80\u00b0F."
+        },
+        {
+          "step": 6,
+          "text": "Stir 15 minutes. Drain. Add salt."
+        },
+        {
+          "step": 7,
+          "text": "Press lightly at 20 lbs for 20 minutes, then 40 lbs for 3 hours."
+        },
+        {
+          "step": 8,
+          "text": "Air dry, wax, age 1-3 months."
+        }
       ],
-      "temperature": "86-102°F",
-      "notes": ["Washing creates characteristic open texture", "Milder than cheddar", "Best at 1-2 months - doesn't improve with long aging"],
-      "tags": ["cheese", "colby", "sheep milk", "American", "washed curd"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86-102\u00b0F",
+      "notes": [
+        "Washing creates characteristic open texture",
+        "Milder than cheddar",
+        "Best at 1-2 months - doesn't improve with long aging"
+      ],
+      "tags": [
+        "cheese",
+        "colby",
+        "sheep milk",
+        "American",
+        "washed curd"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -391992,27 +392736,90 @@
       "cook_time": "2 hours",
       "total_time": "4-6 weeks ripening",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/8", "unit": "tsp"},
-        {"item": "Penicillium candidum", "quantity": "1/16", "unit": "tsp", "prep_note": "white mold powder"},
-        {"item": "calcium chloride", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/4", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "Penicillium candidum",
+          "quantity": "1/16",
+          "unit": "tsp",
+          "prep_note": "white mold powder"
+        },
+        {
+          "item": "calcium chloride",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add calcium chloride, starter, and P. candidum. Stir."},
-        {"step": 2, "text": "Ripen 90 minutes. Add rennet, let set 90 minutes."},
-        {"step": 3, "text": "Cut curd into 1-inch cubes. Let rest 10 minutes."},
-        {"step": 4, "text": "Gently ladle curds into Brie molds. Do not press."},
-        {"step": 5, "text": "Flip every few hours for 24 hours as whey drains."},
-        {"step": 6, "text": "Salt all surfaces. Air dry 2-3 days at 50-55°F."},
-        {"step": 7, "text": "Age at 50-55°F, 95% humidity for 4-6 weeks until white bloom covers surface."},
-        {"step": 8, "text": "Wrap and refrigerate. Best at room temperature."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add calcium chloride, starter, and P. candidum. Stir."
+        },
+        {
+          "step": 2,
+          "text": "Ripen 90 minutes. Add rennet, let set 90 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1-inch cubes. Let rest 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Gently ladle curds into Brie molds. Do not press."
+        },
+        {
+          "step": 5,
+          "text": "Flip every few hours for 24 hours as whey drains."
+        },
+        {
+          "step": 6,
+          "text": "Salt all surfaces. Air dry 2-3 days at 50-55\u00b0F."
+        },
+        {
+          "step": 7,
+          "text": "Age at 50-55\u00b0F, 95% humidity for 4-6 weeks until white bloom covers surface."
+        },
+        {
+          "step": 8,
+          "text": "Wrap and refrigerate. Best at room temperature."
+        }
       ],
-      "temperature": "86°F make, 50-55°F age",
-      "notes": ["High humidity is crucial for proper bloom development", "Sheep's milk Brie will be yellower than cow's milk version", "Ripe when soft throughout with slight ammonia aroma"],
-      "tags": ["cheese", "brie", "sheep milk", "French", "soft-ripened", "bloomy rind"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86\u00b0F make, 50-55\u00b0F age",
+      "notes": [
+        "High humidity is crucial for proper bloom development",
+        "Sheep's milk Brie will be yellower than cow's milk version",
+        "Ripe when soft throughout with slight ammonia aroma"
+      ],
+      "tags": [
+        "cheese",
+        "brie",
+        "sheep milk",
+        "French",
+        "soft-ripened",
+        "bloomy rind"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392029,27 +392836,90 @@
       "cook_time": "2 hours",
       "total_time": "3-5 weeks ripening",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1", "unit": "gallon"},
-        {"item": "mesophilic starter", "quantity": "1/8", "unit": "tsp"},
-        {"item": "Penicillium candidum", "quantity": "1/16", "unit": "tsp"},
-        {"item": "Geotrichum candidum", "quantity": "1/32", "unit": "tsp", "prep_note": "optional, for complexity"},
-        {"item": "liquid rennet", "quantity": "1/8", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "1", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "Penicillium candidum",
+          "quantity": "1/16",
+          "unit": "tsp"
+        },
+        {
+          "item": "Geotrichum candidum",
+          "quantity": "1/32",
+          "unit": "tsp",
+          "prep_note": "optional, for complexity"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 90°F. Add starter, P. candidum, and Geotrichum. Ripen 30 min."},
-        {"step": 2, "text": "Add rennet. Let set 90 minutes."},
-        {"step": 3, "text": "Cut into 1/2-inch cubes. Rest 10 minutes."},
-        {"step": 4, "text": "Gently stir 20 minutes. Ladle into Camembert molds."},
-        {"step": 5, "text": "Flip every 2 hours for 12 hours, then twice daily."},
-        {"step": 6, "text": "Unmold after 2 days. Salt surfaces."},
-        {"step": 7, "text": "Age at 50-55°F, high humidity, for 3-5 weeks."},
-        {"step": 8, "text": "Wrap when fully bloomed. Enjoy at room temp."}
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F. Add starter, P. candidum, and Geotrichum. Ripen 30 min."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Let set 90 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut into 1/2-inch cubes. Rest 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Gently stir 20 minutes. Ladle into Camembert molds."
+        },
+        {
+          "step": 5,
+          "text": "Flip every 2 hours for 12 hours, then twice daily."
+        },
+        {
+          "step": 6,
+          "text": "Unmold after 2 days. Salt surfaces."
+        },
+        {
+          "step": 7,
+          "text": "Age at 50-55\u00b0F, high humidity, for 3-5 weeks."
+        },
+        {
+          "step": 8,
+          "text": "Wrap when fully bloomed. Enjoy at room temp."
+        }
       ],
-      "temperature": "90°F make, 50-55°F age",
-      "notes": ["Smaller size means faster ripening than Brie", "Should be gooey when fully ripe", "Traditional Camembert de Normandie uses raw milk"],
-      "tags": ["cheese", "camembert", "sheep milk", "French", "soft-ripened", "bloomy rind"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90\u00b0F make, 50-55\u00b0F age",
+      "notes": [
+        "Smaller size means faster ripening than Brie",
+        "Should be gooey when fully ripe",
+        "Traditional Camembert de Normandie uses raw milk"
+      ],
+      "tags": [
+        "cheese",
+        "camembert",
+        "sheep milk",
+        "French",
+        "soft-ripened",
+        "bloomy rind"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392066,25 +392936,78 @@
       "cook_time": "2 hours",
       "total_time": "4 weeks ripening",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/8", "unit": "tsp"},
-        {"item": "Penicillium candidum", "quantity": "1/16", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/4", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "1.5", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "Penicillium candidum",
+          "quantity": "1/16",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1.5",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add starter and mold. Ripen 1 hour."},
-        {"step": 2, "text": "Add rennet, set 90 minutes until clean break."},
-        {"step": 3, "text": "Cut curd into 3/4-inch cubes."},
-        {"step": 4, "text": "Let curds settle 5 minutes. Ladle into tall Coulommiers molds."},
-        {"step": 5, "text": "Flip regularly for 24 hours."},
-        {"step": 6, "text": "Salt all surfaces. Dry 2 days."},
-        {"step": 7, "text": "Age 3-4 weeks at 52°F with high humidity."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add starter and mold. Ripen 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet, set 90 minutes until clean break."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 3/4-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Let curds settle 5 minutes. Ladle into tall Coulommiers molds."
+        },
+        {
+          "step": 5,
+          "text": "Flip regularly for 24 hours."
+        },
+        {
+          "step": 6,
+          "text": "Salt all surfaces. Dry 2 days."
+        },
+        {
+          "step": 7,
+          "text": "Age 3-4 weeks at 52\u00b0F with high humidity."
+        }
       ],
-      "temperature": "86°F make, 52°F age",
-      "notes": ["Thicker than Brie, so center ripens more slowly", "Original Brie-style cheese from Île-de-France region"],
-      "tags": ["cheese", "coulommiers", "sheep milk", "French", "soft-ripened"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86\u00b0F make, 52\u00b0F age",
+      "notes": [
+        "Thicker than Brie, so center ripens more slowly",
+        "Original Brie-style cheese from \u00cele-de-France region"
+      ],
+      "tags": [
+        "cheese",
+        "coulommiers",
+        "sheep milk",
+        "French",
+        "soft-ripened"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392101,26 +393024,84 @@
       "cook_time": "3 hours",
       "total_time": "3-6 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "Penicillium roqueforti", "quantity": "1/8", "unit": "tsp", "prep_note": "blue mold"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "Penicillium roqueforti",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": "blue mold"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add starter and P. roqueforti. Ripen 1 hour."},
-        {"step": 2, "text": "Add rennet. Let set 1 hour until firm."},
-        {"step": 3, "text": "Cut into 1-inch cubes. Rest 10 minutes."},
-        {"step": 4, "text": "Gently stir 30 minutes without heating."},
-        {"step": 5, "text": "Drain whey. Ladle curds into tall mold without pressing."},
-        {"step": 6, "text": "Flip several times daily for 3-4 days."},
-        {"step": 7, "text": "Salt all surfaces. Pierce with needle to create air channels."},
-        {"step": 8, "text": "Age 3-6 months at 46-50°F, 95% humidity. Pierce again at 1 month."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add starter and P. roqueforti. Ripen 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Let set 1 hour until firm."
+        },
+        {
+          "step": 3,
+          "text": "Cut into 1-inch cubes. Rest 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Gently stir 30 minutes without heating."
+        },
+        {
+          "step": 5,
+          "text": "Drain whey. Ladle curds into tall mold without pressing."
+        },
+        {
+          "step": 6,
+          "text": "Flip several times daily for 3-4 days."
+        },
+        {
+          "step": 7,
+          "text": "Salt all surfaces. Pierce with needle to create air channels."
+        },
+        {
+          "step": 8,
+          "text": "Age 3-6 months at 46-50\u00b0F, 95% humidity. Pierce again at 1 month."
+        }
       ],
-      "temperature": "86°F make, 46-50°F age",
-      "notes": ["Dolce version: younger, creamier, milder", "Piccante version: aged longer, more intense", "Piercing allows oxygen in for blue mold growth"],
-      "tags": ["cheese", "gorgonzola", "sheep milk", "Italian", "blue cheese"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86\u00b0F make, 46-50\u00b0F age",
+      "notes": [
+        "Dolce version: younger, creamier, milder",
+        "Piccante version: aged longer, more intense",
+        "Piercing allows oxygen in for blue mold growth"
+      ],
+      "tags": [
+        "cheese",
+        "gorgonzola",
+        "sheep milk",
+        "Italian",
+        "blue cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392137,26 +393118,84 @@
       "cook_time": "4 hours",
       "total_time": "3-4 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "3", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "Penicillium roqueforti", "quantity": "1/8", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "3", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "3",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "Penicillium roqueforti",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add starter and blue mold. Ripen 1 hour."},
-        {"step": 2, "text": "Add rennet. Set 90 minutes."},
-        {"step": 3, "text": "Cut curd into 1/2-inch cubes. Let settle 10 min."},
-        {"step": 4, "text": "Drain whey. Let curds mat and acidify 1-2 hours."},
-        {"step": 5, "text": "Mill curds. Mix with salt."},
-        {"step": 6, "text": "Pack loosely into tall cylindrical mold. Do not press."},
-        {"step": 7, "text": "Flip twice daily for 5 days. Smooth sides with knife."},
-        {"step": 8, "text": "Pierce all over at 6 weeks. Age 3-4 months at 50°F."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add starter and blue mold. Ripen 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 90 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2-inch cubes. Let settle 10 min."
+        },
+        {
+          "step": 4,
+          "text": "Drain whey. Let curds mat and acidify 1-2 hours."
+        },
+        {
+          "step": 5,
+          "text": "Mill curds. Mix with salt."
+        },
+        {
+          "step": 6,
+          "text": "Pack loosely into tall cylindrical mold. Do not press."
+        },
+        {
+          "step": 7,
+          "text": "Flip twice daily for 5 days. Smooth sides with knife."
+        },
+        {
+          "step": 8,
+          "text": "Pierce all over at 6 weeks. Age 3-4 months at 50\u00b0F."
+        }
       ],
-      "temperature": "86°F make, 50°F age",
-      "notes": ["True Stilton is PDO protected - this is 'Stilton-style'", "Lanark Blue is a Scottish sheep's milk blue similar to this", "Rubbing rind helps develop the characteristic crust"],
-      "tags": ["cheese", "stilton", "sheep milk", "English", "blue cheese", "Scottish"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86\u00b0F make, 50\u00b0F age",
+      "notes": [
+        "True Stilton is PDO protected - this is 'Stilton-style'",
+        "Lanark Blue is a Scottish sheep's milk blue similar to this",
+        "Rubbing rind helps develop the characteristic crust"
+      ],
+      "tags": [
+        "cheese",
+        "stilton",
+        "sheep milk",
+        "English",
+        "blue cheese",
+        "Scottish"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392173,26 +393212,85 @@
       "cook_time": "2 hours",
       "total_time": "2-3 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "Penicillium roqueforti", "quantity": "1/8", "unit": "tsp"},
-        {"item": "lipase powder", "quantity": "1/8", "unit": "tsp", "prep_note": "for sharpness"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "3", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "Penicillium roqueforti",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "lipase powder",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": "for sharpness"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 90°F. Add lipase, starter, blue mold. Ripen 30 min."},
-        {"step": 2, "text": "Add rennet. Set 45 minutes."},
-        {"step": 3, "text": "Cut into 1/2-inch cubes. Stir gently 15 minutes."},
-        {"step": 4, "text": "Drain whey. Pack curds loosely in mold."},
-        {"step": 5, "text": "Flip twice daily for 3 days."},
-        {"step": 6, "text": "Salt heavily. Pierce all surfaces."},
-        {"step": 7, "text": "Age 2-3 months at 50°F, high humidity."}
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F. Add lipase, starter, blue mold. Ripen 30 min."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut into 1/2-inch cubes. Stir gently 15 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Drain whey. Pack curds loosely in mold."
+        },
+        {
+          "step": 5,
+          "text": "Flip twice daily for 3 days."
+        },
+        {
+          "step": 6,
+          "text": "Salt heavily. Pierce all surfaces."
+        },
+        {
+          "step": 7,
+          "text": "Age 2-3 months at 50\u00b0F, high humidity."
+        }
       ],
-      "temperature": "90°F make, 50°F age",
-      "notes": ["More crumbly texture than Roquefort", "Very salty - use less if preferred", "Great crumbled on salads"],
-      "tags": ["cheese", "danish blue", "sheep milk", "Danish", "blue cheese"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90\u00b0F make, 50\u00b0F age",
+      "notes": [
+        "More crumbly texture than Roquefort",
+        "Very salty - use less if preferred",
+        "Great crumbled on salads"
+      ],
+      "tags": [
+        "cheese",
+        "danish blue",
+        "sheep milk",
+        "Danish",
+        "blue cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392209,25 +393307,78 @@
       "cook_time": "2 hours",
       "total_time": "2-3 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "1.5", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1.5",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add starter, ripen 30 minutes."},
-        {"step": 2, "text": "Add rennet. Set 45 minutes."},
-        {"step": 3, "text": "Cut curd into 1/2-inch cubes."},
-        {"step": 4, "text": "Let rest 10 min. Remove 1/3 whey, replace with warm water."},
-        {"step": 5, "text": "Heat slowly to 100°F over 30 minutes."},
-        {"step": 6, "text": "Drain. Press lightly at 8 lbs for 30 min, flip, 15 lbs for 6 hours."},
-        {"step": 7, "text": "Brine 12 hours. Dry and wax."},
-        {"step": 8, "text": "Age 2-3 months at 50°F."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add starter, ripen 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Let rest 10 min. Remove 1/3 whey, replace with warm water."
+        },
+        {
+          "step": 5,
+          "text": "Heat slowly to 100\u00b0F over 30 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Drain. Press lightly at 8 lbs for 30 min, flip, 15 lbs for 6 hours."
+        },
+        {
+          "step": 7,
+          "text": "Brine 12 hours. Dry and wax."
+        },
+        {
+          "step": 8,
+          "text": "Age 2-3 months at 50\u00b0F."
+        }
       ],
-      "temperature": "86-100°F",
-      "notes": ["Can add dill, caraway, or jalapeño for flavored versions", "Light pressing creates characteristic small holes", "Excellent melting cheese"],
-      "tags": ["cheese", "havarti", "sheep milk", "Danish", "semi-soft"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86-100\u00b0F",
+      "notes": [
+        "Can add dill, caraway, or jalape\u00f1o for flavored versions",
+        "Light pressing creates characteristic small holes",
+        "Excellent melting cheese"
+      ],
+      "tags": [
+        "cheese",
+        "havarti",
+        "sheep milk",
+        "Danish",
+        "semi-soft"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392244,60 +393395,168 @@
       "cook_time": "2 hours",
       "total_time": "3-4 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 90°F. Add starter, ripen 30 minutes."},
-        {"step": 2, "text": "Add rennet. Set 35-40 minutes."},
-        {"step": 3, "text": "Cut into 1/4-inch cubes."},
-        {"step": 4, "text": "Heat to 118°F over 45 minutes, stirring."},
-        {"step": 5, "text": "Let curds settle. Drain whey."},
-        {"step": 6, "text": "Press at 10 lbs for 15 min, 25 lbs for 6 hours."},
-        {"step": 7, "text": "Brine 12 hours. Dry."},
-        {"step": 8, "text": "Age 3-4 months, washing rind with brine weekly."}
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F. Add starter, ripen 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 35-40 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut into 1/4-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 118\u00b0F over 45 minutes, stirring."
+        },
+        {
+          "step": 5,
+          "text": "Let curds settle. Drain whey."
+        },
+        {
+          "step": 6,
+          "text": "Press at 10 lbs for 15 min, 25 lbs for 6 hours."
+        },
+        {
+          "step": 7,
+          "text": "Brine 12 hours. Dry."
+        },
+        {
+          "step": 8,
+          "text": "Age 3-4 months, washing rind with brine weekly."
+        }
       ],
-      "temperature": "90-118°F",
-      "notes": ["True Fontina is a washed-rind cheese", "Excellent fondue cheese", "Develops earthy, mushroomy notes with age"],
-      "tags": ["cheese", "fontina", "sheep milk", "Italian", "Alpine", "washed rind"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-118\u00b0F",
+      "notes": [
+        "True Fontina is a washed-rind cheese",
+        "Excellent fondue cheese",
+        "Develops earthy, mushroomy notes with age"
+      ],
+      "tags": [
+        "cheese",
+        "fontina",
+        "sheep milk",
+        "Italian",
+        "Alpine",
+        "washed rind"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
       "id": "sheep-milk-gruyere",
       "collection": "all",
       "collection_display": "Other Family Recipes",
-      "title": "Sheep's Milk Gruyère-Style",
+      "title": "Sheep's Milk Gruy\u00e8re-Style",
       "category": "sides",
       "attribution": "Swiss Alpine style",
-      "source_note": "Gruyère method adapted for sheep's milk",
+      "source_note": "Gruy\u00e8re method adapted for sheep's milk",
       "description": "Complex, nutty Alpine cheese. Sheep's milk creates intense, sweet-savory flavor.",
       "servings_yield": "About 2 lbs",
       "prep_time": "30 min",
       "cook_time": "3 hours",
       "total_time": "6-12 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 90°F. Add starter, ripen 15 minutes."},
-        {"step": 2, "text": "Add rennet. Set 30-40 minutes."},
-        {"step": 3, "text": "Cut curd into rice-sized pieces."},
-        {"step": 4, "text": "Heat to 120°F over 40 minutes, stirring constantly."},
-        {"step": 5, "text": "Hold at 120°F for 30 minutes, stirring."},
-        {"step": 6, "text": "Drain and press at 25 lbs, increasing to 50 lbs over 12 hours."},
-        {"step": 7, "text": "Brine 24 hours."},
-        {"step": 8, "text": "Age 6-12 months at 55°F, washing with brine weekly."}
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F. Add starter, ripen 15 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 30-40 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into rice-sized pieces."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 120\u00b0F over 40 minutes, stirring constantly."
+        },
+        {
+          "step": 5,
+          "text": "Hold at 120\u00b0F for 30 minutes, stirring."
+        },
+        {
+          "step": 6,
+          "text": "Drain and press at 25 lbs, increasing to 50 lbs over 12 hours."
+        },
+        {
+          "step": 7,
+          "text": "Brine 24 hours."
+        },
+        {
+          "step": 8,
+          "text": "Age 6-12 months at 55\u00b0F, washing with brine weekly."
+        }
       ],
-      "temperature": "90-120°F",
-      "notes": ["True Gruyère is AOC protected", "High cooking temp creates signature dense texture", "Excellent for fondue and gratins"],
-      "tags": ["cheese", "gruyere", "sheep milk", "Swiss", "Alpine", "hard cheese"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-120\u00b0F",
+      "notes": [
+        "True Gruy\u00e8re is AOC protected",
+        "High cooking temp creates signature dense texture",
+        "Excellent for fondue and gratins"
+      ],
+      "tags": [
+        "cheese",
+        "gruyere",
+        "sheep milk",
+        "Swiss",
+        "Alpine",
+        "hard cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392314,25 +393573,81 @@
       "cook_time": "3 hours",
       "total_time": "2-5 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons", "prep_note": "Latxa breed preferred"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons",
+          "prep_note": "Latxa breed preferred"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add starter, ripen 30 minutes."},
-        {"step": 2, "text": "Add rennet. Set 45 minutes until firm."},
-        {"step": 3, "text": "Cut curd into small pieces (lentil-sized)."},
-        {"step": 4, "text": "Heat to 104°F while stirring gently."},
-        {"step": 5, "text": "Drain and press firmly at 30 lbs for 12 hours."},
-        {"step": 6, "text": "Brine 24 hours."},
-        {"step": 7, "text": "Air dry 1 week. Optional: cold smoke 12-24 hours."},
-        {"step": 8, "text": "Age 2-5 months at 50°F."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add starter, ripen 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 45 minutes until firm."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into small pieces (lentil-sized)."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 104\u00b0F while stirring gently."
+        },
+        {
+          "step": 5,
+          "text": "Drain and press firmly at 30 lbs for 12 hours."
+        },
+        {
+          "step": 6,
+          "text": "Brine 24 hours."
+        },
+        {
+          "step": 7,
+          "text": "Air dry 1 week. Optional: cold smoke 12-24 hours."
+        },
+        {
+          "step": 8,
+          "text": "Age 2-5 months at 50\u00b0F."
+        }
       ],
-      "temperature": "86-104°F",
-      "notes": ["Smoked version (ahumado) uses cherry or beech wood", "Unsmoked version shows purer sheep milk flavor", "PDO requires milk from Latxa or Carranzana sheep"],
-      "tags": ["cheese", "idiazabal", "sheep milk", "Spanish", "Basque", "smoked", "PDO"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86-104\u00b0F",
+      "notes": [
+        "Smoked version (ahumado) uses cherry or beech wood",
+        "Unsmoked version shows purer sheep milk flavor",
+        "PDO requires milk from Latxa or Carranzana sheep"
+      ],
+      "tags": [
+        "cheese",
+        "idiazabal",
+        "sheep milk",
+        "Spanish",
+        "Basque",
+        "smoked",
+        "PDO"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392349,24 +393664,77 @@
       "cook_time": "3 hours",
       "total_time": "4-8 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons", "prep_note": "raw preferred"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons",
+          "prep_note": "raw preferred"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat raw milk to 90°F. Add starter, ripen 20 minutes."},
-        {"step": 2, "text": "Add rennet. Set 30-40 minutes."},
-        {"step": 3, "text": "Cut curd very small (rice grain size)."},
-        {"step": 4, "text": "Heat to 104°F, stirring constantly."},
-        {"step": 5, "text": "Press curds by hand in mold, then press at 40 lbs for 24 hours."},
-        {"step": 6, "text": "Rub surface with salt over several days."},
-        {"step": 7, "text": "Age minimum 4 months, up to 8 for fuller flavor."}
+        {
+          "step": 1,
+          "text": "Heat raw milk to 90\u00b0F. Add starter, ripen 20 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 30-40 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd very small (rice grain size)."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 104\u00b0F, stirring constantly."
+        },
+        {
+          "step": 5,
+          "text": "Press curds by hand in mold, then press at 40 lbs for 24 hours."
+        },
+        {
+          "step": 6,
+          "text": "Rub surface with salt over several days."
+        },
+        {
+          "step": 7,
+          "text": "Age minimum 4 months, up to 8 for fuller flavor."
+        }
       ],
-      "temperature": "90-104°F",
-      "notes": ["PDO requires raw sheep milk from Rasa and Lacha breeds", "Develops sharp, slightly spicy flavor with age", "Rind should be rubbed with olive oil during aging"],
-      "tags": ["cheese", "roncal", "sheep milk", "Spanish", "Navarre", "hard cheese", "PDO"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-104\u00b0F",
+      "notes": [
+        "PDO requires raw sheep milk from Rasa and Lacha breeds",
+        "Develops sharp, slightly spicy flavor with age",
+        "Rind should be rubbed with olive oil during aging"
+      ],
+      "tags": [
+        "cheese",
+        "roncal",
+        "sheep milk",
+        "Spanish",
+        "Navarre",
+        "hard cheese",
+        "PDO"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392383,23 +393751,73 @@
       "cook_time": "2 hours",
       "total_time": "60 days minimum aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1", "unit": "gallon", "prep_note": "Merino breed preferred"},
-        {"item": "cardoon thistle extract", "quantity": "1", "unit": "tbsp", "prep_note": "vegetable rennet"},
-        {"item": "salt", "quantity": "1", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": "Merino breed preferred"
+        },
+        {
+          "item": "cardoon thistle extract",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "vegetable rennet"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 82-86°F."},
-        {"step": 2, "text": "Add cardoon thistle extract. Let set 60-90 minutes (longer than animal rennet)."},
-        {"step": 3, "text": "Cut curd gently into large pieces."},
-        {"step": 4, "text": "Ladle into small round molds. Do not press heavily."},
-        {"step": 5, "text": "Salt surfaces. Flip daily for several days."},
-        {"step": 6, "text": "Age at 46-50°F, high humidity, minimum 60 days."},
-        {"step": 7, "text": "Cheese should develop soft, oozing interior with firm rind."}
+        {
+          "step": 1,
+          "text": "Heat milk to 82-86\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Add cardoon thistle extract. Let set 60-90 minutes (longer than animal rennet)."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd gently into large pieces."
+        },
+        {
+          "step": 4,
+          "text": "Ladle into small round molds. Do not press heavily."
+        },
+        {
+          "step": 5,
+          "text": "Salt surfaces. Flip daily for several days."
+        },
+        {
+          "step": 6,
+          "text": "Age at 46-50\u00b0F, high humidity, minimum 60 days."
+        },
+        {
+          "step": 7,
+          "text": "Cheese should develop soft, oozing interior with firm rind."
+        }
       ],
-      "temperature": "82-86°F make, 46-50°F age",
-      "notes": ["Cardoon thistle creates unique bitter, vegetal flavor", "Serve by cutting top off and scooping interior", "Cannot be imported to USA (raw milk, young aging)"],
-      "tags": ["cheese", "torta del casar", "sheep milk", "Spanish", "Extremadura", "thistle rennet", "PDO"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "82-86\u00b0F make, 46-50\u00b0F age",
+      "notes": [
+        "Cardoon thistle creates unique bitter, vegetal flavor",
+        "Serve by cutting top off and scooping interior",
+        "Cannot be imported to USA (raw milk, young aging)"
+      ],
+      "tags": [
+        "cheese",
+        "torta del casar",
+        "sheep milk",
+        "Spanish",
+        "Extremadura",
+        "thistle rennet",
+        "PDO"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392408,7 +393826,7 @@
       "collection_display": "Other Family Recipes",
       "title": "Zamorano (Castile Sheep Cheese)",
       "category": "sides",
-      "attribution": "Castile and León PDO cheese",
+      "attribution": "Castile and Le\u00f3n PDO cheese",
       "source_note": "Hard cheese from Zamora province",
       "description": "Hard, intensely flavored cheese similar to Manchego but sharper. Made from Churra and Castellana sheep.",
       "servings_yield": "About 2 lbs",
@@ -392416,23 +393834,71 @@
       "cook_time": "3 hours",
       "total_time": "6-12 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add starter, ripen 30 minutes."},
-        {"step": 2, "text": "Add rennet. Set 45 minutes."},
-        {"step": 3, "text": "Cut into very small curds. Stir and heat to 104°F."},
-        {"step": 4, "text": "Press firmly at 50 lbs for 24 hours."},
-        {"step": 5, "text": "Brine 48 hours."},
-        {"step": 6, "text": "Age 6-12 months, coating with olive oil."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add starter, ripen 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut into very small curds. Stir and heat to 104\u00b0F."
+        },
+        {
+          "step": 4,
+          "text": "Press firmly at 50 lbs for 24 hours."
+        },
+        {
+          "step": 5,
+          "text": "Brine 48 hours."
+        },
+        {
+          "step": 6,
+          "text": "Age 6-12 months, coating with olive oil."
+        }
       ],
-      "temperature": "86-104°F",
-      "notes": ["Sharper and more intense than Manchego", "Traditional zigzag pattern pressed into rind", "PDO since 1993"],
-      "tags": ["cheese", "zamorano", "sheep milk", "Spanish", "hard cheese", "PDO"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86-104\u00b0F",
+      "notes": [
+        "Sharper and more intense than Manchego",
+        "Traditional zigzag pattern pressed into rind",
+        "PDO since 1993"
+      ],
+      "tags": [
+        "cheese",
+        "zamorano",
+        "sheep milk",
+        "Spanish",
+        "hard cheese",
+        "PDO"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392449,32 +393915,81 @@
       "cook_time": "2 hours",
       "total_time": "30-45 days minimum",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons", "prep_note": "Bordaleira breed traditional"},
-        {"item": "cardoon thistle extract", "quantity": "2", "unit": "tbsp"},
-        {"item": "sea salt", "quantity": "1", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons",
+          "prep_note": "Bordaleira breed traditional"
+        },
+        {
+          "item": "cardoon thistle extract",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sea salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 82-86°F."},
-        {"step": 2, "text": "Add cardoon thistle. Let set 60 minutes until soft curd forms."},
-        {"step": 3, "text": "Gently break curd. Do not cut into small pieces."},
-        {"step": 4, "text": "Ladle into cloth-lined molds. Press very gently."},
-        {"step": 5, "text": "Salt and flip daily for 3-4 days."},
-        {"step": 6, "text": "Age 30-45 days minimum at 45-50°F, high humidity."},
-        {"step": 7, "text": "Young cheese (Amanteigado) should be spoonable. Aged version (Velho) is firmer."}
+        {
+          "step": 1,
+          "text": "Heat milk to 82-86\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Add cardoon thistle. Let set 60 minutes until soft curd forms."
+        },
+        {
+          "step": 3,
+          "text": "Gently break curd. Do not cut into small pieces."
+        },
+        {
+          "step": 4,
+          "text": "Ladle into cloth-lined molds. Press very gently."
+        },
+        {
+          "step": 5,
+          "text": "Salt and flip daily for 3-4 days."
+        },
+        {
+          "step": 6,
+          "text": "Age 30-45 days minimum at 45-50\u00b0F, high humidity."
+        },
+        {
+          "step": 7,
+          "text": "Young cheese (Amanteigado) should be spoonable. Aged version (Velho) is firmer."
+        }
       ],
-      "temperature": "82-86°F",
-      "notes": ["PDO protected - 'King of Portuguese Cheeses'", "Young version has liquid center, scooped like fondue", "Thistle gives distinctive bitter, herbal notes"],
-      "tags": ["cheese", "serra da estrela", "sheep milk", "Portuguese", "thistle rennet", "PDO", "soft"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "82-86\u00b0F",
+      "notes": [
+        "PDO protected - 'King of Portuguese Cheeses'",
+        "Young version has liquid center, scooped like fondue",
+        "Thistle gives distinctive bitter, herbal notes"
+      ],
+      "tags": [
+        "cheese",
+        "serra da estrela",
+        "sheep milk",
+        "Portuguese",
+        "thistle rennet",
+        "PDO",
+        "soft"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
       "id": "sheep-milk-azeitao",
       "collection": "all",
       "collection_display": "Other Family Recipes",
-      "title": "Azeitão (Portuguese Soft Cheese)",
+      "title": "Azeit\u00e3o (Portuguese Soft Cheese)",
       "category": "sides",
-      "attribution": "Setúbal region PDO cheese",
+      "attribution": "Set\u00fabal region PDO cheese",
       "source_note": "Small, creamy cheese from near Lisbon",
       "description": "Small, rich cheese with runny interior. Similar to Serra but smaller with more intense flavor.",
       "servings_yield": "Four small wheels",
@@ -392482,21 +393997,63 @@
       "cook_time": "2 hours",
       "total_time": "20-30 days aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1", "unit": "gallon"},
-        {"item": "cardoon thistle extract", "quantity": "1", "unit": "tbsp"},
-        {"item": "salt", "quantity": "2", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "cardoon thistle extract",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 82°F."},
-        {"step": 2, "text": "Add thistle extract. Set 45-60 minutes."},
-        {"step": 3, "text": "Gently cut and ladle into small molds (about 4 oz each)."},
-        {"step": 4, "text": "Salt surfaces. Flip twice daily."},
-        {"step": 5, "text": "Age 20-30 days at 50°F, high humidity."}
+        {
+          "step": 1,
+          "text": "Heat milk to 82\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Add thistle extract. Set 45-60 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Gently cut and ladle into small molds (about 4 oz each)."
+        },
+        {
+          "step": 4,
+          "text": "Salt surfaces. Flip twice daily."
+        },
+        {
+          "step": 5,
+          "text": "Age 20-30 days at 50\u00b0F, high humidity."
+        }
       ],
-      "temperature": "82°F",
-      "notes": ["Smaller and richer than Serra da Estrela", "Typically 100-250g wheels", "Serve at room temperature, cut top and scoop"],
-      "tags": ["cheese", "azeitao", "sheep milk", "Portuguese", "thistle rennet", "soft", "PDO"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "82\u00b0F",
+      "notes": [
+        "Smaller and richer than Serra da Estrela",
+        "Typically 100-250g wheels",
+        "Serve at room temperature, cut top and scoop"
+      ],
+      "tags": [
+        "cheese",
+        "azeitao",
+        "sheep milk",
+        "Portuguese",
+        "thistle rennet",
+        "soft",
+        "PDO"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392507,30 +394064,83 @@
       "category": "sides",
       "attribution": "French Basque PDO cheese",
       "source_note": "Traditional Pyrenees sheep cheese",
-      "description": "Smooth, firm cheese with sweet, nutty, grassy notes. Made from Basco-Béarnaise and Manech sheep.",
+      "description": "Smooth, firm cheese with sweet, nutty, grassy notes. Made from Basco-B\u00e9arnaise and Manech sheep.",
       "servings_yield": "About 2-3 lbs",
       "prep_time": "30 min",
       "cook_time": "3 hours",
       "total_time": "3-6 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons", "prep_note": "raw or pasteurized"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons",
+          "prep_note": "raw or pasteurized"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add starter, ripen 30 minutes."},
-        {"step": 2, "text": "Add rennet. Set 30-40 minutes."},
-        {"step": 3, "text": "Cut curd into 1/4-inch pieces."},
-        {"step": 4, "text": "Heat slowly to 104°F, stirring."},
-        {"step": 5, "text": "Drain and press at 25 lbs for 12 hours."},
-        {"step": 6, "text": "Brine 24-48 hours depending on size."},
-        {"step": 7, "text": "Age 3-6 months, brushing rind periodically."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add starter, ripen 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 30-40 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/4-inch pieces."
+        },
+        {
+          "step": 4,
+          "text": "Heat slowly to 104\u00b0F, stirring."
+        },
+        {
+          "step": 5,
+          "text": "Drain and press at 25 lbs for 12 hours."
+        },
+        {
+          "step": 6,
+          "text": "Brine 24-48 hours depending on size."
+        },
+        {
+          "step": 7,
+          "text": "Age 3-6 months, brushing rind periodically."
+        }
       ],
-      "temperature": "86-104°F",
-      "notes": ["Pairs traditionally with cherry jam", "AOC/PDO protected since 1980", "Flavor is milder and sweeter than Spanish Basque cheeses"],
-      "tags": ["cheese", "ossau-iraty", "sheep milk", "French", "Basque", "Pyrenees", "PDO"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86-104\u00b0F",
+      "notes": [
+        "Pairs traditionally with cherry jam",
+        "AOC/PDO protected since 1980",
+        "Flavor is milder and sweeter than Spanish Basque cheeses"
+      ],
+      "tags": [
+        "cheese",
+        "ossau-iraty",
+        "sheep milk",
+        "French",
+        "Basque",
+        "Pyrenees",
+        "PDO"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392547,27 +394157,89 @@
       "cook_time": "4 hours",
       "total_time": "4-6 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "3", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "Propionibacterium shermanii", "quantity": "1/16", "unit": "tsp", "prep_note": "for eye formation"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "3",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "Propionibacterium shermanii",
+          "quantity": "1/16",
+          "unit": "tsp",
+          "prep_note": "for eye formation"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 90°F. Add starter and P. shermanii. Ripen 15 min."},
-        {"step": 2, "text": "Add rennet. Set 30 minutes."},
-        {"step": 3, "text": "Cut curd into rice-sized pieces."},
-        {"step": 4, "text": "Heat to 125°F over 45 minutes, stirring constantly."},
-        {"step": 5, "text": "Hold at 125°F for 30 minutes."},
-        {"step": 6, "text": "Press at 30 lbs increasing to 60 lbs over 24 hours."},
-        {"step": 7, "text": "Brine 24 hours."},
-        {"step": 8, "text": "Age at 55°F for 2 weeks, then 68-72°F for 3-4 weeks for eye development."},
-        {"step": 9, "text": "Move to 45°F for remaining 3-4 months."}
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F. Add starter and P. shermanii. Ripen 15 min."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into rice-sized pieces."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 125\u00b0F over 45 minutes, stirring constantly."
+        },
+        {
+          "step": 5,
+          "text": "Hold at 125\u00b0F for 30 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Press at 30 lbs increasing to 60 lbs over 24 hours."
+        },
+        {
+          "step": 7,
+          "text": "Brine 24 hours."
+        },
+        {
+          "step": 8,
+          "text": "Age at 55\u00b0F for 2 weeks, then 68-72\u00b0F for 3-4 weeks for eye development."
+        },
+        {
+          "step": 9,
+          "text": "Move to 45\u00b0F for remaining 3-4 months."
+        }
       ],
-      "temperature": "90-125°F",
-      "notes": ["Warm aging period creates the characteristic holes", "P. shermanii bacteria produce CO2 that forms eyes", "Sheep milk creates richer, more complex Swiss"],
-      "tags": ["cheese", "emmental", "swiss", "sheep milk", "Alpine", "eyes"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-125\u00b0F",
+      "notes": [
+        "Warm aging period creates the characteristic holes",
+        "P. shermanii bacteria produce CO2 that forms eyes",
+        "Sheep milk creates richer, more complex Swiss"
+      ],
+      "tags": [
+        "cheese",
+        "emmental",
+        "swiss",
+        "sheep milk",
+        "Alpine",
+        "eyes"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392584,26 +394256,85 @@
       "cook_time": "4 hours",
       "total_time": "12-24 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "3", "unit": "gallons", "prep_note": "partially skimmed"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "3", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "3",
+          "unit": "gallons",
+          "prep_note": "partially skimmed"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Skim cream from evening milk. Combine with morning milk."},
-        {"step": 2, "text": "Heat to 90°F. Add starter, ripen 15 minutes."},
-        {"step": 3, "text": "Add rennet. Set 15-20 minutes until firm."},
-        {"step": 4, "text": "Cut into tiny pieces (smaller than rice grains)."},
-        {"step": 5, "text": "Heat to 131°F over 30 minutes, stirring constantly."},
-        {"step": 6, "text": "Let curds settle and mat on bottom."},
-        {"step": 7, "text": "Press firmly at 50-60 lbs for 24 hours, flipping several times."},
-        {"step": 8, "text": "Brine 3 weeks, turning daily."},
-        {"step": 9, "text": "Age 12-24 months at 55°F, turning and brushing weekly."}
+        {
+          "step": 1,
+          "text": "Skim cream from evening milk. Combine with morning milk."
+        },
+        {
+          "step": 2,
+          "text": "Heat to 90\u00b0F. Add starter, ripen 15 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add rennet. Set 15-20 minutes until firm."
+        },
+        {
+          "step": 4,
+          "text": "Cut into tiny pieces (smaller than rice grains)."
+        },
+        {
+          "step": 5,
+          "text": "Heat to 131\u00b0F over 30 minutes, stirring constantly."
+        },
+        {
+          "step": 6,
+          "text": "Let curds settle and mat on bottom."
+        },
+        {
+          "step": 7,
+          "text": "Press firmly at 50-60 lbs for 24 hours, flipping several times."
+        },
+        {
+          "step": 8,
+          "text": "Brine 3 weeks, turning daily."
+        },
+        {
+          "step": 9,
+          "text": "Age 12-24 months at 55\u00b0F, turning and brushing weekly."
+        }
       ],
-      "temperature": "90-131°F",
-      "notes": ["Similar to aged Pecorino Romano", "Develops tyrosine crystals at 18+ months", "Excellent grating cheese for pasta"],
-      "tags": ["cheese", "parmesan", "sheep milk", "Italian", "aged", "grating cheese", "hard cheese"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-131\u00b0F",
+      "notes": [
+        "Similar to aged Pecorino Romano",
+        "Develops tyrosine crystals at 18+ months",
+        "Excellent grating cheese for pasta"
+      ],
+      "tags": [
+        "cheese",
+        "parmesan",
+        "sheep milk",
+        "Italian",
+        "aged",
+        "grating cheese",
+        "hard cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392620,24 +394351,77 @@
       "cook_time": "20 min",
       "total_time": "2 hours including chilling",
       "ingredients": [
-        {"item": "sheep's milk cheddar", "quantity": "1", "unit": "lb", "prep_note": "shredded, young"},
-        {"item": "sheep's milk", "quantity": "1/2", "unit": "cup"},
-        {"item": "butter", "quantity": "2", "unit": "tbsp"},
-        {"item": "sodium citrate", "quantity": "1", "unit": "tbsp", "prep_note": "emulsifying salt"},
-        {"item": "salt", "quantity": "1/2", "unit": "tsp"}
+        {
+          "item": "sheep's milk cheddar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "shredded, young"
+        },
+        {
+          "item": "sheep's milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sodium citrate",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "emulsifying salt"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Combine milk, butter, and sodium citrate in a pot. Heat to 180°F."},
-        {"step": 2, "text": "Remove from heat. Add shredded cheese gradually, stirring constantly."},
-        {"step": 3, "text": "Blend with immersion blender until completely smooth."},
-        {"step": 4, "text": "Pour into silicone mold or lined loaf pan."},
-        {"step": 5, "text": "Refrigerate until firm, about 2 hours."},
-        {"step": 6, "text": "Slice for sandwiches. Melts beautifully."}
+        {
+          "step": 1,
+          "text": "Combine milk, butter, and sodium citrate in a pot. Heat to 180\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat. Add shredded cheese gradually, stirring constantly."
+        },
+        {
+          "step": 3,
+          "text": "Blend with immersion blender until completely smooth."
+        },
+        {
+          "step": 4,
+          "text": "Pour into silicone mold or lined loaf pan."
+        },
+        {
+          "step": 5,
+          "text": "Refrigerate until firm, about 2 hours."
+        },
+        {
+          "step": 6,
+          "text": "Slice for sandwiches. Melts beautifully."
+        }
       ],
-      "temperature": "180°F",
-      "notes": ["Sodium citrate is key for smooth, meltable texture", "Can add turmeric for orange color", "Sheep milk base makes it richer than cow's milk version"],
-      "tags": ["cheese", "american cheese", "sheep milk", "processed", "melting cheese"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "180\u00b0F",
+      "notes": [
+        "Sodium citrate is key for smooth, meltable texture",
+        "Can add turmeric for orange color",
+        "Sheep milk base makes it richer than cow's milk version"
+      ],
+      "tags": [
+        "cheese",
+        "american cheese",
+        "sheep milk",
+        "processed",
+        "melting cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392654,24 +394438,75 @@
       "cook_time": "2 hours",
       "total_time": "1-3 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "1.5", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1.5",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 88°F. Add starter, ripen 45 minutes."},
-        {"step": 2, "text": "Add rennet. Set 45 minutes."},
-        {"step": 3, "text": "Cut curd into 1/2-inch cubes."},
-        {"step": 4, "text": "Heat slowly to 102°F over 40 minutes."},
-        {"step": 5, "text": "Drain whey. Stir curds to dry slightly."},
-        {"step": 6, "text": "Add salt, mix. Press at 15 lbs for 1 hour, then 30 lbs for 12 hours."},
-        {"step": 7, "text": "Air dry, wax or vacuum seal. Age 1-3 months."}
+        {
+          "step": 1,
+          "text": "Heat milk to 88\u00b0F. Add starter, ripen 45 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Heat slowly to 102\u00b0F over 40 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Drain whey. Stir curds to dry slightly."
+        },
+        {
+          "step": 6,
+          "text": "Add salt, mix. Press at 15 lbs for 1 hour, then 30 lbs for 12 hours."
+        },
+        {
+          "step": 7,
+          "text": "Air dry, wax or vacuum seal. Age 1-3 months."
+        }
       ],
-      "temperature": "88-102°F",
-      "notes": ["Add jalapeños for Pepper Jack variant", "Mild enough for young eating", "Excellent Tex-Mex melting cheese"],
-      "tags": ["cheese", "monterey jack", "sheep milk", "American", "California", "mild"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "88-102\u00b0F",
+      "notes": [
+        "Add jalape\u00f1os for Pepper Jack variant",
+        "Mild enough for young eating",
+        "Excellent Tex-Mex melting cheese"
+      ],
+      "tags": [
+        "cheese",
+        "monterey jack",
+        "sheep milk",
+        "American",
+        "California",
+        "mild"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392688,58 +394523,160 @@
       "cook_time": "3 hours",
       "total_time": "2-8 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 95°F. Add starter, ripen 20 minutes."},
-        {"step": 2, "text": "Add rennet. Set 30 minutes."},
-        {"step": 3, "text": "Cut curd into small pieces (pea-sized)."},
-        {"step": 4, "text": "Cook at 104°F for 15 minutes, stirring."},
-        {"step": 5, "text": "Drain and press at 25 lbs for 12 hours."},
-        {"step": 6, "text": "Brine 12-24 hours."},
-        {"step": 7, "text": "Age: Dolce 1-2 months, Maturo 4-8 months."}
+        {
+          "step": 1,
+          "text": "Heat milk to 95\u00b0F. Add starter, ripen 20 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into small pieces (pea-sized)."
+        },
+        {
+          "step": 4,
+          "text": "Cook at 104\u00b0F for 15 minutes, stirring."
+        },
+        {
+          "step": 5,
+          "text": "Drain and press at 25 lbs for 12 hours."
+        },
+        {
+          "step": 6,
+          "text": "Brine 12-24 hours."
+        },
+        {
+          "step": 7,
+          "text": "Age: Dolce 1-2 months, Maturo 4-8 months."
+        }
       ],
-      "temperature": "95-104°F",
-      "notes": ["Dolce: young, mild, table cheese", "Maturo: aged, sharper, grating cheese", "PDO protected"],
-      "tags": ["cheese", "pecorino sardo", "sheep milk", "Italian", "Sardinian", "PDO"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "95-104\u00b0F",
+      "notes": [
+        "Dolce: young, mild, table cheese",
+        "Maturo: aged, sharper, grating cheese",
+        "PDO protected"
+      ],
+      "tags": [
+        "cheese",
+        "pecorino sardo",
+        "sheep milk",
+        "Italian",
+        "Sardinian",
+        "PDO"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
       "id": "sheep-milk-greek-graviera",
       "collection": "all",
       "collection_display": "Other Family Recipes",
-      "title": "Graviera (Greek Gruyère-Style)",
+      "title": "Graviera (Greek Gruy\u00e8re-Style)",
       "category": "sides",
       "attribution": "Greek PDO cheese",
       "source_note": "Greece's second most popular cheese after feta",
-      "description": "Sweet, nutty Greek cheese similar to Gruyère. Often served fried as saganaki.",
+      "description": "Sweet, nutty Greek cheese similar to Gruy\u00e8re. Often served fried as saganaki.",
       "servings_yield": "About 2 lbs",
       "prep_time": "30 min",
       "cook_time": "3 hours",
       "total_time": "3-5 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 90°F. Add starter, ripen 30 minutes."},
-        {"step": 2, "text": "Add rennet. Set 30 minutes."},
-        {"step": 3, "text": "Cut curd into small pieces."},
-        {"step": 4, "text": "Heat to 122°F over 45 minutes, stirring constantly."},
-        {"step": 5, "text": "Press at 30 lbs for 24 hours."},
-        {"step": 6, "text": "Brine 24-48 hours."},
-        {"step": 7, "text": "Age 3-5 months minimum."}
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F. Add starter, ripen 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into small pieces."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 122\u00b0F over 45 minutes, stirring constantly."
+        },
+        {
+          "step": 5,
+          "text": "Press at 30 lbs for 24 hours."
+        },
+        {
+          "step": 6,
+          "text": "Brine 24-48 hours."
+        },
+        {
+          "step": 7,
+          "text": "Age 3-5 months minimum."
+        }
       ],
-      "temperature": "90-122°F",
-      "notes": ["Cretan Graviera is PDO protected", "Sweeter than Swiss Gruyère", "Often served fried (saganaki)"],
-      "tags": ["cheese", "graviera", "sheep milk", "Greek", "hard cheese", "PDO"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-122\u00b0F",
+      "notes": [
+        "Cretan Graviera is PDO protected",
+        "Sweeter than Swiss Gruy\u00e8re",
+        "Often served fried (saganaki)"
+      ],
+      "tags": [
+        "cheese",
+        "graviera",
+        "sheep milk",
+        "Greek",
+        "hard cheese",
+        "PDO"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392756,24 +394693,75 @@
       "cook_time": "3 hours",
       "total_time": "3-12 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "thermophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/2", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "3", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "thermophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 95°F. Add starter, ripen 30 minutes."},
-        {"step": 2, "text": "Add rennet. Set 40 minutes."},
-        {"step": 3, "text": "Cut curd very small (rice-grain sized)."},
-        {"step": 4, "text": "Heat to 122°F, stirring constantly."},
-        {"step": 5, "text": "Press firmly at 40 lbs for 24 hours."},
-        {"step": 6, "text": "Dry salt for several days, then brine."},
-        {"step": 7, "text": "Age minimum 3 months, up to 1 year."}
+        {
+          "step": 1,
+          "text": "Heat milk to 95\u00b0F. Add starter, ripen 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 40 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd very small (rice-grain sized)."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 122\u00b0F, stirring constantly."
+        },
+        {
+          "step": 5,
+          "text": "Press firmly at 40 lbs for 24 hours."
+        },
+        {
+          "step": 6,
+          "text": "Dry salt for several days, then brine."
+        },
+        {
+          "step": 7,
+          "text": "Age minimum 3 months, up to 1 year."
+        }
       ],
-      "temperature": "95-122°F",
-      "notes": ["Very salty - used for grating and frying", "Can substitute for Pecorino Romano", "Traditional saganaki cheese"],
-      "tags": ["cheese", "kefalotiri", "sheep milk", "Greek", "hard cheese", "saganaki"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "95-122\u00b0F",
+      "notes": [
+        "Very salty - used for grating and frying",
+        "Can substitute for Pecorino Romano",
+        "Traditional saganaki cheese"
+      ],
+      "tags": [
+        "cheese",
+        "kefalotiri",
+        "sheep milk",
+        "Greek",
+        "hard cheese",
+        "saganaki"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392790,22 +394778,69 @@
       "cook_time": "30 min",
       "total_time": "1-2 weeks fermentation",
       "ingredients": [
-        {"item": "fresh sheep's milk curd", "quantity": "2", "unit": "lbs", "prep_note": "drained farmer's cheese style"},
-        {"item": "salt", "quantity": "2", "unit": "tsp"},
-        {"item": "sheep's milk", "quantity": "2", "unit": "tbsp", "prep_note": "to adjust texture"}
+        {
+          "item": "fresh sheep's milk curd",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "drained farmer's cheese style"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sheep's milk",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "to adjust texture"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Start with fresh sheep's milk curd (similar to farmer's cheese)."},
-        {"step": 2, "text": "Let curd age 5-10 days at cool room temp until slightly tangy."},
-        {"step": 3, "text": "Crumble aged curd and mix with salt."},
-        {"step": 4, "text": "Knead and press into a crock or container."},
-        {"step": 5, "text": "Let ferment 3-5 more days until spreadable and tangy."},
-        {"step": 6, "text": "Add milk if too dry. Should be spreadable consistency."}
+        {
+          "step": 1,
+          "text": "Start with fresh sheep's milk curd (similar to farmer's cheese)."
+        },
+        {
+          "step": 2,
+          "text": "Let curd age 5-10 days at cool room temp until slightly tangy."
+        },
+        {
+          "step": 3,
+          "text": "Crumble aged curd and mix with salt."
+        },
+        {
+          "step": 4,
+          "text": "Knead and press into a crock or container."
+        },
+        {
+          "step": 5,
+          "text": "Let ferment 3-5 more days until spreadable and tangy."
+        },
+        {
+          "step": 6,
+          "text": "Add milk if too dry. Should be spreadable consistency."
+        }
       ],
       "temperature": "Room temperature for fermentation",
-      "notes": ["Slovak Bryndza is PDO protected", "Essential for pierogi and halusky", "Should be creamy and tangy"],
-      "tags": ["cheese", "bryndza", "sheep milk", "Slovak", "Polish", "spreadable", "fermented"],
-      "confidence": {"overall": "high", "flags": []},
+      "notes": [
+        "Slovak Bryndza is PDO protected",
+        "Essential for pierogi and halusky",
+        "Should be creamy and tangy"
+      ],
+      "tags": [
+        "cheese",
+        "bryndza",
+        "sheep milk",
+        "Slovak",
+        "Polish",
+        "spreadable",
+        "fermented"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392822,27 +394857,91 @@
       "cook_time": "2 hours",
       "total_time": "3-8 weeks aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "Brevibacterium linens", "quantity": "1/16", "unit": "tsp", "prep_note": "for washed rind"},
-        {"item": "liquid rennet", "quantity": "1/4", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "1.5", "unit": "tbsp"},
-        {"item": "annatto", "quantity": "1/4", "unit": "tsp", "prep_note": "optional, for color"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "Brevibacterium linens",
+          "quantity": "1/16",
+          "unit": "tsp",
+          "prep_note": "for washed rind"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1.5",
+          "unit": "tbsp"
+        },
+        {
+          "item": "annatto",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional, for color"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 90°F. Add starter and B. linens. Ripen 1 hour."},
-        {"step": 2, "text": "Add rennet. Set 30-45 minutes."},
-        {"step": 3, "text": "Cut curd into 1/2-inch cubes."},
-        {"step": 4, "text": "Heat to 100°F over 30 minutes."},
-        {"step": 5, "text": "Drain and lightly press for 6-8 hours."},
-        {"step": 6, "text": "Brine 4 hours."},
-        {"step": 7, "text": "Age at 55°F, 95% humidity. Wash with brine every 2-3 days."},
-        {"step": 8, "text": "Ready in 3-8 weeks when orange rind develops."}
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F. Add starter and B. linens. Ripen 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 30-45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Heat to 100\u00b0F over 30 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Drain and lightly press for 6-8 hours."
+        },
+        {
+          "step": 6,
+          "text": "Brine 4 hours."
+        },
+        {
+          "step": 7,
+          "text": "Age at 55\u00b0F, 95% humidity. Wash with brine every 2-3 days."
+        },
+        {
+          "step": 8,
+          "text": "Ready in 3-8 weeks when orange rind develops."
+        }
       ],
-      "temperature": "90-100°F",
-      "notes": ["Washing develops the orange rind and pungent aroma", "American Muenster is milder than French original", "Excellent melting cheese"],
-      "tags": ["cheese", "muenster", "sheep milk", "washed rind", "Alsatian", "French"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "90-100\u00b0F",
+      "notes": [
+        "Washing develops the orange rind and pungent aroma",
+        "American Muenster is milder than French original",
+        "Excellent melting cheese"
+      ],
+      "tags": [
+        "cheese",
+        "muenster",
+        "sheep milk",
+        "washed rind",
+        "Alsatian",
+        "French"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392859,26 +394958,84 @@
       "cook_time": "2 hours",
       "total_time": "6-10 weeks aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "2", "unit": "gallons"},
-        {"item": "mesophilic starter", "quantity": "1/4", "unit": "tsp"},
-        {"item": "Brevibacterium linens", "quantity": "1/16", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/4", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "2", "unit": "tbsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "Brevibacterium linens",
+          "quantity": "1/16",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 95°F. Add starter and B. linens. Ripen 30 min."},
-        {"step": 2, "text": "Add rennet. Set 45 minutes."},
-        {"step": 3, "text": "Cut curd into 1-inch cubes."},
-        {"step": 4, "text": "Let settle 10 minutes. Ladle into square molds."},
-        {"step": 5, "text": "Flip frequently for 24 hours. Do not press."},
-        {"step": 6, "text": "Salt all surfaces."},
-        {"step": 7, "text": "Age at 50°F, high humidity. Wash with brine weekly."},
-        {"step": 8, "text": "Ready in 6-10 weeks when soft throughout."}
+        {
+          "step": 1,
+          "text": "Heat milk to 95\u00b0F. Add starter and B. linens. Ripen 30 min."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Let settle 10 minutes. Ladle into square molds."
+        },
+        {
+          "step": 5,
+          "text": "Flip frequently for 24 hours. Do not press."
+        },
+        {
+          "step": 6,
+          "text": "Salt all surfaces."
+        },
+        {
+          "step": 7,
+          "text": "Age at 50\u00b0F, high humidity. Wash with brine weekly."
+        },
+        {
+          "step": 8,
+          "text": "Ready in 6-10 weeks when soft throughout."
+        }
       ],
-      "temperature": "95°F",
-      "notes": ["Traditional square shape", "Rind should be orange-pink and sticky", "Interior should be gooey when ripe"],
-      "tags": ["cheese", "taleggio", "sheep milk", "Italian", "washed rind", "Lombardy"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "95\u00b0F",
+      "notes": [
+        "Traditional square shape",
+        "Rind should be orange-pink and sticky",
+        "Interior should be gooey when ripe"
+      ],
+      "tags": [
+        "cheese",
+        "taleggio",
+        "sheep milk",
+        "Italian",
+        "washed rind",
+        "Lombardy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392895,25 +395052,81 @@
       "cook_time": "2 hours",
       "total_time": "4-6 weeks aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1", "unit": "gallon"},
-        {"item": "mesophilic starter", "quantity": "1/8", "unit": "tsp"},
-        {"item": "Brevibacterium linens", "quantity": "1/32", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/8", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "1", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "Brevibacterium linens",
+          "quantity": "1/32",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 95°F. Add starter and B. linens. Ripen 30 min."},
-        {"step": 2, "text": "Add rennet. Set 30 minutes."},
-        {"step": 3, "text": "Cut curd into 1/2-inch cubes."},
-        {"step": 4, "text": "Gently stir 5 minutes. Ladle into small round molds."},
-        {"step": 5, "text": "Flip several times over 6 hours."},
-        {"step": 6, "text": "Salt and begin washing."},
-        {"step": 7, "text": "Age 4-6 weeks at 55°F, washing every few days."}
+        {
+          "step": 1,
+          "text": "Heat milk to 95\u00b0F. Add starter and B. linens. Ripen 30 min."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Gently stir 5 minutes. Ladle into small round molds."
+        },
+        {
+          "step": 5,
+          "text": "Flip several times over 6 hours."
+        },
+        {
+          "step": 6,
+          "text": "Salt and begin washing."
+        },
+        {
+          "step": 7,
+          "text": "Age 4-6 weeks at 55\u00b0F, washing every few days."
+        }
       ],
-      "temperature": "95°F",
-      "notes": ["Traditional for tartiflette (potato gratin)", "Should have thin peachy-pink rind", "Interior should be supple, not runny"],
-      "tags": ["cheese", "reblochon", "sheep milk", "French", "washed rind", "Alpine", "Savoie"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "95\u00b0F",
+      "notes": [
+        "Traditional for tartiflette (potato gratin)",
+        "Should have thin peachy-pink rind",
+        "Interior should be supple, not runny"
+      ],
+      "tags": [
+        "cheese",
+        "reblochon",
+        "sheep milk",
+        "French",
+        "washed rind",
+        "Alpine",
+        "Savoie"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     },
     {
@@ -392930,26 +395143,2192 @@
       "cook_time": "2 hours",
       "total_time": "3 months aging",
       "ingredients": [
-        {"item": "fresh sheep's milk", "quantity": "1", "unit": "gallon"},
-        {"item": "mesophilic starter", "quantity": "1/8", "unit": "tsp"},
-        {"item": "Brevibacterium linens", "quantity": "1/16", "unit": "tsp"},
-        {"item": "liquid rennet", "quantity": "1/8", "unit": "tsp"},
-        {"item": "cheese salt", "quantity": "1", "unit": "tsp"}
+        {
+          "item": "fresh sheep's milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "mesophilic starter",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "Brevibacterium linens",
+          "quantity": "1/16",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1",
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        {"step": 1, "text": "Heat milk to 86°F. Add starter and B. linens. Ripen 1 hour."},
-        {"step": 2, "text": "Add rennet. Set 1 hour."},
-        {"step": 3, "text": "Cut curd into 1/2-inch cubes."},
-        {"step": 4, "text": "Let rest 10 minutes. Gently stir, drain."},
-        {"step": 5, "text": "Pack into brick molds. Flip every 15 min for 2 hours."},
-        {"step": 6, "text": "Brine 12 hours."},
-        {"step": 7, "text": "Age at 55°F, high humidity. Wash with brine 2x weekly."},
-        {"step": 8, "text": "Ready in 2-3 months when soft and pungent."}
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F. Add starter and B. linens. Ripen 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Add rennet. Set 1 hour."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2-inch cubes."
+        },
+        {
+          "step": 4,
+          "text": "Let rest 10 minutes. Gently stir, drain."
+        },
+        {
+          "step": 5,
+          "text": "Pack into brick molds. Flip every 15 min for 2 hours."
+        },
+        {
+          "step": 6,
+          "text": "Brine 12 hours."
+        },
+        {
+          "step": 7,
+          "text": "Age at 55\u00b0F, high humidity. Wash with brine 2x weekly."
+        },
+        {
+          "step": 8,
+          "text": "Ready in 2-3 months when soft and pungent."
+        }
       ],
-      "temperature": "86°F",
-      "notes": ["Famous for strong smell, but flavor is mild and creamy", "Rind becomes very sticky and smelly", "Store in sealed container"],
-      "tags": ["cheese", "limburger", "sheep milk", "Belgian", "German", "washed rind", "pungent"],
-      "confidence": {"overall": "high", "flags": []},
+      "temperature": "86\u00b0F",
+      "notes": [
+        "Famous for strong smell, but flavor is mild and creamy",
+        "Rind becomes very sticky and smelly",
+        "Store in sealed container"
+      ],
+      "tags": [
+        "cheese",
+        "limburger",
+        "sheep milk",
+        "Belgian",
+        "German",
+        "washed rind",
+        "pungent"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-beef-wellington",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Beef Wellington",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Gordon's signature dish featuring beef tenderloin wrapped in pate and puff pastry",
+      "servings_yield": "6 servings",
+      "prep_time": "45 min",
+      "cook_time": "30 min",
+      "total_time": "1 hr 15 min",
+      "ingredients": [
+        {
+          "item": "beef tenderloin",
+          "quantity": "2",
+          "unit": "lb"
+        },
+        {
+          "item": "English mustard",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "puff pastry",
+          "quantity": "1",
+          "unit": "sheet"
+        },
+        {
+          "item": "egg yolk",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "shallots",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "thyme",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "prosciutto",
+          "quantity": "8",
+          "unit": "slices"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Season beef with salt and pepper. Heat oil in a pan and sear beef on all sides until browned. Brush with mustard and let cool."
+        },
+        {
+          "step": 2,
+          "text": "Finely chop mushrooms and shallots. Cook in butter until all moisture evaporates. Season and add thyme. Let cool completely."
+        },
+        {
+          "step": 3,
+          "text": "Lay prosciutto on plastic wrap, spread mushroom mixture (duxelles) over it. Place beef on top and roll tightly. Refrigerate 30 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Wrap the beef roll in puff pastry, sealing edges with egg wash. Score the top decoratively."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 425\u00b0F (220\u00b0C) for 25-30 minutes until pastry is golden and internal temp reaches 125\u00b0F for medium-rare."
+        },
+        {
+          "step": 6,
+          "text": "Rest for 10 minutes before slicing and serving."
+        }
+      ],
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "tags": [
+        "beef",
+        "pastry",
+        "special-occasion",
+        "british",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-teriyaki-salmon",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Teriyaki Salmon",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Pan-seared salmon with a sweet and savory teriyaki glaze",
+      "servings_yield": "4 servings",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "total_time": "25 min",
+      "ingredients": [
+        {
+          "item": "salmon fillets",
+          "quantity": "4",
+          "unit": "6-oz"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "mirin",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sake",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ginger",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sesame seeds",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "green onions",
+          "quantity": "2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine soy sauce, mirin, sake, brown sugar, ginger, and garlic in a small saucepan. Simmer until slightly thickened."
+        },
+        {
+          "step": 2,
+          "text": "Season salmon with salt and pepper. Heat oil in a non-stick pan over medium-high heat."
+        },
+        {
+          "step": 3,
+          "text": "Sear salmon skin-side down for 4 minutes until crispy. Flip and cook 3 more minutes."
+        },
+        {
+          "step": 4,
+          "text": "Brush with teriyaki glaze and cook 1 minute more."
+        },
+        {
+          "step": 5,
+          "text": "Garnish with sesame seeds and sliced green onions. Serve with rice."
+        }
+      ],
+      "temperature": "Medium-high heat",
+      "tags": [
+        "salmon",
+        "fish",
+        "asian",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-sticky-toffee-pudding",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Sticky Toffee Pudding",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Individual sticky toffee puddings with rich toffee sauce",
+      "servings_yield": "6 servings",
+      "prep_time": "20 min",
+      "cook_time": "20 min",
+      "total_time": "40 min",
+      "ingredients": [
+        {
+          "item": "dates, pitted and chopped",
+          "quantity": "5",
+          "unit": "oz"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "butter, softened",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "light brown sugar",
+          "quantity": "6",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "corn syrup",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "bourbon",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine dates and baking soda in a bowl. Pour boiling water over and let stand 10 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Cream butter and sugar until fluffy. Add egg, then flour and baking powder."
+        },
+        {
+          "step": 3,
+          "text": "Puree dates and fold into batter."
+        },
+        {
+          "step": 4,
+          "text": "Divide among 6 greased muffin cups. Bake at 350\u00b0F for 17-19 minutes."
+        },
+        {
+          "step": 5,
+          "text": "For sauce: combine butter, brown sugar, milk, cream, corn syrup in a pan. Simmer 3 minutes, stir in bourbon."
+        },
+        {
+          "step": 6,
+          "text": "Spoon sauce over warm puddings and serve immediately."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "dessert",
+        "british",
+        "dates",
+        "caramel",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-scrambled-eggs",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Scrambled Eggs",
+      "category": "breakfast",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Gordon's famous creamy scrambled eggs cooked low and slow",
+      "servings_yield": "2 servings",
+      "prep_time": "2 min",
+      "cook_time": "10 min",
+      "total_time": "12 min",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "creme fraiche",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chives, chopped",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crack eggs into a cold non-stick pan with butter. Do not whisk beforehand."
+        },
+        {
+          "step": 2,
+          "text": "Place pan over medium heat. Stir continuously with a spatula, moving the pan on and off the heat."
+        },
+        {
+          "step": 3,
+          "text": "Continue stirring for 3-5 minutes until eggs begin to set but are still soft and creamy."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat, stir in creme fraiche to stop cooking."
+        },
+        {
+          "step": 5,
+          "text": "Season with salt and pepper, garnish with chives. Serve immediately on toast."
+        }
+      ],
+      "temperature": "Medium heat",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "quick",
+        "british",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-bangers-and-mash",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Bangers and Mash",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Classic British comfort food with sausages, mashed potatoes, and onion gravy",
+      "servings_yield": "4 servings",
+      "prep_time": "10 min",
+      "cook_time": "30 min",
+      "total_time": "40 min",
+      "ingredients": [
+        {
+          "item": "pork sausages",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "potatoes, peeled and cubed",
+          "quantity": "2",
+          "unit": "lb"
+        },
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "red onion, sliced",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "beef stock",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "balsamic vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "2",
+          "unit": "sprigs"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil potatoes in salted water until tender. Drain and mash with butter and milk. Season and keep warm."
+        },
+        {
+          "step": 2,
+          "text": "Brown sausages in a pan with oil and rosemary, about 10-12 minutes. Transfer to oven at 325\u00b0F to finish."
+        },
+        {
+          "step": 3,
+          "text": "In the same pan, caramelize onions with butter and sugar. Add balsamic and Worcestershire sauce."
+        },
+        {
+          "step": 4,
+          "text": "Add beef stock, simmer until reduced to a rich gravy."
+        },
+        {
+          "step": 5,
+          "text": "Serve sausages on mashed potatoes, topped with onion gravy."
+        }
+      ],
+      "temperature": "325\u00b0F (160\u00b0C)",
+      "tags": [
+        "british",
+        "comfort-food",
+        "sausage",
+        "potatoes",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-carbonara",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Carbonara",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Classic Italian pasta with crispy pancetta and creamy egg sauce",
+      "servings_yield": "2 servings",
+      "prep_time": "5 min",
+      "cook_time": "15 min",
+      "total_time": "20 min",
+      "ingredients": [
+        {
+          "item": "spaghetti",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "item": "pancetta or bacon",
+          "quantity": "150",
+          "unit": "g"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "Parmesan cheese, grated",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "creme fraiche",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook pasta in salted boiling water until al dente. Reserve 1 cup pasta water."
+        },
+        {
+          "step": 2,
+          "text": "Fry pancetta with garlic until crispy. Remove garlic."
+        },
+        {
+          "step": 3,
+          "text": "Whisk egg yolks with Parmesan and creme fraiche."
+        },
+        {
+          "step": 4,
+          "text": "Add hot pasta to pancetta pan, remove from heat."
+        },
+        {
+          "step": 5,
+          "text": "Quickly toss in egg mixture, adding pasta water to create creamy sauce."
+        },
+        {
+          "step": 6,
+          "text": "Season with black pepper and serve immediately with extra Parmesan."
+        }
+      ],
+      "temperature": "Medium-high heat",
+      "tags": [
+        "pasta",
+        "italian",
+        "quick",
+        "eggs",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-fish-and-chips",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Fish and Chips",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Classic British pub dish with crispy battered fish and chips",
+      "servings_yield": "2 servings",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "total_time": "35 min",
+      "ingredients": [
+        {
+          "item": "cod or haddock fillet",
+          "quantity": "2",
+          "unit": "6-oz"
+        },
+        {
+          "item": "self-rising flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "light beer",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "curry powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg white",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut potatoes into thick chips. Soak in cold water 30 minutes, then dry thoroughly."
+        },
+        {
+          "step": 2,
+          "text": "Whisk flour, baking powder, curry powder, and beer. Fold in stiffly beaten egg white."
+        },
+        {
+          "step": 3,
+          "text": "Heat oil to 350\u00b0F. Fry chips until golden, about 5-6 minutes. Drain and keep warm."
+        },
+        {
+          "step": 4,
+          "text": "Dredge fish in seasoned flour, then batter. Fry until golden and cooked through, 3-4 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Drain on paper towels, season with salt. Serve with chips, tartar sauce, and lemon wedges."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "british",
+        "fish",
+        "fried",
+        "pub-food",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-honey-glazed-ham",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Honey Glazed Ham",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Festive glazed ham perfect for Christmas dinner",
+      "servings_yield": "8-10 servings",
+      "prep_time": "1 hr",
+      "cook_time": "3 hr 30 min",
+      "total_time": "4 hr 30 min",
+      "ingredients": [
+        {
+          "item": "unsmoked gammon joint",
+          "quantity": "3",
+          "unit": "kg"
+        },
+        {
+          "item": "carrots, chopped",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "leek, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "onion, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "peppercorns",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "coriander seeds",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "cinnamon stick",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "20",
+          "unit": ""
+        },
+        {
+          "item": "demerara sugar",
+          "quantity": "100",
+          "unit": "g"
+        },
+        {
+          "item": "Madeira wine",
+          "quantity": "50",
+          "unit": "ml"
+        },
+        {
+          "item": "sherry vinegar",
+          "quantity": "25",
+          "unit": "ml"
+        },
+        {
+          "item": "honey",
+          "quantity": "125",
+          "unit": "g"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place gammon in a large pan with vegetables and spices. Cover with water, bring to boil, then simmer 3 hours."
+        },
+        {
+          "step": 2,
+          "text": "Make glaze by heating sugar, Madeira, vinegar, and honey until syrupy."
+        },
+        {
+          "step": 3,
+          "text": "Remove ham, let cool slightly. Peel off skin leaving fat. Score fat in crosshatch pattern."
+        },
+        {
+          "step": 4,
+          "text": "Stud each diamond with a clove. Place in roasting tin."
+        },
+        {
+          "step": 5,
+          "text": "Brush with half the glaze, roast at 375\u00b0F for 15 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Add remaining glaze, roast 25-35 minutes more until golden. Rest before carving."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "pork",
+        "ham",
+        "holiday",
+        "christmas",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-roast-turkey-with-lemon-parsley-and-garlic",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Roast Turkey with Lemon, Parsley and Garlic",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Juicy roast turkey with herb butter perfect for holiday meals",
+      "servings_yield": "8-10 servings",
+      "prep_time": "30 min",
+      "cook_time": "3 hr",
+      "total_time": "3 hr 30 min",
+      "ingredients": [
+        {
+          "item": "whole turkey",
+          "quantity": "12-14",
+          "unit": "lb"
+        },
+        {
+          "item": "butter, softened",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon zest",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "parsley, chopped",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic, minced",
+          "quantity": "4",
+          "unit": "cloves"
+        },
+        {
+          "item": "thyme",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "carrots",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "celery",
+          "quantity": "2",
+          "unit": "stalks"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix butter with lemon zest, parsley, garlic, and thyme."
+        },
+        {
+          "step": 2,
+          "text": "Gently loosen turkey skin and spread herb butter underneath. Season cavity with salt and pepper."
+        },
+        {
+          "step": 3,
+          "text": "Place vegetables in roasting tin, set turkey on top."
+        },
+        {
+          "step": 4,
+          "text": "Roast at 350\u00b0F for about 3 hours, basting every 30 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Turkey is done when internal temp reaches 165\u00b0F. Rest 30 minutes before carving."
+        },
+        {
+          "step": 6,
+          "text": "Make gravy from pan drippings and stock."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "turkey",
+        "holiday",
+        "thanksgiving",
+        "christmas",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-pork-dumplings",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pork Dumplings",
+      "category": "appetizers",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Pork and chive dumplings with black vinegar dipping sauce",
+      "servings_yield": "25 dumplings",
+      "prep_time": "1 hr",
+      "cook_time": "10 min",
+      "total_time": "1 hr 30 min",
+      "ingredients": [
+        {
+          "item": "dumpling flour",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "ground pork",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "shiitake mushrooms, minced",
+          "quantity": "2",
+          "unit": "oz"
+        },
+        {
+          "item": "garlic, grated",
+          "quantity": "3",
+          "unit": "cloves"
+        },
+        {
+          "item": "ginger, grated",
+          "quantity": "1",
+          "unit": "oz"
+        },
+        {
+          "item": "Chinese chives, sliced",
+          "quantity": "1",
+          "unit": "bunch"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "black vinegar",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix flour and salt, gradually add water while stirring. Knead until smooth, rest 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Combine pork with mushrooms, garlic, ginger, chives, soy sauce, and sesame oil."
+        },
+        {
+          "step": 3,
+          "text": "Roll dough into thin wrappers about 3.5 inches in diameter."
+        },
+        {
+          "step": 4,
+          "text": "Fill each wrapper with 1 tbsp filling, fold and pleat edges to seal."
+        },
+        {
+          "step": 5,
+          "text": "Pan-fry dumplings in oil, add water, cover and steam 5-7 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Remove lid, crisp bottoms 1-2 minutes. Serve with black vinegar dipping sauce."
+        }
+      ],
+      "temperature": "Medium heat",
+      "tags": [
+        "asian",
+        "pork",
+        "dumplings",
+        "appetizer",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-pavlova-with-raspberry-curd",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pavlova with Raspberry Curd",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Light meringue dessert with raspberry curd for two",
+      "servings_yield": "2 servings",
+      "prep_time": "30 min",
+      "cook_time": "1 hr 15 min",
+      "total_time": "3 hr",
+      "ingredients": [
+        {
+          "item": "egg white",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "raspberries",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "7",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "5",
+          "unit": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chocolate chips",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "strawberries",
+          "quantity": "10",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk egg white and sugar to soft peaks. Add cornstarch, vinegar, and vanilla; whisk to stiff peaks."
+        },
+        {
+          "step": 2,
+          "text": "Shape into 4-inch circle on parchment, creating a shallow bowl. Bake at 220\u00b0F for 1 hr 15 min."
+        },
+        {
+          "step": 3,
+          "text": "For curd: melt butter, add raspberries, sugar, yolks, lemon. Cook until thickened. Strain."
+        },
+        {
+          "step": 4,
+          "text": "Make chocolate-dipped strawberries."
+        },
+        {
+          "step": 5,
+          "text": "Fill cooled pavlova with raspberry curd, top with berries and strawberries."
+        }
+      ],
+      "temperature": "220\u00b0F (105\u00b0C)",
+      "tags": [
+        "dessert",
+        "meringue",
+        "raspberries",
+        "romantic",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-baked-chicken-wings",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Baked Chicken Wings",
+      "category": "appetizers",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Crispy baked chicken wings with hot sauce glaze",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "cook_time": "35 min",
+      "total_time": "50 min",
+      "ingredients": [
+        {
+          "item": "chicken wings",
+          "quantity": "2",
+          "unit": "lb"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "smoked paprika",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "canola oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "hot sauce",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Pat wings dry, season with garlic powder, paprika, and salt."
+        },
+        {
+          "step": 3,
+          "text": "Heat oil and butter in oven-safe pan. Brown wings on both sides."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to oven, bake 15 minutes until cooked to 165\u00b0F."
+        },
+        {
+          "step": 5,
+          "text": "Toss with hot sauce and additional butter. Serve immediately."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "chicken",
+        "wings",
+        "appetizer",
+        "game-day",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-gingerbread-bundt-cake",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Gingerbread Bundt Cake",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Moist gingerbread cake with spiced glaze",
+      "servings_yield": "10-12 servings",
+      "prep_time": "20 min",
+      "cook_time": "50 min",
+      "total_time": "1 hr 10 min",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "3 3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "ground ginger",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "butter, softened",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "molasses",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F. Prepare bundt pan with baking spray."
+        },
+        {
+          "step": 2,
+          "text": "Mix flour, spices, baking powder, baking soda, and salt."
+        },
+        {
+          "step": 3,
+          "text": "Cream butter and sugars until fluffy. Add orange zest, ginger, molasses, and eggs."
+        },
+        {
+          "step": 4,
+          "text": "Alternate adding dry ingredients and milk in three additions."
+        },
+        {
+          "step": 5,
+          "text": "Bake 45-55 minutes until toothpick comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool, then drizzle with spiced powdered sugar glaze."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "dessert",
+        "cake",
+        "gingerbread",
+        "holiday",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-mozzarella-and-rosemary-pizza",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Mozzarella and Rosemary Pizza",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Homemade pizza dough topped with fresh mozzarella and rosemary",
+      "servings_yield": "4 pizzas",
+      "prep_time": "1 hr 30 min",
+      "cook_time": "15 min",
+      "total_time": "1 hr 45 min",
+      "ingredients": [
+        {
+          "item": "dried yeast",
+          "quantity": "2",
+          "unit": "packets"
+        },
+        {
+          "item": "golden caster sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "bread flour",
+          "quantity": "500",
+          "unit": "g"
+        },
+        {
+          "item": "fine sea salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "tomato passata",
+          "quantity": "8",
+          "unit": "tbsp"
+        },
+        {
+          "item": "mozzarella",
+          "quantity": "2",
+          "unit": "balls"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "2",
+          "unit": "sprigs"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix yeast and sugar with 325ml warm water. Combine flour and salt, add oil and yeast mixture."
+        },
+        {
+          "step": 2,
+          "text": "Knead 10 minutes until smooth. Cover and let rise 1 hour until doubled."
+        },
+        {
+          "step": 3,
+          "text": "Punch down and divide into 4 balls. Roll each to fit a 26cm pan."
+        },
+        {
+          "step": 4,
+          "text": "Cook dough in oiled pan over medium heat 5-8 minutes until crispy."
+        },
+        {
+          "step": 5,
+          "text": "Top with passata, torn mozzarella, rosemary, and pepper."
+        },
+        {
+          "step": 6,
+          "text": "Grill 4 minutes until golden. Serve with olive oil drizzle."
+        }
+      ],
+      "temperature": "Medium heat plus grill",
+      "tags": [
+        "pizza",
+        "italian",
+        "bread",
+        "cheese",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-chilli-beef-lettuce-wraps",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Chilli Beef Lettuce Wraps",
+      "category": "appetizers",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Spicy beef and pork mince in crisp lettuce cups",
+      "servings_yield": "4 servings",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "total_time": "30 min",
+      "ingredients": [
+        {
+          "item": "lean minced beef",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "item": "minced pork",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "item": "garlic, chopped",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "ginger, chopped",
+          "quantity": "2",
+          "unit": "inches"
+        },
+        {
+          "item": "red chillies",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fish sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lime",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "spring onions",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "little gem lettuce",
+          "quantity": "2",
+          "unit": "heads"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "coriander",
+          "quantity": "1",
+          "unit": "bunch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown mixed mince in oil until crispy. Drain excess fat."
+        },
+        {
+          "step": 2,
+          "text": "Add garlic, ginger, and chillies with sesame oil. Cook 2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add sugar and fish sauce. Stir in lime zest, juice, and spring onions."
+        },
+        {
+          "step": 4,
+          "text": "Make dressing with soy, lime, sesame oil, chilli, coriander, fish sauce, and sugar."
+        },
+        {
+          "step": 5,
+          "text": "Spoon mince into lettuce cups, drizzle with dressing and serve."
+        }
+      ],
+      "temperature": "High heat",
+      "tags": [
+        "asian",
+        "beef",
+        "pork",
+        "appetizer",
+        "low-carb",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-slow-cooked-beef-short-ribs",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Slow-Cooked Beef Short Ribs",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Tender braised beef short ribs in red wine",
+      "servings_yield": "4 servings",
+      "prep_time": "40 min",
+      "cook_time": "3 hr",
+      "total_time": "3 hr 40 min",
+      "ingredients": [
+        {
+          "item": "beef short ribs",
+          "quantity": "6",
+          "unit": "thick-cut"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic head, halved",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "tomato puree",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "red wine",
+          "quantity": "750",
+          "unit": "ml"
+        },
+        {
+          "item": "beef stock",
+          "quantity": "1",
+          "unit": "liter"
+        },
+        {
+          "item": "pancetta",
+          "quantity": "150",
+          "unit": "g"
+        },
+        {
+          "item": "chestnut mushrooms",
+          "quantity": "250",
+          "unit": "g"
+        },
+        {
+          "item": "parsley",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 325\u00b0F. Season and brown ribs in hot oil, 10-15 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add garlic and tomato puree, then wine. Reduce by half."
+        },
+        {
+          "step": 3,
+          "text": "Add stock, cover with foil, braise 3-4 hours until tender."
+        },
+        {
+          "step": 4,
+          "text": "Fry pancetta until crispy, add mushrooms."
+        },
+        {
+          "step": 5,
+          "text": "Strain sauce, top ribs with pancetta and mushrooms. Garnish with parsley."
+        }
+      ],
+      "temperature": "325\u00b0F (170\u00b0C)",
+      "tags": [
+        "beef",
+        "braised",
+        "comfort-food",
+        "wine",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-chocolate-avocado-mousse",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Chocolate Avocado Mousse",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Healthy chocolate mousse made with avocado",
+      "servings_yield": "8 servings",
+      "prep_time": "20 min",
+      "cook_time": "0 min",
+      "total_time": "20 min",
+      "ingredients": [
+        {
+          "item": "ripe avocados",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "honey",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "raw cacao powder",
+          "quantity": "50",
+          "unit": "g"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blend avocados until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Add honey, vanilla, and cacao powder. Blend until combined."
+        },
+        {
+          "step": 3,
+          "text": "Taste and adjust sweetness with more honey if desired."
+        },
+        {
+          "step": 4,
+          "text": "Divide into small glasses. Refrigerate 1 hour before serving."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "dessert",
+        "chocolate",
+        "healthy",
+        "vegan",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-quinoa-salad",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Quinoa Salad",
+      "category": "salads",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Nutty quinoa salad with almonds, cucumber, and fresh herbs",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "cook_time": "0 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "quinoa, cooked",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "item": "flaked almonds",
+          "quantity": "50",
+          "unit": "g"
+        },
+        {
+          "item": "cucumber",
+          "quantity": "1/2",
+          "unit": "large"
+        },
+        {
+          "item": "cherry tomatoes, halved",
+          "quantity": "125",
+          "unit": "g"
+        },
+        {
+          "item": "raisins",
+          "quantity": "50",
+          "unit": "g"
+        },
+        {
+          "item": "spring onions",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "mint leaves",
+          "quantity": "1",
+          "unit": "bunch"
+        },
+        {
+          "item": "lime juice",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook quinoa and spread on plate to cool quickly."
+        },
+        {
+          "step": 2,
+          "text": "Toast almonds until golden."
+        },
+        {
+          "step": 3,
+          "text": "Peel cucumber in strips, remove seeds, slice into half-moons."
+        },
+        {
+          "step": 4,
+          "text": "Combine quinoa, almonds, cucumber, tomatoes, raisins, spring onions, and half the mint."
+        },
+        {
+          "step": 5,
+          "text": "Dress with lime juice and olive oil. Season and garnish with remaining mint."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "salad",
+        "quinoa",
+        "healthy",
+        "vegetarian",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-gazpacho",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Gazpacho",
+      "category": "soups",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Refreshing cold Spanish tomato soup",
+      "servings_yield": "4 servings",
+      "prep_time": "50 min",
+      "cook_time": "0 min",
+      "total_time": "50 min",
+      "ingredients": [
+        {
+          "item": "cucumber, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "red pepper, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "green pepper, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "ripe plum tomatoes, chopped",
+          "quantity": "1",
+          "unit": "kg"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "spring onions",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "stale bread, chopped",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "sherry vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "4",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine vegetables, bread, and seasonings. Add vinegar and oil."
+        },
+        {
+          "step": 2,
+          "text": "Press down and chill at least 30 minutes or overnight."
+        },
+        {
+          "step": 3,
+          "text": "Blend until smooth. Add more oil if needed."
+        },
+        {
+          "step": 4,
+          "text": "Adjust seasoning. Serve ice cold with toasted bread."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "soup",
+        "spanish",
+        "cold",
+        "summer",
+        "vegetarian",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-lamb-koftas-with-mint-yogurt",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Lamb Koftas with Mint Yogurt",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Spiced lamb meatballs with cooling yogurt dressing",
+      "servings_yield": "4 servings",
+      "prep_time": "25 min",
+      "cook_time": "15 min",
+      "total_time": "40 min",
+      "ingredients": [
+        {
+          "item": "minced lamb",
+          "quantity": "500",
+          "unit": "g"
+        },
+        {
+          "item": "onion, diced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "cumin seeds, toasted",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "chilli flakes",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "parsley, chopped",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "mint, chopped",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "natural yogurt",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Saute onion and garlic until soft. Add cumin and chilli. Cool."
+        },
+        {
+          "step": 2,
+          "text": "Mix lamb with onion mixture and herbs. Form into patties. Chill 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Make dressing by bruising mint with yogurt, cumin, and lemon."
+        },
+        {
+          "step": 4,
+          "text": "Griddle koftas 5-6 minutes, turning halfway."
+        },
+        {
+          "step": 5,
+          "text": "Serve warm with yogurt dressing on the side."
+        }
+      ],
+      "temperature": "Medium-high heat",
+      "tags": [
+        "lamb",
+        "middle-eastern",
+        "meatballs",
+        "yogurt",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-crispy-roast-duck-with-chinese-pancakes",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Crispy Roast Duck with Chinese Pancakes",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Aromatic roast duck served with pancakes and dipping sauce",
+      "servings_yield": "4-6 servings",
+      "prep_time": "45 min",
+      "cook_time": "4 hr",
+      "total_time": "4 hr 45 min",
+      "ingredients": [
+        {
+          "item": "whole duck",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "Chinese five-spice",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "star anise",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "ginger",
+          "quantity": "4",
+          "unit": "cm"
+        },
+        {
+          "item": "spring onions",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "Chinese pancakes",
+          "quantity": "20",
+          "unit": ""
+        },
+        {
+          "item": "black bean sauce",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "rice vinegar",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rub duck with five-spice. Fill cavity with star anise, garlic, ginger, and spring onions."
+        },
+        {
+          "step": 2,
+          "text": "Roast at 320\u00b0F for 1 hour, then reduce to 275\u00b0F for 2.5-3 hours until tender and crispy."
+        },
+        {
+          "step": 3,
+          "text": "Make sauce: fry garlic, add black bean sauce, vinegar, soy sauce, and honey. Simmer 3-4 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Rest duck 15 minutes. Heat pancakes according to package."
+        },
+        {
+          "step": 5,
+          "text": "Pull duck apart with forks. Serve with pancakes and dipping sauce."
+        }
+      ],
+      "temperature": "320\u00b0F then 275\u00b0F (160\u00b0C then 135\u00b0C)",
+      "tags": [
+        "duck",
+        "chinese",
+        "asian",
+        "pancakes",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
       "image_refs": []
     }
   ]
