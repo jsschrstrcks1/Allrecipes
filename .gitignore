@@ -1,9 +1,6 @@
 __pycache__/
 
-# Source files (already processed)
-all/
-
-# Processed images (only commit ones referenced by handwritten recipes)
+# Processed images (regeneratable from source)
 data/processed/
 !data/processed/img_5626.jpeg
 !data/processed/img_5650.jpeg
