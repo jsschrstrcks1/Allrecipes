@@ -68,6 +68,31 @@
         "auto": true,
         "priority": "critical"
       }
+    },
+    "milk-substitution": {
+      "description": "Substitute milk types (cow, goat, sheep) in cheese-making recipes",
+      "triggers": {
+        "file_patterns": ["data/milk-substitution.json"],
+        "keywords": ["sheep milk", "goat milk", "cow milk", "substitute", "conversion", "cheese", "rennet", "curd"]
+      },
+      "guardrails": {
+        "must": [
+          "Use data from data/milk-substitution.json",
+          "Document all substitution assumptions",
+          "Note flavor/texture differences",
+          "Warn about ultra-pasteurized milk unsuitability"
+        ],
+        "must_not": [
+          "Invent conversion ratios without research basis",
+          "Ignore pH and acidity differences",
+          "Promise identical results when substituting",
+          "Recommend ultra-pasteurized milk for cheese"
+        ]
+      },
+      "activation": {
+        "auto": true,
+        "priority": "medium"
+      }
     }
   },
   "global": {
