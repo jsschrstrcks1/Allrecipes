@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_count": 3549,
-    "last_updated": "2026-01-16",
-    "total_recipes": 3550
+    "total_count": 3564,
+    "last_updated": "2026-01-17",
+    "total_recipes": 3564
   },
   "recipes": [
     {
@@ -384576,6 +384576,1105 @@
         "missing_inputs": [],
         "assumptions": []
       }
+    },
+    {
+      "id": "ricotta-cheese",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Ricotta Cheese",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A simple heat and acid precipitated cheese that can be made from whole or skim milk. Light, creamy, and versatile.",
+      "servings_yield": "About 1.5-2 lbs from 1 gallon milk",
+      "prep_time": "15 min",
+      "cook_time": "45 min",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "citric acid OR white vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 190-195\u00b0F (88-91\u00b0C). Stir gently and heat slowly. Optional: Add 1 tsp salt to milk before heating."
+        },
+        {
+          "step": 2,
+          "text": "When milk reaches temperature, add citric acid or vinegar and stir gently. The curds will begin to separate from the whey."
+        },
+        {
+          "step": 3,
+          "text": "As curds rise, use a perforated ladle to gently move the curd from the sides of the pot to the center."
+        },
+        {
+          "step": 4,
+          "text": "Let sit for 10-15 minutes, then ladle curds into a colander lined with butter muslin or cheesecloth."
+        },
+        {
+          "step": 5,
+          "text": "Drain for 20-30 minutes for a moist ricotta, longer for a drier texture. Refrigerate and use within 1 week."
+        }
+      ],
+      "temperature": "190-195\u00b0F (88-91\u00b0C)",
+      "tags": [
+        "cheese",
+        "homemade",
+        "Italian",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "paneer-cheese",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Paneer",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A fresh Indian cheese made by heating milk and adding acid. Firm enough to cube and fry without melting.",
+      "servings_yield": "About 12-14 oz from 1 gallon milk",
+      "prep_time": "10 min",
+      "cook_time": "30 min",
+      "total_time": "1 hour plus pressing",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "lemon juice OR white vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat 1 gallon of fresh milk to 185-194\u00b0F (85-90\u00b0C). Stir frequently to prevent scorching."
+        },
+        {
+          "step": 2,
+          "text": "Hold at temperature for a few minutes while the proteins change."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat and add lemon juice or vinegar. Stir gently. The curds will separate from the whey."
+        },
+        {
+          "step": 4,
+          "text": "Let rest 10 minutes, then pour through a colander lined with butter muslin."
+        },
+        {
+          "step": 5,
+          "text": "Rinse curds briefly with cool water to remove acid taste. Add salt if desired."
+        },
+        {
+          "step": 6,
+          "text": "Gather the cloth and press the paneer under a weight (about 5 lbs) for 1-2 hours."
+        },
+        {
+          "step": 7,
+          "text": "Cut into cubes and use immediately or refrigerate for up to 1 week."
+        }
+      ],
+      "temperature": "185-194\u00b0F (85-90\u00b0C)",
+      "tags": [
+        "cheese",
+        "Indian",
+        "homemade",
+        "vegetarian",
+        "paneer"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "queso-blanco",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Queso Blanco",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A simple white cheese that softens but does not melt when heated. Perfect for frying or grilling.",
+      "servings_yield": "About 1 lb from 1/2 gallon milk",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "total_time": "45 min",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1/2",
+          "unit": "gallon"
+        },
+        {
+          "item": "sea salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "distilled white vinegar OR lemon juice",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 180-185\u00b0F (82-85\u00b0C), stirring frequently."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat and stir in vinegar or lemon juice. Curds will form immediately."
+        },
+        {
+          "step": 3,
+          "text": "Let sit for 10-15 minutes until curds fully separate from whey."
+        },
+        {
+          "step": 4,
+          "text": "Pour through a colander lined with cheesecloth. Add salt to the curds."
+        },
+        {
+          "step": 5,
+          "text": "Gather cloth and hang to drain for 1-2 hours, or press under weight for a firmer cheese."
+        },
+        {
+          "step": 6,
+          "text": "Refrigerate. Slice and fry in a little oil until golden on each side."
+        }
+      ],
+      "temperature": "180-185\u00b0F (82-85\u00b0C)",
+      "tags": [
+        "cheese",
+        "Mexican",
+        "Latin",
+        "homemade",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "queso-fresco",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Queso Fresco",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A fresh Mexican cheese made with rennet. Crumbly texture, mild flavor. Melts when heated unlike Queso Blanco.",
+      "servings_yield": "About 1-1.5 lbs from 2 gallons milk",
+      "prep_time": "15 min",
+      "cook_time": "2 hours",
+      "total_time": "8 hours including pressing",
+      "ingredients": [
+        {
+          "item": "pasteurized whole milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter culture",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "diluted in 1/4 cup water"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2-3",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F (32\u00b0C). Add starter culture and stir for 3 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add diluted rennet and stir gently for 30 seconds. Let set for 30-45 minutes until you get a clean break."
+        },
+        {
+          "step": 3,
+          "text": "Cut the curd into 1/4 inch pieces."
+        },
+        {
+          "step": 4,
+          "text": "Raise temperature to 95\u00b0F (35\u00b0C) over 20 minutes, stirring gently every few minutes."
+        },
+        {
+          "step": 5,
+          "text": "Let curds settle for 5 minutes, then drain whey."
+        },
+        {
+          "step": 6,
+          "text": "Mix in cheese salt thoroughly."
+        },
+        {
+          "step": 7,
+          "text": "Transfer curds to cheese mold and press at 35 lbs pressure for 6 hours."
+        },
+        {
+          "step": 8,
+          "text": "Remove from mold, refrigerate, and enjoy within 2 weeks."
+        }
+      ],
+      "temperature": "90-95\u00b0F (32-35\u00b0C)",
+      "tags": [
+        "cheese",
+        "Mexican",
+        "Latin",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "fromage-blanc",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Fromage Blanc",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A fresh French cheese with a mild, tangy flavor. Excellent as a spread when mixed with herbs and spices.",
+      "servings_yield": "About 10 oz per quart of milk",
+      "prep_time": "10 min",
+      "cook_time": "18 hours culturing",
+      "total_time": "24 hours",
+      "ingredients": [
+        {
+          "item": "pasteurized whole milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "Fromage Blanc culture packet",
+          "quantity": "1",
+          "unit": "packet"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 74-86\u00b0F (23-30\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle Fromage Blanc culture over the surface. Let rehydrate 2 minutes, then stir in gently."
+        },
+        {
+          "step": 3,
+          "text": "Cover and let sit at room temperature for exactly 18 hours."
+        },
+        {
+          "step": 4,
+          "text": "The curd will have formed a thick mass. Gently ladle into a colander lined with butter muslin."
+        },
+        {
+          "step": 5,
+          "text": "Allow to drain for 4-6 hours until desired consistency is reached."
+        },
+        {
+          "step": 6,
+          "text": "Season with salt, herbs, or garlic as desired. Refrigerate for up to 2 weeks."
+        }
+      ],
+      "temperature": "74-86\u00b0F (23-30\u00b0C)",
+      "tags": [
+        "cheese",
+        "French",
+        "homemade",
+        "spread",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "mascarpone",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Mascarpone",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A rich, creamy Italian cheese essential for tiramisu and other desserts. Made from heavy cream and tartaric acid.",
+      "servings_yield": "About 1 lb from 1 quart cream",
+      "prep_time": "10 min",
+      "cook_time": "30 min",
+      "total_time": "12 hours including draining",
+      "ingredients": [
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "tartaric acid",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "dissolved in 1 tbsp water"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat cream in a double boiler to 185-190\u00b0F (85-88\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Stir in dissolved tartaric acid. The cream will thicken noticeably."
+        },
+        {
+          "step": 3,
+          "text": "Continue stirring for 5 minutes while maintaining temperature."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat and let cool to room temperature."
+        },
+        {
+          "step": 5,
+          "text": "Transfer to a colander lined with butter muslin or several layers of cheesecloth."
+        },
+        {
+          "step": 6,
+          "text": "Refrigerate and drain for 12 hours or until desired thickness."
+        },
+        {
+          "step": 7,
+          "text": "Transfer to container and use within 1 week. Perfect for tiramisu!"
+        }
+      ],
+      "temperature": "185-190\u00b0F (85-88\u00b0C)",
+      "tags": [
+        "cheese",
+        "Italian",
+        "dessert",
+        "homemade",
+        "vegetarian",
+        "tiramisu"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "chevre-goat-cheese",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Ch\u00e8vre (Fresh Goat Cheese)",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A tangy, creamy fresh goat cheese. Easy to make at home with just goat milk and culture.",
+      "servings_yield": "About 1 lb from 1 gallon goat milk",
+      "prep_time": "10 min",
+      "cook_time": "18-24 hours culturing",
+      "total_time": "1-2 days",
+      "ingredients": [
+        {
+          "item": "fresh goat milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "ch\u00e8vre culture",
+          "quantity": "1",
+          "unit": "packet"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "2",
+          "unit": "drops",
+          "prep_note": "optional, diluted in 1 tbsp water"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring goat milk to room temperature (68-72\u00b0F / 20-22\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle culture over milk surface. Let rehydrate 2 minutes, then stir in."
+        },
+        {
+          "step": 3,
+          "text": "Add diluted rennet if using and stir gently for 30 seconds."
+        },
+        {
+          "step": 4,
+          "text": "Cover and set aside at room temperature for 18-24 hours."
+        },
+        {
+          "step": 5,
+          "text": "The curd will show a thin layer of whey on top and may crack slightly when ready."
+        },
+        {
+          "step": 6,
+          "text": "Gently ladle curds into cheese molds or a colander lined with butter muslin."
+        },
+        {
+          "step": 7,
+          "text": "Drain for 6-12 hours. Less time for moister, sweeter cheese; more time for drier, tangier cheese."
+        },
+        {
+          "step": 8,
+          "text": "Add salt to taste. Roll in herbs, ash, or spices if desired. Refrigerate up to 2 weeks."
+        }
+      ],
+      "temperature": "68-72\u00b0F (20-22\u00b0C)",
+      "tags": [
+        "cheese",
+        "goat",
+        "French",
+        "homemade",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "feta-cheese",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Feta Cheese",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A tangy, salty brine-cured cheese traditionally made from sheep or goat milk. Can also be made with cow milk.",
+      "servings_yield": "About 1.5-2 lbs from 2 gallons milk",
+      "prep_time": "30 min",
+      "cook_time": "3 hours",
+      "total_time": "3-5 days including brining",
+      "ingredients": [
+        {
+          "item": "whole milk (sheep, goat, or cow)",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter culture",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "lipase powder",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional, for tangier flavor"
+        },
+        {
+          "item": "calcium chloride",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "if using pasteurized milk"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "diluted in 1/4 cup water"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "plus more for brine"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F (30\u00b0C). Add calcium chloride if using pasteurized milk."
+        },
+        {
+          "step": 2,
+          "text": "Add starter culture and lipase. Stir gently, then let ripen for 1 hour."
+        },
+        {
+          "step": 3,
+          "text": "Add diluted rennet and stir for 30 seconds. Let set for 45-50 minutes until clean break."
+        },
+        {
+          "step": 4,
+          "text": "Cut curd into 1/2 inch cubes. Let rest 5 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Stir curds gently for 20-30 minutes while maintaining temperature."
+        },
+        {
+          "step": 6,
+          "text": "Drain whey and transfer curds to cheese mold. Press lightly for 4-6 hours, flipping every hour."
+        },
+        {
+          "step": 7,
+          "text": "Remove from mold and cut into blocks. Salt all surfaces and let drain for 2-3 days, turning daily."
+        },
+        {
+          "step": 8,
+          "text": "Prepare brine (1/2 lb salt per gallon water). Submerge feta and age in refrigerator for 30+ days."
+        }
+      ],
+      "temperature": "86\u00b0F (30\u00b0C)",
+      "tags": [
+        "cheese",
+        "Greek",
+        "homemade",
+        "brined",
+        "aged"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "halloumi",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Halloumi",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A Cypriot cheese with a high melting point, perfect for grilling or frying. Squeaky texture when fresh.",
+      "servings_yield": "About 1.5 lbs from 2 gallons milk",
+      "prep_time": "20 min",
+      "cook_time": "2 hours",
+      "total_time": "3 hours",
+      "ingredients": [
+        {
+          "item": "whole milk (sheep, goat, or cow)",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "diluted in 1/4 cup water"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried mint",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "optional, traditional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F (32\u00b0C). Add diluted rennet and stir for 30 seconds."
+        },
+        {
+          "step": 2,
+          "text": "Let set for 45-60 minutes until a firm curd forms with clean break."
+        },
+        {
+          "step": 3,
+          "text": "Cut curd into 1/2 inch cubes. Let rest 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Slowly raise temperature to 104\u00b0F (40\u00b0C) over 30 minutes, stirring gently."
+        },
+        {
+          "step": 5,
+          "text": "Drain whey (save it!) and transfer curds to mold. Press at 20 lbs for 1 hour."
+        },
+        {
+          "step": 6,
+          "text": "Cut pressed cheese into blocks. Heat reserved whey to 190-195\u00b0F (88-91\u00b0C)."
+        },
+        {
+          "step": 7,
+          "text": "Place cheese blocks in hot whey for 30-40 minutes until they float."
+        },
+        {
+          "step": 8,
+          "text": "Remove, drain, and sprinkle with salt and mint while warm. Fold if desired."
+        },
+        {
+          "step": 9,
+          "text": "Cool and refrigerate. Store in light brine for longer keeping."
+        }
+      ],
+      "temperature": "90-195\u00b0F (various stages)",
+      "tags": [
+        "cheese",
+        "Cypriot",
+        "grilling",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "30-minute-mozzarella",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "30-Minute Mozzarella",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A quick version of fresh mozzarella using citric acid for fast curd formation. Stretchy and delicious.",
+      "servings_yield": "About 1 lb from 1 gallon milk",
+      "prep_time": "5 min",
+      "cook_time": "25 min",
+      "total_time": "30 min",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": "not ultra-pasteurized"
+        },
+        {
+          "item": "citric acid",
+          "quantity": "1.5",
+          "unit": "tsp",
+          "prep_note": "dissolved in 1 cup cool water"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "diluted in 1/4 cup water"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pour citric acid solution into a large pot. Add cold milk and stir well."
+        },
+        {
+          "step": 2,
+          "text": "Heat milk slowly to 90\u00b0F (32\u00b0C), stirring gently."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Add diluted rennet and stir for 30 seconds. Cover and let sit 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Check for clean break. Cut curd into 1-inch cubes."
+        },
+        {
+          "step": 5,
+          "text": "Return to heat and warm curds to 105\u00b0F (40\u00b0C) while stirring gently."
+        },
+        {
+          "step": 6,
+          "text": "Remove curds with slotted spoon and drain whey. Microwave for 1 minute."
+        },
+        {
+          "step": 7,
+          "text": "Drain off whey, add salt, and knead. Microwave 30 seconds more."
+        },
+        {
+          "step": 8,
+          "text": "Knead and stretch until smooth and shiny. Shape into balls."
+        },
+        {
+          "step": 9,
+          "text": "Place in ice water to set shape. Use fresh or refrigerate up to 1 week."
+        }
+      ],
+      "temperature": "90-105\u00b0F (32-40\u00b0C)",
+      "tags": [
+        "cheese",
+        "Italian",
+        "mozzarella",
+        "quick",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "farmers-cheese",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Farmer's Cheese",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A simple fresh cheese similar to cottage cheese but pressed. Mild flavor, versatile for sweet or savory dishes.",
+      "servings_yield": "About 1.5 lbs from 1 gallon milk",
+      "prep_time": "10 min",
+      "cook_time": "45 min",
+      "total_time": "2 hours",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "diluted in 1/4 cup water"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 86\u00b0F (30\u00b0C). Stir in buttermilk."
+        },
+        {
+          "step": 2,
+          "text": "Add diluted rennet and stir for 30 seconds."
+        },
+        {
+          "step": 3,
+          "text": "Cover and let set at 86\u00b0F for 1 hour until firm curd forms."
+        },
+        {
+          "step": 4,
+          "text": "Cut curd into 1/2 inch cubes."
+        },
+        {
+          "step": 5,
+          "text": "Slowly heat to 110\u00b0F (43\u00b0C) over 30 minutes, stirring gently."
+        },
+        {
+          "step": 6,
+          "text": "Drain whey through cheesecloth-lined colander."
+        },
+        {
+          "step": 7,
+          "text": "Add salt and mix well. Gather cloth and press under weight for 1-2 hours."
+        },
+        {
+          "step": 8,
+          "text": "Refrigerate and use within 2 weeks."
+        }
+      ],
+      "temperature": "86-110\u00b0F (30-43\u00b0C)",
+      "tags": [
+        "cheese",
+        "homemade",
+        "fresh",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "basket-cheese",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Basket Cheese",
+      "category": "sides",
+      "attribution": "Rosanne Coreano, NY (via New England Cheesemaking Supply Co.)",
+      "source_note": "cheesemaking.com - traditional recipe handed down by word of mouth",
+      "description": "A mild Italian-American cheese traditionally shaped in a basket. Delicious on bruschetta with olive oil and tomato.",
+      "servings_yield": "About 1 lb from 1 gallon milk",
+      "prep_time": "10 min",
+      "cook_time": "1 hour",
+      "total_time": "4 hours including pressing",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "diluted in 1/4 cup water"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to lukewarm (86-90\u00b0F / 30-32\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Add diluted rennet and stir gently. Turn off heat."
+        },
+        {
+          "step": 3,
+          "text": "Let set for about 40 minutes until firm curd forms."
+        },
+        {
+          "step": 4,
+          "text": "Turn heat back on low for about 2 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Using a slotted spoon, pull the curds to the side of the pot. Keep moving curds for about 10 minutes to break them up and help them drain."
+        },
+        {
+          "step": 6,
+          "text": "Remove curds with slotted spoon and place into a basket or cheese mold."
+        },
+        {
+          "step": 7,
+          "text": "Return basket to the pot, submerging in whey. Press curds into basket with hands."
+        },
+        {
+          "step": 8,
+          "text": "Remove basket from whey. Place a smaller mold inside with 6-8 oz weight on top. Press for 2 hours."
+        },
+        {
+          "step": 9,
+          "text": "Turn cheese over, salt to taste, and continue pressing for 1.5 hours more."
+        },
+        {
+          "step": 10,
+          "text": "Serve drizzled with olive oil, garlic salt, and fresh tomato slices."
+        }
+      ],
+      "temperature": "86-90\u00b0F (30-32\u00b0C)",
+      "tags": [
+        "cheese",
+        "Italian",
+        "basket",
+        "homemade",
+        "traditional"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "homemade-yogurt",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Homemade Yogurt",
+      "category": "breakfast",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "Thick, creamy homemade yogurt packed with probiotics. Control the ingredients and customize the flavor.",
+      "servings_yield": "1 quart",
+      "prep_time": "10 min",
+      "cook_time": "6-12 hours incubation",
+      "total_time": "8-14 hours",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "yogurt starter culture",
+          "quantity": "1",
+          "unit": "packet",
+          "prep_note": "or 2 tbsp plain yogurt with live cultures"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 180\u00b0F (82\u00b0C) in a pot, stirring occasionally to prevent scorching. This helps the yogurt thicken."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat and cool to 110\u00b0F (43\u00b0C)."
+        },
+        {
+          "step": 3,
+          "text": "Add starter culture. Let sit 1-2 minutes to rehydrate, then stir gently until mixed."
+        },
+        {
+          "step": 4,
+          "text": "Pour into jars or containers."
+        },
+        {
+          "step": 5,
+          "text": "Keep warm at 100-110\u00b0F (38-43\u00b0C) for 6-12 hours. Use a yogurt maker, warm oven with light on, or insulated cooler."
+        },
+        {
+          "step": 6,
+          "text": "Shorter time = milder, softer yogurt. Longer time = tangier, firmer yogurt."
+        },
+        {
+          "step": 7,
+          "text": "Refrigerate at least 2 hours before serving. Yogurt will thicken more as it cools."
+        }
+      ],
+      "temperature": "100-110\u00b0F (38-43\u00b0C) incubation",
+      "notes": [
+        "For Greek-style yogurt, strain through butter muslin for a few hours after setting"
+      ],
+      "tags": [
+        "yogurt",
+        "breakfast",
+        "probiotic",
+        "homemade",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "homemade-butter",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Homemade Butter",
+      "category": "sides",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "Fresh, creamy butter made by churning heavy cream. Simple and satisfying.",
+      "servings_yield": "About 1/2 lb from 1 pint cream",
+      "prep_time": "5 min",
+      "cook_time": "15-20 min",
+      "total_time": "25 min",
+      "ingredients": [
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": "at room temperature"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pour room temperature cream into a jar with tight lid, food processor, or stand mixer."
+        },
+        {
+          "step": 2,
+          "text": "Shake vigorously or beat on medium-high speed."
+        },
+        {
+          "step": 3,
+          "text": "After 10-15 minutes, cream will thicken to whipped cream, then suddenly separate into butter and buttermilk."
+        },
+        {
+          "step": 4,
+          "text": "Pour off buttermilk and save for baking."
+        },
+        {
+          "step": 5,
+          "text": "Rinse butter under cold water, kneading to remove all buttermilk (this helps it keep longer)."
+        },
+        {
+          "step": 6,
+          "text": "Add salt if desired and knead to incorporate."
+        },
+        {
+          "step": 7,
+          "text": "Shape into a log or press into molds. Refrigerate up to 2 weeks or freeze for longer storage."
+        }
+      ],
+      "notes": [
+        "Use cultured cream for European-style butter with more complex flavor"
+      ],
+      "tags": [
+        "butter",
+        "dairy",
+        "homemade",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }
