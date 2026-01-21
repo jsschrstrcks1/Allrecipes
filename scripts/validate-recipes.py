@@ -40,6 +40,10 @@ SANITY_LIMITS = {
 TEMP_MIN = 200
 TEMP_MAX = 550
 
+# Cheese-making temperature range (lower temps for milk heating/culturing)
+CHEESE_TEMP_MIN = 70
+CHEESE_TEMP_MAX = 220
+
 
 class RecipeValidator:
     def __init__(self, strict=False):
@@ -86,9 +90,13 @@ class RecipeValidator:
         if 'instructions' in recipe:
             self.validate_instructions(recipe_id, recipe['instructions'])
 
+        # Check if this is a cheesemaking recipe (for temperature validation)
+        tags = recipe.get('tags', [])
+        is_cheesemaking = any(t in tags for t in ['cheese', 'cheesemaking', 'cheese-making', 'homemade cheese'])
+
         # Validate temperature
         if 'temperature' in recipe and recipe['temperature']:
-            self.validate_temperature(recipe_id, recipe['temperature'])
+            self.validate_temperature(recipe_id, recipe['temperature'], is_cheesemaking)
 
         # Validate image_refs exist
         if 'image_refs' in recipe:
@@ -174,14 +182,19 @@ class RecipeValidator:
             if 'text' not in inst:
                 self.error(recipe_id, f"Instruction {i} missing 'text' field")
 
-    def validate_temperature(self, recipe_id, temp):
+    def validate_temperature(self, recipe_id, temp, is_cheesemaking=False):
         """Validate temperature is reasonable."""
         # Extract Fahrenheit number
         match = re.search(r'(\d+)\s*°?F', temp)
         if match:
             temp_f = int(match.group(1))
-            if temp_f < TEMP_MIN or temp_f > TEMP_MAX:
-                self.warn(recipe_id, f"Temperature {temp_f}°F outside typical range ({TEMP_MIN}-{TEMP_MAX}°F)")
+            # Use different ranges for cheesemaking vs baking
+            if is_cheesemaking:
+                if temp_f < CHEESE_TEMP_MIN or temp_f > CHEESE_TEMP_MAX:
+                    self.warn(recipe_id, f"Temperature {temp_f}°F outside cheese-making range ({CHEESE_TEMP_MIN}-{CHEESE_TEMP_MAX}°F)")
+            else:
+                if temp_f < TEMP_MIN or temp_f > TEMP_MAX:
+                    self.warn(recipe_id, f"Temperature {temp_f}°F outside typical range ({TEMP_MIN}-{TEMP_MAX}°F)")
 
     def validate_image_refs(self, recipe_id, image_refs):
         """Check that referenced images exist."""

@@ -8,26 +8,30 @@
 
 ## Current Database Status
 
-**Total Cheesemaking Recipes:** 203 (as of 2026-01-21)
+**Total Cheesemaking Recipes:** 1,519 (as of 2026-01-21)
+**Target for Full Coverage:** 9,000 - 40,000 recipes (1,800-2,000 types × 5-20 each)
+**Progress:** ~15-17% toward minimum goal
 
 | Region | Recipes in DB | Target per Variety |
 |--------|---------------|-------------------|
-| French | 28 | 5-20 each |
-| Italian | 15 | 5-20 each |
-| British | 10 | 5-20 each |
-| USA | 9 | 5-20 each |
-| Spanish | 8 | 5-20 each |
-| German | 6 | 5-20 each |
-| Middle Eastern | 5 | 5-20 each |
-| Greek | 5 | 5-20 each |
-| Swiss | 4 | 5-20 each |
-| Scandinavian | 4 | 5-20 each |
-| Irish | 4 | 5-20 each |
-| Dutch | 4 | 5-20 each |
-| Mexican | 3 | 5-20 each |
-| Other Regions | ~20 | 5-20 each |
+| French | 227 | 5-20 each |
+| Italian | 183 | 5-20 each |
+| USA/American | 138 | 5-20 each |
+| Spanish | 75 | 5-20 each |
+| British | 74 | 5-20 each |
+| Dutch | 64 | 5-20 each |
+| Swiss | 57 | 5-20 each |
+| Greek | 34 | 5-20 each |
+| Danish | 33 | 5-20 each |
+| German | 28 | 5-20 each |
+| Mexican | 28 | 5-20 each |
+| Norwegian | 14 | 5-20 each |
+| Scandinavian | 13 | 5-20 each |
+| Irish | 11 | 5-20 each |
+| Swedish | 8 | 5-20 each |
+| Other Regions | ~500+ | 5-20 each |
 
-**Status:** Most varieties have only 1 recipe. Need 4+ more per variety to reach minimum goal.
+**Status:** Good regional variety added, but most cheese types still need more recipes to reach 5-20 per variety goal. Estimated 7,500-8,500 more recipes needed for full coverage.
 
 ---
 
@@ -480,9 +484,11 @@ This represents major named varieties. The actual global count exceeds 1,800 dis
 
 ## Progress Tracking
 
-| Date | Varieties Complete (5+) | Total Recipes Added |
-|------|------------------------|---------------------|
-| 2026-01-21 | TBD | TBD |
+| Date | Varieties Complete (5+) | Total Cheesemaking Recipes | % of Min Goal |
+|------|------------------------|---------------------------|---------------|
+| 2026-01-21 | ~50-75 (estimated) | 1,519 | ~17% |
+
+**Note:** Minimum goal is ~9,000 recipes (1,800 cheese types × 5 recipes each). Maximum goal is ~40,000 recipes (2,000 types × 20 recipes each).
 
 ---
 
