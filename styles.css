@@ -3540,6 +3540,87 @@ body {
   margin-top: var(--spacing-xs);
 }
 
+/* General Tips Section */
+.general-tips-section {
+  background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid #bbf7d0;
+  margin-top: var(--spacing-lg);
+}
+
+.general-tips-section h3 {
+  color: #166534;
+  border-bottom: none;
+}
+
+.general-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.general-tip-card {
+  background: white;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border-left: 3px solid #22c55e;
+  box-shadow: var(--shadow-sm);
+}
+
+.general-tip-card .tip-text {
+  font-size: 0.875rem;
+  color: var(--color-text);
+  line-height: 1.5;
+  margin: 0 0 var(--spacing-xs) 0;
+}
+
+.general-tip-card .tip-source {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* Did You Know Section */
+.did-you-know {
+  background: linear-gradient(135deg, #fefce8, #fef9c3);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid #fde047;
+  margin-top: var(--spacing-lg);
+}
+
+.did-you-know h3 {
+  color: #a16207;
+  border-bottom: none;
+}
+
+.facts-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.fact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  background: white;
+  border-radius: var(--radius-md);
+}
+
+.fact-item .fact-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.fact-item .fact-text {
+  font-size: 0.875rem;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
 /* Wizard Navigation */
 .wizard-navigation {
   display: flex;

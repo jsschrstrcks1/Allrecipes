@@ -743,6 +743,8 @@ const CheeseBuilder = (function() {
             tips: generateTips(style, milk, adulterants),
             adjacentCheeses: getAdjacentCheeses(recipe.data, style),
             recipeTips: getTipsFromRecipeNotes(matches),
+            generalTips: getGeneralEducationalTips(style, milk.type),
+            didYouKnow: getDidYouKnowFacts().slice(0, 3), // Random 3 facts
             yield: estimateYield(milk, milkInfo),
             matchedRecipeCount: getCheeseRecipes().length,
             sourceRecipe: recipe.data.title || recipe.data.name || recipe.data.id,
@@ -1141,6 +1143,100 @@ const CheeseBuilder = (function() {
         });
 
         return tips.slice(0, 6); // Limit to 6 recipe tips
+    }
+
+    /**
+     * Get general educational tips from all cheese recipes in database
+     * These are technique tips that apply broadly
+     */
+    function getGeneralEducationalTips(style, milkType) {
+        const allTips = [];
+        const cheeseRecipes = getCheeseRecipes();
+
+        // Keywords that indicate educational/technique content
+        const educationalKeywords = [
+            'technique', 'method', 'traditional', 'tip', 'important', 'crucial',
+            'must', 'should', 'always', 'never', 'careful', 'ensure', 'prevent',
+            'avoid', 'helps', 'creates', 'develops', 'produces', 'results in'
+        ];
+
+        // Style-related keywords for filtering
+        const styleKeywords = {
+            'fresh': ['drain', 'press', 'whey', 'curd', 'acid', 'temperature'],
+            'soft': ['mold', 'rind', 'ripen', 'bloom', 'culture', 'age'],
+            'semi-soft': ['stretch', 'brine', 'salt', 'press', 'curd'],
+            'semi-hard': ['press', 'age', 'flip', 'wax', 'cheddar', 'curd', 'salt'],
+            'hard': ['age', 'press', 'crystal', 'granular', 'long', 'months'],
+            'bloomy': ['penicillium', 'candidum', 'white', 'rind', 'ripen', 'mold'],
+            'washed': ['wash', 'brine', 'linens', 'orange', 'rind', 'pungent'],
+            'blue': ['pierce', 'roqueforti', 'blue', 'vein', 'mold', 'humidity']
+        };
+
+        const relevantKeywords = styleKeywords[style] || [];
+
+        // Collect educational notes from recipes
+        cheeseRecipes.forEach(recipe => {
+            const notes = recipe.notes || [];
+            notes.forEach(note => {
+                const lower = note.toLowerCase();
+
+                // Skip metadata
+                if (lower.includes('source:') || lower.includes('adapted from') ||
+                    lower.includes('calories') || lower.includes('protein') ||
+                    note.length < 30 || note.length > 200) {
+                    return;
+                }
+
+                // Check if it's educational
+                const isEducational = educationalKeywords.some(kw => lower.includes(kw));
+                const isRelevantToStyle = relevantKeywords.some(kw => lower.includes(kw));
+
+                if (isEducational || isRelevantToStyle) {
+                    allTips.push({
+                        text: note,
+                        source: recipe.title,
+                        relevance: (isEducational ? 1 : 0) + (isRelevantToStyle ? 2 : 0)
+                    });
+                }
+            });
+        });
+
+        // Sort by relevance and deduplicate similar tips
+        const sorted = allTips
+            .sort((a, b) => b.relevance - a.relevance)
+            .filter((tip, index, self) => {
+                // Remove very similar tips
+                const firstWords = tip.text.split(' ').slice(0, 4).join(' ').toLowerCase();
+                return index === self.findIndex(t =>
+                    t.text.split(' ').slice(0, 4).join(' ').toLowerCase() === firstWords
+                );
+            });
+
+        // Return a good mix
+        return sorted.slice(0, 8);
+    }
+
+    /**
+     * Get "Did You Know" facts about cheese-making
+     */
+    function getDidYouKnowFacts() {
+        return [
+            { text: 'Cheese has been made for over 7,000 years - it\'s one of humanity\'s oldest foods.', category: 'history' },
+            { text: 'It takes about 10 pounds of milk to make 1 pound of hard cheese.', category: 'yield' },
+            { text: 'The holes in Swiss cheese are caused by bacteria releasing carbon dioxide.', category: 'science' },
+            { text: 'Blue cheese mold (P. roqueforti) is related to the mold that makes penicillin.', category: 'science' },
+            { text: 'Cheddar isn\'t naturally orange - the color comes from annatto dye.', category: 'history' },
+            { text: 'Parmesan must be aged at least 12 months; some age for 36+ months.', category: 'aging' },
+            { text: 'Rennet was traditionally made from calf stomach - now vegetable rennet is common.', category: 'history' },
+            { text: 'The curd "squeaks" when fresh mozzarella is properly made.', category: 'technique' },
+            { text: 'Cheese caves maintain natural temperature (50-55°F) and humidity perfect for aging.', category: 'aging' },
+            { text: 'Washed rind cheeses get their orange color from B. linens bacteria, not dye.', category: 'science' },
+            { text: 'Sheep milk has nearly twice the fat of cow milk, making richer cheese.', category: 'milk' },
+            { text: 'Halloumi\'s high melting point comes from being cooked in whey.', category: 'technique' },
+            { text: 'The word "cheese" comes from Latin "caseus" meaning "to ferment."', category: 'history' },
+            { text: 'Brie was called "the king of cheeses" by French diplomat Talleyrand in 1815.', category: 'history' },
+            { text: 'Fresh cheese has the shortest shelf life; hard aged cheese can last years.', category: 'storage' }
+        ];
     }
 
     function estimateYield(milk, milkInfo) {
@@ -1678,6 +1774,35 @@ const CheeseBuilder = (function() {
                                 </li>
                             `).join('')}
                         </ul>
+                    </div>
+                ` : ''}
+
+                ${generated.generalTips && generated.generalTips.length > 0 ? `
+                    <div class="recipe-section general-tips-section">
+                        <h3>General Cheese-Making Tips</h3>
+                        <p class="section-intro">Wisdom from our collection of ${generated.matchedRecipeCount?.toLocaleString() || '1,800+'} cheese recipes:</p>
+                        <div class="general-tips-grid">
+                            ${generated.generalTips.map(tip => `
+                                <div class="general-tip-card">
+                                    <p class="tip-text">${tip.text}</p>
+                                    <span class="tip-source">— ${tip.source}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                ` : ''}
+
+                ${generated.didYouKnow && generated.didYouKnow.length > 0 ? `
+                    <div class="recipe-section did-you-know">
+                        <h3>Did You Know?</h3>
+                        <div class="facts-list">
+                            ${generated.didYouKnow.map(fact => `
+                                <div class="fact-item">
+                                    <span class="fact-icon">💡</span>
+                                    <span class="fact-text">${fact.text}</span>
+                                </div>
+                            `).join('')}
+                        </div>
                     </div>
                 ` : ''}
 
