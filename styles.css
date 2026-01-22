@@ -3421,6 +3421,125 @@ body {
   margin-top: var(--spacing-lg);
 }
 
+/* Recipe Stats */
+.recipe-stats {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: var(--spacing-xs);
+}
+
+/* Adjacent Cheeses Section */
+.adjacent-cheeses {
+  background: linear-gradient(135deg, var(--color-primary-lightest), var(--color-background));
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  margin-top: var(--spacing-lg);
+}
+
+.adjacent-cheeses h3 {
+  color: var(--color-primary-dark);
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.section-intro {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.adjacent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.adjacent-card {
+  background: white;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--color-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.adjacent-card h4 {
+  margin: 0 0 var(--spacing-xs) 0;
+  color: var(--color-primary-dark);
+  font-size: 1rem;
+}
+
+.adjacent-card .change-tip {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+/* Tip Categories */
+.tip-category {
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--color-background-alt);
+  border-radius: var(--radius-md);
+}
+
+.tip-category h4 {
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: 0.875rem;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tip-category ul {
+  margin: 0;
+  padding-left: var(--spacing-lg);
+}
+
+.tip-category li {
+  margin-bottom: var(--spacing-xs);
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+/* Recipe Notes from Database */
+.recipe-notes {
+  background: var(--color-background-alt);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--color-border);
+}
+
+.recipe-tip-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recipe-tip-list li {
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px dotted var(--color-border);
+}
+
+.recipe-tip-list li:last-child {
+  border-bottom: none;
+}
+
+.recipe-tip-list .tip-text {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.recipe-tip-list .tip-source {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-top: var(--spacing-xs);
+}
+
 /* Wizard Navigation */
 .wizard-navigation {
   display: flex;
