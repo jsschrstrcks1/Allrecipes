@@ -90115,7 +90115,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Appenzeller Swiss Cheese",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org",
       "description": "Traditional Swiss-style cheese with a washed rind, aged minimum 1 year. Includes detailed pH targets for consistent results.",
@@ -90970,7 +90970,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Cheddasiago (Cheddared Thermophilic Cheese)",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org",
       "description": "Experimental cheese combining Asiago's thermophilic cultures with cheddar's cheddaring process.",
@@ -91288,7 +91288,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Traditional Cultured Mozzarella",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org",
       "description": "Authentic mozzarella made with thermophilic cultures for superior flavor and melt. Takes longer but produces better results than quick methods.",
@@ -91414,7 +91414,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Traditional Feta Cheese",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org - Cheese Head",
       "description": "Classic Greek-style brined cheese. Longer aging produces more crumbly texture.",
@@ -91941,7 +91941,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Gouda Cheese",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org - Cheese Head",
       "description": "Classic Dutch washed-curd cheese with sweet, mild flavor. Can be aged from 4 weeks to over a year.",
@@ -92286,7 +92286,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Halloumi Cheese (Basic Method)",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org",
       "description": "Traditional Cypriot cheese that can be grilled or fried without melting. Simple recipe requiring no starter culture.",
@@ -93077,7 +93077,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Spiced Paneer (Indian Fresh Cheese)",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org",
       "description": "Traditional Indian cheese with jalapeño and cumin, perfect for curries or pan-frying.",
@@ -93168,16 +93168,7 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
-      "milk_substitutions": {
-        "enabled": true,
-        "original_milk": "cow",
-        "supported_types": [
-          "cow",
-          "goat",
-          "sheep"
-        ]
-      }
+      "image_refs": []
     },
     {
       "id": "cf-peach-blackberry-clafouti",
@@ -93406,7 +93397,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Queso Panela (Mexican Fresh Cheese)",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org",
       "description": "A mild, white Mexican cheese that softens when heated but doesn't melt. Perfect for grilling or frying.",
@@ -93521,7 +93512,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Quick Mozzarella for Neapolitan Pizza",
-      "category": "cheese",
+      "category": "sides",
       "attribution": "CheeseForum.org community",
       "source_note": "cheeseforum.org - decadentcookie",
       "description": "A quick mozzarella recipe using citric acid, designed for high-heat pizza baking.",
@@ -93889,7 +93880,7 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Tvorog (Russian Farmer's Cheese)",
-      "category": "cheese",
+      "category": "mains",
       "source_note": "CheeseForum.org - Fresh Cheeses (reconstructed from forum discussion)",
       "description": "A soft, fresh Russian-style cheese similar to quark. Mild, tangy, and versatile for sweet or savory dishes.",
       "servings_yield": "About 2 cups",
@@ -93967,16 +93958,7 @@
           "Recipe reconstructed from forum discussion of traditional method"
         ]
       },
-      "image_refs": [],
-      "milk_substitutions": {
-        "enabled": true,
-        "original_milk": "cow",
-        "supported_types": [
-          "cow",
-          "goat",
-          "sheep"
-        ]
-      }
+      "image_refs": []
     },
     {
       "id": "cf-tyropites-greek-cheese-pies",
