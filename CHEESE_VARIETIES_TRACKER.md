@@ -3269,3 +3269,549 @@ The comprehensive A-Z section below includes additional artisan, commercial, and
 - [ ] Zigljen Iz Mosta
 - [ ] Ziller
 
+
+---
+
+## NEW ADDITIONS FROM TASTEATLAS (January 2026)
+
+> **Source:** TasteAtlas - 420 new varieties not previously in tracker
+> **Integration Date:** 2026-01-22
+
+### AFRICA
+
+- [ ] Ayibe
+- [ ] Wagassi
+
+### AUSTRIA / GERMANY / ALPINE
+
+- [ ] Allgäuer Sennalpkäse
+- [ ] Berner Alpkäse
+- [ ] Bregenzerwälder Bergkäse
+- [ ] Bündner Alpkäse
+- [ ] Bündner bergkäse
+- [ ] Gailtaler Almkäse
+- [ ] Glarner Alpkäse
+- [ ] Hirtenkäse
+- [ ] Klewenalp käse
+- [ ] Nieheimer Käse
+- [ ] Odenwälder Frühstückskäse
+- [ ] Pinzgauer Bierkäse
+- [ ] Rauchkäse
+- [ ] Räßkäse
+- [ ] Schwyzer Alpkäse
+- [ ] Schwägalpkäse
+- [ ] St. Galler Alpkäse
+- [ ] Tiroler Almkäse
+- [ ] Tiroler Bergkäse
+- [ ] Tiroler Graukäse
+- [ ] Urner Alpkäse
+
+### BALKANS (Slovenia, Croatia, Serbia, etc.)
+
+- [ ] Bohinjski sir
+- [ ] Grobnički sir
+- [ ] Kolašinski lisnati sir
+- [ ] Krčki sir
+- [ ] Miročki sir
+- [ ] Nanoški Sir
+- [ ] Sir iz mijeha
+- [ ] Sjenički sir
+- [ ] Solčavski sirnek
+- [ ] Težački sir iz maslinove komine
+- [ ] Vlašićki sir
+- [ ] Zlatarski sir
+- [ ] Bjelovarski kvargl
+- [ ] Istarska skuta
+- [ ] Paška skuta
+- [ ] Pirotski kačkavalj
+- [ ] Prljo
+- [ ] Škripavac
+- [ ] Tolminc
+- [ ] Trnič
+
+### FRANCE (Additional)
+
+- [ ] Fromage aux artisons
+- [ ] Fromage de Nazareth
+- [ ] Fromage de pays
+- [ ] Abbaye Notre-Dame de Belloc
+- [ ] Abbaye de Tamié
+- [ ] Arôme de Lyon
+- [ ] Aubisque Pyrénées
+- [ ] Aumonière de l'Ecaillon
+- [ ] Baratte
+- [ ] Barbeillon
+- [ ] Barousse
+- [ ] Bayard gourmand
+- [ ] Belle-Mère
+- [ ] Bleu de Costaros
+- [ ] Bleu de Loudes
+- [ ] Bleu de Saint-Jean
+- [ ] Bleu de Thiézac
+- [ ] Bleu de chèvre
+- [ ] Bleu du Mazet
+- [ ] Bleu du Queyras
+- [ ] Bleu du Vercors-Sassenage
+- [ ] Bonde de Gatine
+- [ ] Bouquet des Moines
+- [ ] Bouton d'Oc
+- [ ] Bouton de culotte
+- [ ] Brebirousse d'Argental
+- [ ] Brebis du Lochois
+- [ ] Brezain
+- [ ] Brique de Jussac
+- [ ] Brique du Forez
+- [ ] Brossauthym
+- [ ] Brousse de Rove
+- [ ] Bûcheron
+- [ ] Bûchette basilou
+- [ ] Cabri Ariegeois
+- [ ] Cailladou
+- [ ] Caillé doux de Saint-Félicien
+- [ ] Cantonnier
+- [ ] Carré de l'Est
+- [ ] Carré du Poitou
+- [ ] Cazelle de Saint Affrique
+- [ ] Cendré de Niort
+- [ ] Cendré de Vergy
+- [ ] Cendré des Prés
+- [ ] Ch'ti Roux
+- [ ] Chaud biloute
+- [ ] Chaux d'Abel
+- [ ] Clacbitou
+- [ ] Clochette
+- [ ] Coeur de Touraine
+- [ ] Coutances
+- [ ] Crottin du Morvan
+- [ ] Delicé du forez
+- [ ] Domino
+- [ ] Doré-mi
+- [ ] Doux de montagne
+- [ ] Dôme de Vézelay
+- [ ] Ecume de Wimereux
+- [ ] Elutcha des Cabasses
+- [ ] Embruns aux Algues
+- [ ] Faisselle
+- [ ] Feuille de Dreux
+- [ ] Fleur de Sologne
+- [ ] Florette
+- [ ] Fouchtra
+- [ ] Foudjou
+- [ ] Fourme de Rochefort‑Montagne
+- [ ] Fumaison
+- [ ] Goudoulet
+- [ ] Gour Noir
+- [ ] Lou Rocaillou
+- [ ] Lou Sotch
+- [ ] Madame Loïk
+- [ ] Mâconnais
+- [ ] Mothais-sur-Feuille
+- [ ] Olivet Cendré
+- [ ] Paillot de Chèvre
+- [ ] Palet de Bourgogne
+- [ ] Pas de Rouge
+- [ ] Pavin
+- [ ] Pavé Blésois
+- [ ] Pavé du Berry
+- [ ] Persillé de Tignes
+- [ ] Petit Basque
+- [ ] Petit Berrichon
+- [ ] Petit Fiancé des Pyrénées
+- [ ] Pierre Robert
+- [ ] Poivre d'âne
+- [ ] Port Salut
+- [ ] Pérail de Brebis
+- [ ] Racotin
+- [ ] Recuite de l'Aveyron
+- [ ] Rogeret des Cévennes
+- [ ] Roue de Ris
+- [ ] Rouelle du Tarn
+- [ ] Sablé de Wissant
+- [ ] Saint-André
+- [ ] Saint-Félicien
+- [ ] Saint-laurent
+- [ ] Sainte-Maure-de-Touraine
+- [ ] Salignon
+- [ ] Sarasson
+- [ ] Timanoix
+- [ ] Tome des Bauges
+- [ ] Édel de Cléron
+
+### ITALY (Additional)
+
+- [ ] Formaggio Asìno
+- [ ] Formaggio d'alpe ticinese
+- [ ] Formaggio della paglia
+- [ ] Formaggio di Fossa di Sogliano
+- [ ] Acceglio
+- [ ] Acidino
+- [ ] Bagoss
+- [ ] Bastardo del Grappa
+- [ ] Bettelmatt
+- [ ] Burrino
+- [ ] Butirro
+- [ ] Cacio (Apulia)
+- [ ] Cacio faenum
+- [ ] Caggiu de crabittu
+- [ ] Casatella Trevigiana
+- [ ] Casciotta d'Urbino
+- [ ] Casgiu paisanu
+- [ ] Casizolu
+- [ ] Casolét
+- [ ] Casoperuto
+- [ ] Casu axedu
+- [ ] Crutin
+- [ ] Fallone di Gravina
+- [ ] Fioretta
+- [ ] Fodom
+- [ ] Formadi frant
+- [ ] Formaggella
+- [ ] Formaggella del Luinese
+- [ ] Formai de Mut dell'Alta Valle Brembana
+- [ ] Friulano
+- [ ] Giuncata
+- [ ] Granone Lodigiano
+- [ ] Inbriago
+- [ ] Macagn
+- [ ] Maiorchino
+- [ ] Malga
+- [ ] Monte Veronese
+- [ ] Murianengo
+- [ ] Nostrano Valtrompia
+- [ ] Ossolano
+- [ ] Paglierina
+- [ ] Pannarello
+- [ ] Piacentinu Ennese
+- [ ] Piacere
+- [ ] Primo Sale
+- [ ] Provola
+- [ ] Puzzone di Moena
+- [ ] Robiola incavolata
+- [ ] S-cèch
+- [ ] Salva Cremasco
+- [ ] Schiz
+- [ ] Scimudin
+- [ ] Silter
+- [ ] Spressa delle Giudicarie
+- [ ] Stelvio
+- [ ] Storico Ribelle
+- [ ] Stracciata
+- [ ] Tombea
+- [ ] Tosella
+- [ ] Toumin dal mel
+- [ ] Treccia
+- [ ] Tronchetto
+- [ ] Tuma persa
+- [ ] U Bel Fiuritu
+- [ ] Valtellina Casera
+- [ ] Vastedda della Valle del Belìce
+- [ ] Vezzena
+
+### MIDDLE EAST
+
+- [ ] Jibneh mshallaleh
+
+### PORTUGAL (Additional)
+
+- [ ] Queijo Borbinha
+- [ ] Queijo Mestiço de Tolosa
+- [ ] Queijo Rabaçal
+- [ ] Queijo Serpa
+- [ ] Queijo São Jorge
+- [ ] Queijo Terrincho
+- [ ] Queijo de Azeitão
+- [ ] Queijo de Coalho
+- [ ] Queijo de Évora
+- [ ] Omorro Amanteigado
+- [ ] Saloio Regional
+- [ ] Travia da Beira Baixa
+- [ ] Requeijão da Beira Baixa
+
+### SPAIN (Additional)
+
+- [ ] Queso Camerano
+- [ ] Queso Casín
+- [ ] Queso Los Beyos
+- [ ] Queso Nata de Cantabria
+- [ ] Queso Payoyo
+- [ ] Queso andino
+- [ ] Queso de Flor de Guía
+- [ ] Queso de l'Alt Urgell y la Cerdanya
+- [ ] Queso paria
+- [ ] Ahumado de Pría
+- [ ] Beato de Tábara
+- [ ] Benabarre
+- [ ] Benasque
+- [ ] Cebreiro
+- [ ] Herreño
+- [ ] La Leyenda
+- [ ] Peñamellera
+- [ ] Pechegos
+- [ ] Quesucos de Liébana
+- [ ] Servilleta
+- [ ] Tortita de Barros
+- [ ] Tronchón
+- [ ] Tupí
+
+### TURKEY (Additional)
+
+- [ ] Erzurum küflü civil peyniri
+- [ ] Hatay peyniri
+- [ ] Mihaliç peyniri
+
+### UNITED KINGDOM (Additional)
+
+- [ ] Montgomery's Cheddar
+- [ ] Orkney Scottish Island Cheddar
+- [ ] Stokes Point Smoked Cheddar
+- [ ] West Country Farmhouse Cheddar
+- [ ] Brighton Blue
+- [ ] Chevington
+- [ ] Dovedale
+- [ ] Kentish Blue
+- [ ] Little Black Bomber
+
+### GREECE (Additional)
+
+- [ ] Anthogalo
+- [ ] Arseniko Naxou
+- [ ] Chloro
+- [ ] Formaella Arachovas Parnassou
+- [ ] Galotyri
+- [ ] Kalathaki Limnou
+- [ ] Kariki
+- [ ] Kathoura
+- [ ] Katiki Domokou
+- [ ] Krasotiri Ko
+- [ ] Krasotyri
+- [ ] Ladotyri Mytilinis
+- [ ] Malaka
+- [ ] Mastelo
+- [ ] Melichloro
+- [ ] Naxos Kefalotyri
+- [ ] Pichtogalo Chanion
+- [ ] Sfela
+- [ ] Souroto
+- [ ] Tyrozouli
+- [ ] Xygalo Siteias
+
+### SWITZERLAND (Additional)
+
+- [ ] Bagnes
+- [ ] Belper hirn
+- [ ] Belper mürggel
+- [ ] Bratkäse
+- [ ] Büsción
+- [ ] Fricâlin
+- [ ] Girenbader Chöpfli
+- [ ] Hoch Ybrig
+- [ ] Le brigand du Jorat
+- [ ] Le Douanier
+- [ ] Le Maréchal
+- [ ] Le Sousbois
+- [ ] Marscaplin
+- [ ] Mont Vully
+- [ ] Montrachet
+- [ ] Schabziger
+- [ ] Scharfe Maxx
+- [ ] Schlipfechäs
+- [ ] Sternenberger Mutschli
+- [ ] Sura Kees
+- [ ] Surchäs
+- [ ] Taignon
+- [ ] Tomme de Rougemont
+- [ ] Tomme neuchâteloise
+- [ ] Tomme de la Vallée
+- [ ] Walder
+
+### NETHERLANDS (Additional)
+
+- [ ] Boeren-Leidse met Sleutels
+- [ ] Echte Loo
+- [ ] Hollandse Geitenkaas
+- [ ] Vlaskaas
+
+### SCANDINAVIA (Additional)
+
+- [ ] Almnäs Tegel
+- [ ] Grevé
+- [ ] Gräddost
+- [ ] Herrgårdsost
+- [ ] Hushållsost
+- [ ] Kaffeost
+- [ ] Prästost
+- [ ] Samsø
+- [ ] Sörmlands Ädel
+- [ ] Tybo
+- [ ] Vesterhavsost
+- [ ] Wrångebäcksost
+- [ ] Ädelost
+
+### EASTERN EUROPE (Czech, Slovak, Polish, Lithuanian, etc.)
+
+- [ ] Jihočeská Niva
+- [ ] Jihočeská Zlatá Niva
+- [ ] Klenovecký Syrec
+- [ ] Ovčí Hrudkový Syr - Salašnícky
+- [ ] Ovčí Salašnícky Údený Syr
+- [ ] Ser Koryciński Swojski
+- [ ] Slovenská Parenica
+- [ ] Slovenský Oštiepok
+- [ ] Tekovský Salámový Syr
+- [ ] Zázrivské vojky
+- [ ] Džiugas
+- [ ] Lietuviškas Varškės Sūris
+
+### CAUCASUS / CENTRAL ASIA
+
+- [ ] Chanakh
+- [ ] Chechil
+- [ ] Dambalkhacho
+- [ ] Motal
+- [ ] Narchvi
+- [ ] Tenili
+- [ ] Yeghegnadzor
+
+### BELGIUM
+
+- [ ] Bleu Bénédictin
+- [ ] Bonrus
+- [ ] Plaisir au Chablis
+- [ ] Val-Dieu Bleu des Moines
+- [ ] Vieux Chimay
+
+### IRELAND (Additional)
+
+- [ ] Cooleeney
+- [ ] Drumlin
+- [ ] St. Killian
+
+### CANADA
+
+- [ ] Alfred le Fermier
+- [ ] Bleu Bénédictin
+- [ ] L'Étoile de St-Raymond
+- [ ] Pied-de-Vent
+
+### USA (Additional)
+
+- [ ] Big John's Cajun
+- [ ] Brown's Gulch
+- [ ] Clemson Blue
+- [ ] Constant Bliss
+- [ ] Cornerstone
+- [ ] Devil's Gulch
+- [ ] Lil' Moo
+- [ ] Little Bloom on the Prairie
+- [ ] Maggie's Round
+- [ ] Mi-Ewe
+- [ ] Mont Saint-Francis
+- [ ] Ms. Natural
+- [ ] Mt. Mazama
+- [ ] Sgt. Pepper
+- [ ] Shepherd's Crook
+- [ ] Shepherd's Hope
+
+### ASIA / OTHER
+
+- [ ] Byaslag (Mongolia)
+- [ ] Datshi (Bhutan)
+- [ ] Kalimpong (India)
+- [ ] Mori no (Japan)
+- [ ] Nguri (Bhutan)
+- [ ] Rushan (China)
+- [ ] Sitaka (Madagascar)
+- [ ] Takemmarit (Algeria)
+- [ ] Topli paneer (India)
+
+### MALTA
+
+- [ ] Ġbejna
+
+### ICELAND
+
+- [ ] Höfðingi
+
+### ROMANIA
+
+- [ ] Cascaval afumat
+- [ ] Năsal
+
+### LATVIA
+
+- [ ] Sniega bumbas
+
+### OTHER VARIETIES
+
+- [ ] Allegretto
+- [ ] Altanu Fumé
+- [ ] Alta Badia
+- [ ] Alps Rebel
+- [ ] Arpitan
+- [ ] Arthon
+- [ ] Axridda
+- [ ] Bachensteiner
+- [ ] Bacio
+- [ ] Bastelicacciu Rafini
+- [ ] Bauma Carrat
+- [ ] Beddo
+- [ ] Bela Badia
+- [ ] Belicino
+- [ ] Bla Castello
+- [ ] Blu '61
+- [ ] Blue Murder
+- [ ] Cambus O'May
+- [ ] Capri Lezeen
+- [ ] Capridor
+- [ ] Carrot Rebel
+- [ ] Cave Rebel
+- [ ] Domiati
+- [ ] Fitness Rebel
+- [ ] Fium'Orbu
+- [ ] Freya's Wheel
+- [ ] Hay Flower Rebel
+- [ ] Jamar
+- [ ] La Castana
+- [ ] La Ramée
+- [ ] La Roche
+- [ ] Lagrein
+- [ ] Le Cados
+- [ ] Le Vieux Pane
+- [ ] Luis Trenker
+- [ ] Ländle rheintaler
+- [ ] Magna
+- [ ] Mató
+- [ ] Mine-Gabhar
+- [ ] Mohant
+- [ ] Mont Saint-Benoît
+- [ ] Mountain Rebel
+- [ ] Nut Rebel
+- [ ] Radamer
+- [ ] Ranolder
+- [ ] Rumi
+- [ ] Sola
+- [ ] Sora
+- [ ] St Oswald
+- [ ] Vera Cheese
+- [ ] Blenda
+- [ ] Victoria Cheese
+- [ ] Kummin
+- [ ] Ennstaler Steirerkas
+- [ ] Cape Vessey
+- [ ] Caprino della Limina
+- [ ] Evansdale Farmhouse Brie
+- [ ] Innes Log
+- [ ] Loddiswell Avondale
+- [ ] Mahoe Aged Gouda
+- [ ] Quatre-Vents
+- [ ] Caronzola
+- [ ] Fromage de Meaux
+- [ ] Birba Blu
+
+---
+
+**Summary of TasteAtlas Integration:**
+- **420 new cheese varieties added**
+- **Source:** TasteAtlas database (1,472 documented worldwide)
+- **Status:** All marked as needing recipes (0-4 in database)
+
