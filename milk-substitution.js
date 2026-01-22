@@ -30,6 +30,49 @@ const MilkSubstitution = (function() {
   // Track whether we're in single or mixed mode
   let mixedMode = false;
 
+  // Track whether we're in volume input mode
+  let volumeMode = false;
+
+  // Store volume inputs (in cups) for each milk type
+  let milkVolumes = {
+    cow: 0,
+    goat: 0,
+    sheep: 0
+  };
+
+  // Volume unit conversions to cups
+  const VOLUME_TO_CUPS = {
+    cups: 1,
+    cup: 1,
+    oz: 0.125,        // 8 oz = 1 cup
+    'fl oz': 0.125,
+    tbsp: 0.0625,     // 16 tbsp = 1 cup
+    quart: 4,         // 1 quart = 4 cups
+    quarts: 4,
+    qt: 4,
+    gallon: 16,       // 1 gallon = 16 cups
+    gallons: 16,
+    gal: 16,
+    pint: 2,          // 1 pint = 2 cups
+    pints: 2,
+    pt: 2,
+    ml: 0.00423,      // ~236ml = 1 cup
+    liter: 4.227,     // 1 liter = ~4.227 cups
+    liters: 4.227,
+    l: 4.227
+  };
+
+  // Display names for volume units
+  const VOLUME_UNITS = [
+    { id: 'cups', label: 'cups' },
+    { id: 'oz', label: 'fl oz' },
+    { id: 'quarts', label: 'quarts' },
+    { id: 'gallons', label: 'gallons' },
+    { id: 'pints', label: 'pints' },
+    { id: 'ml', label: 'ml' },
+    { id: 'liters', label: 'liters' }
+  ];
+
   // Ingredient keywords that should be adjusted
   const MILK_KEYWORDS = ['milk', 'whole milk', 'raw milk', 'pasteurized milk'];
   const RENNET_KEYWORDS = ['rennet', 'vegetable rennet', 'animal rennet', 'liquid rennet'];
@@ -611,6 +654,118 @@ const MilkSubstitution = (function() {
   }
 
   /**
+   * Convert a volume value from one unit to cups
+   */
+  function convertToCups(value, unit) {
+    const normalizedUnit = unit.toLowerCase().trim();
+    const factor = VOLUME_TO_CUPS[normalizedUnit];
+    if (factor === undefined) {
+      console.warn(`Unknown unit: ${unit}, defaulting to cups`);
+      return value;
+    }
+    return value * factor;
+  }
+
+  /**
+   * Convert cups to another unit
+   */
+  function convertFromCups(cups, unit) {
+    const normalizedUnit = unit.toLowerCase().trim();
+    const factor = VOLUME_TO_CUPS[normalizedUnit];
+    if (factor === undefined || factor === 0) {
+      return cups;
+    }
+    return cups / factor;
+  }
+
+  /**
+   * Set milk volumes and automatically calculate ratios
+   */
+  function setMilkVolumes(volumes) {
+    milkVolumes = { ...volumes };
+    calculateRatiosFromVolumes();
+  }
+
+  /**
+   * Set a single milk volume and recalculate ratios
+   */
+  function setMilkVolume(milkType, value, unit = 'cups') {
+    const cups = convertToCups(value, unit);
+    milkVolumes[milkType] = cups;
+    calculateRatiosFromVolumes();
+  }
+
+  /**
+   * Calculate percentages from volume inputs
+   */
+  function calculateRatiosFromVolumes() {
+    const totalCups = Object.values(milkVolumes).reduce((a, b) => a + b, 0);
+
+    if (totalCups === 0) {
+      // Reset to default if no volumes entered
+      milkRatios = { cow: 100, goat: 0, sheep: 0 };
+      return;
+    }
+
+    // Calculate ratios based on volume proportions
+    for (const type of Object.keys(milkRatios)) {
+      milkRatios[type] = Math.round((milkVolumes[type] / totalCups) * 100);
+    }
+
+    // Fix rounding errors
+    normalizeRatios();
+  }
+
+  /**
+   * Get total milk volume in cups
+   */
+  function getTotalVolumeCups() {
+    return Object.values(milkVolumes).reduce((a, b) => a + b, 0);
+  }
+
+  /**
+   * Get total milk volume in a specified unit
+   */
+  function getTotalVolume(unit = 'cups') {
+    const cups = getTotalVolumeCups();
+    return convertFromCups(cups, unit);
+  }
+
+  /**
+   * Get milk volumes
+   */
+  function getMilkVolumes() {
+    return { ...milkVolumes };
+  }
+
+  /**
+   * Format volume for display
+   */
+  function formatVolume(cups, unit = 'cups') {
+    const value = convertFromCups(cups, unit);
+    if (value === 0) return '0';
+    if (value < 0.1) return value.toFixed(2);
+    if (value < 1) return value.toFixed(1);
+    if (Number.isInteger(value)) return String(value);
+    return value.toFixed(1);
+  }
+
+  /**
+   * Check if in volume mode
+   */
+  function isVolumeMode() {
+    return volumeMode;
+  }
+
+  /**
+   * Enter volume mode
+   */
+  function enterVolumeMode() {
+    volumeMode = true;
+    mixedMode = true;
+  }
+
+  /**
    * Set single milk mode (100% of one type)
    */
   function setSingleMilk(milkType) {
@@ -620,14 +775,17 @@ const MilkSubstitution = (function() {
       sheep: 0
     };
     milkRatios[milkType] = 100;
+    milkVolumes = { cow: 0, goat: 0, sheep: 0 };
     mixedMode = false;
+    volumeMode = false;
   }
 
   /**
-   * Enter mixed mode with current ratios
+   * Enter mixed mode with current ratios (percentage-based)
    */
   function enterMixedMode() {
     mixedMode = true;
+    volumeMode = false;
   }
 
   /**
@@ -666,12 +824,19 @@ const MilkSubstitution = (function() {
     const availableMilkTypes = substitutionData.available_milk_types ||
       Object.keys(substitutionData.milk_types).filter(t => substitutionData.milk_types[t].available !== false);
 
-    // Build exotic milk notice if applicable
+    // Build exotic milk notice with override option
     const originalMilkInfo = substitutionData.milk_types[detectedMilk];
     const exoticNotice = isExotic ? `
       <div class="exotic-milk-notice">
-        <strong>Original Recipe Uses ${originalMilkInfo?.name || detectedMilk}:</strong>
-        This milk is not commonly available. ${subNotes || `We recommend using ${substitutionData.milk_types[recommendedSub]?.name || recommendedSub} as a substitute.`}
+        <div class="exotic-milk-header">
+          <strong>Original Recipe Uses ${originalMilkInfo?.name || detectedMilk}</strong>
+        </div>
+        <p class="exotic-milk-message">
+          This milk is not commonly available. ${subNotes || `We recommend using ${substitutionData.milk_types[recommendedSub]?.name || recommendedSub} as a substitute.`}
+        </p>
+        <div class="exotic-milk-override">
+          <span class="override-label">You can override this recommendation below using any of your available milks.</span>
+        </div>
       </div>
     ` : '';
 
@@ -685,7 +850,8 @@ const MilkSubstitution = (function() {
         <div class="milk-sub-controls">
           <div class="milk-sub-mode-toggle">
             <button type="button" id="single-mode-btn" class="mode-btn active" title="Select one milk type">Single Milk</button>
-            <button type="button" id="mixed-mode-btn" class="mode-btn" title="Create a custom milk blend">Custom Blend</button>
+            <button type="button" id="mixed-mode-btn" class="mode-btn" title="Create a custom milk blend by percentages">% Blend</button>
+            <button type="button" id="volume-mode-btn" class="mode-btn" title="Enter the volumes of milk you have on hand">What I Have</button>
           </div>
 
           <div id="single-milk-controls" class="milk-sub-row">
@@ -734,6 +900,39 @@ const MilkSubstitution = (function() {
             </div>
           </div>
 
+          <div id="volume-milk-controls" class="milk-volume-controls" style="display: none;">
+            <p class="volume-input-intro">Enter the amounts of milk you have available:</p>
+            ${availableMilkTypes.map(type => {
+              const info = substitutionData.milk_types[type];
+              return `
+                <div class="milk-volume-row">
+                  <label class="milk-volume-label">
+                    <span class="milk-type-name">${info.name}</span>
+                  </label>
+                  <input type="number"
+                         id="${type}-volume-input"
+                         class="milk-volume-input"
+                         data-milk-type="${type}"
+                         min="0"
+                         step="0.25"
+                         value="0"
+                         placeholder="0">
+                  <select id="${type}-volume-unit"
+                          class="milk-volume-unit"
+                          data-milk-type="${type}">
+                    ${VOLUME_UNITS.map(u => `<option value="${u.id}"${u.id === 'cups' ? ' selected' : ''}>${u.label}</option>`).join('')}
+                  </select>
+                  <span class="milk-volume-percent" id="${type}-volume-percent">0%</span>
+                </div>
+              `;
+            }).join('')}
+            <div class="volume-total-row">
+              <span class="volume-total-label">Total:</span>
+              <span id="volume-total" class="volume-total">0 cups</span>
+              <span class="volume-total-note">(Ratios calculated automatically)</span>
+            </div>
+          </div>
+
           <div class="milk-sub-row">
             <label for="quantity-multiplier">Batch Size:</label>
             <select id="quantity-multiplier" class="quantity-multiplier-select">
@@ -770,35 +969,66 @@ const MilkSubstitution = (function() {
   function attachEventListeners(recipe) {
     const singleModeBtn = document.getElementById('single-mode-btn');
     const mixedModeBtn = document.getElementById('mixed-mode-btn');
+    const volumeModeBtn = document.getElementById('volume-mode-btn');
     const singleControls = document.getElementById('single-milk-controls');
     const mixedControls = document.getElementById('mixed-milk-controls');
+    const volumeControls = document.getElementById('volume-milk-controls');
     const milkSelect = document.getElementById('milk-type-select');
     const qtySelect = document.getElementById('quantity-multiplier');
 
-    // Mode toggle
-    if (singleModeBtn && mixedModeBtn) {
+    // Helper to clear all mode buttons
+    function clearModeButtons() {
+      singleModeBtn?.classList.remove('active');
+      mixedModeBtn?.classList.remove('active');
+      volumeModeBtn?.classList.remove('active');
+    }
+
+    // Helper to hide all control panels
+    function hideAllControls() {
+      if (singleControls) singleControls.style.display = 'none';
+      if (mixedControls) mixedControls.style.display = 'none';
+      if (volumeControls) volumeControls.style.display = 'none';
+    }
+
+    // Mode toggle - Single Milk
+    if (singleModeBtn) {
       singleModeBtn.addEventListener('click', () => {
-        mixedMode = false;
+        clearModeButtons();
+        hideAllControls();
         singleModeBtn.classList.add('active');
-        mixedModeBtn.classList.remove('active');
         singleControls.style.display = '';
-        mixedControls.style.display = 'none';
 
         // Reset to selected single milk
         const selectedMilk = milkSelect.value;
         setSingleMilk(selectedMilk);
         updateMilkSubstitution(recipe);
       });
+    }
 
+    // Mode toggle - Mixed/Percent Blend
+    if (mixedModeBtn) {
       mixedModeBtn.addEventListener('click', () => {
-        mixedMode = true;
+        clearModeButtons();
+        hideAllControls();
         mixedModeBtn.classList.add('active');
-        singleModeBtn.classList.remove('active');
-        singleControls.style.display = 'none';
         mixedControls.style.display = '';
 
-        // Initialize sliders with current ratios
+        enterMixedMode();
         updateSliderDisplays();
+        updateMilkSubstitution(recipe);
+      });
+    }
+
+    // Mode toggle - Volume Input ("What I Have")
+    if (volumeModeBtn) {
+      volumeModeBtn.addEventListener('click', () => {
+        clearModeButtons();
+        hideAllControls();
+        volumeModeBtn.classList.add('active');
+        volumeControls.style.display = '';
+
+        enterVolumeMode();
+        updateVolumeDisplays();
         updateMilkSubstitution(recipe);
       });
     }
@@ -841,6 +1071,67 @@ const MilkSubstitution = (function() {
           updateSliderDisplays();
           updateMilkSubstitution(recipe);
         });
+      }
+    }
+
+    // Volume mode inputs and unit selectors
+    for (const type of milkTypes) {
+      const volumeInput = document.getElementById(`${type}-volume-input`);
+      const unitSelect = document.getElementById(`${type}-volume-unit`);
+
+      if (volumeInput) {
+        volumeInput.addEventListener('input', (e) => {
+          const value = parseFloat(e.target.value) || 0;
+          const unit = unitSelect?.value || 'cups';
+          setMilkVolume(type, value, unit);
+          updateVolumeDisplays();
+          updateMilkSubstitution(recipe);
+        });
+      }
+
+      if (unitSelect) {
+        unitSelect.addEventListener('change', (e) => {
+          // When unit changes, recalculate with current input value
+          const value = parseFloat(volumeInput?.value) || 0;
+          const unit = e.target.value;
+          setMilkVolume(type, value, unit);
+          updateVolumeDisplays();
+          updateMilkSubstitution(recipe);
+        });
+      }
+    }
+  }
+
+  /**
+   * Update all volume displays to match current volumes
+   */
+  function updateVolumeDisplays() {
+    const milkTypes = ['cow', 'goat', 'sheep'];
+    const totalCups = getTotalVolumeCups();
+
+    for (const type of milkTypes) {
+      const percentDisplay = document.getElementById(`${type}-volume-percent`);
+      if (percentDisplay) {
+        const percent = totalCups > 0 ? Math.round((milkVolumes[type] / totalCups) * 100) : 0;
+        percentDisplay.textContent = `${percent}%`;
+      }
+    }
+
+    // Update total display
+    const totalDisplay = document.getElementById('volume-total');
+    if (totalDisplay) {
+      if (totalCups === 0) {
+        totalDisplay.textContent = '0 cups';
+      } else if (totalCups >= 16) {
+        // Show in gallons if >= 1 gallon
+        const gallons = totalCups / 16;
+        totalDisplay.textContent = `${gallons.toFixed(1)} gallons (${totalCups.toFixed(1)} cups)`;
+      } else if (totalCups >= 4) {
+        // Show in quarts if >= 1 quart
+        const quarts = totalCups / 4;
+        totalDisplay.textContent = `${quarts.toFixed(1)} quarts (${totalCups.toFixed(1)} cups)`;
+      } else {
+        totalDisplay.textContent = `${totalCups.toFixed(1)} cups`;
       }
     }
   }
@@ -1021,8 +1312,11 @@ const MilkSubstitution = (function() {
       detail: {
         originalMilkType,
         milkRatios: getMilkRatios(),
+        milkVolumes: getMilkVolumes(),
         mixedMode,
+        volumeMode,
         quantityMultiplier,
+        totalVolumeCups: getTotalVolumeCups(),
         adjustedIngredients,
         blendedNutrition: getBlendedNutrition(),
         blendedMilkInfo: getBlendedMilkInfo()
@@ -1048,6 +1342,15 @@ const MilkSubstitution = (function() {
     setMilkRatio,
     setSingleMilk,
     isMixedMode,
+    isVolumeMode,
+    enterVolumeMode,
+    getMilkVolumes,
+    setMilkVolume,
+    setMilkVolumes,
+    getTotalVolumeCups,
+    getTotalVolume,
+    convertToCups,
+    convertFromCups,
     getBlendedMilkInfo,
     getBlendedNutrition,
     isAvailableMilkType,

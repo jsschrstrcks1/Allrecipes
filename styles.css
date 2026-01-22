@@ -2477,6 +2477,130 @@ body {
   color: #d32f2f;
 }
 
+/* Volume milk input controls */
+.milk-volume-controls {
+  background: var(--color-warm-white);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  margin-bottom: var(--spacing-md);
+}
+
+.volume-input-intro {
+  font-size: 0.9rem;
+  color: #1565c0;
+  margin-bottom: var(--spacing-md);
+  font-style: italic;
+}
+
+.milk-volume-row {
+  display: grid;
+  grid-template-columns: 120px 80px 100px 50px;
+  gap: var(--spacing-sm);
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.milk-volume-label {
+  font-weight: 600;
+  color: #1565c0;
+  font-size: 0.9rem;
+}
+
+.milk-volume-input {
+  width: 100%;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 2px solid #64b5f6;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  text-align: center;
+}
+
+.milk-volume-input:focus {
+  outline: none;
+  border-color: #1565c0;
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.2);
+}
+
+.milk-volume-unit {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 2px solid #64b5f6;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  background: white;
+  cursor: pointer;
+}
+
+.milk-volume-unit:focus {
+  outline: none;
+  border-color: #1565c0;
+}
+
+.milk-volume-percent {
+  font-weight: 600;
+  color: #0d47a1;
+  font-family: var(--font-heading);
+  text-align: right;
+}
+
+.volume-total-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding-top: var(--spacing-sm);
+  border-top: 1px solid #bbdefb;
+  margin-top: var(--spacing-sm);
+  font-weight: 600;
+  color: #1565c0;
+}
+
+.volume-total {
+  font-family: var(--font-heading);
+  color: #0d47a1;
+}
+
+.volume-total-note {
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: #666;
+  font-style: italic;
+}
+
+/* Enhanced exotic milk notice */
+.exotic-milk-notice {
+  background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  margin-bottom: var(--spacing-md);
+  border: 1px solid #ffc107;
+  border-left: 4px solid #ff9800;
+}
+
+.exotic-milk-header {
+  color: #e65100;
+  margin-bottom: var(--spacing-xs);
+}
+
+.exotic-milk-message {
+  font-size: 0.9rem;
+  color: #5d4037;
+  margin-bottom: var(--spacing-sm);
+}
+
+.exotic-milk-override {
+  font-size: 0.85rem;
+  color: #6d4c41;
+  padding-top: var(--spacing-xs);
+  border-top: 1px dashed #ffb74d;
+}
+
+.override-label {
+  display: block;
+  font-style: italic;
+}
+
 /* Milk blend header */
 .milk-blend-header {
   margin-bottom: var(--spacing-md);
@@ -2589,6 +2713,32 @@ body {
 
   .milk-nutrition-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .milk-volume-row {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xs);
+  }
+
+  .milk-volume-label {
+    grid-column: 1 / -1;
+  }
+
+  .milk-volume-percent {
+    grid-column: 1 / -1;
+    text-align: left;
+    margin-top: calc(-1 * var(--spacing-xs));
+  }
+}
+
+@media (max-width: 768px) {
+  .milk-volume-row {
+    grid-template-columns: 100px 70px 90px 45px;
+    gap: var(--spacing-xs);
+  }
+
+  .milk-sub-mode-toggle {
+    flex-wrap: wrap;
   }
 }
 
