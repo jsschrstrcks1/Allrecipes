@@ -207,6 +207,85 @@ After adding a cheese recipe, verify detection:
 
 ---
 
+## Adulterant Companion Integration
+
+The Adulterant Companion tool allows users to add herbs, spices, peppers, and other adulterants to cheese recipes with automatic quantity adjustments based on milk type.
+
+### Enabling Adulterant Support
+
+Adulterant support is automatically available for any recipe detected as a cheese recipe. The tool will:
+
+1. Detect the cheese style (fresh, semi-soft, hard, bloomy, etc.)
+2. Show only compatible adulterants for that style
+3. Adjust quantities based on the selected milk type
+4. Provide warnings for incompatible or excessive additions
+
+### Cheese Style Detection
+
+The tool detects cheese style from recipe metadata:
+
+| Style | Detection Criteria |
+|-------|-------------------|
+| Fresh | Tags include "fresh-cheese", or title contains "ricotta", "queso fresco", "paneer" |
+| Soft | Tags include "soft-cheese", or title contains "brie", "camembert" |
+| Semi-Hard | Default for most cheese recipes |
+| Hard | Tags include "hard-cheese", or title contains "parmesan", "cheddar", "gouda" |
+| Bloomy | Tags include "bloomy", or title mentions bloomy rind |
+| Blue | Tags include "blue", or title contains "roquefort", "gorgonzola" |
+| Washed-Rind | Tags include "washed-rind" |
+
+### Adding Adulterant Metadata (Optional)
+
+For recipes with specific adulterant additions, you can include them in the recipe:
+
+```json
+{
+  "adulterant_additions": [
+    {
+      "id": "garlic-powder",
+      "stage": "CURD_MILL",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "oregano-dried",
+      "stage": "CURD_MILL",
+      "quantity": 0.5,
+      "unit": "tsp"
+    }
+  ]
+}
+```
+
+### Available Addition Stages
+
+| Stage | When to Add |
+|-------|-------------|
+| `COLD_INFUSE` | Steep in cold milk before heating |
+| `MILK_PREHEAT` | During initial milk heating |
+| `CURD_MILL` | While milling/stirring curds (most common) |
+| `MOLD_LAYER` | Layer between curds in mold |
+| `POST_PRESS` | Apply to cheese surface after pressing |
+| `BRINE_ADDITION` | Add to brine solution |
+| `RIND_RUB` | Wash/rub onto rind during aging |
+| `AGING_SURFACE` | Apply during aging period |
+| `FINISH_SERVING` | Add just before serving |
+
+### Milk Type Quantity Adjustments
+
+Adulterant quantities are automatically adjusted based on milk type:
+
+| Milk Type | Adjustment |
+|-----------|------------|
+| Cow | 1.0x (baseline) |
+| Goat | 0.85-1.0x (tangy flavor may compete) |
+| Sheep | 1.3-1.4x (higher yield needs more) |
+| Buffalo | 1.2-1.3x (high fat masks flavors) |
+
+See `.claude/ADULTERANT-COMPANION-GUIDELINES.md` for complete documentation.
+
+---
+
 ## Summary Checklist
 
 For guaranteed detection, ensure your cheese recipe has:
@@ -217,3 +296,4 @@ For guaranteed detection, ensure your cheese recipe has:
 - [ ] Milk ingredient with recognizable name
 - [ ] Rennet or culture ingredient (if applicable)
 - [ ] Original milk type specified (if not cow)
+- [ ] Cheese style indicators in tags/title (for adulterant compatibility)

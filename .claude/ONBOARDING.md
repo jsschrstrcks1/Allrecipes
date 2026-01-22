@@ -24,8 +24,17 @@ Before you begin working:
 
 - [ ] Read `CLAUDE.md` in the project root
 - [ ] Check `PENDING_TASKS.md` for deferred work
+- [ ] Run `python scripts/validate-recipes.py` to check recipe health
 - [ ] Run `python scripts/image_safeguards.py status` to understand image state
 - [ ] Familiarize yourself with the recipe schema
+
+### Routine Maintenance (run after recipe changes)
+
+```bash
+python scripts/validate-recipes.py        # Check for errors
+python scripts/shardify_recipes.py        # Rebuild category shards
+python scripts/build_ingredient_index.py  # Rebuild ingredient index
+```
 
 ---
 
@@ -76,17 +85,33 @@ python scripts/image_safeguards.py validate
 Allrecipes/
 ├── CLAUDE.md              # Primary AI context (READ THIS)
 ├── PENDING_TASKS.md       # Deferred work tracking
+├── cheese-builder.html    # Cheese recipe builder wizard page
+├── cheese-builder.js      # Cheese recipe builder module
+├── milk-substitution.js   # Milk type switching for cheese recipes
+├── adulterant-companion.js # Herb/spice guidance for cheese
 ├── data/
 │   ├── recipes.json       # All recipes (main data file)
+│   ├── recipes-index.json # Sharded index for fast loading
+│   ├── recipes-{cat}.json # Category shards
+│   ├── ingredient-index.json # Ingredient search index
+│   ├── cheese-templates.json # Cheese styles, flavors, base recipes
+│   ├── milk-substitution.json # Milk type data
+│   ├── adulterants.json   # Herb/spice database
 │   ├── *.jpeg, *.PNG      # Source images
 │   └── processed/         # AI-safe resized images
 ├── scripts/
 │   ├── validate-recipes.py    # Schema validation
+│   ├── shardify_recipes.py    # Rebuild category shards
+│   ├── build_ingredient_index.py # Rebuild ingredient index
 │   ├── process_images.py      # Image resizing
 │   └── image_safeguards.py    # Dimension checking
 └── .claude/
     ├── MAINTENANCE.md     # Detailed workflows
     ├── ONBOARDING.md      # This file
+    ├── CHEESE-RECIPE-GUIDELINES.md # Cheese recipe detection
+    ├── CHEESE-BUILDER-GUIDELINES.md # Cheese builder wizard docs
+    ├── ADULTERANT-COMPANION-GUIDELINES.md # Adulterant API docs
+    ├── AGGREGATOR-INTEGRATION-PROMPT.md # FamilyRecipeHub integration
     └── hooks/             # Automation scripts
 ```
 
@@ -118,7 +143,7 @@ Allrecipes/
 
 ### Valid Categories
 
-appetizers | beverages | breads | breakfast | desserts | mains | salads | sides | soups | snacks
+appetizers | basics | beverages | breads | breakfast | **cheese** | desserts | mains | salads | sides | soups | snacks
 
 ---
 
@@ -145,6 +170,53 @@ When transcribing, watch for common errors:
 | cup, c, C | cup |
 | ounce, oz | oz |
 | pound, lb, # | lb |
+
+---
+
+## Cheese Recipe Tools
+
+This repository includes interactive tools for cheese-making recipes:
+
+### Cheese Recipe Builder (NEW)
+- Interactive wizard to create custom cheese recipes
+- Guides users through milk selection, style, flavor profile, and adulterants
+- Matches preferences to existing recipes or generates from templates
+- Integrates with Milk Substitution and Adulterant Companion
+- **Files:** `cheese-builder.js`, `cheese-builder.html`, `data/cheese-templates.json`
+- **Docs:** `.claude/CHEESE-BUILDER-GUIDELINES.md`
+- **Access:** [cheese-builder.html](cheese-builder.html)
+
+### Milk Substitution Tool
+- Allows switching between cow, goat, sheep, and exotic milks
+- Automatically adjusts rennet and CaCl2 quantities
+- Shows yield and flavor impact
+- **Files:** `milk-substitution.js`, `data/milk-substitution.json`
+- **Docs:** `.claude/CHEESE-RECIPE-GUIDELINES.md`
+
+### Adulterant Companion
+- Herb, spice, and pepper guidance for cheese recipes
+- 156 adulterants with compatibility and quantity guidance
+- Milk-type quantity adjustments
+- Warning system for incompatible additions
+- **Files:** `adulterant-companion.js`, `data/adulterants.json`
+- **Docs:** `.claude/ADULTERANT-COMPANION-GUIDELINES.md`
+
+### Routine Maintenance
+
+After modifying `recipes.json`, rebuild derived files:
+
+```bash
+# Validate recipes
+python scripts/validate-recipes.py
+
+# Rebuild category shards
+python scripts/shardify_recipes.py
+
+# Rebuild ingredient index
+python scripts/build_ingredient_index.py
+```
+
+See `MAINTENANCE.md` for detailed workflows.
 
 ---
 
