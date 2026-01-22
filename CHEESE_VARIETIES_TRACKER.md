@@ -575,7 +575,7 @@
 
 ---
 
-## Total Varieties Listed: ~1,200+
+## Total Varieties Listed: ~1,350+
 
 This represents major named varieties. The actual global count exceeds 1,800 distinct cheeses.
 
@@ -605,8 +605,9 @@ The comprehensive A-Z section below includes additional artisan, commercial, and
 
 ## COMPREHENSIVE WORLD CHEESE LIST (A-Z)
 
-> Source: alphalists.com, engdic.org, World Cheese Awards 2024-2025
-> Total varieties: 990+
+> Source: alphalists.com, engdic.org, World Cheese Awards 2024-2025, cheese.fandom.com,
+> culturecheesemag.com (2025 Awards), realcaliforniamilk.com, curiousnotions.com
+> Total varieties: 1,100+
 
 
 ### A
@@ -656,6 +657,145 @@ The comprehensive A-Z section below includes additional artisan, commercial, and
 - [ ] Autun
 - [ ] Avaxtskyr
 - [ ] Azeitao
+
+### NEW ADDITIONS (January 2026)
+
+> From: cheese.fandom.com, culturecheesemag.com, alphalists.com, curiousnotions.com, realcaliforniamilk.com
+> Added: ~150 additional varieties
+
+#### Award Winners 2024-2025
+- [ ] Artikaas Vintage Lot 18
+- [ ] Blue Moo
+- [ ] Buona Fortuna
+- [ ] C2
+- [ ] Calderwood
+- [ ] Darkside of the Moo
+- [ ] Eldo
+- [ ] Fennel Blue
+- [ ] Flagship Reserve
+- [ ] Flower Power
+- [ ] Fruitière des Bergers
+- [ ] Green Hill
+- [ ] Holland Delta 1 Year Old
+- [ ] Hornbacher
+- [ ] Humble
+- [ ] Idyll Gris
+- [ ] Intergalactic
+- [ ] Lamb Chopper
+- [ ] Le Cousin
+- [ ] Leo
+- [ ] Little Boy Blue
+- [ ] Lumberjack Bucheron
+- [ ] Mango Habanero Fresh Goat Cheese
+- [ ] Maple Bourbon Goat Cheese
+- [ ] Mariana
+- [ ] Marieke Gouda Aged 9-12 Months
+- [ ] Medallion
+- [ ] Nidelven Blå (Norway)
+- [ ] Nodini
+- [ ] Petit Agour
+- [ ] Prairie Tomme
+- [ ] Pur Brebis Fermier
+- [ ] Raclette de Compton au Poivre
+- [ ] Rosa Maria
+- [ ] Sleeping Beauty
+- [ ] Smokey Mountain Round
+- [ ] Street Ched
+- [ ] Tatie
+- [ ] The Gray
+- [ ] Tokyo Brown Cheese (Japan)
+- [ ] Victoria
+- [ ] Wonderland
+- [ ] 1916
+
+#### Rare & Regional Varieties
+- [ ] Abuelo Ruperto (Spain)
+- [ ] Agour Ossau-Iraty (France)
+- [ ] Beemster Goat (Netherlands)
+- [ ] Bitto della Valtellina (Italy)
+- [ ] Bitto Storico (Italy)
+- [ ] Burrata di Bufala (Italy)
+- [ ] Caciocavallo Podolico (Italy)
+- [ ] Caciotta Al Tartufo (Italy)
+- [ ] Canestrato (Italy)
+- [ ] Carmody (California)
+- [ ] Casu Marzu (Sardinia)
+- [ ] Cendré d'Argonne (France)
+- [ ] Chantaleno (Mexico)
+- [ ] Dachsteiner (Austria)
+- [ ] Danish Fynbo (Denmark)
+- [ ] Divle Cave Cheese (Turkey)
+- [ ] Formaggio di Fossa (Italy)
+- [ ] Gorau Glas (Wales)
+- [ ] Ilchester (UK)
+- [ ] Jameed (Jordan)
+- [ ] La Perle de Champagne (France)
+- [ ] Leipäjuusto (Finland)
+- [ ] Liederkranz (USA)
+- [ ] Lüneberg (Germany)
+- [ ] Moose Cheese (Sweden)
+- [ ] Murcia Curado (Spain)
+- [ ] Noyers-le-Val (France)
+- [ ] Ourde (France)
+- [ ] Pálpusztai (Hungary)
+- [ ] Piave Vecchio (Italy)
+- [ ] Pipo Crème (France)
+- [ ] Pule (Serbia - Donkey Milk)
+- [ ] Raejuusto (Finland)
+- [ ] Red Windsor (UK)
+- [ ] Rodoric (Belgium)
+- [ ] Salers de Buron (France)
+- [ ] Samsoe (Denmark)
+- [ ] St. George (California)
+- [ ] Strachitunt (Italy)
+- [ ] Teleme (California)
+- [ ] Toma Celena (Italy)
+- [ ] Trouville (France)
+- [ ] Tyrolean Grey (Austria)
+- [ ] Uunijuusto (Finland)
+- [ ] Yak Cheese (Tibet)
+
+#### Additional Traditional Varieties
+- [ ] Bagòss (Italy)
+- [ ] Bleu de Termignon Alpage (France)
+- [ ] Bokmakiri (South Africa)
+- [ ] Brussels Cheese (Belgium)
+- [ ] Catupiry (Brazil)
+- [ ] Coalho (Brazil)
+- [ ] Corastia (Romania)
+- [ ] Duncan Drake Bleu (USA)
+- [ ] Gołka (Poland)
+- [ ] Graddost (Sweden)
+- [ ] Joseph Heler Cheese (UK)
+- [ ] Kačkavalj (Serbia)
+- [ ] Kervella Affine (Australia)
+- [ ] Korbáčik (Slovakia)
+- [ ] Lori (Armenia)
+- [ ] Minas (Brazil)
+- [ ] Olomoucké Syrečky (Czech Republic)
+- [ ] Oštiepok (Slovakia)
+- [ ] Ovčí Syr (Slovakia)
+- [ ] Parenica (Slovakia)
+- [ ] Prato (Brazil)
+- [ ] Rasgulla (India - Chhena-based)
+- [ ] Redykołka (Poland)
+- [ ] Regno (Brazil)
+- [ ] Requeijão Cremoso (Brazil)
+- [ ] Roaring 40s Blue (Australia)
+- [ ] Sjenički (Serbia)
+- [ ] Smoked Sulguni (Georgia)
+- [ ] Sremski (Serbia)
+- [ ] St. Joseph Sweet (USA)
+- [ ] Stolper Jungchen (Germany)
+- [ ] Švapski (Serbia)
+- [ ] Telita (Venezuela)
+- [ ] Tomme Vaudoise (Switzerland)
+- [ ] Tvaroh (Slovakia)
+- [ ] Tvorok (Russia)
+- [ ] Venezuelan Beaver Cheese
+- [ ] Whitestone (New Zealand)
+- [ ] Yunnan (China)
+- [ ] Zamojski (Poland)
 
 ### B
 - [ ] Baby Swiss
