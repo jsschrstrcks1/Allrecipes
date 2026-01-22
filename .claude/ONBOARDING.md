@@ -85,6 +85,8 @@ python scripts/image_safeguards.py validate
 Allrecipes/
 ├── CLAUDE.md              # Primary AI context (READ THIS)
 ├── PENDING_TASKS.md       # Deferred work tracking
+├── cheese-builder.html    # Cheese recipe builder wizard page
+├── cheese-builder.js      # Cheese recipe builder module
 ├── milk-substitution.js   # Milk type switching for cheese recipes
 ├── adulterant-companion.js # Herb/spice guidance for cheese
 ├── data/
@@ -92,6 +94,7 @@ Allrecipes/
 │   ├── recipes-index.json # Sharded index for fast loading
 │   ├── recipes-{cat}.json # Category shards
 │   ├── ingredient-index.json # Ingredient search index
+│   ├── cheese-templates.json # Cheese styles, flavors, base recipes
 │   ├── milk-substitution.json # Milk type data
 │   ├── adulterants.json   # Herb/spice database
 │   ├── *.jpeg, *.PNG      # Source images
@@ -106,6 +109,7 @@ Allrecipes/
     ├── MAINTENANCE.md     # Detailed workflows
     ├── ONBOARDING.md      # This file
     ├── CHEESE-RECIPE-GUIDELINES.md # Cheese recipe detection
+    ├── CHEESE-BUILDER-GUIDELINES.md # Cheese builder wizard docs
     ├── ADULTERANT-COMPANION-GUIDELINES.md # Adulterant API docs
     ├── AGGREGATOR-INTEGRATION-PROMPT.md # FamilyRecipeHub integration
     └── hooks/             # Automation scripts
@@ -172,6 +176,15 @@ When transcribing, watch for common errors:
 ## Cheese Recipe Tools
 
 This repository includes interactive tools for cheese-making recipes:
+
+### Cheese Recipe Builder (NEW)
+- Interactive wizard to create custom cheese recipes
+- Guides users through milk selection, style, flavor profile, and adulterants
+- Matches preferences to existing recipes or generates from templates
+- Integrates with Milk Substitution and Adulterant Companion
+- **Files:** `cheese-builder.js`, `cheese-builder.html`, `data/cheese-templates.json`
+- **Docs:** `.claude/CHEESE-BUILDER-GUIDELINES.md`
+- **Access:** [cheese-builder.html](cheese-builder.html)
 
 ### Milk Substitution Tool
 - Allows switching between cow, goat, sheep, and exotic milks

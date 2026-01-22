@@ -371,6 +371,60 @@ The Adulterant Companion automatically:
 
 ---
 
+## Cheese Recipe Builder
+
+The Cheese Recipe Builder (`cheese-builder.js`) is an interactive wizard for creating custom cheese recipes.
+
+### Files
+
+| File | Purpose |
+|------|---------|
+| `cheese-builder.js` | Core JavaScript module |
+| `cheese-builder.html` | Wizard page |
+| `data/cheese-templates.json` | Styles, flavors, base recipes |
+| `.claude/CHEESE-BUILDER-GUIDELINES.md` | Complete documentation |
+
+### Wizard Flow
+
+1. **Milk Selection** - Type, quantity, processing
+2. **Style Selection** - Fresh, soft, semi-hard, hard, etc.
+3. **Flavor Profile** - Herbed, spicy, smoky, etc.
+4. **Adulterant Selection** - Herbs, spices, peppers
+5. **Review** - Summary and recipe matching
+6. **Recipe** - Generated recipe with all adjustments
+
+### Adding Base Recipes
+
+To add a new base cheese recipe:
+
+1. Edit `data/cheese-templates.json`
+2. Add entry to `base_recipes` section
+3. Include `adulterant_injection_point` for step insertion
+4. Test in browser
+
+### Adding Cheese Styles
+
+1. Edit `data/cheese-templates.json`
+2. Add entry to `cheese_styles` section
+3. Define `best_milk_types`, `adulterant_timing`, `suggested_adulterants`
+
+### Adding Flavor Profiles
+
+1. Edit `data/cheese-templates.json`
+2. Add entry to `flavor_profiles` section
+3. Define `compatible_styles` and `suggested_adulterants`
+
+### Maintenance Checklist
+
+- [ ] Verify `cheese-templates.json` is valid JSON
+- [ ] Test wizard navigation through all steps
+- [ ] Verify milk type selection updates recommendations
+- [ ] Test recipe generation produces valid output
+- [ ] Check print layout renders correctly
+- [ ] Verify responsive design on mobile
+
+---
+
 ## Error Resolution
 
 ### Common Validation Errors
