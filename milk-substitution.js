@@ -74,9 +74,49 @@ const MilkSubstitution = (function() {
   ];
 
   // Ingredient keywords that should be adjusted
-  const MILK_KEYWORDS = ['milk', 'whole milk', 'raw milk', 'pasteurized milk'];
-  const RENNET_KEYWORDS = ['rennet', 'vegetable rennet', 'animal rennet', 'liquid rennet'];
+  const MILK_KEYWORDS = [
+    'milk', 'whole milk', 'raw milk', 'pasteurized milk',
+    'fresh milk', 'farm milk', 'unhomogenized milk'
+  ];
+  const RENNET_KEYWORDS = [
+    'rennet', 'vegetable rennet', 'animal rennet', 'liquid rennet',
+    'rennet tablet', 'microbial rennet', 'thistle rennet'
+  ];
   const CACL2_KEYWORDS = ['calcium chloride', 'cacl2', 'calcium chloride solution'];
+
+  // Culture keywords for cheese detection
+  const CULTURE_KEYWORDS = [
+    'mesophilic', 'thermophilic', 'starter culture', 'cheese culture',
+    'buttermilk culture', 'kefir grains', 'yogurt culture', 'mother culture'
+  ];
+
+  // Cheese keywords for title/tag matching
+  const CHEESE_KEYWORDS_TITLE = [
+    'cheese', 'fromage', 'queso', 'formaggio', 'käse', 'ost',
+    'cheddar', 'mozzarella', 'parmesan', 'brie', 'camembert',
+    'gouda', 'feta', 'ricotta', 'mascarpone', 'gruyere', 'gruyère',
+    'manchego', 'pecorino', 'roquefort', 'gorgonzola', 'stilton',
+    'halloumi', 'paneer', 'quark', 'labneh', 'burrata', 'stracciatella',
+    'cottage cheese', 'cream cheese', 'farmer cheese', 'pot cheese',
+    'chhurpi', 'byaslag', 'caravane', 'juustoleipa'
+  ];
+
+  // Tags that indicate cheesemaking
+  const CHEESEMAKING_TAGS = [
+    'cheese', 'cheesemaking', 'cheese-making', 'homemade-cheese',
+    'artisan-cheese', 'fromage', 'dairy', 'fermented-dairy',
+    'curds', 'whey', 'aged-cheese', 'fresh-cheese'
+  ];
+
+  // Patterns that indicate NOT a cheesemaking recipe (uses cheese as ingredient)
+  const CHEESE_EXCLUDE_PATTERNS = [
+    'grilled cheese', 'cheese sandwich', 'cheese toast',
+    'mac and cheese', 'mac & cheese', 'macaroni and cheese',
+    'cheese dip', 'cheese ball', 'cheese spread', 'cheese sauce',
+    'cheesecake', 'cheese cake', 'cream cheese frosting',
+    'cheese quesadilla', 'cheese pizza', 'cheese bread',
+    'cheese omelet', 'cheese omelette', 'cheese souffle'
+  ];
 
   /**
    * Load substitution data from JSON file
@@ -103,30 +143,74 @@ const MilkSubstitution = (function() {
   }
 
   /**
-   * Check if a recipe is a cheese recipe
+   * Check if a recipe is a cheesemaking recipe
+   * Enhanced detection for modern, ancient, and international cheese recipes
    */
   function isCheeseRecipe(recipe) {
     if (!recipe) return false;
 
-    // Check tags
-    if (recipe.tags && recipe.tags.some(tag =>
-      tag.toLowerCase().includes('cheese') ||
-      tag.toLowerCase() === 'cheesemaking'
-    )) {
+    // 1. Check milk_substitutions field (explicit marker)
+    if (recipe.milk_substitutions && recipe.milk_substitutions.enabled) {
       return true;
     }
 
-    // Check title
-    if (recipe.title && recipe.title.toLowerCase().includes('cheese')) {
-      return true;
-    }
-
-    // Check category
+    // 2. Check category
     if (recipe.category && recipe.category.toLowerCase() === 'cheese') {
       return true;
     }
 
-    // Check ingredients for cheese-making indicators
+    // 3. Check tags for cheesemaking indicators
+    if (recipe.tags) {
+      const tagsLower = recipe.tags.map(t => t.toLowerCase());
+      if (CHEESEMAKING_TAGS.some(tag => tagsLower.includes(tag))) {
+        return true;
+      }
+    }
+
+    // 4. Check title for cheese keywords
+    if (recipe.title) {
+      const titleLower = recipe.title.toLowerCase();
+
+      // First check if it's a recipe that USES cheese (not makes it)
+      if (CHEESE_EXCLUDE_PATTERNS.some(p => titleLower.includes(p))) {
+        return false;
+      }
+
+      // Check for cheese-related keywords in title
+      if (CHEESE_KEYWORDS_TITLE.some(kw => titleLower.includes(kw))) {
+        // Verify with ingredients if available
+        if (recipe.ingredients) {
+          const hasRennet = recipe.ingredients.some(ing =>
+            RENNET_KEYWORDS.some(kw => ing.item.toLowerCase().includes(kw))
+          );
+          const hasMilk = recipe.ingredients.some(ing =>
+            MILK_KEYWORDS.some(kw => ing.item.toLowerCase().includes(kw))
+          );
+          const hasCulture = recipe.ingredients.some(ing =>
+            CULTURE_KEYWORDS.some(kw => ing.item.toLowerCase().includes(kw))
+          );
+
+          // Cheesemaking requires milk + (rennet OR culture OR acid)
+          if (hasMilk && (hasRennet || hasCulture)) {
+            return true;
+          }
+
+          // Check for acid coagulation (paneer, ricotta style)
+          const hasAcid = recipe.ingredients.some(ing => {
+            const item = ing.item.toLowerCase();
+            return item.includes('lemon juice') || item.includes('vinegar') ||
+                   item.includes('citric acid') || item.includes('tartaric');
+          });
+          if (hasMilk && hasAcid) {
+            return true;
+          }
+        }
+        // Title strongly suggests cheese, assume true
+        return true;
+      }
+    }
+
+    // 5. Check ingredients for cheese-making indicators
     if (recipe.ingredients) {
       const hasRennet = recipe.ingredients.some(ing =>
         RENNET_KEYWORDS.some(kw => ing.item.toLowerCase().includes(kw))
@@ -134,24 +218,39 @@ const MilkSubstitution = (function() {
       const hasMilk = recipe.ingredients.some(ing =>
         MILK_KEYWORDS.some(kw => ing.item.toLowerCase().includes(kw))
       );
+      const hasCulture = recipe.ingredients.some(ing =>
+        CULTURE_KEYWORDS.some(kw => ing.item.toLowerCase().includes(kw))
+      );
+
+      // Rennet + milk is definitive
       if (hasRennet && hasMilk) {
         return true;
+      }
+
+      // Culture + milk + curd-related instructions
+      if (hasCulture && hasMilk && recipe.instructions) {
+        const instructionsText = recipe.instructions.map(i => i.text || '').join(' ').toLowerCase();
+        if (instructionsText.includes('curd') || instructionsText.includes('drain') ||
+            instructionsText.includes('whey') || instructionsText.includes('coagul') ||
+            instructionsText.includes('strain') || instructionsText.includes('press')) {
+          return true;
+        }
       }
     }
 
     return false;
   }
 
-  // Milk type detection keywords
+  // Milk type detection keywords (expanded for international recipes)
   const MILK_TYPE_KEYWORDS = {
-    sheep: ['sheep', "sheep's", 'ewe', 'ovine'],
-    goat: ['goat', "goat's", 'caprine'],
-    buffalo: ['buffalo', 'water buffalo', "buffalo's", 'bubalus'],
-    camel: ['camel', "camel's", 'dromedary'],
-    yak: ['yak', "yak's"],
-    mare: ['mare', 'horse', "mare's", 'equine'],
-    donkey: ['donkey', "donkey's", 'ass', 'jenny'],
-    reindeer: ['reindeer', "reindeer's", 'caribou'],
+    sheep: ['sheep', "sheep's", 'ewe', 'ovine', 'pecora', 'brebis', 'oveja', 'schaf'],
+    goat: ['goat', "goat's", 'caprine', 'chevre', 'chèvre', 'cabra', 'ziege', 'capra'],
+    buffalo: ['buffalo', 'water buffalo', "buffalo's", 'bubalus', 'bufala', 'búfala'],
+    camel: ['camel', "camel's", 'dromedary', 'chameau', 'camello'],
+    yak: ['yak', "yak's", 'dri'],
+    mare: ['mare', 'horse', "mare's", 'equine', 'jument'],
+    donkey: ['donkey', "donkey's", 'ass', 'jenny', 'âne', 'burro'],
+    reindeer: ['reindeer', "reindeer's", 'caribou', 'renne', 'reno'],
     llama: ['llama', "llama's"],
     alpaca: ['alpaca', "alpaca's"]
   };
@@ -593,6 +692,182 @@ const MilkSubstitution = (function() {
     blended.cholesterol_mg = Math.round(blended.cholesterol_mg);
 
     return blended;
+  }
+
+  /**
+   * Estimate how milk substitution will affect flavor, texture, and results
+   * @param {string} originalMilk - The milk type the recipe was designed for
+   * @returns {Object} Estimation of changes in flavor, texture, yield, and recommendations
+   */
+  function getSubstitutionImpact(originalMilk = 'cow') {
+    if (!substitutionData) return null;
+
+    const originalInfo = substitutionData.milk_types?.[originalMilk];
+    const blendedInfo = getBlendedMilkInfo();
+    if (!originalInfo || !blendedInfo) return null;
+
+    const impact = {
+      flavorChanges: [],
+      textureChanges: [],
+      yieldChange: 'same',
+      yieldPercent: 100,
+      processingNotes: [],
+      overallAssessment: 'similar',
+      recommendations: []
+    };
+
+    // Calculate yield difference
+    const yieldRatio = blendedInfo.cheese_yield_per_gallon_lb / originalInfo.cheese_yield_per_gallon_lb;
+    impact.yieldPercent = Math.round(yieldRatio * 100);
+    if (yieldRatio > 1.15) {
+      impact.yieldChange = 'higher';
+      impact.textureChanges.push(`Expect ~${impact.yieldPercent - 100}% more cheese yield`);
+    } else if (yieldRatio < 0.85) {
+      impact.yieldChange = 'lower';
+      impact.textureChanges.push(`Expect ~${100 - impact.yieldPercent}% less cheese yield`);
+    }
+
+    // Analyze fat content changes
+    const fatDiff = blendedInfo.fat_percent - originalInfo.fat_percent;
+    if (fatDiff > 1.5) {
+      impact.flavorChanges.push('Richer, more buttery flavor');
+      impact.textureChanges.push('Creamier, softer texture');
+    } else if (fatDiff < -1.5) {
+      impact.flavorChanges.push('Leaner, less rich flavor');
+      impact.textureChanges.push('Firmer, drier texture');
+    }
+
+    // Analyze protein content changes
+    const proteinDiff = blendedInfo.protein_percent - originalInfo.protein_percent;
+    if (proteinDiff > 1) {
+      impact.textureChanges.push('Firmer curds, better structure');
+    } else if (proteinDiff < -1) {
+      impact.textureChanges.push('Softer curds, more delicate handling needed');
+    }
+
+    // Collect flavor profiles from the blend
+    const blendFlavors = new Set(blendedInfo.flavor_profile || []);
+    const originalFlavors = new Set(originalInfo.flavor_profile || []);
+
+    // New flavors being introduced
+    for (const flavor of blendFlavors) {
+      if (!originalFlavors.has(flavor)) {
+        impact.flavorChanges.push(`Added ${flavor} notes`);
+      }
+    }
+
+    // Flavors being lost
+    for (const flavor of originalFlavors) {
+      if (!blendFlavors.has(flavor)) {
+        impact.flavorChanges.push(`Reduced ${flavor} character`);
+      }
+    }
+
+    // Specific milk type impacts
+    if (milkRatios.goat >= 25) {
+      if (originalMilk !== 'goat') {
+        impact.flavorChanges.push('Tangy, earthy notes from goat milk');
+        impact.processingNotes.push('Goat milk curds are fragile - handle gently');
+        impact.recommendations.push('Cut curds larger than usual to prevent shattering');
+      }
+    }
+
+    if (milkRatios.sheep >= 25) {
+      if (originalMilk !== 'sheep') {
+        impact.flavorChanges.push('Rich, nutty, slightly gamy notes from sheep milk');
+        impact.textureChanges.push('Higher yield and creamier mouthfeel');
+        impact.processingNotes.push('Sheep milk coagulates faster - watch timing');
+      }
+      if (milkRatios.sheep >= 50) {
+        impact.recommendations.push('Reduce or omit calcium chloride (sheep milk is calcium-rich)');
+      }
+    }
+
+    if (milkRatios.cow >= 75 && originalMilk !== 'cow') {
+      impact.flavorChanges.push('Milder, more neutral flavor profile');
+    }
+
+    // Coagulation speed changes
+    if (blendedInfo.coagulation_speed !== originalInfo.coagulation_speed) {
+      const speeds = { slowest: 1, standard: 2, faster: 3, fastest: 4 };
+      const origSpeed = speeds[originalInfo.coagulation_speed] || 2;
+      const newSpeed = speeds[blendedInfo.coagulation_speed] || 2;
+
+      if (newSpeed > origSpeed) {
+        impact.processingNotes.push(`Coagulation will be ${blendedInfo.coagulation_speed} (watch timing)`);
+        impact.recommendations.push('Start checking for clean break earlier than recipe states');
+      } else if (newSpeed < origSpeed) {
+        impact.processingNotes.push(`Coagulation will be ${blendedInfo.coagulation_speed}`);
+        impact.recommendations.push('Allow extra time for curd formation');
+      }
+    }
+
+    // Exotic milk substitution special notes
+    if (!isAvailableMilkType(originalMilk)) {
+      const exoticInfo = substitutionData.milk_types?.[originalMilk];
+      if (exoticInfo?.substitute_notes) {
+        impact.recommendations.push(exoticInfo.substitute_notes);
+      }
+
+      // Special case for very different milks
+      if (originalMilk === 'buffalo' && milkRatios.sheep < 50) {
+        impact.recommendations.push('For authentic mozzarella stretch, sheep milk closest to buffalo richness');
+      }
+      if (originalMilk === 'reindeer') {
+        impact.recommendations.push('Reindeer milk is extremely rich (22% fat) - your cheese will be much leaner');
+        impact.processingNotes.push('Consider adding cream to approximate reindeer milk richness');
+      }
+      if (originalMilk === 'camel') {
+        impact.processingNotes.push('Camel milk requires special techniques - cow milk substitution simplifies process');
+      }
+    }
+
+    // Overall assessment
+    const totalChanges = impact.flavorChanges.length + impact.textureChanges.length;
+    if (totalChanges === 0) {
+      impact.overallAssessment = 'very_similar';
+    } else if (totalChanges <= 2) {
+      impact.overallAssessment = 'similar';
+    } else if (totalChanges <= 4) {
+      impact.overallAssessment = 'noticeably_different';
+    } else {
+      impact.overallAssessment = 'significantly_different';
+    }
+
+    // If no changes detected, add a default message
+    if (impact.flavorChanges.length === 0) {
+      impact.flavorChanges.push('Flavor profile will be similar to original');
+    }
+    if (impact.textureChanges.length === 0) {
+      impact.textureChanges.push('Texture will be similar to original');
+    }
+
+    return impact;
+  }
+
+  /**
+   * Get human-readable summary of substitution impact
+   */
+  function getImpactSummary(originalMilk = 'cow') {
+    const impact = getSubstitutionImpact(originalMilk);
+    if (!impact) return null;
+
+    const assessmentLabels = {
+      very_similar: 'Results will be very similar to the original recipe',
+      similar: 'Results will be similar with minor differences',
+      noticeably_different: 'Expect noticeable differences in flavor and texture',
+      significantly_different: 'Results will be quite different from original'
+    };
+
+    return {
+      summary: assessmentLabels[impact.overallAssessment],
+      flavor: impact.flavorChanges.join('. '),
+      texture: impact.textureChanges.join('. '),
+      yield: impact.yieldChange === 'same' ? 'Similar yield' :
+             `${impact.yieldChange === 'higher' ? 'Higher' : 'Lower'} yield (~${impact.yieldPercent}% of original)`,
+      tips: impact.recommendations.length > 0 ? impact.recommendations : ['No special adjustments needed'],
+      processingNotes: impact.processingNotes
+    };
   }
 
   /**
@@ -1163,7 +1438,7 @@ const MilkSubstitution = (function() {
   }
 
   /**
-   * Render milk type info panel
+   * Render milk type info panel with impact assessment
    */
   function renderMilkInfo() {
     const blended = getBlendedMilkInfo();
@@ -1175,6 +1450,9 @@ const MilkSubstitution = (function() {
         const info = substitutionData.milk_types[type];
         return `${ratio}% ${info.name}`;
       }).join(' + ');
+
+    // Get impact assessment
+    const impact = getImpactSummary(originalMilkType);
 
     return `
       <div class="milk-blend-header">
@@ -1199,6 +1477,48 @@ const MilkSubstitution = (function() {
           <span class="milk-info-value">${blended.coagulation_speed}</span>
         </div>
       </div>
+
+      ${impact ? `
+        <div class="milk-impact-assessment">
+          <div class="impact-header">
+            <strong>Expected Results:</strong>
+            <span class="impact-summary">${impact.summary}</span>
+          </div>
+
+          <div class="impact-details">
+            <div class="impact-section">
+              <span class="impact-label">Flavor:</span>
+              <span class="impact-value">${impact.flavor}</span>
+            </div>
+            <div class="impact-section">
+              <span class="impact-label">Texture:</span>
+              <span class="impact-value">${impact.texture}</span>
+            </div>
+            <div class="impact-section">
+              <span class="impact-label">Yield:</span>
+              <span class="impact-value">${impact.yield}</span>
+            </div>
+          </div>
+
+          ${impact.tips.length > 0 && impact.tips[0] !== 'No special adjustments needed' ? `
+            <div class="impact-tips">
+              <strong>Tips:</strong>
+              <ul class="impact-tips-list">
+                ${impact.tips.map(tip => `<li>${tip}</li>`).join('')}
+              </ul>
+            </div>
+          ` : ''}
+
+          ${impact.processingNotes.length > 0 ? `
+            <div class="impact-processing">
+              <strong>Processing Notes:</strong>
+              <ul class="impact-notes-list">
+                ${impact.processingNotes.map(note => `<li>${note}</li>`).join('')}
+              </ul>
+            </div>
+          ` : ''}
+        </div>
+      ` : ''}
 
       ${blended.flavor_profile.length > 0 ? `
         <div class="milk-flavor-notes">
@@ -1353,6 +1673,8 @@ const MilkSubstitution = (function() {
     convertFromCups,
     getBlendedMilkInfo,
     getBlendedNutrition,
+    getSubstitutionImpact,
+    getImpactSummary,
     isAvailableMilkType,
     isExoticMilkType,
     getRecommendedSubstitute,

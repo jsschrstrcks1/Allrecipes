@@ -2234,6 +2234,86 @@ body {
   color: #1565c0;
 }
 
+/* Impact Assessment Panel */
+.milk-impact-assessment {
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  margin: var(--spacing-md) 0;
+  border: 1px solid #81c784;
+  border-left: 4px solid #4caf50;
+}
+
+.impact-header {
+  margin-bottom: var(--spacing-sm);
+}
+
+.impact-header strong {
+  color: #2e7d32;
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.impact-summary {
+  font-size: 0.9rem;
+  color: #1b5e20;
+  font-style: italic;
+}
+
+.impact-details {
+  display: grid;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+}
+
+.impact-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.impact-label {
+  font-weight: 600;
+  color: #388e3c;
+  font-size: 0.85rem;
+  min-width: 60px;
+}
+
+.impact-value {
+  font-size: 0.85rem;
+  color: #33691e;
+  flex: 1;
+}
+
+.impact-tips,
+.impact-processing {
+  margin-top: var(--spacing-sm);
+  padding-top: var(--spacing-sm);
+  border-top: 1px dashed #a5d6a7;
+}
+
+.impact-tips strong,
+.impact-processing strong {
+  color: #2e7d32;
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.impact-tips-list,
+.impact-notes-list {
+  margin: 0;
+  padding-left: var(--spacing-md);
+  font-size: 0.8rem;
+  color: #33691e;
+}
+
+.impact-tips-list li,
+.impact-notes-list li {
+  margin-bottom: 2px;
+}
+
 .milk-sub-warnings {
   margin-top: var(--spacing-sm);
 }
