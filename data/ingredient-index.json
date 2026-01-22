@@ -2,8 +2,8 @@
   "meta": {
     "title": "Ingredient Index",
     "description": "Index of ingredients mapped to recipes",
-    "total_ingredients": 10133,
-    "total_recipes": 5485,
+    "total_ingredients": 10204,
+    "total_recipes": 5621,
     "last_updated": "2026-01-22",
     "version": "1.0.0"
   },
@@ -44077,9 +44077,10 @@
       "variants": [
         "aleppo pepper or paprika"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
-        "labneh-dip"
+        "labneh-dip",
+        "lebanese-shanklish"
       ]
     },
     {
@@ -45051,10 +45052,13 @@
     {
       "ingredient": "annatto coloring",
       "variants": [
-        "annatto coloring"
+        "annatto coloring",
+        "annatto coloring (optional)"
       ],
-      "recipe_count": 20,
+      "recipe_count": 22,
       "recipe_ids": [
+        "american-colby",
+        "british-double-gloucester",
         "british-gloucester",
         "british-red-leicester",
         "british-shropshire-blue",
@@ -45378,6 +45382,16 @@
       ]
     },
     {
+      "ingredient": "applewood chip",
+      "variants": [
+        "applewood chips"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "mozzarella-smoked-applewood"
+      ]
+    },
+    {
       "ingredient": "appropriate culture",
       "variants": [
         "appropriate culture"
@@ -45668,12 +45682,13 @@
         "dried apricots",
         "fresh apricots"
       ],
-      "recipe_count": 7,
+      "recipe_count": 8,
       "recipe_ids": [
         "apricot-and-raisin-marmalade-scottsnort",
         "apricot-sauce-ancients",
         "apricot-scones",
         "apricot-scones-ref",
+        "apricot-stilton",
         "magnasco-edam-wine-crackers",
         "mixed-fruit-preserves-gutenberg",
         "rice-krispies-nutty-butterscotch-squares"
@@ -45758,6 +45773,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "spiced-fruit-nut-granola-truvia"
+      ]
+    },
+    {
+      "ingredient": "apricots, finely diced",
+      "variants": [
+        "dried apricots, finely diced"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "blue-stilton-apricot"
       ]
     },
     {
@@ -48186,6 +48211,16 @@
       ]
     },
     {
+      "ingredient": "belgian abbey ale",
+      "variants": [
+        "belgian abbey ale"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "beer-washed-cheese"
+      ]
+    },
+    {
       "ingredient": "belgian endive",
       "variants": [
         "belgian endive"
@@ -48203,6 +48238,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "belgian-chimay"
+      ]
+    },
+    {
+      "ingredient": "belgian-style abbey ale",
+      "variants": [
+        "belgian-style abbey ale"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "belgium-chimay-trappist"
       ]
     },
     {
@@ -48635,7 +48680,7 @@
         "fresh ground black pepper",
         "ground black pepper"
       ],
-      "recipe_count": 63,
+      "recipe_count": 64,
       "recipe_ids": [
         "albuquerque-turkey",
         "arayes-stuffed-pitas-tahini-ref",
@@ -48660,6 +48705,7 @@
         "flank-steak-cucumber-pepperoncini-relish",
         "focaccia-bread",
         "for-four-to-six-as-a-side-dish-goodandche",
+        "garlic-herb-boursin-style",
         "grape-turkey-chili",
         "gravlax-with-the-works",
         "hash-brown-casserole",
@@ -48718,12 +48764,23 @@
         "black peppercorns",
         "whole black peppercorns"
       ],
-      "recipe_count": 4,
+      "recipe_count": 5,
       "recipe_ids": [
+        "black-pepper-pecorino",
         "cacio-e-pepe",
         "pepper-jack-cheese",
         "reddit-16th-century-vindaloo",
         "traditional-canestrato-sicilian"
+      ]
+    },
+    {
+      "ingredient": "black peppercorns, cracked",
+      "variants": [
+        "whole black peppercorns, cracked"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "pecorino-peppercorn-black"
       ]
     },
     {
@@ -48734,6 +48791,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "lebanese-style-cookies"
+      ]
+    },
+    {
+      "ingredient": "black truffle piec",
+      "variants": [
+        "black truffle pieces"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cheddar-truffle-black"
       ]
     },
     {
@@ -50227,16 +50294,22 @@
         "brevibacterium linens",
         "brevibacterium linens (washed rind culture)"
       ],
-      "recipe_count": 46,
+      "recipe_count": 56,
       "recipe_ids": [
         "alpine-washed-rind-cheese",
+        "american-brick-cheese",
         "austrian-moosbacher",
+        "beer-washed-cheese",
         "belgian-chimay",
         "belgian-herve",
+        "belgium-chimay-trappist",
         "brick-cheese",
         "british-stinking-bishop",
         "canadian-oka",
         "chimay-classic",
+        "cider-washed-cheese",
+        "epoisses-burgundy",
+        "epoisses-marc-burgundy",
         "french-epoisses",
         "french-langres",
         "french-livarot",
@@ -50248,20 +50321,24 @@
         "german-tilsit",
         "irish-gubbeen",
         "italian-taleggio",
+        "italian-taleggio-dop",
         "italico-cheese",
         "lgc-tilsit",
         "limburger-cheese",
         "livarot-cheese",
+        "mead-washed-cheese",
         "muenster-cheese",
         "orval",
         "pont-leveque-cheese",
         "port-salut",
+        "port-salut-wine-washed",
         "queso-mar-del-plata",
         "reblochon-cheese",
         "sheep-milk-limburger",
         "sheep-milk-muenster",
         "sheep-milk-reblochon",
         "sheep-milk-taleggio",
+        "swiss-vacherin-mont-dor",
         "taleggio-cheese",
         "traditional-brick-cheese-wisconsin",
         "traditional-epoisses-burgundy",
@@ -50334,9 +50411,10 @@
         "brine",
         "brine (1 liter water + 2 tbsp salt)"
       ],
-      "recipe_count": 8,
+      "recipe_count": 9,
       "recipe_ids": [
         "chaumes",
+        "epoisses-burgundy",
         "lgc-parmesan",
         "livarot",
         "munster",
@@ -50763,10 +50841,12 @@
       "ingredient": "buffalo milk",
       "variants": [
         "buffalo milk",
-        "whole buffalo milk"
+        "whole buffalo milk",
+        "whole buffalo milk (or whole cow's milk)"
       ],
-      "recipe_count": 6,
+      "recipe_count": 7,
       "recipe_ids": [
+        "indian-kalari-cheese",
         "mozzarella-bufala-affumicata",
         "mozzarella-bufala-dop",
         "mozzarella-di-bufala-campana",
@@ -50814,6 +50894,16 @@
       "recipe_ids": [
         "chakka",
         "dacca-paneer"
+      ]
+    },
+    {
+      "ingredient": "bulgarian yogurt",
+      "variants": [
+        "bulgarian yogurt (for culture)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "bulgarian-sirene"
       ]
     },
     {
@@ -51499,6 +51589,16 @@
       ]
     },
     {
+      "ingredient": "butter for caramelizing",
+      "variants": [
+        "butter for caramelizing"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cheddar-caramelized-onion"
+      ]
+    },
+    {
       "ingredient": "butter for sautéing",
       "variants": [
         "butter for sautéing"
@@ -52030,9 +52130,11 @@
       "ingredient": "buttermilk",
       "variants": [
         "buttermilk",
+        "buttermilk (from churning butter)",
+        "buttermilk (or whole milk with lemon)",
         "buttermilk (to thin)"
       ],
-      "recipe_count": 90,
+      "recipe_count": 94,
       "recipe_ids": [
         "african-ayib",
         "almond-pancakes-ref",
@@ -52067,8 +52169,11 @@
         "devil-cake-oursisters",
         "duntovs-blue-cheese-dressing",
         "dutch-leyden",
+        "dutch-leyden-cumin",
         "dutch-oven-biscuits-dutchovenc",
+        "ethiopian-ayib",
         "farmers-cheese",
+        "finnish-leipajuusto",
         "french-cancoillotte",
         "fudgy-chocolate-layer-cake-gahb",
         "german-chocolate-cake-coconut-pecan-cajeta-frosting",
@@ -52089,6 +52194,7 @@
         "mohi",
         "monkey-pancakes",
         "monkey-pancakes-ref",
+        "nepali-chhurpi-hard",
         "old-time-cinnamon-jumbles-betty-crocker",
         "peaches-and-cream-waffles",
         "peaches-cream-waffles-ref",
@@ -54018,7 +54124,7 @@
         "calcium chloride (if using pasteurized)",
         "calcium chloride (optional, if using pasteurized)"
       ],
-      "recipe_count": 842,
+      "recipe_count": 932,
       "recipe_ids": [
         "18th-century-farmhouse-cheddar",
         "aaruul",
@@ -54028,30 +54134,39 @@
         "adelost",
         "aged-manchego-12-month",
         "aged-manchego-18-month",
+        "aged-provolone-giant-mandarone",
         "akkawi",
         "allgauer-bergkase",
         "allgauer-emmentaler",
         "alpine-tomme-cheese",
         "alpine-washed-rind-cheese",
         "amarelo-da-beira-baixa-dop",
+        "american-brick-cheese",
+        "american-colby",
         "andante-dairy-minuet",
         "anevato-pdo",
         "appenzeller",
         "appenzeller-cheese",
+        "apricot-stilton",
         "argentine-magnasco-edam",
         "argentine-provoleta",
         "argentine-provoleta-small-batch",
         "argentine-reggianito",
         "argentine-sardo",
+        "argentinian-provoleta",
+        "armenian-chechil",
         "asiago-cheese",
         "asiago-d-allevo",
         "asiago-fresco-style",
         "asiago-mezzano",
         "asiago-pressato",
+        "asiago-red-pepper",
         "asiago-stravecchio",
         "asiago-vecchio",
         "australian-cheddar",
         "australian-cheddar-small-batch",
+        "australian-milawa-blue",
+        "austrian-bergkase",
         "austrian-moosbacher",
         "ayib-plain",
         "bagoss",
@@ -54063,15 +54178,18 @@
         "beaufort-ete",
         "beemster",
         "beer-infused-cheese",
+        "beer-washed-cheese",
         "belgian-chimay",
         "belgian-herve",
         "belgian-passendale",
         "belgian-wynendale",
+        "belgium-chimay-trappist",
         "belloslavenski-beli-sir",
         "bergader-edelpilz",
         "berkswell-style",
         "berner-alpkase-aop",
         "berner-hobelkase-aop",
+        "black-pepper-pecorino",
         "bleu-d-auvergne",
         "bleu-dauvergne-cheese",
         "bleu-de-bresse-style",
@@ -54083,30 +54201,39 @@
         "bleu-du-vercors-sassenage-aop",
         "blue-by-you-cheese",
         "blue-castello",
+        "blue-stilton-apricot",
         "blue-vein-aura",
         "bocconcini",
         "bouhezza",
         "boulette-d-avesnes",
         "bouq-emissaire",
         "bouton-de-culotte",
+        "brazilian-queijo-coalho",
         "brick-cheese",
         "brie-cheese",
+        "brie-cranberry",
         "brie-double-cream",
         "brie-triple-cream",
+        "brie-truffle-white",
         "brinza",
         "british-caerphilly",
         "british-cheddar-traditional",
         "british-cheshire",
+        "british-cornish-yarg",
+        "british-derby-sage",
+        "british-double-gloucester",
         "british-gloucester",
         "british-lancashire",
         "british-red-leicester",
         "british-shropshire-blue",
         "british-stilton",
+        "british-stilton-blue",
         "british-stinking-bishop",
         "british-wensleydale",
         "brocciu-aop",
         "brousse-du-rove",
         "bryndza",
+        "bulgarian-sirene",
         "bundnerfleisch-style-cheese",
         "bundz",
         "burrata",
@@ -54123,8 +54250,10 @@
         "cacioricotta",
         "caerphilly",
         "caerphilly-cheese",
+        "calvados-washed-camembert",
         "camblu-cheese",
         "cambozola",
+        "camel-cheese-mauritania",
         "camembert-cheese",
         "camembert-normandy",
         "canadian-oka",
@@ -54139,6 +54268,7 @@
         "casera-dpo",
         "casin-dop",
         "castelo-branco-dop",
+        "cave-aged-gruyere",
         "cebreiro-dop",
         "cf-appenzeller-swiss",
         "cf-cheddasiago",
@@ -54161,9 +54291,14 @@
         "cheddar-9-month",
         "cheddar-bacon",
         "cheddar-beer",
+        "cheddar-caramelized-onion",
         "cheddar-cheese",
+        "cheddar-chipotle",
         "cheddar-port",
+        "cheddar-porter-beer",
         "cheddar-sage",
+        "cheddar-truffle-black",
+        "cheddar-vintage-24-month",
         "cheese-curds",
         "cheesemaking-emmental-swiss",
         "cheesemaking-gouda",
@@ -54191,6 +54326,7 @@
         "chhurpi-soft",
         "chimay-beer-washed",
         "chimay-classic",
+        "cider-washed-cheese",
         "ciliegine",
         "clochette",
         "coeur-de-neufchatel",
@@ -54206,6 +54342,7 @@
         "cottage-cheese-dry-curd",
         "coulommiers",
         "cowgirl-creamery-mt-tam",
+        "cranberry-wensleydale",
         "cream-cheese",
         "crescenza",
         "crescenza-cheese",
@@ -54215,15 +54352,19 @@
         "crowdie",
         "cultured-mozzarella",
         "cumberland-farmhouse",
+        "cumin-gouda",
         "cypress-grove-humboldt-fog",
         "dacca-paneer",
         "dairines",
         "danbo",
         "danbo-cheese",
         "danish-blue",
+        "danish-blue-cheese",
         "danish-blue-extra-mature",
         "danish-blue-mild",
+        "date-gouda",
         "dauphin",
+        "dill-havarti",
         "djben",
         "domiati",
         "dorset-blue-vinny",
@@ -54231,9 +54372,12 @@
         "dunbarton-blue",
         "dunlop",
         "dunlop-cheese",
+        "dutch-aged-gouda-48",
         "dutch-edam",
+        "dutch-edam-traditional",
         "dutch-gouda",
         "dutch-leyden",
+        "dutch-leyden-cumin",
         "dutch-maasdam",
         "eastern-european-kurpianka",
         "eastern-european-podlaski",
@@ -54251,6 +54395,8 @@
         "epoisses-affine",
         "epoisses-affine-marc",
         "epoisses-aop",
+        "epoisses-burgundy",
+        "epoisses-marc-burgundy",
         "erivan",
         "erzincan-tulum",
         "evora-dop",
@@ -54258,6 +54404,7 @@
         "fairview-blue-tower",
         "farmers-cheese-style",
         "farmstead-cheese",
+        "fenugreek-gouda",
         "feta-cheese",
         "feta-herbs",
         "feta-sun-dried-tomato",
@@ -54283,11 +54430,14 @@
         "french-beaufort",
         "french-bleu-dauvergne",
         "french-brie",
+        "french-brie-de-meaux",
         "french-brillat-savarin",
         "french-camembert",
+        "french-camembert-normandie",
         "french-cantal",
         "french-chaource",
         "french-comte",
+        "french-comte-gruyere",
         "french-crottin-de-chavignol",
         "french-epoisses",
         "french-fourme-dambert",
@@ -54300,6 +54450,7 @@
         "french-ossau-iraty",
         "french-pont-leveque",
         "french-reblochon",
+        "french-roquefort",
         "french-roquefort-style",
         "french-saint-nectaire",
         "french-sainte-maure-de-touraine",
@@ -54344,15 +54495,22 @@
         "gouda-boerenkaas",
         "gouda-cheese",
         "gouda-cumin",
+        "gouda-cumin-dutch",
+        "gouda-lavender",
         "gouda-met-kruiden",
+        "gouda-mustard-seed",
+        "gouda-overjarig-48-month",
         "grana-padano-riserva",
+        "grappa-washed-cheese",
         "graskaas",
         "graviera-crete",
         "graviera-naxos",
         "grayson-style",
         "greek-feta",
         "greek-graviera",
+        "greek-graviera-crete",
         "greek-kasseri",
+        "greek-kefalograviera",
         "greek-kefalotyri",
         "gres-des-vosges",
         "gruyere-francais",
@@ -54360,13 +54518,16 @@
         "gruyere-premier-cru",
         "gruyere-reserve-18m",
         "gruyere-vieux",
+        "gruyere-wild-garlic",
         "guda",
         "gudbrandsdalsost",
         "halloumi-traditional",
         "handkase",
         "harzer",
         "havarti-cheese",
+        "hazelnut-toma",
         "herve",
+        "hickory-smoked-cheddar",
         "hispanico-cheese",
         "hokkaido-gouda",
         "iberico",
@@ -54375,6 +54536,7 @@
         "imeruli",
         "irish-cashel-blue",
         "irish-coolea",
+        "irish-coolea-gouda",
         "irish-dubliner",
         "irish-gubbeen",
         "isle-of-mull-cheddar",
@@ -54382,12 +54544,15 @@
         "italian-caciocavallo",
         "italian-fontina",
         "italian-gorgonzola",
+        "italian-grana-padano",
         "italian-parmigiano-reggiano",
         "italian-pecorino-romano",
         "italian-pecorino-sardo",
         "italian-provolone",
+        "italian-provolone-piccante",
         "italian-stracchino",
         "italian-taleggio",
+        "italian-taleggio-dop",
         "italico-cheese",
         "jack-habanero",
         "jack-jalapeno",
@@ -54478,6 +54643,8 @@
         "manchego-curado",
         "manchego-fresco-new",
         "manchego-gran-reserva",
+        "manchego-gran-reserva-18-month",
+        "manchego-paprika-smoked",
         "manchego-semicurado-4m",
         "manchego-sheep-milk",
         "manchego-viejo",
@@ -54490,8 +54657,10 @@
         "maroilles-vieux",
         "mascarpone-style",
         "maytag-style",
+        "mead-washed-cheese",
         "meredith-marinated-feta",
         "mexican-cotija",
+        "mexican-queso-de-bola",
         "mg-gouda-cheese",
         "mihalic-peyniri",
         "mimolette",
@@ -54517,8 +54686,10 @@
         "mycella",
         "myzithra-aged",
         "nabulsi",
+        "nettle-gouda",
         "neufchatel-aop",
         "nevat",
+        "new-zealand-kapiti-blue",
         "newzealand-blue",
         "nguri",
         "nodini",
@@ -54549,11 +54720,14 @@
         "parmigiano-stravecchio",
         "passendale",
         "payoyo",
+        "pecan-cheddar",
         "pecorino-alle-noci",
         "pecorino-fresco",
         "pecorino-gran-riserva",
         "pecorino-pepato",
+        "pecorino-peppercorn-black",
         "pecorino-romano-authentic",
+        "pecorino-saffron",
         "pecorino-sardo",
         "pecorino-semi-stagionato",
         "pecorino-stagionato",
@@ -54561,6 +54735,7 @@
         "pecorino-toscano-fresco",
         "pecorino-toscano-stagionato",
         "pecorino-ubriaco",
+        "pecorino-walnut",
         "pepper-jack-cheese",
         "pere-joseph",
         "perline",
@@ -54575,6 +54750,7 @@
         "pont-leveque-cheese",
         "port-salut",
         "port-salut-cheese",
+        "port-salut-wine-washed",
         "pot-cheese-style",
         "pouligny-saint-pierre-affine",
         "pouligny-saint-pierre-aop",
@@ -54656,9 +54832,11 @@
         "roquefort-black-label",
         "roquefort-style-blue-sheep-milk",
         "roquefort-style-cheese",
+        "rosemary-manchego",
         "rubing",
         "rushan",
         "saga-blue",
+        "sage-derby",
         "saint-marcellin-igp",
         "saint-nectaire",
         "saint-nectaire-cheese",
@@ -54676,6 +54854,7 @@
         "scandinavian-jarlsberg",
         "schiz-cheese",
         "schlierbacher",
+        "scottish-dunlop",
         "secondo-sale",
         "selles-sur-cher-affine",
         "serpa",
@@ -54689,6 +54868,8 @@
         "shropshire-blue-cheese",
         "single-gloucester",
         "sirene",
+        "smoked-blue-cheese",
+        "smoked-brie",
         "smoked-caciocavallo",
         "smoked-cheddar",
         "smoked-cheddar-applewood",
@@ -54701,18 +54882,25 @@
         "smoked-gruyere-style",
         "smoked-halloumi",
         "smoked-havarti",
+        "smoked-idiazabal",
+        "smoked-jack-cheese",
         "smoked-mozzarella",
         "smoked-mozzarella-light",
         "smoked-provola-affumicata",
         "smoked-provolone",
+        "smoked-scamorza",
+        "smoked-swiss-emmental",
         "sottocenere",
         "spanish-blue-cheese",
         "spanish-cabrales",
+        "spanish-cabrales-blue",
         "spanish-idiazabal",
         "spanish-mahon",
         "spanish-manchego",
+        "spanish-manchego-artesano",
         "spanish-roncal",
         "spanish-tetilla",
+        "spanish-valdeon",
         "sparkenhoe-red-leicester",
         "spressa-delle-giudicarie-dop",
         "stilton-apricot",
@@ -54724,14 +54912,19 @@
         "sulguni-smoked",
         "svecia",
         "swaledale",
+        "swedish-vasterbotten",
         "swiss-appenzeller",
         "swiss-baby-swiss-cheese",
         "swiss-emmental",
+        "swiss-emmental-classic",
         "swiss-raclette",
+        "swiss-raclette-valais",
         "swiss-sbrinz",
+        "swiss-sbrinz-hard",
         "swiss-style-emmental",
         "swiss-style-gruyere",
         "swiss-tete-de-moine",
+        "swiss-vacherin-mont-dor",
         "takammart",
         "taleggio",
         "taleggio-cheese",
@@ -54848,6 +55041,8 @@
         "vorarlberger-bergkase",
         "wara",
         "weisslacker",
+        "welsh-caerphilly-traditional",
+        "welsh-perl-las",
         "wensleydale",
         "wensleydale-cheese",
         "wensleydale-cranberry",
@@ -54855,6 +55050,7 @@
         "wensleydale-mango",
         "west-country-farmhouse-cheddar",
         "westmalle",
+        "whiskey-cheddar",
         "wine-infused-cheese",
         "winnimere-style",
         "woagashi",
@@ -55007,6 +55203,26 @@
       "recipe_ids": [
         "dateloaf-thewingold",
         "sweet-cream-cake-thewingold"
+      ]
+    },
+    {
+      "ingredient": "calvado",
+      "variants": [
+        "calvados"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "calvados-washed-camembert"
+      ]
+    },
+    {
+      "ingredient": "camel milk",
+      "variants": [
+        "camel milk"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "camel-cheese-mauritania"
       ]
     },
     {
@@ -55731,17 +55947,22 @@
       "variants": [
         "caraway seed",
         "caraway seed (optional)",
-        "caraway seeds"
+        "caraway seeds",
+        "caraway seeds (optional)"
       ],
-      "recipe_count": 12,
+      "recipe_count": 16,
       "recipe_ids": [
         "blackbread",
         "czech-olomoucke-tvaruzky",
+        "czech-olomoucky-tvaruzky",
         "dutch-leyden",
+        "dutch-leyden-cumin",
         "german-farmer-style-rye-bread",
         "hungarian-liptauer",
         "lgc-komijnekaas",
         "liptauer",
+        "milbenkase-mite-cheese",
+        "norwegian-gammelost",
         "swedish-yeast-bread-grandmas-molasses",
         "traditional-handkase-german",
         "traditional-harzer-german",
@@ -55802,6 +56023,16 @@
         "sheep-milk-torta-del-casar",
         "spanish-queso-de-la-serena",
         "spanish-torta-del-casar"
+      ]
+    },
+    {
+      "ingredient": "cardoon thistle flower",
+      "variants": [
+        "dried cardoon thistle flowers"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "portuguese-queijo-serra-estrela"
       ]
     },
     {
@@ -56883,12 +57114,32 @@
       ]
     },
     {
+      "ingredient": "cheese fly access",
+      "variants": [
+        "cheese fly access (piophila casei)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "casu-marzu-maggot"
+      ]
+    },
+    {
+      "ingredient": "cheese mit",
+      "variants": [
+        "cheese mites (tyrolichus casei)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "milbenkase-mite-cheese"
+      ]
+    },
+    {
       "ingredient": "cheese salt",
       "variants": [
         "cheese salt",
         "cheese salt (for brine)"
       ],
-      "recipe_count": 946,
+      "recipe_count": 1038,
       "recipe_ids": [
         "18th-century-farmhouse-cheddar",
         "30-minute-mozzarella",
@@ -56899,6 +57150,7 @@
         "adelost",
         "aged-manchego-12-month",
         "aged-manchego-18-month",
+        "aged-provolone-giant-mandarone",
         "akkawi",
         "akkawi-levantine",
         "allgauer-bergkase",
@@ -56906,25 +57158,33 @@
         "alpine-tomme-cheese",
         "alpine-washed-rind-cheese",
         "amarelo-da-beira-baixa-dop",
+        "american-brick-cheese",
+        "american-colby",
         "ancho-chile-gouda",
         "andante-dairy-minuet",
         "anevato-pdo",
         "appenzeller",
         "appenzeller-cheese",
+        "apricot-stilton",
         "argentine-magnasco-edam",
         "argentine-provoleta",
         "argentine-provoleta-small-batch",
         "argentine-reggianito",
         "argentine-sardo",
+        "argentinian-provoleta",
+        "armenian-chechil",
         "asiago-cheese",
         "asiago-d-allevo",
         "asiago-fresco-style",
         "asiago-mezzano",
         "asiago-pressato",
+        "asiago-red-pepper",
         "asiago-stravecchio",
         "asiago-vecchio",
         "australian-cheddar",
         "australian-cheddar-small-batch",
+        "australian-milawa-blue",
+        "austrian-bergkase",
         "austrian-moosbacher",
         "ayib-plain",
         "bagoss",
@@ -56936,11 +57196,13 @@
         "beaufort-ete",
         "beemster",
         "beer-infused-cheese",
+        "beer-washed-cheese",
         "belgian-capra",
         "belgian-chimay",
         "belgian-herve",
         "belgian-passendale",
         "belgian-wynendale",
+        "belgium-chimay-trappist",
         "belloslavenski-beli-sir",
         "berbere-gouda",
         "bergader-edelpilz",
@@ -56948,6 +57210,7 @@
         "berner-alpkase-aop",
         "berner-hobelkase-aop",
         "black-garlic-brie",
+        "black-pepper-pecorino",
         "bleu-d-auvergne",
         "bleu-dauvergne-cheese",
         "bleu-de-bresse-style",
@@ -56959,6 +57222,7 @@
         "bleu-du-vercors-sassenage-aop",
         "blue-by-you-cheese",
         "blue-castello",
+        "blue-stilton-apricot",
         "blue-vein-aura",
         "bocconcini",
         "bouhezza",
@@ -56966,26 +57230,34 @@
         "bouq-emissaire",
         "bourbon-washed-cheddar",
         "bouton-de-culotte",
+        "brazilian-queijo-coalho",
         "brazilian-queijo-minas",
         "brick-cheese",
         "brie-cheese",
+        "brie-cranberry",
         "brie-double-cream",
         "brie-triple-cream",
+        "brie-truffle-white",
         "brinza",
         "british-caerphilly",
         "british-cheddar-traditional",
         "british-cheshire",
+        "british-cornish-yarg",
+        "british-derby-sage",
+        "british-double-gloucester",
         "british-gloucester",
         "british-lancashire",
         "british-red-leicester",
         "british-shropshire-blue",
         "british-stilton",
+        "british-stilton-blue",
         "british-stinking-bishop",
         "british-wensleydale",
         "brocciu-aop",
         "brousse-du-rove",
         "bryndza",
         "bucheron",
+        "bulgarian-sirene",
         "bundnerfleisch-style-cheese",
         "bundz",
         "burrata",
@@ -57019,6 +57291,7 @@
         "casera-dpo",
         "casin-dop",
         "castelo-branco-dop",
+        "cave-aged-gruyere",
         "cebreiro-dop",
         "cf-cheddasiago",
         "chabichou-du-poitou-aop",
@@ -57040,9 +57313,14 @@
         "cheddar-9-month",
         "cheddar-bacon",
         "cheddar-beer",
+        "cheddar-caramelized-onion",
         "cheddar-cheese",
+        "cheddar-chipotle",
         "cheddar-port",
+        "cheddar-porter-beer",
         "cheddar-sage",
+        "cheddar-truffle-black",
+        "cheddar-vintage-24-month",
         "cheese-curds",
         "cheesemaking-emmental-swiss",
         "cheesemaking-gouda",
@@ -57071,6 +57349,7 @@
         "chimay-beer-washed",
         "chimay-classic",
         "chocolate-goat-cheese",
+        "cider-washed-cheese",
         "ciliegine",
         "clochette",
         "cn-blue-cheese",
@@ -57088,6 +57367,7 @@
         "cottage-cheese-dry-curd",
         "coulommiers",
         "cowgirl-creamery-mt-tam",
+        "cranberry-wensleydale",
         "crescenza",
         "crescenza-cheese",
         "croatian-paski-sir",
@@ -57097,15 +57377,19 @@
         "crowdie",
         "cultured-mozzarella",
         "cumberland-farmhouse",
+        "cumin-gouda",
         "cypress-grove-humboldt-fog",
         "dacca-paneer",
         "dairines",
         "danbo",
         "danbo-cheese",
         "danish-blue",
+        "danish-blue-cheese",
         "danish-blue-extra-mature",
         "danish-blue-mild",
+        "date-gouda",
         "dauphin",
+        "dill-havarti",
         "djben",
         "domiati",
         "dorset-blue-vinny",
@@ -57113,9 +57397,12 @@
         "dunbarton-blue",
         "dunlop",
         "dunlop-cheese",
+        "dutch-aged-gouda-48",
         "dutch-edam",
+        "dutch-edam-traditional",
         "dutch-gouda",
         "dutch-leyden",
+        "dutch-leyden-cumin",
         "dutch-maasdam",
         "eastern-european-kurpianka",
         "eastern-european-podlaski",
@@ -57134,6 +57421,7 @@
         "epoisses-affine",
         "epoisses-affine-marc",
         "epoisses-aop",
+        "epoisses-marc-burgundy",
         "erivan",
         "erzincan-tulum",
         "espresso-rubbed-cheddar",
@@ -57142,6 +57430,7 @@
         "fairview-blue-tower",
         "farmers-cheese-style",
         "farmstead-cheese",
+        "fenugreek-gouda",
         "feta-cheese",
         "feta-herbs",
         "feta-sun-dried-tomato",
@@ -57165,13 +57454,19 @@
         "fourme-de-montbrison",
         "french-abondance",
         "french-beaufort",
+        "french-beaufort-alpage",
         "french-bleu-dauvergne",
         "french-brie",
+        "french-brie-de-meaux",
         "french-brillat-savarin",
         "french-camembert",
+        "french-camembert-normandie",
         "french-cantal",
         "french-chaource",
+        "french-chevre-buchette",
         "french-comte",
+        "french-comte-gruyere",
+        "french-crottin-chavignol",
         "french-crottin-de-chavignol",
         "french-epoisses",
         "french-fourme-dambert",
@@ -57184,6 +57479,7 @@
         "french-ossau-iraty",
         "french-pont-leveque",
         "french-reblochon",
+        "french-roquefort",
         "french-roquefort-style",
         "french-saint-nectaire",
         "french-sainte-maure-de-touraine",
@@ -57231,15 +57527,22 @@
         "gouda-boerenkaas",
         "gouda-cheese",
         "gouda-cumin",
+        "gouda-cumin-dutch",
+        "gouda-lavender",
         "gouda-met-kruiden",
+        "gouda-mustard-seed",
+        "gouda-overjarig-48-month",
         "grana-padano-riserva",
+        "grappa-washed-cheese",
         "graskaas",
         "graviera-crete",
         "graviera-naxos",
         "grayson-style",
         "greek-feta",
         "greek-graviera",
+        "greek-graviera-crete",
         "greek-kasseri",
+        "greek-kefalograviera",
         "greek-kefalotyri",
         "greek-mizithra",
         "gres-des-vosges",
@@ -57249,6 +57552,7 @@
         "gruyere-premier-cru",
         "gruyere-reserve-18m",
         "gruyere-vieux",
+        "gruyere-wild-garlic",
         "guda",
         "gudbrandsdalsost",
         "habanero-cheddar",
@@ -57258,7 +57562,9 @@
         "harissa-goat-cheese",
         "harzer",
         "havarti-cheese",
+        "hazelnut-toma",
         "herve",
+        "hickory-smoked-cheddar",
         "hispanico-cheese",
         "hokkaido-gouda",
         "iberico",
@@ -57267,6 +57573,7 @@
         "imeruli",
         "irish-cashel-blue",
         "irish-coolea",
+        "irish-coolea-gouda",
         "irish-dubliner",
         "irish-gubbeen",
         "isle-of-mull-cheddar",
@@ -57275,15 +57582,19 @@
         "italian-caciocavallo",
         "italian-fontina",
         "italian-gorgonzola",
+        "italian-grana-padano",
         "italian-mozzarella",
         "italian-parmigiano-reggiano",
         "italian-pecorino-romano",
+        "italian-pecorino-romano-authentic",
         "italian-pecorino-sardo",
         "italian-provolone",
+        "italian-provolone-piccante",
         "italian-ricotta",
         "italian-scamorza",
         "italian-stracchino",
         "italian-taleggio",
+        "italian-taleggio-dop",
         "italico-cheese",
         "jack-habanero",
         "jack-jalapeno",
@@ -57369,6 +57680,7 @@
         "manchego-curado",
         "manchego-fresco-new",
         "manchego-gran-reserva",
+        "manchego-paprika-smoked",
         "manchego-semicurado-4m",
         "manchego-sheep-milk",
         "manchego-viejo",
@@ -57382,8 +57694,10 @@
         "maroilles-vieux",
         "mascarpone-style",
         "maytag-style",
+        "mead-washed-cheese",
         "meredith-marinated-feta",
         "mexican-cotija",
+        "mexican-queso-de-bola",
         "mexican-queso-fresco",
         "mexican-queso-oaxaca",
         "mg-gouda-cheese",
@@ -57402,6 +57716,7 @@
         "montenebro",
         "monterey-jack",
         "montgomery-cheddar-style",
+        "moose-cheese-swedish",
         "morbier",
         "morbier-cheese",
         "motal",
@@ -57415,8 +57730,10 @@
         "mycella",
         "myzithra-aged",
         "nabulsi",
+        "nettle-gouda",
         "neufchatel-aop",
         "nevat",
+        "new-zealand-kapiti-blue",
         "newzealand-blue",
         "nguri",
         "nodini",
@@ -57438,6 +57755,7 @@
         "panir-lighvan",
         "panir-tabriz",
         "parenica",
+        "parmesan-stravecchio-36-month",
         "parmigiano-12-month",
         "parmigiano-18-month",
         "parmigiano-24-month",
@@ -57447,12 +57765,15 @@
         "parmigiano-stravecchio",
         "passendale",
         "payoyo",
+        "pecan-cheddar",
         "pecorino-alle-noci",
         "pecorino-fresco",
         "pecorino-gran-riserva",
         "pecorino-pepato",
+        "pecorino-peppercorn-black",
         "pecorino-romano-authentic",
         "pecorino-romano-sheep-milk",
+        "pecorino-saffron",
         "pecorino-sardo",
         "pecorino-semi-stagionato",
         "pecorino-stagionato",
@@ -57460,6 +57781,7 @@
         "pecorino-toscano-fresco",
         "pecorino-toscano-stagionato",
         "pecorino-ubriaco",
+        "pecorino-walnut",
         "pepper-jack-cheese",
         "pere-joseph",
         "perline",
@@ -57476,6 +57798,7 @@
         "pont-leveque-cheese",
         "port-salut",
         "port-salut-cheese",
+        "port-salut-wine-washed",
         "portuguese-azeitao",
         "portuguese-serra-da-estrela",
         "pot-cheese-style",
@@ -57565,10 +57888,12 @@
         "roquefort-black-label",
         "roquefort-style-blue-sheep-milk",
         "roquefort-style-cheese",
+        "rosemary-manchego",
         "rubing",
         "rum-washed-gouda",
         "rushan",
         "saga-blue",
+        "sage-derby",
         "saint-marcellin-igp",
         "saint-nectaire",
         "saint-nectaire-cheese",
@@ -57587,6 +57912,7 @@
         "schiz-cheese",
         "schlierbacher",
         "scotch-bonnet-cheddar",
+        "scottish-dunlop",
         "secondo-sale",
         "selles-sur-cher-affine",
         "serpa",
@@ -57629,6 +57955,7 @@
         "single-gloucester",
         "sirene",
         "slovak-bryndza",
+        "smoked-blue-cheese",
         "smoked-caciocavallo",
         "smoked-cheddar",
         "smoked-cheddar-applewood",
@@ -57641,20 +57968,28 @@
         "smoked-gruyere-style",
         "smoked-halloumi",
         "smoked-havarti",
+        "smoked-idiazabal",
+        "smoked-jack-cheese",
         "smoked-mozzarella",
+        "smoked-mozzarella-affumicata",
         "smoked-mozzarella-light",
         "smoked-provola-affumicata",
         "smoked-provolone",
+        "smoked-scamorza",
+        "smoked-swiss-emmental",
         "sottocenere",
         "spanish-blue-cheese",
         "spanish-cabrales",
+        "spanish-cabrales-blue",
         "spanish-idiazabal",
         "spanish-mahon",
         "spanish-manchego",
+        "spanish-manchego-artesano",
         "spanish-queso-de-la-serena",
         "spanish-roncal",
         "spanish-tetilla",
         "spanish-torta-del-casar",
+        "spanish-valdeon",
         "sparkenhoe-red-leicester",
         "spressa-delle-giudicarie-dop",
         "stilton-apricot",
@@ -57667,14 +58002,19 @@
         "sulguni-smoked",
         "svecia",
         "swaledale",
+        "swedish-vasterbotten",
         "swiss-appenzeller",
         "swiss-baby-swiss-cheese",
         "swiss-emmental",
+        "swiss-emmental-classic",
         "swiss-raclette",
+        "swiss-raclette-valais",
         "swiss-sbrinz",
+        "swiss-sbrinz-hard",
         "swiss-style-emmental",
         "swiss-style-gruyere",
         "swiss-tete-de-moine",
+        "swiss-vacherin-mont-dor",
         "szechuan-peppercorn-jack",
         "takammart",
         "taleggio",
@@ -57821,6 +58161,8 @@
         "vorarlberger-bergkase",
         "wara",
         "weisslacker",
+        "welsh-caerphilly-traditional",
+        "welsh-perl-las",
         "wensleydale",
         "wensleydale-cheese",
         "wensleydale-cranberry",
@@ -57828,6 +58170,7 @@
         "wensleydale-mango",
         "west-country-farmhouse-cheddar",
         "westmalle",
+        "whiskey-cheddar",
         "whiskey-washed-gouda",
         "wine-infused-cheese",
         "winnimere-style",
@@ -57888,11 +58231,13 @@
     {
       "ingredient": "cheese wax",
       "variants": [
-        "cheese wax"
+        "cheese wax",
+        "cheese wax (yellow or red)"
       ],
-      "recipe_count": 4,
+      "recipe_count": 5,
       "recipe_ids": [
         "cheesemaking-gouda",
+        "dutch-aged-gouda-48",
         "traditional-edam-dutch",
         "traditional-gouda-dutch",
         "traditional-havarti-danish"
@@ -58095,8 +58440,9 @@
       "variants": [
         "chestnut leaves"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
+        "leaf-wrapped-banon",
         "traditional-banon-provence"
       ]
     },
@@ -59099,6 +59445,16 @@
       ]
     },
     {
+      "ingredient": "chipotle peppers in adobo, minced",
+      "variants": [
+        "chipotle peppers in adobo, minced"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cheddar-chipotle"
+      ]
+    },
+    {
       "ingredient": "chipotle, plus 2 tsp sauce from 1 can goya chipotle chiles in adobo sauce",
       "variants": [
         "chipotle, plus 2 tsp sauce from 1 can (7 oz) goya chipotle chiles in adobo sauce"
@@ -59139,7 +59495,7 @@
         "fresh chives",
         "minced chives"
       ],
-      "recipe_count": 15,
+      "recipe_count": 16,
       "recipe_ids": [
         "breakfast-bruschetta",
         "breakfast-panini-sandwich",
@@ -59148,6 +59504,7 @@
         "cotswold-cheese",
         "cottage-cheese-fruit-dressing-cottage-cheese",
         "delicious-carrot-quiche",
+        "garlic-herb-boursin-style",
         "ham-and-cheese-souffle",
         "ham-cheese-souffle-ref",
         "magnasco-edam-grated-vegetables",
@@ -59947,18 +60304,21 @@
       "variants": [
         "citric acid"
       ],
-      "recipe_count": 14,
+      "recipe_count": 17,
       "recipe_ids": [
         "30-minute-mozzarella",
         "cf-quick-mozzarella-neapolitan",
         "fcf-mozzarella",
         "italian-burrata",
+        "italian-burrata-fresh",
         "italian-mozzarella",
         "lgc-30-minute-mozzarella",
         "lgc-ricotta-salata",
+        "mozzarella-smoked-applewood",
         "ricotta-salata-sheep-milk",
         "sheep-milk-mozzarella",
         "sheep-milk-scamorza",
+        "smoked-mozzarella-affumicata",
         "th-easy-mozzarella",
         "traditional-burrata-puglia",
         "traditional-queso-oaxaca-mexican",
@@ -62134,9 +62494,18 @@
         "fresh cow's milk",
         "raw cow's milk",
         "raw cow's milk (or pasteurized)",
-        "whole cow's milk"
+        "whole cow's milk",
+        "whole cow's milk (ayrshire preferred)",
+        "whole cow's milk (grass-fed preferred)",
+        "whole cow's milk (jersey preferred)",
+        "whole cow's milk (morning)",
+        "whole cow's milk (organic preferred)",
+        "whole cow's milk (pasteurized for pdo)",
+        "whole cow's milk (raw preferred)",
+        "whole cow's milk (raw preferred, high fat)",
+        "whole cow's milk (raw, from alpine pasture)"
       ],
-      "recipe_count": 930,
+      "recipe_count": 983,
       "recipe_ids": [
         "14-arpents",
         "abondance",
@@ -62147,10 +62516,13 @@
         "african-wagashi",
         "afuegal-pitu",
         "aged-mimolette-extra",
+        "aged-provolone-giant-mandarone",
         "akkawi",
         "akkawi-levantine",
         "allgauer-bergkase",
         "allgauer-emmentaler",
+        "american-brick-cheese",
+        "american-colby",
         "ami-du-chambertin",
         "ancho-chile-gouda",
         "appenzeller",
@@ -62163,6 +62535,8 @@
         "argentine-provoleta",
         "argentine-provoleta-small-batch",
         "argentine-sardo",
+        "argentinian-provoleta",
+        "armenian-chechil",
         "arzua-ulloa",
         "asiago-aged-american",
         "asiago-allevo-mezzano-dop",
@@ -62173,11 +62547,14 @@
         "asiago-mezzano",
         "asiago-pressato",
         "asiago-pressato-dop",
+        "asiago-red-pepper",
         "asiago-stravecchio",
         "asiago-vecchio",
         "australian-cheddar",
         "australian-cheddar-cloth",
         "australian-cheddar-small-batch",
+        "australian-milawa-blue",
+        "austrian-bergkase",
         "austrian-moosbacher",
         "avonlea-clothbound",
         "ayib-plain",
@@ -62196,6 +62573,7 @@
         "belgian-herve",
         "belgian-passendale",
         "belgian-wynendale",
+        "belgium-chimay-trappist",
         "belloslavenski-beli-sir",
         "belton-red-fox",
         "berbere-gouda",
@@ -62225,14 +62603,17 @@
         "bleu-du-vercors-sassenage",
         "bleu-du-vercors-sassenage-aop",
         "bleu-mont-bandaged-cheddar",
+        "blue-stilton-apricot",
         "blue-vein-aura",
         "bocconcini",
         "bourbon-washed-cheddar",
         "branzi",
+        "brazilian-queijo-coalho",
         "brazilian-queijo-minas",
         "brick-cheese-aged",
         "brick-cheese-young",
         "brie-aux-noix",
+        "brie-cranberry",
         "brie-de-meaux-affine",
         "brie-de-meaux-aop",
         "brie-de-meaux-young",
@@ -62242,14 +62623,19 @@
         "brie-de-provins",
         "brie-herbes-provence",
         "brie-noir",
+        "brie-truffle-white",
         "british-caerphilly",
         "british-cheddar-traditional",
         "british-cheshire",
+        "british-cornish-yarg",
+        "british-derby-sage",
+        "british-double-gloucester",
         "british-gloucester",
         "british-lancashire",
         "british-red-leicester",
         "british-shropshire-blue",
         "british-stilton",
+        "british-stilton-blue",
         "british-stinking-bishop",
         "british-wensleydale",
         "bundnerfleisch-style-cheese",
@@ -62302,6 +62688,8 @@
         "cheddar-bacon",
         "cheddar-beer",
         "cheddar-black-pepper",
+        "cheddar-caramelized-onion",
+        "cheddar-chipotle",
         "cheddar-extra-sharp-18month",
         "cheddar-garlic-herb",
         "cheddar-horseradish",
@@ -62311,9 +62699,12 @@
         "cheddar-mild-3month",
         "cheddar-port",
         "cheddar-port-wine",
+        "cheddar-porter-beer",
         "cheddar-sage",
         "cheddar-sharp-12month",
         "cheddar-sharp-9month",
+        "cheddar-truffle-black",
+        "cheddar-vintage-24-month",
         "cheddar-vintage-2yr",
         "cheddar-vintage-3yr",
         "cheddar-vintage-5yr",
@@ -62366,6 +62757,7 @@
         "danbo",
         "danish-blue",
         "danish-blue-castello",
+        "danish-blue-cheese",
         "danish-blue-extra-mature",
         "danish-blue-mild",
         "danish-blue-traditional",
@@ -62379,6 +62771,7 @@
         "dunbarton-blue",
         "dunlop",
         "durrus",
+        "dutch-aged-gouda-48",
         "dutch-edam",
         "dutch-gouda",
         "dutch-leyden",
@@ -62405,6 +62798,7 @@
         "epoisses-affine",
         "epoisses-affine-marc",
         "epoisses-aop",
+        "epoisses-marc-burgundy",
         "espresso-rubbed-cheddar",
         "esrom",
         "estonian-kadaka",
@@ -62415,6 +62809,7 @@
         "feuille-de-dreux",
         "finnish-aura",
         "finnish-koskenlaskija",
+        "finnish-leipajuusto",
         "finnish-oltermanni",
         "fiscalini-bandage-cheddar",
         "flagship-reserve",
@@ -62440,13 +62835,17 @@
         "fourme-montbrison",
         "french-abondance",
         "french-beaufort",
+        "french-beaufort-alpage",
         "french-bleu-dauvergne",
         "french-brie",
+        "french-brie-de-meaux",
         "french-brillat-savarin",
         "french-camembert",
+        "french-camembert-normandie",
         "french-cantal",
         "french-chaource",
         "french-comte",
+        "french-comte-gruyere",
         "french-epoisses",
         "french-fourme-dambert",
         "french-langres",
@@ -62500,16 +62899,20 @@
         "gouda-belegen-6month",
         "gouda-boerenkaas",
         "gouda-cumin",
+        "gouda-cumin-dutch",
         "gouda-extra-belegen-8month",
         "gouda-fenugreek",
         "gouda-jalapeno",
         "gouda-jong-4week",
         "gouda-jong-belegen-8week",
+        "gouda-lavender",
         "gouda-met-kruiden",
         "gouda-mustard",
+        "gouda-mustard-seed",
         "gouda-nettle",
         "gouda-oud-12month",
         "gouda-overjarig-18month",
+        "gouda-overjarig-48-month",
         "gouda-pesto",
         "gouda-smoked-applewood",
         "gouda-smoked-belegen",
@@ -62534,6 +62937,7 @@
         "gruyere-reserve-18m",
         "gruyere-vieux",
         "gruyere-vieux-24month",
+        "gruyere-wild-garlic",
         "gubbeen",
         "habanero-cheddar",
         "harbison",
@@ -62557,20 +62961,24 @@
         "irimshik-kazakh",
         "irish-cashel-blue",
         "irish-coolea",
+        "irish-coolea-gouda",
         "irish-dubliner",
         "irish-gubbeen",
         "isle-of-mull-cheddar",
         "italian-asiago",
         "italian-burrata",
+        "italian-burrata-fresh",
         "italian-caciocavallo",
         "italian-fontina",
         "italian-gorgonzola",
         "italian-mozzarella",
         "italian-parmigiano-reggiano",
         "italian-provolone",
+        "italian-provolone-piccante",
         "italian-scamorza",
         "italian-stracchino",
         "italian-taleggio",
+        "italian-taleggio-dop",
         "jack-garlic",
         "jack-habanero",
         "jack-herb",
@@ -62662,6 +63070,7 @@
         "mozzarella-fior-di-latte",
         "mozzarella-nodini",
         "mozzarella-ovoline",
+        "mozzarella-smoked-applewood",
         "mozzarella-string-cheese",
         "mozzarella-treccia",
         "muenster-american",
@@ -62673,6 +63082,7 @@
         "mutschli",
         "mycella",
         "neufchatel-aop",
+        "new-zealand-kapiti-blue",
         "newzealand-blue",
         "nodini",
         "nokkelost",
@@ -62688,6 +63098,7 @@
         "orval",
         "over-the-moon-galactic-gold",
         "ovoline",
+        "parmesan-stravecchio-36-month",
         "parmigiano-12month",
         "parmigiano-18month",
         "parmigiano-24month",
@@ -62888,7 +63299,9 @@
         "scandinavian-jarlsberg",
         "schlierbacher",
         "scotch-bonnet-cheddar",
+        "scottish-dunlop",
         "section-28-monforte",
+        "serbian-kajmak",
         "serrano-pepper-monterey",
         "shechil",
         "shropshire-blue",
@@ -62909,8 +63322,10 @@
         "smoked-provolone",
         "soumaintrain",
         "spanish-cabrales",
+        "spanish-cabrales-blue",
         "spanish-mahon",
         "spanish-tetilla",
+        "spanish-valdeon",
         "sparkenhoe-red-leicester",
         "squacquerone",
         "stichelton",
@@ -62930,16 +63345,21 @@
         "strachitunt",
         "sulguni-smoked",
         "svecia",
+        "swedish-vasterbotten",
         "sweet-grass-dairy-green-hill",
         "swiss-aged-12month",
         "swiss-aged-6month",
         "swiss-appenzeller",
         "swiss-emmental",
+        "swiss-emmental-classic",
         "swiss-raclette",
+        "swiss-raclette-valais",
         "swiss-sbrinz",
+        "swiss-sbrinz-hard",
         "swiss-style-emmental",
         "swiss-style-gruyere",
         "swiss-tete-de-moine",
+        "swiss-vacherin-mont-dor",
         "szechuan-peppercorn-jack",
         "taleggio",
         "taleggio-dop",
@@ -63050,6 +63470,8 @@
         "wara",
         "wara-nigerian",
         "weisslacker",
+        "welsh-caerphilly-traditional",
+        "welsh-perl-las",
         "wensleydale",
         "wensleydale-cranberry",
         "wensleydale-ginger",
@@ -63483,6 +63905,16 @@
       ]
     },
     {
+      "ingredient": "cranberries, chopped",
+      "variants": [
+        "dried cranberries, chopped"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "brie-cranberry"
+      ]
+    },
+    {
       "ingredient": "cranberries, roughly chopped",
       "variants": [
         "dried cranberries, roughly chopped"
@@ -63512,7 +63944,7 @@
         "fresh cranberries",
         "whole cranberries"
       ],
-      "recipe_count": 17,
+      "recipe_count": 18,
       "recipe_ids": [
         "apple-cranberry-muffins",
         "apple-cranberry-muffins-ref",
@@ -63524,6 +63956,7 @@
         "cranberry-orange-muffins-ref",
         "cranberry-sherbet-harvester",
         "cranberry-tart-american-cookery-1796",
+        "cranberry-wensleydale",
         "rice-pilaf-with-cranberries",
         "roast-pork-with-pear-cranberry-pan-sauce",
         "sandra-lee-cranberry-pecan-chicken",
@@ -64543,9 +64976,20 @@
       "variants": [
         "culinary lavender"
       ],
+      "recipe_count": 2,
+      "recipe_ids": [
+        "honey-lavender-muffins-ref",
+        "lavender-chevre"
+      ]
+    },
+    {
+      "ingredient": "culinary lavender bud",
+      "variants": [
+        "culinary lavender buds"
+      ],
       "recipe_count": 1,
       "recipe_ids": [
-        "honey-lavender-muffins-ref"
+        "gouda-lavender"
       ]
     },
     {
@@ -64678,12 +65122,16 @@
       "ingredient": "cumin seed",
       "variants": [
         "cumin seed",
-        "cumin seeds"
+        "cumin seeds",
+        "whole cumin seeds"
       ],
-      "recipe_count": 7,
+      "recipe_count": 10,
       "recipe_ids": [
+        "cumin-gouda",
         "dutch-leyden",
+        "dutch-leyden-cumin",
         "gouda-cumin",
+        "gouda-cumin-dutch",
         "lgc-komijnekaas",
         "matar-paneer",
         "reddit-16th-century-vindaloo",
@@ -65888,11 +66336,12 @@
         "fresh chopped dill",
         "fresh dill"
       ],
-      "recipe_count": 9,
+      "recipe_count": 10,
       "recipe_ids": [
         "alternate-dressing-goodandche",
         "cf-homemade-cream-cheese",
         "delightful-crab-quiche-ref",
+        "dill-havarti",
         "fricassee-festus-ancients",
         "gravlax-with-the-works",
         "potato-bites",
@@ -66051,6 +66500,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "brown-sugar-brownies"
+      ]
+    },
+    {
+      "ingredient": "donkey milk",
+      "variants": [
+        "donkey milk"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "pule-donkey-cheese"
       ]
     },
     {
@@ -66813,6 +67272,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "corn-relish-auntcaroli"
+      ]
+    },
+    {
+      "ingredient": "eau-de-vie or brandy",
+      "variants": [
+        "eau-de-vie or brandy"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "leaf-wrapped-banon"
       ]
     },
     {
@@ -69539,6 +70008,16 @@
       ]
     },
     {
+      "ingredient": "fenugreek seed",
+      "variants": [
+        "fenugreek seeds"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "fenugreek-gouda"
+      ]
+    },
+    {
       "ingredient": "feta cheese",
       "variants": [
         "feta cheese",
@@ -69723,12 +70202,14 @@
     {
       "ingredient": "fig",
       "variants": [
+        "dried figs",
         "figs",
         "fresh figs"
       ],
-      "recipe_count": 2,
+      "recipe_count": 3,
       "recipe_ids": [
         "baked-figs-in-wine-ancients",
+        "fig-walnut-goat-cheese",
         "raisin-fig-and-date-filling-betty-crocker"
       ]
     },
@@ -69740,6 +70221,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "molasses-fruit-bread-grandmas-molasses"
+      ]
+    },
+    {
+      "ingredient": "figs, finely diced",
+      "variants": [
+        "dried figs, finely diced"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "goat-honey-fig"
       ]
     },
     {
@@ -69917,18 +70408,29 @@
       "variants": [
         "fine sea salt"
       ],
-      "recipe_count": 10,
+      "recipe_count": 21,
       "recipe_ids": [
+        "ash-ripened-valencay",
+        "blueberry-chevre",
         "bucatini-alla-carbonara",
+        "calvados-washed-camembert",
         "classic-pasta-dough",
         "creamy-carrot-soup",
+        "epoisses-burgundy",
         "espresso-chip-meringues",
+        "fig-walnut-goat-cheese",
+        "garlic-herb-boursin-style",
         "italian-meatballs-printed",
+        "lavender-chevre",
+        "leaf-wrapped-banon",
+        "pistachio-crusted-chevre",
         "ravioli-herbed-ricotta-filling",
         "sheep-milk-cream-cheese-cultured",
         "sheep-milk-cream-cheese-traditional",
         "sheep-milk-cream-cheese-yogurt-method",
-        "sheep-milk-ricotta"
+        "sheep-milk-ricotta",
+        "smoked-brie",
+        "smoked-ricotta"
       ]
     },
     {
@@ -71829,9 +72331,11 @@
       "variants": [
         "food-grade vegetable ash"
       ],
-      "recipe_count": 2,
+      "recipe_count": 4,
       "recipe_ids": [
+        "ash-ripened-valencay",
         "chevre-ash",
+        "goat-ash-mold-ripened",
         "morbier"
       ]
     },
@@ -73260,10 +73764,12 @@
     {
       "ingredient": "fromage blanc culture",
       "variants": [
-        "fromage blanc culture"
+        "fromage blanc culture",
+        "fromage blanc culture (or buttermilk)"
       ],
-      "recipe_count": 2,
+      "recipe_count": 3,
       "recipe_ids": [
+        "fresh-fromage-blanc",
         "sheep-milk-fromage-blanc",
         "traditional-fromage-blanc-french"
       ]
@@ -75710,7 +76216,7 @@
         "minced fresh garlic",
         "minced garlic"
       ],
-      "recipe_count": 122,
+      "recipe_count": 123,
       "recipe_ids": [
         "adas-bil-hamod",
         "antioxidant-delight-ref",
@@ -75765,6 +76271,7 @@
         "garli-c-chicken-chickenrec",
         "garlic-butter-shrimp-pasta-ref",
         "garlic-cilantro-naan-bread",
+        "garlic-herb-boursin-style",
         "garlicky-green-chili",
         "gravy-goodandche",
         "greek-lemon-chicken-chickenrec",
@@ -76304,13 +76811,18 @@
         "geotrichum candidum",
         "geotrichum candidum (optional)"
       ],
-      "recipe_count": 29,
+      "recipe_count": 35,
       "recipe_ids": [
+        "ash-ripened-valencay",
         "belgian-wynendale",
         "brie-cheese",
+        "brie-truffle-white",
+        "calvados-washed-camembert",
         "chaumes",
         "chimay-beer-washed",
+        "french-brie-de-meaux",
         "french-camembert",
+        "french-camembert-normandie",
         "french-epoisses",
         "french-livarot",
         "french-maroilles",
@@ -76331,6 +76843,7 @@
         "saint-maure-de-touraine",
         "saint-nectaire-cheese",
         "sheep-milk-camembert",
+        "smoked-brie",
         "taleggio",
         "tomme-de-savoie",
         "traditional-brie",
@@ -76715,13 +77228,21 @@
       "ingredient": "goat milk",
       "variants": [
         "fresh goat milk",
-        "goat milk"
+        "goat milk",
+        "goat milk (to aid curdling)"
       ],
-      "recipe_count": 7,
+      "recipe_count": 14,
       "recipe_ids": [
+        "ash-ripened-valencay",
+        "blueberry-chevre",
         "chevre-goat-cheese",
+        "fig-walnut-goat-cheese",
         "goat-milk-tomme",
+        "lavender-chevre",
+        "leaf-wrapped-banon",
+        "pistachio-crusted-chevre",
         "pouligny-saint-pierre",
+        "pule-donkey-cheese",
         "saint-maure-de-touraine",
         "taoc-goat-milk-caramels",
         "traditional-gjetost-norwegian",
@@ -76755,7 +77276,7 @@
         "raw goat's milk",
         "whole goat's milk"
       ],
-      "recipe_count": 119,
+      "recipe_count": 128,
       "recipe_ids": [
         "andante-dairy-minuet",
         "banon",
@@ -76803,16 +77324,23 @@
         "cypress-grove-truffle-tremor",
         "dukkah-coated-chevre",
         "formaggini-valmaggini",
+        "french-chevre-buchette",
+        "french-crottin-chavignol",
         "french-crottin-de-chavignol",
         "french-sainte-maure-de-touraine",
         "french-selles-sur-cher",
         "french-valencay",
         "garrotxa",
         "garrotxa-style",
+        "goat-ash-mold-ripened",
+        "goat-cheese-herbs-provence",
         "goat-fig",
+        "goat-honey-fig",
         "goat-lavender",
         "gouda-goat",
         "greek-feta",
+        "greek-graviera-crete",
+        "greek-kefalograviera",
         "grey-owl",
         "halloumi-traditional",
         "harbourne-blue",
@@ -76861,6 +77389,8 @@
         "selles-sur-cher",
         "selles-sur-cher-affine",
         "spanish-cabrales",
+        "spanish-cabrales-blue",
+        "spanish-valdeon",
         "sweet-grass-dairy-griffin",
         "traditional-banon-provence",
         "traditional-cabrales-spanish-blue",
@@ -77669,6 +78199,16 @@
       ]
     },
     {
+      "ingredient": "grape marc",
+      "variants": [
+        "grape marc (vinaccia)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "grappa-washed-cheese"
+      ]
+    },
+    {
       "ingredient": "grape pomace",
       "variants": [
         "grape pomace (marc)"
@@ -77708,6 +78248,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "gravlax-with-the-works"
+      ]
+    },
+    {
+      "ingredient": "grappa",
+      "variants": [
+        "grappa"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "grappa-washed-cheese"
       ]
     },
     {
@@ -78674,6 +79224,16 @@
       ]
     },
     {
+      "ingredient": "gypsum or nigari",
+      "variants": [
+        "gypsum (calcium sulfate) or nigari"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "vietnamese-tofu-style"
+      ]
+    },
+    {
       "ingredient": "habanero flak",
       "variants": [
         "dried habanero flakes (optional, for extra heat)"
@@ -78975,6 +79535,16 @@
       ]
     },
     {
+      "ingredient": "hard cider",
+      "variants": [
+        "hard cider"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cider-washed-cheese"
+      ]
+    },
+    {
       "ingredient": "hard cling-stone peaches.",
       "variants": [
         "hard cling-stone peaches."
@@ -79174,9 +79744,10 @@
       "variants": [
         "hazelnuts"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
-        "chocolate-hazelnut-muffins-ref"
+        "chocolate-hazelnut-muffins-ref",
+        "hazelnut-toma"
       ]
     },
     {
@@ -79280,9 +79851,10 @@
         "heavy cream",
         "heavy cream (for filling)",
         "heavy cream (not ultra-pasteurized)",
-        "heavy cream (optional)"
+        "heavy cream (optional)",
+        "heavy cream (optional, for richer version)"
       ],
-      "recipe_count": 100,
+      "recipe_count": 107,
       "recipe_ids": [
         "au-gratin-potato-muffins",
         "au-gratin-potato-muffins-ref",
@@ -79322,6 +79894,8 @@
         "fleur-de-sel-caramels",
         "french-brillat-savarin",
         "french-neufchatel",
+        "fresh-fromage-blanc",
+        "garlic-herb-boursin-style",
         "german-bavarian-blue",
         "german-chocolate-cake-coconut-pecan-cajeta-frosting",
         "gjetost-authentic",
@@ -79329,7 +79903,9 @@
         "homemade-butter",
         "honey-spiced-cajun-chi-cken-chickenrec",
         "italian-burrata",
+        "italian-burrata-fresh",
         "italian-mascarpone",
+        "japanese-tofu-cheese-adaptation",
         "keto-alfredo-sauce-with-zoodles",
         "lemongrass-cream-cheese",
         "lgc-coulommiers",
@@ -79348,6 +79924,8 @@
         "molasses-whipped-cream-grandmas-molasses",
         "molded-fruit-salad-cottage-cheese",
         "mysost-whey-cheese",
+        "new-zealand-kapiti-blue",
+        "nordic-mesost",
         "paneer-tikka-masala",
         "peach-apricot-cobbler-gahb",
         "piri-piri-cream-cheese",
@@ -79365,6 +79943,7 @@
         "sheep-milk-cream-cheese-cultured",
         "sheep-milk-cream-cheese-traditional",
         "sheep-milk-ricotta",
+        "smoked-brie",
         "sour-cream-homemade",
         "ssf-cottage-cheese",
         "strawberry-mousse-harvester",
@@ -79517,6 +80096,26 @@
       ]
     },
     {
+      "ingredient": "herbes de provence",
+      "variants": [
+        "herbes de provence"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "goat-cheese-herbs-provence"
+      ]
+    },
+    {
+      "ingredient": "herbs de provence",
+      "variants": [
+        "herbs de provence (optional)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "french-chevre-buchette"
+      ]
+    },
+    {
       "ingredient": "herbs, chiles, or seasoning",
       "variants": [
         "herbs, chiles, or seasonings"
@@ -79534,6 +80133,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "belgian-capra"
+      ]
+    },
+    {
+      "ingredient": "hickory chip",
+      "variants": [
+        "hickory chips"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "hickory-smoked-cheddar"
       ]
     },
     {
@@ -79639,6 +80248,16 @@
       ]
     },
     {
+      "ingredient": "homogenized cream",
+      "variants": [
+        "homogenized cream"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "danish-blue-cheese"
+      ]
+    },
+    {
       "ingredient": "honey",
       "variants": [
         "honey",
@@ -79646,7 +80265,7 @@
         "honey (optional)",
         "honey (orange blossom if available)"
       ],
-      "recipe_count": 69,
+      "recipe_count": 72,
       "recipe_ids": [
         "a-date-with-melons-ancients",
         "apple-and-eve-beets",
@@ -79658,6 +80277,7 @@
         "baked-brie-honey-nuts",
         "baked-figs-in-wine-ancients",
         "biblical-medley-ancients",
+        "blueberry-chevre",
         "breakfast-quinoa",
         "breakfast-quinoa-ref",
         "carrots-and-turnips-zebulun-ancients",
@@ -79678,6 +80298,7 @@
         "fruity-yogurt-smoothie-ref",
         "german-farmer-style-rye-bread",
         "ginger-peachy-chicken-chickenrec",
+        "goat-honey-fig",
         "honey-baked-chicken-chickenrec",
         "honey-bran-muffins",
         "honey-bran-muffins-ref",
@@ -79689,6 +80310,7 @@
         "honey-walnut-trout-ancients",
         "hot-chicken-wi-ngs-chickenrec",
         "irish-soda-bread",
+        "lavender-chevre",
         "lebanese-radish-salad",
         "lemon-chicken-chickenrec",
         "manchego-salad-sherry-vinaigrette",
@@ -80452,6 +81074,16 @@
       "recipe_ids": [
         "almond-pancakes",
         "almond-pancakes-ref"
+      ]
+    },
+    {
+      "ingredient": "irish whiskey",
+      "variants": [
+        "irish whiskey"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "whiskey-cheddar"
       ]
     },
     {
@@ -81491,6 +82123,16 @@
       ]
     },
     {
+      "ingredient": "labneh or thick yogurt",
+      "variants": [
+        "labneh or thick yogurt"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "lebanese-shanklish"
+      ]
+    },
+    {
       "ingredient": "lady finger",
       "variants": [
         "lady fingers"
@@ -81559,10 +82201,12 @@
     {
       "ingredient": "lamb rennet paste",
       "variants": [
-        "lamb rennet paste"
+        "lamb rennet paste",
+        "lamb rennet paste (traditional)"
       ],
-      "recipe_count": 3,
+      "recipe_count": 4,
       "recipe_ids": [
+        "italian-pecorino-romano-authentic",
         "pecorino-romano-sheep-milk",
         "traditional-fiore-sardo-sardinian",
         "traditional-pecorino-romano-ancient"
@@ -81979,9 +82623,10 @@
         "fresh lemon juice (for glaze)",
         "lemon juice",
         "lemon juice (for sauce)",
+        "lemon juice (if using whole milk)",
         "lemon juice (or white vinegar)"
       ],
-      "recipe_count": 156,
+      "recipe_count": 158,
       "recipe_ids": [
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
         "adas-bil-hamod",
@@ -82041,6 +82686,7 @@
         "dutch-paasbrood",
         "eggo-waffles-with-spiced-apple-compote",
         "eggs-benedict-ref",
+        "ethiopian-ayib",
         "fattoosh",
         "fresh-strawberry-pie-harvester",
         "fried-cauliflower-with-tahini-sauce",
@@ -82088,6 +82734,7 @@
         "molasses-prune-pie-grandmas-molasses",
         "molasses-sponge-cake-grandmas-molasses",
         "muhammara",
+        "paneer",
         "peach-salad-carnation",
         "peruvian-queso-fresco",
         "pineapple-bavarian-cream-carnation",
@@ -82184,12 +82831,23 @@
       ]
     },
     {
+      "ingredient": "lemon juice or whey",
+      "variants": [
+        "lemon juice or whey"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "yak-cheese-himalayan"
+      ]
+    },
+    {
       "ingredient": "lemon juice or white vinegar",
       "variants": [
         "lemon juice or white vinegar"
       ],
-      "recipe_count": 3,
+      "recipe_count": 4,
       "recipe_ids": [
+        "indian-chhena",
         "paneer-cheese",
         "saffron-paneer",
         "sheep-milk-fresh-cheese"
@@ -82412,8 +83070,9 @@
         "grated lemon zest",
         "lemon zest"
       ],
-      "recipe_count": 23,
+      "recipe_count": 24,
       "recipe_ids": [
+        "blueberry-chevre",
         "cf-yorkshire-curd-tart",
         "cheese-crusted-squash",
         "chocolate-raspberry-date-night-muffins",
@@ -83283,16 +83942,19 @@
         "lipase powder (mild)",
         "lipase powder (sharp)"
       ],
-      "recipe_count": 21,
+      "recipe_count": 24,
       "recipe_ids": [
+        "aged-provolone-giant-mandarone",
         "argentine-provoleta",
         "argentine-provoleta-small-batch",
         "argentine-reggianito",
         "argentine-sardo",
+        "argentinian-provoleta",
         "cheesemaking-provolone",
         "fcf-feta-cheese",
         "feta-cheese",
         "italian-provolone",
+        "italian-provolone-piccante",
         "kasseri-sheep-milk",
         "lgc-feta",
         "lgc-parmesan",
@@ -83339,6 +84001,17 @@
       ]
     },
     {
+      "ingredient": "liquid calf rennet",
+      "variants": [
+        "liquid calf rennet"
+      ],
+      "recipe_count": 2,
+      "recipe_ids": [
+        "italian-grana-padano",
+        "parmesan-stravecchio-36-month"
+      ]
+    },
+    {
       "ingredient": "liquid egg substitute",
       "variants": [
         "liquid egg substitute"
@@ -83359,15 +84032,28 @@
       ]
     },
     {
+      "ingredient": "liquid lamb rennet",
+      "variants": [
+        "liquid lamb rennet"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "manchego-gran-reserva-18-month"
+      ]
+    },
+    {
       "ingredient": "liquid rennet",
       "variants": [
         "liquid rennet",
         "liquid rennet (1/5 drop - see instructions)",
         "liquid rennet (190 imcu)",
         "liquid rennet (1:10000)",
-        "liquid rennet (double strength)"
+        "liquid rennet (double strength)",
+        "liquid rennet (goat or lamb preferred)",
+        "liquid rennet (kid or lamb)",
+        "liquid rennet (lamb preferred)"
       ],
-      "recipe_count": 989,
+      "recipe_count": 1100,
       "recipe_ids": [
         "18th-century-farmhouse-cheddar",
         "30-minute-mozzarella",
@@ -83378,6 +84064,7 @@
         "adelost",
         "aged-manchego-12-month",
         "aged-manchego-18-month",
+        "aged-provolone-giant-mandarone",
         "akkawi",
         "akkawi-levantine",
         "allgauer-bergkase",
@@ -83385,25 +84072,34 @@
         "alpine-tomme-cheese",
         "alpine-washed-rind-cheese",
         "amarelo-da-beira-baixa-dop",
+        "american-brick-cheese",
+        "american-colby",
         "ancho-chile-gouda",
         "andante-dairy-minuet",
         "anevato-pdo",
         "appenzeller",
         "appenzeller-cheese",
+        "apricot-stilton",
         "argentine-magnasco-edam",
         "argentine-provoleta",
         "argentine-provoleta-small-batch",
         "argentine-reggianito",
         "argentine-sardo",
+        "argentinian-provoleta",
+        "armenian-chechil",
+        "ash-ripened-valencay",
         "asiago-cheese",
         "asiago-d-allevo",
         "asiago-fresco-style",
         "asiago-mezzano",
         "asiago-pressato",
+        "asiago-red-pepper",
         "asiago-stravecchio",
         "asiago-vecchio",
         "australian-cheddar",
         "australian-cheddar-small-batch",
+        "australian-milawa-blue",
+        "austrian-bergkase",
         "austrian-moosbacher",
         "ayib-plain",
         "bagoss",
@@ -83416,11 +84112,13 @@
         "beaufort-ete",
         "beemster",
         "beer-infused-cheese",
+        "beer-washed-cheese",
         "belgian-capra",
         "belgian-chimay",
         "belgian-herve",
         "belgian-passendale",
         "belgian-wynendale",
+        "belgium-chimay-trappist",
         "belloslavenski-beli-sir",
         "belper-knolle-cheese",
         "berbere-gouda",
@@ -83429,6 +84127,7 @@
         "berner-alpkase-aop",
         "berner-hobelkase-aop",
         "black-garlic-brie",
+        "black-pepper-pecorino",
         "bleu-d-auvergne",
         "bleu-dauvergne-cheese",
         "bleu-de-bresse-style",
@@ -83440,7 +84139,9 @@
         "bleu-du-vercors-sassenage-aop",
         "blue-by-you-cheese",
         "blue-castello",
+        "blue-stilton-apricot",
         "blue-vein-aura",
+        "blueberry-chevre",
         "bocconcini",
         "bouhezza",
         "boulette-d-avesnes",
@@ -83448,26 +84149,34 @@
         "bourbon-washed-cheddar",
         "bouton-de-culotte",
         "branza-de-burduf",
+        "brazilian-queijo-coalho",
         "brazilian-queijo-minas",
         "brick-cheese",
         "brie-cheese",
+        "brie-cranberry",
         "brie-double-cream",
         "brie-triple-cream",
+        "brie-truffle-white",
         "brinza",
         "british-caerphilly",
         "british-cheddar-traditional",
         "british-cheshire",
+        "british-cornish-yarg",
+        "british-derby-sage",
+        "british-double-gloucester",
         "british-gloucester",
         "british-lancashire",
         "british-red-leicester",
         "british-shropshire-blue",
         "british-stilton",
+        "british-stilton-blue",
         "british-stinking-bishop",
         "british-wensleydale",
         "brocciu-aop",
         "brousse-du-rove",
         "bryndza",
         "bucheron",
+        "bulgarian-sirene",
         "bundnerfleisch-style-cheese",
         "bundz",
         "burrata",
@@ -83484,6 +84193,7 @@
         "cacioricotta",
         "caerphilly",
         "caerphilly-cheese",
+        "calvados-washed-camembert",
         "camblu-cheese",
         "cambozola",
         "camembert-cheese",
@@ -83501,6 +84211,7 @@
         "casera-dpo",
         "casin-dop",
         "castelo-branco-dop",
+        "cave-aged-gruyere",
         "cebreiro-dop",
         "cf-cultured-mozzarella",
         "chabichou-du-poitou-aop",
@@ -83522,9 +84233,14 @@
         "cheddar-9-month",
         "cheddar-bacon",
         "cheddar-beer",
+        "cheddar-caramelized-onion",
         "cheddar-cheese",
+        "cheddar-chipotle",
         "cheddar-port",
+        "cheddar-porter-beer",
         "cheddar-sage",
+        "cheddar-truffle-black",
+        "cheddar-vintage-24-month",
         "cheese-curds",
         "cheesemaking-emmental-swiss",
         "cheesemaking-gouda",
@@ -83554,6 +84270,7 @@
         "chimay-beer-washed",
         "chimay-classic",
         "chocolate-goat-cheese",
+        "cider-washed-cheese",
         "ciliegine",
         "clochette",
         "coeur-de-neufchatel",
@@ -83571,6 +84288,7 @@
         "cottage-cheese-dry-curd",
         "coulommiers",
         "cowgirl-creamery-mt-tam",
+        "cranberry-wensleydale",
         "cream-cheese",
         "creole-cream-cheese",
         "creole-cream-cheese-1901",
@@ -83583,15 +84301,19 @@
         "crowdie",
         "cultured-mozzarella",
         "cumberland-farmhouse",
+        "cumin-gouda",
         "cypress-grove-humboldt-fog",
         "dacca-paneer",
         "dairines",
         "danbo",
         "danbo-cheese",
         "danish-blue",
+        "danish-blue-cheese",
         "danish-blue-extra-mature",
         "danish-blue-mild",
+        "date-gouda",
         "dauphin",
+        "dill-havarti",
         "djben",
         "domiati",
         "dorset-blue-vinny",
@@ -83601,9 +84323,12 @@
         "dunbarton-blue",
         "dunlop",
         "dunlop-cheese",
+        "dutch-aged-gouda-48",
         "dutch-edam",
+        "dutch-edam-traditional",
         "dutch-gouda",
         "dutch-leyden",
+        "dutch-leyden-cumin",
         "dutch-maasdam",
         "eastern-european-kurpianka",
         "eastern-european-podlaski",
@@ -83622,6 +84347,8 @@
         "epoisses-affine",
         "epoisses-affine-marc",
         "epoisses-aop",
+        "epoisses-burgundy",
+        "epoisses-marc-burgundy",
         "erivan",
         "erzincan-tulum",
         "espresso-rubbed-cheddar",
@@ -83637,10 +84364,13 @@
         "fcf-feta-cheese",
         "fcf-mozzarella",
         "fcf-queso-fresco",
+        "fenugreek-gouda",
         "feta-cheese",
         "feta-herbs",
         "feta-sun-dried-tomato",
         "feuille-de-dreux",
+        "fig-walnut-goat-cheese",
+        "finnish-leipajuusto",
         "fiore-sardo",
         "flagship-reserve",
         "flor-de-guia-dop",
@@ -83660,13 +84390,19 @@
         "fourme-de-montbrison",
         "french-abondance",
         "french-beaufort",
+        "french-beaufort-alpage",
         "french-bleu-dauvergne",
         "french-brie",
+        "french-brie-de-meaux",
         "french-brillat-savarin",
         "french-camembert",
+        "french-camembert-normandie",
         "french-cantal",
         "french-chaource",
+        "french-chevre-buchette",
         "french-comte",
+        "french-comte-gruyere",
+        "french-crottin-chavignol",
         "french-crottin-de-chavignol",
         "french-epoisses",
         "french-fourme-dambert",
@@ -83679,17 +84415,20 @@
         "french-ossau-iraty",
         "french-pont-leveque",
         "french-reblochon",
+        "french-roquefort",
         "french-roquefort-style",
         "french-saint-nectaire",
         "french-sainte-maure-de-touraine",
         "french-selles-sur-cher",
         "french-tomme-de-savoie",
         "french-valencay",
+        "fresh-fromage-blanc",
         "fromage-blanc-style",
         "gailtaler-almkase",
         "galotyri-pdo",
         "gamalost",
         "gaperon",
+        "garlic-herb-boursin-style",
         "garrotxa-style",
         "georgian-sulguni",
         "german-bavarian-blue",
@@ -83704,7 +84443,10 @@
         "gibna-beida",
         "gjetost-authentic",
         "glarner-alpkase-aop",
+        "goat-ash-mold-ripened",
+        "goat-cheese-herbs-provence",
         "goat-fig",
+        "goat-honey-fig",
         "goat-lavender",
         "goat-milk-tomme",
         "gochujang-cheddar",
@@ -83727,15 +84469,22 @@
         "gouda-boerenkaas",
         "gouda-cheese",
         "gouda-cumin",
+        "gouda-cumin-dutch",
+        "gouda-lavender",
         "gouda-met-kruiden",
+        "gouda-mustard-seed",
+        "gouda-overjarig-48-month",
         "grana-padano-riserva",
+        "grappa-washed-cheese",
         "graskaas",
         "graviera-crete",
         "graviera-naxos",
         "grayson-style",
         "greek-feta",
         "greek-graviera",
+        "greek-graviera-crete",
         "greek-kasseri",
+        "greek-kefalograviera",
         "greek-kefalotyri",
         "gres-des-vosges",
         "gruyere-cheese",
@@ -83744,6 +84493,7 @@
         "gruyere-premier-cru",
         "gruyere-reserve-18m",
         "gruyere-vieux",
+        "gruyere-wild-garlic",
         "guda",
         "gudbrandsdalsost",
         "habanero-cheddar",
@@ -83753,21 +84503,26 @@
         "harissa-goat-cheese",
         "harzer",
         "havarti-cheese",
+        "hazelnut-toma",
         "herve",
+        "hickory-smoked-cheddar",
         "hispanico-cheese",
         "hokkaido-gouda",
         "iberico",
         "ibores-dop",
         "icelandic-skyr",
+        "icelandic-skyr-traditional",
         "idiazabal-smoked",
         "imeruli",
         "irish-cashel-blue",
         "irish-coolea",
+        "irish-coolea-gouda",
         "irish-dubliner",
         "irish-gubbeen",
         "isle-of-mull-cheddar",
         "italian-asiago",
         "italian-burrata",
+        "italian-burrata-fresh",
         "italian-caciocavallo",
         "italian-fontina",
         "italian-gorgonzola",
@@ -83776,9 +84531,11 @@
         "italian-pecorino-romano",
         "italian-pecorino-sardo",
         "italian-provolone",
+        "italian-provolone-piccante",
         "italian-scamorza",
         "italian-stracchino",
         "italian-taleggio",
+        "italian-taleggio-dop",
         "italico-cheese",
         "jack-habanero",
         "jack-jalapeno",
@@ -83823,6 +84580,8 @@
         "langres-champagne",
         "lappi",
         "laura-chenel-chevre",
+        "lavender-chevre",
+        "leaf-wrapped-banon",
         "lemongrass-cream-cheese",
         "leyden",
         "lgc-30-minute-mozzarella",
@@ -83869,6 +84628,7 @@
         "manchego-curado",
         "manchego-fresco-new",
         "manchego-gran-reserva",
+        "manchego-paprika-smoked",
         "manchego-semicurado-4m",
         "manchego-sheep-milk",
         "manchego-viejo",
@@ -83883,8 +84643,10 @@
         "mascarpone-style",
         "matcha-cream-cheese",
         "maytag-style",
+        "mead-washed-cheese",
         "meredith-marinated-feta",
         "mexican-cotija",
+        "mexican-queso-de-bola",
         "mexican-queso-oaxaca",
         "middle-eastern-akkawi",
         "middle-eastern-halloumi",
@@ -83901,11 +84663,13 @@
         "montenebro",
         "monterey-jack",
         "montgomery-cheddar-style",
+        "moose-cheese-swedish",
         "morbier",
         "morbier-cheese",
         "motal",
         "mountain-style-tomme",
         "mozzarella-di-bufala-campana",
+        "mozzarella-smoked-applewood",
         "muenster-cheese",
         "munster",
         "munster-fermier",
@@ -83915,8 +84679,10 @@
         "myzithra-aged",
         "nabulsi",
         "nabulsi-palestinian",
+        "nettle-gouda",
         "neufchatel-aop",
         "nevat",
+        "new-zealand-kapiti-blue",
         "newzealand-blue",
         "nguri",
         "nodini",
@@ -83948,11 +84714,14 @@
         "parmigiano-stravecchio",
         "passendale",
         "payoyo",
+        "pecan-cheddar",
         "pecorino-alle-noci",
         "pecorino-fresco",
         "pecorino-gran-riserva",
         "pecorino-pepato",
+        "pecorino-peppercorn-black",
         "pecorino-romano-authentic",
+        "pecorino-saffron",
         "pecorino-sardo",
         "pecorino-semi-stagionato",
         "pecorino-stagionato",
@@ -83960,6 +84729,7 @@
         "pecorino-toscano-fresco",
         "pecorino-toscano-stagionato",
         "pecorino-ubriaco",
+        "pecorino-walnut",
         "pennsylvania-dutch-cup-cheese",
         "pepper-jack-cheese",
         "pere-joseph",
@@ -83970,13 +84740,16 @@
         "picodon-aop",
         "picon-bejes-tresviso-dop",
         "piri-piri-cream-cheese",
+        "pistachio-crusted-chevre",
         "poblano-pepper-jack",
+        "polish-bundz",
         "pont-l-eveque",
         "pont-l-eveque-affine",
         "pont-l-eveque-fermier",
         "pont-leveque-cheese",
         "port-salut",
         "port-salut-cheese",
+        "port-salut-wine-washed",
         "pot-cheese-style",
         "pouligny-saint-pierre",
         "pouligny-saint-pierre-affine",
@@ -83998,6 +84771,7 @@
         "psr-homemade-cheddar",
         "psr-homemade-cheddar-cheese",
         "psr-traditional-cultured-mozzarella",
+        "pule-donkey-cheese",
         "pultost",
         "puzzone-di-moena",
         "quargel",
@@ -84053,6 +84827,7 @@
         "red-leicester-cheese",
         "red-leicester-oak-smoked",
         "redykolka",
+        "reindeer-cheese-sami",
         "remoudou",
         "ribblesdale-goat",
         "ricotta-di-bufala",
@@ -84073,10 +84848,12 @@
         "roquefort-black-label",
         "roquefort-style-blue-sheep-milk",
         "roquefort-style-cheese",
+        "rosemary-manchego",
         "rubing",
         "rum-washed-gouda",
         "rushan",
         "saga-blue",
+        "sage-derby",
         "saint-marcellin-cheese",
         "saint-marcellin-igp",
         "saint-maure-de-touraine",
@@ -84097,6 +84874,7 @@
         "schiz-cheese",
         "schlierbacher",
         "scotch-bonnet-cheddar",
+        "scottish-dunlop",
         "secondo-sale",
         "selles-sur-cher-affine",
         "serpa",
@@ -84143,6 +84921,8 @@
         "single-gloucester",
         "sirene",
         "slovak-bryndza",
+        "smoked-blue-cheese",
+        "smoked-brie",
         "smoked-caciocavallo",
         "smoked-cheddar",
         "smoked-cheddar-applewood",
@@ -84155,18 +84935,26 @@
         "smoked-gruyere-style",
         "smoked-halloumi",
         "smoked-havarti",
+        "smoked-idiazabal",
+        "smoked-jack-cheese",
         "smoked-mozzarella",
+        "smoked-mozzarella-affumicata",
         "smoked-mozzarella-light",
         "smoked-provola-affumicata",
         "smoked-provolone",
+        "smoked-scamorza",
+        "smoked-swiss-emmental",
         "sottocenere",
         "spanish-blue-cheese",
         "spanish-cabrales",
+        "spanish-cabrales-blue",
         "spanish-idiazabal",
         "spanish-mahon",
         "spanish-manchego",
+        "spanish-manchego-artesano",
         "spanish-roncal",
         "spanish-tetilla",
+        "spanish-valdeon",
         "sparkenhoe-red-leicester",
         "spressa-delle-giudicarie-dop",
         "stilton-apricot",
@@ -84180,14 +84968,19 @@
         "sulguni-smoked",
         "svecia",
         "swaledale",
+        "swedish-vasterbotten",
         "swiss-appenzeller",
         "swiss-baby-swiss-cheese",
         "swiss-emmental",
+        "swiss-emmental-classic",
         "swiss-raclette",
+        "swiss-raclette-valais",
         "swiss-sbrinz",
+        "swiss-sbrinz-hard",
         "swiss-style-emmental",
         "swiss-style-gruyere",
         "swiss-tete-de-moine",
+        "swiss-vacherin-mont-dor",
         "szechuan-peppercorn-jack",
         "takammart",
         "taleggio",
@@ -84342,7 +85135,10 @@
         "vorarlberger-bergkase",
         "wara",
         "wasabi-cream-cheese",
+        "water-buffalo-mozzarella-campana",
         "weisslacker",
+        "welsh-caerphilly-traditional",
+        "welsh-perl-las",
         "wensleydale",
         "wensleydale-cheese",
         "wensleydale-cranberry",
@@ -84350,6 +85146,7 @@
         "wensleydale-mango",
         "west-country-farmhouse-cheddar",
         "westmalle",
+        "whiskey-cheddar",
         "whiskey-washed-gouda",
         "wine-infused-cheese",
         "winnimere-style",
@@ -85198,6 +85995,18 @@
       ]
     },
     {
+      "ingredient": "marc de bourgogne",
+      "variants": [
+        "marc de bourgogne",
+        "marc de bourgogne (or pomace brandy)"
+      ],
+      "recipe_count": 2,
+      "recipe_ids": [
+        "epoisses-burgundy",
+        "epoisses-marc-burgundy"
+      ]
+    },
+    {
       "ingredient": "marc de bourgogne or brandy",
       "variants": [
         "marc de bourgogne or brandy"
@@ -85807,6 +86616,16 @@
       ]
     },
     {
+      "ingredient": "mead",
+      "variants": [
+        "mead"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "mead-washed-cheese"
+      ]
+    },
+    {
       "ingredient": "meal,",
       "variants": [
         "meal,"
@@ -85917,6 +86736,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "english-crumpets-ref"
+      ]
+    },
+    {
+      "ingredient": "medjool dat",
+      "variants": [
+        "medjool dates"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "date-gouda"
       ]
     },
     {
@@ -86127,10 +86956,14 @@
         "mesophilic culture",
         "mesophilic culture (c101)",
         "mesophilic culture (chevre or buttermilk)",
+        "mesophilic culture (chèvre culture or c20g)",
+        "mesophilic culture (chèvre culture)",
         "mesophilic culture (dvi mm or ma)",
+        "mesophilic culture (flora danica or mm100)",
         "mesophilic culture (flora danica)",
         "mesophilic culture (ma 4000 series)",
         "mesophilic culture (ma or mo30)",
+        "mesophilic culture (ma4001)",
         "mesophilic culture (mm100 or c21)",
         "mesophilic culture (mm100 or similar)",
         "mesophilic culture (mm100)",
@@ -86138,16 +86971,71 @@
         "mesophilic culture (or 1 tbsp clabber or previous batch sour cream)",
         "mesophilic culture (or 2 cups well-fed clabber)"
       ],
-      "recipe_count": 42,
+      "recipe_count": 117,
       "recipe_ids": [
         "18th-century-farmhouse-cheddar",
+        "american-brick-cheese",
+        "american-colby",
+        "apricot-stilton",
+        "armenian-chechil",
+        "ash-ripened-valencay",
+        "australian-milawa-blue",
+        "beer-washed-cheese",
+        "belgium-chimay-trappist",
+        "blue-stilton-apricot",
+        "blueberry-chevre",
+        "brazilian-queijo-coalho",
+        "brie-cranberry",
+        "brie-truffle-white",
+        "british-cornish-yarg",
+        "british-derby-sage",
+        "british-double-gloucester",
+        "british-stilton-blue",
+        "calvados-washed-camembert",
         "cf-appenzeller-swiss",
         "cfs-homemade-sour-cream",
         "cfs-italian-havarti",
+        "cheddar-caramelized-onion",
+        "cheddar-chipotle",
+        "cheddar-porter-beer",
+        "cheddar-truffle-black",
+        "cheddar-vintage-24-month",
+        "cider-washed-cheese",
+        "cranberry-wensleydale",
+        "cumin-gouda",
+        "danish-blue-cheese",
+        "date-gouda",
+        "dill-havarti",
         "dry-curd-cottage-cheese",
+        "dutch-aged-gouda-48",
+        "dutch-edam-traditional",
+        "dutch-leyden-cumin",
+        "epoisses-burgundy",
+        "epoisses-marc-burgundy",
         "fcf-feta-cheese",
+        "fenugreek-gouda",
+        "fig-walnut-goat-cheese",
+        "french-brie-de-meaux",
+        "french-camembert-normandie",
+        "french-chevre-buchette",
+        "french-crottin-chavignol",
+        "french-roquefort",
+        "garlic-herb-boursin-style",
+        "goat-ash-mold-ripened",
+        "goat-cheese-herbs-provence",
+        "goat-honey-fig",
+        "gouda-cumin-dutch",
+        "gouda-lavender",
+        "gouda-mustard-seed",
+        "gouda-overjarig-48-month",
         "havarti-cheese",
+        "hazelnut-toma",
+        "hickory-smoked-cheddar",
         "hoa-cheddar-cheese",
+        "irish-coolea-gouda",
+        "italian-taleggio-dop",
+        "lavender-chevre",
+        "leaf-wrapped-banon",
         "lgc-bel-paese",
         "lgc-caerphilly",
         "lgc-camembert",
@@ -86170,6 +87058,23 @@
         "lgc-traditional-cheddar",
         "lgc-tzafatit",
         "lgc-wensleydale",
+        "mead-washed-cheese",
+        "mexican-queso-de-bola",
+        "moose-cheese-swedish",
+        "nettle-gouda",
+        "new-zealand-kapiti-blue",
+        "pecan-cheddar",
+        "pistachio-crusted-chevre",
+        "port-salut-wine-washed",
+        "reindeer-cheese-sami",
+        "sage-derby",
+        "scottish-dunlop",
+        "smoked-blue-cheese",
+        "smoked-brie",
+        "smoked-idiazabal",
+        "smoked-jack-cheese",
+        "spanish-cabrales-blue",
+        "spanish-valdeon",
         "stilton-blue-cheese",
         "traditional-brie",
         "traditional-camembert",
@@ -86181,7 +87086,10 @@
         "traditional-roquefort",
         "traditional-stilton-blue-cheese",
         "traditional-tomme",
-        "traditional-yorkshire-wensleydale"
+        "traditional-yorkshire-wensleydale",
+        "welsh-caerphilly-traditional",
+        "welsh-perl-las",
+        "whiskey-cheddar"
       ]
     },
     {
@@ -86885,7 +87793,7 @@
         "whole milk (raw preferred)",
         "whole milk (sheep, goat, or cow)"
       ],
-      "recipe_count": 670,
+      "recipe_count": 705,
       "recipe_ids": [
         "18th-century-farmhouse-cheddar",
         "30-minute-mozzarella",
@@ -86921,6 +87829,7 @@
         "applesauce-muffins-ref",
         "apricot-scones",
         "apricot-scones-ref",
+        "apricot-stilton",
         "asiago-cheese",
         "asparagus-omelet",
         "asparagus-omelet-ref",
@@ -86955,6 +87864,7 @@
         "bavarian-cream-harvester",
         "beaufort-cheese",
         "beer-infused-cheese",
+        "beer-washed-cheese",
         "belgian-waffles",
         "belgian-waffles-ref",
         "belper-knolle-cheese",
@@ -86993,6 +87903,7 @@
         "butter-crescents-gahb",
         "butterkase-cheese",
         "caerphilly-cheese",
+        "calvados-washed-camembert",
         "camblu-cheese",
         "camembert-cheese",
         "candy-cane-muffins",
@@ -87004,6 +87915,7 @@
         "carrot-cake-cream-cheese-icing-gahb",
         "carrot-muffins-ref",
         "cauliflower-with-cheese-scottsnort",
+        "cave-aged-gruyere",
         "cf-cauliflower-blue-cheese-soup",
         "cf-feta-cheese",
         "cf-gouda-cheese",
@@ -87069,6 +87981,7 @@
         "chocolate-hazelnut-muffins-ref",
         "chocolate-mint-muffins",
         "chocolate-waffles-ref",
+        "cider-washed-cheese",
         "cinnamon-and-spice-muffins",
         "cinnamon-and-spice-muffins-ref",
         "cinnamon-oat-scones",
@@ -87113,6 +88026,7 @@
         "crab-souffle",
         "crab-souffle-ref",
         "cranberry-orange-muffins-ref",
+        "cranberry-wensleydale",
         "cream-cheese",
         "cream-or-white-sauce-gutenberg",
         "cream-or-white-sauce-gutenberg-6429",
@@ -87127,16 +88041,19 @@
         "croque-madame-ref",
         "crustless-quiche-dutchovenc",
         "cultured-mozzarella",
+        "cumin-gouda",
         "curried-cottage-cheese-and-eggs-in-rice-nests-cottage-cheese",
         "custard-american-cookery-1796",
         "custard-fromscratc",
         "custard-sauce-harvester",
         "cypriot-anari",
         "danbo-cheese",
+        "date-gouda",
         "date-oatmeal-cookies-betty-crocker",
         "deep-fried-cheese-curds",
         "devils-food-cake-grandmas-molasses",
         "df-swiss-cheese",
+        "dill-havarti",
         "dry-curd-cottage-cheese",
         "dumplings-gutenberg",
         "dunlop-cheese",
@@ -87165,12 +88082,14 @@
         "english-crumpets",
         "english-crumpets-ref",
         "english-tea-cakes-betty-crocker",
+        "epoisses-burgundy",
         "everything-bagel-cream-cheese",
         "farmers-cheese",
         "farmstead-cheese",
         "favorite-fruit-cake-thewingold",
         "fcf-panir-queso-blanco",
         "fcf-whole-milk-ricotta",
+        "fenugreek-gouda",
         "feta-cheese",
         "fettuccine-with-quick-ragu",
         "filled-cheese-rolls-cottage-cheese",
@@ -87184,12 +88103,15 @@
         "fourme-dambert-cheese",
         "frans-chicken-chickenrec",
         "french-toast-grandmas-molasses",
+        "fresh-fromage-blanc",
+        "fresh-queso-fresco-mexican",
         "fried-chicken-breast-chickenrec",
         "frozen-plum-pudding-harvester",
         "fruit-sherbet-harvester",
         "fruity-breakfast-sandwich",
         "fruity-breakfast-sandwich-ref",
         "funnel-cakes-gutenberg",
+        "garlic-herb-boursin-style",
         "german-chocolate-cake-coconut-pecan-cajeta-frosting",
         "german-pancakes",
         "german-pancakes-ref",
@@ -87202,6 +88124,7 @@
         "gorgonzola-dolce",
         "gorgonzola-picante-cheese",
         "gouda-cheese",
+        "grappa-washed-cheese",
         "green-chile-gnocchi-chile-bible",
         "gruyere-cheese",
         "halibut-cutlets-thewhysofc",
@@ -87215,8 +88138,10 @@
         "hash-brown-frittata",
         "hash-brown-frittata-ref",
         "havarti-cheese",
+        "hazelnut-toma",
         "healthy-apple-wheat-pancakes",
         "healthy-apple-wheat-pancakes-ref",
+        "hickory-smoked-cheddar",
         "hispanico-cheese",
         "hoa-cheddar-cheese",
         "holiday-gingerbread-pumpkin-muffins",
@@ -87229,12 +88154,14 @@
         "huevos-rancheros",
         "huevos-rancheros-ref",
         "hungarian-cinnamon-swirl-bread-ref",
+        "indian-chhena",
         "indian-pudding-american-cookery-1796",
         "indian-pudding-grandmas-molasses",
         "indian-slapjack-american-cookery-1796",
         "italian-meatballs-printed",
         "italian-ricotta",
         "italico-cheese",
+        "japanese-tofu-cheese-adaptation",
         "jarlsberg-cheese",
         "johnnycake-american-cookery-1796",
         "johnnycakes",
@@ -87291,6 +88218,7 @@
         "maple-walnut-waffles-ref",
         "marble-cake-grandmas-molasses",
         "matcha-cream-cheese",
+        "mead-washed-cheese",
         "meat-pie-gutenberg",
         "mexican-breakfast-choco-drink",
         "mexican-breakfast-choco-drink-ref",
@@ -87312,8 +88240,10 @@
         "mountain-style-tomme",
         "muenster-cheese",
         "naomis-carrot-cheese-bake-ancients",
+        "nettle-gouda",
         "new-orleans-pecan-pralines",
         "nmsu-feta-style",
+        "nordic-mesost",
         "norwegian-waffles",
         "norwegian-waffles-ref",
         "nutella-muffins",
@@ -87338,6 +88268,7 @@
         "pancake-fruit-kabobs",
         "pancake-fruit-kabobs-ref",
         "pancakes-basic-ref",
+        "paneer",
         "paneer-cheese",
         "parmesan-style-cheese",
         "parsnip-patties-gutenberg",
@@ -87350,6 +88281,7 @@
         "peanut-butter-jelly-muffins-ref",
         "peanut-butter-muffins-ref",
         "peanut-cupcakes-nougat-chocolate-frosting",
+        "pecan-cheddar",
         "pennsylvania-dutch-cup-cheese",
         "pepper-jack-cheese",
         "peter-rabbit-carrot-cake-muffins",
@@ -87368,6 +88300,7 @@
         "poppy-seed-muffins",
         "poppy-seed-muffins-ref",
         "port-salut-cheese",
+        "port-salut-wine-washed",
         "pot-cheese-style",
         "potato-doughnuts-gutenberg",
         "potato-pancakes-gutenberg",
@@ -87432,6 +88365,7 @@
         "rusk-american-cookery-1796",
         "russian-tvorog",
         "saffron-paneer",
+        "sage-derby",
         "saint-marcellin-cheese",
         "saint-nectaire-cheese",
         "salmon-timbales-thewingold",
@@ -87451,6 +88385,13 @@
         "shepherds-cheese-bake-ancients",
         "shropshire-blue-cheese",
         "simple-leek-quiche",
+        "smoked-blue-cheese",
+        "smoked-brie",
+        "smoked-jack-cheese",
+        "smoked-mozzarella-affumicata",
+        "smoked-ricotta",
+        "smoked-scamorza",
+        "smoked-swiss-emmental",
         "sock-it-to-me-cake-1970s",
         "southern-corn-muffins-ref",
         "southwestern-corn-chowder-chile-bible",
@@ -87528,6 +88469,7 @@
         "traditional-stilton-blue-cheese",
         "traditional-yorkshire-wensleydale",
         "triple-creme-cheese",
+        "turkish-lor-cheese",
         "tvarog-slavic",
         "two-toned-perfection-salad-harvester",
         "ukrainian-babka-bread",
@@ -87547,6 +88489,7 @@
         "wensleydale-cheese",
         "western-omelet",
         "western-omelet-ref",
+        "whiskey-cheddar",
         "whole-wheat-blueberry-muffins-grandmas-molasses",
         "whole-wheat-griddle-cakes-grandmas-molasses",
         "whole-wheat-waffles-ref",
@@ -87755,6 +88698,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "corn-bread-ormuffins-theplainsa"
+      ]
+    },
+    {
+      "ingredient": "milk for steeping",
+      "variants": [
+        "warm milk for steeping"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "pecorino-saffron"
       ]
     },
     {
@@ -88633,6 +89586,16 @@
       ]
     },
     {
+      "ingredient": "moose milk",
+      "variants": [
+        "moose milk"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "moose-cheese-swedish"
+      ]
+    },
+    {
       "ingredient": "mould themashed potato intofour flatcak",
       "variants": [
         "mould themashed potato intofour flatcakes"
@@ -88815,6 +89778,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "nmsu-feta-style"
+      ]
+    },
+    {
+      "ingredient": "mucor or rhizopus mold",
+      "variants": [
+        "mucor or rhizopus mold (from previous batch or purchased)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "norwegian-gammelost"
       ]
     },
     {
@@ -89173,6 +90146,19 @@
       "recipe_ids": [
         "gamalost",
         "pultost"
+      ]
+    },
+    {
+      "ingredient": "natural whey starter",
+      "variants": [
+        "natural whey starter (or citric acid)",
+        "natural whey starter (or thermophilic culture)"
+      ],
+      "recipe_count": 3,
+      "recipe_ids": [
+        "italian-grana-padano",
+        "italian-pecorino-romano-authentic",
+        "water-buffalo-mozzarella-campana"
       ]
     },
     {
@@ -90363,9 +91349,10 @@
     {
       "ingredient": "olive oil",
       "variants": [
-        "olive oil"
+        "olive oil",
+        "olive oil (for rubbing rind)"
       ],
-      "recipe_count": 130,
+      "recipe_count": 132,
       "recipe_ids": [
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
         "adas-bil-hamod",
@@ -90433,6 +91420,7 @@
         "lebanese-lemon-lentil-soup",
         "lebanese-red-lentil-soup",
         "lebanese-rice-pilaf",
+        "lebanese-shanklish",
         "lemon-parsley-chicken-breasts-chickenrec",
         "lemon-pepper-chicken-ref",
         "lemon-ricotta-pasta",
@@ -90477,6 +91465,7 @@
         "spaghetti-homemade-ref",
         "spaghetti-squash-meatball-casserole",
         "spanakopita",
+        "spanish-manchego-artesano",
         "speedy-cioppino",
         "spice-rubbed-pork-tenderloin",
         "spicy-shrimp-pasta-ref",
@@ -90528,6 +91517,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "baked-cheesy-cuban-chicken-taquitos"
+      ]
+    },
+    {
+      "ingredient": "olive oil for rind",
+      "variants": [
+        "olive oil for rind"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "manchego-gran-reserva-18-month"
       ]
     },
     {
@@ -92364,6 +93363,16 @@
       ]
     },
     {
+      "ingredient": "onions, caramelized",
+      "variants": [
+        "large onions, caramelized"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cheddar-caramelized-onion"
+      ]
+    },
+    {
       "ingredient": "onions, chopped",
       "variants": [
         "onions, chopped"
@@ -93803,11 +94812,12 @@
         "fresh oregano",
         "oregano"
       ],
-      "recipe_count": 38,
+      "recipe_count": 39,
       "recipe_ids": [
         "aaron-mccargo-steak-fajita-chili",
         "anasazi-black-bean-chili",
         "argentine-provoleta-small-batch",
+        "argentinian-provoleta",
         "black-bean-chili",
         "bowl-of-the-wife-of-kit-carson-chickenrec",
         "brown-rice-stuffed-peppers",
@@ -94547,7 +95557,7 @@
         "minced parsley",
         "parsley"
       ],
-      "recipe_count": 87,
+      "recipe_count": 88,
       "recipe_ids": [
         "20-mi-nute-chi-cken-parmesan-chickenrec",
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
@@ -94585,6 +95595,7 @@
         "fresh-tomato-quiche-ref",
         "fricassee-festus-ancients",
         "fried-cauliflower-with-tahini-sauce",
+        "garlic-herb-boursin-style",
         "grass-fed-beef-tenderloin-sauteed-mushrooms",
         "halibut-cutlets-thewhysofc",
         "herbed-heritage-pork-loin-white-wine",
@@ -94901,17 +95912,23 @@
     {
       "ingredient": "partially skimmed cow's milk",
       "variants": [
-        "partially skimmed cow's milk"
+        "partially skimmed cow's milk",
+        "partially skimmed cow's milk (evening)"
       ],
-      "recipe_count": 17,
+      "recipe_count": 22,
       "recipe_ids": [
         "asiago-d-allevo",
         "casera-dpo",
         "dorset-blue-vinny",
+        "dutch-edam-traditional",
+        "dutch-leyden-cumin",
         "grana-padano-riserva",
+        "italian-grana-padano",
         "leyden",
         "livarot",
+        "mexican-queso-de-bola",
         "nostrano-valtrompia-dop",
+        "parmesan-stravecchio-36-month",
         "parmigiano-12-month",
         "parmigiano-18-month",
         "parmigiano-24-month",
@@ -95470,7 +96487,7 @@
         "chopped pecans",
         "pecans"
       ],
-      "recipe_count": 39,
+      "recipe_count": 40,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "alabama-lane-cake",
@@ -95498,6 +96515,7 @@
         "morning-start-blueberry-oatmeal-muffins",
         "oatmeal-cake-broiled-frosting",
         "peach-cobbler-dump-cake",
+        "pecan-cheddar",
         "pineapple-refrigerator-cake-harvester",
         "reddit-ambrosia-salad",
         "reddit-coca-cola-cake",
@@ -95796,23 +96814,32 @@
       "ingredient": "penicillium candidum",
       "variants": [
         "penicillium candidum",
+        "penicillium candidum (optional for aged)",
         "penicillium candidum (white mold)"
       ],
-      "recipe_count": 31,
+      "recipe_count": 40,
       "recipe_ids": [
+        "ash-ripened-valencay",
         "belgian-wynendale",
         "black-garlic-brie",
         "brie-cheese",
+        "brie-cranberry",
+        "brie-truffle-white",
+        "calvados-washed-camembert",
         "camblu-cheese",
         "camembert-cheese",
         "french-brie",
+        "french-brie-de-meaux",
         "french-brillat-savarin",
         "french-camembert",
+        "french-camembert-normandie",
         "french-chaource",
+        "french-crottin-chavignol",
         "french-neufchatel",
         "french-sainte-maure-de-touraine",
         "french-selles-sur-cher",
         "french-valencay",
+        "goat-ash-mold-ripened",
         "japanese-sakura-cheese",
         "lgc-camembert",
         "lgc-coulommiers",
@@ -95825,6 +96852,7 @@
         "sheep-milk-brie",
         "sheep-milk-camembert",
         "sheep-milk-coulommiers",
+        "smoked-brie",
         "traditional-brie",
         "traditional-camembert",
         "traditional-neufchatel",
@@ -95839,18 +96867,23 @@
         "penicillium roqueforti",
         "penicillium roqueforti (tiny speck)"
       ],
-      "recipe_count": 39,
+      "recipe_count": 49,
       "recipe_ids": [
+        "australian-milawa-blue",
         "bleu-dauvergne-cheese",
         "blue-by-you-cheese",
+        "blue-stilton-apricot",
         "british-shropshire-blue",
         "british-stilton",
+        "british-stilton-blue",
         "camblu-cheese",
         "cn-blue-cheese",
+        "danish-blue-cheese",
         "english-stilton",
         "fourme-dambert-cheese",
         "french-bleu-dauvergne",
         "french-fourme-dambert",
+        "french-roquefort",
         "french-roquefort-style",
         "german-bavarian-blue",
         "giacomos-blue-cheese",
@@ -95859,6 +96892,7 @@
         "irish-cashel-blue",
         "italian-gorgonzola",
         "lgc-petit-bleu",
+        "new-zealand-kapiti-blue",
         "newzealand-blue",
         "roaring-forties-blue",
         "roquefort-style-blue-sheep-milk",
@@ -95868,8 +96902,11 @@
         "sheep-milk-gorgonzola",
         "sheep-milk-stilton",
         "shropshire-blue-cheese",
+        "smoked-blue-cheese",
         "spanish-blue-cheese",
         "spanish-cabrales",
+        "spanish-cabrales-blue",
+        "spanish-valdeon",
         "stilton-blue-cheese",
         "traditional-bleu-dauvergne",
         "traditional-cabrales-spanish-blue",
@@ -95879,7 +96916,8 @@
         "traditional-roquefort",
         "traditional-stilton-blue-cheese",
         "usa-maytag-blue",
-        "usa-rogue-river-blue"
+        "usa-rogue-river-blue",
+        "welsh-perl-las"
       ]
     },
     {
@@ -97011,10 +98049,12 @@
     {
       "ingredient": "pistachio",
       "variants": [
-        "chopped pistachios"
+        "chopped pistachios",
+        "pistachios"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
+        "pistachio-crusted-chevre",
         "watergate-pistachio-cookies"
       ]
     },
@@ -97801,6 +98841,16 @@
       ]
     },
     {
+      "ingredient": "porter or stout beer",
+      "variants": [
+        "porter or stout beer"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cheddar-porter-beer"
+      ]
+    },
+    {
       "ingredient": "pot pie dough",
       "variants": [
         "pot pie dough"
@@ -98544,6 +99594,32 @@
       ]
     },
     {
+      "ingredient": "propionibacterium",
+      "variants": [
+        "propionibacterium",
+        "propionibacterium (for eyes)",
+        "propionibacterium (optional, for eyes)"
+      ],
+      "recipe_count": 3,
+      "recipe_ids": [
+        "austrian-bergkase",
+        "cave-aged-gruyere",
+        "french-comte-gruyere"
+      ]
+    },
+    {
+      "ingredient": "propionibacterium freudenreichii",
+      "variants": [
+        "propionibacterium freudenreichii",
+        "propionibacterium freudenreichii (for eyes)"
+      ],
+      "recipe_count": 2,
+      "recipe_ids": [
+        "smoked-swiss-emmental",
+        "swiss-emmental-classic"
+      ]
+    },
+    {
       "ingredient": "propionibacterium shermanii",
       "variants": [
         "propionibacterium shermanii",
@@ -99206,6 +100282,16 @@
       ]
     },
     {
+      "ingredient": "quark",
+      "variants": [
+        "quark (fresh curd cheese)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "milbenkase-mite-cheese"
+      ]
+    },
+    {
       "ingredient": "quark culture or buttermilk culture",
       "variants": [
         "quark culture or buttermilk culture"
@@ -99234,6 +100320,16 @@
       "recipe_ids": [
         "traditional-handkase-german",
         "traditional-olomoucke-tvaruzky-czech"
+      ]
+    },
+    {
+      "ingredient": "quark or fresh acid-set curd",
+      "variants": [
+        "quark or fresh acid-set curd"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "czech-olomoucky-tvaruzky"
       ]
     },
     {
@@ -99375,6 +100471,16 @@
       "recipe_ids": [
         "fattoosh",
         "lebanese-radish-salad"
+      ]
+    },
+    {
+      "ingredient": "raffia",
+      "variants": [
+        "raffia"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "leaf-wrapped-banon"
       ]
     },
     {
@@ -99681,10 +100787,12 @@
       "variants": [
         "red cheese wax"
       ],
-      "recipe_count": 3,
+      "recipe_count": 5,
       "recipe_ids": [
         "argentine-magnasco-edam",
         "dutch-edam",
+        "dutch-edam-traditional",
+        "mexican-queso-de-bola",
         "queso-holanda-argentino"
       ]
     },
@@ -99954,8 +101062,10 @@
         "crushed red pepper flakes",
         "red pepper flakes"
       ],
-      "recipe_count": 15,
+      "recipe_count": 17,
       "recipe_ids": [
+        "argentinian-provoleta",
+        "asiago-red-pepper",
         "asian-chicken-salad-kfc-copycat",
         "claudias-turkish-dumplings",
         "conch-fritters-bahamian-style",
@@ -100372,6 +101482,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "chicken-rice-bake-chickenrec"
+      ]
+    },
+    {
+      "ingredient": "reindeer milk",
+      "variants": [
+        "reindeer milk"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "reindeer-cheese-sami"
       ]
     },
     {
@@ -102015,13 +103135,14 @@
         "fresh rosemary",
         "rosemary"
       ],
-      "recipe_count": 6,
+      "recipe_count": 7,
       "recipe_ids": [
         "baked-brie-honey-nuts",
         "fettuccine-with-quick-ragu",
         "fougasse-ref",
         "herbed-heritage-pork-loin-white-wine",
         "lgc-marinated-feta",
+        "rosemary-manchego",
         "spinach-quiche-chile-bible"
       ]
     },
@@ -102033,6 +103154,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "balsamic-rosemary-pork-loin-roasted-potatoes"
+      ]
+    },
+    {
+      "ingredient": "rosemary sprig",
+      "variants": [
+        "rosemary sprigs"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "rosemary-manchego"
       ]
     },
     {
@@ -102193,6 +103324,17 @@
       "recipe_count": 1,
       "recipe_ids": [
         "harvest-chicken-liver-pate"
+      ]
+    },
+    {
+      "ingredient": "ruby port wine",
+      "variants": [
+        "ruby port wine"
+      ],
+      "recipe_count": 2,
+      "recipe_ids": [
+        "blue-stilton-port",
+        "port-salut-wine-washed"
       ]
     },
     {
@@ -102548,8 +103690,9 @@
       "variants": [
         "saffron threads"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
+        "pecorino-saffron",
         "saffron-paneer"
       ]
     },
@@ -102585,9 +103728,11 @@
         "fresh sage leaves",
         "small fresh sage leaves"
       ],
-      "recipe_count": 4,
+      "recipe_count": 6,
       "recipe_ids": [
+        "british-derby-sage",
         "cheddar-sage",
+        "sage-derby",
         "salt-roasted-beet-carpaccio",
         "traditional-sage-derby-english",
         "vegetable-tarte-tatin"
@@ -102829,7 +103974,7 @@
         "salt (if using unsalted butter)",
         "salt (optional)"
       ],
-      "recipe_count": 1636,
+      "recipe_count": 1660,
       "recipe_ids": [
         "14-arpents",
         "6-in-1-refrigerator-cookies-harvester",
@@ -103063,6 +104208,7 @@
         "caciotta-toscana",
         "california-casserole-chile-bible",
         "cambozola-black-label",
+        "camel-cheese-mauritania",
         "camembert-affine",
         "camembert-calvados",
         "camembert-laitier",
@@ -103358,6 +104504,7 @@
         "cypress-grove-truffle-tremor",
         "cypriot-anari",
         "czech-olomoucke-tvaruzky",
+        "czech-olomoucky-tvaruzky",
         "daisy-potato-skins",
         "dandelion-salad-gutenberg",
         "danish-blue-castello",
@@ -103446,6 +104593,7 @@
         "filled-cookies-betty-crocker",
         "finnish-aura",
         "finnish-koskenlaskija",
+        "finnish-leipajuusto",
         "finnish-oltermanni",
         "fiscalini-bandage-cheddar",
         "fish-of-galilee-ancients",
@@ -103474,7 +104622,9 @@
         "french-chocolate-bread-ref",
         "french-cottage-cheese-pie-cottage-cheese",
         "french-dressing-harvester",
+        "fresh-fromage-blanc",
         "fresh-pasta-dough-technique",
+        "fresh-queso-fresco-mexican",
         "fresh-tomato-quiche-ref",
         "fresh-whole-wheat-pitas",
         "fried-chicken-breast-chickenrec",
@@ -103510,6 +104660,9 @@
         "gippsland-blue",
         "glazed-carrots-and-onions-grandmas-molasses",
         "glazed-orange-chicken-chickenrec",
+        "goat-ash-mold-ripened",
+        "goat-cheese-herbs-provence",
+        "goat-honey-fig",
         "gold-cookies-betty-crocker",
         "golden-chicken-nuggets-chickenrec",
         "gorgonzola-dolce-dop",
@@ -103610,12 +104763,14 @@
         "i-cant-stand-eggs",
         "icelandic-skyrostur",
         "idiazabal-natural",
+        "indian-kalari-cheese",
         "indian-paneer",
         "indian-pudding-grandmas-molasses",
         "indian-slapjack-american-cookery-1796",
         "irimshik",
         "irish-soda-bread",
         "irishscones-wilsonscoo",
+        "italian-burrata-fresh",
         "italian-chicken-chickenrec",
         "italian-chicken-cutlets-chickenrec",
         "italian-cream-cake-southern",
@@ -103626,6 +104781,7 @@
         "jack-herb",
         "jack-sun-dried-tomato",
         "jalapeno-cheese-bread",
+        "japanese-tofu-cheese-adaptation",
         "jasper-hill-bayley-hazen",
         "jewelled-cookies-betty-crocker",
         "jibneh-arabieh",
@@ -103665,6 +104821,7 @@
         "lebanese-lemon-lentil-soup",
         "lebanese-rice-pilaf",
         "lebanese-rubbed-salad",
+        "lebanese-shanklish",
         "leerdammer",
         "leerdammer-light",
         "lemon-blueberry-pancakes",
@@ -103750,6 +104907,7 @@
         "middle-eastern-shanklish",
         "midnight-moon",
         "milanesa-napolitana-reggianito",
+        "milbenkase-mite-cheese",
         "milleens",
         "millionaires-shortbread",
         "mini-meat-quiches",
@@ -103791,6 +104949,7 @@
         "mozzarella-fior-di-latte",
         "mozzarella-nodini",
         "mozzarella-ovoline",
+        "mozzarella-smoked-applewood",
         "mozzarella-string-cheese",
         "mozzarella-treccia",
         "muenster-american",
@@ -103802,6 +104961,7 @@
         "mutschli",
         "mysost-whey-cheese",
         "neiman-marcus-250-cookies",
+        "nepali-chhurpi-hard",
         "new-northland-cookies-betty-crocker",
         "nisa",
         "nmsu-cream-cheese",
@@ -103858,6 +105018,7 @@
         "pancake-fruit-kabobs",
         "pancake-fruit-kabobs-ref",
         "pancakes-basic-ref",
+        "paneer",
         "paneer-cheese",
         "paneer-tikka-masala",
         "paneer-tikka-style",
@@ -103933,6 +105094,7 @@
         "plumb-cake-american-cookery-1796",
         "point-reyes-bay-blue",
         "point-reyes-blue",
+        "polish-bundz",
         "polish-twarog",
         "pomegranate-blueberry-energy-muffins",
         "poor-mans-cake-depression",
@@ -103943,6 +105105,7 @@
         "pork-loin-in-green-sauce-chile-bible",
         "port-salut-danish",
         "port-salut-french",
+        "portuguese-queijo-serra-estrela",
         "portuguese-sweet-bread",
         "pot-cheese",
         "potato-bites",
@@ -103967,6 +105130,7 @@
         "psr-traditional-cultured-mozzarella",
         "pt-reyes-toma",
         "puhoi-valley-camembert",
+        "pule-donkey-cheese",
         "pumpkin-chiffon-pie-grandmas-molasses",
         "pumpkin-chocolate-chip-scones",
         "pumpkin-chocolate-chip-scones-ref",
@@ -104114,6 +105278,7 @@
         "refrigerator-ginger-cookies-grandmas-molasses",
         "refrigerator-rolls-harvester",
         "refrigerator-whole-wheat-rolls-grandmas-molasses",
+        "reindeer-cheese-sami",
         "relleno-bean-bake",
         "relleno-bean-bake-chile-bible",
         "requeijao",
@@ -104207,6 +105372,7 @@
         "seasoni-ng-mi-x-for-chicken-chickenrec",
         "section-28-monforte",
         "selles-sur-cher",
+        "serbian-kajmak",
         "serra-da-estrela",
         "serra-da-estrela-velho",
         "sheep-milk-american-cheese",
@@ -104376,6 +105542,7 @@
         "tuna-cheese-bake-cottage-cheese",
         "tuna-fish-salad-harvester",
         "tuna-nicoise-salad-ref",
+        "turkish-lor-cheese",
         "tutti-frutti-surprises-betty-crocker",
         "tvarog-slavic",
         "tvorog",
@@ -104429,6 +105596,7 @@
         "wara-nigerian",
         "wasabi-cream-cheese",
         "washboards-betty-crocker",
+        "water-buffalo-mozzarella-campana",
         "wc-halloumi-cheese",
         "weekday-casserole",
         "welsh-rarebit-carnation",
@@ -104453,6 +105621,7 @@
         "wookey-hole-cave-aged",
         "wwii-mess-hall-chili",
         "y-fenni",
+        "yak-cheese-himalayan",
         "yarra-valley-white",
         "yeast-waffles",
         "yeast-waffles-ref",
@@ -105167,6 +106336,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "japanese-sakura-cheese"
+      ]
+    },
+    {
+      "ingredient": "salt-preserved sakura",
+      "variants": [
+        "salt-preserved sakura (cherry blossoms)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "japanese-tofu-cheese-adaptation"
       ]
     },
     {
@@ -106870,10 +108049,12 @@
     {
       "ingredient": "sheep or cow's milk",
       "variants": [
-        "sheep or cow's milk"
+        "sheep or cow's milk",
+        "whole sheep or cow's milk"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
+        "bulgarian-sirene",
         "tomme-des-pyrenees"
       ]
     },
@@ -106906,9 +108087,12 @@
         "fresh sheep's milk",
         "raw sheep's milk",
         "sheep's milk",
-        "whole sheep's milk"
+        "whole sheep's milk",
+        "whole sheep's milk (bordaleira serra preferred)",
+        "whole sheep's milk (manchega breed preferred)",
+        "whole sheep's milk (manchega breed)"
       ],
-      "recipe_count": 220,
+      "recipe_count": 236,
       "recipe_ids": [
         "abbaye-belloc",
         "abbaye-de-belloc",
@@ -106921,6 +108105,7 @@
         "bellwether-farms-san-andreas",
         "berkswell",
         "berkswell-style",
+        "black-pepper-pecorino",
         "bleu-de-lacaune",
         "branza-de-burduf",
         "brebi-lou",
@@ -106945,12 +108130,15 @@
         "feta-sun-dried-tomato",
         "fiore-sardo",
         "french-ossau-iraty",
+        "french-roquefort",
         "french-roquefort-style",
         "gouda-sheep",
         "graviera-crete",
         "greek-feta",
         "greek-graviera",
+        "greek-graviera-crete",
         "greek-kasseri",
+        "greek-kefalograviera",
         "greek-kefalotyri",
         "greek-mizithra",
         "guda",
@@ -106958,6 +108146,7 @@
         "idiazabal-natural",
         "idiazabal-smoked",
         "italian-pecorino-romano",
+        "italian-pecorino-romano-authentic",
         "italian-pecorino-sardo",
         "kalathaki-limnou-pdo",
         "kasseri-sheep-milk",
@@ -106974,7 +108163,9 @@
         "manchego-fresco-2week",
         "manchego-fresco-new",
         "manchego-gran-reserva",
+        "manchego-gran-reserva-18-month",
         "manchego-olive-oil",
+        "manchego-paprika-smoked",
         "manchego-rosemary",
         "manchego-semicurado-1month",
         "manchego-semicurado-3month",
@@ -107005,9 +108196,11 @@
         "pecorino-fresco",
         "pecorino-gran-riserva",
         "pecorino-pepato",
+        "pecorino-peppercorn-black",
         "pecorino-romano-24",
         "pecorino-romano-authentic",
         "pecorino-romano-sheep-milk",
+        "pecorino-saffron",
         "pecorino-sardo",
         "pecorino-semi-stagionato",
         "pecorino-stagionato",
@@ -107015,9 +108208,12 @@
         "pecorino-toscano-fresco",
         "pecorino-toscano-stagionato",
         "pecorino-ubriaco",
+        "pecorino-walnut",
         "perail",
         "piacentinu-ennese",
+        "polish-bundz",
         "portuguese-azeitao",
+        "portuguese-queijo-serra-estrela",
         "portuguese-serra-da-estrela",
         "primo-sale",
         "queijo-da-serra",
@@ -107038,6 +108234,7 @@
         "roquefort-papillon-noir",
         "roquefort-societe",
         "roquefort-style-blue-sheep-milk",
+        "rosemary-manchego",
         "secondo-sale",
         "serpa",
         "serra-da-estrela",
@@ -107086,9 +108283,12 @@
         "sheep-milk-torta-del-casar",
         "sheep-milk-zamorano",
         "slovak-bryndza",
+        "smoked-idiazabal",
         "spanish-cabrales",
+        "spanish-cabrales-blue",
         "spanish-idiazabal",
         "spanish-manchego",
+        "spanish-manchego-artesano",
         "spanish-queso-de-la-serena",
         "spanish-roncal",
         "spanish-torta-del-casar",
@@ -107899,9 +109099,10 @@
     {
       "ingredient": "skim milk",
       "variants": [
+        "fresh skim milk",
         "skim milk"
       ],
-      "recipe_count": 20,
+      "recipe_count": 22,
       "recipe_ids": [
         "applesauce-bread-pudding",
         "blueberry-ricotta-blintzes-truvia",
@@ -107914,9 +109115,11 @@
         "french-cancoillotte",
         "french-tomme-de-savoie",
         "icelandic-skyr",
+        "icelandic-skyr-traditional",
         "italian-parmigiano-reggiano",
         "karish",
         "ligh-t-capita-l-chic-ken-chickenrec",
+        "norwegian-gammelost",
         "quark-low-fat",
         "queso-magro-uruguayo",
         "reduced-sugar-blueberry-muffins-truvia",
@@ -108045,6 +109248,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "icelandic-skyrostur"
+      ]
+    },
+    {
+      "ingredient": "skyr or plain greek yogurt",
+      "variants": [
+        "skyr or plain greek yogurt (as starter)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "icelandic-skyr-traditional"
       ]
     },
     {
@@ -108380,6 +109593,16 @@
         "salmon-and-rocket-sandwich",
         "salmon-and-rocket-sandwich-ref",
         "salmon-sushi-bites"
+      ]
+    },
+    {
+      "ingredient": "smoked spanish paprika",
+      "variants": [
+        "smoked spanish paprika (pimentón)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "manchego-paprika-smoked"
       ]
     },
     {
@@ -109098,6 +110321,16 @@
       ]
     },
     {
+      "ingredient": "sour whey or yogurt",
+      "variants": [
+        "sour whey or yogurt"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "indian-kalari-cheese"
+      ]
+    },
+    {
       "ingredient": "sourdough bread",
       "variants": [
         "sourdough bread"
@@ -109143,12 +110376,14 @@
     {
       "ingredient": "soured skim milk",
       "variants": [
-        "soured skim milk"
+        "soured skim milk",
+        "soured skim milk (or buttermilk)"
       ],
-      "recipe_count": 2,
+      "recipe_count": 3,
       "recipe_ids": [
         "gamalost",
-        "norwegian-gamalost"
+        "norwegian-gamalost",
+        "norwegian-gammelost"
       ]
     },
     {
@@ -109264,12 +110499,14 @@
     {
       "ingredient": "soybean",
       "variants": [
+        "dried soybeans",
         "soybeans"
       ],
-      "recipe_count": 2,
+      "recipe_count": 3,
       "recipe_ids": [
         "bean-and-chicken-stew-chile-bible",
-        "southwest-baked-beans-chile-bible"
+        "southwest-baked-beans-chile-bible",
+        "vietnamese-tofu-style"
       ]
     },
     {
@@ -109562,7 +110799,7 @@
         "spinach",
         "spinach (no. 2)"
       ],
-      "recipe_count": 11,
+      "recipe_count": 12,
       "recipe_ids": [
         "adas-bil-hamod",
         "eggs-and-spinach",
@@ -109571,6 +110808,7 @@
         "eggs-florentine-ref",
         "mango-delight-juice-ref",
         "saag-paneer",
+        "sage-derby",
         "spaghetti-squash-meatball-casserole",
         "spanakopita",
         "spinach-au-gratin-carnation",
@@ -109580,10 +110818,12 @@
     {
       "ingredient": "spinach juice",
       "variants": [
-        "spinach juice"
+        "spinach juice",
+        "spinach juice (for color)"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
+        "british-derby-sage",
         "traditional-sage-derby-english"
       ]
     },
@@ -109785,6 +111025,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "traditional-vacherin-mont-dor"
+      ]
+    },
+    {
+      "ingredient": "spruce bark strips or wooden box",
+      "variants": [
+        "spruce bark strips or wooden box"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "swiss-vacherin-mont-dor"
       ]
     },
     {
@@ -110959,6 +112209,36 @@
       "recipe_count": 1,
       "recipe_ids": [
         "baked-pears-grandmas-molasses"
+      ]
+    },
+    {
+      "ingredient": "stilton wheel",
+      "variants": [
+        "whole stilton wheel (2-3 lbs)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "blue-stilton-port"
+      ]
+    },
+    {
+      "ingredient": "stinging nettl",
+      "variants": [
+        "stinging nettles"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "nettle-gouda"
+      ]
+    },
+    {
+      "ingredient": "stinging nettle leav",
+      "variants": [
+        "stinging nettle leaves (dried or blanched)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "british-cornish-yarg"
       ]
     },
     {
@@ -112764,6 +114044,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "chicken-crescent-almondine-chickenrec"
+      ]
+    },
+    {
+      "ingredient": "sycamore or maple leav",
+      "variants": [
+        "sycamore or maple leaves (optional, for wrapping)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "spanish-valdeon"
       ]
     },
     {
@@ -114844,18 +116134,48 @@
       "variants": [
         "thermophilic culture",
         "thermophilic culture (c201 or ta061)",
+        "thermophilic culture (or whey starter)",
         "thermophilic culture (su casu)",
-        "thermophilic culture (ta060)"
+        "thermophilic culture (ta060)",
+        "thermophilic culture (ta061)"
       ],
-      "recipe_count": 12,
+      "recipe_count": 40,
       "recipe_ids": [
+        "aged-provolone-giant-mandarone",
+        "argentinian-provoleta",
         "asiago-cheese",
+        "asiago-red-pepper",
+        "austrian-bergkase",
+        "black-pepper-pecorino",
+        "cave-aged-gruyere",
         "cf-cheddasiago",
+        "french-beaufort-alpage",
+        "french-comte-gruyere",
+        "grappa-washed-cheese",
+        "greek-graviera-crete",
+        "greek-kefalograviera",
         "gruyere-cheese",
+        "gruyere-wild-garlic",
+        "italian-provolone-piccante",
         "lgc-jarlsberg",
         "lgc-parmesan",
         "lgc-romano-pepato",
+        "manchego-gran-reserva-18-month",
+        "manchego-paprika-smoked",
+        "parmesan-stravecchio-36-month",
+        "pecorino-peppercorn-black",
+        "pecorino-saffron",
+        "pecorino-walnut",
         "provolone-cheese",
+        "rosemary-manchego",
+        "smoked-scamorza",
+        "smoked-swiss-emmental",
+        "spanish-manchego-artesano",
+        "swedish-vasterbotten",
+        "swiss-emmental-classic",
+        "swiss-raclette-valais",
+        "swiss-sbrinz-hard",
+        "swiss-vacherin-mont-dor",
         "traditional-asiago",
         "traditional-manchego",
         "traditional-parmesan-style",
@@ -116132,7 +117452,7 @@
         "ground thyme",
         "thyme"
       ],
-      "recipe_count": 25,
+      "recipe_count": 27,
       "recipe_ids": [
         "alamode-beef-american-cookery-1796",
         "bacon-double-cheese-quiche-gahb",
@@ -116145,9 +117465,11 @@
         "focaccia-bread",
         "fougasse-ref",
         "french-onion-soup",
+        "garlic-herb-boursin-style",
         "grass-fed-beef-tenderloin-sauteed-mushrooms",
         "hachis-parmentier-ref",
         "herbed-heritage-pork-loin-white-wine",
+        "lebanese-shanklish",
         "lentil-lemon-soup-ii",
         "lgc-marinated-feta",
         "pilaf-ancients",
@@ -117403,6 +118725,16 @@
       "recipe_ids": [
         "sauce-perigueux-gutenberg",
         "sauce-perigueux-gutenberg-6429"
+      ]
+    },
+    {
+      "ingredient": "truffle oil",
+      "variants": [
+        "truffle oil"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cheddar-truffle-black"
       ]
     },
     {
@@ -120950,10 +122282,12 @@
     {
       "ingredient": "vegetable ash",
       "variants": [
-        "vegetable ash"
+        "vegetable ash",
+        "vegetable ash (optional)"
       ],
-      "recipe_count": 8,
+      "recipe_count": 9,
       "recipe_ids": [
+        "french-chevre-buchette",
         "french-morbier",
         "french-sainte-maure-de-touraine",
         "french-valencay",
@@ -121182,6 +122516,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "chocolate-chip-challah-bread"
+      ]
+    },
+    {
+      "ingredient": "vegetable rennet",
+      "variants": [
+        "vegetable rennet (camel chymosin preferred)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "camel-cheese-mauritania"
       ]
     },
     {
@@ -121496,7 +122840,7 @@
         "chopped walnuts",
         "walnuts"
       ],
-      "recipe_count": 30,
+      "recipe_count": 31,
       "recipe_ids": [
         "apple-breakfast-bars",
         "banana-nut-breakfast-muffins-ref",
@@ -121504,6 +122848,7 @@
         "crus-t-ingre-dients-blueribbon",
         "dateloaf-thewingold",
         "egg-salad-sandwich-filling-harvester",
+        "fig-walnut-goat-cheese",
         "french-chocolate-bread-ref",
         "healthy-apple-walnut-muffins-gahb",
         "lebanese-baked-eggplant",
@@ -121538,6 +122883,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "lebanese-radish-salad"
+      ]
+    },
+    {
+      "ingredient": "walnut leav",
+      "variants": [
+        "fresh walnut leaves"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "pecorino-walnut"
       ]
     },
     {
@@ -121759,20 +123114,24 @@
         "warm water (105°-115°f)",
         "warm water (110°f/45°c)",
         "warm water (for brine)",
+        "warm water (for coagulant)",
+        "warm water (for thistle infusion)",
         "water",
         "water (for brine)",
         "water (for chili)",
         "water (for citric acid)",
         "water (for compote)",
         "water (for diluting rennet)",
+        "water (for grinding)",
         "water (for rennet)",
         "water (for sauce)",
         "water (for seed infusion)",
         "water (for simmering pepper)",
+        "water (for soaking)",
         "water (heated to 80°c)",
         "water (to dissolve junket)"
       ],
-      "recipe_count": 359,
+      "recipe_count": 361,
       "recipe_ids": [
         "alamode-beef-american-cookery-1796",
         "american-citron-american-cookery-1796",
@@ -122032,6 +123391,7 @@
         "pork-and-kraut-gutenberg",
         "pork-chops-fava-beans",
         "pork-tenderloin-salty-sweet-glaze",
+        "portuguese-queijo-serra-estrela",
         "portuguese-sweet-bread",
         "potted-chicken-with-peppers-and-mus-chickenrec",
         "preserving-quinces-american-cookery-1796",
@@ -122120,6 +123480,7 @@
         "vegan-crepes",
         "vegan-crepes-ref",
         "vegetable-salad-harvester",
+        "vietnamese-tofu-style",
         "waffles-carnation",
         "walnut-gingerbread-gutenberg",
         "walnut-rocks-gutenberg",
@@ -122174,6 +123535,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "floue-andyeast-mixtures-carolineki"
+      ]
+    },
+    {
+      "ingredient": "water buffalo milk",
+      "variants": [
+        "water buffalo milk"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "water-buffalo-mozzarella-campana"
       ]
     },
     {
@@ -122644,6 +124015,16 @@
       ]
     },
     {
+      "ingredient": "wheat straw or hay",
+      "variants": [
+        "wheat straw or hay"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "smoked-mozzarella-affumicata"
+      ]
+    },
+    {
       "ingredient": "wheat tortilla",
       "variants": [
         "whole wheat tortilla",
@@ -122690,12 +124071,13 @@
       "ingredient": "whey",
       "variants": [
         "fresh whey",
+        "fresh whey (from any cheesemaking)",
         "fresh whey (from cheesemaking)",
         "fresh whey (from halloumi or other cheese)",
         "whey",
         "whey (from cheesemaking)"
       ],
-      "recipe_count": 18,
+      "recipe_count": 21,
       "recipe_ids": [
         "anari",
         "cypriot-anari",
@@ -122705,8 +124087,10 @@
         "lgc-ricotta-salata",
         "lor",
         "mysost-whey-cheese",
+        "nordic-mesost",
         "queso-requeson",
         "requeijao-serra",
+        "smoked-ricotta",
         "taoc-whey-english-muffin-bread",
         "traditional-anari-cypriot",
         "traditional-anthotyro-greek-ancient",
@@ -122714,6 +124098,7 @@
         "traditional-mizithra-greek-ancient",
         "traditional-requeson-latin-american",
         "traditional-ricotta-italian",
+        "turkish-lor-cheese",
         "urda-romanian"
       ]
     },
@@ -123369,18 +124754,29 @@
       ]
     },
     {
+      "ingredient": "white truffle paste or shaved truffle",
+      "variants": [
+        "white truffle paste or shaved truffle"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "brie-truffle-white"
+      ]
+    },
+    {
       "ingredient": "white vinegar",
       "variants": [
         "white vinegar",
         "white vinegar (5% acidity)"
       ],
-      "recipe_count": 17,
+      "recipe_count": 18,
       "recipe_ids": [
         "cf-bbq-chicken-marinade",
         "fcf-panir-queso-blanco",
         "grandma-sea-foam-candy",
         "greek-mizithra",
         "italian-ricotta",
+        "japanese-tofu-cheese-adaptation",
         "lgc-18-percent-brine",
         "mexican-queso-fresco",
         "nmsu-safe-queso-fresco",
@@ -123410,10 +124806,21 @@
       "variants": [
         "white vinegar or lemon juice"
       ],
-      "recipe_count": 2,
+      "recipe_count": 3,
       "recipe_ids": [
+        "smoked-ricotta",
         "ssf-cottage-cheese",
         "traditional-ricotta-italian"
+      ]
+    },
+    {
+      "ingredient": "white vinegar or lime juice",
+      "variants": [
+        "white vinegar or lime juice"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "fresh-queso-fresco-mexican"
       ]
     },
     {
@@ -123544,6 +124951,26 @@
       "recipe_count": 1,
       "recipe_ids": [
         "fran-s-chicken-casserole-chickenrec"
+      ]
+    },
+    {
+      "ingredient": "wild blueberry",
+      "variants": [
+        "wild blueberries"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "blueberry-chevre"
+      ]
+    },
+    {
+      "ingredient": "wild garlic leaves , chopped",
+      "variants": [
+        "wild garlic leaves (ramsons), chopped"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "gruyere-wild-garlic"
       ]
     },
     {
@@ -123793,12 +125220,14 @@
     {
       "ingredient": "yak milk",
       "variants": [
-        "yak milk"
+        "yak milk",
+        "yak milk (or yak-cow hybrid 'dzo' milk)"
       ],
-      "recipe_count": 2,
+      "recipe_count": 3,
       "recipe_ids": [
         "nguri",
-        "traditional-chhurpi-himalayan"
+        "traditional-chhurpi-himalayan",
+        "yak-cheese-himalayan"
       ]
     },
     {
@@ -123936,6 +125365,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "reddit-crown-o-gold-meatloaf"
+      ]
+    },
+    {
+      "ingredient": "yellow mustard seed",
+      "variants": [
+        "yellow mustard seeds"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "gouda-mustard-seed"
       ]
     },
     {
@@ -124191,6 +125630,16 @@
       ]
     },
     {
+      "ingredient": "young pecorino cheese wheel",
+      "variants": [
+        "young pecorino cheese wheel"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "casu-marzu-maggot"
+      ]
+    },
+    {
       "ingredient": "yrup.",
       "variants": [
         "yrup."
@@ -124226,9 +125675,10 @@
       "variants": [
         "za'atar"
       ],
-      "recipe_count": 3,
+      "recipe_count": 4,
       "recipe_ids": [
         "labneh-dip",
+        "lebanese-shanklish",
         "middle-eastern-shanklish",
         "traditional-labneh"
       ]
