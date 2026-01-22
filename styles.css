@@ -353,6 +353,15 @@ main {
   color: white;
   font-size: 3rem;
   position: relative;
+  overflow: hidden;
+}
+
+.recipe-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  image-rendering: auto;
 }
 
 /* Decorative corner fold */
@@ -2093,5 +2102,232 @@ body {
 @media (max-width: 375px) {
   .btn-print {
     display: none;
+  }
+}
+
+/* =============================================================================
+   Milk Substitution Calculator Styles
+   ============================================================================= */
+
+.milk-substitution-panel {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  padding: var(--spacing-lg);
+  border-radius: 12px;
+  margin: var(--spacing-lg) 0;
+  border: 2px solid #2196f3;
+  border-left: 5px solid #1976d2;
+}
+
+.milk-substitution-panel h3 {
+  margin-top: 0;
+  color: #1565c0;
+  font-family: var(--font-script);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.milk-substitution-panel h3::before {
+  content: '🥛';
+}
+
+.milk-sub-intro {
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-md);
+  font-size: 0.95rem;
+}
+
+.milk-sub-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.milk-sub-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  min-width: 150px;
+}
+
+.milk-sub-row label {
+  font-weight: 600;
+  color: #1565c0;
+  font-size: 0.85rem;
+}
+
+.milk-type-select,
+.quantity-multiplier-select {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 2px solid #64b5f6;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  background-color: var(--color-warm-white);
+  cursor: pointer;
+  font-family: inherit;
+  min-width: 160px;
+}
+
+.milk-type-select:hover,
+.quantity-multiplier-select:hover {
+  border-color: #1976d2;
+}
+
+.milk-type-select:focus,
+.quantity-multiplier-select:focus {
+  outline: none;
+  border-color: #1565c0;
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.2);
+}
+
+.milk-sub-info {
+  background: var(--color-warm-white);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  margin-bottom: var(--spacing-md);
+}
+
+.milk-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.milk-info-item {
+  text-align: center;
+  padding: var(--spacing-sm);
+  background: linear-gradient(180deg, #e3f2fd 0%, #bbdefb 100%);
+  border-radius: 8px;
+}
+
+.milk-info-label {
+  display: block;
+  font-size: 0.7rem;
+  color: #1565c0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.milk-info-value {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0d47a1;
+  font-family: var(--font-heading);
+}
+
+.milk-flavor-notes,
+.milk-texture-notes,
+.milk-curd-notes {
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.5;
+}
+
+.milk-flavor-notes strong,
+.milk-texture-notes strong,
+.milk-curd-notes strong {
+  color: #1565c0;
+}
+
+.milk-sub-warnings {
+  margin-top: var(--spacing-sm);
+}
+
+.milk-sub-warning {
+  background: linear-gradient(135deg, var(--color-butter) 0%, #fff3cd 100%);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: 8px;
+  border-left: 4px solid #ffc107;
+  font-size: 0.9rem;
+}
+
+.milk-sub-warning strong {
+  color: #856404;
+}
+
+/* Adjusted ingredient highlighting */
+.ingredient-adjusted {
+  background-color: #e3f2fd;
+  padding: 2px 6px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.ingredient-adjusted::after {
+  content: '(adjusted)';
+  font-size: 0.7rem;
+  color: #1976d2;
+  margin-left: var(--spacing-xs);
+  font-style: italic;
+}
+
+.ingredient-omitted {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/* Milk type badge on recipe cards */
+.milk-type-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: linear-gradient(180deg, #2196f3 0%, #1976d2 100%);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: var(--spacing-sm);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .milk-sub-controls {
+    flex-direction: column;
+  }
+
+  .milk-sub-row {
+    width: 100%;
+  }
+
+  .milk-type-select,
+  .quantity-multiplier-select {
+    width: 100%;
+    min-width: auto;
+    font-size: 16px; /* Prevent iOS zoom */
+  }
+
+  .milk-info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .milk-substitution-panel {
+    padding: var(--spacing-md);
+  }
+
+  .milk-substitution-panel h3 {
+    font-size: 1.25rem;
+  }
+
+  .milk-info-item {
+    padding: var(--spacing-xs);
+  }
+
+  .milk-info-value {
+    font-size: 1rem;
+  }
+}
+
+/* Print styles - hide milk substitution panel */
+@media print {
+  .milk-substitution-panel {
+    display: none !important;
   }
 }

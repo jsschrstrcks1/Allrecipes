@@ -74,6 +74,8 @@ let allTags = new Set();
 let tipCategories = new Set();
 let currentFilter = { search: '', category: '', tag: '', collection: '' };
 let showMetric = false; // Toggle for metric conversions
+let milkSubstitutionEnabled = false; // Track if milk substitution is active
+let currentRecipeForMilkSub = null; // Track current recipe for milk substitution
 
 // DOM Ready - Auth is handled by inline script in HTML
 document.addEventListener('DOMContentLoaded', init);
@@ -87,9 +89,57 @@ async function init() {
  * Load all content
  */
 async function loadContent() {
-  await Promise.all([loadRecipes(), loadTips()]);
+  await Promise.all([loadRecipes(), loadTips(), loadMilkSubstitutionData()]);
   setupEventListeners();
+  setupMilkSubstitutionListener();
   await handleRouting();
+}
+
+/**
+ * Load milk substitution data
+ */
+async function loadMilkSubstitutionData() {
+  if (typeof MilkSubstitution !== 'undefined') {
+    await MilkSubstitution.loadData();
+    console.log('Milk substitution module initialized');
+  }
+}
+
+/**
+ * Setup listener for milk substitution changes
+ */
+function setupMilkSubstitutionListener() {
+  document.addEventListener('milkSubstitutionChanged', (e) => {
+    if (currentRecipeForMilkSub) {
+      updateIngredientsWithSubstitution(e.detail);
+    }
+  });
+}
+
+/**
+ * Update ingredients display with milk substitution
+ */
+function updateIngredientsWithSubstitution(detail) {
+  const ingredientsList = document.querySelector('.ingredients-list');
+  if (!ingredientsList || !detail.adjustedIngredients) return;
+
+  let html = '';
+  detail.adjustedIngredients.forEach(ing => {
+    const adjustedClass = ing._adjusted ? 'ingredient-adjusted' : '';
+    const omittedClass = ing._omit ? 'ingredient-omitted' : '';
+
+    html += `
+      <li class="${adjustedClass} ${omittedClass}">
+        <span class="ingredient-quantity">${escapeHtml(ing.quantity)} ${escapeHtml(ing.unit)}</span>
+        <span class="ingredient-item">
+          ${escapeHtml(ing.item)}
+          ${ing.prep_note ? `<span class="ingredient-prep">, ${escapeHtml(ing.prep_note)}</span>` : ''}
+        </span>
+      </li>
+    `;
+  });
+
+  ingredientsList.innerHTML = html;
 }
 
 /**
@@ -578,16 +628,35 @@ function renderRecipeGrid() {
 }
 
 /**
+ * Get thumbnail path for a recipe
+ * @param {Object} recipe - Recipe object with image_refs
+ * @returns {string|null} - Path to webp thumbnail or null
+ */
+function getRecipeThumbnail(recipe) {
+  if (!recipe.image_refs || recipe.image_refs.length === 0) return null;
+
+  // Get first image ref and convert to thumbnail path
+  let ref = recipe.image_refs[0];
+  // Remove extension if present and add .webp
+  const baseName = ref.replace(/\.(jpeg|jpg|png|PNG)$/i, '');
+  return `data/thumbnails/${baseName}.webp`;
+}
+
+/**
  * Render a single recipe card
  */
 function renderRecipeCard(recipe) {
   const categoryIcon = getCategoryIcon(recipe.category);
   const timeInfo = recipe.total_time || recipe.cook_time || '';
+  const thumbnail = getRecipeThumbnail(recipe);
 
   return `
     <article class="recipe-card category-${escapeAttr(recipe.category)}">
       <div class="recipe-card-image">
-        ${categoryIcon}
+        ${thumbnail
+          ? `<img src="${escapeAttr(thumbnail)}" alt="" class="recipe-thumb" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span style="display:none">${categoryIcon}</span>`
+          : categoryIcon
+        }
       </div>
       <div class="recipe-card-content">
         <span class="category">${escapeHtml(recipe.category) || 'Uncategorized'}</span>
@@ -637,6 +706,10 @@ async function renderRecipeDetail(recipeId) {
   // Update page title
   document.title = `${recipe.title} - Other Family Recipes`;
 
+  // Check if this is a cheese recipe for milk substitution
+  const isCheeseRecipe = typeof MilkSubstitution !== 'undefined' && MilkSubstitution.isCheeseRecipe(recipe);
+  currentRecipeForMilkSub = isCheeseRecipe ? recipe : null;
+
   let html = `
     <article class="recipe-detail">
       <header class="recipe-header">
@@ -664,6 +737,8 @@ async function renderRecipeDetail(recipeId) {
       </header>
 
       ${renderQuickFacts(recipe)}
+
+      ${isCheeseRecipe ? '<div id="milk-substitution-container"></div>' : ''}
 
       <section class="ingredients-section">
         <h2>Ingredients ${showMetric && recipe.conversions?.has_conversions ? '<span class="unit-badge">Metric (approx.)</span>' : ''}</h2>
@@ -718,6 +793,11 @@ async function renderRecipeDetail(recipeId) {
         renderRecipeDetail(e.target.value);
       }
     });
+  }
+
+  // Initialize milk substitution panel for cheese recipes
+  if (isCheeseRecipe && typeof MilkSubstitution !== 'undefined') {
+    MilkSubstitution.renderMilkSwitcher(recipe, 'milk-substitution-container');
   }
 }
 

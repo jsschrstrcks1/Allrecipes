@@ -1,0 +1,228 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-17",
+  "description": "Milk substitution data for cheese-making recipes",
+
+  "milk_types": {
+    "cow": {
+      "id": "cow",
+      "name": "Cow Milk",
+      "fat_percent": 3.5,
+      "protein_percent": 3.2,
+      "casein_percent": 2.6,
+      "lactose_percent": 4.8,
+      "total_solids_percent": 12,
+      "calcium_level": "standard",
+      "fat_globule_size": "large",
+      "flavor_profile": ["mild", "grassy", "neutral"],
+      "texture_notes": "Dense, cohesive curds",
+      "cheese_yield_per_gallon_lb": 0.2,
+      "rennet_factor": 1.0,
+      "cacl2_needed": "pasteurized_only",
+      "coagulation_speed": "standard",
+      "curd_firmness": "firm",
+      "whey_expulsion": "standard",
+      "notes": "Baseline milk for most cheese recipes. Larger fat globules may require homogenization."
+    },
+    "goat": {
+      "id": "goat",
+      "name": "Goat Milk",
+      "fat_percent": 3.8,
+      "protein_percent": 3.1,
+      "casein_percent": 2.4,
+      "lactose_percent": 4.5,
+      "total_solids_percent": 12,
+      "calcium_level": "standard",
+      "fat_globule_size": "small",
+      "flavor_profile": ["tangy", "earthy", "peppery"],
+      "texture_notes": "Soft, crumbly curds; creamy when fresh",
+      "cheese_yield_per_gallon_lb": 0.2,
+      "rennet_factor": 0.625,
+      "cacl2_needed": "pasteurized_only",
+      "coagulation_speed": "faster",
+      "curd_firmness": "soft_fragile",
+      "whey_expulsion": "most_pronounced",
+      "notes": "Low alpha-s1 casein creates softer curds. Higher lipase gives distinctive tangy flavor. Naturally homogenized."
+    },
+    "sheep": {
+      "id": "sheep",
+      "name": "Sheep Milk",
+      "fat_percent": 7.0,
+      "protein_percent": 5.6,
+      "casein_percent": 4.5,
+      "lactose_percent": 4.8,
+      "total_solids_percent": 18,
+      "calcium_level": "high",
+      "fat_globule_size": "smallest",
+      "flavor_profile": ["buttery", "nutty", "rich", "gamy"],
+      "texture_notes": "Firm curds, creamy mouthfeel, highest yield",
+      "cheese_yield_per_gallon_lb": 0.75,
+      "rennet_factor": 0.65,
+      "cacl2_needed": "never",
+      "coagulation_speed": "fastest",
+      "curd_firmness": "firmest",
+      "whey_expulsion": "slowest",
+      "notes": "Highest fat and protein. Rich in calcium so no CaCl2 needed. Produces 2-3x more cheese per gallon than cow milk."
+    }
+  },
+
+  "volume_conversions": {
+    "description": "Volume adjustments for equivalent cheese yield",
+    "baseline": "cow",
+    "factors": {
+      "cow_to_goat": 1.0,
+      "cow_to_sheep": 0.625,
+      "goat_to_cow": 1.0,
+      "goat_to_sheep": 0.625,
+      "sheep_to_cow": 1.6,
+      "sheep_to_goat": 1.6
+    },
+    "notes": [
+      "Sheep milk produces ~50-80% more cheese per volume",
+      "1 gallon sheep milk = ~1.6 gallons cow/goat milk for cheese yield",
+      "Adjust volumes based on desired final cheese quantity"
+    ]
+  },
+
+  "rennet_adjustments": {
+    "description": "Rennet quantity adjustments when substituting milk types",
+    "baseline": "cow",
+    "factors": {
+      "cow": 1.0,
+      "goat": 0.625,
+      "sheep": 0.65
+    },
+    "notes": [
+      "Sheep and goat milk require 30-40% less rennet than cow milk",
+      "Higher calcium in sheep milk accelerates coagulation",
+      "Lower alpha-s1 casein in goat milk affects curd structure",
+      "Species-specific rennets available (lamb rennet for sheep milk)"
+    ]
+  },
+
+  "calcium_chloride_guidelines": {
+    "description": "CaCl2 addition guidelines by milk type and processing",
+    "recommendations": {
+      "cow": {
+        "raw": "not_needed",
+        "pasteurized": "1/4 tsp per gallon",
+        "ultra_pasteurized": "not_suitable"
+      },
+      "goat": {
+        "raw": "not_needed",
+        "pasteurized": "1/4 tsp per gallon",
+        "ultra_pasteurized": "not_suitable"
+      },
+      "sheep": {
+        "raw": "never_needed",
+        "pasteurized": "not_needed",
+        "ultra_pasteurized": "not_suitable"
+      }
+    },
+    "notes": [
+      "Sheep milk casein is naturally rich in calcium",
+      "Pasteurization chelates calcium, reducing coagulation",
+      "Ultra-pasteurized/UHT milk destroys protein structure - unsuitable for cheese"
+    ]
+  },
+
+  "temperature_guidelines": {
+    "general_range_f": [86, 104],
+    "general_range_c": [30, 40],
+    "by_cheese_type": {
+      "soft_fresh": {
+        "temp_f": [86, 90],
+        "temp_c": [30, 32]
+      },
+      "semi_soft": {
+        "temp_f": [88, 96],
+        "temp_c": [31, 36]
+      },
+      "hard_aged": {
+        "temp_f": [90, 104],
+        "temp_c": [32, 40]
+      },
+      "swiss_parmesan": {
+        "temp_f": [104, 127],
+        "temp_c": [40, 53]
+      }
+    },
+    "sheep_milk_max_f": 104,
+    "sheep_milk_max_c": 40,
+    "notes": [
+      "Sheep milk should not exceed 104F (40C) for most cheeses",
+      "Higher temperatures accelerate whey expulsion",
+      "Lower temperatures produce moister, softer cheese"
+    ]
+  },
+
+  "curd_handling_notes": {
+    "cow": {
+      "cut_size": "standard",
+      "stirring": "gentle to moderate",
+      "notes": "Standard baseline handling"
+    },
+    "goat": {
+      "cut_size": "larger than cow",
+      "stirring": "very gentle",
+      "notes": "Fragile curds require delicate handling. Pronounced syneresis."
+    },
+    "sheep": {
+      "cut_size": "standard to smaller",
+      "stirring": "gentle",
+      "notes": "Firm curds tolerate handling. Slow whey expulsion - allow extra draining time."
+    }
+  },
+
+  "flavor_expectations": {
+    "cow": {
+      "young": "Mild, creamy, grassy",
+      "aged": "Nutty, caramel, complex",
+      "notes": "Most neutral flavor, highlights aging and cultures"
+    },
+    "goat": {
+      "young": "Fresh, tangy, bright",
+      "aged": "Peppery, earthy, pronounced",
+      "notes": "Distinctive tang from capric/caprylic fatty acids"
+    },
+    "sheep": {
+      "young": "Rich, buttery, slightly gamy",
+      "aged": "Nutty, caramel, robust, complex",
+      "notes": "Highest richness due to fat content. Famous cheeses: Roquefort, Pecorino, Manchego"
+    }
+  },
+
+  "famous_cheeses_by_milk": {
+    "cow": ["Cheddar", "Gouda", "Brie", "Camembert", "Parmesan", "Swiss", "Mozzarella"],
+    "goat": ["Chevre", "Bucheron", "Crottin", "Valancay", "Humboldt Fog"],
+    "sheep": ["Roquefort", "Pecorino Romano", "Manchego", "Feta", "Ossau-Iraty", "Ricotta Salata"]
+  },
+
+  "substitution_warnings": [
+    "Cheese texture will differ when substituting milk types",
+    "Flavor profile will change significantly",
+    "Aging characteristics may vary",
+    "Some traditional cheeses are defined by their milk type (PDO/AOC)",
+    "Ultra-pasteurized milk cannot be used for cheese making"
+  ],
+
+  "ingredient_adjustments": {
+    "description": "Which recipe ingredients need adjustment when substituting",
+    "adjust": ["milk_volume", "rennet", "calcium_chloride"],
+    "no_change": ["salt", "cultures", "herbs", "flavorings"],
+    "notes": [
+      "Starter cultures work the same across milk types",
+      "Salt ratios based on cheese weight, not milk volume",
+      "Acidification rate may vary slightly"
+    ]
+  },
+
+  "sources": [
+    "https://www.cheesescience.org/coagulation.html",
+    "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/sheep-milk",
+    "https://cheesemaking.com/blogs/learn/faq-rennet-for-cheese-making",
+    "https://help.cheesemaking.com/article/24-raw-goats-milk-faqs",
+    "https://culturesforhealth.com/blogs/learn/cheese-choosing-milk-cheese-making-raw-pasteurized",
+    "https://dairyprocessinghandbook.tetrapak.com/chapter/cheese"
+  ]
+}
