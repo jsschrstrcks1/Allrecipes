@@ -238,7 +238,9 @@
 ### Regional Specialties
 - [ ] Caerphilly (Wales)
 - [ ] Caboc (Scotland)
+- [ ] Coleraine Cheddar (Northern Ireland)
 - [ ] Cornish Yarg
+- [ ] Crowdie (Scotland)
 - [ ] Dunlop (Scotland)
 - [ ] Lincolnshire Poacher
 - [ ] Y Fenni (Wales)
@@ -278,6 +280,24 @@
 - [ ] Leyden (with cumin)
 - [ ] Limburger
 - [ ] Maasdam
+
+---
+
+## OTHER WESTERN EUROPE
+
+### Austria
+- [ ] Mondseer
+- [ ] Vorarlberger Alpkäse
+- [ ] Vorarlberger Bergkäse
+
+### Belgium
+- [ ] Passendale
+
+### Ireland
+- [ ] Dubliner
+
+### Portugal
+- [ ] Queijo Do Pico
 
 ---
 
@@ -342,6 +362,7 @@
 ### Sweden
 - [ ] Adelost
 - [ ] Prästost
+- [ ] Svecia
 - [ ] Västerbottenost
 
 ### Denmark
@@ -349,6 +370,11 @@
 - [ ] Danbo
 - [ ] Esrom
 - [ ] Havarti
+
+### Finland
+- [ ] Aura
+- [ ] Lappi
+- [ ] Leipäjuusto (Bread Cheese)
 
 ### Iceland
 - [ ] Skyr
@@ -386,34 +412,53 @@
 - [ ] Requesón
 
 ### South American
+- [ ] Chanco (Chile)
+- [ ] Costeño (Colombia)
+- [ ] Panquehue (Chile)
 - [ ] Minas Frescal (Brazil)
 - [ ] Minas Padrão (Brazil)
+- [ ] Provoleta (Argentina)
 - [ ] Queijo Coalho (Brazil)
 - [ ] Queso de Mano (Venezuela)
+- [ ] Queso Paraguay (Paraguay)
+- [ ] Quesillo (Bolivia)
 - [ ] Requeijão (Brazil)
 - [ ] Sardo (Argentina)
+
+### Canadian
+- [ ] Oka Cheese
 
 ---
 
 ## MIDDLE EAST
 
 - [ ] Akkawi
+- [ ] Areesh (Egypt)
 - [ ] Jibneh Arabieh
 - [ ] Labneh
 - [ ] Nabulsi
+- [ ] Qarehqurut Cheese (Iran)
 - [ ] Shanklish
 - [ ] Shelal (String Cheese)
 
 ### Turkey
 - [ ] Beyaz Peynir
+- [ ] Dil
 - [ ] Kaşar
 - [ ] Tulum
+
+### Caucasus
+- [ ] Armenian String Cheese (Armenia)
+- [ ] Imeruli (Georgia)
+- [ ] Lori (Armenia)
+- [ ] Smoked Sulguni (Georgia)
+- [ ] Sulguni (Georgia)
 
 ---
 
 ## ASIA
 
-### India
+### India/Bangladesh
 - [ ] Bandel
 - [ ] Chhena
 - [ ] Kalari
@@ -425,12 +470,19 @@
 - [ ] Rubing
 - [ ] Ru Shan
 
-### Tibet/Nepal
+### Tibet/Nepal/Bhutan
 - [ ] Chhurpi
+- [ ] Datshi (Bhutan)
 - [ ] Shosha
+
+### Mongolia
+- [ ] Byaslag
 
 ### Japan
 - [ ] Sakura Cheese
+
+### Indonesia
+- [ ] Dangke
 
 ### Philippines
 - [ ] Kesong Puti
@@ -442,6 +494,8 @@
 ### Poland
 - [ ] Bundz
 - [ ] Oscypek
+- [ ] Podhalanski
+- [ ] Redykołka
 - [ ] Twaróg
 
 ### Russia/Ukraine
@@ -451,32 +505,77 @@
 
 ### Romania
 - [ ] Brânză de Burduf
+- [ ] Caș
 - [ ] Cașcaval
 - [ ] Telemea
 - [ ] Urdă
 
 ### Hungary
+- [ ] Balaton
+- [ ] Bryndza (also Poland, Slovakia)
+- [ ] Lajta
 - [ ] Liptauer (Körözött)
+- [ ] Rögös Túró
 - [ ] Trappista
 
 ### Czech Republic
 - [ ] Olomoucké Tvarůžky
 
+### Slovakia
+- [ ] Korbáčik
+
+### Baltic States
+- [ ] Jāņu Siers (Latvia)
+- [ ] Liliputas (Lithuania)
+- [ ] Sõir (Estonia)
+
 ### Balkans
+- [ ] Bovški Sir (Slovenia)
+- [ ] Cherni Vit (Bulgaria)
+- [ ] Gjizë (Albania)
 - [ ] Kajmak
-- [ ] Sirene
+- [ ] Liburnski Sir (Croatia)
+- [ ] Livanjski Sir (Bosnia and Herzegovina)
+- [ ] Manur (Serbia)
+- [ ] Mladi Trapist (Croatia)
+- [ ] Njeguški Sir (Montenegro)
+- [ ] Paški Sir (Croatia)
+- [ ] Pule (Serbia)
+- [ ] Sharplaninski Ovchi Kashkaval (North Macedonia)
+- [ ] Sirene (Bulgaria)
+- [ ] Šarski Sir (Kosovo)
 
 ---
 
 ## AFRICA
 
 - [ ] Ayib (Ethiopia)
-- [ ] Wagashi/Wara (West Africa)
+- [ ] Caravane (Mauritania)
+- [ ] Kemariya (Algeria)
+- [ ] Kwaito (South Africa)
+- [ ] Wagashi/Wara (West Africa - Benin)
 - [ ] Ġbejniet (Malta - Mediterranean)
 
 ---
 
-## Total Varieties Listed: ~300+
+## OCEANIA
+
+### Australia
+- [ ] Riverine Blue Cheese
+
+### New Zealand
+- [ ] Mainland Cheese
+
+---
+
+## CENTRAL ASIA
+
+- [ ] Quroot (Afghanistan)
+- [ ] Serat (Afghanistan)
+
+---
+
+## Total Varieties Listed: ~350+
 
 This represents major named varieties. The actual global count exceeds 1,800 distinct cheeses.
 
