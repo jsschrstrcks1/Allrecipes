@@ -1,0 +1,1629 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-22",
+  "description": "Comprehensive herb, spice, and adulterant companion data for cheese-making recipes",
+
+  "meta": {
+    "total_adulterants": 156,
+    "categories": 9,
+    "warning_levels": ["info", "caution", "warning", "danger"],
+    "intensity_scale": {
+      "M1": "Very mild (background note)",
+      "M2": "Mild",
+      "M3": "Medium",
+      "H4": "Hot",
+      "H5": "Very hot",
+      "E6": "Extreme (use with caution)"
+    }
+  },
+
+  "controlled_vocabularies": {
+    "flavor_profiles": [
+      "SPICY", "SMOKY", "PUNGENT", "SWEET", "EARTHY", "HERBACEOUS",
+      "UMAMI", "BITTER", "CITRUS", "FLORAL", "NUTTY", "FRUITY",
+      "TANGY", "RESINOUS", "WOODY", "SAVORY", "BRIGHT", "WARM"
+    ],
+    "cheese_styles": [
+      "fresh", "soft", "semi-soft", "semi-hard", "hard",
+      "bloomy", "washed-rind", "blue", "pasta-filata", "brined"
+    ],
+    "addition_stages": [
+      "COLD_INFUSE", "MILK_PREHEAT", "PRE_RENNET", "CURD_CUT",
+      "CURD_MILL", "MOLD_LAYER", "POST_PRESS", "BRINE_ADDITION",
+      "RIND_RUB", "AGING_SURFACE", "FINISH_SERVING"
+    ],
+    "forms": [
+      "powder", "flakes", "crushed", "whole", "ground", "toasted",
+      "smoked", "dried", "fresh", "paste", "oil", "liquid"
+    ]
+  },
+
+  "categories": [
+    {"id": "pepper", "name": "Hot Peppers & Chili Powders", "icon": "🌶️"},
+    {"id": "herb", "name": "Dried Herbs", "icon": "🌿"},
+    {"id": "spice", "name": "Spices", "icon": "🧂"},
+    {"id": "indian", "name": "Indian Spices", "icon": "🍛"},
+    {"id": "allium", "name": "Alliums", "icon": "🧄"},
+    {"id": "alcohol", "name": "Alcohol & Washes", "icon": "🍷"},
+    {"id": "fruit", "name": "Dried Fruits", "icon": "🍇"},
+    {"id": "nut", "name": "Nuts & Seeds", "icon": "🥜"},
+    {"id": "other", "name": "Other Adulterants", "icon": "✨"}
+  ],
+
+  "adulterants": [
+    {
+      "id": "crushed-red-pepper",
+      "name": "Crushed Red Pepper Flakes",
+      "category": "pepper",
+      "subcategory": "mild",
+      "scoville_min": 15000,
+      "scoville_max": 30000,
+      "forms": ["flakes", "crushed"],
+      "flavor_profile": ["SPICY", "WARM"],
+      "intensity": "M3",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "pasta-filata"],
+      "incompatible_styles": ["bloomy"],
+      "best_stages": ["CURD_MILL", "POST_PRESS"],
+      "allowed_stages": ["CURD_MILL", "MOLD_LAYER", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.4, "buffalo": 1.3},
+      "max_safe_quantity": {"amount": 2, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Crushed red pepper >2 tsp/gallon may create uneven heat distribution",
+        "style_warnings": {
+          "bloomy": "Flakes may interfere with Penicillium rind development"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Sprinkle {quantity} {name} over curds and fold gently to distribute evenly.",
+        "POST_PRESS": "Press {quantity} {name} into the surface of the pressed cheese.",
+        "RIND_RUB": "Mix {quantity} {name} with salt and rub onto cheese surface."
+      },
+      "interactions": [],
+      "notes": "Classic pizza cheese addition. Visible specks add visual appeal."
+    },
+    {
+      "id": "paprika-sweet",
+      "name": "Sweet Paprika",
+      "category": "pepper",
+      "subcategory": "mild",
+      "scoville_min": 100,
+      "scoville_max": 500,
+      "forms": ["powder"],
+      "flavor_profile": ["SWEET", "EARTHY", "WARM"],
+      "intensity": "M1",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "pasta-filata", "brined"],
+      "incompatible_styles": [],
+      "best_stages": ["CURD_MILL", "RIND_RUB"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 1, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.4, "buffalo": 1.3},
+      "max_safe_quantity": {"amount": 1, "unit": "tbsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Paprika >1 tbsp/gallon may create bitter undertones"
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in cold milk for 1-2 hours. Strain if desired.",
+        "CURD_MILL": "Dust {quantity} {name} over curds and fold gently.",
+        "RIND_RUB": "Mix {quantity} {name} with fine salt for a colorful rind coating."
+      },
+      "interactions": [],
+      "notes": "Adds beautiful orange-red color. Sweet pepper flavor without heat."
+    },
+    {
+      "id": "paprika-smoked",
+      "name": "Smoked Paprika (Pimentón)",
+      "category": "pepper",
+      "subcategory": "mild",
+      "scoville_min": 500,
+      "scoville_max": 2500,
+      "forms": ["powder", "smoked"],
+      "flavor_profile": ["SMOKY", "SWEET", "EARTHY"],
+      "intensity": "M2",
+      "compatible_styles": ["semi-soft", "semi-hard", "hard", "washed-rind"],
+      "incompatible_styles": ["fresh", "bloomy"],
+      "best_stages": ["CURD_MILL", "RIND_RUB"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.4, "buffalo": 1.3},
+      "max_safe_quantity": {"amount": 2, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Smoked paprika >2 tsp/gallon may create overwhelming smokiness",
+        "style_warnings": {
+          "fresh": "Smoke flavor too strong for delicate fresh cheeses",
+          "bloomy": "May inhibit rind development"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for smoky depth throughout.",
+        "RIND_RUB": "Combine {quantity} {name} with salt for a Spanish-style rind."
+      },
+      "interactions": [
+        {"with": "garlic-powder", "effect": "complementary", "note": "Classic combination"}
+      ],
+      "notes": "Spanish pimentón adds deep smoke flavor. Hot or sweet varieties available."
+    },
+    {
+      "id": "cayenne-pepper",
+      "name": "Cayenne Pepper",
+      "category": "pepper",
+      "subcategory": "hot",
+      "scoville_min": 30000,
+      "scoville_max": 50000,
+      "forms": ["powder"],
+      "flavor_profile": ["SPICY", "BRIGHT"],
+      "intensity": "H4",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "pasta-filata"],
+      "incompatible_styles": ["bloomy", "blue"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.25, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.85, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 1, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Cayenne >1 tsp/gallon creates intense, potentially unpleasant heat",
+        "style_warnings": {
+          "bloomy": "Heat interferes with delicate rind flavors",
+          "blue": "Competes with blue mold's peppery notes"
+        }
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in cold milk for 2-4 hours for even heat distribution.",
+        "CURD_MILL": "Sift {quantity} {name} over curds and fold thoroughly."
+      },
+      "interactions": [],
+      "notes": "Clean, sharp heat. Dissolves well into curds."
+    },
+    {
+      "id": "chipotle-powder",
+      "name": "Chipotle Powder",
+      "category": "pepper",
+      "subcategory": "hot",
+      "scoville_min": 2500,
+      "scoville_max": 8000,
+      "forms": ["powder", "smoked"],
+      "flavor_profile": ["SMOKY", "SPICY", "SWEET", "EARTHY"],
+      "intensity": "M3",
+      "compatible_styles": ["semi-soft", "semi-hard", "hard", "washed-rind"],
+      "incompatible_styles": ["fresh", "bloomy"],
+      "best_stages": ["CURD_MILL", "RIND_RUB"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.4, "buffalo": 1.3},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Chipotle >1.5 tsp/gallon may create overwhelming smokiness",
+        "style_warnings": {
+          "fresh": "Smoke flavor overpowers delicate fresh cheese"
+        }
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in cold milk for 2-3 hours for smoky undertones.",
+        "CURD_MILL": "Fold {quantity} {name} into curds for smoky heat throughout.",
+        "RIND_RUB": "Mix {quantity} {name} with salt for a Mexican-inspired rind."
+      },
+      "interactions": [
+        {"with": "cumin-toasted", "effect": "complementary", "note": "Classic Tex-Mex pairing"}
+      ],
+      "notes": "Smoked jalapeño. Complex flavor with moderate heat."
+    },
+    {
+      "id": "ghost-pepper-powder",
+      "name": "Ghost Pepper (Bhut Jolokia) Powder",
+      "category": "pepper",
+      "subcategory": "superhot",
+      "scoville_min": 855000,
+      "scoville_max": 1041427,
+      "forms": ["powder"],
+      "flavor_profile": ["SPICY", "FRUITY", "SMOKY"],
+      "intensity": "E6",
+      "compatible_styles": ["hard", "semi-hard"],
+      "incompatible_styles": ["fresh", "soft", "bloomy", "blue"],
+      "best_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.125, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.8, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Ghost pepper >1/2 tsp/gallon creates dangerously intense heat that may overwhelm the cheese entirely",
+        "style_warnings": {
+          "fresh": "Extreme heat won't mellow - fresh cheese will be inedible",
+          "soft": "Too intense for delicate soft cheeses",
+          "bloomy": "May inhibit Penicillium development; heat overpowers subtle rind",
+          "blue": "Competes destructively with blue mold flavors"
+        },
+        "general": "Wear gloves when handling. Wash hands thoroughly. Avoid eye contact."
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Carefully steep {quantity} {name} in cold milk for 1-2 hours. WARNING: Heat will intensify during aging.",
+        "CURD_MILL": "Wearing gloves, carefully dust {quantity} {name} over curds and fold minimally.",
+        "RIND_RUB": "Mix {quantity} {name} with salt. Apply thin layer to pressed cheese using gloves.",
+        "AGING_SURFACE": "Apply {quantity} {name} mixed with salt to aging cheese surface for controlled heat migration."
+      },
+      "interactions": [
+        {"with": "mango-dried", "effect": "complementary", "note": "Fruity pairing tames heat perception"},
+        {"with": "honey", "effect": "complementary", "note": "Sweetness balances extreme heat"}
+      ],
+      "notes": "One of the world's hottest peppers. Use extreme caution. Best for aged cheeses where heat can mellow."
+    },
+    {
+      "id": "carolina-reaper-powder",
+      "name": "Carolina Reaper Powder",
+      "category": "pepper",
+      "subcategory": "superhot",
+      "scoville_min": 1400000,
+      "scoville_max": 2200000,
+      "forms": ["powder"],
+      "flavor_profile": ["SPICY", "FRUITY", "SWEET"],
+      "intensity": "E6",
+      "compatible_styles": ["hard"],
+      "incompatible_styles": ["fresh", "soft", "semi-soft", "bloomy", "blue", "washed-rind"],
+      "best_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "allowed_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.0625, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.75, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 0.25, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Carolina Reaper >1/4 tsp/gallon will likely render cheese inedible for most people",
+        "style_warnings": {
+          "fresh": "PROHIBITED: Will be inedibly hot",
+          "soft": "PROHIBITED: No aging to mellow heat",
+          "semi-soft": "PROHIBITED: Insufficient aging time",
+          "bloomy": "PROHIBITED: Destroys rind and flavor balance",
+          "blue": "PROHIBITED: Overwhelms all other flavors",
+          "washed-rind": "PROHIBITED: Too intense for washed rind profile"
+        },
+        "general": "EXTREME CAUTION: Wear gloves and eye protection. Do not touch face. Ventilate area."
+      },
+      "injection_templates": {
+        "RIND_RUB": "Using full protective gear, mix {quantity} {name} with salt. Apply sparingly to pressed cheese.",
+        "AGING_SURFACE": "Apply minimal {quantity} {name} to aging surface. Heat will migrate inward over months."
+      },
+      "interactions": [],
+      "notes": "World's hottest pepper (2013-2017 record). Only for hard, long-aged cheeses. Not recommended for beginners."
+    },
+    {
+      "id": "pepper-x-powder",
+      "name": "Pepper X Powder",
+      "category": "pepper",
+      "subcategory": "superhot",
+      "scoville_min": 2693000,
+      "scoville_max": 3180000,
+      "forms": ["powder"],
+      "flavor_profile": ["SPICY"],
+      "intensity": "E6",
+      "compatible_styles": ["hard"],
+      "incompatible_styles": ["fresh", "soft", "semi-soft", "semi-hard", "bloomy", "blue", "washed-rind", "pasta-filata", "brined"],
+      "best_stages": ["AGING_SURFACE"],
+      "allowed_stages": ["AGING_SURFACE"],
+      "base_quantity": {"amount": 0.03125, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.7, "sheep": 1.1, "buffalo": 1.0},
+      "max_safe_quantity": {"amount": 0.125, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Pepper X >1/8 tsp/gallon is DANGEROUS. Cheese will be inedible and may cause injury.",
+        "style_warnings": {
+          "fresh": "ABSOLUTELY PROHIBITED",
+          "soft": "ABSOLUTELY PROHIBITED",
+          "semi-soft": "ABSOLUTELY PROHIBITED",
+          "semi-hard": "PROHIBITED: Insufficient aging",
+          "bloomy": "ABSOLUTELY PROHIBITED",
+          "blue": "ABSOLUTELY PROHIBITED",
+          "washed-rind": "ABSOLUTELY PROHIBITED",
+          "pasta-filata": "ABSOLUTELY PROHIBITED",
+          "brined": "ABSOLUTELY PROHIBITED"
+        },
+        "general": "DANGER: Current world's hottest pepper. Full protective equipment mandatory. May cause chemical burns. Not for casual use."
+      },
+      "injection_templates": {
+        "AGING_SURFACE": "With full protection, apply microscopic amount of {quantity} {name} mixed with carrier salt. Age minimum 12 months."
+      },
+      "interactions": [],
+      "notes": "World record holder (2023). Only for expert cheesemakers making long-aged hard cheeses for heat enthusiasts."
+    },
+    {
+      "id": "7-pot-powder",
+      "name": "7 Pot Pepper Powder",
+      "category": "pepper",
+      "subcategory": "superhot",
+      "scoville_min": 800000,
+      "scoville_max": 1200000,
+      "forms": ["powder"],
+      "flavor_profile": ["SPICY", "FRUITY", "NUTTY"],
+      "intensity": "E6",
+      "compatible_styles": ["hard", "semi-hard"],
+      "incompatible_styles": ["fresh", "soft", "bloomy", "blue"],
+      "best_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.125, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.8, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "7 Pot >1/2 tsp/gallon creates extreme heat that will overwhelm most palates",
+        "style_warnings": {
+          "fresh": "Heat won't mellow - avoid entirely",
+          "soft": "Too intense for soft cheese",
+          "bloomy": "Inhibits rind; overwhelms flavor",
+          "blue": "Destroys blue mold's peppery character"
+        },
+        "general": "Named because one pepper can spice 7 pots of stew. Use gloves."
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in cold milk for 1 hour maximum. Strain before use.",
+        "CURD_MILL": "Using gloves, carefully fold {quantity} {name} into curds.",
+        "RIND_RUB": "Mix {quantity} {name} with salt and apply thin layer to cheese surface.",
+        "AGING_SURFACE": "Apply {quantity} {name} to aging surface for slow heat migration."
+      },
+      "interactions": [],
+      "notes": "Trinidad superhot variety. Fruity flavor with delayed, building heat."
+    },
+    {
+      "id": "habanero-powder",
+      "name": "Habanero Powder",
+      "category": "pepper",
+      "subcategory": "hot",
+      "scoville_min": 100000,
+      "scoville_max": 350000,
+      "forms": ["powder"],
+      "flavor_profile": ["SPICY", "FRUITY", "CITRUS", "FLORAL"],
+      "intensity": "H5",
+      "compatible_styles": ["semi-soft", "semi-hard", "hard", "pasta-filata"],
+      "incompatible_styles": ["fresh", "bloomy", "blue"],
+      "best_stages": ["CURD_MILL", "RIND_RUB"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.25, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.85, "sheep": 1.35, "buffalo": 1.25},
+      "max_safe_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Habanero >3/4 tsp/gallon creates very intense heat",
+        "style_warnings": {
+          "fresh": "Too hot for delicate fresh cheese",
+          "bloomy": "Interferes with rind development",
+          "blue": "Overpowers blue mold flavor"
+        }
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in cold milk for 2-3 hours for fruity heat.",
+        "CURD_MILL": "Fold {quantity} {name} into curds for even distribution.",
+        "RIND_RUB": "Mix {quantity} {name} with salt for a Caribbean-style rind."
+      },
+      "interactions": [
+        {"with": "mango-dried", "effect": "complementary", "note": "Classic tropical pairing"}
+      ],
+      "notes": "Distinctive fruity, floral flavor. Heat builds gradually."
+    },
+    {
+      "id": "ancho-powder",
+      "name": "Ancho Chili Powder",
+      "category": "pepper",
+      "subcategory": "mild",
+      "scoville_min": 1000,
+      "scoville_max": 2000,
+      "forms": ["powder"],
+      "flavor_profile": ["SWEET", "EARTHY", "FRUITY", "SMOKY"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "pasta-filata", "washed-rind"],
+      "incompatible_styles": [],
+      "best_stages": ["CURD_MILL", "RIND_RUB"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.4, "buffalo": 1.3},
+      "max_safe_quantity": {"amount": 2, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Ancho >2 tsp/gallon may create overly earthy, slightly bitter notes"
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in cold milk for 2-4 hours for deep, sweet notes.",
+        "CURD_MILL": "Fold {quantity} {name} into curds for mild heat and color.",
+        "RIND_RUB": "Mix {quantity} {name} with salt for a rich, mahogany-colored rind."
+      },
+      "interactions": [
+        {"with": "cumin-toasted", "effect": "complementary"},
+        {"with": "coriander-ground", "effect": "complementary"}
+      ],
+      "notes": "Dried poblano pepper. Sweet, mild heat with raisin-like undertones."
+    },
+    {
+      "id": "aleppo-pepper",
+      "name": "Aleppo Pepper (Pul Biber)",
+      "category": "pepper",
+      "subcategory": "mild",
+      "scoville_min": 10000,
+      "scoville_max": 30000,
+      "forms": ["flakes", "crushed"],
+      "flavor_profile": ["SPICY", "FRUITY", "TANGY", "EARTHY"],
+      "intensity": "M3",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "brined"],
+      "incompatible_styles": ["bloomy"],
+      "best_stages": ["CURD_MILL", "FINISH_SERVING"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "RIND_RUB", "FINISH_SERVING"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.4, "buffalo": 1.3},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Aleppo pepper >1.5 tsp/gallon may create overly oily texture"
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for fruity, moderate heat.",
+        "FINISH_SERVING": "Garnish finished cheese with {quantity} {name} for color and flavor."
+      },
+      "interactions": [],
+      "notes": "Syrian pepper with cumin-like undertones. Oily texture. Traditional in Middle Eastern cheeses."
+    },
+    {
+      "id": "oregano-dried",
+      "name": "Dried Oregano",
+      "category": "herb",
+      "forms": ["crushed", "ground"],
+      "flavor_profile": ["HERBACEOUS", "PUNGENT", "EARTHY", "WARM"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "pasta-filata", "brined"],
+      "incompatible_styles": ["bloomy", "blue"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "RIND_RUB", "FINISH_SERVING"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Dried oregano >1.5 tsp/gallon may become overpowering and bitter",
+        "style_warnings": {
+          "bloomy": "Strong herb flavor overwhelms delicate rind",
+          "blue": "Competes with blue mold's herbal notes"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Rub {quantity} {name} between palms to release oils, then fold into curds.",
+        "FINISH_SERVING": "Sprinkle {quantity} {name} over sliced cheese before serving."
+      },
+      "interactions": [
+        {"with": "garlic-powder", "effect": "complementary", "note": "Italian classic"},
+        {"with": "basil-dried", "effect": "complementary"}
+      ],
+      "notes": "Mediterranean oregano preferred. Greek and Mexican varieties have different profiles."
+    },
+    {
+      "id": "thyme-dried",
+      "name": "Dried Thyme",
+      "category": "herb",
+      "forms": ["crushed", "ground", "whole"],
+      "flavor_profile": ["EARTHY", "HERBACEOUS", "FLORAL", "WOODY"],
+      "intensity": "M2",
+      "compatible_styles": ["semi-soft", "semi-hard", "hard", "washed-rind"],
+      "incompatible_styles": ["fresh"],
+      "best_stages": ["CURD_MILL", "RIND_RUB"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.1, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 1, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Dried thyme >1 tsp/gallon becomes bitter and overpowering",
+        "style_warnings": {
+          "fresh": "Thyme's earthiness overwhelms delicate fresh cheese"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for earthy backbone.",
+        "RIND_RUB": "Press {quantity} {name} into cheese surface for herbed rind."
+      },
+      "interactions": [
+        {"with": "rosemary-dried", "effect": "complementary", "note": "Herbes de Provence style"},
+        {"with": "lavender-dried", "effect": "complementary"}
+      ],
+      "notes": "French thyme preferred for cheese. Remove woody stems if using whole."
+    },
+    {
+      "id": "rosemary-dried",
+      "name": "Dried Rosemary",
+      "category": "herb",
+      "forms": ["crushed", "ground", "whole"],
+      "flavor_profile": ["RESINOUS", "PUNGENT", "HERBACEOUS", "WOODY"],
+      "intensity": "M3",
+      "compatible_styles": ["semi-hard", "hard"],
+      "incompatible_styles": ["fresh", "soft", "bloomy"],
+      "best_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "allowed_stages": ["CURD_MILL", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.25, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.1, "sheep": 1.4, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Dried rosemary >3/4 tsp/gallon creates overly piney, resinous flavor",
+        "style_warnings": {
+          "fresh": "Too strong for fresh cheese",
+          "soft": "Resinous notes overwhelm soft cheese",
+          "bloomy": "Competes with rind flavors"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Finely grind {quantity} {name} and fold into curds.",
+        "RIND_RUB": "Press whole {name} needles into cheese surface.",
+        "AGING_SURFACE": "Wrap cheese in rosemary sprigs during aging."
+      },
+      "interactions": [
+        {"with": "garlic-powder", "effect": "complementary"},
+        {"with": "black-pepper", "effect": "complementary"}
+      ],
+      "notes": "Very potent. Use sparingly. Whole needles create visual appeal on rind."
+    },
+    {
+      "id": "basil-dried",
+      "name": "Dried Basil",
+      "category": "herb",
+      "forms": ["crushed", "ground"],
+      "flavor_profile": ["HERBACEOUS", "SWEET", "PEPPERY"],
+      "intensity": "M1",
+      "compatible_styles": ["fresh", "semi-soft", "pasta-filata"],
+      "incompatible_styles": ["hard", "blue"],
+      "best_stages": ["CURD_MILL", "FINISH_SERVING"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "FINISH_SERVING"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 1, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Dried basil >1 tsp/gallon may become bitter with aging",
+        "style_warnings": {
+          "hard": "Basil turns bitter in long-aged cheeses",
+          "blue": "Sweet herb conflicts with pungent blue"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for Italian-style cheese.",
+        "FINISH_SERVING": "Garnish fresh cheese with {quantity} {name}."
+      },
+      "interactions": [
+        {"with": "oregano-dried", "effect": "complementary"},
+        {"with": "garlic-powder", "effect": "complementary"},
+        {"with": "sun-dried-tomato", "effect": "complementary", "note": "Classic Italian combination"}
+      ],
+      "notes": "Best in fresh and young cheeses. Loses flavor and becomes bitter with aging."
+    },
+    {
+      "id": "dill-dried",
+      "name": "Dried Dill Weed",
+      "category": "herb",
+      "forms": ["crushed"],
+      "flavor_profile": ["HERBACEOUS", "TANGY", "BRIGHT", "CITRUS"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "brined"],
+      "incompatible_styles": ["hard", "blue", "washed-rind"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "FINISH_SERVING"],
+      "base_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Dried dill >1.5 tsp/gallon may create medicinal undertones",
+        "style_warnings": {
+          "hard": "Dill flavor fades and changes negatively with long aging",
+          "blue": "Fresh herb profile conflicts with pungent blue",
+          "washed-rind": "Too delicate for funky washed rind"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for Scandinavian-style cheese.",
+        "FINISH_SERVING": "Top fresh cheese with {quantity} {name} and capers."
+      },
+      "interactions": [
+        {"with": "garlic-powder", "effect": "complementary"},
+        {"with": "chives-dried", "effect": "complementary"}
+      ],
+      "notes": "Traditional in Scandinavian and Eastern European cheeses. Pairs well with goat milk."
+    },
+    {
+      "id": "chives-dried",
+      "name": "Dried Chives",
+      "category": "herb",
+      "forms": ["crushed"],
+      "flavor_profile": ["HERBACEOUS", "PUNGENT", "MILD"],
+      "intensity": "M1",
+      "compatible_styles": ["fresh", "semi-soft"],
+      "incompatible_styles": ["hard", "bloomy", "blue"],
+      "best_stages": ["CURD_MILL", "FINISH_SERVING"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "FINISH_SERVING"],
+      "base_quantity": {"amount": 1, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 2, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Dried chives >2 tsp/gallon may create grassy, hay-like notes",
+        "style_warnings": {
+          "hard": "Flavor changes negatively with aging",
+          "bloomy": "May interfere with rind development",
+          "blue": "Too mild for blue cheese profile"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for mild onion flavor.",
+        "FINISH_SERVING": "Sprinkle {quantity} {name} over cream cheese or fresh cheese."
+      },
+      "interactions": [
+        {"with": "dill-dried", "effect": "complementary"},
+        {"with": "garlic-powder", "effect": "complementary"}
+      ],
+      "notes": "Mildest allium. Best in fresh cheeses. Green color adds visual appeal."
+    },
+    {
+      "id": "sage-dried",
+      "name": "Dried Sage",
+      "category": "herb",
+      "forms": ["crushed", "ground"],
+      "flavor_profile": ["HERBACEOUS", "EARTHY", "WARM", "PUNGENT"],
+      "intensity": "M3",
+      "compatible_styles": ["semi-hard", "hard"],
+      "incompatible_styles": ["fresh", "soft", "bloomy"],
+      "best_stages": ["CURD_MILL", "MOLD_LAYER"],
+      "allowed_stages": ["CURD_MILL", "MOLD_LAYER", "RIND_RUB"],
+      "base_quantity": {"amount": 0.25, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Dried sage >3/4 tsp/gallon creates musty, medicinal flavor",
+        "style_warnings": {
+          "fresh": "Too strong for fresh cheese",
+          "soft": "Overpowers delicate soft cheese",
+          "bloomy": "Conflicts with rind flavors"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for English-style sage cheese.",
+        "MOLD_LAYER": "Layer {quantity} {name} between curds when filling molds."
+      },
+      "interactions": [],
+      "notes": "Traditional in English Sage Derby. Very potent - use sparingly."
+    },
+    {
+      "id": "bay-leaf-powder",
+      "name": "Bay Leaf Powder",
+      "category": "herb",
+      "forms": ["powder", "ground"],
+      "flavor_profile": ["EARTHY", "HERBACEOUS", "WOODY", "WARM"],
+      "intensity": "M1",
+      "compatible_styles": ["semi-hard", "hard"],
+      "incompatible_styles": ["fresh", "soft"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "AGING_SURFACE"],
+      "base_quantity": {"amount": 0.125, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Bay leaf >1/2 tsp/gallon creates bitter, medicinal taste",
+        "style_warnings": {
+          "fresh": "Too intense for fresh cheese",
+          "soft": "Overpowers soft cheese"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for subtle earthy depth."
+      },
+      "interactions": [],
+      "notes": "Very potent. Adds subtle savory depth. Turkish bay preferred."
+    },
+    {
+      "id": "garlic-powder",
+      "name": "Garlic Powder",
+      "category": "allium",
+      "forms": ["powder"],
+      "flavor_profile": ["PUNGENT", "SAVORY", "WARM"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "pasta-filata"],
+      "incompatible_styles": ["bloomy"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.85, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Garlic powder >1.5 tsp/gallon may develop sulfur off-flavors, especially in aged cheeses",
+        "style_warnings": {
+          "bloomy": "Strong garlic interferes with delicate Penicillium flavors"
+        }
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in cold milk for 1-2 hours for mellow garlic flavor.",
+        "CURD_MILL": "Fold {quantity} {name} into curds for even distribution."
+      },
+      "interactions": [
+        {"with": "oregano-dried", "effect": "complementary"},
+        {"with": "basil-dried", "effect": "complementary"},
+        {"with": "black-pepper", "effect": "complementary"}
+      ],
+      "notes": "Most popular cheese adulterant. Use powder, not fresh garlic (moisture risk)."
+    },
+    {
+      "id": "garlic-roasted-powder",
+      "name": "Roasted Garlic Powder",
+      "category": "allium",
+      "forms": ["powder"],
+      "flavor_profile": ["SWEET", "SAVORY", "WARM", "NUTTY"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "pasta-filata", "washed-rind"],
+      "incompatible_styles": [],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 2, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Roasted garlic >2 tsp/gallon may create overwhelming sweetness"
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for sweet, mellow garlic flavor."
+      },
+      "interactions": [
+        {"with": "thyme-dried", "effect": "complementary"},
+        {"with": "rosemary-dried", "effect": "complementary"}
+      ],
+      "notes": "Sweeter and mellower than raw garlic. Less sulfur development during aging."
+    },
+    {
+      "id": "onion-powder",
+      "name": "Onion Powder",
+      "category": "allium",
+      "forms": ["powder"],
+      "flavor_profile": ["SWEET", "SAVORY", "PUNGENT"],
+      "intensity": "M1",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "pasta-filata"],
+      "incompatible_styles": ["bloomy", "blue"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Onion powder >1.5 tsp/gallon may create bitter, acrid notes",
+        "style_warnings": {
+          "bloomy": "Interferes with delicate rind flavors",
+          "blue": "Competes with blue mold pungency"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for mild savory sweetness."
+      },
+      "interactions": [
+        {"with": "garlic-powder", "effect": "complementary"},
+        {"with": "chives-dried", "effect": "complementary"}
+      ],
+      "notes": "Milder than garlic. Adds background savory sweetness."
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black Pepper (Coarse)",
+      "category": "spice",
+      "forms": ["crushed", "ground", "whole"],
+      "flavor_profile": ["SPICY", "WARM", "PUNGENT", "WOODY"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "pasta-filata"],
+      "incompatible_styles": [],
+      "best_stages": ["CURD_MILL", "POST_PRESS"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "RIND_RUB", "FINISH_SERVING"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 2, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Black pepper >2 tsp/gallon creates overwhelming heat and bitterness"
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds. Visible specks add visual appeal.",
+        "POST_PRESS": "Roll pressed cheese in {quantity} {name} for pepper-crusted rind.",
+        "RIND_RUB": "Press {quantity} {name} into cheese surface."
+      },
+      "interactions": [],
+      "notes": "Classic cheese addition. Tellicherry peppercorns preferred for quality."
+    },
+    {
+      "id": "cumin-toasted",
+      "name": "Toasted Cumin Seeds/Powder",
+      "category": "spice",
+      "forms": ["powder", "whole", "toasted"],
+      "flavor_profile": ["EARTHY", "WARM", "NUTTY", "PUNGENT"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "hard", "brined"],
+      "incompatible_styles": ["bloomy"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.1, "sheep": 1.4, "buffalo": 1.3},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Cumin >1.5 tsp/gallon creates overpowering earthy flavor",
+        "style_warnings": {
+          "bloomy": "Strong spice overwhelms delicate rind"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Toast {quantity} {name}, cool, and fold into curds for Dutch-style cheese."
+      },
+      "interactions": [
+        {"with": "caraway-seeds", "effect": "complementary", "note": "Traditional Dutch pairing"},
+        {"with": "coriander-ground", "effect": "complementary"}
+      ],
+      "notes": "Traditional in Dutch Komijnekaas. Toast before use to enhance flavor."
+    },
+    {
+      "id": "caraway-seeds",
+      "name": "Caraway Seeds",
+      "category": "spice",
+      "forms": ["whole", "crushed"],
+      "flavor_profile": ["EARTHY", "WARM", "ANISE", "NUTTY"],
+      "intensity": "M2",
+      "compatible_styles": ["semi-soft", "semi-hard", "hard"],
+      "incompatible_styles": ["fresh", "bloomy"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Caraway >1.5 tsp/gallon creates overly anise-like flavor",
+        "style_warnings": {
+          "fresh": "Strong anise note overwhelms fresh cheese",
+          "bloomy": "Conflicts with delicate rind flavors"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds. Seeds remain whole for visual appeal."
+      },
+      "interactions": [
+        {"with": "cumin-toasted", "effect": "complementary"}
+      ],
+      "notes": "Essential in German Kümmelkäse and some Gouda varieties."
+    },
+    {
+      "id": "fennel-seeds",
+      "name": "Fennel Seeds",
+      "category": "spice",
+      "forms": ["whole", "crushed", "toasted"],
+      "flavor_profile": ["SWEET", "ANISE", "WARM"],
+      "intensity": "M2",
+      "compatible_styles": ["semi-soft", "semi-hard", "hard", "pasta-filata"],
+      "incompatible_styles": ["fresh", "bloomy"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Fennel seeds >1.5 tsp/gallon creates overwhelming licorice flavor"
+      },
+      "injection_templates": {
+        "CURD_MILL": "Toast {quantity} {name} lightly, then fold into curds."
+      },
+      "interactions": [
+        {"with": "black-pepper", "effect": "complementary"}
+      ],
+      "notes": "Traditional in Italian Fiore Sardo and some provolone. Toast to enhance sweetness."
+    },
+    {
+      "id": "coriander-ground",
+      "name": "Ground Coriander",
+      "category": "indian",
+      "forms": ["ground", "powder"],
+      "flavor_profile": ["CITRUS", "WARM", "NUTTY", "FLORAL"],
+      "intensity": "M1",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "brined"],
+      "incompatible_styles": ["bloomy", "blue"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["COLD_INFUSE", "CURD_MILL", "POST_PRESS"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Coriander >1.5 tsp/gallon may create soapy flavor for some people"
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for citrusy warmth."
+      },
+      "interactions": [
+        {"with": "cumin-toasted", "effect": "complementary"},
+        {"with": "turmeric-powder", "effect": "complementary"}
+      ],
+      "notes": "Mild, citrusy spice. Some people perceive soapy notes (genetic). Use freshly ground."
+    },
+    {
+      "id": "turmeric-powder",
+      "name": "Turmeric Powder",
+      "category": "indian",
+      "forms": ["powder"],
+      "flavor_profile": ["EARTHY", "WARM", "BITTER", "PEPPERY"],
+      "intensity": "M1",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard", "pasta-filata"],
+      "incompatible_styles": ["bloomy", "blue", "washed-rind"],
+      "best_stages": ["COLD_INFUSE", "CURD_MILL"],
+      "allowed_stages": ["COLD_INFUSE", "MILK_PREHEAT", "CURD_MILL"],
+      "base_quantity": {"amount": 0.25, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Turmeric >3/4 tsp/gallon creates bitter, medicinal flavor and intense yellow color",
+        "style_warnings": {
+          "bloomy": "Yellow color and earthy flavor conflict with white rind",
+          "blue": "Bitter notes compete with blue mold",
+          "washed-rind": "Overwhelms washed rind complexity"
+        },
+        "general": "Will stain equipment, hands, and clothes bright yellow."
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in cold milk for 1 hour for even color distribution.",
+        "CURD_MILL": "Fold {quantity} {name} into curds. Note: color will be uneven."
+      },
+      "interactions": [
+        {"with": "black-pepper", "effect": "complementary", "note": "Pepper increases turmeric absorption"},
+        {"with": "coriander-ground", "effect": "complementary"},
+        {"with": "cumin-toasted", "effect": "complementary"}
+      ],
+      "notes": "Adds golden color and mild earthiness. Traditional in some Indian paneer preparations. Stains everything!"
+    },
+    {
+      "id": "fenugreek-leaves",
+      "name": "Dried Fenugreek Leaves (Kasuri Methi)",
+      "category": "indian",
+      "forms": ["dried", "crushed"],
+      "flavor_profile": ["NUTTY", "EARTHY", "BITTER", "SWEET"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "semi-hard"],
+      "incompatible_styles": ["bloomy", "blue"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Fenugreek >1.5 tsp/gallon creates bitter, curry-like flavor",
+        "style_warnings": {
+          "bloomy": "Strong aroma overwhelms delicate rind",
+          "blue": "Bitter notes conflict with blue mold"
+        },
+        "general": "May cause maple syrup-like body odor in large quantities."
+      },
+      "injection_templates": {
+        "CURD_MILL": "Crush {quantity} {name} between palms to release aroma, then fold into curds."
+      },
+      "interactions": [
+        {"with": "cumin-toasted", "effect": "complementary"},
+        {"with": "coriander-ground", "effect": "complementary"}
+      ],
+      "notes": "Traditional in some Middle Eastern and Central Asian cheeses. Distinctive maple-like aroma."
+    },
+    {
+      "id": "cardamom-green",
+      "name": "Green Cardamom (Ground)",
+      "category": "indian",
+      "forms": ["ground", "powder"],
+      "flavor_profile": ["SWEET", "FLORAL", "CITRUS", "WARM"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh"],
+      "incompatible_styles": ["semi-hard", "hard", "bloomy", "blue", "washed-rind"],
+      "best_stages": ["CURD_MILL", "FINISH_SERVING"],
+      "allowed_stages": ["CURD_MILL", "FINISH_SERVING"],
+      "base_quantity": {"amount": 0.125, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.85, "sheep": 1.1, "buffalo": 1.0},
+      "max_safe_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Cardamom >1/2 tsp/gallon creates perfume-like, overpowering flavor",
+        "style_warnings": {
+          "semi-hard": "Too delicate for aging",
+          "hard": "Flavor changes negatively with long aging",
+          "bloomy": "Perfume notes conflict with earthy rind",
+          "blue": "Too floral for pungent blue",
+          "washed-rind": "Overwhelmed by funky washed rind"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into fresh cheese curds.",
+        "FINISH_SERVING": "Garnish sweet fresh cheese with {quantity} {name}."
+      },
+      "interactions": [
+        {"with": "honey", "effect": "complementary", "note": "Traditional Indian pairing"},
+        {"with": "saffron", "effect": "complementary"}
+      ],
+      "notes": "Best in sweet fresh cheese preparations. Very potent - use sparingly."
+    },
+    {
+      "id": "mustard-seeds-black",
+      "name": "Black Mustard Seeds (Toasted)",
+      "category": "indian",
+      "forms": ["whole", "toasted"],
+      "flavor_profile": ["PUNGENT", "NUTTY", "WARM"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "brined"],
+      "incompatible_styles": ["bloomy", "blue"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 1.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Mustard seeds >1.5 tsp/gallon creates pungent, harsh flavor",
+        "style_warnings": {
+          "bloomy": "Pungency conflicts with delicate rind",
+          "blue": "Competes with blue mold's peppery notes"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Toast {quantity} {name} until they pop, cool, and fold into curds."
+      },
+      "interactions": [],
+      "notes": "Toast until they pop to release nutty flavor. Traditional in some Indian fresh cheeses."
+    },
+    {
+      "id": "ajwain-seeds",
+      "name": "Ajwain Seeds (Carom)",
+      "category": "indian",
+      "forms": ["whole", "crushed"],
+      "flavor_profile": ["PUNGENT", "HERBACEOUS", "WARM"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft"],
+      "incompatible_styles": ["hard", "bloomy", "blue"],
+      "best_stages": ["CURD_MILL"],
+      "allowed_stages": ["CURD_MILL", "POST_PRESS"],
+      "base_quantity": {"amount": 0.25, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 0.75, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Ajwain >3/4 tsp/gallon creates harsh, medicinal thyme-like flavor",
+        "style_warnings": {
+          "hard": "Flavor becomes harsh with aging",
+          "bloomy": "Too intense for delicate rind",
+          "blue": "Conflicts with blue mold"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Lightly crush {quantity} {name} and fold into curds."
+      },
+      "interactions": [],
+      "notes": "Thyme-like flavor. Traditional digestive aid. Use sparingly."
+    },
+    {
+      "id": "wine-red",
+      "name": "Red Wine",
+      "category": "alcohol",
+      "forms": ["liquid"],
+      "flavor_profile": ["FRUITY", "TANGY", "EARTHY", "WOODY"],
+      "intensity": "M2",
+      "compatible_styles": ["semi-hard", "hard"],
+      "incompatible_styles": ["fresh", "soft", "bloomy"],
+      "best_stages": ["BRINE_ADDITION", "RIND_RUB", "AGING_SURFACE"],
+      "allowed_stages": ["BRINE_ADDITION", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 2, "unit": "tbsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 0.25, "unit": "cup", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Red wine >1/4 cup/gallon may inhibit proper curd formation or create off-flavors",
+        "style_warnings": {
+          "fresh": "Alcohol interferes with fresh cheese texture",
+          "soft": "Too intense for delicate soft cheese",
+          "bloomy": "Wine acidity may inhibit Penicillium growth"
+        },
+        "general": "Never add to milk before rennet - alcohol denatures proteins."
+      },
+      "injection_templates": {
+        "BRINE_ADDITION": "Add {quantity} {name} to brine solution for wine-brined cheese.",
+        "RIND_RUB": "Wash cheese rind with {quantity} {name} during aging.",
+        "AGING_SURFACE": "Apply {quantity} {name} to aging surface weekly for 'ubriaco' style cheese."
+      },
+      "interactions": [],
+      "notes": "Italian 'ubriaco' (drunken cheese) tradition. Use quality wine - cheap wine = cheap flavor."
+    },
+    {
+      "id": "beer-ale",
+      "name": "Beer/Ale",
+      "category": "alcohol",
+      "forms": ["liquid"],
+      "flavor_profile": ["NUTTY", "BITTER", "EARTHY", "SWEET"],
+      "intensity": "M2",
+      "compatible_styles": ["semi-soft", "semi-hard", "washed-rind"],
+      "incompatible_styles": ["fresh", "soft", "bloomy"],
+      "best_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "allowed_stages": ["BRINE_ADDITION", "RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 2, "unit": "tbsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 0.25, "unit": "cup", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Beer >1/4 cup/gallon may create overly bitter, yeasty flavor",
+        "style_warnings": {
+          "fresh": "Alcohol interferes with fresh cheese",
+          "soft": "Too intense for delicate soft cheese",
+          "bloomy": "May inhibit Penicillium growth"
+        },
+        "general": "Never add to milk before rennet."
+      },
+      "injection_templates": {
+        "RIND_RUB": "Wash cheese rind with {quantity} {name} during aging for beer-washed style.",
+        "AGING_SURFACE": "Apply {quantity} {name} to aging surface 2-3 times per week."
+      },
+      "interactions": [],
+      "notes": "Belgian beer-washed cheese tradition. Abbey ales and stouts work well."
+    },
+    {
+      "id": "whiskey",
+      "name": "Whiskey/Bourbon",
+      "category": "alcohol",
+      "forms": ["liquid"],
+      "flavor_profile": ["SMOKY", "SWEET", "WARM", "WOODY"],
+      "intensity": "M3",
+      "compatible_styles": ["semi-hard", "hard"],
+      "incompatible_styles": ["fresh", "soft", "semi-soft", "bloomy"],
+      "best_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "allowed_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 1, "unit": "tbsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.85, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 3, "unit": "tbsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Whiskey >3 tbsp/gallon creates harsh, overly alcoholic flavor",
+        "style_warnings": {
+          "fresh": "PROHIBITED: Alcohol ruins fresh cheese",
+          "soft": "PROHIBITED: Too intense",
+          "semi-soft": "Use with extreme caution",
+          "bloomy": "PROHIBITED: Kills rind cultures"
+        },
+        "general": "High alcohol content - use sparingly. Never apply before pressing."
+      },
+      "injection_templates": {
+        "RIND_RUB": "Apply {quantity} {name} to pressed cheese surface using cloth.",
+        "AGING_SURFACE": "Wash aging cheese with {quantity} {name} monthly."
+      },
+      "interactions": [
+        {"with": "maple-syrup", "effect": "complementary", "note": "Bourbon maple combination"}
+      ],
+      "notes": "Irish cheddar tradition. Bourbon, scotch, or Irish whiskey each give different profiles."
+    },
+    {
+      "id": "calvados-brandy",
+      "name": "Calvados/Apple Brandy",
+      "category": "alcohol",
+      "forms": ["liquid"],
+      "flavor_profile": ["FRUITY", "SWEET", "WARM", "WOODY"],
+      "intensity": "M2",
+      "compatible_styles": ["semi-soft", "washed-rind"],
+      "incompatible_styles": ["fresh", "soft", "hard", "bloomy"],
+      "best_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "allowed_stages": ["RIND_RUB", "AGING_SURFACE"],
+      "base_quantity": {"amount": 1.5, "unit": "tbsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 3, "unit": "tbsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Calvados >3 tbsp/gallon creates harsh alcohol burn",
+        "style_warnings": {
+          "fresh": "PROHIBITED",
+          "soft": "PROHIBITED",
+          "hard": "Apple notes don't suit long aging",
+          "bloomy": "PROHIBITED"
+        }
+      },
+      "injection_templates": {
+        "RIND_RUB": "Wash cheese with {quantity} {name} for Norman-style cheese.",
+        "AGING_SURFACE": "Apply {quantity} {name} to aging surface weekly."
+      },
+      "interactions": [],
+      "notes": "Traditional Norman cheese wash. Pairs beautifully with washed-rind cheeses."
+    },
+    {
+      "id": "cranberries-dried",
+      "name": "Dried Cranberries",
+      "category": "fruit",
+      "forms": ["dried", "chopped"],
+      "flavor_profile": ["TANGY", "SWEET", "FRUITY"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "soft"],
+      "incompatible_styles": ["hard", "blue", "washed-rind"],
+      "best_stages": ["CURD_MILL", "MOLD_LAYER"],
+      "allowed_stages": ["CURD_MILL", "MOLD_LAYER", "FINISH_SERVING"],
+      "base_quantity": {"amount": 2, "unit": "tbsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 0.25, "unit": "cup", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Cranberries >1/4 cup/gallon may create moisture pockets and uneven texture",
+        "style_warnings": {
+          "hard": "Fruit doesn't age well in hard cheese",
+          "blue": "Sweet fruit conflicts with pungent blue",
+          "washed-rind": "Fruit interferes with rind development"
+        },
+        "general": "Chop finely to distribute evenly. Avoid sweetened cranberries."
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} (finely chopped) into curds.",
+        "MOLD_LAYER": "Layer {quantity} {name} between curds when filling molds.",
+        "FINISH_SERVING": "Top fresh cheese with {quantity} {name}."
+      },
+      "interactions": [
+        {"with": "walnuts-chopped", "effect": "complementary", "note": "Classic holiday pairing"}
+      ],
+      "notes": "Popular in Wensleydale-style cheeses. Use unsweetened for best results."
+    },
+    {
+      "id": "apricots-dried",
+      "name": "Dried Apricots",
+      "category": "fruit",
+      "forms": ["dried", "chopped"],
+      "flavor_profile": ["SWEET", "TANGY", "FRUITY"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "soft", "blue"],
+      "incompatible_styles": ["hard", "washed-rind"],
+      "best_stages": ["CURD_MILL", "MOLD_LAYER"],
+      "allowed_stages": ["CURD_MILL", "MOLD_LAYER", "FINISH_SERVING"],
+      "base_quantity": {"amount": 2, "unit": "tbsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 0.25, "unit": "cup", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Apricots >1/4 cup/gallon may create moisture issues",
+        "style_warnings": {
+          "hard": "Fruit doesn't age well",
+          "washed-rind": "Interferes with rind"
+        }
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} (finely diced) into curds.",
+        "MOLD_LAYER": "Layer {quantity} {name} between curds.",
+        "FINISH_SERVING": "Garnish with {quantity} {name}."
+      },
+      "interactions": [
+        {"with": "almonds-slivered", "effect": "complementary"}
+      ],
+      "notes": "Traditional in Stilton variations. Turkish apricots preferred."
+    },
+    {
+      "id": "walnuts-chopped",
+      "name": "Chopped Walnuts",
+      "category": "nut",
+      "forms": ["chopped", "crushed"],
+      "flavor_profile": ["NUTTY", "EARTHY", "BITTER"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft", "soft"],
+      "incompatible_styles": ["hard", "bloomy", "washed-rind"],
+      "best_stages": ["CURD_MILL", "POST_PRESS"],
+      "allowed_stages": ["CURD_MILL", "MOLD_LAYER", "POST_PRESS", "FINISH_SERVING"],
+      "base_quantity": {"amount": 2, "unit": "tbsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 0.25, "unit": "cup", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Walnuts >1/4 cup/gallon may create bitter notes and uneven texture",
+        "style_warnings": {
+          "hard": "Nuts become rancid in long aging",
+          "bloomy": "Interferes with rind",
+          "washed-rind": "Interferes with wash"
+        },
+        "general": "Toast lightly before use. Avoid rancid nuts."
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} (toasted) into curds.",
+        "POST_PRESS": "Press {quantity} {name} into cheese surface."
+      },
+      "interactions": [
+        {"with": "cranberries-dried", "effect": "complementary"},
+        {"with": "honey", "effect": "complementary"}
+      ],
+      "notes": "Classic pairing with soft cheeses. Toast to enhance flavor and reduce moisture."
+    },
+    {
+      "id": "truffle-oil",
+      "name": "Truffle Oil",
+      "category": "other",
+      "forms": ["oil"],
+      "flavor_profile": ["EARTHY", "PUNGENT", "UMAMI"],
+      "intensity": "M3",
+      "compatible_styles": ["fresh", "semi-soft", "soft"],
+      "incompatible_styles": ["hard", "bloomy", "blue", "washed-rind"],
+      "best_stages": ["FINISH_SERVING"],
+      "allowed_stages": ["POST_PRESS", "FINISH_SERVING"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.85, "sheep": 1.1, "buffalo": 1.0},
+      "max_safe_quantity": {"amount": 1, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Truffle oil >1 tsp/gallon creates overwhelming, artificial taste",
+        "style_warnings": {
+          "hard": "Oil can go rancid in long aging",
+          "bloomy": "Oil interferes with rind",
+          "blue": "Overwhelms blue mold",
+          "washed-rind": "Conflicts with wash"
+        },
+        "general": "Use high-quality oil. Most truffle oils are synthetic - seek real truffle."
+      },
+      "injection_templates": {
+        "POST_PRESS": "Drizzle {quantity} {name} over pressed cheese and wrap tightly.",
+        "FINISH_SERVING": "Drizzle {quantity} {name} over sliced cheese just before serving."
+      },
+      "interactions": [],
+      "notes": "Luxury addition. Real truffle oil is expensive - most commercial oils are synthetic."
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "category": "other",
+      "forms": ["liquid"],
+      "flavor_profile": ["SWEET", "FLORAL"],
+      "intensity": "M1",
+      "compatible_styles": ["fresh", "soft"],
+      "incompatible_styles": ["semi-hard", "hard", "bloomy", "blue", "washed-rind"],
+      "best_stages": ["FINISH_SERVING"],
+      "allowed_stages": ["POST_PRESS", "FINISH_SERVING"],
+      "base_quantity": {"amount": 1, "unit": "tbsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.1, "buffalo": 1.0},
+      "max_safe_quantity": {"amount": 2, "unit": "tbsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Honey >2 tbsp/gallon creates overly sweet cheese",
+        "style_warnings": {
+          "semi-hard": "Sugar content affects aging",
+          "hard": "Sugar interferes with proper aging",
+          "bloomy": "Feeds unwanted bacteria",
+          "blue": "Sugar conflicts with blue mold",
+          "washed-rind": "Feeds unwanted organisms"
+        },
+        "general": "Never add to milk during cheesemaking - add at finish only."
+      },
+      "injection_templates": {
+        "POST_PRESS": "Drizzle {quantity} {name} over fresh cheese.",
+        "FINISH_SERVING": "Serve fresh cheese with {quantity} {name} drizzled on top."
+      },
+      "interactions": [
+        {"with": "walnuts-chopped", "effect": "complementary"},
+        {"with": "cardamom-green", "effect": "complementary"},
+        {"with": "ghost-pepper-powder", "effect": "complementary", "note": "Sweet-heat balance"}
+      ],
+      "notes": "Best as a finish. Local raw honey adds complexity. Do not incorporate during cheesemaking."
+    },
+    {
+      "id": "liquid-smoke",
+      "name": "Liquid Smoke",
+      "category": "other",
+      "forms": ["liquid"],
+      "flavor_profile": ["SMOKY", "WOODY"],
+      "intensity": "M3",
+      "compatible_styles": ["semi-hard", "hard"],
+      "incompatible_styles": ["fresh", "soft", "bloomy", "blue"],
+      "best_stages": ["BRINE_ADDITION", "RIND_RUB"],
+      "allowed_stages": ["BRINE_ADDITION", "POST_PRESS", "RIND_RUB"],
+      "base_quantity": {"amount": 0.25, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.85, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Liquid smoke >1/2 tsp/gallon creates harsh, artificial smoke flavor",
+        "style_warnings": {
+          "fresh": "Smoke overpowers fresh cheese",
+          "soft": "Too intense for soft cheese",
+          "bloomy": "Conflicts with rind",
+          "blue": "Overwhelms blue mold"
+        },
+        "general": "Less is more. Natural cold-smoking preferred when possible."
+      },
+      "injection_templates": {
+        "BRINE_ADDITION": "Add {quantity} {name} to brine for smoky flavor throughout.",
+        "POST_PRESS": "Apply diluted {name} ({quantity} in 1/4 cup water) to cheese surface.",
+        "RIND_RUB": "Mix {quantity} {name} with salt and apply to rind."
+      },
+      "interactions": [
+        {"with": "paprika-smoked", "effect": "complementary"},
+        {"with": "chipotle-powder", "effect": "complementary"}
+      ],
+      "notes": "Shortcut to smoked flavor. Use quality brands. True cold-smoking is superior."
+    },
+    {
+      "id": "vegetable-ash",
+      "name": "Vegetable Ash (Food-Grade)",
+      "category": "other",
+      "forms": ["powder"],
+      "flavor_profile": ["EARTHY", "MINERAL"],
+      "intensity": "M1",
+      "compatible_styles": ["fresh", "soft", "bloomy"],
+      "incompatible_styles": ["hard"],
+      "best_stages": ["MOLD_LAYER", "RIND_RUB"],
+      "allowed_stages": ["CURD_MILL", "MOLD_LAYER", "RIND_RUB"],
+      "base_quantity": {"amount": 0.5, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.0, "buffalo": 1.0},
+      "max_safe_quantity": {"amount": 1, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Ash >1 tsp/gallon may create gritty texture or off-flavors",
+        "style_warnings": {
+          "hard": "Ash layer may crack during aging"
+        },
+        "general": "Use food-grade ash only. Traditional grapevine or oak ash preferred."
+      },
+      "injection_templates": {
+        "MOLD_LAYER": "Dust {quantity} {name} between layers of curd for Morbier-style line.",
+        "RIND_RUB": "Coat exterior with {quantity} {name} mixed with salt for ash-ripened style."
+      },
+      "interactions": [],
+      "notes": "Traditional in French cheeses like Morbier and Sainte-Maure. Dramatic visual effect."
+    },
+    {
+      "id": "saffron",
+      "name": "Saffron Threads",
+      "category": "other",
+      "forms": ["whole", "powder"],
+      "flavor_profile": ["FLORAL", "EARTHY", "SWEET", "WARM"],
+      "intensity": "M2",
+      "compatible_styles": ["fresh", "semi-soft"],
+      "incompatible_styles": ["hard", "bloomy", "blue", "washed-rind"],
+      "best_stages": ["COLD_INFUSE", "MILK_PREHEAT"],
+      "allowed_stages": ["COLD_INFUSE", "MILK_PREHEAT", "CURD_MILL"],
+      "base_quantity": {"amount": 5, "unit": "threads", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 0.9, "sheep": 1.2, "buffalo": 1.1},
+      "max_safe_quantity": {"amount": 15, "unit": "threads", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Saffron >15 threads/gallon creates medicinal, bitter flavor",
+        "style_warnings": {
+          "hard": "Delicate flavor lost in aging",
+          "bloomy": "Color conflicts with white rind",
+          "blue": "Too delicate for pungent blue",
+          "washed-rind": "Lost in funky wash"
+        },
+        "general": "Most expensive spice. Counterfeit saffron is common - buy from reputable sources."
+      },
+      "injection_templates": {
+        "COLD_INFUSE": "Steep {quantity} {name} in 2 tbsp warm milk for 30 min, then add to cold milk.",
+        "MILK_PREHEAT": "Add steeped {quantity} {name} to milk during initial heating.",
+        "CURD_MILL": "Distribute steeped {quantity} {name} (with soaking liquid) into curds."
+      },
+      "interactions": [
+        {"with": "cardamom-green", "effect": "complementary", "note": "Traditional Persian pairing"}
+      ],
+      "notes": "Adds golden color and distinctive flavor. Steep before use to release color and flavor."
+    },
+    {
+      "id": "nettle-dried",
+      "name": "Dried Nettle Leaves",
+      "category": "other",
+      "forms": ["dried", "powder"],
+      "flavor_profile": ["HERBACEOUS", "EARTHY", "GREEN"],
+      "intensity": "M2",
+      "compatible_styles": ["semi-hard", "hard"],
+      "incompatible_styles": ["fresh", "soft", "bloomy"],
+      "best_stages": ["CURD_MILL", "MOLD_LAYER"],
+      "allowed_stages": ["CURD_MILL", "MOLD_LAYER", "RIND_RUB"],
+      "base_quantity": {"amount": 1, "unit": "tsp", "per": "gallon"},
+      "milk_adjustments": {"cow": 1.0, "goat": 1.0, "sheep": 1.3, "buffalo": 1.2},
+      "max_safe_quantity": {"amount": 2, "unit": "tsp", "per": "gallon"},
+      "warnings": {
+        "exceeded_message": "Nettle >2 tsp/gallon creates overly vegetal, grassy flavor",
+        "style_warnings": {
+          "fresh": "Too earthy for delicate fresh cheese",
+          "soft": "Overpowers soft cheese",
+          "bloomy": "Green color conflicts with white rind"
+        },
+        "general": "Use food-grade dried nettle. Do not harvest wild nettle unless properly trained."
+      },
+      "injection_templates": {
+        "CURD_MILL": "Fold {quantity} {name} into curds for traditional English-style cheese.",
+        "MOLD_LAYER": "Layer {quantity} {name} between curds for visual effect.",
+        "RIND_RUB": "Wrap cheese in nettle leaves during aging."
+      },
+      "interactions": [],
+      "notes": "Traditional in Cornish Yarg and other British cheeses. Historic preservation method."
+    }
+  ],
+
+  "prohibited_adulterants": [
+    {
+      "id": "fresh-garlic",
+      "name": "Fresh Garlic",
+      "reason": "Botulism risk from anaerobic environment. High moisture causes spoilage.",
+      "safe_alternative": "garlic-powder"
+    },
+    {
+      "id": "fresh-onion",
+      "name": "Fresh Onion",
+      "reason": "High moisture content causes spoilage and inconsistent texture.",
+      "safe_alternative": "onion-powder"
+    },
+    {
+      "id": "fresh-herbs",
+      "name": "Fresh Herbs (General)",
+      "reason": "Moisture promotes bacterial growth. Flavor changes unpredictably with aging.",
+      "safe_alternative": "Use dried equivalents"
+    },
+    {
+      "id": "fresh-cilantro",
+      "name": "Fresh Cilantro",
+      "reason": "Loses all flavor during aging and develops bitter, metallic notes.",
+      "safe_alternative": "coriander-ground"
+    },
+    {
+      "id": "fresh-parsley",
+      "name": "Fresh Parsley",
+      "reason": "Turns bitter and develops metallic taste after aging.",
+      "safe_alternative": "None recommended"
+    },
+    {
+      "id": "oil-based-pastes",
+      "name": "Oil-Based Spice Pastes",
+      "reason": "Oil suspends bacteria, creates anaerobic pockets, inhibits rind development.",
+      "safe_alternative": "Use dry spices"
+    },
+    {
+      "id": "hot-sauce",
+      "name": "Hot Sauce (Vinegar-Based)",
+      "reason": "Vinegar weakens curds. Unpredictable pH effects. Inconsistent heat distribution.",
+      "safe_alternative": "Use dried pepper powders"
+    },
+    {
+      "id": "asafoetida",
+      "name": "Asafoetida (Hing)",
+      "reason": "Overwhelmingly pungent sulfur compounds persist and intensify with aging.",
+      "safe_alternative": "None - omit entirely"
+    },
+    {
+      "id": "garam-masala",
+      "name": "Garam Masala (Blend)",
+      "reason": "Complex blend with unpredictable aging behavior. Individual components change differently.",
+      "safe_alternative": "Use individual spices from the blend"
+    }
+  ],
+
+  "stage_guidelines": {
+    "COLD_INFUSE": {
+      "description": "Steep adulterant in cold milk before heating",
+      "duration": "1-4 hours",
+      "benefits": "Even distribution, mellow flavor integration",
+      "cautions": "Extended steeping may cause off-flavors",
+      "suitable_for": ["powders", "dried herbs", "saffron", "mild peppers"]
+    },
+    "MILK_PREHEAT": {
+      "description": "Add during initial milk heating (before rennet)",
+      "temperature": "70-90°F (21-32°C)",
+      "benefits": "Good distribution, flavors bloom",
+      "cautions": "Some compounds may be heat-sensitive",
+      "suitable_for": ["turmeric", "saffron", "mild spices"]
+    },
+    "PRE_RENNET": {
+      "description": "Add just before rennet addition",
+      "benefits": "Incorporated into curd matrix",
+      "cautions": "May interfere with coagulation",
+      "suitable_for": ["Only very mild, non-acidic adulterants"]
+    },
+    "CURD_CUT": {
+      "description": "Add immediately after cutting curds",
+      "benefits": "Distributed throughout curd pieces",
+      "cautions": "Large pieces may fall out",
+      "suitable_for": ["Finely ground spices only"]
+    },
+    "CURD_MILL": {
+      "description": "Add while milling/stirring curds before molding",
+      "benefits": "Most common stage. Even distribution. Good incorporation.",
+      "cautions": "Excessive stirring may wash out flavor",
+      "suitable_for": ["Most herbs, spices, peppers, nuts, fruits"]
+    },
+    "MOLD_LAYER": {
+      "description": "Layer between curds when filling molds",
+      "benefits": "Creates visible layers (Morbier-style)",
+      "cautions": "May create weak points in cheese structure",
+      "suitable_for": ["Ash, herbs, dried fruits"]
+    },
+    "POST_PRESS": {
+      "description": "Apply to cheese surface after pressing",
+      "benefits": "Visual appeal, concentrated flavor on exterior",
+      "cautions": "May fall off during aging",
+      "suitable_for": ["Pepper crusts, herb coatings, nuts"]
+    },
+    "BRINE_ADDITION": {
+      "description": "Add to brine solution",
+      "benefits": "Penetrates cheese during brining",
+      "cautions": "Some flavors don't transfer well through brine",
+      "suitable_for": ["Wine, beer, liquid smoke, some spices"]
+    },
+    "RIND_RUB": {
+      "description": "Rub or wash onto rind during aging",
+      "benefits": "Traditional washed-rind technique, surface flavor",
+      "cautions": "Requires regular application",
+      "suitable_for": ["Alcohol washes, spice rubs, herbs"]
+    },
+    "AGING_SURFACE": {
+      "description": "Apply to aging cheese surface periodically",
+      "benefits": "Flavor migrates inward over time",
+      "cautions": "Slow process, requires patience",
+      "suitable_for": ["Superhot peppers, strong spices, alcohol"]
+    },
+    "FINISH_SERVING": {
+      "description": "Apply just before serving",
+      "benefits": "Fresh flavor, visual appeal",
+      "cautions": "Not integrated into cheese",
+      "suitable_for": ["Fresh herbs, honey, truffle oil, delicate spices"]
+    }
+  },
+
+  "milk_type_notes": {
+    "cow": "Baseline. Most adulterants work well. Mild flavor allows adulterants to shine.",
+    "goat": "Tangy flavor may compete with delicate adulterants. Reduce quantities slightly. Strong spices work well.",
+    "sheep": "Rich flavor and higher yield means more adulterant needed. Increase quantities 30-40%. Pairs well with bold flavors.",
+    "buffalo": "High fat masks some flavors. Increase quantities 20-30%. Works well with strong spices and peppers.",
+    "camel": "Unique flavor profile. Test adulterants carefully. Traditional Middle Eastern spices recommended.",
+    "yak": "Rich, buttery. Similar adjustments to sheep milk.",
+    "mare": "Delicate. Use mild adulterants sparingly.",
+    "donkey": "Very mild. Delicate adulterants only."
+  }
+}
