@@ -2,7 +2,9 @@
  * Milk Substitution Calculator for Cheese Recipes
  *
  * Provides interactive milk type switching and ingredient adjustment
- * for cheese-making recipes. Loads data from data/milk-substitution.json.
+ * for cheese-making recipes. Supports mixed milk ratios (e.g., 75% sheep,
+ * 25% cow) with dynamic nutrition calculation.
+ * Loads data from data/milk-substitution.json.
  */
 
 // =============================================================================
@@ -15,9 +17,18 @@ const MilkSubstitution = (function() {
   // Module state
   let substitutionData = null;
   let isLoaded = false;
-  let currentMilkType = 'cow';
   let originalMilkType = 'cow';
   let quantityMultiplier = 1.0;
+
+  // Mixed milk ratios (percentages, must sum to 100)
+  let milkRatios = {
+    cow: 100,
+    goat: 0,
+    sheep: 0
+  };
+
+  // Track whether we're in single or mixed mode
+  let mixedMode = false;
 
   // Ingredient keywords that should be adjusted
   const MILK_KEYWORDS = ['milk', 'whole milk', 'raw milk', 'pasteurized milk'];
@@ -88,19 +99,35 @@ const MilkSubstitution = (function() {
     return false;
   }
 
+  // Milk type detection keywords
+  const MILK_TYPE_KEYWORDS = {
+    sheep: ['sheep', "sheep's", 'ewe', 'ovine'],
+    goat: ['goat', "goat's", 'caprine'],
+    buffalo: ['buffalo', 'water buffalo', "buffalo's", 'bubalus'],
+    camel: ['camel', "camel's", 'dromedary'],
+    yak: ['yak', "yak's"],
+    mare: ['mare', 'horse', "mare's", 'equine'],
+    donkey: ['donkey', "donkey's", 'ass', 'jenny'],
+    reindeer: ['reindeer', "reindeer's", 'caribou'],
+    llama: ['llama', "llama's"],
+    alpaca: ['alpaca', "alpaca's"]
+  };
+
   /**
    * Detect the original milk type from recipe ingredients
+   * Supports both common (cow, goat, sheep) and exotic milk types
    */
   function detectOriginalMilkType(recipe) {
     if (!recipe || !recipe.ingredients) return 'cow';
 
     for (const ing of recipe.ingredients) {
       const item = ing.item.toLowerCase();
-      if (item.includes('sheep') || item.includes("sheep's") || item.includes('ewe')) {
-        return 'sheep';
-      }
-      if (item.includes('goat') || item.includes("goat's")) {
-        return 'goat';
+
+      // Check for exotic and specific milk types first
+      for (const [milkType, keywords] of Object.entries(MILK_TYPE_KEYWORDS)) {
+        if (keywords.some(kw => item.includes(kw))) {
+          return milkType;
+        }
       }
     }
 
@@ -109,31 +136,111 @@ const MilkSubstitution = (function() {
   }
 
   /**
-   * Get volume conversion factor
+   * Check if a milk type is available (can be used as output)
    */
-  function getVolumeConversionFactor(fromMilk, toMilk) {
-    if (!substitutionData || fromMilk === toMilk) return 1.0;
-
-    const key = `${fromMilk}_to_${toMilk}`;
-    return substitutionData.volume_conversions?.factors?.[key] || 1.0;
+  function isAvailableMilkType(milkType) {
+    if (!substitutionData) return milkType === 'cow' || milkType === 'goat' || milkType === 'sheep';
+    return substitutionData.available_milk_types?.includes(milkType) ||
+           substitutionData.milk_types?.[milkType]?.available === true;
   }
 
   /**
-   * Get rennet adjustment factor
+   * Get the recommended substitute for an exotic milk type
    */
-  function getRennetFactor(milkType) {
+  function getRecommendedSubstitute(milkType) {
+    if (!substitutionData) return 'cow';
+    const milkInfo = substitutionData.milk_types?.[milkType];
+    return milkInfo?.best_substitute || 'cow';
+  }
+
+  /**
+   * Get substitute notes for an exotic milk type
+   */
+  function getSubstituteNotes(milkType) {
+    if (!substitutionData) return null;
+    return substitutionData.milk_types?.[milkType]?.substitute_notes;
+  }
+
+  /**
+   * Check if the original milk type is exotic (not commonly available)
+   */
+  function isExoticMilkType(milkType) {
+    return !isAvailableMilkType(milkType);
+  }
+
+  /**
+   * Get the dominant milk type from current ratios
+   */
+  function getDominantMilkType() {
+    let maxRatio = 0;
+    let dominant = 'cow';
+    for (const [type, ratio] of Object.entries(milkRatios)) {
+      if (ratio > maxRatio) {
+        maxRatio = ratio;
+        dominant = type;
+      }
+    }
+    return dominant;
+  }
+
+  /**
+   * Get volume conversion factor for mixed milk
+   * Uses weighted average based on ratios
+   */
+  function getVolumeConversionFactor(fromMilk) {
     if (!substitutionData) return 1.0;
-    return substitutionData.rennet_adjustments?.factors?.[milkType] || 1.0;
+
+    // Calculate weighted conversion factor
+    let totalFactor = 0;
+    for (const [toMilk, ratio] of Object.entries(milkRatios)) {
+      if (ratio > 0) {
+        const key = `${fromMilk}_to_${toMilk}`;
+        const factor = substitutionData.volume_conversions?.factors?.[key] || 1.0;
+        totalFactor += factor * (ratio / 100);
+      }
+    }
+    return totalFactor;
   }
 
   /**
-   * Get CaCl2 recommendation
+   * Get rennet adjustment factor for mixed milk
+   * Uses weighted average based on ratios
    */
-  function getCaCl2Recommendation(milkType, isRaw = false) {
+  function getRennetFactor() {
+    if (!substitutionData) return 1.0;
+
+    let totalFactor = 0;
+    for (const [milkType, ratio] of Object.entries(milkRatios)) {
+      if (ratio > 0) {
+        const factor = substitutionData.rennet_adjustments?.factors?.[milkType] || 1.0;
+        totalFactor += factor * (ratio / 100);
+      }
+    }
+    return totalFactor;
+  }
+
+  /**
+   * Get CaCl2 recommendation for mixed milk
+   */
+  function getCaCl2Recommendation(isRaw = false) {
     if (!substitutionData) return null;
 
+    // If sheep milk is 50% or more, CaCl2 is generally not needed
+    if (milkRatios.sheep >= 50) {
+      return 'reduced_or_none';
+    }
+
     const processing = isRaw ? 'raw' : 'pasteurized';
-    return substitutionData.calcium_chloride_guidelines?.recommendations?.[milkType]?.[processing];
+    const dominant = getDominantMilkType();
+    return substitutionData.calcium_chloride_guidelines?.recommendations?.[dominant]?.[processing];
+  }
+
+  /**
+   * Check if CaCl2 should be omitted
+   */
+  function shouldOmitCaCl2() {
+    // Omit if sheep milk is dominant (>=50%)
+    return milkRatios.sheep >= 50;
   }
 
   /**
@@ -223,34 +330,50 @@ const MilkSubstitution = (function() {
   }
 
   /**
+   * Get milk blend description string
+   */
+  function getMilkBlendDescription() {
+    const parts = [];
+    for (const [type, ratio] of Object.entries(milkRatios)) {
+      if (ratio > 0) {
+        const info = substitutionData?.milk_types?.[type];
+        const name = info?.name || type;
+        parts.push(`${ratio}% ${name.toLowerCase()}`);
+      }
+    }
+    return parts.join(', ');
+  }
+
+  /**
    * Adjust an ingredient based on milk substitution
    */
-  function adjustIngredient(ingredient, fromMilk, toMilk, qtyMultiplier = 1.0) {
+  function adjustIngredient(ingredient, fromMilk, qtyMultiplier = 1.0) {
     const item = ingredient.item.toLowerCase();
     const adjusted = { ...ingredient };
 
     // Check if this is a milk ingredient
     const isMilk = MILK_KEYWORDS.some(kw => item.includes(kw));
     if (isMilk) {
-      const volumeFactor = getVolumeConversionFactor(fromMilk, toMilk);
+      const volumeFactor = getVolumeConversionFactor(fromMilk);
       const originalQty = parseQuantity(ingredient.quantity);
       if (originalQty !== null) {
         const newQty = originalQty * volumeFactor * qtyMultiplier;
         adjusted.quantity = formatQuantity(newQty);
       }
-      // Update item name to reflect milk type
+      // Update item name to reflect milk blend
+      const blendDesc = getMilkBlendDescription();
       adjusted.item = ingredient.item.replace(/cow('s)?|goat('s)?|sheep('s)?/gi, '')
-        .replace(/milk/i, `${toMilk} milk`);
+        .replace(/milk/i, `milk (${blendDesc})`);
       adjusted._adjusted = true;
-      adjusted._adjustmentNote = `Volume adjusted for ${toMilk} milk`;
+      adjusted._adjustmentNote = `Volume adjusted for milk blend: ${blendDesc}`;
       return adjusted;
     }
 
     // Check if this is rennet
     const isRennet = RENNET_KEYWORDS.some(kw => item.includes(kw));
     if (isRennet) {
-      const fromRennetFactor = getRennetFactor(fromMilk);
-      const toRennetFactor = getRennetFactor(toMilk);
+      const fromRennetFactor = substitutionData?.rennet_adjustments?.factors?.[fromMilk] || 1.0;
+      const toRennetFactor = getRennetFactor();
       const rennetRatio = toRennetFactor / fromRennetFactor;
 
       const originalQty = parseQuantity(ingredient.quantity);
@@ -259,17 +382,17 @@ const MilkSubstitution = (function() {
         adjusted.quantity = formatQuantity(newQty);
       }
       adjusted._adjusted = true;
-      adjusted._adjustmentNote = `Rennet adjusted for ${toMilk} milk (${Math.round(rennetRatio * 100)}% of original)`;
+      adjusted._adjustmentNote = `Rennet adjusted for milk blend (${Math.round(rennetRatio * 100)}% of original)`;
       return adjusted;
     }
 
     // Check if this is CaCl2
     const isCaCl2 = CACL2_KEYWORDS.some(kw => item.includes(kw));
     if (isCaCl2) {
-      if (toMilk === 'sheep') {
+      if (shouldOmitCaCl2()) {
         adjusted.quantity = '0';
         adjusted._adjusted = true;
-        adjusted._adjustmentNote = 'CaCl2 not needed for sheep milk (high natural calcium)';
+        adjusted._adjustmentNote = 'CaCl2 reduced/omitted (sheep milk provides high natural calcium)';
         adjusted._omit = true;
       }
       return adjusted;
@@ -291,13 +414,13 @@ const MilkSubstitution = (function() {
   /**
    * Get all adjusted ingredients for a recipe
    */
-  function getAdjustedIngredients(recipe, toMilk, qtyMultiplier = 1.0) {
+  function getAdjustedIngredients(recipe, qtyMultiplier = 1.0) {
     if (!recipe || !recipe.ingredients) return [];
 
     const fromMilk = detectOriginalMilkType(recipe);
 
     return recipe.ingredients.map(ing =>
-      adjustIngredient(ing, fromMilk, toMilk, qtyMultiplier)
+      adjustIngredient(ing, fromMilk, qtyMultiplier)
     ).filter(ing => !ing._omit);
   }
 
@@ -326,6 +449,202 @@ const MilkSubstitution = (function() {
   }
 
   /**
+   * Calculate blended milk info based on current ratios
+   */
+  function getBlendedMilkInfo() {
+    if (!substitutionData) return null;
+
+    const blended = {
+      fat_percent: 0,
+      protein_percent: 0,
+      cheese_yield_per_gallon_lb: 0,
+      coagulation_speed: 'standard',
+      flavor_profile: [],
+      texture_notes: []
+    };
+
+    let coagSpeeds = { standard: 0, faster: 0, fastest: 0 };
+
+    for (const [type, ratio] of Object.entries(milkRatios)) {
+      if (ratio > 0) {
+        const info = substitutionData.milk_types?.[type];
+        if (info) {
+          const weight = ratio / 100;
+          blended.fat_percent += info.fat_percent * weight;
+          blended.protein_percent += info.protein_percent * weight;
+          blended.cheese_yield_per_gallon_lb += info.cheese_yield_per_gallon_lb * weight;
+
+          // Track coagulation speeds
+          coagSpeeds[info.coagulation_speed] = (coagSpeeds[info.coagulation_speed] || 0) + ratio;
+
+          // Collect unique flavor profiles
+          if (ratio >= 25) {
+            info.flavor_profile.forEach(fp => {
+              if (!blended.flavor_profile.includes(fp)) {
+                blended.flavor_profile.push(fp);
+              }
+            });
+            blended.texture_notes.push(`${ratio}% ${info.name}: ${info.texture_notes}`);
+          }
+        }
+      }
+    }
+
+    // Determine dominant coagulation speed
+    blended.coagulation_speed = Object.entries(coagSpeeds)
+      .sort((a, b) => b[1] - a[1])[0][0];
+
+    // Round values
+    blended.fat_percent = Math.round(blended.fat_percent * 10) / 10;
+    blended.protein_percent = Math.round(blended.protein_percent * 10) / 10;
+    blended.cheese_yield_per_gallon_lb = Math.round(blended.cheese_yield_per_gallon_lb * 100) / 100;
+
+    return blended;
+  }
+
+  /**
+   * Calculate blended nutrition per cup based on current ratios
+   */
+  function getBlendedNutrition() {
+    if (!substitutionData || !substitutionData.nutrition_per_cup) return null;
+
+    const blended = {
+      calories: 0,
+      fat_g: 0,
+      saturated_fat_g: 0,
+      carbs_g: 0,
+      protein_g: 0,
+      sodium_mg: 0,
+      calcium_mg: 0,
+      sugar_g: 0,
+      cholesterol_mg: 0
+    };
+
+    for (const [type, ratio] of Object.entries(milkRatios)) {
+      if (ratio > 0) {
+        const nutrition = substitutionData.nutrition_per_cup?.[type];
+        if (nutrition) {
+          const weight = ratio / 100;
+          blended.calories += nutrition.calories * weight;
+          blended.fat_g += nutrition.fat_g * weight;
+          blended.saturated_fat_g += nutrition.saturated_fat_g * weight;
+          blended.carbs_g += nutrition.carbs_g * weight;
+          blended.protein_g += nutrition.protein_g * weight;
+          blended.sodium_mg += nutrition.sodium_mg * weight;
+          blended.calcium_mg += nutrition.calcium_mg * weight;
+          blended.sugar_g += nutrition.sugar_g * weight;
+          blended.cholesterol_mg += nutrition.cholesterol_mg * weight;
+        }
+      }
+    }
+
+    // Round values appropriately
+    blended.calories = Math.round(blended.calories);
+    blended.fat_g = Math.round(blended.fat_g * 10) / 10;
+    blended.saturated_fat_g = Math.round(blended.saturated_fat_g * 10) / 10;
+    blended.carbs_g = Math.round(blended.carbs_g);
+    blended.protein_g = Math.round(blended.protein_g);
+    blended.sodium_mg = Math.round(blended.sodium_mg);
+    blended.calcium_mg = Math.round(blended.calcium_mg);
+    blended.sugar_g = Math.round(blended.sugar_g);
+    blended.cholesterol_mg = Math.round(blended.cholesterol_mg);
+
+    return blended;
+  }
+
+  /**
+   * Normalize ratios to ensure they sum to 100
+   */
+  function normalizeRatios(changedType = null) {
+    const total = Object.values(milkRatios).reduce((a, b) => a + b, 0);
+
+    if (total === 100) return;
+
+    if (total === 0) {
+      // Reset to 100% of the changed type or cow
+      milkRatios[changedType || 'cow'] = 100;
+      return;
+    }
+
+    // Scale all ratios proportionally
+    const scale = 100 / total;
+    for (const type of Object.keys(milkRatios)) {
+      milkRatios[type] = Math.round(milkRatios[type] * scale);
+    }
+
+    // Fix rounding errors
+    const newTotal = Object.values(milkRatios).reduce((a, b) => a + b, 0);
+    if (newTotal !== 100) {
+      const diff = 100 - newTotal;
+      const dominant = getDominantMilkType();
+      milkRatios[dominant] += diff;
+    }
+  }
+
+  /**
+   * Set milk ratio and adjust others proportionally
+   */
+  function setMilkRatio(milkType, newRatio) {
+    newRatio = Math.max(0, Math.min(100, newRatio));
+
+    const oldRatio = milkRatios[milkType];
+    const diff = newRatio - oldRatio;
+
+    // Calculate remaining ratio to distribute
+    const otherTypes = Object.keys(milkRatios).filter(t => t !== milkType);
+    const otherTotal = otherTypes.reduce((sum, t) => sum + milkRatios[t], 0);
+
+    milkRatios[milkType] = newRatio;
+
+    if (otherTotal > 0) {
+      // Distribute the difference proportionally among other types
+      for (const type of otherTypes) {
+        const proportion = milkRatios[type] / otherTotal;
+        milkRatios[type] = Math.max(0, Math.round(milkRatios[type] - diff * proportion));
+      }
+    } else if (diff < 0) {
+      // If other types were 0 and we're reducing, put remainder in cow (or first non-zero other)
+      milkRatios[otherTypes[0]] = 100 - newRatio;
+    }
+
+    normalizeRatios(milkType);
+  }
+
+  /**
+   * Set single milk mode (100% of one type)
+   */
+  function setSingleMilk(milkType) {
+    milkRatios = {
+      cow: 0,
+      goat: 0,
+      sheep: 0
+    };
+    milkRatios[milkType] = 100;
+    mixedMode = false;
+  }
+
+  /**
+   * Enter mixed mode with current ratios
+   */
+  function enterMixedMode() {
+    mixedMode = true;
+  }
+
+  /**
+   * Get current milk ratios
+   */
+  function getMilkRatios() {
+    return { ...milkRatios };
+  }
+
+  /**
+   * Check if in mixed mode
+   */
+  function isMixedMode() {
+    return mixedMode;
+  }
+
+  /**
    * Render the milk substitution UI
    */
   function renderMilkSwitcher(recipe, containerId) {
@@ -334,25 +653,85 @@ const MilkSubstitution = (function() {
 
     const detectedMilk = detectOriginalMilkType(recipe);
     originalMilkType = detectedMilk;
-    currentMilkType = detectedMilk;
 
-    const milkTypes = Object.keys(substitutionData.milk_types);
+    // Check if original milk is exotic (not available)
+    const isExotic = isExoticMilkType(detectedMilk);
+    const recommendedSub = isExotic ? getRecommendedSubstitute(detectedMilk) : detectedMilk;
+    const subNotes = isExotic ? getSubstituteNotes(detectedMilk) : null;
+
+    // Initialize ratios based on detected or recommended milk type
+    setSingleMilk(isExotic ? recommendedSub : detectedMilk);
+
+    // Get only available milk types for the UI
+    const availableMilkTypes = substitutionData.available_milk_types ||
+      Object.keys(substitutionData.milk_types).filter(t => substitutionData.milk_types[t].available !== false);
+
+    // Build exotic milk notice if applicable
+    const originalMilkInfo = substitutionData.milk_types[detectedMilk];
+    const exoticNotice = isExotic ? `
+      <div class="exotic-milk-notice">
+        <strong>Original Recipe Uses ${originalMilkInfo?.name || detectedMilk}:</strong>
+        This milk is not commonly available. ${subNotes || `We recommend using ${substitutionData.milk_types[recommendedSub]?.name || recommendedSub} as a substitute.`}
+      </div>
+    ` : '';
 
     const html = `
       <div class="milk-substitution-panel">
         <h3>Milk Substitution Calculator</h3>
-        <p class="milk-sub-intro">Adjust this cheese recipe for different milk types.</p>
+        <p class="milk-sub-intro">Adjust this cheese recipe for different milk types or create a custom blend.</p>
+
+        ${exoticNotice}
 
         <div class="milk-sub-controls">
-          <div class="milk-sub-row">
+          <div class="milk-sub-mode-toggle">
+            <button type="button" id="single-mode-btn" class="mode-btn active" title="Select one milk type">Single Milk</button>
+            <button type="button" id="mixed-mode-btn" class="mode-btn" title="Create a custom milk blend">Custom Blend</button>
+          </div>
+
+          <div id="single-milk-controls" class="milk-sub-row">
             <label for="milk-type-select">Milk Type:</label>
             <select id="milk-type-select" class="milk-type-select">
-              ${milkTypes.map(type => {
+              ${availableMilkTypes.map(type => {
                 const info = substitutionData.milk_types[type];
-                const selected = type === detectedMilk ? 'selected' : '';
+                const selected = type === recommendedSub ? 'selected' : '';
                 return `<option value="${type}" ${selected}>${info.name}</option>`;
               }).join('')}
             </select>
+          </div>
+
+          <div id="mixed-milk-controls" class="milk-blend-controls" style="display: none;">
+            ${availableMilkTypes.map(type => {
+              const info = substitutionData.milk_types[type];
+              const initialValue = type === recommendedSub ? 100 : 0;
+              return `
+                <div class="milk-ratio-row">
+                  <label class="milk-ratio-label">
+                    <span class="milk-type-name">${info.name}</span>
+                    <span class="milk-ratio-value" id="${type}-ratio-display">${initialValue}%</span>
+                  </label>
+                  <input type="range"
+                         id="${type}-ratio-slider"
+                         class="milk-ratio-slider"
+                         data-milk-type="${type}"
+                         min="0"
+                         max="100"
+                         value="${initialValue}"
+                         step="5">
+                  <input type="number"
+                         id="${type}-ratio-input"
+                         class="milk-ratio-input"
+                         data-milk-type="${type}"
+                         min="0"
+                         max="100"
+                         value="${initialValue}"
+                         step="5">
+                </div>
+              `;
+            }).join('')}
+            <div class="ratio-total-row">
+              <span>Total:</span>
+              <span id="ratio-total" class="ratio-total">100%</span>
+            </div>
           </div>
 
           <div class="milk-sub-row">
@@ -368,7 +747,11 @@ const MilkSubstitution = (function() {
         </div>
 
         <div id="milk-sub-info" class="milk-sub-info">
-          ${renderMilkInfo(detectedMilk)}
+          ${renderMilkInfo()}
+        </div>
+
+        <div id="milk-nutrition-info" class="milk-nutrition-info">
+          ${renderNutritionInfo()}
         </div>
 
         <div id="milk-sub-warnings" class="milk-sub-warnings"></div>
@@ -378,67 +761,206 @@ const MilkSubstitution = (function() {
     container.innerHTML = html;
 
     // Attach event listeners
+    attachEventListeners(recipe);
+  }
+
+  /**
+   * Attach event listeners for all controls
+   */
+  function attachEventListeners(recipe) {
+    const singleModeBtn = document.getElementById('single-mode-btn');
+    const mixedModeBtn = document.getElementById('mixed-mode-btn');
+    const singleControls = document.getElementById('single-milk-controls');
+    const mixedControls = document.getElementById('mixed-milk-controls');
     const milkSelect = document.getElementById('milk-type-select');
     const qtySelect = document.getElementById('quantity-multiplier');
 
-    if (milkSelect) {
-      milkSelect.addEventListener('change', (e) => {
-        currentMilkType = e.target.value;
+    // Mode toggle
+    if (singleModeBtn && mixedModeBtn) {
+      singleModeBtn.addEventListener('click', () => {
+        mixedMode = false;
+        singleModeBtn.classList.add('active');
+        mixedModeBtn.classList.remove('active');
+        singleControls.style.display = '';
+        mixedControls.style.display = 'none';
+
+        // Reset to selected single milk
+        const selectedMilk = milkSelect.value;
+        setSingleMilk(selectedMilk);
+        updateMilkSubstitution(recipe);
+      });
+
+      mixedModeBtn.addEventListener('click', () => {
+        mixedMode = true;
+        mixedModeBtn.classList.add('active');
+        singleModeBtn.classList.remove('active');
+        singleControls.style.display = 'none';
+        mixedControls.style.display = '';
+
+        // Initialize sliders with current ratios
+        updateSliderDisplays();
         updateMilkSubstitution(recipe);
       });
     }
 
+    // Single milk select
+    if (milkSelect) {
+      milkSelect.addEventListener('change', (e) => {
+        setSingleMilk(e.target.value);
+        updateMilkSubstitution(recipe);
+      });
+    }
+
+    // Batch size
     if (qtySelect) {
       qtySelect.addEventListener('change', (e) => {
         quantityMultiplier = parseFloat(e.target.value);
         updateMilkSubstitution(recipe);
       });
     }
+
+    // Mixed mode sliders and inputs
+    const milkTypes = ['cow', 'goat', 'sheep'];
+    for (const type of milkTypes) {
+      const slider = document.getElementById(`${type}-ratio-slider`);
+      const input = document.getElementById(`${type}-ratio-input`);
+
+      if (slider) {
+        slider.addEventListener('input', (e) => {
+          const newValue = parseInt(e.target.value, 10);
+          setMilkRatio(type, newValue);
+          updateSliderDisplays();
+          updateMilkSubstitution(recipe);
+        });
+      }
+
+      if (input) {
+        input.addEventListener('change', (e) => {
+          const newValue = parseInt(e.target.value, 10) || 0;
+          setMilkRatio(type, newValue);
+          updateSliderDisplays();
+          updateMilkSubstitution(recipe);
+        });
+      }
+    }
+  }
+
+  /**
+   * Update all slider and input displays to match current ratios
+   */
+  function updateSliderDisplays() {
+    const milkTypes = ['cow', 'goat', 'sheep'];
+    let total = 0;
+
+    for (const type of milkTypes) {
+      const slider = document.getElementById(`${type}-ratio-slider`);
+      const input = document.getElementById(`${type}-ratio-input`);
+      const display = document.getElementById(`${type}-ratio-display`);
+      const value = milkRatios[type];
+      total += value;
+
+      if (slider) slider.value = value;
+      if (input) input.value = value;
+      if (display) display.textContent = `${value}%`;
+    }
+
+    const totalDisplay = document.getElementById('ratio-total');
+    if (totalDisplay) {
+      totalDisplay.textContent = `${total}%`;
+      totalDisplay.classList.toggle('ratio-error', total !== 100);
+    }
   }
 
   /**
    * Render milk type info panel
    */
-  function renderMilkInfo(milkType) {
-    const info = getMilkTypeInfo(milkType);
-    const flavor = getFlavorExpectations(milkType);
-    const curd = getCurdHandlingNotes(milkType);
+  function renderMilkInfo() {
+    const blended = getBlendedMilkInfo();
+    if (!blended) return '';
 
-    if (!info) return '';
+    const activeMilks = Object.entries(milkRatios)
+      .filter(([_, ratio]) => ratio > 0)
+      .map(([type, ratio]) => {
+        const info = substitutionData.milk_types[type];
+        return `${ratio}% ${info.name}`;
+      }).join(' + ');
 
     return `
+      <div class="milk-blend-header">
+        <strong>Milk Blend:</strong> ${activeMilks || 'None selected'}
+      </div>
+
       <div class="milk-info-grid">
         <div class="milk-info-item">
           <span class="milk-info-label">Fat Content</span>
-          <span class="milk-info-value">${info.fat_percent}%</span>
+          <span class="milk-info-value">${blended.fat_percent}%</span>
         </div>
         <div class="milk-info-item">
           <span class="milk-info-label">Protein</span>
-          <span class="milk-info-value">${info.protein_percent}%</span>
+          <span class="milk-info-value">${blended.protein_percent}%</span>
         </div>
         <div class="milk-info-item">
           <span class="milk-info-label">Yield/Gallon</span>
-          <span class="milk-info-value">~${info.cheese_yield_per_gallon_lb} lb</span>
+          <span class="milk-info-value">~${blended.cheese_yield_per_gallon_lb} lb</span>
         </div>
         <div class="milk-info-item">
           <span class="milk-info-label">Coagulation</span>
-          <span class="milk-info-value">${info.coagulation_speed}</span>
+          <span class="milk-info-value">${blended.coagulation_speed}</span>
         </div>
       </div>
 
-      <div class="milk-flavor-notes">
-        <strong>Flavor Profile:</strong> ${info.flavor_profile.join(', ')}
-      </div>
-
-      <div class="milk-texture-notes">
-        <strong>Texture:</strong> ${info.texture_notes}
-      </div>
-
-      ${curd ? `
-        <div class="milk-curd-notes">
-          <strong>Curd Handling:</strong> ${curd.notes}
+      ${blended.flavor_profile.length > 0 ? `
+        <div class="milk-flavor-notes">
+          <strong>Flavor Profile:</strong> ${blended.flavor_profile.join(', ')}
         </div>
       ` : ''}
+
+      ${blended.texture_notes.length > 0 ? `
+        <div class="milk-texture-notes">
+          <strong>Texture Notes:</strong><br>
+          ${blended.texture_notes.map(n => `<span class="texture-note">${n}</span>`).join('<br>')}
+        </div>
+      ` : ''}
+    `;
+  }
+
+  /**
+   * Render nutrition info panel
+   */
+  function renderNutritionInfo() {
+    const nutrition = getBlendedNutrition();
+    if (!nutrition) return '';
+
+    return `
+      <div class="milk-nutrition-header">
+        <strong>Milk Nutrition</strong> <span class="nutrition-subtext">(per cup)</span>
+      </div>
+      <div class="milk-nutrition-grid">
+        <div class="nutrition-item-small">
+          <span class="nutrition-value-small">${nutrition.calories}</span>
+          <span class="nutrition-label-small">Cal</span>
+        </div>
+        <div class="nutrition-item-small">
+          <span class="nutrition-value-small">${nutrition.fat_g}g</span>
+          <span class="nutrition-label-small">Fat</span>
+        </div>
+        <div class="nutrition-item-small">
+          <span class="nutrition-value-small">${nutrition.protein_g}g</span>
+          <span class="nutrition-label-small">Protein</span>
+        </div>
+        <div class="nutrition-item-small">
+          <span class="nutrition-value-small">${nutrition.carbs_g}g</span>
+          <span class="nutrition-label-small">Carbs</span>
+        </div>
+        <div class="nutrition-item-small">
+          <span class="nutrition-value-small">${nutrition.calcium_mg}mg</span>
+          <span class="nutrition-label-small">Calcium</span>
+        </div>
+        <div class="nutrition-item-small">
+          <span class="nutrition-value-small">${nutrition.cholesterol_mg}mg</span>
+          <span class="nutrition-label-small">Cholest.</span>
+        </div>
+      </div>
     `;
   }
 
@@ -449,32 +971,61 @@ const MilkSubstitution = (function() {
     // Update info panel
     const infoPanel = document.getElementById('milk-sub-info');
     if (infoPanel) {
-      infoPanel.innerHTML = renderMilkInfo(currentMilkType);
+      infoPanel.innerHTML = renderMilkInfo();
+    }
+
+    // Update nutrition panel
+    const nutritionPanel = document.getElementById('milk-nutrition-info');
+    if (nutritionPanel) {
+      nutritionPanel.innerHTML = renderNutritionInfo();
     }
 
     // Update warnings
     const warningsPanel = document.getElementById('milk-sub-warnings');
-    if (warningsPanel && currentMilkType !== originalMilkType) {
-      warningsPanel.innerHTML = `
-        <div class="milk-sub-warning">
-          <strong>Note:</strong> Substituting ${substitutionData.milk_types[originalMilkType].name}
-          with ${substitutionData.milk_types[currentMilkType].name} will affect flavor and texture.
-        </div>
-      `;
-    } else if (warningsPanel) {
-      warningsPanel.innerHTML = '';
+    if (warningsPanel) {
+      const warnings = [];
+
+      // Check if milk blend differs from original
+      const hasChange = milkRatios[originalMilkType] < 100;
+      if (hasChange) {
+        const originalInfo = substitutionData.milk_types[originalMilkType];
+        warnings.push(`Original recipe uses ${originalInfo.name}. Your blend will affect flavor and texture.`);
+      }
+
+      // Warn about high sheep content
+      if (milkRatios.sheep >= 50 && originalMilkType !== 'sheep') {
+        warnings.push('High sheep milk content: CaCl2 has been reduced/omitted due to natural calcium content.');
+      }
+
+      // Warn about goat milk fragility
+      if (milkRatios.goat >= 40) {
+        warnings.push('Goat milk produces fragile curds. Handle gently and consider larger curd cuts.');
+      }
+
+      if (warnings.length > 0) {
+        warningsPanel.innerHTML = warnings.map(w => `
+          <div class="milk-sub-warning">
+            <strong>Note:</strong> ${w}
+          </div>
+        `).join('');
+      } else {
+        warningsPanel.innerHTML = '';
+      }
     }
 
     // Update ingredients list
-    const adjustedIngredients = getAdjustedIngredients(recipe, currentMilkType, quantityMultiplier);
+    const adjustedIngredients = getAdjustedIngredients(recipe, quantityMultiplier);
 
     // Dispatch custom event for the main script to handle
     const event = new CustomEvent('milkSubstitutionChanged', {
       detail: {
         originalMilkType,
-        currentMilkType,
+        milkRatios: getMilkRatios(),
+        mixedMode,
         quantityMultiplier,
-        adjustedIngredients
+        adjustedIngredients,
+        blendedNutrition: getBlendedNutrition(),
+        blendedMilkInfo: getBlendedMilkInfo()
       }
     });
     document.dispatchEvent(event);
@@ -492,7 +1043,17 @@ const MilkSubstitution = (function() {
     renderMilkSwitcher,
     getVolumeConversionFactor,
     getRennetFactor,
-    getCaCl2Recommendation
+    getCaCl2Recommendation,
+    getMilkRatios,
+    setMilkRatio,
+    setSingleMilk,
+    isMixedMode,
+    getBlendedMilkInfo,
+    getBlendedNutrition,
+    isAvailableMilkType,
+    isExoticMilkType,
+    getRecommendedSubstitute,
+    getSubstituteNotes
   };
 })();
 
