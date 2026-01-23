@@ -21,6 +21,29 @@
   --color-text-light: #636e72;
   --color-border: #dfe6e9;
 
+  /* Semantic color aliases (used by cheese builder wizard) */
+  --color-background: var(--color-cream);
+  --color-background-alt: var(--color-warm-white);
+  --color-primary: var(--color-teal);
+  --color-primary-light: var(--color-teal-light);
+  --color-primary-lightest: #e0f2f1;
+  --color-success: #27ae60;
+  --color-success-light: #d4efdf;
+  --color-warning: #f39c12;
+  --color-danger: #e74c3c;
+  --color-text-secondary: var(--color-text-light);
+  --color-text-muted: #95a5a6;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+
   /* Typography */
   --font-script: 'Pacifico', cursive;
   --font-heading: 'Lora', Georgia, serif;

@@ -74,6 +74,52 @@ All recipes extracted from the Kindle muffin cookbook (reference collection) nee
 
 ---
 
+## Nutrition Status Warnings
+
+**Status:** Pending
+**Priority:** Low
+**Created:** 2026-01-23
+
+### Description
+22 recipes have nutrition data inconsistencies flagged by the validator:
+- 21 recipes have `status: "complete"` but `per_serving` is empty/missing
+- 1 recipe has `status: "insufficient_data"` but `missing_inputs` is empty
+
+### Affected Recipe IDs
+
+**Status "complete" with no values (21 recipes):**
+1. alex-bala-s-one-pot-short-rib-stroganoff
+2. elise-jesse-s-maple-dijon-salmon
+3. beef-pot-pie
+4. tam-to-s-korean-spicy-braised-chicken
+5. tyler-smith-s-ritz-chicken-potatoes
+6. alex-bala-s-crispy-potato-shrimp-grits-minis
+7. elise-jesse-s-avocado-shrimp-tartlets
+8. elise-jesse-s-philly-cheesesteak-zucchini-boats
+9. hetal-vasavada-s-iced-chai
+10. hetal-vasavada-s-matchai-tiramisu
+11. lucy-wang-s-easy-kbbq
+12. lucy-wang-s-mini-omakase
+13. lucy-wang-s-rainbow-mochi-rice-krispies
+14. lucy-wang-8217-s-zongzi
+15. lucy-wang-s-hanami-dango
+16. tam-to-s-char-siu-potato-balls
+17. tam-to-s-vietnamese-coffee-jelly
+18. tyler-smith-s-cheesy-italian-shells
+19. lucy-wang-s-ube-bread
+20. dirty-martini-dip
+21. 7-layer-salad
+
+**Status "insufficient_data" with no missing_inputs (1 recipe):**
+22. bulls-eye-bbq-sauce-copycat
+
+### Resolution Options
+1. Set `status: "partial"` or `"insufficient_data"` if nutrition values aren't available
+2. OR calculate and add actual nutrition values using USDA data
+3. For bulls-eye-bbq-sauce-copycat: add the `missing_inputs` array
+
+---
+
 ## Other Pending Tasks
 
 (none currently)
