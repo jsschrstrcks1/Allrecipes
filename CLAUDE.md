@@ -1,6 +1,6 @@
 # Other Family Recipes - AI Assistant Context
 
-> **Version 1.1** | Updated January 2026
+> **Version 1.2** | Updated January 2026
 
 ## Quick Start Essentials
 
@@ -9,6 +9,7 @@
 3. **Never invent** recipe content - mark unclear items as `[UNCLEAR]`
 4. **Always run validation** before committing: `python scripts/validate-recipes.py`
 5. **Check PENDING_TASKS.md** for deferred work
+6. **Cheese-making recipes MUST use `category: "cheese"`** - see Cheese-Making Recipes section
 
 ## Priority Framework
 
@@ -328,6 +329,7 @@ python scripts/image_safeguards.py mark "IMG_4034.PNG" skipped "Not a recipe"
 6. **Never read oversized images** (>2000px) directly - use processed versions
 7. **Always run validation** before committing recipe changes
 8. **Check PENDING_TASKS.md** for deferred work at session start
+9. **Cheese-making recipes MUST use `category: "cheese"`** - recipes that create cheese as output (contain rennet, cultures, citric acid+milk, or cheese-making processes) must be categorized as cheese so the Cheese Builder tool can find them
 
 ---
 
@@ -336,12 +338,85 @@ python scripts/image_safeguards.py mark "IMG_4034.PNG" skipped "Not a recipe"
 - beverages
 - breads
 - breakfast
+- **cheese** (cheese-MAKING recipes only - see below)
 - desserts
 - mains
 - salads
 - sides
 - soups
 - snacks
+
+---
+
+## Cheese-Making Recipes (REQUIRED)
+
+**MANDATORY:** When adding a recipe that MAKES cheese, you MUST set `"category": "cheese"`.
+
+This ensures the Cheese Builder tool and other cheese-making utilities can find and suggest these recipes.
+
+### What IS a Cheese-Making Recipe
+
+A recipe belongs in the `cheese` category if it **creates cheese as the primary output**:
+
+| Indicator | Examples |
+|-----------|----------|
+| **Contains rennet** | Animal, vegetable, or microbial rennet |
+| **Uses cheese cultures** | Mesophilic, thermophilic, Flora Danica, etc. |
+| **Has cheese-making additives** | Calcium chloride, lipase, annatto |
+| **Uses cheese molds** | Penicillium candidum, P. roqueforti, Brevibacterium, Geotrichum |
+| **Citric acid + milk pattern** | Quick cheeses like mozzarella, paneer, ricotta |
+| **Cheese-making process phrases** | "cut the curd", "drain the whey", "press the cheese", "age the cheese" |
+
+### What is NOT a Cheese-Making Recipe
+
+Recipes that **use cheese as an ingredient** but don't make it belong in other categories:
+
+| Category | Examples |
+|----------|----------|
+| **desserts** | Cheesecake, cheese danish, cheese frosting |
+| **appetizers** | Fondue, cheese dip, fried cheese curds, cheese ball |
+| **mains** | Mac and cheese, quesadillas, grilled cheese, pizza |
+| **sides** | Cheese sauce, au gratin, cheese bread |
+| **snacks** | Cheese crackers, cheese straws, nachos |
+
+### Examples
+
+```json
+// ✅ CORRECT - This MAKES mozzarella
+{
+  "id": "30-minute-mozzarella",
+  "title": "30-Minute Mozzarella",
+  "category": "cheese",  // REQUIRED for cheese-making
+  "ingredients": [
+    {"item": "whole milk", "quantity": "1", "unit": "gallon"},
+    {"item": "citric acid", "quantity": "1.5", "unit": "tsp"},
+    {"item": "rennet", "quantity": "1/4", "unit": "tablet"}
+  ]
+}
+
+// ✅ CORRECT - This USES mozzarella, doesn't make it
+{
+  "id": "caprese-salad",
+  "title": "Caprese Salad",
+  "category": "salads",  // NOT cheese - just uses it
+  "ingredients": [
+    {"item": "fresh mozzarella", "quantity": "8", "unit": "oz"},
+    {"item": "tomatoes", "quantity": "2", "unit": "large"}
+  ]
+}
+```
+
+### Cheese-Making Tools
+
+The repository includes specialized tools for cheese recipes:
+
+| Tool | File | Purpose |
+|------|------|---------|
+| **Cheese Builder** | `cheese-builder.html` | Interactive wizard to find/customize cheese recipes |
+| **Adulterant Companion** | `adulterant-companion.js` | Flavor additions (herbs, spices, washes) |
+| **Milk Substitution** | `milk-substitution-tool.js` | Convert between milk types |
+
+These tools search for `category: "cheese"` recipes. **If you don't categorize correctly, the recipe won't be found.**
 
 ---
 
@@ -366,5 +441,6 @@ python scripts/validate-recipes.py --strict
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.2 | Jan 2026 | Added cheese category requirement. Documented cheese-making recipe detection criteria. Added Cheese-Making Recipes section with examples and tool references. |
 | 1.1 | Jan 2026 | Added .claude directory with settings, hooks, skills, and documentation. Added Quick Start Essentials and Priority Framework. Expanded Non-Negotiable Rules. |
 | 1.0 | Original | Initial CLAUDE.md with recipe schema, OCR guidelines, and image processing documentation. |
