@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "breads",
-    "count": 289,
+    "count": 285,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -132,7 +132,10 @@
           "Whole milk used",
           "1 cup fresh peaches adds minimal calories"
         ]
-      }
+      },
+      "variants": [
+        "peach-muffins"
+      ]
     },
     {
       "id": "poppy-seed-muffins-ref",
@@ -260,7 +263,10 @@
           "Whole milk used",
           "2 tbsp poppy seeds add minimal calories"
         ]
-      }
+      },
+      "variants": [
+        "poppy-seed-muffins"
+      ]
     },
     {
       "id": "orange-cinnamon-muffins-ref",
@@ -396,7 +402,10 @@
           "Whole milk used",
           "Orange zest and cinnamon add negligible calories"
         ]
-      }
+      },
+      "variants": [
+        "orange-cinnamon-muffins"
+      ]
     },
     {
       "id": "peanut-butter-banana-muffins-ref",
@@ -532,7 +541,10 @@
           "2 medium bananas (~210g total)",
           "1/2 cup smooth peanut butter"
         ]
-      }
+      },
+      "variants": [
+        "peanut-butter-banana-muffins"
+      ]
     },
     {
       "id": "cheesy-corn-muffins-ref",
@@ -662,7 +674,10 @@
           "Whole milk used",
           "1 cup shredded cheddar cheese"
         ]
-      }
+      },
+      "variants": [
+        "cheesy-corn-muffins"
+      ]
     },
     {
       "id": "amaretto-muffins-ref",
@@ -793,7 +808,10 @@
           "1/2 cup Amaretto liqueur",
           "1/2 cup toasted almonds"
         ]
-      }
+      },
+      "variants": [
+        "amaretto-muffins"
+      ]
     },
     {
       "id": "lemon-raspberry-almond-muffins-ref",
@@ -1068,7 +1086,10 @@
           "1 cup diced green apple",
           "1 cup white chocolate chips"
         ]
-      }
+      },
+      "variants": [
+        "apple-white-chocolate-muffins"
+      ]
     },
     {
       "id": "chocolate-hazelnut-muffins-ref",
@@ -1194,7 +1215,10 @@
           "3/4 cup semi-sweet chocolate chips",
           "1 cup toasted chopped hazelnuts"
         ]
-      }
+      },
+      "variants": [
+        "chocolate-hazelnut-muffins"
+      ]
     },
     {
       "id": "peanut-butter-jelly-muffins-ref",
@@ -1578,7 +1602,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "blueberry-coconut-muffins"
+      ]
     },
     {
       "id": "raspberry-lemon-muffins-ref",
@@ -1715,7 +1742,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "raspberry-lemon-muffins"
+      ]
     },
     {
       "id": "southern-corn-muffins-ref",
@@ -2122,7 +2152,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "chai-spiced-muffins"
+      ]
     },
     {
       "id": "healthy-bran-apple-muffins-ref",
@@ -2239,133 +2272,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
-    },
-    {
-      "id": "honey-bran-muffins-ref",
-      "collection": "reference",
-      "collection_display": "Reference Cookbook",
-      "title": "Honey Bran Muffins",
-      "category": "breads",
-      "attribution": "",
-      "source_note": "Digital cookbook (Kindle)",
-      "description": "Wholesome bran muffins sweetened with honey and studded with raisins.",
-      "servings_yield": "12 muffins",
-      "prep_time": "",
-      "cook_time": "20-25 minutes",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "whole wheat pastry flour",
-          "quantity": "1 1/2",
-          "unit": "cups",
-          "prep_note": ""
-        },
-        {
-          "item": "wheat bran",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "baking powder",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "dark brown sugar",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "honey",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "butter",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "melted"
-        },
-        {
-          "item": "buttermilk",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "eggs",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "raisins",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Preheat oven to 400 degrees."
-        },
-        {
-          "step": 2,
-          "text": "Combine flour, bran, salt, baking powder and brown sugar in a large bowl. Combine the honey and butter together with a fork."
-        },
-        {
-          "step": 3,
-          "text": "When smooth, add the buttermilk and eggs. Bring the flour mixture and honey mixture together and stir till just combined. Add the raisins and combine."
-        },
-        {
-          "step": 4,
-          "text": "Spoon batter into greased muffin tins. Bake for about 20-25 minutes or until a toothpick inserted in the middle comes out clean. Cool and serve."
-        }
-      ],
-      "temperature": "400°F (200°C)",
-      "pan_size": "muffin tin",
-      "notes": [],
-      "tags": [
-        "bread",
-        "muffins",
-        "bran",
-        "honey",
-        "healthy",
-        "breakfast"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
       },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 229,
-          "fat_g": 5.4,
-          "carbs_g": 44.5,
-          "protein_g": 4.4,
-          "sodium_mg": 194,
-          "fiber_g": 4.0,
-          "sugar_g": 28.7
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
-        ]
-      }
+      "variants": [
+        "healthy-bran-apple-muffins"
+      ]
     },
     {
       "id": "wholewheat-maple-bread-ref",
@@ -7530,7 +7440,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "chocolate-hazelnut-muffins-ref"
+      ]
     },
     {
       "id": "blackberry-chocolate-muffins-crumb-topping",
@@ -7950,7 +7863,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "triple-threat-berry-muffins-ref"
+      ]
     },
     {
       "id": "ginger-lemon-muffins",
@@ -8075,7 +7991,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "ginger-lemon-muffins-ref"
+      ]
     },
     {
       "id": "cinnamon-spice-muffins",
@@ -8204,7 +8123,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "cinnamon-and-spice-muffins"
+      ]
     },
     {
       "id": "apple-cranberry-muffins",
@@ -8327,7 +8249,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "apple-cranberry-muffins-ref"
+      ]
     },
     {
       "id": "cherry-chocolate-muffins",
@@ -8450,7 +8375,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "cherry-chocolate-muffins-ref"
+      ]
     },
     {
       "id": "candy-cane-muffins",
@@ -8569,7 +8497,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "candy-cane-muffins-ref"
+      ]
     },
     {
       "id": "nutella-muffins",
@@ -8800,7 +8731,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "maple-bacon-muffins-ref"
+      ]
     },
     {
       "id": "eggnog-muffins",
@@ -9162,7 +9096,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "peach-muffins-ref"
+      ]
     },
     {
       "id": "poppy-seed-muffins",
@@ -9278,7 +9215,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "poppy-seed-muffins-ref"
+      ]
     },
     {
       "id": "orange-cinnamon-muffins",
@@ -9401,7 +9341,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "orange-cinnamon-muffins-ref"
+      ]
     },
     {
       "id": "peanut-butter-banana-muffins",
@@ -9523,7 +9466,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "peanut-butter-banana-muffins-ref"
+      ]
     },
     {
       "id": "cheesy-corn-muffins",
@@ -9642,7 +9588,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "cheesy-corn-muffins-ref"
+      ]
     },
     {
       "id": "amaretto-muffins",
@@ -9760,7 +9709,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "amaretto-muffins-ref"
+      ]
     },
     {
       "id": "peanut-butter-banana-bread",
@@ -12009,7 +11961,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "blueberry-coconut-muffins-ref"
+      ]
     },
     {
       "id": "raspberry-lemon-muffins",
@@ -12132,7 +12087,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "raspberry-lemon-muffins-ref"
+      ]
     },
     {
       "id": "traditional-blueberry-muffins",
@@ -12254,7 +12212,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-blueberry-muffins-ref"
+      ]
     },
     {
       "id": "banana-nut-breakfast-muffins",
@@ -12383,7 +12344,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "banana-nut-breakfast-muffins-ref"
+      ]
     },
     {
       "id": "morning-start-blueberry-oatmeal-muffins",
@@ -12741,7 +12705,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "chai-spiced-muffins-ref"
+      ]
     },
     {
       "id": "chocolate-covered-banana-muffins",
@@ -13348,7 +13315,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "healthy-bran-apple-muffins-ref"
+      ]
     },
     {
       "id": "honey-bran-muffins",
@@ -13705,149 +13675,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
-    },
-    {
-      "id": "lemon-raspberry-almond-muffins",
-      "collection": "reference",
-      "collection_display": "Reference Cookbook",
-      "title": "Lemon Raspberry Almond Muffins",
-      "category": "breads",
-      "description": "These muffins have a lovely tart flavor from the pairing of lemon and raspberry.",
-      "servings_yield": "12 muffins",
-      "prep_time": "15 minutes",
-      "cook_time": "20 minutes",
-      "total_time": "35 minutes",
-      "ingredients": [
-        {
-          "item": "all-purpose flour",
-          "quantity": "2",
-          "unit": "cups",
-          "prep_note": ""
-        },
-        {
-          "item": "granulated white sugar",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "baking powder",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "milk",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "almond extract",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": "large",
-          "prep_note": ""
-        },
-        {
-          "item": "butter",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "melted"
-        },
-        {
-          "item": "lemon zest",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "fresh raspberries",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "roughly chopped"
-        },
-        {
-          "item": "almonds",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "chopped and toasted"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Preheat oven to 400°F (200°C)."
-        },
-        {
-          "step": 2,
-          "text": "In a large bowl, sift together the flour, baking powder, sugar and salt. Set aside."
-        },
-        {
-          "step": 3,
-          "text": "In another bowl, beat the egg and add the milk, butter, lemon zest and almond extract."
-        },
-        {
-          "step": 4,
-          "text": "Pour into the bowl with the dry ingredients and mix quickly to combine, about 10 seconds. Fold in the raspberries and almonds. Do not over mix."
-        },
-        {
-          "step": 5,
-          "text": "Pour the batter into paper lined muffin pan cups or a greased muffin pan can be used instead."
-        },
-        {
-          "step": 6,
-          "text": "Bake until the tops are golden, about 20 minutes."
-        }
-      ],
-      "temperature": "400°F (200°C)",
-      "notes": [
-        "Replace the raspberry with poppy seeds for lemon poppy muffins."
-      ],
-      "tags": [
-        "muffins",
-        "lemon",
-        "raspberry",
-        "almond",
-        "breakfast"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
       },
-      "image_refs": [
-        "recipes - 83",
-        "recipes - 84"
-      ],
-      "source_note": "Recipe Keeper App",
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 181,
-          "fat_g": 6.6,
-          "carbs_g": 26.5,
-          "protein_g": 4.0,
-          "sodium_mg": 171,
-          "fiber_g": 1.2,
-          "sugar_g": 9.7
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
-        ]
-      }
+      "variants": [
+        "cinnamon-spice-muffins"
+      ]
     },
     {
       "id": "apple-white-chocolate-muffins",
@@ -13989,267 +13820,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
-    },
-    {
-      "id": "peanut-butter-and-jelly-muffins",
-      "collection": "reference",
-      "collection_display": "Reference Cookbook",
-      "title": "Peanut Butter and Jelly Muffins",
-      "category": "breads",
-      "description": "A childhood favorite in a ready to go muffin; kids will love these.",
-      "servings_yield": "12 muffins",
-      "prep_time": "15 minutes",
-      "cook_time": "20 minutes",
-      "total_time": "35 minutes",
-      "ingredients": [
-        {
-          "item": "all-purpose flour",
-          "quantity": "2",
-          "unit": "cups",
-          "prep_note": ""
-        },
-        {
-          "item": "granulated white sugar",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "baking powder",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "milk",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": "large",
-          "prep_note": ""
-        },
-        {
-          "item": "butter",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "melted"
-        },
-        {
-          "item": "peanut butter",
-          "quantity": "3/4",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "thick raspberry jam",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Preheat oven to 400°F (200°C)."
-        },
-        {
-          "step": 2,
-          "text": "In a large bowl, sift together the flour, baking powder, sugar and salt. Set aside."
-        },
-        {
-          "step": 3,
-          "text": "In another bowl, beat the egg and add the milk, butter and peanut butter."
-        },
-        {
-          "step": 4,
-          "text": "Pour into the bowl with the dry ingredients and mix quickly to combine, about 10 seconds. Do not beat the mixture."
-        },
-        {
-          "step": 5,
-          "text": "Distribute half the batter into paper lined muffin pan cups or a greased muffin pan can be used instead. Next drop a teaspoon of jam into each cup and cover with the remaining batter."
-        },
-        {
-          "step": 6,
-          "text": "Bake until the tops are golden, about 20 minutes."
-        }
-      ],
-      "temperature": "400°F (200°C)",
-      "notes": [
-        "These freeze well and make a great quick breakfast or snack, just pop in the microwave for a minute."
-      ],
-      "tags": [
-        "muffins",
-        "peanut-butter",
-        "jelly",
-        "kids",
-        "breakfast"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
       },
-      "image_refs": [
-        "recipes - 89",
-        "recipes - 90"
-      ],
-      "source_note": "Recipe Keeper App",
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 300,
-          "fat_g": 16.6,
-          "carbs_g": 34.7,
-          "protein_g": 3.5,
-          "sodium_mg": 253,
-          "fiber_g": 0.7,
-          "sugar_g": 16.1
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
-        ]
-      }
-    },
-    {
-      "id": "bacon-cheese-muffins",
-      "collection": "reference",
-      "collection_display": "Reference Cookbook",
-      "title": "Bacon Cheese Muffins",
-      "category": "breads",
-      "description": "These delightful muffins are a perfect addition to any breakfast table.",
-      "servings_yield": "12 muffins",
-      "prep_time": "15 minutes",
-      "cook_time": "20 minutes",
-      "total_time": "35 minutes",
-      "ingredients": [
-        {
-          "item": "all-purpose flour",
-          "quantity": "2",
-          "unit": "cups",
-          "prep_note": ""
-        },
-        {
-          "item": "granulated white sugar",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "baking powder",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "milk",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": "large",
-          "prep_note": ""
-        },
-        {
-          "item": "butter",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "melted"
-        },
-        {
-          "item": "bacon",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": "cooked and crumbled"
-        },
-        {
-          "item": "shredded cheddar cheese",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Preheat oven to 400°F (200°C)."
-        },
-        {
-          "step": 2,
-          "text": "In a large bowl, sift together the flour, baking powder, sugar and salt. Set aside."
-        },
-        {
-          "step": 3,
-          "text": "In another bowl, beat the egg and add the milk and butter. Mix in the cheese."
-        },
-        {
-          "step": 4,
-          "text": "Pour into the bowl with the dry ingredients and mix quickly to combine, about 10 seconds. Fold in the bacon. Do not over mix."
-        },
-        {
-          "step": 5,
-          "text": "Pour the batter into paper lined muffin pan cups or a greased muffin pan can be used instead."
-        },
-        {
-          "step": 6,
-          "text": "Bake until the tops are golden, about 20 minutes."
-        }
-      ],
-      "temperature": "400°F (200°C)",
-      "notes": [
-        "For a different texture and flavor, substitute cornmeal for half the flour."
-      ],
-      "tags": [
-        "muffins",
-        "bacon",
-        "cheese",
-        "savory",
-        "breakfast"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "recipes - 91",
-        "recipes - 92"
-      ],
-      "source_note": "Recipe Keeper App",
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 223,
-          "fat_g": 10.0,
-          "carbs_g": 25.5,
-          "protein_g": 7.4,
-          "sodium_mg": 306,
-          "fiber_g": 0.6,
-          "sugar_g": 9.5
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
-        ]
-      }
+      "variants": [
+        "apple-white-chocolate-muffins-ref"
+      ]
     },
     {
       "id": "banana-bread-ref",
@@ -17606,7 +17180,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "blueberry-muffins-theplainsa"
+      ]
     },
     {
       "id": "bran-muffins-gutenberg",
@@ -25953,7 +25530,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "blueberry-muffins-gutenberg"
+      ]
     },
     {
       "id": "corn-bread-ormuffins-theplainsa",
@@ -32467,8 +32047,7 @@
         "cheese",
         "pizza",
         "bread",
-        "bread machine",
-        "cheesemaking"
+        "bread machine"
       ],
       "confidence": {
         "overall": "high",
@@ -32890,8 +32469,7 @@
         "breads",
         "whey",
         "English muffin",
-        "no-knead",
-        "cheesemaking"
+        "no-knead"
       ],
       "confidence": {
         "overall": "high",

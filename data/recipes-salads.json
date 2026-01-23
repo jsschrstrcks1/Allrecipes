@@ -6501,106 +6501,6 @@
       }
     },
     {
-      "id": "deviled-egg-salad-gutenberg-6429",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Deviled Egg Salad",
-      "category": "salads",
-      "attribution": "Rorer",
-      "source_note": "Many Ways for Cooking Eggs (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "eggs",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "lettuce",
-          "quantity": "1",
-          "unit": "head",
-          "prep_note": ""
-        },
-        {
-          "item": "pimiento",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of onion juice",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of paprika",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of chopped boiled tongue",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "saltspoonful of salt",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "saltspoonful of pepper",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Hard-boil the eggs, throw them into cold water, remove the shells, cut them lengthwise. Take out the yolks without breaking the whites. Rub the yolks through a sieve into a bowl, then add the tongue and all the seasoning. If the mixture is dry add a tablespoonful or two of cream or olive oil. Roll the mixture into balls that will fit the spaces from which they were taken in the whites, making each ball round. Arrange the lettuce over a platter, stand the whites in the lettuce, and at serving time baste thoroughly with French dressing."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 176,
-          "fat_g": 10.0,
-          "carbs_g": 8.1,
-          "protein_g": 13.8,
-          "sodium_mg": 206,
-          "fiber_g": 2.6,
-          "sugar_g": 4.4
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "two-decker-salad-cottage-cheese",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -11758,7 +11658,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "russian-salad-dressing-themetropo"
+      ]
     },
     {
       "id": "cream-cheese-forsalad-decoration-scottsnort",
@@ -12010,7 +11913,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "russian-salad-dressing-scottsnort"
+      ]
     },
     {
       "id": "cooked-salad-dressing-themetropo",
@@ -14837,6 +14743,102 @@
         "flags": [
           "Recipe reconstructed from partial forum post"
         ]
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-quinoa-salad",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Quinoa Salad",
+      "category": "salads",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Nutty quinoa salad with almonds, cucumber, and fresh herbs",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "cook_time": "0 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "quinoa, cooked",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "item": "flaked almonds",
+          "quantity": "50",
+          "unit": "g"
+        },
+        {
+          "item": "cucumber",
+          "quantity": "1/2",
+          "unit": "large"
+        },
+        {
+          "item": "cherry tomatoes, halved",
+          "quantity": "125",
+          "unit": "g"
+        },
+        {
+          "item": "raisins",
+          "quantity": "50",
+          "unit": "g"
+        },
+        {
+          "item": "spring onions",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "mint leaves",
+          "quantity": "1",
+          "unit": "bunch"
+        },
+        {
+          "item": "lime juice",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook quinoa and spread on plate to cool quickly."
+        },
+        {
+          "step": 2,
+          "text": "Toast almonds until golden."
+        },
+        {
+          "step": 3,
+          "text": "Peel cucumber in strips, remove seeds, slice into half-moons."
+        },
+        {
+          "step": 4,
+          "text": "Combine quinoa, almonds, cucumber, tomatoes, raisins, spring onions, and half the mint."
+        },
+        {
+          "step": 5,
+          "text": "Dress with lime juice and olive oil. Season and garnish with remaining mint."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "salad",
+        "quinoa",
+        "healthy",
+        "vegetarian",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
       },
       "image_refs": []
     }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "desserts",
-    "count": 667,
+    "count": 665,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -1408,119 +1408,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
-        ]
-      }
-    },
-    {
-      "id": "sour-cream-chocolate-cake",
-      "collection": "reference",
-      "collection_display": "Reference Cookbook",
-      "title": "Sour Cream Chocolate Cake",
-      "category": "desserts",
-      "source_note": "Daisy Brand Sour Cream",
-      "servings_yield": "12 servings",
-      "prep_time": "20 minutes",
-      "total_time": "2 hours",
-      "ingredients": [
-        {
-          "item": "all-purpose flour",
-          "quantity": "2",
-          "unit": "cups"
-        },
-        {
-          "item": "unsweetened cocoa powder",
-          "quantity": "2/3",
-          "unit": "cup"
-        },
-        {
-          "item": "baking soda",
-          "quantity": "1",
-          "unit": "tbsp"
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp"
-        },
-        {
-          "item": "warm water",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "Daisy Brand Sour Cream",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "semi-sweet baking chocolate, melted",
-          "quantity": "2",
-          "unit": "1-oz squares"
-        },
-        {
-          "item": "granulated sugar",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "packed light brown sugar",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "vanilla extract",
-          "quantity": "2",
-          "unit": "tsp"
-        },
-        {
-          "item": "vegetable oil",
-          "quantity": "3/4",
-          "unit": "cup"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Heat oven to 350°F. In a large mixer bowl, beat vegetable oil, egg and vanilla for 1 minute at medium speed; add sugars and beat 1 minute; add melted chocolate and beat 1 minute."
-        },
-        {
-          "step": 2,
-          "text": "In a small bowl, combine flour, cocoa powder, baking soda, and salt, then add to chocolate mixture alternately with water, beating well after each addition. Add sour cream and mix well. Pour into two greased and floured 8-inch round pans and bake 30-35 minutes. Cool for 10 minutes, then remove from pans to cool completely before frosting."
-        }
-      ],
-      "temperature": "350°F (175°C)",
-      "tags": [
-        "dessert",
-        "cake",
-        "chocolate",
-        "sour cream"
-      ],
-      "image_refs": [
-        "magazine-recipes - 19.jpeg"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 409,
-          "fat_g": 23.0,
-          "carbs_g": 48.4,
-          "protein_g": 5.0,
-          "sodium_mg": 483,
-          "fiber_g": 2.5,
-          "sugar_g": 29.1
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 12 servings"
         ]
       }
     },
@@ -13414,7 +13301,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "pumpkin-pie-carnation"
+      ]
     },
     {
       "id": "lemon-custard-pie-gutenberg",
@@ -15063,306 +14953,6 @@
           "sodium_mg": 130,
           "fiber_g": 0.8,
           "sugar_g": 10.7
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "sweet-ravioli-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Sweet Ravioli",
-      "category": "desserts",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Ravioli Dolce",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "Take 1/2 pound of flour 1 tablespoon of butter 2 tablespoons of lard",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "These ravioli can be used also as a dessert by preparing them as follows:"
-        },
-        {
-          "step": 2,
-          "text": "Work this into a paste and roll out thin."
-        },
-        {
-          "step": 3,
-          "text": "Take one-half pound of curds, add one egg, and the yolk of a second egg, two tablespoons of granulated sugar, a few drops of extract of vanilla. Mix well together and add to the paste as before. Then fry in lard until a golden brown. Serve with powdered sugar."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Ravioli Dolce"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 28,
-          "fat_g": 3.2,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "polenta-cake-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Polenta Cake",
-      "category": "desserts",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Migliaccio di Farina Gialla",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "coarse Indian meal 1/2 cup of raisins 1/2 teaspoon of salt 3 teaspoons of sugar (granulated) 3 tablespoons of lard",
-          "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Mix the salt, sugar, and raisins with the Indian meal in a bowl, then pour in boiling water, a little at a time, and stir well with a wooden spoon until you have a stiff paste and no dry meal remains sticking to the bottom of the bowl."
-        },
-        {
-          "step": 2,
-          "text": "Then take a cake-tin and grease it well with one-half of the lard. Then turn out the Indian meal into the pan, and even it out with the wooden spoon. Spread on the top of this the rest of the lard, softened slightly so as you can spread it easily. Cook in a slow oven until a golden brown. Serve hot."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Migliaccio di Farina Gialla"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 150,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "gnocchi-of-milka-dessert-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Gnocchi Of Milk—A Dessert",
-      "category": "desserts",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "milk 1 level tablespoon of powdered starch 2 or 3 drops of vanilla extract 2 yolks of eggs 2 tablespoons of sugar",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Put all these ingredients together into a saucepan and mix together with a wooden spoon for a few moments. Then put onto the back of the stove where it is not too hot, and cook until the mixture has become stiff. Cook a few moments longer, stirring always; then turn out onto a bread-board and spread to a thickness of a finger and a half. When"
-        },
-        {
-          "step": 2,
-          "text": "cold, cut into diamonds or squares the width of two fingers. Butter a baking-dish, and put the squares into it overlapping each other. Add a few dabs of butter here and there. Put another layer of the squares in the dish, more dabs of butter, and so on until the dish is full. Brown in the oven."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 18,
-          "fat_g": 1.2,
-          "carbs_g": 0.1,
-          "protein_g": 1.5,
-          "sodium_mg": 18,
-          "fiber_g": 0.0,
-          "sugar_g": 0.1
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "egg-pudding-gutenberg-6429",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Egg Pudding",
-      "category": "desserts",
-      "attribution": "Rorer",
-      "source_note": "Many Ways for Cooking Eggs (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "eggs",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "bread",
-          "quantity": "6",
-          "unit": "slices",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of chopped parsley",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "fuls of chopped chives",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "fuls of butter",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of flour",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "milk",
-          "quantity": "1/2",
-          "unit": "pint",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "saltspoonful of white pepper",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Break the eggs in a bowl, add all the seasoning. Rub the butter and flour together, add the milk, stir until boiling, and then add this to the eggs; beat together until thoroughly mixed. Crumb the bread, removing the crusts; stir this in at last. Turn into a buttered baking dish, cover with grated cheese, and bake in the oven until thoroughly \"set\" and a nice brown. It makes an exceedingly good, easily digested luncheon or supper dish for children."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 325,
-          "fat_g": 16.8,
-          "carbs_g": 28.3,
-          "protein_g": 15.9,
-          "sodium_mg": 684,
-          "fiber_g": 1.2,
-          "sugar_g": 5.9
         },
         "missing_inputs": [],
         "assumptions": [
@@ -17811,7 +17401,10 @@
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variants": [
+        "pumpkin-pie-gutenberg"
+      ]
     },
     {
       "id": "butterscotch-pie-carnation",
@@ -18981,7 +18574,10 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variants": [
+        "strawberry-shortcake-theplainsa"
+      ]
     },
     {
       "id": "fudge-sauce-carnation",
@@ -22570,98 +22166,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
-        ]
-      }
-    },
-    {
-      "id": "molasses-ice-cream-grandmas-molasses",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Molasses Ice Cream",
-      "category": "desserts",
-      "attribution": "American Molasses Company",
-      "source_note": "Grandma's Recipes for Mother and Daughter (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "6 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "rennet tablet",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "cold water",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "light cream",
-          "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "sugar",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "GRANDMA’S MOLASSES",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "vanilla",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Turn refrigerator control to coldest point. Set out ice tray. Crush rennet tablet; dissolve in cold water. Mix cream, sugar, and molasses; warm over low heat to 110° F. (lukewarm), stirring constantly. Add vanilla and dissolved rennet tablet. Pour, at once, into ice tray. Do not move until set (about 10 minutes). Freeze in ice cube unit of refrigerator until almost stiff. Turn into a bowl. Beat until smooth. Return to ice tray. Freeze until stiff (3 to 4 hours)."
-        },
-        {
-          "step": 2,
-          "text": "Molasses Coffee Ice Cream: Add ¼ cup cold, double-strength coffee."
-        }
-      ],
-      "temperature": "110°F",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 349,
-          "fat_g": 29.3,
-          "carbs_g": 21.2,
-          "protein_g": 1.7,
-          "sodium_mg": 35,
-          "fiber_g": 0.0,
-          "sugar_g": 18.4
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 6 servings"
         ]
       }
     },
@@ -33418,7 +32922,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "cottage-pudding-thecentury"
+      ]
     },
     {
       "id": "steak-and-kidney-pie-dudeskitch",
@@ -39535,7 +39042,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "cottage-pudding-dudeskitch"
+      ]
     },
     {
       "id": "orange-pie-thecentury",
@@ -42996,7 +42506,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "strawberry-shortcake-carnation"
+      ]
     },
     {
       "id": "cookies-theplainsa",
@@ -69752,8 +69265,7 @@
         "dessert",
         "spanish",
         "cheesecake",
-        "cream-cheese",
-        "cheesemaking"
+        "cream-cheese"
       ],
       "confidence": {
         "overall": "high",
@@ -69995,8 +69507,7 @@
         "yorkshire",
         "tart",
         "english",
-        "traditional",
-        "cheesemaking"
+        "traditional"
       ],
       "confidence": {
         "overall": "high",
@@ -70090,8 +69601,7 @@
         "chocolate",
         "chevre",
         "elegant",
-        "truffle",
-        "cheesemaking"
+        "truffle"
       ],
       "confidence": {
         "overall": "high",
@@ -70225,8 +69735,7 @@
         "dessert",
         "baked",
         "chocolate",
-        "cheesecake",
-        "cheesemaking"
+        "cheesecake"
       ],
       "confidence": {
         "overall": "high",
@@ -70298,8 +69807,7 @@
         "sorbet",
         "dessert",
         "strawberry",
-        "goat cheese",
-        "cheesemaking"
+        "goat cheese"
       ],
       "confidence": {
         "overall": "high",
@@ -70768,8 +70276,7 @@
         "dessert",
         "Scandinavian",
         "baked",
-        "Swedish",
-        "cheesemaking"
+        "Swedish"
       ],
       "confidence": {
         "overall": "high",
@@ -70922,8 +70429,7 @@
         "cheese",
         "cast iron",
         "cake",
-        "mascarpone",
-        "cheesemaking"
+        "mascarpone"
       ],
       "confidence": {
         "overall": "high",
@@ -71067,8 +70573,7 @@
         "cheese",
         "cake",
         "mascarpone",
-        "pound cake",
-        "cheesemaking"
+        "pound cake"
       ],
       "confidence": {
         "overall": "high",
@@ -71263,6 +70768,409 @@
         "ricotta",
         "quick",
         "no-bake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-sticky-toffee-pudding",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Sticky Toffee Pudding",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Individual sticky toffee puddings with rich toffee sauce",
+      "servings_yield": "6 servings",
+      "prep_time": "20 min",
+      "cook_time": "20 min",
+      "total_time": "40 min",
+      "ingredients": [
+        {
+          "item": "dates, pitted and chopped",
+          "quantity": "5",
+          "unit": "oz"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "butter, softened",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "light brown sugar",
+          "quantity": "6",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "corn syrup",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "bourbon",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine dates and baking soda in a bowl. Pour boiling water over and let stand 10 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Cream butter and sugar until fluffy. Add egg, then flour and baking powder."
+        },
+        {
+          "step": 3,
+          "text": "Puree dates and fold into batter."
+        },
+        {
+          "step": 4,
+          "text": "Divide among 6 greased muffin cups. Bake at 350°F for 17-19 minutes."
+        },
+        {
+          "step": 5,
+          "text": "For sauce: combine butter, brown sugar, milk, cream, corn syrup in a pan. Simmer 3 minutes, stir in bourbon."
+        },
+        {
+          "step": 6,
+          "text": "Spoon sauce over warm puddings and serve immediately."
+        }
+      ],
+      "temperature": "350°F (175°C)",
+      "tags": [
+        "dessert",
+        "british",
+        "dates",
+        "caramel",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-pavlova-with-raspberry-curd",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pavlova with Raspberry Curd",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Light meringue dessert with raspberry curd for two",
+      "servings_yield": "2 servings",
+      "prep_time": "30 min",
+      "cook_time": "1 hr 15 min",
+      "total_time": "3 hr",
+      "ingredients": [
+        {
+          "item": "egg white",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "raspberries",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "7",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "5",
+          "unit": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chocolate chips",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "strawberries",
+          "quantity": "10",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk egg white and sugar to soft peaks. Add cornstarch, vinegar, and vanilla; whisk to stiff peaks."
+        },
+        {
+          "step": 2,
+          "text": "Shape into 4-inch circle on parchment, creating a shallow bowl. Bake at 220°F for 1 hr 15 min."
+        },
+        {
+          "step": 3,
+          "text": "For curd: melt butter, add raspberries, sugar, yolks, lemon. Cook until thickened. Strain."
+        },
+        {
+          "step": 4,
+          "text": "Make chocolate-dipped strawberries."
+        },
+        {
+          "step": 5,
+          "text": "Fill cooled pavlova with raspberry curd, top with berries and strawberries."
+        }
+      ],
+      "temperature": "220°F (105°C)",
+      "tags": [
+        "dessert",
+        "meringue",
+        "raspberries",
+        "romantic",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-gingerbread-bundt-cake",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Gingerbread Bundt Cake",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Moist gingerbread cake with spiced glaze",
+      "servings_yield": "10-12 servings",
+      "prep_time": "20 min",
+      "cook_time": "50 min",
+      "total_time": "1 hr 10 min",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "3 3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "ground ginger",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "butter, softened",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "molasses",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350°F. Prepare bundt pan with baking spray."
+        },
+        {
+          "step": 2,
+          "text": "Mix flour, spices, baking powder, baking soda, and salt."
+        },
+        {
+          "step": 3,
+          "text": "Cream butter and sugars until fluffy. Add orange zest, ginger, molasses, and eggs."
+        },
+        {
+          "step": 4,
+          "text": "Alternate adding dry ingredients and milk in three additions."
+        },
+        {
+          "step": 5,
+          "text": "Bake 45-55 minutes until toothpick comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool, then drizzle with spiced powdered sugar glaze."
+        }
+      ],
+      "temperature": "350°F (175°C)",
+      "tags": [
+        "dessert",
+        "cake",
+        "gingerbread",
+        "holiday",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-chocolate-avocado-mousse",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Chocolate Avocado Mousse",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Healthy chocolate mousse made with avocado",
+      "servings_yield": "8 servings",
+      "prep_time": "20 min",
+      "cook_time": "0 min",
+      "total_time": "20 min",
+      "ingredients": [
+        {
+          "item": "ripe avocados",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "honey",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "raw cacao powder",
+          "quantity": "50",
+          "unit": "g"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blend avocados until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Add honey, vanilla, and cacao powder. Blend until combined."
+        },
+        {
+          "step": 3,
+          "text": "Taste and adjust sweetness with more honey if desired."
+        },
+        {
+          "step": 4,
+          "text": "Divide into small glasses. Refrigerate 1 hour before serving."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "dessert",
+        "chocolate",
+        "healthy",
+        "vegan",
+        "gordon-ramsay"
       ],
       "confidence": {
         "overall": "high",

@@ -1,0 +1,1533 @@
+{
+  "run_date": "2026-01-23T13:42:10.782748",
+  "original_count": 5840,
+  "final_count": 5722,
+  "duplicates_removed": [
+    {
+      "removed_id": "french-onion-burgers",
+      "canonical_id": "french-onion-burgers-campbells",
+      "title": "French Onion Burgers",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "potato-soup-gutenberg-6385",
+      "canonical_id": "potato-soup-gutenberg",
+      "title": "Potato Soup",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "ribbon-macaroni-gutenberg-6385",
+      "canonical_id": "ribbon-macaroni-gutenberg",
+      "title": "Ribbon Macaroni",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "rice-with-peas-gutenberg-6385",
+      "canonical_id": "rice-with-peas-gutenberg",
+      "title": "Rice With Peas",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "rice-alla-romana-gutenberg-6385",
+      "canonical_id": "rice-alla-romana-gutenberg",
+      "title": "Rice \"Alla Romana\"",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "polenta-gutenberg-6385",
+      "canonical_id": "polenta-gutenberg",
+      "title": "Polenta",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "polenta-alla-toscana-gutenberg-6385",
+      "canonical_id": "polenta-alla-toscana-gutenberg",
+      "title": "Polenta \"Alla Toscana\"",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "polenta-pasticciata-gutenberg-6385",
+      "canonical_id": "polenta-pasticciata-gutenberg",
+      "title": "Polenta Pasticciata",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "gnocchi-of-farina-gutenberg-6385",
+      "canonical_id": "gnocchi-of-farina-gutenberg",
+      "title": "Gnocchi Of Farina",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "english-drawn-butter-gutenberg-6429",
+      "canonical_id": "english-drawn-butter-gutenberg",
+      "title": "English Drawn Butter",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "recipe-via-meal-master-v-800-thebackcou",
+      "canonical_id": "recipe-via-meal-master-v-800-backcountr",
+      "title": "Recipe via Meal-Master \u2122 v 8.00",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "8-t-butter-or-margarine-4-t-garli-g-thebackcou",
+      "canonical_id": "8-t-butter-or-margarine-4-t-garli-g-backcountr",
+      "title": "8 T Butter or margarine 4 T Garli-Ghetti seasoning",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "c-broccoli-chopped-c-celery-root-ch-thebackcou",
+      "canonical_id": "c-broccoli-chopped-c-celery-root-ch-backcountr",
+      "title": "\u00bc c Broccoli, chopped \u00bc c Celery root, chopped",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "sour-cream-chocolate-cake",
+      "canonical_id": "sour-cream-chocolate-cake-daisy",
+      "title": "Sour Cream Chocolate Cake",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "sweet-ravioli-gutenberg-6385",
+      "canonical_id": "sweet-ravioli-gutenberg",
+      "title": "Sweet Ravioli",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "polenta-cake-gutenberg-6385",
+      "canonical_id": "polenta-cake-gutenberg",
+      "title": "Polenta Cake",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "gnocchi-of-milka-dessert-gutenberg-6385",
+      "canonical_id": "gnocchi-of-milka-dessert-gutenberg",
+      "title": "Gnocchi Of Milk\u2014A Dessert",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "egg-pudding-gutenberg-6429",
+      "canonical_id": "egg-pudding-gutenberg",
+      "title": "Egg Pudding",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "lemon-raspberry-almond-muffins",
+      "canonical_id": "lemon-raspberry-almond-muffins-ref",
+      "title": "Lemon Raspberry Almond Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "peanut-butter-and-jelly-muffins",
+      "canonical_id": "peanut-butter-jelly-muffins-ref",
+      "title": "Peanut Butter and Jelly Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "bacon-cheese-muffins",
+      "canonical_id": "bacon-cheese-muffins-ref",
+      "title": "Bacon Cheese Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "honey-bran-muffins-ref",
+      "canonical_id": "honey-bran-muffins",
+      "title": "Honey Bran Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cinnamon-and-spice-muffins-ref",
+      "canonical_id": "cinnamon-spice-muffins",
+      "title": "Cinnamon and Spice Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "nutella-muffins-ref",
+      "canonical_id": "nutella-muffins",
+      "title": "Nutella Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "eggnog-muffins-ref",
+      "canonical_id": "eggnog-muffins",
+      "title": "Eggnog Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "coconut-muffins-ref",
+      "canonical_id": "coconut-muffins",
+      "title": "Coconut Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "buckwheat-pancakes-ref",
+      "canonical_id": "buckwheat-pancakes",
+      "title": "Buckwheat Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "german-pancakes",
+      "canonical_id": "german-pancakes-ref",
+      "title": "German Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "lemon-blueberry-pancakes-ref",
+      "canonical_id": "lemon-blueberry-pancakes",
+      "title": "Lemon Blueberry Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "silver-dollar-pancakes-ref",
+      "canonical_id": "silver-dollars-pancakes",
+      "title": "Silver Dollars",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cinnamon-spice-cakes-ref",
+      "canonical_id": "cinnamon-spice-cakes",
+      "title": "Cinnamon Spice Cakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "banana-sour-cream-pancakes-ref",
+      "canonical_id": "banana-sour-cream-pancakes",
+      "title": "Banana Sour Cream Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cinnamon-chocolate-pancakes-ref",
+      "canonical_id": "cinnamon-chocolate-pancakes",
+      "title": "Cinnamon Chocolate Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "toasted-pecan-blueberry-pancakes-ref",
+      "canonical_id": "toasted-pecan-blueberry-pancakes",
+      "title": "Toasted Pecan Blueberry Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "blueberry-buckwheat-pancakes-ref",
+      "canonical_id": "blueberry-buckwheat-pancakes",
+      "title": "Blueberry Buckwheat Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "banana-blueberry-pancakes-ref",
+      "canonical_id": "banana-blueberry-pancakes",
+      "title": "Banana Blueberry Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "monkey-pancakes-ref",
+      "canonical_id": "monkey-pancakes",
+      "title": "Monkey Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cornmeal-berry-pancakes-ref",
+      "canonical_id": "cornmeal-and-berry-pancakes",
+      "title": "Cornmeal and Berry Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "toasted-pecan-buttermilk-pancakes-ref",
+      "canonical_id": "toasted-pecan-buttermilk-pancakes",
+      "title": "Toasted Pecan Buttermilk Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "autumn-spiced-pumpkin-pancakes-ref",
+      "canonical_id": "autumn-spiced-pumpkin-pancakes",
+      "title": "Autumn Spiced Pumpkin Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "healthy-apple-wheat-pancakes-ref",
+      "canonical_id": "healthy-apple-wheat-pancakes",
+      "title": "Healthy Apple Wheat Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "citrus-pancakes-ref",
+      "canonical_id": "citrus-blueberry-pancakes",
+      "title": "Citrus Blueberry Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "apple-ginger-pancakes-ref",
+      "canonical_id": "apple-ginger-pancakes",
+      "title": "Apple Ginger Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "oven-apple-pancakes",
+      "canonical_id": "oven-apple-pancakes-ref",
+      "title": "Oven Apple Pancakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "old-fashioned-belgium-waffles-ref",
+      "canonical_id": "old-fashioned-belgium-waffles",
+      "title": "Old Fashioned Belgium Waffles",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "waffles-summer-berries-ref",
+      "canonical_id": "waffles-summer-berries",
+      "title": "Waffles with Summer Berries",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "peaches-cream-waffles-ref",
+      "canonical_id": "peaches-and-cream-waffles",
+      "title": "Peaches and Cream Waffles",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "bananas-foster-waffles-ref",
+      "canonical_id": "bananas-foster-waffles",
+      "title": "Bananas Foster Waffles",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "anise-waffles-ref",
+      "canonical_id": "anise-waffles",
+      "title": "Anise Waffles",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "mexican-eggs-ref",
+      "canonical_id": "mexican-eggs",
+      "title": "Mexican Eggs",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "huevos-rancheros-ref",
+      "canonical_id": "huevos-rancheros",
+      "title": "Huevos Rancheros",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "texas-eggs-ref",
+      "canonical_id": "texas-eggs",
+      "title": "Texas Eggs",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "polenta-and-eggs-ref",
+      "canonical_id": "polenta-and-eggs",
+      "title": "Polenta and Eggs",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "johnnycakes-ref",
+      "canonical_id": "johnnycakes",
+      "title": "Johnnycakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "chocolate-waffle-ref",
+      "canonical_id": "chocolate-waffle",
+      "title": "Chocolate Waffle",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "sausage-twist-ref",
+      "canonical_id": "sausage-twist",
+      "title": "Sausage Twist",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "stuffed-french-toast-ref",
+      "canonical_id": "stuffed-french-toast",
+      "title": "Stuffed French Toast",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "sausage-cheese-breakfast-pizza-ref",
+      "canonical_id": "sausage-cheese-breakfast-pizza",
+      "title": "Sausage and Cheese Breakfast Pizza",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "ham-cheese-muffins-ref",
+      "canonical_id": "ham-and-cheese-muffins",
+      "title": "Ham and Cheese Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "breakfast-tacos-ref",
+      "canonical_id": "breakfast-tacos",
+      "title": "Breakfast Tacos",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "breakfast-parfait-ref",
+      "canonical_id": "breakfast-parfait",
+      "title": "Breakfast Parfait",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "breakfast-quinoa-ref",
+      "canonical_id": "breakfast-quinoa",
+      "title": "Breakfast Quinoa",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "breakfast-calzone-ref",
+      "canonical_id": "breakfast-calzone",
+      "title": "Breakfast Calzone",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "french-toast-casserole-ref",
+      "canonical_id": "french-toast-casserole",
+      "title": "French Toast Casserole",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "egg-cheese-frittata-ref",
+      "canonical_id": "egg-and-cheese-frittata",
+      "title": "Egg and Cheese Frittata",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cheesy-eggs-spinach-skillet-ref",
+      "canonical_id": "cheesy-eggs-spinach-skillet-bake",
+      "title": "Cheesy Eggs and Spinach Skillet Bake",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "basic-flapjacks-ref",
+      "canonical_id": "basic-flapjacks",
+      "title": "Basic Flapjacks",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "traditional-hotcakes-ref",
+      "canonical_id": "traditional-hotcakes",
+      "title": "Traditional Hotcakes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "breakfast-churros-ref",
+      "canonical_id": "breakfast-churros",
+      "title": "Breakfast Churros",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "chocolate-chip-porridge-ref",
+      "canonical_id": "chocolate-chip-porridge",
+      "title": "Chocolate Chip Porridge",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "fruity-latvian-breakfast-ref",
+      "canonical_id": "fruity-latvian-breakfast",
+      "title": "Fruity Latvian Breakfast",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "ham-cheese-open-faced-sandwiches-ref",
+      "canonical_id": "ham-cheese-open-faced-sandwiches",
+      "title": "Ham and Cheese Open-Faced Sandwiches",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "salmon-and-rocket-sandwich-ref",
+      "canonical_id": "salmon-and-rocket-sandwich",
+      "title": "Salmon and Rocket Sandwich",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "spicy-breakfast-migas-ref",
+      "canonical_id": "spicy-breakfast-migas",
+      "title": "Spicy Breakfast Migas",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "southern-grits-ref",
+      "canonical_id": "southern-grits",
+      "title": "Southern Grits",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "bacon-and-tomato-frittata-ref",
+      "canonical_id": "bacon-and-tomato-frittata",
+      "title": "Bacon and Tomato Frittata",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "broccoli-and-cheese-frittata-ref",
+      "canonical_id": "broccoli-and-cheese-frittata",
+      "title": "Broccoli and Cheese Frittata",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cherry-chocolate-scones-ref",
+      "canonical_id": "cherry-chocolate-scones",
+      "title": "Cherry Chocolate Scones",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "apricot-scones-ref",
+      "canonical_id": "apricot-scones",
+      "title": "Apricot Scones",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cinnamon-oat-scones-ref",
+      "canonical_id": "cinnamon-oat-scones",
+      "title": "Cinnamon Oat Scones",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "pumpkin-chocolate-chip-scones-ref",
+      "canonical_id": "pumpkin-chocolate-chip-scones",
+      "title": "Pumpkin Chocolate Chip Scones",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "apple-cheddar-muffins-ref",
+      "canonical_id": "apple-cheddar-muffins",
+      "title": "Apple Cheddar Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "banana-cinnamon-muffins-ref",
+      "canonical_id": "banana-cinnamon-muffins",
+      "title": "Banana Cinnamon Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "raisin-bran-muffins-ref",
+      "canonical_id": "raisin-bran-muffins",
+      "title": "Raisin Bran Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "raspberry-cheesecake-poppy-seed-muffins-ref",
+      "canonical_id": "raspberry-cheesecake-poppy-seed-muffins",
+      "title": "Raspberry Cheesecake Poppy Seed Muffins",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "hash-brown-frittata-ref",
+      "canonical_id": "hash-brown-frittata",
+      "title": "Hash Brown Frittata",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "gingerbread-waffles-ref",
+      "canonical_id": "gingerbread-waffles",
+      "title": "Gingerbread Waffles",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "norwegian-waffles-ref",
+      "canonical_id": "norwegian-waffles",
+      "title": "Norwegian Waffles",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cornmeal-waffles-ref",
+      "canonical_id": "cornmeal-waffles",
+      "title": "Cornmeal Waffles",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "banana-waffles-ref",
+      "canonical_id": "banana-waffles",
+      "title": "Banana Waffles",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "egg-chops-gutenberg-6429",
+      "canonical_id": "egg-chops-gutenberg",
+      "title": "Egg Chops",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "eggs-scrambled-with-fresh-tomatoes-gutenberg-6429",
+      "canonical_id": "eggs-scrambled-with-fresh-tomatoes-gutenberg",
+      "title": "Eggs Scrambled With Fresh Tomatoes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "scrambled-eggs-with-asparagus-tips-gutenberg-6429",
+      "canonical_id": "scrambled-eggs-with-asparagus-tips-gutenberg",
+      "title": "Scrambled Eggs With Asparagus Tips",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "omelet-with-potatoes-gutenberg-6429",
+      "canonical_id": "omelet-with-potatoes-gutenberg",
+      "title": "Omelet With Potatoes",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "omelet-a-la-duchesse-gutenberg-6429",
+      "canonical_id": "omelet-a-la-duchesse-gutenberg",
+      "title": "Omelet A La Duchesse",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "macaroni-with-tomato-sauce-gutenberg-6385",
+      "canonical_id": "macaroni-with-tomato-sauce-gutenberg",
+      "title": "Macaroni With Tomato Sauce",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "ravioli-of-curds-and-spinach-gutenberg-6385",
+      "canonical_id": "ravioli-of-curds-and-spinach-gutenberg",
+      "title": "Ravioli Of Curds And Spinach",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "sauce-bechamel-gutenberg-6429",
+      "canonical_id": "sauce-bechamel-gutenberg",
+      "title": "Sauce Bechamel",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "cream-or-white-sauce-gutenberg-6429",
+      "canonical_id": "cream-or-white-sauce-gutenberg",
+      "title": "Cream Or White Sauce",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "brown-butter-sauce-gutenberg-6429",
+      "canonical_id": "brown-butter-sauce-gutenberg",
+      "title": "Brown Butter Sauce",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "sauce-perigueux-gutenberg-6429",
+      "canonical_id": "sauce-perigueux-gutenberg",
+      "title": "Sauce Perigueux",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "broccoli-chicken-noodle-soup-lightened",
+      "canonical_id": "broccoli-chicken-noodle-soup-lighten-up",
+      "title": "Broccoli and Chicken Noodle Soup",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "beef-soup-stock-gutenberg-6385",
+      "canonical_id": "beef-soup-stock-gutenberg",
+      "title": "Beef Soup Stock",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "rice-soup-gutenberg-6385",
+      "canonical_id": "rice-soup-gutenberg",
+      "title": "Rice Soup",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "stracciatella-soup-gutenberg-6385",
+      "canonical_id": "stracciatella-soup-gutenberg",
+      "title": "Stracciatella Soup",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "vegetable-chowder-gutenberg-6385",
+      "canonical_id": "vegetable-chowder-gutenberg",
+      "title": "Vegetable Chowder",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "lentil-soup-gutenberg-6385",
+      "canonical_id": "lentil-soup-gutenberg",
+      "title": "Lentil Soup",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "lettuce-soup-gutenberg-6385",
+      "canonical_id": "lettuce-soup-gutenberg",
+      "title": "Lettuce Soup",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "pumpkin-soup-gutenberg-6385",
+      "canonical_id": "pumpkin-soup-gutenberg",
+      "title": "Pumpkin Soup",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "deviled-egg-salad-gutenberg-6429",
+      "canonical_id": "deviled-egg-salad-gutenberg",
+      "title": "Deviled Egg Salad",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "coffee-flavored-eggnog-ref",
+      "canonical_id": "coffee-flavored-eggnog",
+      "title": "Coffee-Flavored Eggnog",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "fruity-smoothie-with-ground-flax-seed-ref",
+      "canonical_id": "fruity-smoothie-with-ground-flax-seed",
+      "title": "Fruity Smoothie with Ground Flax Seed",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "fruity-yogurt-smoothie-ref",
+      "canonical_id": "fruity-yogurt-smoothie",
+      "title": "Fruity Yogurt Smoothie",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "quick-fruity-breakfast-smoothie-ref",
+      "canonical_id": "quick-fruity-breakfast-smoothie",
+      "title": "Quick Fruity Breakfast Smoothie",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "requeijao-cremoso",
+      "canonical_id": "requeijao-cremoso-2",
+      "title": "Requeij\u00e3o Cremoso",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "stilton-cropwell-bishop",
+      "canonical_id": "cropwell-bishop-stilton",
+      "title": "Cropwell Bishop Stilton",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "samso-danish-cheese",
+      "canonical_id": "samso",
+      "title": "Sams\u00f8",
+      "reason": "exact_duplicate"
+    },
+    {
+      "removed_id": "nokkelost-norwegian-cheese",
+      "canonical_id": "nokkelost-2",
+      "title": "N\u00f8kkelost",
+      "reason": "exact_duplicate"
+    }
+  ],
+  "variants_linked": [
+    {
+      "variant_id": "keto-chicken-alfredo",
+      "canonical_id": "keto-chicken-alfredo-broccoli",
+      "title": "Keto Chicken Alfredo"
+    },
+    {
+      "variant_id": "sherbet-theplainsa",
+      "canonical_id": "sherbet-harvester",
+      "title": "Sherbet"
+    },
+    {
+      "variant_id": "chicken-tomato-casserole-chile-bible",
+      "canonical_id": "chicken-tomato-casserole",
+      "title": "Chicken-Tomato Casserole"
+    },
+    {
+      "variant_id": "rellenos-on-spanish-rice-chile-bible",
+      "canonical_id": "rellenos-spanish-rice",
+      "title": "Rellenos on Spanish Rice"
+    },
+    {
+      "variant_id": "relleno-bean-bake-chile-bible",
+      "canonical_id": "relleno-bean-bake",
+      "title": "Relleno Bean Bake"
+    },
+    {
+      "variant_id": "shepherds-cheese-bake-ancients",
+      "canonical_id": "shepherds-cheese-bake",
+      "title": "Shepherd's Cheese Bake"
+    },
+    {
+      "variant_id": "pumpkin-pie-carnation",
+      "canonical_id": "pumpkin-pie-gutenberg",
+      "title": "Pumpkin Pie"
+    },
+    {
+      "variant_id": "cottage-pudding-thecentury",
+      "canonical_id": "cottage-pudding-dudeskitch",
+      "title": "Cottage Pudding"
+    },
+    {
+      "variant_id": "strawberry-shortcake-theplainsa",
+      "canonical_id": "strawberry-shortcake-carnation",
+      "title": "Strawberry Shortcake"
+    },
+    {
+      "variant_id": "peach-muffins",
+      "canonical_id": "peach-muffins-ref",
+      "title": "Peach Muffins"
+    },
+    {
+      "variant_id": "poppy-seed-muffins",
+      "canonical_id": "poppy-seed-muffins-ref",
+      "title": "Poppy Seed Muffins"
+    },
+    {
+      "variant_id": "orange-cinnamon-muffins",
+      "canonical_id": "orange-cinnamon-muffins-ref",
+      "title": "Orange Cinnamon Muffins"
+    },
+    {
+      "variant_id": "peanut-butter-banana-muffins",
+      "canonical_id": "peanut-butter-banana-muffins-ref",
+      "title": "Peanut Butter Banana Muffins"
+    },
+    {
+      "variant_id": "cheesy-corn-muffins",
+      "canonical_id": "cheesy-corn-muffins-ref",
+      "title": "Cheesy Corn Muffins"
+    },
+    {
+      "variant_id": "amaretto-muffins",
+      "canonical_id": "amaretto-muffins-ref",
+      "title": "Amaretto Muffins"
+    },
+    {
+      "variant_id": "apple-white-chocolate-muffins",
+      "canonical_id": "apple-white-chocolate-muffins-ref",
+      "title": "Apple White Chocolate Muffins"
+    },
+    {
+      "variant_id": "chocolate-hazelnut-muffins",
+      "canonical_id": "chocolate-hazelnut-muffins-ref",
+      "title": "Chocolate Hazelnut Muffins"
+    },
+    {
+      "variant_id": "blueberry-coconut-muffins-ref",
+      "canonical_id": "blueberry-coconut-muffins",
+      "title": "Blueberry Coconut Muffins"
+    },
+    {
+      "variant_id": "raspberry-lemon-muffins-ref",
+      "canonical_id": "raspberry-lemon-muffins",
+      "title": "Raspberry Lemon Muffins"
+    },
+    {
+      "variant_id": "chai-spiced-muffins-ref",
+      "canonical_id": "chai-spiced-muffins",
+      "title": "Chai Spiced Muffins"
+    },
+    {
+      "variant_id": "healthy-bran-apple-muffins-ref",
+      "canonical_id": "healthy-bran-apple-muffins",
+      "title": "Healthy Bran Apple Muffins"
+    },
+    {
+      "variant_id": "triple-threat-berry-muffins-ref",
+      "canonical_id": "triple-threat-berry-muffins",
+      "title": "Triple Threat Berry Muffins"
+    },
+    {
+      "variant_id": "ginger-lemon-muffins-ref",
+      "canonical_id": "ginger-lemon-muffins",
+      "title": "Ginger Lemon Muffins"
+    },
+    {
+      "variant_id": "cinnamon-and-spice-muffins",
+      "canonical_id": "cinnamon-spice-muffins",
+      "title": "Cinnamon and Spice Muffins"
+    },
+    {
+      "variant_id": "apple-cranberry-muffins-ref",
+      "canonical_id": "apple-cranberry-muffins",
+      "title": "Apple Cranberry Muffins"
+    },
+    {
+      "variant_id": "cherry-chocolate-muffins-ref",
+      "canonical_id": "cherry-chocolate-muffins",
+      "title": "Cherry Chocolate Muffins"
+    },
+    {
+      "variant_id": "candy-cane-muffins-ref",
+      "canonical_id": "candy-cane-muffins",
+      "title": "Candy Cane Muffins"
+    },
+    {
+      "variant_id": "maple-bacon-muffins-ref",
+      "canonical_id": "maple-bacon-muffins",
+      "title": "Maple Bacon Muffins"
+    },
+    {
+      "variant_id": "traditional-blueberry-muffins-ref",
+      "canonical_id": "traditional-blueberry-muffins",
+      "title": "Traditional Blueberry Muffins"
+    },
+    {
+      "variant_id": "banana-nut-breakfast-muffins-ref",
+      "canonical_id": "banana-nut-breakfast-muffins",
+      "title": "Banana Nut Breakfast Muffins"
+    },
+    {
+      "variant_id": "blueberry-muffins-theplainsa",
+      "canonical_id": "blueberry-muffins-gutenberg",
+      "title": "Blueberry Muffins"
+    },
+    {
+      "variant_id": "two-berry-pancakes-ref",
+      "canonical_id": "two-berry-pancakes",
+      "title": "Two Berry Pancakes"
+    },
+    {
+      "variant_id": "waffles-strawberries-whip-cream-ref",
+      "canonical_id": "waffles-strawberries-whip-cream",
+      "title": "Waffles with Strawberries and Whip Cream"
+    },
+    {
+      "variant_id": "yeast-waffles-ref",
+      "canonical_id": "yeast-waffles",
+      "title": "Yeast Waffles"
+    },
+    {
+      "variant_id": "maple-walnut-waffles-ref",
+      "canonical_id": "maple-walnut-waffles",
+      "title": "Maple Walnut Waffles"
+    },
+    {
+      "variant_id": "apple-cinnamon-waffles-ref",
+      "canonical_id": "apple-cinnamon-waffles",
+      "title": "Apple Cinnamon Waffles"
+    },
+    {
+      "variant_id": "traditional-crepes-ref",
+      "canonical_id": "traditional-crepes",
+      "title": "Traditional Crepes"
+    },
+    {
+      "variant_id": "vanilla-crepes-ref",
+      "canonical_id": "vanilla-crepes",
+      "title": "Vanilla Crepes"
+    },
+    {
+      "variant_id": "strawberry-crepes-ref",
+      "canonical_id": "strawberry-crepes",
+      "title": "Strawberry Crepes"
+    },
+    {
+      "variant_id": "banana-crepes-ref",
+      "canonical_id": "banana-crepes",
+      "title": "Banana Crepes"
+    },
+    {
+      "variant_id": "raspberry-crepes-ref",
+      "canonical_id": "raspberry-crepes",
+      "title": "Raspberry Crepes"
+    },
+    {
+      "variant_id": "blueberry-crepes-ref",
+      "canonical_id": "blueberry-crepes",
+      "title": "Blueberry Crepes"
+    },
+    {
+      "variant_id": "egg-white-crepes-ref",
+      "canonical_id": "egg-white-crepes",
+      "title": "Egg White Crepes"
+    },
+    {
+      "variant_id": "chocolate-hazelnut-crepes-ref",
+      "canonical_id": "chocolate-hazelnut-crepes",
+      "title": "Chocolate Hazelnut Crepes"
+    },
+    {
+      "variant_id": "vegan-crepes-ref",
+      "canonical_id": "vegan-crepes",
+      "title": "Vegan Crepes"
+    },
+    {
+      "variant_id": "chocolate-crepes-ref",
+      "canonical_id": "chocolate-crepes",
+      "title": "Chocolate Crepes"
+    },
+    {
+      "variant_id": "western-omelet-ref",
+      "canonical_id": "western-omelet",
+      "title": "Western Omelet"
+    },
+    {
+      "variant_id": "asparagus-omelet-ref",
+      "canonical_id": "asparagus-omelet",
+      "title": "Asparagus Omelet"
+    },
+    {
+      "variant_id": "vegetable-omelet-ref",
+      "canonical_id": "vegetable-omelet",
+      "title": "Vegetable Omelet"
+    },
+    {
+      "variant_id": "eggs-florentine-ref",
+      "canonical_id": "eggs-florentine",
+      "title": "Eggs Florentine"
+    },
+    {
+      "variant_id": "breakfast-in-a-skillet-ref",
+      "canonical_id": "breakfast-in-a-skillet",
+      "title": "Breakfast in a Skillet"
+    },
+    {
+      "variant_id": "egg-croquettes-ref",
+      "canonical_id": "egg-croquettes",
+      "title": "Egg Croquettes"
+    },
+    {
+      "variant_id": "croque-madame-ref",
+      "canonical_id": "croque-madame",
+      "title": "Croque Madame"
+    },
+    {
+      "variant_id": "eggs-and-spinach-ref",
+      "canonical_id": "eggs-and-spinach",
+      "title": "Eggs and Spinach"
+    },
+    {
+      "variant_id": "baked-eggs-ref",
+      "canonical_id": "baked-eggs-ramekins",
+      "title": "Baked Eggs"
+    },
+    {
+      "variant_id": "kale-swiss-cheese-omelette-ref",
+      "canonical_id": "kale-swiss-cheese-omelette",
+      "title": "Kale and Swiss Cheese Omelette"
+    },
+    {
+      "variant_id": "apple-pancakes-ref",
+      "canonical_id": "apple-pancakes",
+      "title": "Apple Pancakes"
+    },
+    {
+      "variant_id": "almond-pancakes-ref",
+      "canonical_id": "almond-pancakes",
+      "title": "Almond Pancakes"
+    },
+    {
+      "variant_id": "belgian-waffles-ref",
+      "canonical_id": "belgian-waffles",
+      "title": "Belgian Waffles"
+    },
+    {
+      "variant_id": "quiche-ref",
+      "canonical_id": "quiche-basic",
+      "title": "Quiche"
+    },
+    {
+      "variant_id": "filled-crepes-ref",
+      "canonical_id": "filled-crepes",
+      "title": "Filled Crepes"
+    },
+    {
+      "variant_id": "cheese-souffle-ref",
+      "canonical_id": "cheese-souffle",
+      "title": "Cheese Souffle"
+    },
+    {
+      "variant_id": "ham-cheese-souffle-ref",
+      "canonical_id": "ham-and-cheese-souffle",
+      "title": "Ham and Cheese Souffl\u00e9"
+    },
+    {
+      "variant_id": "crab-souffle-ref",
+      "canonical_id": "crab-souffle",
+      "title": "Crab Souffl\u00e9"
+    },
+    {
+      "variant_id": "french-toast-souffle-ref",
+      "canonical_id": "french-toast-souffle",
+      "title": "French Toast Souffl\u00e9"
+    },
+    {
+      "variant_id": "breakfast-enchiladas-full-ref",
+      "canonical_id": "breakfast-enchiladas",
+      "title": "Breakfast Enchiladas"
+    },
+    {
+      "variant_id": "breakfast-frittata-ref",
+      "canonical_id": "breakfast-frittata",
+      "title": "Breakfast Frittata"
+    },
+    {
+      "variant_id": "hash-brown-casserole-ref",
+      "canonical_id": "hash-brown-casserole",
+      "title": "Hash Brown Casserole"
+    },
+    {
+      "variant_id": "apple-breakfast-bars-ref",
+      "canonical_id": "apple-breakfast-bars",
+      "title": "Apple Breakfast Bars"
+    },
+    {
+      "variant_id": "breakfast-panini-sandwich-ref",
+      "canonical_id": "breakfast-panini-sandwich",
+      "title": "Breakfast Panini Sandwich"
+    },
+    {
+      "variant_id": "blueberry-breakfast-crescents-ref",
+      "canonical_id": "blueberry-breakfast-crescents",
+      "title": "Blueberry Breakfast Crescents"
+    },
+    {
+      "variant_id": "breakfast-bruschetta-ref",
+      "canonical_id": "breakfast-bruschetta",
+      "title": "Breakfast Bruschetta"
+    },
+    {
+      "variant_id": "spinach-cheese-wraps-ref",
+      "canonical_id": "spinach-cheese-wraps",
+      "title": "Spinach Cheese Wraps"
+    },
+    {
+      "variant_id": "au-gratin-potato-muffins-ref",
+      "canonical_id": "au-gratin-potato-muffins",
+      "title": "Au Gratin Potato Muffins"
+    },
+    {
+      "variant_id": "pancake-fruit-kabobs-ref",
+      "canonical_id": "pancake-fruit-kabobs",
+      "title": "Pancake and Fruit Kabobs"
+    },
+    {
+      "variant_id": "bacon-egg-cups-ref",
+      "canonical_id": "bacon-egg-cups",
+      "title": "Bacon and Egg Cups"
+    },
+    {
+      "variant_id": "cheesy-scrambled-eggs-herbs-ref",
+      "canonical_id": "cheesy-scrambled-eggs-with-herbs",
+      "title": "Cheesy Scrambled Eggs with Herbs"
+    },
+    {
+      "variant_id": "egg-in-a-hole-ref",
+      "canonical_id": "egg-in-a-hole",
+      "title": "Egg in a Hole"
+    },
+    {
+      "variant_id": "filipino-style-omelet-ref",
+      "canonical_id": "filipino-style-omelet",
+      "title": "Filipino-Style Omelet"
+    },
+    {
+      "variant_id": "fluffy-creamy-eggs-ref",
+      "canonical_id": "fluffy-creamy-eggs",
+      "title": "Fluffy Creamy Eggs"
+    },
+    {
+      "variant_id": "scrambled-eggs-italiana-ref",
+      "canonical_id": "scrambled-eggs-italiana-on-toast",
+      "title": "Scrambled Eggs Italiana on Toast"
+    },
+    {
+      "variant_id": "sweet-ham-omelet-ref",
+      "canonical_id": "sweet-ham-omelet",
+      "title": "Sweet Ham Omelet"
+    },
+    {
+      "variant_id": "overnight-egg-sausage-bake-ref",
+      "canonical_id": "overnight-egg-sausage-bake",
+      "title": "Overnight Egg and Sausage Bake"
+    },
+    {
+      "variant_id": "bacon-egg-cupcakes-ref",
+      "canonical_id": "bacon-egg-cupcakes",
+      "title": "Bacon and Egg Cupcakes"
+    },
+    {
+      "variant_id": "apple-pie-french-toast-ref",
+      "canonical_id": "apple-pie-french-toast",
+      "title": "Apple Pie French Toast"
+    },
+    {
+      "variant_id": "buttermilk-breakfast-waffles-ref",
+      "canonical_id": "buttermilk-breakfast-waffles",
+      "title": "Buttermilk Breakfast Waffles"
+    },
+    {
+      "variant_id": "creamy-cheesy-french-toasts-ref",
+      "canonical_id": "creamy-cheesy-french-toasts",
+      "title": "Creamy Cheesy French Toasts"
+    },
+    {
+      "variant_id": "apple-bacon-cheese-muffin-sandwiches-ref",
+      "canonical_id": "apple-bacon-cheese-muffin-sandwiches",
+      "title": "Apple-Bacon-Cheese Muffin Sandwiches"
+    },
+    {
+      "variant_id": "basic-hash-browns-ref",
+      "canonical_id": "basic-hash-browns",
+      "title": "Basic Hash Browns"
+    },
+    {
+      "variant_id": "breakfast-sandwich-summer-fruits-ref",
+      "canonical_id": "breakfast-sandwich-summer-fruits",
+      "title": "Breakfast Sandwich with Summer Fruits"
+    },
+    {
+      "variant_id": "cheesy-mushroom-egg-sandwiches-ref",
+      "canonical_id": "cheesy-mushroom-egg-sandwiches",
+      "title": "Cheesy Mushroom and Egg Sandwiches"
+    },
+    {
+      "variant_id": "creamy-banana-cereal-ref",
+      "canonical_id": "creamy-banana-cereal",
+      "title": "Creamy Banana Cereal"
+    },
+    {
+      "variant_id": "english-crumpets-ref",
+      "canonical_id": "english-crumpets",
+      "title": "English Crumpets"
+    },
+    {
+      "variant_id": "fruity-breakfast-sandwich-ref",
+      "canonical_id": "fruity-breakfast-sandwich",
+      "title": "Fruity Breakfast Sandwich"
+    },
+    {
+      "variant_id": "fruity-breakfast-sundae-ref",
+      "canonical_id": "fruity-breakfast-sundae",
+      "title": "Fruity Breakfast Sundae"
+    },
+    {
+      "variant_id": "grilled-fruity-croissant-sandwich-ref",
+      "canonical_id": "grilled-fruity-croissant-sandwich",
+      "title": "Grilled Fruity Croissant Sandwich"
+    },
+    {
+      "variant_id": "hungarian-sausage-breakfast-wraps-ref",
+      "canonical_id": "hungarian-sausage-breakfast-wraps",
+      "title": "Hungarian Sausage Breakfast Wraps"
+    },
+    {
+      "variant_id": "pita-breakfast-pizza-ref",
+      "canonical_id": "pita-breakfast-pizza",
+      "title": "Pita Breakfast Pizza"
+    },
+    {
+      "variant_id": "warm-and-creamy-bacon-dip",
+      "canonical_id": "warm-creamy-bacon-dip",
+      "title": "Warm and Creamy Bacon Dip"
+    },
+    {
+      "variant_id": "perritos-verdes-chile-bible",
+      "canonical_id": "perritos-verdes",
+      "title": "Perritos Verdes (Green Chile Puppies)"
+    },
+    {
+      "variant_id": "curried-corn-with-chile-chile-bible",
+      "canonical_id": "curried-corn-with-chile",
+      "title": "Curried Corn with Chile"
+    },
+    {
+      "variant_id": "cornfetti-casserole-chile-bible",
+      "canonical_id": "cornfetti-casserole",
+      "title": "Cornfetti Casserole"
+    },
+    {
+      "variant_id": "apple-and-eve-beets-ancients",
+      "canonical_id": "apple-and-eve-beets",
+      "title": "Apple and Eve Beets"
+    },
+    {
+      "variant_id": "russian-salad-dressing-themetropo",
+      "canonical_id": "russian-salad-dressing-scottsnort",
+      "title": "Russian Salad Dressing"
+    },
+    {
+      "variant_id": "mexican-breakfast-choco-drink-ref",
+      "canonical_id": "mexican-breakfast-choco-drink",
+      "title": "Mexican Breakfast Choco Drink"
+    },
+    {
+      "variant_id": "paneer-cheese",
+      "canonical_id": "lgc-paneer",
+      "title": "Paneer"
+    },
+    {
+      "variant_id": "fromage-blanc",
+      "canonical_id": "psr-fromage-blanc",
+      "title": "Fromage Blanc"
+    },
+    {
+      "variant_id": "mascarpone",
+      "canonical_id": "lgc-mascarpone",
+      "title": "Mascarpone"
+    },
+    {
+      "variant_id": "feta-cheese",
+      "canonical_id": "fcf-feta-cheese",
+      "title": "Feta Cheese"
+    },
+    {
+      "variant_id": "cheddar-cheese",
+      "canonical_id": "lgc-farmhouse-cheddar",
+      "title": "Farmhouse Cheddar"
+    },
+    {
+      "variant_id": "gouda-cheese",
+      "canonical_id": "cheesemaking-gouda",
+      "title": "Gouda Cheese"
+    },
+    {
+      "variant_id": "colby-cheese",
+      "canonical_id": "psr-colby-cheese",
+      "title": "Colby Cheese"
+    },
+    {
+      "variant_id": "havarti-cheese",
+      "canonical_id": "cheesemaking-havarti",
+      "title": "Havarti Cheese"
+    },
+    {
+      "variant_id": "psr-creme-fraiche",
+      "canonical_id": "creme-fraiche",
+      "title": "Cr\u00e8me Fra\u00eeche"
+    },
+    {
+      "variant_id": "provolone-cheese",
+      "canonical_id": "cheesemaking-provolone",
+      "title": "Provolone Cheese"
+    },
+    {
+      "variant_id": "cf-ricotta-stuffed-shells",
+      "canonical_id": "ricotta-stuffed-shells",
+      "title": "Ricotta Stuffed Shells"
+    },
+    {
+      "variant_id": "scandinavian-jarlsberg",
+      "canonical_id": "norwegian-jarlsberg",
+      "title": "Norwegian Jarlsberg"
+    },
+    {
+      "variant_id": "bleu-dauvergne-cheese",
+      "canonical_id": "bleu-d-auvergne",
+      "title": "Bleu d'Auvergne"
+    },
+    {
+      "variant_id": "artisan-french-bleu-dauvergne",
+      "canonical_id": "bleu-d-auvergne",
+      "title": "Bleu d'Auvergne"
+    },
+    {
+      "variant_id": "queso-oaxaca",
+      "canonical_id": "queso-oaxaca-cheese",
+      "title": "Queso Oaxaca"
+    },
+    {
+      "variant_id": "fourme-dambert-cheese",
+      "canonical_id": "fourme-d-ambert",
+      "title": "Fourme d'Ambert"
+    },
+    {
+      "variant_id": "caerphilly-cheese",
+      "canonical_id": "lgc-caerphilly",
+      "title": "Caerphilly Cheese"
+    },
+    {
+      "variant_id": "crescenza-stracchino",
+      "canonical_id": "crescenza-cheese",
+      "title": "Crescenza (Stracchino)"
+    },
+    {
+      "variant_id": "psr-homemade-cheddar",
+      "canonical_id": "psr-homemade-cheddar-cheese",
+      "title": "Homemade Cheddar Cheese"
+    },
+    {
+      "variant_id": "psr-18th-century-farmhouse-cheddar",
+      "canonical_id": "18th-century-farmhouse-cheddar",
+      "title": "18th Century Farmhouse Cheddar"
+    },
+    {
+      "variant_id": "psr-cultured-mozzarella",
+      "canonical_id": "psr-traditional-cultured-mozzarella",
+      "title": "Traditional Cultured Mozzarella"
+    },
+    {
+      "variant_id": "welsh-caerphilly-traditional",
+      "canonical_id": "traditional-caerphilly-welsh",
+      "title": "Traditional Welsh Caerphilly"
+    },
+    {
+      "variant_id": "pleasant-ridge-reserve",
+      "canonical_id": "uplands-cheese-pleasant-ridge",
+      "title": "Pleasant Ridge Reserve"
+    },
+    {
+      "variant_id": "stilton-white",
+      "canonical_id": "british-white-stilton",
+      "title": "White Stilton"
+    },
+    {
+      "variant_id": "valencay",
+      "canonical_id": "valencay-2",
+      "title": "Valen\u00e7ay"
+    },
+    {
+      "variant_id": "abbaye-belloc",
+      "canonical_id": "abbaye-de-belloc",
+      "title": "Abbaye de Belloc"
+    },
+    {
+      "variant_id": "ragusano-dop",
+      "canonical_id": "ragusano",
+      "title": "Ragusano DOP"
+    },
+    {
+      "variant_id": "ita-ragusano-dop",
+      "canonical_id": "ragusano",
+      "title": "Ragusano DOP"
+    },
+    {
+      "variant_id": "samso",
+      "canonical_id": "samsoe",
+      "title": "Sams\u00f8"
+    },
+    {
+      "variant_id": "norwegian-gamalost",
+      "canonical_id": "gamalost",
+      "title": "Gamalost"
+    },
+    {
+      "variant_id": "norwegian-pultost",
+      "canonical_id": "pultost",
+      "title": "Pultost"
+    },
+    {
+      "variant_id": "norwegian-ridder",
+      "canonical_id": "ridder",
+      "title": "Ridder"
+    },
+    {
+      "variant_id": "nokkelost-2",
+      "canonical_id": "nokkelost",
+      "title": "N\u00f8kkelost"
+    },
+    {
+      "variant_id": "cheddar-applewood",
+      "canonical_id": "smoked-cheddar-applewood",
+      "title": "Applewood Smoked Cheddar"
+    },
+    {
+      "variant_id": "cheddar-port-wine",
+      "canonical_id": "cheddar-port",
+      "title": "Port Wine Cheddar"
+    },
+    {
+      "variant_id": "mozzarella-bufala-dop",
+      "canonical_id": "water-buffalo-mozzarella-campana",
+      "title": "Mozzarella di Bufala Campana DOP"
+    },
+    {
+      "variant_id": "mozzarella-di-bufala-campana",
+      "canonical_id": "water-buffalo-mozzarella-campana",
+      "title": "Mozzarella di Bufala Campana DOP"
+    },
+    {
+      "variant_id": "mozzarella-bocconcini",
+      "canonical_id": "bocconcini",
+      "title": "Bocconcini"
+    },
+    {
+      "variant_id": "mozzarella-ciliegine",
+      "canonical_id": "ciliegine",
+      "title": "Ciliegine"
+    },
+    {
+      "variant_id": "ricotta-fresca-buffalo",
+      "canonical_id": "ricotta-di-bufala",
+      "title": "Ricotta di Bufala"
+    },
+    {
+      "variant_id": "bleu-du-vercors-sassenage",
+      "canonical_id": "bleu-du-vercors-sassenage-aop",
+      "title": "Bleu du Vercors-Sassenage AOP"
+    },
+    {
+      "variant_id": "ita-fontina-valdaosta",
+      "canonical_id": "fontina-val-d-aosta",
+      "title": "Fontina Val d'Aosta DOP"
+    },
+    {
+      "variant_id": "danish-blue",
+      "canonical_id": "danish-blue-cheese",
+      "title": "Danish Blue (Danablu)"
+    },
+    {
+      "variant_id": "danish-blue-danablu",
+      "canonical_id": "danish-blue-cheese",
+      "title": "Danish Blue (Danablu)"
+    },
+    {
+      "variant_id": "monterey-jack",
+      "canonical_id": "lgc-monterey-jack",
+      "title": "Monterey Jack"
+    },
+    {
+      "variant_id": "fcf-whole-milk-ricotta",
+      "canonical_id": "lgc-whole-milk-ricotta",
+      "title": "Whole Milk Ricotta"
+    },
+    {
+      "variant_id": "crottin-de-chavignol",
+      "canonical_id": "french-crottin-chavignol",
+      "title": "Crottin de Chavignol"
+    },
+    {
+      "variant_id": "sirene",
+      "canonical_id": "bulgarian-sirene",
+      "title": "Sirene (Bulgarian White Cheese)"
+    },
+    {
+      "variant_id": "dorset-blue-vinny",
+      "canonical_id": "british-dorset-blue-vinny",
+      "title": "Dorset Blue Vinny"
+    },
+    {
+      "variant_id": "caciocavallo-silano",
+      "canonical_id": "ita-caciocavallo-silano",
+      "title": "Caciocavallo Silano DOP"
+    },
+    {
+      "variant_id": "ita-toma-piemontese",
+      "canonical_id": "toma-piemontese-dop",
+      "title": "Toma Piemontese DOP"
+    },
+    {
+      "variant_id": "smoked-cheddar-hickory",
+      "canonical_id": "hickory-smoked-cheddar",
+      "title": "Hickory Smoked Cheddar"
+    },
+    {
+      "variant_id": "ethiopian-ayib",
+      "canonical_id": "ayib-ethiopian",
+      "title": "Ayib (Ethiopian Fresh Cheese)"
+    },
+    {
+      "variant_id": "chhurpi-himalayan",
+      "canonical_id": "nepali-chhurpi-hard",
+      "title": "Chhurpi (Himalayan Hard Cheese)"
+    },
+    {
+      "variant_id": "urda-romanian",
+      "canonical_id": "urda-romanian-whey-cheese",
+      "title": "Urda (Romanian Whey Cheese)"
+    },
+    {
+      "variant_id": "kajmak-serbian-cream-cheese",
+      "canonical_id": "serbian-kajmak",
+      "title": "Kajmak (Serbian Clotted Cream Cheese)"
+    },
+    {
+      "variant_id": "gouda-cumin-dutch",
+      "canonical_id": "dutch-komijnekaas",
+      "title": "Komijnekaas (Dutch Cumin Gouda)"
+    },
+    {
+      "variant_id": "apricot-stilton",
+      "canonical_id": "blue-stilton-apricot",
+      "title": "Apricot Stilton"
+    }
+  ],
+  "canonical_priority_rules": "\n1. Family/Personal (100 pts)\n2. Named Chef (90 pts)\n3. Branded/Published (80 pts)\n4. Reference Cookbook (70 pts)\n5. Digital Cookbook (65 pts)\n6. Project Gutenberg (60 pts)\n7. Specialty Digital (55 pts)\n8. Recipe Keeper (50 pts)\n9. No Source (30 pts)\n"
+}

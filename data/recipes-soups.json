@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "soups",
-    "count": 149,
+    "count": 141,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -1067,136 +1067,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
-        ]
-      }
-    },
-    {
-      "id": "broccoli-chicken-noodle-soup-lightened",
-      "collection": "reference",
-      "collection_display": "Reference Cookbook",
-      "title": "Broccoli and Chicken Noodle Soup",
-      "category": "soups",
-      "source_note": "Cooking Light Magazine - Lighten Up by Kathy Kitchens Downie, RD",
-      "servings_yield": "10 servings (serving size: 1 cup)",
-      "description": "If the broccoli florets are large, break into smaller pieces at the stalk instead of chopping them; they'll cook more quickly. Count on having dinner on the table in about 40 minutes, and serve this soup the moment it's done for the best results. In fact, if you wait, you'll find it gets thicker with time. If you have leftovers, you will want to thin the soup with a little chicken broth or milk to the desired consistency.",
-      "ingredients": [
-        {
-          "item": "cooking spray",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "chopped onion",
-          "quantity": "2",
-          "unit": "cups"
-        },
-        {
-          "item": "presliced mushrooms",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "garlic clove, minced",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "butter",
-          "quantity": "3",
-          "unit": "tbsp"
-        },
-        {
-          "item": "all-purpose flour (about 1/4 cup)",
-          "quantity": "1.1",
-          "unit": "oz"
-        },
-        {
-          "item": "1% low-fat milk",
-          "quantity": "4",
-          "unit": "cups"
-        },
-        {
-          "item": "fat-free, less-sodium chicken broth",
-          "quantity": "1",
-          "unit": "14-oz can"
-        },
-        {
-          "item": "uncooked vermicelli, broken into 2-inch pieces",
-          "quantity": "4",
-          "unit": "oz"
-        },
-        {
-          "item": "shredded light processed cheese (such as Velveeta Light)",
-          "quantity": "2",
-          "unit": "cups (8 oz)"
-        },
-        {
-          "item": "cubed cooked chicken breast",
-          "quantity": "4",
-          "unit": "cups (1-inch)"
-        },
-        {
-          "item": "small broccoli florets (8 ounces)",
-          "quantity": "3",
-          "unit": "cups"
-        },
-        {
-          "item": "half-and-half",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "freshly ground black pepper",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "salt",
-          "quantity": "3/4",
-          "unit": "tsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Heat a Dutch oven over medium-high heat. Coat pan with cooking spray. Add onion, mushrooms, and garlic to pan; sauté 5 minutes or until liquid evaporates, stirring occasionally. Reduce heat to medium; add butter to mushroom mixture, stirring until butter melts. Sprinkle mushroom mixture with flour; cook 2 minutes, stirring occasionally. Gradually add milk and broth, stirring constantly with a whisk; bring to a boil. Reduce heat to medium-low; cook 10 minutes or until slightly thick, stirring constantly."
-        },
-        {
-          "step": 2,
-          "text": "Add pasta to pan; cook 10 minutes. Add cheese to pan, and stir until cheese melts. Add chicken and remaining ingredients to pan; cook 5 minutes or until broccoli is tender and soup is thoroughly heated. Yield: 10 servings (serving size: 1 cup)."
-        }
-      ],
-      "notes": [
-        "Before: CALORIES 534, FAT 33g, SODIUM 1,289mg | After: CALORIES 317; FAT 12.3g (sat 6.8g, mono 2.9g, poly 0.9g); PROTEIN 27.5g; CARB 23.8g; FIBER 1.9g; CHOL 74mg; IRON 1.6mg; SODIUM 723mg; CALC 179mg"
-      ],
-      "tags": [
-        "soup",
-        "chicken",
-        "broccoli",
-        "noodle",
-        "lightened"
-      ],
-      "image_refs": [
-        "magazine-recipes - 35.jpeg"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 476,
-          "fat_g": 30.1,
-          "carbs_g": 13.8,
-          "protein_g": 36.3,
-          "sodium_mg": 641,
-          "fiber_g": 1.5,
-          "sugar_g": 7.5
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 10 servings"
         ]
       }
     },
@@ -7175,326 +7045,6 @@
       }
     },
     {
-      "id": "beef-soup-stock-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Beef Soup Stock",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Brodo di Carne",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "round of beef",
-          "quantity": "1",
-          "unit": "lb",
-          "prep_note": ""
-        },
-        {
-          "item": "water",
-          "quantity": "2",
-          "unit": "quarts",
-          "prep_note": ""
-        },
-        {
-          "item": "",
-          "quantity": "2",
-          "unit": "small",
-          "prep_note": "new carrots, or 1/2 of an old carrot"
-        },
-        {
-          "item": "beef bones",
-          "quantity": "1/2",
-          "unit": "lb",
-          "prep_note": ""
-        },
-        {
-          "item": "potatoes",
-          "quantity": "2",
-          "unit": "small",
-          "prep_note": ""
-        },
-        {
-          "item": "onion",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "tomato",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "fresh or canned"
-        },
-        {
-          "item": "Parsley",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Boil the beef, bones, and vegetables in two quarts of water over a slow fire—adding pepper and salt. Skim occasionally, and after two hours add two tablespoons of sherry; then strain through fine soup-strainer or cheese-cloth. This is the basis of all the following soups, except when otherwise stated."
-        },
-        {
-          "step": 2,
-          "text": "To make this stock richer, add a turkey leg to above receipt; boil one and a half hours, then add one-half a pound of finely chopped beef. Cook for half an hour longer, then strain."
-        },
-        {
-          "step": 3,
-          "text": "To make meat jelly, add a little gelatine to the soup stock five minutes before straining."
-        },
-        {
-          "step": 4,
-          "text": "To give a good dark color to the stock, add a few drops of \"caramel,\" which is prepared in the following manner:"
-        },
-        {
-          "step": 5,
-          "text": "Put three tablespoons of granulated sugar into a saucepan with a little water, and until the sugar has become dark and reddish; then add a little more water and boil again until the sugar is melted. Strain and pour into a bottle when the caramel will keep perfectly for several weeks."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Brodo di Carne"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 393,
-          "fat_g": 15.7,
-          "carbs_g": 22.3,
-          "protein_g": 39.0,
-          "sodium_mg": 110,
-          "fiber_g": 2.9,
-          "sugar_g": 3.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "rice-soup-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Rice Soup",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Minestra di Riso",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "Meat stock",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "rice",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Cover the rice with water and boil for ten minutes; then drain and add to the stock (after it has been strained), and boil for five or ten minutes more."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Minestra di Riso"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 10,
-          "fat_g": 0.1,
-          "carbs_g": 1.7,
-          "protein_g": 0.6,
-          "sodium_mg": 215,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "stracciatella-soup-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Stracciatella Soup",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Minestra di Stracciatella",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Parmesan cheese",
-          "quantity": "1/2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "bread crumbs",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Beat the egg, yolk and white together; add salt and the cheese, grated, and the bread crumbs; mix well together and add to the boiling stock (strained). Stir well with a fork to prevent the egg from setting, and boil for four or five minutes."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Minestra di Stracciatella"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 27,
-          "fat_g": 1.5,
-          "carbs_g": 1.3,
-          "protein_g": 2.0,
-          "sodium_mg": 42,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "vegetable-chowder-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Vegetable Chowder",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Minestrone alla Milanese",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "stock 2 slices of lean pork",
-          "quantity": "1/2",
-          "unit": "quart",
-          "prep_note": "or a ham bone 2 tomatoes, fresh or canned 1 cup of rice 2 tablespoons of dried beans 1 tablespoon of peas, fresh or canned 2 onions"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Put into the stock the slices of pork, cut into small pieces; or, if desired, a ham bone may be substituted for the pork. Add the tomatoes, cut into small pieces also, the onions, in small pieces, and the rice. Boil all together until the rice is cooked. Then add the beans and the peas and cook a little longer. The soup is ready when it is thick. If desired, this chowder can be made with fish broth instead of the stock, and with the addition of shrimps which have been taken from their shells."
-        },
-        {
-          "step": 2,
-          "text": "This dish can be served hot or cold."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Minestrone alla Milanese"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 8,
-          "fat_g": 0.2,
-          "carbs_g": 0.5,
-          "protein_g": 1.0,
-          "sodium_mg": 430,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "fish-broth-gutenberg-6385",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -7575,248 +7125,6 @@
         "missing_inputs": [
           "1 liberal pound of fresh codfish"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "lentil-soup-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Lentil Soup",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Brodo di Lenticchie",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "dried lentils 1/2 tablespoon of butter 2 tablespoons of cream Meat stock",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Cover the lentils with water and boil until they are quite soft. Pass them through a colander or a sieve. Melt the butter in a saucepan, add the lentils and cream, mixing well, then add a ladleful of the stock, and boil for a few minutes; then add the rest of the desired amount of stock, a ladleful at a time."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Brodo di Lenticchie"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 1,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.1,
-          "sodium_mg": 40,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "lettuce-soup-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Lettuce Soup",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Zuppa di Lattuga",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "lettuce Meat stock 2 potatoes The leaves of a head of celery 2 tablespoons of peas",
-          "quantity": "1",
-          "unit": "small",
-          "prep_note": "fresh or canned 1 heaping tablespoon of flour"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Put the potatoes, cold boiled, into the stock when it boils, add the celery leaves, the lettuce chopped up, the peas, and the flour mixed well with a little cold stock or water. Boil for one hour and a half, and serve with little squares of fried bread."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Zuppa di Lattuga"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [
-          "1 small lettuce Meat stock 2 potatoes The leaves of a head of celery 2 tablespoons of peas"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "pumpkin-soup-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Pumpkin Soup",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Zuppa di Zucca",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "pumpkin 2 tablespoons of butter 1/2 cup of water 1-1/2 cups of milk 1 tablespoon of sugar",
-          "quantity": "1",
-          "unit": "slice",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Peel the pumpkin and remove the seeds, cut into small pieces, and put into a saucepan with the butter, the sugar, a pinch of salt, and the water. Boil for two hours, then drain and put back into the saucepan with the milk, which has been boiled. Allow it to come to a boil, and then serve it with squares of fried bread."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Zuppa di Zucca"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "potato-soup-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Potato Soup",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Zuppa alla Provinciale",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "potatoes 3 tablespoons of cream or milk 2 tablespoons of butter 2 yolks of eggs Soup stock",
-          "quantity": "2",
-          "unit": "large",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Boil the potatoes, then rub them through a sieve. Put them into a saucepan with the butter, a little salt, and the cream or milk. Simmer until it is thick, then add the yolks of the two eggs to form it into a paste. Turn out onto the bread-board, cut into small dice, and throw them into the stock, which must be boiling. If desired, before serving sprinkle a little Parmesan cheese into the soup."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Zuppa alla Provinciale"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 36,
-          "fat_g": 2.5,
-          "carbs_g": 0.2,
-          "protein_g": 3.0,
-          "sodium_mg": 36,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
-        },
-        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -15864,8 +15172,100 @@
         "cream-soup",
         "soup",
         "blue-cheese",
-        "cauliflower",
-        "cheesemaking"
+        "cauliflower"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-gazpacho",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Gazpacho",
+      "category": "soups",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Refreshing cold Spanish tomato soup",
+      "servings_yield": "4 servings",
+      "prep_time": "50 min",
+      "cook_time": "0 min",
+      "total_time": "50 min",
+      "ingredients": [
+        {
+          "item": "cucumber, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "red pepper, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "green pepper, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "ripe plum tomatoes, chopped",
+          "quantity": "1",
+          "unit": "kg"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "spring onions",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "stale bread, chopped",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "sherry vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "4",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine vegetables, bread, and seasonings. Add vinegar and oil."
+        },
+        {
+          "step": 2,
+          "text": "Press down and chill at least 30 minutes or overnight."
+        },
+        {
+          "step": 3,
+          "text": "Blend until smooth. Add more oil if needed."
+        },
+        {
+          "step": 4,
+          "text": "Adjust seasoning. Serve ice cold with toasted bread."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "soup",
+        "spanish",
+        "cold",
+        "summer",
+        "vegetarian",
+        "gordon-ramsay"
       ],
       "confidence": {
         "overall": "high",
