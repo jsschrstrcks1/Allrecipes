@@ -21,8 +21,8 @@ OPTIONAL_FIELDS = ['attribution', 'source_note', 'description', 'servings_yield'
                    'conversions', 'nutrition', 'variant_of', 'variant_notes', 'canonical_id',
                    'frosting', 'oven_directions']
 
-VALID_CATEGORIES = ['appetizers', 'beverages', 'breads', 'breakfast', 'desserts',
-                    'mains', 'salads', 'sides', 'soups', 'snacks']
+VALID_CATEGORIES = ['appetizers', 'basics', 'beverages', 'breads', 'breakfast',
+                    'cheese', 'desserts', 'mains', 'salads', 'sides', 'soups', 'snacks']
 
 VALID_CONFIDENCE = ['high', 'medium', 'low']
 
@@ -205,8 +205,15 @@ class RecipeValidator:
         data_dir = Path(__file__).parent.parent / 'data'
         for ref in image_refs:
             img_path = data_dir / ref
+            # Also check with common extensions if exact path doesn't exist
             if not img_path.exists():
-                self.warn(recipe_id, f"Referenced image not found: {ref}")
+                found = False
+                for ext in ['.PNG', '.jpeg', '.jpg', '.png']:
+                    if (data_dir / (ref + ext)).exists():
+                        found = True
+                        break
+                if not found:
+                    self.warn(recipe_id, f"Referenced image not found: {ref}")
 
     def validate_nutrition(self, recipe_id, nutrition):
         """Validate nutrition data consistency."""
