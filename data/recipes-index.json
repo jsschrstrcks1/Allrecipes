@@ -2,7 +2,7 @@
   "meta": {
     "title": "Other Family Recipes",
     "description": "Digital cookbook recipes and magazine clippings, preserved with love",
-    "total_recipes": 5840,
+    "total_recipes": 5722,
     "last_updated": "2026-01-23",
     "version": "3.0.0",
     "sharded": true,
@@ -22,17 +22,17 @@
     {
       "category": "beverages",
       "file": "recipes-beverages.json",
-      "count": 56
+      "count": 52
     },
     {
       "category": "breads",
       "file": "recipes-breads.json",
-      "count": 289
+      "count": 285
     },
     {
       "category": "breakfast",
       "file": "recipes-breakfast.json",
-      "count": 417
+      "count": 344
     },
     {
       "category": "cheese",
@@ -42,22 +42,22 @@
     {
       "category": "desserts",
       "file": "recipes-desserts.json",
-      "count": 671
+      "count": 666
     },
     {
       "category": "mains",
       "file": "recipes-mains.json",
-      "count": 1722
+      "count": 1710
     },
     {
       "category": "salads",
       "file": "recipes-salads.json",
-      "count": 144
+      "count": 143
     },
     {
       "category": "sides",
       "file": "recipes-sides.json",
-      "count": 1861
+      "count": 1851
     },
     {
       "category": "snacks",
@@ -67,7 +67,7 @@
     {
       "category": "soups",
       "file": "recipes-soups.json",
-      "count": 150
+      "count": 141
     }
   ],
   "recipes": [
@@ -307,22 +307,6 @@
       "collection": "reference",
       "description": "Meat-based pasta sauces are popular throughout Italy. The most prominent, ragù alla Bolognese, originated in the northern city of Bologna. Even among residents of the city from which it hails, different variations abound.",
       "servings_yield": "6 servings",
-      "total_time": ""
-    },
-    {
-      "id": "french-onion-burgers",
-      "title": "French Onion Burgers",
-      "category": "mains",
-      "tags": [
-        "main",
-        "burger",
-        "french onion",
-        "beef",
-        "cheese"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "4 servings",
       "total_time": ""
     },
     {
@@ -10453,110 +10437,6 @@
       "total_time": ""
     },
     {
-      "id": "ribbon-macaroni-gutenberg-6385",
-      "title": "Ribbon Macaroni",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Pasta fatta in Casa. Fettuccini",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "rice-with-peas-gutenberg-6385",
-      "title": "Rice With Peas",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "rice-alla-romana-gutenberg-6385",
-      "title": "Rice \"Alla Romana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Risotto alla Romana",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-gutenberg-6385",
-      "title": "Polenta",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Indian Meal",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-alla-toscana-gutenberg-6385",
-      "title": "Polenta \"Alla Toscana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-pasticciata-gutenberg-6385",
-      "title": "Polenta Pasticciata",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "gnocchi-of-farina-gutenberg-6385",
-      "title": "Gnocchi Of Farina",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Gnocchi di Semolina",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "english-drawn-butter-gutenberg-6429",
-      "title": "English Drawn Butter",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "cheese-and-jelly-tray-cottage-cheese",
       "title": "Cheese And Jelly Tray",
       "category": "mains",
@@ -17972,45 +17852,6 @@
       "total_time": ""
     },
     {
-      "id": "recipe-via-meal-master-v-800-thebackcou",
-      "title": "Recipe via Meal-Master ™ v 8.00",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "8-t-butter-or-margarine-4-t-garli-g-thebackcou",
-      "title": "8 T Butter or margarine 4 T Garli-Ghetti seasoning",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "c-broccoli-chopped-c-celery-root-ch-thebackcou",
-      "title": "¼ c Broccoli, chopped ¼ c Celery root, chopped",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "patedeveau-theamerica",
       "title": "Patedeveau",
       "category": "mains",
@@ -21730,21 +21571,6 @@
       "total_time": ""
     },
     {
-      "id": "sour-cream-chocolate-cake",
-      "title": "Sour Cream Chocolate Cake",
-      "category": "desserts",
-      "tags": [
-        "dessert",
-        "cake",
-        "chocolate",
-        "sour cream"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 servings",
-      "total_time": "2 hours"
-    },
-    {
       "id": "mango-agave-sorbet",
       "title": "Mango-Agave Sorbet",
       "category": "desserts",
@@ -23562,58 +23388,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "sweet-ravioli-gutenberg-6385",
-      "title": "Sweet Ravioli",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Ravioli Dolce",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-cake-gutenberg-6385",
-      "title": "Polenta Cake",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Migliaccio di Farina Gialla",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "gnocchi-of-milka-dessert-gutenberg-6385",
-      "title": "Gnocchi Of Milk—A Dessert",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "egg-pudding-gutenberg-6429",
-      "title": "Egg Pudding",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -29871,23 +29645,6 @@
       "total_time": ""
     },
     {
-      "id": "honey-bran-muffins-ref",
-      "title": "Honey Bran Muffins",
-      "category": "breads",
-      "tags": [
-        "bread",
-        "muffins",
-        "bran",
-        "honey",
-        "healthy",
-        "breakfast"
-      ],
-      "collection": "reference",
-      "description": "Wholesome bran muffins sweetened with honey and studded with raisins.",
-      "servings_yield": "12 muffins",
-      "total_time": ""
-    },
-    {
       "id": "wholewheat-maple-bread-ref",
       "title": "Wholewheat Maple Bread",
       "category": "breads",
@@ -31246,22 +31003,6 @@
       "total_time": "35 minutes"
     },
     {
-      "id": "lemon-raspberry-almond-muffins",
-      "title": "Lemon Raspberry Almond Muffins",
-      "category": "breads",
-      "tags": [
-        "muffins",
-        "lemon",
-        "raspberry",
-        "almond",
-        "breakfast"
-      ],
-      "collection": "reference",
-      "description": "These muffins have a lovely tart flavor from the pairing of lemon and raspberry.",
-      "servings_yield": "12 muffins",
-      "total_time": "35 minutes"
-    },
-    {
       "id": "apple-white-chocolate-muffins",
       "title": "Apple White Chocolate Muffins",
       "category": "breads",
@@ -31274,38 +31015,6 @@
       ],
       "collection": "reference",
       "description": "In this divine muffin recipe, the classic pairing of apple and cinnamon are enhanced by white chocolate.",
-      "servings_yield": "12 muffins",
-      "total_time": "35 minutes"
-    },
-    {
-      "id": "peanut-butter-and-jelly-muffins",
-      "title": "Peanut Butter and Jelly Muffins",
-      "category": "breads",
-      "tags": [
-        "muffins",
-        "peanut-butter",
-        "jelly",
-        "kids",
-        "breakfast"
-      ],
-      "collection": "reference",
-      "description": "A childhood favorite in a ready to go muffin; kids will love these.",
-      "servings_yield": "12 muffins",
-      "total_time": "35 minutes"
-    },
-    {
-      "id": "bacon-cheese-muffins",
-      "title": "Bacon Cheese Muffins",
-      "category": "breads",
-      "tags": [
-        "muffins",
-        "bacon",
-        "cheese",
-        "savory",
-        "breakfast"
-      ],
-      "collection": "reference",
-      "description": "These delightful muffins are a perfect addition to any breakfast table.",
       "servings_yield": "12 muffins",
       "total_time": "35 minutes"
     },
@@ -33690,20 +33399,6 @@
       "total_time": ""
     },
     {
-      "id": "buckwheat-pancakes-ref",
-      "title": "Buckwheat Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "buckwheat"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
       "id": "german-pancakes-ref",
       "title": "German Pancakes",
       "category": "breakfast",
@@ -33718,37 +33413,6 @@
       "collection": "reference",
       "description": "A puffy oven-baked pancake with lemon - also known as a Dutch Baby.",
       "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "lemon-blueberry-pancakes-ref",
-      "title": "Lemon Blueberry Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "lemon",
-        "blueberry",
-        "fruit"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "silver-dollar-pancakes-ref",
-      "title": "Silver Dollars",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "mini",
-        "kids"
-      ],
-      "collection": "reference",
-      "description": "Mini pancakes perfect for little hands.",
-      "servings_yield": "24 mini pancakes",
       "total_time": ""
     },
     {
@@ -33768,212 +33432,6 @@
       "total_time": ""
     },
     {
-      "id": "cinnamon-spice-cakes-ref",
-      "title": "Cinnamon Spice Cakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "cinnamon",
-        "spice",
-        "fall"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "banana-sour-cream-pancakes-ref",
-      "title": "Banana Sour Cream Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "banana",
-        "sour cream",
-        "whole wheat"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "cinnamon-chocolate-pancakes-ref",
-      "title": "Cinnamon Chocolate Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "chocolate",
-        "cinnamon"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "toasted-pecan-blueberry-pancakes-ref",
-      "title": "Toasted Pecan Blueberry Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "blueberry",
-        "pecan",
-        "whole wheat"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "blueberry-buckwheat-pancakes-ref",
-      "title": "Blueberry Buckwheat Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "blueberry",
-        "buckwheat"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "banana-blueberry-pancakes-ref",
-      "title": "Banana Blueberry Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "banana",
-        "blueberry",
-        "fruit"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "monkey-pancakes-ref",
-      "title": "Monkey Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "banana",
-        "chocolate",
-        "kids"
-      ],
-      "collection": "reference",
-      "description": "Banana chocolate chip pancakes - a kid favorite!",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "cornmeal-berry-pancakes-ref",
-      "title": "Cornmeal and Berry Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "cornmeal",
-        "berries",
-        "honey butter"
-      ],
-      "collection": "reference",
-      "description": "Cornmeal pancakes served with honey butter and fresh berries.",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "toasted-pecan-buttermilk-pancakes-ref",
-      "title": "Toasted Pecan Buttermilk Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "pecan",
-        "buttermilk"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "autumn-spiced-pumpkin-pancakes-ref",
-      "title": "Autumn Spiced Pumpkin Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "pumpkin",
-        "fall",
-        "whole wheat",
-        "apple butter"
-      ],
-      "collection": "reference",
-      "description": "Whole wheat pancakes with warm fall spices, topped with apple butter.",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "healthy-apple-wheat-pancakes-ref",
-      "title": "Healthy Apple Wheat Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "apple",
-        "whole wheat",
-        "healthy",
-        "honey"
-      ],
-      "collection": "reference",
-      "description": "Whole wheat pancakes with fresh apples and honey, served with sugar-free jam.",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "citrus-pancakes-ref",
-      "title": "Citrus Blueberry Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "citrus",
-        "lemon",
-        "orange"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
-      "id": "apple-ginger-pancakes-ref",
-      "title": "Apple Ginger Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "breakfast",
-        "apple",
-        "ginger"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pancakes",
-      "total_time": ""
-    },
-    {
       "id": "oven-apple-pancakes-ref",
       "title": "Oven Apple Pancakes",
       "category": "breakfast",
@@ -33989,20 +33447,6 @@
       "total_time": ""
     },
     {
-      "id": "old-fashioned-belgium-waffles-ref",
-      "title": "Old Fashioned Belgium Waffles",
-      "category": "breakfast",
-      "tags": [
-        "waffles",
-        "breakfast",
-        "belgian"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "6 waffles",
-      "total_time": ""
-    },
-    {
       "id": "waffles-strawberries-whip-cream-ref",
       "title": "Waffles with Strawberries and Whip Cream",
       "category": "breakfast",
@@ -34010,36 +33454,6 @@
         "waffles",
         "breakfast",
         "strawberries",
-        "whipped cream"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "6 waffles",
-      "total_time": ""
-    },
-    {
-      "id": "waffles-summer-berries-ref",
-      "title": "Waffles with Summer Berries",
-      "category": "breakfast",
-      "tags": [
-        "waffles",
-        "breakfast",
-        "berries",
-        "summer"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "6 waffles",
-      "total_time": ""
-    },
-    {
-      "id": "peaches-cream-waffles-ref",
-      "title": "Peaches and Cream Waffles",
-      "category": "breakfast",
-      "tags": [
-        "waffles",
-        "breakfast",
-        "peaches",
         "whipped cream"
       ],
       "collection": "reference",
@@ -34059,37 +33473,6 @@
       ],
       "collection": "reference",
       "description": "These waffles require a bit of extra effort as the batter needs to be chilled overnight but the results are so worth it, a light and fluffy yet crisp waffle.",
-      "servings_yield": "6 waffles",
-      "total_time": ""
-    },
-    {
-      "id": "bananas-foster-waffles-ref",
-      "title": "Bananas Foster Waffles",
-      "category": "breakfast",
-      "tags": [
-        "waffles",
-        "breakfast",
-        "bananas foster",
-        "banana",
-        "pecans"
-      ],
-      "collection": "reference",
-      "description": "Light and crunchy waffles topped with sweet banana come together beautifully.",
-      "servings_yield": "6 waffles",
-      "total_time": ""
-    },
-    {
-      "id": "anise-waffles-ref",
-      "title": "Anise Waffles",
-      "category": "breakfast",
-      "tags": [
-        "waffles",
-        "breakfast",
-        "anise",
-        "licorice"
-      ],
-      "collection": "reference",
-      "description": "Anise lends a wonderful licorice-like flavor to these unique waffles.",
       "servings_yield": "6 waffles",
       "total_time": ""
     },
@@ -34368,22 +33751,6 @@
       "total_time": ""
     },
     {
-      "id": "mexican-eggs-ref",
-      "title": "Mexican Eggs",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "mexican",
-        "beans",
-        "quick"
-      ],
-      "collection": "reference",
-      "description": "Try these when you're in the mood for something a little different.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
       "id": "croque-madame-ref",
       "title": "Croque Madame",
       "category": "breakfast",
@@ -34416,37 +33783,6 @@
       "total_time": ""
     },
     {
-      "id": "huevos-rancheros-ref",
-      "title": "Huevos Rancheros",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "mexican",
-        "tortillas"
-      ],
-      "collection": "reference",
-      "description": "Spice up your breakfast with this great south-of-border dish.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "texas-eggs-ref",
-      "title": "Texas Eggs",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "texas",
-        "spicy",
-        "mexican"
-      ],
-      "collection": "reference",
-      "description": "This is perfect for those who love it hot!",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
       "id": "baked-eggs-ref",
       "title": "Baked Eggs",
       "category": "breakfast",
@@ -34459,22 +33795,6 @@
       ],
       "collection": "reference",
       "description": "Baked eggs are a great alternative to sunny side up, and these are perfect for brunch entertaining.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-and-eggs-ref",
-      "title": "Polenta and Eggs",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "polenta",
-        "italian",
-        "brunch"
-      ],
-      "collection": "reference",
-      "description": "Polenta is so creamy, and the eggs just add to the flavor.",
       "servings_yield": "",
       "total_time": ""
     },
@@ -34492,22 +33812,6 @@
       ],
       "collection": "reference",
       "description": "This omelette is the perfect weekend breakfast indulgence.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "johnnycakes-ref",
-      "title": "Johnnycakes",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "pancakes",
-        "cornmeal",
-        "johnnycakes",
-        "american"
-      ],
-      "collection": "reference",
-      "description": "Make enough of these because people will gobble them up.",
       "servings_yield": "",
       "total_time": ""
     },
@@ -34552,20 +33856,6 @@
       ],
       "collection": "reference",
       "description": "Try these light and fluffy Belgian waffles when you have company. They'll never leave.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "chocolate-waffle-ref",
-      "title": "Chocolate Waffle",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "waffles",
-        "chocolate"
-      ],
-      "collection": "reference",
-      "description": "Waffles are a Sunday treat that everyone loves.",
       "servings_yield": "",
       "total_time": ""
     },
@@ -34678,36 +33968,6 @@
       "total_time": ""
     },
     {
-      "id": "sausage-twist-ref",
-      "title": "Sausage Twist",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "sausage",
-        "pastry",
-        "savory"
-      ],
-      "collection": "reference",
-      "description": "This twist can be cut into individual pieces for a yummy breakfast.",
-      "servings_yield": "6 portions",
-      "total_time": ""
-    },
-    {
-      "id": "stuffed-french-toast-ref",
-      "title": "Stuffed French Toast",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "french toast",
-        "make-ahead",
-        "brunch"
-      ],
-      "collection": "reference",
-      "description": "French toast with a filling – yummy.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
       "id": "breakfast-frittata-ref",
       "title": "Breakfast Frittata",
       "category": "breakfast",
@@ -34737,38 +33997,6 @@
       "collection": "reference",
       "description": "There's no reason not to enjoy a delicious enchilada for breakfast.",
       "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "sausage-cheese-breakfast-pizza-ref",
-      "title": "Sausage and Cheese Breakfast Pizza",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "pizza",
-        "sausage",
-        "eggs",
-        "cheese"
-      ],
-      "collection": "reference",
-      "description": "Pizza for breakfast - a great way to start the day!",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "ham-cheese-muffins-ref",
-      "title": "Ham and Cheese Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "ham",
-        "cheese",
-        "savory"
-      ],
-      "collection": "reference",
-      "description": "Delicious and easy to prepare, these are great for breakfast or even lunch on the go.",
-      "servings_yield": "12 muffins",
       "total_time": ""
     },
     {
@@ -34802,70 +34030,6 @@
       "collection": "reference",
       "description": "Make these nutritious bars ahead of time and store in the fridge for a quick breakfast.",
       "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "breakfast-tacos-ref",
-      "title": "Breakfast Tacos",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "tacos",
-        "mexican",
-        "eggs",
-        "chorizo"
-      ],
-      "collection": "reference",
-      "description": "These delicious tacos make a hearty breakfast.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "breakfast-parfait-ref",
-      "title": "Breakfast Parfait",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "parfait",
-        "yogurt",
-        "healthy",
-        "make-ahead"
-      ],
-      "collection": "reference",
-      "description": "These delicious parfaits can be made ahead and refrigerated for a quick breakfast.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "breakfast-quinoa-ref",
-      "title": "Breakfast Quinoa",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "quinoa",
-        "healthy",
-        "vegan-option"
-      ],
-      "collection": "reference",
-      "description": "Try this breakfast quinoa, packed with fiber and protein, as a great alternative to your morning oatmeal.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "breakfast-calzone-ref",
-      "title": "Breakfast Calzone",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "calzone",
-        "sausage",
-        "eggs",
-        "make-ahead",
-        "freezer-friendly"
-      ],
-      "collection": "reference",
-      "description": "A hearty breakfast that can be made ahead and frozen for the week.",
-      "servings_yield": "6 calzones",
       "total_time": ""
     },
     {
@@ -34974,22 +34138,6 @@
       ],
       "collection": "reference",
       "description": "An easy all-in-one breakfast recipe; great for when you are cooking for a large group.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "french-toast-casserole-ref",
-      "title": "French Toast Casserole",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "french toast",
-        "casserole",
-        "make-ahead",
-        "brunch"
-      ],
-      "collection": "reference",
-      "description": "Prepare this delicious treat the night before and simply pop in the oven for a no fuss breakfast.",
       "servings_yield": "",
       "total_time": ""
     },
@@ -35120,38 +34268,6 @@
       "total_time": ""
     },
     {
-      "id": "egg-cheese-frittata-ref",
-      "title": "Egg and Cheese Frittata",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "frittata",
-        "cheese",
-        "quick"
-      ],
-      "collection": "reference",
-      "description": "A quick and easy breakfast frittata recipe that can easily be adapted to your taste.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "cheesy-eggs-spinach-skillet-ref",
-      "title": "Cheesy Eggs and Spinach Skillet Bake",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "frittata",
-        "spinach",
-        "cheese"
-      ],
-      "collection": "reference",
-      "description": "An easy frittata recipe that can be served for breakfast or paired with a salad for lunch or dinner.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
       "id": "apple-pie-french-toast-ref",
       "title": "Apple Pie French Toast",
       "category": "breakfast",
@@ -35164,21 +34280,6 @@
       "collection": "reference",
       "description": "",
       "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "basic-flapjacks-ref",
-      "title": "Basic Flapjacks",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "pancakes",
-        "flapjacks",
-        "basic"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "12 pieces",
       "total_time": ""
     },
     {
@@ -35211,21 +34312,6 @@
       "total_time": ""
     },
     {
-      "id": "traditional-hotcakes-ref",
-      "title": "Traditional Hotcakes",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "hotcakes",
-        "cornmeal",
-        "southern"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "6 cakes",
-      "total_time": ""
-    },
-    {
       "id": "apple-bacon-cheese-muffin-sandwiches-ref",
       "title": "Apple-Bacon-Cheese Muffin Sandwiches",
       "category": "breakfast",
@@ -35255,22 +34341,6 @@
       "collection": "reference",
       "description": "",
       "servings_yield": "8 servings",
-      "total_time": ""
-    },
-    {
-      "id": "breakfast-churros-ref",
-      "title": "Breakfast Churros",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "churros",
-        "mexican",
-        "fried",
-        "pastry"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "6 servings",
       "total_time": ""
     },
     {
@@ -35313,21 +34383,6 @@
         "eggs",
         "mushroom",
         "cheese"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "2 servings",
-      "total_time": ""
-    },
-    {
-      "id": "chocolate-chip-porridge-ref",
-      "title": "Chocolate Chip Porridge",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "oatmeal",
-        "chocolate",
-        "quick"
       ],
       "collection": "reference",
       "description": "",
@@ -35395,21 +34450,6 @@
       "total_time": ""
     },
     {
-      "id": "fruity-latvian-breakfast-ref",
-      "title": "Fruity Latvian Breakfast",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "fruit",
-        "healthy",
-        "latvian"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "2 servings",
-      "total_time": ""
-    },
-    {
       "id": "grilled-fruity-croissant-sandwich-ref",
       "title": "Grilled Fruity Croissant Sandwich",
       "category": "breakfast",
@@ -35422,23 +34462,6 @@
       "collection": "reference",
       "description": "",
       "servings_yield": "2 servings",
-      "total_time": ""
-    },
-    {
-      "id": "ham-cheese-open-faced-sandwiches-ref",
-      "title": "Ham and Cheese Open-Faced Sandwiches",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "sandwich",
-        "open-faced",
-        "ham",
-        "bacon",
-        "eggs"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "4 servings",
       "total_time": ""
     },
     {
@@ -35474,211 +34497,6 @@
       "total_time": ""
     },
     {
-      "id": "salmon-and-rocket-sandwich-ref",
-      "title": "Salmon and Rocket Sandwich",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "sandwich",
-        "salmon",
-        "quick"
-      ],
-      "collection": "reference",
-      "description": "A tasty breakfast sandwich with smoked salmon, bacon, and fresh rocket.",
-      "servings_yield": "2 servings",
-      "total_time": ""
-    },
-    {
-      "id": "spicy-breakfast-migas-ref",
-      "title": "Spicy Breakfast Migas",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "tex-mex",
-        "spicy"
-      ],
-      "collection": "reference",
-      "description": "A Tex-Mex breakfast dish with crispy tortillas and scrambled eggs.",
-      "servings_yield": "2 servings",
-      "total_time": ""
-    },
-    {
-      "id": "southern-grits-ref",
-      "title": "Southern Grits",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "southern",
-        "grits",
-        "side"
-      ],
-      "collection": "reference",
-      "description": "Classic Southern-style cheesy grits.",
-      "servings_yield": "6 servings",
-      "total_time": ""
-    },
-    {
-      "id": "bacon-and-tomato-frittata-ref",
-      "title": "Bacon and Tomato Frittata",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "frittata",
-        "bacon"
-      ],
-      "collection": "reference",
-      "description": "A satisfying, hearty breakfast that is quick and easy to prepare.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "broccoli-and-cheese-frittata-ref",
-      "title": "Broccoli and Cheese Frittata",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "frittata",
-        "broccoli",
-        "vegetarian"
-      ],
-      "collection": "reference",
-      "description": "An easy to follow frittata recipe that is sure to be a crowd pleaser.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "cherry-chocolate-scones-ref",
-      "title": "Cherry Chocolate Scones",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "scones",
-        "baking",
-        "chocolate",
-        "cherry"
-      ],
-      "collection": "reference",
-      "description": "These scones make a tasty breakfast treat.",
-      "servings_yield": "8 scones",
-      "total_time": ""
-    },
-    {
-      "id": "apricot-scones-ref",
-      "title": "Apricot Scones",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "scones",
-        "baking",
-        "apricot"
-      ],
-      "collection": "reference",
-      "description": "A delicious treat to go with your morning coffee.",
-      "servings_yield": "8 scones",
-      "total_time": ""
-    },
-    {
-      "id": "cinnamon-oat-scones-ref",
-      "title": "Cinnamon Oat Scones",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "scones",
-        "baking",
-        "oats",
-        "cinnamon"
-      ],
-      "collection": "reference",
-      "description": "A delicious lightly spiced scone. Serve for breakfast or as a teatime treat.",
-      "servings_yield": "8 scones",
-      "total_time": ""
-    },
-    {
-      "id": "pumpkin-chocolate-chip-scones-ref",
-      "title": "Pumpkin Chocolate Chip Scones",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "scones",
-        "baking",
-        "pumpkin",
-        "chocolate"
-      ],
-      "collection": "reference",
-      "description": "Pumpkin and chocolate pair beautifully together in this delicious scone.",
-      "servings_yield": "8 scones",
-      "total_time": ""
-    },
-    {
-      "id": "apple-cheddar-muffins-ref",
-      "title": "Apple Cheddar Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "baking",
-        "apple",
-        "cheese"
-      ],
-      "collection": "reference",
-      "description": "Cheddar and apple go well together in this tasty breakfast muffin.",
-      "servings_yield": "12 muffins",
-      "total_time": ""
-    },
-    {
-      "id": "banana-cinnamon-muffins-ref",
-      "title": "Banana Cinnamon Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "baking",
-        "banana",
-        "cinnamon"
-      ],
-      "collection": "reference",
-      "description": "Delicious and moist to the last bite, these muffins will disappear quickly.",
-      "servings_yield": "12 muffins",
-      "total_time": ""
-    },
-    {
-      "id": "raisin-bran-muffins-ref",
-      "title": "Raisin Bran Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "baking",
-        "bran",
-        "fiber",
-        "raisins"
-      ],
-      "collection": "reference",
-      "description": "Delicious breakfast muffins that are a great source of fiber.",
-      "servings_yield": "12 muffins",
-      "total_time": ""
-    },
-    {
-      "id": "raspberry-cheesecake-poppy-seed-muffins-ref",
-      "title": "Raspberry Cheesecake Poppy Seed Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "baking",
-        "raspberry",
-        "cream cheese",
-        "poppy seeds"
-      ],
-      "collection": "reference",
-      "description": "Cream cheese and tart raspberries are a great match in these delicious, moist muffins.",
-      "servings_yield": "12 muffins",
-      "total_time": ""
-    },
-    {
       "id": "triple-threat-berry-muffins-ref",
       "title": "Triple Threat Berry Muffins",
       "category": "breakfast",
@@ -35706,22 +34524,6 @@
       ],
       "collection": "reference",
       "description": "A great muffin to go with your morning coffee.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "cinnamon-and-spice-muffins-ref",
-      "title": "Cinnamon and Spice Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "cinnamon",
-        "spice",
-        "baking"
-      ],
-      "collection": "reference",
-      "description": "These spiced muffins are great for breakfast, teatime or just a snack on the go.",
       "servings_yield": "",
       "total_time": ""
     },
@@ -35775,23 +34577,6 @@
       "total_time": ""
     },
     {
-      "id": "nutella-muffins-ref",
-      "title": "Nutella Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "nutella",
-        "chocolate",
-        "hazelnut",
-        "baking"
-      ],
-      "collection": "reference",
-      "description": "Deliciously moist to the last bite, these muffins are sure to disappear quickly.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
       "id": "maple-bacon-muffins-ref",
       "title": "Maple Bacon Muffins",
       "category": "breakfast",
@@ -35805,53 +34590,6 @@
       ],
       "collection": "reference",
       "description": "These savory muffins are great served warm for breakfast or even a snack.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "eggnog-muffins-ref",
-      "title": "Eggnog Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "holiday",
-        "eggnog",
-        "baking"
-      ],
-      "collection": "reference",
-      "description": "These lightly spiced eggnog muffins are a great holiday treat.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "coconut-muffins-ref",
-      "title": "Coconut Muffins",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "muffins",
-        "coconut",
-        "baking"
-      ],
-      "collection": "reference",
-      "description": "Definitely for coconut lovers - this light, moist muffin is sure to be a crowd pleaser.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "hash-brown-frittata-ref",
-      "title": "Hash Brown Frittata",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "eggs",
-        "frittata",
-        "hash browns",
-        "spinach"
-      ],
-      "collection": "reference",
-      "description": "A filling frittata recipe that can be made for breakfast, lunch or dinner.",
       "servings_yield": "",
       "total_time": ""
     },
@@ -36157,65 +34895,6 @@
       "total_time": ""
     },
     {
-      "id": "gingerbread-waffles-ref",
-      "title": "Gingerbread Waffles",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "waffles",
-        "gingerbread",
-        "holiday",
-        "spiced"
-      ],
-      "collection": "reference",
-      "description": "With wonderful warm spices, this seasonal waffle recipe is great for the festive season.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "norwegian-waffles-ref",
-      "title": "Norwegian Waffles",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "waffles",
-        "norwegian"
-      ],
-      "collection": "reference",
-      "description": "Deliciously light and fluffy waffles that are so easy to whip up.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "cornmeal-waffles-ref",
-      "title": "Cornmeal Waffles",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "waffles",
-        "cornmeal",
-        "savory"
-      ],
-      "collection": "reference",
-      "description": "These savory waffles are great served with a bowl of stew, chili or soup.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "banana-waffles-ref",
-      "title": "Banana Waffles",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "waffles",
-        "banana"
-      ],
-      "collection": "reference",
-      "description": "These waffles are great as a snack, breakfast or dessert.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
       "id": "spiced-fruit-nut-granola-truvia",
       "title": "Spiced Fruit and Nut Granola with Truvia Natural Sweetener",
       "category": "breakfast",
@@ -36424,22 +35103,6 @@
       "description": "Fluffy pancakes studded with mini chocolate chips.",
       "servings_yield": "16 pancakes",
       "total_time": "25 minutes"
-    },
-    {
-      "id": "german-pancakes",
-      "title": "German Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "german",
-        "dutch-baby",
-        "oven-baked",
-        "breakfast"
-      ],
-      "collection": "reference",
-      "description": "Oven-baked puffy pancakes with lemon and powdered sugar.",
-      "servings_yield": "4 servings",
-      "total_time": "35 minutes"
     },
     {
       "id": "lemon-blueberry-pancakes",
@@ -36722,22 +35385,6 @@
       "description": "Spiced pancakes with cinnamon, ginger, and diced apple.",
       "servings_yield": "12 pancakes",
       "total_time": "25 minutes"
-    },
-    {
-      "id": "oven-apple-pancakes",
-      "title": "Oven Apple Pancakes",
-      "category": "breakfast",
-      "tags": [
-        "pancakes",
-        "apple",
-        "oven-baked",
-        "dutch-baby",
-        "breakfast"
-      ],
-      "collection": "reference",
-      "description": "A great hassle-free pancake breakfast baked in the oven.",
-      "servings_yield": "4 servings",
-      "total_time": "45 minutes"
     },
     {
       "id": "old-fashioned-belgium-waffles",
@@ -39073,73 +37720,8 @@
       "total_time": ""
     },
     {
-      "id": "egg-chops-gutenberg-6429",
-      "title": "Egg Chops",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "scrambled-eggs-with-shrimps-gutenberg-6429",
       "title": "Scrambled Eggs With Shrimps",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "eggs-scrambled-with-fresh-tomatoes-gutenberg-6429",
-      "title": "Eggs Scrambled With Fresh Tomatoes",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "scrambled-eggs-with-asparagus-tips-gutenberg-6429",
-      "title": "Scrambled Eggs With Asparagus Tips",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-with-potatoes-gutenberg-6429",
-      "title": "Omelet With Potatoes",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-a-la-duchesse-gutenberg-6429",
-      "title": "Omelet A La Duchesse",
       "category": "breakfast",
       "tags": [
         "vintage",
@@ -42587,84 +41169,6 @@
       "total_time": ""
     },
     {
-      "id": "macaroni-with-tomato-sauce-gutenberg-6385",
-      "title": "Macaroni With Tomato Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Maccheroni al Sugo",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "ravioli-of-curds-and-spinach-gutenberg-6385",
-      "title": "Ravioli Of Curds And Spinach",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "sauce-bechamel-gutenberg-6429",
-      "title": "Sauce Bechamel",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "cream-or-white-sauce-gutenberg-6429",
-      "title": "Cream Or White Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "brown-butter-sauce-gutenberg-6429",
-      "title": "Brown Butter Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "sauce-perigueux-gutenberg-6429",
-      "title": "Sauce Perigueux",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "cottage-cheese-dressing-cottage-cheese",
       "title": "Cottage Cheese Dressing",
       "category": "sides",
@@ -45290,22 +43794,6 @@
       "total_time": ""
     },
     {
-      "id": "broccoli-chicken-noodle-soup-lightened",
-      "title": "Broccoli and Chicken Noodle Soup",
-      "category": "soups",
-      "tags": [
-        "soup",
-        "chicken",
-        "broccoli",
-        "noodle",
-        "lightened"
-      ],
-      "collection": "reference",
-      "description": "If the broccoli florets are large, break into smaller pieces at the stalk instead of chopping them; they'll cook more quickly. Count on having dinner on the table in about 40 minutes, and serve this soup the moment it's done for the best results. In fact, if you wait, you'll find it gets thicker with time. If you have leftovers, you will want to thin the soup with a little chicken broth or milk to the desired consistency.",
-      "servings_yield": "10 servings (serving size: 1 cup)",
-      "total_time": ""
-    },
-    {
       "id": "easy-creamy-broccoli-soup",
       "title": "Easy Creamy Broccoli Soup",
       "category": "soups",
@@ -46062,58 +44550,6 @@
       "total_time": ""
     },
     {
-      "id": "beef-soup-stock-gutenberg-6385",
-      "title": "Beef Soup Stock",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Brodo di Carne",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "rice-soup-gutenberg-6385",
-      "title": "Rice Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Minestra di Riso",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "stracciatella-soup-gutenberg-6385",
-      "title": "Stracciatella Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Minestra di Stracciatella",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "vegetable-chowder-gutenberg-6385",
-      "title": "Vegetable Chowder",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Minestrone alla Milanese",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "fish-broth-gutenberg-6385",
       "title": "Fish Broth",
       "category": "soups",
@@ -46123,58 +44559,6 @@
       ],
       "collection": "all",
       "description": "Vintage recipe: Brodo di Pesce",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "lentil-soup-gutenberg-6385",
-      "title": "Lentil Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Brodo di Lenticchie",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "lettuce-soup-gutenberg-6385",
-      "title": "Lettuce Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Zuppa di Lattuga",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "pumpkin-soup-gutenberg-6385",
-      "title": "Pumpkin Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Zuppa di Zucca",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "potato-soup-gutenberg-6385",
-      "title": "Potato Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Zuppa alla Provinciale",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -47945,19 +46329,6 @@
       "total_time": ""
     },
     {
-      "id": "deviled-egg-salad-gutenberg-6429",
-      "title": "Deviled Egg Salad",
-      "category": "salads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "two-decker-salad-cottage-cheese",
       "title": "Two-Decker Salad",
       "category": "salads",
@@ -49037,53 +47408,6 @@
       "total_time": ""
     },
     {
-      "id": "coffee-flavored-eggnog-ref",
-      "title": "Coffee-Flavored Eggnog",
-      "category": "beverages",
-      "tags": [
-        "beverages",
-        "breakfast",
-        "coffee",
-        "eggnog"
-      ],
-      "collection": "reference",
-      "description": "A warming breakfast beverage with coffee and cinnamon.",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "fruity-smoothie-with-ground-flax-seed-ref",
-      "title": "Fruity Smoothie with Ground Flax Seed",
-      "category": "beverages",
-      "tags": [
-        "beverages",
-        "breakfast",
-        "smoothie",
-        "healthy",
-        "blueberry"
-      ],
-      "collection": "reference",
-      "description": "A healthy smoothie with blueberries and ground flax seed.",
-      "servings_yield": "1 serving",
-      "total_time": ""
-    },
-    {
-      "id": "fruity-yogurt-smoothie-ref",
-      "title": "Fruity Yogurt Smoothie",
-      "category": "beverages",
-      "tags": [
-        "beverages",
-        "breakfast",
-        "smoothie",
-        "mango",
-        "yogurt"
-      ],
-      "collection": "reference",
-      "description": "A refreshing mango smoothie topped with cashews.",
-      "servings_yield": "2 servings",
-      "total_time": ""
-    },
-    {
       "id": "mexican-breakfast-choco-drink-ref",
       "title": "Mexican Breakfast Choco Drink",
       "category": "beverages",
@@ -49097,22 +47421,6 @@
       "collection": "reference",
       "description": "A rich and spiced hot chocolate drink.",
       "servings_yield": "6 servings",
-      "total_time": ""
-    },
-    {
-      "id": "quick-fruity-breakfast-smoothie-ref",
-      "title": "Quick Fruity Breakfast Smoothie",
-      "category": "beverages",
-      "tags": [
-        "beverages",
-        "breakfast",
-        "smoothie",
-        "quick",
-        "healthy"
-      ],
-      "collection": "reference",
-      "description": "A quick and healthy breakfast smoothie with pineapple and strawberries.",
-      "servings_yield": "2 servings",
       "total_time": ""
     },
     {
@@ -67851,22 +66159,6 @@
       "total_time": "4-6 months"
     },
     {
-      "id": "stilton-cropwell-bishop",
-      "title": "Cropwell Bishop Stilton",
-      "category": "sides",
-      "tags": [
-        "cheese",
-        "British",
-        "Stilton",
-        "blue",
-        "PDO"
-      ],
-      "collection": "all",
-      "description": "Traditional Stilton producer.",
-      "servings_yield": "About 2 lbs",
-      "total_time": "9-12 weeks"
-    },
-    {
       "id": "stilton-long-clawson",
       "title": "Long Clawson Stilton",
       "category": "sides",
@@ -70463,51 +68755,6 @@
       "description": "Dutch cheese studded with cumin seeds and traditional crossed keys mark.",
       "servings_yield": "About 2 lbs",
       "total_time": "3-12 months aging"
-    },
-    {
-      "id": "requeijao-cremoso",
-      "title": "Requeijão Cremoso",
-      "category": "sides",
-      "tags": [
-        "cheese",
-        "Brazilian",
-        "requeijão",
-        "cremoso"
-      ],
-      "collection": "all",
-      "description": "Extra creamy requeijão.",
-      "servings_yield": "About 2 lbs",
-      "total_time": "Fresh"
-    },
-    {
-      "id": "samso-danish-cheese",
-      "title": "Samsø",
-      "category": "sides",
-      "tags": [
-        "cheese",
-        "Danish",
-        "Samsø",
-        "Swiss-style"
-      ],
-      "collection": "all",
-      "description": "Danish Swiss-style.",
-      "servings_yield": "About 2 lbs",
-      "total_time": "3-6 months"
-    },
-    {
-      "id": "nokkelost-norwegian-cheese",
-      "title": "Nøkkelost",
-      "category": "sides",
-      "tags": [
-        "cheese",
-        "Norwegian",
-        "Nøkkelost",
-        "spiced"
-      ],
-      "collection": "all",
-      "description": "Norwegian Leiden-style with spices.",
-      "servings_yield": "About 2 lbs",
-      "total_time": "3-6 months"
     },
     {
       "id": "cf-quick-mozzarella-neapolitan",

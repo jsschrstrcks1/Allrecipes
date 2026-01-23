@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "mains",
-    "count": 1722,
+    "count": 1710,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -1693,83 +1693,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
-        ]
-      }
-    },
-    {
-      "id": "french-onion-burgers",
-      "collection": "reference",
-      "collection_display": "Reference Cookbook",
-      "title": "French Onion Burgers",
-      "category": "mains",
-      "source_note": "Campbell's Kitchen",
-      "servings_yield": "4 servings",
-      "prep_time": "5 minutes",
-      "cook_time": "20 minutes",
-      "ingredients": [
-        {
-          "item": "ground beef",
-          "quantity": "1",
-          "unit": "lb"
-        },
-        {
-          "item": "Campbell's Condensed French Onion Soup",
-          "quantity": "1",
-          "unit": "can (10 1/2 oz)"
-        },
-        {
-          "item": "cheese slices",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "Pepperidge Farm Classic Sandwich Buns with Sesame Seeds, split",
-          "quantity": "4",
-          "unit": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Shape beef into 4 (1/2-inch thick) burgers."
-        },
-        {
-          "step": 2,
-          "text": "Heat skillet over medium-high heat. Add burgers and cook until well browned on both sides. Remove burgers from skillet. Pour off fat."
-        },
-        {
-          "step": 3,
-          "text": "Stir soup in skillet and heat to a boil. Return burgers to skillet. Reduce heat to low. Cover and cook 5 min. or until desired doneness. Top burgers with cheese and cook until cheese is melted. Serve burgers on buns with soup mixture for dipping."
-        }
-      ],
-      "tags": [
-        "main",
-        "burger",
-        "french onion",
-        "beef",
-        "cheese"
-      ],
-      "image_refs": [
-        "magazine-recipes - 20.jpeg"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 436,
-          "fat_g": 23.0,
-          "carbs_g": 23.5,
-          "protein_g": 29.0,
-          "sodium_mg": 508,
-          "fiber_g": 1.0,
-          "sugar_g": 3.5
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
         ]
       }
     },
@@ -20526,7 +20449,10 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "keto-chicken-alfredo-broccoli"
+      ]
     },
     {
       "id": "keto-chicken-alfredo-broccoli-bake",
@@ -21698,7 +21624,10 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "keto-chicken-alfredo"
+      ]
     },
     {
       "id": "spaghetti-squash-meatball-casserole",
@@ -91459,570 +91388,6 @@
       }
     },
     {
-      "id": "ribbon-macaroni-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Ribbon Macaroni",
-      "category": "mains",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Pasta fatta in Casa. Fettuccini",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "flour",
-          "quantity": "2 1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "eggs",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "cold water",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Put the flour on a bread-board. Make a hole in the middle of it, and break the eggs into it. Add the water and the salt, and mix all together with a fork until the flour is all absorbed and you have a paste which you can roll out. Then take a rolling-pin and roll it out very thin, about the thickness of a ten-cent piece. Leave it spread out like this until it has dried a little. Then double it over a number of times, always lengthwise, and cut it across in strips about one-half inch wide. Boil two quarts of salted water, and put the ribbons into it, and cook for ten minutes, then drain. Serve with the meat and sauce as in receipt for Macaroni with Meat and Sauce, or with the tomato sauce and cheese only, as desired."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Pasta fatta in Casa. Fettuccini"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 320,
-          "fat_g": 3.2,
-          "carbs_g": 59.6,
-          "protein_g": 11.1,
-          "sodium_mg": 327,
-          "fiber_g": 2.1,
-          "sugar_g": 0.4
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "rice-with-peas-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Rice With Peas",
-      "category": "mains",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "rice Grated Parmesan cheese 2 tablespoons of butter 1 small onion",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Chop the onion up fine and put it into the saucepan with one-half the butter (one tablespoon). Cook until the onion is brown, then pour on the rice (raw) and fry until the rice is dry. Then add hot water, a ladleful at a time, taking care not to let the rice boil too hard, as it will then become hard in the middle and floury around the edges. When the rice is cooked, put the saucepan at the back of the stove, and add the rest of the butter. Before taking off the stove add a little grated Parmesan cheese and the peas, which have been prepared as follows:"
-        },
-        {
-          "step": 2,
-          "text": "Take a small piece of ham fat, one-half small onion, and some parsley. Chop together fine, add three tablespoons of olive-oil, salt and pepper, and put into a saucepan on the fire. When the onion is colored add one can of green peas (or fresh peas, according to season). When the peas have absorbed all the olive-oil add a sufficient quantity of broth to cover them (or water) and cook until peas are soft. Then mix the peas with the rice, add one tablespoon of Parmesan cheese, and serve."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 8,
-          "fat_g": 0.0,
-          "carbs_g": 1.9,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
-          "fiber_g": 0.4,
-          "sugar_g": 0.9
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "rice-alla-romana-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Rice \"Alla Romana\"",
-      "category": "mains",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Risotto alla Romana",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "A small piece of ham fat",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "stalk of celery",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Parsley",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "onion",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "mushrooms canned",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "or 1 fresh mushroom"
-        },
-        {
-          "item": "lean beef",
-          "quantity": "1/3",
-          "unit": "lb",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Chop these ingredients together and put them into a large saucepan with a small piece of butter. Cook until the meat is well browned. Then add one tablespoon of red or white wine. Cook for a few minutes, then add one tablespoon of tomato paste dissolved in a little hot water, or two and one-half tablespoons of the other tomato sauce. Cook well, adding from time to time a little water—one-half cup in all. Wash the rice (a little less than a cupful), add it to the other ingredients in the saucepan, and cook for about twenty minutes, until the rice is soft, adding more water from time to time. Then add two tablespoons of grated Parmesan cheese, mix well, and serve, with more cheese if desired."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Risotto alla Romana"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 95,
-          "fat_g": 5.3,
-          "carbs_g": 2.8,
-          "protein_g": 8.7,
-          "sodium_mg": 51,
-          "fiber_g": 0.7,
-          "sugar_g": 1.4
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "polenta-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Polenta",
-      "category": "mains",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Indian Meal",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "a cup of yellow Indian meal (fine) 3 cups of water",
-          "quantity": "3/4",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Put the water into a granite or iron saucepan, add salt. When it begins to boil add the Indian meal, little by little. Keep stirring constantly as you pour it in, to prevent lumps. Boil for one-half hour, stirring constantly over a moderate fire. If desired, a little more water may be added if preferred not so thick. Add grated cheese and butter."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Indian Meal"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "polenta-alla-toscana-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Polenta \"Alla Toscana\"",
-      "category": "mains",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "Indian meal 3 pints of cold water",
-          "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Put the water on, and when it boils add salt. Then add the Indian meal, little by little, stirring all the time. Allow it to boil over a moderate fire for one-half hour, stirring constantly. When the meal has become quite stiff, take a wooden spoon and dip it into hot water, and with it detach the Indian meal from the side of the saucepan, then hold the saucepan for a moment over the hottest part of the fire, until the Indian meal has become detached from the bottom. Then turn it out onto the bread-board; it should come out whole in a mold. Let it stand a few moments to cool. Then with a wire cut it into slices about the thickness of a finger. Place these slices on a hot platter in a layer; pour over them a good meat gravy and grated cheese; then put on another layer of the polenta, and add more gravy and cheese, and so on, until your polenta is used up."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "polenta-pasticciata-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Polenta Pasticciata",
-      "category": "mains",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "a cup of Indian meal 1 quart of milk",
-          "quantity": "3/4",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Boil the milk, and add the Indian meal, a little at a time, when milk is boiling, stirring constantly. Cook for one-half an hour, stirring constantly. Add salt just before taking off the fire. The Indian meal should be stiff when finished. Turn it onto the bread-board, and spread it out to the thickness of two fingers. While it is cooking prepare a meat sauce, and a Bechamel sauce as follows:"
-        },
-        {
-          "step": 2,
-          "text": "Take a small piece of beef, a small piece of ham, fat and lean, one tablespoon of butter, a small piece of onion, a small piece of carrot, a small piece of celery, a pinch of flour, one-half cup of bouillon (or same amount of water), pepper. Cut the meat into small dice; chop up fine together the ham, onion, carrot, and celery. Put these all together with some pepper into a saucepan with the butter, and when the meat is brown, add the pinch of flour, and the bouillon a little at a time (or the water), and cook for about one-half an hour. This sauce should not be strained."
-        },
-        {
-          "step": 3,
-          "text": "Take one tablespoon of flour, and one tablespoon of butter. Put them into a saucepan and stir with a wooden spoon until they have become a golden-brown color. Then add, a little at a time, one pint of milk; stir constantly until the sauce is as thick as custard, and is white in color. If it grows too thick, a little more milk may be added; or if it is too thin, a tiny lump of butter rolled in flour will thicken it."
-        },
-        {
-          "step": 4,
-          "text": "Now take the cold Indian meal and cut it into squares about two inches across. Take a baking-dish of medium depth, butter well, then put in a layer of squares of Indian meal close together, to entirely cover the bottom of the dish. Sprinkle over it grated cheese; then pour on the top enough meat sauce to cover the layer (about two tablespoons), then on the top of this add a layer of Bechamel sauce. Then put another layer of the squares of Indian meal, sprinkle with grated cheese as before, add meat sauce, then Bechamel sauce, and continue in this way until the baking-dish is full, having for the top layer the Bechamel sauce. Put the dish into a moderate oven, and bake until it is a golden brown on top."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 83,
-          "fat_g": 0.8,
-          "carbs_g": 17.6,
-          "protein_g": 1.9,
-          "sodium_mg": 8,
-          "fiber_g": 1.7,
-          "sugar_g": 0.2
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "gnocchi-of-farina-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Gnocchi Of Farina",
-      "category": "mains",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Gnocchi di Semolina",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "milk 1 egg 1/2 cup of farina Butter and cheese",
-          "quantity": "1",
-          "unit": "pint",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Put the milk on, and when it boils add salt. Take a wooden spoon and, stirring constantly, add the farina little by little. Cook for ten minutes, stirring constantly. Take off the fire and break into the farina one egg; mix very quickly, so that the egg will not have time to set. Spread the farina onto the breadboard about the height of a finger. Allow it to cool, then cut it into squares or diamonds about two or three inches across. Butter well a baking-dish, and put in the bottom a layer of the squares of farina; sprinkle over a little grated Parmesan cheese (or Gruyere), and put here and there a small dab of butter. Then put in another layer of the squares of farina; add cheese and butter as before. Continue in this way until your baking-dish is full, having on the top layer butter and cheese."
-        },
-        {
-          "step": 2,
-          "text": "Bake in a hot oven until a brown crust forms. Serve in the baking-dish."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Gnocchi di Semolina"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 65,
-          "fat_g": 0.2,
-          "carbs_g": 14.0,
-          "protein_g": 2.0,
-          "sodium_mg": 70,
-          "fiber_g": 0.5,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "english-drawn-butter-gutenberg-6429",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "English Drawn Butter",
-      "category": "mains",
-      "attribution": "Rorer",
-      "source_note": "Many Ways for Cooking Eggs (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "fuls of butter",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "boiling water",
-          "quantity": "1/2",
-          "unit": "pint",
-          "prep_note": ""
-        },
-        {
-          "item": "fuls of flour",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of salt",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "dash of pepper",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Rub two tablespoonfuls of butter and the flour together, add the boiling water, stir until boiling, add the salt and pepper; take from the fire, add the remaining tablespoonful of butter and it is ready for use. It must not be boiled after the last butter is added."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 91,
-          "fat_g": 8.7,
-          "carbs_g": 3.1,
-          "protein_g": 0.5,
-          "sodium_mg": 349,
-          "fiber_g": 0.1,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "cheese-and-jelly-tray-cottage-cheese",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -101422,7 +100787,10 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variants": [
+        "sherbet-theplainsa"
+      ]
     },
     {
       "id": "cranberry-sherbet-harvester",
@@ -149747,314 +149115,6 @@
       }
     },
     {
-      "id": "recipe-via-meal-master-v-800-thebackcou",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Recipe via Meal-Master ™ v 8.00",
-      "category": "mains",
-      "attribution": "",
-      "source_note": "The Back Country Recipe Book (PDF cookbook)",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "c Flour 1 c Milk -or- ½ c powdered",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "c Oats Milk mixed with 1 c water",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "T Sugar ½ c Raisins",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "sunflower seeds,"
-        },
-        {
-          "item": "t Salt Currants",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "nuts, or other"
-        },
-        {
-          "item": "9",
-          "quantity": "4",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "t Baking soda Fillings",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "½ c Oil Water",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "[quantity inferred]"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "IN THE FIELD: Mix all ingredients (use ½ c powdered milk mixed with water) except"
-        },
-        {
-          "step": 2,
-          "text": "oil. Then add oil. Pat into a well-greased frying pan and score into sections. Cover and"
-        },
-        {
-          "step": 3,
-          "text": "cook low heat until done—about 20 min."
-        },
-        {
-          "step": 4,
-          "text": "AT HOME: Mix dry ingredients together. Blend in oil with a fork until mixture looks"
-        },
-        {
-          "step": 5,
-          "text": "like fine crumbs. Add milk and pat into a large circle about ½ inch thick. Cut into small"
-        },
-        {
-          "step": 6,
-          "text": "pieces and place on greased cookie sheet; bake 10-15 min at 425 deg until golden brown."
-        },
-        {
-          "step": 7,
-          "text": "** Wilderness Ranger Cookbook US Forest Service **"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 82,
-          "fat_g": 4.0,
-          "carbs_g": 8.0,
-          "protein_g": 4.0,
-          "sodium_mg": 52,
-          "fiber_g": 0.0,
-          "sugar_g": 8.0
-        },
-        "missing_inputs": [
-          "1  t Salt Currants"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "8-t-butter-or-margarine-4-t-garli-g-thebackcou",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "8 T Butter or margarine 4 T Garli-Ghetti seasoning",
-      "category": "mains",
-      "attribution": "",
-      "source_note": "The Back Country Recipe Book (PDF cookbook)",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "5",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "T Bacon bits",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Method not fully extracted - see original source."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 6,
-          "fat_g": 0.5,
-          "carbs_g": 0.0,
-          "protein_g": 0.4,
-          "sodium_mg": 19,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "c-broccoli-chopped-c-celery-root-ch-thebackcou",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "¼ c Broccoli, chopped ¼ c Celery root, chopped",
-      "category": "mains",
-      "attribution": "",
-      "source_note": "The Back Country Recipe Book (PDF cookbook)",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "¼ c Zucchini, sliced ¼ c Almonds or cashews",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "¼ c Summer Squash, sliced 1 sm Water chestnut, canned",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": "[quantity inferred]"
-        },
-        {
-          "item": "c Onion",
-          "quantity": "1/8",
-          "unit": "",
-          "prep_note": "chopped 2 sl Tree of life - Baked Tofu"
-        },
-        {
-          "item": "c Mushrooms",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "chopped - cubed"
-        },
-        {
-          "item": "¼ c Bok Choy, sliced 4 T Oil",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": "[quantity inferred]"
-        },
-        {
-          "item": "¼ c Celery, sliced",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Sift the flours together onto the work surface and form a “well” in the center. Add t he"
-        },
-        {
-          "step": 2,
-          "text": "eggs and oil to the center of the flour and knead the dough together, scraping the flour"
-        },
-        {
-          "step": 3,
-          "text": "from the outside into the liquid ingredients. Once the dough has formed a nice, smooth"
-        },
-        {
-          "step": 4,
-          "text": "ball, continue to knead it by hand for several minutes. Using an Atlas Pasta mac hine roll"
-        },
-        {
-          "step": 5,
-          "text": "the dough out into sheets and allow to rest prior to cutting into noodles. Cut the sheets"
-        },
-        {
-          "step": 6,
-          "text": "into fettacine noodles. Place in large pot of boiling water and cook for about 8 to 10"
-        },
-        {
-          "step": 7,
-          "text": "minutes. Drain. Place servings into large shallow bowls."
-        },
-        {
-          "step": 8,
-          "text": "** Stir-Fry Veggies **"
-        },
-        {
-          "step": 9,
-          "text": "Slice and chop all veggies. Heat together with oil in wok until slightly softened. Don’ t"
-        },
-        {
-          "step": 10,
-          "text": "overcook... Place servings on top of hot noodles."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 20,
-          "fat_g": 0.2,
-          "carbs_g": 4.0,
-          "protein_g": 1.3,
-          "sodium_mg": 28,
-          "fiber_g": 1.3,
-          "sugar_g": 2.3
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "patedeveau-theamerica",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -155490,7 +154550,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "sherbet-harvester"
+      ]
     },
     {
       "id": "cocoa-theplainsa",
@@ -169535,7 +168598,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "chicken-tomato-casserole-chile-bible"
+      ]
     },
     {
       "id": "rellenos-spanish-rice",
@@ -169664,7 +168730,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "rellenos-on-spanish-rice-chile-bible"
+      ]
     },
     {
       "id": "relleno-bean-bake",
@@ -169803,7 +168872,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "relleno-bean-bake-chile-bible"
+      ]
     },
     {
       "id": "little-boats-stuffed-eggplant",
@@ -170120,7 +169192,10 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variants": [
+        "shepherds-cheese-bake-ancients"
+      ]
     },
     {
       "id": "fire-chiefs-hot-stew-chile-bible",
@@ -172156,7 +171231,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "chicken-tomato-casserole"
+      ]
     },
     {
       "id": "fiesta-casserole-chile-bible",
@@ -172734,7 +171812,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "rellenos-spanish-rice"
+      ]
     },
     {
       "id": "relleno-bean-bake-chile-bible",
@@ -172849,7 +171930,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "relleno-bean-bake"
+      ]
     },
     {
       "id": "green-chile-pizza-chile-bible",
@@ -175396,7 +174480,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "variants": [
+        "cf-ricotta-stuffed-shells"
+      ]
     },
     {
       "id": "lemon-ricotta-pasta",
@@ -177708,7 +176795,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "variants": [
+        "psr-18th-century-farmhouse-cheddar"
+      ]
     },
     {
       "id": "traditional-yorkshire-wensleydale",
@@ -182879,7 +181969,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "variants": [
+        "welsh-caerphilly-traditional"
+      ]
     },
     {
       "id": "traditional-pont-leveque-normandy",
@@ -191939,7 +191032,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "variants": [
+        "ricotta-stuffed-shells"
+      ]
     },
     {
       "id": "cf-tartiflette",
