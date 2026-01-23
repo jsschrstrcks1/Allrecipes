@@ -124,20 +124,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 8,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 2.4,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "4 L whole milk (3.25% recommended, non-homogenized preferred)",
-          "8 g citric acid",
-          "1/4 tsp vegetable/microbial rennet"
+          "4 L whole milk (3.25% recommended, non-homogenized preferred)"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -416,8 +414,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 gallon fresh milk (cow, goat, or sheep)",
-          "2 oz mesophilic starter culture"
+          "1 gallon fresh milk (cow, goat, or sheep)"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -553,7 +550,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
@@ -563,9 +560,7 @@
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "4 oz mesophilic starter culture"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -710,9 +705,7 @@
         "missing_inputs": [
           "10 L raw or pasteurized milk",
           "1 packet thermophilic culture C201 (ST, LB, LH strains)",
-          "100 g natural yogurt with live cultures",
-          "1/4 tsp lipase (pregastric esterase)",
-          "2.5 ml liquid rennet (1:10000)"
+          "100 g natural yogurt with live cultures"
         ],
         "assumptions": [
           "Calculated for 350 servings"
@@ -1118,23 +1111,19 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2861,
+          "fat_g": 153.6,
+          "carbs_g": 230.4,
+          "protein_g": 153.6,
+          "sodium_mg": 2016,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 230.4
         },
         "missing_inputs": [
-          "6 gallons Jersey raw milk",
           "1 % of milk thermophilic mother culture (ALPD)",
-          "1 % of milk mesophilic culture (Flora Danica)",
-          "4.5 ml single strength rennet",
-          "0.5 g lipase (optional)",
-          "2 g calcium chloride (if pasteurized)"
+          "4.5 ml single strength rennet"
         ],
         "assumptions": [
           "Calculated for 5 servings"
@@ -1272,22 +1261,18 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
+          "calories": 1,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.1,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 13950,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "8 L 2% milk",
           "1 L coffee cream (18%)",
-          "1/2 tsp calcium chloride",
-          "1/4 tsp annatto",
-          "1/8 tsp thermophilic culture (Su Casu)",
-          "3/16 tsp double-strength liquid rennet",
-          "2 tbsp cheese salt"
+          "3/16 tsp double-strength liquid rennet"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -1510,8 +1495,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 lbs (about 3 cups) non-iodized salt (sea salt or cheese salt)",
-          "1 tbsp calcium chloride"
+          "2 lbs (about 3 cups) non-iodized salt (sea salt or cheese salt)"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -1635,23 +1619,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 3860,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/16 tsp Brevibacterium linens",
-          "1/4 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "2 tbsp for brine wash cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -1788,22 +1766,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 1118,
           "fat_g": 68.8,
           "carbs_g": 78.2,
           "protein_g": 52.2,
-          "sodium_mg": 690,
+          "sodium_mg": 1155,
           "fiber_g": 0.0,
           "sugar_g": 78.2
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "1/4 tsp diluted calcium chloride (if pasteurized)",
-          "1/4 tsp diluted liquid rennet",
-          "1 tsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 5 servings"
         ]
@@ -1933,22 +1906,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 10335,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -2087,22 +2055,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 3610,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
         "missing_inputs": [
-          "1/4 tsp thermophilic culture",
-          "1/8 tsp Propionic shermanii",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "for brining cheese salt"
+          "1/8 tsp Propionic shermanii"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -2225,22 +2189,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 10335,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -2464,20 +2423,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 596,
+          "calories": 597,
           "fat_g": 32.0,
-          "carbs_g": 48.0,
+          "carbs_g": 48.3,
           "protein_g": 32.0,
-          "sodium_mg": 420,
+          "sodium_mg": 17858,
           "fiber_g": 0.0,
           "sugar_g": 48.0
         },
         "missing_inputs": [
-          "2 gallons fresh whey",
-          "1 tsp dissolved in 1/4 cup water citric acid",
-          "2-3 tbsp cheese salt"
+          "2 gallons fresh whey"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -2596,22 +2553,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 3610,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -2737,22 +2689,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 3610,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -2878,22 +2825,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 3610,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (Flora Danica)",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -3019,22 +2961,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 3610,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -3279,22 +3216,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4769,
           "fat_g": 256.1,
           "carbs_g": 384.0,
           "protein_g": 256.1,
-          "sodium_mg": 3364,
+          "sodium_mg": 10339,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "1/4 tsp diluted calcium chloride (if pasteurized)",
-          "1/4 tsp diluted liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -3534,22 +3466,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 2180,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "1/4 tsp diluted calcium chloride (if pasteurized cow/goat)",
-          "2 drops diluted in 1/4 cup water liquid rennet",
-          "for dry salting and brine cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -3784,22 +3711,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.0,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 10335,
           "fiber_g": 0.0,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -3925,22 +3847,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 6975,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "4 liters (1 gallon) full cream milk",
-          "1/16 tsp mesophilic culture (MO30)",
-          "1/8 tsp diluted in 30ml water liquid rennet",
-          "1 tbsp cheese salt",
-          "1/8 tsp diluted in 30ml water calcium chloride (if pasteurized)"
+          "4 liters (1 gallon) full cream milk"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -4052,21 +3970,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 18,
           "fat_g": 0.9,
           "carbs_g": 3.0,
           "protein_g": 0.6,
-          "sodium_mg": 0,
+          "sodium_mg": 6975,
           "fiber_g": 1.5,
           "sugar_g": 0.6
         },
         "missing_inputs": [
-          "4 liters (1 gallon) full cream milk",
-          "1/16 tsp mesophilic culture",
-          "1/8 tsp diluted liquid rennet (190 IMCU)",
-          "1 tbsp cheese salt"
+          "4 liters (1 gallon) full cream milk"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -4180,8 +4095,7 @@
           "sugar_g": 1.8
         },
         "missing_inputs": [
-          "2 liters whole milk",
-          "2 tsp rennet"
+          "2 liters whole milk"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -4301,22 +4215,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2,
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 20925,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3 liters (3 quarts) whole milk",
-          "3 ml dissolved in 2 tsp water calcium chloride",
-          "small amount mesophilic culture",
-          "4 drops in 2 tbsp water liquid rennet",
-          "3 tbsp cheese salt"
+          "3 liters (3 quarts) whole milk"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -4436,22 +4346,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 4768,
           "fat_g": 256.0,
           "carbs_g": 384.1,
           "protein_g": 256.0,
-          "sodium_mg": 3360,
+          "sodium_mg": 3610,
           "fiber_g": 0.1,
           "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp thermophilic culture",
-          "1/2 tsp diluted calcium chloride (if pasteurized)",
-          "1/2 tsp diluted liquid rennet",
-          "for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -4573,7 +4478,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -4584,9 +4489,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "8 liters fresh full cream milk",
-          "2.5 ml (1/2 tsp) diluted in 60ml water liquid rennet",
-          "2.5 ml diluted in 60ml water calcium chloride (if homogenized)"
+          "8 liters fresh full cream milk"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -4713,7 +4616,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -4725,9 +4628,6 @@
         },
         "missing_inputs": [
           "4 liters (1 gallon) full cream cow's milk",
-          "1/4 tsp in 60ml water calcium chloride (if homogenized)",
-          "1/8 tsp mesophilic culture (MM100)",
-          "1/4 tsp diluted in 60ml water liquid rennet",
           "2 liters (500g salt + 1 tsp vinegar) saturated brine"
         ],
         "assumptions": [
@@ -4843,22 +4743,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 4650,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "4 liters (1 gallon) full cream milk",
-          "1/8 tsp mesophilic culture (MA or MO30)",
-          "4 drops in 60ml water liquid rennet",
-          "2 tsp cheese salt",
-          "1 ml in 30ml water calcium chloride (if homogenized)"
+          "4 liters (1 gallon) full cream milk"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -4987,7 +4883,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -4998,10 +4894,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "7.6 liters (2 gallons) full cream milk",
-          "1/4 tsp in 1/4 cup water calcium chloride (if homogenized)",
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp in 1/4 cup water liquid rennet"
+          "7.6 liters (2 gallons) full cream milk"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -5150,22 +5043,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 3488,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "8 liters (2 gallons) full cream cow's milk",
-          "1/8 tsp mesophilic culture",
-          "1/8 tsp in 1/4 cup water calcium chloride",
-          "1 tsp (5ml) in 1/4 cup water liquid rennet",
-          "1 tbsp cheese salt",
           "1.5 liters sweet red wine (dark Lambrusco or Crimson Cabernet)"
         ],
         "assumptions": [
@@ -5289,22 +5178,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 29,
           "fat_g": 1.6,
           "carbs_g": 4.0,
           "protein_g": 1.4,
-          "sodium_mg": 10,
+          "sodium_mg": 13960,
           "fiber_g": 1.4,
           "sugar_g": 0.1
         },
         "missing_inputs": [
-          "13.7 liters milk",
-          "5 ml in 1/2 cup water calcium chloride",
-          "2 tbsp cheese salt",
-          "1/4 tsp mesophilic culture",
-          "1/2 tsp diluted liquid rennet"
+          "13.7 liters milk"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -5444,7 +5329,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -5456,9 +5341,6 @@
         },
         "missing_inputs": [
           "8 liters (2 gallons) whole milk",
-          "1/8 tsp mesophilic culture",
-          "2.5 ml mixed with 25ml water rennet",
-          "3 ml calcium chloride (if homogenized)",
           "3 tsp non-ionized salt"
         ],
         "assumptions": [
@@ -5576,11 +5458,11 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
+          "calories": 2,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.4,
           "protein_g": 0.0,
           "sodium_mg": 0,
           "fiber_g": 0.0,
@@ -5588,11 +5470,7 @@
         },
         "missing_inputs": [
           "4 liters full cream milk (preferably unhomogenized)",
-          "1 1/2 tsp mixed with 1/2 cup water citric acid",
-          "1 tsp non-iodized salt",
-          "1/2 tsp in 1/4 cup water liquid rennet",
-          "1/8 tsp in 1/4 cup water lipase (optional)",
-          "1/4 tsp in 1/4 cup water calcium chloride (if homogenized)"
+          "1 tsp non-iodized salt"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -5728,7 +5606,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -5740,9 +5618,6 @@
         },
         "missing_inputs": [
           "7.6 liters (2 gallons) whole milk",
-          "1/4 tsp (~2ml) mesophilic culture",
-          "1/8 tsp (~1ml) in 60ml water calcium chloride (if homogenized)",
-          "5/8 tsp (~3ml) in 60ml water liquid rennet",
           "2 tbsp non-iodized salt"
         ],
         "assumptions": [
@@ -5914,10 +5789,6 @@
         "missing_inputs": [
           "4 liters full cream milk (3.4%+ fat)",
           "4 liters lite or semi-skimmed milk (1.4% or less fat)",
-          "1/4 tsp thermophilic culture",
-          "1/4 tsp mixed with 20ml water lipase powder",
-          "2.5 ml mixed with 60ml water rennet",
-          "2.5 ml mixed with 60ml water calcium chloride",
           "brine (1 liter water + 2 tbsp salt)"
         ],
         "assumptions": [
@@ -6050,7 +5921,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -6062,10 +5933,6 @@
         },
         "missing_inputs": [
           "10 liters full cream milk",
-          "1 tsp mixed with 2 tbsp water calcium chloride",
-          "10 grains mesophilic starter culture",
-          "1/4 tsp mixed with 50ml water lipase powder",
-          "2.5 ml mixed with 16ml water rennet",
           "3 tbsp per liter for brine non-iodized salt"
         ],
         "assumptions": [
@@ -6333,7 +6200,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 3,
           "fat_g": 0.1,
@@ -6345,9 +6212,6 @@
         },
         "missing_inputs": [
           "8 liters (2 gallons) whole milk",
-          "1/8 tsp mesophilic culture",
-          "5 ml mixed with 60ml water rennet",
-          "1 ml calcium chloride (if homogenized)",
           "1 tbsp non-ionized salt"
         ],
         "assumptions": [
@@ -6579,7 +6443,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
@@ -6589,10 +6453,7 @@
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "2 packets mesophilic starter (direct-set)",
-          "1 tsp liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -6721,7 +6582,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
@@ -6731,9 +6592,7 @@
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/2 tsp liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -6861,7 +6720,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -6873,8 +6732,7 @@
         },
         "missing_inputs": [
           "2.5 gallons (10 liters) whole milk",
-          "100 ml starter (clabber, kefir, whey, or 1 packet mesophilic)",
-          "3/4 tsp liquid rennet"
+          "100 ml starter (clabber, kefir, whey, or 1 packet mesophilic)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -7015,7 +6873,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -7027,9 +6885,6 @@
         },
         "missing_inputs": [
           "2-3 gallons goat or cow milk",
-          "1/4 tsp mesophilic culture (DVI MM or MA)",
-          "1/4-1/2 tsp lipase powder (kid or kid/lamb)",
-          "1 tsp liquid rennet",
           "1/2 cup per 1/2 gallon water salt for brine"
         ],
         "assumptions": [
@@ -7160,7 +7015,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2864,
           "fat_g": 153.7,
@@ -7171,7 +7026,6 @@
           "sugar_g": 230.4
         },
         "missing_inputs": [
-          "3/4 tsp mesophilic culture (or 2 cups well-fed clabber)",
           "1 tsp double strength calf rennet",
           "3/4 cup fine ground salt (no additives)"
         ],
@@ -7245,7 +7099,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 3284,
           "fat_g": 352.0,
@@ -7255,9 +7109,7 @@
           "fiber_g": 0.0,
           "sugar_g": 28.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (or 1 tbsp clabber or previous batch sour cream)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -7758,8 +7610,7 @@
         "missing_inputs": [
           "2 gallons goat or cow milk (raw or pasteurized)",
           "1/4 tsp mesophilic DVI culture (MM or MA)",
-          "1/4 tsp calf lipase powder (mild piccante)",
-          "1/2 tsp liquid rennet (double strength)"
+          "1/4 tsp calf lipase powder (mild piccante)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -8193,8 +8044,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2-3 gallons goat or cow milk (raw, unpasteurized preferred)",
-          "1/2 tsp liquid rennet (double strength)"
+          "2-3 gallons goat or cow milk (raw, unpasteurized preferred)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -8365,9 +8215,9 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 0,
+          "calories": 1,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
+          "carbs_g": 0.2,
           "protein_g": 0.0,
           "sodium_mg": 75,
           "fiber_g": 0.0,
@@ -8376,9 +8226,7 @@
         "missing_inputs": [
           "2-3.5 gallons fresh goat or cow milk (not homogenized)",
           "1/4 tsp thermophilic culture DVI (LH)",
-          "1 1/4 tsp per gallon milk citric acid",
-          "1/4 tsp calf lipase (mild piccante)",
-          "1/2 tsp liquid rennet"
+          "1/4 tsp calf lipase (mild piccante)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -8479,7 +8327,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -8491,8 +8339,7 @@
         },
         "missing_inputs": [
           "1/2 gallon fresh goat or cow milk",
-          "1/8 tsp mesophilic DVI culture (MM)",
-          "1 tbsp diluted liquid rennet (1/5 drop - see instructions)"
+          "1/8 tsp mesophilic DVI culture (MM)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -9513,7 +9360,6 @@
           "sugar_g": 384.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture (MA 4000 series)",
           "1 tsp animal rennet"
         ],
         "assumptions": [
@@ -9834,20 +9680,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
-          "carbs_g": 192.0,
+          "carbs_g": 192.2,
           "protein_g": 128.0,
           "sodium_mg": 1680,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/2 tbsp citric acid",
-          "20 drops liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -10223,21 +10066,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 2013,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp calcium chloride (for pasteurized milk only)",
-          "1/4 tsp MM 100 cheese culture",
-          "1/2 tsp rennet",
-          "2 lbs per gallon water cheese salt (for brine)"
+          "1/4 tsp MM 100 cheese culture"
         ],
         "assumptions": [
           "Calculated for 3 servings"
@@ -10410,8 +10250,8 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1/4 tsp Flora Danica culture",
-          "5 ml rennet"
+          "10 liters whole cow's milk",
+          "1/4 tsp Flora Danica culture"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -10738,22 +10578,19 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 10462,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
           "10 liters whole milk (cow, goat, or sheep)",
-          "1 pinch Penicillium Roqueforti (tiny speck)",
-          "1/2 tsp Mesophilic starter (Chr. Hansens R-704)",
-          "as directed rennet",
-          "3 tbsp cheese salt"
+          "1 pinch Penicillium Roqueforti (tiny speck)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -10877,22 +10714,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4768,
+          "fat_g": 256.0,
+          "carbs_g": 384.0,
+          "protein_g": 256.0,
+          "sodium_mg": 10335,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (Flora Danica or MM100)",
-          "1/4 tsp in 1/4 cup water calcium chloride (if pasteurized)",
-          "1/4 tsp in 1/4 cup water liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -11022,22 +10854,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2649,
+          "fat_g": 142.2,
+          "carbs_g": 213.3,
+          "protein_g": 142.2,
+          "sodium_mg": 1922,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 213.3
         },
         "missing_inputs": [
-          "1/2 tsp thermophilic culture (TA061)",
-          "1/8 tsp Propionibacterium (for eyes)",
-          "1/2 tsp calcium chloride (if pasteurized)",
-          "1/2 tsp liquid rennet",
-          "as needed for brining cheese salt"
+          "1/8 tsp Propionibacterium (for eyes)"
         ],
         "assumptions": [
           "Calculated for 9 servings"
@@ -11165,22 +10993,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 1,
+          "calories": 5654,
+          "fat_g": 362.7,
+          "carbs_g": 277.3,
+          "protein_g": 320.0,
+          "sodium_mg": 9280,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 277.3
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (MM100)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "3 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
@@ -11304,22 +11127,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (Flora Danica)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -11440,21 +11258,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2688,
+          "fat_g": 160.0,
+          "carbs_g": 176.0,
+          "protein_g": 144.0,
+          "sodium_mg": 4277,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 176.0
         },
         "missing_inputs": [
-          "1 gallon fresh goat's milk",
-          "1/8 tsp mesophilic culture (Ch\u00e8vre culture or C20G)",
-          "2 drops liquid rennet",
-          "1 tsp cheese salt",
           "2 tbsp herbs de Provence (optional)",
           "1 tbsp vegetable ash (optional)"
         ],
@@ -11569,22 +11383,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 672,
+          "fat_g": 40.0,
+          "carbs_g": 44.0,
+          "protein_g": 36.0,
+          "sodium_mg": 779,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 44.0
         },
-        "missing_inputs": [
-          "1 gallon fresh goat's milk",
-          "1/16 tsp mesophilic culture (Ch\u00e8vre culture)",
-          "2 drops liquid rennet",
-          "1/2 tsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -11810,22 +11619,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 1,
+          "calories": 3179,
+          "fat_g": 170.7,
+          "carbs_g": 256.0,
+          "protein_g": 170.7,
+          "sodium_mg": 6891,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 256.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (MM100)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
@@ -11960,22 +11764,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 1,
+          "calories": 2445,
+          "fat_g": 134.4,
+          "carbs_g": 188.8,
+          "protein_g": 131.2,
+          "sodium_mg": 5920,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 188.8
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (MA4001)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "3 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 5 servings"
         ]
@@ -12221,23 +12020,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 46,
-          "fat_g": 1.8,
-          "carbs_g": 6.0,
-          "protein_g": 3.0,
-          "sodium_mg": 72,
+          "calories": 1998,
+          "fat_g": 81.7,
+          "carbs_g": 198.0,
+          "protein_g": 131.1,
+          "sodium_mg": 5400,
           "fiber_g": 1.0,
-          "sugar_g": 3.1
+          "sugar_g": 195.1
         },
-        "missing_inputs": [
-          "4 gallons partially skimmed cow's milk",
-          "1/4 tsp mesophilic culture (Flora Danica)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12366,22 +12159,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2440,
+          "fat_g": 100.0,
+          "carbs_g": 240.0,
+          "protein_g": 160.0,
+          "sodium_mg": 5788,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 240.0
         },
         "missing_inputs": [
-          "5 gallons partially skimmed cow's milk",
-          "1/4 tsp mesophilic culture (Flora Danica)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt",
           "1 lb red cheese wax"
         ],
         "assumptions": [
@@ -12499,22 +12287,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -12639,23 +12422,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (MA4001)",
-          "1/8 tsp annatto coloring (optional)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12790,23 +12567,19 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture (Flora Danica)",
           "1 cup, chopped fresh sage leaves",
-          "1/4 cup spinach juice (for color)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
+          "1/4 cup spinach juice (for color)"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -12928,22 +12701,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 cups stinging nettle leaves (dried or blanched)",
-          "1 tbsp cheese salt"
+          "2 cups stinging nettle leaves (dried or blanched)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -13060,22 +12829,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (MA4001)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -13200,22 +12964,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1742,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/2 tsp thermophilic culture (TA061)",
-          "1/2 tsp calcium chloride (if pasteurized)",
-          "1/2 tsp liquid rennet",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -13425,19 +13184,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2325,
+          "calories": 4240,
+          "fat_g": 272.0,
+          "carbs_g": 208.0,
+          "protein_g": 240.0,
+          "sodium_mg": 4053,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
-        "missing_inputs": [
-          "1/8 tsp liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -13542,19 +13299,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 25,
-          "fat_g": 0.6,
-          "carbs_g": 3.0,
-          "protein_g": 2.0,
-          "sodium_mg": 1227,
+          "calories": 2409,
+          "fat_g": 128.6,
+          "carbs_g": 195.0,
+          "protein_g": 130.0,
+          "sodium_mg": 2907,
           "fiber_g": 0.0,
-          "sugar_g": 3.0
+          "sugar_g": 195.0
         },
-        "missing_inputs": [
-          "1/8 tsp liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -13653,7 +13408,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 1352,
           "fat_g": 4.5,
@@ -13663,9 +13418,7 @@
           "fiber_g": 0.0,
           "sugar_g": 192.9
         },
-        "missing_inputs": [
-          "3 drops liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -13783,22 +13536,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -13915,22 +13663,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1730,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/2 tsp thermophilic culture (TA061)",
-          "1/2 tsp calcium chloride (if pasteurized)",
-          "1/2 tsp liquid rennet",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 10 servings"
         ]
@@ -14060,23 +13803,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1805,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp thermophilic culture (TA061)",
-          "1/4 tsp lipase powder (sharp)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet (goat or lamb preferred)",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -14201,22 +13938,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 24,
-          "fat_g": 2.8,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4264,
+          "fat_g": 274.8,
+          "carbs_g": 208.0,
+          "protein_g": 240.0,
+          "sodium_mg": 4518,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
-        "missing_inputs": [
-          "1/4 tsp thermophilic culture (TA061)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet (lamb preferred)",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 5 servings"
         ]
@@ -14342,22 +14074,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 3981,
+          "fat_g": 253.3,
+          "carbs_g": 202.7,
+          "protein_g": 224.0,
+          "sodium_mg": 1849,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 202.7
         },
-        "missing_inputs": [
-          "1/4 tsp thermophilic culture (TA061)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -14599,21 +14326,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 38,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "3/4 tsp thermophilic culture (TA061)",
-          "3/4 tsp liquid rennet",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 13 servings"
         ]
@@ -14734,23 +14457,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (Flora Danica)",
-          "1/32 tsp Brevibacterium linens",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -14870,22 +14587,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1742,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/2 tsp thermophilic culture (TA061)",
-          "1/2 tsp calcium chloride (if pasteurized)",
-          "1/2 tsp liquid rennet",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -15006,22 +14718,19 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 1952,
+          "fat_g": 80.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1902,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "8 gallons partially skimmed cow's milk",
           "1/2 cup (or 1/2 tsp culture) natural whey starter (or thermophilic culture)",
-          "1/2 tsp calcium chloride (if pasteurized)",
-          "1/2 tsp liquid calf rennet",
-          "as needed for brining cheese salt"
+          "1/2 tsp liquid calf rennet"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -15152,21 +14861,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1730,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/2 tsp mesophilic culture (Flora Danica)",
-          "1/2 tsp calcium chloride (if pasteurized)",
-          "1/2 tsp liquid rennet",
-          "as needed for brining cheese salt",
           "1 lb cheese wax (yellow or red)"
         ],
         "assumptions": [
@@ -15297,22 +15002,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 4296,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/2 tsp mesophilic culture (Flora Danica)",
-          "1/2 tsp calcium chloride",
-          "1/4 tsp liquid rennet",
-          "3 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -15437,23 +15137,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp annatto coloring (optional)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -15573,8 +15267,7 @@
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1 packet (or 1/4 cup) fromage blanc culture (or buttermilk)",
-          "2 drops liquid rennet"
+          "1 packet (or 1/4 cup) fromage blanc culture (or buttermilk)"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -16493,21 +16186,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 125,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1/2 cup Bulgarian yogurt (for culture)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1/2 cup for brine cheese salt"
+          "1/2 cup Bulgarian yogurt (for culture)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -16822,22 +16512,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1742,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "1/4 cup for brine cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -16972,23 +16657,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 18,
-          "fat_g": 0.8,
-          "carbs_g": 3.5,
-          "protein_g": 0.7,
-          "sodium_mg": 0,
+          "calories": 2402,
+          "fat_g": 128.8,
+          "carbs_g": 195.5,
+          "protein_g": 128.7,
+          "sodium_mg": 5168,
           "fiber_g": 1.5,
-          "sugar_g": 0.1
+          "sugar_g": 192.1
         },
-        "missing_inputs": [
-          "1/8 tsp thermophilic culture (TA061)",
-          "1/8 tsp lipase powder (mild)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -17113,22 +16792,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1713,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "3/4 tsp thermophilic culture (TA061)",
-          "1/4 tsp Propionibacterium freudenreichii (for eyes)",
-          "3/4 tsp calcium chloride (if pasteurized)",
-          "3/4 tsp liquid rennet",
-          "as needed for brining cheese salt"
+          "1/4 tsp Propionibacterium freudenreichii (for eyes)"
         ],
         "assumptions": [
           "Calculated for 15 servings"
@@ -17261,23 +16936,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4768,
+          "fat_g": 256.0,
+          "carbs_g": 384.0,
+          "protein_g": 256.0,
+          "sodium_mg": 10335,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 384.0
         },
-        "missing_inputs": [
-          "1/8 tsp thermophilic culture (TA061)",
-          "1/32 tsp Brevibacterium linens",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -17402,22 +17071,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 1952,
+          "fat_g": 80.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1965,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "4 gallons partially skimmed cow's milk",
-          "1/4 tsp mesophilic culture (Flora Danica)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "as needed for brining cheese salt",
           "8 oz red cheese wax"
         ],
         "assumptions": [
@@ -17528,20 +17192,19 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 3533,
+          "fat_g": 226.7,
+          "carbs_g": 173.3,
+          "protein_g": 200.0,
+          "sodium_mg": 1523,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 173.3
         },
         "missing_inputs": [
           "1/4 cup (or 1/4 tsp culture) natural whey starter (or thermophilic culture)",
-          "1/2 tsp lamb rennet paste (traditional)",
-          "as needed for rubbing cheese salt"
+          "1/2 tsp lamb rennet paste (traditional)"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -17783,22 +17446,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1805,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp thermophilic culture (TA061)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -17927,22 +17585,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 1,
+          "calories": 2816,
+          "fat_g": 163.2,
+          "carbs_g": 192.0,
+          "protein_g": 153.6,
+          "sodium_mg": 4535,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (MM100)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 5 servings"
         ]
@@ -18058,22 +17711,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1805,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (Flora Danica)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -18194,23 +17842,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (MM100)",
-          "1/32 tsp Brevibacterium linens",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -18328,22 +17970,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 1,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 6331,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (Flora Danica)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
@@ -18460,22 +18097,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4912,
+          "fat_g": 312.0,
+          "carbs_g": 252.0,
+          "protein_g": 276.0,
+          "sodium_mg": 5704,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 252.0
         },
-        "missing_inputs": [
-          "1/4 tsp thermophilic culture (TA061)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -18605,22 +18237,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 1,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 6331,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1 cup homogenized cream",
-          "1/8 tsp mesophilic culture (MM100)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 tbsp cheese salt"
+          "1 cup homogenized cream"
         ],
         "assumptions": [
           "Calculated for 3 servings"
@@ -18747,22 +18375,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 411,
-          "fat_g": 44.0,
-          "carbs_g": 3.5,
-          "protein_g": 2.5,
-          "sodium_mg": 45,
+          "calories": 2795,
+          "fat_g": 172.0,
+          "carbs_g": 195.5,
+          "protein_g": 130.5,
+          "sodium_mg": 5213,
           "fiber_g": 0.0,
-          "sugar_g": 3.5
+          "sugar_g": 195.5
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (Flora Danica)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -18889,23 +18512,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture (Flora Danica)",
-          "1/32 tsp Brevibacterium linens",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 cup for washing Belgian-style abbey ale",
-          "1 tbsp cheese salt"
+          "1 cup for washing Belgian-style abbey ale"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -19029,20 +18647,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 205,
-          "fat_g": 22.0,
-          "carbs_g": 1.8,
-          "protein_g": 1.2,
-          "sodium_mg": 604,
+          "calories": 1398,
+          "fat_g": 86.0,
+          "carbs_g": 98.1,
+          "protein_g": 65.2,
+          "sodium_mg": 1444,
           "fiber_g": 0.0,
-          "sugar_g": 1.8
+          "sugar_g": 97.8
         },
-        "missing_inputs": [
-          "1.5 tsp citric acid",
-          "1/4 tsp liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -19161,22 +18776,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tsp truffle oil",
-          "1 tbsp cheese salt"
+          "1 tsp truffle oil"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -19295,22 +18906,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 16,
-          "fat_g": 1.0,
-          "carbs_g": 2.2,
-          "protein_g": 0.8,
-          "sodium_mg": 8,
+          "calories": 2400,
+          "fat_g": 129.0,
+          "carbs_g": 194.2,
+          "protein_g": 128.8,
+          "sodium_mg": 5175,
           "fiber_g": 0.4,
-          "sugar_g": 0.1
+          "sugar_g": 192.1
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (Flora Danica)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -19429,22 +19035,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 18,
-          "fat_g": 0.3,
-          "carbs_g": 4.5,
-          "protein_g": 0.6,
-          "sodium_mg": 0,
+          "calories": 4258,
+          "fat_g": 272.3,
+          "carbs_g": 212.5,
+          "protein_g": 240.6,
+          "sodium_mg": 6378,
           "fiber_g": 1.8,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
-        "missing_inputs": [
-          "1/8 tsp thermophilic culture (TA061)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
@@ -19557,20 +19158,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2325,
+          "calories": 2688,
+          "fat_g": 160.0,
+          "carbs_g": 176.0,
+          "protein_g": 144.0,
+          "sodium_mg": 4277,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 176.0
         },
         "missing_inputs": [
-          "1 gallon fresh goat's milk",
-          "1/8 tsp mesophilic culture (ch\u00e8vre culture)",
-          "2 drops liquid rennet",
           "3 tbsp herbes de Provence"
         ],
         "assumptions": [
@@ -19686,22 +19284,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1/2 cup, reduced porter or stout beer",
-          "1 tbsp cheese salt"
+          "1/2 cup, reduced porter or stout beer"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -19816,22 +19410,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.6,
-          "carbs_g": 2.0,
-          "protein_g": 0.4,
-          "sodium_mg": 0,
+          "calories": 2396,
+          "fat_g": 128.6,
+          "carbs_g": 194.0,
+          "protein_g": 128.4,
+          "sodium_mg": 6330,
           "fiber_g": 1.0,
-          "sugar_g": 0.4
+          "sugar_g": 192.4
         },
-        "missing_inputs": [
-          "1/8 tsp thermophilic culture (TA061)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
@@ -19960,22 +19549,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (Flora Danica)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -20089,20 +19673,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 291,
+          "calories": 672,
+          "fat_g": 40.0,
+          "carbs_g": 44.0,
+          "protein_g": 36.0,
+          "sodium_mg": 779,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 44.0
         },
         "missing_inputs": [
-          "1 gallon fresh goat's milk",
-          "1/16 tsp mesophilic culture (ch\u00e8vre culture)",
-          "2 drops liquid rennet",
           "3 tbsp food-grade vegetable ash"
         ],
         "assumptions": [
@@ -20219,22 +19800,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4240,
+          "fat_g": 272.0,
+          "carbs_g": 208.0,
+          "protein_g": 240.0,
+          "sodium_mg": 5216,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
         "missing_inputs": [
-          "1/8 tsp thermophilic culture (TA061)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "12-15 large leaves fresh walnut leaves",
-          "1 tbsp cheese salt"
+          "12-15 large leaves fresh walnut leaves"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -20349,19 +19926,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2325,
+          "calories": 2388,
+          "fat_g": 128.0,
+          "carbs_g": 193.5,
+          "protein_g": 128.0,
+          "sodium_mg": 4005,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1.5 tsp citric acid",
-          "1/4 tsp liquid rennet",
           "2 cups applewood chips"
         ],
         "assumptions": [
@@ -20576,22 +20151,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 18,
-          "fat_g": 0.0,
-          "carbs_g": 0.8,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2402,
+          "fat_g": 128.0,
+          "carbs_g": 192.8,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.8
+          "sugar_g": 192.8
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (Flora Danica)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -20705,22 +20275,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1763,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp thermophilic culture (TA061)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "1/2 cup wild garlic leaves (ramsons), chopped",
-          "as needed for brining cheese salt"
+          "1/2 cup wild garlic leaves (ramsons), chopped"
         ],
         "assumptions": [
           "Calculated for 6 servings"
@@ -20841,23 +20407,19 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4240,
+          "fat_g": 272.0,
+          "carbs_g": 208.0,
+          "protein_g": 240.0,
+          "sodium_mg": 5216,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
         "missing_inputs": [
-          "1/8 tsp thermophilic culture (TA061)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
           "1/2 gram (about 1 tsp) saffron threads",
-          "1/4 cup warm milk for steeping",
-          "1 tbsp cheese salt"
+          "1/4 cup warm milk for steeping"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -20972,22 +20534,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 8,
-          "fat_g": 0.5,
-          "carbs_g": 0.6,
-          "protein_g": 0.5,
-          "sodium_mg": 128,
+          "calories": 2392,
+          "fat_g": 128.5,
+          "carbs_g": 192.6,
+          "protein_g": 128.5,
+          "sodium_mg": 5296,
           "fiber_g": 0.3,
-          "sugar_g": 0.2
+          "sugar_g": 192.2
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (Flora Danica)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -21102,22 +20659,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2-3 peppers chipotle peppers in adobo, minced",
-          "1 tbsp cheese salt"
+          "2-3 peppers chipotle peppers in adobo, minced"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -21242,22 +20795,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 15,
-          "fat_g": 0.0,
-          "carbs_g": 4.0,
-          "protein_g": 0.1,
-          "sodium_mg": 1,
+          "calories": 2399,
+          "fat_g": 128.0,
+          "carbs_g": 196.0,
+          "protein_g": 128.1,
+          "sodium_mg": 5168,
           "fiber_g": 1.7,
-          "sugar_g": 1.3
+          "sugar_g": 193.3
         },
-        "missing_inputs": [
-          "1/16 tsp mesophilic culture (Flora Danica)",
-          "1/16 tsp calcium chloride (if pasteurized)",
-          "1/16 tsp liquid rennet",
-          "1/2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -21372,21 +20920,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 236,
-          "fat_g": 0.1,
-          "carbs_g": 62.8,
-          "protein_g": 1.2,
-          "sodium_mg": 1169,
+          "calories": 2924,
+          "fat_g": 160.1,
+          "carbs_g": 238.8,
+          "protein_g": 145.2,
+          "sodium_mg": 3121,
           "fiber_g": 1.2,
-          "sugar_g": 55.5
+          "sugar_g": 231.5
         },
-        "missing_inputs": [
-          "1 gallon fresh goat's milk",
-          "1/8 tsp mesophilic culture (ch\u00e8vre culture)",
-          "2 drops liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -21509,22 +21053,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 44,
-          "fat_g": 0.1,
-          "carbs_g": 10.0,
-          "protein_g": 1.0,
-          "sodium_mg": 4,
+          "calories": 2428,
+          "fat_g": 128.1,
+          "carbs_g": 202.0,
+          "protein_g": 129.0,
+          "sodium_mg": 4009,
           "fiber_g": 2.0,
-          "sugar_g": 5.0
+          "sugar_g": 197.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture (MA4001)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 tbsp butter for caramelizing",
-          "2 tsp cheese salt"
+          "2 tbsp butter for caramelizing"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -21649,22 +21189,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 52,
-          "fat_g": 0.1,
-          "carbs_g": 13.5,
-          "protein_g": 0.7,
-          "sodium_mg": 3,
+          "calories": 2436,
+          "fat_g": 128.1,
+          "carbs_g": 205.5,
+          "protein_g": 128.7,
+          "sodium_mg": 6333,
           "fiber_g": 1.6,
-          "sugar_g": 11.5
+          "sugar_g": 203.5
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture (Flora Danica)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
@@ -21779,22 +21314,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 4,
-          "fat_g": 0.2,
-          "carbs_g": 0.8,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
+          "calories": 4244,
+          "fat_g": 272.2,
+          "carbs_g": 208.8,
+          "protein_g": 240.2,
+          "sodium_mg": 6379,
           "fiber_g": 0.5,
-          "sugar_g": 0.3
+          "sugar_g": 208.3
         },
-        "missing_inputs": [
-          "1/8 tsp thermophilic culture (TA061)",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 3 servings"
         ]
@@ -21911,22 +21441,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture (MA4001)",
-          "1/4 tsp calcium chloride (if pasteurized)",
-          "1/4 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -22047,21 +21572,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2168,
+          "fat_g": 104.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1810,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
         "missing_inputs": [
-          "5 gallons partially skimmed cow's milk (evening)",
-          "1/2 tsp thermophilic culture (or whey starter)",
-          "1/2 tsp liquid calf rennet",
-          "as needed for brining cheese salt"
+          "1/2 tsp liquid calf rennet"
         ],
         "assumptions": [
           "Calculated for 10 servings"
@@ -22188,22 +21710,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1730,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/2 tsp mesophilic culture (Flora Danica)",
-          "1/2 tsp calcium chloride (if pasteurized)",
-          "1/2 tsp liquid rennet",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 10 servings"
         ]
@@ -22321,19 +21838,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4240,
+          "fat_g": 272.0,
+          "carbs_g": 208.0,
+          "protein_g": 240.0,
+          "sodium_mg": 1728,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
         "missing_inputs": [
-          "1/4 tsp thermophilic culture (TA061)",
-          "1/4 tsp calcium chloride (if pasteurized)",
           "1/4 tsp liquid lamb rennet",
           "as needed  olive oil for rind"
         ],
@@ -22449,8 +21964,7 @@
           "sugar_g": 6.0
         },
         "missing_inputs": [
-          "6 gallons donkey milk",
-          "1/4 tsp liquid rennet"
+          "6 gallons donkey milk"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -22556,21 +22070,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
           "carbs_g": 0.0,
           "protein_g": 0.0,
-          "sodium_mg": 0,
+          "sodium_mg": 1162,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "2 gallons moose milk",
-          "1/8 tsp mesophilic culture",
-          "1/8 tsp liquid rennet",
-          "1/2 tsp cheese salt"
+          "2 gallons moose milk"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -22674,21 +22185,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2325,
+          "calories": 3424,
+          "fat_g": 160.0,
+          "carbs_g": 352.0,
+          "protein_g": 160.0,
+          "sodium_mg": 7125,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 352.0
         },
-        "missing_inputs": [
-          "2 gallons camel milk",
-          "1/2 tsp calcium chloride",
-          "1/4 tsp vegetable rennet (camel chymosin preferred)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -22794,7 +22301,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -22805,9 +22312,7 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 gallon reindeer milk",
-          "1/16 tsp mesophilic culture",
-          "1/16 tsp liquid rennet"
+          "1 gallon reindeer milk"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -23254,17 +22759,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2325,
+          "calories": 3792,
+          "fat_g": 272.0,
+          "carbs_g": 208.0,
+          "protein_g": 144.0,
+          "sodium_mg": 4357,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
         "missing_inputs": [
-          "1/4 cup (or 1 tsp) natural whey starter (or citric acid)",
-          "1/4 tsp liquid rennet"
+          "1/4 cup (or 1 tsp) natural whey starter (or citric acid)"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -23387,23 +22891,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1705,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1 tsp thermophilic culture (TA061)",
-          "1/2 tsp lipase powder (sharp)",
-          "1 tsp calcium chloride (if pasteurized)",
-          "1 tsp liquid rennet (kid or lamb)",
-          "as needed for brining cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 20 servings"
         ]
@@ -23530,23 +23028,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 596,
+          "fat_g": 32.0,
+          "carbs_g": 48.0,
+          "protein_g": 32.0,
+          "sodium_mg": 1292,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 48.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture (Flora Danica)",
-          "1/32 tsp Brevibacterium linens",
-          "1/8 tsp calcium chloride (if pasteurized)",
-          "1/8 tsp liquid rennet",
-          "1 cup Marc de Bourgogne (or pomace brandy)",
-          "1 tbsp cheese salt"
+          "1 cup Marc de Bourgogne (or pomace brandy)"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -23674,20 +23167,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 2384,
+          "calories": 2388,
           "fat_g": 128.0,
-          "carbs_g": 192.0,
+          "carbs_g": 193.5,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 4005,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1.5 tsp citric acid",
-          "1/4 tsp liquid rennet",
-          "1 tsp cheese salt",
           "as needed  wheat straw or hay"
         ],
         "assumptions": [
@@ -23818,22 +23308,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/8 tsp thermophilic culture",
-          "1/8 tsp calcium chloride",
-          "1/4 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -23964,23 +23449,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4240,
+          "fat_g": 272.0,
+          "carbs_g": 208.0,
+          "protein_g": 240.0,
+          "sodium_mg": 8703,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
-        "missing_inputs": [
-          "2 gallons sheep's milk",
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -24240,22 +23719,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1681,
+          "sodium_mg": 8656,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -24390,7 +23864,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 3205,
           "fat_g": 216.0,
@@ -24400,11 +23874,7 @@
           "fiber_g": 0.0,
           "sugar_g": 199.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "1/8 tsp calcium chloride",
-          "1/4 tsp liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -24535,22 +24005,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp thermophilic culture",
-          "1/16 tsp Propionibacterium freudenreichii",
-          "1/4 tsp calcium chloride",
-          "3/4 tsp liquid rennet",
-          "3 tbsp cheese salt"
+          "1/16 tsp Propionibacterium freudenreichii"
         ],
         "assumptions": [
           "Calculated for 3 servings"
@@ -24681,21 +24147,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1 tbsp cheese salt",
           "3 cups hickory chips"
         ],
         "assumptions": [
@@ -24822,22 +24284,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -24990,7 +24447,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 3229,
           "fat_g": 216.2,
@@ -25000,10 +24457,7 @@
           "fiber_g": 1.5,
           "sugar_g": 199.3
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "2 drops liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -25134,22 +24588,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1/2 cup fresh dill",
-          "2 tbsp cheese salt"
+          "1/2 cup fresh dill"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -25289,22 +24739,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2386,
           "fat_g": 128.0,
           "carbs_g": 192.2,
           "protein_g": 128.2,
-          "sodium_mg": 1686,
+          "sodium_mg": 5174,
           "fiber_g": 0.2,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1 cup fresh sage leaves",
-          "1 tbsp cheese salt"
+          "1 cup fresh sage leaves"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -25437,22 +24883,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2417,
           "fat_g": 129.9,
           "carbs_g": 196.5,
           "protein_g": 129.5,
-          "sodium_mg": 1695,
+          "sodium_mg": 8670,
           "fiber_g": 0.9,
           "sugar_g": 192.2
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -25579,7 +25020,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 2548,
           "fat_g": 128.0,
@@ -25589,10 +25030,7 @@
           "fiber_g": 0.0,
           "sugar_g": 227.5
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "2 drops liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -25720,22 +25158,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 cups stinging nettles",
-          "2 tbsp cheese salt"
+          "2 cups stinging nettles"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -25863,22 +25297,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "3 tbsp fenugreek seeds",
-          "2 tbsp cheese salt"
+          "3 tbsp fenugreek seeds"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -26013,23 +25443,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 3,
-          "fat_g": 0.0,
-          "carbs_g": 0.3,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4243,
+          "fat_g": 272.0,
+          "carbs_g": 208.3,
+          "protein_g": 240.0,
+          "sodium_mg": 5216,
           "fiber_g": 0.3,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
         "missing_inputs": [
-          "2 gallons sheep's milk",
-          "1/4 tsp thermophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1/4 cup fresh rosemary",
-          "1 tbsp cheese salt"
+          "1/4 cup fresh rosemary"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -26158,23 +25583,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 4240,
+          "fat_g": 272.0,
+          "carbs_g": 208.0,
+          "protein_g": 240.0,
+          "sodium_mg": 8703,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 208.0
         },
         "missing_inputs": [
-          "2 gallons sheep's milk",
-          "1/4 tsp thermophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1/4 cup black peppercorns",
-          "2 tbsp cheese salt"
+          "1/4 cup black peppercorns"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -26313,7 +25733,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
@@ -26324,10 +25744,6 @@
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "1/16 tsp Brevibacterium linens",
-          "1/8 tsp calcium chloride",
-          "1/4 tsp liquid rennet",
           "1 cup Marc de Bourgogne",
           "2 cups brine"
         ],
@@ -26454,23 +25870,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2578,
           "fat_g": 128.0,
           "carbs_g": 197.0,
           "protein_g": 128.0,
-          "sodium_mg": 1690,
+          "sodium_mg": 8665,
           "fiber_g": 0.0,
           "sugar_g": 193.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/16 tsp Brevibacterium linens",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -26600,23 +26010,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/16 tsp Brevibacterium linens",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 cups Belgian abbey ale",
-          "2 tbsp cheese salt"
+          "2 cups Belgian abbey ale"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -26740,21 +26145,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1 tbsp cheese salt",
           "1 cup Irish whiskey"
         ],
         "assumptions": [
@@ -26888,21 +26289,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp thermophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt",
           "4 cups grape marc (vinaccia)",
           "1 cup grappa"
         ],
@@ -27042,7 +26439,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 298,
           "fat_g": 16.0,
@@ -27053,9 +26450,6 @@
           "sugar_g": 24.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "1/8 tsp calcium chloride",
-          "1/4 tsp liquid rennet",
           "1/2 cup Calvados"
         ],
         "assumptions": [
@@ -27186,23 +26580,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/16 tsp Brevibacterium linens",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 cups hard cider",
-          "2 tbsp cheese salt"
+          "2 cups hard cider"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -27333,23 +26722,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/16 tsp Brevibacterium linens",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 cups mead",
-          "2 tbsp cheese salt"
+          "2 cups mead"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -27475,22 +26859,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2407,
           "fat_g": 128.1,
           "carbs_g": 198.0,
           "protein_g": 128.2,
-          "sodium_mg": 1681,
+          "sodium_mg": 6912,
           "fiber_g": 2.5,
           "sugar_g": 194.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1.5 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -27617,7 +26996,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 2984,
           "fat_g": 166.2,
@@ -27627,10 +27006,7 @@
           "fiber_g": 6.5,
           "sugar_g": 236.5
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "2 drops liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -27755,22 +27131,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2540,
           "fat_g": 128.3,
           "carbs_g": 232.5,
           "protein_g": 130.2,
-          "sodium_mg": 1686,
+          "sodium_mg": 6918,
           "fiber_g": 4.8,
           "sugar_g": 226.5
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1.5 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -27889,7 +27260,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 3212,
           "fat_g": 200.0,
@@ -27899,10 +27270,7 @@
           "fiber_g": 17.0,
           "sugar_g": 198.0
         },
-        "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "2 drops liquid rennet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -28026,22 +27394,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2601,
           "fat_g": 128.2,
           "carbs_g": 249.5,
           "protein_g": 130.5,
-          "sodium_mg": 1689,
+          "sodium_mg": 8664,
           "fiber_g": 2.5,
           "sugar_g": 235.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -28165,22 +27528,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2798,
           "fat_g": 164.0,
           "carbs_g": 206.0,
           "protein_g": 143.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8656,
           "fiber_g": 8.5,
           "sugar_g": 195.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -28312,7 +27670,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2520,
           "fat_g": 128.1,
@@ -28323,8 +27681,6 @@
           "sugar_g": 226.8
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "2 drops liquid rennet",
           "1 cup wild blueberries"
         ],
         "assumptions": [
@@ -28454,22 +27810,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 5168,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
-        "missing_inputs": [
-          "1/4 tsp mesophilic culture",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "1 tbsp cheese salt"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -28600,7 +27951,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 298,
           "fat_g": 16.0,
@@ -28611,8 +27962,6 @@
           "sugar_g": 24.0
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "2 drops liquid rennet",
           "2 tbsp food-grade vegetable ash"
         ],
         "assumptions": [
@@ -28744,7 +28093,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 621,
           "fat_g": 32.0,
@@ -28755,8 +28104,6 @@
           "sugar_g": 48.2
         },
         "missing_inputs": [
-          "1/8 tsp mesophilic culture",
-          "2 drops liquid rennet",
           "16 leaves chestnut leaves",
           "as needed  raffia"
         ],
@@ -28887,22 +28234,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 2384,
           "fat_g": 128.0,
           "carbs_g": 192.0,
           "protein_g": 128.0,
-          "sodium_mg": 1680,
+          "sodium_mg": 8655,
           "fiber_g": 0.0,
           "sugar_g": 192.0
         },
         "missing_inputs": [
-          "1/4 tsp thermophilic culture",
-          "1/16 tsp Propionibacterium",
-          "1/4 tsp calcium chloride",
-          "1/2 tsp liquid rennet",
-          "2 tbsp cheese salt"
+          "1/16 tsp Propionibacterium"
         ],
         "assumptions": [
           "Calculated for 2 servings"

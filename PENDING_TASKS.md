@@ -87,16 +87,26 @@ All recipes extracted from the Kindle muffin cookbook (reference collection) nee
 - 1 recipe had `status: "insufficient_data"` but `missing_inputs` was empty
 
 ### Resolution
-Used `scripts/add_all_nutrition.py` to calculate actual nutrition values from USDA data:
-- Ran nutrition calculation script on all recipes lacking complete nutrition
-- 5,569 recipes processed with USDA-based calculations
-- All 22 affected recipes now have calculated `per_serving` values
-- Status set to "partial" where some ingredients couldn't be matched in USDA database
+Used `scripts/add_all_nutrition.py` to calculate actual nutrition values from USDA data.
+
+**Comprehensive updates to nutrition database:**
+- Added cheesemaking ingredients: calcium chloride, rennet, starter cultures (zero cal)
+- Added cheese salt with tbsp/lb/cup units
+- Added exotic milk types: cow, goat, sheep, buffalo, camel, llama, rabbit
+- Added gallon support for all milk types (16 cups = 1 gallon)
+- Added Asian specialty ingredients: matcha, rice flour, nori, ikura, paneer
+- Added Indian spices: kasuri methi, mahleb, mastic, ginger-garlic paste
+- Added box/package variants for convenience mixes
 
 ### Results
-- All 22 recipes now have actual calorie, fat, carbs, protein, sodium, fiber, and sugar values
+| Before | After |
+|--------|-------|
+| 68.3% with nutrition | **99.5%** with nutrition |
+| 3,521 insufficient | 29 insufficient |
+
+- 5,790 of 5,819 recipes (99.5%) now have calculated per_serving values
+- Only 29 recipes (0.5%) remain insufficient (OCR artifacts, ultra-specialty items)
 - Validation passes with 0 errors, 0 warnings
-- Missing ingredient inputs are documented in each recipe's `missing_inputs` array
 
 ---
 

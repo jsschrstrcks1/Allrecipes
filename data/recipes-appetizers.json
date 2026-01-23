@@ -390,19 +390,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 75,
-          "fat_g": 5.4,
-          "carbs_g": 5.6,
-          "protein_g": 1.5,
+          "calories": 171,
+          "fat_g": 5.8,
+          "carbs_g": 26.7,
+          "protein_g": 3.0,
           "sodium_mg": 205,
-          "fiber_g": 0.6,
+          "fiber_g": 1.2,
           "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "1 cup rice flour"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
