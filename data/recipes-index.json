@@ -2,8 +2,8 @@
   "meta": {
     "title": "Other Family Recipes",
     "description": "Digital cookbook recipes and magazine clippings, preserved with love",
-    "total_recipes": 5621,
-    "last_updated": "2026-01-22",
+    "total_recipes": 5819,
+    "last_updated": "2026-01-23",
     "version": "3.0.0",
     "sharded": true,
     "shard_strategy": "by_category"
@@ -37,7 +37,7 @@
     {
       "category": "cheese",
       "file": "recipes-cheese.json",
-      "count": 215
+      "count": 413
     },
     {
       "category": "desserts",
@@ -83187,6 +83187,3433 @@
       "description": "Firm, mild fresh cheese that holds its shape when cooked, essential for palak paneer and other Indian dishes.",
       "servings_yield": "About 12 oz",
       "total_time": "2 hours"
+    },
+    {
+      "id": "queso-provolone-argentino",
+      "title": "Queso Provolone Argentino",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "Italian-style",
+        "pasta filata",
+        "grilling",
+        "asado"
+      ],
+      "collection": "all",
+      "description": "Argentine provolone specifically made for grilling. When heated, it develops a crispy exterior while staying stretchy inside. No Argentine barbecue (asado) is complete without provoleta.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "queso-tybo-argentino",
+      "title": "Queso Tybo Argentino",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "Danish-style",
+        "semi-hard",
+        "washed-curd"
+      ],
+      "collection": "all",
+      "description": "Mild, semi-hard Argentine cheese based on Danish Samsø/Tilsit. Elastic texture with small irregular eyes, it's excellent for sandwiches and everyday eating.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "queso-gruyerette-argentino",
+      "title": "Queso Gruyerette Argentino",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "Swiss-style",
+        "hard",
+        "Alpine",
+        "eye cheese"
+      ],
+      "collection": "all",
+      "description": "Argentine Gruyère-style cheese with sweet, nutty flavor and small eyes. Smaller than Swiss originals, it ages faster while maintaining the characteristic complexity.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "4-6 months aging"
+    },
+    {
+      "id": "queso-pategrillo-argentino",
+      "title": "Queso Pategrillo (Young Pategras)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "Dutch-style",
+        "semi-soft",
+        "young cheese"
+      ],
+      "collection": "all",
+      "description": "The young sibling of Pategras, aged only 3-4 weeks. Softer and milder than aged Pategras, it's Argentina's everyday slicing cheese for sandwiches and casual snacking.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-4 weeks aging"
+    },
+    {
+      "id": "queso-de-cabra-argentino",
+      "title": "Queso de Cabra Argentino (Argentine Goat Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "goat cheese",
+        "fresh",
+        "chèvre-style"
+      ],
+      "collection": "all",
+      "description": "Fresh Argentine goat cheese from the mountain regions. Tangy, bright, and spreadable, it showcases the unique terroir of Argentine goat herds grazing on wild herbs.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-3 days to 2 weeks"
+    },
+    {
+      "id": "queso-de-oveja-argentino",
+      "title": "Queso de Oveja Argentino (Argentine Sheep's Milk Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "sheep's milk",
+        "aged",
+        "Patagonian"
+      ],
+      "collection": "all",
+      "description": "Rich, complex Argentine sheep's milk cheese from Patagonia. The sheep graze on wild grasses and herbs, giving the cheese distinctive lanolin sweetness and buttery depth.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-4 months aging"
+    },
+    {
+      "id": "queso-dambo-argentino",
+      "title": "Queso Dambo Argentino",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "Danish-style",
+        "semi-soft",
+        "washed-curd"
+      ],
+      "collection": "all",
+      "description": "Mild, semi-soft Argentine cheese based on Danish Danbo. Buttery and smooth with small irregular eyes, it's a versatile table cheese popular throughout Argentina.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "5-8 weeks aging"
+    },
+    {
+      "id": "queso-colonia-argentino",
+      "title": "Queso Colonia Argentino",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "Swiss-style",
+        "Alpine",
+        "eye cheese",
+        "colonial"
+      ],
+      "collection": "all",
+      "description": "Argentine Swiss-style cheese from the Swiss-German colonies of Entre Ríos province. Features characteristic large eyes and sweet, nutty flavor. Named for the colonial settlements that perfected it.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "3-5 months aging"
+    },
+    {
+      "id": "queso-mozzarella-argentino",
+      "title": "Queso Mozzarella Argentino",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "Italian-style",
+        "pasta filata",
+        "fresh",
+        "pizza cheese"
+      ],
+      "collection": "all",
+      "description": "Argentine-style mozzarella, slightly drier than Italian original to better suit empanadas and fugazza pizza. The stretch is essential - no Argentine kitchen is without it.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "Same day"
+    },
+    {
+      "id": "queso-roquefort-argentino",
+      "title": "Queso Roquefort Argentino (Argentine Roquefort-Style)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "blue cheese",
+        "Roquefort-style",
+        "cave-aged"
+      ],
+      "collection": "all",
+      "description": "Argentine interpretation of Roquefort using cow's milk instead of sheep's. Creamy, tangy, and boldly veined, it's aged in humidity-controlled caves in the Tandil region.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-4 months aging"
+    },
+    {
+      "id": "queso-quartirolo-tandilense",
+      "title": "Queso Quartirolo Tandilense",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "Italian-style",
+        "soft",
+        "fresh",
+        "Tandil"
+      ],
+      "collection": "all",
+      "description": "Soft, rindless cheese from the Tandil region, inspired by Italian Quartirolo. Fresh and tangy when young, it develops complexity with brief aging. Essential for Argentine pasta dishes.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "Fresh to 2 weeks"
+    },
+    {
+      "id": "queso-semi-duro-argentino",
+      "title": "Queso Semi-Duro Argentino (Semi-Hard Table Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "semi-hard",
+        "table cheese",
+        "everyday"
+      ],
+      "collection": "all",
+      "description": "The everyday semi-hard cheese found in every Argentine home. Mild, sliceable, and versatile, it's the default cheese for sandwiches, cooking, and casual eating.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-8 weeks aging"
+    },
+    {
+      "id": "dulce-de-leche-cheese-spread",
+      "title": "Queso con Dulce (Cheese with Dulce de Leche)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Argentine",
+        "dessert",
+        "dulce de leche",
+        "traditional pairing"
+      ],
+      "collection": "all",
+      "description": "Not a cheese per se, but the quintessential Argentine cheese preparation. Fresh, mild cheese paired with dulce de leche creates the beloved 'vigilante' or 'queso y dulce' dessert.",
+      "servings_yield": "4-6 servings",
+      "total_time": "15 min plus cheese-making time"
+    },
+    {
+      "id": "manchego-semicurado",
+      "title": "Queso Manchego Semicurado (Semi-Aged Manchego)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "sheep's milk",
+        "semi-aged",
+        "La Mancha"
+      ],
+      "collection": "all",
+      "description": "The younger sibling of aged Manchego, with a softer, creamier texture and milder flavor. Still retains the characteristic nuttiness but with more buttery notes and less sharpness.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-4 months aging"
+    },
+    {
+      "id": "cabrales-blue-cheese",
+      "title": "Queso Cabrales (Asturian Blue Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "blue cheese",
+        "cave-aged",
+        "Asturias",
+        "PDO",
+        "mixed milk"
+      ],
+      "collection": "all",
+      "description": "Spain's most intense blue cheese, traditionally made from mixed milks and aged in limestone caves of the Picos de Europa mountains. Bold, spicy, and complex with extensive blue-green veining throughout.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months cave aging"
+    },
+    {
+      "id": "mahon-menorca-cheese",
+      "title": "Queso Mahon-Menorca (Menorcan Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "cow's milk",
+        "Menorca",
+        "Balearic",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Distinctive square-shaped cow's milk cheese from the island of Menorca. Made by wrapping curds in cloth (fogasser) and pressing, giving rounded edges. Buttery when young, sharp and crystalline when aged.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-12 months aging"
+    },
+    {
+      "id": "idiazabal-basque-cheese",
+      "title": "Queso Idiazabal (Basque Smoked Sheep Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "sheep's milk",
+        "smoked",
+        "Basque",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Firm, pressed sheep's milk cheese from the Basque Country, traditionally smoked over cherry or beech wood. Intense, buttery flavor with smoky undertones. Made from Latxa and Carranzana sheep's milk.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-6 months aging plus smoking"
+    },
+    {
+      "id": "tetilla-galician-cheese",
+      "title": "Queso Tetilla (Galician Breast-Shaped Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "cow's milk",
+        "soft",
+        "Galicia",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Soft, creamy cow's milk cheese from Galicia, named for its distinctive breast-like conical shape. Mild, buttery, and slightly tangy with a thin, edible rind. The shape comes from the traditional mold design.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "queso-murcia-al-vino",
+      "title": "Queso de Murcia al Vino (Wine-Washed Goat Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "goat's milk",
+        "wine-washed",
+        "Murcia",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Elegant goat cheese from the Murcia region, washed in local red wine during aging. The wine creates a distinctive burgundy-purple rind while the interior remains white and creamy. Mild goat flavor with fruity wine notes.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "roncal-navarran-cheese",
+      "title": "Queso Roncal (Navarran Sheep Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "sheep's milk",
+        "hard",
+        "aged",
+        "Navarra",
+        "PDO",
+        "Pyrenees"
+      ],
+      "collection": "all",
+      "description": "Historic pressed sheep's milk cheese from the Pyrenean Roncal Valley. Spain's first cheese to receive PDO status. Hard, dry texture with intense, piquant flavor and notes of herbs and nuts. Made only from Rasa and Latxa sheep.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-12 months aging"
+    },
+    {
+      "id": "zamorano-castilian-cheese",
+      "title": "Queso Zamorano (Castilian Sheep Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "sheep's milk",
+        "hard",
+        "aged",
+        "Castilla y Leon",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Firm, flavorful sheep's milk cheese from Zamora in the Castilian plains. Made from Churra and Castellana sheep, it has a grainy, crumbly texture with intense, slightly spicy flavor. Often compared to Manchego but with its own distinct character.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-12 months aging"
+    },
+    {
+      "id": "san-simon-da-costa-smoked",
+      "title": "San Simon da Costa (Galician Smoked Cow Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "cow's milk",
+        "smoked",
+        "Galicia",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Distinctive teardrop-shaped smoked cheese from Galicia. Smoked over birch wood, it has a glossy amber exterior and creamy, buttery interior. The unique shape and smoking tradition date back centuries.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-3 months including smoking"
+    },
+    {
+      "id": "afuegal-pitu-asturian",
+      "title": "Afuega'l Pitu (Asturian Spicy Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "cow's milk",
+        "acid-set",
+        "Asturias",
+        "PDO",
+        "paprika"
+      ],
+      "collection": "all",
+      "description": "Ancient Asturian cheese whose name means 'fire in the throat' in Asturian dialect - a testament to its dense, paste-like texture that sticks to the palate. Made in two versions: white (natural) or roxu (with paprika). Conical or gourd-shaped.",
+      "servings_yield": "About 1 lb",
+      "total_time": "2-8 weeks aging"
+    },
+    {
+      "id": "garrotxa-catalan-goat",
+      "title": "Garrotxa (Catalan Goat Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "goat's milk",
+        "mold-ripened",
+        "Catalonia",
+        "artisanal"
+      ],
+      "collection": "all",
+      "description": "Semi-firm Catalan goat cheese with a distinctive fuzzy gray Penicillium mold rind. Nearly extinct in the 1980s, it was revived by artisan cheesemakers. Mild, nutty goat flavor with earthy undertones from the natural rind.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-8 weeks aging"
+    },
+    {
+      "id": "majorero-canarian-goat",
+      "title": "Queso Majorero (Canarian Goat Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "goat's milk",
+        "Canary Islands",
+        "PDO",
+        "gofio"
+      ],
+      "collection": "all",
+      "description": "Pressed goat cheese from Fuerteventura in the Canary Islands, made from the native Majorera goat. Can be fresh, semi-cured, or aged. Traditionally rubbed with paprika, oil, or roasted corn flour (gofio). Intense goat flavor with island terroir.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "1 week to 6 months aging"
+    },
+    {
+      "id": "arzua-ulloa-galician-soft",
+      "title": "Queso Arzua-Ulloa (Galician Soft Cow Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "cow's milk",
+        "soft",
+        "Galicia",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Soft, creamy cow's milk cheese from the Arzua and Ulloa regions of Galicia. Buttery and mild with a thin, edible rind. One of Spain's most approachable cheeses, often eaten at breakfast or as a snack.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "queso-iberico-mixed-milk",
+      "title": "Queso Iberico (Spanish Mixed Milk Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Spanish",
+        "mixed milk",
+        "semi-hard",
+        "blended"
+      ],
+      "collection": "all",
+      "description": "Traditional Spanish cheese blending cow, sheep, and goat milks in varying proportions. The combination creates a complex, balanced flavor - the creaminess of cow, richness of sheep, and tang of goat. A true taste of the Iberian Peninsula.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-6 months aging"
+    },
+    {
+      "id": "ita-taleggio-lombardy",
+      "title": "Taleggio Lombardo (Lombardy Washed Rind)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "washed-rind",
+        "Lombardy",
+        "DOP",
+        "soft-ripened"
+      ],
+      "collection": "all",
+      "description": "Pungent, creamy washed-rind cheese from the valleys of Lombardy. The characteristic orange rind and strong aroma belie a mild, fruity interior that melts beautifully.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "6-10 weeks aging"
+    },
+    {
+      "id": "ita-puzzone-di-moena",
+      "title": "Puzzone di Moena (Stinky Cheese of Moena)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "washed-rind",
+        "Trentino",
+        "stinky cheese",
+        "Alpine"
+      ],
+      "collection": "all",
+      "description": "Italy's stinkiest cheese from the Dolomite town of Moena. The name means 'big stinker' but the flavor is remarkably complex - earthy, meaty, with notes of hay and Alpine meadows.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "3-5 months aging"
+    },
+    {
+      "id": "ita-grana-padano-traditional",
+      "title": "Grana Padano Tradizionale",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "hard",
+        "grating",
+        "Po Valley",
+        "DOP",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Grainy-textured hard cheese from the Po Valley, aged 9-24 months. Milder than Parmigiano-Reggiano with sweet, nutty flavors. Essential for risotto and pasta.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "9-24 months aging"
+    },
+    {
+      "id": "ita-piave-vecchio",
+      "title": "Piave Vecchio (Aged Piave)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "hard",
+        "Veneto",
+        "DOP",
+        "aged",
+        "grating"
+      ],
+      "collection": "all",
+      "description": "Dense, intensely flavored aged cheese from the Dolomite foothills. Aged 12+ months, it develops crystalline texture and complex butterscotch notes. Often called the 'poor man's Parmigiano.'",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "12-18 months aging"
+    },
+    {
+      "id": "ita-asiago-pressato",
+      "title": "Asiago Pressato (Fresh Asiago)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "semi-soft",
+        "Veneto",
+        "fresh",
+        "table cheese"
+      ],
+      "collection": "all",
+      "description": "Young, mild Asiago aged only 20-40 days. Soft, springy texture with sweet, milky flavor. Quite different from the aged versions - this is a table cheese, not for grating.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "20-40 days aging"
+    },
+    {
+      "id": "ita-asiago-stravecchio",
+      "title": "Asiago Stravecchio (Extra-Aged Asiago)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "hard",
+        "Veneto",
+        "aged",
+        "grating"
+      ],
+      "collection": "all",
+      "description": "Intensely flavored aged Asiago, hard and crumbly with sharp, complex taste. Aged minimum 15 months for Stravecchio designation. Excellent for grating over pasta and risotto.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "15-24 months aging"
+    },
+    {
+      "id": "ita-provolone-valpadana-dop",
+      "title": "Provolone Valpadana DOP",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "pasta filata",
+        "DOP",
+        "aged",
+        "stretched-curd"
+      ],
+      "collection": "all",
+      "description": "Stretched-curd cheese from Northern Italy, available in Dolce (mild, 2-3 months) or Piccante (sharp, 4+ months) styles. Traditional shapes include salami, melon, and pear.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "2-12 months aging"
+    },
+    {
+      "id": "ita-burrata-pugliese",
+      "title": "Burrata Pugliese (Apulian Burrata)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "fresh",
+        "Puglia",
+        "pasta filata",
+        "cream"
+      ],
+      "collection": "all",
+      "description": "Luxurious fresh cheese from Puglia: a mozzarella shell encasing creamy stracciatella (shredded mozzarella curds mixed with cream). When cut, the rich filling oozes out.",
+      "servings_yield": "About 1.5 lbs (6-8 burrata)",
+      "total_time": "Same day"
+    },
+    {
+      "id": "ita-stracciatella-filling",
+      "title": "Stracciatella (Burrata Filling)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "fresh",
+        "Puglia",
+        "cream",
+        "stracciatella"
+      ],
+      "collection": "all",
+      "description": "The luscious filling inside burrata - shredded mozzarella curds soaked in fresh cream. Also served on its own as a luxurious fresh cheese.",
+      "servings_yield": "About 1 lb",
+      "total_time": "Same day"
+    },
+    {
+      "id": "ita-stracchino-crescenza",
+      "title": "Stracchino (Crescenza)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "soft",
+        "Lombardy",
+        "spreading cheese",
+        "fresh"
+      ],
+      "collection": "all",
+      "description": "Extremely soft, spreadable cheese from Northern Italy. Mild, slightly tangy with a creamy, almost liquid texture when ripe. Perfect for focaccia and spreading.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "1-3 weeks aging"
+    },
+    {
+      "id": "ita-caciocavallo-silano",
+      "title": "Caciocavallo Silano DOP",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "pasta filata",
+        "Southern Italy",
+        "DOP",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Pear-shaped stretched-curd cheese hung to age in pairs. The name means 'cheese on horseback' - tied in pairs that drape over a pole like saddlebags. Mild when young, sharp when aged.",
+      "servings_yield": "About 2 lbs (2 small caciocavalli)",
+      "total_time": "2-12 months aging"
+    },
+    {
+      "id": "ita-scamorza-affumicata",
+      "title": "Scamorza Affumicata (Smoked Scamorza)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "pasta filata",
+        "smoked",
+        "Southern Italy"
+      ],
+      "collection": "all",
+      "description": "Stretched-curd cheese shaped like a tied pouch, then smoked over hay or wood. Golden-brown exterior with smoky aroma and firm, slightly chewy texture. Excellent for grilling.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "ita-fontina-valdaosta",
+      "title": "Fontina Val d'Aosta DOP",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "semi-soft",
+        "Alpine",
+        "DOP",
+        "fondue",
+        "washed-rind"
+      ],
+      "collection": "all",
+      "description": "Semi-soft Alpine cheese with earthy, nutty flavor and excellent melting properties. Made from milk of Valdostana cows grazing on Alpine meadows. Essential for fonduta (Italian fondue).",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "3-4 months aging"
+    },
+    {
+      "id": "ita-montasio-friulian",
+      "title": "Montasio Friulano DOP",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "semi-hard",
+        "Friuli",
+        "DOP",
+        "Alpine"
+      ],
+      "collection": "all",
+      "description": "Fruity, nutty cheese from the northeast corner of Italy. Ranges from soft and mild (2 months) to hard and sharp (12+ months). Essential ingredient for frico (crispy cheese wafers).",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "2-18 months aging"
+    },
+    {
+      "id": "ita-toma-piemontese",
+      "title": "Toma Piemontese DOP",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "semi-soft",
+        "Piedmont",
+        "DOP",
+        "Alpine",
+        "table cheese"
+      ],
+      "collection": "all",
+      "description": "Rustic Alpine cheese from Piedmont with buttery, slightly tangy flavor. Semi-soft when young, firmer when aged. The everyday table cheese of the Piedmont mountains.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "1-6 months aging"
+    },
+    {
+      "id": "ita-bitto-storico",
+      "title": "Bitto Storico (Historic Bitto)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "Alpine",
+        "Lombardy",
+        "raw milk",
+        "mixed milk",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Rare Alpine cheese made only during summer in high mountain pastures. Mixed cow and goat milk creates complex, grassy flavors. Can be aged up to 10 years.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "70 days to 10 years aging"
+    },
+    {
+      "id": "ita-robiola-piemonte",
+      "title": "Robiola Piemontese",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "soft",
+        "Piedmont",
+        "bloomy-rind",
+        "spreadable"
+      ],
+      "collection": "all",
+      "description": "Delicate, creamy cheese from Piedmont made from cow, sheep, and/or goat milk. Bloomy white rind develops with aging. Spreadable when young, runny when ripe.",
+      "servings_yield": "About 1 lb",
+      "total_time": "1-4 weeks aging"
+    },
+    {
+      "id": "ita-caciotta-alle-erbe",
+      "title": "Caciotta alle Erbe (Herbed Caciotta)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "semi-soft",
+        "herbed",
+        "farmhouse",
+        "Tuscany"
+      ],
+      "collection": "all",
+      "description": "Small, mild farmhouse cheese infused with Italian herbs. Caciotta is a generic term for small wheel cheeses made throughout central Italy, often flavored with local herbs.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-8 weeks aging"
+    },
+    {
+      "id": "ita-castelmagno-alpeggio",
+      "title": "Castelmagno d'Alpeggio DOP",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "blue cheese",
+        "Piedmont",
+        "DOP",
+        "Alpine",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Ancient crumbly cheese from Piedmont with subtle blue veining. Made in summer Alpine pastures, it develops complex, slightly spicy flavor with blue mold. Among Italy's most prized cheeses.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "2-6 months aging"
+    },
+    {
+      "id": "ita-fiore-sardo-dop",
+      "title": "Fiore Sardo DOP",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "sheep's milk",
+        "Sardinia",
+        "DOP",
+        "smoked",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Raw sheep's milk cheese from Sardinia, smoked over aromatic woods and aged 3-12 months. Sharp, complex flavor with smoky undertones. Sardinia's original cheese, predating Pecorino Romano.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-12 months aging"
+    },
+    {
+      "id": "ita-ragusano-dop",
+      "title": "Ragusano DOP",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Italian",
+        "pasta filata",
+        "Sicily",
+        "DOP",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Stretched-curd cheese from the Ragusa province of Sicily. Distinctive rectangular block shape, hung by ropes to age. Sweet and delicate when young, sharp and complex when aged.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "3-12 months aging"
+    },
+    {
+      "id": "artisan-french-comte",
+      "title": "Comté (Aged Alpine Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Alpine",
+        "hard",
+        "aged",
+        "AOP",
+        "Jura"
+      ],
+      "collection": "all",
+      "description": "Noble Alpine cheese with extraordinary complexity - fruity, nutty, and caramel notes that develop over long aging. Made in large wheels from raw milk of Montbéliarde cows grazing on mountain pastures.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "8-24 months aging"
+    },
+    {
+      "id": "artisan-french-reblochon",
+      "title": "Reblochon (Semi-Soft Alpine Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Alpine",
+        "semi-soft",
+        "washed-rind",
+        "AOP",
+        "Savoie",
+        "tartiflette"
+      ],
+      "collection": "all",
+      "description": "Buttery, nutty washed-rind cheese with an ivory paste that becomes increasingly supple as it ripens. The name comes from 'reblocher' - to milk again - referring to the richer second milking.",
+      "servings_yield": "About 1 lb",
+      "total_time": "4-6 weeks aging"
+    },
+    {
+      "id": "artisan-french-tomme-de-savoie",
+      "title": "Tomme de Savoie (Rustic Mountain Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Alpine",
+        "semi-firm",
+        "natural rind",
+        "PGI",
+        "Savoie",
+        "tomme"
+      ],
+      "collection": "all",
+      "description": "Humble yet complex Alpine tomme with a thick gray-brown rind covered in yellow and orange mold patches. Semi-firm paste with nutty, grassy, earthy flavors and a slight tanginess.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "2-4 months aging"
+    },
+    {
+      "id": "artisan-french-epoisses",
+      "title": "Époisses (Washed Rind Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "washed-rind",
+        "soft",
+        "AOP",
+        "Burgundy",
+        "stinky cheese"
+      ],
+      "collection": "all",
+      "description": "The 'King of Cheeses' according to Brillat-Savarin. Intensely aromatic washed-rind cheese with a sunset-orange rind and spoonable creamy interior when perfectly ripe.",
+      "servings_yield": "About 1 lb",
+      "total_time": "6-8 weeks aging"
+    },
+    {
+      "id": "artisan-french-munster",
+      "title": "Munster (Alsatian Washed Rind)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "washed-rind",
+        "soft",
+        "AOP",
+        "Alsace",
+        "monastic"
+      ],
+      "collection": "all",
+      "description": "Powerful Alsatian washed-rind cheese with orange-red sticky rind and supple, creamy interior. Strong barnyard aroma belies a surprisingly mild, earthy flavor.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "5-8 weeks aging"
+    },
+    {
+      "id": "artisan-french-pont-leveque",
+      "title": "Pont-l'Évêque (Washed Rind Norman)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "washed-rind",
+        "soft",
+        "AOP",
+        "Normandy",
+        "Norman"
+      ],
+      "collection": "all",
+      "description": "Square-shaped Norman washed-rind cheese with a golden-orange rind and soft, slightly springy interior. Milder than Livarot, with buttery, slightly tangy flavors.",
+      "servings_yield": "About 1 lb",
+      "total_time": "4-6 weeks aging"
+    },
+    {
+      "id": "artisan-french-livarot",
+      "title": "Livarot (The Colonel)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "washed-rind",
+        "soft",
+        "AOP",
+        "Normandy",
+        "stinky cheese"
+      ],
+      "collection": "all",
+      "description": "Powerfully aromatic Norman washed-rind cheese wrapped with sedge grass bands. Deep orange rind encases a golden, oozy paste with meaty, complex flavors.",
+      "servings_yield": "About 1 lb",
+      "total_time": "6-8 weeks aging"
+    },
+    {
+      "id": "artisan-french-langres",
+      "title": "Langres (Washed Rind with Fontaine)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "washed-rind",
+        "soft",
+        "AOP",
+        "Champagne",
+        "fontaine"
+      ],
+      "collection": "all",
+      "description": "Unique washed-rind cheese with a 'fontaine' (well) in the top, traditionally filled with Champagne or Marc. Orange-red wrinkled rind surrounds a creamy, intense paste.",
+      "servings_yield": "About 1 lb",
+      "total_time": "5-8 weeks aging"
+    },
+    {
+      "id": "artisan-french-morbier",
+      "title": "Morbier (Ash Line Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Jura",
+        "semi-soft",
+        "AOP",
+        "ash line",
+        "washed-rind"
+      ],
+      "collection": "all",
+      "description": "Semi-soft Jura cheese with a signature horizontal ash line through its center. Creamy, springy paste with fruity, slightly smoky flavor and an edible washed rind.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "artisan-french-saint-nectaire",
+      "title": "Saint-Nectaire (Rustic Auvergne Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Auvergne",
+        "semi-soft",
+        "AOP",
+        "natural rind",
+        "rustic"
+      ],
+      "collection": "all",
+      "description": "Rustic semi-soft cheese from Auvergne's volcanic soil, with a thick gray rind dotted with red, yellow, and white molds. Earthy, mushroomy paste with subtle hazelnut notes.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "5-8 weeks aging"
+    },
+    {
+      "id": "artisan-french-cantal",
+      "title": "Cantal (Ancient Auvergne Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Auvergne",
+        "hard",
+        "AOP",
+        "ancient",
+        "tome fraîche"
+      ],
+      "collection": "all",
+      "description": "Ancient hard cheese from Auvergne with a distinctive two-day curd process. Firm, slightly crumbly paste with buttery tang that intensifies with age.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "1-6 months aging"
+    },
+    {
+      "id": "artisan-french-ossau-iraty",
+      "title": "Ossau-Iraty (Basque Sheep Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Basque",
+        "sheep milk",
+        "hard",
+        "AOP",
+        "Pyrenees"
+      ],
+      "collection": "all",
+      "description": "Firm sheep's milk cheese from the Pyrenees with nutty, slightly sweet flavor and hints of lanolin and grass. Dense, slightly crumbly paste with a natural brushed rind.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "artisan-french-bleu-dauvergne",
+      "title": "Bleu d'Auvergne",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "blue cheese",
+        "Auvergne",
+        "AOP",
+        "P. roqueforti"
+      ],
+      "collection": "all",
+      "description": "Creamy, powerful blue cheese with ivory paste streaked with blue-green veins. Spicy, assertive flavor with mushroom and grassy notes from volcanic terroir.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-8 weeks aging"
+    },
+    {
+      "id": "artisan-french-fourme-dambert",
+      "title": "Fourme d'Ambert (Gentle Blue)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "blue cheese",
+        "Auvergne",
+        "AOP",
+        "mild blue"
+      ],
+      "collection": "all",
+      "description": "Tall cylindrical blue cheese with a dry gray rind and creamy ivory paste laced with delicate blue veins. Gentler than most blues with buttery, slightly sweet character.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-8 weeks aging"
+    },
+    {
+      "id": "artisan-french-brillat-savarin",
+      "title": "Brillat-Savarin (Triple Cream)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "triple cream",
+        "soft",
+        "bloomy rind",
+        "rich"
+      ],
+      "collection": "all",
+      "description": "Luxuriously rich triple-cream cheese with 75% butterfat and a bloomy white rind. Buttery, tangy, and impossibly smooth - the ultimate indulgence.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-3 weeks aging"
+    },
+    {
+      "id": "artisan-french-chaource",
+      "title": "Chaource (Bloomy Rind)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "bloomy rind",
+        "soft",
+        "AOP",
+        "Champagne"
+      ],
+      "collection": "all",
+      "description": "Tall cylindrical bloomy-rind cheese with a thick white P. candidum coat and a chalky-to-creamy interior. Mushroomy, slightly sour, with dense texture.",
+      "servings_yield": "About 1 lb",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "artisan-french-saint-marcellin",
+      "title": "Saint-Marcellin",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Dauphiné",
+        "soft",
+        "IGP",
+        "bloomy rind",
+        "runny"
+      ],
+      "collection": "all",
+      "description": "Small, delicate cheese that transforms from fresh and tangy to runny and complex. At peak ripeness, it becomes liquid gold that must be eaten with a spoon.",
+      "servings_yield": "About 3 small cheeses",
+      "total_time": "2-6 weeks aging"
+    },
+    {
+      "id": "artisan-french-valencay",
+      "title": "Valençay (Ash-Covered Pyramid)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Loire Valley",
+        "goat",
+        "AOP",
+        "ash-covered",
+        "pyramid"
+      ],
+      "collection": "all",
+      "description": "Striking truncated pyramid-shaped goat cheese covered in blue-gray vegetable ash. Firm, slightly crumbly paste with citrusy tang that develops complexity with age.",
+      "servings_yield": "About 4 small cheeses",
+      "total_time": "2-5 weeks aging"
+    },
+    {
+      "id": "artisan-french-crottin-de-chavignol",
+      "title": "Crottin de Chavignol (Aged Goat)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Loire Valley",
+        "goat",
+        "AOP",
+        "Sancerre",
+        "aged goat"
+      ],
+      "collection": "all",
+      "description": "Small barrel-shaped goat cheese that transforms from fresh and mild to hard and intensely goaty. The name means 'little dropping' - don't let that stop you!",
+      "servings_yield": "About 6 small cheeses",
+      "total_time": "1-10 weeks aging"
+    },
+    {
+      "id": "artisan-french-rocamadour",
+      "title": "Rocamadour (Tiny Goat Medallion)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Quercy",
+        "goat",
+        "AOP",
+        "tiny",
+        "cabécou"
+      ],
+      "collection": "all",
+      "description": "Tiny disc of goat cheese, just 1.5 oz, with intense flavor packed into a small package. Creamy when young, develops wrinkled rind and concentrated tang with age.",
+      "servings_yield": "About 8-10 tiny cheeses",
+      "total_time": "1-3 weeks aging"
+    },
+    {
+      "id": "artisan-french-banon",
+      "title": "Banon (Chestnut Leaf Wrapped)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "French",
+        "Provence",
+        "goat",
+        "AOP",
+        "leaf-wrapped",
+        "unique"
+      ],
+      "collection": "all",
+      "description": "Unique Provençal cheese wrapped in chestnut leaves and tied with raffia. The leaves impart tannins that help ripen the interior to a runny, complex state.",
+      "servings_yield": "About 4 small cheeses",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "kasseri-cheese",
+      "title": "Kasseri (Greek Pasta Filata Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "pasta filata",
+        "sheep's milk",
+        "aged",
+        "saganaki"
+      ],
+      "collection": "all",
+      "description": "A pale yellow, medium-hard Greek cheese with a slightly tangy flavor. Made using the pasta filata (stretched curd) method, it melts beautifully and is essential for saganaki.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-4 months aging"
+    },
+    {
+      "id": "kefalotyri-cheese",
+      "title": "Kefalotyri (Greek Hard Grating Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "hard",
+        "grating",
+        "sheep's milk",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "A hard, salty Greek cheese made from sheep's or goat's milk. Pale yellow with a sharp, tangy flavor, it's the traditional cheese for grating over pasta and for making saganaki.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-12 months aging"
+    },
+    {
+      "id": "graviera-crete-cheese",
+      "title": "Graviera Kritis (Cretan Graviera)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "Cretan",
+        "hard",
+        "PDO",
+        "sheep's milk",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "A hard, pale yellow cheese from Crete with a sweet, nutty flavor reminiscent of Gruyère. Made primarily from sheep's milk with some goat's milk, it's aged in the island's unique climate.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "5-12 months aging"
+    },
+    {
+      "id": "manouri-cheese",
+      "title": "Manouri (Greek Whey Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "whey cheese",
+        "fresh",
+        "PDO",
+        "dessert cheese"
+      ],
+      "collection": "all",
+      "description": "A soft, creamy Greek whey cheese made by adding milk or cream to the whey left over from feta production. Rich, buttery, and slightly sweet, it's often served with honey for dessert.",
+      "servings_yield": "About 1 lb",
+      "total_time": "1-2 days"
+    },
+    {
+      "id": "mizithra-fresh-cheese",
+      "title": "Mizithra (Fresh Greek Whey Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "whey cheese",
+        "fresh",
+        "aged",
+        "sheep's milk"
+      ],
+      "collection": "all",
+      "description": "A traditional Greek whey cheese available in two forms: fresh (soft and creamy) or aged (hard and salty for grating). The fresh version is sweet and ricotta-like, perfect for pastries.",
+      "servings_yield": "About 1 lb",
+      "total_time": "24 hours for fresh; 3-4 months for aged"
+    },
+    {
+      "id": "anthotyros-cheese",
+      "title": "Anthotyros (Fresh Greek Flower Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "whey cheese",
+        "fresh",
+        "delicate",
+        "dessert cheese"
+      ],
+      "collection": "all",
+      "description": "A fresh, soft Greek whey cheese with a delicate, slightly sweet flavor. The name means 'flower cheese' referring to its fine, light texture. Used in both savory dishes and desserts.",
+      "servings_yield": "About 12 oz",
+      "total_time": "24 hours"
+    },
+    {
+      "id": "kopanisti-cheese",
+      "title": "Kopanisti (Cycladic Spicy Fermented Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "Cycladic",
+        "fermented",
+        "spicy",
+        "spreadable",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "A soft, pungent, spicy cheese from the Cyclades islands. Fermented for weeks until creamy and spreadable, it develops a distinctive sharp, peppery flavor. A beloved Greek meze.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "1-3 months fermentation"
+    },
+    {
+      "id": "katiki-domokou-cheese",
+      "title": "Katiki Domokou (Creamy Spreadable Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "fresh",
+        "spreadable",
+        "PDO",
+        "goat's milk"
+      ],
+      "collection": "all",
+      "description": "A soft, creamy, spreadable cheese from Thessaly with a tangy, refreshing flavor. Made from goat's or sheep's milk, it has a texture between yogurt and cream cheese. Perfect for spreading on bread.",
+      "servings_yield": "About 1 lb",
+      "total_time": "2-3 days"
+    },
+    {
+      "id": "ladotyri-mytilinis-cheese",
+      "title": "Ladotyri Mytilinis (Lesbos Oil-Preserved Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "Lesbos",
+        "oil-preserved",
+        "hard",
+        "PDO",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "A hard, piquant cheese from the island of Lesbos, aged and preserved in olive oil. The oil gives it a unique smooth texture and rich flavor. One of Greece's most distinctive regional cheeses.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months aging in oil"
+    },
+    {
+      "id": "formaella-parnassou-cheese",
+      "title": "Formaella Arachovas Parnassou (Parnassus Mountain Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "mountain",
+        "PDO",
+        "semi-hard",
+        "sheep's milk"
+      ],
+      "collection": "all",
+      "description": "A semi-hard cheese from the village of Arachova on Mount Parnassus. Made from sheep's or goat's milk, it has a mild, slightly sweet flavor. Named for its small cylindrical 'formella' (mold) shape.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "sfela-cheese",
+      "title": "Sfela (Peloponnese Spicy Brined Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "Peloponnese",
+        "brined",
+        "spicy",
+        "PDO",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "A semi-hard, brined cheese from the southern Peloponnese with a distinctive spicy, peppery flavor. Often called 'the fire of Mani' for its sharp, aggressive taste. Made from sheep's and goat's milk.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3+ months aging in brine"
+    },
+    {
+      "id": "metsovone-cheese",
+      "title": "Metsovone (Greek Smoked Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "Epirus",
+        "smoked",
+        "pasta filata",
+        "PDO",
+        "mountain"
+      ],
+      "collection": "all",
+      "description": "A smoked, semi-hard cheese from the mountain village of Metsovo in Epirus. Made using the pasta filata method, then naturally smoked, giving it a distinctive smoky-sweet flavor unique among Greek cheeses.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-4 months aging"
+    },
+    {
+      "id": "san-michali-cheese",
+      "title": "San Michali (Syros Island Aged Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "Cycladic",
+        "hard",
+        "PDO",
+        "cow's milk",
+        "aged",
+        "grating"
+      ],
+      "collection": "all",
+      "description": "A hard, aged cheese from the island of Syros, unique as Greece's only PDO cheese made exclusively from cow's milk. Sharp, granular, and perfect for grating, it reflects the island's Venetian heritage.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "8-12 months aging"
+    },
+    {
+      "id": "kefalograviera-cheese",
+      "title": "Kefalograviera (Hybrid Greek Hard Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Greek",
+        "hard",
+        "table cheese",
+        "saganaki",
+        "sheep's milk"
+      ],
+      "collection": "all",
+      "description": "A hard Greek cheese that combines the sharpness of kefalotyri with the sweetness of graviera. Light yellow with small holes, it's versatile for both table use and cooking, especially frying for saganaki.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-8 months aging"
+    },
+    {
+      "id": "ch-emmentaler-aop",
+      "title": "Emmentaler AOP (Real Swiss Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "AOP",
+        "Alpine",
+        "eye cheese",
+        "raw milk"
+      ],
+      "collection": "all",
+      "description": "The authentic Swiss cheese with iconic large eyes, made with raw milk from grass-fed cows. Nutty, buttery, and slightly sweet - this is the real deal, not the processed imitation.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "4-12 months aging"
+    },
+    {
+      "id": "ch-appenzeller-classic",
+      "title": "Appenzeller (Herbed Brine Washed)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "washed-rind",
+        "herbed",
+        "Appenzell",
+        "spicy"
+      ],
+      "collection": "all",
+      "description": "Switzerland's most aromatic cheese, washed with a secret herbal brine called 'Sulz' containing wine, spices, and 25+ herbs. Tangy, spicy, and complex with a distinctive orange rind.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "ch-raclette-valais",
+      "title": "Raclette du Valais (Traditional Melting Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "Valais",
+        "melting",
+        "raclette",
+        "Alpine"
+      ],
+      "collection": "all",
+      "description": "The ultimate melting cheese from the Swiss Alps. When heated, it becomes creamy and aromatic without separating. Traditionally scraped onto potatoes, pickles, and onions.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "ch-sbrinz-aop",
+      "title": "Sbrinz AOP (Extra-Hard Alpine Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "AOP",
+        "extra-hard",
+        "grating",
+        "ancient",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Ancient Swiss grating cheese, harder than Parmesan. Intensely savory with crystalline texture. Traditionally broken into shards rather than cut, or shaved paper-thin with a Sbrinzhobel.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "18-36 months aging"
+    },
+    {
+      "id": "ch-tete-de-moine-aop",
+      "title": "Tête de Moine AOP (Shaved Rosettes)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "AOP",
+        "monastery",
+        "Girolle",
+        "semi-hard"
+      ],
+      "collection": "all",
+      "description": "Unique Swiss cheese traditionally shaved into delicate rosettes using a Girolle. The shaving releases aromatic compounds, intensifying flavor. Fruity, nutty, and elegant.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "ch-vacherin-mont-dor-seasonal",
+      "title": "Vacherin Mont d'Or (Seasonal Spoon Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "seasonal",
+        "soft",
+        "spruce-bark",
+        "spoonable",
+        "Jura"
+      ],
+      "collection": "all",
+      "description": "Switzerland's most decadent cheese, bound in spruce bark that imparts resinous notes. When ripe, the interior is completely liquid and eaten with a spoon. Bake whole and dip bread.",
+      "servings_yield": "About 1 lb",
+      "total_time": "3-4 weeks aging"
+    },
+    {
+      "id": "ch-vacherin-fribourgeois-fondue",
+      "title": "Vacherin Fribourgeois AOP (Fondue Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "AOP",
+        "Fribourg",
+        "fondue",
+        "washed-rind",
+        "melting"
+      ],
+      "collection": "all",
+      "description": "Semi-soft washed-rind cheese from Fribourg, crucial for authentic Swiss fondue. Creamier and milder than Gruyère, it provides the silky texture in moitié-moitié fondue.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-4 months aging"
+    },
+    {
+      "id": "ch-schabziger-green",
+      "title": "Schabziger (Green Herb Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "herbed",
+        "green",
+        "grating",
+        "Glarus",
+        "fenugreek"
+      ],
+      "collection": "all",
+      "description": "Switzerland's most unusual cheese - a hard, cone-shaped grating cheese tinted green with blue fenugreek clover. Intensely pungent, used sparingly to flavor dishes. World's oldest branded cheese.",
+      "servings_yield": "About 1 lb",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "ch-letivaz-alpage-aop",
+      "title": "L'Etivaz AOP (Raw Milk Alpine)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "AOP",
+        "Alpine",
+        "alpage",
+        "raw milk",
+        "artisanal"
+      ],
+      "collection": "all",
+      "description": "Artisanal Alpine cheese made only during summer on high mountain pastures. Milk is heated over wood fire, giving subtle smoky notes. Gruyère's wild cousin - more intense and complex.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "5-24 months aging"
+    },
+    {
+      "id": "ch-tomme-vaudoise-soft",
+      "title": "Tomme Vaudoise (Soft Washed-Rind)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "Vaud",
+        "soft",
+        "washed-rind",
+        "tomme",
+        "quick"
+      ],
+      "collection": "all",
+      "description": "Small, soft, washed-rind cheese from Vaud canton. Unlike most Swiss cheeses, it's meant to be eaten young and creamy. Mild and buttery with delicate earthy rind notes.",
+      "servings_yield": "About 1 lb",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "ch-berner-alpkaese-aop",
+      "title": "Berner Alpkäse AOP (Bernese Alpine Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "AOP",
+        "Bern",
+        "Alpine",
+        "alpage",
+        "raw milk"
+      ],
+      "collection": "all",
+      "description": "Premium Alpine cheese made only during summer on Bernese mountain pastures. Rich, complex, and intensely flavored from cows grazing on wildflower meadows. Each wheel reflects its unique alp.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "6-18 months aging"
+    },
+    {
+      "id": "ch-gruyere-aop-cave",
+      "title": "Gruyère AOP (Cave-Aged Swiss)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "AOP",
+        "Gruyère",
+        "cave-aged",
+        "fondue",
+        "Alpine"
+      ],
+      "collection": "all",
+      "description": "The king of Swiss cheeses, cave-aged for complex nutty, fruity flavor. Gruyère has been made since at least 1115 AD. Essential for fondue, French onion soup, and croque monsieur.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "6-18 months aging"
+    },
+    {
+      "id": "ch-tilsiter-swiss",
+      "title": "Swiss Tilsiter (Royalp)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "Tilsiter",
+        "washed-rind",
+        "washed-curd",
+        "semi-hard"
+      ],
+      "collection": "all",
+      "description": "Semi-hard washed-rind cheese with small irregular eyes. Mild to tangy depending on age. Popular everyday cheese in German-speaking Switzerland.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-5 months aging"
+    },
+    {
+      "id": "ch-fondue-blend",
+      "title": "Swiss Fondue Cheese Blend (Moitié-Moitié)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swiss",
+        "fondue",
+        "Gruyère",
+        "Vacherin",
+        "Alpine",
+        "traditional"
+      ],
+      "collection": "all",
+      "description": "Not a single cheese but the traditional Swiss fondue preparation. Gruyère provides nutty depth while Vacherin Fribourgeois gives creamy meltability. The definitive Alpine comfort food.",
+      "servings_yield": "4-6 servings",
+      "total_time": "35 min"
+    },
+    {
+      "id": "british-stilton-blue-classic",
+      "title": "Stilton Blue (King of English Cheeses)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "blue cheese",
+        "Stilton",
+        "PDO",
+        "Christmas"
+      ],
+      "collection": "all",
+      "description": "The 'King of English Cheeses' - a rich, creamy blue with characteristic veining. Dating to the 18th century, Stilton has a crumbly yet creamy texture and complex flavor that pairs perfectly with Port wine.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "9-12 weeks aging"
+    },
+    {
+      "id": "british-red-leicester-classic",
+      "title": "Red Leicester (Leicestershire Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Leicester",
+        "colored",
+        "territorial"
+      ],
+      "collection": "all",
+      "description": "Distinctive English cheese with deep russet color, mellow nutty flavor, and slightly crumbly texture. Milder and moister than Cheddar, it's excellent for both eating and melting.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "british-double-gloucester-classic",
+      "title": "Double Gloucester (Gloucestershire Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Gloucester",
+        "territorial",
+        "cheddaring"
+      ],
+      "collection": "all",
+      "description": "Rich, buttery English cheese with smooth, close texture and deep golden-orange color. Milder than Cheddar with a creamy, mellow flavor. Famous for the Cooper's Hill cheese rolling event.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-4 months aging"
+    },
+    {
+      "id": "british-cheshire-classic",
+      "title": "Cheshire Cheese (England's Oldest)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Cheshire",
+        "territorial",
+        "ancient",
+        "crumbly"
+      ],
+      "collection": "all",
+      "description": "England's oldest named cheese - crumbly, salty, and tangy with a distinctive dense texture. The salty soil of Cheshire gives the milk (and cheese) unique mineral character.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-6 months aging"
+    },
+    {
+      "id": "british-lancashire-classic",
+      "title": "Lancashire Cheese (Two-Day Curd)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Lancashire",
+        "territorial",
+        "two-day curd",
+        "melting"
+      ],
+      "collection": "all",
+      "description": "Traditional English white cheese with buttery, slightly tangy flavor and unique open texture. The two-day curd method creates its characteristic crumbly-yet-creamy texture, perfect for toasting.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-12 weeks aging"
+    },
+    {
+      "id": "british-sage-derby-classic",
+      "title": "Sage Derby (Herbed Derby Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Derby",
+        "herbed",
+        "Christmas",
+        "marbled"
+      ],
+      "collection": "all",
+      "description": "Festive English cheese marbled with green sage, traditionally served at Christmas. The mild Derby base pairs beautifully with the aromatic herb, creating a striking appearance and herbal flavor.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "6-8 weeks aging"
+    },
+    {
+      "id": "british-cornish-yarg-classic",
+      "title": "Cornish Yarg (Nettle-Wrapped Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Cornish",
+        "nettle-wrapped",
+        "leaf-wrapped"
+      ],
+      "collection": "all",
+      "description": "Unique Cornish cheese wrapped in stinging nettle leaves, creating a distinctive appearance and subtle earthy flavor. The nettle rind allows the cheese to breathe while adding mushroomy notes.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-6 weeks aging"
+    },
+    {
+      "id": "british-stinking-bishop-classic",
+      "title": "Stinking Bishop (Perry-Washed Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Gloucestershire",
+        "washed-rind",
+        "pungent",
+        "soft"
+      ],
+      "collection": "all",
+      "description": "Pungent, soft washed-rind cheese from Gloucestershire. Despite its powerful aroma, the flavor is surprisingly mild and creamy. Famous from Wallace and Gromit's 'Curse of the Were-Rabbit.'",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "6-8 weeks aging"
+    },
+    {
+      "id": "british-shropshire-blue-classic",
+      "title": "Shropshire Blue (Orange Blue Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "blue cheese",
+        "colored",
+        "Stilton-style"
+      ],
+      "collection": "all",
+      "description": "Striking orange-colored blue cheese similar to Stilton. The deep orange from annatto contrasts beautifully with blue veining. Creamier and slightly sharper than Stilton.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "10-12 weeks aging"
+    },
+    {
+      "id": "british-colston-bassett-stilton",
+      "title": "Colston Bassett Stilton (Artisan Style)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Stilton",
+        "artisan",
+        "blue cheese",
+        "premium"
+      ],
+      "collection": "all",
+      "description": "Premium artisan-style Stilton following the methods of the famous Colston Bassett Dairy. Hand-ladled curds and traditional techniques create an exceptionally creamy, rich blue.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "12-16 weeks aging"
+    },
+    {
+      "id": "british-montgomerys-cheddar",
+      "title": "Montgomery's Cheddar (Clothbound Artisan)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Cheddar",
+        "clothbound",
+        "artisan",
+        "Somerset",
+        "raw milk"
+      ],
+      "collection": "all",
+      "description": "Traditional clothbound Somerset Cheddar in the style of Montgomery's - one of Britain's finest. Raw milk, animal rennet, and cloth binding create complex, earthy, intensely savory cheese.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "12-18 months aging"
+    },
+    {
+      "id": "british-kirkhams-lancashire",
+      "title": "Kirkham's Lancashire (Raw Milk Artisan)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Lancashire",
+        "artisan",
+        "raw milk",
+        "three-day curd"
+      ],
+      "collection": "all",
+      "description": "Traditional raw milk Lancashire in the style of Kirkham's - the last remaining farmhouse maker. Three-day curd method, butter muslin wrapping, and raw milk create extraordinary depth and buttery richness.",
+      "servings_yield": "About 3 lbs",
+      "total_time": "2-6 months aging"
+    },
+    {
+      "id": "british-stichelton-classic",
+      "title": "Stichelton (Raw Milk Blue)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "blue cheese",
+        "raw milk",
+        "Stilton-style",
+        "artisan"
+      ],
+      "collection": "all",
+      "description": "Raw milk blue cheese made in the Stilton style but legally distinct (PDO Stilton requires pasteurization). Exceptionally creamy and complex with sweet, savory, and spicy notes. Uses the medieval spelling 'Stichelton.'",
+      "servings_yield": "About 4 lbs",
+      "total_time": "12-16 weeks aging"
+    },
+    {
+      "id": "british-dunlop-classic",
+      "title": "Dunlop (Scottish Cheddar)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "Scottish",
+        "Cheddar-style",
+        "Ayrshire",
+        "mild"
+      ],
+      "collection": "all",
+      "description": "Scotland's answer to Cheddar - milder and moister with a nutty, buttery flavor. Named after the village of Dunlop in Ayrshire where it originated in the 17th century.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-6 months aging"
+    },
+    {
+      "id": "british-crowdie-classic",
+      "title": "Crowdie (Scottish Fresh Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "Scottish",
+        "Highland",
+        "fresh cheese",
+        "acid-set",
+        "simple"
+      ],
+      "collection": "all",
+      "description": "Scotland's oldest cheese - a simple, tangy fresh cheese made by Highland crofters for centuries. Light and crumbly with a fresh, lemony flavor. The foundation of many Scottish dishes.",
+      "servings_yield": "About 1 lb",
+      "total_time": "24-48 hours"
+    },
+    {
+      "id": "british-caboc-classic",
+      "title": "Caboc (Oatmeal-Rolled Scottish Cream Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "Scottish",
+        "Highland",
+        "cream cheese",
+        "oatmeal",
+        "double-cream"
+      ],
+      "collection": "all",
+      "description": "Scotland's oldest 'cream cheese' - rich double-cream cheese rolled in toasted pinhead oatmeal. Legend says the recipe was created for a Highland chieftain's daughter in the 15th century.",
+      "servings_yield": "About 12 oz",
+      "total_time": "24-36 hours"
+    },
+    {
+      "id": "british-white-stilton",
+      "title": "White Stilton",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Stilton",
+        "white",
+        "fresh",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "The non-blue version of Stilton - fresh, crumbly, and mildly tangy. Often used as a base for fruit-flavored varieties. PDO protected like its blue cousin.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-6 weeks aging"
+    },
+    {
+      "id": "british-single-gloucester",
+      "title": "Single Gloucester",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Gloucester",
+        "PDO",
+        "part-skim",
+        "mild"
+      ],
+      "collection": "all",
+      "description": "The lighter cousin of Double Gloucester - made with part-skim milk for a lower-fat, more delicate cheese. Smoother and milder than Double, with a shorter aging time.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "6-8 weeks aging"
+    },
+    {
+      "id": "british-dorset-blue-vinny",
+      "title": "Dorset Blue Vinny",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "English",
+        "Dorset",
+        "blue cheese",
+        "PGI",
+        "skimmed milk"
+      ],
+      "collection": "all",
+      "description": "Historic Dorset blue cheese made from hand-skimmed milk. Drier and more crumbly than Stilton with irregular blue veining. Nearly extinct in the 20th century, now revived.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-4 months aging"
+    },
+    {
+      "id": "british-y-fenni",
+      "title": "Y Fenni (Welsh Mustard Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "British",
+        "Welsh",
+        "flavored",
+        "mustard",
+        "ale"
+      ],
+      "collection": "all",
+      "description": "Welsh cheese flavored with wholegrain mustard and ale, creating a spicy, savory cheese. 'Y Fenni' is the Welsh name for Abergavenny where it originated.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "norwegian-nokkelost",
+      "title": "Nokkelost (Norwegian Caraway Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Norwegian",
+        "semi-hard",
+        "spiced",
+        "caraway",
+        "cloves",
+        "Dutch-style"
+      ],
+      "collection": "all",
+      "description": "A semi-hard Norwegian cheese flavored with caraway seeds and cloves. Based on Dutch Leyden cheese traditions, Nokkelost ('key cheese') features distinctive spice patterns throughout.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "danish-blue-danablu",
+      "title": "Danish Blue (Danablu)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Danish",
+        "blue cheese",
+        "mold-ripened",
+        "creamy",
+        "PGI"
+      ],
+      "collection": "all",
+      "description": "Denmark's world-renowned blue cheese, Danablu is creamy and sharp with distinctive blue-green veining. Milder and creamier than Roquefort, it's become one of the world's most popular blue cheeses.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "8-12 weeks aging"
+    },
+    {
+      "id": "danish-esrom",
+      "title": "Esrom (Danish Washed-Rind Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Danish",
+        "washed-rind",
+        "semi-soft",
+        "monastery",
+        "pungent"
+      ],
+      "collection": "all",
+      "description": "A semi-soft Danish washed-rind cheese originally made by monks at Esrom Abbey. Rich, buttery interior with a pungent aroma from the washed rind. Full-flavored but approachable.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "6-8 weeks aging"
+    },
+    {
+      "id": "danish-maribo",
+      "title": "Maribo (Danish Semi-Hard Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Danish",
+        "semi-hard",
+        "washed-curd",
+        "table cheese"
+      ],
+      "collection": "all",
+      "description": "A semi-hard Danish cheese with irregular small holes and a mild, slightly acidic flavor. Named after the town of Maribo, it's one of Denmark's most popular everyday cheeses.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-4 months aging"
+    },
+    {
+      "id": "danish-samso",
+      "title": "Samso (Danish Swiss-Style Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Danish",
+        "Swiss-style",
+        "semi-hard",
+        "eye cheese",
+        "national cheese"
+      ],
+      "collection": "all",
+      "description": "Denmark's national cheese, originally developed by Swiss cheesemakers on Samso island. Features characteristic eyes, sweet nutty flavor, and firm texture. One of Denmark's most exported cheeses.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "3-4 months aging"
+    },
+    {
+      "id": "swedish-vasterbottenost",
+      "title": "Vasterbottenost (Swedish Aged Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swedish",
+        "hard",
+        "aged",
+        "granular",
+        "premium",
+        "Vasterbotten"
+      ],
+      "collection": "all",
+      "description": "Sweden's most prized cheese, Vasterbottenost has a complex, granular texture with distinctive bitter-sweet notes. Only produced in Vasterbotten province, it's Sweden's answer to Parmesan.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "14-24 months aging"
+    },
+    {
+      "id": "swedish-herrgardost",
+      "title": "Herrgardsost (Swedish Manor Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swedish",
+        "semi-hard",
+        "eye cheese",
+        "mild",
+        "table cheese"
+      ],
+      "collection": "all",
+      "description": "A mild Swedish cheese with small round eyes, traditionally made on large estates. Herrgardsost ('manor cheese') has a buttery, nutty flavor and smooth texture, making it Sweden's most popular table cheese.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "swedish-prastost",
+      "title": "Prastost (Swedish Priest's Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Swedish",
+        "semi-hard",
+        "washed-rind",
+        "historical",
+        "priest's cheese"
+      ],
+      "collection": "all",
+      "description": "A semi-hard Swedish cheese with a complex, slightly tangy flavor. Prastost ('priest's cheese') was traditionally given to clergy as part of the tithe, representing the finest cheese a farm could produce.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "finnish-aura-blue",
+      "title": "Aura (Finnish Blue Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Finnish",
+        "blue cheese",
+        "mold-ripened",
+        "creamy",
+        "mild blue"
+      ],
+      "collection": "all",
+      "description": "Finland's most famous blue cheese, Aura is creamy, mild, and approachable. Less sharp than other blue cheeses, it has a buttery texture that spreads easily and melts beautifully.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "6-8 weeks aging"
+    },
+    {
+      "id": "icelandic-skyr-cheese",
+      "title": "Skyr (Icelandic Cultured Dairy)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Icelandic",
+        "fresh",
+        "cultured",
+        "Viking",
+        "high-protein",
+        "acid-set"
+      ],
+      "collection": "all",
+      "description": "Iceland's national dairy product, Skyr is technically a fresh acid-set cheese though it has the consistency of thick yogurt. High in protein and tangy in flavor, it's been made in Iceland since Viking times.",
+      "servings_yield": "About 3 cups",
+      "total_time": "12-24 hours incubation"
+    },
+    {
+      "id": "dutch-aged-gouda-oud",
+      "title": "Oud Gouda (Aged Dutch Gouda)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Gouda",
+        "aged",
+        "hard",
+        "crystalline"
+      ],
+      "collection": "all",
+      "description": "Oud (old) Gouda develops deep caramel notes and crystalline texture through extended aging. The cheese becomes firm, crumbly, and intensely flavorful with characteristic tyrosine crystals that provide pleasant crunch.",
+      "servings_yield": "About 8-10 lbs wheel",
+      "total_time": "10-12 months aging"
+    },
+    {
+      "id": "dutch-extra-aged-gouda-overjarig",
+      "title": "Overjarig Gouda (Extra-Aged Dutch Gouda)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Gouda",
+        "extra-aged",
+        "premium",
+        "crystalline"
+      ],
+      "collection": "all",
+      "description": "Overjarig (over a year) Gouda is the pinnacle of Dutch cheese aging. Deep amber color, intense butterscotch and caramel notes, and abundant crunchy crystals characterize this prestigious cheese.",
+      "servings_yield": "About 8-10 lbs wheel",
+      "total_time": "18-36 months aging"
+    },
+    {
+      "id": "dutch-komijnekaas",
+      "title": "Komijnekaas (Dutch Cumin Gouda)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Gouda",
+        "spiced",
+        "cumin",
+        "traditional"
+      ],
+      "collection": "all",
+      "description": "Komijnekaas is Gouda studded with whole cumin seeds. The warm, earthy spice complements the sweet, buttery cheese. A Dutch tradition dating to medieval times when spices were added as preservatives.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "2-4 months aging"
+    },
+    {
+      "id": "dutch-leidse-kaas",
+      "title": "Leidse Kaas (Leiden Cheese with Cumin and Caraway)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Leiden",
+        "spiced",
+        "cumin",
+        "caraway",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Leidse kaas is a semi-hard cheese from Leiden characterized by its combination of cumin AND caraway seeds. The crossed keys of Leiden are traditionally stamped on the rind. Made with partially skimmed milk for a firmer texture.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "3-12 months aging"
+    },
+    {
+      "id": "dutch-boeren-leidse",
+      "title": "Boeren-Leidse met Sleutels (Farmhouse Leiden Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Leiden",
+        "farmhouse",
+        "raw milk",
+        "PDO",
+        "cumin",
+        "caraway"
+      ],
+      "collection": "all",
+      "description": "Boeren-Leidse met sleutels ('Farmhouse Leiden with keys') is the protected farmhouse version of Leiden cheese. Made only on farms in the Leiden region using raw milk from the farm's own cows. The crossed keys emblem indicates authenticity.",
+      "servings_yield": "About 8-12 lbs wheel",
+      "total_time": "6-12 months aging"
+    },
+    {
+      "id": "dutch-maasdam-swiss-style",
+      "title": "Maasdam (Dutch Swiss-Style Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Swiss-style",
+        "eye cheese",
+        "semi-hard"
+      ],
+      "collection": "all",
+      "description": "Maasdam was created by Dutch cheesemakers to compete with Swiss Emmental. It features large round eyes, sweet nutty flavor, and supple texture. Aged shorter than Swiss cheese, it's milder and more affordable.",
+      "servings_yield": "About 6-8 lbs wheel",
+      "total_time": "4-12 weeks aging"
+    },
+    {
+      "id": "dutch-roomano-pradera",
+      "title": "Roomano Pradera (Dutch Aged Parmesan-Style)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Parmesan-style",
+        "extra-aged",
+        "grating",
+        "crystalline"
+      ],
+      "collection": "all",
+      "description": "Roomano Pradera is an intensely aged Dutch cheese with crystalline texture similar to Parmigiano-Reggiano. Aged 4 or more years, it develops deep umami notes, crunchy crystals, and butterscotch sweetness.",
+      "servings_yield": "About 8-10 lbs wheel",
+      "total_time": "4-5 years aging"
+    },
+    {
+      "id": "dutch-beemster-classic",
+      "title": "Beemster Classic (Premium Polder Gouda)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Gouda",
+        "premium",
+        "polder",
+        "Beemster"
+      ],
+      "collection": "all",
+      "description": "Beemster Classic is a premium Gouda from the Beemster polder north of Amsterdam. The UNESCO-protected polder's mineral-rich clay soil produces exceptionally creamy milk, resulting in butter-rich cheese with caramel notes.",
+      "servings_yield": "About 6 lbs wheel",
+      "total_time": "18 months aging"
+    },
+    {
+      "id": "dutch-graskaas",
+      "title": "Graskaas (Dutch Spring Grass Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Gouda",
+        "seasonal",
+        "spring",
+        "grass-fed"
+      ],
+      "collection": "all",
+      "description": "Graskaas ('grass cheese') is made in late April/early May from the first milk after cows return to fresh spring pastures. The cheese is notably yellow from beta-carotene in new grass, with distinctive sweet, grassy flavor.",
+      "servings_yield": "About 4 lbs",
+      "total_time": "4-6 weeks aging (young) to 4 months"
+    },
+    {
+      "id": "dutch-reypenaer-vsop",
+      "title": "Reypenaer VSOP (Premium Aged Dutch Gouda)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Gouda",
+        "premium",
+        "aged",
+        "VSOP"
+      ],
+      "collection": "all",
+      "description": "Reypenaer VSOP is aged 24 months in historic warehouses along Amsterdam canals. The climate-controlled natural aging develops complex butterscotch, whiskey, and caramel notes with signature crystalline texture.",
+      "servings_yield": "About 8-10 lbs wheel",
+      "total_time": "24 months aging"
+    },
+    {
+      "id": "dutch-noord-hollandse-gouda",
+      "title": "Noord-Hollandse Gouda (North Holland Gouda)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Gouda",
+        "PGI",
+        "North Holland",
+        "traditional"
+      ],
+      "collection": "all",
+      "description": "Noord-Hollandse Gouda is a PGI-protected cheese made exclusively in North Holland province. Distinguished by a stamp guaranteeing origin, it represents the classic Dutch Gouda style from the traditional heartland of Dutch cheesemaking.",
+      "servings_yield": "About 8-12 lbs wheel",
+      "total_time": "4 weeks to 12+ months"
+    },
+    {
+      "id": "dutch-boerenkaas",
+      "title": "Boerenkaas (Dutch Farmhouse Raw Milk Gouda)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Gouda",
+        "farmhouse",
+        "raw milk",
+        "Boerenkaas"
+      ],
+      "collection": "all",
+      "description": "Boerenkaas ('farmer's cheese') is the protected designation for farmhouse Gouda made with raw milk from the farm's own cows. More complex and variable than factory cheese, each farm's terroir produces unique flavor profiles.",
+      "servings_yield": "About 8-12 lbs wheel",
+      "total_time": "2-24 months aging"
+    },
+    {
+      "id": "dutch-aged-edam",
+      "title": "Aged Edam (Oude Edammer)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Dutch",
+        "Edam",
+        "aged",
+        "ball-shaped",
+        "lower-fat"
+      ],
+      "collection": "all",
+      "description": "While most Edam is sold young, aged Edam develops nutty, slightly sharp flavors and firmer texture. The signature red wax exterior (or natural rind for domestic) encases a pale interior that darkens slightly with age.",
+      "servings_yield": "About 3-4 lbs ball",
+      "total_time": "10-17 months aging"
+    },
+    {
+      "id": "akkawi-cheese",
+      "title": "Akkawi Cheese (Palestinian White Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Palestinian",
+        "brined",
+        "white cheese",
+        "kunafa"
+      ],
+      "collection": "all",
+      "description": "Soft, white brined cheese with mild, slightly salty flavor. Essential for kunafa and other Middle Eastern desserts. The cheese is soaked to remove salt before use in sweets.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "1-2 weeks brining"
+    },
+    {
+      "id": "nabulsi-cheese",
+      "title": "Nabulsi Cheese (Palestinian Boiled Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Palestinian",
+        "boiled cheese",
+        "spiced",
+        "Nablus"
+      ],
+      "collection": "all",
+      "description": "Distinctive white cheese boiled in salted whey with mastic and mahlab spices. The boiling process gives it a unique squeaky texture and aromatic flavor. Traditional for kunafa nabulsieh.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "Same day to 1 week"
+    },
+    {
+      "id": "kashkaval-cheese",
+      "title": "Kashkaval Cheese (Balkan-Middle Eastern Yellow Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Balkan",
+        "pasta filata",
+        "yellow cheese",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Semi-hard yellow cheese made using pasta filata (stretched curd) technique. Sharp, slightly tangy flavor with excellent melting properties. Popular across Turkey, Lebanon, Syria, and Egypt.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "shanklish-cheese",
+      "title": "Shanklish (Aged Spiced Cheese Balls)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Levantine",
+        "aged",
+        "spiced",
+        "za'atar",
+        "mezze"
+      ],
+      "collection": "all",
+      "description": "Pungent, aged cheese formed into balls and coated with za'atar or Aleppo pepper. Develops strong blue-cheese-like flavors during aging. A beloved mezze dish served with olive oil and tomatoes.",
+      "servings_yield": "About 12 cheese balls",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "jameed-cheese",
+      "title": "Jameed (Dried Yogurt Balls)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Jordanian",
+        "Bedouin",
+        "dried",
+        "preserved",
+        "mansaf"
+      ],
+      "collection": "all",
+      "description": "Rock-hard dried fermented yogurt, traditionally made from sheep or goat milk. Reconstituted with water to make the sauce for mansaf. A Bedouin preservation technique dating back centuries.",
+      "servings_yield": "About 1 lb dried",
+      "total_time": "1-2 weeks drying"
+    },
+    {
+      "id": "gibna-baladi",
+      "title": "Gibna Baladi (Egyptian Village Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Egyptian",
+        "fresh",
+        "white cheese",
+        "acid-set"
+      ],
+      "collection": "all",
+      "description": "Soft, fresh Egyptian white cheese with mild flavor. 'Baladi' means 'country' or 'local' - this is the simple farmhouse cheese of rural Egypt. Eaten fresh with bread and vegetables.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "Same day"
+    },
+    {
+      "id": "domiati-cheese",
+      "title": "Domiati Cheese (Egyptian Brined Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Egyptian",
+        "brined",
+        "white cheese",
+        "Damietta"
+      ],
+      "collection": "all",
+      "description": "Unique Egyptian cheese where salt is added directly to the milk before curdling. Results in a soft, very salty white cheese. Eaten fresh or aged, and essential for Egyptian baked goods like feteer meshaltet.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "Fresh to several months"
+    },
+    {
+      "id": "lighvan-cheese",
+      "title": "Lighvan Cheese (Persian Sheep's Milk Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Persian",
+        "Iranian",
+        "sheep's milk",
+        "brined",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Rich, tangy sheep's milk cheese from northwest Iran. Brined and aged, it develops complex flavors with slight piquancy. The terroir of Lighvan's mountain pastures gives distinctive character.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-6 months aging"
+    },
+    {
+      "id": "turkish-kasar",
+      "title": "Kasar Peyniri (Turkish Yellow Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Turkish",
+        "pasta filata",
+        "yellow cheese",
+        "melting cheese"
+      ],
+      "collection": "all",
+      "description": "Semi-hard yellow cheese made using pasta filata technique. Mild when young (taze kasar), sharp when aged (eski kasar). Excellent melting cheese, essential for Turkish toast and pide.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "Fresh to 6 months aging"
+    },
+    {
+      "id": "turkish-tulum",
+      "title": "Tulum Peyniri (Turkish Goatskin-Aged Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Turkish",
+        "goat's milk",
+        "aged",
+        "artisanal"
+      ],
+      "collection": "all",
+      "description": "Crumbly, pungent cheese aged in goatskin (tulum) bags. The skin imparts unique flavors and the anaerobic environment creates distinctive character. Ranges from mild to very sharp depending on age.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "turkish-mihalic",
+      "title": "Mihalic Peyniri (Bursa Sheep's Milk Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Turkish",
+        "sheep's milk",
+        "hard",
+        "aged",
+        "Bursa"
+      ],
+      "collection": "all",
+      "description": "Hard, granular sheep's milk cheese from Bursa province. Aged extensively for sharp, nutty flavor. Turkey's answer to Pecorino or aged Manchego. Excellent for grating or as a table cheese.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "6-12 months aging"
+    },
+    {
+      "id": "turkish-ezine",
+      "title": "Ezine Peyniri (Thracian Protected Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Turkish",
+        "mixed milk",
+        "brined",
+        "protected origin",
+        "premium"
+      ],
+      "collection": "all",
+      "description": "Turkey's most prestigious white cheese with geographical indication protection. Made from a blend of sheep's and goat's milk in the Ezine district. Rich, complex, and considered the finest Turkish white cheese.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-6 months aging"
+    },
+    {
+      "id": "tzfatit-cheese",
+      "title": "Tzfatit (Israeli Safed Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Israeli",
+        "sheep's milk",
+        "brined",
+        "Galilee"
+      ],
+      "collection": "all",
+      "description": "Creamy, brined sheep's milk cheese from the Galilee region. Semi-soft with tangy, slightly salty flavor. One of Israel's most popular traditional cheeses, dating to the Ottoman period.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "1-4 weeks"
+    },
+    {
+      "id": "lebanese-akkawi",
+      "title": "Lebanese Akkawi (Ackawi Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Middle Eastern",
+        "Lebanese",
+        "brined",
+        "white cheese",
+        "dessert cheese"
+      ],
+      "collection": "all",
+      "description": "Smooth, elastic brined cheese crucial for Lebanese desserts like knafeh and halawet el jibn. Lebanese Akkawi is often slightly softer than Palestinian versions, prized for its stretchy texture when heated.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "1-2 weeks brining"
+    },
+    {
+      "id": "chhena-indian-fresh-cheese",
+      "title": "Chhena (Indian Fresh Cheese for Sweets)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Indian",
+        "Bengali",
+        "fresh",
+        "acid-set",
+        "sweets base"
+      ],
+      "collection": "all",
+      "description": "Soft, crumbly Indian fresh cheese made by curdling milk with acid. Unlike paneer which is pressed firm, chhena remains soft and malleable - the essential base for iconic Bengali sweets.",
+      "servings_yield": "About 1 lb",
+      "total_time": "1 hour"
+    },
+    {
+      "id": "kalari-kashmiri-cheese",
+      "title": "Kalari (Kashmiri Fried Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Indian",
+        "Kashmiri",
+        "frying cheese",
+        "buffalo milk",
+        "traditional"
+      ],
+      "collection": "all",
+      "description": "Dense, chewy Kashmiri cheese traditionally made from raw buffalo or cow milk. When fried, it develops a crispy golden exterior while becoming molten inside - Kashmir's answer to halloumi.",
+      "servings_yield": "About 12 oz",
+      "total_time": "2-3 days"
+    },
+    {
+      "id": "bandel-bengali-smoked-cheese",
+      "title": "Bandel Cheese (Bengali Smoked Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Indian",
+        "Bengali",
+        "smoked",
+        "Portuguese-influenced",
+        "heritage"
+      ],
+      "collection": "all",
+      "description": "Unique smoked cheese from the former Portuguese settlement of Bandel near Kolkata. Made from cow's milk and smoked over rice husk fires, it comes in both fresh and aged varieties.",
+      "servings_yield": "About 1 lb",
+      "total_time": "3-5 days"
+    },
+    {
+      "id": "rushan-yunnan-fan-cheese",
+      "title": "Rushan (Yunnan Fan-Shaped Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Chinese",
+        "Yunnan",
+        "Bai",
+        "stretched",
+        "grilled"
+      ],
+      "collection": "all",
+      "description": "Distinctive Chinese cheese made by the Bai ethnic group near Dali. Fresh milk curds are stretched into thin sheets and dried on bamboo frames, resembling decorative fans. Served grilled or fried.",
+      "servings_yield": "About 8 pieces",
+      "total_time": "1 day"
+    },
+    {
+      "id": "rubing-yunnan-grilled-cheese",
+      "title": "Rubing (Yunnan Grilled Goat Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Chinese",
+        "Yunnan",
+        "goat cheese",
+        "fresh",
+        "grilling"
+      ],
+      "collection": "all",
+      "description": "Fresh, firm goat cheese blocks from Yunnan Province, made by the Sani branch of the Yi ethnic group. Mild when raw, it transforms when grilled into a squeaky, savory treat with crispy edges.",
+      "servings_yield": "About 1 lb",
+      "total_time": "4-6 hours"
+    },
+    {
+      "id": "sakura-cheese-japanese",
+      "title": "Sakura Cheese (Japanese Cherry Blossom Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Japanese",
+        "artisan",
+        "cream cheese",
+        "cherry blossom",
+        "seasonal"
+      ],
+      "collection": "all",
+      "description": "Elegant Japanese cream cheese decorated with preserved cherry blossoms and cherry leaves. A modern artisan creation that has won international awards, it embodies Japanese aesthetics and seasonal appreciation.",
+      "servings_yield": "About 1 lb",
+      "total_time": "2-3 days"
+    },
+    {
+      "id": "ayib-ethiopian-cottage-cheese",
+      "title": "Ayib (Ethiopian Cottage Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Ethiopian",
+        "African",
+        "cottage cheese",
+        "fresh",
+        "acid-set"
+      ],
+      "collection": "all",
+      "description": "Soft, mild Ethiopian cottage cheese traditionally made from buttermilk left over from butter-making. Its cool, creamy texture provides essential contrast to spicy Ethiopian stews and is often served atop injera.",
+      "servings_yield": "About 1 cup",
+      "total_time": "2-3 hours"
+    },
+    {
+      "id": "wagashi-west-african-cheese",
+      "title": "Wagashi (West African Fulani Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "African",
+        "West African",
+        "Fulani",
+        "fresh",
+        "plant-coagulated"
+      ],
+      "collection": "all",
+      "description": "Soft, mild white cheese made by Fulani (Peul) pastoral communities across West Africa. Curdled with natural plant coagulants, it's sold fresh in markets and often fried for added flavor.",
+      "servings_yield": "About 1 lb",
+      "total_time": "3-4 hours"
+    },
+    {
+      "id": "wara-nigerian-soft-cheese",
+      "title": "Wara (Nigerian Soft Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "African",
+        "Nigerian",
+        "Yoruba",
+        "fresh",
+        "soft cheese"
+      ],
+      "collection": "all",
+      "description": "Soft, unaged Nigerian cheese traditionally made by Fulani herders and popular throughout Yorubaland. Similar to wagashi but often prepared with slight regional variations. Eaten fresh or fried as a protein-rich snack.",
+      "servings_yield": "About 1 lb",
+      "total_time": "3-4 hours"
+    },
+    {
+      "id": "gibna-bayda-sudanese-white-cheese",
+      "title": "Gibna Bayda (Sudanese White Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "African",
+        "Sudanese",
+        "brined",
+        "white cheese",
+        "breakfast cheese"
+      ],
+      "collection": "all",
+      "description": "Salty, firm white cheese that is a staple of Sudanese cuisine. Similar to feta, it's preserved in brine and served at nearly every Sudanese breakfast alongside ful medames and fresh bread.",
+      "servings_yield": "About 1 lb",
+      "total_time": "2-3 days"
+    },
+    {
+      "id": "boerekaas-south-african-farmhouse",
+      "title": "Boerekaas (South African Farmhouse Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "South African",
+        "African",
+        "farmhouse",
+        "semi-hard",
+        "Dutch-style"
+      ],
+      "collection": "all",
+      "description": "Traditional South African farmhouse cheese made on Afrikaner farms for generations. Semi-hard with a mild, buttery flavor, it reflects the Dutch cheesemaking heritage adapted to African conditions.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "australian-cheddar-traditional",
+      "title": "Australian Cheddar (Traditional Style)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Australian",
+        "Oceania",
+        "cheddar",
+        "hard",
+        "British-style"
+      ],
+      "collection": "all",
+      "description": "Traditional Australian cheddar made following methods brought by British settlers. Australian cheddars tend to be slightly milder and less crumbly than English originals, adapted to local milk and climate conditions.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-12 months aging"
+    },
+    {
+      "id": "kapiti-new-zealand-aged-cheese",
+      "title": "Kapiti-Style Aged Cheese (New Zealand)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "New Zealand",
+        "Oceania",
+        "aged",
+        "artisan",
+        "grass-fed"
+      ],
+      "collection": "all",
+      "description": "Rich, complex aged cheese in the style of New Zealand's celebrated Kapiti cheesemakers. New Zealand's pristine pastures and year-round grazing produce exceptional milk for artisan cheese with deep, nuanced flavors.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "6-12 months aging"
+    },
+    {
+      "id": "bryndza-slovak-sheep-cheese",
+      "title": "Bryndza (Slovak/Polish Sheep Cheese Spread)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Slovak",
+        "Polish",
+        "sheep's milk",
+        "spreadable"
+      ],
+      "collection": "all",
+      "description": "Tangy, spreadable sheep's milk cheese essential for bryndzove halusky (Slovak national dish). This crumbly, pungent cheese has been made in the Carpathian Mountains for centuries by shepherd communities.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "oscypek-polish-smoked-sheep",
+      "title": "Oscypek (Polish Smoked Sheep's Milk Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Polish",
+        "smoked",
+        "sheep's milk",
+        "Tatra Mountains"
+      ],
+      "collection": "all",
+      "description": "Distinctive spindle-shaped smoked cheese made by Goral highlanders in the Tatra Mountains. The intricate decorative patterns pressed into the rind and the cold-smoking process create a unique cheese with centuries of tradition.",
+      "servings_yield": "About 1 lb (2 spindles)",
+      "total_time": "3-5 days including smoking"
+    },
+    {
+      "id": "twarog-polish-quark",
+      "title": "Twarog (Polish Quark/Farmer's Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Polish",
+        "fresh",
+        "quark",
+        "acid-set"
+      ],
+      "collection": "all",
+      "description": "Fresh, acid-set Polish cheese similar to quark. Slightly tangy with a crumbly-creamy texture, it's essential for pierogi fillings, cheesecakes (sernik), and breakfast spreads throughout Poland.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "24-48 hours"
+    },
+    {
+      "id": "bundz-polish-fresh-sheep",
+      "title": "Bundz (Polish Fresh Sheep's Milk Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Polish",
+        "fresh",
+        "sheep's milk",
+        "highland"
+      ],
+      "collection": "all",
+      "description": "Soft, fresh sheep's milk cheese made in the Tatra Mountains. This is the unsmoked, unaged form that can become oscypek if smoked. Mild, milky, and slightly tangy with a squeaky texture.",
+      "servings_yield": "About 1 lb",
+      "total_time": "Same day"
+    },
+    {
+      "id": "liptauer-hungarian-spread",
+      "title": "Liptauer (Hungarian Spiced Cheese Spread)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Hungarian",
+        "spread",
+        "paprika",
+        "spiced"
+      ],
+      "collection": "all",
+      "description": "Vibrant orange-red spiced cheese spread made with sheep's cheese, paprika, and aromatics. This piquant spread is a fixture of Hungarian cuisine, perfect on dark bread with beer.",
+      "servings_yield": "About 2 cups",
+      "total_time": "20 min plus chilling"
+    },
+    {
+      "id": "trappista-hungarian-cheese",
+      "title": "Trappista (Hungarian Trappist Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Hungarian",
+        "semi-hard",
+        "Trappist",
+        "monastery"
+      ],
+      "collection": "all",
+      "description": "Semi-hard, mild Hungarian cheese with a supple texture and small eyes. Brought to Hungary by Trappist monks, it became one of the country's most popular everyday cheeses. Excellent for slicing and melting.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-8 weeks aging"
+    },
+    {
+      "id": "palpusztai-hungarian-washed-rind",
+      "title": "Palpusztai (Hungarian Washed-Rind Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Hungarian",
+        "washed-rind",
+        "pungent",
+        "soft"
+      ],
+      "collection": "all",
+      "description": "Pungent, soft Hungarian cheese with an orange washed rind and creamy interior. Bold and assertive, this is Hungary's answer to Limburger. Not for the faint-hearted, but beloved by aficionados.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "4-6 weeks aging"
+    },
+    {
+      "id": "branza-de-burduf-romanian-bark",
+      "title": "Branza de Burduf (Romanian Cheese in Bark)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Romanian",
+        "sheep's milk",
+        "aged",
+        "traditional"
+      ],
+      "collection": "all",
+      "description": "Strong, tangy Romanian sheep's cheese traditionally aged in pine bark cylinders or sheep's stomach. The unique aging vessel imparts subtle resinous notes and creates a distinctive ripening environment.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-4 months aging"
+    },
+    {
+      "id": "cas-romanian-fresh-cheese",
+      "title": "Cas (Romanian Fresh Sheep's Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Romanian",
+        "fresh",
+        "sheep's milk"
+      ],
+      "collection": "all",
+      "description": "Fresh, mild Romanian sheep's milk cheese - the starting point for many other Romanian cheeses. Soft and elastic when fresh, it can be eaten immediately or further processed into aged varieties.",
+      "servings_yield": "About 1 lb",
+      "total_time": "Same day"
+    },
+    {
+      "id": "telemea-romanian-brined",
+      "title": "Telemea (Romanian Brined White Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Romanian",
+        "brined",
+        "white cheese",
+        "feta-style"
+      ],
+      "collection": "all",
+      "description": "Tangy, crumbly Romanian brined cheese similar to feta. Made from sheep's or cow's milk and aged in brine, it's essential for Romanian salads, pastries, and as a table cheese.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-4 weeks in brine"
+    },
+    {
+      "id": "urda-romanian-whey-cheese",
+      "title": "Urda (Romanian Whey Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Romanian",
+        "whey cheese",
+        "fresh",
+        "ricotta-style"
+      ],
+      "collection": "all",
+      "description": "Delicate, sweet Romanian whey cheese similar to ricotta. Made by heating whey until the remaining proteins coagulate, it's a economical way to use every part of the milk.",
+      "servings_yield": "About 1 lb",
+      "total_time": "2-3 hours"
+    },
+    {
+      "id": "kashkaval-bulgarian-cheese",
+      "title": "Kashkaval (Bulgarian Yellow Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Bulgarian",
+        "pasta filata",
+        "semi-hard",
+        "yellow cheese"
+      ],
+      "collection": "all",
+      "description": "Semi-hard Bulgarian pasta filata cheese with a smooth, elastic texture and mild, slightly tangy flavor. Essential for Bulgarian cuisine, it's excellent for slicing, grilling, and baking.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "sirene-bulgarian-white-cheese",
+      "title": "Sirene (Bulgarian White Brined Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Bulgarian",
+        "brined",
+        "white cheese"
+      ],
+      "collection": "all",
+      "description": "Tangy, crumbly Bulgarian brined cheese that's a cornerstone of Bulgarian cuisine. Made from sheep's, goat's, or cow's milk, it's eaten at nearly every meal and essential for shopska salata.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "3-6 weeks in brine"
+    },
+    {
+      "id": "kajmak-serbian-cream-cheese",
+      "title": "Kajmak (Serbian Clotted Cream Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Serbian",
+        "clotted cream",
+        "fresh",
+        "aged"
+      ],
+      "collection": "all",
+      "description": "Rich, layered Serbian clotted cream cheese made by skimming cream from slowly heated milk over several days. Ranges from fresh and mild to aged and tangy, it's indispensable for cevapi and pljeskavica.",
+      "servings_yield": "About 1 lb",
+      "total_time": "5-7 days for fresh, 2-3 months for aged"
+    },
+    {
+      "id": "paski-sir-croatian-sheep",
+      "title": "Paski Sir (Croatian Pag Island Sheep's Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Croatian",
+        "sheep's milk",
+        "hard",
+        "aged",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Hard, aromatic sheep's milk cheese from the Croatian island of Pag. The sheep graze on salt-sprayed herbs (especially sage), creating a unique, slightly salty, herbaceous cheese aged to crystalline perfection.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "5-12 months aging"
+    },
+    {
+      "id": "tolminc-slovenian-cheese",
+      "title": "Tolminc (Slovenian Alpine Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Slovenian",
+        "Alpine",
+        "semi-hard",
+        "raw milk",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Semi-hard Slovenian Alpine cheese with a smooth, supple texture and complex nutty flavor. Made from raw cow's milk in the Julian Alps, it represents centuries of Slovenian mountain dairy tradition.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "2-6 months aging"
+    },
+    {
+      "id": "olomoucke-tvaruzky-czech-stinky",
+      "title": "Olomoucke Tvaruzky (Czech Ripened Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Czech",
+        "pungent",
+        "ripened",
+        "quark-based",
+        "PDO"
+      ],
+      "collection": "all",
+      "description": "Small, disc-shaped Czech cheese famous for its powerful aroma and sharp flavor. Made from skimmed quark and ripened until pungent, these 'stinky cheeses' are a beloved Czech delicacy, traditionally enjoyed with beer and onions.",
+      "servings_yield": "About 1 lb (many small discs)",
+      "total_time": "2-6 weeks ripening"
+    },
+    {
+      "id": "gomolya-hungarian-sheep-cheese",
+      "title": "Gomolya (Hungarian Fresh Sheep's Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Hungarian",
+        "sheep's milk",
+        "fresh",
+        "shepherd's cheese"
+      ],
+      "collection": "all",
+      "description": "Fresh Hungarian sheep's milk cheese shaped into small rounds. The name comes from its ball-like shape (gomoly). Mild and milky when fresh, often salted and dried for longer keeping.",
+      "servings_yield": "About 1 lb",
+      "total_time": "Same day to 2 weeks"
+    },
+    {
+      "id": "korbaciky-slovak-string-cheese",
+      "title": "Korbaciky (Slovak Braided String Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "Eastern European",
+        "Slovak",
+        "string cheese",
+        "braided",
+        "smoked"
+      ],
+      "collection": "all",
+      "description": "Distinctive braided Slovak string cheese, often smoked for extra flavor. The elaborate braiding technique is a point of pride, creating both a snack cheese and an edible decoration.",
+      "servings_yield": "About 1 lb",
+      "total_time": "Same day plus optional smoking"
+    },
+    {
+      "id": "colby-cheese-wisconsin",
+      "title": "Colby Cheese (Wisconsin Original)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Wisconsin",
+        "washed-curd",
+        "original American"
+      ],
+      "collection": "all",
+      "description": "America's first original cheese, created in Wisconsin. Milder and moister than cheddar due to the washed-curd process, with a springy, open texture and sweet, milky flavor.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "1-3 months aging"
+    },
+    {
+      "id": "brick-cheese-wisconsin",
+      "title": "Brick Cheese (Wisconsin)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Wisconsin",
+        "washed-rind",
+        "pizza cheese"
+      ],
+      "collection": "all",
+      "description": "Another Wisconsin original, named for its brick shape and the bricks used to press it. Starts mild and sweet, develops pungent, earthy flavors as it ages. Essential for authentic Detroit-style pizza.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-3 months aging"
+    },
+    {
+      "id": "american-muenster",
+      "title": "American Muenster",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "German-style",
+        "mild",
+        "melting cheese"
+      ],
+      "collection": "all",
+      "description": "Mild, smooth American cheese with characteristic orange-tinted rind from annatto. Much milder than European Munster, it's a beloved melting cheese for sandwiches and burgers.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "dry-jack-california",
+      "title": "Dry Jack (California Aged)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "California",
+        "aged",
+        "grating",
+        "Parmesan-style"
+      ],
+      "collection": "all",
+      "description": "Born from necessity during WWI when Italian cheese imports stopped, Dry Jack is Monterey Jack aged 7-12 months. Hard, granular, and nutty, it's California's answer to Parmesan.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "7-12 months aging"
+    },
+    {
+      "id": "teleme-california",
+      "title": "Teleme (California)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "California",
+        "Greek-style",
+        "soft",
+        "rice-flour coated"
+      ],
+      "collection": "all",
+      "description": "Uniquely Californian soft cheese with Greek origins. Incredibly creamy and tangy, it becomes almost liquid when ripe. Traditionally coated in rice flour to absorb moisture.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "vermont-cheddar-clothbound",
+      "title": "Vermont Cheddar (Clothbound)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Vermont",
+        "cheddar",
+        "clothbound",
+        "aged",
+        "English-style"
+      ],
+      "collection": "all",
+      "description": "Authentic clothbound cheddar in the English tradition, wrapped in cheesecloth and aged in caves. Sharp, complex, and crumbly with earthy, nutty notes from the natural rind.",
+      "servings_yield": "About 2.5 lbs",
+      "total_time": "12-24 months aging"
+    },
+    {
+      "id": "maytag-blue-iowa",
+      "title": "Maytag Blue (Iowa)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Iowa",
+        "blue cheese",
+        "farmstead",
+        "artisan"
+      ],
+      "collection": "all",
+      "description": "America's first farmstead blue cheese, created when the Maytag appliance family diversified into dairy. Dense, crumbly, and lemony with bold blue veining. A true American original.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "4-6 months aging"
+    },
+    {
+      "id": "cheese-curds-fresh",
+      "title": "Cheese Curds (Fresh, Squeaky)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Wisconsin",
+        "fresh",
+        "curds",
+        "squeaky",
+        "poutine"
+      ],
+      "collection": "all",
+      "description": "The freshest possible cheese - curds before they're pressed into wheels. The characteristic 'squeak' against teeth only lasts 12-24 hours. Essential for authentic poutine.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "Same day"
+    },
+    {
+      "id": "queso-oaxaca-string",
+      "title": "Queso Oaxaca (String Cheese)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Mexican",
+        "pasta filata",
+        "string cheese",
+        "melting"
+      ],
+      "collection": "all",
+      "description": "Mexican string cheese with excellent melting properties. Like mozzarella, it's a pasta filata (stretched curd) cheese, but wound into a distinctive ball shape. Essential for quesadillas.",
+      "servings_yield": "About 1 lb",
+      "total_time": "Same day"
+    },
+    {
+      "id": "queso-chihuahua-menonita",
+      "title": "Queso Chihuahua (Mexican Mennonite)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Mexican",
+        "Mennonite",
+        "melting",
+        "mild"
+      ],
+      "collection": "all",
+      "description": "Mild, buttery Mexican cheese created by Mennonite immigrants. Similar to young cheddar or Colby, it melts beautifully and is the traditional cheese for queso fundido and chile rellenos.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "2-4 weeks aging"
+    },
+    {
+      "id": "cotija-mexican-aged",
+      "title": "Cotija (Mexican Aged)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Mexican",
+        "aged",
+        "grating",
+        "salty",
+        "crumbly"
+      ],
+      "collection": "all",
+      "description": "Mexico's Parmesan - a hard, salty, crumbly cheese for grating and finishing. Young cotija is softer; aged cotija (anejo) is hard and intensely flavored. Essential for elotes and tacos.",
+      "servings_yield": "About 2 lbs",
+      "total_time": "3-12 months aging"
+    },
+    {
+      "id": "queso-panela-fresh",
+      "title": "Queso Panela (Mexican Fresh)",
+      "category": "cheese",
+      "tags": [
+        "cheese",
+        "American",
+        "Mexican",
+        "fresh",
+        "non-melting",
+        "basket-weave"
+      ],
+      "collection": "all",
+      "description": "Fresh, mild Mexican cheese that softens when heated but doesn't melt. Its basket-weave texture comes from traditional draining molds. Perfect for grilling and salads.",
+      "servings_yield": "About 1.5 lbs",
+      "total_time": "Same day to 2 days"
     }
   ]
 }

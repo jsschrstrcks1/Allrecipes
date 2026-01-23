@@ -10,6 +10,12 @@
  * Integrates with:
  * - milk-substitution.js for milk type adjustments
  * - adulterant-companion.js for herb/spice recommendations
+ *
+ * Features:
+ * - Matches against 1800+ cheese-making recipes
+ * - Suggests adjacent cheeses with technique variations
+ * - Pulls tips from recipe notes
+ * - Provides general cheese-making guidance
  */
 
 const CheeseBuilder = (function() {
@@ -20,6 +26,198 @@ const CheeseBuilder = (function() {
     let recipesData = null;
     let milkSubData = null;
     let adulterantsData = null;
+    let cheeseRecipesCache = null; // Cached cheese-making recipes
+
+    // ============ Cheese Adjacency Data ============
+    // Defines relationships between cheeses and what changes transform one into another
+    const CHEESE_ADJACENCIES = {
+        // Fresh cheeses
+        'ricotta': {
+            family: 'fresh',
+            adjacent: [
+                { cheese: 'mascarpone', change: 'Use cream instead of milk, drain less' },
+                { cheese: 'queso fresco', change: 'Press the curds, add more salt' },
+                { cheese: 'paneer', change: 'Press firmly, use lemon juice instead of vinegar' },
+                { cheese: 'fromage blanc', change: 'Add culture, drain longer for tangier flavor' }
+            ]
+        },
+        'paneer': {
+            family: 'fresh',
+            adjacent: [
+                { cheese: 'halloumi', change: 'Add rennet, poach in whey, brine' },
+                { cheese: 'queso blanco', change: 'Use vinegar instead of lemon, less pressing' },
+                { cheese: 'ricotta', change: 'Skip pressing, use whey from other cheese' }
+            ]
+        },
+        'cream cheese': {
+            family: 'fresh',
+            adjacent: [
+                { cheese: 'neufchâtel', change: 'Use less cream for lower fat version' },
+                { cheese: 'mascarpone', change: 'Use only cream, add tartaric acid' },
+                { cheese: 'boursin', change: 'Add garlic and herbs before final mixing' },
+                { cheese: 'labneh', change: 'Start with yogurt instead of cultured cream' }
+            ]
+        },
+        'mozzarella': {
+            family: 'pasta-filata',
+            adjacent: [
+                { cheese: 'burrata', change: 'Form pouch, fill with stracciatella and cream' },
+                { cheese: 'scamorza', change: 'Air dry the formed cheese, optionally smoke' },
+                { cheese: 'provolone', change: 'Age 2-12 months, use lipase for sharper flavor' },
+                { cheese: 'oaxaca', change: 'Pull into long ropes, wind into ball shape' },
+                { cheese: 'string cheese', change: 'Pull into thin ropes, don\'t ball up' }
+            ]
+        },
+        'cheddar': {
+            family: 'cheddared',
+            adjacent: [
+                { cheese: 'colby', change: 'Wash curds with water, skip cheddaring' },
+                { cheese: 'monterey jack', change: 'Higher moisture, shorter aging, milder culture' },
+                { cheese: 'leicester', change: 'Add annatto for orange color, crumblier texture' },
+                { cheese: 'gloucester', change: 'Use evening milk + morning cream, age 4+ months' },
+                { cheese: 'derby', change: 'Moister curd, add sage leaves for Sage Derby' },
+                { cheese: 'dunlop', change: 'Scottish variant - use full-fat milk, milder culture' },
+                { cheese: 'caerphilly', change: 'Higher acid, shorter aging (2-8 weeks), crumbly' }
+            ]
+        },
+        'gouda': {
+            family: 'washed-curd',
+            adjacent: [
+                { cheese: 'edam', change: 'Lower fat milk, smaller wheels, age shorter' },
+                { cheese: 'leyden', change: 'Add cumin and caraway seeds to curds' },
+                { cheese: 'maasdam', change: 'Add propionic bacteria for eyes (holes)' },
+                { cheese: 'fontina', change: 'Raw milk, washed rind, cave aging' },
+                { cheese: 'havarti', change: 'Higher moisture, more washing, cream addition' }
+            ]
+        },
+        'swiss': {
+            family: 'alpine',
+            adjacent: [
+                { cheese: 'gruyère', change: 'Smaller/fewer eyes, longer aging, nuttier' },
+                { cheese: 'emmental', change: 'Larger wheels, more propionic for bigger eyes' },
+                { cheese: 'jarlsberg', change: 'Norwegian variant - sweeter, milder' },
+                { cheese: 'appenzeller', change: 'Wash rind with herbed brine' },
+                { cheese: 'comté', change: 'French variant - raw milk, longer aging' },
+                { cheese: 'beaufort', change: 'Concave wheel shape, no eyes, alpine pastures' }
+            ]
+        },
+        'brie': {
+            family: 'bloomy',
+            adjacent: [
+                { cheese: 'camembert', change: 'Smaller wheel, stronger flavor, thicker rind' },
+                { cheese: 'coulommiers', change: 'Thicker wheel, creamier center' },
+                { cheese: 'triple cream', change: 'Add cream for 75%+ butterfat' },
+                { cheese: 'saint-andré', change: 'Triple cream with thicker rind' }
+            ]
+        },
+        'feta': {
+            family: 'brined',
+            adjacent: [
+                { cheese: 'halloumi', change: 'Add mint, poach in whey, higher salt brine' },
+                { cheese: 'sirene', change: 'Bulgarian variant - cow milk, less tangy' },
+                { cheese: 'beyaz peynir', change: 'Turkish variant - milder, cubed' },
+                { cheese: 'queso fresco', change: 'Skip brining, eat fresh, milder' }
+            ]
+        },
+        'blue cheese': {
+            family: 'blue',
+            adjacent: [
+                { cheese: 'roquefort', change: 'Use sheep milk, cave age' },
+                { cheese: 'gorgonzola', change: 'Italian - creamier, milder (dolce) or firmer (piccante)' },
+                { cheese: 'stilton', change: 'English - crumbly, pierced later, longer aging' },
+                { cheese: 'danish blue', change: 'Higher moisture, creamier, sharper' },
+                { cheese: 'cambozola', change: 'Combine blue mold with bloomy rind' }
+            ]
+        },
+        'parmesan': {
+            family: 'grana',
+            adjacent: [
+                { cheese: 'grana padano', change: 'Shorter aging (9-24mo), milder flavor' },
+                { cheese: 'pecorino romano', change: 'Use sheep milk, saltier, sharper' },
+                { cheese: 'asiago', change: 'Shorter aging, softer when young' },
+                { cheese: 'piave', change: 'Northeastern Italian, sweeter, less granular' }
+            ]
+        },
+        'chevre': {
+            family: 'fresh-goat',
+            adjacent: [
+                { cheese: 'crottin', change: 'Form into small rounds, age with bloomy rind' },
+                { cheese: 'valencay', change: 'Pyramid shape, ash coating' },
+                { cheese: 'bucheron', change: 'Log shape, age for soft center' },
+                { cheese: 'humboldt fog', change: 'Ash layer in middle, bloomy rind' }
+            ]
+        },
+        'washed rind': {
+            family: 'washed',
+            adjacent: [
+                { cheese: 'taleggio', change: 'Italian - square, mild, washed with brine' },
+                { cheese: 'époisses', change: 'French - wash with marc de Bourgogne' },
+                { cheese: 'limburger', change: 'German - stronger, smaller, brick shape' },
+                { cheese: 'munster', change: 'Alsatian - wash with brine, milder than limburger' },
+                { cheese: 'reblochon', change: 'French alpine - wash gently, use raw milk' }
+            ]
+        }
+    };
+
+    // General cheese-making tips organized by topic
+    const GENERAL_TIPS = {
+        milk: [
+            'Never use ultra-pasteurized (UHT) milk - it won\'t form proper curds',
+            'Raw milk makes the best cheese but requires extra food safety care',
+            'Pasteurized milk may need calcium chloride to help curds set',
+            'Homogenized milk works fine but may produce slightly softer curds',
+            'Goat milk curds are more fragile - handle gently',
+            'Sheep milk produces 50-80% more cheese per gallon than cow milk'
+        ],
+        temperature: [
+            'Use a reliable thermometer - temperature control is crucial',
+            'Heat milk slowly and stir frequently to prevent scorching',
+            'Most cheeses ripen at 86-102°F (30-39°C)',
+            'Thermophilic cultures need higher temps (104-113°F)',
+            'Mesophilic cultures work at moderate temps (68-102°F)',
+            'Even 2°F difference can affect your final cheese'
+        ],
+        rennet: [
+            'Less rennet = softer cheese, more rennet = firmer cheese',
+            'Dilute rennet in cool non-chlorinated water before adding',
+            'Stir rennet in gently for only 30-60 seconds',
+            'Don\'t disturb the milk while rennet is working',
+            'Goat and sheep milk need 30-40% less rennet than cow milk',
+            'Check for "clean break" before cutting curds'
+        ],
+        curds: [
+            'Cut curds uniformly for even moisture content',
+            'Smaller curds = drier cheese, larger curds = moister cheese',
+            'Stir gently to avoid smashing curds',
+            'Stacking/cheddaring curds develops tangy flavor',
+            'Heating curds expels more whey = firmer cheese',
+            'Fresh curds squeak against your teeth when ready'
+        ],
+        salt: [
+            'Salt controls moisture and slows bacterial growth',
+            'Brine concentration affects rind development',
+            'Dry salting pulls more moisture than brining',
+            'Under-salted cheese spoils; over-salted is harsh',
+            'Flake salt dissolves faster and distributes more evenly',
+            'Iodized salt can inhibit cultures - use cheese salt or kosher'
+        ],
+        aging: [
+            'Higher humidity = softer rind, lower humidity = harder rind',
+            'Turn cheese regularly to prevent moisture pooling',
+            'Cave temperature (50-55°F) is ideal for most aging',
+            'A dedicated cheese fridge maintains consistent conditions',
+            'Vacuum sealing prevents mold on hard cheeses',
+            'Waxing protects cheese while allowing some gas exchange'
+        ],
+        troubleshooting: [
+            'Weak curds? Add calcium chloride next time',
+            'Bitter cheese? May be over-renneted or contaminated',
+            'No curds forming? Check rennet freshness and milk quality',
+            'Spongy texture? Too much whey trapped in curds',
+            'Off flavors? Check for contamination or old cultures',
+            'Cracks in rind? Humidity too low during aging'
+        ]
+    };
 
     // Wizard state
     let currentStep = 0;
@@ -287,23 +485,141 @@ const CheeseBuilder = (function() {
 
     // ============ Recipe Matching ============
 
+    // List of cheese names for detection
+    const CHEESE_NAMES = [
+        'ricotta', 'mozzarella', 'cheddar', 'gouda', 'feta', 'brie', 'camembert',
+        'parmesan', 'pecorino', 'manchego', 'gruyere', 'gruyère', 'swiss', 'havarti',
+        'muenster', 'münster', 'colby', 'jack', 'provolone', 'asiago', 'fontina',
+        'halloumi', 'paneer', 'queso', 'chevre', 'chèvre', 'boursin', 'mascarpone',
+        'cream cheese', 'cottage cheese', 'farmer', 'fromage', 'stilton', 'roquefort',
+        'gorgonzola', 'blue cheese', 'taleggio', 'limburger', 'edam', 'emmental',
+        'jarlsberg', 'raclette', 'comté', 'comte', 'reblochon', 'epoisses', 'époisses',
+        'tomme', 'caciocavallo', 'scamorza', 'burrata', 'oaxaca', 'cotija', 'labneh',
+        'quark', 'skyr', 'tvorog', 'kashkaval', 'sirene', 'appenzeller', 'beaufort',
+        'caerphilly', 'gloucester', 'leicester', 'derby', 'dunlop', 'wensleydale',
+        'lancashire', 'cheshire', 'crottin', 'valencay', 'valençay', 'bucheron',
+        'neufchâtel', 'neufchatel', 'coulommiers', 'pont', 'langres', 'maroilles',
+        'munster', 'brick', 'limburger', 'tilsit', 'port salut', 'saint-nectaire',
+        'morbier', 'raclette', 'idiazabal', 'idiazábal', 'mahon', 'mahón', 'tetilla',
+        'manchego', 'zamorano', 'graviera', 'kefalograviera', 'kasseri', 'kefalotyri',
+        'panir', 'chhena', 'kalari', 'bandel', 'sulguni', 'imeruli', 'chechil'
+    ];
+
+    /**
+     * Detect if a recipe is for MAKING cheese (not just using it)
+     */
+    function isCheeseMAKINGRecipe(recipe) {
+        const title = (recipe.title || '').toLowerCase();
+        const desc = (recipe.description || '').toLowerCase();
+        const tags = (recipe.tags || []).join(' ').toLowerCase();
+
+        // Already categorized as cheese
+        if (recipe.category === 'cheese') return true;
+
+        // Check ingredients for definitive making indicators
+        let ingredientsText = '';
+        for (const ing of (recipe.ingredients || [])) {
+            ingredientsText += ' ' + (ing.item || '').toLowerCase();
+        }
+
+        // Must have rennet OR culture in ingredients (definitive cheese-making)
+        const hasRennet = ingredientsText.includes('rennet');
+        const hasCulture = ['mesophilic', 'thermophilic', 'culture', 'starter'].some(c => ingredientsText.includes(c));
+        const hasCitric = ingredientsText.includes('citric acid') && ingredientsText.includes('milk');
+
+        // If has definitive making ingredients, it's a cheese recipe
+        if (hasRennet || hasCulture) return true;
+        if (hasCitric) return true;
+
+        // Named cheese in title with making indicators
+        const isNamedCheese = CHEESE_NAMES.some(cn => title.includes(cn));
+        const titleSuggestsMaking = ['homemade', 'make ', 'making', 'recipe', 'style', 'traditional', 'authentic', 'artisan'].some(w => title.includes(w));
+
+        if (isNamedCheese && titleSuggestsMaking && ingredientsText.includes('milk')) {
+            return true;
+        }
+
+        // Named cheese as entire title (e.g., "Gouda Cheese", "Brie")
+        if (isNamedCheese && ingredientsText.includes('milk') && !title.includes('with ') && !title.includes('and ')) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * Get all cheese-making recipes (cached for performance)
+     */
+    function getCheeseRecipes() {
+        if (cheeseRecipesCache) return cheeseRecipesCache;
+        if (!recipesData) return [];
+
+        cheeseRecipesCache = recipesData.filter(isCheeseMAKINGRecipe);
+        console.log(`Cheese recipes cached: ${cheeseRecipesCache.length}`);
+        return cheeseRecipesCache;
+    }
+
+    /**
+     * Detect which style family a recipe belongs to based on its name
+     */
+    function detectRecipeStyle(recipe) {
+        const title = (recipe.title || '').toLowerCase();
+
+        const stylePatterns = {
+            'fresh': ['ricotta', 'paneer', 'queso fresco', 'queso blanco', 'cream cheese', 'mascarpone',
+                      'cottage', 'farmer', 'fromage blanc', 'labneh', 'quark', 'tvorog', 'chhena', 'fresh'],
+            'soft': ['brie', 'camembert', 'chevre', 'chèvre', 'boursin', 'neufchâtel', 'neufchatel'],
+            'semi-soft': ['mozzarella', 'halloumi', 'feta', 'havarti', 'muenster', 'münster', 'fontina',
+                          'colby', 'oaxaca', 'scamorza', 'burrata', 'provolone', 'string', 'jack'],
+            'semi-hard': ['cheddar', 'gouda', 'edam', 'gruyere', 'gruyère', 'swiss', 'emmental',
+                          'jarlsberg', 'raclette', 'comté', 'comte', 'tomme', 'caciocavallo',
+                          'kashkaval', 'beaufort', 'appenzeller', 'leicester', 'gloucester',
+                          'derby', 'dunlop', 'caerphilly', 'lancashire', 'wensleydale'],
+            'hard': ['parmesan', 'parmigiano', 'pecorino', 'asiago', 'grana', 'romano', 'manchego',
+                     'aged', 'stravecchio', 'piave', 'sbrinz', 'idiazabal', 'idiazábal'],
+            'bloomy': ['brie', 'camembert', 'coulommiers', 'triple cream', 'saint-andré',
+                       'brillat-savarin', 'robiola'],
+            'washed': ['taleggio', 'limburger', 'epoisses', 'époisses', 'munster', 'münster',
+                       'langres', 'pont', 'reblochon', 'maroilles', 'washed'],
+            'blue': ['stilton', 'roquefort', 'gorgonzola', 'blue', 'danish blue', 'cambozola',
+                     'cabrales', 'valdeon', 'valdeón']
+        };
+
+        for (const [style, patterns] of Object.entries(stylePatterns)) {
+            if (patterns.some(p => title.includes(p))) {
+                return style;
+            }
+        }
+
+        return 'other';
+    }
+
     function findMatchingRecipes() {
         if (!recipesData || !wizardState.style) return [];
 
         const style = wizardState.style;
         const flavorProfile = wizardState.flavorProfile;
+        const milkType = wizardState.milk?.type;
         const keywords = templatesData?.recipe_matching?.style_keywords[style] || [];
         const flavorKeywords = flavorProfile ?
             (templatesData?.recipe_matching?.flavor_keywords[flavorProfile] || []) : [];
 
-        // Filter cheese recipes
-        let matches = recipesData.filter(r => r.category === 'cheese');
+        // Get all cheese-making recipes (expanded matching)
+        const cheeseRecipes = getCheeseRecipes();
 
         // Score each recipe
-        const scored = matches.map(recipe => {
+        const scored = cheeseRecipes.map(recipe => {
             let score = 0;
             const title = (recipe.title || '').toLowerCase();
             const tags = (recipe.tags || []).map(t => t.toLowerCase());
+            const detectedStyle = detectRecipeStyle(recipe);
+
+            // Style matching - big boost for same style
+            if (detectedStyle === style) {
+                score += 20;
+            } else if (detectedStyle === 'other') {
+                score += 2; // Small boost for uncategorized
+            }
 
             // Style keyword matching
             keywords.forEach(kw => {
@@ -317,17 +633,35 @@ const CheeseBuilder = (function() {
                 if (tags.some(t => t.includes(kw.toLowerCase()))) score += 4;
             });
 
+            // Milk type matching
+            if (milkType === 'goat' && (title.includes('goat') || title.includes('chevre') || title.includes('chèvre'))) {
+                score += 15;
+            }
+            if (milkType === 'sheep' && (title.includes('sheep') || title.includes('pecorino') || title.includes('manchego') || title.includes('roquefort'))) {
+                score += 15;
+            }
+
             // Boost recipes with milk_substitutions enabled
             if (recipe.milk_substitutions?.enabled) score += 3;
 
-            return { recipe, score };
+            // Boost recipes with notes (they have tips!)
+            if (recipe.notes && recipe.notes.length > 2) score += 2;
+
+            // Adulterant matching
+            const adulterantNames = wizardState.adulterants.map(a => (a.name || a.id || '').toLowerCase());
+            adulterantNames.forEach(aName => {
+                const shortName = aName.replace(' powder', '').replace(' dried', '').replace(' ground', '');
+                if (title.includes(shortName)) score += 12;
+            });
+
+            return { recipe, score, detectedStyle };
         });
 
         // Sort by score and return top matches
         return scored
             .filter(s => s.score > 0)
             .sort((a, b) => b.score - a.score)
-            .slice(0, 10)
+            .slice(0, 20) // Return more matches for variety
             .map(s => s.recipe);
     }
 
@@ -370,7 +704,7 @@ const CheeseBuilder = (function() {
     // ============ Recipe Generation ============
 
     function generateRecipe() {
-        const { milk, style, flavorProfile, adulterants, selectedRecipe } = wizardState;
+        const { milk, style, flavorProfile, adulterants, selectedRecipe, matchedRecipes } = wizardState;
 
         if (!selectedRecipe) {
             // Use base recipe for style
@@ -384,6 +718,9 @@ const CheeseBuilder = (function() {
 
         const recipe = wizardState.selectedRecipe;
         const milkInfo = getMilkInfo(milk.type);
+
+        // Get matched recipes for tips extraction
+        const matches = matchedRecipes.length > 0 ? matchedRecipes : findMatchingRecipes();
 
         // Build the generated recipe
         const generated = {
@@ -404,7 +741,12 @@ const CheeseBuilder = (function() {
             adulterants: calculateAdulterantQuantities(adulterants, milk),
             warnings: generateWarnings(style, adulterants, milk),
             tips: generateTips(style, milk, adulterants),
+            adjacentCheeses: getAdjacentCheeses(recipe.data, style),
+            recipeTips: getTipsFromRecipeNotes(matches),
+            generalTips: getGeneralEducationalTips(style, milk.type),
+            didYouKnow: getDidYouKnowFacts().slice(0, 3), // Random 3 facts
             yield: estimateYield(milk, milkInfo),
+            matchedRecipeCount: getCheeseRecipes().length,
             sourceRecipe: recipe.data.title || recipe.data.name || recipe.data.id,
             generatedAt: new Date().toISOString()
         };
@@ -616,30 +958,285 @@ const CheeseBuilder = (function() {
         const tips = [];
         const milkInfo = getMilkInfo(milk.type);
 
-        // Milk tips
+        // Milk-specific tips
         if (milkInfo?.notes) {
-            tips.push(milkInfo.notes);
+            tips.push({ category: 'milk', text: milkInfo.notes });
         }
 
         if (milk.type === 'goat') {
-            tips.push('Goat milk curds are fragile - handle very gently.');
+            tips.push({ category: 'milk', text: 'Goat milk curds are fragile - handle very gently and cut larger.' });
+            tips.push({ category: 'milk', text: 'Goat milk is naturally homogenized - no cream line means smooth texture.' });
         }
         if (milk.type === 'sheep') {
-            tips.push('Sheep milk produces higher yield - expect 50-80% more cheese.');
+            tips.push({ category: 'milk', text: 'Sheep milk produces 50-80% more cheese per gallon - adjust your recipe accordingly.' });
+            tips.push({ category: 'milk', text: 'Sheep milk has more calcium - skip the calcium chloride even with pasteurized.' });
+        }
+        if (milk.processing === 'pasteurized') {
+            tips.push({ category: 'milk', text: 'Pasteurized milk may benefit from 1/4 tsp calcium chloride per gallon.' });
         }
 
-        // Style tips
+        // Style-specific tips
         const styleInfo = getStyleInfo(style);
         if (styleInfo?.notes) {
-            tips.push(styleInfo.notes);
+            tips.push({ category: 'style', text: styleInfo.notes });
+        }
+
+        // Add general tips relevant to the style
+        if (style === 'fresh') {
+            tips.push({ category: 'technique', text: 'Fresh cheese should be eaten within 5-7 days for best flavor.' });
+            tips.push({ category: 'technique', text: 'Drain longer for firmer cheese, less for creamier.' });
+        }
+        if (style === 'semi-hard' || style === 'hard') {
+            tips.push({ category: 'aging', text: 'Flip your cheese daily for the first week, then weekly during aging.' });
+            tips.push({ category: 'aging', text: 'Maintain 80-85% humidity during aging to prevent cracking.' });
+        }
+        if (style === 'bloomy') {
+            tips.push({ category: 'technique', text: 'White mold needs air circulation - don\'t wrap tightly.' });
+            tips.push({ category: 'aging', text: 'Ripen at 50-55°F until the rind is fully developed.' });
+        }
+        if (style === 'washed') {
+            tips.push({ category: 'technique', text: 'Wash rind every 2-3 days with brine or alcohol.' });
+            tips.push({ category: 'technique', text: 'The orange color comes from B. linens bacteria - it\'s supposed to smell strong!' });
+        }
+        if (style === 'blue') {
+            tips.push({ category: 'technique', text: 'Pierce the cheese with sterile needles to allow oxygen for blue mold growth.' });
+            tips.push({ category: 'aging', text: 'Blue cheeses need higher humidity (90-95%) than other styles.' });
         }
 
         // Adulterant tips
+        if (adulterants.length > 0) {
+            tips.push({ category: 'adulterant', text: 'Add adulterants after salting to preserve their flavor.' });
+        }
         if (adulterants.length > 2) {
-            tips.push('With multiple adulterants, start with smaller quantities and adjust to taste.');
+            tips.push({ category: 'adulterant', text: 'With multiple additions, start with half quantities and adjust to taste.' });
         }
 
+        // Add relevant general tips
+        const relevantGeneralTips = getRelevantGeneralTips(style, milk);
+        relevantGeneralTips.forEach(tip => {
+            tips.push({ category: 'general', text: tip });
+        });
+
         return tips;
+    }
+
+    /**
+     * Get general tips relevant to the current cheese style and milk
+     */
+    function getRelevantGeneralTips(style, milk) {
+        const relevant = [];
+
+        // Always include some temperature tips
+        relevant.push(GENERAL_TIPS.temperature[Math.floor(Math.random() * 2)]);
+
+        // Style-specific general tips
+        if (['semi-hard', 'hard'].includes(style)) {
+            relevant.push(GENERAL_TIPS.aging[Math.floor(Math.random() * GENERAL_TIPS.aging.length)]);
+            relevant.push(GENERAL_TIPS.curds[Math.floor(Math.random() * GENERAL_TIPS.curds.length)]);
+        }
+        if (['fresh', 'soft'].includes(style)) {
+            relevant.push(GENERAL_TIPS.curds[0]); // Cut uniformly
+        }
+        if (milk.processing === 'pasteurized') {
+            relevant.push(GENERAL_TIPS.milk[2]); // CaCl2 tip
+        }
+
+        // Always add a salt tip
+        relevant.push(GENERAL_TIPS.salt[Math.floor(Math.random() * GENERAL_TIPS.salt.length)]);
+
+        // Include a troubleshooting tip
+        relevant.push(GENERAL_TIPS.troubleshooting[Math.floor(Math.random() * GENERAL_TIPS.troubleshooting.length)]);
+
+        return relevant.slice(0, 4); // Limit to 4 general tips
+    }
+
+    /**
+     * Get adjacent cheeses - what other cheeses can be made with small technique changes
+     */
+    function getAdjacentCheeses(recipe, style) {
+        const adjacent = [];
+        const title = (recipe?.title || recipe?.name || '').toLowerCase();
+
+        // Find which cheese family this belongs to
+        for (const [cheeseName, data] of Object.entries(CHEESE_ADJACENCIES)) {
+            if (title.includes(cheeseName) || data.family === style) {
+                // Add adjacent cheeses with their transformation tips
+                data.adjacent.forEach(adj => {
+                    adjacent.push({
+                        cheese: adj.cheese,
+                        change: adj.change,
+                        family: data.family
+                    });
+                });
+                break; // Found the family, stop looking
+            }
+        }
+
+        // If no specific match, suggest based on style
+        if (adjacent.length === 0) {
+            const styleAdjacencies = {
+                'fresh': [
+                    { cheese: 'ricotta', change: 'Use whey from other cheese, heat to 200°F' },
+                    { cheese: 'paneer', change: 'Press firmly for 30+ minutes' },
+                    { cheese: 'queso fresco', change: 'Add more salt, press lightly' }
+                ],
+                'semi-soft': [
+                    { cheese: 'mozzarella', change: 'Stretch curds in hot water until smooth' },
+                    { cheese: 'halloumi', change: 'Poach in whey, add mint, brine' },
+                    { cheese: 'feta', change: 'Cube and brine for 5+ days' }
+                ],
+                'semi-hard': [
+                    { cheese: 'cheddar', change: 'Stack and flip curds (cheddaring) for 2 hours' },
+                    { cheese: 'gouda', change: 'Wash curds with warm water before pressing' },
+                    { cheese: 'colby', change: 'Wash curds, skip cheddaring, press' }
+                ],
+                'hard': [
+                    { cheese: 'parmesan', change: 'Use partial skim, age 12+ months' },
+                    { cheese: 'pecorino', change: 'Use sheep milk, age 8+ months' },
+                    { cheese: 'asiago', change: 'Age 4-6 months for table cheese' }
+                ],
+                'bloomy': [
+                    { cheese: 'brie', change: 'Spray with P. candidum, ripen 4-6 weeks' },
+                    { cheese: 'camembert', change: 'Smaller molds, thicker rind, stronger flavor' }
+                ],
+                'washed': [
+                    { cheese: 'taleggio', change: 'Wash with brine every 2-3 days' },
+                    { cheese: 'munster', change: 'Wash with salt brine, milder than limburger' }
+                ],
+                'blue': [
+                    { cheese: 'stilton', change: 'Pierce at 4 weeks, age 9+ weeks' },
+                    { cheese: 'gorgonzola', change: 'Italian style - creamier, milder' }
+                ]
+            };
+
+            if (styleAdjacencies[style]) {
+                styleAdjacencies[style].forEach(adj => {
+                    adjacent.push({ ...adj, family: style });
+                });
+            }
+        }
+
+        return adjacent.slice(0, 5); // Return top 5 suggestions
+    }
+
+    /**
+     * Extract tips from matched recipe notes
+     */
+    function getTipsFromRecipeNotes(matchedRecipes) {
+        const tips = [];
+
+        matchedRecipes.slice(0, 5).forEach(recipe => {
+            const notes = recipe.notes || [];
+            notes.forEach(note => {
+                // Filter for actual tips (not just metadata)
+                if (note.length > 20 && note.length < 200) {
+                    if (!note.toLowerCase().includes('source:') &&
+                        !note.toLowerCase().includes('adapted from') &&
+                        !note.toLowerCase().includes('original recipe')) {
+                        tips.push({
+                            text: note,
+                            source: recipe.title
+                        });
+                    }
+                }
+            });
+        });
+
+        return tips.slice(0, 6); // Limit to 6 recipe tips
+    }
+
+    /**
+     * Get general educational tips from all cheese recipes in database
+     * These are technique tips that apply broadly
+     */
+    function getGeneralEducationalTips(style, milkType) {
+        const allTips = [];
+        const cheeseRecipes = getCheeseRecipes();
+
+        // Keywords that indicate educational/technique content
+        const educationalKeywords = [
+            'technique', 'method', 'traditional', 'tip', 'important', 'crucial',
+            'must', 'should', 'always', 'never', 'careful', 'ensure', 'prevent',
+            'avoid', 'helps', 'creates', 'develops', 'produces', 'results in'
+        ];
+
+        // Style-related keywords for filtering
+        const styleKeywords = {
+            'fresh': ['drain', 'press', 'whey', 'curd', 'acid', 'temperature'],
+            'soft': ['mold', 'rind', 'ripen', 'bloom', 'culture', 'age'],
+            'semi-soft': ['stretch', 'brine', 'salt', 'press', 'curd'],
+            'semi-hard': ['press', 'age', 'flip', 'wax', 'cheddar', 'curd', 'salt'],
+            'hard': ['age', 'press', 'crystal', 'granular', 'long', 'months'],
+            'bloomy': ['penicillium', 'candidum', 'white', 'rind', 'ripen', 'mold'],
+            'washed': ['wash', 'brine', 'linens', 'orange', 'rind', 'pungent'],
+            'blue': ['pierce', 'roqueforti', 'blue', 'vein', 'mold', 'humidity']
+        };
+
+        const relevantKeywords = styleKeywords[style] || [];
+
+        // Collect educational notes from recipes
+        cheeseRecipes.forEach(recipe => {
+            const notes = recipe.notes || [];
+            notes.forEach(note => {
+                const lower = note.toLowerCase();
+
+                // Skip metadata
+                if (lower.includes('source:') || lower.includes('adapted from') ||
+                    lower.includes('calories') || lower.includes('protein') ||
+                    note.length < 30 || note.length > 200) {
+                    return;
+                }
+
+                // Check if it's educational
+                const isEducational = educationalKeywords.some(kw => lower.includes(kw));
+                const isRelevantToStyle = relevantKeywords.some(kw => lower.includes(kw));
+
+                if (isEducational || isRelevantToStyle) {
+                    allTips.push({
+                        text: note,
+                        source: recipe.title,
+                        relevance: (isEducational ? 1 : 0) + (isRelevantToStyle ? 2 : 0)
+                    });
+                }
+            });
+        });
+
+        // Sort by relevance and deduplicate similar tips
+        const sorted = allTips
+            .sort((a, b) => b.relevance - a.relevance)
+            .filter((tip, index, self) => {
+                // Remove very similar tips
+                const firstWords = tip.text.split(' ').slice(0, 4).join(' ').toLowerCase();
+                return index === self.findIndex(t =>
+                    t.text.split(' ').slice(0, 4).join(' ').toLowerCase() === firstWords
+                );
+            });
+
+        // Return a good mix
+        return sorted.slice(0, 8);
+    }
+
+    /**
+     * Get "Did You Know" facts about cheese-making
+     */
+    function getDidYouKnowFacts() {
+        return [
+            { text: 'Cheese has been made for over 7,000 years - it\'s one of humanity\'s oldest foods.', category: 'history' },
+            { text: 'It takes about 10 pounds of milk to make 1 pound of hard cheese.', category: 'yield' },
+            { text: 'The holes in Swiss cheese are caused by bacteria releasing carbon dioxide.', category: 'science' },
+            { text: 'Blue cheese mold (P. roqueforti) is related to the mold that makes penicillin.', category: 'science' },
+            { text: 'Cheddar isn\'t naturally orange - the color comes from annatto dye.', category: 'history' },
+            { text: 'Parmesan must be aged at least 12 months; some age for 36+ months.', category: 'aging' },
+            { text: 'Rennet was traditionally made from calf stomach - now vegetable rennet is common.', category: 'history' },
+            { text: 'The curd "squeaks" when fresh mozzarella is properly made.', category: 'technique' },
+            { text: 'Cheese caves maintain natural temperature (50-55°F) and humidity perfect for aging.', category: 'aging' },
+            { text: 'Washed rind cheeses get their orange color from B. linens bacteria, not dye.', category: 'science' },
+            { text: 'Sheep milk has nearly twice the fat of cow milk, making richer cheese.', category: 'milk' },
+            { text: 'Halloumi\'s high melting point comes from being cooked in whey.', category: 'technique' },
+            { text: 'The word "cheese" comes from Latin "caseus" meaning "to ferment."', category: 'history' },
+            { text: 'Brie was called "the king of cheeses" by French diplomat Talleyrand in 1815.', category: 'history' },
+            { text: 'Fresh cheese has the shortest shelf life; hard aged cheese can last years.', category: 'storage' }
+        ];
     }
 
     function estimateYield(milk, milkInfo) {
@@ -1057,6 +1654,23 @@ const CheeseBuilder = (function() {
             `;
         }
 
+        // Group tips by category
+        const tipsByCategory = {};
+        (generated.tips || []).forEach(tip => {
+            const cat = tip.category || 'general';
+            if (!tipsByCategory[cat]) tipsByCategory[cat] = [];
+            tipsByCategory[cat].push(tip.text || tip);
+        });
+
+        const categoryLabels = {
+            milk: 'Milk Tips',
+            style: 'Style Tips',
+            technique: 'Technique Tips',
+            aging: 'Aging Tips',
+            adulterant: 'Adulterant Tips',
+            general: 'General Tips'
+        };
+
         return `
             <div class="step-recipe">
                 <div class="recipe-header">
@@ -1065,6 +1679,9 @@ const CheeseBuilder = (function() {
                         <span class="style">${generated.styleInfo?.name}</span>
                         <span class="yield">Yield: ${generated.yield.formatted}</span>
                         <span class="milk">${generated.milk.typeName}</span>
+                    </p>
+                    <p class="recipe-stats">
+                        Matched from ${generated.matchedRecipeCount?.toLocaleString() || '1,800+'} cheese-making recipes
                     </p>
                 </div>
 
@@ -1116,12 +1733,76 @@ const CheeseBuilder = (function() {
                     </ol>
                 </div>
 
-                ${generated.tips.length > 0 ? `
+                ${generated.adjacentCheeses && generated.adjacentCheeses.length > 0 ? `
+                    <div class="recipe-section adjacent-cheeses">
+                        <h3>Try These Variations</h3>
+                        <p class="section-intro">With small technique changes, you can also make:</p>
+                        <div class="adjacent-grid">
+                            ${generated.adjacentCheeses.map(adj => `
+                                <div class="adjacent-card">
+                                    <h4>${adj.cheese.charAt(0).toUpperCase() + adj.cheese.slice(1)}</h4>
+                                    <p class="change-tip">${adj.change}</p>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                ` : ''}
+
+                ${Object.keys(tipsByCategory).length > 0 ? `
                     <div class="recipe-section tips">
-                        <h3>Tips</h3>
-                        <ul>
-                            ${generated.tips.map(tip => `<li>${tip}</li>`).join('')}
+                        <h3>Tips & Guidance</h3>
+                        ${Object.entries(tipsByCategory).map(([cat, tips]) => `
+                            <div class="tip-category">
+                                <h4>${categoryLabels[cat] || cat}</h4>
+                                <ul>
+                                    ${tips.map(tip => `<li>${tip}</li>`).join('')}
+                                </ul>
+                            </div>
+                        `).join('')}
+                    </div>
+                ` : ''}
+
+                ${generated.recipeTips && generated.recipeTips.length > 0 ? `
+                    <div class="recipe-section recipe-notes">
+                        <h3>From Our Recipe Collection</h3>
+                        <p class="section-intro">Tips from similar recipes in the database:</p>
+                        <ul class="recipe-tip-list">
+                            ${generated.recipeTips.map(tip => `
+                                <li>
+                                    <span class="tip-text">${tip.text}</span>
+                                    <span class="tip-source">— ${tip.source}</span>
+                                </li>
+                            `).join('')}
                         </ul>
+                    </div>
+                ` : ''}
+
+                ${generated.generalTips && generated.generalTips.length > 0 ? `
+                    <div class="recipe-section general-tips-section">
+                        <h3>General Cheese-Making Tips</h3>
+                        <p class="section-intro">Wisdom from our collection of ${generated.matchedRecipeCount?.toLocaleString() || '1,800+'} cheese recipes:</p>
+                        <div class="general-tips-grid">
+                            ${generated.generalTips.map(tip => `
+                                <div class="general-tip-card">
+                                    <p class="tip-text">${tip.text}</p>
+                                    <span class="tip-source">— ${tip.source}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                ` : ''}
+
+                ${generated.didYouKnow && generated.didYouKnow.length > 0 ? `
+                    <div class="recipe-section did-you-know">
+                        <h3>Did You Know?</h3>
+                        <div class="facts-list">
+                            ${generated.didYouKnow.map(fact => `
+                                <div class="fact-item">
+                                    <span class="fact-icon">💡</span>
+                                    <span class="fact-text">${fact.text}</span>
+                                </div>
+                            `).join('')}
+                        </div>
                     </div>
                 ` : ''}
 
