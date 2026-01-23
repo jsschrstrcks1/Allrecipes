@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "soups",
-    "count": 149,
+    "count": 150,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -15866,6 +15866,99 @@
         "blue-cheese",
         "cauliflower",
         "cheesemaking"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-gazpacho",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Gazpacho",
+      "category": "soups",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Refreshing cold Spanish tomato soup",
+      "servings_yield": "4 servings",
+      "prep_time": "50 min",
+      "cook_time": "0 min",
+      "total_time": "50 min",
+      "ingredients": [
+        {
+          "item": "cucumber, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "red pepper, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "green pepper, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "ripe plum tomatoes, chopped",
+          "quantity": "1",
+          "unit": "kg"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "spring onions",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "stale bread, chopped",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "sherry vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "4",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine vegetables, bread, and seasonings. Add vinegar and oil."
+        },
+        {
+          "step": 2,
+          "text": "Press down and chill at least 30 minutes or overnight."
+        },
+        {
+          "step": 3,
+          "text": "Blend until smooth. Add more oil if needed."
+        },
+        {
+          "step": 4,
+          "text": "Adjust seasoning. Serve ice cold with toasted bread."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "soup",
+        "spanish",
+        "cold",
+        "summer",
+        "vegetarian",
+        "gordon-ramsay"
       ],
       "confidence": {
         "overall": "high",

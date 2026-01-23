@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "breakfast",
-    "count": 416,
+    "count": 417,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -45941,6 +45941,82 @@
         "flags": [
           "Recipe reconstructed from John's #14 forum post"
         ]
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-scrambled-eggs",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Scrambled Eggs",
+      "category": "breakfast",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Gordon's famous creamy scrambled eggs cooked low and slow",
+      "servings_yield": "2 servings",
+      "prep_time": "2 min",
+      "cook_time": "10 min",
+      "total_time": "12 min",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "creme fraiche",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chives, chopped",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crack eggs into a cold non-stick pan with butter. Do not whisk beforehand."
+        },
+        {
+          "step": 2,
+          "text": "Place pan over medium heat. Stir continuously with a spatula, moving the pan on and off the heat."
+        },
+        {
+          "step": 3,
+          "text": "Continue stirring for 3-5 minutes until eggs begin to set but are still soft and creamy."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat, stir in creme fraiche to stop cooking."
+        },
+        {
+          "step": 5,
+          "text": "Season with salt and pepper, garnish with chives. Serve immediately on toast."
+        }
+      ],
+      "temperature": "Medium heat",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "quick",
+        "british",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
       },
       "image_refs": []
     }

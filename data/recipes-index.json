@@ -2,7 +2,7 @@
   "meta": {
     "title": "Other Family Recipes",
     "description": "Digital cookbook recipes and magazine clippings, preserved with love",
-    "total_recipes": 5819,
+    "total_recipes": 5840,
     "last_updated": "2026-01-23",
     "version": "3.0.0",
     "sharded": true,
@@ -12,7 +12,7 @@
     {
       "category": "appetizers",
       "file": "recipes-appetizers.json",
-      "count": 104
+      "count": 107
     },
     {
       "category": "basics",
@@ -32,7 +32,7 @@
     {
       "category": "breakfast",
       "file": "recipes-breakfast.json",
-      "count": 416
+      "count": 417
     },
     {
       "category": "cheese",
@@ -42,17 +42,17 @@
     {
       "category": "desserts",
       "file": "recipes-desserts.json",
-      "count": 667
+      "count": 671
     },
     {
       "category": "mains",
       "file": "recipes-mains.json",
-      "count": 1711
+      "count": 1722
     },
     {
       "category": "salads",
       "file": "recipes-salads.json",
-      "count": 143
+      "count": 144
     },
     {
       "category": "sides",
@@ -67,7 +67,7 @@
     {
       "category": "soups",
       "file": "recipes-soups.json",
-      "count": 149
+      "count": 150
     }
   ],
   "recipes": [
@@ -86614,6 +86614,344 @@
       "description": "Fresh, mild Mexican cheese that softens when heated but doesn't melt. Its basket-weave texture comes from traditional draining molds. Perfect for grilling and salads.",
       "servings_yield": "About 1.5 lbs",
       "total_time": "Same day to 2 days"
+    },
+    {
+      "id": "gr-beef-wellington",
+      "title": "Beef Wellington",
+      "category": "mains",
+      "tags": [
+        "beef",
+        "pastry",
+        "special-occasion",
+        "british",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Gordon's signature dish featuring beef tenderloin wrapped in pate and puff pastry",
+      "servings_yield": "6 servings",
+      "total_time": "1 hr 15 min"
+    },
+    {
+      "id": "gr-teriyaki-salmon",
+      "title": "Teriyaki Salmon",
+      "category": "mains",
+      "tags": [
+        "salmon",
+        "fish",
+        "asian",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Pan-seared salmon with a sweet and savory teriyaki glaze",
+      "servings_yield": "4 servings",
+      "total_time": "25 min"
+    },
+    {
+      "id": "gr-sticky-toffee-pudding",
+      "title": "Sticky Toffee Pudding",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "british",
+        "dates",
+        "caramel",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Individual sticky toffee puddings with rich toffee sauce",
+      "servings_yield": "6 servings",
+      "total_time": "40 min"
+    },
+    {
+      "id": "gr-scrambled-eggs",
+      "title": "Scrambled Eggs",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "quick",
+        "british",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Gordon's famous creamy scrambled eggs cooked low and slow",
+      "servings_yield": "2 servings",
+      "total_time": "12 min"
+    },
+    {
+      "id": "gr-bangers-and-mash",
+      "title": "Bangers and Mash",
+      "category": "mains",
+      "tags": [
+        "british",
+        "comfort-food",
+        "sausage",
+        "potatoes",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Classic British comfort food with sausages, mashed potatoes, and onion gravy",
+      "servings_yield": "4 servings",
+      "total_time": "40 min"
+    },
+    {
+      "id": "gr-carbonara",
+      "title": "Carbonara",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "italian",
+        "quick",
+        "eggs",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Classic Italian pasta with crispy pancetta and creamy egg sauce",
+      "servings_yield": "2 servings",
+      "total_time": "20 min"
+    },
+    {
+      "id": "gr-fish-and-chips",
+      "title": "Fish and Chips",
+      "category": "mains",
+      "tags": [
+        "british",
+        "fish",
+        "fried",
+        "pub-food",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Classic British pub dish with crispy battered fish and chips",
+      "servings_yield": "2 servings",
+      "total_time": "35 min"
+    },
+    {
+      "id": "gr-honey-glazed-ham",
+      "title": "Honey Glazed Ham",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "ham",
+        "holiday",
+        "christmas",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Festive glazed ham perfect for Christmas dinner",
+      "servings_yield": "8-10 servings",
+      "total_time": "4 hr 30 min"
+    },
+    {
+      "id": "gr-roast-turkey-with-lemon-parsley-and-garlic",
+      "title": "Roast Turkey with Lemon, Parsley and Garlic",
+      "category": "mains",
+      "tags": [
+        "turkey",
+        "holiday",
+        "thanksgiving",
+        "christmas",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Juicy roast turkey with herb butter perfect for holiday meals",
+      "servings_yield": "8-10 servings",
+      "total_time": "3 hr 30 min"
+    },
+    {
+      "id": "gr-pork-dumplings",
+      "title": "Pork Dumplings",
+      "category": "appetizers",
+      "tags": [
+        "asian",
+        "pork",
+        "dumplings",
+        "appetizer",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Pork and chive dumplings with black vinegar dipping sauce",
+      "servings_yield": "25 dumplings",
+      "total_time": "1 hr 30 min"
+    },
+    {
+      "id": "gr-pavlova-with-raspberry-curd",
+      "title": "Pavlova with Raspberry Curd",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "meringue",
+        "raspberries",
+        "romantic",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Light meringue dessert with raspberry curd for two",
+      "servings_yield": "2 servings",
+      "total_time": "3 hr"
+    },
+    {
+      "id": "gr-baked-chicken-wings",
+      "title": "Baked Chicken Wings",
+      "category": "appetizers",
+      "tags": [
+        "chicken",
+        "wings",
+        "appetizer",
+        "game-day",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Crispy baked chicken wings with hot sauce glaze",
+      "servings_yield": "4 servings",
+      "total_time": "50 min"
+    },
+    {
+      "id": "gr-gingerbread-bundt-cake",
+      "title": "Gingerbread Bundt Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "gingerbread",
+        "holiday",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Moist gingerbread cake with spiced glaze",
+      "servings_yield": "10-12 servings",
+      "total_time": "1 hr 10 min"
+    },
+    {
+      "id": "gr-mozzarella-and-rosemary-pizza",
+      "title": "Mozzarella and Rosemary Pizza",
+      "category": "mains",
+      "tags": [
+        "pizza",
+        "italian",
+        "bread",
+        "cheese",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Homemade pizza dough topped with fresh mozzarella and rosemary",
+      "servings_yield": "4 pizzas",
+      "total_time": "1 hr 45 min"
+    },
+    {
+      "id": "gr-chilli-beef-lettuce-wraps",
+      "title": "Chilli Beef Lettuce Wraps",
+      "category": "appetizers",
+      "tags": [
+        "asian",
+        "beef",
+        "pork",
+        "appetizer",
+        "low-carb",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Spicy beef and pork mince in crisp lettuce cups",
+      "servings_yield": "4 servings",
+      "total_time": "30 min"
+    },
+    {
+      "id": "gr-slow-cooked-beef-short-ribs",
+      "title": "Slow-Cooked Beef Short Ribs",
+      "category": "mains",
+      "tags": [
+        "beef",
+        "braised",
+        "comfort-food",
+        "wine",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Tender braised beef short ribs in red wine",
+      "servings_yield": "4 servings",
+      "total_time": "3 hr 40 min"
+    },
+    {
+      "id": "gr-chocolate-avocado-mousse",
+      "title": "Chocolate Avocado Mousse",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "chocolate",
+        "healthy",
+        "vegan",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Healthy chocolate mousse made with avocado",
+      "servings_yield": "8 servings",
+      "total_time": "20 min"
+    },
+    {
+      "id": "gr-quinoa-salad",
+      "title": "Quinoa Salad",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "quinoa",
+        "healthy",
+        "vegetarian",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Nutty quinoa salad with almonds, cucumber, and fresh herbs",
+      "servings_yield": "4 servings",
+      "total_time": "15 min"
+    },
+    {
+      "id": "gr-gazpacho",
+      "title": "Gazpacho",
+      "category": "soups",
+      "tags": [
+        "soup",
+        "spanish",
+        "cold",
+        "summer",
+        "vegetarian",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Refreshing cold Spanish tomato soup",
+      "servings_yield": "4 servings",
+      "total_time": "50 min"
+    },
+    {
+      "id": "gr-lamb-koftas-with-mint-yogurt",
+      "title": "Lamb Koftas with Mint Yogurt",
+      "category": "mains",
+      "tags": [
+        "lamb",
+        "middle-eastern",
+        "meatballs",
+        "yogurt",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Spiced lamb meatballs with cooling yogurt dressing",
+      "servings_yield": "4 servings",
+      "total_time": "40 min"
+    },
+    {
+      "id": "gr-crispy-roast-duck-with-chinese-pancakes",
+      "title": "Crispy Roast Duck with Chinese Pancakes",
+      "category": "mains",
+      "tags": [
+        "duck",
+        "chinese",
+        "asian",
+        "pancakes",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Aromatic roast duck served with pancakes and dipping sauce",
+      "servings_yield": "4-6 servings",
+      "total_time": "4 hr 45 min"
     }
   ]
 }
