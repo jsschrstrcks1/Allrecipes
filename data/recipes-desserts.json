@@ -38761,7 +38761,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -38774,10 +38774,10 @@
         "missing_inputs": [
           "large tablespoonfuls",
           "large tablespoonfuls mo-",
-          "1 large teaspoonful ground"
+          "teaspoonful ground"
         ],
         "assumptions": [
-          "Calculated for 4 servings"
+          "Calculated from USDA ingredient data"
         ]
       }
     },
@@ -59349,7 +59349,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 187,
+          "fat_g": 13.5,
+          "carbs_g": 13.4,
+          "protein_g": 3.6,
+          "sodium_mg": 47,
+          "fiber_g": 0.0,
+          "sugar_g": 13.4
+        },
+        "missing_inputs": [
+          "mascarpone cheese",
+          "espresso or strong coffee",
+          "marsala wine or coffee liqueur",
+          "savoiardi (ladyfingers)",
+          "cocoa powder"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-murder-cookies-scotch",
@@ -59464,7 +59486,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 22,
+          "fat_g": 0.1,
+          "carbs_g": 5.0,
+          "protein_g": 0.3,
+          "sodium_mg": 3,
+          "fiber_g": 0.1,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [
+          "baking soda",
+          "mace",
+          "cinnamon",
+          "shortening",
+          "molasses"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-nanas-devils-food-cake",
@@ -59606,7 +59650,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 273,
+          "fat_g": 6.5,
+          "carbs_g": 50.5,
+          "protein_g": 4.0,
+          "sodium_mg": 29,
+          "fiber_g": 0.5,
+          "sugar_g": 34.6
+        },
+        "missing_inputs": [
+          "baking powder",
+          "baking soda",
+          "cocoa powder",
+          "vanilla extract",
+          "brewed or instant coffee"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-grandmas-lemon-bars",
@@ -59744,7 +59810,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 1.9,
+          "carbs_g": 27.9,
+          "protein_g": 2.8,
+          "sodium_mg": 23,
+          "fiber_g": 0.3,
+          "sugar_g": 17.4
+        },
+        "missing_inputs": [
+          "baking powder",
+          "lemon rind",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-whipping-cream-cake",
@@ -59854,7 +59940,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 344,
+          "fat_g": 10.9,
+          "carbs_g": 58.5,
+          "protein_g": 4.5,
+          "sodium_mg": 51,
+          "fiber_g": 0.2,
+          "sugar_g": 50.6
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "shortening"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-alice-cookies-whipped-shortbread",
@@ -59963,7 +60068,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 0.4,
+          "carbs_g": 6.0,
+          "protein_g": 0.7,
+          "sodium_mg": 4,
+          "fiber_g": 0.1,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "walnuts or glazed cherries"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-apple-cream-pie",
@@ -60096,7 +60219,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 127,
+          "fat_g": 3.1,
+          "carbs_g": 21.7,
+          "protein_g": 3.5,
+          "sodium_mg": 41,
+          "fiber_g": 0.0,
+          "sugar_g": 20.2
+        },
+        "missing_inputs": [
+          "deep-dish pie crust",
+          "granny smith apples",
+          "cinnamon",
+          "nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-big-mamas-cinnamon-roll-cake",
@@ -60253,7 +60397,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 343,
+          "fat_g": 2.9,
+          "carbs_g": 75.4,
+          "protein_g": 5.0,
+          "sodium_mg": 37,
+          "fiber_g": 0.5,
+          "sugar_g": 59.6
+        },
+        "missing_inputs": [
+          "shortening (crisco)",
+          "vanilla extract",
+          "cinnamon",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-elevator-lady-spice-cookies",
@@ -60384,7 +60549,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 70,
+          "fat_g": 0.2,
+          "carbs_g": 16.4,
+          "protein_g": 0.9,
+          "sodium_mg": 3,
+          "fiber_g": 0.2,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [
+          "shortening",
+          "molasses",
+          "baking soda",
+          "cinnamon",
+          "ground cloves"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-150-year-old-3-ingredient-cookies",
@@ -60475,7 +60662,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 37,
+          "fat_g": 0.3,
+          "carbs_g": 8.1,
+          "protein_g": 0.5,
+          "sodium_mg": 2,
+          "fiber_g": 0.1,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-damn-good-cookies",
@@ -60610,7 +60813,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 39,
+          "fat_g": 0.5,
+          "carbs_g": 8.2,
+          "protein_g": 0.5,
+          "sodium_mg": 5,
+          "fiber_g": 0.1,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "baking soda",
+          "old-fashioned oats",
+          "chocolate chips",
+          "walnuts"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-worlds-best-gingerbread-1917",
@@ -60755,7 +60980,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 223,
+          "fat_g": 3.2,
+          "carbs_g": 41.0,
+          "protein_g": 6.5,
+          "sodium_mg": 35,
+          "fiber_g": 1.0,
+          "sugar_g": 9.3
+        },
+        "missing_inputs": [
+          "molasses",
+          "ground ginger",
+          "cinnamon",
+          "baking soda"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-tomato-soup-cake",
@@ -60891,7 +61137,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 145,
+          "fat_g": 0.8,
+          "carbs_g": 32.5,
+          "protein_g": 2.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 16.7
+        },
+        "missing_inputs": [
+          "baking powder",
+          "baking soda",
+          "cinnamon",
+          "ground cloves",
+          "condensed tomato soup"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-mamaws-no-bake-cookies",
@@ -61009,7 +61277,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 0.4,
+          "carbs_g": 11.3,
+          "protein_g": 0.1,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 11.3
+        },
+        "missing_inputs": [
+          "cocoa powder",
+          "vanilla extract",
+          "old-fashioned oats"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-armenian-perok-cake",
@@ -61149,7 +61437,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 273,
+          "fat_g": 9.8,
+          "carbs_g": 41.0,
+          "protein_g": 5.2,
+          "sodium_mg": 36,
+          "fiber_g": 0.8,
+          "sugar_g": 17.2
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "baking powder",
+          "apricot jam"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-wacky-cake-depression",
@@ -61272,7 +61580,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 141,
+          "fat_g": 0.6,
+          "carbs_g": 32.8,
+          "protein_g": 1.4,
+          "sodium_mg": 3,
+          "fiber_g": 0.3,
+          "sugar_g": 22.2
+        },
+        "missing_inputs": [
+          "unsweetened cocoa powder",
+          "baking soda",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-hot-milk-cake",
@@ -61392,7 +61720,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 246,
+          "fat_g": 3.0,
+          "carbs_g": 50.2,
+          "protein_g": 4.8,
+          "sodium_mg": 39,
+          "fiber_g": 0.5,
+          "sugar_g": 34.3
+        },
+        "missing_inputs": [
+          "baking powder",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-old-fashioned-chess-pie",
@@ -61520,7 +61867,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 147,
+          "fat_g": 3.5,
+          "carbs_g": 26.1,
+          "protein_g": 3.4,
+          "sodium_mg": 46,
+          "fiber_g": 0.0,
+          "sugar_g": 25.4
+        },
+        "missing_inputs": [
+          "unbaked 9-inch pie crust",
+          "yellow cornmeal",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-old-fashioned-buttermilk-pie",
@@ -61638,7 +62005,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 159,
+          "fat_g": 3.6,
+          "carbs_g": 28.7,
+          "protein_g": 3.6,
+          "sodium_mg": 47,
+          "fiber_g": 0.1,
+          "sugar_g": 26.5
+        },
+        "missing_inputs": [
+          "unbaked 9-inch pie crust",
+          "vanilla extract",
+          "nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-vinegar-pie",
@@ -61752,7 +62139,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 2.3,
+          "carbs_g": 26.5,
+          "protein_g": 2.5,
+          "sodium_mg": 31,
+          "fiber_g": 0.0,
+          "sugar_g": 25.0
+        },
+        "missing_inputs": [
+          "unbaked 9-inch pie crust",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-old-fashioned-divinity-candy",
@@ -61870,7 +62276,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 23,
+          "fat_g": 0.2,
+          "carbs_g": 5.0,
+          "protein_g": 0.3,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [
+          "light corn syrup",
+          "vanilla extract",
+          "pecans or walnuts"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-watergate-salad",
@@ -61965,7 +62391,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "instant pistachio pudding mix",
+          "crushed pineapple",
+          "cool whip",
+          "mini marshmallows",
+          "pecans or walnuts"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-7up-pound-cake",
@@ -62087,7 +62535,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 356,
+          "fat_g": 2.5,
+          "carbs_g": 80.3,
+          "protein_g": 4.3,
+          "sodium_mg": 29,
+          "fiber_g": 0.6,
+          "sugar_g": 62.5
+        },
+        "missing_inputs": [
+          "7up soda",
+          "lemon extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-coca-cola-cake",
@@ -62249,7 +62716,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 1.4,
+          "carbs_g": 33.2,
+          "protein_g": 1.8,
+          "sodium_mg": 14,
+          "fiber_g": 0.2,
+          "sugar_g": 25.2
+        },
+        "missing_inputs": [
+          "coca-cola",
+          "unsweetened cocoa powder",
+          "baking soda",
+          "vanilla extract",
+          "mini marshmallows"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-lazy-daisy-oatmeal-cake",
@@ -62421,7 +62910,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 229,
+          "fat_g": 1.8,
+          "carbs_g": 52.4,
+          "protein_g": 2.1,
+          "sodium_mg": 21,
+          "fiber_g": 0.2,
+          "sugar_g": 44.4
+        },
+        "missing_inputs": [
+          "old-fashioned oats",
+          "vanilla extract",
+          "baking soda",
+          "cinnamon",
+          "nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-ambrosia-salad",
@@ -62524,7 +63035,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 82,
+          "fat_g": 8.8,
+          "carbs_g": 0.7,
+          "protein_g": 0.5,
+          "sodium_mg": 9,
+          "fiber_g": 0.0,
+          "sugar_g": 0.7
+        },
+        "missing_inputs": [
+          "mandarin oranges",
+          "crushed pineapple",
+          "sweetened coconut flakes",
+          "mini marshmallows",
+          "maraschino cherries"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-pineapple-upside-down-cake",
@@ -62676,7 +63209,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 176,
+          "fat_g": 1.7,
+          "carbs_g": 38.4,
+          "protein_g": 2.3,
+          "sodium_mg": 19,
+          "fiber_g": 0.3,
+          "sugar_g": 28.9
+        },
+        "missing_inputs": [
+          "pineapple rings",
+          "maraschino cherries",
+          "vanilla extract",
+          "baking powder"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-texas-sheet-cake",
@@ -62839,7 +63393,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 249,
+          "fat_g": 1.5,
+          "carbs_g": 58.4,
+          "protein_g": 1.9,
+          "sodium_mg": 16,
+          "fiber_g": 0.2,
+          "sugar_g": 50.4
+        },
+        "missing_inputs": [
+          "unsweetened cocoa powder",
+          "baking soda",
+          "vanilla extract",
+          "unsweetened cocoa powder",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "vintage-cherry-pineapple-dump-cake",
@@ -62946,7 +63522,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 8,
+          "fat_g": 1.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 8,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "crushed pineapple",
+          "cherry pie filling",
+          "yellow cake mix",
+          "chopped pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "mamie-eisenhower-million-dollar-fudge",
@@ -63067,7 +63664,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 2.7,
+          "carbs_g": 43.6,
+          "protein_g": 2.4,
+          "sodium_mg": 499,
+          "fiber_g": 0.0,
+          "sugar_g": 43.6
+        },
+        "missing_inputs": [
+          "semisweet chocolate chips",
+          "german sweet chocolate",
+          "marshmallow creme",
+          "chopped walnuts or pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "bisquick-impossible-coconut-pie",
@@ -63173,7 +63791,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 4.9,
+          "carbs_g": 21.8,
+          "protein_g": 5.0,
+          "sodium_mg": 65,
+          "fiber_g": 0.0,
+          "sugar_g": 21.8
+        },
+        "missing_inputs": [
+          "flaked sweetened coconut",
+          "bisquick mix",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "old-fashioned-peanut-brittle",
@@ -63297,7 +63935,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 780,
+          "fat_g": 0.8,
+          "carbs_g": 200.0,
+          "protein_g": 0.0,
+          "sodium_mg": 32,
+          "fiber_g": 0.0,
+          "sugar_g": 200.0
+        },
+        "missing_inputs": [
+          "light corn syrup",
+          "raw peanuts",
+          "baking soda",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "new-orleans-pecan-pralines",
@@ -63403,7 +64062,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 61,
+          "fat_g": 0.4,
+          "carbs_g": 14.8,
+          "protein_g": 0.2,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 14.8
+        },
+        "missing_inputs": [
+          "pecan halves",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "vintage-apple-dump-cake",
@@ -63514,7 +64192,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 8,
+          "fat_g": 1.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 8,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "applesauce",
+          "apple pie filling",
+          "chopped walnuts or pecans",
+          "ground cinnamon"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "grandma-sea-foam-candy",
@@ -63628,7 +64327,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 47,
+          "fat_g": 0.3,
+          "carbs_g": 11.1,
+          "protein_g": 0.3,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "chopped pecans or walnuts"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "sock-it-to-me-cake-1970s",
@@ -63776,7 +64494,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 10.5,
+          "carbs_g": 23.6,
+          "protein_g": 2.5,
+          "sodium_mg": 40,
+          "fiber_g": 0.0,
+          "sugar_g": 23.6
+        },
+        "missing_inputs": [
+          "ground cinnamon",
+          "chopped pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "waldorf-astoria-red-velvet-cake",
@@ -63950,7 +64687,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 536,
+          "fat_g": 17.9,
+          "carbs_g": 93.4,
+          "protein_g": 3.6,
+          "sodium_mg": 44,
+          "fiber_g": 0.2,
+          "sugar_g": 85.5
+        },
+        "missing_inputs": [
+          "red food coloring",
+          "cocoa powder",
+          "vanilla extract",
+          "baking soda",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "neiman-marcus-250-cookies",
@@ -64099,7 +64858,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 0.6,
+          "carbs_g": 10.4,
+          "protein_g": 0.6,
+          "sodium_mg": 7,
+          "fiber_g": 0.1,
+          "sugar_g": 8.5
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "old-fashioned oats",
+          "baking powder",
+          "baking soda",
+          "semisweet chocolate chips"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "magic-cookie-bars-hello-dolly",
@@ -64215,7 +64996,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 17,
+          "fat_g": 1.3,
+          "carbs_g": 0.9,
+          "protein_g": 0.6,
+          "sodium_mg": 13,
+          "fiber_g": 0.0,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [
+          "graham cracker crumbs",
+          "semisweet chocolate chips",
+          "sweetened flaked coconut",
+          "chopped pecans or walnuts"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "millionaires-shortbread",
@@ -64361,7 +65163,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 88,
+          "fat_g": 1.7,
+          "carbs_g": 16.6,
+          "protein_g": 1.7,
+          "sodium_mg": 19,
+          "fiber_g": 0.2,
+          "sugar_g": 10.7
+        },
+        "missing_inputs": [
+          "golden syrup or corn syrup",
+          "semisweet chocolate chips"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "vintage-butterscotch-brownies",
@@ -64496,7 +65317,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 88,
+          "fat_g": 1.1,
+          "carbs_g": 18.4,
+          "protein_g": 1.2,
+          "sodium_mg": 11,
+          "fiber_g": 0.2,
+          "sugar_g": 12.5
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "baking powder",
+          "chopped walnuts or pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "vintage-grasshopper-pie",
@@ -64634,7 +65475,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 115,
+          "fat_g": 11.9,
+          "carbs_g": 1.6,
+          "protein_g": 1.1,
+          "sodium_mg": 21,
+          "fiber_g": 0.0,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "oreo cookies",
+          "miniature marshmallows",
+          "green creme de menthe",
+          "white creme de cacao",
+          "green food coloring"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "watergate-pistachio-cookies",
@@ -64746,7 +65609,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 6,
+          "fat_g": 0.5,
+          "carbs_g": 0.0,
+          "protein_g": 0.3,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "white or yellow cake mix",
+          "instant pistachio pudding mix",
+          "chopped pistachios",
+          "white chocolate chips",
+          "shredded coconut"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "earthquake-cake",
@@ -64890,7 +65775,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 288,
+          "fat_g": 9.5,
+          "carbs_g": 50.6,
+          "protein_g": 1.9,
+          "sodium_mg": 29,
+          "fiber_g": 0.0,
+          "sugar_g": 50.6
+        },
+        "missing_inputs": [
+          "chopped pecans",
+          "sweetened flaked coconut",
+          "german chocolate cake mix",
+          "chocolate chips"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "canadian-matrimonial-cake",
@@ -65036,7 +65942,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 94,
+          "fat_g": 0.6,
+          "carbs_g": 21.6,
+          "protein_g": 0.8,
+          "sodium_mg": 5,
+          "fiber_g": 0.2,
+          "sugar_g": 15.6
+        },
+        "missing_inputs": [
+          "pitted dates",
+          "vanilla extract",
+          "old-fashioned rolled oats",
+          "baking soda"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "harvey-wallbanger-cake-1970s",
@@ -65181,7 +66108,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 94,
+          "fat_g": 2.2,
+          "carbs_g": 16.7,
+          "protein_g": 2.0,
+          "sodium_mg": 24,
+          "fiber_g": 0.0,
+          "sugar_g": 16.7
+        },
+        "missing_inputs": [
+          "yellow cake mix",
+          "instant vanilla pudding mix",
+          "vodka",
+          "galliano liqueur",
+          "vodka"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "southern-hummingbird-cake",
@@ -65351,7 +66300,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 674,
+          "fat_g": 18.3,
+          "carbs_g": 124.9,
+          "protein_g": 5.6,
+          "sodium_mg": 46,
+          "fiber_g": 0.8,
+          "sugar_g": 101.2
+        },
+        "missing_inputs": [
+          "baking soda",
+          "ground cinnamon",
+          "vanilla extract",
+          "crushed pineapple",
+          "ripe bananas"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "southern-pig-pickin-cake",
@@ -65485,7 +66456,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 29,
+          "fat_g": 2.2,
+          "carbs_g": 0.0,
+          "protein_g": 2.0,
+          "sodium_mg": 24,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "yellow cake mix",
+          "mandarin oranges",
+          "crushed pineapple",
+          "instant vanilla pudding mix",
+          "cool whip"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "italian-cream-cake-southern",
@@ -65677,7 +66670,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 681,
+          "fat_g": 20.7,
+          "carbs_g": 118.0,
+          "protein_g": 8.7,
+          "sodium_mg": 93,
+          "fiber_g": 0.5,
+          "sugar_g": 102.2
+        },
+        "missing_inputs": [
+          "vegetable shortening",
+          "baking soda",
+          "vanilla extract",
+          "sweetened flaked coconut",
+          "chopped pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "alabama-lane-cake",
@@ -65867,7 +66882,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 353,
+          "fat_g": 8.9,
+          "carbs_g": 58.9,
+          "protein_g": 9.8,
+          "sodium_mg": 117,
+          "fiber_g": 0.2,
+          "sugar_g": 51.0
+        },
+        "missing_inputs": [
+          "baking powder",
+          "vanilla extract",
+          "raisins",
+          "chopped pecans",
+          "sweetened flaked coconut"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "lemon-lush-dessert",
@@ -66005,7 +67042,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 212,
+          "fat_g": 9.9,
+          "carbs_g": 28.2,
+          "protein_g": 3.5,
+          "sodium_mg": 38,
+          "fiber_g": 0.2,
+          "sugar_g": 20.2
+        },
+        "missing_inputs": [
+          "chopped pecans",
+          "cool whip",
+          "instant lemon pudding mix"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "better-than-sex-cake",
@@ -66139,7 +67196,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 43,
+          "fat_g": 2.8,
+          "carbs_g": 1.8,
+          "protein_g": 2.7,
+          "sodium_mg": 33,
+          "fiber_g": 0.0,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "german chocolate or devil's food cake mix",
+          "caramel sauce",
+          "cool whip",
+          "heath or skor toffee bars"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "strawberry-pretzel-salad",
@@ -66287,7 +67365,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 151,
+          "fat_g": 8.1,
+          "carbs_g": 20.4,
+          "protein_g": 0.4,
+          "sodium_mg": 13,
+          "fiber_g": 0.0,
+          "sugar_g": 20.4
+        },
+        "missing_inputs": [
+          "pretzel twists",
+          "cool whip",
+          "strawberry jell-o",
+          "frozen strawberries"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "peach-cobbler-dump-cake",
@@ -66394,7 +67493,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4,
+          "fat_g": 0.5,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "yellow cake mix",
+          "ground cinnamon",
+          "chopped pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "classic-pumpkin-roll",
@@ -66570,7 +67689,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 313,
+          "fat_g": 10.5,
+          "carbs_g": 52.8,
+          "protein_g": 3.3,
+          "sodium_mg": 33,
+          "fiber_g": 0.2,
+          "sugar_g": 45.7
+        },
+        "missing_inputs": [
+          "baking powder",
+          "baking soda",
+          "ground cinnamon",
+          "ground ginger",
+          "ground nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "chocolate-eclair-cake",
@@ -66683,7 +67824,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 37,
+          "fat_g": 2.0,
+          "carbs_g": 3.0,
+          "protein_g": 2.0,
+          "sodium_mg": 26,
+          "fiber_g": 0.0,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "instant vanilla pudding mix",
+          "cool whip",
+          "graham crackers",
+          "chocolate frosting"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "chocolate-delight-layered",
@@ -66827,7 +67989,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 212,
+          "fat_g": 9.9,
+          "carbs_g": 28.2,
+          "protein_g": 3.5,
+          "sodium_mg": 38,
+          "fiber_g": 0.2,
+          "sugar_g": 20.2
+        },
+        "missing_inputs": [
+          "chopped pecans",
+          "cool whip",
+          "instant chocolate pudding mix",
+          "chocolate shavings"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "pistachio-fluff-salad",
@@ -66922,7 +68105,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "instant pistachio pudding mix",
+          "crushed pineapple",
+          "miniature marshmallows",
+          "cool whip",
+          "chopped walnuts or pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "old-fashioned-butterscotch-pie",
@@ -67085,7 +68290,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 241,
+          "fat_g": 6.1,
+          "carbs_g": 40.3,
+          "protein_g": 6.9,
+          "sodium_mg": 84,
+          "fiber_g": 0.1,
+          "sugar_g": 37.4
+        },
+        "missing_inputs": [
+          "9-inch pie crust",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "vintage-fruit-cocktail-cake",
@@ -67238,7 +68462,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 183,
+          "fat_g": 1.3,
+          "carbs_g": 41.8,
+          "protein_g": 1.9,
+          "sodium_mg": 17,
+          "fiber_g": 0.2,
+          "sugar_g": 33.8
+        },
+        "missing_inputs": [
+          "baking soda",
+          "fruit cocktail",
+          "sweetened flaked coconut",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "old-fashioned-applesauce-cake",
@@ -67382,7 +68627,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 119,
+          "fat_g": 1.5,
+          "carbs_g": 24.6,
+          "protein_g": 2.1,
+          "sodium_mg": 14,
+          "fiber_g": 0.2,
+          "sugar_g": 16.7
+        },
+        "missing_inputs": [
+          "baking soda",
+          "ground cinnamon",
+          "ground nutmeg",
+          "ground cloves",
+          "unsweetened applesauce"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "poor-mans-cake-depression",
@@ -67527,7 +68794,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 243,
+          "fat_g": 0.2,
+          "carbs_g": 57.1,
+          "protein_g": 3.2,
+          "sodium_mg": 5,
+          "fiber_g": 0.8,
+          "sugar_g": 33.3
+        },
+        "missing_inputs": [
+          "raisins",
+          "vegetable shortening or lard",
+          "ground cinnamon",
+          "ground cloves",
+          "ground nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "mississippi-mud-cake",
@@ -67700,7 +68989,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 272,
+          "fat_g": 3.5,
+          "carbs_g": 58.2,
+          "protein_g": 3.3,
+          "sodium_mg": 40,
+          "fiber_g": 0.2,
+          "sugar_g": 50.3
+        },
+        "missing_inputs": [
+          "cocoa powder",
+          "vanilla extract",
+          "chopped pecans",
+          "miniature marshmallows",
+          "cocoa powder"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "vintage-prune-cake",
@@ -67882,7 +69193,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 256,
+          "fat_g": 4.1,
+          "carbs_g": 50.7,
+          "protein_g": 4.7,
+          "sodium_mg": 38,
+          "fiber_g": 0.5,
+          "sugar_g": 34.8
+        },
+        "missing_inputs": [
+          "pitted prunes",
+          "baking soda",
+          "ground cinnamon",
+          "ground nutmeg",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "classic-snickerdoodles",
@@ -68021,7 +69354,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 46,
+          "fat_g": 0.7,
+          "carbs_g": 9.2,
+          "protein_g": 0.7,
+          "sodium_mg": 7,
+          "fiber_g": 0.1,
+          "sugar_g": 6.6
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "baking soda",
+          "ground cinnamon"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "oatmeal-cake-broiled-frosting",
@@ -68210,7 +69563,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 254,
+          "fat_g": 2.0,
+          "carbs_g": 58.2,
+          "protein_g": 2.2,
+          "sodium_mg": 23,
+          "fiber_g": 0.2,
+          "sugar_g": 50.2
+        },
+        "missing_inputs": [
+          "old-fashioned rolled oats",
+          "vanilla extract",
+          "baking soda",
+          "ground cinnamon",
+          "ground nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "bacardi-rum-cake-1970s",
@@ -68367,7 +69742,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 98,
+          "fat_g": 2.8,
+          "carbs_g": 16.7,
+          "protein_g": 2.0,
+          "sodium_mg": 28,
+          "fiber_g": 0.0,
+          "sugar_g": 16.7
+        },
+        "missing_inputs": [
+          "chopped walnuts or pecans",
+          "yellow cake mix",
+          "instant vanilla pudding mix",
+          "dark rum",
+          "dark rum"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "orange-fluff-salad",
@@ -68473,7 +69870,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "orange jell-o",
+          "cottage cheese",
+          "mandarin oranges",
+          "crushed pineapple",
+          "cool whip"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "classic-ranger-cookies",
@@ -68620,7 +70039,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 0.5,
+          "carbs_g": 12.3,
+          "protein_g": 0.8,
+          "sodium_mg": 6,
+          "fiber_g": 0.1,
+          "sugar_g": 8.3
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "baking soda",
+          "baking powder",
+          "old-fashioned rolled oats",
+          "sweetened flaked coconut"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "classic-pecan-sandies",
@@ -68737,7 +70178,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 35,
+          "fat_g": 0.4,
+          "carbs_g": 7.1,
+          "protein_g": 0.7,
+          "sodium_mg": 3,
+          "fiber_g": 0.2,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [
+          "vanilla extract",
+          "chopped pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "classic-rice-krispie-treats",
@@ -68837,7 +70297,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.1,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 98,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "marshmallows"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "caramel-apple-salad",
@@ -68942,7 +70420,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 15,
+          "fat_g": 0.8,
+          "carbs_g": 1.2,
+          "protein_g": 0.8,
+          "sodium_mg": 10,
+          "fiber_g": 0.0,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "instant vanilla pudding mix",
+          "cool whip",
+          "granny smith apples",
+          "snickers bars"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "jello-poke-cake",
@@ -69052,7 +70551,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "white cake mix",
+          "jell-o",
+          "cool whip"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "pink-stuff-salad",
@@ -69158,7 +70677,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "strawberry jell-o",
+          "cottage cheese",
+          "crushed pineapple",
+          "cool whip",
+          "miniature marshmallows"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-basque-burnt-cheesecake",
@@ -69271,7 +70812,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 523,
+          "fat_g": 47.1,
+          "carbs_g": 22.1,
+          "protein_g": 5.3,
+          "sodium_mg": 83,
+          "fiber_g": 0.1,
+          "sugar_g": 20.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-frangelico-tiramisu",
@@ -69397,7 +70954,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 127,
+          "fat_g": 11.0,
+          "carbs_g": 7.1,
+          "protein_g": 0.6,
+          "sodium_mg": 11,
+          "fiber_g": 0.0,
+          "sugar_g": 7.1
+        },
+        "missing_inputs": [
+          "mascarpone cheese",
+          "frangelico liqueur",
+          "ladyfingers (savoiardi)",
+          "espresso, cooled",
+          "fresh raspberries"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-yorkshire-curd-tart",
@@ -69513,7 +71092,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 5933,
+          "fat_g": 151.0,
+          "carbs_g": 1200.0,
+          "protein_g": 1.2,
+          "sodium_mg": 1396,
+          "fiber_g": 0.0,
+          "sugar_g": 1200.0
+        },
+        "missing_inputs": [
+          "cheese curd",
+          "currants",
+          "nutmeg, powdered",
+          "lemon zest",
+          "blind-baked shortcrust pastry shell"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-chocolate-chevre-truffles",
@@ -69607,7 +71208,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 116,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "chèvre (goat cheese)",
+          "bittersweet chocolate",
+          "safflower or neutral oil"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-marble-chocolate-cheesecake",
@@ -69741,7 +71362,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 21348,
+          "fat_g": 2289.0,
+          "carbs_g": 188.6,
+          "protein_g": 127.5,
+          "sodium_mg": 2863,
+          "fiber_g": 0.0,
+          "sugar_g": 188.1
+        },
+        "missing_inputs": [
+          "plain chocolate biscuits, crushed",
+          "dark chocolate",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "strawberry-goat-cheese-sorbet",
@@ -69813,7 +71454,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 12,
+          "fat_g": 0.0,
+          "carbs_g": 3.1,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 3.1
+        },
+        "missing_inputs": [
+          "fresh strawberries, chopped and frozen",
+          "goat cheese",
+          "balsamic reduction (for drizzling)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "sour-cream-raspberry-pound-cake",
@@ -69927,7 +71588,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1714,
+          "fat_g": 66.1,
+          "carbs_g": 248.5,
+          "protein_g": 33.5,
+          "sodium_mg": 308,
+          "fiber_g": 3.0,
+          "sugar_g": 153.5
+        },
+        "missing_inputs": [
+          "baking soda",
+          "dried raspberries",
+          "tartaric acid"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "blue-ribbon-apple-pie",
@@ -70035,7 +71716,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 0.8,
+          "carbs_g": 32.4,
+          "protein_g": 1.0,
+          "sodium_mg": 6,
+          "fiber_g": 0.2,
+          "sugar_g": 25.0
+        },
+        "missing_inputs": [
+          "baked 10-inch pie shell",
+          "large jonathan apples",
+          "nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-peach-blackberry-clafouti",
@@ -70166,7 +71867,27 @@
           "Recipe reconstructed from forum mention - traditional French method"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 328,
+          "fat_g": 7.7,
+          "carbs_g": 60.2,
+          "protein_g": 5.6,
+          "sodium_mg": 60,
+          "fiber_g": 0.2,
+          "sugar_g": 52.3
+        },
+        "missing_inputs": [
+          "fresh blackberries",
+          "vanilla extract",
+          "almond extract (optional)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "lgc-ostkaka",
@@ -70290,6 +72011,24 @@
           "cow",
           "goat",
           "sheep"
+        ]
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 223,
+          "fat_g": 15.0,
+          "carbs_g": 17.9,
+          "protein_g": 5.1,
+          "sodium_mg": 65,
+          "fiber_g": 0.0,
+          "sugar_g": 16.4
+        },
+        "missing_inputs": [
+          "almonds (blanched and ground)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
         ]
       }
     },
@@ -70435,7 +72174,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 241,
+          "fat_g": 1.9,
+          "carbs_g": 53.5,
+          "protein_g": 3.1,
+          "sodium_mg": 26,
+          "fiber_g": 0.4,
+          "sugar_g": 41.7
+        },
+        "missing_inputs": [
+          "baking powder",
+          "mascarpone cheese (room temperature)",
+          "orange extract",
+          "pure vanilla extract",
+          "fresh blueberries"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "taoc-lemon-mascarpone-pound-cake",
@@ -70579,7 +72340,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 501,
+          "fat_g": 5.9,
+          "carbs_g": 107.3,
+          "protein_g": 6.4,
+          "sodium_mg": 64,
+          "fiber_g": 0.8,
+          "sugar_g": 83.6
+        },
+        "missing_inputs": [
+          "mascarpone cheese",
+          "lemon zest"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "taoc-goat-milk-caramels",
@@ -70694,7 +72474,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 21,
+          "fat_g": 0.2,
+          "carbs_g": 4.9,
+          "protein_g": 0.1,
+          "sodium_mg": 39,
+          "fiber_g": 0.0,
+          "sugar_g": 4.9
+        },
+        "missing_inputs": [
+          "honey",
+          "vanilla extract (or kahlua or bourbon)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "taoc-chocolate-ricotta-mousse",
@@ -70773,7 +72572,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 0.0,
+          "carbs_g": 6.2,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "ricotta cheese",
+          "semisweet chocolate (melted)",
+          "shaved chocolate"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-sticky-toffee-pudding",
@@ -70883,7 +72702,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 119,
+          "fat_g": 3.1,
+          "carbs_g": 20.6,
+          "protein_g": 2.2,
+          "sodium_mg": 17,
+          "fiber_g": 0.2,
+          "sugar_g": 12.6
+        },
+        "missing_inputs": [
+          "dates, pitted and chopped",
+          "baking soda",
+          "baking powder",
+          "corn syrup",
+          "bourbon"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-pavlova-with-raspberry-curd",
@@ -70989,7 +72830,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 335,
+          "fat_g": 17.6,
+          "carbs_g": 25.0,
+          "protein_g": 18.0,
+          "sodium_mg": 233,
+          "fiber_g": 0.0,
+          "sugar_g": 25.0
+        },
+        "missing_inputs": [
+          "cornstarch",
+          "vanilla extract",
+          "raspberries",
+          "chocolate chips",
+          "strawberries"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-gingerbread-bundt-cake",
@@ -71109,7 +72972,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 305,
+          "fat_g": 3.6,
+          "carbs_g": 65.7,
+          "protein_g": 3.9,
+          "sodium_mg": 42,
+          "fiber_g": 0.3,
+          "sugar_g": 56.2
+        },
+        "missing_inputs": [
+          "ground ginger",
+          "ground cinnamon",
+          "nutmeg",
+          "ground cloves",
+          "baking powder"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-chocolate-avocado-mousse",
@@ -71176,7 +73061,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "ripe avocados",
+          "honey",
+          "vanilla extract",
+          "raw cacao powder"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     }
   ]
 }

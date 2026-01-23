@@ -15037,7 +15037,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 65,
+          "fat_g": 0.8,
+          "carbs_g": 13.3,
+          "protein_g": 1.3,
+          "sodium_mg": 396,
+          "fiber_g": 2.1,
+          "sugar_g": 5.7
+        },
+        "missing_inputs": [
+          "dry white wine",
+          "beef broth",
+          "bay leaf",
+          "baguette",
+          "gruyère cheese"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-cauliflower-blue-cheese-soup",
@@ -15178,7 +15200,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 90,
+          "fat_g": 8.0,
+          "carbs_g": 3.6,
+          "protein_g": 1.2,
+          "sodium_mg": 405,
+          "fiber_g": 0.3,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [
+          "cauliflower, 1 head",
+          "canola oil",
+          "celery stalks, chopped",
+          "chicken broth",
+          "white wine"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-gazpacho",
@@ -15271,7 +15315,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 35,
+          "fat_g": 0.9,
+          "carbs_g": 6.5,
+          "protein_g": 0.5,
+          "sodium_mg": 2,
+          "fiber_g": 1.5,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "cucumber, chopped",
+          "ripe plum tomatoes, chopped",
+          "stale bread, chopped"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     }
   ]
 }

@@ -9007,7 +9007,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 37,
+          "fat_g": 2.0,
+          "carbs_g": 3.0,
+          "protein_g": 2.0,
+          "sodium_mg": 26,
+          "fiber_g": 0.0,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "honey",
+          "walnuts",
+          "fresh pear"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "manchego-membrillo",
@@ -9079,7 +9099,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 25,
+          "fat_g": 1.3,
+          "carbs_g": 2.0,
+          "protein_g": 1.3,
+          "sodium_mg": 18,
+          "fiber_g": 0.0,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "membrillo (quince paste)",
+          "marcona almonds",
+          "crusty bread or crackers"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "manchego-croquetas",
@@ -9195,7 +9235,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 39,
+          "fat_g": 2.1,
+          "carbs_g": 3.4,
+          "protein_g": 1.7,
+          "sodium_mg": 116,
+          "fiber_g": 0.1,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "nutmeg",
+          "breadcrumbs"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "roquefort-stuffed-endive",
@@ -9294,7 +9353,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 2.0,
+          "carbs_g": 0.4,
+          "protein_g": 0.3,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [
+          "belgian endive",
+          "ripe pear",
+          "walnuts",
+          "honey"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cheese-fondue",
@@ -9414,7 +9494,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.5,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "gruyère cheese",
+          "emmental cheese",
+          "dry white wine",
+          "cornstarch",
+          "kirsch (cherry brandy)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "baked-brie-honey-nuts",
@@ -9510,7 +9612,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 291,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "brie wheel",
+          "honey",
+          "walnuts or pecans"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "brie-en-croute",
@@ -9609,7 +9731,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 6,
+          "fat_g": 0.4,
+          "carbs_g": 0.0,
+          "protein_g": 0.5,
+          "sodium_mg": 6,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "brie wheel",
+          "puff pastry sheet",
+          "apricot or fig jam"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "labneh-dip",
@@ -9703,7 +9845,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 5,
+          "fat_g": 0.4,
+          "carbs_g": 0.3,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "labneh",
+          "za'atar",
+          "fresh mint",
+          "pine nuts",
+          "pita bread"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "provoleta-clasica-argentina",
@@ -9791,7 +9955,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.1,
+          "carbs_g": 0.1,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "provolone cheese wheel",
+          "crusty bread or baguette"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "provoleta-con-chimichurri",
@@ -9915,7 +10098,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 33,
+          "fat_g": 3.5,
+          "carbs_g": 0.6,
+          "protein_g": 0.0,
+          "sodium_mg": 1164,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "provolone cheese wheel",
+          "baguette"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "provoleta-con-salsa-criolla",
@@ -10052,7 +10254,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 1.8,
+          "carbs_g": 3.5,
+          "protein_g": 0.2,
+          "sodium_mg": 583,
+          "fiber_g": 0.8,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "provolone cheese",
+          "large tomato"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "crostini-con-sardo",
@@ -10161,7 +10382,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4,
+          "fat_g": 0.2,
+          "carbs_g": 0.2,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "baguette",
+          "sun-dried tomatoes in oil",
+          "grated sardo cheese"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "picada-argentina-magnasco-edam",
@@ -10300,7 +10541,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "magnasco edam cheese",
+          "salami",
+          "jamón cocido (cooked ham)",
+          "green olives",
+          "black olives"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "magnasco-edam-wine-crackers",
@@ -10401,7 +10664,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "magnasco edam ball",
+          "whole grain crackers",
+          "fresh grapes",
+          "dried apricots",
+          "walnuts"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-baked-feta",
@@ -10500,7 +10785,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 7,
+          "fat_g": 0.7,
+          "carbs_g": 0.5,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.3,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "bread rounds or crackers for serving"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-israeli-hummus",
@@ -10629,7 +10932,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 23,
+          "fat_g": 2.3,
+          "carbs_g": 0.5,
+          "protein_g": 0.0,
+          "sodium_mg": 9,
+          "fiber_g": 0.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "dried chickpeas (small variety)",
+          "baking soda (for soaking)",
+          "tahini",
+          "pita bread"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-maltese-pastizzi",
@@ -10726,7 +11050,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.1,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "maltese cheese or ricotta",
+          "puff pastry sheets"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-feta-pumpkin-pastries",
@@ -10847,7 +11190,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 5,
+          "fat_g": 0.6,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 101,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "feta cheese",
+          "filo pastry"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "hillbilly-fondue",
@@ -10947,7 +11309,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.5,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "dry white wine",
+          "grated swiss cheese",
+          "grated gruyere cheese",
+          "cornstarch",
+          "nutmeg (optional)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "harvest-chicken-liver-pate",
@@ -11083,7 +11467,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 155,
+          "fat_g": 14.0,
+          "carbs_g": 7.4,
+          "protein_g": 1.1,
+          "sodium_mg": 61,
+          "fiber_g": 1.5,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [
+          "chicken livers, cleaned",
+          "celery stalk, chopped",
+          "large tart apple, peeled, cored and chopped",
+          "rubbed sage",
+          "nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "deep-fried-cheese-curds",
@@ -11177,7 +11583,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 28,
+          "fat_g": 0.6,
+          "carbs_g": 4.2,
+          "protein_g": 1.2,
+          "sodium_mg": 9,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "baking powder",
+          "cheese curds",
+          "oil for frying"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-tyropites-greek-cheese-pies",
@@ -11294,7 +11720,27 @@
           "Recipe reconstructed from forum discussion of traditional method"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 10,
+          "fat_g": 0.9,
+          "carbs_g": 0.0,
+          "protein_g": 0.5,
+          "sodium_mg": 10,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "crumbled feta cheese",
+          "ricotta cheese",
+          "phyllo dough, thawed"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "lgc-baked-ricotta",
@@ -11400,7 +11846,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4,
+          "fat_g": 0.3,
+          "carbs_g": 0.3,
+          "protein_g": 0.0,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "fresh ricotta",
+          "lemon zest",
+          "crusty bread"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "taoc-lemony-baked-ricotta-with-herbs",
@@ -11498,7 +11964,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.2,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 581,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "fresh ricotta (warm)",
+          "lemon zest",
+          "baguette"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "taoc-greek-layer-dip",
@@ -11609,7 +12095,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "hummus (prepared or homemade)",
+          "pesto (prepared or homemade)",
+          "marinated artichokes (chopped)",
+          "english cucumber (finely chopped)",
+          "grape tomatoes (finely chopped)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-pork-dumplings",
@@ -11719,7 +12227,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 19,
+          "fat_g": 0.0,
+          "carbs_g": 3.9,
+          "protein_g": 0.5,
+          "sodium_mg": 1,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "ground pork",
+          "shiitake mushrooms, minced",
+          "ginger, grated",
+          "soy sauce",
+          "sesame oil"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-baked-chicken-wings",
@@ -11810,7 +12340,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 8,
+          "fat_g": 0.8,
+          "carbs_g": 0.5,
+          "protein_g": 0.0,
+          "sodium_mg": 18,
+          "fiber_g": 0.3,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "chicken wings",
+          "canola oil",
+          "hot sauce"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-chilli-beef-lettuce-wraps",
@@ -11927,7 +12477,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 47,
+          "fat_g": 0.0,
+          "carbs_g": 11.1,
+          "protein_g": 0.8,
+          "sodium_mg": 4,
+          "fiber_g": 1.5,
+          "sugar_g": 6.9
+        },
+        "missing_inputs": [
+          "lean minced beef",
+          "minced pork",
+          "ginger, chopped",
+          "red chillies",
+          "fish sauce"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     }
   ]
 }

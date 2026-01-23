@@ -156021,23 +156021,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 246,
-          "fat_g": 1.9,
-          "carbs_g": 47.6,
-          "protein_g": 8.0,
-          "sodium_mg": 18619,
-          "fiber_g": 1.7,
-          "sugar_g": 0.2
+          "calories": 3580,
+          "fat_g": 213.8,
+          "carbs_g": 271.8,
+          "protein_g": 157.8,
+          "sodium_mg": 2535,
+          "fiber_g": 1.5,
+          "sugar_g": 224.2
         },
-        "missing_inputs": [
-          "3  teaspooufuls bak-'_'cupful chicken gravy orcream sauce",
-          "1/4 cup fid Criseo J2 teaspoonful salt",
-          "73 cup ful milk (about) 2 cupfuls chicken broth"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "Calculated for 4 servings"
+          "Calculated from USDA ingredient data"
         ]
       }
     },
@@ -173458,7 +173454,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 59,
+          "fat_g": 3.8,
+          "carbs_g": 2.8,
+          "protein_g": 3.4,
+          "sodium_mg": 239,
+          "fiber_g": 0.2,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [
+          "fresh spinach",
+          "ricotta cheese",
+          "scallions",
+          "phyllo dough",
+          "nutmeg"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cacio-e-pepe",
@@ -173544,7 +173562,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 75,
+          "fat_g": 4.0,
+          "carbs_g": 6.1,
+          "protein_g": 4.0,
+          "sodium_mg": 634,
+          "fiber_g": 0.0,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "spaghetti or tonnarelli"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "pasta-alla-gricia",
@@ -173634,7 +173670,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 3.0,
+          "carbs_g": 4.5,
+          "protein_g": 3.0,
+          "sodium_mg": 621,
+          "fiber_g": 0.0,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [
+          "rigatoni or spaghetti",
+          "guanciale"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "roquefort-sauce-steak",
@@ -173743,7 +173798,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 227,
+          "fat_g": 23.4,
+          "carbs_g": 3.2,
+          "protein_g": 2.2,
+          "sodium_mg": 619,
+          "fiber_g": 0.0,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [
+          "ribeye or strip steaks",
+          "shallot",
+          "dry white wine"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "halloumi-vegetable-skewers",
@@ -173856,7 +173931,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 11,
+          "fat_g": 0.3,
+          "carbs_g": 2.0,
+          "protein_g": 0.1,
+          "sodium_mg": 291,
+          "fiber_g": 0.5,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "halloumi cheese",
+          "zucchini",
+          "cherry tomatoes",
+          "lemon zest"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "saag-paneer",
@@ -173988,7 +174084,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 66,
+          "fat_g": 5.5,
+          "carbs_g": 3.9,
+          "protein_g": 0.6,
+          "sodium_mg": 589,
+          "fiber_g": 0.5,
+          "sugar_g": 1.7
+        },
+        "missing_inputs": [
+          "paneer cheese",
+          "fresh spinach",
+          "ginger",
+          "green chilies",
+          "garam masala"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "paneer-tikka-masala",
@@ -174131,7 +174249,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 117,
+          "fat_g": 11.4,
+          "carbs_g": 3.4,
+          "protein_g": 0.9,
+          "sodium_mg": 596,
+          "fiber_g": 0.5,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "paneer cheese",
+          "yogurt",
+          "red chili powder",
+          "garam masala",
+          "tomato puree"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "matar-paneer",
@@ -174271,7 +174411,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 22,
+          "fat_g": 0.0,
+          "carbs_g": 5.0,
+          "protein_g": 0.5,
+          "sodium_mg": 583,
+          "fiber_g": 1.0,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "paneer cheese",
+          "green peas",
+          "tomatoes",
+          "turmeric",
+          "coriander powder"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "ricotta-stuffed-shells",
@@ -174389,7 +174551,29 @@
       "image_refs": [],
       "variants": [
         "cf-ricotta-stuffed-shells"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 12,
+          "fat_g": 0.8,
+          "carbs_g": 0.0,
+          "protein_g": 1.0,
+          "sodium_mg": 399,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "jumbo pasta shells",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "marinara sauce"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "lemon-ricotta-pasta",
@@ -174500,7 +174684,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 6,
+          "fat_g": 0.4,
+          "carbs_g": 0.5,
+          "protein_g": 0.0,
+          "sodium_mg": 582,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "spaghetti or linguine",
+          "ricotta cheese",
+          "lemon zest",
+          "parmesan cheese"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "mascarpone-pasta-sauce",
@@ -174613,7 +174818,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 7,
+          "fat_g": 0.4,
+          "carbs_g": 0.8,
+          "protein_g": 0.0,
+          "sodium_mg": 582,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "penne or fusilli",
+          "mascarpone cheese",
+          "sun-dried tomatoes",
+          "parmesan cheese",
+          "pine nuts"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "noquis-con-tuco-reggianito",
@@ -174792,7 +175019,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 197,
+          "fat_g": 5.0,
+          "carbs_g": 28.5,
+          "protein_g": 8.2,
+          "sodium_mg": 66,
+          "fiber_g": 1.4,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "russet potatoes",
+          "ground nutmeg",
+          "carrot",
+          "bay leaves"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "milanesa-napolitana-reggianito",
@@ -174934,7 +175182,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 8.7,
+          "carbs_g": 0.3,
+          "protein_g": 6.3,
+          "sodium_mg": 78,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "beef cutlets (sirloin or tenderloin)",
+          "breadcrumbs",
+          "tomato sauce or coulis",
+          "mozzarella cheese"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "risotto-con-reggianito",
@@ -175063,7 +175332,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 2.4,
+          "carbs_g": 0.5,
+          "protein_g": 1.5,
+          "sodium_mg": 605,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "chicken or vegetable stock",
+          "dry white wine",
+          "shallot"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "pasta-con-sardo-rallado",
@@ -175173,7 +175462,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 15,
+          "fat_g": 1.2,
+          "carbs_g": 1.2,
+          "protein_g": 0.0,
+          "sodium_mg": 6,
+          "fiber_g": 0.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "spaghetti or fettuccine",
+          "grated sardo cheese"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-grandmas-hamburger-pie",
@@ -175278,7 +175586,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 23,
+          "fat_g": 0.4,
+          "carbs_g": 4.1,
+          "protein_g": 0.8,
+          "sodium_mg": 5,
+          "fiber_g": 0.4,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [
+          "ground beef",
+          "shredded cheese",
+          "frozen pie shell"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-crown-o-gold-meatloaf",
@@ -175433,7 +175761,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 98,
+          "fat_g": 6.7,
+          "carbs_g": 0.3,
+          "protein_g": 8.0,
+          "sodium_mg": 103,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "ground lean beef",
+          "fine soft bread crumbs",
+          "ketchup",
+          "yellow mustard",
+          "prepared horseradish"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-16th-century-vindaloo",
@@ -175595,7 +175945,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 49,
+          "fat_g": 0.7,
+          "carbs_g": 10.8,
+          "protein_g": 0.2,
+          "sodium_mg": 584,
+          "fiber_g": 0.5,
+          "sugar_g": 7.5
+        },
+        "missing_inputs": [
+          "chicken thighs",
+          "coriander seeds",
+          "whole cloves",
+          "cinnamon stick",
+          "dried red chilies"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "vintage-tuna-noodle-casserole",
@@ -175714,7 +176086,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 161,
+          "fat_g": 16.2,
+          "carbs_g": 2.2,
+          "protein_g": 2.5,
+          "sodium_mg": 39,
+          "fiber_g": 0.0,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "tuna",
+          "frozen peas",
+          "shredded cheddar cheese",
+          "potato chips or breadcrumbs"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "vintage-king-ranch-chicken",
@@ -175863,7 +176256,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 33.0,
+          "carbs_g": 4.1,
+          "protein_g": 2.0,
+          "sodium_mg": 34,
+          "fiber_g": 0.4,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [
+          "cooked chicken",
+          "ro-tel tomatoes with green chiles",
+          "chili powder",
+          "corn tortillas",
+          "shredded cheddar cheese"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-clabber-cheese",
@@ -175971,7 +176386,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2435,
+          "fat_g": 133.5,
+          "carbs_g": 192.4,
+          "protein_g": 128.3,
+          "sodium_mg": 1734,
+          "fiber_g": 0.0,
+          "sugar_g": 192.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-labneh",
@@ -176075,7 +176506,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 7,
+          "fat_g": 0.9,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 12,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "full-fat plain yogurt",
+          "za'atar"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-ricotta-italian",
@@ -176169,7 +176619,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 4.0,
+          "carbs_g": 6.0,
+          "protein_g": 4.0,
+          "sodium_mg": 59,
+          "fiber_g": 0.0,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "fresh whey"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-mascarpone-lombard",
@@ -176259,7 +176727,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 3284,
+          "fat_g": 352.0,
+          "carbs_g": 28.0,
+          "protein_g": 20.0,
+          "sodium_mg": 356,
+          "fiber_g": 0.0,
+          "sugar_g": 28.0
+        },
+        "missing_inputs": [
+          "tartaric acid"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-paneer-indian",
@@ -176357,7 +176843,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 99,
+          "fat_g": 5.3,
+          "carbs_g": 8.0,
+          "protein_g": 5.3,
+          "sodium_mg": 72,
+          "fiber_g": 0.0,
+          "sugar_g": 8.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-gjetost-norwegian",
@@ -176462,7 +176964,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1119,
+          "fat_g": 104.0,
+          "carbs_g": 31.0,
+          "protein_g": 21.0,
+          "sodium_mg": 2624,
+          "fiber_g": 0.0,
+          "sugar_g": 31.0
+        },
+        "missing_inputs": [
+          "fresh whey"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-crowdie-scottish",
@@ -176565,7 +177085,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1281,
+          "fat_g": 71.5,
+          "carbs_g": 99.4,
+          "protein_g": 66.3,
+          "sodium_mg": 896,
+          "fiber_g": 0.0,
+          "sugar_g": 99.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-chhena-indian",
@@ -176662,7 +177198,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 99,
+          "fat_g": 5.3,
+          "carbs_g": 8.0,
+          "protein_g": 5.3,
+          "sodium_mg": 70,
+          "fiber_g": 0.0,
+          "sugar_g": 8.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-branza-burduf-romanian",
@@ -176760,7 +177312,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 145,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "fresh sheep cheese (telemea or brânză)",
+          "pine bark tube"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-urda-romanian-whey",
@@ -176864,7 +177435,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.0,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 129,
+          "fiber_g": 0.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "fresh sheep whey"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-liptauer-hungarian",
@@ -176992,7 +177581,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 3.0,
+          "carbs_g": 1.3,
+          "protein_g": 0.1,
+          "sodium_mg": 2348,
+          "fiber_g": 0.3,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "sheep cheese or bryndza",
+          "caraway seeds",
+          "dijon mustard",
+          "capers"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-gamalost-norwegian-viking",
@@ -177094,7 +177704,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1341,
+          "fat_g": 72.0,
+          "carbs_g": 108.0,
+          "protein_g": 72.0,
+          "sodium_mg": 993,
+          "fiber_g": 0.0,
+          "sugar_g": 108.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-handkase-german",
@@ -177194,7 +177820,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 48,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "quark or farmer's cheese",
+          "caraway seeds",
+          "baking soda"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-mizithra-greek-ancient",
@@ -177298,7 +177944,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.0,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 153,
+          "fiber_g": 0.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "fresh whey"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-anthotyro-greek-ancient",
@@ -177398,7 +178062,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 596,
+          "fat_g": 32.0,
+          "carbs_g": 48.0,
+          "protein_g": 32.0,
+          "sodium_mg": 444,
+          "fiber_g": 0.0,
+          "sugar_g": 48.0
+        },
+        "missing_inputs": [
+          "fresh whey"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-ayib-ethiopian",
@@ -177486,7 +178168,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1192,
+          "fat_g": 64.0,
+          "carbs_g": 96.0,
+          "protein_g": 64.0,
+          "sodium_mg": 864,
+          "fiber_g": 0.0,
+          "sugar_g": 96.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-chhurpi-himalayan",
@@ -177575,7 +178273,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1192,
+          "fat_g": 64.0,
+          "carbs_g": 96.0,
+          "protein_g": 64.0,
+          "sodium_mg": 840,
+          "fiber_g": 0.0,
+          "sugar_g": 96.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-aaruul-mongolian",
@@ -177663,7 +178377,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 97,
+          "fat_g": 0.0,
+          "carbs_g": 25.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 25.0
+        },
+        "missing_inputs": [
+          "aarts or kefir"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-anari-cypriot",
@@ -177756,7 +178488,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.0,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 129,
+          "fiber_g": 0.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "fresh whey"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-brie-leek-pizza",
@@ -177879,7 +178629,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1718,
+          "fat_g": 178.4,
+          "carbs_g": 25.9,
+          "protein_g": 11.6,
+          "sodium_mg": 195,
+          "fiber_g": 0.4,
+          "sugar_g": 14.0
+        },
+        "missing_inputs": [
+          "pizza dough (store-bought or homemade)",
+          "leek, white and light green parts only",
+          "brie wheel",
+          "smoked chicken, shredded (optional)",
+          "smoked mozzarella or provolone, grated (optional)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-bbq-chicken-marinade",
@@ -178007,7 +178779,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 73,
+          "fat_g": 6.0,
+          "carbs_g": 1.6,
+          "protein_g": 3.0,
+          "sodium_mg": 72,
+          "fiber_g": 0.3,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "chicken (whole cut up or parts)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-ricotta-stuffed-shells",
@@ -178124,7 +178914,29 @@
       "image_refs": [],
       "variants": [
         "ricotta-stuffed-shells"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 13,
+          "fat_g": 0.8,
+          "carbs_g": 0.2,
+          "protein_g": 1.0,
+          "sodium_mg": 12,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "breakfast sausage (italian preferred)",
+          "ricotta cheese",
+          "jumbo pasta shells",
+          "spaghetti sauce",
+          "mozzarella cheese, shredded"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-tartiflette",
@@ -178258,7 +179070,27 @@
           "Recipe reconstructed from forum reference to traditional method"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 11.2,
+          "carbs_g": 1.4,
+          "protein_g": 0.6,
+          "sodium_mg": 594,
+          "fiber_g": 0.0,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [
+          "waxy potatoes (yukon gold or fingerling)",
+          "dry white wine",
+          "reblochon cheese (or substitute brie)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-beef-wellington",
@@ -178363,7 +179195,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 15,
+          "fat_g": 1.1,
+          "carbs_g": 0.0,
+          "protein_g": 1.0,
+          "sodium_mg": 399,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "beef tenderloin",
+          "english mustard",
+          "puff pastry",
+          "mushrooms",
+          "shallots"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-teriyaki-salmon",
@@ -178464,7 +179318,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 0.0,
+          "carbs_g": 8.6,
+          "protein_g": 0.5,
+          "sodium_mg": 3,
+          "fiber_g": 1.0,
+          "sugar_g": 5.6
+        },
+        "missing_inputs": [
+          "salmon fillets",
+          "soy sauce",
+          "mirin",
+          "sake",
+          "ginger"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-bangers-and-mash",
@@ -178565,7 +179441,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 2.2,
+          "carbs_g": 1.5,
+          "protein_g": 1.0,
+          "sodium_mg": 19,
+          "fiber_g": 0.0,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [
+          "pork sausages",
+          "potatoes, peeled and cubed",
+          "beef stock",
+          "worcestershire sauce"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-carbonara",
@@ -178660,7 +179557,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 119,
+          "fat_g": 7.9,
+          "carbs_g": 2.0,
+          "protein_g": 9.0,
+          "sodium_mg": 108,
+          "fiber_g": 0.5,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "spaghetti",
+          "pancetta or bacon",
+          "parmesan cheese, grated",
+          "creme fraiche"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-fish-and-chips",
@@ -178756,7 +179674,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 504,
+          "fat_g": 31.0,
+          "carbs_g": 47.5,
+          "protein_g": 9.5,
+          "sodium_mg": 1200,
+          "fiber_g": 1.5,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "cod or haddock fillet",
+          "light beer",
+          "baking powder",
+          "potatoes",
+          "curry powder"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-honey-glazed-ham",
@@ -178876,7 +179816,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 9690,
+          "fat_g": 0.0,
+          "carbs_g": 2501.3,
+          "protein_g": 0.1,
+          "sodium_mg": 26,
+          "fiber_g": 0.3,
+          "sugar_g": 2500.6
+        },
+        "missing_inputs": [
+          "unsmoked gammon joint",
+          "carrots, chopped",
+          "leek, chopped",
+          "coriander seeds",
+          "cinnamon stick"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-roast-turkey-with-lemon-parsley-and-garlic",
@@ -178981,7 +179943,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 1.5,
+          "carbs_g": 1.8,
+          "protein_g": 0.1,
+          "sodium_mg": 12,
+          "fiber_g": 0.2,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "whole turkey",
+          "lemon zest",
+          "carrots",
+          "celery",
+          "chicken stock"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-mozzarella-and-rosemary-pizza",
@@ -179081,7 +180065,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 56897,
+          "fat_g": 125.9,
+          "carbs_g": 11878.6,
+          "protein_g": 1625.0,
+          "sodium_mg": 411,
+          "fiber_g": 375.2,
+          "sugar_g": 3.1
+        },
+        "missing_inputs": [
+          "dried yeast",
+          "tomato passata",
+          "mozzarella"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-slow-cooked-beef-short-ribs",
@@ -179177,7 +180181,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 5,
+          "fat_g": 0.4,
+          "carbs_g": 0.2,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "beef short ribs",
+          "tomato puree",
+          "red wine",
+          "beef stock",
+          "pancetta"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-lamb-koftas-with-mint-yogurt",
@@ -179273,7 +180299,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.5,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "minced lamb",
+          "chilli flakes",
+          "mint, chopped",
+          "natural yogurt"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-crispy-roast-duck-with-chinese-pancakes",
@@ -179379,7 +180426,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 46,
+          "fat_g": 0.0,
+          "carbs_g": 10.5,
+          "protein_g": 1.0,
+          "sodium_mg": 4,
+          "fiber_g": 2.0,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [
+          "whole duck",
+          "star anise",
+          "ginger",
+          "chinese pancakes",
+          "black bean sauce"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     }
   ]
 }

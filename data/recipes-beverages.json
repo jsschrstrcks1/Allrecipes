@@ -4368,7 +4368,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 596,
+          "fat_g": 32.0,
+          "carbs_g": 48.0,
+          "protein_g": 32.0,
+          "sodium_mg": 420,
+          "fiber_g": 0.0,
+          "sugar_g": 48.0
+        },
+        "missing_inputs": [
+          "kefir grains or kefir starter"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "psr-cultured-buttermilk",
@@ -4453,7 +4471,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1828,
+          "fat_g": 186.0,
+          "carbs_g": 29.0,
+          "protein_g": 20.0,
+          "sodium_mg": 309,
+          "fiber_g": 0.0,
+          "sugar_g": 29.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "psr-kefir-yogurt",
@@ -4522,7 +4556,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 795,
+          "fat_g": 42.7,
+          "carbs_g": 64.0,
+          "protein_g": 42.7,
+          "sodium_mg": 560,
+          "fiber_g": 0.0,
+          "sugar_g": 64.0
+        },
+        "missing_inputs": [
+          "active kefir"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "psr-water-kefir",
@@ -4609,7 +4661,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 0.0,
+          "carbs_g": 50.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 50.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "mock-kahlua-coffee-liqueur",
@@ -4700,7 +4768,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 0.0,
+          "carbs_g": 50.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 50.0
+        },
+        "missing_inputs": [
+          "fresh ground coffee beans",
+          "vanilla extract",
+          "vodka"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     }
   ]
 }
