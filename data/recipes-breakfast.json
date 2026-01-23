@@ -37943,7 +37943,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 596,
+          "fat_g": 32.0,
+          "carbs_g": 48.0,
+          "protein_g": 32.0,
+          "sodium_mg": 420,
+          "fiber_g": 0.0,
+          "sugar_g": 48.0
+        },
+        "missing_inputs": [
+          "yogurt starter culture"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "shakshuka-with-feta",
@@ -38071,7 +38089,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 147,
+          "fat_g": 8.9,
+          "carbs_g": 5.5,
+          "protein_g": 10.2,
+          "sodium_mg": 703,
+          "fiber_g": 0.8,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "crushed tomatoes"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "ricotta-pancakes",
@@ -38188,7 +38224,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 69,
+          "fat_g": 2.6,
+          "carbs_g": 8.5,
+          "protein_g": 2.6,
+          "sodium_mg": 31,
+          "fiber_g": 0.2,
+          "sugar_g": 2.6
+        },
+        "missing_inputs": [
+          "ricotta cheese",
+          "baking powder",
+          "lemon zest",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-red-dog-toast",
@@ -38287,7 +38344,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 43,
+          "fat_g": 3.2,
+          "carbs_g": 0.0,
+          "protein_g": 3.0,
+          "sodium_mg": 44,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "condensed tomato soup"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "dutch-babies",
@@ -38366,7 +38441,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 293,
+          "fat_g": 16.3,
+          "carbs_g": 13.4,
+          "protein_g": 20.6,
+          "sodium_mg": 228,
+          "fiber_g": 0.4,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-yogurt-whole-milk",
@@ -38442,7 +38533,25 @@
           "Recipe reconstructed from John's #14 forum post"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.0,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 105,
+          "fiber_g": 0.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "plain yogurt with live cultures (as starter)"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "gr-scrambled-eggs",
@@ -38518,7 +38627,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 226,
+          "fat_g": 16.1,
+          "carbs_g": 0.0,
+          "protein_g": 18.0,
+          "sodium_mg": 1384,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "creme fraiche"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     }
   ]
 }

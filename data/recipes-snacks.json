@@ -449,7 +449,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4768,
+          "fat_g": 256.0,
+          "carbs_g": 384.0,
+          "protein_g": 256.0,
+          "sodium_mg": 3505,
+          "fiber_g": 0.0,
+          "sugar_g": 384.0
+        },
+        "missing_inputs": [
+          "mesophilic starter culture"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "traditional-cheese-curds",
@@ -544,7 +562,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4768,
+          "fat_g": 256.0,
+          "carbs_g": 384.0,
+          "protein_g": 256.0,
+          "sodium_mg": 3505,
+          "fiber_g": 0.0,
+          "sugar_g": 384.0
+        },
+        "missing_inputs": [
+          "mesophilic starter culture"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "puppy-chow-muddy-buddies",
@@ -652,7 +688,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 5.2,
+          "carbs_g": 22.6,
+          "protein_g": 0.3,
+          "sodium_mg": 8,
+          "fiber_g": 0.0,
+          "sugar_g": 22.6
+        },
+        "missing_inputs": [
+          "semisweet chocolate chips",
+          "vanilla extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-herb-flatbread-crackers",
@@ -772,7 +827,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 122,
+          "fat_g": 0.7,
+          "carbs_g": 24.8,
+          "protein_g": 3.2,
+          "sodium_mg": 13,
+          "fiber_g": 0.8,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     }
   ]
 }

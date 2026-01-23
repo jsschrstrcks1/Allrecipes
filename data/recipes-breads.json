@@ -31285,7 +31285,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1304,
+          "fat_g": 16.0,
+          "carbs_g": 252.0,
+          "protein_g": 34.0,
+          "sodium_mg": 181,
+          "fiber_g": 6.0,
+          "sugar_g": 62.0
+        },
+        "missing_inputs": [
+          "baking powder"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "reddit-4-generation-banana-bread",
@@ -31414,7 +31432,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1879,
+          "fat_g": 18.0,
+          "carbs_g": 390.0,
+          "protein_g": 38.0,
+          "sodium_mg": 208,
+          "fiber_g": 6.0,
+          "sugar_g": 200.0
+        },
+        "missing_inputs": [
+          "ripe bananas",
+          "baking soda",
+          "vanilla extract",
+          "walnuts"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "amish-friendship-bread",
@@ -31578,7 +31617,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1204,
+          "fat_g": 15.5,
+          "carbs_g": 245.0,
+          "protein_g": 22.0,
+          "sodium_mg": 123,
+          "fiber_g": 3.0,
+          "sugar_g": 150.0
+        },
+        "missing_inputs": [
+          "amish friendship bread starter",
+          "vanilla extract",
+          "instant vanilla pudding mix",
+          "baking powder",
+          "baking soda"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-no-knead-bread",
@@ -31675,7 +31736,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1365,
+          "fat_g": 3.0,
+          "carbs_g": 285.0,
+          "protein_g": 39.0,
+          "sodium_mg": 57,
+          "fiber_g": 9.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "instant yeast"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-great-pizza-dough",
@@ -31786,7 +31865,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 239,
+          "fat_g": 0.9,
+          "carbs_g": 49.6,
+          "protein_g": 6.5,
+          "sodium_mg": 26,
+          "fiber_g": 1.5,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "active dry yeast"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "cf-gluten-free-pizza-crust",
@@ -31926,7 +32023,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 361,
+          "fat_g": 1.5,
+          "carbs_g": 74.1,
+          "protein_g": 10.2,
+          "sodium_mg": 33,
+          "fiber_g": 2.2,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "agar-agar or gelatin powder",
+          "xanthan gum",
+          "active dry yeast",
+          "gluten free cornmeal for pan"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "pizza-bread-cheeseforum",
@@ -32053,7 +32171,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1447,
+          "fat_g": 6.5,
+          "carbs_g": 298.6,
+          "protein_g": 39.0,
+          "sodium_mg": 58,
+          "fiber_g": 9.5,
+          "sugar_g": 12.6
+        },
+        "missing_inputs": [
+          "shredded mozzarella cheese",
+          "grated parmesan cheese",
+          "bread machine yeast"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "ricotta-babka",
@@ -32218,7 +32356,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 3509,
+          "fat_g": 37.5,
+          "carbs_g": 705.7,
+          "protein_g": 82.0,
+          "sodium_mg": 483,
+          "fiber_g": 12.0,
+          "sugar_g": 325.7
+        },
+        "missing_inputs": [
+          "active dry yeast",
+          "vanilla extract",
+          "ricotta cheese",
+          "vanilla extract (for filling)",
+          "lemon extract"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "pumpkin-harvest-loaf",
@@ -32365,7 +32525,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 2094,
+          "fat_g": 17.0,
+          "carbs_g": 440.0,
+          "protein_g": 44.0,
+          "sodium_mg": 246,
+          "fiber_g": 6.0,
+          "sugar_g": 250.0
+        },
+        "missing_inputs": [
+          "cooked pumpkin or winter squash",
+          "lemon/lime zest",
+          "baking powder",
+          "baking soda",
+          "cinnamon"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     },
     {
       "id": "taoc-whey-english-muffin-bread",
@@ -32475,7 +32657,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1389,
+          "fat_g": 3.0,
+          "carbs_g": 291.2,
+          "protein_g": 39.0,
+          "sodium_mg": 58,
+          "fiber_g": 9.0,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "whey (from cheesemaking)",
+          "active dry yeast",
+          "baking soda",
+          "cornmeal"
+        ],
+        "assumptions": [
+          "Calculated from USDA ingredient data"
+        ]
+      }
     }
   ]
 }
