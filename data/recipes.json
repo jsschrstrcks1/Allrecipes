@@ -652821,6 +652821,2050 @@
         "missing_inputs": [],
         "assumptions": []
       }
+    },
+    {
+      "id": "gordon-ramsay-pan-seared-sea-bass",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pan-Seared Sea Bass, Potato-Leek Puree, Saut\u00e9ed Haricots Verts, Caper-Red Onion-Tomato Relish",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 220-225",
+      "description": "Pan-seared sea bass served with silky potato-leek puree, French green beans, and a bright caper-red onion relish with Marcona almonds.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-potato-leek-puree",
+        "gordon-ramsay-caper-tomato-relish"
+      ],
+      "ingredients": [
+        {
+          "item": "sea bass fillets",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "6-ounce each, skin on"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "haricots verts",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "trimmed"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Season the fish with salt and pepper. Heat oil in a large skillet over medium-high heat."
+        },
+        {
+          "step": 2,
+          "text": "Add fish skin-side down and cook until skin is crispy, about 4 minutes. Flip and cook 2-3 minutes more."
+        },
+        {
+          "step": 3,
+          "text": "Blanch haricots verts in boiling salted water 2-3 minutes. Drain and toss with butter."
+        },
+        {
+          "step": 4,
+          "text": "Serve fish over potato-leek puree with haricots verts and caper relish."
+        }
+      ],
+      "tips": [
+        "To save a little time, trim the ends from the haricots verts up to a few hours in advance"
+      ],
+      "substitutions": [
+        {
+          "original": "haricots verts",
+          "substitute": "American green beans",
+          "note": "If haricots verts are unavailable"
+        }
+      ],
+      "tags": [
+        "sea bass",
+        "fish",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7693 Medium.jpeg",
+        "IMG_7694 Medium.jpeg",
+        "IMG_7695 Medium.jpeg",
+        "IMG_7696 Medium.jpeg",
+        "IMG_7697 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-potato-leek-puree",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Potato-Leek Puree",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 223",
+      "description": "Silky smooth potato puree with leeks.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-pan-seared-sea-bass"
+      ],
+      "ingredients": [
+        {
+          "item": "Yukon Gold potatoes",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "peeled and cubed"
+        },
+        {
+          "item": "leek",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "white and light green parts, sliced"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook potatoes and leeks in salted water until very tender, about 20 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Drain and pass through a food mill or ricer."
+        },
+        {
+          "step": 3,
+          "text": "Stir in warm cream and butter. Season with salt."
+        }
+      ],
+      "tags": [
+        "potatoes",
+        "leeks",
+        "puree",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7695 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-caper-tomato-relish",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Caper-Red Onion-Tomato Relish",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 223",
+      "description": "Bright relish with capers, red onion, tomatoes, and Marcona almonds.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-pan-seared-sea-bass"
+      ],
+      "ingredients": [
+        {
+          "item": "cherry tomatoes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "quartered"
+        },
+        {
+          "item": "red onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely diced"
+        },
+        {
+          "item": "capers",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "drained"
+        },
+        {
+          "item": "Marcona almonds",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "fresh basil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "torn"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a bowl. Season with salt and pepper. Let sit 15 minutes for flavors to meld."
+        }
+      ],
+      "tags": [
+        "relish",
+        "tomato",
+        "caper",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7696 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-slow-roasted-pork-belly",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Slow-Roasted Pork Belly with Sushi Rice Cake and Long Beans",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 277-281",
+      "description": "Meltingly tender pork belly with crispy skin, served with pan-fried sushi rice cakes and Asian long beans.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-sushi-rice-cake",
+        "gordon-ramsay-long-beans"
+      ],
+      "ingredients": [
+        {
+          "item": "pork belly",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "skin on"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "five-spice powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "honey",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh ginger",
+          "quantity": "1",
+          "unit": "inch",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "4",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Score the pork belly skin in a crosshatch pattern. Rub with salt and five-spice. Refrigerate uncovered overnight."
+        },
+        {
+          "step": 2,
+          "text": "Preheat oven to 300\u00b0F. Sear pork in hot oil until browned on all sides."
+        },
+        {
+          "step": 3,
+          "text": "Add stock, soy sauce, honey, ginger, and garlic to pan. Cover and braise 3 hours until very tender."
+        },
+        {
+          "step": 4,
+          "text": "Remove pork, strain and reserve braising liquid. Increase oven to 425\u00b0F."
+        },
+        {
+          "step": 5,
+          "text": "Roast pork skin-side up until skin is crispy, about 20 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Slice pork belly and serve over sushi rice cake with long beans. Drizzle with reduced braising liquid."
+        }
+      ],
+      "temperature": "300\u00b0F then 425\u00b0F",
+      "tips": [
+        "Score the skin deeply to help render fat and crisp the skin",
+        "Refrigerating uncovered helps dry out the skin for better crisping"
+      ],
+      "tags": [
+        "pork belly",
+        "asian",
+        "braised",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7753 Medium.jpeg",
+        "IMG_7754 Medium.jpeg",
+        "IMG_7755 Medium.jpeg",
+        "IMG_7756 Medium.jpeg",
+        "IMG_7757 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-sushi-rice-cake",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Sushi Rice Cake",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 279",
+      "description": "Pan-fried cakes made from seasoned sushi rice.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-slow-roasted-pork-belly"
+      ],
+      "ingredients": [
+        {
+          "item": "sushi rice",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "rice vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for frying"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan, combine the rice, water, vinegar, and sugar and bring to a boil. Cover and cook over low heat for 20 minutes. Fluff the rice. Transfer to a bowl and let cool. Season with salt."
+        },
+        {
+          "step": 2,
+          "text": "In a large nonstick skillet, heat 1/4 inch of oil over medium-high heat until shimmering."
+        },
+        {
+          "step": 3,
+          "text": "For each cake, pack the rice into a 1/4 cup measuring cup; unmold and flatten slightly. Cook the cakes over moderately high heat, pressing until golden brown, about 4 minutes. Turn and cook for 4 minutes longer. Serve hot."
+        }
+      ],
+      "tags": [
+        "rice",
+        "sushi",
+        "asian",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7757 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-long-beans",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Stir-Fried Long Beans",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 280",
+      "description": "Asian long beans stir-fried with garlic, oyster sauce, and shiso.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-slow-roasted-pork-belly"
+      ],
+      "ingredients": [
+        {
+          "item": "Chinese long beans",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cut into 3-inch pieces"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "oyster sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "shiso leaves",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "shredded"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saut\u00e9 pan or wok, heat the oil over medium-high heat. When the oil is hot but not smoking, add the garlic."
+        },
+        {
+          "step": 2,
+          "text": "Cook just until fragrant, 10 seconds. Add your long beans and saut\u00e9 for 30 seconds, tossing to coat the beans with the oil."
+        },
+        {
+          "step": 3,
+          "text": "Add the stock, oyster sauce, and soy sauce. Cook the beans for 2 minutes or until they are crisp-tender. Remove from the heat, stir in the shiso, and keep warm."
+        }
+      ],
+      "tags": [
+        "long beans",
+        "vegetable",
+        "asian",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7757 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-pappardelle-wild-mushrooms",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Homemade Pappardelle with Wild Mushrooms, Poached Egg, and Shaved Black Truffles",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 285-290",
+      "description": "If you want to make it onto Hell's Kitchen, you're going to have to learn to make pasta from scratch. Wide pappardelle noodles with earthy wild mushrooms, a runny poached egg, and luxurious shaved truffles.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh pappardelle pasta",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "homemade or store-bought"
+        },
+        {
+          "item": "mixed wild mushrooms",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "chanterelles, oyster, shiitake, cleaned and sliced"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "shallots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "minced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "large eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "black truffle",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": "for shaving"
+        },
+        {
+          "item": "truffle oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for drizzling"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook pappardelle in boiling salted water until al dente. Drain, reserving 1/2 cup pasta water."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, melt butter in large skillet over medium-high heat. Add mushrooms and cook until golden, 5-6 minutes. Add shallots, garlic, and thyme, cook 2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add stock and cream, simmer until slightly reduced. Toss with pasta and Parmesan, adding pasta water as needed."
+        },
+        {
+          "step": 4,
+          "text": "To poach eggs: Bring a pot of water to a simmer, add vinegar. Crack eggs into simmering water, turn off heat, cover, and leave until whites are set but yolks are runny, about 4 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Divide pasta among plates, top each with a poached egg. Shave truffle over top and drizzle with truffle oil."
+        }
+      ],
+      "tips": [
+        "Making pasta takes practice and patience, but once you get on a roll, it becomes a lot of fun",
+        "Use any fresh mushrooms that are local or in season"
+      ],
+      "tags": [
+        "pasta",
+        "pappardelle",
+        "mushrooms",
+        "truffle",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7761 Medium.jpeg",
+        "IMG_7762 Medium.jpeg",
+        "IMG_7763 Medium.jpeg",
+        "IMG_7764 Medium.jpeg",
+        "IMG_7765 Medium.jpeg",
+        "IMG_7766 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-ny-strip-truffle-polenta",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "NY Strip Steak with Truffle Polenta Fries, Saut\u00e9ed Spinach, and Tomato Jam",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 294-299",
+      "description": "Prime NY strip steak paired with crispy truffle-infused polenta fries, saut\u00e9ed spinach, and sweet-savory tomato jam.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-truffle-polenta-fries",
+        "gordon-ramsay-tomato-jam"
+      ],
+      "ingredients": [
+        {
+          "item": "NY strip steaks",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "12-ounce each"
+        },
+        {
+          "item": "neutral oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baby spinach",
+          "quantity": "2",
+          "unit": "lbs"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Remove steaks from refrigerator 30 minutes before cooking. Season generously with salt and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Heat oil in cast-iron skillet over high heat until smoking. Add steaks and cook 4 minutes per side for medium-rare."
+        },
+        {
+          "step": 3,
+          "text": "Add butter and baste steaks. Rest 5 minutes before serving."
+        },
+        {
+          "step": 4,
+          "text": "For spinach: Heat butter in large pan, add garlic, then spinach. Cook until wilted. Season with salt and pepper."
+        },
+        {
+          "step": 5,
+          "text": "Serve steak with truffle polenta fries, spinach, and tomato jam."
+        }
+      ],
+      "tags": [
+        "steak",
+        "ny strip",
+        "polenta",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7779 Medium.jpeg",
+        "IMG_7780 Medium.jpeg",
+        "IMG_7781 Medium.jpeg",
+        "IMG_7782 Medium.jpeg",
+        "IMG_7783 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-truffle-polenta-fries",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Truffle Polenta Fries",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 298",
+      "description": "Crispy fried polenta sticks infused with truffle oil and Parmesan.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-ny-strip-truffle-polenta"
+      ],
+      "ingredients": [
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "2",
+          "unit": "sprigs"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove"
+        },
+        {
+          "item": "instant polenta",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "truffle oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for frying"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine the milk, cream, thyme, and garlic in a medium saucepot. Heat over medium-high until the mixture just boils."
+        },
+        {
+          "step": 2,
+          "text": "Remove the thyme and garlic, lower the heat to medium, and add the polenta to the milk and cream in a slow, steady stream, whisking constantly."
+        },
+        {
+          "step": 3,
+          "text": "Now with a wooden spoon, continue mixing for about 5 minutes or until the mixture is cooked. Remove from the heat. Stir in 2 tablespoons butter, Parmesan and truffle oil. Season to taste with salt and pepper."
+        },
+        {
+          "step": 4,
+          "text": "Line a half-sheet pan with parchment paper. Spread the polenta evenly with a spatula into a 1/2-inch-thick layer. Cover and refrigerate until completely set, at least 2 hours."
+        },
+        {
+          "step": 5,
+          "text": "Cut the polenta into fry-shaped sticks. Heat oil to 350\u00b0F and fry until golden and crispy, about 3-4 minutes."
+        }
+      ],
+      "temperature": "350\u00b0F (oil)",
+      "tags": [
+        "polenta",
+        "fries",
+        "truffle",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7781 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-tomato-jam",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Tomato Jam",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 298",
+      "description": "Sweet and savory tomato jam to accompany steak.",
+      "servings_yield": "about 1 cup",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-ny-strip-truffle-polenta"
+      ],
+      "ingredients": [
+        {
+          "item": "Roma tomatoes",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cored and quartered"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "balsamic vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a saucepan. Bring to a boil, then reduce heat and simmer until thick and jammy, about 45 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Cool slightly, then pulse in food processor to desired consistency."
+        }
+      ],
+      "tags": [
+        "jam",
+        "tomato",
+        "condiment",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7782 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-dauphinoise-potatoes",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Dauphinoise Potatoes",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 350-352",
+      "description": "Thinly sliced potatoes bathed in cream, topped with cheese, and baked au gratin. Also known as scalloped potatoes, this dish comes from the Dauphin\u00e9 region of France.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "russet potatoes",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "peeled"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "fresh sage",
+          "quantity": "1",
+          "unit": "sprig"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "peeled and smashed"
+        },
+        {
+          "item": "Gruy\u00e8re or Comt\u00e9 cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "finely shredded"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat the oven to 400\u00b0F and butter an 8-inch round baking pan."
+        },
+        {
+          "step": 2,
+          "text": "Using a mandoline or a very sharp chef's knife, slice the potatoes just right - about 1/8 inch thick."
+        },
+        {
+          "step": 3,
+          "text": "In a medium saucepan, combine the cream, salt, pepper, sage, and garlic. Heat over medium just until it begins to simmer. Remove from heat and let steep 10 minutes. Remove sage and garlic."
+        },
+        {
+          "step": 4,
+          "text": "Arrange a layer of potatoes in the pan, slightly overlapping. Pour a thin layer of cream over potatoes. Repeat layers until all potatoes and cream are used."
+        },
+        {
+          "step": 5,
+          "text": "Cover with foil and bake 45 minutes. Remove foil, top with cheese, and bake uncovered 15-20 minutes until golden and bubbling."
+        },
+        {
+          "step": 6,
+          "text": "Let rest 10 minutes before serving."
+        }
+      ],
+      "temperature": "400\u00b0F",
+      "pan_size": "8-inch round baking pan",
+      "tips": [
+        "This recipe requires a mandoline or a very sharp chef's knife to slice the potatoes just right"
+      ],
+      "tags": [
+        "potatoes",
+        "gratin",
+        "french",
+        "side dish",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7833 Medium.jpeg",
+        "IMG_7834 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-vanilla-bean-cheesecake",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Vanilla Bean Cheesecake",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 385-388",
+      "description": "Classic New York-style cheesecake based in cream cheese, flavored only with vanilla and set into a simple crisp graham cracker crust. Baked in a water bath (bain-marie) until just set with a bit of wiggle.",
+      "servings_yield": "8 servings",
+      "ingredients": [
+        {
+          "item": "graham cracker crumbs",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "for crust"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": "melted"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "at room temperature"
+        },
+        {
+          "item": "light brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "large eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla bean",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeds scraped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 325\u00b0F. Wrap outside of 9-inch springform pan with foil to prevent leaks."
+        },
+        {
+          "step": 2,
+          "text": "For crust: Mix graham crumbs, sugar, and butter. Press into bottom of pan. Bake 10 minutes. Cool."
+        },
+        {
+          "step": 3,
+          "text": "Boil a pot of water while you mix the filling."
+        },
+        {
+          "step": 4,
+          "text": "Beat the cream cheese in the bowl of an electric mixer with the paddle attachment on medium-high until smooth, around 2-3 minutes. Scrape down sides with a spatula and add brown sugar."
+        },
+        {
+          "step": 5,
+          "text": "Beat again until combined. Beat in eggs one at a time. Next beat in the sour cream, vanilla extract, and seeds."
+        },
+        {
+          "step": 6,
+          "text": "Pour filling over crust. Place the springform pan into a larger pan and pour the boiling water into larger pan until it comes halfway up the side of the cheesecake pan."
+        },
+        {
+          "step": 7,
+          "text": "Bake on the center oven rack in the water bath for around 1 hour, or until just set; the center of the cheesecake should jiggle."
+        },
+        {
+          "step": 8,
+          "text": "Once done, turn off the oven and let the cheesecake sit for 30 minutes. Remove from oven, cool, and then refrigerate for at least 10 hours."
+        }
+      ],
+      "temperature": "325\u00b0F",
+      "pan_size": "9-inch springform pan",
+      "tips": [
+        "An excellent cheesecake is dense but never heavy, firm but not rigid",
+        "A perfect cheesecake can stand on its own, no embellishments required"
+      ],
+      "tags": [
+        "cheesecake",
+        "vanilla",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7868 Medium.jpeg",
+        "IMG_7869 Medium.jpeg",
+        "IMG_7870 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-cinnamon-ice-cream-walnut-sable",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Cinnamon Ice Cream, Caramelized Apples, and Walnut Sabl\u00e9",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 371-375",
+      "description": "Cinnamon, apples, and walnuts are natural partners. This dessert offers a play on the apple crumble effect: apples are caramelized, topped with cinnamon-infused ice cream, and finished with a buttery, crumbly walnut sabl\u00e9.",
+      "servings_yield": "5 servings",
+      "components": [
+        "gordon-ramsay-cinnamon-ice-cream",
+        "gordon-ramsay-walnut-sable-cookies",
+        "gordon-ramsay-caramelized-apples-dessert"
+      ],
+      "ingredients": [],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare the cinnamon ice cream, walnut sabl\u00e9 cookies, and caramelized apples according to their individual recipes."
+        },
+        {
+          "step": 2,
+          "text": "To serve: Place warm caramelized apples in a bowl. Top with a scoop of cinnamon ice cream and a walnut sabl\u00e9 cookie."
+        }
+      ],
+      "tips": [
+        "Each element can be prepared a day or two ahead",
+        "You could also go solo with the sabl\u00e9s or ice cream for a pared-down everyday treat"
+      ],
+      "tags": [
+        "ice cream",
+        "cinnamon",
+        "apple",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7853 Medium.jpeg",
+        "IMG_7854 Medium.jpeg",
+        "IMG_7855 Medium.jpeg",
+        "IMG_7856 Medium.jpeg",
+        "IMG_7857 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-walnut-sable-cookies",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Walnut Sabl\u00e9 Cookies",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 371",
+      "description": "French shortbread-style cookies with toasted walnuts.",
+      "servings_yield": "about 12 cookies",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-cinnamon-ice-cream-walnut-sable"
+      ],
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cake flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "toasted chopped walnuts",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "large egg yolk",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together flours, baking powder, salt, and walnuts."
+        },
+        {
+          "step": 2,
+          "text": "Beat butter and sugar until fluffy. Add egg yolk and vanilla, beat until combined."
+        },
+        {
+          "step": 3,
+          "text": "Add flour mixture and mix until just combined. Form into a log, wrap in plastic, refrigerate 2 hours."
+        },
+        {
+          "step": 4,
+          "text": "Preheat oven to 325\u00b0F. Slice into 1/4-inch rounds and bake 15-18 minutes until edges are golden."
+        }
+      ],
+      "temperature": "325\u00b0F",
+      "tags": [
+        "cookies",
+        "sabl\u00e9",
+        "walnut",
+        "french",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7853 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-passion-fruit-tart",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Passion Fruit Tart with Buttermilk Sherbet",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 415-419",
+      "description": "Passion fruit curd set into a sweet pastry base and topped with a scoop of tangy-sweet refreshing buttermilk sherbet. Passion fruit's sweet-tart taste profile shares lemon's flavor but is something a little different.",
+      "servings_yield": "one 9-inch tart or five 4 1/2-inch mini-tarts",
+      "components": [
+        "gordon-ramsay-buttermilk-sherbet",
+        "gordon-ramsay-sweet-tart-shell"
+      ],
+      "ingredients": [
+        {
+          "item": "passion fruit puree",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "large eggs",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "large egg yolks",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "cut into cubes, softened"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk the passion fruit puree, sugar, eggs, and yolks in a medium saucepan."
+        },
+        {
+          "step": 2,
+          "text": "Cook over medium heat, whisking constantly, until thickened and coats the back of a spoon (170\u00b0F), about 8-10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat and whisk in butter one piece at a time until smooth."
+        },
+        {
+          "step": 4,
+          "text": "Strain through a fine-mesh sieve into the baked tart shell."
+        },
+        {
+          "step": 5,
+          "text": "Refrigerate until set, at least 4 hours. Serve with buttermilk sherbet."
+        }
+      ],
+      "tags": [
+        "tart",
+        "passion fruit",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7904 Medium.jpeg",
+        "IMG_7905 Medium.jpeg",
+        "IMG_7906 Medium.jpeg",
+        "IMG_7907 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-buttermilk-sherbet",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Buttermilk Sherbet",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 417",
+      "description": "Tangy, refreshing buttermilk sherbet.",
+      "servings_yield": "about 1 quart",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-passion-fruit-tart"
+      ],
+      "ingredients": [
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together all ingredients until sugar dissolves."
+        },
+        {
+          "step": 2,
+          "text": "Refrigerate until very cold, at least 4 hours."
+        },
+        {
+          "step": 3,
+          "text": "Churn in ice cream maker according to manufacturer's directions."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to container and freeze until firm."
+        }
+      ],
+      "tags": [
+        "sherbet",
+        "buttermilk",
+        "frozen",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7904 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-chocolate-caramel-tart",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Chocolate Caramel Tart with Caramelized Banana Ice Cream",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 430-434",
+      "description": "Chocolate, caramel, and banana are a divinely sweet match. The crust is no more than graham cracker crumbs bound together with butter, the caramel and chocolate aren't difficult to master. Store-bought banana ice cream works too.",
+      "servings_yield": "one 9-inch tart",
+      "components": [
+        "gordon-ramsay-banana-ice-cream"
+      ],
+      "ingredients": [
+        {
+          "item": "graham cracker crumbs",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": "melted"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for caramel"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "divided"
+        },
+        {
+          "item": "bittersweet chocolate",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "for ganache"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For crust: Mix graham crumbs with melted butter. Press into 9-inch tart pan. Refrigerate 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "For caramel: Combine sugar, corn syrup, and water in saucepan. Cook over medium-high until amber, about 8-10 minutes. Carefully whisk in 1/2 cup cream. Pour into crust and refrigerate until set."
+        },
+        {
+          "step": 3,
+          "text": "For ganache: Heat remaining 1/2 cup cream until simmering. Pour over chocolate, let sit 1 minute, then whisk until smooth. Stir in butter."
+        },
+        {
+          "step": 4,
+          "text": "Pour ganache over caramel layer. Refrigerate until set, at least 2 hours."
+        },
+        {
+          "step": 5,
+          "text": "Serve slices with caramelized banana ice cream."
+        }
+      ],
+      "pan_size": "9-inch tart pan",
+      "tips": [
+        "If ice cream isn't yet in your culinary repertoire, feel free to sub in store-bought banana ice cream",
+        "Ganache is a simple mix of cream poured over chopped chocolate and stirred until smooth"
+      ],
+      "tags": [
+        "tart",
+        "chocolate",
+        "caramel",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7918 Medium.jpeg",
+        "IMG_7919 Medium.jpeg",
+        "IMG_7920 Medium.jpeg",
+        "IMG_7921 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-pineapple-tarte-tatin",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pineapple Tarte Tatin",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 420-422",
+      "description": "The classic French upside-down tart made with caramelized pineapple instead of apples. Serve immediately while warm.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "puff pastry sheet",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thawed if frozen"
+        },
+        {
+          "item": "ripe pineapple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled, cored, and chopped into 1-inch pieces"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla bean",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "halved and scraped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat the oven to 400\u00b0F. Dust the rolling pin and surface with flour, roll out the puff pastry sheet, and, using a sharp knife, cut into a 10 1/2-inch round. Transfer to a wax-paper-lined baking sheet and chill."
+        },
+        {
+          "step": 2,
+          "text": "Smear the butter evenly around the bottom of a 10-inch ovenproof skillet. Sprinkle the sugar evenly on top."
+        },
+        {
+          "step": 3,
+          "text": "Add the pineapple and cook, stirring occasionally, on a medium-high heat for around 20 minutes until a golden brown caramel sauce develops."
+        },
+        {
+          "step": 4,
+          "text": "Carefully lay the pastry over the top of the pineapple, being careful not to touch the hot caramel (using a wooden spoon to tuck the edges right under the fruit)."
+        },
+        {
+          "step": 5,
+          "text": "Bake for about 20 minutes until the pastry is golden brown and the caramel is bubbling around the edges."
+        },
+        {
+          "step": 6,
+          "text": "Remove from the oven and cool for 5 minutes. Using potholders, carefully invert onto a plate larger than the skillet. Serve immediately."
+        }
+      ],
+      "temperature": "400\u00b0F",
+      "pan_size": "10-inch ovenproof skillet",
+      "tags": [
+        "tarte tatin",
+        "pineapple",
+        "french",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7910 Medium.jpeg",
+        "IMG_7911 Medium.jpeg",
+        "IMG_7912 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-lemon-creme-brulee",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Lemon Cr\u00e8me Br\u00fbl\u00e9e",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 363-365",
+      "description": "Classic cr\u00e8me br\u00fbl\u00e9e with a bright lemon twist. The same setup as for cheesecake - baked in a water bath (bain-marie) until just set with a wobble.",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "heavy cream",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "plus more for topping"
+        },
+        {
+          "item": "lemon zest",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "finely grated"
+        },
+        {
+          "item": "large egg yolks",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 300\u00b0F. Place six 6-ounce ramekins in a roasting pan."
+        },
+        {
+          "step": 2,
+          "text": "Heat cream, milk, half the sugar, and lemon zest in a saucepan until just simmering. Remove from heat and steep 15 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Whisk yolks with remaining sugar until pale. Slowly whisk in warm cream mixture. Stir in vanilla. Strain through fine-mesh sieve."
+        },
+        {
+          "step": 4,
+          "text": "Divide custard among ramekins. Pour hot water into roasting pan to come halfway up sides of ramekins."
+        },
+        {
+          "step": 5,
+          "text": "Bake until custards are set but still jiggly in center, about 45-50 minutes. Remove ramekins from water bath and cool. Refrigerate at least 4 hours."
+        },
+        {
+          "step": 6,
+          "text": "To serve: Sprinkle sugar in an even layer over each custard. Using a kitchen torch, caramelize the sugar until golden and crackling. Or put under the broiler as close as you can get it and watch carefully. Pull out and cool completely so the top hardens before serving."
+        }
+      ],
+      "temperature": "300\u00b0F",
+      "pan_size": "six 6-ounce ramekins",
+      "tags": [
+        "cr\u00e8me br\u00fbl\u00e9e",
+        "lemon",
+        "custard",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7843 Medium.jpeg",
+        "IMG_7844 Medium.jpeg",
+        "IMG_7845 Medium.jpeg",
+        "IMG_7846 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-bread-pudding-fig-jam",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Bread Pudding with Fig Jam and White Pepper Ice Cream",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 367-370",
+      "description": "Classic comfort food bread pudding elevated with fig jam and an unexpectedly delicious white pepper ice cream.",
+      "servings_yield": "8 servings",
+      "components": [
+        "gordon-ramsay-white-pepper-ice-cream"
+      ],
+      "ingredients": [
+        {
+          "item": "day-old brioche or challah",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cut into 1-inch cubes"
+        },
+        {
+          "item": "whole milk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "large eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "fig jam",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "for pan"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F. Butter a 9x13-inch baking dish."
+        },
+        {
+          "step": 2,
+          "text": "Spread bread cubes in dish. Dollop fig jam over bread."
+        },
+        {
+          "step": 3,
+          "text": "Whisk milk, cream, sugar, eggs, vanilla, and cinnamon. Pour over bread. Let sit 30 minutes, pressing bread down occasionally."
+        },
+        {
+          "step": 4,
+          "text": "Bake until puffed and golden, about 45-50 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Serve warm with white pepper ice cream."
+        }
+      ],
+      "temperature": "350\u00b0F",
+      "pan_size": "9x13-inch baking dish",
+      "tags": [
+        "bread pudding",
+        "fig",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7848 Medium.jpeg",
+        "IMG_7849 Medium.jpeg",
+        "IMG_7850 Medium.jpeg",
+        "IMG_7851 Medium.jpeg",
+        "IMG_7852 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-white-pepper-ice-cream",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "White Pepper Ice Cream",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 367",
+      "description": "Unexpectedly delicious ice cream with a subtle kick of white pepper.",
+      "servings_yield": "about 1 quart",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-bread-pudding-fig-jam"
+      ],
+      "ingredients": [
+        {
+          "item": "heavy cream",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "freshly ground white pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "large egg yolks",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat cream, milk, half the sugar, and white pepper in saucepan until simmering. Remove from heat and steep 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Whisk yolks with remaining sugar until pale. Slowly whisk in warm cream mixture."
+        },
+        {
+          "step": 3,
+          "text": "Return to pan and cook over medium heat, stirring constantly, until mixture coats back of spoon (170\u00b0F)."
+        },
+        {
+          "step": 4,
+          "text": "Strain through fine-mesh sieve. Stir in vanilla. Chill completely."
+        },
+        {
+          "step": 5,
+          "text": "Churn in ice cream maker according to manufacturer's directions."
+        }
+      ],
+      "tags": [
+        "ice cream",
+        "white pepper",
+        "frozen",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7848 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
     }
   ]
 }
