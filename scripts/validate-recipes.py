@@ -17,9 +17,10 @@ from pathlib import Path
 REQUIRED_FIELDS = ['id', 'title', 'ingredients', 'instructions', 'category']
 OPTIONAL_FIELDS = ['attribution', 'source_note', 'description', 'servings_yield',
                    'prep_time', 'cook_time', 'total_time', 'temperature', 'pan_size',
-                   'notes', 'tags', 'confidence', 'image_refs', 'page_continuation',
-                   'conversions', 'nutrition', 'variant_of', 'variant_notes', 'canonical_id',
-                   'frosting', 'oven_directions']
+                   'notes', 'tips', 'substitutions', 'tags', 'confidence', 'image_refs',
+                   'page_continuation', 'conversions', 'nutrition', 'variant_of',
+                   'variant_notes', 'canonical_id', 'frosting', 'oven_directions',
+                   'components', 'component_of', 'is_component']
 
 VALID_CATEGORIES = ['appetizers', 'basics', 'beverages', 'breads', 'breakfast',
                     'cheese', 'desserts', 'mains', 'salads', 'sides', 'soups', 'snacks']
