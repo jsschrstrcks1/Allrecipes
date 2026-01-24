@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "soups",
-    "count": 141,
+    "count": 149,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -437,7 +437,7 @@
           "unit": ""
         },
         {
-          "item": "minced jalapeño",
+          "item": "minced jalape\u00f1o",
           "quantity": "2",
           "unit": ""
         },
@@ -495,7 +495,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Sauté the diced onion, minced jalapeño and garlic cloves in canola oil in a large pot. Add the ground cumin."
+          "text": "Saut\u00e9 the diced onion, minced jalape\u00f1o and garlic cloves in canola oil in a large pot. Add the ground cumin."
         },
         {
           "step": 2,
@@ -503,7 +503,7 @@
         },
         {
           "step": 3,
-          "text": "Stir in lime juice. Meanwhile, toast the tortilla in a 350°F oven until crisp."
+          "text": "Stir in lime juice. Meanwhile, toast the tortilla in a 350\u00b0F oven until crisp."
         },
         {
           "step": 4,
@@ -658,7 +658,7 @@
         },
         {
           "step": 4,
-          "text": "Heat a large Dutch oven over medium-high heat. Coat pan with cooking spray. Add onion and next 5 ingredients (through garlic); sauté 5 minutes."
+          "text": "Heat a large Dutch oven over medium-high heat. Coat pan with cooking spray. Add onion and next 5 ingredients (through garlic); saut\u00e9 5 minutes."
         },
         {
           "step": 5,
@@ -889,7 +889,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat a Dutch oven over medium-high heat. Coat pan with cooking spray. Add onion, mushrooms, and garlic to pan; sauté 5 minutes or until liquid evaporates, stirring occasionally. Reduce heat to medium; add butter to mushroom mixture, stirring until butter melts. Sprinkle mushroom mixture with flour; cook 2 minutes, stirring occasionally. Gradually add milk and broth, stirring constantly with a whisk; bring to a boil. Reduce heat to medium-low; cook 10 minutes or until slightly thick, stirring constantly."
+          "text": "Heat a Dutch oven over medium-high heat. Coat pan with cooking spray. Add onion, mushrooms, and garlic to pan; saut\u00e9 5 minutes or until liquid evaporates, stirring occasionally. Reduce heat to medium; add butter to mushroom mixture, stirring until butter melts. Sprinkle mushroom mixture with flour; cook 2 minutes, stirring occasionally. Gradually add milk and broth, stirring constantly with a whisk; bring to a boil. Reduce heat to medium-low; cook 10 minutes or until slightly thick, stirring constantly."
         },
         {
           "step": 2,
@@ -1028,7 +1028,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oil in a large Dutch oven over medium-high heat. Add pepper stir-fry to pan; sauté 5 minutes. Add carrots; sauté, stirring occasionally. Add broth, chiles, and tomatoes; bring to a boil. Reduce heat, and simmer 15 minutes or until carrots are tender, stirring occasionally."
+          "text": "Heat oil in a large Dutch oven over medium-high heat. Add pepper stir-fry to pan; saut\u00e9 5 minutes. Add carrots; saut\u00e9, stirring occasionally. Add broth, chiles, and tomatoes; bring to a boil. Reduce heat, and simmer 15 minutes or until carrots are tender, stirring occasionally."
         },
         {
           "step": 2,
@@ -1067,6 +1067,136 @@
         "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
+        ]
+      }
+    },
+    {
+      "id": "broccoli-chicken-noodle-soup-lightened",
+      "collection": "reference",
+      "collection_display": "Reference Cookbook",
+      "title": "Broccoli and Chicken Noodle Soup",
+      "category": "soups",
+      "source_note": "Cooking Light Magazine - Lighten Up by Kathy Kitchens Downie, RD",
+      "servings_yield": "10 servings (serving size: 1 cup)",
+      "description": "If the broccoli florets are large, break into smaller pieces at the stalk instead of chopping them; they'll cook more quickly. Count on having dinner on the table in about 40 minutes, and serve this soup the moment it's done for the best results. In fact, if you wait, you'll find it gets thicker with time. If you have leftovers, you will want to thin the soup with a little chicken broth or milk to the desired consistency.",
+      "ingredients": [
+        {
+          "item": "cooking spray",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "presliced mushrooms",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic clove, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour (about 1/4 cup)",
+          "quantity": "1.1",
+          "unit": "oz"
+        },
+        {
+          "item": "1% low-fat milk",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "fat-free, less-sodium chicken broth",
+          "quantity": "1",
+          "unit": "14-oz can"
+        },
+        {
+          "item": "uncooked vermicelli, broken into 2-inch pieces",
+          "quantity": "4",
+          "unit": "oz"
+        },
+        {
+          "item": "shredded light processed cheese (such as Velveeta Light)",
+          "quantity": "2",
+          "unit": "cups (8 oz)"
+        },
+        {
+          "item": "cubed cooked chicken breast",
+          "quantity": "4",
+          "unit": "cups (1-inch)"
+        },
+        {
+          "item": "small broccoli florets (8 ounces)",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "half-and-half",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "3/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat a Dutch oven over medium-high heat. Coat pan with cooking spray. Add onion, mushrooms, and garlic to pan; saut\u00e9 5 minutes or until liquid evaporates, stirring occasionally. Reduce heat to medium; add butter to mushroom mixture, stirring until butter melts. Sprinkle mushroom mixture with flour; cook 2 minutes, stirring occasionally. Gradually add milk and broth, stirring constantly with a whisk; bring to a boil. Reduce heat to medium-low; cook 10 minutes or until slightly thick, stirring constantly."
+        },
+        {
+          "step": 2,
+          "text": "Add pasta to pan; cook 10 minutes. Add cheese to pan, and stir until cheese melts. Add chicken and remaining ingredients to pan; cook 5 minutes or until broccoli is tender and soup is thoroughly heated. Yield: 10 servings (serving size: 1 cup)."
+        }
+      ],
+      "notes": [
+        "Before: CALORIES 534, FAT 33g, SODIUM 1,289mg | After: CALORIES 317; FAT 12.3g (sat 6.8g, mono 2.9g, poly 0.9g); PROTEIN 27.5g; CARB 23.8g; FIBER 1.9g; CHOL 74mg; IRON 1.6mg; SODIUM 723mg; CALC 179mg"
+      ],
+      "tags": [
+        "soup",
+        "chicken",
+        "broccoli",
+        "noodle",
+        "lightened"
+      ],
+      "image_refs": [
+        "magazine-recipes - 35.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 476,
+          "fat_g": 30.1,
+          "carbs_g": 13.8,
+          "protein_g": 36.3,
+          "sodium_mg": 641,
+          "fiber_g": 1.5,
+          "sugar_g": 7.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 10 servings"
         ]
       }
     },
@@ -1173,7 +1303,7 @@
       "category": "soups",
       "source_note": "Cooking Light Magazine March 2009 - Slow Cooker",
       "servings_yield": "6 servings",
-      "description": "Cumin and fiery serrano chile infuse this simple soup as it cooks, and a dollop of sour cream provides a refreshing foil for the spicy flavors. For less heat, seed the chile first or use a milder pepper, such as jalapeño. You can also omit the chile altogether, if you prefer.",
+      "description": "Cumin and fiery serrano chile infuse this simple soup as it cooks, and a dollop of sour cream provides a refreshing foil for the spicy flavors. For less heat, seed the chile first or use a milder pepper, such as jalape\u00f1o. You can also omit the chile altogether, if you prefer.",
       "ingredients": [
         {
           "item": "dried black beans",
@@ -1289,7 +1419,7 @@
       "category": "soups",
       "source_note": "Cooking Light Magazine March 2009 - Heirloom Beans Feature",
       "servings_yield": "8 servings (serving size: 1 1/4 cups soup and 1 tablespoon cheese)",
-      "description": "Borlotti beans—the Italian variety of cranberry beans—can be ordered from www.ranchogordo.com, among other online retailers. Why are time-honored varieties of beans finding fresh favor in home kitchens? 'I think heirloom beans taste better,' says Steve Sando, whose Rancho Gordo in Napa, California, grows and sells nearly 30 varieties of distinctive beans. 'Runner beans tend to be buttery. Christmas limas have a distinct chestnut taste, and the bean broth is beefy. Some types are like potatoes in texture; others are creamy.'",
+      "description": "Borlotti beans\u2014the Italian variety of cranberry beans\u2014can be ordered from www.ranchogordo.com, among other online retailers. Why are time-honored varieties of beans finding fresh favor in home kitchens? 'I think heirloom beans taste better,' says Steve Sando, whose Rancho Gordo in Napa, California, grows and sells nearly 30 varieties of distinctive beans. 'Runner beans tend to be buttery. Christmas limas have a distinct chestnut taste, and the bean broth is beefy. Some types are like potatoes in texture; others are creamy.'",
       "ingredients": [
         {
           "item": "dried borlotti beans (about 1/2 pound)",
@@ -1388,13 +1518,13 @@
         },
         {
           "step": 3,
-          "text": "Heat a large Dutch oven over medium-high heat. Add bacon to pan; cook 6 minutes or until crisp, stirring frequently. Add onion and next 5 ingredients (through garlic); sauté 4 minutes. Add zucchini; sauté 3 minutes. Add kale; sauté 2 minutes or until kale wilts. Add 3 cups water, tomato paste, broth, and tomatoes; bring to a boil. Cover, reduce heat, and simmer 30 minutes. Add beans; simmer, uncovered, 30 minutes. Stir in salt and pepper; sprinkle with cheese. Yield: 8 servings (serving size: 1 1/4 cups soup and 1 tablespoon cheese)."
+          "text": "Heat a large Dutch oven over medium-high heat. Add bacon to pan; cook 6 minutes or until crisp, stirring frequently. Add onion and next 5 ingredients (through garlic); saut\u00e9 4 minutes. Add zucchini; saut\u00e9 3 minutes. Add kale; saut\u00e9 2 minutes or until kale wilts. Add 3 cups water, tomato paste, broth, and tomatoes; bring to a boil. Cover, reduce heat, and simmer 30 minutes. Add beans; simmer, uncovered, 30 minutes. Stir in salt and pepper; sprinkle with cheese. Yield: 8 servings (serving size: 1 1/4 cups soup and 1 tablespoon cheese)."
         }
       ],
       "notes": [
         "CALORIES 224; FAT 5.7g (sat 2.4g, mono 2.1g, poly 0.7g); PROTEIN 14.9g; CARB 31.6g; FIBER 10.7g; CHOL 12mg; IRON 3mg; SODIUM 662mg; CALC 199mg",
         "For another heirloom bean recipe, see Anasazi and Black Bean Chili, page 167.",
-        "Borlotti beans—the Italian variety of cranberry beans—can be ordered from www.ranchogordo.com, among other online retailers.",
+        "Borlotti beans\u2014the Italian variety of cranberry beans\u2014can be ordered from www.ranchogordo.com, among other online retailers.",
         "Runner beans tend to be buttery. Christmas limas have a distinct chestnut taste, and the bean broth is beefy.",
         "They've been saved from extinction because they taste good."
       ],
@@ -1523,13 +1653,13 @@
         "Make this soup the night before to allow time for its flavors to develop.",
         "Pour hot servings into a thermos to take for lunch, or reheat individual portions in the microwave as needed.",
         "Serve the soup with crusty bread, crackers, or Spicy Whole-Wheat Pita Chips.",
-        "Make dishes ahead when possible—like many soups and stews, this improves with time.",
+        "Make dishes ahead when possible\u2014like many soups and stews, this improves with time.",
         "Keep it separate: To prevent soggy sandwiches, pack separate zip-top bags of tomato slices, lettuce, and bread, then assemble just before serving.",
         "Don't dress leafy salads until you are ready to eat. Salt will draw moisture out of watery ingredients.",
         "Put leftovers to good use. Consider applying extras from dinner to the next day's lunch.",
-        "Stay safe: Keep cold food cold (below 40°) and hot food hot (above 140°) as it travels.",
+        "Stay safe: Keep cold food cold (below 40\u00b0) and hot food hot (above 140\u00b0) as it travels.",
         "Use insulated lunch bags, coolers, thermoses, ice bags, and frozen gel packs.",
-        "If re-heating items in a microwave, the USDA recommends they reach 165° and are served steaming hot."
+        "If re-heating items in a microwave, the USDA recommends they reach 165\u00b0 and are served steaming hot."
       ],
       "tags": [
         "soup",
@@ -1771,7 +1901,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Combine 2 cups water, the broth, ham, sherry, sugar, ginger, orange zest, ½ teaspoon salt, and pepper to taste in a large pot. Cover and bring to a boil over high heat. Add the scallion whites, mushrooms and carrots. Reduce the heat and simmer, uncovered, until the carrots are crisp-tender, about 4 minutes."
+          "text": "Combine 2 cups water, the broth, ham, sherry, sugar, ginger, orange zest, \u00bd teaspoon salt, and pepper to taste in a large pot. Cover and bring to a boil over high heat. Add the scallion whites, mushrooms and carrots. Reduce the heat and simmer, uncovered, until the carrots are crisp-tender, about 4 minutes."
         },
         {
           "step": 2,
@@ -2052,7 +2182,7 @@
         },
         {
           "step": 2,
-          "text": "Heat the oil in a soup pot over medium heat and sauté the onion for 3-4 minutes."
+          "text": "Heat the oil in a soup pot over medium heat and saut\u00e9 the onion for 3-4 minutes."
         },
         {
           "step": 3,
@@ -2184,7 +2314,7 @@
         },
         {
           "step": 2,
-          "text": "Add the garlic into the pot and sauté for a couple of minutes."
+          "text": "Add the garlic into the pot and saut\u00e9 for a couple of minutes."
         },
         {
           "step": 3,
@@ -5188,7 +5318,7 @@
       "category": "soups",
       "attribution": "Half Baked Harvest",
       "source_note": "Half Baked Harvest - Mexican Recipes",
-      "description": "Serve to your family tonight, but don’t overlook this for a dinner party...simple to create, healthy, and looks pretty!",
+      "description": "Serve to your family tonight, but don\u2019t overlook this for a dinner party...simple to create, healthy, and looks pretty!",
       "servings_yield": "6",
       "prep_time": "15 minutes",
       "cook_time": "25 minutes",
@@ -5300,7 +5430,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1. Preheat the oven to 400°.2. In a baking dish, toss together the chicken, garlic, paprika, cumin, salt, and pepper. Arrange the butter slices over the chicken. Bake for 20-30 minutes, until the chicken is cooked through. 3. Meanwhile, make the sauce. In a sauce pot, warm 4 tablespoons butter or olive oil with onion powder, garlic powder, cayenne, and chipotle chili powder. Add the fresno pepper or chil flakes to taste. Cook over low heat until melted. Remove from the heat, whisk in the honey and lime juice. Add the cilantro. Season with salt.4. Spoon the sauce over the warm chicken. Serve the chicken and sauce over bowls of rice with fresh basil and additional sauce."
+          "text": "1. Preheat the oven to 400\u00b0.2. In a baking dish, toss together the chicken, garlic, paprika, cumin, salt, and pepper. Arrange the butter slices over the chicken. Bake for 20-30 minutes, until the chicken is cooked through. 3. Meanwhile, make the sauce. In a sauce pot, warm 4 tablespoons butter or olive oil with onion powder, garlic powder, cayenne, and chipotle chili powder. Add the fresno pepper or chil flakes to taste. Cook over low heat until melted. Remove from the heat, whisk in the honey and lime juice. Add the cilantro. Season with salt.4. Spoon the sauce over the warm chicken. Serve the chicken and sauce over bowls of rice with fresh basil and additional sauce."
         }
       ],
       "temperature": "",
@@ -5452,7 +5582,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1. Preheat the oven to 425° F. 2. On a baking sheet, toss the chicken with olive oil, honey, garlic, chili powder, cumin, and season with chili flakes and salt. 3. Add the bell peppers, onion, and 1 tablespoon of olive oil - season with salt. Arrange everything evenly on the pan. Bake for 20-25 minutes or until the chicken is cooked and the peppers begin to char. 4. Meanwhile, make the vinaigrette. Toss all ingredients in a bowl and season with salt.5. Thinly slice the chicken. Serve the chicken and peppers over bowls of rice. Top the chicken with avocado and tomatoes. Add a dollop of yogurt and fresh cilantro."
+          "text": "1. Preheat the oven to 425\u00b0 F.\u00a02. On a baking sheet, toss the chicken with olive oil, honey, garlic, chili powder, cumin, and season with chili flakes and salt.\u00a03. Add the bell peppers, onion, and 1 tablespoon of olive oil - season with salt. Arrange everything evenly on the pan. Bake for 20-25 minutes or until the chicken is cooked and the peppers begin to char.\u00a04. Meanwhile, make the vinaigrette. Toss all ingredients in a bowl and season with salt.5. Thinly slice the chicken. Serve the chicken and peppers over bowls of rice. Top the chicken with avocado and tomatoes. Add a dollop of yogurt and fresh cilantro."
         }
       ],
       "temperature": "",
@@ -5486,7 +5616,7 @@
       "category": "soups",
       "attribution": "Delicious Magazine",
       "source_note": "Delicious Magazine - Mexican Recipes",
-      "description": "This zingy chicken broth recipe from Charlotte Pike makes the perfect nourishing lunch on a chilly day. Let it simmer away in your slow cooker, then serve with tortillas and avocado. Charlotte says: “Sopa de lima, as it’s called in Mexico, is a wonderfully zingy yet light chicken soup. Cooking the chicken thighs with the bones in, then removing them just before serving keeps the meat juicy and tender.&#8221; Recipe taken from Quick Prep Slow Cook by Charlotte Pike (Hamlyn £16.99) and tested by d",
+      "description": "This zingy chicken broth recipe from Charlotte Pike makes the perfect nourishing lunch on a chilly day. Let it simmer away in your slow cooker, then serve with tortillas and avocado. Charlotte says: \u201cSopa de lima, as it\u2019s called in Mexico, is a wonderfully zingy yet light chicken soup. Cooking the chicken thighs with the bones in, then removing them just before serving keeps the meat juicy and tender.&#8221; Recipe taken from Quick Prep Slow Cook by Charlotte Pike (Hamlyn \u00a316.99) and tested by d",
       "servings_yield": "Serves 4",
       "prep_time": "15 minutes",
       "cook_time": "4 hours",
@@ -5517,7 +5647,7 @@
           "prep_note": ""
         },
         {
-          "item": " 1 tsp allspice berries",
+          "item": "\u00a01 tsp allspice berries",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -5547,7 +5677,7 @@
           "prep_note": ""
         },
         {
-          "item": "½-1 tsp fine salt",
+          "item": "\u00bd-1 tsp fine salt",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -5684,7 +5814,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Boil the beef, bones, and vegetables in two quarts of water over a slow fire—adding pepper and salt. Skim occasionally, and after two hours add two tablespoons of sherry; then strain through fine soup-strainer or cheese-cloth. This is the basis of all the following soups, except when otherwise stated."
+          "text": "Boil the beef, bones, and vegetables in two quarts of water over a slow fire\u2014adding pepper and salt. Skim occasionally, and after two hours add two tablespoons of sherry; then strain through fine soup-strainer or cheese-cloth. This is the basis of all the following soups, except when otherwise stated."
         },
         {
           "step": 2,
@@ -6535,13 +6665,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "½ cups diced salsify",
+          "item": "\u00bd cups diced salsify",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "½ cups water",
+          "item": "\u00bd cups water",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -6605,7 +6735,7 @@
           "sugar_g": 12.0
         },
         "missing_inputs": [
-          "1  ½ cups diced salsify"
+          "1  \u00bd cups diced salsify"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -6651,7 +6781,7 @@
           "prep_note": ""
         },
         {
-          "item": "½ cups flour",
+          "item": "\u00bd cups flour",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -6663,7 +6793,7 @@
           "prep_note": ""
         },
         {
-          "item": "½ cup milk",
+          "item": "\u00bd cup milk",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -6857,7 +6987,7 @@
           "prep_note": ""
         },
         {
-          "item": "⅓ cups flour",
+          "item": "\u2153 cups flour",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -6875,7 +7005,7 @@
           "prep_note": ""
         },
         {
-          "item": "½ tsp. salt",
+          "item": "\u00bd tsp. salt",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -6947,13 +7077,13 @@
           "prep_note": ""
         },
         {
-          "item": "½ qts. water",
+          "item": "\u00bd qts. water",
           "quantity": "2",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "½ tsp. salt",
+          "item": "\u00bd tsp. salt",
           "quantity": "2",
           "unit": "",
           "prep_note": ""
@@ -7004,7 +7134,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cut a young stewing chicken into serving pieces, bring to a boil and simmer for 2½ hours, adding water as needed. Skim off the fat and add:"
+          "text": "Cut a young stewing chicken into serving pieces, bring to a boil and simmer for 2\u00bd hours, adding water as needed. Skim off the fat and add:"
         },
         {
           "step": 2,
@@ -7037,6 +7167,326 @@
           "sodium_mg": 624,
           "fiber_g": 2.5,
           "sugar_g": 1.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "beef-soup-stock-gutenberg-6385",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Beef Soup Stock",
+      "category": "soups",
+      "attribution": "Isola",
+      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
+      "description": "Vintage recipe: Brodo di Carne",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "round of beef",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "",
+          "quantity": "2",
+          "unit": "small",
+          "prep_note": "new carrots, or 1/2 of an old carrot"
+        },
+        {
+          "item": "beef bones",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "potatoes",
+          "quantity": "2",
+          "unit": "small",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "fresh or canned"
+        },
+        {
+          "item": "Parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil the beef, bones, and vegetables in two quarts of water over a slow fire\u2014adding pepper and salt. Skim occasionally, and after two hours add two tablespoons of sherry; then strain through fine soup-strainer or cheese-cloth. This is the basis of all the following soups, except when otherwise stated."
+        },
+        {
+          "step": 2,
+          "text": "To make this stock richer, add a turkey leg to above receipt; boil one and a half hours, then add one-half a pound of finely chopped beef. Cook for half an hour longer, then strain."
+        },
+        {
+          "step": 3,
+          "text": "To make meat jelly, add a little gelatine to the soup stock five minutes before straining."
+        },
+        {
+          "step": 4,
+          "text": "To give a good dark color to the stock, add a few drops of \"caramel,\" which is prepared in the following manner:"
+        },
+        {
+          "step": 5,
+          "text": "Put three tablespoons of granulated sugar into a saucepan with a little water, and until the sugar has become dark and reddish; then add a little more water and boil again until the sugar is melted. Strain and pour into a bottle when the caramel will keep perfectly for several weeks."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original: Brodo di Carne"
+      ],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 393,
+          "fat_g": 15.7,
+          "carbs_g": 22.3,
+          "protein_g": 39.0,
+          "sodium_mg": 110,
+          "fiber_g": 2.9,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "rice-soup-gutenberg-6385",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Rice Soup",
+      "category": "soups",
+      "attribution": "Isola",
+      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
+      "description": "Vintage recipe: Minestra di Riso",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Meat stock",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "rice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cover the rice with water and boil for ten minutes; then drain and add to the stock (after it has been strained), and boil for five or ten minutes more."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original: Minestra di Riso"
+      ],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 10,
+          "fat_g": 0.1,
+          "carbs_g": 1.7,
+          "protein_g": 0.6,
+          "sodium_mg": 215,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "stracciatella-soup-gutenberg-6385",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Stracciatella Soup",
+      "category": "soups",
+      "attribution": "Isola",
+      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
+      "description": "Vintage recipe: Minestra di Stracciatella",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bread crumbs",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat the egg, yolk and white together; add salt and the cheese, grated, and the bread crumbs; mix well together and add to the boiling stock (strained). Stir well with a fork to prevent the egg from setting, and boil for four or five minutes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original: Minestra di Stracciatella"
+      ],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 27,
+          "fat_g": 1.5,
+          "carbs_g": 1.3,
+          "protein_g": 2.0,
+          "sodium_mg": 42,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "vegetable-chowder-gutenberg-6385",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Vegetable Chowder",
+      "category": "soups",
+      "attribution": "Isola",
+      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
+      "description": "Vintage recipe: Minestrone alla Milanese",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "stock 2 slices of lean pork",
+          "quantity": "1/2",
+          "unit": "quart",
+          "prep_note": "or a ham bone 2 tomatoes, fresh or canned 1 cup of rice 2 tablespoons of dried beans 1 tablespoon of peas, fresh or canned 2 onions"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put into the stock the slices of pork, cut into small pieces; or, if desired, a ham bone may be substituted for the pork. Add the tomatoes, cut into small pieces also, the onions, in small pieces, and the rice. Boil all together until the rice is cooked. Then add the beans and the peas and cook a little longer. The soup is ready when it is thick. If desired, this chowder can be made with fish broth instead of the stock, and with the addition of shrimps which have been taken from their shells."
+        },
+        {
+          "step": 2,
+          "text": "This dish can be served hot or cold."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original: Minestrone alla Milanese"
+      ],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 8,
+          "fat_g": 0.2,
+          "carbs_g": 0.5,
+          "protein_g": 1.0,
+          "sodium_mg": 430,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -7125,6 +7575,248 @@
         "missing_inputs": [
           "1 liberal pound of fresh codfish"
         ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "lentil-soup-gutenberg-6385",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Lentil Soup",
+      "category": "soups",
+      "attribution": "Isola",
+      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
+      "description": "Vintage recipe: Brodo di Lenticchie",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "dried lentils 1/2 tablespoon of butter 2 tablespoons of cream Meat stock",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cover the lentils with water and boil until they are quite soft. Pass them through a colander or a sieve. Melt the butter in a saucepan, add the lentils and cream, mixing well, then add a ladleful of the stock, and boil for a few minutes; then add the rest of the desired amount of stock, a ladleful at a time."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original: Brodo di Lenticchie"
+      ],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 40,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "lettuce-soup-gutenberg-6385",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Lettuce Soup",
+      "category": "soups",
+      "attribution": "Isola",
+      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
+      "description": "Vintage recipe: Zuppa di Lattuga",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "lettuce Meat stock 2 potatoes The leaves of a head of celery 2 tablespoons of peas",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": "fresh or canned 1 heaping tablespoon of flour"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put the potatoes, cold boiled, into the stock when it boils, add the celery leaves, the lettuce chopped up, the peas, and the flour mixed well with a little cold stock or water. Boil for one hour and a half, and serve with little squares of fried bread."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original: Zuppa di Lattuga"
+      ],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 small lettuce Meat stock 2 potatoes The leaves of a head of celery 2 tablespoons of peas"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "pumpkin-soup-gutenberg-6385",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pumpkin Soup",
+      "category": "soups",
+      "attribution": "Isola",
+      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
+      "description": "Vintage recipe: Zuppa di Zucca",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "pumpkin 2 tablespoons of butter 1/2 cup of water 1-1/2 cups of milk 1 tablespoon of sugar",
+          "quantity": "1",
+          "unit": "slice",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel the pumpkin and remove the seeds, cut into small pieces, and put into a saucepan with the butter, the sugar, a pinch of salt, and the water. Boil for two hours, then drain and put back into the saucepan with the milk, which has been boiled. Allow it to come to a boil, and then serve it with squares of fried bread."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original: Zuppa di Zucca"
+      ],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "potato-soup-gutenberg-6385",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Potato Soup",
+      "category": "soups",
+      "attribution": "Isola",
+      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
+      "description": "Vintage recipe: Zuppa alla Provinciale",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "potatoes 3 tablespoons of cream or milk 2 tablespoons of butter 2 yolks of eggs Soup stock",
+          "quantity": "2",
+          "unit": "large",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil the potatoes, then rub them through a sieve. Put them into a saucepan with the butter, a little salt, and the cream or milk. Simmer until it is thick, then add the yolks of the two eggs to form it into a paste. Turn out onto the bread-board, cut into small dice, and throw them into the stock, which must be boiling. If desired, before serving sprinkle a little Parmesan cheese into the soup."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Original: Zuppa alla Provinciale"
+      ],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 2.5,
+          "carbs_g": 0.2,
+          "protein_g": 3.0,
+          "sodium_mg": 36,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -7227,13 +7919,13 @@
           "prep_note": ""
         },
         {
-          "item": "½ tsp. sugar",
+          "item": "\u00bd tsp. sugar",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "½ tsp. salt",
+          "item": "\u00bd tsp. salt",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -7347,7 +8039,7 @@
           "prep_note": ""
         },
         {
-          "item": "½ tsp. salt",
+          "item": "\u00bd tsp. salt",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -7386,7 +8078,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cut potatoes in small pieces and cook with onion in boiling salted water until tender—use 3 cups of water and ½ teaspoon salt. Drain (saving the potato water) and rub the potatoes through a sieve. There should be about 2 cups of potato pulp. Make a white sauce of the butter, flour, seasonings, Carnation, and potato water. Add slowly to the potatoes, stirring to keep smooth. Reheat in the double boiler. Sprinkle with chopped parsley and serve very hot. Serves 6."
+          "text": "Cut potatoes in small pieces and cook with onion in boiling salted water until tender\u2014use 3 cups of water and \u00bd teaspoon salt. Drain (saving the potato water) and rub the potatoes through a sieve. There should be about 2 cups of potato pulp. Make a white sauce of the butter, flour, seasonings, Carnation, and potato water. Add slowly to the potatoes, stirring to keep smooth. Reheat in the double boiler. Sprinkle with chopped parsley and serve very hot. Serves 6."
         }
       ],
       "temperature": "",
@@ -7494,7 +8186,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Wash, scrape, and cut celery in ½ inch pieces; cook with slice of onion in 3 cups boiling water until celery is soft—about 30 minutes. Drain (saving the celery liquor) and rub through a sieve. Make a white sauce of the butter, flour, seasonings, Carnation, and celery liquor. Combine celery pulp and white sauce and serve while hot. Serves 6."
+          "text": "Wash, scrape, and cut celery in \u00bd inch pieces; cook with slice of onion in 3 cups boiling water until celery is soft\u2014about 30 minutes. Drain (saving the celery liquor) and rub through a sieve. Make a white sauce of the butter, flour, seasonings, Carnation, and celery liquor. Combine celery pulp and white sauce and serve while hot. Serves 6."
         }
       ],
       "temperature": "",
@@ -7759,7 +8451,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "½ inch cube of fat salt pork",
+          "item": "\u00bd inch cube of fat salt pork",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -7819,7 +8511,7 @@
           "prep_note": ""
         },
         {
-          "item": "½ tsp. salt",
+          "item": "\u00bd tsp. salt",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -7828,7 +8520,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cut pork into small pieces and fry out the fat; add onion and cook until brown. Strain fat into a sauce pan, add potatoes cut in ½ inch cubes, 2 cups of boiling water, and 1 tsp. salt; simmer until tender. Then add the white sauce made of the butter, flour, seasonings, and Carnation diluted with the water. Add the corn and heat the mixture to the boiling point. Place a cracker in a soup plate, dish chowder and serve immediately. Serves 10."
+          "text": "Cut pork into small pieces and fry out the fat; add onion and cook until brown. Strain fat into a sauce pan, add potatoes cut in \u00bd inch cubes, 2 cups of boiling water, and 1 tsp. salt; simmer until tender. Then add the white sauce made of the butter, flour, seasonings, and Carnation diluted with the water. Add the corn and heat the mixture to the boiling point. Place a cracker in a soup plate, dish chowder and serve immediately. Serves 10."
         }
       ],
       "temperature": "",
@@ -7942,7 +8634,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cut pork into small pieces and fry out the fat; add onion and cook until brown. Strain fat into a sauce pan, add potatoes cut in ½ inch cubes, 1 cup of boiling water, and 1 tsp. salt; simmer until tender. Then add the white sauce made of the butter, flour, seasonings, and Carnation diluted with the water. Add the minced clams with their liquor and heat to the boiling point. Place a cracker in a soup plate, dish chowder and serve immediately. Serves 5."
+          "text": "Cut pork into small pieces and fry out the fat; add onion and cook until brown. Strain fat into a sauce pan, add potatoes cut in \u00bd inch cubes, 1 cup of boiling water, and 1 tsp. salt; simmer until tender. Then add the white sauce made of the butter, flour, seasonings, and Carnation diluted with the water. Add the minced clams with their liquor and heat to the boiling point. Place a cracker in a soup plate, dish chowder and serve immediately. Serves 5."
         }
       ],
       "temperature": "",
@@ -8736,7 +9428,7 @@
         },
         {
           "step": 4,
-          "text": "dep»end upon thequantity inthestock. Celery saltmaybe"
+          "text": "dep\u00bbend upon thequantity inthestock. Celery saltmaybe"
         }
       ],
       "temperature": "",
@@ -9098,13 +9790,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Bouillon—made from lean beef",
+          "item": "Bouillon\u2014made from lean beef",
           "quantity": "1",
           "unit": "",
           "prep_note": "delicately seasoned and"
         },
         {
-          "item": "Brown Soup Stock—made from beef",
+          "item": "Brown Soup Stock\u2014made from beef",
           "quantity": "2",
           "unit": "",
           "prep_note": "highly seasoned"
@@ -9121,11 +9813,11 @@
         },
         {
           "step": 3,
-          "text": "3 White Soup Stock—made from chicken orveal, delicately"
+          "text": "3 White Soup Stock\u2014made from chicken orveal, delicately"
         },
         {
           "step": 4,
-          "text": "4 Consomme—usually made from twoorthree kinds of"
+          "text": "4 Consomme\u2014usually made from twoorthree kinds of"
         },
         {
           "step": 5,
@@ -9133,11 +9825,11 @@
         },
         {
           "step": 6,
-          "text": "5 Lamb Stock—delicately seasoned isserved asmutton"
+          "text": "5 Lamb Stock\u2014delicately seasoned isserved asmutton"
         },
         {
           "step": 7,
-          "text": "1 Cream Soups—made ofvegetables orfish,withmilkand"
+          "text": "1 Cream Soups\u2014made ofvegetables orfish,withmilkand"
         },
         {
           "step": 8,
@@ -9145,11 +9837,11 @@
         },
         {
           "step": 9,
-          "text": "2 Puree?—made from vegetables orfish, forced through a"
+          "text": "2 Puree?\u2014made from vegetables orfish, forced through a"
         },
         {
           "step": 10,
-          "text": "3 Bisque—likepurees, except themeat orvegetables are"
+          "text": "3 Bisque\u2014likepurees, except themeat orvegetables are"
         }
       ],
       "temperature": "",
@@ -13044,7 +13736,7 @@
           "prep_note": ""
         },
         {
-          "item": "onion—sliced",
+          "item": "onion\u2014sliced",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -13218,7 +13910,7 @@
           "prep_note": ""
         },
         {
-          "item": "tomato—afresh orcanned",
+          "item": "tomato\u2014afresh orcanned",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -14179,7 +14871,7 @@
         },
         {
           "step": 3,
-          "text": "Note.—Gumbo, orfile, isapowder madeandsoldinLouis-"
+          "text": "Note.\u2014Gumbo, orfile, isapowder madeandsoldinLouis-"
         },
         {
           "step": 4,
@@ -14914,7 +15606,7 @@
       "title": "French Onion Soup",
       "category": "soups",
       "source_note": "French bistro classic",
-      "description": "Deeply caramelized onions in rich beef broth, topped with crusty bread and melted Gruyère.",
+      "description": "Deeply caramelized onions in rich beef broth, topped with crusty bread and melted Gruy\u00e8re.",
       "servings_yield": "6 servings",
       "prep_time": "20 min",
       "cook_time": "1 hour 30 min",
@@ -14973,7 +15665,7 @@
           "prep_note": "sliced and toasted"
         },
         {
-          "item": "Gruyère cheese",
+          "item": "Gruy\u00e8re cheese",
           "quantity": "2",
           "unit": "cups",
           "prep_note": "shredded"
@@ -15015,7 +15707,7 @@
         },
         {
           "step": 8,
-          "text": "Top each with bread slices and generous Gruyère."
+          "text": "Top each with bread slices and generous Gruy\u00e8re."
         },
         {
           "step": 9,
@@ -15024,13 +15716,13 @@
       ],
       "notes": [
         "Don't rush the onion caramelization - it's the key to flavor",
-        "Swiss cheese can substitute for Gruyère"
+        "Swiss cheese can substitute for Gruy\u00e8re"
       ],
       "tags": [
         "soup",
         "French",
         "onion",
-        "Gruyère",
+        "Gruy\u00e8re",
         "comfort food"
       ],
       "confidence": {
@@ -15039,25 +15731,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 65,
-          "fat_g": 0.8,
-          "carbs_g": 13.3,
-          "protein_g": 1.3,
-          "sodium_mg": 396,
-          "fiber_g": 2.1,
-          "sugar_g": 5.7
+          "calories": 327,
+          "fat_g": 23.9,
+          "carbs_g": 12.7,
+          "protein_g": 13.3,
+          "sodium_mg": 1483,
+          "fiber_g": 1.2,
+          "sugar_g": 3.5
         },
         "missing_inputs": [
-          "dry white wine",
-          "beef broth",
-          "bay leaf",
-          "baguette",
-          "gruyère cheese"
+          "4 sprigs fresh thyme"
         ],
         "assumptions": [
-          "Calculated from USDA ingredient data"
+          "Calculated for 6 servings"
         ]
       }
     },
@@ -15194,122 +15882,8 @@
         "cream-soup",
         "soup",
         "blue-cheese",
-        "cauliflower"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 90,
-          "fat_g": 8.0,
-          "carbs_g": 3.6,
-          "protein_g": 1.2,
-          "sodium_mg": 405,
-          "fiber_g": 0.3,
-          "sugar_g": 2.4
-        },
-        "missing_inputs": [
-          "cauliflower, 1 head",
-          "canola oil",
-          "celery stalks, chopped",
-          "chicken broth",
-          "white wine"
-        ],
-        "assumptions": [
-          "Calculated from USDA ingredient data"
-        ]
-      }
-    },
-    {
-      "id": "gr-gazpacho",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Gazpacho",
-      "category": "soups",
-      "attribution": "Gordon Ramsay",
-      "source_note": "gordonramsay.com (used with permission)",
-      "description": "Refreshing cold Spanish tomato soup",
-      "servings_yield": "4 servings",
-      "prep_time": "50 min",
-      "cook_time": "0 min",
-      "total_time": "50 min",
-      "ingredients": [
-        {
-          "item": "cucumber, chopped",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "red pepper, chopped",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "green pepper, chopped",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "ripe plum tomatoes, chopped",
-          "quantity": "1",
-          "unit": "kg"
-        },
-        {
-          "item": "garlic",
-          "quantity": "2",
-          "unit": "cloves"
-        },
-        {
-          "item": "spring onions",
-          "quantity": "2",
-          "unit": ""
-        },
-        {
-          "item": "stale bread, chopped",
-          "quantity": "75",
-          "unit": "g"
-        },
-        {
-          "item": "sherry vinegar",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "olive oil",
-          "quantity": "4",
-          "unit": "tbsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Combine vegetables, bread, and seasonings. Add vinegar and oil."
-        },
-        {
-          "step": 2,
-          "text": "Press down and chill at least 30 minutes or overnight."
-        },
-        {
-          "step": 3,
-          "text": "Blend until smooth. Add more oil if needed."
-        },
-        {
-          "step": 4,
-          "text": "Adjust seasoning. Serve ice cold with toasted bread."
-        }
-      ],
-      "temperature": "No cooking required",
-      "tags": [
-        "soup",
-        "spanish",
-        "cold",
-        "summer",
-        "vegetarian",
-        "gordon-ramsay"
+        "cauliflower",
+        "cheesemaking"
       ],
       "confidence": {
         "overall": "high",
@@ -15319,21 +15893,19 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 35,
-          "fat_g": 0.9,
-          "carbs_g": 6.5,
-          "protein_g": 0.5,
-          "sodium_mg": 2,
-          "fiber_g": 1.5,
-          "sugar_g": 2.5
+          "calories": 226,
+          "fat_g": 14.8,
+          "carbs_g": 15.8,
+          "protein_g": 7.6,
+          "sodium_mg": 509,
+          "fiber_g": 3.2,
+          "sugar_g": 4.8
         },
         "missing_inputs": [
-          "cucumber, chopped",
-          "ripe plum tomatoes, chopped",
-          "stale bread, chopped"
+          "as desired fresh chives for garnish"
         ],
         "assumptions": [
-          "Calculated from USDA ingredient data"
+          "Calculated for 6 servings"
         ]
       }
     }

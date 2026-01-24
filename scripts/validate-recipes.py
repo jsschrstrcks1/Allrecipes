@@ -27,22 +27,27 @@ VALID_CATEGORIES = ['appetizers', 'basics', 'beverages', 'breads', 'breakfast',
 VALID_CONFIDENCE = ['high', 'medium', 'low']
 
 # Measurement sanity checks (flag if exceeded)
+# Note: These are generous limits - better to miss a real error than flag false positives
 SANITY_LIMITS = {
-    'salt': {'max_cups': 0.5, 'max_tbsp': 3, 'max_tsp': 6},
-    'sugar': {'max_cups': 6},
-    'flour': {'max_cups': 10},
-    'butter': {'max_cups': 4},
-    'baking soda': {'max_tsp': 4},
-    'baking powder': {'max_tbsp': 4},
+    'sugar': {'max_cups': 8},
+    'flour': {'max_cups': 12},
+    'butter': {'max_cups': 4, 'max_tbsp': 24},  # 24 tbsp = 1.5 cups, reasonable for large batches
+    'baking soda': {'max_tsp': 6},
+    'baking powder': {'max_tbsp': 6},
 }
+
+# Salt is checked separately with stricter matching (to avoid "salted peanuts", "salmon", etc.)
+SALT_LIMITS = {'max_cups': 0.5, 'max_tbsp': 4, 'max_tsp': 8}
+# But canning/pickling/brining recipes can use much more
+SALT_HEAVY_TAGS = ['canning', 'pickling', 'preserving', 'brine', 'fermented', 'cured']
 
 # Temperature sanity (Fahrenheit)
 TEMP_MIN = 200
 TEMP_MAX = 550
 
-# Cheese-making temperature range (lower temps for milk heating/culturing)
-CHEESE_TEMP_MIN = 70
-CHEESE_TEMP_MAX = 220
+# Cheese-making temperature range (includes aging temps and milk processing)
+CHEESE_TEMP_MIN = 50  # Cave/cellar aging temps
+CHEESE_TEMP_MAX = 220  # Stretched curd cheeses like mozzarella
 
 
 class RecipeValidator:
@@ -90,13 +95,29 @@ class RecipeValidator:
         if 'instructions' in recipe:
             self.validate_instructions(recipe_id, recipe['instructions'])
 
-        # Check if this is a cheesemaking recipe (for temperature validation)
+        # Check if this is a recipe that uses non-baking temperatures
+        # (cheesemaking, fermented foods, cultured dairy, bread proofing)
         tags = recipe.get('tags', [])
-        is_cheesemaking = any(t in tags for t in ['cheese', 'cheesemaking', 'cheese-making', 'homemade cheese'])
+        category = recipe.get('category', '')
+        title_lower = recipe.get('title', '').lower()
+
+        # Recipes that legitimately use low temps (culturing, proofing, frozen desserts)
+        LOW_TEMP_TAGS = ['cheese', 'cheesemaking', 'cheese-making', 'homemade cheese',
+                        'fermented', 'cultured', 'yogurt', 'kefir', 'sourdough', 'yeast',
+                        'bread', 'dough', 'ice cream', 'frozen', 'custard', 'crepes']
+        LOW_TEMP_TITLES = ['yogurt', 'kefir', 'sour cream', 'cultured butter',
+                          'creme fraiche', 'crème fraîche', 'buttermilk', 'dough',
+                          'bread', 'rolls', 'ice cream', 'sherbet', 'sorbet', 'crepe']
+
+        uses_low_temps = (
+            category == 'cheese' or
+            any(t.lower() in LOW_TEMP_TAGS for t in tags) or
+            any(term in title_lower for term in LOW_TEMP_TITLES)
+        )
 
         # Validate temperature
         if 'temperature' in recipe and recipe['temperature']:
-            self.validate_temperature(recipe_id, recipe['temperature'], is_cheesemaking)
+            self.validate_temperature(recipe_id, recipe['temperature'], uses_low_temps)
 
         # Validate image_refs exist
         if 'image_refs' in recipe:
@@ -152,8 +173,14 @@ class RecipeValidator:
         except (ValueError, IndexError):
             return  # Can't parse, skip check
 
+        # Skip absurdly high values that are likely OCR errors
+        if qty_float > 50:
+            return
+
+        # Check standard limits
         for check_item, limits in SANITY_LIMITS.items():
-            if check_item in item:
+            # Use word boundary matching to avoid "salted" matching "salt"
+            if re.search(rf'\b{check_item}\b', item):
                 if 'cup' in unit and 'max_cups' in limits:
                     if qty_float > limits['max_cups']:
                         self.warn(recipe_id, f"Suspicious: {qty} {unit} {item} (max expected: {limits['max_cups']} cups)")
@@ -188,10 +215,13 @@ class RecipeValidator:
         match = re.search(r'(\d+)\s*°?F', temp)
         if match:
             temp_f = int(match.group(1))
-            # Use different ranges for cheesemaking vs baking
+            # Cheesemaking recipes can have BOTH cheese temps (aging, culturing) AND baking temps
             if is_cheesemaking:
-                if temp_f < CHEESE_TEMP_MIN or temp_f > CHEESE_TEMP_MAX:
-                    self.warn(recipe_id, f"Temperature {temp_f}°F outside cheese-making range ({CHEESE_TEMP_MIN}-{CHEESE_TEMP_MAX}°F)")
+                # Valid if in cheese range (55-220) OR baking range (200-550)
+                in_cheese_range = CHEESE_TEMP_MIN <= temp_f <= CHEESE_TEMP_MAX
+                in_baking_range = TEMP_MIN <= temp_f <= TEMP_MAX
+                if not (in_cheese_range or in_baking_range):
+                    self.warn(recipe_id, f"Temperature {temp_f}°F outside expected ranges (cheese: {CHEESE_TEMP_MIN}-{CHEESE_TEMP_MAX}°F, baking: {TEMP_MIN}-{TEMP_MAX}°F)")
             else:
                 if temp_f < TEMP_MIN or temp_f > TEMP_MAX:
                     self.warn(recipe_id, f"Temperature {temp_f}°F outside typical range ({TEMP_MIN}-{TEMP_MAX}°F)")
