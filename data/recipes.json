@@ -649572,6 +649572,3255 @@
         "missing_inputs": [],
         "assumptions": []
       }
+    },
+    {
+      "id": "gordon-ramsay-duck-breast-five-spice",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Duck Breast with Five-Spice Braised Endive and Parsnip Puree",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 199-201",
+      "description": "Duck and orange are well-suited partners. Here we cook the duck on the stovetop, bathed in orange-flavored cognac Grand Marnier, with earthy parsnip puree and five-spice braised endive.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-parsnip-puree",
+        "gordon-ramsay-braised-endive"
+      ],
+      "ingredients": [
+        {
+          "item": "boneless duck breasts",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "8-ounce each, skin on"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "Grand Marnier",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "orange juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Score the skin of the duck breasts in a crosshatch pattern, being careful not to cut into the meat. Season with salt and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Place duck breasts skin side down in a cold skillet. Turn heat to medium and cook until skin is golden and crispy, about 12-15 minutes, draining fat as needed."
+        },
+        {
+          "step": 3,
+          "text": "Turn breasts over and cook 3-4 minutes for medium-rare. Transfer to cutting board and rest."
+        },
+        {
+          "step": 4,
+          "text": "Pour off all but 1 tablespoon of fat. Add Grand Marnier (carefully - it may flame) and reduce by half. Add stock and orange juice, reduce until syrupy. Swirl in butter."
+        },
+        {
+          "step": 5,
+          "text": "Slice duck and serve over parsnip puree with braised endive and sauce."
+        }
+      ],
+      "tips": [
+        "Score duck skin deeply to render fat properly",
+        "Starting in a cold pan allows fat to render slowly for crispier skin"
+      ],
+      "tags": [
+        "duck",
+        "french",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7666 Medium.jpeg",
+        "IMG_7667 Medium.jpeg",
+        "IMG_7668 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-parsnip-puree",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Parsnip Puree",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 199",
+      "description": "Earthy, creamy mashed parsnips.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-duck-breast-five-spice"
+      ],
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "parsnips",
+          "quantity": "1 1/4",
+          "unit": "lbs",
+          "prep_note": "about 4 medium, peeled and cut into 1/2-inch pieces"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "white pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt butter in a medium saucepan. Add parsnips and cook until starting to soften, about 5 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add cream and enough water to cover. Simmer until very tender, about 20 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Drain, reserving liquid. Puree parsnips in blender, adding liquid as needed for smooth consistency. Season with salt and white pepper."
+        }
+      ],
+      "tags": [
+        "puree",
+        "parsnip",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7666 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-braised-endive",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Five-Spice Braised Endive",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 199",
+      "description": "Belgian endive braised with aromatic five-spice powder - a mix of star anise, cloves, Chinese cinnamon, Sichuan pepper, and fennel seeds.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-duck-breast-five-spice"
+      ],
+      "ingredients": [
+        {
+          "item": "Belgian endive",
+          "quantity": "4",
+          "unit": "heads",
+          "prep_note": "halved lengthwise"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "five-spice powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt butter in a large skillet over medium heat. Add endive cut side down and cook until golden, about 4 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle with five-spice powder. Add stock and honey."
+        },
+        {
+          "step": 3,
+          "text": "Cover and braise until tender, about 15 minutes. Season with salt."
+        }
+      ],
+      "tags": [
+        "endive",
+        "braised",
+        "five-spice",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7667 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-duck-polenta-grape",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Duck Breast with Polenta and Walnut-Grape Compote",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 202-204",
+      "description": "Seared duck breast served over creamy polenta with a red wine walnut-grape compote.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-polenta-duck",
+        "gordon-ramsay-walnut-grape-compote"
+      ],
+      "ingredients": [
+        {
+          "item": "boneless duck breasts",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "8-ounce each, skin on"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Score the duck skin in crosshatch pattern. Season with salt and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Place duck skin side down in cold skillet. Cook over medium heat until skin is crispy, 12-15 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Flip and cook 3-4 minutes more for medium-rare. Rest before slicing."
+        },
+        {
+          "step": 4,
+          "text": "Serve sliced duck over polenta with walnut-grape compote."
+        }
+      ],
+      "tips": [
+        "You can use duck or veal stock if you have some"
+      ],
+      "substitutions": [
+        {
+          "original": "chicken stock",
+          "substitute": "duck stock or veal stock",
+          "note": "If you have some available"
+        }
+      ],
+      "tags": [
+        "duck",
+        "polenta",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7669 Medium.jpeg",
+        "IMG_7670 Medium.jpeg",
+        "IMG_7671 Medium.jpeg",
+        "IMG_7672 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-polenta-duck",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Creamy Polenta (for Duck)",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 202",
+      "description": "Creamy instant polenta with thyme and rosemary.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-duck-polenta-grape"
+      ],
+      "ingredients": [
+        {
+          "item": "garlic clove",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "half-and-half",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "fresh rosemary",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "instant polenta",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "mascarpone cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine milk, cream, thyme, and garlic in a medium saucepot. Heat over medium-high until just boiling."
+        },
+        {
+          "step": 2,
+          "text": "Remove thyme and garlic, lower heat to medium, and add polenta in a slow, steady stream, whisking constantly."
+        },
+        {
+          "step": 3,
+          "text": "Continue mixing about 5 minutes until thickened. Remove from heat and stir in butter and Parmesan. Season with salt and pepper."
+        }
+      ],
+      "tags": [
+        "polenta",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7672 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-walnut-grape-compote",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Walnut-Grape Compote",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 202",
+      "description": "Red wine compote with grapes and toasted walnuts.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-duck-polenta-grape"
+      ],
+      "ingredients": [
+        {
+          "item": "large garlic cloves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "minced"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "dry red wine",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "red seedless grapes",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "about 1 1/4 cups, halved"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "fresh rosemary",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "chopped toasted walnut halves",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "about 1 cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat olive oil in a medium saut\u00e9 pan over medium heat. Add garlic and cook 1-2 minutes until fragrant."
+        },
+        {
+          "step": 2,
+          "text": "Add wine, stock, grapes, thyme, and rosemary. Bring to a boil and reduce by half."
+        },
+        {
+          "step": 3,
+          "text": "Stir in walnuts. Season to taste."
+        }
+      ],
+      "tags": [
+        "compote",
+        "grapes",
+        "walnuts",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7672 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-halibut-fennel-veloute",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pan-Roasted Halibut, Fennel Puree and Potato Crisps, Fennel Velout\u00e9",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 206-213",
+      "description": "Halibut with a triple hit of fennel - pureed, in a velout\u00e9, and as fronds for garnish. Served with crispy potato crisps.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-fennel-puree",
+        "gordon-ramsay-fennel-veloute",
+        "gordon-ramsay-potato-crisps"
+      ],
+      "ingredients": [
+        {
+          "item": "halibut fillets",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "6-ounce each"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat oil and butter in a large saut\u00e9 pan. Add the potato slices and cook for 5 minutes until golden and crisp. Season to taste."
+        },
+        {
+          "step": 2,
+          "text": "In a large saut\u00e9 pan, heat the oil and butter over medium-high heat. Season fish with salt and pepper."
+        },
+        {
+          "step": 3,
+          "text": "Add fillets in a single layer and saut\u00e9 about 2 minutes. Reduce heat to moderate and cook 1 minute more."
+        },
+        {
+          "step": 4,
+          "text": "Turn fillet and cook 2-3 minutes or until fish flakes."
+        },
+        {
+          "step": 5,
+          "text": "Mound the carrot puree into the center of each plate. Top with fish fillet. Garnish each plate with fennel velout\u00e9, potato crisps, and fennel fronds."
+        }
+      ],
+      "tags": [
+        "halibut",
+        "fish",
+        "fennel",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7678 Medium.jpeg",
+        "IMG_7679 Medium.jpeg",
+        "IMG_7680 Medium.jpeg",
+        "IMG_7681 Medium.jpeg",
+        "IMG_7682 Medium.jpeg",
+        "IMG_7683 Medium.jpeg",
+        "IMG_7684 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-hells-kitchen-burger",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Hell's Kitchen Burger with Special Sauce and Oven Fries",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 261-264",
+      "description": "The ultimate comfort food elevated to Hell's Kitchen standards with a special sauce and crispy oven fries.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-special-sauce",
+        "gordon-ramsay-oven-fries"
+      ],
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1 1/2",
+          "unit": "lbs",
+          "prep_note": "80/20 blend"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "yellow mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "finely diced onion",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "American cheese",
+          "quantity": "4",
+          "unit": "slices"
+        },
+        {
+          "item": "brioche buns",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "butter lettuce",
+          "quantity": "4",
+          "unit": "leaves"
+        },
+        {
+          "item": "tomato slices",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "red onion slices",
+          "quantity": "4",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "While the fries are in the oven, form the burgers. In a large bowl, use your hands to gently combine the beef with salt, mustard, onion, and Worcestershire sauce."
+        },
+        {
+          "step": 2,
+          "text": "Divide the meat into fourths and shape into patties, being careful to handle the meat as little as possible. Make a depression in the center of each patty with the back of a measuring spoon to help the burger hold its shape."
+        },
+        {
+          "step": 3,
+          "text": "Heat a cast-iron skillet over medium-high heat until it smokes slightly, about 2 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Cook the patties, flipping them once, until they're browned and cooked through, 2 minutes a side for rare, 3 minutes a side for medium rare."
+        },
+        {
+          "step": 5,
+          "text": "Place a slice of cheese atop each patty and keep the skillet covered until the cheese has melted, about 1 minute."
+        },
+        {
+          "step": 6,
+          "text": "Toast the buns. Spread special sauce on both halves. Add lettuce, tomato, onion, and burger. Serve with oven fries."
+        }
+      ],
+      "tips": [
+        "Don't overwork the meat - handle as little as possible for juicy burgers",
+        "Making a depression in the center prevents the burger from puffing up"
+      ],
+      "tags": [
+        "burger",
+        "beef",
+        "comfort food",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7735 Medium.jpeg",
+        "IMG_7736 Medium.jpeg",
+        "IMG_7737 Medium.jpeg",
+        "IMG_7738 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-special-sauce",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Special Sauce (for Hell's Kitchen Burger)",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 263",
+      "description": "Special burger sauce with mayo, ketchup, and spices.",
+      "servings_yield": "about 1/2 cup",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-hells-kitchen-burger"
+      ],
+      "ingredients": [
+        {
+          "item": "mayonnaise",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "ketchup",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sweet relish",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "yellow mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "pinch"
+        },
+        {
+          "item": "cayenne",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "pinch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine the mayonnaise, ketchup, sweet relish, mustard, garlic powder, paprika, pepper, and cayenne in a small bowl. Mix well to combine."
+        }
+      ],
+      "tags": [
+        "sauce",
+        "burger",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7738 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-truffle-mac-cheese",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Truffle Mac and Cheese",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 359-361",
+      "description": "Comfort food reaches new heights in this take on classic mac and cheese enriched with truffle oil. Uses cavatappi (corkscrew-shaped) pasta.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "cavatappi or mezzi rigatoni",
+          "quantity": "3/4",
+          "unit": "lb"
+        },
+        {
+          "item": "truffle oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "or more to taste"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "2",
+          "unit": "sprigs",
+          "prep_note": "leaves only"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "whole milk",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "warmed"
+        },
+        {
+          "item": "Gruy\u00e8re cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "white cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "panko breadcrumbs",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F. Cook pasta according to package directions until al dente. Drain and toss with truffle oil."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter in a saucepan over medium heat. Add paprika and thyme, cook 1 minute."
+        },
+        {
+          "step": 3,
+          "text": "Whisk in flour and cook 2 minutes. Gradually whisk in warm milk. Cook, stirring, until thickened, about 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat and stir in Gruy\u00e8re, cheddar, and half the Parmesan until melted. Season with salt and pepper."
+        },
+        {
+          "step": 5,
+          "text": "Fold in pasta. Transfer to a baking dish. Top with panko mixed with remaining Parmesan."
+        },
+        {
+          "step": 6,
+          "text": "Bake until golden and bubbling, about 20 minutes."
+        }
+      ],
+      "temperature": "375\u00b0F",
+      "tips": [
+        "If unavailable, regular rigatoni, elbow macaroni, or whichever pasta shape you prefer will work",
+        "Panko breadcrumbs are Japanese-style and coarser than regular American breadcrumbs"
+      ],
+      "substitutions": [
+        {
+          "original": "cavatappi or mezzi rigatoni",
+          "substitute": "regular rigatoni, elbow macaroni, or any pasta shape",
+          "note": "If unavailable"
+        }
+      ],
+      "tags": [
+        "mac and cheese",
+        "pasta",
+        "truffle",
+        "comfort food",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7840 Medium.jpeg",
+        "IMG_7841 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-drunken-apple-pie",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Drunken Apple Pie",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 376-378",
+      "description": "Old-fashioned apple pie spiced with cinnamon, nutmeg, and allspice, brightened with a swig of bourbon. A dessert designed for adults.",
+      "servings_yield": "8 servings",
+      "components": [
+        "gordon-ramsay-pie-pastry"
+      ],
+      "ingredients": [
+        {
+          "item": "medium Granny Smith apples",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground allspice",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "bourbon",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "cut into small pieces"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten with 1 tbsp water for egg wash"
+        },
+        {
+          "item": "turbinado sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for sprinkling"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 425\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Peel, core, and slice apples into 1/4-inch thick slices. Toss with sugar, flour, spices, salt, and bourbon."
+        },
+        {
+          "step": 3,
+          "text": "Roll out one disk of pastry dough and fit into a 9-inch pie plate. Add apple filling and dot with butter."
+        },
+        {
+          "step": 4,
+          "text": "Roll out second disk and place over filling. Trim, fold edges under, and crimp. Cut vents in top."
+        },
+        {
+          "step": 5,
+          "text": "Brush with egg wash and sprinkle with turbinado sugar."
+        },
+        {
+          "step": 6,
+          "text": "Bake 20 minutes, then reduce heat to 375\u00b0F and bake 35-40 minutes more until golden and filling is bubbling."
+        },
+        {
+          "step": 7,
+          "text": "Cool at least 2 hours before serving. Serve with cinnamon ice cream or white pepper ice cream."
+        }
+      ],
+      "temperature": "425\u00b0F then 375\u00b0F",
+      "pan_size": "9-inch pie plate",
+      "tips": [
+        "Add a scoop of cinnamon ice cream and it will be over the top",
+        "Try the white pepper ice cream or buttermilk sherbet for something a little different"
+      ],
+      "tags": [
+        "pie",
+        "apple",
+        "bourbon",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7858 Medium.jpeg",
+        "IMG_7859 Medium.jpeg",
+        "IMG_7860 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-pie-pastry",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pastry Dough (for Pie)",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 376",
+      "description": "Flaky butter pie crust.",
+      "servings_yield": "2 crusts (top and bottom)",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-drunken-apple-pie"
+      ],
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": "plus more for rolling"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2 1/2",
+          "unit": "sticks",
+          "prep_note": "cut into 1/4-inch cubes, very cold"
+        },
+        {
+          "item": "ice water",
+          "quantity": "6-8",
+          "unit": "tbsp",
+          "prep_note": "as needed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pulse flour, sugar, and salt in food processor. Add butter and pulse until mixture resembles coarse meal with some pea-sized pieces."
+        },
+        {
+          "step": 2,
+          "text": "Add ice water 1 tablespoon at a time, pulsing until dough just comes together."
+        },
+        {
+          "step": 3,
+          "text": "Divide dough in half, flatten into disks, wrap in plastic, and refrigerate at least 1 hour."
+        }
+      ],
+      "tags": [
+        "pastry",
+        "pie crust",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7858 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-chocolate-molten-cakes",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Chocolate Molten Cakes with Caramel and Malted Milk Ice Cream",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 408-414",
+      "description": "Individual chocolate cakes with gooey molten centers, served with salted caramel and malted milk ice cream.",
+      "servings_yield": "6 servings",
+      "components": [
+        "gordon-ramsay-caramel-sauce",
+        "gordon-ramsay-malted-milk-ice-cream",
+        "gordon-ramsay-marcona-almond-brittle"
+      ],
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "large egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "1",
+          "unit": "stick",
+          "prep_note": "8 tablespoons"
+        },
+        {
+          "item": "bittersweet chocolate",
+          "quantity": "5",
+          "unit": "oz",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 425\u00b0F. Butter and sugar six 4-ounce ramekins."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter and chocolate together in a double boiler or microwave, stirring until smooth. Cool slightly."
+        },
+        {
+          "step": 3,
+          "text": "Whisk sugar, egg, yolks, and vanilla until pale and thick, about 2 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Fold in chocolate mixture, then fold in flour and salt until just combined."
+        },
+        {
+          "step": 5,
+          "text": "Divide batter among ramekins. Can refrigerate up to 24 hours at this point."
+        },
+        {
+          "step": 6,
+          "text": "Bake 12-14 minutes until edges are set but center is still soft."
+        },
+        {
+          "step": 7,
+          "text": "Let stand 1 minute, then invert onto plates. Serve with caramel sauce, ice cream, and brittle."
+        }
+      ],
+      "temperature": "425\u00b0F",
+      "pan_size": "six 4-ounce ramekins",
+      "tips": [
+        "The center should be liquid - don't overbake",
+        "Batter can be made ahead and refrigerated up to 24 hours"
+      ],
+      "tags": [
+        "chocolate",
+        "molten",
+        "lava cake",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7894 Medium.jpeg",
+        "IMG_7895 Medium.jpeg",
+        "IMG_7900 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-caramel-sauce",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Caramel Sauce",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 413",
+      "description": "Classic salted caramel sauce for desserts.",
+      "servings_yield": "about 1 cup",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-chocolate-molten-cakes"
+      ],
+      "ingredients": [
+        {
+          "item": "granulated sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine the corn syrup, sugar, and water in a medium-sized, heavy-bottomed saucepan and stir gently."
+        },
+        {
+          "step": 2,
+          "text": "Place the pan over medium-high heat and cook the mixture without stirring, lifting the pan and swirling the mixture periodically to ensure the sugar cooks evenly."
+        },
+        {
+          "step": 3,
+          "text": "Once the mixture begins to caramelize and becomes a light amber color, about 8-10 minutes, you may remove it from the heat if the color is to your liking. If you like a darker caramel with an almost burnt flavor, continue to cook the sugar until it reaches a dark amber color."
+        },
+        {
+          "step": 4,
+          "text": "Remove the pot from the heat, add the butter, and stir. Once melted, carefully add the cream, as the mixture may bubble up. The caramel may seize up at this point, but once it is returned to medium heat for another minute or two, it will become smooth again."
+        },
+        {
+          "step": 5,
+          "text": "Add the salt. Serve warm over cakes."
+        }
+      ],
+      "tips": [
+        "The caramel may seize when you add cream but will smooth out when returned to heat"
+      ],
+      "tags": [
+        "caramel",
+        "sauce",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7900 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-raspberry-cremeux-tart",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Raspberry Cr\u00e9meux Tart with Sabl\u00e9 Breton Crust and Raspberry Sorbet",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 435-438",
+      "description": "Cr\u00e9meux (French for 'creamy') is a rich pudding made from chocolate or fruit. This raspberry version is enriched with egg yolks and butter, poured into a sabl\u00e9 Breton crust from Brittany, France.",
+      "servings_yield": "one 9-inch tart or five 4 1/2-inch mini-tarts",
+      "components": [
+        "gordon-ramsay-raspberry-puree",
+        "gordon-ramsay-sable-breton",
+        "gordon-ramsay-raspberry-sorbet-tart"
+      ],
+      "ingredients": [
+        {
+          "item": "raspberry puree",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "powdered gelatin",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cold water",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": "softened"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Sprinkle gelatin over cold water in a small bowl. Let stand 5 minutes to bloom."
+        },
+        {
+          "step": 2,
+          "text": "Heat raspberry puree and half the sugar in a saucepan until simmering."
+        },
+        {
+          "step": 3,
+          "text": "Whisk yolks with remaining sugar until pale. Slowly whisk in hot raspberry mixture to temper."
+        },
+        {
+          "step": 4,
+          "text": "Return to pan and cook, stirring constantly, until thickened and coats a spoon (170\u00b0F)."
+        },
+        {
+          "step": 5,
+          "text": "Remove from heat. Stir in bloomed gelatin until dissolved. Cool to 140\u00b0F."
+        },
+        {
+          "step": 6,
+          "text": "Whisk in softened butter until smooth. Pour into baked tart shell."
+        },
+        {
+          "step": 7,
+          "text": "Refrigerate until set, at least 4 hours. Serve with raspberry sorbet."
+        }
+      ],
+      "tips": [
+        "Pistachio ice cream would also be lovely here"
+      ],
+      "substitutions": [
+        {
+          "original": "raspberry sorbet",
+          "substitute": "pistachio ice cream",
+          "note": "Would also be lovely"
+        }
+      ],
+      "tags": [
+        "tart",
+        "raspberry",
+        "french",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7924 Medium.jpeg",
+        "IMG_7925 Medium.jpeg",
+        "IMG_7926 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-mixed-berry-parfait",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Mixed Berry Parfait with Pastry Cream and Shortbread Cookies",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 445-447",
+      "description": "This dessert highlights four types of berries set against simple pastry cream and fancied up with champagne syrup. A great use for champagne that's lost its fizz.",
+      "servings_yield": "four 8-ounce parfaits",
+      "components": [
+        "gordon-ramsay-pastry-cream",
+        "gordon-ramsay-shortbread-cookies"
+      ],
+      "ingredients": [
+        {
+          "item": "fresh raspberries",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh blueberries",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh blackberries",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh strawberries",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "quartered"
+        },
+        {
+          "item": "champagne or dry white wine",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "6",
+          "unit": "tbsp"
+        },
+        {
+          "item": "minced fresh ginger",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make champagne syrup: Combine champagne, sugar, ginger, and vanilla in a saucepan. Bring to a boil, stirring to dissolve sugar. Reduce heat and simmer until reduced by half, about 10 minutes. Cool completely."
+        },
+        {
+          "step": 2,
+          "text": "Toss berries with 2-3 tablespoons of champagne syrup."
+        },
+        {
+          "step": 3,
+          "text": "To assemble parfaits: Layer pastry cream and berries in glasses, starting and ending with pastry cream."
+        },
+        {
+          "step": 4,
+          "text": "Drizzle with remaining champagne syrup. Serve with shortbread cookies."
+        }
+      ],
+      "tips": [
+        "Feel free to swap in seasonal varieties or use just one type of berry, depending on what's available",
+        "A great use for champagne that's lost its fizz"
+      ],
+      "tags": [
+        "parfait",
+        "berries",
+        "pastry cream",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7936 Medium.jpeg",
+        "IMG_7937 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-pastry-cream",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Pastry Cream",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 445",
+      "description": "Classic cr\u00e8me p\u00e2tissi\u00e8re - a thick custard made with milk, sugar, and egg yolks.",
+      "servings_yield": "about 2 cups",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-mixed-berry-parfait"
+      ],
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1 1/3",
+          "unit": "cups"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "divided"
+        },
+        {
+          "item": "vanilla bean",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "scraped"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk, half the sugar, and vanilla bean in a saucepan until simmering."
+        },
+        {
+          "step": 2,
+          "text": "Whisk yolks, remaining sugar, cornstarch, and spices until smooth."
+        },
+        {
+          "step": 3,
+          "text": "Slowly whisk hot milk into yolk mixture to temper, then return all to pan."
+        },
+        {
+          "step": 4,
+          "text": "Cook over medium heat, whisking constantly, until very thick and bubbling, about 2 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Strain into a bowl, press plastic wrap directly on surface, and refrigerate until cold."
+        }
+      ],
+      "tips": [
+        "The trick to cooking pastry cream just right is to add the hot milk to the egg yolks a little at a time until the temperature of the eggs/yolks rises; they'll scramble if they all go in at once"
+      ],
+      "tags": [
+        "pastry cream",
+        "custard",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7936 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-roasted-chicken-polenta",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Roasted Chicken Breast, Creamy Polenta, Saut\u00e9ed Spinach and Chicken Jus",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 215-217",
+      "description": "Simple roasted chicken breast served over creamy polenta with saut\u00e9ed spinach and a rich chicken jus.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "bone-in, skin-on chicken breasts",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "about 8 ounces each"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "4",
+          "unit": "sprigs"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "smashed"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "instant polenta",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "baby spinach",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "shallot",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "minced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 425\u00b0F. Season chicken with salt and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Heat oil in oven-safe skillet over medium-high. Add chicken skin-side down, cook until golden, about 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Flip chicken, add butter, thyme, and garlic. Baste chicken with butter."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to oven and roast until internal temp reaches 165\u00b0F, about 15-20 minutes."
+        },
+        {
+          "step": 5,
+          "text": "While chicken is roasting, make the polenta. Combine the milk, cream, thyme, and garlic in a medium saucepot. Heat over medium-high until the mixture just boils."
+        },
+        {
+          "step": 6,
+          "text": "Remove the thyme and garlic, lower the heat to medium, and add the polenta to the milk and cream in a slow, steady stream, whisking constantly."
+        },
+        {
+          "step": 7,
+          "text": "Now with a wooden spoon, continue mixing for about 5 minutes or until the mixture thickens. Remove from the heat. Stir in the butter and Parmesan, season to taste with salt and pepper, and keep warm."
+        },
+        {
+          "step": 8,
+          "text": "For the spinach: In a large saut\u00e9 pan, heat the olive oil over medium heat. Add the shallot and cook until tender, about 3 minutes. Add the spinach and cook, tossing to coat, until the spinach is wilted. Season to taste with salt and pepper."
+        },
+        {
+          "step": 9,
+          "text": "Mound the polenta in center of each plate. Cut the chicken breast off the bone and slice. Fan the sliced chicken over the polenta. Drizzle with jus and garnish with chopped chives."
+        }
+      ],
+      "temperature": "425\u00b0F",
+      "tags": [
+        "chicken",
+        "polenta",
+        "spinach",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7687 Medium.jpeg",
+        "IMG_7688 Medium.jpeg",
+        "IMG_7689 Medium.jpeg",
+        "IMG_7690 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-miso-glazed-salmon",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Miso-Glazed Salmon with Wasabi Mashed Potatoes and Bok Choy",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 226-230",
+      "description": "Asian-inspired salmon with umami-rich miso glaze, served with wasabi-spiked mashed potatoes and tender bok choy.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-wasabi-mashed-potatoes",
+        "gordon-ramsay-sauteed-bok-choy"
+      ],
+      "ingredients": [
+        {
+          "item": "white miso paste",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "mirin",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sake",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salmon fillets",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "6-ounce each, skin on"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine miso, mirin, sake, and sugar in a small saucepan. Heat over low, stirring until sugar dissolves. Cool completely."
+        },
+        {
+          "step": 2,
+          "text": "Place salmon in a dish and coat with miso mixture. Cover and refrigerate at least 2 hours or overnight."
+        },
+        {
+          "step": 3,
+          "text": "Preheat broiler. Remove salmon from marinade, scraping off excess."
+        },
+        {
+          "step": 4,
+          "text": "Heat oil in oven-safe skillet over medium-high. Add salmon skin-side up and sear 2 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Flip salmon and transfer to broiler. Broil 4-5 minutes until glaze caramelizes and fish is cooked through."
+        },
+        {
+          "step": 6,
+          "text": "Serve over wasabi mashed potatoes with bok choy alongside."
+        }
+      ],
+      "tips": [
+        "Marinate overnight for best flavor"
+      ],
+      "tags": [
+        "salmon",
+        "miso",
+        "japanese",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7699 Medium.jpeg",
+        "IMG_7700 Medium.jpeg",
+        "IMG_7701 Medium.jpeg",
+        "IMG_7702 Medium.jpeg",
+        "IMG_7703 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-sauteed-bok-choy",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Saut\u00e9ed Bok Choy",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 228",
+      "description": "Simple saut\u00e9ed baby bok choy with garlic and ginger.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-miso-glazed-salmon"
+      ],
+      "ingredients": [
+        {
+          "item": "baby bok choy",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "halved lengthwise"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "fresh ginger",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat a medium saut\u00e9 pan over medium heat. Add the butter and melt. Add the bok choy and cook, turning occasionally, until tender and lightly browned, about 5 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add garlic and ginger, cook 1 minute. Add soy sauce and sesame oil, toss to coat."
+        }
+      ],
+      "tags": [
+        "bok choy",
+        "vegetable",
+        "asian",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7702 Medium.jpeg",
+        "IMG_7703 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-ricotta-gnudi",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Ricotta Gnudi with Morels and Peas",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 238-241",
+      "description": "Light-as-air Italian dumplings made from ricotta cheese, served with earthy morels, sweet peas, and sage brown butter.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-morels-peas"
+      ],
+      "ingredients": [
+        {
+          "item": "whole-milk ricotta cheese",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "large eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "pinch"
+        },
+        {
+          "item": "cayenne",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "pinch"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "semolina flour",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for dusting"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large mixing bowl, combine the ricotta cheese, eggs, Parmesan cheese, salt, pepper, and cayenne and whisk until well combined."
+        },
+        {
+          "step": 2,
+          "text": "With a spatula, fold in the flour, taking care not to overwork the dough. Cover and chill for 1-2 hours."
+        },
+        {
+          "step": 3,
+          "text": "Remove the dough from the refrigerator. Dust a rimmed baking sheet generously with semolina flour."
+        },
+        {
+          "step": 4,
+          "text": "Using 2 tablespoons of equal size, shape the gnudi dough into football shapes or quenelles; place them on the baking sheet."
+        },
+        {
+          "step": 5,
+          "text": "Bring a large pot of salted water to a boil. Add gnudi and cook until they float, about 3 minutes. Remove with a slotted spoon."
+        },
+        {
+          "step": 6,
+          "text": "Serve gnudi topped with morels and peas, drizzled with brown butter."
+        }
+      ],
+      "tips": [
+        "Don't overwork the dough or gnudi will be tough",
+        "Gnudi should be light as clouds"
+      ],
+      "tags": [
+        "gnudi",
+        "ricotta",
+        "dumplings",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7711 Medium.jpeg",
+        "IMG_7712 Medium.jpeg",
+        "IMG_7713 Medium.jpeg",
+        "IMG_7714 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-morels-peas",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Morels and Peas with Sage Brown Butter",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 239",
+      "description": "Earthy morel mushrooms and sweet peas in sage-infused brown butter.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-ricotta-gnudi"
+      ],
+      "ingredients": [
+        {
+          "item": "unsalted butter",
+          "quantity": "6",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh sage leaves",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "shallots",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "finely diced"
+        },
+        {
+          "item": "dried morels",
+          "quantity": "2",
+          "unit": "oz",
+          "prep_note": "large, soaked and drained"
+        },
+        {
+          "item": "vegetable or chicken stock",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh or frozen English peas",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "truffle oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        },
+        {
+          "item": "shaved Parmesan cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt butter in a large skillet over medium heat. Add sage leaves and cook until butter is golden brown and nutty, about 3-4 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add shallots and cook until softened. Add morels and stock, simmer 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add cream and peas, cook until peas are tender and sauce is slightly reduced."
+        },
+        {
+          "step": 4,
+          "text": "Season to taste with salt and pepper. Drizzle with truffle oil and garnish with Parmesan."
+        }
+      ],
+      "tags": [
+        "morels",
+        "mushrooms",
+        "peas",
+        "sage",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7714 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-linguine-tutto-mare",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Linguine Tutto Mare",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 247-251",
+      "description": "Classic Italian seafood pasta with shrimp, clams, mussels, and calamari in a white wine tomato broth.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "linguine",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "crushed red pepper flakes",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "large shrimp",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": "peeled and deveined"
+        },
+        {
+          "item": "calamari",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "cleaned and sliced into rings"
+        },
+        {
+          "item": "littleneck clams",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": "scrubbed"
+        },
+        {
+          "item": "mussels",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": "scrubbed and debearded"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "halved"
+        },
+        {
+          "item": "fresh basil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "torn"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook linguine according to package directions until al dente. Drain, reserving 1 cup pasta water."
+        },
+        {
+          "step": 2,
+          "text": "Heat olive oil in a large skillet over medium-high heat. Add garlic and red pepper flakes, cook 30 seconds."
+        },
+        {
+          "step": 3,
+          "text": "Add shrimp and calamari, cook 2 minutes. Remove and set aside."
+        },
+        {
+          "step": 4,
+          "text": "Add clams and mussels to pan with wine. Cover and cook until shells open, about 5 minutes. Discard any clams that haven't opened."
+        },
+        {
+          "step": 5,
+          "text": "Add tomatoes and return shrimp and calamari to pan. Add pasta and toss, adding pasta water as needed."
+        },
+        {
+          "step": 6,
+          "text": "Stir in fresh basil. Divide the pasta between four bowls. Top with seafood and garnish with a drizzle of olive oil and more basil."
+        }
+      ],
+      "tips": [
+        "Discard any clams or mussels that don't open after cooking"
+      ],
+      "tags": [
+        "pasta",
+        "seafood",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7723 Medium.jpeg",
+        "IMG_7724 Medium.jpeg",
+        "IMG_7725 Medium.jpeg",
+        "IMG_7726 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-orecchiette-broccoli-sausage",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Orecchiette with Broccoli and Sausage",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 255-258",
+      "description": "Ear-shaped pasta tossed with Italian sausage, broccoli, garlic, and Pecorino cheese.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "broccoli",
+          "quantity": "1",
+          "unit": "large head",
+          "prep_note": "cut into florets, stems chopped"
+        },
+        {
+          "item": "dried orecchiette",
+          "quantity": "12",
+          "unit": "oz"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Italian sausage",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "casings removed"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "red pepper flakes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "pinch"
+        },
+        {
+          "item": "Parmesan or Pecorino Romano cheese",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "freshly grated, plus more to serve"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare a large bowl of ice water. Separate the broccoli florets from the stems. Cut the large florets in half and leave the remainder whole."
+        },
+        {
+          "step": 2,
+          "text": "Bring a large pot of salted water to a boil over high heat. Add the stems and cook for 3-4 minutes; add the florets and cook for another 3 minutes until both the stems and the florets are just tender."
+        },
+        {
+          "step": 3,
+          "text": "Use a slotted spoon to transfer the broccoli to the ice bath. Drain the broccoli and chop coarsely."
+        },
+        {
+          "step": 4,
+          "text": "Fill the pot again with salted water and bring to a boil."
+        },
+        {
+          "step": 5,
+          "text": "Meanwhile, heat the olive oil in a 12-inch saut\u00e9 pan or large skillet over medium heat. Add the sausage and cook, breaking it up with a wooden spoon, until it's no longer pink. Drain excess fat if there is more than 2 tablespoons."
+        },
+        {
+          "step": 6,
+          "text": "Add the red pepper flakes and garlic and saut\u00e9 briefly until fragrant, about 1 minute. Add the broccoli and season well with salt. Stir to coat."
+        },
+        {
+          "step": 7,
+          "text": "Cook the pasta in the boiling water according to package directions until al dente. Drain, reserving 1 cup pasta water."
+        },
+        {
+          "step": 8,
+          "text": "Add pasta to sausage mixture with 1/2 cup pasta water. Toss over medium heat, adding more water if needed. Remove from heat, add cheese, and toss to combine."
+        }
+      ],
+      "tags": [
+        "pasta",
+        "sausage",
+        "broccoli",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7729 Medium.jpeg",
+        "IMG_7730 Medium.jpeg",
+        "IMG_7731 Medium.jpeg",
+        "IMG_7732 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-chipotle-shrimp",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Chipotle Shrimp with Roasted Corn Relish and Cilantro Rice",
+      "category": "mains",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 271-275",
+      "description": "Smoky chipotle-marinated shrimp served with fresh roasted corn relish and cilantro-lime rice.",
+      "servings_yield": "4 servings",
+      "components": [
+        "gordon-ramsay-roasted-corn-relish",
+        "gordon-ramsay-cilantro-rice"
+      ],
+      "ingredients": [
+        {
+          "item": "large shrimp",
+          "quantity": "1 1/2",
+          "unit": "lbs",
+          "prep_note": "peeled and deveined"
+        },
+        {
+          "item": "honey",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chipotles in adobo sauce",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "minced, plus 1 tbsp sauce"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lime juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large bowl, mix the honey, chipotles, adobo sauce, garlic, water, lime juice, oil, and salt. Whisk until well combined."
+        },
+        {
+          "step": 2,
+          "text": "Add the shrimp and toss well to coat. Cover and refrigerate for at least 30 minutes and up to 2 hours."
+        },
+        {
+          "step": 3,
+          "text": "While the shrimp marinates, make the corn relish."
+        },
+        {
+          "step": 4,
+          "text": "Heat grill or grill pan to high. Remove shrimp from marinade and grill 2-3 minutes per side until pink and charred."
+        },
+        {
+          "step": 5,
+          "text": "Serve shrimp over cilantro rice with roasted corn relish alongside."
+        }
+      ],
+      "tags": [
+        "shrimp",
+        "chipotle",
+        "mexican",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7747 Medium.jpeg",
+        "IMG_7748 Medium.jpeg",
+        "IMG_7749 Medium.jpeg",
+        "IMG_7750 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-roasted-corn-relish",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Roasted Corn Relish",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 273",
+      "description": "Fresh roasted corn relish with jalape\u00f1o, cherry tomatoes, and lime.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-chipotle-shrimp"
+      ],
+      "ingredients": [
+        {
+          "item": "fresh corn kernels",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "from about 3 ears"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "red bell pepper",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "diced"
+        },
+        {
+          "item": "jalape\u00f1o chilies",
+          "quantity": "1-2",
+          "unit": "",
+          "prep_note": "seeded and minced"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "quartered"
+        },
+        {
+          "item": "scallions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "fresh cilantro",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "lime zest",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "chili powder",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat the oven to 450\u00b0F. In a small bowl, toss the corn kernels with 2 tablespoons olive oil and season with salt and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Spread the corn in a single layer on a baking sheet. Roast, stirring once, until the corn is brown, about 20 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Transfer the corn to medium bowl and stir in the red pepper, jalape\u00f1o chilies, cherry tomatoes, scallions, cilantro, lime zest, sugar, chili powder, and cumin. Let sit at room temperature while grilling the shrimp so the flavors develop."
+        }
+      ],
+      "temperature": "450\u00b0F",
+      "tags": [
+        "corn",
+        "relish",
+        "salsa",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7750 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-cilantro-rice",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Cilantro Rice",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, page 273",
+      "description": "Fluffy rice with fresh cilantro and serrano chili.",
+      "servings_yield": "4 servings",
+      "is_component": true,
+      "component_of": [
+        "gordon-ramsay-chipotle-shrimp"
+      ],
+      "ingredients": [
+        {
+          "item": "long-grain white rice",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "minced"
+        },
+        {
+          "item": "serrano chili",
+          "quantity": "1/2",
+          "unit": "tbsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "1 3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "fresh cilantro",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "lime juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat oil in a large saucepan over moderate heat. Add onion, 2 minced garlic cloves, and 1/2 tablespoon serrano chili and saut\u00e9 until the onion is translucent, 4-5 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add rice and stir to coat, 1-2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Raise the heat to medium-high, add the broth and salt. Bring to a boil, then reduce heat to low, cover, and simmer until rice is tender and liquid is absorbed, about 18 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat and let stand 5 minutes. Fluff with a fork and stir in cilantro and lime juice."
+        }
+      ],
+      "tags": [
+        "rice",
+        "cilantro",
+        "mexican",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7750 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-creamed-spinach",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Creamed Spinach with Fried Egg",
+      "category": "sides",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 344-346",
+      "description": "Great creamed spinach starts with fresh, vibrant-looking greens\u2014never canned\u2014and cooked in just the water clinging to their leaves after washing. Fried eggs finish this Hell's Kitchen version.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh spinach",
+          "quantity": "2 1/2",
+          "unit": "lbs",
+          "prep_note": "tough stems discarded"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "small clove garlic",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "minced"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "whole milk",
+          "quantity": "1 3/4",
+          "unit": "cups",
+          "prep_note": "or a mix"
+        },
+        {
+          "item": "freshly grated nutmeg",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "pinch"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "large fresh eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash your spinach well but no need to spin or dry it. Place the spinach in a large pot with just the water clinging to the leaves."
+        },
+        {
+          "step": 2,
+          "text": "Cover and cook over medium heat, stirring once, until completely wilted, about 4-5 minutes. Drain well, pressing out excess liquid. Chop coarsely."
+        },
+        {
+          "step": 3,
+          "text": "Melt butter in a large skillet over medium heat. Add onion and cook until softened, about 5 minutes. Add garlic and cook 1 minute more."
+        },
+        {
+          "step": 4,
+          "text": "Whisk in flour and cook 1 minute. Gradually whisk in milk. Cook, stirring, until thickened, about 5 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Stir in spinach and nutmeg. Season with salt and pepper."
+        },
+        {
+          "step": 6,
+          "text": "Heat oil in a nonstick skillet over medium heat. Fry eggs sunny-side up until whites are set but yolks are still runny."
+        },
+        {
+          "step": 7,
+          "text": "Divide creamed spinach among plates and top each with a fried egg."
+        }
+      ],
+      "tips": [
+        "Feel free to skip the eggs to match the side you're serving it with"
+      ],
+      "tags": [
+        "spinach",
+        "creamed",
+        "side dish",
+        "vegetarian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7828 Medium.jpeg",
+        "IMG_7829 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-raspberry-fritters",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Raspberry Fritters",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 379-381",
+      "description": "Light, crispy fritters filled with fresh raspberries and rolled in sugar. Simple and delicious.",
+      "servings_yield": "about 10 fritters",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "large eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "separated"
+        },
+        {
+          "item": "whole milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "plus more for frying"
+        },
+        {
+          "item": "fresh raspberries",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "two 6-ounce boxes"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to serve"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Sift the flour and salt into a bowl. Separate 2 eggs and set 2 whites aside. Make a well in the flour mix and place 2 eggs and 2 egg yolks into the center."
+        },
+        {
+          "step": 2,
+          "text": "Mix with a whisk, incorporating the flour and slowly pouring in the milk until the batter is smooth. Add the oil and sugar and let the batter stand for 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "In a mixer, whisk the remaining egg white on medium-high until stiff peaks form; fold the egg whites gently into the batter."
+        },
+        {
+          "step": 4,
+          "text": "Heat oil in a deep fryer or heavy-bottomed pan to 360\u00b0F. Dip the raspberries into the batter, then carefully drop into hot oil."
+        },
+        {
+          "step": 5,
+          "text": "Cook, turning once, until golden brown, around 2 minutes. Remove to a paper-towel-lined plate to drain."
+        },
+        {
+          "step": 6,
+          "text": "Lightly roll in a bowl of sugar to serve. To plate, heap around 10 fritters on a plate. Sprinkle with extra sugar if needed."
+        }
+      ],
+      "temperature": "360\u00b0F (oil)",
+      "tips": [
+        "Serve with vanilla ice cream"
+      ],
+      "tags": [
+        "fritters",
+        "raspberry",
+        "fried",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7862 Medium.jpeg",
+        "IMG_7863 Medium.jpeg",
+        "IMG_7864 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gordon-ramsay-coconut-panna-cotta",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Coconut White Chocolate Panna Cotta with Champagne Syrup and Tropical Fruit",
+      "category": "desserts",
+      "attribution": "Gordon Ramsay",
+      "source_note": "Hell's Kitchen Cookbook, pages 392-399",
+      "description": "Silky coconut and white chocolate panna cotta served with ginger-champagne syrup and fresh tropical fruit.",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "cold water",
+          "quantity": "2 1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "powdered gelatin",
+          "quantity": "1",
+          "unit": "envelope",
+          "prep_note": "about 2 1/4 teaspoons"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "coconut milk",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "chopped white chocolate",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "about 1/2 cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "coconut extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "champagne or dry white wine",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "6",
+          "unit": "tbsp"
+        },
+        {
+          "item": "minced ginger",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "strawberries",
+          "quantity": "12",
+          "unit": "oz",
+          "prep_note": "about 1 pint, sliced"
+        },
+        {
+          "item": "kiwi",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "peeled and chopped"
+        },
+        {
+          "item": "mango",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "mango sorbet",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "store-bought or homemade"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place cold water in a small bowl and sprinkle the gelatin over it. Let stand for 5 minutes to soften the gelatin."
+        },
+        {
+          "step": 2,
+          "text": "Place the heavy cream, coconut milk, chocolate, and salt in a heavy-bottomed saucepan. Heat over medium, stirring constantly, until the chocolate melts and the mixture begins to simmer."
+        },
+        {
+          "step": 3,
+          "text": "Remove from the heat. Stir in the gelatin until completely dissolved. Add the coconut extract. Divide among 6 wine glasses or ramekins and refrigerate until set, at least 4 hours."
+        },
+        {
+          "step": 4,
+          "text": "For champagne syrup: Combine champagne, sugar, ginger, and vanilla in a saucepan. Bring to a boil, then reduce by half. Cool completely."
+        },
+        {
+          "step": 5,
+          "text": "To serve: Place the panna cotta-filled wine glasses on serving plates. Place a scoop of granita on each plate and dribble a bit of puree decoratively on top, or place the puree directly on the panna cotta."
+        }
+      ],
+      "tips": [
+        "If you would like to remove the panna cotta from the glasses, run a paring knife just around the edge of the panna cotta and invert the glass on to a serving plate. If it does not pop right out, nudge it out with the paring knife or try dipping the glass briefly in very hot water before inverting it."
+      ],
+      "tags": [
+        "panna cotta",
+        "coconut",
+        "white chocolate",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_7876 Medium.jpeg",
+        "IMG_7877 Medium.jpeg",
+        "IMG_7878 Medium.jpeg",
+        "IMG_7879 Medium.jpeg",
+        "IMG_7880 Medium.jpeg",
+        "IMG_7881 Medium.jpeg",
+        "IMG_7882 Medium.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": []
+      }
     }
   ]
 }
