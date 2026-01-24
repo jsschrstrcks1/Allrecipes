@@ -201,6 +201,8 @@ For e-reader/Kindle screenshots (identified by "Location X of Y" footer):
   "temperature": "",
   "pan_size": "",
   "notes": [""],
+  "tips": ["Chef tips, technique notes"],
+  "substitutions": [{"original": "", "substitute": "", "note": ""}],
   "tags": ["dessert", "holiday", "bread", "casserole"],
   "confidence": {
     "overall": "high|medium|low",
@@ -208,6 +210,9 @@ For e-reader/Kindle screenshots (identified by "Location X of Y" footer):
   },
   "image_refs": ["IMG_001.PNG"],
   "page_continuation": {"continues_from": "", "continues_to": ""},
+  "components": ["recipe-id-of-sub-recipe"],
+  "component_of": ["recipe-id-of-parent"],
+  "is_component": false,
   "conversions": {
     "has_conversions": true,
     "conversion_assumptions": [],
@@ -345,6 +350,52 @@ python scripts/image_safeguards.py mark "IMG_4034.PNG" skipped "Not a recipe"
 - sides
 - soups
 - snacks
+
+---
+
+## Compound Recipes (Multi-Component Dishes)
+
+Some cookbooks (especially professional ones like Gordon Ramsay's) contain **compound recipes** - dishes that include multiple sub-recipes (sauces, garnishes, components).
+
+### Hybrid Approach
+
+Use **BOTH** approaches simultaneously:
+
+1. **Complete compound recipe** - The full dish with all sub-recipes inline
+2. **Separate component recipes** - Each sub-recipe as its own searchable entry
+
+### Example: Beef Wellington
+
+```
+gordon-ramsay-beef-wellington (COMPLETE)
+├── Contains full inline instructions for ALL components
+├── components: ["gordon-ramsay-duxelles", "gordon-ramsay-red-wine-jus"]
+│
+├──► gordon-ramsay-duxelles (STANDALONE)
+│    component_of: ["gordon-ramsay-beef-wellington"]
+│    is_component: true
+│
+└──► gordon-ramsay-red-wine-jus (STANDALONE)
+     component_of: ["gordon-ramsay-beef-wellington"]
+     is_component: true
+```
+
+### Schema Fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `components` | array | IDs of sub-recipes extracted from this compound recipe |
+| `component_of` | array | IDs of parent recipes this is a component of |
+| `is_component` | boolean | True if this recipe is primarily used as a component |
+| `tips` | array | Chef tips, technique notes from the cookbook |
+| `substitutions` | array | `{original, substitute, note}` for suggested swaps |
+
+### Multi-Page Recipes
+
+For recipes spanning multiple images (5-6 photos):
+- Store ALL image refs: `"image_refs": ["IMG_7510.jpeg", "IMG_7511.jpeg", ...]`
+- Use `page_continuation` if splitting across entries
+- Merge into single complete recipe when possible
 
 ---
 
