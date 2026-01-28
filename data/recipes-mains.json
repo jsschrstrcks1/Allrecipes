@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "mains",
-    "count": 1711,
+    "count": 1712,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -194732,6 +194732,185 @@
         "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "garlic-butter-pasta-vegan",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Garlic Butter Pasta",
+      "category": "mains",
+      "attribution": "Dr. Vegan Blog",
+      "source_note": "drveganblog.com - vegan recipe (can use regular butter/parmesan)",
+      "description": "The ultimate cozy, flavor-packed vegan dinner made with creamy tomato-basil garlic butter. The rich roasted garlic melts into the spaghetti, creating a luscious sauce that's perfect for a weeknight meal or a comforting weekend indulgence.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 min",
+      "cook_time": "35 min",
+      "total_time": "45 min",
+      "ingredients": [
+        {
+          "item": "garlic bulbs, peeled",
+          "quantity": "2",
+          "unit": "whole",
+          "group": "Garlic-Tomato Basil Butter"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "just enough to cover cloves",
+          "group": "Garlic-Tomato Basil Butter"
+        },
+        {
+          "item": "softened vegan butter (or regular)",
+          "quantity": "1/2",
+          "unit": "cup",
+          "group": "Garlic-Tomato Basil Butter"
+        },
+        {
+          "item": "tomato paste",
+          "quantity": "1",
+          "unit": "tbsp",
+          "group": "Garlic-Tomato Basil Butter"
+        },
+        {
+          "item": "grated vegan parmesan (or regular)",
+          "quantity": "3",
+          "unit": "tbsp",
+          "group": "Garlic-Tomato Basil Butter"
+        },
+        {
+          "item": "fresh basil, finely chopped",
+          "quantity": "1",
+          "unit": "small handful",
+          "group": "Garlic-Tomato Basil Butter"
+        },
+        {
+          "item": "salt and freshly ground black pepper",
+          "quantity": "",
+          "unit": "to taste",
+          "group": "Garlic-Tomato Basil Butter"
+        },
+        {
+          "item": "spaghetti (or any pasta)",
+          "quantity": "400",
+          "unit": "g",
+          "group": "Pasta"
+        },
+        {
+          "item": "pasta cooking water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "reserved",
+          "group": "Pasta"
+        },
+        {
+          "item": "extra parmesan, basil and toasted breadcrumbs",
+          "quantity": "",
+          "unit": "for topping",
+          "prep_note": "optional",
+          "group": "Pasta"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Slow-roast the garlic: Put the peeled cloves in a small saucepan and pour in enough olive oil to just submerge them (about 1/2 cup). Set the pan over low heat and cook for about 20 minutes, swirling now and then, until the garlic is soft and pale golden. Let it cool for a minute."
+        },
+        {
+          "step": 2,
+          "text": "Make the compound butter: Scoop the garlic into a blender. Add the soft butter, 1/2 tsp salt and a few grinds of pepper. Blend until completely smooth."
+        },
+        {
+          "step": 3,
+          "text": "Scrape the mixture into a bowl, stir in the tomato paste, parmesan and chopped basil, and adjust seasoning."
+        },
+        {
+          "step": 4,
+          "text": "Cover and refrigerate until firm enough to scoop (about 30 minutes). You'll have roughly 3/4 cup (12 tbsp) of flavored butter."
+        },
+        {
+          "step": 5,
+          "text": "Cook the pasta: Bring a large pot of well-salted water to a rolling boil. Add the spaghetti and cook until one minute shy of al dente."
+        },
+        {
+          "step": 6,
+          "text": "Just before draining, ladle out about a cup of the starchy cooking water. Drain the pasta."
+        },
+        {
+          "step": 7,
+          "text": "Finish the dish: Return the hot pasta to the empty pot over low heat. Add 4 tbsp of the chilled garlic-tomato basil butter (that's 1 tbsp per 100 g pasta) and a generous splash of the reserved cooking water."
+        },
+        {
+          "step": 8,
+          "text": "Toss quickly until the butter melts and forms a glossy sauce that coats the noodles, adding more water a little at a time if needed."
+        },
+        {
+          "step": 9,
+          "text": "Serve: Divide the pasta among warm bowls. Top with extra parmesan, fresh basil leaves and toasted breadcrumbs if you like."
+        }
+      ],
+      "equipment": [
+        "Medium saucepan",
+        "Small skillet or baking dish",
+        "Large pot for boiling pasta",
+        "Slotted spoon",
+        "Mixing bowl",
+        "Garlic press (optional)",
+        "Blender"
+      ],
+      "tags": [
+        "pasta",
+        "vegan",
+        "italian",
+        "garlic",
+        "weeknight",
+        "comfort food",
+        "tomato",
+        "basil"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_8015.png",
+        "IMG_8016.png",
+        "IMG_8017.png",
+        "IMG_8018.png",
+        "IMG_8019.png",
+        "IMG_8020.png",
+        "IMG_8021.png",
+        "IMG_8022.png"
+      ],
+      "substitutions": [
+        {
+          "original": "vegan butter",
+          "substitute": "regular butter",
+          "note": "for non-vegan version"
+        },
+        {
+          "original": "vegan parmesan",
+          "substitute": "regular parmesan",
+          "note": "for non-vegan version"
+        }
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 818,
+          "fat_g": 51,
+          "saturated_fat_g": 9,
+          "carbs_g": 76,
+          "protein_g": 15,
+          "sodium_mg": 272,
+          "fiber_g": 3,
+          "sugar_g": 3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Nutrition from original recipe source"
         ]
       }
     }
