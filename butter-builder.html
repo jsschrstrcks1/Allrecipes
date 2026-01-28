@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Interactive butter-making recipe builder wizard">
+  <!-- iOS/Mobile optimizations -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Butter Builder">
+  <meta name="theme-color" content="#f5c542">
+  <meta name="format-detection" content="telephone=no">
+  <!-- Anti-indexing directives - this is a private family site -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache, nostore">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="bingbot" content="noindex, nofollow, noarchive">
+  <meta name="slurp" content="noindex, nofollow">
+  <meta name="duckduckbot" content="noindex, nofollow">
+  <meta name="baiduspider" content="noindex, nofollow">
+  <meta name="yandex" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <!-- Block AI crawlers -->
+  <meta name="GPTBot" content="noindex, nofollow">
+  <meta name="CCBot" content="noindex, nofollow">
+  <meta name="Google-Extended" content="noindex, nofollow">
+  <meta name="anthropic-ai" content="noindex, nofollow">
+  <!-- Prevent caching -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, private">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Butter Builder - Grandma's Kitchen</title>
+  <!-- SHARED STYLES FROM HUB - includes auth gate, nav, mobile responsive -->
+  <link rel="stylesheet" href="https://jsschrstrcks1.github.io/Grandmasrecipes/styles.css">
+  <!-- Local styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Authentication Gate -->
+  <div id="auth-gate" class="auth-gate">
+    <div class="auth-container">
+      <h1>Grandma's Kitchen</h1>
+      <p>This is a private family recipe archive.</p>
+      <form id="auth-form">
+        <label for="auth-answer">What is Grandma's last name?</label>
+        <input type="text" id="auth-answer" autocomplete="off" required>
+        <button type="submit" class="btn btn-primary">Enter</button>
+        <p id="auth-error" class="auth-error" style="display: none;">Incorrect. Please try again.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Authentication Script - MUST use exact key for cross-site auth -->
+  <script>
+    (function() {
+      const AUTH_KEY = 'grandmas-kitchen-auth';
+      const CORRECT_ANSWER = 'Baker';
+
+      function checkAuth() {
+        return localStorage.getItem(AUTH_KEY) === 'true';
+      }
+
+      function showSite() {
+        document.getElementById('auth-gate').style.display = 'none';
+        document.getElementById('site-content').style.display = 'block';
+      }
+
+      function showGate() {
+        document.getElementById('auth-gate').style.display = 'flex';
+        document.getElementById('site-content').style.display = 'none';
+      }
+
+      if (checkAuth()) {
+        showSite();
+      } else {
+        showGate();
+      }
+
+      document.getElementById('auth-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const answer = document.getElementById('auth-answer').value;
+        if (answer === CORRECT_ANSWER) {
+          localStorage.setItem(AUTH_KEY, 'true');
+          showSite();
+        } else {
+          document.getElementById('auth-error').style.display = 'block';
+          document.getElementById('auth-answer').value = '';
+          document.getElementById('auth-answer').focus();
+        }
+      });
+    })();
+  </script>
+
+  <!-- Site Content (hidden until authenticated) -->
+  <div id="site-content" style="display: none;">
+
+  <header class="site-header" style="background: linear-gradient(135deg, #f5c542 0%, #d4a017 100%);">
+    <div class="container">
+      <h1>Butter Builder</h1>
+      <p class="tagline">Make your own homemade butter from any kind of milk</p>
+      <p class="tagline" style="font-size: 0.9rem; opacity: 0.8;">Soli Deo Gloria</p>
+    </div>
+  </header>
+
+  <!-- Family Collections Navigation -->
+  <nav class="family-collections">
+    <div class="container">
+      <span class="nav-label">Family Collections:</span>
+      <a href="https://jsschrstrcks1.github.io/Grandmasrecipes/">Grandma</a>
+      <a href="https://jsschrstrcks1.github.io/MomsRecipes/">MomMom</a>
+      <a href="https://jsschrstrcks1.github.io/Grannysrecipes/">Granny</a>
+      <a href="https://jsschrstrcks1.github.io/Allrecipes/" class="active">Other Recipes</a>
+    </div>
+  </nav>
+
+  <nav class="site-nav">
+    <div class="container">
+      <ul>
+        <li><a href="index.html">All Recipes</a></li>
+        <li><a href="cheese-builder.html">Cheese Builder</a></li>
+        <li><a href="butter-builder.html" class="active">Butter Builder</a></li>
+        <li><a href="tips.html">Kitchen Tips</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <!-- Loading State -->
+      <div id="loading-state" class="text-center" style="padding: 3rem;">
+        <p>Loading butter builder...</p>
+      </div>
+
+      <!-- Error State -->
+      <div id="error-state" style="display: none; padding: 2rem; text-align: center;">
+        <h2>Unable to Load</h2>
+        <p>There was a problem loading the butter builder data. Please refresh the page to try again.</p>
+        <button class="btn btn-primary" onclick="location.reload()">Refresh Page</button>
+      </div>
+
+      <!-- Butter Builder Wizard Container -->
+      <div id="butter-wizard" style="display: none;"></div>
+
+      <!-- Quick Links -->
+      <section class="quick-links" style="margin-top: 2rem; text-align: center;">
+        <p style="color: var(--color-text-muted); font-size: 0.875rem;">
+          Also try the <a href="cheese-builder.html">Cheese Builder</a> for homemade cheese recipes
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Other Family Recipes &middot; A Family Treasure</p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem;">Butter Builder Tool &middot; From Cream to Table</p>
+      <p class="scripture" style="margin-top: 1rem; font-style: italic; font-size: 0.75rem; opacity: 0.8;">
+        "She looketh well to the ways of her household, and eateth not the bread of idleness." — Proverbs 31:27
+      </p>
+    </div>
+  </footer>
+
+  </div><!-- /site-content -->
+
+  <!-- Load butter builder -->
+  <script src="butter-builder.js"></script>
+
+  <!-- Initialize the wizard -->
+  <script>
+    (function() {
+      async function initializeButterBuilder() {
+        const loadingEl = document.getElementById('loading-state');
+        const errorEl = document.getElementById('error-state');
+        const wizardEl = document.getElementById('butter-wizard');
+
+        try {
+          const success = await ButterBuilder.loadData();
+
+          if (!success) {
+            throw new Error('Failed to load butter builder data');
+          }
+
+          loadingEl.style.display = 'none';
+          wizardEl.style.display = 'block';
+
+          ButterBuilder.renderWizard('butter-wizard');
+          ButterBuilder.attachEventListeners('butter-wizard');
+
+          console.log('Butter Builder initialized successfully');
+
+        } catch (error) {
+          console.error('Error initializing butter builder:', error);
+          loadingEl.style.display = 'none';
+          errorEl.style.display = 'block';
+        }
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeButterBuilder);
+      } else {
+        initializeButterBuilder();
+      }
+    })();
+  </script>
+</body>
+</html>
