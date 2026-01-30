@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_count": 6035,
+    "total_count": 6043,
     "last_updated": "2026-01-30",
-    "total_recipes": 6035
+    "total_recipes": 6043
   },
   "recipes": [
     {
@@ -668502,6 +668502,1061 @@
         "poached",
         "labneh",
         "spiced butter"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Recipe nutrition not yet calculated"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cajun-bourbon-hot-peppercorn-cream",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Cajun Bourbon Hot Peppercorn Cream",
+      "category": "sides",
+      "source_note": "Food My Muse (foodmymuse.com)",
+      "description": "Creamy, spicy, smoky, and rich — this Cajun Bourbon Hot Peppercorn Cream is the kind of sauce that makes steak night unforgettable.",
+      "servings_yield": "About 4 servings",
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "bourbon",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Cajun seasoning",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "cracked black peppercorns",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic cloves, minced",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "red chili flakes",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt the butter in a skillet over medium heat."
+        },
+        {
+          "step": 2,
+          "text": "Add the minced garlic and cook for about 30 seconds until fragrant."
+        },
+        {
+          "step": 3,
+          "text": "Carefully pour in the bourbon and simmer for 2 to 3 minutes to reduce slightly."
+        },
+        {
+          "step": 4,
+          "text": "Stir in Dijon mustard, Worcestershire sauce, Cajun seasoning, cracked peppercorns, brown sugar, and red chili flakes."
+        },
+        {
+          "step": 5,
+          "text": "Pour in the heavy cream and stir until smooth."
+        },
+        {
+          "step": 6,
+          "text": "Simmer gently for 5 to 7 minutes, stirring often, until thickened and creamy."
+        },
+        {
+          "step": 7,
+          "text": "Season with salt and black pepper to taste. Serve warm."
+        }
+      ],
+      "notes": [
+        "Store in an airtight container in the refrigerator for up to 4 days. Reheat gently over low heat, stirring frequently."
+      ],
+      "tips": [],
+      "substitutions": [],
+      "tags": [
+        "sauce",
+        "Cajun",
+        "bourbon",
+        "peppercorn",
+        "cream sauce",
+        "steak"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": "220 kcal (approx)"
+        },
+        "missing_inputs": [
+          "Full macronutrient breakdown not provided"
+        ],
+        "assumptions": [
+          "Calories per serving sourced from recipe author"
+        ]
+      }
+    },
+    {
+      "id": "food-my-muse-spinach-pastina",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Spinach Pastina",
+      "category": "mains",
+      "source_note": "Food My Muse (foodmymuse.com)",
+      "description": "One pan, 20 minutes — the easiest, healthy Spinach Pastina recipe. Spinach and basil add fresh herby flavor while mascarpone provides the creamy finishing touch.",
+      "servings_yield": "2 servings",
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "spinach, packed",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "4 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "basil leaves",
+          "quantity": "12",
+          "unit": ""
+        },
+        {
+          "item": "garlic clove",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "shallot",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "acini di pepe",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "Parmigiano Reggiano, grated",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "plus more for topping"
+        },
+        {
+          "item": "lemon zest",
+          "quantity": "1",
+          "unit": "lemon"
+        },
+        {
+          "item": "cold butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "mascarpone",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "chives",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blend spinach, water, basil, garlic, shallot, and salt until smooth. Strain to yield about 4 cups liquid."
+        },
+        {
+          "step": 2,
+          "text": "Toast pasta in oil over medium-high heat for 2 minutes until slightly golden."
+        },
+        {
+          "step": 3,
+          "text": "Add spinach-basil liquid one cup at a time, allowing each portion to absorb. Simmer 9-12 minutes until al dente. Season with salt and pepper."
+        },
+        {
+          "step": 4,
+          "text": "Add Parmigiano and lemon zest, cook 1 more minute."
+        },
+        {
+          "step": 5,
+          "text": "Remove from heat, add cold butter, and adjust seasonings."
+        },
+        {
+          "step": 6,
+          "text": "Serve topped with additional Parmigiano, mascarpone, chives, and black pepper."
+        }
+      ],
+      "notes": [],
+      "tips": [
+        "Add liquid gradually — the pasta needs to absorb it slowly for proper texture."
+      ],
+      "substitutions": [],
+      "tags": [
+        "pasta",
+        "pastina",
+        "spinach",
+        "one-pan",
+        "quick",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Recipe nutrition not yet calculated"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "food-my-muse-easy-pastina",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Easy Pastina with Anchovies and Calabrian Chiles",
+      "category": "mains",
+      "source_note": "Food My Muse (foodmymuse.com)",
+      "description": "A cozy, comforting Italian pastina combining Calabrian chiles and Taleggio cheese. The secret ingredient is anchovies — they add amazing depth of flavor without being fishy.",
+      "servings_yield": "2 servings",
+      "prep_time": "5 min",
+      "cook_time": "15 min",
+      "total_time": "20 min",
+      "ingredients": [
+        {
+          "item": "stelline (star pasta)",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "shallots, finely chopped",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "garlic clove, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "anchovy filets, formed into a paste",
+          "quantity": "5-6",
+          "unit": ""
+        },
+        {
+          "item": "chicken, vegetable, or beef stock",
+          "quantity": "4 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "white wine",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "Calabrian chiles, chopped",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Parmigiano Reggiano",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "basil leaves, chiffonade",
+          "quantity": "10",
+          "unit": ""
+        },
+        {
+          "item": "Taleggio cheese",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Saute shallots with olive oil over medium heat for 2-3 minutes. Add garlic and anchovies; saute 1-2 minutes more."
+        },
+        {
+          "step": 2,
+          "text": "Add pasta and olive oil; saute until lightly golden. Stir in Calabrian chiles and deglaze with wine."
+        },
+        {
+          "step": 3,
+          "text": "Add stock one cup at a time until absorbed, adding more as needed."
+        },
+        {
+          "step": 4,
+          "text": "Once pasta is cooked, add Parmigiano and basil. Mix, then remove from heat and stir in butter."
+        },
+        {
+          "step": 5,
+          "text": "Serve topped with Taleggio cheese and black pepper."
+        }
+      ],
+      "notes": [],
+      "tips": [],
+      "substitutions": [
+        {
+          "original": "Taleggio",
+          "substitute": "Brie",
+          "note": ""
+        },
+        {
+          "original": "Parmigiano Reggiano",
+          "substitute": "any cheese",
+          "note": ""
+        },
+        {
+          "original": "white wine",
+          "substitute": "broth",
+          "note": ""
+        }
+      ],
+      "tags": [
+        "pasta",
+        "pastina",
+        "anchovies",
+        "Calabrian chiles",
+        "Italian",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Recipe nutrition not yet calculated"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "food-my-muse-steak-peppercorn-sauce",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Steak with Peppercorn Sauce",
+      "category": "mains",
+      "source_note": "Food My Muse (foodmymuse.com)",
+      "description": "Restaurant-quality salt-brined tenderloin filets crusted with pink and black peppercorns, served with a cognac-flambeed peppercorn sauce and crispy French fries.",
+      "servings_yield": "4 servings",
+      "prep_time": "20 min",
+      "cook_time": "45 min",
+      "total_time": "4 hr 5 min",
+      "ingredients": [
+        {
+          "item": "tenderloin filets (8 oz each)",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "pink peppercorns",
+          "quantity": "2 1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "black peppercorns",
+          "quantity": "2 1/2",
+          "unit": "tbsp",
+          "prep_note": "plus more for sauce"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "",
+          "unit": "for searing"
+        },
+        {
+          "item": "russet potatoes",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "neutral oil",
+          "quantity": "",
+          "unit": "for frying"
+        },
+        {
+          "item": "parsley and chives",
+          "quantity": "",
+          "unit": "for garnish"
+        },
+        {
+          "item": "shallot, finely minced (brunoise)",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "green peppercorns, drained",
+          "quantity": "2-3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "tomato paste",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "demi-glace",
+          "quantity": "1 1/2",
+          "unit": "cup",
+          "prep_note": "or beef bone broth + 2 tsp soy sauce"
+        },
+        {
+          "item": "creme fraiche",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "or heavy cream + 1 tbsp butter"
+        },
+        {
+          "item": "cognac",
+          "quantity": "2",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Salt filets evenly from above. Place on wire rack uncovered in refrigerator for 1 hour. Remove and let reach room temperature."
+        },
+        {
+          "step": 2,
+          "text": "Peel and cut potatoes to desired thickness. Soak in ice water 2 hours or overnight."
+        },
+        {
+          "step": 3,
+          "text": "Heat oil to 275°F (135°C). Pat potatoes dry and fry in batches 5-6 minutes until soft but not crispy. Place on paper towels and freeze 30-45 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Heat oil higher and fry frozen fries until golden brown. Season with salt, chives, and parsley."
+        },
+        {
+          "step": 5,
+          "text": "Grind pink and black peppercorns together. Coat one side of filets heavily."
+        },
+        {
+          "step": 6,
+          "text": "Preheat pan on medium-low for 2 minutes, then medium-high for 1 minute. Add olive oil."
+        },
+        {
+          "step": 7,
+          "text": "Sear filets peppercorn-side down for 3 minutes. Flip and cook 4-5 minutes (target 125°F / 52°C for rare)."
+        },
+        {
+          "step": 8,
+          "text": "Rest on wire rack."
+        },
+        {
+          "step": 9,
+          "text": "In same pan, saute shallots and green peppercorns on medium heat for 1 minute."
+        },
+        {
+          "step": 10,
+          "text": "Add tomato paste, cook 1 1/2 minutes. Deglaze with cognac and flambe carefully."
+        },
+        {
+          "step": 11,
+          "text": "Add demi-glace and reduce by 1/3 until visibly thicker. Season with salt and pepper."
+        },
+        {
+          "step": 12,
+          "text": "Remove from heat and whisk in creme fraiche."
+        },
+        {
+          "step": 13,
+          "text": "Plate steak, cover with sauce, and serve with crispy fries."
+        }
+      ],
+      "notes": [
+        "Brining time: 1 hour minimum. Total includes brining."
+      ],
+      "tips": [
+        "Salt-brining enhances flavor and creates a crispy crust while maintaining juiciness.",
+        "Only coat one side with peppercorns to achieve a good sear on the other side.",
+        "Freezing cooked fries before final frying draws out moisture for maximum crispiness.",
+        "Use a long-reach lighter for flambeing if uncomfortable with the technique — fire extinguishes automatically when alcohol burns off."
+      ],
+      "substitutions": [
+        {
+          "original": "tenderloin filet",
+          "substitute": "ribeye or NY strip",
+          "note": "The peppercorn sauce pairs well with any steak."
+        },
+        {
+          "original": "demi-glace",
+          "substitute": "beef bone broth + 2 tsp soy sauce",
+          "note": ""
+        },
+        {
+          "original": "creme fraiche",
+          "substitute": "heavy cream + 1 tbsp butter",
+          "note": ""
+        }
+      ],
+      "tags": [
+        "steak",
+        "French",
+        "peppercorn",
+        "flambe",
+        "dinner party",
+        "French fries"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Recipe nutrition not yet calculated"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "food-my-muse-potato-pave",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Potato Pave",
+      "category": "sides",
+      "source_note": "Food My Muse (foodmymuse.com)",
+      "description": "Crispy, creamy layered potatoes pressed overnight and fried until golden. Versatile enough to top with anything your heart desires.",
+      "servings_yield": "10 servings",
+      "prep_time": "25 min",
+      "cook_time": "1 hr 35 min",
+      "total_time": "14 hr",
+      "temperature": "350°F (175°C)",
+      "ingredients": [
+        {
+          "item": "large russet potatoes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "or 6 medium"
+        },
+        {
+          "item": "cream",
+          "quantity": "1 1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "seasoned salt",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "butter",
+          "quantity": "5",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "",
+          "unit": "for frying"
+        },
+        {
+          "item": "chives",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "creme fraiche",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "caviar",
+          "quantity": "",
+          "unit": "to taste, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and peel potatoes."
+        },
+        {
+          "step": 2,
+          "text": "Add cream to a bowl with seasoned salt; mandoline potatoes into thin slices directly into cream."
+        },
+        {
+          "step": 3,
+          "text": "Line a loaf tin or oven-safe dish with 2 layers of parchment paper with overhang."
+        },
+        {
+          "step": 4,
+          "text": "Layer potatoes, adding about 1 tbsp butter and salt/pepper every 2 layers until finished. Cover with parchment."
+        },
+        {
+          "step": 5,
+          "text": "Cover in foil. Bake at 350°F (175°C) for approximately 90 minutes until very soft."
+        },
+        {
+          "step": 6,
+          "text": "Cut cardboard to fit on top, cover with foil/plastic wrap, place directly on potatoes, and flatten. Add cans on top and refrigerate for 12 hours."
+        },
+        {
+          "step": 7,
+          "text": "Cut into squares or desired shapes."
+        },
+        {
+          "step": 8,
+          "text": "Fry until golden, about 3-4 minutes per side (watch closely)."
+        },
+        {
+          "step": 9,
+          "text": "Top with flaky salt, creme fraiche, chives, and caviar if desired."
+        }
+      ],
+      "notes": [
+        "Requires 12 hours of refrigeration time for pressing."
+      ],
+      "tips": [
+        "Press them really well with the cardboard and cover them with plastic wrap or foil."
+      ],
+      "substitutions": [],
+      "tags": [
+        "potatoes",
+        "side dish",
+        "crispy",
+        "elegant",
+        "make-ahead",
+        "dinner party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Recipe nutrition not yet calculated"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "food-my-muse-potato-galette",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Potato Galette (Cheesy Pommes Anna)",
+      "category": "sides",
+      "source_note": "Food My Muse (foodmymuse.com)",
+      "description": "Crispy, cheesy layered potatoes with Gruyere cheese cooked in a cast iron skillet. Easy to make and perfect for holiday dinners.",
+      "servings_yield": "8 servings",
+      "prep_time": "15 min",
+      "cook_time": "1 hr",
+      "total_time": "1 hr 15 min",
+      "temperature": "400°F (200°C)",
+      "pan_size": "8-inch cast iron skillet",
+      "ingredients": [
+        {
+          "item": "medium Yukon gold potatoes",
+          "quantity": "7-8",
+          "unit": ""
+        },
+        {
+          "item": "melted butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Gruyere cheese",
+          "quantity": "1 1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Parmigiano",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "seasoned salt and black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Slice potatoes very thin using a mandoline. Remove excess moisture from potatoes."
+        },
+        {
+          "step": 2,
+          "text": "Preheat cast iron with olive oil."
+        },
+        {
+          "step": 3,
+          "text": "Toss potatoes with melted butter, seasoned salt, and pepper."
+        },
+        {
+          "step": 4,
+          "text": "Layer potatoes in skillet from center outward, alternating with cheese (6-7 layers, ending with potatoes)."
+        },
+        {
+          "step": 5,
+          "text": "Cover with parchment and place heavy weight on top."
+        },
+        {
+          "step": 6,
+          "text": "Cook stovetop at medium-high for 7-8 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Remove parchment, bake at 400°F (200°C) for 55 minutes."
+        },
+        {
+          "step": 8,
+          "text": "Flip onto cutting board using parchment, cut into triangles, garnish with flaky sea salt and chives."
+        }
+      ],
+      "notes": [],
+      "tips": [
+        "Scrape the skillet sides thoroughly before flipping.",
+        "Preheat the cast iron for about 5 minutes."
+      ],
+      "substitutions": [],
+      "tags": [
+        "potatoes",
+        "side dish",
+        "cheesy",
+        "Gruyere",
+        "cast iron",
+        "holiday",
+        "crispy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Recipe nutrition not yet calculated"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "food-my-muse-fig-brulee",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Fig Brulee",
+      "category": "appetizers",
+      "source_note": "Food My Muse (foodmymuse.com)",
+      "description": "Addictive whipped fig brie stuffed into halved figs and torched with a caramelized sugar top. Great for a party — stuff ahead and torch right before serving.",
+      "servings_yield": "14 bites",
+      "prep_time": "15 min",
+      "cook_time": "5 min",
+      "total_time": "50 min",
+      "ingredients": [
+        {
+          "item": "figs",
+          "quantity": "6-8",
+          "unit": ""
+        },
+        {
+          "item": "brie",
+          "quantity": "6",
+          "unit": "oz"
+        },
+        {
+          "item": "honey",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cane salt",
+          "quantity": "1",
+          "unit": "pinch"
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "for coating"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Halve the figs and carefully scoop insides into a food processor."
+        },
+        {
+          "step": 2,
+          "text": "Remove brie rind and add cheese to processor with honey and salt. Process until smooth."
+        },
+        {
+          "step": 3,
+          "text": "Transfer mixture to piping bag or Ziploc with corner cut off."
+        },
+        {
+          "step": 4,
+          "text": "Stuff hollowed figs, avoiding overfilling."
+        },
+        {
+          "step": 5,
+          "text": "Cover and refrigerate 30 minutes (up to 24 hours)."
+        },
+        {
+          "step": 6,
+          "text": "Coat stuffed figs in sugar, then torch to caramelize."
+        }
+      ],
+      "notes": [
+        "Includes 30 minutes chill time."
+      ],
+      "tips": [
+        "Apply sugar in a thin, even layer by rolling figs rather than sprinkling.",
+        "Keep the torch moving in circular motions to caramelize evenly without burning."
+      ],
+      "substitutions": [],
+      "tags": [
+        "appetizer",
+        "fig",
+        "brie",
+        "brulee",
+        "party",
+        "make-ahead",
+        "elegant"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": "73 kcal (approx)"
+        },
+        "missing_inputs": [
+          "Full macronutrient breakdown not provided"
+        ],
+        "assumptions": [
+          "Calories per serving sourced from recipe author"
+        ]
+      }
+    },
+    {
+      "id": "food-my-muse-blue-cheese-olive-dip",
+      "collection": "all",
+      "collection_display": "Other Family Recipes",
+      "title": "Blue Cheese Olive Dip (Dirty Martini Dip)",
+      "category": "appetizers",
+      "source_note": "Food My Muse (foodmymuse.com)",
+      "description": "A creamy, savory, make-ahead party appetizer that tastes like a dirty martini in every bite. Blue cheese and briny olives with a splash of vodka.",
+      "servings_yield": "6 servings",
+      "prep_time": "10 min",
+      "cook_time": "",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "blue cheese",
+          "quantity": "2-4",
+          "unit": "oz",
+          "prep_note": "adjust to taste"
+        },
+        {
+          "item": "olive brine",
+          "quantity": "2 1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vodka",
+          "quantity": "1 1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chives, chopped",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "white pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "onion powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "lemon zest",
+          "quantity": "1",
+          "unit": "lemon"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "pinch",
+          "prep_note": "optional"
+        },
+        {
+          "item": "Castelvetrano olives, pitted",
+          "quantity": "12",
+          "unit": "oz"
+        },
+        {
+          "item": "blue cheese",
+          "quantity": "",
+          "unit": "for stuffing olives"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "",
+          "unit": "for drizzle"
+        },
+        {
+          "item": "chips",
+          "quantity": "",
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine cream cheese, blue cheese, olive brine, vodka, chives, white pepper, garlic powder, onion powder, lemon zest, and salt in a food processor until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Refrigerate the dip while stuffing olives with blue cheese."
+        },
+        {
+          "step": 3,
+          "text": "Transfer dip to a piping bag with large round nozzle. Pipe onto serving plate in an S pattern."
+        },
+        {
+          "step": 4,
+          "text": "Arrange stuffed olives along the dip. Drizzle with olive oil, top with chives and black pepper. Serve with chips."
+        }
+      ],
+      "notes": [],
+      "tips": [
+        "This is an excellent make-ahead appetizer; prepare components ahead and assemble shortly before serving."
+      ],
+      "substitutions": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "blue cheese",
+        "olives",
+        "martini",
+        "party",
+        "make-ahead"
       ],
       "confidence": {
         "overall": "high",
