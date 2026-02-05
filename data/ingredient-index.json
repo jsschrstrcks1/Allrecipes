@@ -2,8 +2,8 @@
   "meta": {
     "title": "Ingredient Index",
     "description": "Index of ingredients mapped to recipes",
-    "total_ingredients": 12015,
-    "total_recipes": 7088,
+    "total_ingredients": 12021,
+    "total_recipes": 7095,
     "last_updated": "2026-02-05",
     "version": "1.0.0"
   },
@@ -45487,7 +45487,7 @@
         "all-purpose flour",
         "all-purpose flour (about 1/4 cup)"
       ],
-      "recipe_count": 361,
+      "recipe_count": 367,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
@@ -45555,10 +45555,14 @@
         "buckwheat-pancakes",
         "buckwheat-pancakes-ref",
         "butter-crescents-gahb",
+        "butter-molasses-bread",
         "buttermilk-biscuits-gahb",
         "buttermilk-breakfast-waffles",
         "buttermilk-pancakes-ref",
+        "butternut-squash-bread",
+        "buttery-white-bread",
         "canadian-matrimonial-cake",
+        "candied-hoska",
         "candy-cane-muffins",
         "candy-cane-muffins-ref",
         "carrot-cake-cream-cheese-icing-gahb",
@@ -45740,6 +45744,7 @@
         "pancake-fruit-kabobs",
         "pancake-fruit-kabobs-ref",
         "pancakes-basic-ref",
+        "parmesan-mozzarella-focaccia",
         "peach-apricot-cobbler-gahb",
         "peach-muffins",
         "peach-muffins-ref",
@@ -45803,6 +45808,7 @@
         "sicilian-fig-cookies",
         "silver-dollar-pancakes-ref",
         "silver-dollars-pancakes",
+        "simple-artisan-bread",
         "skillet-herb-roasted-chicken-chickenrec",
         "slow-cooker-steak-chili",
         "sour-cream-chocolate-cake",
@@ -50048,7 +50054,7 @@
         "fresh basil",
         "minced fresh basil"
       ],
-      "recipe_count": 42,
+      "recipe_count": 43,
       "recipe_ids": [
         "borlotti-minestrone",
         "breakfast-bruschetta",
@@ -50077,6 +50083,7 @@
         "lemon-ricotta-pasta",
         "mascarpone-pasta-sauce",
         "our-fava-beans-ancients",
+        "parmesan-mozzarella-focaccia",
         "peri-peri-seasoning-cpm",
         "pizza-bread-cheeseforum",
         "pork-chops-fava-beans",
@@ -52055,7 +52062,7 @@
         "ground black pepper",
         "whole black pepper"
       ],
-      "recipe_count": 108,
+      "recipe_count": 110,
       "recipe_ids": [
         "adobo-seasoning-cpm",
         "albuquerque-turkey",
@@ -52133,6 +52140,7 @@
         "milanesa-napolitana-reggianito",
         "noquis-con-tuco-reggianito",
         "pan-grilled-thai-tuna-salad",
+        "parmesan-mozzarella-focaccia",
         "pasta-alla-gricia",
         "pasta-con-sardo-rallado",
         "pepper-pancakes-cilantro-chutney",
@@ -52154,6 +52162,7 @@
         "southern-grits",
         "southern-grits-ref",
         "spiced-pork-chops-apple-chutney",
+        "spicy-chili-garlic-deviled-eggs",
         "swanson-pan-sauteed-chicken-vegetables-herbs",
         "sweet-hawaiian-crockpot-chicken-ref",
         "sweet-potatoes-quiche",
@@ -52385,6 +52394,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "linzer-cutouts"
+      ]
+    },
+    {
+      "ingredient": "blanched slivered almond",
+      "variants": [
+        "blanched slivered almonds"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "candied-hoska"
       ]
     },
     {
@@ -55402,7 +55421,7 @@
         "melted butter (for cloth binding)",
         "softened butter"
       ],
-      "recipe_count": 726,
+      "recipe_count": 729,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
@@ -55503,10 +55522,12 @@
         "butter-chicken-cpm",
         "butter-crescents-gahb",
         "butter-drop-american-cookery-1796",
+        "butter-molasses-bread",
         "butter-sauce-gutenberg",
         "butter-sauce-gutenberg-6385",
         "buttermilk-pancakes-ref",
         "buttermilk-pie-cottage-cheese",
+        "butternut-squash-bread",
         "butterscotch-pie-carnation",
         "butterscotch-sauce-carnation",
         "butterscotch-sundae-sauce-harvester",
@@ -55515,6 +55536,7 @@
         "cajun-shrimp-pasta-cpm",
         "camarones-mojo-ajo-cpm",
         "canadian-matrimonial-cake",
+        "candied-hoska",
         "candy-cane-muffins-ref",
         "caper-sauce-carnation",
         "caramel-apple-muffins",
@@ -60893,6 +60915,16 @@
       ]
     },
     {
+      "ingredient": "candied mixed fruit peel",
+      "variants": [
+        "candied mixed fruit peel"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "candied-hoska"
+      ]
+    },
+    {
       "ingredient": "candied orange peal",
       "variants": [
         "candied orange peal"
@@ -65621,6 +65653,16 @@
       ]
     },
     {
+      "ingredient": "chili crisp or chili garlic oil",
+      "variants": [
+        "chili crisp or chili garlic oil"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "spicy-chili-garlic-deviled-eggs"
+      ]
+    },
+    {
       "ingredient": "chili flak",
       "variants": [
         "chili flakes",
@@ -66803,6 +66845,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "shakshuka-cpm"
+      ]
+    },
+    {
+      "ingredient": "cilantro or scallion",
+      "variants": [
+        "fresh cilantro or scallions"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "spicy-chili-garlic-deviled-eggs"
       ]
     },
     {
@@ -68977,12 +69029,13 @@
         "confectioners' sugar",
         "confectioners' sugar (for glaze)"
       ],
-      "recipe_count": 21,
+      "recipe_count": 22,
       "recipe_ids": [
         "almond-streusel-cake-gahb",
         "apple-pie-french-toast",
         "apple-pie-french-toast-ref",
         "buttermilk-pancakes-ref",
+        "candied-hoska",
         "carrot-cake-cream-cheese-icing-gahb",
         "cherry-strudel-gahb",
         "chocolate-cinnamon-babka-ref",
@@ -69673,9 +69726,10 @@
         "cornmeal",
         "ground cornmeal"
       ],
-      "recipe_count": 18,
+      "recipe_count": 19,
       "recipe_ids": [
         "baked-eggs-incorn-cases-wilsonscoo",
+        "butter-molasses-bread",
         "chili-with-corn-dumplings",
         "corn-bread-dudeskitch",
         "cornmeal-and-berry-pancakes",
@@ -74920,7 +74974,7 @@
       "variants": [
         "dijon mustard"
       ],
-      "recipe_count": 42,
+      "recipe_count": 43,
       "recipe_ids": [
         "avocado-and-more-quiche",
         "baked-chicken-parmesan-chickenrec",
@@ -74962,6 +75016,7 @@
         "manchego-salad-sherry-vinaigrette",
         "marinated-chicken-wings-chickenrec",
         "roquefort-walnut-salad",
+        "spicy-chili-garlic-deviled-eggs",
         "spicy-deviled-eggs-cpm",
         "traditional-liptauer-hungarian"
       ]
@@ -75629,11 +75684,15 @@
       "variants": [
         "dry active yeast"
       ],
-      "recipe_count": 22,
+      "recipe_count": 28,
       "recipe_ids": [
         "amish-white-bread",
         "artichoke-pine-nut-bread",
         "braided-sesame-bread",
+        "butter-molasses-bread",
+        "butternut-squash-bread",
+        "buttery-white-bread",
+        "candied-hoska",
         "chocolate-cinnamon-babka-ref",
         "cinnamon-raisin-bread-ref",
         "dutch-paasbrood",
@@ -75645,6 +75704,8 @@
         "hungarian-cinnamon-swirl-bread-ref",
         "oatmeal-molasses-rolls-ref",
         "panettone-ref",
+        "parmesan-mozzarella-focaccia",
+        "simple-artisan-bread",
         "sweet-finnish-pulla-ref",
         "unbleached-baguettes-ref",
         "unbleached-ciabatta-bread-ref",
@@ -76301,7 +76362,7 @@
         "whole egg",
         "whole eggs"
       ],
-      "recipe_count": 984,
+      "recipe_count": 987,
       "recipe_ids": [
         "1-c-cooked-and-mashed-potato-sandwichre",
         "1-oz-2-tb-margarine-sandwichre",
@@ -76452,12 +76513,14 @@
         "buttermilk-breakfast-waffles",
         "buttermilk-pancakes-ref",
         "buttermilk-pie-cottage-cheese",
+        "butternut-squash-bread",
         "butterscotch-pie-carnation",
         "cabbage-sweet-and-sour-gutenberg",
         "cakes-and-buns-easybaking",
         "calfs-liver-fried-gutenberg",
         "calfs-liver-fried-gutenberg-6385",
         "calves-liver-baked-gutenberg-34837",
+        "candied-hoska",
         "candy-cane-muffins",
         "candy-cane-muffins-ref",
         "cappuccino-pinwheels",
@@ -77154,6 +77217,7 @@
         "spicey-meatballs-jean-shue-handwritten",
         "spicy-breakfast-migas",
         "spicy-breakfast-migas-ref",
+        "spicy-chili-garlic-deviled-eggs",
         "spicy-deviled-eggs-cpm",
         "spicy-heavy-cream-eggs",
         "spicy-meatball-sub-cpm",
@@ -77585,7 +77649,7 @@
         "large egg yolk",
         "large egg yolks"
       ],
-      "recipe_count": 75,
+      "recipe_count": 76,
       "recipe_ids": [
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
         "alabama-lane-cake",
@@ -77593,6 +77657,7 @@
         "always-ready-molasses-spread-grandmas-molasses",
         "black-bottom-pie-harvester",
         "butter-drop-american-cookery-1796",
+        "candied-hoska",
         "chicken-a-la-ki-ng-chickenrec",
         "coconut-custard",
         "cooked-salad-dressing-carnation",
@@ -80047,11 +80112,14 @@
       "variants": [
         "fine sugar"
       ],
-      "recipe_count": 13,
+      "recipe_count": 17,
       "recipe_ids": [
         "amish-white-bread",
         "artichoke-pine-nut-bread",
         "braided-sesame-bread",
+        "butternut-squash-bread",
+        "buttery-white-bread",
+        "candied-hoska",
         "chocolate-cinnamon-babka-ref",
         "cinnamon-raisin-bread-ref",
         "french-chocolate-bread-ref",
@@ -80059,6 +80127,7 @@
         "lemon-pudding-american-cookery-1796",
         "oatmeal-molasses-rolls-ref",
         "panettone-ref",
+        "parmesan-mozzarella-focaccia",
         "royal-paste-american-cookery-1796",
         "sweet-finnish-pulla-ref",
         "wholegrain-seed-bread-ref"
@@ -86972,7 +87041,7 @@
         "minced fresh garlic",
         "minced garlic"
       ],
-      "recipe_count": 245,
+      "recipe_count": 246,
       "recipe_ids": [
         "adas-bil-hamod",
         "antioxidant-delight-ref",
@@ -87192,6 +87261,7 @@
         "spaghetti-homemade-ref",
         "spaghetti-squash-meatball-casserole",
         "spectacular-mushroom-quiche",
+        "spicy-chili-garlic-deviled-eggs",
         "spicy-meatball-sub-cpm",
         "spicy-noodles-cpm",
         "spicy-shrimp-pasta-ref",
@@ -87632,7 +87702,7 @@
         "garlic powder",
         "garlic powder (optional)"
       ],
-      "recipe_count": 89,
+      "recipe_count": 90,
       "recipe_ids": [
         "adobo-seasoning-cpm",
         "bacon-and-tomato-frittata",
@@ -87699,6 +87769,7 @@
         "nashville-hot-chicken-wings",
         "overnight-egg-sausage-bake",
         "overnight-egg-sausage-bake-ref",
+        "parmesan-mozzarella-focaccia",
         "peri-peri-seasoning-cpm",
         "pizza-bread-cheeseforum",
         "pork-belly-burnt-ends",
@@ -88108,7 +88179,7 @@
         "sliced ginger",
         "whole ginger"
       ],
-      "recipe_count": 112,
+      "recipe_count": 113,
       "recipe_ids": [
         "apple-ginger-pancakes",
         "apple-ginger-pancakes-ref",
@@ -88123,6 +88194,7 @@
         "buldak-korean-fire-chicken-cpm",
         "butter-chicken-20-minutes-ref",
         "butter-chicken-cpm",
+        "candied-hoska",
         "chana-masala-cpm",
         "chicken-curry-cpm",
         "chicken-korma-cpm",
@@ -88992,8 +89064,9 @@
       "variants": [
         "golden raisins"
       ],
-      "recipe_count": 5,
+      "recipe_count": 6,
       "recipe_ids": [
+        "candied-hoska",
         "dutch-paasbrood",
         "gordon-ramsay-caper-raisin-puree",
         "ragu-stuffed-peppers",
@@ -100023,9 +100096,10 @@
       "variants": [
         "lukewarm water"
       ],
-      "recipe_count": 14,
+      "recipe_count": 16,
       "recipe_ids": [
         "artichoke-pine-nut-bread",
+        "buttery-white-bread",
         "cf-gluten-free-pizza-crust",
         "fastnachtsraised-doughnuts-gutenberg",
         "filled-cheese-rolls-cottage-cheese",
@@ -100034,6 +100108,7 @@
         "gruyere-pepper-onion-bread-ref",
         "oatmeal-molasses-rolls-ref",
         "rose-cordial-gutenberg-34837",
+        "simple-artisan-bread",
         "swedish-yeast-bread-grandmas-molasses",
         "wholegrain-seed-bread-ref",
         "wholewheat-honey-bread",
@@ -100194,15 +100269,17 @@
     {
       "ingredient": "mace",
       "variants": [
+        "ground mace",
         "mace"
       ],
-      "recipe_count": 12,
+      "recipe_count": 13,
       "recipe_ids": [
         "apple-pie-american-cookery-1796",
         "baked-pigeons-or-pigeons-la-crapaudine-gutenberg-34837",
         "bechamel-sauce-no-2-gutenberg",
         "bechamel-sauce-no-2-gutenberg-6385",
         "butter-drop-american-cookery-1796",
+        "candied-hoska",
         "lemon-cottage-cheese-custard-cottage-cheese",
         "plumb-cake-american-cookery-1796",
         "pumpkin-pie-american-cookery-1796",
@@ -101050,6 +101127,16 @@
       ]
     },
     {
+      "ingredient": "mashed cooked butternut squash",
+      "variants": [
+        "mashed cooked butternut squash"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "butternut-squash-bread"
+      ]
+    },
+    {
       "ingredient": "mashed cooked peeled baking potato",
       "variants": [
         "mashed cooked peeled baking potatoes (about 8 ounces)"
@@ -101308,7 +101395,7 @@
         "mayonnaise",
         "mayonnaise (duke's or hellmann's)"
       ],
-      "recipe_count": 35,
+      "recipe_count": 36,
       "recipe_ids": [
         "best-hamburger",
         "big-back-sauce",
@@ -101339,6 +101426,7 @@
         "salmon-salad-sandwich-filling-harvester",
         "shrimp-tacos-cpm",
         "shrimp-tomato-mold-harvester",
+        "spicy-chili-garlic-deviled-eggs",
         "spicy-deviled-eggs-cpm",
         "stuffed-celery-carnation",
         "tomato-salad-carnation",
@@ -103084,7 +103172,7 @@
         "whole milk (sheep, goat, or cow)",
         "whole raw milk"
       ],
-      "recipe_count": 832,
+      "recipe_count": 835,
       "recipe_ids": [
         "18th-century-farmhouse-cheddar",
         "30-minute-mozzarella",
@@ -103200,10 +103288,13 @@
         "burrata-cheese",
         "butter-crescents-gahb",
         "butterkase-cheese",
+        "butternut-squash-bread",
+        "buttery-white-bread",
         "caerphilly-cheese",
         "calvados-washed-camembert",
         "camblu-cheese",
         "camembert-cheese",
+        "candied-hoska",
         "candy-cane-muffins",
         "candy-cane-muffins-ref",
         "canestrato-cheese",
@@ -105035,11 +105126,12 @@
       "variants": [
         "molasses"
       ],
-      "recipe_count": 35,
+      "recipe_count": 36,
       "recipe_ids": [
         "autumn-time-muffins",
         "baked-beans-quick-method-grandmas-molasses",
         "buckwheat-cakes-theplainsa",
+        "butter-molasses-bread",
         "coconut-chiffon-pie-grandmas-molasses",
         "dark-dough-betty-crocker",
         "ginger-creams-betty-crocker",
@@ -105316,14 +105408,16 @@
     {
       "ingredient": "mozzarella",
       "variants": [
+        "grated mozzarella",
         "mozzarella",
         "shredded mozzarella"
       ],
-      "recipe_count": 4,
+      "recipe_count": 5,
       "recipe_ids": [
         "buffalo-chicken-dip-cpm",
         "focaccia-bread",
         "gr-mozzarella-and-rosemary-pizza",
+        "parmesan-mozzarella-focaccia",
         "pizza-pasta-ref"
       ]
     },
@@ -106603,8 +106697,10 @@
       "variants": [
         "nonstick cooking spray"
       ],
-      "recipe_count": 6,
+      "recipe_count": 8,
       "recipe_ids": [
+        "buttery-white-bread",
+        "candied-hoska",
         "cinnamon-raisin-bread-ref",
         "french-chocolate-bread-ref",
         "panettone-ref",
@@ -107734,7 +107830,7 @@
         "olive oil",
         "olive oil (for rubbing rind)"
       ],
-      "recipe_count": 265,
+      "recipe_count": 266,
       "recipe_ids": [
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
         "adas-bil-hamod",
@@ -107940,6 +108036,7 @@
         "olives-sundried-tomato-quiche",
         "overnight-egg-sausage-bake",
         "overnight-egg-sausage-bake-ref",
+        "parmesan-mozzarella-focaccia",
         "pasta-con-sardo-rallado",
         "pasta-puttanesca-ref",
         "penne-arrabbiata-cpm",
@@ -111767,14 +111864,16 @@
     {
       "ingredient": "orange zest",
       "variants": [
+        "dried orange zest",
         "grated orange zest",
         "orange zest",
         "orange zest (for filling)"
       ],
-      "recipe_count": 7,
+      "recipe_count": 8,
       "recipe_ids": [
         "almond-streusel-cake-gahb",
         "baked-figs-in-wine-ancients",
+        "candied-hoska",
         "irish-soda-bread",
         "orange-cinnamon-muffins",
         "orange-cinnamon-muffins-ref",
@@ -111923,7 +112022,7 @@
         "fresh oregano",
         "oregano"
       ],
-      "recipe_count": 72,
+      "recipe_count": 73,
       "recipe_ids": [
         "aaron-mccargo-steak-fajita-chili",
         "adobo-seasoning-cpm",
@@ -111977,6 +112076,7 @@
         "macaroni-green-chile-pie-chile-bible",
         "milanesa-napolitana-reggianito",
         "noquis-con-tuco-reggianito",
+        "parmesan-mozzarella-focaccia",
         "peri-peri-seasoning-cpm",
         "peruvian-anticuchos-recipe-rumba-meats",
         "pozole-rojo-cpm",
@@ -112837,7 +112937,7 @@
         "parmesan cheese",
         "shredded parmesan cheese"
       ],
-      "recipe_count": 85,
+      "recipe_count": 86,
       "recipe_ids": [
         "20-mi-nute-chi-cken-parmesan-chickenrec",
         "almost-famous-spinach-artichoke-dip",
@@ -112902,6 +113002,7 @@
         "onions-alla-veneziana-gutenberg",
         "onions-alla-veneziana-gutenberg-6385",
         "overni-ght-chicken-di-van-chickenrec",
+        "parmesan-mozzarella-focaccia",
         "pasta-puttanesca-ref",
         "penne-arrabbiata-cpm",
         "philadelphia-tomato-pie",
@@ -124045,7 +124146,7 @@
         "salt (if using unsalted butter)",
         "salt (optional)"
       ],
-      "recipe_count": 1995,
+      "recipe_count": 2002,
       "recipe_ids": [
         "14-arpents",
         "6-in-1-refrigerator-cookies-harvester",
@@ -124292,13 +124393,16 @@
         "butter-chicken-20-minutes-ref",
         "butter-chicken-cpm",
         "butter-crescents-gahb",
+        "butter-molasses-bread",
         "butter-sauce-gutenberg",
         "butter-sauce-gutenberg-6385",
         "buttermilk-biscuits-gahb",
         "buttermilk-breakfast-waffles",
         "buttermilk-breakfast-waffles-ref",
         "buttermilk-pancakes-ref",
+        "butternut-squash-bread",
         "butterscotch-pie-carnation",
+        "buttery-white-bread",
         "buxton-blue",
         "cabbage-filling-harvester",
         "cabbage-sweet-and-sour-gutenberg",
@@ -124323,6 +124427,7 @@
         "camembert-pepper",
         "camembert-truffle",
         "canadian-matrimonial-cake",
+        "candied-hoska",
         "candy-cane-muffins",
         "candy-cane-muffins-ref",
         "canestrato-pugliese",
@@ -125263,6 +125368,7 @@
         "panettone-ref",
         "paprika-sauce-gutenberg",
         "paprika-sauce-gutenberg-6429",
+        "parmesan-mozzarella-focaccia",
         "parmigiano-12month",
         "parmigiano-18month",
         "parmigiano-24month",
@@ -125666,6 +125772,7 @@
         "sicilian-fig-cookies",
         "silver-dollar-pancakes-ref",
         "silver-dollars-pancakes",
+        "simple-artisan-bread",
         "simple-leek-quiche",
         "simple-shrimp-gumbo-ref",
         "sirloin-of-beef-gutenberg-34837",
@@ -125703,6 +125810,7 @@
         "spiced-pork-chops-apple-chutney",
         "spicey-meatballs-jean-shue-handwritten",
         "spicy-chicken-w-ings-chickenrec",
+        "spicy-chili-garlic-deviled-eggs",
         "spinach-alla-romana-gutenberg",
         "spinach-alla-romana-gutenberg-6385",
         "spinach-au-gratin-carnation",
@@ -127608,8 +127716,9 @@
       "variants": [
         "scalded milk"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
+        "candied-hoska",
         "steamed-colonial-custard-grandmas-molasses"
       ]
     },
@@ -132532,6 +132641,16 @@
       ]
     },
     {
+      "ingredient": "soy sauce or tamari",
+      "variants": [
+        "soy sauce or tamari"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "spicy-chili-garlic-deviled-eggs"
+      ]
+    },
+    {
       "ingredient": "soy sauce, for drizzling",
       "variants": [
         "soy sauce, for drizzling (optional)"
@@ -135424,7 +135543,7 @@
         "sugar (for sauce)",
         "sugar (for topping)"
       ],
-      "recipe_count": 544,
+      "recipe_count": 545,
       "recipe_ids": [
         "alabama-lane-cake",
         "almond-crescents-betty-crocker",
@@ -135901,6 +136020,7 @@
         "spice-rubbed-pork-tenderloin",
         "spiced-cantaloupe-gutenberg",
         "spiced-cottage-cheese-cookies-cottage-cheese",
+        "spicy-chili-garlic-deviled-eggs",
         "sponge-cake-gutenberg",
         "sponge-cake-theplainsa",
         "sponge-cakecalled-in-france-biscuit-gutenberg-34837",
@@ -141488,7 +141608,7 @@
         "minced fresh thyme",
         "thyme"
       ],
-      "recipe_count": 69,
+      "recipe_count": 70,
       "recipe_ids": [
         "alamode-beef-american-cookery-1796",
         "another-bechamel-gutenberg-34837",
@@ -141546,6 +141666,7 @@
         "lebanese-shanklish",
         "lentil-lemon-soup-ii",
         "lgc-marinated-feta",
+        "parmesan-mozzarella-focaccia",
         "pilaf-ancients",
         "pork-chops-fava-beans",
         "pork-loin-in-green-sauce-chile-bible",
@@ -142193,9 +142314,10 @@
       "variants": [
         "toasted sesame seeds"
       ],
-      "recipe_count": 2,
+      "recipe_count": 3,
       "recipe_ids": [
         "asian-meatballs-ref",
+        "spicy-chili-garlic-deviled-eggs",
         "turkish-eggs"
       ]
     },
@@ -146060,7 +146182,7 @@
         "unsalted butter",
         "unsalted butter (melted)"
       ],
-      "recipe_count": 133,
+      "recipe_count": 134,
       "recipe_ids": [
         "almost-famous-broccoli-cheddar-soup",
         "almost-famous-spinach-artichoke-dip",
@@ -146076,6 +146198,7 @@
         "blueberry-crepes",
         "buffalo-sauce-cpm",
         "buttermilk-breakfast-waffles",
+        "buttery-white-bread",
         "cheese-omelet-with-roasted-tomatoes-and-onions",
         "cheesy-scrambled-eggs-with-herbs",
         "cherry-chocolate-scones",
@@ -147446,7 +147569,7 @@
         "vegetable oil",
         "vegetable oil (for rind)"
       ],
-      "recipe_count": 178,
+      "recipe_count": 182,
       "recipe_ids": [
         "amish-friendship-bread",
         "amish-white-bread",
@@ -147473,6 +147596,9 @@
         "breakfast-tacos-cpm",
         "brisket-chili-cpm",
         "burrito-de-la-calle",
+        "butter-molasses-bread",
+        "butternut-squash-bread",
+        "candied-hoska",
         "cf-bbq-chicken-marinade",
         "cf-great-pizza-dough",
         "chai-spiced-muffins",
@@ -147575,6 +147701,7 @@
         "pad-see-ew-cpm",
         "pad-thai-cpm",
         "parm-and-oreganobrown-sugar-goodandche",
+        "parmesan-mozzarella-focaccia",
         "peaches-and-cream-waffles",
         "peaches-cream-waffles-ref",
         "peanut-butter-banana-bread",
@@ -147711,8 +147838,9 @@
       "variants": [
         "vegetable shortening"
       ],
-      "recipe_count": 4,
+      "recipe_count": 5,
       "recipe_ids": [
+        "buttery-white-bread",
         "italian-cream-cake-southern",
         "no-bake-easter-basket-cake",
         "wholewheat-honey-bread",
@@ -148562,7 +148690,7 @@
         "water (heated to 80°c)",
         "water (to dissolve junket)"
       ],
-      "recipe_count": 539,
+      "recipe_count": 543,
       "recipe_ids": [
         "a-duck-with-olives-gutenberg-34837",
         "a-fine-hash-gutenberg-34837",
@@ -148627,10 +148755,13 @@
         "burnt-almonds-gutenberg-34837",
         "butter-chicken-20-minutes-ref",
         "butter-crescents-gahb",
+        "butter-molasses-bread",
         "butter-semmels-gutenberg",
+        "butternut-squash-bread",
         "butterscotch-pie-carnation",
         "caldo-camaron-cpm",
         "canadian-matrimonial-cake",
+        "candied-hoska",
         "caper-sauce-carnation",
         "caramel-bacon-monkey-bread",
         "caramel-icing-carnation",
@@ -148899,6 +149030,7 @@
         "oyster-stew-carnation",
         "panettone-ref",
         "paprika-pork",
+        "parmesan-mozzarella-focaccia",
         "peach-dumplings-gutenberg",
         "peanut-butter-fudge-carnation",
         "peanut-macaroons-betty-crocker",
