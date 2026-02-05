@@ -23,7 +23,7 @@ jobs:
         run: python scripts/validate-recipes.py
 
       - name: Rebuild ingredient index
-        run: python scripts/build-ingredient-index.py
+        run: python scripts/build_ingredient_index.py
 
       - name: Commit changes
         run: |
