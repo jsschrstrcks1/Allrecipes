@@ -198,37 +198,46 @@ Commits marked with `***` had removals.
 
 ---
 
-## Recovery Plan
+## Recovery Plan — COMPLETED
 
-Each lost recipe's full data exists in a historical commit. Recovery source commits:
+Recovery executed on 2026-02-05 using `scripts/recover_lost_recipes.py`.
 
-| Category | Count | Recovery Commit | Commit Description |
-|----------|-------|-----------------|-------------------|
-| LOST_GUTENBERG_RECIPE | 539 | `12f070a` | Last commit with unfiltered Gutenberg recipes |
-| LOST_CPM_RECIPE | 128 | `12f070a` | Last commit with CPM recipes |
-| LOST_CUSOCUTS_RECIPE | 16 | `12f070a` | Last commit with CusoCuts recipes |
-| LOST_WEBSITE_RECIPE | 14 | `12f070a` | Last commit with website recipes |
-| LOST_HBH_RECIPE | 8 | `12f070a` | Last commit with Half Baked Harvest recipes |
-| LOST_PP_RECIPE | 6 | `12f070a` | Last commit with PepperPowered recipes |
-| LOST_OTHER | 6 | `12f070a` | Last commit with misc recipes |
-| LOST_CHEESE_BAD_MERGE | 291 | `19ebd7f` | Last commit with all cheese varieties (peak 6,110) |
-| LOST_CHEESE_OTHER | 29 | `ec41a91` / `4eb5094` | Various cheese dedup commits |
-| LOST_GORDON_RAMSAY | 23 | `4eb5094` / `fdeb794` / `de49d59` | Various GR recipe commits |
+### Recovery Results
 
-### Recovery Process
+| Category | Listed | Recovered | Already Present | Not Found | Notes |
+|----------|--------|-----------|-----------------|-----------|-------|
+| LOST_GUTENBERG_RECIPE | 539 | 539 | 0 | 0 | From `12f070a` |
+| LOST_CPM_RECIPE | 128 | 128 | 0 | 0 | From `12f070a` |
+| LOST_CUSOCUTS_RECIPE | 16 | 16 | 0 | 0 | From `12f070a` |
+| LOST_WEBSITE_RECIPE | 14 | 14 | 0 | 0 | From `12f070a` |
+| LOST_HBH_RECIPE | 8 | 8 | 0 | 0 | From `12f070a` |
+| LOST_PP_RECIPE | 6 | 6 | 0 | 0 | From `12f070a` |
+| LOST_OTHER | 6 | 6 | 0 | 0 | From `12f070a` |
+| LOST_CHEESE_BAD_MERGE | 291 | 291 | 0 | 0 | From `19ebd7f` |
+| LOST_CHEESE_OTHER | 29 | 27 | 0 | 2 | 27 were Unicode duplicates (removed); 2 IDs never existed in git |
+| LOST_GORDON_RAMSAY | 23 | 23 | 0 | 0 | From various commits |
+| **TOTAL** | **1,060** | **1,058** | **0** | **2** | |
 
-1. Extract each lost recipe's full JSON from its recovery commit
-2. Verify the recipe is not a duplicate of an existing recipe (check by title and ingredients, not just ID)
-3. Update any stale fields (collection should be `"all"`, categories may need correction)
-4. Validate with `python scripts/validate-recipes.py`
-5. Add to current `data/recipes.json`
+### Post-Recovery Cleanup
 
-### Important Notes for Recovery
+- **27 Unicode duplicate IDs removed**: These had accented characters (é, ø, ã, etc.) and ASCII equivalents already existed in the file
+- **6 Unicode IDs renamed to ASCII**: `traditional-bergkäse-austrian-alpine` → `traditional-bergkase-austrian-alpine`, etc.
+- **2 IDs never existed**: `ghost-pepper-salsa-dried-chilies` and `louisiana-fermented-ghost-pepper-sauce` were not found in any commit of `data/recipes.json` across the entire git history
+- **Cheese category fixed**: All LOST_CHEESE_BAD_MERGE and LOST_CHEESE_OTHER recipes set to `category: "cheese"`
+- **Collection fixed**: All recovered recipes set to `collection: "all"`
 
-- **Gutenberg recipes (539)**: These are public domain. They were in `collection: "all"` and have legitimate source attribution. They were lost in the filter oscillation, not intentionally removed.
-- **Cheese recipes (320 total)**: Many were categorized as `"mains"` or `"sides"` before the cheese category was established. During recovery, cheese-MAKING recipes must be set to `category: "cheese"`.
-- **Gordon Ramsay `gr-*` recipes (21)**: These are from gordonramsay.com. They were lost in the validation/dedup oscillation between commits #69-#73. They are distinct from the `gordon-ramsay-*` Hell's Kitchen cookbook recipes currently in the file.
-- **2 Gordon Ramsay Hell's Kitchen recipes**: `gordon-ramsay-bread-pudding-fig-jam` and `gordon-ramsay-caramel-sauce` were silently replaced when newer versions of those pages were transcribed. Check if current file has equivalent recipes under different IDs before restoring.
+### Pre-existing Data Quality Issues (NOT introduced by recovery)
+
+- **536 Gutenberg recipes** have empty `ingredients` arrays (vintage narrative-style recipes with ingredients in instruction text)
+- **1 recipe** (`peruvian-anticuchos-recipe-rumba-meats`) is a stub with empty ingredients and instructions
+- **10 recipes** have empty `instructions` arrays (8 HBH crockpot stubs, 2 Peruvian stubs)
+
+### Final Count
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Total recipes | 6,057 | 7,088 |
+| Net recovered | — | +1,031 |
 
 ---
 
