@@ -139,53 +139,39 @@ Policy change: only handwritten recipe images should be saved and linked via `im
 **Status:** IN PROGRESS
 **Priority:** Medium
 **Created:** 2026-02-05
+**Updated:** 2026-02-05
 
 ### Background
 
 During image deletion audit (commit `4bae9d4`), 59 images labeled "recipes 373-433" were deleted with the claim that all recipes had been transcribed. An audit revealed this claim was not fully verified.
 
-### Audit Findings
+### Progress
 
-**Good news:** Most recipes from the Kindle bread cookbook (944 locations) ARE already extracted.
+**Completed:**
+- [x] Merged duplicate entries: Wholewheat Honey Bread (2→1), Wholewheat Maple Bread (2→1)
+- [x] Updated 8 recipes with verified Kindle location numbers
 
-**Two different source attributions exist:**
-1. `"Kindle bread cookbook (Location X-Y of 944)"` - 9 recipes with explicit location numbers
-2. `"Digital cookbook (Kindle)"` - ~16 additional bread recipes without location numbers
+**Recipes now with proper "Kindle bread cookbook" attribution (17 total):**
+- Original 9: Amish White Bread (100-113), Artichoke Pine Nut Bread (123-149), Braided Sesame Bread (157-169), Butter & Molasses Bread (187-199), Butternut Squash Bread (214-226), Buttery White Bread (237-250), Candied Hoska (262-290), Parmesan & Mozzarella Focaccia (636-650), Simple Artisan Bread (663-674)
+- Added: Cinnamon Raisin Bread (347-360), Hungarian Cinnamon Swirl Bread (404-434), Gruyère Pepper & Onion Bread (483-496), Panettone (608-620), Unbleached Baguettes (717-743), Wholegrain Seed Bread (782-795), Wholewheat Honey Bread (809-821), Wholewheat Maple Bread (836-849)
 
-**Recipes with explicit Kindle bread cookbook attribution (9):**
-- Amish White Bread (100-113)
-- Artichoke Pine Nut Bread (123-149)
-- Braided Sesame Bread (157-169)
-- Butter & Molasses Bread (187-199)
-- Butternut Squash Bread (214-226)
-- Buttery White Bread (237-250)
-- Candied Hoska (262-290)
-- Parmesan & Mozzarella Focaccia (636-650)
-- Simple Artisan Bread (663-674)
+**Remaining with "Digital cookbook (Kindle)" source (8 breads):**
+- Unbleached Ciabatta Bread, Sweet Finnish Pulla, Oatmeal Molasses Rolls
+- Honey Oatmeal Bread, Garlic Artisan Bread, Fougasse
+- French Chocolate Bread, Chocolate Cinnamon Babka
 
-**Recipes with "Digital cookbook (Kindle)" source (likely same book):**
-- Cinnamon Raisin Bread, Panettone, Gruyère Pepper & Onion Bread
-- Wholewheat Honey Bread, Wholewheat Maple Bread
-- Unbleached Baguettes, Wholegrain Seed Bread
-- Chocolate Cinnamon Babka, French Chocolate Bread
-- And more...
-
-### Issues to Resolve
-
-1. **Duplicate entries:** Wholewheat Honey Bread and Wholewheat Maple Bread each have TWO entries with different IDs
-2. **Inconsistent source attribution:** Same cookbook, different `source_note` formats
-3. **Missing location numbers:** ~16 recipes lack Kindle location attribution
+These 8 may or may not be from the same bread cookbook - need additional image scanning to verify.
 
 ### Images Restored
 
-59 bread/muffin cookbook images restored from git history for verification:
+58 bread/muffin cookbook images restored from git history for verification:
 - Images 373-424: Kindle bread cookbook (944 locations), covering ~locations 187-849
 - Images 425-433: Kindle MUFFIN cookbook (6172 locations) - different book!
 
-### Recommended Actions
+### Remaining Actions
 
-1. **Merge duplicate recipes** - Keep the one with better data, delete the other
-2. **Standardize source attribution** - Update "Digital cookbook (Kindle)" entries to include Kindle location numbers where verifiable from images
+1. ~~Merge duplicate recipes~~ DONE
+2. ~~Standardize source attribution~~ PARTIALLY DONE (17 of ~25 bread recipes)
 3. **Verify completeness** - Cross-check extracted recipes against image content
 4. **Re-delete images** - After verification, images can be safely deleted per non-handwritten policy
 
