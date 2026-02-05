@@ -2,8 +2,8 @@
   "meta": {
     "title": "Ingredient Index",
     "description": "Index of ingredients mapped to recipes",
-    "total_ingredients": 10653,
-    "total_recipes": 6043,
+    "total_ingredients": 10675,
+    "total_recipes": 6057,
     "last_updated": "2026-02-05",
     "version": "1.0.0"
   },
@@ -44169,7 +44169,7 @@
         "all-purpose flour",
         "all-purpose flour (about 1/4 cup)"
       ],
-      "recipe_count": 351,
+      "recipe_count": 353,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
@@ -44206,7 +44206,6 @@
         "banana-cinnamon-muffins-ref",
         "banana-crepes",
         "banana-crepes-ref",
-        "banana-nut-breakfast-muffins-ref",
         "banana-nut-muffins-gahb",
         "banana-sour-cream-pancakes",
         "banana-sour-cream-pancakes-ref",
@@ -44226,6 +44225,7 @@
         "blueberry-pancakes-ref",
         "blueberry-ricotta-blintzes-truvia",
         "boston-cream-pie-gahb",
+        "braided-sesame-bread",
         "bran-muffins-ref",
         "breakfast-churros",
         "breakfast-churros-ref",
@@ -44308,6 +44308,7 @@
         "deep-fried-cheese-curds",
         "double-chocolate-crackles",
         "dutch-paasbrood",
+        "easy-double-chocolate-chip-brownies-nestle",
         "egg-white-crepes",
         "egg-white-crepes-ref",
         "eggnog-muffins",
@@ -44392,8 +44393,8 @@
         "mocha-muffins",
         "monkey-pancakes",
         "monkey-pancakes-ref",
-        "morning-start-blueberry-oatmeal-muffins-ref",
         "neiman-marcus-250-cookies",
+        "nestle-toll-house-chocolate-chip-cookies",
         "nigella-lawsons-apple-latkes",
         "noquis-con-tuco-reggianito",
         "norwegian-waffles",
@@ -44504,6 +44505,7 @@
         "two-berry-pancakes",
         "two-berry-pancakes-ref",
         "ukrainian-babka-bread",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle",
         "vanilla-crepes",
         "vanilla-crepes-ref",
         "veal-shank-paprikash",
@@ -45223,7 +45225,7 @@
         "apples",
         "sliced apples"
       ],
-      "recipe_count": 18,
+      "recipe_count": 17,
       "recipe_ids": [
         "apple-and-peach-conserve-gutenberg",
         "apple-berry-galette-truvia",
@@ -45239,7 +45241,6 @@
         "finalist-blueribbon",
         "healthy-apple-walnut-muffins-gahb",
         "healthy-bran-apple-muffins",
-        "healthy-bran-apple-muffins-ref",
         "hog-maw-gutenberg",
         "howtomakethecider-cup-wilsonscoo",
         "winter-squash-pudding-american-cookery-1796"
@@ -46009,6 +46010,16 @@
       ]
     },
     {
+      "ingredient": "artichoke heart",
+      "variants": [
+        "artichoke hearts"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "artichoke-pine-nut-bread"
+      ]
+    },
+    {
       "ingredient": "artichoke hearts, thawed, squeezed dry and roughly chopped",
       "variants": [
         "frozen artichoke hearts, thawed, squeezed dry and roughly chopped"
@@ -46764,6 +46775,18 @@
       ]
     },
     {
+      "ingredient": "baked crust",
+      "variants": [
+        "baked crust"
+      ],
+      "recipe_count": 3,
+      "recipe_ids": [
+        "berry-banana-dessert-pillsbury",
+        "frosty-orange-delight",
+        "strawberries-cream-cheese-freeze-pillsbury"
+      ]
+    },
+    {
       "ingredient": "baked ham",
       "variants": [
         "baked ham (leftover or deli-sliced)"
@@ -47223,7 +47246,7 @@
         "baking soda",
         "baking soda (for soaking)"
       ],
-      "recipe_count": 121,
+      "recipe_count": 126,
       "recipe_ids": [
         "almond-pancakes",
         "almond-pancakes-ref",
@@ -47234,6 +47257,7 @@
         "autumn-time-muffins",
         "banana-bread-ref",
         "banana-nut-breakfast-muffins",
+        "banana-nut-breakfast-muffins-ref",
         "banana-nut-muffins-gahb",
         "banana-sour-cream-pancakes",
         "banana-sour-cream-pancakes-ref",
@@ -47268,6 +47292,7 @@
         "deep-dark-chocolate-biscotti",
         "devil-cake-oursisters",
         "dutch-oven-biscuits-dutchovenc",
+        "easy-double-chocolate-chip-brownies-nestle",
         "favorite-fruit-cake-thewingold",
         "fudgy-chocolate-layer-cake-gahb",
         "german-chocolate-cake-coconut-pecan-cajeta-frosting",
@@ -47294,6 +47319,7 @@
         "monkey-pancakes",
         "monkey-pancakes-ref",
         "neiman-marcus-250-cookies",
+        "nestle-toll-house-chocolate-chip-cookies",
         "nigella-lawsons-apple-latkes",
         "oatmeal-cake-broiled-frosting",
         "old-fashioned-applesauce-cake",
@@ -47333,9 +47359,11 @@
         "toasted-pecan-buttermilk-pancakes",
         "toasted-pecan-buttermilk-pancakes-ref",
         "traditional-blueberry-muffins",
+        "traditional-blueberry-muffins-ref",
         "traditional-handkase-german",
         "triple-threat-berry-muffins",
         "triple-threat-berry-muffins-ref",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle",
         "vanilla-buttermilk-muffins",
         "vintage-fruit-cocktail-cake",
         "vintage-prune-cake",
@@ -47531,12 +47559,15 @@
       "variants": [
         "banana",
         "bananas",
-        "large bananas"
+        "large bananas",
+        "medium bananas"
       ],
-      "recipe_count": 16,
+      "recipe_count": 18,
       "recipe_ids": [
         "banana-crepes",
         "banana-nut-breakfast-muffins",
+        "banana-nut-breakfast-muffins-ref",
+        "berry-banana-dessert-pillsbury",
         "breakfast-oat-brulee",
         "chocolate-covered-banana-muffins",
         "creamy-banana-cereal",
@@ -48213,7 +48244,7 @@
         "dried beef",
         "ground beef"
       ],
-      "recipe_count": 44,
+      "recipe_count": 45,
       "recipe_ids": [
         "alamode-beef-american-cookery-1796",
         "asian-meatballs-ref",
@@ -48237,6 +48268,7 @@
         "gordon-ramsay-hells-kitchen-burger",
         "great-green-bean-chile-chile-bible",
         "hamburger-steaks-ref",
+        "handwritten-beef-rice-meatballs",
         "italian-meatballs-printed",
         "ivans-chili",
         "jans-prize-winning-chili",
@@ -49123,10 +49155,11 @@
         "fresh ground black pepper",
         "ground black pepper"
       ],
-      "recipe_count": 79,
+      "recipe_count": 80,
       "recipe_ids": [
         "albuquerque-turkey",
         "arayes-stuffed-pitas-tahini-ref",
+        "artichoke-pine-nut-bread",
         "balsamic-rosemary-pork-loin-roasted-potatoes",
         "belper-knolle-cheese",
         "burrito-de-la-calle",
@@ -49678,7 +49711,7 @@
       "variants": [
         "boiling water"
       ],
-      "recipe_count": 37,
+      "recipe_count": 38,
       "recipe_ids": [
         "boiled-coffee-thewingold",
         "cf-queso-panela",
@@ -49715,6 +49748,7 @@
         "traditional-hotcakes",
         "traditional-hotcakes-ref",
         "vegetable-salad-harvester",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref",
         "yeast-bread-carnation"
       ]
@@ -50546,10 +50580,9 @@
       "variants": [
         "bran cereal"
       ],
-      "recipe_count": 2,
+      "recipe_count": 1,
       "recipe_ids": [
-        "healthy-bran-apple-muffins",
-        "healthy-bran-apple-muffins-ref"
+        "healthy-bran-apple-muffins"
       ]
     },
     {
@@ -50734,8 +50767,9 @@
       "variants": [
         "bread flour"
       ],
-      "recipe_count": 13,
+      "recipe_count": 15,
       "recipe_ids": [
+        "amish-white-bread",
         "baking-powder-biscuits-carnation",
         "cf-no-knead-bread",
         "chocolate-cinnamon-babka-ref",
@@ -50748,6 +50782,7 @@
         "pin-wheel-biscuits-carnation",
         "plain-muffins-carnation",
         "strawberry-shortcake-carnation",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref"
       ]
     },
@@ -51398,7 +51433,7 @@
         "brown sugar",
         "packed brown sugar"
       ],
-      "recipe_count": 94,
+      "recipe_count": 95,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "asian-chicken-salad-kfc-copycat",
@@ -51439,7 +51474,6 @@
         "gordon-ramsay-roasted-pork-tenderloin",
         "grandmas-crumb-or-sugar-pie-gutenberg",
         "healthy-bran-apple-muffins",
-        "healthy-bran-apple-muffins-ref",
         "honey-oatmeal-bread-ref",
         "hungarian-cinnamon-swirl-bread-ref",
         "mandel-schnittchen-thewingold",
@@ -51448,6 +51482,7 @@
         "monkey-faced-cookies-betty-crocker",
         "moravian-christmas-cookies-gutenberg",
         "neiman-marcus-250-cookies",
+        "nestle-toll-house-chocolate-chip-cookies",
         "new-northland-cookies-betty-crocker",
         "oatmeal-cake-broiled-frosting",
         "oatmeal-refrigerator-cookies-betty-crocker",
@@ -51486,6 +51521,7 @@
         "toasted-pecan-blueberry-pancakes",
         "toasted-pecan-blueberry-pancakes-ref",
         "toffee-nut-bars-betty-crocker",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle",
         "vegan-crepes",
         "vegan-crepes-ref",
         "vintage-fruit-cocktail-cake",
@@ -51822,7 +51858,7 @@
         "melted butter (for cloth binding)",
         "softened butter"
       ],
-      "recipe_count": 496,
+      "recipe_count": 498,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
@@ -51856,7 +51892,6 @@
         "baking-powder-biscuit-theplainsa",
         "banana-cinnamon-muffins",
         "banana-cinnamon-muffins-ref",
-        "banana-nut-breakfast-muffins-ref",
         "banana-waffles",
         "banana-waffles-ref",
         "bananas-foster-waffles",
@@ -51875,6 +51910,7 @@
         "blueberry-muffins-theplainsa",
         "blueberry-pancakes-ref",
         "boil-asparagus-american-cookery-1796",
+        "braided-sesame-bread",
         "bran-muffins-ref",
         "brandied-chi-cken-breast-chickenrec",
         "bread-pudding-american-cookery-1796",
@@ -51897,6 +51933,7 @@
         "butter-chicken-20-minutes-ref",
         "butter-crescents-gahb",
         "butter-drop-american-cookery-1796",
+        "buttermilk-pancakes-ref",
         "buttermilk-pie-cottage-cheese",
         "butterscotch-pie-carnation",
         "butterscotch-sauce-carnation",
@@ -52137,10 +52174,10 @@
         "monkey-pancakes",
         "monkey-pancakes-ref",
         "moravian-dark-cookies-gutenberg",
-        "morning-start-blueberry-oatmeal-muffins-ref",
         "mushroom-pie-cottage-cheese",
         "naomis-carrot-cheese-bake-ancients",
         "neiman-marcus-250-cookies",
+        "nestle-toll-house-chocolate-chip-cookies",
         "new-orleans-pecan-pralines",
         "noodles-with-green-chile-chile-bible",
         "norwegian-waffles",
@@ -52316,6 +52353,7 @@
         "walnut-rocks-gutenberg",
         "welsh-rarebit-carnation",
         "whole-wheat-waffles-ref",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref",
         "yeast-waffles",
         "yeast-waffles-ref",
@@ -52510,7 +52548,7 @@
       "variants": [
         "butter or margarine"
       ],
-      "recipe_count": 47,
+      "recipe_count": 50,
       "recipe_ids": [
         "always-ready-molasses-spread-grandmas-molasses",
         "apple-dessert-with-streusel-crumbs-grandmas-molasses",
@@ -52536,7 +52574,9 @@
         "deep-dish-apple-pie-grandmas-molasses",
         "devils-food-cake-grandmas-molasses",
         "dutch-babies",
+        "easy-double-chocolate-chip-brownies-nestle",
         "fiesta-casserole-chile-bible",
+        "frosty-orange-delight-basic-crust",
         "glazed-carrots-and-onions-grandmas-molasses",
         "hominy-grits-casserole-chile-bible",
         "indian-pudding-grandmas-molasses",
@@ -52558,7 +52598,8 @@
         "raisin-filling-grandmas-molasses",
         "scalloped-chi-cken-chickenrec",
         "shoo-fly-pie-grandmas-molasses",
-        "soft-chicken-tacos-chickenrec"
+        "soft-chicken-tacos-chickenrec",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle"
       ]
     },
     {
@@ -52981,7 +53022,7 @@
         "buttermilk (or whole milk with lemon)",
         "buttermilk (to thin)"
       ],
-      "recipe_count": 99,
+      "recipe_count": 100,
       "recipe_ids": [
         "african-ayib",
         "almond-pancakes-ref",
@@ -53067,6 +53108,7 @@
         "toasted-pecan-buttermilk-pancakes-ref",
         "traditional-ayib-ethiopian",
         "traditional-blueberry-muffins",
+        "traditional-blueberry-muffins-ref",
         "traditional-cottage-cheese-1800s",
         "traditional-crowdie-scottish",
         "traditional-gamalost-norwegian-viking",
@@ -56768,12 +56810,13 @@
       "variants": [
         "cane sugar"
       ],
-      "recipe_count": 4,
+      "recipe_count": 5,
       "recipe_ids": [
         "apple-pancakes",
         "apple-pancakes-ref",
         "belgian-waffles",
-        "belgian-waffles-ref"
+        "belgian-waffles-ref",
+        "buttermilk-pancakes-ref"
       ]
     },
     {
@@ -61657,7 +61700,7 @@
         "cinnamon (3 tsp.)",
         "ground cinnamon"
       ],
-      "recipe_count": 201,
+      "recipe_count": 202,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "amish-friendship-bread",
@@ -61768,7 +61811,6 @@
         "healthy-apple-wheat-pancakes",
         "healthy-apple-wheat-pancakes-ref",
         "healthy-bran-apple-muffins",
-        "healthy-bran-apple-muffins-ref",
         "holiday-gingerbread-pumpkin-muffins",
         "honey-oatmeal-bread-ref",
         "hungarian-cinnamon-swirl-bread-ref",
@@ -61796,6 +61838,7 @@
         "moravian-christmas-cookies-gutenberg",
         "moravian-dark-cookies-gutenberg",
         "morning-start-blueberry-oatmeal-muffins",
+        "morning-start-blueberry-oatmeal-muffins-ref",
         "new-northland-cookies-betty-crocker",
         "nigella-lawsons-apple-latkes",
         "oatmeal-cake-broiled-frosting",
@@ -61858,6 +61901,7 @@
         "wheaties-drop-cookies-betty-crocker",
         "whole-wheat-blueberry-muffins-grandmas-molasses",
         "whole-wheat-waffles-ref",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref",
         "zucchini-muffins-ref"
       ]
@@ -63363,11 +63407,12 @@
         "confectioners' sugar",
         "confectioners' sugar (for glaze)"
       ],
-      "recipe_count": 20,
+      "recipe_count": 21,
       "recipe_ids": [
         "almond-streusel-cake-gahb",
         "apple-pie-french-toast",
         "apple-pie-french-toast-ref",
+        "buttermilk-pancakes-ref",
         "carrot-cake-cream-cheese-icing-gahb",
         "cherry-strudel-gahb",
         "chocolate-cinnamon-babka-ref",
@@ -66006,8 +66051,9 @@
         "cream cheese",
         "softened cream cheese"
       ],
-      "recipe_count": 52,
+      "recipe_count": 55,
       "recipe_ids": [
+        "berry-banana-dessert-pillsbury",
         "blueberry-breakfast-crescents",
         "blueberry-cheesecake-ref",
         "breakfast-burritos-ref",
@@ -66034,6 +66080,7 @@
         "french-toast-casserole-ref",
         "french-toast-souffle",
         "french-toast-souffle-ref",
+        "frosty-orange-delight",
         "gordon-ramsay-vanilla-bean-cheesecake",
         "gorgonzola-pear-toasts",
         "gravlax-with-the-works",
@@ -66052,6 +66099,7 @@
         "salmon-and-rocket-sandwich-ref",
         "sour-cream-cheesecake",
         "southern-hummingbird-cake",
+        "strawberries-cream-cheese-freeze-pillsbury",
         "strawberry-pretzel-salad",
         "stuffed-celery-carnation",
         "stuffed-french-toast",
@@ -67782,9 +67830,10 @@
         "dark brown sugar",
         "packed dark brown sugar"
       ],
-      "recipe_count": 23,
+      "recipe_count": 26,
       "recipe_ids": [
         "banana-nut-breakfast-muffins",
+        "banana-nut-breakfast-muffins-ref",
         "chai-spiced-muffins",
         "chai-spiced-muffins-ref",
         "chocolate-peanut-brittle-cupcakes",
@@ -67798,6 +67847,7 @@
         "gordon-ramsay-foie-gras-brioche-french-toast",
         "gordon-ramsay-pork-chops-apple-butter",
         "hawaiian-chicken-spendwithpennies-ref",
+        "healthy-bran-apple-muffins-ref",
         "holiday-gingerbread-pumpkin-muffins",
         "honey-bran-muffins",
         "honey-bran-muffins-ref",
@@ -67805,6 +67855,7 @@
         "mini-peanut-butter-cupcakes",
         "mint-patty-cakes",
         "morning-start-blueberry-oatmeal-muffins",
+        "morning-start-blueberry-oatmeal-muffins-ref",
         "oatmeal-molasses-rolls-ref",
         "old-fashioned-butterscotch-pie"
       ]
@@ -68974,8 +69025,11 @@
       "variants": [
         "dry active yeast"
       ],
-      "recipe_count": 17,
+      "recipe_count": 22,
       "recipe_ids": [
+        "amish-white-bread",
+        "artichoke-pine-nut-bread",
+        "braided-sesame-bread",
         "chocolate-cinnamon-babka-ref",
         "cinnamon-raisin-bread-ref",
         "dutch-paasbrood",
@@ -68991,7 +69045,9 @@
         "unbleached-baguettes-ref",
         "unbleached-ciabatta-bread-ref",
         "wholegrain-seed-bread-ref",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref"
       ]
     },
@@ -69561,7 +69617,7 @@
         "whole egg",
         "whole eggs"
       ],
-      "recipe_count": 865,
+      "recipe_count": 873,
       "recipe_ids": [
         "1-c-cooked-and-mashed-potato-sandwichre",
         "1-oz-2-tb-margarine-sandwichre",
@@ -69599,6 +69655,7 @@
         "applesauce-muffins-ref",
         "apricot-scones",
         "apricot-scones-ref",
+        "artichoke-pine-nut-bread",
         "asian-meatballs-ref",
         "asparagus-omelet",
         "asparagus-omelet-ref",
@@ -69670,6 +69727,7 @@
         "blueberry-ricotta-blintzes-truvia",
         "bobs-oatmeal-crusted-trout",
         "boston-cream-pie-gahb",
+        "braided-sesame-bread",
         "bran-muffins-gutenberg",
         "bran-muffins-ref",
         "bread-pudding-american-cookery-1796",
@@ -69884,6 +69942,7 @@
         "dutch-paasbrood",
         "dutch-potato-croquettes-gutenberg",
         "earthquake-cake",
+        "easy-double-chocolate-chip-brownies-nestle",
         "economy-fruitcake-scottsnort",
         "egg-and-cheese-frittata",
         "egg-cheese-frittata-ref",
@@ -69959,6 +70018,8 @@
         "fresh-tomato-quiche-ref",
         "fried-chicken-breast-chickenrec",
         "fried-tripe-scottsnort",
+        "frosty-orange-delight",
+        "frosty-orange-delight-basic-crust",
         "fruit-and-nut-cookies-gutenberg",
         "fruit-cheese-pie-cottage-cheese",
         "fruit-parfait-harvester",
@@ -70030,6 +70091,7 @@
         "ham-and-cheese-souffle",
         "ham-and-noodles-in-casserole-gutenberg",
         "ham-cheese-muffins-ref",
+        "handwritten-beef-rice-meatballs",
         "harvey-wallbanger-cake-1970s",
         "hash-brown-frittata",
         "hash-brown-frittata-ref",
@@ -70135,6 +70197,7 @@
         "morning-start-blueberry-oatmeal-muffins-ref",
         "mozzarella-chi-cken-chickenrec",
         "neiman-marcus-250-cookies",
+        "nestle-toll-house-chocolate-chip-cookies",
         "nigella-lawsons-apple-latkes",
         "noquis-con-tuco-reggianito",
         "norwegian-waffles",
@@ -70383,6 +70446,7 @@
         "two-berry-pancakes",
         "two-berry-pancakes-ref",
         "ukrainian-babka-bread",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle",
         "unbaked-cheese-cake-cottage-cheese",
         "unbleached-baguettes-ref",
         "vanilla-buttermilk-muffins",
@@ -72822,8 +72886,11 @@
       "variants": [
         "fine sugar"
       ],
-      "recipe_count": 10,
+      "recipe_count": 13,
       "recipe_ids": [
+        "amish-white-bread",
+        "artichoke-pine-nut-bread",
+        "braided-sesame-bread",
         "chocolate-cinnamon-babka-ref",
         "cinnamon-raisin-bread-ref",
         "french-chocolate-bread-ref",
@@ -74280,6 +74347,16 @@
       ]
     },
     {
+      "ingredient": "flexible straws and large marshmallow",
+      "variants": [
+        "flexible straws and large marshmallows"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
+      ]
+    },
+    {
       "ingredient": "flora danica culture",
       "variants": [
         "flora danica culture"
@@ -74306,6 +74383,7 @@
         "apple-pancakes",
         "apple-pancakes-ref",
         "apple-sauce-cake-gutenberg",
+        "artichoke-pine-nut-bread",
         "bacon-muffins-gutenberg",
         "baked-beansoup-themetropo",
         "baked-eggs-incorn-cases-wilsonscoo",
@@ -74409,7 +74487,6 @@
         "gruyere-pepper-onion-bread-ref",
         "hachis-parmentier-ref",
         "healthy-bran-apple-muffins",
-        "healthy-bran-apple-muffins-ref",
         "hickory-nut-kisses-gutenberg",
         "hungarian-goulash-dutchovenc",
         "indian-slapjack-american-cookery-1796",
@@ -79157,8 +79234,9 @@
         "minced garlic clove",
         "small garlic clove"
       ],
-      "recipe_count": 43,
+      "recipe_count": 44,
       "recipe_ids": [
+        "artichoke-pine-nut-bread",
         "baked-chicken-parmesan-chickenrec",
         "baked-eggs-ramekins",
         "baked-eggs-ref",
@@ -80031,8 +80109,9 @@
       "variants": [
         "goat cheese"
       ],
-      "recipe_count": 8,
+      "recipe_count": 9,
       "recipe_ids": [
+        "artichoke-pine-nut-bread",
         "gordon-ramsay-butter-lettuce-salad",
         "gordon-ramsay-frisee-salad-tarte",
         "gordon-ramsay-goat-cheese-croquette",
@@ -80757,13 +80836,14 @@
         "large granny smith apples",
         "medium granny smith apples"
       ],
-      "recipe_count": 8,
+      "recipe_count": 9,
       "recipe_ids": [
         "apple-breakfast-bars",
         "apple-cinnamon-waffles",
         "apple-pancakes",
         "caramel-apple-salad",
         "gordon-ramsay-drunken-apple-pie",
+        "healthy-bran-apple-muffins-ref",
         "oven-apple-pancakes",
         "oven-apple-pancakes-ref",
         "reddit-apple-cream-pie"
@@ -80899,7 +80979,7 @@
       "variants": [
         "granulated sugar"
       ],
-      "recipe_count": 82,
+      "recipe_count": 85,
       "recipe_ids": [
         "almond-streusel-cake-gahb",
         "apricot-scones",
@@ -80933,6 +81013,7 @@
         "crumbly-apple-pie-gahb",
         "deep-dark-chocolate-biscotti",
         "double-chocolate-crackles",
+        "easy-double-chocolate-chip-brownies-nestle",
         "fresh-berry-crumb-pie-gahb",
         "fudgy-chocolate-layer-cake-gahb",
         "german-chocolate-cake-coconut-pecan-cajeta-frosting",
@@ -80963,6 +81044,7 @@
         "linzer-cutouts",
         "mexican-chocolate-shortbread",
         "neiman-marcus-250-cookies",
+        "nestle-toll-house-chocolate-chip-cookies",
         "new-orleans-pecan-pralines",
         "oatmeal-cake-broiled-frosting",
         "orange-glazed-coffee-cake-gahb",
@@ -80981,6 +81063,7 @@
         "sweet-finnish-pulla-ref",
         "taoc-mascarpone-mixed-berry-cake",
         "thumbprint-cookies",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle",
         "vanilla-crepes",
         "vanilla-crepes-ref"
       ]
@@ -81028,7 +81111,7 @@
       "variants": [
         "granulated white sugar"
       ],
-      "recipe_count": 86,
+      "recipe_count": 84,
       "recipe_ids": [
         "amaretto-muffins",
         "amaretto-muffins-ref",
@@ -81086,7 +81169,6 @@
         "maple-bacon-muffins",
         "maple-bacon-muffins-ref",
         "mid-day-pick-me-up-muffins",
-        "morning-start-blueberry-oatmeal-muffins-ref",
         "nutella-muffins",
         "nutella-muffins-ref",
         "oatmeal-muffins-ref",
@@ -81111,7 +81193,6 @@
         "strawberry-chocolate-muffins-ref",
         "strawberry-muffins-ref",
         "tea-time-mini-muffins",
-        "traditional-blueberry-muffins-ref",
         "triple-threat-berry-muffins",
         "triple-threat-berry-muffins-ref",
         "vanilla-buttermilk-muffins",
@@ -83512,7 +83593,7 @@
         "honey (optional)",
         "honey (orange blossom if available)"
       ],
-      "recipe_count": 89,
+      "recipe_count": 91,
       "recipe_ids": [
         "a-date-with-melons-ancients",
         "apple-and-eve-beets",
@@ -83523,6 +83604,7 @@
         "apple-oatmeal-cookies-gahb",
         "baked-brie-honey-nuts",
         "baked-figs-in-wine-ancients",
+        "berry-banana-dessert-pillsbury",
         "biblical-medley-ancients",
         "blueberry-chevre",
         "breakfast-quinoa",
@@ -83601,6 +83683,7 @@
         "to-hang-on-christmas-tree-betty-crocker",
         "traditional-cuajada-latin-american",
         "whole-wheat-waffles-ref",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref",
         "wholly-pancakes-ancients"
       ]
@@ -83631,8 +83714,9 @@
       "variants": [
         "honey maple syrup"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref"
       ]
     },
@@ -84167,6 +84251,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "adams-laundry-stevensonm"
+      ]
+    },
+    {
+      "ingredient": "instant beef broth",
+      "variants": [
+        "instant beef broth"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "handwritten-beef-rice-meatballs"
       ]
     },
     {
@@ -89397,6 +89491,16 @@
       ]
     },
     {
+      "ingredient": "low fat milk",
+      "variants": [
+        "low fat milk"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "healthy-bran-apple-muffins-ref"
+      ]
+    },
+    {
       "ingredient": "low sodium chicken broth",
       "variants": [
         "low sodium chicken broth"
@@ -89524,8 +89628,9 @@
       "variants": [
         "lukewarm water"
       ],
-      "recipe_count": 11,
+      "recipe_count": 13,
       "recipe_ids": [
+        "artichoke-pine-nut-bread",
         "cf-gluten-free-pizza-crust",
         "fastnachtsraised-doughnuts-gutenberg",
         "filled-cheese-rolls-cottage-cheese",
@@ -89535,6 +89640,7 @@
         "oatmeal-molasses-rolls-ref",
         "swedish-yeast-bread-grandmas-molasses",
         "wholegrain-seed-bread-ref",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref",
         "wholly-pancakes-ancients"
       ]
@@ -89857,8 +89963,9 @@
       "variants": [
         "mandarin oranges"
       ],
-      "recipe_count": 3,
+      "recipe_count": 4,
       "recipe_ids": [
+        "frosty-orange-delight",
         "orange-fluff-salad",
         "reddit-ambrosia-salad",
         "southern-pig-pickin-cake"
@@ -89965,8 +90072,9 @@
       "variants": [
         "maple sugar"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref"
       ]
     },
@@ -89975,10 +90083,11 @@
       "variants": [
         "maple syrup"
       ],
-      "recipe_count": 15,
+      "recipe_count": 16,
       "recipe_ids": [
         "bananas-foster-waffles",
         "bananas-foster-waffles-ref",
+        "buttermilk-pancakes-ref",
         "chicken-and-ri-ce-almondine-squash-chickenrec",
         "cinnamon-oat-scones",
         "cinnamon-oat-scones-ref",
@@ -92152,7 +92261,6 @@
         "banana-cinnamon-muffins-ref",
         "banana-crepes",
         "banana-crepes-ref",
-        "banana-nut-breakfast-muffins-ref",
         "banana-sour-cream-pancakes",
         "banana-sour-cream-pancakes-ref",
         "banana-waffles",
@@ -92185,6 +92293,7 @@
         "blueberry-pancakes-ref",
         "bobs-oatmeal-crusted-trout",
         "boston-cream-pie-gahb",
+        "braided-sesame-bread",
         "bran-muffins-ref",
         "bread-omelet-themetropo",
         "bread-pudding-american-cookery-1796",
@@ -92763,7 +92872,6 @@
         "tomme-au-marc",
         "tomme-de-savoie",
         "traditional-asiago",
-        "traditional-blueberry-muffins-ref",
         "traditional-brie",
         "traditional-burrata-puglia",
         "traditional-byaslag-mongolian",
@@ -92816,6 +92924,7 @@
         "whole-wheat-blueberry-muffins-grandmas-molasses",
         "whole-wheat-griddle-cakes-grandmas-molasses",
         "whole-wheat-waffles-ref",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref",
         "wine-infused-cheese",
         "winter-squash-pudding-american-cookery-1796",
@@ -93354,8 +93463,9 @@
       "variants": [
         "miniature marshmallows"
       ],
-      "recipe_count": 7,
+      "recipe_count": 8,
       "recipe_ids": [
+        "berry-banana-dessert-pillsbury",
         "crus-t-ingre-dients-blueribbon",
         "mississippi-mud-cake",
         "orange-fluff-salad",
@@ -94256,6 +94366,16 @@
       ]
     },
     {
+      "ingredient": "multicolored marshmallow rope",
+      "variants": [
+        "multicolored marshmallow rope"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
+      ]
+    },
+    {
       "ingredient": "mushroom",
       "variants": [
         "(8 oz) sliced mushrooms",
@@ -94691,6 +94811,18 @@
       ]
     },
     {
+      "ingredient": "nestle toll house semi-sweet chocolate morsel",
+      "variants": [
+        "nestle toll house semi-sweet chocolate morsels"
+      ],
+      "recipe_count": 3,
+      "recipe_ids": [
+        "easy-double-chocolate-chip-brownies-nestle",
+        "nestle-toll-house-chocolate-chip-cookies",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle"
+      ]
+    },
+    {
       "ingredient": "neufchatel orcream cheese.",
       "variants": [
         "neufchatel orcream cheese."
@@ -94909,6 +95041,16 @@
       ]
     },
     {
+      "ingredient": "non fat vanilla yogurt",
+      "variants": [
+        "non fat vanilla yogurt"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "healthy-bran-apple-muffins-ref"
+      ]
+    },
+    {
       "ingredient": "non-chlorinated cold water",
       "variants": [
         "non-chlorinated cold water"
@@ -95002,12 +95144,13 @@
       "variants": [
         "nonstick cooking spray"
       ],
-      "recipe_count": 5,
+      "recipe_count": 6,
       "recipe_ids": [
         "cinnamon-raisin-bread-ref",
         "french-chocolate-bread-ref",
         "panettone-ref",
         "sweet-finnish-pulla-ref",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref"
       ]
     },
@@ -95041,7 +95184,7 @@
         "chopped nuts (optional)",
         "nuts"
       ],
-      "recipe_count": 23,
+      "recipe_count": 25,
       "recipe_ids": [
         "butterscotch-sauce-carnation",
         "caramel-nut-cake-carnation",
@@ -95050,6 +95193,7 @@
         "chocolate-whipped-cream-cake-harvester",
         "cranberry-conserve-gutenberg",
         "date-oatmeal-cookies-betty-crocker",
+        "easy-double-chocolate-chip-brownies-nestle",
         "fruit-and-nut-cookies-gutenberg",
         "fudge-squares-carnation",
         "hawaiian-pie-dutchovenc",
@@ -95059,6 +95203,7 @@
         "molasses-fruit-bread-grandmas-molasses",
         "molasses-oatmeal-cookies-grandmas-molasses",
         "molasses-rum-balls-grandmas-molasses",
+        "nestle-toll-house-chocolate-chip-cookies",
         "nut-bread-carnation",
         "penoche-carnation",
         "plantation-fruit-bars-betty-crocker",
@@ -95746,11 +95891,13 @@
       "variants": [
         "old fashioned oats"
       ],
-      "recipe_count": 5,
+      "recipe_count": 7,
       "recipe_ids": [
         "banana-nut-breakfast-muffins",
+        "banana-nut-breakfast-muffins-ref",
         "chicken-nuggets-ref",
         "morning-start-blueberry-oatmeal-muffins",
+        "morning-start-blueberry-oatmeal-muffins-ref",
         "whole-grain-pancakes-blueberry-sauce",
         "whole-grain-pancakes-blueberry-sauce-ref"
       ]
@@ -95880,7 +96027,7 @@
         "olive oil",
         "olive oil (for rubbing rind)"
       ],
-      "recipe_count": 224,
+      "recipe_count": 225,
       "recipe_ids": [
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
         "adas-bil-hamod",
@@ -95888,6 +96035,7 @@
         "albuquerque-turkey",
         "alternate-dressing-goodandche",
         "arayes-stuffed-pitas-tahini-ref",
+        "artichoke-pine-nut-bread",
         "avocado-dip-chile",
         "balsamic-rosemary-pork-loin-roasted-potatoes",
         "black-bean-butternut-squash-burritos",
@@ -97264,7 +97412,7 @@
         "sliced onions",
         "small onion"
       ],
-      "recipe_count": 254,
+      "recipe_count": 255,
       "recipe_ids": [
         "adas-bil-hamod",
         "albuquerque-turkey",
@@ -97400,6 +97548,7 @@
         "halibut-cutlets-thewhysofc",
         "ham-and-potatoes-au-gratin-dutchovenc",
         "hamburger-steaks-ref",
+        "handwritten-beef-rice-meatballs",
         "hash-brown-casserole",
         "herbed-chicken-chickenrec",
         "hog-maw-gutenberg",
@@ -100978,6 +101127,16 @@
       ]
     },
     {
+      "ingredient": "pastel-colored peanut m&m'",
+      "variants": [
+        "pastel-colored peanut m&m's"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
+      ]
+    },
+    {
       "ingredient": "pasteurized cow's milk",
       "variants": [
         "pasteurized cow's milk"
@@ -101285,6 +101444,16 @@
       ]
     },
     {
+      "ingredient": "peanut butter-flavored keebler cookie stix",
+      "variants": [
+        "peanut butter-flavored keebler cookie stix"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
+      ]
+    },
+    {
       "ingredient": "peanut butter.",
       "variants": [
         "peanut butter."
@@ -101305,6 +101474,16 @@
         "cantonese-chicken-and-mushrooms",
         "orient-al-chicken-chickenrec",
         "ramen-cake"
+      ]
+    },
+    {
+      "ingredient": "peanut-shaped peanut butter sandwich cooky",
+      "variants": [
+        "peanut-shaped peanut butter sandwich cookies"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
       ]
     },
     {
@@ -101443,12 +101622,13 @@
         "chopped pecans",
         "pecans"
       ],
-      "recipe_count": 41,
+      "recipe_count": 44,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "alabama-lane-cake",
         "apple-ginger-ale-salad-harvester",
         "banana-nut-breakfast-muffins",
+        "banana-nut-breakfast-muffins-ref",
         "banana-nut-muffins-gahb",
         "bananas-foster-waffles",
         "bananas-foster-waffles-ref",
@@ -101464,12 +101644,14 @@
         "frozen-plum-pudding-harvester",
         "gordon-ramsay-pecan-crusted-mahi-mahi",
         "gorgonzola-pear-toasts",
+        "healthy-bran-apple-muffins-ref",
         "italian-cream-cake-southern",
         "lemon-lush-dessert",
         "lentil-rice-salad-with-pecans-and-dried-cherries",
         "mississippi-mud-cake",
         "molasses-pecan-pie-grandmas-molasses",
         "morning-start-blueberry-oatmeal-muffins",
+        "morning-start-blueberry-oatmeal-muffins-ref",
         "oatmeal-cake-broiled-frosting",
         "peach-cobbler-dump-cake",
         "pecan-cheddar",
@@ -101959,7 +102141,7 @@
         "pepper",
         "peppers"
       ],
-      "recipe_count": 140,
+      "recipe_count": 141,
       "recipe_ids": [
         "alamode-beef-american-cookery-1796",
         "arayes-stuffed-pitas-tahini-ref",
@@ -102041,6 +102223,7 @@
         "french-dressing-harvester",
         "fried-chicken-breast-chickenrec",
         "hamburger-dinner-gutenberg",
+        "handwritten-beef-rice-meatballs",
         "harvest-chicken-liver-pate",
         "hearty-beef-sweet-potato-stew",
         "hearty-pita-tacos",
@@ -102677,6 +102860,16 @@
       ]
     },
     {
+      "ingredient": "pillsbury's best all purpose flour",
+      "variants": [
+        "pillsbury's best all purpose flour"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "frosty-orange-delight-basic-crust"
+      ]
+    },
+    {
       "ingredient": "piment o",
       "variants": [
         "chopped piment o"
@@ -102847,8 +103040,9 @@
       "variants": [
         "pine nuts"
       ],
-      "recipe_count": 8,
+      "recipe_count": 9,
       "recipe_ids": [
+        "artichoke-pine-nut-bread",
         "gordon-ramsay-grilled-lamb-chops-linguine",
         "gordon-ramsay-heirloom-tomato-salad",
         "gordon-ramsay-lemon-tagliatelle-pine-nuts-arugula",
@@ -104336,6 +104530,16 @@
       ]
     },
     {
+      "ingredient": "poundcak",
+      "variants": [
+        "frozen poundcakes"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
+      ]
+    },
+    {
       "ingredient": "powder mustard",
       "variants": [
         "powder mustard"
@@ -104385,6 +104589,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "reddit-grandmas-hamburger-pie"
+      ]
+    },
+    {
+      "ingredient": "powdered orange flavored instant breakfast drink",
+      "variants": [
+        "powdered orange flavored instant breakfast drink"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "frosty-orange-delight"
       ]
     },
     {
@@ -104965,6 +105179,16 @@
       ]
     },
     {
+      "ingredient": "pudding and pie filling mix",
+      "variants": [
+        "pudding and pie filling mix"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "frosty-orange-delight-basic-crust"
+      ]
+    },
+    {
       "ingredient": "puddings andsauc",
       "variants": [
         "puddings andsauces"
@@ -105193,7 +105417,7 @@
       "variants": [
         "pure vanilla extract"
       ],
-      "recipe_count": 40,
+      "recipe_count": 42,
       "recipe_ids": [
         "autumn-spiced-pumpkin-pancakes",
         "autumn-spiced-pumpkin-pancakes-ref",
@@ -105227,6 +105451,7 @@
         "mid-day-pick-me-up-muffins",
         "mocha-muffins",
         "molten-spiced-chocolate-cabernet-cakes",
+        "morning-start-blueberry-oatmeal-muffins-ref",
         "peaches-and-cream-waffles",
         "peaches-cream-waffles-ref",
         "peter-rabbit-carrot-cake-muffins",
@@ -105234,6 +105459,7 @@
         "taoc-mascarpone-mixed-berry-cake",
         "toasted-pecan-buttermilk-pancakes",
         "toasted-pecan-buttermilk-pancakes-ref",
+        "traditional-blueberry-muffins-ref",
         "vanilla-buttermilk-muffins"
       ]
     },
@@ -105912,10 +106138,12 @@
       "variants": [
         "dried raspberries",
         "fresh raspberries",
+        "frozen raspberries",
         "raspberries"
       ],
-      "recipe_count": 21,
+      "recipe_count": 22,
       "recipe_ids": [
+        "berry-banana-dessert-pillsbury",
         "cf-frangelico-tiramisu",
         "chocolate-raspberry-date-night-muffins",
         "fruity-breakfast-sandwich",
@@ -105947,6 +106175,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "avocado-cherry-salad-harvester"
+      ]
+    },
+    {
+      "ingredient": "raspberry flavored or vanilla yogurt",
+      "variants": [
+        "raspberry flavored or vanilla yogurt"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "berry-banana-dessert-pillsbury"
       ]
     },
     {
@@ -106031,6 +106269,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "cf-tartiflette"
+      ]
+    },
+    {
+      "ingredient": "red and green food coloring",
+      "variants": [
+        "red and green food coloring"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
       ]
     },
     {
@@ -106577,6 +106825,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "mixed-fruit-preserves-gutenberg"
+      ]
+    },
+    {
+      "ingredient": "red raspberry flavored gelatin",
+      "variants": [
+        "red raspberry flavored gelatin"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "berry-banana-dessert-pillsbury"
       ]
     },
     {
@@ -108188,11 +108446,10 @@
         "large ripe bananas",
         "ripe bananas"
       ],
-      "recipe_count": 12,
+      "recipe_count": 11,
       "recipe_ids": [
         "banana-cinnamon-muffins",
         "banana-cinnamon-muffins-ref",
-        "banana-nut-breakfast-muffins-ref",
         "banana-nut-muffins-gahb",
         "banana-whip-topping-grandmas-molasses",
         "bananas-foster-waffles",
@@ -108570,11 +108827,11 @@
         "cinnamon-oat-scones-ref",
         "date-oatmeal-cookies-betty-crocker",
         "his-mothers-oatmeal-cookies-betty-crocker",
-        "morning-start-blueberry-oatmeal-muffins-ref",
         "oatmeal-drop-cookies-betty-crocker",
         "oatmeal-molasses-rolls-ref",
         "oatmeal-muffins-ref",
         "oatmeal-refrigerator-cookies-harvester",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref"
       ]
     },
@@ -108835,6 +109092,16 @@
         "alamode-beef-american-cookery-1796",
         "beef-soup-stock-gutenberg",
         "beef-soup-stock-gutenberg-6385"
+      ]
+    },
+    {
+      "ingredient": "round pink cake decor",
+      "variants": [
+        "round pink cake decors"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
       ]
     },
     {
@@ -109669,7 +109936,7 @@
         "salt (if using unsalted butter)",
         "salt (optional)"
       ],
-      "recipe_count": 1698,
+      "recipe_count": 1708,
       "recipe_ids": [
         "14-arpents",
         "6-in-1-refrigerator-cookies-harvester",
@@ -109700,6 +109967,7 @@
         "ami-du-chambertin",
         "amish-buttermilk-cheese",
         "amish-friendship-bread",
+        "amish-white-bread",
         "anari",
         "andante-dairy-pianoforte",
         "anise-waffles",
@@ -109733,6 +110001,7 @@
         "arayes-stuffed-pitas-tahini-ref",
         "ardrahan",
         "areesh",
+        "artichoke-pine-nut-bread",
         "arzua-ulloa",
         "asiago-aged-american",
         "asiago-allevo-mezzano-dop",
@@ -109844,6 +110113,7 @@
         "boiled-macaroni-theplainsa",
         "borlotti-minestrone",
         "boston-cream-pie-gahb",
+        "braided-sesame-bread",
         "bran-muffins-dudeskitch",
         "bran-muffins-ref",
         "branbread-themetropo",
@@ -110332,6 +110602,7 @@
         "fried-chicken-breast-chickenrec",
         "fried-pastries-with-wine-syrup",
         "fromage-blanc-with-herbs",
+        "frosty-orange-delight-basic-crust",
         "frozen-cheese-and-pineapple-salad-cottage-cheese",
         "frozen-fruit-salad-harvester",
         "fruit-cheese-pie-cottage-cheese",
@@ -110440,6 +110711,7 @@
         "ham-and-cheese-muffins",
         "ham-cheese-muffins-ref",
         "hamburger-dinner-gutenberg",
+        "handwritten-beef-rice-meatballs",
         "harbison",
         "harbourne-blue",
         "harvest-chicken-liver-pate",
@@ -110455,6 +110727,7 @@
         "havarti-jalapeno",
         "havarti-plain",
         "hawaiian-fish-lettuce-wraps",
+        "healthy-bran-apple-muffins-ref",
         "hearty-beef-sweet-potato-stew",
         "hearty-casserole-chile-bible",
         "heidi-gruyere",
@@ -110687,6 +110960,7 @@
         "mysost-whey-cheese",
         "neiman-marcus-250-cookies",
         "nepali-chhurpi-hard",
+        "nestle-toll-house-chocolate-chip-cookies",
         "new-northland-cookies-betty-crocker",
         "nisa",
         "nmsu-cream-cheese",
@@ -111281,6 +111555,7 @@
         "two-toned-perfection-salad-harvester",
         "ubriaco-amarone",
         "ukrainian-babka-bread",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle",
         "unbaked-cheese-cake-cottage-cheese",
         "unbleached-baguettes-ref",
         "unbleached-ciabatta-bread-ref",
@@ -111346,7 +111621,9 @@
         "whole-wheat-waffles-grandmas-molasses",
         "whole-wheat-waffles-ref",
         "wholegrain-seed-bread-ref",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref",
         "wiener-schnitzel-gutenberg",
         "winnimere",
@@ -113451,7 +113728,7 @@
       "variants": [
         "semisweet chocolate chips"
       ],
-      "recipe_count": 9,
+      "recipe_count": 10,
       "recipe_ids": [
         "best-ever-chocolate-chip-cookies-gahb",
         "chocolate-chip-challah-bread",
@@ -113460,6 +113737,7 @@
         "mamie-eisenhower-million-dollar-fudge",
         "millionaires-shortbread",
         "neiman-marcus-250-cookies",
+        "no-bake-easter-basket-cake",
         "puppy-chow-muddy-buddies",
         "raisin-fudge-pecan-pie"
       ]
@@ -113636,8 +113914,9 @@
       "variants": [
         "sesame seeds"
       ],
-      "recipe_count": 11,
+      "recipe_count": 12,
       "recipe_ids": [
+        "braided-sesame-bread",
         "broccoli-shrimp-stir-fry-ref",
         "chicken-fingers-chickenrec",
         "chinese-chicken-salad-dressing-chickenrec",
@@ -116223,6 +116502,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "thomasina-miers-molten-mole-chocolate-cake"
+      ]
+    },
+    {
+      "ingredient": "solid shortening",
+      "variants": [
+        "solid shortening"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "frosty-orange-delight-basic-crust"
       ]
     },
     {
@@ -118916,7 +119205,7 @@
         "strawberries",
         "whole strawberries"
       ],
-      "recipe_count": 28,
+      "recipe_count": 29,
       "recipe_ids": [
         "cornmeal-and-berry-pancakes",
         "cornmeal-berry-pancakes-ref",
@@ -118934,6 +119223,7 @@
         "quick-fruity-breakfast-smoothie",
         "quick-fruity-breakfast-smoothie-ref",
         "rhu-berry-salad-harvester",
+        "strawberries-cream-cheese-freeze-pillsbury",
         "strawberry-chocolate-muffins-ref",
         "strawberry-crepes",
         "strawberry-mousse-harvester",
@@ -119009,6 +119299,16 @@
         "strawberry-crepes",
         "strawberry-crepes-ref",
         "swanee-fruit-punch-auntcaroli"
+      ]
+    },
+    {
+      "ingredient": "strawberry-flavored fruit chew candy",
+      "variants": [
+        "strawberry-flavored fruit chew candies"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
       ]
     },
     {
@@ -119257,7 +119557,7 @@
         "sugar (for sauce)",
         "sugar (for topping)"
       ],
-      "recipe_count": 484,
+      "recipe_count": 486,
       "recipe_ids": [
         "alabama-lane-cake",
         "almond-crescents-betty-crocker",
@@ -119318,7 +119618,6 @@
         "butter-semmels-gutenberg",
         "buttermilk-breakfast-waffles",
         "buttermilk-breakfast-waffles-ref",
-        "buttermilk-pancakes-ref",
         "buttermilk-pie-cottage-cheese",
         "cabbage-sweet-and-sour-gutenberg",
         "cake-fromscratc",
@@ -119434,6 +119733,7 @@
         "french-dressing-harvester",
         "french-onion-soup",
         "fried-pastries-with-wine-syrup",
+        "frosty-orange-delight",
         "frozen-plum-pudding-harvester",
         "fruit-cheese-pie-cottage-cheese",
         "fruit-french-dressing-harvester",
@@ -119690,6 +119990,7 @@
         "sponge-cake-theplainsa",
         "spritz-betty-crocker",
         "stovetop-beef-and-shells",
+        "strawberries-cream-cheese-freeze-pillsbury",
         "strawberry-goat-cheese-sorbet",
         "strawberry-mousse-harvester",
         "strawberry-pretzel-salad",
@@ -119710,6 +120011,7 @@
         "tomato-soup-themetropo",
         "traditional-aaruul-mongolian",
         "traditional-blueberry-muffins",
+        "traditional-blueberry-muffins-ref",
         "two-berry-pancakes",
         "two-berry-pancakes-ref",
         "two-toned-perfection-salad-harvester",
@@ -120463,7 +120765,7 @@
       "variants": [
         "sweetened flaked coconut"
       ],
-      "recipe_count": 9,
+      "recipe_count": 10,
       "recipe_ids": [
         "alabama-lane-cake",
         "classic-ranger-cookies",
@@ -120472,6 +120774,7 @@
         "gordon-ramsay-coconut-layer-cake",
         "italian-cream-cake-southern",
         "magic-cookie-bars-hello-dolly",
+        "no-bake-easter-basket-cake",
         "oatmeal-cake-broiled-frosting",
         "vintage-fruit-cocktail-cake"
       ]
@@ -124164,7 +124467,7 @@
         "minced fresh thyme",
         "thyme"
       ],
-      "recipe_count": 53,
+      "recipe_count": 54,
       "recipe_ids": [
         "alamode-beef-american-cookery-1796",
         "bacon-double-cheese-quiche-gahb",
@@ -124205,6 +124508,7 @@
         "gordon-ramsay-white-wine-braised-short-ribs",
         "grass-fed-beef-tenderloin-sauteed-mushrooms",
         "hachis-parmentier-ref",
+        "handwritten-beef-rice-meatballs",
         "herbed-heritage-pork-loin-white-wine",
         "lebanese-shanklish",
         "lentil-lemon-soup-ii",
@@ -124871,10 +125175,11 @@
       "variants": [
         "tomato juice"
       ],
-      "recipe_count": 7,
+      "recipe_count": 8,
       "recipe_ids": [
         "biffinys-baked-chili",
         "chicken-sherry-chickenrec",
+        "handwritten-beef-rice-meatballs",
         "rio-grande-green-pork-chili",
         "schnitzel-meat-gutenberg",
         "shrimp-tomato-mold-harvester",
@@ -127829,10 +128134,11 @@
       "variants": [
         "unbleached all-purpose flour"
       ],
-      "recipe_count": 3,
+      "recipe_count": 4,
       "recipe_ids": [
         "garlic-artisan-bread-ref",
         "panettone-ref",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref"
       ]
     },
@@ -128013,9 +128319,10 @@
       "variants": [
         "uncooked rice"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
-        "busy-day-chicken-rice-chickenrec"
+        "busy-day-chicken-rice-chickenrec",
+        "handwritten-beef-rice-meatballs"
       ]
     },
     {
@@ -128184,7 +128491,7 @@
         "unsalted butter",
         "unsalted butter (melted)"
       ],
-      "recipe_count": 128,
+      "recipe_count": 129,
       "recipe_ids": [
         "almost-famous-broccoli-cheddar-soup",
         "almost-famous-spinach-artichoke-dip",
@@ -128313,6 +128620,7 @@
         "taoc-mascarpone-mixed-berry-cake",
         "ukrainian-babka-bread",
         "vanilla-crepes",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref"
       ]
     },
@@ -128705,7 +129013,7 @@
       "variants": [
         "vanilla"
       ],
-      "recipe_count": 100,
+      "recipe_count": 102,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "apple-pancakes",
@@ -128713,7 +129021,9 @@
         "bavarian-cream-harvester",
         "belgian-waffles",
         "belgian-waffles-ref",
+        "berry-banana-dessert-pillsbury",
         "black-bottom-pie-harvester",
+        "buttermilk-pancakes-ref",
         "buttermilk-pie-cottage-cheese",
         "caramel-icing-carnation",
         "caramel-nut-cake-carnation",
@@ -128907,7 +129217,6 @@
         "applesauce-bread-pudding",
         "banana-cinnamon-muffins",
         "banana-cinnamon-muffins-ref",
-        "banana-nut-breakfast-muffins-ref",
         "banana-nut-muffins-gahb",
         "banana-waffles",
         "banana-waffles-ref",
@@ -128963,6 +129272,7 @@
         "creamy-cheesy-french-toasts-ref",
         "deep-dark-chocolate-biscotti",
         "devil-cake-oursisters",
+        "easy-double-chocolate-chip-brownies-nestle",
         "eggnog-muffins",
         "eggnog-muffins-ref",
         "english-crumpets",
@@ -128989,8 +129299,8 @@
         "mississippi-mud-cake",
         "mock-kahlua-coffee-liqueur",
         "morning-start-blueberry-oatmeal-muffins",
-        "morning-start-blueberry-oatmeal-muffins-ref",
         "neiman-marcus-250-cookies",
+        "nestle-toll-house-chocolate-chip-cookies",
         "new-orleans-pecan-pralines",
         "norwegian-waffles",
         "norwegian-waffles-ref",
@@ -129064,8 +129374,8 @@
         "toasted-coconut-cake-with-coconut-filling-and-buttercream",
         "toffee-topped-bars-gahb",
         "traditional-blueberry-muffins",
-        "traditional-blueberry-muffins-ref",
         "ukrainian-babka-bread",
+        "ultimate-chocolate-chocolate-chip-cookies-nestle",
         "vanilla-crepes",
         "vanilla-crepes-ref",
         "very-strawberry-shortcake-splenda",
@@ -129075,6 +129385,16 @@
         "waldorf-astoria-red-velvet-cake",
         "yeast-waffles",
         "yeast-waffles-ref"
+      ]
+    },
+    {
+      "ingredient": "vanilla frosting",
+      "variants": [
+        "vanilla frosting"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "no-bake-easter-basket-cake"
       ]
     },
     {
@@ -129103,9 +129423,10 @@
       "variants": [
         "vanilla non-fat yogurt"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
-        "banana-nut-breakfast-muffins"
+        "banana-nut-breakfast-muffins",
+        "banana-nut-breakfast-muffins-ref"
       ]
     },
     {
@@ -129198,9 +129519,9 @@
       "recipe_ids": [
         "blackberry-chocolate-muffins-crumb-topping",
         "healthy-bran-apple-muffins",
-        "healthy-bran-apple-muffins-ref",
         "honey-lavender-muffins-ref",
         "morning-start-blueberry-oatmeal-muffins",
+        "morning-start-blueberry-oatmeal-muffins-ref",
         "vanilla-buttermilk-muffins",
         "watermelon-smoothie-handwritten"
       ]
@@ -129458,9 +129779,10 @@
         "vegetable oil",
         "vegetable oil (for rind)"
       ],
-      "recipe_count": 133,
+      "recipe_count": 139,
       "recipe_ids": [
         "amish-friendship-bread",
+        "amish-white-bread",
         "apple-ginger-pancakes",
         "apple-ginger-pancakes-ref",
         "asian-poori-bread",
@@ -129469,6 +129791,7 @@
         "banana-blueberry-pancakes",
         "banana-blueberry-pancakes-ref",
         "banana-nut-breakfast-muffins",
+        "banana-nut-breakfast-muffins-ref",
         "banana-sour-cream-pancakes",
         "banana-sour-cream-pancakes-ref",
         "better-than-sex-cake",
@@ -129476,8 +129799,8 @@
         "blueberry-buckwheat-pancakes-ref",
         "blueberry-coconut-muffins",
         "blueberry-coconut-muffins-ref",
+        "braided-sesame-bread",
         "burrito-de-la-calle",
-        "buttermilk-pancakes-ref",
         "cf-bbq-chicken-marinade",
         "cf-great-pizza-dough",
         "chai-spiced-muffins",
@@ -129530,8 +129853,10 @@
         "gordon-ramsay-trio-of-oysters",
         "gordon-ramsay-truffle-polenta-fries",
         "gordon-ramsay-tuna-tataki-soba",
+        "handwritten-beef-rice-meatballs",
         "harvey-wallbanger-cake-1970s",
         "healthy-apple-walnut-muffins-gahb",
+        "healthy-bran-apple-muffins-ref",
         "holiday-gingerbread-pumpkin-muffins",
         "honey-oatmeal-bread-ref",
         "huevos-y-chilaquiles",
@@ -129550,6 +129875,7 @@
         "mexican-skillet-casserole-ref",
         "milanesa-napolitana-reggianito",
         "morning-start-blueberry-oatmeal-muffins",
+        "morning-start-blueberry-oatmeal-muffins-ref",
         "oatmeal-molasses-rolls-ref",
         "parm-and-oreganobrown-sugar-goodandche",
         "peaches-and-cream-waffles",
@@ -129592,6 +129918,7 @@
         "watergate-pistachio-cookies",
         "whole-grain-pancakes-blueberry-sauce",
         "whole-grain-pancakes-blueberry-sauce-ref",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref"
       ]
     },
@@ -129676,9 +130003,11 @@
       "variants": [
         "vegetable shortening"
       ],
-      "recipe_count": 2,
+      "recipe_count": 4,
       "recipe_ids": [
         "italian-cream-cake-southern",
+        "no-bake-easter-basket-cake",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref"
       ]
     },
@@ -130012,7 +130341,6 @@
       "recipe_count": 32,
       "recipe_ids": [
         "apple-breakfast-bars",
-        "banana-nut-breakfast-muffins-ref",
         "basic-barley-ancients",
         "crus-t-ingre-dients-blueribbon",
         "dateloaf-thewingold",
@@ -130040,6 +130368,7 @@
         "simple-leek-quiche",
         "toffee-topped-bars-gahb",
         "traditional-blueberry-muffins",
+        "traditional-blueberry-muffins-ref",
         "walnut-gingerbread-gutenberg",
         "walnut-rocks-gutenberg",
         "walnut-torte-thewingold"
@@ -130317,10 +130646,11 @@
         "water (heated to 80°c)",
         "water (to dissolve junket)"
       ],
-      "recipe_count": 384,
+      "recipe_count": 386,
       "recipe_ids": [
         "alamode-beef-american-cookery-1796",
         "american-citron-american-cookery-1796",
+        "amish-white-bread",
         "apple-ginger-ale-salad-harvester",
         "apple-pie-french-toast",
         "apple-pie-french-toast-ref",
@@ -130357,6 +130687,7 @@
         "boiled-taffy-frosting-grandmas-molasses",
         "borlotti-minestrone",
         "boston-cream-pie-gahb",
+        "braided-sesame-bread",
         "branbread-themetropo",
         "breakfast-burrito-omelet",
         "breakfast-churros",
@@ -131122,9 +131453,10 @@
       "variants": [
         "wheat bran"
       ],
-      "recipe_count": 5,
+      "recipe_count": 6,
       "recipe_ids": [
         "bran-muffins-ref",
+        "healthy-bran-apple-muffins-ref",
         "honey-bran-muffins",
         "honey-bran-muffins-ref",
         "raisin-bran-muffins",
@@ -131168,7 +131500,7 @@
         "wheat flour",
         "whole wheat flour"
       ],
-      "recipe_count": 15,
+      "recipe_count": 17,
       "recipe_ids": [
         "banana-sour-cream-pancakes",
         "banana-sour-cream-pancakes-ref",
@@ -131182,7 +131514,9 @@
         "whole-grain-pancakes-blueberry-sauce",
         "whole-grain-pancakes-blueberry-sauce-ref",
         "wholegrain-seed-bread-ref",
+        "wholewheat-honey-bread",
         "wholewheat-honey-bread-ref",
+        "wholewheat-maple-bread",
         "wholewheat-maple-bread-ref",
         "wholly-pancakes-ancients"
       ]
@@ -131235,15 +131569,18 @@
       "variants": [
         "whole wheat pastry flour"
       ],
-      "recipe_count": 12,
+      "recipe_count": 15,
       "recipe_ids": [
         "autumn-spiced-pumpkin-pancakes",
         "autumn-spiced-pumpkin-pancakes-ref",
         "autumn-time-muffins",
         "banana-nut-breakfast-muffins",
+        "banana-nut-breakfast-muffins-ref",
+        "healthy-bran-apple-muffins-ref",
         "honey-bran-muffins",
         "honey-bran-muffins-ref",
         "morning-start-blueberry-oatmeal-muffins",
+        "morning-start-blueberry-oatmeal-muffins-ref",
         "pumpkin-harvest-loaf",
         "sour-cream-raspberry-pound-cake",
         "toasted-pecan-blueberry-pancakes",
@@ -131475,10 +131812,11 @@
       "variants": [
         "whipping cream"
       ],
-      "recipe_count": 13,
+      "recipe_count": 15,
       "recipe_ids": [
         "cf-frangelico-tiramisu",
         "chicken-pot-pie-gahb",
+        "frosty-orange-delight",
         "frozen-cheese-and-pineapple-salad-cottage-cheese",
         "frozen-fruit-salad-harvester",
         "gordon-ramsay-roasted-pork-tenderloin",
@@ -131488,6 +131826,7 @@
         "peppermint-cream-harvester",
         "pineapple-refrigerator-cake-harvester",
         "reddit-whipping-cream-cake",
+        "strawberries-cream-cheese-freeze-pillsbury",
         "thyme-chicken-chickenrec",
         "toms-chicken-enchi-ladas-chickenrec"
       ]
@@ -131606,11 +131945,12 @@
       "variants": [
         "white chocolate chips"
       ],
-      "recipe_count": 4,
+      "recipe_count": 5,
       "recipe_ids": [
         "apple-white-chocolate-muffins",
         "apple-white-chocolate-muffins-ref",
         "double-chocolate-crackles",
+        "no-bake-easter-basket-cake",
         "watergate-pistachio-cookies"
       ]
     },
