@@ -56,7 +56,7 @@ This document provides step-by-step workflows for maintaining the Other Family R
      "source_note": "Source cookbook or magazine",
      "ingredients": [...],
      "instructions": [...],
-     "image_refs": ["filename.jpeg"],
+     "image_refs": [],
      "confidence": {
        "overall": "high",
        "flags": []
@@ -64,11 +64,18 @@ This document provides step-by-step workflows for maintaining the Other Family R
    }
    ```
 
+4. **Image retention:** Only populate `image_refs` for **handwritten** recipe images.
+   - Handwritten: `"image_refs": ["IMG_XXXX.jpeg"]` - keep and commit the image
+   - Non-handwritten (Kindle, magazine, typed): `"image_refs": []` - do not link
+
 ### Step 3: Validate and Commit
 
 ```bash
 python scripts/validate-recipes.py
+# For handwritten recipes - include the image file:
 git add data/recipes.json data/IMAGE_FILE
+# For non-handwritten recipes - recipe data only:
+git add data/recipes.json
 git commit -m "Add [recipe name] from [source]"
 ```
 

@@ -1,6 +1,6 @@
 # Other Family Recipes - AI Assistant Context
 
-> **Version 1.2** | Updated January 2026
+> **Version 1.3** | Updated February 2026
 
 ## Quick Start Essentials
 
@@ -48,7 +48,8 @@ This is a **standalone collection repository**, part of the multi-repo Family Re
 **IMPORTANT:** Check `PENDING_TASKS.md` for deferred work that needs to be completed in future sessions.
 
 Current pending items:
-- **Nutrition Data Pass** - Add nutrition information to all reference collection muffin recipes (see tracker for details)
+- **Nutrition Data Pass** - COMPLETE (see tracker for details)
+- **Non-Handwritten Image Refs Cleanup** - COMPLETE (see tracker for details)
 
 ---
 
@@ -149,12 +150,13 @@ Prefer dual format for accessibility: `350°F (175°C)`
 ### Source Classification
 Identify the image type BEFORE attempting extraction:
 
-| Source Type | Indicators | Action |
-|-------------|------------|--------|
-| **Kindle screenshots** | "Location X of Y", e-reader UI | Check copyright, verify source |
-| **Magazine clippings** | Printed text, newspaper/magazine layout | Process normally |
-| **Typed cards** | Typewriter font, consistent spacing | Process normally |
-| **Cookbook pages** | Professional layout, copyright notices | **Verify permission** |
+| Source Type | Indicators | Action | Keep Image? |
+|-------------|------------|--------|-------------|
+| **Kindle screenshots** | "Location X of Y", e-reader UI | Check copyright, verify source | **No** - extract and clear `image_refs` |
+| **Magazine clippings** | Printed text, newspaper/magazine layout | Process normally | **No** - extract and clear `image_refs` |
+| **Typed cards** | Typewriter font, consistent spacing | Process normally | **No** - extract and clear `image_refs` |
+| **Handwritten** | Pen/pencil on paper, personal handwriting | Process carefully | **Yes** - keep in `image_refs` |
+| **Cookbook pages** | Professional layout, copyright notices | **Verify permission** | **No** - extract and clear `image_refs` |
 
 ### Completeness Check (MANDATORY)
 **DO NOT extract a recipe unless ALL THREE elements are present:**
@@ -208,7 +210,7 @@ For e-reader/Kindle screenshots (identified by "Location X of Y" footer):
     "overall": "high|medium|low",
     "flags": []
   },
-  "image_refs": ["IMG_001.PNG"],
+  "image_refs": ["IMG_001.PNG"],  // HANDWRITTEN images only - leave empty for non-handwritten
   "page_continuation": {"continues_from": "", "continues_to": ""},
   "components": ["recipe-id-of-sub-recipe"],
   "component_of": ["recipe-id-of-parent"],
@@ -324,13 +326,31 @@ python scripts/image_safeguards.py mark "IMG_4034.PNG" skipped "Not a recipe"
 
 ---
 
+## Image Retention Policy
+
+**Only handwritten recipe images are saved and linked in `image_refs`.**
+
+After extracting a recipe from an image:
+
+| Source Type | Image Retention | `image_refs` |
+|-------------|----------------|--------------|
+| **Handwritten** (pen/pencil on paper) | **Keep** - these are irreplaceable originals | Populate with filename(s) |
+| **Kindle screenshots** | **Do not link** - recipe data is the deliverable | Leave empty `[]` |
+| **Magazine clippings** | **Do not link** - recipe data is the deliverable | Leave empty `[]` |
+| **Typed cards** | **Do not link** - recipe data is the deliverable | Leave empty `[]` |
+| **Cookbook pages** | **Do not link** - recipe data is the deliverable | Leave empty `[]` |
+
+**Rationale:** Handwritten recipes carry personal, irreplaceable character that the JSON cannot fully capture. Printed/digital sources are fully represented by the extracted recipe data.
+
+---
+
 ## Non-Negotiable Rules
 
 1. **Do NOT invent** ingredients, steps, temperatures, times, or yields
 2. If anything is **unreadable or ambiguous**, mark it as `[UNCLEAR]` with best guesses
 3. **Preserve original intent**, but normalize spelling and formatting
 4. **Verify copyright/permission** before processing commercial cookbook images
-5. **Never discard a scan reference** - keep all image_refs
+5. **Only link handwritten images** - `image_refs` is reserved for handwritten recipe images only; non-handwritten sources (Kindle, magazine, typed) should have empty `image_refs`
 6. **Never read oversized images** (>2000px) directly - use processed versions
 7. **Always run validation** before committing recipe changes
 8. **Check PENDING_TASKS.md** for deferred work at session start
@@ -393,7 +413,8 @@ gordon-ramsay-beef-wellington (COMPLETE)
 ### Multi-Page Recipes
 
 For recipes spanning multiple images (5-6 photos):
-- Store ALL image refs: `"image_refs": ["IMG_7510.jpeg", "IMG_7511.jpeg", ...]`
+- For **handwritten** multi-page recipes: store ALL image refs: `"image_refs": ["IMG_7510.jpeg", "IMG_7511.jpeg", ...]`
+- For **non-handwritten** multi-page recipes: extract all content but leave `image_refs` empty
 - Use `page_continuation` if splitting across entries
 - Merge into single complete recipe when possible
 
@@ -492,6 +513,7 @@ python scripts/validate-recipes.py --strict
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.3 | Feb 2026 | Added handwritten-only image retention policy. Only handwritten recipe images are linked in `image_refs`; non-handwritten sources have empty `image_refs`. Updated Source Classification, Multi-Page Recipes, and Non-Negotiable Rules. |
 | 1.2 | Jan 2026 | Added cheese category requirement. Documented cheese-making recipe detection criteria. Added Cheese-Making Recipes section with examples and tool references. |
 | 1.1 | Jan 2026 | Added .claude directory with settings, hooks, skills, and documentation. Added Quick Start Essentials and Priority Framework. Expanded Non-Negotiable Rules. |
 | 1.0 | Original | Initial CLAUDE.md with recipe schema, OCR guidelines, and image processing documentation. |
