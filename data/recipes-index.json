@@ -2,8 +2,8 @@
   "meta": {
     "title": "Other Family Recipes",
     "description": "Digital cookbook recipes and magazine clippings, preserved with love",
-    "total_recipes": 5819,
-    "last_updated": "2026-01-23",
+    "total_recipes": 6043,
+    "last_updated": "2026-02-05",
     "version": "3.0.0",
     "sharded": true,
     "shard_strategy": "by_category"
@@ -12,12 +12,12 @@
     {
       "category": "appetizers",
       "file": "recipes-appetizers.json",
-      "count": 104
+      "count": 116
     },
     {
       "category": "basics",
       "file": "recipes-basics.json",
-      "count": 3
+      "count": 24
     },
     {
       "category": "beverages",
@@ -32,7 +32,7 @@
     {
       "category": "breakfast",
       "file": "recipes-breakfast.json",
-      "count": 416
+      "count": 422
     },
     {
       "category": "cheese",
@@ -42,22 +42,22 @@
     {
       "category": "desserts",
       "file": "recipes-desserts.json",
-      "count": 667
+      "count": 699
     },
     {
       "category": "mains",
       "file": "recipes-mains.json",
-      "count": 1711
+      "count": 1781
     },
     {
       "category": "salads",
       "file": "recipes-salads.json",
-      "count": 143
+      "count": 155
     },
     {
       "category": "sides",
       "file": "recipes-sides.json",
-      "count": 1861
+      "count": 1932
     },
     {
       "category": "snacks",
@@ -86614,6 +86614,3796 @@
       "description": "Fresh, mild Mexican cheese that softens when heated but doesn't melt. Its basket-weave texture comes from traditional draining molds. Perfect for grilling and salads.",
       "servings_yield": "About 1.5 lbs",
       "total_time": "Same day to 2 days"
+    },
+    {
+      "id": "gordon-ramsay-king-crab-capellini",
+      "title": "King Crab Capellini with Chili, Lime, and Green Onion",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "seafood",
+        "crab",
+        "quick",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "A light and elegant pasta featuring Alaskan king crab tossed with capellini, fresh chili, lime, and green onions.",
+      "servings_yield": "4 servings",
+      "total_time": "25 minutes"
+    },
+    {
+      "id": "gordon-ramsay-grilled-peach-salad",
+      "title": "Grilled Peach Salad with Peppered Whipped Goat Cheese, Baby Arugula, Toasted Almonds, and Sauvignon Blanc Honey Vinaigrette",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "summer",
+        "peaches",
+        "goat-cheese",
+        "gordon-ramsay",
+        "hells-kitchen",
+        "compound-recipe"
+      ],
+      "collection": "all",
+      "description": "A stunning summer salad with grilled peaches, spicy arugula, creamy goat cheese, and crunchy almonds.",
+      "servings_yield": "4 servings",
+      "total_time": "30 minutes"
+    },
+    {
+      "id": "gordon-ramsay-whipped-goat-cheese",
+      "title": "Peppered Whipped Goat Cheese",
+      "category": "basics",
+      "tags": [
+        "spread",
+        "topping",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Light, creamy whipped goat cheese seasoned with black pepper.",
+      "servings_yield": "1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-toasted-almonds",
+      "title": "Butter-Toasted Almonds",
+      "category": "basics",
+      "tags": [
+        "nuts",
+        "topping",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Golden, aromatic sliced almonds toasted in butter.",
+      "servings_yield": "1/3 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sauvignon-blanc-vinaigrette",
+      "title": "Sauvignon Blanc Honey Vinaigrette",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "vinaigrette",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "A bright, elegant vinaigrette with wine, lemon, and honey.",
+      "servings_yield": "1/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-heirloom-tomato-salad",
+      "title": "Heirloom Tomato Salad with Burrata, Pine Nut Gremolata, and Pickled Red Pearl Onions",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "summer",
+        "tomatoes",
+        "burrata",
+        "gordon-ramsay",
+        "hells-kitchen",
+        "compound-recipe"
+      ],
+      "collection": "all",
+      "description": "A Hell's Kitchen take on caprese with creamy burrata, herb gremolata, and tangy pickled onions.",
+      "servings_yield": "4 servings",
+      "total_time": "35 minutes"
+    },
+    {
+      "id": "gordon-ramsay-pine-nut-gremolata",
+      "title": "Pine Nut Gremolata",
+      "category": "basics",
+      "tags": [
+        "condiment",
+        "italian",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "A crunchy Italian herb condiment with toasted pine nuts.",
+      "servings_yield": "About 1/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pickled-red-pearl-onions",
+      "title": "Pickled Red Pearl Onions",
+      "category": "basics",
+      "tags": [
+        "pickled",
+        "condiment",
+        "make-ahead",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Tangy, spiced pickled onions for garnishing salads and plates.",
+      "servings_yield": "20 onions",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-balsamic-vinaigrette",
+      "title": "Balsamic Vinaigrette",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "vinaigrette",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Classic balsamic dressing with shallots.",
+      "servings_yield": "About 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pan-seared-tuna",
+      "title": "Pan-Seared Tuna with Bok Choy and Wasabi Mashed Potatoes",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "tuna",
+        "asian",
+        "wasabi",
+        "gordon-ramsay",
+        "hells-kitchen",
+        "compound-recipe"
+      ],
+      "collection": "all",
+      "description": "Sushi-grade tuna coated in sesame seeds, served with wasabi-spiked mashed potatoes and a soy ginger vinaigrette.",
+      "servings_yield": "4 servings",
+      "total_time": "50 minutes"
+    },
+    {
+      "id": "gordon-ramsay-soy-ginger-vinaigrette",
+      "title": "Soy Ginger Vinaigrette",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "asian",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "An Asian-inspired dressing with soy, ginger, and citrus.",
+      "servings_yield": "About 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-wasabi-mashed-potatoes",
+      "title": "Wasabi Mashed Potatoes",
+      "category": "sides",
+      "tags": [
+        "side",
+        "potatoes",
+        "asian",
+        "wasabi",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Creamy Yukon Gold mashed potatoes with a sharp hint of wasabi heat.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pan-seared-grouper-fennel-salad",
+      "title": "Pan-Seared Grouper with Fennel Salad",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "fish",
+        "salad",
+        "citrus",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Baquetta grouper with brown butter vinaigrette and a bright citrus fennel salad featuring Meyer lemons and blood oranges.",
+      "servings_yield": "4 servings",
+      "total_time": "35 minutes"
+    },
+    {
+      "id": "gordon-ramsay-brown-butter-vinaigrette",
+      "title": "Brown Butter Vinaigrette",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "vinaigrette",
+        "brown-butter",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "A rich, nutty vinaigrette with browned butter, citrus, and honey.",
+      "servings_yield": "About 1/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-cioppino",
+      "title": "Cioppino with Squid, Turbot, Salmon, Light Saffron Broth, Mussels and Clams",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "stew",
+        "italian",
+        "san-francisco",
+        "saffron",
+        "gordon-ramsay",
+        "hells-kitchen",
+        "compound-recipe"
+      ],
+      "collection": "all",
+      "description": "Hell's Kitchen's take on the classic San Francisco Italian-American fish stew with six varieties of seafood in a saffron-infused broth.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour"
+    },
+    {
+      "id": "gordon-ramsay-saffron-oil",
+      "title": "Saffron Oil",
+      "category": "basics",
+      "tags": [
+        "oil",
+        "saffron",
+        "condiment",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Luxurious saffron-infused olive oil for drizzling on seafood dishes.",
+      "servings_yield": "1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-garlic-crostini",
+      "title": "Garlic Crostini",
+      "category": "basics",
+      "tags": [
+        "bread",
+        "appetizer",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Simple garlic-rubbed toasted bread for serving with soups and stews.",
+      "servings_yield": "8 crostini",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-lobster-spaghetti",
+      "title": "Lobster Spaghetti",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "seafood",
+        "lobster",
+        "italian",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Fresh lobster tossed with spaghetti in a light tomato sauce with white wine and fresh herbs.",
+      "servings_yield": "4 servings",
+      "total_time": "45 minutes"
+    },
+    {
+      "id": "gordon-ramsay-tuna-tataki-soba",
+      "title": "Pan-Seared Tuna Tataki with Green Tea Soba Noodles",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "tuna",
+        "asian",
+        "japanese",
+        "noodles",
+        "soba",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Lightly seared sushi-grade tuna over green tea soba noodles with a ginger sesame dressing.",
+      "servings_yield": "4 servings",
+      "total_time": "25 minutes"
+    },
+    {
+      "id": "gordon-ramsay-sesame-dressing",
+      "title": "Sesame Ginger Dressing",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "asian",
+        "sesame",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "A savory-sweet Asian dressing with soy, ginger, and sesame.",
+      "servings_yield": "About 1/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-red-snapper-roasted-beets",
+      "title": "Pan-Fried Red Snapper with Roasted Beets and Pink Grapefruit Dressing",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "fish",
+        "snapper",
+        "beets",
+        "salad",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Crispy red snapper served with sweet roasted baby beets and a tangy pink grapefruit dressing.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour 20 minutes"
+    },
+    {
+      "id": "gordon-ramsay-pink-grapefruit-dressing",
+      "title": "Pink Grapefruit Dressing",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "vinaigrette",
+        "citrus",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "A sweet-sour citrus vinaigrette with pink grapefruit and sherry vinegar.",
+      "servings_yield": "About 1/3 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caesar-salad",
+      "title": "Caesar Salad with Romaine Hearts, Pickled Red Onion, and Parmesan Croutons",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "caesar",
+        "classic",
+        "gordon-ramsay",
+        "hells-kitchen",
+        "compound-recipe"
+      ],
+      "collection": "all",
+      "description": "Hell's Kitchen's take on the classic Caesar with sweet-spicy pickled onions, homemade Parmesan croutons, and a creamy dressing made with raw egg yolks.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour"
+    },
+    {
+      "id": "gordon-ramsay-parmesan-croutons",
+      "title": "Parmesan Croutons",
+      "category": "basics",
+      "tags": [
+        "bread",
+        "croutons",
+        "parmesan",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Crispy, cheesy homemade croutons baked with Parmesan.",
+      "servings_yield": "About 2 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caesar-dressing",
+      "title": "Caesar Dressing",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "caesar",
+        "anchovy",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Creamy Caesar dressing with raw egg yolks, anchovy, and crème fraîche.",
+      "servings_yield": "About 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-steamed-mussels-tequila",
+      "title": "Steamed Mussels with Tequila, Red Chili, Green Jalapeño, Coconut Milk, Lime, and Cilantro",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "mussels",
+        "asian",
+        "mexican",
+        "coconut",
+        "quick",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "An Asian-Mexican twist on French moules marinière, inspired by Ja'Nel Witt's Season 11 finale dish. Coconut milk, fish sauce, and lime juice add depth to this quick-cooking mussel dish.",
+      "servings_yield": "4 servings",
+      "total_time": "25 minutes"
+    },
+    {
+      "id": "gordon-ramsay-beef-carpaccio",
+      "title": "Beef Carpaccio with Pickled Radish, Fennel and Carrots, and Yuzu Vinaigrette",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "beef",
+        "raw",
+        "carpaccio",
+        "japanese",
+        "make-ahead",
+        "gordon-ramsay",
+        "hells-kitchen",
+        "compound-recipe"
+      ],
+      "collection": "all",
+      "description": "Paper-thin raw beef tenderloin served with tangy pickled vegetables and a Japanese-inspired yuzu vinaigrette. This dish appears as the first course in the Meat Lover's menu.",
+      "servings_yield": "4 servings",
+      "total_time": "30 minutes (plus overnight)"
+    },
+    {
+      "id": "gordon-ramsay-yuzu-vinaigrette",
+      "title": "Yuzu Vinaigrette",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "vinaigrette",
+        "japanese",
+        "yuzu",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "A Japanese-inspired vinaigrette with tart yuzu citrus, soy sauce, and mustard.",
+      "servings_yield": "About 1/3 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pickled-vegetables",
+      "title": "Pickled Radish, Fennel, and Carrot",
+      "category": "basics",
+      "tags": [
+        "pickled",
+        "vegetables",
+        "make-ahead",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Quick-pickled vegetables with Asian flavors - jalapeño, cilantro, and mustard seeds.",
+      "servings_yield": "About 2 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-butter-lettuce-salad",
+      "title": "Butter Lettuce Salad with Goat Cheese Croquette, Candied Walnuts, and Apple",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "goat-cheese",
+        "apple",
+        "gordon-ramsay",
+        "hells-kitchen",
+        "compound-recipe"
+      ],
+      "collection": "all",
+      "description": "Tender butter lettuce topped with a crispy breaded goat cheese croquette, candied walnuts, julienned Granny Smith apple, and apple butter.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour"
+    },
+    {
+      "id": "gordon-ramsay-goat-cheese-croquette",
+      "title": "Goat Cheese Croquette",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "goat-cheese",
+        "fried",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Crispy breaded goat cheese disks with fresh herbs.",
+      "servings_yield": "4 croquettes",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-lemon-vinaigrette",
+      "title": "Lemon Vinaigrette",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "vinaigrette",
+        "lemon",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Simple lemon and Dijon vinaigrette.",
+      "servings_yield": "About 1/3 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-candied-walnuts",
+      "title": "Candied Walnuts",
+      "category": "basics",
+      "tags": [
+        "nuts",
+        "candied",
+        "topping",
+        "quick",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Quick candied walnuts for topping salads.",
+      "servings_yield": "1/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-crab-shrimp-lettuce-cups",
+      "title": "Crab Shrimp Lettuce Cups with Black Bean Mango Salsa and Chili Vinaigrette",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "seafood",
+        "shrimp",
+        "crab",
+        "summer",
+        "light",
+        "gordon-ramsay",
+        "hells-kitchen",
+        "compound-recipe"
+      ],
+      "collection": "all",
+      "description": "Light summer appetizer with marinated shrimp and crab served in butter lettuce cups with tropical salsa and spicy vinaigrette.",
+      "servings_yield": "4 servings",
+      "total_time": "45 minutes"
+    },
+    {
+      "id": "gordon-ramsay-black-bean-mango-salsa",
+      "title": "Black Bean Mango Salsa",
+      "category": "basics",
+      "tags": [
+        "salsa",
+        "tropical",
+        "mango",
+        "black-beans",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Fresh tropical salsa with black beans, mango, and cilantro.",
+      "servings_yield": "About 2 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-chili-vinaigrette",
+      "title": "Chili Vinaigrette",
+      "category": "basics",
+      "tags": [
+        "dressing",
+        "vinaigrette",
+        "spicy",
+        "lime",
+        "gordon-ramsay"
+      ],
+      "collection": "all",
+      "description": "Spicy lime vinaigrette with cayenne and cumin.",
+      "servings_yield": "About 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-creamy-asparagus-risotto",
+      "title": "Creamy Asparagus Risotto with Lemon and Mascarpone",
+      "category": "mains",
+      "tags": [
+        "risotto",
+        "asparagus",
+        "italian",
+        "vegetarian-option",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Green-hued arborio rice dish brightened with lemon and enriched with mascarpone. Kevin Cottle mastered this in Season 6's final four competition.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-asparagus-puree-risotto",
+      "title": "Asparagus Puree (for Risotto)",
+      "category": "sides",
+      "tags": [
+        "asparagus",
+        "puree",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Smooth asparagus puree that adds bright green color and flavor to risotto.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-eggplant-involtini",
+      "title": "Eggplant Involtini with Spicy Red Pepper Emulsion",
+      "category": "mains",
+      "tags": [
+        "eggplant",
+        "italian",
+        "vegetarian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Thinly sliced eggplant stuffed and rolled around a cheese filling. A lighter dish where baked eggplant is the star with a red pepper emulsion standing in for traditional tomato sauce.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-spicy-red-pepper-emulsion",
+      "title": "Spicy Red Pepper Emulsion",
+      "category": "sides",
+      "tags": [
+        "sauce",
+        "red pepper",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Red peppers cooked to tenderness and pureed, standing in for tomato sauce in eggplant involtini.",
+      "servings_yield": "about 1 1/2 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-grilled-asparagus-salad",
+      "title": "Grilled Jumbo Asparagus Salad with Fried Egg and Bacon-Shallot Vinaigrette",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "asparagus",
+        "bacon",
+        "eggs",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Salty, smoky bacon umami essence drizzled over thick asparagus spears and topped with bacon's trusted sidekick, the fried egg.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-bacon-shallot-vinaigrette",
+      "title": "Bacon-Shallot Vinaigrette",
+      "category": "sides",
+      "tags": [
+        "vinaigrette",
+        "bacon",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Warm bacon vinaigrette with shallots, perfect for drizzling over grilled asparagus.",
+      "servings_yield": "about 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-baby-gem-salad",
+      "title": "Salad of Baby Gem Hearts, Toasted Walnuts, and Red Grapes with Blue Cheese Dressing",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "blue cheese",
+        "walnuts",
+        "grapes",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Creamy blue cheese, mayonnaise, and half-and-half dressing enriched with rich truffle for umami flavor, served over baby gem lettuce with walnuts and grapes.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-truffle-blue-cheese-dressing",
+      "title": "Truffle Blue Cheese Dressing",
+      "category": "sides",
+      "tags": [
+        "dressing",
+        "blue cheese",
+        "truffle",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Creamy blue cheese dressing with truffle oil for umami depth.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-scallop-salad-truffle",
+      "title": "Salad of Scallops with Truffle Vinaigrette",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "scallops",
+        "truffle",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Pan-seared scallops seasoned with curry powder salt, served with petite Asian greens, fried potatoes, and truffle vinaigrette. Part of the Festival of Truffles menu.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-truffle-vinaigrette",
+      "title": "Truffle Vinaigrette",
+      "category": "sides",
+      "tags": [
+        "vinaigrette",
+        "truffle",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Egg yolk-based vinaigrette with truffle oil and optional fresh chopped truffle.",
+      "servings_yield": "about 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-foie-gras-french-toast",
+      "title": "Seared Foie Gras on Brioche French Toast with Caramelized Apples and Figs",
+      "category": "appetizers",
+      "tags": [
+        "foie gras",
+        "french toast",
+        "appetizer",
+        "luxury",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "The ultimate in opulence - incredibly rich foie gras served atop the best French toast with caramelized apples and figs. Holli Ugalde served this as starter to her Season 7 competition-winning dinner.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caramelized-apples-figs",
+      "title": "Caramelized Apples and Figs",
+      "category": "sides",
+      "tags": [
+        "fruit",
+        "caramelized",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Sweet caramelized apples and figs in a butter and cream sauce, perfect accompaniment for foie gras.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-brioche-french-toast",
+      "title": "Brioche French Toast",
+      "category": "breakfast",
+      "tags": [
+        "french toast",
+        "breakfast",
+        "brioche",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Thick brioche bread dipped in vanilla-ginger custard and pan-fried, perfect as a base for foie gras.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-ahi-tuna-haricots-verts",
+      "title": "Seared Ahi Tuna Loin with Haricots Verts, Hard-Boiled Quail Eggs, and Black Olive Dressing",
+      "category": "mains",
+      "tags": [
+        "tuna",
+        "seafood",
+        "salad",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Herb-crusted sushi-grade ahi tuna bathed in an herb, soy, and vinegar marinade before a very brief sear. Served with haricots verts, quail eggs, and salty black olive dressing on bitter frisée.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-black-olive-vinaigrette-ahi",
+      "title": "Black-Olive Vinaigrette",
+      "category": "sides",
+      "tags": [
+        "vinaigrette",
+        "olive",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Salty, umami-tasting black olive dressing that plays off the bitter frisée salad.",
+      "servings_yield": "about 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-shallot-tarte-tatin",
+      "title": "Shallot and Caramelized Onion Tarte Tatin",
+      "category": "appetizers",
+      "tags": [
+        "tart",
+        "shallots",
+        "onion",
+        "vegetarian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "An upside-down tart made with caramelized onions and shallots. Using store-bought puff pastry makes this recipe a cinch.",
+      "servings_yield": "6 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-frisee-salad-tarte",
+      "title": "Frisée Salad (for Tarte Tatin)",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "frisée",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Simple frisée salad with herbs and goat cheese to accompany the shallot tarte tatin.",
+      "servings_yield": "6 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-duck-ragu-ravioli",
+      "title": "Duck Ragù Ravioli and Pumpkin-Seed Puree with Brown Butter",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "ravioli",
+        "duck",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Italian meat-based ragù sauce turned inside out by stuffing it into pasta. Chicken confit duck goes into the ragù for a hearty starter. Ravioli can be made ahead and frozen.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pasta-dough-ravioli",
+      "title": "Pasta Dough for Ravioli",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "dough",
+        "component",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Fresh pasta dough for making ravioli, yields about 3/4 pound of dough.",
+      "servings_yield": "about 3/4 lb dough",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-duck-ragu",
+      "title": "Duck Ragù",
+      "category": "mains",
+      "tags": [
+        "duck",
+        "ragu",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Rich duck confit ragù filling for ravioli.",
+      "servings_yield": "about 2 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pumpkin-seed-puree",
+      "title": "Pumpkin-Seed Puree",
+      "category": "sides",
+      "tags": [
+        "puree",
+        "pumpkin seeds",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Smooth pumpkin seed puree to accompany duck ravioli.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-brown-butter-ravioli",
+      "title": "Brown Butter (for Ravioli)",
+      "category": "sides",
+      "tags": [
+        "butter",
+        "sauce",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Nutty brown butter with sherry vinegar to drizzle over ravioli.",
+      "servings_yield": "about 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-trio-of-oysters",
+      "title": "A Trio of Oysters: Tempura-Fried Oysters with Citrus Aioli, Freshly Shucked Oysters with Bloody Mary Granita, Baked Oysters Rockefeller",
+      "category": "appetizers",
+      "tags": [
+        "oysters",
+        "seafood",
+        "appetizer",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Raw, baked, and fried - this threesome of oysters is a decidedly upscale start to a meal. Blue Point oysters prepared three ways.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-bloody-mary-granita",
+      "title": "Bloody Mary Granita",
+      "category": "appetizers",
+      "tags": [
+        "granita",
+        "bloody mary",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Frozen Bloody Mary mixture to top fresh oysters.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-citrus-aioli",
+      "title": "Citrus Aioli",
+      "category": "sides",
+      "tags": [
+        "aioli",
+        "sauce",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Garlicky citrus mayonnaise for fried oysters.",
+      "servings_yield": "about 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-oysters-rockefeller",
+      "title": "Oysters Rockefeller",
+      "category": "appetizers",
+      "tags": [
+        "oysters",
+        "rockefeller",
+        "appetizer",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Classic baked oysters with spinach, bacon, Parmesan, and a drizzle of Pernod.",
+      "servings_yield": "8 oysters",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sunchoke-risotto",
+      "title": "Sunchoke Risotto with Crispy Squid and Chili Oil",
+      "category": "mains",
+      "tags": [
+        "risotto",
+        "sunchoke",
+        "squid",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Sunchokes (Jerusalem artichokes) cooked then blended into a puree that heightens the creaminess of a classic risotto, finished with crispy squid and a drizzle of spicy chili oil.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sunchoke-puree",
+      "title": "Sunchoke Puree",
+      "category": "sides",
+      "tags": [
+        "puree",
+        "sunchoke",
+        "jerusalem artichoke",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Smooth sunchoke puree to add to risotto. Sunchokes (Jerusalem artichokes) are knobby tubers with a sweet, nutty flavor.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-squab-salad",
+      "title": "Squab Salad with Blood Orange, Pea Shoots, and Citrus Vinaigrette",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "squab",
+        "pigeon",
+        "pea shoots",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Make the most of pea shoot season with this citrusy salad served with squab. Squab (pigeon) expands your poultry repertoire with moist, lean, dark flesh and mild flavor.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-citrus-vinaigrette-squab",
+      "title": "Citrus Vinaigrette (for Squab Salad)",
+      "category": "sides",
+      "tags": [
+        "vinaigrette",
+        "citrus",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Blood orange and lemon vinaigrette for squab salad.",
+      "servings_yield": "about 1/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-beef-wellington",
+      "title": "Beef Wellington, Blackberry Sauce, Whipped Potatoes, Glazed Baby Carrots",
+      "category": "mains",
+      "tags": [
+        "beef",
+        "wellington",
+        "puff pastry",
+        "special occasion",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "The signature Hell's Kitchen dish - seared filet of steak wrapped in buttery puff pastry with mushroom duxelles and prosciutto. A British culinary tour de force and true test of a chef's mettle.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-mushroom-duxelles",
+      "title": "Mushroom Duxelles",
+      "category": "sides",
+      "tags": [
+        "mushrooms",
+        "duxelles",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Finely minced mushroom paste for Beef Wellington.",
+      "servings_yield": "about 1 1/2 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-blackberry-sauce",
+      "title": "Blackberry Sauce",
+      "category": "sides",
+      "tags": [
+        "sauce",
+        "blackberry",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Sweet-tart blackberry sauce to drizzle over Beef Wellington.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-whipped-potatoes-wellington",
+      "title": "Whipped Potatoes (for Beef Wellington)",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "mashed",
+        "whipped",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Creamy whipped Yukon Gold potatoes to accompany Beef Wellington.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-glazed-carrots",
+      "title": "Glazed Baby Carrots",
+      "category": "sides",
+      "tags": [
+        "carrots",
+        "glazed",
+        "vegetable",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Butter-glazed baby carrots to accompany Beef Wellington.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pork-chops-apple-butter",
+      "title": "Oven-Roasted Pork Chops with Apple Butter, Cider-Braised Kale, and Pork Jus",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "chops",
+        "brined",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Brined pork chops cooked au jus with cider-braised kale and a dollop of apple butter for concentrated apple flavor. Plan ahead for the brining time.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-braised-kale",
+      "title": "Cider-Braised Kale",
+      "category": "sides",
+      "tags": [
+        "kale",
+        "braised",
+        "bacon",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Lacinato kale braised with bacon, apple cider, and apple cider vinegar.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-brown-chicken-stock",
+      "title": "Brown Chicken Stock",
+      "category": "sides",
+      "tags": [
+        "stock",
+        "chicken",
+        "base",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "The secret to a fabulous soup or stew - a long-cooked, heavily seasoned stock. Browning the wings and caramelizing vegetables gives extra layers of flavor.",
+      "servings_yield": "6 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pecan-crusted-mahi-mahi",
+      "title": "Pecan-Crusted Mahi Mahi with Edamame Succotash and Maple Butter",
+      "category": "mains",
+      "tags": [
+        "fish",
+        "mahi mahi",
+        "pecan",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A twist on succotash by swapping in edamame for traditional lima beans. Pecans make a crunchy coating for the fish, and maple syrup-infused butter adds a deep, rich finish.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-edamame-succotash",
+      "title": "Edamame Succotash",
+      "category": "sides",
+      "tags": [
+        "succotash",
+        "edamame",
+        "corn",
+        "vegetable",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Fresh twist on succotash using edamame instead of lima beans.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-maple-butter",
+      "title": "Maple Butter",
+      "category": "sides",
+      "tags": [
+        "butter",
+        "maple",
+        "sauce",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Simple maple syrup butter sauce to drizzle over fish.",
+      "servings_yield": "about 1/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-brick-chicken",
+      "title": "Brick Chicken with Gremolata",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "brick",
+        "roasted",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Whole chicken pressed flat and weighted with bricks (or another heavy skillet) for even cooking and crispy skin. Served with fresh herb gremolata.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-gremolata",
+      "title": "Gremolata",
+      "category": "sides",
+      "tags": [
+        "gremolata",
+        "herb",
+        "garnish",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Classic Italian herb garnish of lemon zest, parsley, and garlic.",
+      "servings_yield": "about 1/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-baked-cod-olive-crust",
+      "title": "Baked Cod with Green-Olive Crust, Marinated Bell Peppers, Caper-and-Raisin Puree",
+      "category": "mains",
+      "tags": [
+        "cod",
+        "fish",
+        "seafood",
+        "olive",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Show-stopping presentation that can be put together in under an hour if you prep all the components a day ahead. Perfect for a weeknight dinner with the \"wow\" factor.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-green-olive-crust",
+      "title": "Green-Olive Crust",
+      "category": "sides",
+      "tags": [
+        "olive",
+        "crust",
+        "topping",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Chunky olive and brioche topping for baked fish.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-marinated-bell-peppers",
+      "title": "Marinated Bell Peppers",
+      "category": "sides",
+      "tags": [
+        "peppers",
+        "marinated",
+        "vegetable",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Sautéed bell peppers marinated in classic vinaigrette.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caper-raisin-puree",
+      "title": "Caper-and-Raisin Puree",
+      "category": "sides",
+      "tags": [
+        "puree",
+        "caper",
+        "raisin",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Sweet and briny puree to garnish baked fish.",
+      "servings_yield": "about 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-chicken-fried-ribeye",
+      "title": "Chicken-Fried Rib-Eye with Yukon Gold Mashed Potatoes and White Truffle Cream Gravy",
+      "category": "mains",
+      "tags": [
+        "steak",
+        "fried",
+        "comfort food",
+        "southern",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Also known as country-fried steak, this breaded and fried steak is the ultimate in Southern comfort food. Hell's Kitchen decks it out with a luxurious truffle oil-anointed gravy and indulgently creamy Yukon Gold mashed potatoes. Part of the Modern South menu.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-filet-au-gratin",
+      "title": "Filet of Beef Au Gratin, Truffle Pommes Anna, Braised Salsify, and Pearl Onions",
+      "category": "mains",
+      "tags": [
+        "beef",
+        "filet",
+        "au gratin",
+        "mushrooms",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Tender filet of beef baked au gratin in a sauce of egg yolk-enriched cream and Parmesan with a medley of mushrooms. Served with Pommes Anna (dating back to Napoleon III) and braised salsify, a winter root with oyster-like flavor.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pommes-anna",
+      "title": "Truffle Pommes Anna",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "french",
+        "gratin",
+        "truffle",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "French gratin dish dating back to Napoleon III - thinly sliced potatoes arranged in circular layers and drizzled with truffle oil.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-braised-salsify-onions",
+      "title": "Braised Pearl Onions and Salsify",
+      "category": "sides",
+      "tags": [
+        "salsify",
+        "onions",
+        "braised",
+        "vegetable",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Braised salsify root (with its oyster-like flavor) and pearl onions in stock with herbs.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-rack-of-lamb",
+      "title": "Herb-Crusted Rack of Lamb, Warm Sundried Tomato Tapenade, Brussels Sprouts, Confit Potatoes",
+      "category": "mains",
+      "tags": [
+        "lamb",
+        "rack",
+        "herb-crusted",
+        "special occasion",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Lamb heavily seasoned with herbs and Parmesan makes a phenomenal presentation. Bring out your finest tableware, carve it up, and get ready to celebrate!",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-confit-potatoes",
+      "title": "Confit Potatoes",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "confit",
+        "duck fat",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Fingerling potatoes cooked slowly in oil or duck fat. Duck fat is generally available at butcher shops, or use the fat saved from cooking duck.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-roasted-brussels-sprouts",
+      "title": "Roasted Brussels Sprouts",
+      "category": "sides",
+      "tags": [
+        "brussels sprouts",
+        "roasted",
+        "vegetable",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Brussels sprouts roasted until crispy on the outside and tender on the inside - a vegetable everyone can love.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sundried-tomato-tapenade",
+      "title": "Sundried Tomato Kalamata Olive Tapenade",
+      "category": "sides",
+      "tags": [
+        "tapenade",
+        "sundried tomato",
+        "olive",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Warm tapenade of sundried tomatoes, Kalamata olives, and anchovies.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-duck-breast-five-spice",
+      "title": "Duck Breast with Five-Spice Braised Endive and Parsnip Puree",
+      "category": "mains",
+      "tags": [
+        "duck",
+        "french",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Duck and orange are well-suited partners. Here we cook the duck on the stovetop, bathed in orange-flavored cognac Grand Marnier, with earthy parsnip puree and five-spice braised endive.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-parsnip-puree",
+      "title": "Parsnip Puree",
+      "category": "sides",
+      "tags": [
+        "puree",
+        "parsnip",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Earthy, creamy mashed parsnips.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-braised-endive",
+      "title": "Five-Spice Braised Endive",
+      "category": "sides",
+      "tags": [
+        "endive",
+        "braised",
+        "five-spice",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Belgian endive braised with aromatic five-spice powder - a mix of star anise, cloves, Chinese cinnamon, Sichuan pepper, and fennel seeds.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-duck-polenta-grape",
+      "title": "Duck Breast with Polenta and Walnut-Grape Compote",
+      "category": "mains",
+      "tags": [
+        "duck",
+        "polenta",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Seared duck breast served over creamy polenta with a red wine walnut-grape compote.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-polenta-duck",
+      "title": "Creamy Polenta (for Duck)",
+      "category": "sides",
+      "tags": [
+        "polenta",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Creamy instant polenta with thyme and rosemary.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-walnut-grape-compote",
+      "title": "Walnut-Grape Compote",
+      "category": "sides",
+      "tags": [
+        "compote",
+        "grapes",
+        "walnuts",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Red wine compote with grapes and toasted walnuts.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-halibut-fennel-veloute",
+      "title": "Pan-Roasted Halibut, Fennel Puree and Potato Crisps, Fennel Velouté",
+      "category": "mains",
+      "tags": [
+        "halibut",
+        "fish",
+        "fennel",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Halibut with a triple hit of fennel - pureed, in a velouté, and as fronds for garnish. Served with crispy potato crisps.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-hells-kitchen-burger",
+      "title": "Hell's Kitchen Burger with Special Sauce and Oven Fries",
+      "category": "mains",
+      "tags": [
+        "burger",
+        "beef",
+        "comfort food",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "The ultimate comfort food elevated to Hell's Kitchen standards with a special sauce and crispy oven fries.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-special-sauce",
+      "title": "Special Sauce (for Hell's Kitchen Burger)",
+      "category": "sides",
+      "tags": [
+        "sauce",
+        "burger",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Special burger sauce with mayo, ketchup, and spices.",
+      "servings_yield": "about 1/2 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-truffle-mac-cheese",
+      "title": "Truffle Mac and Cheese",
+      "category": "sides",
+      "tags": [
+        "mac and cheese",
+        "pasta",
+        "truffle",
+        "comfort food",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Comfort food reaches new heights in this take on classic mac and cheese enriched with truffle oil. Uses cavatappi (corkscrew-shaped) pasta.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-drunken-apple-pie",
+      "title": "Drunken Apple Pie",
+      "category": "desserts",
+      "tags": [
+        "pie",
+        "apple",
+        "bourbon",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Old-fashioned apple pie spiced with cinnamon, nutmeg, and allspice, brightened with a swig of bourbon. A dessert designed for adults.",
+      "servings_yield": "8 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pie-pastry",
+      "title": "Pastry Dough (for Pie)",
+      "category": "desserts",
+      "tags": [
+        "pastry",
+        "pie crust",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Flaky butter pie crust.",
+      "servings_yield": "2 crusts (top and bottom)",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-chocolate-molten-cakes",
+      "title": "Chocolate Molten Cake with Malted Milk Ice Cream and Marcona Almond Brittle",
+      "category": "desserts",
+      "tags": [
+        "chocolate",
+        "molten",
+        "lava cake",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Chocolate molten cake, served piping hot and oozing with rich melted chocolate, is an ever-popular celebration food, a perennial choice for birthdays, anniversaries, and other milestones. Marcona almonds, native to Spain, are a rounded, more delicate, and upscale version of the nut and elevate the simple brittle that crowns the cakes.",
+      "servings_yield": "4 cakes",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-malted-milk-ice-cream",
+      "title": "Malted Milk Ice Cream",
+      "category": "desserts",
+      "tags": [
+        "ice cream",
+        "malted",
+        "frozen dessert",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Rich malted milk ice cream made with malt powder, perfect for serving with chocolate desserts.",
+      "servings_yield": "about 1 quart",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-marcona-almond-brittle",
+      "title": "Marcona Almond Brittle",
+      "category": "desserts",
+      "tags": [
+        "brittle",
+        "candy",
+        "almonds",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Simple nut brittle made with Marcona almonds. Marcona almonds, native to Spain, are rounded, more delicate, and an upscale version of the nut that elevates this simple brittle.",
+      "servings_yield": "about 1 lb",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caramel-filled-chocolate-molten-cakes",
+      "title": "Caramel-Filled Chocolate Molten Cakes",
+      "category": "desserts",
+      "tags": [
+        "chocolate",
+        "molten",
+        "caramel",
+        "lava cake",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Hot-from-the-oven molten chocolate cake envelops a core of melty caramel, bringing an already luxurious treat to a new level of decadence. A second and third shot of caramel - caramel ice cream, followed by a drizzle of additional caramel - finishes the dish. This flavorful caramel is based on real butter, cream, and sugar; the addition of corn syrup keeps the caramel soft. The caramel is formed into balls and frozen before adding to the batter so it melts slowly as it bakes into the cakes, revealing a sticky-sweet treat when you dig in.",
+      "servings_yield": "4 cakes",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caramel-filling",
+      "title": "Caramel Filling",
+      "category": "desserts",
+      "tags": [
+        "caramel",
+        "filling",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Soft caramel filling for chocolate molten cakes. Based on real butter, cream, and sugar, with corn syrup to keep the caramel soft. Formed into balls and frozen before inserting into cake batter.",
+      "servings_yield": "4 caramel balls",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-raspberry-cremeux-tart",
+      "title": "Raspberry Crémeux Tart with Sablé Breton Crust and Raspberry Sorbet",
+      "category": "desserts",
+      "tags": [
+        "tart",
+        "raspberry",
+        "french",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Crémeux (French for 'creamy') is a rich pudding made from chocolate or fruit. This raspberry version is enriched with egg yolks and butter, poured into a sablé Breton crust from Brittany, France.",
+      "servings_yield": "one 9-inch tart or five 4 1/2-inch mini-tarts",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-mixed-berry-parfait",
+      "title": "Mixed Berry Parfait with Pastry Cream and Shortbread Cookies",
+      "category": "desserts",
+      "tags": [
+        "parfait",
+        "berries",
+        "pastry cream",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "This dessert highlights four types of berries set against simple pastry cream and fancied up with champagne syrup. A great use for champagne that's lost its fizz.",
+      "servings_yield": "four 8-ounce parfaits",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pastry-cream",
+      "title": "Pastry Cream",
+      "category": "desserts",
+      "tags": [
+        "pastry cream",
+        "custard",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Classic crème pâtissière - a thick custard made with milk, sugar, and egg yolks.",
+      "servings_yield": "about 2 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-roasted-chicken-polenta",
+      "title": "Roasted Chicken Breast, Creamy Polenta, Sautéed Spinach and Chicken Jus",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "polenta",
+        "spinach",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Simple roasted chicken breast served over creamy polenta with sautéed spinach and a rich chicken jus.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-miso-glazed-salmon",
+      "title": "Miso-Glazed Salmon with Wasabi Mashed Potatoes and Bok Choy",
+      "category": "mains",
+      "tags": [
+        "salmon",
+        "miso",
+        "japanese",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Asian-inspired salmon with umami-rich miso glaze, served with wasabi-spiked mashed potatoes and tender bok choy.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sauteed-bok-choy",
+      "title": "Sautéed Bok Choy",
+      "category": "sides",
+      "tags": [
+        "bok choy",
+        "vegetable",
+        "asian",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Simple sautéed baby bok choy with garlic and ginger.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-ricotta-gnudi",
+      "title": "Ricotta Gnudi with Morels and Peas",
+      "category": "mains",
+      "tags": [
+        "gnudi",
+        "ricotta",
+        "dumplings",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Light-as-air Italian dumplings made from ricotta cheese, served with earthy morels, sweet peas, and sage brown butter.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-morels-peas",
+      "title": "Morels and Peas with Sage Brown Butter",
+      "category": "sides",
+      "tags": [
+        "morels",
+        "mushrooms",
+        "peas",
+        "sage",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Earthy morel mushrooms and sweet peas in sage-infused brown butter.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-linguine-tutto-mare",
+      "title": "Linguine Tutto Mare",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "seafood",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Classic Italian seafood pasta with shrimp, clams, mussels, and calamari in a white wine tomato broth.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-orecchiette-broccoli-sausage",
+      "title": "Orecchiette with Broccoli and Sausage",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "sausage",
+        "broccoli",
+        "italian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Ear-shaped pasta tossed with Italian sausage, broccoli, garlic, and Pecorino cheese.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-chipotle-shrimp",
+      "title": "Chipotle Shrimp with Roasted Corn Relish and Cilantro Rice",
+      "category": "mains",
+      "tags": [
+        "shrimp",
+        "chipotle",
+        "mexican",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Smoky chipotle-marinated shrimp served with fresh roasted corn relish and cilantro-lime rice.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-roasted-corn-relish",
+      "title": "Roasted Corn Relish",
+      "category": "sides",
+      "tags": [
+        "corn",
+        "relish",
+        "salsa",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Fresh roasted corn relish with jalapeño, cherry tomatoes, and lime.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-cilantro-rice",
+      "title": "Cilantro Rice",
+      "category": "sides",
+      "tags": [
+        "rice",
+        "cilantro",
+        "mexican",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Fluffy rice with fresh cilantro and serrano chili.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-creamed-spinach",
+      "title": "Creamed Spinach with Fried Egg",
+      "category": "sides",
+      "tags": [
+        "spinach",
+        "creamed",
+        "side dish",
+        "vegetarian",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Great creamed spinach starts with fresh, vibrant-looking greens—never canned—and cooked in just the water clinging to their leaves after washing. Fried eggs finish this Hell's Kitchen version.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-raspberry-fritters",
+      "title": "Raspberry Fritters",
+      "category": "desserts",
+      "tags": [
+        "fritters",
+        "raspberry",
+        "fried",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Light, crispy fritters filled with fresh raspberries and rolled in sugar. Simple and delicious.",
+      "servings_yield": "about 10 fritters",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-coconut-panna-cotta",
+      "title": "Coconut White Chocolate Panna Cotta with Champagne Syrup and Tropical Fruit",
+      "category": "desserts",
+      "tags": [
+        "panna cotta",
+        "coconut",
+        "white chocolate",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Silky coconut and white chocolate panna cotta served with ginger-champagne syrup and fresh tropical fruit.",
+      "servings_yield": "6 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pan-seared-sea-bass",
+      "title": "Pan-Seared Sea Bass, Potato-Leek Puree, Sautéed Haricots Verts, Caper-Red Onion-Tomato Relish",
+      "category": "mains",
+      "tags": [
+        "sea bass",
+        "fish",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Pan-seared sea bass served with silky potato-leek puree, French green beans, and a bright caper-red onion relish with Marcona almonds.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-potato-leek-puree",
+      "title": "Potato-Leek Puree",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "leeks",
+        "puree",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Silky smooth potato puree with leeks.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caper-tomato-relish",
+      "title": "Caper-Red Onion-Tomato Relish",
+      "category": "sides",
+      "tags": [
+        "relish",
+        "tomato",
+        "caper",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Bright relish with capers, red onion, tomatoes, and Marcona almonds.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-slow-roasted-pork-belly",
+      "title": "Slow-Roasted Pork Belly with Sushi Rice Cake and Long Beans",
+      "category": "mains",
+      "tags": [
+        "pork belly",
+        "asian",
+        "braised",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Meltingly tender pork belly with crispy skin, served with pan-fried sushi rice cakes and Asian long beans.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sushi-rice-cake",
+      "title": "Sushi Rice Cake",
+      "category": "sides",
+      "tags": [
+        "rice",
+        "sushi",
+        "asian",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Pan-fried cakes made from seasoned sushi rice.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-long-beans",
+      "title": "Stir-Fried Long Beans",
+      "category": "sides",
+      "tags": [
+        "long beans",
+        "vegetable",
+        "asian",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Asian long beans stir-fried with garlic, oyster sauce, and shiso.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pappardelle-wild-mushrooms",
+      "title": "Homemade Pappardelle with Wild Mushrooms, Poached Egg, and Shaved Black Truffles",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "pappardelle",
+        "mushrooms",
+        "truffle",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "If you want to make it onto Hell's Kitchen, you're going to have to learn to make pasta from scratch. Wide pappardelle noodles with earthy wild mushrooms, a runny poached egg, and luxurious shaved truffles.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-ny-strip-truffle-polenta",
+      "title": "NY Strip Steak with Truffle Polenta Fries, Sautéed Spinach, and Tomato Jam",
+      "category": "mains",
+      "tags": [
+        "steak",
+        "ny strip",
+        "polenta",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Prime NY strip steak paired with crispy truffle-infused polenta fries, sautéed spinach, and sweet-savory tomato jam.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-truffle-polenta-fries",
+      "title": "Truffle Polenta Fries",
+      "category": "sides",
+      "tags": [
+        "polenta",
+        "fries",
+        "truffle",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Crispy fried polenta sticks infused with truffle oil and Parmesan.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-tomato-jam",
+      "title": "Tomato Jam",
+      "category": "sides",
+      "tags": [
+        "jam",
+        "tomato",
+        "condiment",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Sweet and savory tomato jam to accompany steak.",
+      "servings_yield": "about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-dauphinoise-potatoes",
+      "title": "Dauphinoise Potatoes",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "gratin",
+        "french",
+        "side dish",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Thinly sliced potatoes bathed in cream, topped with cheese, and baked au gratin. Also known as scalloped potatoes, this dish comes from the Dauphiné region of France.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-vanilla-bean-cheesecake",
+      "title": "Vanilla Bean Cheesecake",
+      "category": "desserts",
+      "tags": [
+        "cheesecake",
+        "vanilla",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Classic New York-style cheesecake based in cream cheese, flavored only with vanilla and set into a simple crisp graham cracker crust. Baked in a water bath (bain-marie) until just set with a bit of wiggle.",
+      "servings_yield": "8 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-cinnamon-ice-cream-walnut-sable",
+      "title": "Cinnamon Ice Cream, Caramelized Apples, and Walnut Sablé",
+      "category": "desserts",
+      "tags": [
+        "ice cream",
+        "cinnamon",
+        "apple",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Cinnamon, apples, and walnuts are natural partners. This dessert offers a play on the apple crumble effect: apples are caramelized, topped with cinnamon-infused ice cream, and finished with a buttery, crumbly walnut sablé.",
+      "servings_yield": "5 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-walnut-sable-cookies",
+      "title": "Walnut Sablé Cookies",
+      "category": "desserts",
+      "tags": [
+        "cookies",
+        "sablé",
+        "walnut",
+        "french",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "French shortbread-style cookies with toasted walnuts.",
+      "servings_yield": "about 12 cookies",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-passion-fruit-tart",
+      "title": "Passion Fruit Tart with Buttermilk Sherbet",
+      "category": "desserts",
+      "tags": [
+        "tart",
+        "passion fruit",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Most of us are familiar with lemon curd; passion fruit curd, the base of this tart, is something a little different but shares lemon's sweet-tart taste profile. Passion fruit is a tropical fruit that's colored yellow to dark purple depending on its stage of ripeness; its unassuming exterior reveals impressive sacs of edible dark-colored seeds encased in a yellow-orange pulpy juice. The curd from the fruit is set into a sweet pastry base and the tart is topped with a scoop of tangy-sweet and refreshing buttermilk sherbet.",
+      "servings_yield": "one 9-inch tart or five 4 1/2-inch mini-tarts",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-buttermilk-sherbet",
+      "title": "Buttermilk Sherbet",
+      "category": "desserts",
+      "tags": [
+        "sherbet",
+        "buttermilk",
+        "frozen",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Tangy-sweet and refreshing buttermilk sherbet, perfect for serving with fruit tarts.",
+      "servings_yield": "about 1 quart",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-passion-fruit-curd",
+      "title": "Passion Fruit Curd",
+      "category": "desserts",
+      "tags": [
+        "curd",
+        "passion fruit",
+        "filling",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Silky passion fruit curd for tarts and desserts. Similar to lemon curd but with the distinctive sweet-tart tropical flavor of passion fruit.",
+      "servings_yield": "about 2 cups",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sweet-tart-dough",
+      "title": "Sweet Tart Dough",
+      "category": "desserts",
+      "tags": [
+        "pastry",
+        "tart dough",
+        "crust",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Sweet tart dough enriched with sugar for dessert tarts. Makes one 9-inch tart or five 4 1/2-inch mini-tarts.",
+      "servings_yield": "one 9-inch tart or five 4 1/2-inch mini-tarts",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-chocolate-caramel-tart",
+      "title": "Chocolate Caramel Tart with Caramelized Banana Ice Cream",
+      "category": "desserts",
+      "tags": [
+        "tart",
+        "chocolate",
+        "caramel",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Chocolate, caramel, and banana are a divinely sweet match. The crust is no more than graham cracker crumbs bound together with butter, the caramel and chocolate aren't difficult to master. Store-bought banana ice cream works too.",
+      "servings_yield": "one 9-inch tart",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-pineapple-tarte-tatin",
+      "title": "Pineapple Tarte Tatin",
+      "category": "desserts",
+      "tags": [
+        "tarte tatin",
+        "pineapple",
+        "french",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "The classic French upside-down tart made with caramelized pineapple instead of apples. Serve immediately while warm.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-lemon-creme-brulee",
+      "title": "Lemon Crème Brûlée",
+      "category": "desserts",
+      "tags": [
+        "crème brûlée",
+        "lemon",
+        "custard",
+        "dessert",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Classic crème brûlée with a bright lemon twist. The same setup as for cheesecake - baked in a water bath (bain-marie) until just set with a wobble.",
+      "servings_yield": "6 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-white-pepper-ice-cream",
+      "title": "White Pepper Ice Cream",
+      "category": "desserts",
+      "tags": [
+        "ice cream",
+        "white pepper",
+        "frozen",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Unexpectedly delicious ice cream with a subtle kick of white pepper.",
+      "servings_yield": "about 1 quart",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-grilled-salmon-lobster-ragout",
+      "title": "Grilled Salmon on Lobster-White Bean Ragù",
+      "category": "mains",
+      "tags": [
+        "salmon",
+        "lobster",
+        "white beans",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Grilled salmon served over a luxurious lobster and white bean ragù with cream sherry and tarragon.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-chicken-mole",
+      "title": "Chicken Mole with Black Beans and Rice and Corn-Avocado Salsa",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "mole",
+        "mexican",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Roasted chicken breast in rich, complex Mexican mole sauce with black beans, rice, and fresh corn-avocado salsa.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-black-beans-rice",
+      "title": "Black Beans and Rice",
+      "category": "sides",
+      "tags": [
+        "black beans",
+        "rice",
+        "mexican",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Cumin-spiced black beans and rice.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-corn-avocado-salsa",
+      "title": "Corn-Avocado Salsa",
+      "category": "sides",
+      "tags": [
+        "salsa",
+        "corn",
+        "avocado",
+        "mexican",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Fresh salsa with corn, avocado, and cilantro.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-tagliatelle-poached-eggs",
+      "title": "Tagliatelle with Poached Eggs, Pancetta, and Parmesan",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "tagliatelle",
+        "carbonara",
+        "eggs",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A carbonara-style pasta with silky egg-enriched sauce, crispy pancetta, sweet peas, and a poached egg on top.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-veal-cheeks",
+      "title": "Slow-Braised Veal Cheeks with Garlic Confit and Smashed Red Bliss Potatoes",
+      "category": "mains",
+      "tags": [
+        "veal",
+        "braised",
+        "comfort food",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Meltingly tender veal cheeks braised low and slow, served with garlic confit and creamy smashed potatoes with crème fraîche.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-garlic-confit",
+      "title": "Garlic Confit",
+      "category": "sides",
+      "tags": [
+        "garlic",
+        "confit",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Whole garlic cloves slowly poached in oil until meltingly tender.",
+      "servings_yield": "1 head",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-smashed-potatoes",
+      "title": "Smashed Red Bliss Potatoes with Crème Fraîche",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "smashed",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Rustic smashed potatoes enriched with crème fraîche and chicken stock.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-halibut-en-papillote",
+      "title": "Halibut en Papillote with Purple Jasmine Rice and Island Salsa",
+      "category": "mains",
+      "tags": [
+        "halibut",
+        "fish",
+        "en papillote",
+        "seafood",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Halibut steamed in parchment paper packets with aromatic vegetables, served with purple jasmine rice and tropical island salsa.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-purple-jasmine-rice",
+      "title": "Purple Jasmine Rice",
+      "category": "sides",
+      "tags": [
+        "rice",
+        "jasmine",
+        "purple",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Fragrant jasmine rice with a beautiful purple hue.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-island-salsa",
+      "title": "Island Salsa",
+      "category": "sides",
+      "tags": [
+        "salsa",
+        "tropical",
+        "mango",
+        "pineapple",
+        "component",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Tropical fruit salsa with mango, pineapple, and red onion.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-bourbon-glazed-pork",
+      "title": "Bourbon-Glazed Pork Tenderloin with Yam and Potato Gratin and Collard Greens",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "tenderloin",
+        "bourbon",
+        "southern",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Pork tenderloin with a sweet bourbon glaze, served Southern-style with yam and potato gratin and braised collard greens.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-grilled-lamb-chops-linguine",
+      "title": "Grilled Lamb Chops with Sautéed Linguine and Tomato Broth",
+      "category": "mains",
+      "tags": "",
+      "collection": "all",
+      "description": "Frenched lamb chops with rosemary and garlic served over Mediterranean vegetables and linguine with tomato broth.",
+      "servings_yield": "Serves 4",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-roasted-chicken-kabocha-squash",
+      "title": "Roasted Chicken Breasts and Kabocha Squash with Maple Jus",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "poultry",
+        "squash",
+        "roasted",
+        "fall",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Classic roasted chicken with cumin-roasted kabocha squash and a rich maple jus. Kabocha squash beats butternut hands down in sweetness, moistness, and meatiness.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour 5 minutes"
+    },
+    {
+      "id": "gordon-ramsay-veal-roulade-caramelized-onions",
+      "title": "Roulade of Veal on Caramelized Onions",
+      "category": "mains",
+      "tags": [
+        "veal",
+        "roulade",
+        "italian",
+        "prosciutto",
+        "elegant",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Elegant veal scallopini rolled with prosciutto, mozzarella, and a Parmesan breadcrumb mixture, served on caramelized onions with a rich demi-glace cream sauce.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour 10 minutes"
+    },
+    {
+      "id": "gordon-ramsay-lemon-tagliatelle-pine-nuts-arugula",
+      "title": "Lemon Tagliatelle with Toasted Pine Nuts and Arugula",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "lemon",
+        "arugula",
+        "quick",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "A special vegetarian pasta dish with ribbony tagliatelle, lemon, basil, cheese, buttery pine nuts, and peppery arugula cooked right into the pasta.",
+      "servings_yield": "4 servings",
+      "total_time": "25 minutes"
+    },
+    {
+      "id": "gordon-ramsay-duck-breast-walnut-grape-compote",
+      "title": "Duck Breast with Walnut-Grape Compote",
+      "category": "mains",
+      "tags": [
+        "duck",
+        "poultry",
+        "polenta",
+        "grapes",
+        "walnuts",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Perfectly cooked duck breast served with a herby walnut-grape compote and creamy polenta. The duck must be cooked to a perfect rare to medium rare to truly shine.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour"
+    },
+    {
+      "id": "gordon-ramsay-herb-oil-poached-halibut",
+      "title": "Herb Oil-Poached Halibut with Potato-Fennel Puree, Roasted Tomatoes, and Lemon-Fennel Sauce",
+      "category": "mains",
+      "tags": [
+        "halibut",
+        "seafood",
+        "fish",
+        "fennel",
+        "potatoes",
+        "poached",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Poaching fish in oil ensures the most tender results, with the herbs infusing their flavor as it cooks. Fennel is a classic flavoring for fish, featured here in both a fennel-infused potato puree and a lemon-fennel sauce spiked with Pernod.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour 15 minutes"
+    },
+    {
+      "id": "gordon-ramsay-john-dory-new-potatoes-carrot-puree",
+      "title": "John Dory with New Potatoes, Carrot Puree, Artichokes, and Fennel Velouté",
+      "category": "mains",
+      "tags": [
+        "fish",
+        "seafood",
+        "john-dory",
+        "tilapia",
+        "carrots",
+        "potatoes",
+        "artichokes",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "John Dory is a firm, flaky, white-fleshed fish prized for its mild, sweet flavor. Paired with new potatoes, a sweet carrot puree, artichokes, and a velvety fennel velouté. Season 7 contestant Holli Ugalde worked her John Dory to perfection in a top-four dinner service competition, ultimately becoming the winner of the show.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour 10 minutes"
+    },
+    {
+      "id": "gordon-ramsay-miso-sake-chilean-sea-bass",
+      "title": "Miso-Sake Marinated Chilean Sea Bass with Seaweed Soba Salad",
+      "category": "mains",
+      "tags": [
+        "fish",
+        "seafood",
+        "sea-bass",
+        "asian",
+        "japanese",
+        "miso",
+        "soba",
+        "noodles",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Miso, mirin, and sake make a classic Asian marinade for bass, the medley of flavors blanketing and penetrating the flesh for a roasted fish dish that's sweet, tender, and simple enough that you'll likely find yourself adding this one both to your dinner rotation and special-occasion celebrations.",
+      "servings_yield": "4 servings",
+      "total_time": "50 minutes (plus 20 minutes marinating)"
+    },
+    {
+      "id": "gordon-ramsay-grilled-pork-chop-spinach-polenta",
+      "title": "Grilled Pork Chop with Spinach Polenta and Shaved Baby Artichoke Slaw",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "grilled",
+        "polenta",
+        "artichokes",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Brined pork chops grilled to perfection, served with creamy spinach polenta and a fresh shaved baby artichoke slaw dressed with lemon and Parmesan.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour 35 minutes"
+    },
+    {
+      "id": "gordon-ramsay-homemade-pappardelle-wild-mushrooms",
+      "title": "Homemade Pappardelle with Wild Mushrooms, Poached Egg, and Shaved Black Truffles",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "homemade-pasta",
+        "mushrooms",
+        "eggs",
+        "truffle",
+        "vegetarian",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Fresh homemade pappardelle pasta tossed with a rich wild mushroom sauce, topped with a perfectly poached egg and optional shaved black truffles.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour 30 minutes"
+    },
+    {
+      "id": "gordon-ramsay-mustard-rubbed-veal-loin",
+      "title": "Mustard-Rubbed Veal Loin with Butternut Squash Puree, Sautéed Baby Brussels Sprouts, and Grape Sauce",
+      "category": "mains",
+      "tags": [
+        "veal",
+        "roast",
+        "squash",
+        "brussels-sprouts",
+        "fall",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Tender veal loin roast rubbed with a Dijon mustard and sage mixture, served with silky butternut squash puree, sautéed Brussels sprouts, and an elegant grape sauce.",
+      "servings_yield": "6 servings",
+      "total_time": "2 hours"
+    },
+    {
+      "id": "gordon-ramsay-pepper-crusted-steak",
+      "title": "Pepper-Crusted Steak with Mushroom-Brandy Cream Sauce, Roasted Asparagus, and Sautéed Potatoes",
+      "category": "mains",
+      "tags": [
+        "steak",
+        "filet-mignon",
+        "beef",
+        "mushrooms",
+        "cream-sauce",
+        "potatoes",
+        "asparagus",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Perfectly seared filet mignon with a peppercorn crust, served with a rich mushroom-brandy cream sauce, roasted asparagus, and crispy sautéed potatoes.",
+      "servings_yield": "4 servings",
+      "total_time": "55 minutes"
+    },
+    {
+      "id": "gordon-ramsay-elsies-turkey-tacos",
+      "title": "Elsie's Turkey Tacos",
+      "category": "mains",
+      "tags": [
+        "mains",
+        "tacos",
+        "turkey",
+        "Mexican",
+        "quick",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Season 1 contestant Elsie Ramos's turkey tacos featuring a homemade sazon seasoning mix, perfect for busy weeknight meals.",
+      "servings_yield": "Serves 4",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sazon-seasoning",
+      "title": "Sazon Seasoning",
+      "category": "sides",
+      "tags": [
+        "seasoning",
+        "spice mix",
+        "Latin",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Homemade Latin seasoning mix featuring coriander, cumin, turmeric, and garlic powder.",
+      "servings_yield": "Makes 6 tablespoons",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-beef-burger-bacon-jam",
+      "title": "Eight-Ounce Beef Burger with Caramelized Onion and Bacon Jam, Sharp Cheddar, and Special Sauce on a Brioche Bun with Sweet Potato Fries",
+      "category": "mains",
+      "tags": [
+        "mains",
+        "burger",
+        "beef",
+        "bacon",
+        "fries",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A chef-quality burger featuring freshly ground beef with caramelized onion and bacon jam, sharp aged cheddar, special sauce, and crispy sweet potato fries.",
+      "servings_yield": "Serves 4",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caramelized-onion-bacon-jam",
+      "title": "Caramelized Onion and Bacon Jam",
+      "category": "sides",
+      "tags": [
+        "condiment",
+        "bacon",
+        "jam",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A sweet and savory jam made with bacon, Spanish onion, brown sugar, and balsamic vinegar.",
+      "servings_yield": "Makes 3/4 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-sweet-potato-fries-burger",
+      "title": "Sweet Potato Fries",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "fries",
+        "sweet potato",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Crispy baked sweet potato fries seasoned with paprika and cayenne.",
+      "servings_yield": "Serves 4",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-white-wine-braised-short-ribs",
+      "title": "White-Wine-Braised Short Ribs",
+      "category": "mains",
+      "tags": [
+        "mains",
+        "beef",
+        "short ribs",
+        "braised",
+        "comfort food",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Restaurant-quality short ribs braised low and slow in white wine until falling-off-the-bone tender, served with a pureed vegetable sauce.",
+      "servings_yield": "Serves 4",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-branzino-roasted-fennel",
+      "title": "Branzino, Roasted Fennel, Caramelized Lemon, Olives",
+      "category": "mains",
+      "tags": [
+        "mains",
+        "fish",
+        "branzino",
+        "Mediterranean",
+        "fennel",
+        "lemon",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Pan-seared Mediterranean sea bass with roasted fennel, caramelized lemons, and a pan sauce with capers, tomatoes, and olives.",
+      "servings_yield": "Serves 4",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-roasted-fennel-branzino",
+      "title": "Roasted Fennel",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "fennel",
+        "roasted",
+        "vegetable",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Fennel wedges roasted with balsamic vinegar and Parmesan cheese until caramelized.",
+      "servings_yield": "Serves 4",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-caramelized-lemons-branzino",
+      "title": "Caramelized Lemons",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "lemon",
+        "garnish",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Lemon rounds caramelized in butter and sugar for a sweet-tart garnish.",
+      "servings_yield": "Serves 4",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-bananas-foster",
+      "title": "Bananas Foster",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "bananas",
+        "flambe",
+        "rum",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A classic restaurant dessert with bananas cooked in cinnamon-spiced, brown-sugar-sweetened cream, then flambeed with rum for drama and depth of flavor.",
+      "servings_yield": "Serves 6",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-coconut-layer-cake",
+      "title": "Coconut Layer Cake",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "cake",
+        "coconut",
+        "layer cake",
+        "Southern",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A classic Southern coconut cake with fantastically moist layers sandwiched with snow-white frosting and anointed with sweetened flaked coconut.",
+      "servings_yield": "Serves 8",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-red-velvet-cake",
+      "title": "Red Velvet Cake with Mascarpone Frosting",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "cake",
+        "red velvet",
+        "mascarpone",
+        "Southern",
+        "berries",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A Southern-style red velvet cake with chocolate flavor, topped with fresh Italian mascarpone frosting and fresh berries for a fruity finish.",
+      "servings_yield": "Serves 8-10",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-fig-bread-pudding",
+      "title": "Fig Bread Pudding with White Pepper Ice Cream",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "bread pudding",
+        "figs",
+        "ice cream",
+        "white pepper",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A classic bread pudding with a figgy twist, served with white pepper ice cream that inserts a note of heat to a sweet ice cream custard base.",
+      "servings_yield": "Makes an 8 x 8-inch bread pudding",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-fig-jam",
+      "title": "Fig Jam",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "jam",
+        "figs",
+        "condiment",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A simple fig jam simmered with lemon juice and sugar, perfect for bread pudding or toast.",
+      "servings_yield": "Makes about 1 cup",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-delicata-squash-sage",
+      "title": "Delicata Squash with Sage",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "vegetable",
+        "squash",
+        "roasted",
+        "fall",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Roasted delicata squash with fragrant fresh sage. Delicata squash is a small, oval-shaped winter variety with cream-to-yellow-colored skin and green stripes. Its compact size makes it easy to cut, clean, and cook, and when roasted, its thin, delicate skin becomes tender enough to eat.",
+      "servings_yield": "4 servings",
+      "total_time": "35 minutes"
+    },
+    {
+      "id": "gordon-ramsay-tempura-broccolini-lemon-aioli",
+      "title": "Tempura Broccolini with Lemon Aioli",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "vegetable",
+        "broccolini",
+        "tempura",
+        "fried",
+        "aioli",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Light and crispy tempura-battered broccolini served with a rich, creamy lemon aioli dipping sauce. The key to perfectly cooked tempura is maintaining the frying oil at a consistent temperature between batches; including seltzer rather than water in your batter ensures a crisp and light tempura.",
+      "servings_yield": "4 servings",
+      "total_time": "30 minutes"
+    },
+    {
+      "id": "gordon-ramsay-cauliflower-stuffed-naan",
+      "title": "Cauliflower-Stuffed Naan with Cilantro Chutney",
+      "category": "sides",
+      "tags": [
+        "bread",
+        "indian",
+        "vegetarian",
+        "sides",
+        "cauliflower",
+        "naan",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Indian flatbread stuffed with spiced cauliflower filling and served with a bright, herbaceous cilantro chutney. A substantial side that can be made entirely on the stovetop.",
+      "servings_yield": "Serves 4-6",
+      "total_time": "1 hour 30 minutes (including 90 minutes rising time)"
+    },
+    {
+      "id": "gordon-ramsay-creamed-corn",
+      "title": "Creamed Corn",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "corn",
+        "cream",
+        "comfort-food",
+        "southern",
+        "vegetarian",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "A Southern and Midwest classic comfort food. Fresh corn is partially pureed with cream for a silky texture, then combined with whole kernels for texture.",
+      "servings_yield": "Serves 4",
+      "total_time": "50 minutes"
+    },
+    {
+      "id": "gordon-ramsay-crispy-zucchini-fries",
+      "title": "Crispy Zucchini Fries",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "zucchini",
+        "vegetarian",
+        "baked",
+        "healthy",
+        "appetizers",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Baked zucchini sticks coated in panko breadcrumbs that are crisp on the outside, tender and juicy on the inside. A lighter alternative to potato fries.",
+      "servings_yield": "Serves 4",
+      "total_time": "35 minutes"
+    },
+    {
+      "id": "gordon-ramsay-potato-leek-gratin",
+      "title": "Potato Leek Gratin",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "potatoes",
+        "gratin",
+        "leeks",
+        "cheese",
+        "comfort-food",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "A variation on the classic Dauphinoise potatoes, flavored with mildly oniony leeks, Asiago cheese, and a crispy Parmesan breadcrumb topping.",
+      "servings_yield": "Serves 4",
+      "total_time": "1 hour 30 minutes (including resting time)"
+    },
+    {
+      "id": "gordon-ramsay-ginger-caramelized-carrots",
+      "title": "Ginger Caramelized Carrots",
+      "category": "sides",
+      "tags": [
+        "sides",
+        "carrots",
+        "roasted",
+        "vegetarian",
+        "ginger",
+        "honey",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Roasted carrots with a sweet bite from crystallized ginger, caramelized with honey, and finished with fresh lemon juice and mint.",
+      "servings_yield": "Serves 4",
+      "total_time": "40 minutes"
+    },
+    {
+      "id": "gordon-ramsay-berry-pudding-panna-cotta",
+      "title": "Berry Pudding Panna Cotta",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "panna-cotta",
+        "berries",
+        "raspberry",
+        "make-ahead",
+        "elegant",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "An innovative take on the classic cooked-cream dessert, this panna cotta is enriched with creme fraiche and poured over cubes of cake and berry compote to set into three distinct layers. The raspberry granita makes for a cooling, sweet, and tangy finish.",
+      "servings_yield": "Makes six 4-ounce berry puddings",
+      "total_time": "6+ hours (including chilling)"
+    },
+    {
+      "id": "gordon-ramsay-chocolate-empanadas",
+      "title": "Chocolate Empanadas with Macerated Strawberries",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "chocolate",
+        "fried",
+        "strawberries",
+        "mexican-inspired",
+        "empanadas",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "The Latin American pastry pocket known as the empanada gets a sweet twist. These empanadas are filled with Kahlua-spiked chocolate ganache and topped with strawberries made tipsy with tequila, for a unique dessert that brings chocolate and berries together.",
+      "servings_yield": "Makes 10 empanadas",
+      "total_time": "1+ hours (including chilling)"
+    },
+    {
+      "id": "gordon-ramsay-chocolate-molten-cake",
+      "title": "Chocolate Molten Cake with Malted Milk Ice Cream and Marcona Almond Brittle",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "chocolate",
+        "molten-cake",
+        "lava-cake",
+        "ice-cream",
+        "brittle",
+        "celebration",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Chocolate molten cake, served piping hot and oozing with rich melted chocolate, is an ever-popular celebration food - a perennial choice for birthdays, anniversaries, and other milestones. Marcona almonds, native to Spain, are a rounded, more delicate, and upscale version of the nut and elevate the simple brittle that crowns the cakes.",
+      "servings_yield": "Makes four 7-ounce cakes",
+      "total_time": "Several hours (including ice cream churning)"
+    },
+    {
+      "id": "gordon-ramsay-blueberry-tart-white-chocolate-ganache",
+      "title": "Blueberry Tart with White Chocolate Ganache",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "tart",
+        "blueberry",
+        "white-chocolate",
+        "ganache",
+        "pastry-cream",
+        "Gordon Ramsay",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A beautiful blueberry tart consisting of a sweet-tart crust topped with a lightly spiced pastry cream, all covered with sweet white chocolate ganache that sets a layer of fresh blueberries in place on top.",
+      "servings_yield": "one 9-inch tart or five 4½-inch mini-tarts",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-honey-grilled-shrimp",
+      "title": "Honey-Grilled Shrimp with Roasted Corn Relish, Cilantro Rice, and Spicy Creme Fraiche",
+      "category": "mains",
+      "tags": [
+        "mains",
+        "seafood",
+        "shrimp",
+        "grilled",
+        "mexican",
+        "rice",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Shrimp and rice can be a simple dish, or you can pull out the stops, as we do here in typical Hell's Kitchen fashion. The shrimp, at once sweet, spicy, tangy, and garlicky, sits atop flavorful green rice, with sweet roasted corn relish the final flavoring element. A dollop of spicy creme fraiche, at once hot and cooling, completes the picture.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-crispy-pork-belly",
+      "title": "Crispy Pork Belly, Sushi Rice Cake, and Long Beans with Shiso and Kimchi",
+      "category": "mains",
+      "tags": [
+        "mains",
+        "pork",
+        "asian",
+        "korean",
+        "pork-belly",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "If you like bacon, you're going to love pork belly. Both cuts come from the fatty underbelly of the pig - bacon is cured, pork belly is not. Pork belly's uncured status allows for a wide range of cooking preparations - it can be cut into chunks, braised, fried, spiced, shredded, and stuffed into buns or tacos. Pig heaven! Pork belly is popular in Asian cuisine, particularly Korean, and it's a natural partner to the pungent, spicy fermented cabbage dish kimchi.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-roasted-pork-tenderloin",
+      "title": "Roasted Pork Tenderloin, Collard Greens with Smoked Bacon with Yam and Potato Gratin",
+      "category": "mains",
+      "tags": [
+        "mains",
+        "pork",
+        "southern",
+        "gratin",
+        "collard-greens",
+        "bacon",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Pork tenderloin is lean, tender, and a delicacy; this cut is also known as pork fillet. Individual tenderloins are small, so they generally are sold two to a package. If you find a silver skin on your tenderloin, trim it off. Though it's a fancy cut, the tenderloin is one of the easiest parts of the pig to cook; it roasts quickly, but take the greatest caution to avoid overcooking it, as it can go from tender to tough and dry in a matter of minutes. The tenderloin is marinated to further ensure a juicy outcome, so you'll need to plan at least eight hours ahead to ready the meat.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-carbonara",
+      "title": "Carbonara",
+      "category": "mains",
+      "tags": [
+        "mains",
+        "pasta",
+        "italian",
+        "pork",
+        "eggs",
+        "quick",
+        "weeknight",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Carbonara is a simple Italian pasta dish comprised of spaghetti, pork, cheese, and eggs. A true carbonara contains no cream and relies on eggs for its velvety texture (though many restaurant carbonaras will cheat and add cream). It's a hearty dish and a go-to weeknight meal, as many of the ingredients can already be found in a well-stocked pantry. And if you keep frozen peas and pancetta on hand, you're minutes away from carbonara making at any given moment.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-lemon-meringue-tart",
+      "title": "Lemon Meringue Tart",
+      "category": "desserts",
+      "tags": [
+        "desserts",
+        "tart",
+        "lemon",
+        "meringue",
+        "baking",
+        "gordon-ramsay",
+        "hells-kitchen"
+      ],
+      "collection": "all",
+      "description": "Based on lemon curd, an intensely lemony English dessert topping that uses both the juice and zest of the fruit, this classic tart is a rich yet light palate cleanser, perfect after a heavy meal. The curd is set into a base of sweet pastry and topped with a delicate, fluffy meringue topping. For a final hit of lemon, the tart is topped with a scoop of lemon sorbet. If Meyer lemons are available, you might want to try them out in your curd; this cross between a lemon and mandarin is sweeter and less acidic than a standard lemon, and its delicate floral aroma makes it a fruit worth seeking out when in season.",
+      "servings_yield": "One 9-inch tart or five 4 1/2-inch mini-tarts",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-kitchen-techniques",
+      "title": "Gordon Ramsay's Kitchen Techniques & Tips",
+      "category": "basics",
+      "tags": "",
+      "collection": "all",
+      "description": "Essential kitchen techniques, knife cuts, and chef tips from Gordon Ramsay.",
+      "servings_yield": "",
+      "total_time": ""
+    },
+    {
+      "id": "big-back-sauce",
+      "title": "Big Back Sauce",
+      "category": "sides",
+      "tags": [
+        "sauce",
+        "condiment",
+        "butter",
+        "bacon",
+        "ranch",
+        "steak",
+        "versatile"
+      ],
+      "collection": "all",
+      "description": "A versatile compound sauce combining elements of Cowboy Butter, Marry Me Steak Sauce, and Ranch. Perfect for steak, burgers, chicken wings, and more.",
+      "servings_yield": "About 1.5 cups",
+      "total_time": "10 min"
+    },
+    {
+      "id": "garlic-butter-pasta-vegan",
+      "title": "Garlic Butter Pasta",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "vegan",
+        "italian",
+        "garlic",
+        "weeknight",
+        "comfort food",
+        "tomato",
+        "basil"
+      ],
+      "collection": "all",
+      "description": "The ultimate cozy, flavor-packed vegan dinner made with creamy tomato-basil garlic butter. The rich roasted garlic melts into the spaghetti, creating a luscious sauce that's perfect for a weeknight meal or a comforting weekend indulgence.",
+      "servings_yield": "4 servings",
+      "total_time": "45 min"
+    },
+    {
+      "id": "creamy-asparagus-risotto-lemon-mascarpone",
+      "title": "Creamy Asparagus Risotto with Lemon and Mascarpone",
+      "category": "mains",
+      "tags": [
+        "risotto",
+        "asparagus",
+        "vegetarian",
+        "Italian",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "A green-hued arborio rice dish that often catches the camera as it's served as an app to Hell's Kitchen diners. Kevin Cottle mastered this in Season 6's final four competition.",
+      "servings_yield": "4 servings",
+      "total_time": "35 minutes"
+    },
+    {
+      "id": "eggplant-involtini-spicy-red-pepper-emulsion",
+      "title": "Eggplant Involtini with Spicy Red Pepper Emulsion",
+      "category": "mains",
+      "tags": [
+        "vegetarian",
+        "Italian",
+        "eggplant",
+        "cheese",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Involtini for vegetarians - eggplant's meaty texture makes it sturdy enough to stand up to the stuffing and rolling. A red pepper emulsion stands in for the tomato sauce that eggplant involtini is typically baked in.",
+      "servings_yield": "4 servings",
+      "total_time": "1 hour"
+    },
+    {
+      "id": "gordon-ramsay-grilled-asparagus-salad-fried-egg",
+      "title": "Grilled Jumbo Asparagus Salad with Fried Egg and Bacon-Shallot Vinaigrette",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "asparagus",
+        "bacon",
+        "eggs",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Bacon makes it into just about everything these days, from cookies to ice cream, so why not add its salty, smoky umami essence to salad dressing? The dressing is happily drizzled over thick asparagus spears and topped with bacon's trusted sidekick, the fried egg.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-baby-gem-salad-blue-cheese",
+      "title": "Salad of Baby Gem Hearts, Toasted Walnuts, and Red Grapes with Blue Cheese Dressing",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "blue cheese",
+        "walnuts",
+        "truffle",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Baby gem lettuce is similar in appearance to romaine but thinner and smaller, with a compact but loose head. It can be found in both green and red varieties. If unavailable, you may substitute small heads of crisp romaine lettuce or romaine hearts. Baby gems hold up to a creamy dressing, and this one is the very definition of creamy—blue cheese, mayonnaise, and half-and-half, enriched with rich truffle for umami flavor.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-scallops-truffle-vinaigrette",
+      "title": "Salad of Scallops with Truffle Vinaigrette",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "scallops",
+        "seafood",
+        "truffle",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Can you cook scallops to Hell's Kitchen's stringent standards? Without the distraction of the cameras and lights, cooking this shellfish at home is really quite easy. The key is to have all your ingredients at the ready, because once things hit the pan it all moves very fast. Season 7's Jay Santos did the show proud with his take on this Hell's Kitchen classic in that season's finale.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-foie-gras-brioche-french-toast",
+      "title": "Seared Foie Gras on Brioche French Toast with Caramelized Apples and Figs",
+      "category": "appetizers",
+      "tags": [
+        "foie gras",
+        "French",
+        "appetizer",
+        "elegant",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Foie gras, made from duck or goose liver, is a French delicacy and the ultimate in opulence. The name translates to 'fat liver,' and it is incredibly rich. It's often made into pate, but here we serve it in slices set atop the best French toast you'll ever eat, with caramelized apples and figs to further gild the lily. Holli Ugalde served a version of this dish as starter to her Season 7 competition-winning dinner.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-seared-ahi-tuna-haricots-verts",
+      "title": "Seared Ahi Tuna Loin with Haricots Verts, Hard-Boiled Quail Eggs, and Black Olive Dressing",
+      "category": "mains",
+      "tags": [
+        "tuna",
+        "seafood",
+        "seared",
+        "elegant",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Ahi tuna, also known as yellowfin tuna, is mild in flavor and firm in texture. It's a standard sushi-menu offering, and it is often served lightly cooked as well. Here it's bathed in an herb, soy, and vinegar marinade before it hits the pan to give it a very brief sear. Quail eggs are miniature brown-and-black-spotted eggs; they are a bit richer in taste than chicken eggs and cook more quickly. Haricots verts are a longer, thinner, and more tender version of green beans.",
+      "servings_yield": "4 servings",
+      "total_time": ""
+    },
+    {
+      "id": "gordon-ramsay-shallot-onion-tarte-tatin",
+      "title": "Shallot and Caramelized Onion Tarte Tatin",
+      "category": "appetizers",
+      "tags": [
+        "tart",
+        "French",
+        "vegetarian",
+        "shallots",
+        "Hell's Kitchen"
+      ],
+      "collection": "all",
+      "description": "Tarte Tatin, an upside-down tart that's inverted when served, is most famously made with apples. It also takes to savory preparations, like this version made with caramelized onions and shallots. Using store-bought puff pastry makes this recipe a cinch, easier than rolling out pastry for a standard right-side-up tart. Choose a puff pastry made with butter rather than vegetable oil for the most flavorful and flaky tarte Tatin.",
+      "servings_yield": "6 servings",
+      "total_time": ""
+    },
+    {
+      "id": "spicy-heavy-cream-eggs",
+      "title": "Spicy Heavy Cream Eggs",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "spicy",
+        "quick",
+        "heavy cream"
+      ],
+      "collection": "all",
+      "description": "Eggs fried in caramelized heavy cream with salsa macha, creating a creamy sauce similar to browned butter.",
+      "servings_yield": "2 servings",
+      "total_time": "5 min"
+    },
+    {
+      "id": "tomato-pesto-eggs",
+      "title": "Tomato Pesto Eggs",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "Italian",
+        "pesto",
+        "heavy cream",
+        "sun-dried tomatoes"
+      ],
+      "collection": "all",
+      "description": "Eggs cooked in caramelized heavy cream with homemade pesto rosso made from sun-dried tomatoes, pine nuts, and Parmigiano Reggiano.",
+      "servings_yield": "2 servings",
+      "total_time": "15 min"
+    },
+    {
+      "id": "french-eggs",
+      "title": "French Eggs",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "French",
+        "ham",
+        "cheese",
+        "heavy cream"
+      ],
+      "collection": "all",
+      "description": "Eggs baked over toasted crusty bread and ham with heavy cream, nutmeg, and melted Gruyère cheese.",
+      "servings_yield": "2 servings",
+      "total_time": "15 min"
+    },
+    {
+      "id": "heavy-cream-scrambled-eggs",
+      "title": "Heavy Cream Scrambled Eggs",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "scrambled",
+        "spicy",
+        "quick",
+        "heavy cream"
+      ],
+      "collection": "all",
+      "description": "Scrambled eggs cooked in caramelized heavy cream with salsa macha for rich, large-curd eggs.",
+      "servings_yield": "3 servings",
+      "total_time": "10 min"
+    },
+    {
+      "id": "turkish-eggs",
+      "title": "Turkish Eggs",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "Turkish",
+        "poached",
+        "labneh",
+        "spiced butter"
+      ],
+      "collection": "all",
+      "description": "Poached eggs served over herbed labneh and drenched in spiced brown butter with chipotle, smoked paprika, and salsa macha.",
+      "servings_yield": "2 servings",
+      "total_time": "20 min"
+    },
+    {
+      "id": "cajun-bourbon-hot-peppercorn-cream",
+      "title": "Cajun Bourbon Hot Peppercorn Cream",
+      "category": "sides",
+      "tags": [
+        "sauce",
+        "Cajun",
+        "bourbon",
+        "peppercorn",
+        "cream sauce",
+        "steak"
+      ],
+      "collection": "all",
+      "description": "Creamy, spicy, smoky, and rich — this Cajun Bourbon Hot Peppercorn Cream is the kind of sauce that makes steak night unforgettable.",
+      "servings_yield": "About 4 servings",
+      "total_time": "15 min"
+    },
+    {
+      "id": "food-my-muse-spinach-pastina",
+      "title": "Spinach Pastina",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "pastina",
+        "spinach",
+        "one-pan",
+        "quick",
+        "vegetarian"
+      ],
+      "collection": "all",
+      "description": "One pan, 20 minutes — the easiest, healthy Spinach Pastina recipe. Spinach and basil add fresh herby flavor while mascarpone provides the creamy finishing touch.",
+      "servings_yield": "2 servings",
+      "total_time": "15 min"
+    },
+    {
+      "id": "food-my-muse-easy-pastina",
+      "title": "Easy Pastina with Anchovies and Calabrian Chiles",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "pastina",
+        "anchovies",
+        "Calabrian chiles",
+        "Italian",
+        "quick"
+      ],
+      "collection": "all",
+      "description": "A cozy, comforting Italian pastina combining Calabrian chiles and Taleggio cheese. The secret ingredient is anchovies — they add amazing depth of flavor without being fishy.",
+      "servings_yield": "2 servings",
+      "total_time": "20 min"
+    },
+    {
+      "id": "food-my-muse-steak-peppercorn-sauce",
+      "title": "Steak with Peppercorn Sauce",
+      "category": "mains",
+      "tags": [
+        "steak",
+        "French",
+        "peppercorn",
+        "flambe",
+        "dinner party",
+        "French fries"
+      ],
+      "collection": "all",
+      "description": "Restaurant-quality salt-brined tenderloin filets crusted with pink and black peppercorns, served with a cognac-flambeed peppercorn sauce and crispy French fries.",
+      "servings_yield": "4 servings",
+      "total_time": "4 hr 5 min"
+    },
+    {
+      "id": "food-my-muse-potato-pave",
+      "title": "Potato Pave",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "side dish",
+        "crispy",
+        "elegant",
+        "make-ahead",
+        "dinner party"
+      ],
+      "collection": "all",
+      "description": "Crispy, creamy layered potatoes pressed overnight and fried until golden. Versatile enough to top with anything your heart desires.",
+      "servings_yield": "10 servings",
+      "total_time": "14 hr"
+    },
+    {
+      "id": "food-my-muse-potato-galette",
+      "title": "Potato Galette (Cheesy Pommes Anna)",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "side dish",
+        "cheesy",
+        "Gruyere",
+        "cast iron",
+        "holiday",
+        "crispy"
+      ],
+      "collection": "all",
+      "description": "Crispy, cheesy layered potatoes with Gruyere cheese cooked in a cast iron skillet. Easy to make and perfect for holiday dinners.",
+      "servings_yield": "8 servings",
+      "total_time": "1 hr 15 min"
+    },
+    {
+      "id": "food-my-muse-fig-brulee",
+      "title": "Fig Brulee",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "fig",
+        "brie",
+        "brulee",
+        "party",
+        "make-ahead",
+        "elegant"
+      ],
+      "collection": "all",
+      "description": "Addictive whipped fig brie stuffed into halved figs and torched with a caramelized sugar top. Great for a party — stuff ahead and torch right before serving.",
+      "servings_yield": "14 bites",
+      "total_time": "50 min"
+    },
+    {
+      "id": "food-my-muse-blue-cheese-olive-dip",
+      "title": "Blue Cheese Olive Dip (Dirty Martini Dip)",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "dip",
+        "blue cheese",
+        "olives",
+        "martini",
+        "party",
+        "make-ahead"
+      ],
+      "collection": "all",
+      "description": "A creamy, savory, make-ahead party appetizer that tastes like a dirty martini in every bite. Blue cheese and briny olives with a splash of vodka.",
+      "servings_yield": "6 servings",
+      "total_time": "15 min"
     }
   ]
 }

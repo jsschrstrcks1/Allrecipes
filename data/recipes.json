@@ -655953,7 +655953,26 @@
         "gordon-ramsay-walnut-sable-cookies",
         "gordon-ramsay-caramelized-apples-dessert"
       ],
-      "ingredients": [],
+      "ingredients": [
+        {
+          "item": "cinnamon ice cream",
+          "quantity": "1",
+          "unit": "batch",
+          "prep_note": "see component recipe"
+        },
+        {
+          "item": "walnut sablé cookies",
+          "quantity": "1",
+          "unit": "batch",
+          "prep_note": "see component recipe"
+        },
+        {
+          "item": "caramelized apples",
+          "quantity": "1",
+          "unit": "batch",
+          "prep_note": "see component recipe"
+        }
+      ],
       "instructions": [
         {
           "step": 1,
@@ -656002,7 +656021,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "is_component": false
     },
     {
       "id": "gordon-ramsay-walnut-sable-cookies",
@@ -666404,13 +666424,25 @@
       "collection": "all",
       "collection_display": "Other Family Recipes",
       "title": "Gordon Ramsay's Kitchen Techniques & Tips",
-      "category": "tips",
+      "category": "basics",
       "attribution": "Gordon Ramsay",
       "source_note": "Hell's Kitchen Cookbook, pages 23-62, 123, 420",
       "description": "Essential kitchen techniques, knife cuts, and chef tips from Gordon Ramsay.",
       "servings_yield": "",
-      "ingredients": [],
-      "instructions": [],
+      "ingredients": [
+        {
+          "item": "N/A",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "This is a techniques reference, not a recipe"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Refer to the tips section for Gordon Ramsay's kitchen techniques and advice."
+        }
+      ],
       "tips": [
         "COPPER BOWLS: If you love soufflés and meringues, consider investing in a copper bowl - it will enable you to whip voluptuous volume into your egg whites. Note that copper bowls are quite expensive and require that you clean and polish them before and after each use.",
         "STEADYING BOWLS: If your mixing bowls don't have a nonskid base, try this trick to steady a bowl: Dampen a dish towel and wring out excess water, then, starting at one corner, roll up the towel to form a ring slightly larger than the base of your bowl; set your bowl inside its towel nest and proceed to mix and whisk securely.",
