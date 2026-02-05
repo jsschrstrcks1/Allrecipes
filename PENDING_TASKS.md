@@ -110,6 +110,30 @@ Used `scripts/add_all_nutrition.py` to calculate actual nutrition values from US
 
 ---
 
+## Non-Handwritten Image Refs Cleanup
+
+**Status:** COMPLETE
+**Priority:** Medium
+**Created:** 2026-02-05
+**Completed:** 2026-02-05
+
+### Description
+Policy change: only handwritten recipe images should be saved and linked via `image_refs`. Non-handwritten sources (Kindle screenshots, magazine scans, typed cards, cookbook pages) should have empty `image_refs` arrays since the extracted recipe data fully represents the content.
+
+### Resolution
+- Removed `image_refs` from all non-handwritten recipes (commit `b9c9543`)
+- Updated CLAUDE.md (v1.3) with Image Retention Policy section
+- Updated Source Classification table with "Keep Image?" column
+- Updated Non-Negotiable Rule 5 to reflect handwritten-only policy
+- Updated ONBOARDING.md critical rules and schema reference
+- Updated MAINTENANCE.md "Adding New Recipes" workflow
+
+### Policy (ongoing)
+- **Handwritten images**: Keep in `data/`, populate `image_refs` with filename(s)
+- **Non-handwritten images**: Extract recipe data, leave `image_refs` as `[]`
+
+---
+
 ## Other Pending Tasks
 
 (none currently)

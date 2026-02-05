@@ -45,6 +45,7 @@ python scripts/build_ingredient_index.py  # Rebuild ingredient index
 3. **ALWAYS mark unclear text** as `[UNCLEAR]` with best guess
 4. **ALWAYS verify copyright** before processing cookbook images
 5. **ALWAYS run validation** before committing recipe changes
+6. **Only link handwritten images** in `image_refs` - non-handwritten sources (Kindle, magazine, typed) get empty `image_refs: []`
 
 ---
 
@@ -133,7 +134,7 @@ Allrecipes/
   "instructions": [
     {"step": 1, "text": "Preheat oven to 350°F (175°C)."}
   ],
-  "image_refs": ["IMG_XXXX.PNG"],
+  "image_refs": ["IMG_XXXX.PNG"],  // HANDWRITTEN images only - leave empty [] for non-handwritten
   "confidence": {
     "overall": "high|medium|low",
     "flags": []
