@@ -151,16 +151,14 @@ During image deletion audit (commit `4bae9d4`), 59 images labeled "recipes 373-4
 - [x] Merged duplicate entries: Wholewheat Honey Bread (2→1), Wholewheat Maple Bread (2→1)
 - [x] Updated 8 recipes with verified Kindle location numbers
 
-**Recipes now with proper "Kindle bread cookbook" attribution (17 total):**
+**Recipes now with proper "Kindle bread cookbook" attribution (20 total):**
 - Original 9: Amish White Bread (100-113), Artichoke Pine Nut Bread (123-149), Braided Sesame Bread (157-169), Butter & Molasses Bread (187-199), Butternut Squash Bread (214-226), Buttery White Bread (237-250), Candied Hoska (262-290), Parmesan & Mozzarella Focaccia (636-650), Simple Artisan Bread (663-674)
-- Added: Cinnamon Raisin Bread (347-360), Hungarian Cinnamon Swirl Bread (404-434), Gruyère Pepper & Onion Bread (483-496), Panettone (608-620), Unbleached Baguettes (717-743), Wholegrain Seed Bread (782-795), Wholewheat Honey Bread (809-821), Wholewheat Maple Bread (836-849)
+- Added: Chocolate Cinnamon Babka (305-345), Cinnamon Raisin Bread (347-360), Hungarian Cinnamon Swirl Bread (404-434), Garlic Artisan Bread (450-475), Gruyère Pepper & Onion Bread (483-496), Honey Oatmeal Bread (515-559), Panettone (608-620), Unbleached Baguettes (717-743), Wholegrain Seed Bread (782-795), Wholewheat Honey Bread (809-821), Wholewheat Maple Bread (836-849)
 
-**Remaining with "Digital cookbook (Kindle)" source (8 breads):**
-- Unbleached Ciabatta Bread, Sweet Finnish Pulla, Oatmeal Molasses Rolls
-- Honey Oatmeal Bread, Garlic Artisan Bread, Fougasse
-- French Chocolate Bread, Chocolate Cinnamon Babka
+**Remaining with "Digital cookbook (Kindle)" source (5 breads):**
+- Unbleached Ciabatta Bread, Sweet Finnish Pulla, Oatmeal Molasses Rolls, Fougasse, French Chocolate Bread
 
-These 8 may or may not be from the same bread cookbook - need additional image scanning to verify.
+These 5 may be from locations not captured in the restored images, or from a different source.
 
 ### Images Restored
 
