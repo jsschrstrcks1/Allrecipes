@@ -1,7 +1,8 @@
 __pycache__/
 
-# Processed images (regeneratable from source)
+# Processed images and logs (regeneratable)
 data/processed/
+data/processing_log_*.json
 !data/processed/img_5626.jpeg
 !data/processed/img_5650.jpeg
 
