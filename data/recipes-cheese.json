@@ -953,19 +953,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 199,
+          "calories": 200,
           "fat_g": 10.7,
-          "carbs_g": 16.1,
+          "carbs_g": 16.3,
           "protein_g": 10.7,
           "sodium_mg": 431,
           "fiber_g": 0.0,
-          "sugar_g": 16.0
+          "sugar_g": 16.1
         },
-        "missing_inputs": [
-          "2-3 tbsp citric acid or lemon juice"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -1111,7 +1109,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
           "calories": 2861,
           "fat_g": 153.6,
@@ -1123,6 +1121,7 @@
         },
         "missing_inputs": [
           "1 % of milk thermophilic mother culture (ALPD)",
+          "1 % of milk mesophilic culture (Flora Danica)",
           "4.5 ml single strength rennet"
         ],
         "assumptions": [
@@ -1259,7 +1258,7 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
           "calories": 1,
           "fat_g": 0.0,
@@ -1271,8 +1270,7 @@
         },
         "missing_inputs": [
           "8 L 2% milk",
-          "1 L coffee cream (18%)",
-          "3/16 tsp double-strength liquid rennet"
+          "1 L coffee cream (18%)"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -3074,17 +3072,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 3284,
+          "calories": 3288,
           "fat_g": 352.0,
-          "carbs_g": 28.0,
+          "carbs_g": 29.0,
           "protein_g": 20.0,
           "sodium_mg": 356,
           "fiber_g": 0.0,
-          "sugar_g": 28.0
+          "sugar_g": 28.4
         },
         "missing_inputs": [
-          "1/4 tsp dissolved in 1 tbsp water tartaric acid",
-          "1 tbsp OR lemon juice (fresh)"
+          "1/4 tsp dissolved in 1 tbsp water tartaric acid"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -4226,7 +4223,8 @@
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "3 liters (3 quarts) whole milk"
+          "3 liters (3 quarts) whole milk",
+          "small amount mesophilic culture"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -5606,7 +5604,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -5618,6 +5616,7 @@
         },
         "missing_inputs": [
           "7.6 liters (2 gallons) whole milk",
+          "1/4 tsp (~2ml) mesophilic culture",
           "2 tbsp non-iodized salt"
         ],
         "assumptions": [
@@ -5789,6 +5788,7 @@
         "missing_inputs": [
           "4 liters full cream milk (3.4%+ fat)",
           "4 liters lite or semi-skimmed milk (1.4% or less fat)",
+          "1/4 tsp mixed with 20ml water lipase powder",
           "brine (1 liter water + 2 tbsp salt)"
         ],
         "assumptions": [
@@ -5921,7 +5921,7 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "insufficient_data",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -5933,6 +5933,7 @@
         },
         "missing_inputs": [
           "10 liters full cream milk",
+          "1/4 tsp mixed with 50ml water lipase powder",
           "3 tbsp per liter for brine non-iodized salt"
         ],
         "assumptions": [
@@ -6046,8 +6047,8 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 911,
-          "fat_g": 78.0,
+          "calories": 1031,
+          "fat_g": 92.0,
           "carbs_g": 12.0,
           "protein_g": 42.0,
           "sodium_mg": 3336,
@@ -6058,8 +6059,7 @@
           "1 sprig fresh rosemary",
           "1 sprig fresh thyme",
           "1 sprig fresh oregano",
-          "2 crumbled dried birds-eye chilies",
-          "half portion sunflower oil"
+          "2 crumbled dried birds-eye chilies"
         ],
         "assumptions": [
           "Calculated for 1 servings"
@@ -6875,16 +6875,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 100,
+          "calories": 2240,
+          "fat_g": 133.3,
+          "carbs_g": 146.7,
+          "protein_g": 120.0,
+          "sodium_mg": 1727,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 146.7
         },
         "missing_inputs": [
-          "2-3 gallons goat or cow milk",
           "1/2 cup per 1/2 gallon water salt for brine"
         ],
         "assumptions": [
@@ -7597,21 +7596,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 6975,
+          "calories": 2688,
+          "fat_g": 160.0,
+          "carbs_g": 176.0,
+          "protein_g": 144.0,
+          "sodium_mg": 8927,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 176.0
         },
-        "missing_inputs": [
-          "2 gallons goat or cow milk (raw or pasteurized)",
-          "1/4 tsp mesophilic DVI culture (MM or MA)",
-          "1/4 tsp calf lipase powder (mild piccante)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -8033,19 +8028,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 5231,
+          "calories": 3360,
+          "fat_g": 200.0,
+          "carbs_g": 220.0,
+          "protein_g": 180.0,
+          "sodium_mg": 7671,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 220.0
         },
-        "missing_inputs": [
-          "2-3 gallons goat or cow milk (raw, unpasteurized preferred)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -8213,20 +8206,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 1,
-          "fat_g": 0.0,
-          "carbs_g": 0.2,
-          "protein_g": 0.0,
-          "sodium_mg": 75,
+          "calories": 3697,
+          "fat_g": 220.0,
+          "carbs_g": 242.2,
+          "protein_g": 198.0,
+          "sodium_mg": 2759,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 242.0
         },
         "missing_inputs": [
-          "2-3.5 gallons fresh goat or cow milk (not homogenized)",
-          "1/4 tsp thermophilic culture DVI (LH)",
-          "1/4 tsp calf lipase (mild piccante)"
+          "1/4 tsp thermophilic culture DVI (LH)"
         ],
         "assumptions": [
           "Calculated for 2 servings"
@@ -8327,20 +8318,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "calories": 672,
+          "fat_g": 40.0,
+          "carbs_g": 44.0,
+          "protein_g": 36.0,
+          "sodium_mg": 488,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 44.0
         },
-        "missing_inputs": [
-          "1/2 gallon fresh goat or cow milk",
-          "1/8 tsp mesophilic DVI culture (MM)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -10413,18 +10401,16 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {
-          "calories": 4,
-          "fat_g": 0.1,
-          "carbs_g": 0.9,
-          "protein_g": 0.1,
-          "sodium_mg": 13952,
+          "calories": 634,
+          "fat_g": 34.1,
+          "carbs_g": 51.9,
+          "protein_g": 34.1,
+          "sodium_mg": 14396,
           "fiber_g": 0.5,
-          "sugar_g": 0.0
+          "sugar_g": 51.0
         },
         "missing_inputs": [
-          "1 liter unhomogenised cow's milk",
           "1 liter goat's milk",
-          "1 tablet junket tablet",
           "1/4 tbsp chilli flakes (optional)",
           "1/2 cup leftover whey (for brine)"
         ],
@@ -22637,17 +22623,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 1162,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 14,
+          "fat_g": 0.1,
+          "carbs_g": 4.2,
+          "protein_g": 0.2,
+          "sodium_mg": 1164,
+          "fiber_g": 0.2,
+          "sugar_g": 1.5
         },
         "missing_inputs": [
-          "1 gallon yak milk (or yak-cow hybrid 'dzo' milk)",
-          "1/4 cup lemon juice or whey"
+          "1 gallon yak milk (or yak-cow hybrid 'dzo' milk)"
         ],
         "assumptions": [
           "Calculated for 1 servings"

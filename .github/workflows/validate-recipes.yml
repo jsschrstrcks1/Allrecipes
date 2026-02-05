@@ -1,0 +1,108 @@
+name: Validate Recipes
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/validate-recipes.py'
+  push:
+    branches:
+      - 'claude/**'
+    paths:
+      - 'data/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Recipe Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Install any required packages (Pillow for image checks if needed)
+          pip install Pillow 2>/dev/null || true
+
+      - name: Validate recipe schema
+        id: validate
+        run: |
+          echo "## Recipe Validation Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if python scripts/validate-recipes.py; then
+            echo "✅ All recipes passed validation" >> $GITHUB_STEP_SUMMARY
+            echo "validation_passed=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ Recipe validation failed" >> $GITHUB_STEP_SUMMARY
+            echo "validation_passed=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Count recipes
+        if: always()
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Recipe Statistics" >> $GITHUB_STEP_SUMMARY
+
+          # Count total recipes
+          TOTAL=$(python -c "import json; data=json.load(open('data/recipes.json')); print(len(data.get('recipes', data if isinstance(data, list) else [])))" 2>/dev/null || echo "unknown")
+          echo "- **Total recipes:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+
+          # Count by category if possible
+          python -c "
+          import json
+          from collections import Counter
+
+          with open('data/recipes.json') as f:
+              data = json.load(f)
+
+          recipes = data.get('recipes', data if isinstance(data, list) else [])
+          categories = Counter(r.get('category', 'uncategorized') for r in recipes)
+
+          print('')
+          print('### Categories')
+          for cat, count in sorted(categories.items()):
+              print(f'- {cat}: {count}')
+          " >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+
+      - name: Check for nutrition coverage
+        if: always()
+        run: |
+          python -c "
+          import json
+
+          with open('data/recipes.json') as f:
+              data = json.load(f)
+
+          recipes = data.get('recipes', data if isinstance(data, list) else [])
+          total = len(recipes)
+
+          complete = sum(1 for r in recipes if r.get('nutrition', {}).get('status') == 'complete')
+          partial = sum(1 for r in recipes if r.get('nutrition', {}).get('status') == 'partial')
+          insufficient = sum(1 for r in recipes if r.get('nutrition', {}).get('status') == 'insufficient_data')
+          missing = total - complete - partial - insufficient
+
+          print('')
+          print('### Nutrition Data Coverage')
+          print(f'- Complete: {complete} ({100*complete/total:.1f}%)')
+          print(f'- Partial: {partial} ({100*partial/total:.1f}%)')
+          print(f'- Insufficient: {insufficient} ({100*insufficient/total:.1f}%)')
+          if missing > 0:
+              print(f'- Missing: {missing} ({100*missing/total:.1f}%)')
+          " >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+
+      - name: Validation complete
+        if: success()
+        run: |
+          echo ""
+          echo "✅ Recipe validation passed!"
