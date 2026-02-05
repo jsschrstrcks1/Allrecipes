@@ -202,8 +202,8 @@
       "tags": ["celery", "no-cook", "presentation"],
       "confidence": {"overall": "high", "flags": []},
       "image_refs": []
-    }
-  ,{
+    },
+    {
       "id": "cheese-and-lettuce-roll-up",
       "collection": "borden",
       "collection_display": "Borden Cottage Cheese Recipe Book",
@@ -289,7 +289,11 @@
           ],
           "instructions": [
             {"step": 1, "text": "Combine tomatoes, onion, celery leaves, bay leaf, cloves, salt and sugar. Simmer 20 minutes; strain (should yield 3⅓ cups). Soften gelatin in cold water, dissolve in hot mixture. Add lemon juice. Dip egg slices in gelatin and arrange against side of mold. Chill until set. Pour in remaining mixture; chill until firm. Unmold and garnish."}
-          ],{
+          ]
+        }
+      ]
+    },
+    {
       "id": "deviled-cottage-eggs",
       "collection": "borden",
       "collection_display": "Borden Cottage Cheese Recipe Book",
@@ -324,7 +328,6 @@
       "confidence": {"overall": "high", "flags": []},
       "image_refs": []
     },
-    // (all remaining salad entries follow the same pattern: cottage-cheese-salad-ring, avocado-salad, cottage-cheese-filled-tomatoes, cottage-cheese-potato-salad, chive-cheese-mold, gingerale-fruit-mold, cranberry-blizzard, frozen-cheese-and-pineapple-salad, cottage-cheese-and-strawberry-salad, molded-fruit-salad, peach-party-loaf, cottage-cheese-ring)
     {
       "id": "cottage-cheese-salad-ring",
       "collection": "borden",
@@ -360,8 +363,8 @@
       "tags": ["gelatin", "ring", "mold"],
       "confidence": {"overall": "high", "flags": []},
       "image_refs": []
-    }
- ,{
+    },
+    {
       "id": "curried-cottage-cheese-and-eggs-in-rice-nests",
       "collection": "borden",
       "collection_display": "Borden Cottage Cheese Recipe Book",
@@ -397,7 +400,7 @@
       "tags": ["curry", "eggs", "rice"],
       "confidence": {"overall": "high", "flags": []},
       "image_refs": []
-    }
+    },
     {
       "id": "for-taste-appeal",
       "collection": "borden",
@@ -420,8 +423,8 @@
       "confidence": {"overall": "high", "flags": []},
       "image_refs": [],
       "content": "For a crusty brown topping on oven dishes, spread them generously with cottage cheese; sprinkle with bread crumbs, and bake.\nUse cottage cheese as a topping for one-crust berry pies.\nAdd approximately ½ cup cottage cheese to scrambled eggs to extend flavor and quantity. Cook over low heat.\nSpread cottage cheese on thin French pancakes, roll up, and fry lightly; and serve with sour cream and jam, or sugar and cinnamon."
-    }
-  ,{
+    },
+    {
       "id": "cheese-custard-pudding",
       "collection": "borden",
       "collection_display": "Borden Cottage Cheese Recipe Book",
@@ -457,7 +460,7 @@
       "tags": ["custard", "pudding", "baked"],
       "confidence": {"overall": "high", "flags": []},
       "image_refs": []
-    }
+    },
     {
       "id": "cheese-bowl",
       "collection": "borden",

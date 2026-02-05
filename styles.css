@@ -3760,3 +3760,655 @@ body {
     border: 1px solid #ccc;
   }
 }
+
+/* ============================================
+   BUTTER BUILDER WIZARD
+   ============================================ */
+
+.butter-builder-wizard {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+  background: var(--color-background);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+/* Butter Progress Bar */
+.butter-progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.butter-progress-bar .progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.butter-progress-bar .step-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #999;
+  transition: all 0.2s ease;
+}
+
+.butter-progress-bar .step-label {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.butter-progress-bar .progress-step.active .step-dot {
+  background: #f5c542;
+  border-color: #d4a017;
+  color: #fff;
+}
+
+.butter-progress-bar .progress-step.active .step-label {
+  color: #d4a017;
+  font-weight: bold;
+}
+
+.butter-progress-bar .progress-step.completed .step-dot {
+  background: #8bc34a;
+  border-color: #689f38;
+  color: #fff;
+}
+
+.butter-progress-bar .progress-step.completed .step-label {
+  color: #689f38;
+}
+
+.butter-progress-bar .step-connector {
+  width: 40px;
+  height: 2px;
+  background: #ddd;
+  margin: 0 4px;
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+/* Butter Wizard Step Content */
+.butter-builder-wizard .wizard-step-content {
+  min-height: 300px;
+}
+
+.butter-builder-wizard .wizard-step-content h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #5d4037;
+}
+
+.butter-builder-wizard .step-description {
+  text-align: center;
+  color: #888;
+  margin-bottom: 1.5rem;
+}
+
+/* Butter Welcome Step */
+.butter-builder-wizard .welcome-step {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.butter-builder-wizard .welcome-subtitle {
+  color: #888;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.butter-builder-wizard .welcome-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.butter-builder-wizard .feature-card {
+  background: linear-gradient(135deg, #fffde7, #fff8e1);
+  border: 1px solid #ffe082;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.butter-builder-wizard .feature-card .feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.butter-builder-wizard .feature-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: #5d4037;
+}
+
+.butter-builder-wizard .feature-card p {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0;
+}
+
+/* Cream Cards */
+.cream-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cream-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cream-card:hover {
+  border-color: #f5c542;
+  box-shadow: 0 2px 8px rgba(245, 197, 66, 0.2);
+}
+
+.cream-card.selected {
+  border-color: #d4a017;
+  background: linear-gradient(135deg, #fffde7, #fff8e1);
+  box-shadow: 0 2px 12px rgba(212, 160, 23, 0.3);
+}
+
+.cream-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #5d4037;
+  font-size: 1rem;
+}
+
+.cream-card .cream-fat {
+  font-size: 0.85rem;
+  color: #d4a017;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.cream-card .cream-flavor {
+  font-size: 0.8rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0.25rem;
+}
+
+.cream-card .cream-yield {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.25rem;
+}
+
+.cream-card .cream-best {
+  font-size: 0.75rem;
+  color: #8bc34a;
+  font-weight: 600;
+}
+
+/* Quantity Row */
+.quantity-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: center;
+  padding: 1rem;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.quantity-row label {
+  font-weight: 600;
+  color: #5d4037;
+}
+
+.quantity-row input,
+.quantity-row select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.quantity-row input[type="number"] {
+  width: 80px;
+}
+
+/* Style Cards */
+.style-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.butter-builder-wizard .style-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.butter-builder-wizard .style-card:hover {
+  border-color: #f5c542;
+}
+
+.butter-builder-wizard .style-card.selected {
+  border-color: #d4a017;
+  background: linear-gradient(135deg, #fffde7, #fff8e1);
+  box-shadow: 0 2px 12px rgba(212, 160, 23, 0.3);
+}
+
+.butter-builder-wizard .style-card.incompatible {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.butter-builder-wizard .style-card .style-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.butter-builder-wizard .style-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #5d4037;
+}
+
+.difficulty-badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.difficulty-beginner {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+.difficulty-intermediate {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.difficulty-advanced {
+  background: #fce4ec;
+  color: #c62828;
+}
+
+.butter-builder-wizard .style-card .style-desc {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.butter-builder-wizard .style-card .style-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.butter-builder-wizard .style-card .compat-warning {
+  font-size: 0.75rem;
+  color: #c62828;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Flavor Selection */
+.flavor-category {
+  margin-bottom: 1.5rem;
+}
+
+.flavor-category h3 {
+  color: #5d4037;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  border-bottom: 2px solid #ffe082;
+  padding-bottom: 0.25rem;
+}
+
+.flavor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.flavor-item {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.flavor-item:hover {
+  border-color: #f5c542;
+}
+
+.flavor-item.selected {
+  border-color: #d4a017;
+  background: linear-gradient(135deg, #fffde7, #fff8e1);
+}
+
+.flavor-item .flavor-name {
+  font-weight: bold;
+  color: #5d4037;
+  margin-bottom: 0.25rem;
+}
+
+.flavor-item .flavor-ingredients {
+  font-size: 0.8rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0.25rem;
+}
+
+.flavor-item .flavor-pairs {
+  font-size: 0.75rem;
+  color: #8bc34a;
+}
+
+/* Recipe Output */
+.recipe-step .recipe-header-card {
+  background: linear-gradient(135deg, #fffde7, #fff8e1);
+  border: 2px solid #ffe082;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.recipe-step .recipe-header-card h2 {
+  color: #5d4037;
+  margin-bottom: 0.75rem;
+}
+
+.recipe-step .recipe-meta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.recipe-step .recipe-yield {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #d4a017;
+  font-weight: 600;
+}
+
+.recipe-step .recipe-section {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-step .recipe-section h3 {
+  color: #5d4037;
+  margin: 0 0 0.75rem 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ffe082;
+  padding-bottom: 0.5rem;
+}
+
+.recipe-step .ingredient-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.recipe-step .ingredient-list li {
+  padding: 0.25rem 0;
+  color: #333;
+}
+
+.recipe-step .instruction-list {
+  padding-left: 1.5rem;
+}
+
+.recipe-step .instruction-list li {
+  padding: 0.5rem 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+.recipe-step .notes-section {
+  background: linear-gradient(135deg, #f3e5f5, #fce4ec);
+  border-color: #ce93d8;
+}
+
+.recipe-step .notes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-step .notes-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.25rem;
+  position: relative;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.recipe-step .notes-list li::before {
+  content: '\2022';
+  color: #ce93d8;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Adjacent Styles */
+.recipe-step .adjacent-section {
+  background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+  border-color: #81c784;
+}
+
+.recipe-step .section-intro {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.adjacent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.adjacent-card {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+.adjacent-card .adjacent-name {
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 0.25rem;
+}
+
+.adjacent-card .adjacent-change {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Tips Section */
+.recipe-step .tips-section {
+  background: linear-gradient(135deg, #fffde7, #fff8e1);
+  border-color: #ffe082;
+}
+
+.tip-group {
+  margin-bottom: 1rem;
+}
+
+.tip-group:last-child {
+  margin-bottom: 0;
+}
+
+.tip-group h4 {
+  color: #f57c00;
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.tip-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tip-list li {
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  position: relative;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.tip-list li::before {
+  content: '\1F4A1';
+  position: absolute;
+  left: 0;
+  font-size: 0.75rem;
+}
+
+/* Did You Know Section */
+.recipe-step .facts-section {
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border-color: #ffb74d;
+}
+
+.facts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.facts-list li {
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  position: relative;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.facts-list li::before {
+  content: '\1F9C8';
+  position: absolute;
+  left: 0;
+}
+
+/* Butter Wizard Navigation */
+.butter-builder-wizard .wizard-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.butter-builder-wizard .wizard-navigation button {
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.butter-builder-wizard .btn-primary {
+  background: linear-gradient(135deg, #f5c542, #d4a017);
+  color: #fff;
+}
+
+.butter-builder-wizard .btn-primary:hover {
+  background: linear-gradient(135deg, #d4a017, #b8860b);
+}
+
+.butter-builder-wizard .btn-secondary {
+  background: #f5f5f5;
+  color: #666;
+  border: 1px solid #ddd;
+}
+
+.butter-builder-wizard .btn-secondary:hover {
+  background: #eee;
+}
+
+/* Butter Builder Responsive */
+@media (max-width: 768px) {
+  .butter-builder-wizard {
+    padding: 1rem;
+  }
+
+  .butter-progress-bar .step-label {
+    font-size: 0.65rem;
+  }
+
+  .butter-progress-bar .step-connector {
+    width: 20px;
+  }
+
+  .cream-grid,
+  .style-grid,
+  .flavor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .recipe-step .recipe-meta-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .quantity-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media print {
+  .butter-builder-wizard {
+    box-shadow: none;
+  }
+
+  .butter-progress-bar,
+  .butter-builder-wizard .wizard-navigation {
+    display: none !important;
+  }
+}
