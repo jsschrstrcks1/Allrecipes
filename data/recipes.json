@@ -235319,7 +235319,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "IMG_4033.PNG",
+        "IMG_4034.PNG"
+      ],
       "nutrition": {
         "status": "complete",
         "per_serving": {
@@ -235456,7 +235459,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "IMG_4035.PNG",
+        "IMG_4036.PNG"
+      ],
       "nutrition": {
         "status": "complete",
         "per_serving": {
@@ -235593,7 +235599,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "IMG_4037.PNG",
+        "IMG_4038.PNG"
+      ],
       "nutrition": {
         "status": "complete",
         "per_serving": {
@@ -280668,38 +280677,51 @@
       "ingredients": [
         {
           "item": "all-purpose flour",
-          "quantity": "2",
-          "unit": "cups"
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": ""
         },
         {
-          "item": "granulated white sugar",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "baking powder",
-          "quantity": "1",
-          "unit": "tbsp"
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
         },
         {
           "item": "salt",
+          "quantity": "1",
+          "unit": "pinch",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
           "quantity": "1/2",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
-          "item": "milk",
+          "item": "buttermilk",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
         },
         {
-          "item": "vanilla extract",
-          "quantity": "1",
-          "unit": "tsp"
+          "item": "pure vanilla extract",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
-          "item": "large egg",
+          "item": "egg",
           "quantity": "1",
-          "unit": ""
+          "unit": "large",
+          "prep_note": ""
         },
         {
           "item": "butter",
@@ -280710,7 +280732,14 @@
         {
           "item": "fresh blueberries",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped walnuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "optional"
         }
       ],
       "instructions": [
@@ -280743,8 +280772,7 @@
         "baking"
       ],
       "image_refs": [
-        "IMG_4039",
-        "IMG_4040"
+        "IMG_4039.PNG"
       ],
       "confidence": {
         "overall": "high",
@@ -280780,82 +280808,94 @@
       "title": "Banana Nut Breakfast Muffins",
       "category": "breakfast",
       "description": "Moist banana muffins with crunchy walnuts.",
-      "temperature": "400°F (200°C)",
+      "temperature": "375°F (190°C)",
       "cook_time": "20 minutes",
       "ingredients": [
         {
-          "item": "all-purpose flour",
-          "quantity": "2",
-          "unit": "cups"
+          "item": "whole wheat pastry flour",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": ""
         },
         {
           "item": "granulated white sugar",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dark brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
         },
         {
           "item": "baking powder",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
           "item": "salt",
           "quantity": "1/2",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
-          "item": "milk",
+          "item": "egg",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetable oil",
           "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "vanilla extract",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "large egg",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "butter",
-          "quantity": "1/4",
           "unit": "cup",
-          "prep_note": "melted"
+          "prep_note": ""
         },
         {
-          "item": "ripe bananas",
-          "quantity": "3",
+          "item": "vanilla non-fat yogurt",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "bananas",
+          "quantity": "3-4",
           "unit": "",
           "prep_note": "mashed"
         },
         {
-          "item": "chopped walnuts",
+          "item": "old fashioned oats",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pecans",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 400°F."
+          "text": "Preheat oven to 375 degrees. Prepare muffin tins by either greasing tins with shortening or by filling with muffin papers. In a large bowl, combine flour, salt, baking powder and baking soda. Set aside."
         },
         {
           "step": 2,
-          "text": "In a large bowl, sift together the flour, baking powder, sugar and salt. Set aside."
+          "text": "In a medium bowl, combine sugars with egg and oil. Add to the wet mixture the yogurt and bananas. Combine wet ingredients with dry ingredients until just mixed. Overworking the batter will cause the batter to be too hard."
         },
         {
           "step": 3,
-          "text": "In another bowl, beat the egg and add the milk, butter, vanilla and mashed bananas. Pour into the bowl with the dry ingredients and mix quickly to combine, about 10 seconds. Fold in the walnuts. Do not over mix."
-        },
-        {
-          "step": 4,
-          "text": "Pour the batter into paper lined muffin pan cups or a greased muffin pan can be used instead."
-        },
-        {
-          "step": 5,
-          "text": "Bake until the tops are golden, about 20 minutes."
+          "text": "Add the oats and pecans. Spoon batter into muffin tins. Bake for about 20 minutes or until a toothpick comes out of the center clean."
         }
       ],
       "tags": [
@@ -280866,8 +280906,8 @@
         "baking"
       ],
       "image_refs": [
-        "IMG_4040",
-        "IMG_4041"
+        "IMG_4040.PNG",
+        "IMG_4041.PNG"
       ],
       "confidence": {
         "overall": "high",
@@ -280908,77 +280948,96 @@
       "cook_time": "20 minutes",
       "ingredients": [
         {
-          "item": "all-purpose flour",
-          "quantity": "1-1/2",
-          "unit": "cups"
+          "item": "whole wheat pastry flour",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": ""
         },
         {
-          "item": "rolled oats",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "granulated white sugar",
+          "item": "dark brown sugar",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
         },
         {
           "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
           "item": "salt",
           "quantity": "1/2",
-          "unit": "tsp"
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
-          "item": "milk",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "vanilla extract",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "large egg",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "butter",
+          "item": "vanilla yogurt",
           "quantity": "1/4",
           "unit": "cup",
-          "prep_note": "melted"
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": ""
+        },
+        {
+          "item": "whole milk",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pure vanilla extract",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
         },
         {
           "item": "fresh blueberries",
           "quantity": "1",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "old fashioned oats",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pecans",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 400°F."
+          "text": "Preheat oven to 400 degrees. In one bowl combine the flour, baking powder, cinnamon and salt."
         },
         {
           "step": 2,
-          "text": "In a large bowl, combine the flour, oats, baking powder, sugar and salt. Set aside."
+          "text": "In another bowl combine the sugar, egg and vanilla. Add to the wet ingredients the yogurt and milk. Combine the wet ingredients with the dry and fold in blueberries, oats and pecans until just mixed."
         },
         {
           "step": 3,
-          "text": "In another bowl, beat the egg and add the milk, butter and vanilla. Pour into the bowl with the dry ingredients and mix quickly to combine, about 10 seconds. Fold in the blueberries. Do not over mix."
-        },
-        {
-          "step": 4,
-          "text": "Pour the batter into paper lined muffin pan cups or a greased muffin pan can be used instead."
-        },
-        {
-          "step": 5,
-          "text": "Bake until the tops are golden, about 20 minutes."
+          "text": "Fill muffin tins with batter until about 3/4 from the top. Bake for about 20 minutes or until done in the middle and golden brown on the top."
         }
       ],
       "tags": [
@@ -280989,8 +281048,8 @@
         "baking"
       ],
       "image_refs": [
-        "IMG_4042",
-        "IMG_4043"
+        "IMG_4042.PNG",
+        "IMG_4043.PNG"
       ],
       "confidence": {
         "overall": "high",
