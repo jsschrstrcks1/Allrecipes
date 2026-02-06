@@ -283,6 +283,7 @@ class ImageProcessor:
         # Find all image files (JPEG and PNG)
         image_files = (list(collection_path.glob("*.jpeg")) +
                        list(collection_path.glob("*.jpg")) +
+                       list(collection_path.glob("*.JPG")) +
                        list(collection_path.glob("*.png")) +
                        list(collection_path.glob("*.PNG")))
         image_files = [f for f in image_files if PROCESSED_FOLDER not in str(f)]
