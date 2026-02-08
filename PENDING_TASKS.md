@@ -136,42 +136,188 @@ Policy change: only handwritten recipe images should be saved and linked via `im
 
 ## Kindle Bread Cookbook Source Reconciliation
 
-**Status:** IN PROGRESS
+**Status:** COMPLETE
 **Priority:** Medium
 **Created:** 2026-02-05
-**Updated:** 2026-02-05
+**Completed:** 2026-02-08
 
 ### Background
 
 During image deletion audit (commit `4bae9d4`), 59 images labeled "recipes 373-433" were deleted with the claim that all recipes had been transcribed. An audit revealed this claim was not fully verified.
 
+### Resolution (Image Audit, Phase 1)
+
+Every restored image was read individually and cross-referenced against `recipes.json`:
+
+1. **All 5 remaining breads verified** with correct Kindle locations:
+   - Unbleached Ciabatta Bread (Loc 750-763)
+   - Sweet Finnish Pulla (Loc 683-712)
+   - Oatmeal Molasses Rolls (Loc 576-588)
+   - Fougasse (Loc 375-388)
+   - French Chocolate Bread (Loc 406-434)
+2. **9 source_notes corrected** with verified Kindle locations
+3. **Hungarian Cinnamon Swirl Bread** location corrected: 404-434 → 546-559
+4. **58 images re-deleted** (all Kindle screenshots, content verified in JSON)
+5. **3 images kept** (recipes 351-353: handwritten beef rice meatball recipe)
+
+All bread/muffin cookbook recipes are now verified with proper source attribution.
+
+---
+
+## Repository-Wide Compound Recipe Cross-References
+
+**Status:** COMPLETE
+**Priority:** Low
+**Created:** 2026-02-08
+**Completed:** 2026-02-08
+
+### Description
+Scanned all 7,375 recipes for compound recipe relationships and linked components/component_of fields.
+
+### Results
+- **DGF:** 131 cross-references linked across 86 recipes; 12 heavily-referenced recipes marked `is_component`
+- **Sioux Chef:** 18 orphan components linked to parent recipes
+- **Gordon Ramsay:** 72 compound recipes verified (already linked)
+- **Other:** 4 additional cross-references linked (Gutenberg, Plains cookbooks)
+- **Final state:** 181 recipes with `components`, 157 marked `is_component`, 203 with `component_of`
+- **10 pantry staple components** remain with `is_component=true` but no specific `component_of` (stocks, flours, sauces used as general building blocks)
+
+---
+
+## DGF Incomplete Recipes
+
+**Status:** PENDING
+**Priority:** Medium
+**Created:** 2026-02-08
+
+### Description
+2 DGF recipes need original source verification:
+
+1. **dgf-peanut-butter-chocolate-chip-cookies** (confidence: LOW) - 6 ingredient quantities are `[UNCLEAR]` because page 166 was not fully visible in available images
+2. **dgf-crispy-salmon-with-caramelized-shallots** (confidence: LOW) - Instructions entirely missing, only ingredient list captured from page 41
+
+### Resolution
+Requires access to the physical "Damn Good Food" cookbook to verify missing content.
+
+---
+
+## DGF Quality Review & Nutrition Pass
+
+**Status:** COMPLETE
+**Priority:** Medium
+**Created:** 2026-02-08
+**Completed:** 2026-02-08
+
+### Description
+Quality audit and nutrition calculation for 157 Damn Good Food recipes extracted during image audit.
+
+### Quality Audit Results
+- 76 of 157 recipes had at least 1 issue (181 total issues)
+- 12 recipes had [UNCLEAR] markers → confidence downgraded (2 to LOW, 10 to MEDIUM)
+- 8 component recipes linked (hollandaise variants + dessert sub-recipes)
+- 1 incomplete recipe (missing instructions) flagged
+- All categories, attributions, and source_notes verified correct
+
+### Nutrition Results
+- All 157 DGF recipes updated from `insufficient_data` to `partial` with USDA-estimated values
+- Full 7-field per_serving data (calories, fat_g, carbs_g, protein_g, sodium_mg, fiber_g, sugar_g)
+- 2 recovered ghost pepper recipes also received nutrition data
+
+---
+
+## Recipe Count Audit
+
+**Status:** COMPLETE
+**Priority:** High
+**Created:** 2026-02-08
+**Completed:** 2026-02-08
+
+### Description
+Investigation of recipe count history to verify no recipes were lost during merges.
+
+### Findings
+- **Total unique recipe IDs ever in git history: 8,293** (per RECIPE_AUDIT_TRACKER.md)
+- **Correctly filtered out: 1,176** (other family collections: grandma 689, mommom 336, granny 91, reference 2)
+- **Reclassified (Unicode→ASCII): 27** (e.g., `beaufort-été` → `beaufort-ete`)
+- **Lost and recovered: 1,033** (recovered at commit 44c1efd)
+- **2 additional recipes recovered this session** (ghost pepper salsa + fermented hot sauce)
+- **4 intentional dedupes/renames** accounted for (wholewheat breads, swedish meatball, watermelon smoothie)
+- **Current total: 7,375** (6,632 "all" + 741 "reference" + 2 recovered)
+- **No missing recipes remain**
+
+### Note on "10k+" Claim
+The all-time maximum unique recipe count in this repository was 8,293 (including other-collection recipes). The maximum simultaneous count for the "all" collection was 6,110 (commit 19ebd7f). The total has never reached 10,000 in this repository.
+
+---
+
+## Gutenberg HTML Cookbook Extraction
+
+**Status:** COMPLETE
+**Priority:** High
+**Created:** 2026-02-08
+**Completed:** 2026-02-08
+
+### Description
+Audited all 18 HTML directories in `all/HTML/` and extracted recipes from every unprocessed Gutenberg cookbook.
+
+### Results
+| Book | PG# | Recipes | Status |
+|------|-----|---------|--------|
+| Foods That Will Win the War | 15464 | 248 | NEW - fully extracted |
+| The Cookery Blue Book | 26374 | 274 | NEW - fully extracted |
+| Apicius: Roman Cookery | 29728 | 496 | NEW - fully extracted |
+| Cottage Cheese Recipe Book | 34107 | 18 | NEW additions to existing |
+| Kitchen Encyclopedia | 33748 | 21 | NEW - fully extracted |
+| Complete Book of Cheese | 14293 | 177 | NEW - fully extracted |
+| Stevenson Memorial Cook Book | 31102 | 861 | NEW - fully extracted |
+| Partial gap fills (5 books) | various | 213 | Gaps in existing extractions |
+
+**Total: 2,308 new recipes from Gutenberg HTML sources**
+
+### Known Quality Notes
+- pg31102 (Stevenson) and pg14293 (Cheese Book): Paragraph-style recipes have ingredients embedded in instructions rather than separate ingredient lists. All recipe text is preserved.
+- 52 orphaned cooking tips from `cooking_tips.json` integrated into related recipes
+- 24 recipes with invalid "basics" category reclassified to proper categories
+
+---
+
+## Forme of Cury Medieval Recipe Extraction
+
+**Status:** IN PROGRESS
+**Priority:** Medium
+**Created:** 2026-02-08
+
+### Description
+Extracting and modernizing 279 medieval English recipes from The Forme of Cury (c. 1390) and Ancient Cookery (A.D. 1381) text files.
+
+### Source Files
+- `data/7cury10.txt` (ASCII, 7,173 lines)
+- `data/8cury10.txt` (ISO-Latin-1, same content)
+
 ### Progress
+- 279 recipes parsed programmatically from text
+- 190 from Forme of Cury proper + 89 from Ancient Cookery section
+- Modernization agents running (3 parallel batches of 93 recipes each)
+- Each recipe getting: modern ingredient lists, translated instructions, tips, substitutions
 
-**Completed:**
-- [x] Merged duplicate entries: Wholewheat Honey Bread (2→1), Wholewheat Maple Bread (2→1)
-- [x] Updated 8 recipes with verified Kindle location numbers
+---
 
-**Recipes now with proper "Kindle bread cookbook" attribution (20 total):**
-- Original 9: Amish White Bread (100-113), Artichoke Pine Nut Bread (123-149), Braided Sesame Bread (157-169), Butter & Molasses Bread (187-199), Butternut Squash Bread (214-226), Buttery White Bread (237-250), Candied Hoska (262-290), Parmesan & Mozzarella Focaccia (636-650), Simple Artisan Bread (663-674)
-- Added: Chocolate Cinnamon Babka (305-345), Cinnamon Raisin Bread (347-360), Hungarian Cinnamon Swirl Bread (404-434), Garlic Artisan Bread (450-475), Gruyère Pepper & Onion Bread (483-496), Honey Oatmeal Bread (515-559), Panettone (608-620), Unbleached Baguettes (717-743), Wholegrain Seed Bread (782-795), Wholewheat Honey Bread (809-821), Wholewheat Maple Bread (836-849)
+## Stevenson/Cheese Book Ingredient Parsing
 
-**Remaining with "Digital cookbook (Kindle)" source (5 breads):**
-- Unbleached Ciabatta Bread, Sweet Finnish Pulla, Oatmeal Molasses Rolls, Fougasse, French Chocolate Bread
+**Status:** PENDING
+**Priority:** Low
+**Created:** 2026-02-08
 
-These 5 may be from locations not captured in the restored images, or from a different source.
+### Description
+1,038 recipes from pg31102 (Stevenson Memorial Cook Book) and pg14293 (Complete Book of Cheese) have ingredients embedded in paragraph-style instructions. A future pass should parse these into separate ingredient lists.
 
-### Images Restored
+---
 
-58 bread/muffin cookbook images restored from git history for verification:
-- Images 373-424: Kindle bread cookbook (944 locations), covering ~locations 187-849
-- Images 425-433: Kindle MUFFIN cookbook (6172 locations) - different book!
+## Recipe Count Audit (Updated)
 
-### Remaining Actions
-
-1. ~~Merge duplicate recipes~~ DONE
-2. ~~Standardize source attribution~~ PARTIALLY DONE (17 of ~25 bread recipes)
-3. **Verify completeness** - Cross-check extracted recipes against image content
-4. **Re-delete images** - After verification, images can be safely deleted per non-handwritten policy
+Previous total: 7,375 → **Current total: 9,673** (after Gutenberg HTML extraction)
+- 2,300 new recipes from 8 Gutenberg HTML cookbooks
+- 279 medieval recipes pending merge (Forme of Cury)
 
 ---
 
