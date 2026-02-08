@@ -2,8 +2,8 @@
   "meta": {
     "title": "Ingredient Index",
     "description": "Index of ingredients mapped to recipes",
-    "total_ingredients": 13465,
-    "total_recipes": 9957,
+    "total_ingredients": 13479,
+    "total_recipes": 9989,
     "last_updated": "2026-02-08",
     "version": "1.0.0"
   },
@@ -48140,7 +48140,7 @@
       "variants": [
         "active dry yeast"
       ],
-      "recipe_count": 17,
+      "recipe_count": 18,
       "recipe_ids": [
         "butter-crescents-gahb",
         "cf-gluten-free-pizza-crust",
@@ -48151,6 +48151,7 @@
         "focaccia-bread",
         "garlic-cilantro-naan-bread",
         "gordon-ramsay-cauliflower-stuffed-naan",
+        "milk-kefir-bread-with-herbs",
         "olive-french-bread",
         "orange-glazed-coffee-cake-gahb",
         "portuguese-sweet-bread",
@@ -48553,7 +48554,7 @@
         "all-purpose flour",
         "all-purpose flour (about 1/4 cup)"
       ],
-      "recipe_count": 393,
+      "recipe_count": 399,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
@@ -48632,6 +48633,7 @@
         "candy-cane-muffins",
         "candy-cane-muffins-ref",
         "carrot-cake-cream-cheese-icing-gahb",
+        "carrot-cake-kefir-frosting",
         "carrot-muffins-ref",
         "cf-basque-burnt-cheesecake",
         "cf-brie-leek-pizza",
@@ -48687,6 +48689,7 @@
         "conch-fritters-bahamian-style",
         "cornmeal-and-berry-pancakes",
         "cornmeal-berry-pancakes-ref",
+        "cornmeal-cake-with-kefir",
         "cornmeal-waffles",
         "cornmeal-waffles-ref",
         "cranberry-blueberry-muffins",
@@ -48731,6 +48734,7 @@
         "enchilada-sauce-quick-cpm",
         "english-crumpets",
         "english-crumpets-ref",
+        "fluffy-kefir-pancakes",
         "focaccia-bread",
         "fougasse-ref",
         "french-chocolate-bread-ref",
@@ -48804,6 +48808,7 @@
         "maple-walnut-waffles",
         "maple-walnut-waffles-ref",
         "mexican-chocolate-shortbread",
+        "milk-kefir-bread-with-herbs",
         "millionaires-shortbread",
         "mini-peanut-butter-cupcakes",
         "miniature-chocolate-eclairs-gahb",
@@ -48895,6 +48900,7 @@
         "ricotta-pancakes",
         "rio-grande-green-pork-chili",
         "salisbury-steak-with-mushrooms",
+        "savory-kefir-vegetable-pie",
         "seafood-gumbo-cpm",
         "sicilian-fig-cookies",
         "silver-dollar-pancakes-ref",
@@ -48944,6 +48950,7 @@
         "waffles-summer-berries-ref",
         "waldorf-astoria-red-velvet-cake",
         "white-chili-quick-roasted-garlic",
+        "white-sauce-with-kefir",
         "yeast-waffles",
         "yeast-waffles-ref",
         "zinfandel-braised-leg-of-lamb",
@@ -49975,6 +49982,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "sauerbraten-gutenberg"
+      ]
+    },
+    {
+      "ingredient": "and chopped spinach",
+      "variants": [
+        "cooked and chopped spinach"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "creamed-spinach-with-kefir"
       ]
     },
     {
@@ -52516,7 +52533,7 @@
       "variants": [
         "baking powder"
       ],
-      "recipe_count": 362,
+      "recipe_count": 365,
       "recipe_ids": [
         "acorn-wild-rice-cakes-sioux-chef",
         "alabama-lane-cake",
@@ -52594,6 +52611,7 @@
         "caramel-apple-muffins",
         "caramel-nut-cake-carnation",
         "carrot-cake-cream-cheese-icing-gahb",
+        "carrot-cake-kefir-frosting",
         "carrot-muffins-ref",
         "chai-spiced-muffins",
         "chai-spiced-muffins-ref",
@@ -52646,6 +52664,7 @@
         "cornmeal-and-berry-pancakes",
         "cornmeal-and-rye-waffles-gutenberg-15464",
         "cornmeal-berry-pancakes-ref",
+        "cornmeal-cake-with-kefir",
         "cornmeal-griddle-cakes-gutenberg-15464",
         "cornmeal-pastry-for-meat-or-fish-gutenberg-15464",
         "cornmeal-rolls-gutenberg-15464",
@@ -52686,6 +52705,7 @@
         "filled-crepes",
         "filled-crepes-ref",
         "fish-shortcake-gutenberg-15464",
+        "fluffy-kefir-pancakes",
         "for-one-fromscratc",
         "for-twelve-goodandche",
         "fried-pastries-with-wine-syrup",
@@ -52961,7 +52981,7 @@
         "baking soda",
         "baking soda (for soaking)"
       ],
-      "recipe_count": 135,
+      "recipe_count": 136,
       "recipe_ids": [
         "almond-pancakes",
         "almond-pancakes-ref",
@@ -53015,6 +53035,7 @@
         "dutch-oven-biscuits-dutchovenc",
         "easy-double-chocolate-chip-brownies-nestle",
         "favorite-fruit-cake-thewingold",
+        "fluffy-kefir-pancakes",
         "fudgy-chocolate-layer-cake-gahb",
         "german-chocolate-cake-coconut-pecan-cajeta-frosting",
         "ginger-bread-gutenberg-33748",
@@ -55900,7 +55921,7 @@
         "ground black pepper",
         "whole black pepper"
       ],
-      "recipe_count": 157,
+      "recipe_count": 168,
       "recipe_ids": [
         "adobo-seasoning-cpm",
         "albuquerque-turkey",
@@ -55919,11 +55940,14 @@
         "chicken-pot-pie-gahb",
         "chicken-wings-dry-rub-cpm",
         "chiles-rellenos-guillermos-chile-bible",
+        "chimichurri-rojo",
         "chimichurri-steak-cpm",
+        "cold-cucumber-kefir-soup",
         "cornichons-or-french-cucumber-pickles-gutenberg-34837",
         "crab-souffle",
         "crab-souffle-ref",
         "creamy-ham-and-chicken-medley-chickenrec",
+        "creamy-kefir-salad-dressing",
         "crockpot-crispy-buffalo-chicken-tacos-with-jalape-o-ranch",
         "crostini-con-sardo",
         "cuban-mojo-sauce-cpm",
@@ -55982,6 +56006,7 @@
         "food-my-muse-easy-pastina",
         "for-four-to-six-as-a-side-dish-goodandche",
         "garlic-herb-boursin-style",
+        "garlic-herb-kefir-sauce",
         "gordon-ramsay-creamed-corn",
         "gordon-ramsay-duck-breast-walnut-grape-compote",
         "gordon-ramsay-elsies-turkey-tacos",
@@ -56009,6 +56034,9 @@
         "italian-meatballs-printed",
         "jamaican-jerk-chicken-cpm",
         "jamaican-jerk-seasoning-cpm",
+        "kefir-cheese-balls-with-herbs",
+        "kefir-marinade-for-chicken",
+        "kefir-tartar-sauce",
         "keto-alfredo-sauce-with-zoodles",
         "keto-chicken-alfredo-bake",
         "kibbee-lebanese-style",
@@ -56030,11 +56058,13 @@
         "pepper-steak-cpm",
         "peri-peri-seasoning-cpm",
         "pork-chops-fava-beans",
+        "potato-salad-kefir-dressing",
         "reddit-funeral-potatoes",
         "reddit-potato-cheese-casserole",
         "reverse-sear-tri-tip-cuso",
         "sausage-cheese-breakfast-pizza",
         "sausage-cheese-breakfast-pizza-ref",
+        "savory-kefir-vegetable-pie",
         "sazon-seasoning-cpm",
         "scorpion-pepper-bacon-ece",
         "seasoni-ng-mi-x-for-chicken-chickenrec",
@@ -56054,10 +56084,12 @@
         "tomato-soy-gutenberg-26374",
         "traditional-belper-knolle-swiss",
         "tuna-nicoise-salad-ref",
+        "tuna-spread-with-kefir",
         "turkey-chorizo-burgers-cpm",
         "vintage-green-bean-casserole",
         "vintage-tuna-noodle-casserole",
         "watermelon-feta-salad",
+        "white-sauce-with-kefir",
         "yale-college-welsh-rabbit-gutenberg-14293"
       ]
     },
@@ -60237,7 +60269,7 @@
         "melted butter (for cloth binding)",
         "softened butter"
       ],
-      "recipe_count": 839,
+      "recipe_count": 842,
       "recipe_ids": [
         "1-2-3-4-cake-gutenberg-26374",
         "6-in-1-refrigerator-cookies-harvester",
@@ -60579,6 +60611,7 @@
         "fish-balls-gutenberg-26374",
         "fish-gutenberg-12327",
         "fish-of-galilee-ancients",
+        "fluffy-kefir-pancakes",
         "food-my-muse-easy-pastina",
         "food-my-muse-potato-galette",
         "food-my-muse-potato-pave",
@@ -60919,6 +60952,7 @@
         "sauces-formeats-theplainsa",
         "sauces-gutenberg-12327",
         "savory-eggy-dry-rabbit-gutenberg-14293",
+        "savory-kefir-vegetable-pie",
         "scalloped-cabbage-carnation",
         "scalloped-tomatoes-gutenberg",
         "schnitzelbank-pot-gutenberg-14293",
@@ -61072,6 +61106,7 @@
         "welsh-rarebit-carnation",
         "white-cake-gutenberg-26374",
         "white-mountain-cake-gutenberg-26374",
+        "white-sauce-with-kefir",
         "whole-wheat-waffles-ref",
         "wholewheat-maple-bread-ref",
         "ye-original-recipe-gutenberg-14293",
@@ -66377,9 +66412,10 @@
     {
       "ingredient": "caper",
       "variants": [
-        "capers"
+        "capers",
+        "chopped capers"
       ],
-      "recipe_count": 21,
+      "recipe_count": 22,
       "recipe_ids": [
         "a-mince-of-sea-food-gutenberg-29728",
         "alla-pollastra-salad-gutenberg",
@@ -66395,6 +66431,7 @@
         "gordon-ramsay-caper-tomato-relish",
         "gravlax-with-the-works",
         "hungarian-liptauer",
+        "kefir-tartar-sauce",
         "pasta-puttanesca-ref",
         "salad-del-prevosto-gutenberg",
         "salad-del-prevosto-gutenberg-6385",
@@ -66830,7 +66867,7 @@
         "sliced carrots",
         "small thin carrots"
       ],
-      "recipe_count": 78,
+      "recipe_count": 79,
       "recipe_ids": [
         "another-bechamel-gutenberg-34837",
         "antioxidant-delight-ref",
@@ -66844,6 +66881,7 @@
         "brown-sauce-triedandtr",
         "caldo-camaron-cpm",
         "carrot-cake-cream-cheese-icing-gahb",
+        "carrot-cake-kefir-frosting",
         "carrot-muffins-ref",
         "carrot-pudding-american-cookery-1796",
         "carrot-relish",
@@ -68216,7 +68254,7 @@
         "shredded cheddar cheese",
         "shredded cheddar cheese (about 2 oz)"
       ],
-      "recipe_count": 82,
+      "recipe_count": 83,
       "recipe_ids": [
         "apple-cheddar-muffins",
         "apple-cheddar-muffins-ref",
@@ -68240,6 +68278,7 @@
         "broccoli-and-cheese-frittata",
         "broccoli-and-cheese-frittata-ref",
         "buffalo-chicken-dip-cpm",
+        "cheddar-bay-sausage-balls",
         "cheddar-chive-turnovers",
         "cheese-potato-souffle-gutenberg-14293",
         "cheese-souffle",
@@ -68419,7 +68458,7 @@
         "grated cheese",
         "shredded cheese"
       ],
-      "recipe_count": 81,
+      "recipe_count": 82,
       "recipe_ids": [
         "a-rich-entre-of-fish-poultry-and-sausage-in-cream-gutenberg-29728",
         "all-american-succotash-rabbit-gutenberg-14293",
@@ -68483,6 +68522,7 @@
         "pink-poodle-gutenberg-14293",
         "reddit-grandmas-hamburger-pie",
         "rice-cheese-rarebit-gutenberg-15464",
+        "savory-kefir-vegetable-pie",
         "scalloped-macaroni-with-peas-in-tomato-and-cheese-sauce-gutenberg-15464",
         "scalloped-tomatoes-gutenberg",
         "sherry-rabbit-gutenberg-14293",
@@ -70452,6 +70492,18 @@
       ]
     },
     {
+      "ingredient": "chia seed",
+      "variants": [
+        "chia seeds"
+      ],
+      "recipe_count": 3,
+      "recipe_ids": [
+        "chia-pudding-kefir-tropical-fruits",
+        "morning-kefir-smoothie-red-berries",
+        "overnight-oats-kefir-dried-fruits"
+      ]
+    },
+    {
       "ingredient": "chic ken",
       "variants": [
         "diced cooked chic ken"
@@ -70657,7 +70709,7 @@
         "whole chicken breasts (8 halves)",
         "whole chicken breasts (boneless)"
       ],
-      "recipe_count": 80,
+      "recipe_count": 81,
       "recipe_ids": [
         "albuquerque-turkey",
         "apple-chicken-casserole-chickenrec",
@@ -70711,6 +70763,7 @@
         "hunan-chicken-cpm",
         "italian-chicken-cutlets-chickenrec",
         "italian-chicken-with-fresh-vegetabl-chickenrec",
+        "kefir-marinade-for-chicken",
         "keto-alfredo-sauce-with-zoodles",
         "keto-chicken-alfredo",
         "keto-chicken-alfredo-bake",
@@ -71934,7 +71987,7 @@
         "minced chives",
         "minced fresh chives"
       ],
-      "recipe_count": 49,
+      "recipe_count": 51,
       "recipe_ids": [
         "big-back-sauce",
         "breakfast-bruschetta",
@@ -71975,9 +72028,11 @@
         "ham-and-cheese-souffle",
         "ham-cheese-souffle-ref",
         "heavy-cream-scrambled-eggs",
+        "kefir-tartar-sauce",
         "liptauer-hungarian-spread",
         "magnasco-edam-grated-vegetables",
         "potato-bites",
+        "potato-salad-kefir-dressing",
         "pumpkin-curry-soup",
         "reddit-red-dog-toast",
         "roquefort-sauce-steak",
@@ -74436,10 +74491,12 @@
         "cocoa powder (for rind)",
         "cocoa powder (optional)"
       ],
-      "recipe_count": 18,
+      "recipe_count": 20,
       "recipe_ids": [
         "candy-cane-truffles",
+        "chocolate-banana-smoothie-kefir",
         "chocolate-crepes-truvia",
+        "chocolate-mousse-with-kefir",
         "chocolate-waffle",
         "chocolate-waffle-ref",
         "devil-cake-oursisters",
@@ -76499,7 +76556,7 @@
         "cornmeal",
         "ground cornmeal"
       ],
-      "recipe_count": 35,
+      "recipe_count": 36,
       "recipe_ids": [
         "baked-eggs-incorn-cases-wilsonscoo",
         "boston-brown-bread-gutenberg-15464",
@@ -76512,6 +76569,7 @@
         "cornbread-gutenberg-33748",
         "cornmeal-and-berry-pancakes",
         "cornmeal-berry-pancakes-ref",
+        "cornmeal-cake-with-kefir",
         "cornmeal-griddle-cakes-gutenberg-15464",
         "cornmeal-ragged-robins-gutenberg-15464",
         "cornmeal-rolls-gutenberg-15464",
@@ -79003,7 +79061,7 @@
         "cream cheese",
         "softened cream cheese"
       ],
-      "recipe_count": 65,
+      "recipe_count": 66,
       "recipe_ids": [
         "apple-and-cheese-salad-gutenberg-14293",
         "bacon-jalapeno-popper-dip-cpm",
@@ -79018,6 +79076,7 @@
         "candied-bacon-jalapeno-poppers-cpm",
         "carrot-cake-cream-cheese-icing-gahb",
         "cf-marble-chocolate-cheesecake",
+        "cheddar-bay-sausage-balls",
         "cheddar-chive-turnovers",
         "chicken-l-asagne-chickenrec",
         "chocolate-cheesecake-gahb",
@@ -79617,6 +79676,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "alex-bala-s-crispy-potato-shrimp-grits-minis"
+      ]
+    },
+    {
+      "ingredient": "creamy kefir cheese",
+      "variants": [
+        "creamy kefir cheese (labneh)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "kefir-cheese-balls-with-herbs"
       ]
     },
     {
@@ -80250,13 +80319,16 @@
     {
       "ingredient": "cucumber",
       "variants": [
+        "chopped cucumber",
         "cucumber",
-        "cucumbers"
+        "cucumbers",
+        "medium cucumber"
       ],
-      "recipe_count": 12,
+      "recipe_count": 14,
       "recipe_ids": [
         "a-salad-for-dinner-etc-for-hot-weather-gutenberg-34107",
         "bread-and-butter-pickles-gutenberg",
+        "cold-cucumber-kefir-soup",
         "cucumber-salad-gutenberg",
         "detox-juice-ref",
         "fattoosh",
@@ -80264,6 +80336,7 @@
         "gr-quinoa-salad",
         "greek-layered-dip-with-pita-chips",
         "greek-salad-horiatiki",
+        "green-detox-smoothie-kefir",
         "grilled-halloumi-salad",
         "scalloped-tomatoes-gutenberg",
         "to-pickle-cucumbers-american-cookery-1796"
@@ -80424,7 +80497,7 @@
         "ground cumin",
         "ground cumin (optional)"
       ],
-      "recipe_count": 231,
+      "recipe_count": 233,
       "recipe_ids": [
         "a-dish-of-peaches-gutenberg-29728",
         "a-dish-of-pears-gutenberg-29728",
@@ -80505,6 +80578,7 @@
         "chicken-wings-dry-rub-cpm",
         "chile-relleno-casserole-cpm",
         "chili-verde-cpm",
+        "chimichurri-rojo",
         "chipotle-lamb-chops",
         "cilantro-and-garlic-potatoes",
         "cincinnati-style-chili",
@@ -80556,6 +80630,7 @@
         "honey-walnut-trout-ancients",
         "hot-sauce-for-venison-gutenberg-29728",
         "indian-peas-gutenberg-29728",
+        "kefir-marinade-for-chicken",
         "koulouri-cypriot-village-bread",
         "lamb-korma-cpm",
         "lamb-vindaloo-cpm",
@@ -81728,12 +81803,14 @@
     {
       "ingredient": "dark chocolate",
       "variants": [
-        "dark chocolate"
+        "dark chocolate",
+        "melted dark chocolate"
       ],
-      "recipe_count": 4,
+      "recipe_count": 5,
       "recipe_ids": [
         "cf-marble-chocolate-cheesecake",
         "chocolate-chip-cookies-ref",
+        "chocolate-mousse-with-kefir",
         "dgf-fudge-sauce",
         "grilled-fruity-croissant-sandwich"
       ]
@@ -82549,7 +82626,7 @@
       "variants": [
         "dijon mustard"
       ],
-      "recipe_count": 44,
+      "recipe_count": 45,
       "recipe_ids": [
         "avocado-and-more-quiche",
         "baked-chicken-parmesan-chickenrec",
@@ -82588,6 +82665,7 @@
         "ham-cheese-open-faced-sandwiches",
         "ham-cheese-open-faced-sandwiches-ref",
         "hungarian-liptauer",
+        "kefir-tartar-sauce",
         "liptauer-hungarian-spread",
         "manchego-salad-sherry-vinaigrette",
         "marinated-chicken-wings-chickenrec",
@@ -84444,7 +84522,7 @@
         "whole egg",
         "whole eggs"
       ],
-      "recipe_count": 1294,
+      "recipe_count": 1299,
       "recipe_ids": [
         "-gutenberg-29728",
         "1-2-3-4-cake-gutenberg-26374",
@@ -84685,6 +84763,7 @@
         "cardoons-gutenberg-29728",
         "carnationnaise-mayonnaise-carnation",
         "carrot-cake-cream-cheese-icing-gahb",
+        "carrot-cake-kefir-frosting",
         "carrot-fritters-thewingold",
         "carrot-muffins-ref",
         "carrot-pudding-american-cookery-1796",
@@ -84837,6 +84916,7 @@
         "cornmeal-and-berry-pancakes",
         "cornmeal-and-rye-waffles-gutenberg-15464",
         "cornmeal-berry-pancakes-ref",
+        "cornmeal-cake-with-kefir",
         "cornmeal-rolls-gutenberg-15464",
         "cornmeal-waffles",
         "cornmeal-waffles-gutenberg-15464",
@@ -85034,6 +85114,7 @@
         "fish-balls-gutenberg-26374",
         "fish-croquettes-gutenberg-15464",
         "fluffy-creamy-eggs",
+        "fluffy-kefir-pancakes",
         "for-dressing-gutenberg-15464",
         "for-four-to-six-as-a-side-dish-goodandche",
         "for-one-fromscratc",
@@ -85507,6 +85588,7 @@
         "sausage-gutenberg-29728",
         "sausage-twist",
         "sausage-twist-ref",
+        "savory-kefir-vegetable-pie",
         "scalloped-chi-cken-chickenrec",
         "scalloped-ham-and-hominy-gutenberg-15464",
         "scalloped-spinach-gutenberg",
@@ -85530,6 +85612,7 @@
         "silver-dollar-pancakes-ref",
         "silver-dollars-pancakes",
         "simple-leek-quiche",
+        "skillet-cheese-bread-kefir",
         "smelt-pie-or-sprat-custard-gutenberg-29728",
         "smothered-beef-with-corn-pudding-gutenberg-33748",
         "snickerdoodles-betty-crocker",
@@ -87743,12 +87826,13 @@
         "extra virgin olive oil",
         "extra virgin olive oil (for preserving)"
       ],
-      "recipe_count": 34,
+      "recipe_count": 35,
       "recipe_ids": [
         "cf-baked-feta",
         "cf-caprese-pasta-salad",
         "cf-greek-tzatziki",
         "cf-israeli-hummus",
+        "creamy-kefir-salad-dressing",
         "dill-pickle-chicken-wings",
         "gordon-ramsay-balsamic-vinaigrette",
         "gordon-ramsay-brick-chicken",
@@ -94084,15 +94168,20 @@
     {
       "ingredient": "fruit",
       "variants": [
+        "chopped dried fruits",
+        "chopped fruits",
         "crushed fruit",
         "fruit"
       ],
-      "recipe_count": 7,
+      "recipe_count": 10,
       "recipe_ids": [
         "cheese-bowl-cottage-cheese",
         "fig-jam-no-1-gutenberg-26374",
+        "fruit-jam-with-kefir",
         "fruit-sponge-gutenberg-15464",
         "fruit-tapioca-gutenberg-15464",
+        "kefir-fruit-popsicles",
+        "overnight-oats-kefir-dried-fruits",
         "quince-or-pear-preserves-gutenberg-15464",
         "rice-fruit-custard-gutenberg-15464",
         "serves-four-to-six-goodandche"
@@ -97054,7 +97143,7 @@
         "minced garlic cloves",
         "small garlic cloves"
       ],
-      "recipe_count": 69,
+      "recipe_count": 72,
       "recipe_ids": [
         "arayes-stuffed-pitas-tahini-ref",
         "asian-meatballs-ref",
@@ -97068,11 +97157,13 @@
         "chicken-elizabeth-chickenrec",
         "chicken-tikka-chickenrec",
         "chicken-tortilla-soup-ref",
+        "chimichurri-rojo",
         "conch-fritters-bahamian-style",
         "cranberry-habanero-salsa-food52",
         "crockpot-hawaiian-chicken-almondeater-ref",
         "delightful-crab-quiche-ref",
         "fresh-tomato-quiche-ref",
+        "garlic-herb-kefir-sauce",
         "garlicky-broccoli-rabe",
         "ghost-pepper-salsa-dried-chilies",
         "goldie-chicken-ref",
@@ -97104,6 +97195,7 @@
         "herbed-chicken-chickenrec",
         "hot-filling-fromscratc",
         "ideas-fromscratc",
+        "kefir-marinade-for-chicken",
         "keto-chicken-alfredo-broccoli-bake",
         "lgc-baked-ricotta",
         "mexican-style-quiche-ref",
@@ -97136,7 +97228,7 @@
         "minced garlic clove",
         "small garlic clove"
       ],
-      "recipe_count": 45,
+      "recipe_count": 48,
       "recipe_ids": [
         "artichoke-pine-nut-bread",
         "baked-chicken-parmesan-chickenrec",
@@ -97144,6 +97236,9 @@
         "baked-eggs-ref",
         "ch-fondue-blend",
         "chicken-tidbi-ts-chickenrec",
+        "cold-cucumber-kefir-soup",
+        "creamed-spinach-with-kefir",
+        "creamy-kefir-salad-dressing",
         "crock-pot-hawaiian-chicken-weelicious-ref",
         "crostini-con-sardo",
         "eggs-and-spinach",
@@ -98026,7 +98121,7 @@
         "sliced ginger",
         "whole ginger"
       ],
-      "recipe_count": 131,
+      "recipe_count": 132,
       "recipe_ids": [
         "apple-ginger-pancakes",
         "apple-ginger-pancakes-ref",
@@ -98106,6 +98201,7 @@
         "gr-teriyaki-salmon",
         "grandmas-favorite-gingerbread-grandmas-molasses",
         "grandmothers-molasses-cake-gutenberg",
+        "green-detox-smoothie-kefir",
         "hawaiian-chicken-spendwithpennies-ref",
         "holiday-gingerbread-pumpkin-muffins",
         "honey-gl-azed-chicken-l-owfat-chickenrec",
@@ -99654,10 +99750,11 @@
       "variants": [
         "granola"
       ],
-      "recipe_count": 2,
+      "recipe_count": 3,
       "recipe_ids": [
         "fruity-latvian-breakfast",
-        "fruity-latvian-breakfast-ref"
+        "fruity-latvian-breakfast-ref",
+        "kefir-berry-parfait"
       ]
     },
     {
@@ -100353,13 +100450,14 @@
       "variants": [
         "green apple"
       ],
-      "recipe_count": 5,
+      "recipe_count": 6,
       "recipe_ids": [
         "apple-cheddar-muffins",
         "apple-cheddar-muffins-ref",
         "apple-cranberry-muffins-ref",
         "apple-white-chocolate-muffins",
-        "apple-white-chocolate-muffins-ref"
+        "apple-white-chocolate-muffins-ref",
+        "green-detox-smoothie-kefir"
       ]
     },
     {
@@ -102912,16 +103010,21 @@
         "dried herbs",
         "dried herbs (italian blend or herbs de provence)",
         "dried herbs (thyme, rosemary, chive, or parsley)",
+        "fresh chopped herbs",
         "fresh herbs",
         "fresh herbs (thyme, rosemary, or oregano)",
         "herbs",
         "herbs (thyme, pepper)"
       ],
-      "recipe_count": 8,
+      "recipe_count": 12,
       "recipe_ids": [
         "amish-buttermilk-cheese",
         "cf-herb-flatbread-crackers",
+        "creamy-kefir-salad-dressing",
+        "garlic-herb-kefir-sauce",
+        "kefir-cheese-balls-with-herbs",
         "lgc-baked-ricotta",
+        "milk-kefir-bread-with-herbs",
         "psr-farmers-cheese",
         "sheep-milk-fresh-cheese",
         "swiss-appenzeller",
@@ -103708,10 +103811,12 @@
         "honey or maple syrup",
         "honey or maple syrup (optional)"
       ],
-      "recipe_count": 5,
+      "recipe_count": 7,
       "recipe_ids": [
         "chilchin-sumac-pudding-sioux-chef",
         "chocolate-goat-cheese",
+        "kefir-berry-parfait",
+        "overnight-oats-kefir-dried-fruits",
         "raspberry-rose-hip-sauce-sioux-chef",
         "sumac-lemonade-sioux-chef",
         "wojape-sioux-chef"
@@ -103726,6 +103831,24 @@
       "recipe_ids": [
         "cottage-cheese-fruit-dressing-cottage-cheese",
         "gochujang-sauce-cpm"
+      ]
+    },
+    {
+      "ingredient": "honey or sweetener",
+      "variants": [
+        "honey or sweetener"
+      ],
+      "recipe_count": 9,
+      "recipe_ids": [
+        "avocado-kefir-smoothie",
+        "chia-pudding-kefir-tropical-fruits",
+        "chocolate-banana-smoothie-kefir",
+        "chocolate-mousse-with-kefir",
+        "fruit-jam-with-kefir",
+        "kefir-fruit-popsicles",
+        "kefir-ice-cream-citrus-fruits",
+        "kefir-ice-cream-mango-passion-fruit",
+        "morning-kefir-smoothie-red-berries"
       ]
     },
     {
@@ -106142,6 +106265,16 @@
       ]
     },
     {
+      "ingredient": "kale leaf",
+      "variants": [
+        "kale leaf"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "green-detox-smoothie-kefir"
+      ]
+    },
+    {
       "ingredient": "kale leav",
       "variants": [
         "kale leaves"
@@ -108061,7 +108194,7 @@
         "lemon juice (if using whole milk)",
         "lemon juice (or white vinegar)"
       ],
-      "recipe_count": 221,
+      "recipe_count": 226,
       "recipe_ids": [
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
         "adas-bil-hamod",
@@ -108093,6 +108226,7 @@
         "buttermilk-pie-cottage-cheese",
         "canadian-matrimonial-cake",
         "caramel-apple-salad",
+        "carrot-cake-kefir-frosting",
         "cf-greek-tzatziki",
         "chard-lentil-soup",
         "cheese-fondue",
@@ -108114,6 +108248,7 @@
         "cilantro-and-garlic-potatoes",
         "clams-a-la-bechamel-gutenberg-15464",
         "coconut-lemon-bars-betty-crocker",
+        "cold-cucumber-kefir-soup",
         "conversation-salad-harvester",
         "cottage-cheese-cake-cottage-cheese",
         "cottage-cheese-fruit-dressing-cottage-cheese",
@@ -108124,6 +108259,7 @@
         "creamy-asparagus-risotto-lemon-mascarpone",
         "creamy-banana-cereal",
         "creamy-banana-cereal-ref",
+        "creamy-kefir-salad-dressing",
         "dgf-1960s-style-chicken-divan",
         "dgf-bloody-mary-mix",
         "dgf-charred-chicken-breast-sandwich",
@@ -108179,6 +108315,7 @@
         "gr-pavlova-with-raspberry-curd",
         "gravy-forbaked-fish-theplainsa",
         "greek-lemon-chicken-chickenrec",
+        "green-detox-smoothie-kefir",
         "grilled-halloumi-salad",
         "halibut-cutlets-thewhysofc",
         "honey-punch",
@@ -108187,6 +108324,7 @@
         "indian-paneer",
         "italian-mascarpone",
         "katiki-domokou-cheese",
+        "kefir-ice-cream-citrus-fruits",
         "layali-libnan",
         "lebanese-chicken-and-potatoes",
         "lebanese-garlic-sauce",
@@ -114016,7 +114154,7 @@
         "mayonnaise",
         "mayonnaise (duke's or hellmann's)"
       ],
-      "recipe_count": 37,
+      "recipe_count": 38,
       "recipe_ids": [
         "best-hamburger",
         "big-back-sauce",
@@ -114043,6 +114181,7 @@
         "peach-salad-carnation",
         "picada-argentina-magnasco-edam",
         "potato-salad-harvester",
+        "potato-salad-kefir-dressing",
         "reddit-lime-jello-salad",
         "salmon-salad-sandwich-filling-harvester",
         "shrimp-tacos-cpm",
@@ -117243,6 +117382,45 @@
       ]
     },
     {
+      "ingredient": "milk kefir",
+      "variants": [
+        "milk kefir",
+        "warm milk kefir"
+      ],
+      "recipe_count": 29,
+      "recipe_ids": [
+        "avocado-kefir-smoothie",
+        "carrot-cake-kefir-frosting",
+        "chia-pudding-kefir-tropical-fruits",
+        "chocolate-banana-smoothie-kefir",
+        "chocolate-mousse-with-kefir",
+        "cold-cucumber-kefir-soup",
+        "cornmeal-cake-with-kefir",
+        "creamed-spinach-with-kefir",
+        "creamy-kefir-cheese-labneh",
+        "creamy-kefir-salad-dressing",
+        "fluffy-kefir-pancakes",
+        "fruit-jam-with-kefir",
+        "garlic-herb-kefir-sauce",
+        "green-detox-smoothie-kefir",
+        "homemade-kefir-greek-yogurt",
+        "kefir-berry-parfait",
+        "kefir-fruit-popsicles",
+        "kefir-ice-cream-citrus-fruits",
+        "kefir-ice-cream-mango-passion-fruit",
+        "kefir-marinade-for-chicken",
+        "kefir-tartar-sauce",
+        "milk-kefir-bread-with-herbs",
+        "morning-kefir-smoothie-red-berries",
+        "overnight-oats-kefir-dried-fruits",
+        "potato-salad-kefir-dressing",
+        "savory-kefir-vegetable-pie",
+        "skillet-cheese-bread-kefir",
+        "tuna-spread-with-kefir",
+        "white-sauce-with-kefir"
+      ]
+    },
+    {
       "ingredient": "milk or buttermilk",
       "variants": [
         "milk or buttermilk",
@@ -117670,11 +117848,12 @@
       "variants": [
         "chopped mint",
         "dried mint",
+        "fresh chopped mint",
         "fresh mint",
         "minced fresh mint",
         "mint"
       ],
-      "recipe_count": 110,
+      "recipe_count": 111,
       "recipe_ids": [
         "a-duck-with-peas-gutenberg-34837",
         "adas-bil-hamod",
@@ -117713,6 +117892,7 @@
         "boiled-ray-gutenberg-29728",
         "boiled-toothfish-gutenberg-29728",
         "citron-gutenberg-29728",
+        "cold-cucumber-kefir-soup",
         "compte-of-early-fruit-gutenberg-29728",
         "cumin-sauce-for-shellfish-gutenberg-29728",
         "directions-for-various-ways-of-dressing-meat-and-p-gutenberg",
@@ -117836,8 +118016,9 @@
         "minced mint leaves",
         "mint leaves"
       ],
-      "recipe_count": 7,
+      "recipe_count": 8,
       "recipe_ids": [
+        "avocado-kefir-smoothie",
         "gordon-ramsay-berry-pudding-panna-cotta",
         "gordon-ramsay-foie-gras-french-toast",
         "gr-quinoa-salad",
@@ -117999,13 +118180,14 @@
         "frozen mixed berries",
         "mixed berries"
       ],
-      "recipe_count": 6,
+      "recipe_count": 7,
       "recipe_ids": [
         "breakfast-parfait",
         "breakfast-parfait-ref",
         "breakfast-quinoa",
         "breakfast-quinoa-ref",
         "gordon-ramsay-berry-pudding-panna-cotta",
+        "kefir-berry-parfait",
         "tea-time-mini-muffins"
       ]
     },
@@ -120323,7 +120505,7 @@
         "nutmeg",
         "nutmeg (optional)"
       ],
-      "recipe_count": 127,
+      "recipe_count": 129,
       "recipe_ids": [
         "6-in-1-refrigerator-cookies-harvester",
         "another-bechamel-gutenberg-34837",
@@ -120348,6 +120530,7 @@
         "classic-pumpkin-roll",
         "coffee-and-spice-drops-betty-crocker",
         "cookies-gutenberg-33748",
+        "creamed-spinach-with-kefir",
         "creamy-ham-and-chicken-medley-chickenrec",
         "croque-madame-ref",
         "crumbly-apple-pie-gahb",
@@ -120451,6 +120634,7 @@
         "vintage-prune-cake",
         "wheaties-drop-cookies-betty-crocker",
         "wheatless-eggless-butterless-milkless-sugarless-cake-gutenberg-15464",
+        "white-sauce-with-kefir",
         "winter-squash-pudding-american-cookery-1796"
       ]
     },
@@ -121704,7 +121888,7 @@
         "olive oil",
         "olive oil (for rubbing rind)"
       ],
-      "recipe_count": 273,
+      "recipe_count": 276,
       "recipe_ids": [
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
         "adas-bil-hamod",
@@ -121741,6 +121925,7 @@
         "chicken-tortilla-soup-ref",
         "chicken-with-ri-ce-chickenrec",
         "chimichurri-cpm",
+        "chimichurri-rojo",
         "chimichurri-steak-cpm",
         "creamy-asparagus-risotto-lemon-mascarpone",
         "croatian-paski-sir",
@@ -121876,6 +122061,7 @@
         "kale-and-feta-burrito",
         "kale-swiss-cheese-omelette",
         "kale-swiss-cheese-omelette-ref",
+        "kefir-cheese-balls-with-herbs",
         "keto-alfredo-sauce-with-zoodles",
         "keto-chicken-alfredo-bake",
         "keto-chicken-alfredo-casserole",
@@ -121908,6 +122094,7 @@
         "mexican-style-quiche-ref",
         "middle-eastern-labneh",
         "middle-eastern-shanklish",
+        "milk-kefir-bread-with-herbs",
         "monday-morning-potato-rolls-bread",
         "muffaletta-sandwich-cpm",
         "naomis-carrot-cheese-bake-ancients",
@@ -126044,7 +126231,7 @@
         "fresh orange juice (for glaze)",
         "orange juice"
       ],
-      "recipe_count": 30,
+      "recipe_count": 31,
       "recipe_ids": [
         "almond-streusel-cake-gahb",
         "apple-chicken-casserole-chickenrec",
@@ -126065,6 +126252,7 @@
         "gordon-ramsay-soy-ginger-vinaigrette",
         "harvey-wallbanger-cake-1970s",
         "herbed-heritage-pork-loin-white-wine",
+        "kefir-ice-cream-citrus-fruits",
         "mango-agave-sorbet",
         "orange-banana-cake-harvester",
         "orange-beef-lettuce-wraps",
@@ -126273,12 +126461,13 @@
         "orange zest",
         "orange zest (for filling)"
       ],
-      "recipe_count": 8,
+      "recipe_count": 9,
       "recipe_ids": [
         "almond-streusel-cake-gahb",
         "baked-figs-in-wine-ancients",
         "candied-hoska",
         "irish-soda-bread",
+        "kefir-ice-cream-citrus-fruits",
         "orange-cinnamon-muffins",
         "orange-cinnamon-muffins-ref",
         "orange-glazed-coffee-cake-gahb",
@@ -126439,7 +126628,7 @@
         "minced fresh oregano",
         "oregano"
       ],
-      "recipe_count": 77,
+      "recipe_count": 78,
       "recipe_ids": [
         "aaron-mccargo-steak-fajita-chili",
         "adobo-seasoning-cpm",
@@ -126462,6 +126651,7 @@
         "chile-con-carne-de-venado-chile-bible",
         "chili-verde-cpm",
         "chimichurri-cpm",
+        "chimichurri-rojo",
         "chimichurri-steak-cpm",
         "classic-chili-cpm",
         "cuban-mojo-sauce-cpm",
@@ -127507,7 +127697,7 @@
         "parmesan cheese",
         "shredded parmesan cheese"
       ],
-      "recipe_count": 96,
+      "recipe_count": 97,
       "recipe_ids": [
         "20-mi-nute-chi-cken-parmesan-chickenrec",
         "almost-famous-spinach-artichoke-dip",
@@ -127597,6 +127787,7 @@
         "sausage-cheese-breakfast-pizza",
         "sicilian-macaroni-with-eggplant-gutenberg",
         "sicilian-macaroni-with-eggplant-gutenberg-6385",
+        "skillet-cheese-bread-kefir",
         "spaghetti-homemade-ref",
         "spicy-meatball-sub-cpm",
         "spicy-shrimp-pasta-ref",
@@ -127772,7 +127963,7 @@
         "minced parsley",
         "parsley"
       ],
-      "recipe_count": 199,
+      "recipe_count": 201,
       "recipe_ids": [
         "20-mi-nute-chi-cken-parmesan-chickenrec",
         "6-whole-lg-chicken-breasts-boned-an-chickenrec",
@@ -127822,6 +128013,7 @@
         "chicken-sour-gutenberg-29728",
         "chicken-tidbi-ts-chickenrec",
         "chimichurri-cpm",
+        "chimichurri-rojo",
         "chimichurri-steak-cpm",
         "clams-a-la-bechamel-gutenberg-15464",
         "codfish-with-egg-sauce-gutenberg-6385",
@@ -127963,6 +128155,7 @@
         "swiss-steak-dutchovenc",
         "tabouli",
         "tuna-nicoise-salad-ref",
+        "tuna-spread-with-kefir",
         "use-of-syrups-gutenberg-65793",
         "veal-cutlets-gutenberg-34837",
         "veal-kidneys-gutenberg-34837",
@@ -128397,6 +128590,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "gordon-ramsay-passion-fruit-curd"
+      ]
+    },
+    {
+      "ingredient": "passion fruit pulp",
+      "variants": [
+        "passion fruit pulp"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "kefir-ice-cream-mango-passion-fruit"
       ]
     },
     {
@@ -128878,8 +129081,9 @@
       "variants": [
         "peanut butter"
       ],
-      "recipe_count": 13,
+      "recipe_count": 14,
       "recipe_ids": [
+        "chocolate-banana-smoothie-kefir",
         "crus-t-ingre-dients-blueribbon",
         "extension-of-table-fats-gutenberg-15464",
         "gordon-ramsay-chicken-mole",
@@ -130939,11 +131143,13 @@
     {
       "ingredient": "pickl",
       "variants": [
+        "chopped pickles",
         "pickles"
       ],
-      "recipe_count": 1,
+      "recipe_count": 2,
       "recipe_ids": [
-        "celery-sauce-theamerica"
+        "celery-sauce-theamerica",
+        "kefir-tartar-sauce"
       ]
     },
     {
@@ -132975,13 +133181,14 @@
         "cooked potatoes",
         "diced cooked potatoes",
         "diced potatoes",
+        "medium potatoes",
         "potato",
         "potatoes",
         "raw potatoes",
         "sliced potatoes",
         "small potatoes"
       ],
-      "recipe_count": 70,
+      "recipe_count": 71,
       "recipe_ids": [
         "beef-caldereta-cpm",
         "beef-pot-pie-gutenberg",
@@ -133038,6 +133245,7 @@
         "potato-flour-gutenberg-34837",
         "potato-pancakes-gutenberg-15464",
         "potato-parker-house-rolls-gutenberg-15464",
+        "potato-salad-kefir-dressing",
         "potato-salad-thewingold",
         "potatoes-au-gratin-gutenberg-14293",
         "potatoes-encasserole-scottsnort",
@@ -133617,10 +133825,11 @@
         "powdered sugar (for dusting)",
         "powdered sugar (for glaze)"
       ],
-      "recipe_count": 73,
+      "recipe_count": 74,
       "recipe_ids": [
         "almond-drop-cakes-gutenberg-26374",
         "anise-cookies-gutenberg",
+        "carrot-cake-kefir-frosting",
         "cf-peach-blackberry-clafouti",
         "champagne-punch-gutenberg-26374",
         "chestnut-fritters-gutenberg",
@@ -136125,11 +136334,12 @@
         "red bell pepper",
         "red bell peppers"
       ],
-      "recipe_count": 27,
+      "recipe_count": 28,
       "recipe_ids": [
         "anasazi-black-bean-chili",
         "beef-caldereta-cpm",
         "chicken-stir-fry-feast-chickenrec",
+        "chimichurri-rojo",
         "conch-fritters-bahamian-style",
         "crockpot-hawaiian-chicken-almondeater-ref",
         "dgf-lemon-rice-pilaf",
@@ -136184,6 +136394,18 @@
       "recipe_count": 1,
       "recipe_ids": [
         "eggplant-involtini-spicy-red-pepper-emulsion"
+      ]
+    },
+    {
+      "ingredient": "red berry",
+      "variants": [
+        "frozen red berries",
+        "red berries"
+      ],
+      "recipe_count": 2,
+      "recipe_ids": [
+        "chocolate-mousse-with-kefir",
+        "morning-kefir-smoothie-red-berries"
       ]
     },
     {
@@ -136400,6 +136622,16 @@
       ]
     },
     {
+      "ingredient": "red lobster cheddar bay biscuit mix",
+      "variants": [
+        "red lobster cheddar bay biscuit mix (with seasoning packet)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cheddar-bay-sausage-balls"
+      ]
+    },
+    {
       "ingredient": "red onion",
       "variants": [
         "minced red onion",
@@ -136407,7 +136639,7 @@
         "red onions",
         "small red onion"
       ],
-      "recipe_count": 30,
+      "recipe_count": 31,
       "recipe_ids": [
         "bbq-chicken-pizza-cpm",
         "black-bean-corn-salad-cpm",
@@ -136437,6 +136669,7 @@
         "spicy-breakfast-migas-ref",
         "sweet-potato-burrito-avocado-salsa-verde",
         "tuna-nicoise-salad-ref",
+        "tuna-spread-with-kefir",
         "verduras-gratinadas-con-sardo",
         "watermelon-feta-salad"
       ]
@@ -136646,7 +136879,7 @@
         "dried red pepper flakes",
         "red pepper flakes"
       ],
-      "recipe_count": 34,
+      "recipe_count": 35,
       "recipe_ids": [
         "argentinian-provoleta",
         "asiago-red-pepper",
@@ -136654,6 +136887,7 @@
         "bucatini-amatriciana-cpm",
         "chili-oil-noodles-cpm",
         "chimichurri-cpm",
+        "chimichurri-rojo",
         "chimichurri-steak-cpm",
         "claudias-turkish-dumplings",
         "conch-fritters-bahamian-style",
@@ -136884,10 +137118,11 @@
       "variants": [
         "red wine vinegar"
       ],
-      "recipe_count": 25,
+      "recipe_count": 26,
       "recipe_ids": [
         "bobs-oatmeal-crusted-trout",
         "chimichurri-cpm",
+        "chimichurri-rojo",
         "chimichurri-steak-cpm",
         "dgf-barbecue-sauce",
         "donair",
@@ -138995,8 +139230,9 @@
         "ripe avocado",
         "ripe avocados"
       ],
-      "recipe_count": 3,
+      "recipe_count": 4,
       "recipe_ids": [
+        "avocado-kefir-smoothie",
         "gordon-ramsay-corn-avocado-salsa",
         "gordon-ramsay-crab-shrimp-lettuce-cups",
         "gr-chocolate-avocado-mousse"
@@ -139006,11 +139242,13 @@
       "ingredient": "ripe banana",
       "variants": [
         "diced ripe bananas",
+        "frozen ripe banana",
         "large ripe banana",
         "large ripe bananas",
+        "ripe banana",
         "ripe bananas"
       ],
-      "recipe_count": 12,
+      "recipe_count": 14,
       "recipe_ids": [
         "banana-cinnamon-muffins",
         "banana-cinnamon-muffins-ref",
@@ -139018,8 +139256,10 @@
         "banana-whip-topping-grandmas-molasses",
         "bananas-foster-waffles",
         "bananas-foster-waffles-ref",
+        "chocolate-banana-smoothie-kefir",
         "frozen-fruit-salad-harvester",
         "fruity-breakfast-sandwich",
+        "morning-kefir-smoothie-red-berries",
         "peanut-butter-banana-muffins-ref",
         "reddit-4-generation-banana-bread",
         "southern-hummingbird-cake",
@@ -139113,13 +139353,14 @@
         "ripe mango",
         "ripe mangoes"
       ],
-      "recipe_count": 6,
+      "recipe_count": 7,
       "recipe_ids": [
         "breakfast-sandwich-summer-fruits",
         "fruity-yogurt-smoothie",
         "fruity-yogurt-smoothie-ref",
         "gingerbread-cupcakes-with-caramelized-mango-buttercream",
         "gordon-ramsay-island-salsa",
+        "kefir-ice-cream-mango-passion-fruit",
         "mango-habanero-hot-sauce-cpm"
       ]
     },
@@ -139610,7 +139851,7 @@
       "variants": [
         "rolled oats"
       ],
-      "recipe_count": 18,
+      "recipe_count": 19,
       "recipe_ids": [
         "apple-breakfast-bars",
         "apple-breakfast-bars-ref",
@@ -139627,6 +139868,7 @@
         "oatmeal-muffins-ref",
         "oatmeal-nut-bread-gutenberg-15464",
         "oatmeal-refrigerator-cookies-harvester",
+        "overnight-oats-kefir-dried-fruits",
         "rolled-oats-ragged-robins-gutenberg-15464",
         "use-of-syrups-gutenberg-65793",
         "wholewheat-maple-bread-ref"
@@ -141251,7 +141493,7 @@
         "salt (if using unsalted butter)",
         "salt (optional)"
       ],
-      "recipe_count": 2290,
+      "recipe_count": 2306,
       "recipe_ids": [
         "14-arpents",
         "6-in-1-refrigerator-cookies-harvester",
@@ -141752,6 +141994,7 @@
         "chiles-rellenos-guillermos-chile-bible",
         "chili-and-biscuits",
         "chimichurri-cpm",
+        "chimichurri-rojo",
         "chimichurri-steak-cpm",
         "chinese-mutton-gutenberg-15464",
         "chocolate-blanc-mange-carnation",
@@ -141822,6 +142065,7 @@
         "colby-longhorn",
         "colby-mild",
         "colby-sharp",
+        "cold-cucumber-kefir-soup",
         "cold-salmi-gutenberg-34837",
         "colston-bassett-stilton",
         "comte-12month",
@@ -141916,9 +142160,12 @@
         "creamed-fish-theplainsa",
         "creamed-kid-flavored-with-laurel-gutenberg-29728",
         "creamed-shrimps-and-peas-gutenberg-15464",
+        "creamed-spinach-with-kefir",
         "creamed-sweet-breads-carnation",
         "creamy-french-dressing-grandmas-molasses",
         "creamy-ham-and-chicken-medley-chickenrec",
+        "creamy-kefir-cheese-labneh",
+        "creamy-kefir-salad-dressing",
         "creamy-vegetable-melange-chile-bible",
         "creole-codfish-gutenberg-15464",
         "creole-cream-cheese",
@@ -142104,6 +142351,7 @@
         "flor-de-guia",
         "fluffy-creamy-eggs",
         "fluffy-creamy-eggs-ref",
+        "fluffy-kefir-pancakes",
         "focaccia-bread",
         "fontina-american",
         "fontina-danish",
@@ -142153,6 +142401,7 @@
         "garbanzos-calientes-chile-bible",
         "garlic-artisan-bread-ref",
         "garlic-cilantro-naan-bread",
+        "garlic-herb-kefir-sauce",
         "garlicky-broccoli-rabe",
         "garrotxa",
         "german-chocolate-cake-coconut-pecan-cajeta-frosting",
@@ -142364,6 +142613,9 @@
         "kale-dal-lentil-stew-pp",
         "kapiti-kikorangi",
         "keen-cheddar",
+        "kefir-cheese-balls-with-herbs",
+        "kefir-marinade-for-chicken",
+        "kefir-tartar-sauce",
         "keto-alfredo-sauce-with-zoodles",
         "keto-chicken-alfredo-broccoli",
         "keto-chicken-alfredo-broccoli-bake",
@@ -142504,6 +142756,7 @@
         "midnight-moon",
         "milanesa-napolitana-reggianito",
         "milbenkase-mite-cheese",
+        "milk-kefir-bread-with-herbs",
         "milk-tomato-soup-gutenberg-26374",
         "milkfed-snails-gutenberg-29728",
         "milleens",
@@ -142764,6 +143017,7 @@
         "potato-pancakes-gutenberg-15464",
         "potato-parker-house-rolls-gutenberg-15464",
         "potato-salad-harvester",
+        "potato-salad-kefir-dressing",
         "potato-yeast-bread-gutenberg-15464",
         "potatoes-encasserole-scottsnort",
         "potatoes-in-cases-gutenberg-26374",
@@ -143058,6 +143312,7 @@
         "sausage-roasted-pepper-pasta",
         "sauteed-corn-mushrooms-sioux-chef",
         "savory-cheddar-muffins",
+        "savory-kefir-vegetable-pie",
         "sazon-seasoning-cpm",
         "scalloped-chi-cken-chickenrec",
         "scalloped-fish-gutenberg-15464",
@@ -143101,6 +143356,7 @@
         "simple-leek-quiche",
         "simple-shrimp-gumbo-ref",
         "sirloin-of-beef-gutenberg-34837",
+        "skillet-cheese-bread-kefir",
         "skillet-lasagna-ref",
         "sloppy-joes-ref",
         "slovenian-mohant",
@@ -143417,6 +143673,7 @@
         "tuna-cheese-bake-cottage-cheese",
         "tuna-fish-salad-harvester",
         "tuna-nicoise-salad-ref",
+        "tuna-spread-with-kefir",
         "turkey-chorizo-burgers-cpm",
         "turkish-lor-cheese",
         "tutti-frutti-surprises-betty-crocker",
@@ -143501,6 +143758,7 @@
         "white-cake-carnation",
         "white-sauce-carnation",
         "white-sauce-gutenberg-15464",
+        "white-sauce-with-kefir",
         "whitestone-windsor-blue",
         "whole-grain-pancakes-blueberry-sauce",
         "whole-grain-pancakes-blueberry-sauce-ref",
@@ -150624,10 +150882,11 @@
       "variants": [
         "smoked paprika"
       ],
-      "recipe_count": 12,
+      "recipe_count": 13,
       "recipe_ids": [
         "black-bean-soup-cpm",
         "brisket-chili-cpm",
+        "chimichurri-rojo",
         "crab-souffle",
         "crab-souffle-ref",
         "gordon-ramsay-honey-grilled-shrimp",
@@ -151376,6 +151635,16 @@
       "recipe_ids": [
         "eggs-scrambled-with-rice-and-tomato-gutenberg",
         "eggs-scrambled-with-rice-and-tomato-gutenberg-6429"
+      ]
+    },
+    {
+      "ingredient": "solid tuna in water",
+      "variants": [
+        "solid tuna in water"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "tuna-spread-with-kefir"
       ]
     },
     {
@@ -155530,7 +155799,7 @@
         "sugar (for sauce)",
         "sugar (for topping)"
       ],
-      "recipe_count": 655,
+      "recipe_count": 657,
       "recipe_ids": [
         "a-delicious-white-cake-gutenberg-26374",
         "a-plain-orange-or-lemon-pie-gutenberg-26374",
@@ -155618,6 +155887,7 @@
         "caramel-apple-muffins",
         "carnation-fudge-carnation",
         "carnationnaise-mayonnaise-carnation",
+        "carrot-cake-kefir-frosting",
         "carrot-pudding-american-cookery-1796",
         "carrot-relish",
         "celery-vinegar-scottsnort",
@@ -155681,6 +155951,7 @@
         "cornbread-gutenberg-33748",
         "cornfetti-casserole",
         "cornfetti-casserole-chile-bible",
+        "cornmeal-cake-with-kefir",
         "cornmeal-rolls-gutenberg-15464",
         "cottage-cheese-cake-cottage-cheese",
         "cottage-cheese-pancakes-gutenberg-14293",
@@ -156367,6 +156638,16 @@
       "recipe_count": 1,
       "recipe_ids": [
         "lo-mein-noodles-cpm"
+      ]
+    },
+    {
+      "ingredient": "sugar or sweetener",
+      "variants": [
+        "sugar or sweetener"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "fluffy-kefir-pancakes"
       ]
     },
     {
@@ -157377,6 +157658,16 @@
       ]
     },
     {
+      "ingredient": "sweet manioc starch",
+      "variants": [
+        "sweet manioc starch (polvilho doce)"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "skillet-cheese-bread-kefir"
+      ]
+    },
+    {
       "ingredient": "sweet marjoram",
       "variants": [
         "sweet marjoram"
@@ -157435,11 +157726,12 @@
       "variants": [
         "sweet paprika"
       ],
-      "recipe_count": 4,
+      "recipe_count": 5,
       "recipe_ids": [
         "gordon-ramsay-bloody-mary-granita",
         "habanero-hot-sauce-cpm",
         "hungarian-liptauer",
+        "kefir-marinade-for-chicken",
         "liptauer"
       ]
     },
@@ -164940,6 +165232,16 @@
       ]
     },
     {
+      "ingredient": "tropical fruit",
+      "variants": [
+        "chopped tropical fruits"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "chia-pudding-kefir-tropical-fruits"
+      ]
+    },
+    {
       "ingredient": "tropical fruit salsa:",
       "variants": [
         "tropical fruit salsa:"
@@ -167594,6 +167896,16 @@
       ]
     },
     {
+      "ingredient": "uncooked sausage",
+      "variants": [
+        "uncooked sausage"
+      ],
+      "recipe_count": 1,
+      "recipe_ids": [
+        "cheddar-bay-sausage-balls"
+      ]
+    },
+    {
       "ingredient": "uncooked shrimp",
       "variants": [
         "frozen uncooked shrimp"
@@ -167690,11 +168002,12 @@
       "variants": [
         "unflavored gelatin"
       ],
-      "recipe_count": 9,
+      "recipe_count": 10,
       "recipe_ids": [
         "cottage-cheese-ring-cottage-cheese",
         "cranberry-sherbet-harvester",
         "dgf-homemade-miniature-marshmallows",
+        "fruit-jam-with-kefir",
         "macaroon-dessert-carnation",
         "sherbet-harvester",
         "shrimp-tomato-mold-harvester",
@@ -169324,15 +169637,17 @@
     {
       "ingredient": "vegetabl",
       "variants": [
+        "chopped vegetables",
         "diced vegetables",
         "dried vegetables (corn, squash, mushrooms, etc.)",
         "raw vegetables",
         "vegetables"
       ],
-      "recipe_count": 6,
+      "recipe_count": 7,
       "recipe_ids": [
         "dgf-curry-dip",
         "lo-mein-noodles-cpm",
+        "savory-kefir-vegetable-pie",
         "stuffed-green-peppers-theamerica",
         "use-of-syrups-gutenberg-65793",
         "vegetable-flour-sioux-chef",
@@ -169413,7 +169728,7 @@
         "vegetable oil",
         "vegetable oil (for rind)"
       ],
-      "recipe_count": 183,
+      "recipe_count": 185,
       "recipe_ids": [
         "amish-friendship-bread",
         "amish-white-bread",
@@ -169443,6 +169758,7 @@
         "butter-molasses-bread",
         "butternut-squash-bread",
         "candied-hoska",
+        "carrot-cake-kefir-frosting",
         "cf-bbq-chicken-marinade",
         "cf-great-pizza-dough",
         "chai-spiced-muffins",
@@ -169471,6 +169787,7 @@
         "corn-soup-ref",
         "cornmeal-and-berry-pancakes",
         "cornmeal-berry-pancakes-ref",
+        "cornmeal-cake-with-kefir",
         "cuban-style-bread",
         "dgf-great-napa-cabbage-salad",
         "dgf-hot-damn-buttered-pretzels",

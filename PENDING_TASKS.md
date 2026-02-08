@@ -315,9 +315,60 @@ Extracting and modernizing 279 medieval English recipes from The Forme of Cury (
 
 ## Recipe Count Audit (Updated)
 
-Previous total: 7,375 → **Current total: 9,673** (after Gutenberg HTML extraction)
+Previous total: 7,375 → 9,673 (Gutenberg HTML) → **Current total: 9,989** (after image audit)
 - 2,300 new recipes from 8 Gutenberg HTML cookbooks
 - 279 medieval recipes pending merge (Forme of Cury)
+- 31 new recipes from IMG_8432-8450 (chimichurri rojo + 30 kefir recipes)
+
+---
+
+## Full Image Audit
+
+**Status:** COMPLETE
+**Priority:** High
+**Created:** 2026-02-08
+**Completed:** 2026-02-08
+
+### Description
+Systematic audit of ALL remaining images in the repository to ensure every recipe has been extracted.
+
+### Image Sets Audited
+
+| Image Set | Location | Count | Result |
+|-----------|----------|-------|--------|
+| IMG_8432-8435 (PNG) | data/ | 4 | **1 new recipe** (Chimichurri Rojo) - social media screenshots, deleted |
+| IMG_8436-8450 (PNG) | data/ | 15 | **30 new kefir recipes** - digital collection, deleted |
+| recipes 373-433 (JPEG) | data/ | 58 | Already transcribed (Kindle bread/muffin), deleted |
+| recipes 351-353 (JPEG) | data/ | 3 | Already transcribed, KEPT (handwritten) |
+| IMG_7510-7940 (JPEG) | data/Hells Kitchen Gordan Ramsay/ | 431 | All 209 recipes verified complete, technique ref exists |
+| IMG_5650-5902 (JPEG) | data/handwritten/ | 8 | 2 already in JSON, 6 non-recipe pages |
+
+### New Recipes Added
+- **chimichurri-rojo**: Chimichurri Rojo (Flavour Dishes, social media)
+- **30 kefir recipes**: Complete kefir recipe collection including:
+  - Beverages (4): smoothies
+  - Breakfast (3): pancakes, overnight oats, Greek yogurt
+  - Sides/Sauces (7): dressings, sauces, creamed spinach
+  - Desserts (8): mousse, ice cream, cake, parfait, popsicles
+  - Mains (2): chicken marinade, vegetable pie
+  - Soups (1): cold cucumber soup
+  - Breads (2): skillet cheese bread, herb bread
+  - Appetizers (2): tuna spread, cheese balls
+  - Cheese (1): Creamy Kefir Cheese (Labneh) - correctly categorized as "cheese"
+
+### Tips Added
+- Brown butter technique tip → gordon-ramsay-brown-butter-ravioli
+- Brick chicken technique tips → gordon-ramsay-brick-chicken
+
+### Images Deleted (not handwritten, recipes already in JSON)
+- 19 PNG files (IMG_8432-8450) - social media + kefir screenshots
+- 58 JPEG files (recipes 373-433) - Kindle bread/muffin screenshots
+
+### Remaining Images (correctly retained)
+- 3 handwritten images in data/ (recipes 351-353, beef-rice-meatballs)
+- 8 handwritten images in data/handwritten/ (personal notes + recipe cards)
+- 431 Gordon Ramsay cookbook images in data/Hells Kitchen Gordan Ramsay/
+- 906 thumbnails in data/thumbnails/
 
 ---
 
