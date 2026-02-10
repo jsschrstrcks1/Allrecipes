@@ -283,9 +283,10 @@ Audited all 18 HTML directories in `all/HTML/` and extracted recipes from every 
 
 ## Forme of Cury Medieval Recipe Extraction
 
-**Status:** IN PROGRESS
+**Status:** COMPLETE
 **Priority:** Medium
 **Created:** 2026-02-08
+**Completed:** 2026-02-10
 
 ### Description
 Extracting and modernizing 279 medieval English recipes from The Forme of Cury (c. 1390) and Ancient Cookery (A.D. 1381) text files.
@@ -294,11 +295,13 @@ Extracting and modernizing 279 medieval English recipes from The Forme of Cury (
 - `data/7cury10.txt` (ASCII, 7,173 lines)
 - `data/8cury10.txt` (ISO-Latin-1, same content)
 
-### Progress
-- 279 recipes parsed programmatically from text
+### Results
+- 279 recipes fully modernized and in `data/recipes.json`
 - 190 from Forme of Cury proper + 89 from Ancient Cookery section
-- Modernization agents running (3 parallel batches of 93 recipes each)
-- Each recipe getting: modern ingredient lists, translated instructions, tips, substitutions
+- All 279 have modern ingredient lists, translated instructions, and tips
+- 131 have substitutions for hard-to-find medieval ingredients
+- Nutrition status: `insufficient_data` (correct - medieval recipes lack modern measurements)
+- Confidence: medium with `medieval-translation` flag
 
 ---
 
