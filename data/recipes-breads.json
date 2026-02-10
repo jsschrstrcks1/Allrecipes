@@ -17860,19 +17860,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1082,
+          "calories": 1102,
           "fat_g": 1.0,
-          "carbs_g": 274.8,
-          "protein_g": 3.2,
-          "sodium_mg": 153,
-          "fiber_g": 6.0,
-          "sugar_g": 262.0
+          "carbs_g": 278.9,
+          "protein_g": 5.2,
+          "sodium_mg": 169,
+          "fiber_g": 8.0,
+          "sugar_g": 264.4
         },
-        "missing_inputs": [
-          "1 gallon cucumbers"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -21264,13 +21262,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 465,
+          "calories": 464,
           "fat_g": 2.0,
-          "carbs_g": 110.0,
+          "carbs_g": 109.8,
           "protein_g": 5.0,
           "sodium_mg": 52,
           "fiber_g": 4.5,
-          "sugar_g": 46.2
+          "sugar_g": 49.0
         },
         "missing_inputs": [
           "5  ^cupful offlour,"
@@ -21500,19 +21498,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 18,
+          "calories": 19,
           "fat_g": 1.2,
-          "carbs_g": 0.1,
+          "carbs_g": 0.3,
           "protein_g": 1.5,
           "sodium_mg": 18,
           "fiber_g": 0.0,
           "sugar_g": 0.1
         },
-        "missing_inputs": [
-          "1/2 tsp One teaspoonful each ofginger, cinnamon andcloves,"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -21611,9 +21607,9 @@
           "calories": 919,
           "fat_g": 39.6,
           "carbs_g": 132.2,
-          "protein_g": 12.0,
-          "sodium_mg": 7,
-          "fiber_g": 4.4,
+          "protein_g": 11.8,
+          "sodium_mg": 6,
+          "fiber_g": 4.5,
           "sugar_g": 47.1
         },
         "missing_inputs": [
@@ -21794,19 +21790,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 127,
-          "fat_g": 5.5,
-          "carbs_g": 22.7,
-          "protein_g": 2.9,
+          "calories": 240,
+          "fat_g": 5.8,
+          "carbs_g": 46.4,
+          "protein_g": 6.1,
           "sodium_mg": 582,
-          "fiber_g": 6.9,
+          "fiber_g": 7.7,
           "sugar_g": 12.8
         },
-        "missing_inputs": [
-          "1 cup wheat flour"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -22117,19 +22111,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 396,
+          "calories": 1750,
           "fat_g": 22.8,
-          "carbs_g": 50.2,
+          "carbs_g": 400.2,
           "protein_g": 0.2,
-          "sodium_mg": 200,
+          "sodium_mg": 204,
           "fiber_g": 0.0,
-          "sugar_g": 50.0
+          "sugar_g": 400.0
         },
-        "missing_inputs": [
-          "4 can Biscuits 1 c Sugar"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -22631,19 +22623,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 9,
+          "calories": 12,
           "fat_g": 0.4,
-          "carbs_g": 1.0,
-          "protein_g": 0.4,
-          "sodium_mg": 6,
-          "fiber_g": 0.0,
-          "sugar_g": 0.6
+          "carbs_g": 1.8,
+          "protein_g": 0.6,
+          "sodium_mg": 38,
+          "fiber_g": 0.2,
+          "sugar_g": 1.1
         },
-        "missing_inputs": [
-          "1  gallon molasses orstrained <Anequal qvantlty ofsrvroet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -22769,22 +22759,12 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
+        "status": "insufficient_data",
+        "per_serving": {},
         "missing_inputs": [
-          "134  MyBest 250 Recipes"
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -22947,18 +22927,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 891,
+          "fat_g": 11.6,
+          "carbs_g": 168.2,
+          "protein_g": 23.6,
+          "sodium_mg": 1212,
+          "fiber_g": 6.1,
+          "sugar_g": 2.3
         },
         "missing_inputs": [],
         "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
           "Calculated for 4 servings"
         ]
       }
@@ -25411,11 +25392,11 @@
         "per_serving": {
           "calories": 568,
           "fat_g": 13.3,
-          "carbs_g": 104.7,
+          "carbs_g": 104.5,
           "protein_g": 8.2,
           "sodium_mg": 427,
           "fiber_g": 1.9,
-          "sugar_g": 48.1
+          "sugar_g": 49.5
         },
         "missing_inputs": [
           "1/4 tsp clove"
@@ -26321,7 +26302,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 66,
           "fat_g": 5.2,
@@ -26331,9 +26312,7 @@
           "fiber_g": 0.0,
           "sugar_g": 3.0
         },
-        "missing_inputs": [
-          "1  cakecompressed yeast 2 tablespoonfuls molasses"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -26980,7 +26959,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 1922,
           "fat_g": 206.0,
@@ -26990,9 +26969,7 @@
           "fiber_g": 2.2,
           "sugar_g": 0.2
         },
-        "missing_inputs": [
-          "1 tsp ful salt 2 tablespoonfuls baking powder"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -27488,22 +27465,12 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
+        "status": "insufficient_data",
+        "per_serving": {},
         "missing_inputs": [
-          "83  Rolls"
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -31848,20 +31815,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 2122,
+          "calories": 2322,
           "fat_g": 120.7,
-          "carbs_g": 249.9,
+          "carbs_g": 299.9,
           "protein_g": 22.0,
-          "sodium_mg": 1106,
+          "sodium_mg": 1906,
           "fiber_g": 5.2,
-          "sugar_g": 151.1
+          "sugar_g": 191.1
         },
-        "missing_inputs": [
-          "1 cup Amish Friendship Bread starter",
-          "1 box instant vanilla pudding mix"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
@@ -32874,16 +32838,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1412,
-          "fat_g": 4.0,
-          "carbs_g": 294.2,
-          "protein_g": 42.0,
-          "sodium_mg": 3595,
+          "calories": 1491,
+          "fat_g": 4.4,
+          "carbs_g": 311.6,
+          "protein_g": 44.7,
+          "sodium_mg": 3752,
           "fiber_g": 12.2,
-          "sugar_g": 7.2
+          "sugar_g": 24.5
         },
         "missing_inputs": [
-          "2 2/3 cups (divided) whey (from cheesemaking)",
           "for sprinkling cornmeal"
         ],
         "assumptions": [
@@ -33017,7 +32980,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2184,
+          "fat_g": 40.2,
+          "carbs_g": 390.7,
+          "protein_g": 54.2,
+          "sodium_mg": 1754,
+          "fiber_g": 12.5,
+          "sugar_g": 67.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "artichoke-pine-nut-bread",
@@ -33202,7 +33181,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2601,
+          "fat_g": 88.9,
+          "carbs_g": 374.0,
+          "protein_g": 78.8,
+          "sodium_mg": 3735,
+          "fiber_g": 25.1,
+          "sugar_g": 18.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "braided-sesame-bread",
@@ -33376,7 +33371,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 4144,
+          "fat_g": 158.2,
+          "carbs_g": 559.9,
+          "protein_g": 117.5,
+          "sodium_mg": 5927,
+          "fiber_g": 19.3,
+          "sugar_g": 127.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "beaten-biscuit-old-south",
@@ -34486,12 +34497,32 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 8096,
+          "fat_g": 444.4,
+          "carbs_g": 980.8,
+          "protein_g": 57.8,
+          "sodium_mg": 3179,
+          "fiber_g": 16.9,
+          "sugar_g": 785.4
+        },
         "missing_inputs": [
-          "all"
+          "140 Pound Cake",
+          "a pint good whiskey",
+          "one cup tart dark jelly",
+          "one cup blackberry jam",
+          "one cup crumbled rich stale cake",
+          "one pint raw grated sweet potato",
+          "one cup nuts rolled small",
+          "a cup both mixed",
+          "one cup stale cake crumbs",
+          "half a cup strong"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -34542,12 +34573,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 8.2,
+          "carbs_g": 15.8,
+          "protein_g": 8.8,
+          "sodium_mg": 142,
+          "fiber_g": 0.1,
+          "sugar_g": 12.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -34608,12 +34647,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 75,
+          "fat_g": 1.0,
+          "carbs_g": 14.1,
+          "protein_g": 2.6,
+          "sodium_mg": 140,
+          "fiber_g": 0.6,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -34684,12 +34731,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 27,
+          "fat_g": 0.0,
+          "carbs_g": 6.7,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 0.2,
+          "sugar_g": 5.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -34758,12 +34813,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 27,
+          "fat_g": 0.0,
+          "carbs_g": 6.7,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 0.2,
+          "sugar_g": 5.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -34826,12 +34889,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 1372,
+          "fat_g": 5.3,
+          "carbs_g": 302.8,
+          "protein_g": 26.1,
+          "sodium_mg": 25,
+          "fiber_g": 6.8,
+          "sugar_g": 113.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -34908,12 +34979,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 0.2,
+          "carbs_g": 3.8,
+          "protein_g": 0.8,
+          "sodium_mg": 37,
+          "fiber_g": 0.1,
+          "sugar_g": 0.4
+        },
         "missing_inputs": [
-          "all"
+          "can penetrate gradually"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -34988,12 +35069,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 0.2,
+          "carbs_g": 3.8,
+          "protein_g": 0.8,
+          "sodium_mg": 37,
+          "fiber_g": 0.1,
+          "sugar_g": 0.4
+        },
         "missing_inputs": [
-          "all"
+          "can penetrate gradually"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -35146,7 +35237,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2538,
+          "fat_g": 42.6,
+          "carbs_g": 485.0,
+          "protein_g": 51.2,
+          "sodium_mg": 2563,
+          "fiber_g": 16.1,
+          "sugar_g": 92.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "butternut-squash-bread",
@@ -35283,7 +35390,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1047,
+          "fat_g": 36.9,
+          "carbs_g": 139.3,
+          "protein_g": 37.4,
+          "sodium_mg": 1043,
+          "fiber_g": 5.3,
+          "sugar_g": 26.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "buttery-white-bread",
@@ -35430,7 +35553,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2214,
+          "fat_g": 48.4,
+          "carbs_g": 383.5,
+          "protein_g": 55.2,
+          "sodium_mg": 3757,
+          "fiber_g": 12.8,
+          "sugar_g": 50.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "candied-hoska",
@@ -35681,7 +35820,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2717,
+          "fat_g": 88.5,
+          "carbs_g": 417.5,
+          "protein_g": 65.8,
+          "sodium_mg": 1636,
+          "fiber_g": 17.8,
+          "sugar_g": 94.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "parmesan-mozzarella-focaccia",
@@ -35845,7 +36000,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2091,
+          "fat_g": 89.7,
+          "carbs_g": 251.7,
+          "protein_g": 68.4,
+          "sodium_mg": 3126,
+          "fiber_g": 11.7,
+          "sugar_g": 5.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "simple-artisan-bread",
@@ -35953,7 +36124,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1496,
+          "fat_g": 4.2,
+          "carbs_g": 311.0,
+          "protein_g": 44.5,
+          "sodium_mg": 5241,
+          "fiber_g": 12.5,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "simple-corn-cakes-sioux-chef",
@@ -36043,7 +36230,23 @@
         "hominy-cakes-sioux-chef",
         "indigenous-tacos-sioux-chef",
         "venison-elk-stew-hominy-sioux-chef"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 124,
+          "fat_g": 5.0,
+          "carbs_g": 18.8,
+          "protein_g": 2.0,
+          "sodium_mg": 69,
+          "fiber_g": 1.8,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "hominy-cakes-sioux-chef",
@@ -36112,7 +36315,23 @@
       "components": [
         "simple-corn-cakes-sioux-chef",
         "smoked-duck-pheasant-sioux-chef"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 225,
+          "fat_g": 7.2,
+          "carbs_g": 37.6,
+          "protein_g": 4.0,
+          "sodium_mg": 47,
+          "fiber_g": 3.6,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "kneel-down-bread-sioux-chef",
@@ -36196,7 +36415,23 @@
         "flags": []
       },
       "image_refs": [],
-      "is_component": false
+      "is_component": false,
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 4.5,
+          "carbs_g": 17.1,
+          "protein_g": 3.0,
+          "sodium_mg": 14,
+          "fiber_g": 2.0,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "dgf-danas-caramel-pecan-rolls",
@@ -36375,25 +36610,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 620,
-          "fat_g": 28,
-          "sodium_mg": 520,
-          "carbs_g": 88,
-          "fiber_g": 3,
-          "sugar_g": 50,
-          "protein_g": 8
+          "calories": 826,
+          "fat_g": 36.9,
+          "carbs_g": 118.3,
+          "protein_g": 9.6,
+          "sodium_mg": 560,
+          "fiber_g": 3.8,
+          "sugar_g": 75.9
         },
         "missing_inputs": [
-          "Caramel Sauce (sub-recipe",
-          "estimated from dgf-caramel-sauce)",
-          "Pecan Pieces (estimated as standard pecans)"
+          "1 package active dry yeast",
+          "1  extra-large egg"
         ],
         "assumptions": [
-          "12 rolls as stated",
-          "4-5 cups flour estimated as 4.5 cups (~2050 cal)",
-          "1 cup sugar + 1/4 cup brown sugar + cinnamon filling",
-          "4 cups Caramel Sauce from sub-recipe (~4000 cal, 500 cal per roll allocated)",
-          "Caramel sauce per roll: ~125 cal (1/3 cup per roll)"
+          "Calculated for 12 servings"
         ]
       }
     },
@@ -36554,23 +36784,20 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 340,
-          "fat_g": 12,
-          "sodium_mg": 160,
-          "carbs_g": 52,
-          "fiber_g": 1,
-          "sugar_g": 32,
-          "protein_g": 6
+          "calories": 320,
+          "fat_g": 11.0,
+          "carbs_g": 49.1,
+          "protein_g": 6.8,
+          "sodium_mg": 273,
+          "fiber_g": 1.0,
+          "sugar_g": 31.5
         },
         "missing_inputs": [
-          "Maple-Glazed Bison Sausage (sub-recipe",
-          "estimated from its ingredients)"
+          "1/3 cup brewed dark coffee"
         ],
         "assumptions": [
-          "No serving size stated; estimated 12 slices per loaf",
-          "Maple-Glazed Bison Sausage estimated at ~150 cal/100g",
-          "1 cup dark brown sugar + 2/3 cup granulated sugar = substantial sugar content",
-          "Brewed coffee contributes negligible calories"
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
         ]
       }
     },
@@ -36738,25 +36965,19 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 140,
-          "fat_g": 1,
-          "sodium_mg": 290,
-          "carbs_g": 29,
-          "fiber_g": 3,
-          "sugar_g": 0,
-          "protein_g": 4
+          "calories": 1790,
+          "fat_g": 7.4,
+          "carbs_g": 366.8,
+          "protein_g": 55.6,
+          "sodium_mg": 7148,
+          "fiber_g": 16.8,
+          "sugar_g": 4.0
         },
-        "missing_inputs": [
-          "Sourdough Starter (estimated as standard flour/water starter)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "1 loaf; estimated 12 slices",
-          "Rye flour at ~325 cal/cup",
-          "Sourdough starter is essentially flour + water (estimated ~100 cal total)",
-          "No fat or sugar in recipe - lean bread",
-          "Caraway seeds contribute negligible calories"
+          "Calculated for 1 servings"
         ]
       }
     },
@@ -36904,19 +37125,19 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 620,
-          "fat_g": 14,
-          "sodium_mg": 1800,
-          "carbs_g": 108,
-          "fiber_g": 3,
-          "sugar_g": 13,
-          "protein_g": 13
+          "calories": 579,
+          "fat_g": 14.5,
+          "carbs_g": 96.2,
+          "protein_g": 13.6,
+          "sodium_mg": 526,
+          "fiber_g": 3.7,
+          "sugar_g": 1.1
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "1/4 cup baking soda"
+        ],
         "assumptions": [
-          "1 pretzel per serving (8 servings)",
-          "~50% of coarse sea salt topping adheres",
-          "Baking soda wash mostly rinsed off"
+          "Calculated for 8 servings"
         ]
       }
     },
@@ -37032,22 +37253,19 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 340,
-          "fat_g": 24,
-          "sodium_mg": 310,
-          "carbs_g": 26,
-          "fiber_g": 1,
-          "sugar_g": 1,
-          "protein_g": 4
+          "calories": 365,
+          "fat_g": 27.8,
+          "carbs_g": 25.0,
+          "protein_g": 4.3,
+          "sodium_mg": 455,
+          "fiber_g": 0.8,
+          "sugar_g": 1.2
         },
         "missing_inputs": [],
         "assumptions": [
-          "8 biscuits as stated",
-          "11 tbsp cold butter for dough + 1/2 cup (8 tbsp) butter; assumed 1/2 cup butter is for brushing/serving",
-          "Total 19 tbsp butter across 8 biscuits",
-          "All-purpose flour at ~455 cal/2 cups"
+          "Calculated for 8 servings"
         ]
       }
     },
@@ -37192,22 +37410,19 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 270,
-          "fat_g": 18,
-          "sodium_mg": 400,
-          "carbs_g": 22,
-          "fiber_g": 1,
-          "sugar_g": 3,
-          "protein_g": 5
+          "calories": 3310,
+          "fat_g": 219.9,
+          "carbs_g": 272.2,
+          "protein_g": 67.0,
+          "sodium_mg": 6177,
+          "fiber_g": 10.5,
+          "sugar_g": 31.0
         },
         "missing_inputs": [],
         "assumptions": [
-          "1 loaf; estimated 12 slices",
-          "1 cup butter = 1628 cal total",
-          "3 whole eggs + 3 egg yolks = substantial cholesterol",
-          "Rich, high-fat bread typical of brioche"
+          "Calculated for 1 servings"
         ]
       }
     },
@@ -37338,10 +37553,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 2.8,
+          "carbs_g": 17.5,
+          "protein_g": 2.7,
+          "sodium_mg": 213,
+          "fiber_g": 1.0,
+          "sugar_g": 1.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -37438,10 +37664,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 105,
+          "fat_g": 3.0,
+          "carbs_g": 17.8,
+          "protein_g": 2.2,
+          "sodium_mg": 220,
+          "fiber_g": 1.5,
+          "sugar_g": 2.3
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -37549,10 +37786,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 90,
+          "fat_g": 3.0,
+          "carbs_g": 12.8,
+          "protein_g": 3.3,
+          "sodium_mg": 294,
+          "fiber_g": 0.9,
+          "sugar_g": 1.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -37648,10 +37896,20 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 215,
+          "fat_g": 8.4,
+          "carbs_g": 27.9,
+          "protein_g": 7.7,
+          "sodium_mg": 1255,
+          "fiber_g": 2.6,
+          "sugar_g": 4.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -37748,10 +38006,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 168,
+          "fat_g": 7.0,
+          "carbs_g": 22.5,
+          "protein_g": 3.7,
+          "sodium_mg": 270,
+          "fiber_g": 1.3,
+          "sugar_g": 1.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -37848,10 +38117,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 122,
+          "fat_g": 3.0,
+          "carbs_g": 21.0,
+          "protein_g": 2.9,
+          "sodium_mg": 448,
+          "fiber_g": 1.0,
+          "sugar_g": 3.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -37948,10 +38228,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 132,
+          "fat_g": 4.3,
+          "carbs_g": 20.5,
+          "protein_g": 3.5,
+          "sodium_mg": 286,
+          "fiber_g": 1.5,
+          "sugar_g": 4.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38048,10 +38339,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 123,
+          "fat_g": 3.4,
+          "carbs_g": 20.3,
+          "protein_g": 3.5,
+          "sodium_mg": 267,
+          "fiber_g": 1.5,
+          "sugar_g": 4.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38148,10 +38450,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 279,
+          "fat_g": 4.9,
+          "carbs_g": 43.3,
+          "protein_g": 13.4,
+          "sodium_mg": 477,
+          "fiber_g": 1.4,
+          "sugar_g": 2.9
+        },
+        "missing_inputs": [
+          "1-1/2 cake yeast"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38254,10 +38569,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 322,
+          "fat_g": 3.5,
+          "carbs_g": 60.2,
+          "protein_g": 10.1,
+          "sodium_mg": 597,
+          "fiber_g": 3.2,
+          "sugar_g": 1.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38370,10 +38696,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 364,
+          "fat_g": 9.2,
+          "carbs_g": 63.8,
+          "protein_g": 7.9,
+          "sodium_mg": 242,
+          "fiber_g": 3.1,
+          "sugar_g": 21.5
+        },
+        "missing_inputs": [
+          "1 cake compressed yeast"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38464,10 +38803,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 15,
+          "fat_g": 1.4,
+          "carbs_g": 0.7,
+          "protein_g": 0.0,
+          "sodium_mg": 48,
+          "fiber_g": 0.0,
+          "sugar_g": 0.7
+        },
+        "missing_inputs": [
+          "1 cup cold porridge"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38570,10 +38922,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 96,
+          "fat_g": 2.8,
+          "carbs_g": 15.9,
+          "protein_g": 2.1,
+          "sodium_mg": 83,
+          "fiber_g": 0.9,
+          "sugar_g": 2.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38670,10 +39033,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 104,
+          "fat_g": 4.7,
+          "carbs_g": 12.5,
+          "protein_g": 2.5,
+          "sodium_mg": 162,
+          "fiber_g": 0.8,
+          "sugar_g": 0.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38776,10 +39150,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 115,
+          "fat_g": 1.2,
+          "carbs_g": 22.7,
+          "protein_g": 3.0,
+          "sodium_mg": 205,
+          "fiber_g": 0.9,
+          "sugar_g": 2.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38870,10 +39255,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 246,
+          "fat_g": 8.8,
+          "carbs_g": 34.8,
+          "protein_g": 6.5,
+          "sodium_mg": 232,
+          "fiber_g": 1.8,
+          "sugar_g": 1.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -38976,10 +39372,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 252,
+          "fat_g": 2.5,
+          "carbs_g": 49.6,
+          "protein_g": 6.5,
+          "sodium_mg": 159,
+          "fiber_g": 1.7,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "1 cake yeast"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39076,10 +39485,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 6.7,
+          "carbs_g": 22.6,
+          "protein_g": 3.9,
+          "sodium_mg": 266,
+          "fiber_g": 0.7,
+          "sugar_g": 1.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39176,10 +39596,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 64,
+          "fat_g": 1.1,
+          "carbs_g": 12.1,
+          "protein_g": 1.5,
+          "sodium_mg": 156,
+          "fiber_g": 0.5,
+          "sugar_g": 2.6
+        },
+        "missing_inputs": [
+          "1-1/6 cup barley flour"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39282,10 +39715,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 3.0,
+          "carbs_g": 8.7,
+          "protein_g": 1.8,
+          "sodium_mg": 81,
+          "fiber_g": 0.8,
+          "sugar_g": 0.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39364,10 +39808,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 3.3,
+          "carbs_g": 7.9,
+          "protein_g": 1.8,
+          "sodium_mg": 15,
+          "fiber_g": 0.8,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39464,10 +39919,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 131,
+          "fat_g": 5.6,
+          "carbs_g": 16.4,
+          "protein_g": 4.3,
+          "sodium_mg": 202,
+          "fiber_g": 1.1,
+          "sugar_g": 4.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39558,10 +40024,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 46,
+          "fat_g": 2.8,
+          "carbs_g": 2.2,
+          "protein_g": 2.9,
+          "sodium_mg": 227,
+          "fiber_g": 0.2,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39646,10 +40123,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 0.2,
+          "carbs_g": 11.8,
+          "protein_g": 1.8,
+          "sodium_mg": 26,
+          "fiber_g": 0.7,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39752,10 +40240,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 388,
+          "fat_g": 4.7,
+          "carbs_g": 74.9,
+          "protein_g": 10.0,
+          "sodium_mg": 180,
+          "fiber_g": 3.4,
+          "sugar_g": 3.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39858,10 +40357,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 123,
+          "fat_g": 1.6,
+          "carbs_g": 23.4,
+          "protein_g": 3.8,
+          "sodium_mg": 219,
+          "fiber_g": 1.2,
+          "sugar_g": 5.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -39946,10 +40456,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 53,
+          "fat_g": 3.3,
+          "carbs_g": 4.8,
+          "protein_g": 1.6,
+          "sodium_mg": 420,
+          "fiber_g": 0.2,
+          "sugar_g": 3.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -40047,10 +40568,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 189,
+          "fat_g": 0.8,
+          "carbs_g": 38.8,
+          "protein_g": 5.5,
+          "sodium_mg": 392,
+          "fiber_g": 1.8,
+          "sugar_g": 1.1
+        },
+        "missing_inputs": [
+          "1 cake yeast"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -40146,10 +40680,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 1.2,
+          "carbs_g": 28.7,
+          "protein_g": 4.3,
+          "sodium_mg": 198,
+          "fiber_g": 2.8,
+          "sugar_g": 5.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -40245,10 +40790,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 98,
+          "fat_g": 2.9,
+          "carbs_g": 14.4,
+          "protein_g": 3.4,
+          "sodium_mg": 198,
+          "fiber_g": 0.8,
+          "sugar_g": 1.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -40376,10 +40932,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 212,
+          "fat_g": 9.1,
+          "carbs_g": 29.8,
+          "protein_g": 4.7,
+          "sodium_mg": 255,
+          "fiber_g": 2.1,
+          "sugar_g": 9.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -40475,10 +41042,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 2.9,
+          "carbs_g": 10.4,
+          "protein_g": 1.5,
+          "sodium_mg": 217,
+          "fiber_g": 0.8,
+          "sugar_g": 2.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -40569,10 +41147,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 54,
+          "fat_g": 1.5,
+          "carbs_g": 8.8,
+          "protein_g": 1.5,
+          "sodium_mg": 225,
+          "fiber_g": 0.8,
+          "sugar_g": 1.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -40669,10 +41258,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 3.9,
+          "carbs_g": 5.9,
+          "protein_g": 2.5,
+          "sodium_mg": 462,
+          "fiber_g": 0.2,
+          "sugar_g": 2.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -40763,10 +41363,20 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 341,
+          "fat_g": 19.2,
+          "carbs_g": 25.3,
+          "protein_g": 15.3,
+          "sodium_mg": 519,
+          "fiber_g": 0.8,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -40868,10 +41478,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 71,
+          "fat_g": 4.2,
+          "carbs_g": 6.9,
+          "protein_g": 1.6,
+          "sodium_mg": 180,
+          "fiber_g": 0.0,
+          "sugar_g": 6.5
+        },
+        "missing_inputs": [
+          "1  /2 lb. washed and scalded prunes, dates, figs or raisins"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -40973,10 +41595,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 37,
+          "fat_g": 2.5,
+          "carbs_g": 2.4,
+          "protein_g": 1.2,
+          "sodium_mg": 66,
+          "fiber_g": 0.0,
+          "sugar_g": 1.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41079,10 +41712,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 148,
+          "fat_g": 2.9,
+          "carbs_g": 25.9,
+          "protein_g": 2.5,
+          "sodium_mg": 89,
+          "fiber_g": 0.2,
+          "sugar_g": 25.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41174,10 +41818,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 10.3,
+          "carbs_g": 10.8,
+          "protein_g": 8.8,
+          "sodium_mg": 148,
+          "fiber_g": 0.1,
+          "sugar_g": 10.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41265,10 +41920,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 267,
+          "fat_g": 1.4,
+          "carbs_g": 60.3,
+          "protein_g": 4.4,
+          "sodium_mg": 25,
+          "fiber_g": 3.3,
+          "sugar_g": 15.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41356,10 +42022,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 268,
+          "fat_g": 2.0,
+          "carbs_g": 59.0,
+          "protein_g": 5.0,
+          "sodium_mg": 36,
+          "fiber_g": 4.5,
+          "sugar_g": 11.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41453,10 +42130,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 225,
+          "fat_g": 2.5,
+          "carbs_g": 47.5,
+          "protein_g": 4.5,
+          "sodium_mg": 72,
+          "fiber_g": 2.2,
+          "sugar_g": 18.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41550,10 +42238,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 197,
+          "fat_g": 3.2,
+          "carbs_g": 34.5,
+          "protein_g": 6.7,
+          "sodium_mg": 56,
+          "fiber_g": 1.1,
+          "sugar_g": 2.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41647,10 +42346,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 0.6,
+          "carbs_g": 13.1,
+          "protein_g": 2.1,
+          "sodium_mg": 6,
+          "fiber_g": 0.4,
+          "sugar_g": 1.1
+        },
+        "missing_inputs": [
+          "1 tbsp butter melted"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41726,10 +42438,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 35,
+          "fat_g": 1.8,
+          "carbs_g": 3.1,
+          "protein_g": 1.8,
+          "sodium_mg": 23,
+          "fiber_g": 0.0,
+          "sugar_g": 3.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41817,10 +42540,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 160,
+          "fat_g": 1.1,
+          "carbs_g": 32.3,
+          "protein_g": 4.3,
+          "sodium_mg": 5,
+          "fiber_g": 1.1,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "1 cup boiled milk",
+          "1/2 cup liquid yeast"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41914,10 +42651,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 144,
+          "fat_g": 2.3,
+          "carbs_g": 25.0,
+          "protein_g": 5.3,
+          "sodium_mg": 62,
+          "fiber_g": 1.1,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "2 tbsp butter before melting"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -41993,10 +42743,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 0.8,
+          "carbs_g": 11.8,
+          "protein_g": 1.9,
+          "sodium_mg": 10,
+          "fiber_g": 0.9,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42084,10 +42845,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 96,
+          "fat_g": 4.3,
+          "carbs_g": 10.3,
+          "protein_g": 4.2,
+          "sodium_mg": 51,
+          "fiber_g": 0.8,
+          "sugar_g": 2.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42181,10 +42953,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 69,
+          "fat_g": 1.5,
+          "carbs_g": 11.7,
+          "protein_g": 2.2,
+          "sodium_mg": 126,
+          "fiber_g": 0.8,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42272,10 +43055,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 138,
+          "fat_g": 2.5,
+          "carbs_g": 24.3,
+          "protein_g": 4.0,
+          "sodium_mg": 46,
+          "fiber_g": 0.7,
+          "sugar_g": 2.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42345,10 +43139,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 9,
+          "fat_g": 0.6,
+          "carbs_g": 0.1,
+          "protein_g": 0.8,
+          "sodium_mg": 17,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42424,10 +43229,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 228,
+          "fat_g": 1.6,
+          "carbs_g": 48.9,
+          "protein_g": 4.8,
+          "sodium_mg": 18,
+          "fiber_g": 0.8,
+          "sugar_g": 25.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42515,10 +43331,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 316,
+          "fat_g": 1.8,
+          "carbs_g": 64.4,
+          "protein_g": 8.7,
+          "sodium_mg": 8,
+          "fiber_g": 2.3,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "1 pint milk boiled",
+          "1/2 cup yeast"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42600,10 +43430,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 360,
+          "fat_g": 2.1,
+          "carbs_g": 73.7,
+          "protein_g": 10.0,
+          "sodium_mg": 19,
+          "fiber_g": 2.3,
+          "sugar_g": 10.5
+        },
+        "missing_inputs": [
+          "2/3 cup yeast"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42686,10 +43529,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 0.4,
+          "carbs_g": 15.5,
+          "protein_g": 2.7,
+          "sodium_mg": 1,
+          "fiber_g": 2.5,
+          "sugar_g": 1.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42771,10 +43625,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 304,
+          "fat_g": 2.2,
+          "carbs_g": 61.5,
+          "protein_g": 8.2,
+          "sodium_mg": 23,
+          "fiber_g": 1.7,
+          "sugar_g": 14.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42862,10 +43727,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 185,
+          "fat_g": 5.9,
+          "carbs_g": 26.2,
+          "protein_g": 6.3,
+          "sodium_mg": 74,
+          "fiber_g": 0.8,
+          "sugar_g": 2.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -42948,10 +43824,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 92,
+          "fat_g": 1.7,
+          "carbs_g": 16.0,
+          "protein_g": 2.7,
+          "sodium_mg": 28,
+          "fiber_g": 0.6,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43027,10 +43914,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 1.7,
+          "carbs_g": 8.3,
+          "protein_g": 2.8,
+          "sodium_mg": 18,
+          "fiber_g": 0.9,
+          "sugar_g": 1.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43112,10 +44010,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 260,
+          "fat_g": 3.3,
+          "carbs_g": 47.9,
+          "protein_g": 8.3,
+          "sodium_mg": 30,
+          "fiber_g": 1.8,
+          "sugar_g": 0.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43172,10 +44081,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 26,
+          "fat_g": 1.9,
+          "carbs_g": 2.3,
+          "protein_g": 0.1,
+          "sodium_mg": 13,
+          "fiber_g": 0.1,
+          "sugar_g": 1.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43234,10 +44155,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 10,
+          "fat_g": 0.4,
+          "carbs_g": 1.1,
+          "protein_g": 0.5,
+          "sodium_mg": 6,
+          "fiber_g": 0.0,
+          "sugar_g": 1.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43296,10 +44229,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 2.1,
+          "carbs_g": 2.5,
+          "protein_g": 0.5,
+          "sodium_mg": 38,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43358,10 +44303,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 163,
+          "fat_g": 3.2,
+          "carbs_g": 28.2,
+          "protein_g": 4.8,
+          "sodium_mg": 77,
+          "fiber_g": 1.2,
+          "sugar_g": 1.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43420,10 +44377,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 430,
+          "fat_g": 35.8,
+          "carbs_g": 4.8,
+          "protein_g": 22.1,
+          "sodium_mg": 189,
+          "fiber_g": 0.1,
+          "sugar_g": 3.3
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43482,10 +44451,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 2.2,
+          "carbs_g": 3.7,
+          "protein_g": 0.7,
+          "sodium_mg": 86,
+          "fiber_g": 0.2,
+          "sugar_g": 0.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43544,10 +44525,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 111,
+          "fat_g": 3.7,
+          "carbs_g": 17.2,
+          "protein_g": 3.1,
+          "sodium_mg": 83,
+          "fiber_g": 1.7,
+          "sugar_g": 0.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43606,10 +44599,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 3.0,
+          "carbs_g": 2.1,
+          "protein_g": 2.8,
+          "sodium_mg": 138,
+          "fiber_g": 0.1,
+          "sugar_g": 0.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43668,10 +44673,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 447,
+          "fat_g": 46.3,
+          "carbs_g": 6.0,
+          "protein_g": 4.0,
+          "sodium_mg": 238,
+          "fiber_g": 0.1,
+          "sugar_g": 3.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43730,10 +44747,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 0.7,
+          "carbs_g": 15.7,
+          "protein_g": 1.7,
+          "sodium_mg": 56,
+          "fiber_g": 1.5,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "1 teacup cracklings"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43792,10 +44823,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 255,
+          "fat_g": 18.1,
+          "carbs_g": 21.5,
+          "protein_g": 2.7,
+          "sodium_mg": 83,
+          "fiber_g": 1.9,
+          "sugar_g": 0.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43854,10 +44897,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 55,
+          "fat_g": 0.5,
+          "carbs_g": 11.8,
+          "protein_g": 1.2,
+          "sodium_mg": 78,
+          "fiber_g": 1.1,
+          "sugar_g": 0.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43916,10 +44971,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 493,
+          "fat_g": 30.0,
+          "carbs_g": 47.9,
+          "protein_g": 7.5,
+          "sodium_mg": 105,
+          "fiber_g": 1.7,
+          "sugar_g": 0.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -43978,10 +45045,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 45,
+          "fat_g": 2.9,
+          "carbs_g": 4.0,
+          "protein_g": 0.6,
+          "sodium_mg": 20,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 cup rich molasses"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44040,10 +45121,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 37,
+          "fat_g": 0.0,
+          "carbs_g": 9.4,
+          "protein_g": 0.1,
+          "sodium_mg": 49,
+          "fiber_g": 0.1,
+          "sugar_g": 8.3
+        },
+        "missing_inputs": [
+          "1 pound cake batter"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44102,10 +45197,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 104,
+          "fat_g": 4.3,
+          "carbs_g": 14.0,
+          "protein_g": 3.0,
+          "sodium_mg": 126,
+          "fiber_g": 0.1,
+          "sugar_g": 10.7
+        },
+        "missing_inputs": [
+          "4 cups flour twice"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (9 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44198,10 +45307,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 172,
+          "fat_g": 2.9,
+          "carbs_g": 33.6,
+          "protein_g": 3.6,
+          "sodium_mg": 54,
+          "fiber_g": 1.0,
+          "sugar_g": 17.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44318,10 +45438,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 246,
+          "fat_g": 1.8,
+          "carbs_g": 54.9,
+          "protein_g": 3.4,
+          "sodium_mg": 151,
+          "fiber_g": 0.8,
+          "sugar_g": 33.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44383,10 +45514,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 98,
+          "fat_g": 4.2,
+          "carbs_g": 12.7,
+          "protein_g": 2.8,
+          "sodium_mg": 117,
+          "fiber_g": 0.7,
+          "sugar_g": 1.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (11 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44448,10 +45591,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 230,
+          "fat_g": 2.4,
+          "carbs_g": 46.0,
+          "protein_g": 5.6,
+          "sodium_mg": 249,
+          "fiber_g": 1.3,
+          "sugar_g": 9.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (9 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44513,10 +45668,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 376,
+          "fat_g": 13.3,
+          "carbs_g": 55.6,
+          "protein_g": 9.0,
+          "sodium_mg": 275,
+          "fiber_g": 2.6,
+          "sugar_g": 18.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44578,10 +45745,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 261,
+          "fat_g": 1.5,
+          "carbs_g": 55.8,
+          "protein_g": 6.0,
+          "sodium_mg": 295,
+          "fiber_g": 1.3,
+          "sugar_g": 19.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (9 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44643,10 +45822,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 199,
+          "fat_g": 8.1,
+          "carbs_g": 27.7,
+          "protein_g": 5.9,
+          "sodium_mg": 262,
+          "fiber_g": 3.6,
+          "sugar_g": 1.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (9 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44708,10 +45899,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 269,
+          "fat_g": 7.8,
+          "carbs_g": 44.8,
+          "protein_g": 6.1,
+          "sodium_mg": 240,
+          "fiber_g": 1.6,
+          "sugar_g": 17.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44773,10 +45976,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 111,
+          "fat_g": 1.7,
+          "carbs_g": 20.0,
+          "protein_g": 3.5,
+          "sodium_mg": 163,
+          "fiber_g": 0.8,
+          "sugar_g": 1.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44838,10 +46053,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 1.0,
+          "carbs_g": 45.5,
+          "protein_g": 5.0,
+          "sodium_mg": 230,
+          "fiber_g": 3.3,
+          "sugar_g": 16.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44903,10 +46130,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 203,
+          "fat_g": 2.7,
+          "carbs_g": 39.3,
+          "protein_g": 8.0,
+          "sodium_mg": 51,
+          "fiber_g": 5.4,
+          "sugar_g": 6.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -44968,10 +46207,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 43,
+          "fat_g": 0.5,
+          "carbs_g": 9.0,
+          "protein_g": 1.3,
+          "sodium_mg": 135,
+          "fiber_g": 0.4,
+          "sugar_g": 4.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45033,10 +46284,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 133,
+          "fat_g": 0.9,
+          "carbs_g": 29.4,
+          "protein_g": 4.2,
+          "sodium_mg": 233,
+          "fiber_g": 3.1,
+          "sugar_g": 9.3
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45098,10 +46361,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 163,
+          "fat_g": 2.0,
+          "carbs_g": 31.8,
+          "protein_g": 5.6,
+          "sodium_mg": 56,
+          "fiber_g": 2.9,
+          "sugar_g": 6.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45163,10 +46438,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 153,
+          "fat_g": 1.8,
+          "carbs_g": 30.2,
+          "protein_g": 5.7,
+          "sodium_mg": 156,
+          "fiber_g": 3.6,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [
+          "1 cup new orleans molasses"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (10 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45228,10 +46517,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 239,
+          "fat_g": 2.1,
+          "carbs_g": 54.1,
+          "protein_g": 4.6,
+          "sodium_mg": 252,
+          "fiber_g": 2.4,
+          "sugar_g": 33.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (10 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45293,10 +46594,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 5.8,
+          "carbs_g": 20.6,
+          "protein_g": 5.0,
+          "sodium_mg": 179,
+          "fiber_g": 1.2,
+          "sugar_g": 3.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (10 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45358,10 +46671,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 5.9,
+          "carbs_g": 20.0,
+          "protein_g": 4.9,
+          "sodium_mg": 170,
+          "fiber_g": 1.5,
+          "sugar_g": 2.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (9 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45423,10 +46748,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 146,
+          "fat_g": 3.1,
+          "carbs_g": 25.6,
+          "protein_g": 4.3,
+          "sodium_mg": 257,
+          "fiber_g": 1.4,
+          "sugar_g": 2.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (10 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45488,10 +46825,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 235,
+          "fat_g": 6.4,
+          "carbs_g": 36.9,
+          "protein_g": 8.4,
+          "sodium_mg": 285,
+          "fiber_g": 2.8,
+          "sugar_g": 2.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (10 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45553,10 +46902,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 1.4,
+          "carbs_g": 3.8,
+          "protein_g": 0.8,
+          "sodium_mg": 232,
+          "fiber_g": 0.1,
+          "sugar_g": 0.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45618,10 +46979,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 177,
+          "fat_g": 3.7,
+          "carbs_g": 30.4,
+          "protein_g": 5.2,
+          "sodium_mg": 249,
+          "fiber_g": 1.0,
+          "sugar_g": 4.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45683,10 +47056,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 45,
+          "fat_g": 1.4,
+          "carbs_g": 6.1,
+          "protein_g": 2.2,
+          "sodium_mg": 141,
+          "fiber_g": 0.2,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "2 tablespoonfuls left-"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45748,10 +47135,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 130,
+          "fat_g": 8.7,
+          "carbs_g": 11.9,
+          "protein_g": 1.7,
+          "sodium_mg": 88,
+          "fiber_g": 0.1,
+          "sugar_g": 8.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45813,10 +47212,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 254,
+          "fat_g": 3.6,
+          "carbs_g": 47.1,
+          "protein_g": 7.8,
+          "sodium_mg": 148,
+          "fiber_g": 2.3,
+          "sugar_g": 2.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (11 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45878,10 +47289,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 175,
+          "fat_g": 4.1,
+          "carbs_g": 29.1,
+          "protein_g": 4.9,
+          "sodium_mg": 283,
+          "fiber_g": 1.2,
+          "sugar_g": 0.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -45943,10 +47366,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 115,
+          "fat_g": 2.2,
+          "carbs_g": 20.8,
+          "protein_g": 3.3,
+          "sodium_mg": 102,
+          "fiber_g": 1.3,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [
+          "0.5 cup more of milk"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (10 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46008,10 +47445,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 221,
+          "fat_g": 4.2,
+          "carbs_g": 37.4,
+          "protein_g": 7.7,
+          "sodium_mg": 265,
+          "fiber_g": 1.2,
+          "sugar_g": 3.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46073,10 +47522,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 261,
+          "fat_g": 18.1,
+          "carbs_g": 22.6,
+          "protein_g": 3.2,
+          "sodium_mg": 154,
+          "fiber_g": 0.4,
+          "sugar_g": 17.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (9 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46138,10 +47599,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 1.0,
+          "carbs_g": 8.4,
+          "protein_g": 1.8,
+          "sodium_mg": 97,
+          "fiber_g": 0.4,
+          "sugar_g": 3.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46203,10 +47676,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 203,
+          "fat_g": 5.6,
+          "carbs_g": 35.2,
+          "protein_g": 6.2,
+          "sodium_mg": 541,
+          "fiber_g": 4.8,
+          "sugar_g": 11.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (15 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46268,10 +47753,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 0.8,
+          "carbs_g": 12.2,
+          "protein_g": 1.3,
+          "sodium_mg": 55,
+          "fiber_g": 0.1,
+          "sugar_g": 8.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46333,10 +47830,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 164,
+          "fat_g": 2.6,
+          "carbs_g": 28.4,
+          "protein_g": 6.1,
+          "sodium_mg": 114,
+          "fiber_g": 0.9,
+          "sugar_g": 2.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46398,10 +47907,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 75,
+          "fat_g": 1.3,
+          "carbs_g": 10.1,
+          "protein_g": 2.2,
+          "sodium_mg": 99,
+          "fiber_g": 0.2,
+          "sugar_g": 3.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46463,10 +47984,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 137,
+          "fat_g": 3.4,
+          "carbs_g": 22.7,
+          "protein_g": 3.9,
+          "sodium_mg": 86,
+          "fiber_g": 0.7,
+          "sugar_g": 4.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46528,10 +48061,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 63,
+          "fat_g": 1.1,
+          "carbs_g": 10.5,
+          "protein_g": 2.6,
+          "sodium_mg": 85,
+          "fiber_g": 0.4,
+          "sugar_g": 0.3
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46593,10 +48138,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 163,
+          "fat_g": 8.3,
+          "carbs_g": 19.4,
+          "protein_g": 3.5,
+          "sodium_mg": 123,
+          "fiber_g": 0.2,
+          "sugar_g": 14.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46662,10 +48219,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 538,
+          "fat_g": 27.3,
+          "carbs_g": 67.7,
+          "protein_g": 6.9,
+          "sodium_mg": 267,
+          "fiber_g": 1.1,
+          "sugar_g": 39.6
+        },
+        "missing_inputs": [
+          "0.5 teaspoonful nutmeg to suit taste"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (13 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46727,10 +48298,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 5.0,
+          "carbs_g": 30.9,
+          "protein_g": 5.8,
+          "sodium_mg": 112,
+          "fiber_g": 1.1,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [
+          "2 tablespoonfuls each of butter"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46792,10 +48377,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 190,
+          "fat_g": 4.2,
+          "carbs_g": 31.0,
+          "protein_g": 6.5,
+          "sodium_mg": 402,
+          "fiber_g": 1.1,
+          "sugar_g": 3.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (9 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46857,10 +48454,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 302,
+          "fat_g": 9.5,
+          "carbs_g": 54.9,
+          "protein_g": 9.3,
+          "sodium_mg": 303,
+          "fiber_g": 11.6,
+          "sugar_g": 19.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (12 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46922,10 +48531,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 1.1,
+          "carbs_g": 8.6,
+          "protein_g": 3.2,
+          "sodium_mg": 104,
+          "fiber_g": 0.2,
+          "sugar_g": 3.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -46987,10 +48608,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 65,
+          "fat_g": 3.4,
+          "carbs_g": 7.5,
+          "protein_g": 1.5,
+          "sodium_mg": 93,
+          "fiber_g": 0.3,
+          "sugar_g": 0.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (3 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47052,10 +48685,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 282,
+          "fat_g": 13.6,
+          "carbs_g": 30.7,
+          "protein_g": 9.1,
+          "sodium_mg": 234,
+          "fiber_g": 1.0,
+          "sugar_g": 3.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47117,10 +48762,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 5.3,
+          "carbs_g": 8.4,
+          "protein_g": 6.7,
+          "sodium_mg": 167,
+          "fiber_g": 0.2,
+          "sugar_g": 3.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47182,10 +48839,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 101,
+          "fat_g": 2.1,
+          "carbs_g": 16.1,
+          "protein_g": 4.1,
+          "sodium_mg": 132,
+          "fiber_g": 0.6,
+          "sugar_g": 0.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47247,10 +48916,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 148,
+          "fat_g": 6.2,
+          "carbs_g": 17.3,
+          "protein_g": 5.7,
+          "sodium_mg": 242,
+          "fiber_g": 0.6,
+          "sugar_g": 2.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47312,10 +48993,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 108,
+          "fat_g": 2.5,
+          "carbs_g": 16.1,
+          "protein_g": 4.9,
+          "sodium_mg": 140,
+          "fiber_g": 0.6,
+          "sugar_g": 0.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47377,10 +49070,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 93,
+          "fat_g": 1.9,
+          "carbs_g": 16.9,
+          "protein_g": 3.2,
+          "sodium_mg": 131,
+          "fiber_g": 1.4,
+          "sugar_g": 7.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47442,10 +49147,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 130,
+          "fat_g": 6.5,
+          "carbs_g": 8.9,
+          "protein_g": 8.8,
+          "sodium_mg": 200,
+          "fiber_g": 0.7,
+          "sugar_g": 1.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47507,10 +49224,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 160,
+          "fat_g": 5.6,
+          "carbs_g": 22.0,
+          "protein_g": 5.4,
+          "sodium_mg": 268,
+          "fiber_g": 1.1,
+          "sugar_g": 2.3
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (9 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47572,10 +49301,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 33,
+          "fat_g": 1.2,
+          "carbs_g": 3.8,
+          "protein_g": 1.8,
+          "sodium_mg": 620,
+          "fiber_g": 0.1,
+          "sugar_g": 0.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47637,10 +49378,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 371,
+          "fat_g": 9.5,
+          "carbs_g": 53.9,
+          "protein_g": 15.8,
+          "sodium_mg": 328,
+          "fiber_g": 1.8,
+          "sugar_g": 3.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47702,10 +49455,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 191,
+          "fat_g": 5.5,
+          "carbs_g": 28.1,
+          "protein_g": 6.5,
+          "sodium_mg": 103,
+          "fiber_g": 1.0,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "1 pint milk to a smooth paste"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47767,10 +49534,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 193,
+          "fat_g": 15.7,
+          "carbs_g": 8.5,
+          "protein_g": 5.3,
+          "sodium_mg": 257,
+          "fiber_g": 0.2,
+          "sugar_g": 3.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47832,10 +49611,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 209,
+          "fat_g": 7.2,
+          "carbs_g": 28.6,
+          "protein_g": 6.8,
+          "sodium_mg": 424,
+          "fiber_g": 1.0,
+          "sugar_g": 1.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47897,10 +49688,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 295,
+          "fat_g": 8.9,
+          "carbs_g": 43.2,
+          "protein_g": 9.9,
+          "sodium_mg": 226,
+          "fiber_g": 1.4,
+          "sugar_g": 4.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -47966,10 +49769,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 300,
+          "fat_g": 7.6,
+          "carbs_g": 48.3,
+          "protein_g": 10.5,
+          "sodium_mg": 514,
+          "fiber_g": 3.1,
+          "sugar_g": 8.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (14 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -48031,10 +49846,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 312,
+          "fat_g": 0.2,
+          "carbs_g": 78.8,
+          "protein_g": 0.8,
+          "sodium_mg": 38,
+          "fiber_g": 0.1,
+          "sugar_g": 75.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -48111,8 +49938,12 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "missing_inputs": [
+          "Medieval English recipe - quantities not in modern units"
+        ],
+        "assumptions": [
+          "Original Middle English text does not contain standardized measurements"
+        ]
       }
     },
     {
@@ -48213,10 +50044,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 1.8,
+          "carbs_g": 0.2,
+          "protein_g": 1.6,
+          "sodium_mg": 34,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "3 tbsp sweet manioc starch (polvilho doce)"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     },
     {
@@ -48317,10 +50161,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 105,
+          "fat_g": 2.7,
+          "carbs_g": 16.9,
+          "protein_g": 3.0,
+          "sodium_mg": 105,
+          "fiber_g": 0.6,
+          "sugar_g": 1.1
+        },
+        "missing_inputs": [
+          "1 tbsp dried herbs"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
       }
     }
   ]

@@ -3185,13 +3185,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 712,
-          "fat_g": 0.2,
-          "carbs_g": 184.0,
-          "protein_g": 1.0,
-          "sodium_mg": 4,
-          "fiber_g": 2.0,
-          "sugar_g": 178.0
+          "calories": 806,
+          "fat_g": 0.5,
+          "carbs_g": 209.5,
+          "protein_g": 2.5,
+          "sodium_mg": 6,
+          "fiber_g": 6.5,
+          "sugar_g": 194.5
         },
         "missing_inputs": [
           "1 jar maraschino cherries"
@@ -3823,18 +3823,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 30,
+          "fat_g": 0.1,
+          "carbs_g": 5.4,
+          "protein_g": 2.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 2.0,
+          "sugar_g": 0.1
         },
         "missing_inputs": [],
         "assumptions": [
+          "Estimated from instruction text (1 ingredients identified)",
           "Calculated for 4 servings"
         ]
       }
@@ -4109,18 +4110,19 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 64,
+          "fat_g": 0.6,
+          "carbs_g": 13.9,
+          "protein_g": 1.6,
+          "sodium_mg": 74,
+          "fiber_g": 1.4,
+          "sugar_g": 5.5
         },
         "missing_inputs": [],
         "assumptions": [
+          "Estimated from instruction text (3 ingredients identified)",
           "Calculated for 4 servings"
         ]
       }
@@ -4181,22 +4183,12 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
+        "status": "insufficient_data",
+        "per_serving": {},
         "missing_inputs": [
-          "4 large tbisp. coffee Ieggwhite"
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -4464,13 +4456,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 7824,
+          "calories": 7768,
           "fat_g": 0.2,
-          "carbs_g": 2017.0,
+          "carbs_g": 2009.0,
           "protein_g": 0.5,
-          "sodium_mg": 970,
+          "sodium_mg": 962,
           "fiber_g": 0.2,
-          "sugar_g": 1464.0
+          "sugar_g": 1552.0
         },
         "missing_inputs": [
           "8 oz essence of spruce"
@@ -4655,20 +4647,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1642,
-          "fat_g": 176.0,
-          "carbs_g": 14.0,
-          "protein_g": 10.0,
-          "sodium_mg": 178,
+          "calories": 1667,
+          "fat_g": 176.6,
+          "carbs_g": 17.0,
+          "protein_g": 12.0,
+          "sodium_mg": 242,
           "fiber_g": 0.0,
-          "sugar_g": 14.0
+          "sugar_g": 17.0
         },
-        "missing_inputs": [
-          "1/4 cup cultured buttermilk with live cultures",
-          "1 packet buttermilk starter culture"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -4744,7 +4733,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 149,
           "fat_g": 8.0,
@@ -4754,9 +4743,7 @@
           "fiber_g": 0.0,
           "sugar_g": 12.0
         },
-        "missing_inputs": [
-          "1/4 cup filmjölk starter culture"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -5109,12 +5096,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 2.3,
+          "carbs_g": 9.2,
+          "protein_g": 4.0,
+          "sodium_mg": 12,
+          "fiber_g": 1.0,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -5177,12 +5172,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 198,
+          "fat_g": 8.0,
+          "carbs_g": 24.5,
+          "protein_g": 8.0,
+          "sodium_mg": 106,
+          "fiber_g": 0.0,
+          "sugar_g": 24.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -5241,12 +5244,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 18,
+          "fat_g": 1.2,
+          "carbs_g": 0.1,
+          "protein_g": 1.5,
+          "sodium_mg": 18,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated from instruction text (1 ingredients identified)",
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -5323,12 +5335,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "all"
+          "can be turned by a handle",
+          "1/2 dozen cups of coffee"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -5681,12 +5704,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 4162,
+          "fat_g": 261.4,
+          "carbs_g": 256.6,
+          "protein_g": 115.6,
+          "sodium_mg": 832,
+          "fiber_g": 27.2,
+          "sugar_g": 217.1
+        },
         "missing_inputs": [
-          "all"
+          "1 quart boiled cream",
+          "piece and mixed"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -5743,12 +5777,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 535,
+          "fat_g": 0.0,
+          "carbs_g": 115.0,
+          "protein_g": 0.1,
+          "sodium_mg": 7,
+          "fiber_g": 0.0,
+          "sugar_g": 113.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -5805,12 +5847,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 869,
+          "fat_g": 88.0,
+          "carbs_g": 19.5,
+          "protein_g": 5.0,
+          "sodium_mg": 89,
+          "fiber_g": 0.0,
+          "sugar_g": 19.5
+        },
         "missing_inputs": [
-          "all"
+          "3 oz the best green tea"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -5871,12 +5923,20 @@
         "handwritten/IMG_5658.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "all"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 172,
+          "fat_g": 4.2,
+          "carbs_g": 30.8,
+          "protein_g": 5.2,
+          "sodium_mg": 58,
+          "fiber_g": 0.6,
+          "sugar_g": 26.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
       }
     },
     {
@@ -5940,7 +6000,23 @@
         "flags": []
       },
       "image_refs": [],
-      "is_component": false
+      "is_component": false,
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 597,
+          "fat_g": 0.0,
+          "carbs_g": 18.0,
+          "protein_g": 0.0,
+          "sodium_mg": 24,
+          "fiber_g": 0.0,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "labrador-tea-sioux-chef",
@@ -6005,7 +6081,15 @@
         "flags": []
       },
       "image_refs": [],
-      "is_component": false
+      "is_component": false,
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
+        "assumptions": []
+      }
     },
     {
       "id": "cedar-tea-sioux-chef",
@@ -6071,7 +6155,15 @@
         "flags": []
       },
       "image_refs": [],
-      "is_component": false
+      "is_component": false,
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
+        "assumptions": []
+      }
     },
     {
       "id": "mint-tea-sioux-chef",
@@ -6134,7 +6226,23 @@
         "flags": []
       },
       "image_refs": [],
-      "is_component": false
+      "is_component": false,
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.4,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 0.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "bergamot-tea-sioux-chef",
@@ -6201,7 +6309,15 @@
       "is_component": false,
       "components": [
         "blueberry-raspberry-bergamot-spoon-sweet-sioux-chef"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
+        "assumptions": []
+      }
     },
     {
       "id": "raspberry-leaf-tea-sioux-chef",
@@ -6264,7 +6380,15 @@
         "flags": []
       },
       "image_refs": [],
-      "is_component": false
+      "is_component": false,
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
+        "assumptions": []
+      }
     },
     {
       "id": "chaga-tea-sioux-chef",
@@ -6331,7 +6455,24 @@
         "flags": []
       },
       "image_refs": [],
-      "is_component": false
+      "is_component": false,
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 183,
+          "fat_g": 0.9,
+          "carbs_g": 20.1,
+          "protein_g": 3.5,
+          "sodium_mg": 8,
+          "fiber_g": 0.9,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "dgf-mitch-and-steves-oversize-kamikazes",
@@ -6418,20 +6559,19 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 1110,
-          "fat_g": 0,
-          "sodium_mg": 25,
-          "carbs_g": 80,
-          "fiber_g": 0,
-          "sugar_g": 76,
-          "protein_g": 0
+          "calories": 610,
+          "fat_g": 0.1,
+          "carbs_g": 80.8,
+          "protein_g": 0.5,
+          "sodium_mg": 12,
+          "fiber_g": 2.0,
+          "sugar_g": 73.5
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "6 oz Stolichnaya vodka"
+        ],
         "assumptions": [
-          "1 serving as stated (this is a very large cocktail ~16 oz)",
-          "Rose's lime juice is sweetened variety (~40cal/oz)",
-          "Cointreau is 40% ABV with sugar (~104cal/oz)",
-          "Stolichnaya vodka 80 proof (~65cal/oz)"
+          "Calculated for 1 servings"
         ]
       }
     },
@@ -6540,26 +6680,20 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 35,
-          "fat_g": 0,
-          "sodium_mg": 680,
-          "carbs_g": 8,
-          "fiber_g": 1,
-          "sugar_g": 5,
-          "protein_g": 2
+          "calories": 95,
+          "fat_g": 1.0,
+          "carbs_g": 19.8,
+          "protein_g": 4.7,
+          "sodium_mg": 3639,
+          "fiber_g": 5.6,
+          "sugar_g": 10.7
         },
-        "missing_inputs": [
-          "Tomato Juice (sub-recipe",
-          "estimated as standard tomato juice)",
-          "Sweetened Ginger Puree (sub-recipe)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "No serving size stated; estimated 5 servings of ~1 cup from ~5.5 cups total",
-          "This is the mix only (no vodka included)",
-          "Tomato juice at ~40 cal/cup with ~650mg sodium",
-          "Tabasco and Worcestershire contribute minimal calories but notable sodium"
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
         ]
       }
     },
@@ -6698,22 +6832,19 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 136,
-          "fat_g": 0,
-          "sodium_mg": 400,
-          "carbs_g": 29,
-          "fiber_g": 3,
-          "sugar_g": 17,
-          "protein_g": 5
+          "calories": 75,
+          "fat_g": 0.7,
+          "carbs_g": 16.7,
+          "protein_g": 3.8,
+          "sodium_mg": 461,
+          "fiber_g": 3.5,
+          "sugar_g": 11.5
         },
         "missing_inputs": [],
         "assumptions": [
-          "Serving size: 1 cup (4 servings from ~4 cups)",
-          "Canned crushed tomatoes: ~70 cal/cup",
-          "Peppadew pepper liquor: ~3 cal per tbsp",
-          "Worcestershire sauce: ~15 cal per tbsp"
+          "Calculated for 4 servings"
         ]
       }
     },
@@ -6797,21 +6928,19 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 210,
-          "fat_g": 0,
-          "sodium_mg": 5,
-          "carbs_g": 18,
-          "fiber_g": 0,
-          "sugar_g": 16,
-          "protein_g": 0
+          "calories": 61,
+          "fat_g": 0.0,
+          "carbs_g": 7.5,
+          "protein_g": 0.2,
+          "sodium_mg": 3,
+          "fiber_g": 0.5,
+          "sugar_g": 5.4
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "3/4 cup Summit Extra Pale Ale"
+        ],
         "assumptions": [
-          "4 servings as stated",
-          "Frozen limeade concentrate at ~100 cal/1/4 cup",
-          "Summit Extra Pale Ale at ~150 cal/12 oz",
-          "Tequila at ~65 cal/oz (3/4 cup = 6 oz)",
-          "Lime wedge garnish negligible"
+          "Calculated for 4 servings"
         ]
       }
     },
@@ -6897,21 +7026,19 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 245,
-          "fat_g": 9,
-          "sodium_mg": 140,
-          "carbs_g": 35,
-          "fiber_g": 2,
-          "sugar_g": 30,
-          "protein_g": 9
+          "calories": 308,
+          "fat_g": 8.0,
+          "carbs_g": 53.0,
+          "protein_g": 9.0,
+          "sodium_mg": 127,
+          "fiber_g": 0.0,
+          "sugar_g": 41.0
         },
         "missing_inputs": [
-          "exact marshmallow quantity for serving"
+          "2 1/2 tbsp Hot Damn Cocoa Mix"
         ],
         "assumptions": [
-          "1 serving as stated",
-          "4-5 miniature marshmallows assumed",
-          "Cocoa mix is sugar-and-cocoa based"
+          "Calculated for 1 servings"
         ]
       }
     },
@@ -7005,20 +7132,19 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 86,
-          "fat_g": 1,
-          "sodium_mg": 50,
-          "carbs_g": 21,
-          "fiber_g": 2,
-          "sugar_g": 17,
-          "protein_g": 1
+          "calories": 77,
+          "fat_g": 4.5,
+          "carbs_g": 18.7,
+          "protein_g": 6.4,
+          "sodium_mg": 297,
+          "fiber_g": 11.4,
+          "sugar_g": 0.4
         },
         "missing_inputs": [
-          "exact Vanilla Sugar composition"
+          "2 1/2 cups Vanilla Sugar"
         ],
         "assumptions": [
-          "2.5 tbsp per serving (~26 servings from 4 cups)",
-          "Vanilla Sugar is granulated sugar infused with vanilla bean"
+          "Calculated for 4 servings"
         ]
       }
     },
@@ -7091,10 +7217,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 491,
+          "fat_g": 0.5,
+          "carbs_g": 130.2,
+          "protein_g": 2.5,
+          "sodium_mg": 106,
+          "fiber_g": 2.5,
+          "sugar_g": 120.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -7172,10 +7309,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 720,
+          "fat_g": 1.0,
+          "carbs_g": 142.5,
+          "protein_g": 3.2,
+          "sodium_mg": 18,
+          "fiber_g": 8.0,
+          "sugar_g": 122.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -7276,10 +7424,20 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 1797,
+          "fat_g": 0.4,
+          "carbs_g": 162.8,
+          "protein_g": 1.4,
+          "sodium_mg": 11,
+          "fiber_g": 3.2,
+          "sugar_g": 154.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -7356,10 +7514,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 156,
+          "fat_g": 1.2,
+          "carbs_g": 0.1,
+          "protein_g": 1.5,
+          "sodium_mg": 18,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1/2 pint milk to each person"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -7470,10 +7641,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 209,
+          "fat_g": 0.1,
+          "carbs_g": 53.0,
+          "protein_g": 0.5,
+          "sodium_mg": 2,
+          "fiber_g": 2.2,
+          "sugar_g": 46.7
+        },
+        "missing_inputs": [
+          "3 gallon whiskey",
+          "1 pint cordial"
+        ],
+        "assumptions": [
+          "Calculated for 100 servings"
+        ]
       }
     },
     {
@@ -7588,10 +7772,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 6162,
+          "fat_g": 0.0,
+          "carbs_g": 450.8,
+          "protein_g": 4.5,
+          "sodium_mg": 154,
+          "fiber_g": 0.0,
+          "sugar_g": 414.8
+        },
+        "missing_inputs": [
+          "1 quart lemon or lime juice"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -7718,12 +7915,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Ancient Roman measurements cannot be reliably converted"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 174,
+          "fat_g": 0.1,
+          "carbs_g": 34.6,
+          "protein_g": 1.3,
+          "sodium_mg": 8,
+          "fiber_g": 1.3,
+          "sugar_g": 26.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -7805,12 +8011,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Ancient Roman measurements cannot be reliably converted"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 65,
+          "fat_g": 0.0,
+          "carbs_g": 5.6,
+          "protein_g": 0.0,
+          "sodium_mg": 3,
+          "fiber_g": 0.0,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -7892,12 +8107,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Ancient Roman measurements cannot be reliably converted"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 50,
+          "fat_g": 0.0,
+          "carbs_g": 1.5,
+          "protein_g": 0.0,
+          "sodium_mg": 3,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -7984,12 +8208,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Ancient Roman measurements cannot be reliably converted"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 64,
+          "fat_g": 0.0,
+          "carbs_g": 5.5,
+          "protein_g": 0.0,
+          "sodium_mg": 3,
+          "fiber_g": 0.0,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -8058,12 +8291,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Ancient Roman measurements cannot be reliably converted"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 64,
+          "fat_g": 0.0,
+          "carbs_g": 5.5,
+          "protein_g": 0.0,
+          "sodium_mg": 3,
+          "fiber_g": 0.0,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -8138,12 +8380,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Ancient Roman measurements cannot be reliably converted"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 64,
+          "fat_g": 0.0,
+          "carbs_g": 5.5,
+          "protein_g": 0.0,
+          "sodium_mg": 3,
+          "fiber_g": 0.0,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -8232,12 +8483,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Ancient Roman measurements cannot be reliably converted"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 1.3,
+          "carbs_g": 2.9,
+          "protein_g": 1.7,
+          "sodium_mg": 20,
+          "fiber_g": 0.1,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -8352,12 +8612,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Ancient Roman measurements cannot be reliably converted"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 51,
+          "fat_g": 3.5,
+          "carbs_g": 4.9,
+          "protein_g": 0.3,
+          "sodium_mg": 216,
+          "fiber_g": 0.2,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -8416,7 +8685,9 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {},
-        "missing_inputs": [],
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
         "assumptions": []
       }
     },
@@ -12046,10 +12317,31 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 12566,
+          "fat_g": 716.0,
+          "carbs_g": 1395.3,
+          "protein_g": 201.8,
+          "sodium_mg": 16017,
+          "fiber_g": 44.5,
+          "sugar_g": 1155.2
+        },
+        "missing_inputs": [
+          "½ pint strawberry ice cream",
+          "2 cup mashed bananas",
+          "1 package orange-flavored gelatin",
+          "1 package strawberry flavored gelatin",
+          "⅛ tsp cream of tarter",
+          "2 cup diced ripe bananas",
+          "2 cup diced vegetables",
+          "1 package raspberry flavored gelatin",
+          "1 package cherry-flavored gelatin",
+          "1 package lime flavored gelatin"
+        ],
+        "assumptions": [
+          "Calculated for 11 servings"
+        ]
       }
     },
     {
@@ -12108,10 +12400,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 49,
+          "fat_g": 0.6,
+          "carbs_g": 10.6,
+          "protein_g": 1.4,
+          "sodium_mg": 33,
+          "fiber_g": 0.8,
+          "sugar_g": 4.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12172,7 +12476,9 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {},
-        "missing_inputs": [],
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
         "assumptions": []
       }
     },
@@ -12232,10 +12538,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 22,
+          "fat_g": 0.3,
+          "carbs_g": 4.0,
+          "protein_g": 1.0,
+          "sodium_mg": 37,
+          "fiber_g": 0.3,
+          "sugar_g": 0.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12294,10 +12612,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 65,
+          "fat_g": 4.5,
+          "carbs_g": 4.2,
+          "protein_g": 2.2,
+          "sodium_mg": 27,
+          "fiber_g": 0.0,
+          "sugar_g": 4.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12356,10 +12686,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 137,
+          "fat_g": 4.0,
+          "carbs_g": 6.6,
+          "protein_g": 1.7,
+          "sodium_mg": 166,
+          "fiber_g": 0.0,
+          "sugar_g": 6.6
+        },
+        "missing_inputs": [
+          "1 gill vermouth"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12418,10 +12762,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 0.1,
+          "carbs_g": 9.7,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 1.2,
+          "sugar_g": 7.9
+        },
+        "missing_inputs": [
+          "1 quart mellow whiskey"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12480,10 +12838,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 16,
+          "fat_g": 0.1,
+          "carbs_g": 4.4,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 0.4,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [
+          "1 tablespoonful cracked ice"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12542,10 +12914,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 1175,
+          "fat_g": 0.1,
+          "carbs_g": 232.5,
+          "protein_g": 0.3,
+          "sodium_mg": 3,
+          "fiber_g": 1.5,
+          "sugar_g": 230.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12606,7 +12990,9 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {},
-        "missing_inputs": [],
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
         "assumptions": []
       }
     },
@@ -12666,10 +13052,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 1056,
+          "fat_g": 4.5,
+          "carbs_g": 111.8,
+          "protein_g": 9.6,
+          "sodium_mg": 8,
+          "fiber_g": 3.0,
+          "sugar_g": 87.9
+        },
+        "missing_inputs": [
+          "1 quart whiskey"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12728,10 +13128,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 437,
+          "fat_g": 0.0,
+          "carbs_g": 113.0,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 0.1,
+          "sugar_g": 112.8
+        },
+        "missing_inputs": [
+          "1 pint good whiskey"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (3 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12790,10 +13204,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 474,
+          "fat_g": 0.6,
+          "carbs_g": 120.2,
+          "protein_g": 1.4,
+          "sodium_mg": 35,
+          "fiber_g": 0.9,
+          "sugar_g": 113.5
+        },
+        "missing_inputs": [
+          "2 pints cordial to one of liquor"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12852,10 +13280,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 0.0,
+          "carbs_g": 56.2,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 56.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12914,10 +13354,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 0.0,
+          "carbs_g": 56.2,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 56.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (1 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -12976,10 +13428,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 4.0,
+          "carbs_g": 3.4,
+          "protein_g": 3.0,
+          "sodium_mg": 81,
+          "fiber_g": 0.0,
+          "sugar_g": 3.1
+        },
+        "missing_inputs": [
+          "3 pounds down-weight"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13038,10 +13504,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 1356,
+          "fat_g": 4.0,
+          "carbs_g": 337.8,
+          "protein_g": 3.0,
+          "sodium_mg": 84,
+          "fiber_g": 0.0,
+          "sugar_g": 337.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (2 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13100,10 +13578,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 0.8,
+          "carbs_g": 10.5,
+          "protein_g": 2.2,
+          "sodium_mg": 98,
+          "fiber_g": 0.8,
+          "sugar_g": 1.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (1 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13162,10 +13652,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 12,
+          "fat_g": 0.0,
+          "carbs_g": 3.1,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 3.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (1 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13226,7 +13728,9 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {},
-        "missing_inputs": [],
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
         "assumptions": []
       }
     },
@@ -13286,10 +13790,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 29,
+          "fat_g": 0.1,
+          "carbs_g": 7.2,
+          "protein_g": 0.3,
+          "sodium_mg": 0,
+          "fiber_g": 0.9,
+          "sugar_g": 6.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13348,10 +13864,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 1273,
+          "fat_g": 17.0,
+          "carbs_g": 241.2,
+          "protein_g": 19.9,
+          "sodium_mg": 89,
+          "fiber_g": 5.8,
+          "sugar_g": 140.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (12 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13410,10 +13938,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 1845,
+          "fat_g": 62.3,
+          "carbs_g": 306.4,
+          "protein_g": 23.4,
+          "sodium_mg": 562,
+          "fiber_g": 2.6,
+          "sugar_g": 252.7
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (11 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13472,10 +14012,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 1156,
+          "fat_g": 10.7,
+          "carbs_g": 260.5,
+          "protein_g": 12.6,
+          "sodium_mg": 229,
+          "fiber_g": 0.1,
+          "sugar_g": 257.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13534,10 +14086,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 937,
+          "fat_g": 58.2,
+          "carbs_g": 79.3,
+          "protein_g": 21.9,
+          "sodium_mg": 493,
+          "fiber_g": 2.5,
+          "sugar_g": 8.3
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13596,10 +14160,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 528,
+          "fat_g": 9.6,
+          "carbs_g": 101.0,
+          "protein_g": 10.1,
+          "sodium_mg": 118,
+          "fiber_g": 1.8,
+          "sugar_g": 53.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13658,10 +14234,25 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 52,
+          "fat_g": 1.8,
+          "carbs_g": 6.8,
+          "protein_g": 2.4,
+          "sodium_mg": 216,
+          "fiber_g": 1.0,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "1 pound streaky bacon",
+          "1  peppers"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13720,10 +14311,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 192,
+          "fat_g": 9.9,
+          "carbs_g": 20.8,
+          "protein_g": 5.7,
+          "sodium_mg": 242,
+          "fiber_g": 1.6,
+          "sugar_g": 7.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13790,10 +14393,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 212,
+          "fat_g": 13.5,
+          "carbs_g": 15.6,
+          "protein_g": 8.3,
+          "sodium_mg": 256,
+          "fiber_g": 0.0,
+          "sugar_g": 15.6
+        },
+        "missing_inputs": [
+          "1 can do"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13855,10 +14472,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 0.1,
+          "carbs_g": 7.5,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 1.4,
+          "sugar_g": 5.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (3 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13920,10 +14549,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 435,
+          "fat_g": 0.0,
+          "carbs_g": 112.5,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 112.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (1 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -13983,10 +14624,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 282,
+          "fat_g": 0.4,
+          "carbs_g": 71.8,
+          "protein_g": 1.4,
+          "sodium_mg": 2,
+          "fiber_g": 2.2,
+          "sugar_g": 66.0
+        },
+        "missing_inputs": [
+          "1 quart liquid"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14046,10 +14701,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 226,
+          "fat_g": 0.7,
+          "carbs_g": 56.2,
+          "protein_g": 3.3,
+          "sodium_mg": 6,
+          "fiber_g": 2.4,
+          "sugar_g": 42.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14111,10 +14778,25 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 871,
+          "fat_g": 0.0,
+          "carbs_g": 225.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 225.0
+        },
+        "missing_inputs": [
+          "4 pints blue grapes",
+          "1 gallon jug scalded"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (1 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14176,10 +14858,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 1616,
+          "fat_g": 1.5,
+          "carbs_g": 417.5,
+          "protein_g": 3.0,
+          "sodium_mg": 13,
+          "fiber_g": 4.0,
+          "sugar_g": 412.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (3 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14241,7 +14935,9 @@
       "nutrition": {
         "status": "insufficient_data",
         "per_serving": {},
-        "missing_inputs": [],
+        "missing_inputs": [
+          "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
+        ],
         "assumptions": []
       }
     },
@@ -14304,10 +15000,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 246,
+          "fat_g": 0.1,
+          "carbs_g": 40.5,
+          "protein_g": 0.2,
+          "sodium_mg": 6,
+          "fiber_g": 1.4,
+          "sugar_g": 35.2
+        },
+        "missing_inputs": [
+          "0.5 cupful maraschino"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14369,10 +15079,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 284,
+          "fat_g": 0.3,
+          "carbs_g": 74.4,
+          "protein_g": 1.2,
+          "sodium_mg": 6,
+          "fiber_g": 3.2,
+          "sugar_g": 68.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14432,10 +15154,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 319,
+          "fat_g": 4.0,
+          "carbs_g": 74.1,
+          "protein_g": 1.9,
+          "sodium_mg": 2,
+          "fiber_g": 5.4,
+          "sugar_g": 66.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (10 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14495,10 +15229,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 188,
+          "fat_g": 5.2,
+          "carbs_g": 18.4,
+          "protein_g": 16.8,
+          "sodium_mg": 51,
+          "fiber_g": 3.1,
+          "sugar_g": 14.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14558,10 +15304,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 96,
+          "fat_g": 6.5,
+          "carbs_g": 8.4,
+          "protein_g": 1.3,
+          "sodium_mg": 20,
+          "fiber_g": 0.0,
+          "sugar_g": 7.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14623,10 +15381,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 54,
+          "fat_g": 2.9,
+          "carbs_g": 6.8,
+          "protein_g": 1.0,
+          "sodium_mg": 20,
+          "fiber_g": 0.7,
+          "sugar_g": 3.9
+        },
+        "missing_inputs": [
+          "0.5 ounces cream of tartar"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (7 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14688,10 +15460,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 230,
+          "fat_g": 0.2,
+          "carbs_g": 58.9,
+          "protein_g": 0.7,
+          "sodium_mg": 1,
+          "fiber_g": 1.9,
+          "sugar_g": 56.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14753,10 +15537,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 26,
+          "fat_g": 2.8,
+          "carbs_g": 0.2,
+          "protein_g": 0.2,
+          "sodium_mg": 3,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (1 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14818,10 +15614,24 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 541,
+          "fat_g": 0.6,
+          "carbs_g": 141.0,
+          "protein_g": 1.8,
+          "sodium_mg": 4,
+          "fiber_g": 5.5,
+          "sugar_g": 126.9
+        },
+        "missing_inputs": [
+          "2 quarts apollinaris"
+        ],
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14883,10 +15693,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 413,
+          "fat_g": 25.5,
+          "carbs_g": 35.6,
+          "protein_g": 10.3,
+          "sodium_mg": 120,
+          "fiber_g": 2.8,
+          "sugar_g": 31.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (5 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -14946,10 +15768,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 557,
+          "fat_g": 16.8,
+          "carbs_g": 97.9,
+          "protein_g": 15.8,
+          "sodium_mg": 261,
+          "fiber_g": 8.1,
+          "sugar_g": 62.8
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (8 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15011,10 +15845,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 203,
+          "fat_g": 0.1,
+          "carbs_g": 52.8,
+          "protein_g": 0.3,
+          "sodium_mg": 1,
+          "fiber_g": 0.8,
+          "sugar_g": 50.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15074,10 +15920,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 156,
+          "fat_g": 5.5,
+          "carbs_g": 27.4,
+          "protein_g": 0.3,
+          "sodium_mg": 9,
+          "fiber_g": 0.0,
+          "sugar_g": 24.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (3 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15137,10 +15995,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 21,
+          "fat_g": 1.2,
+          "carbs_g": 0.2,
+          "protein_g": 1.5,
+          "sodium_mg": 163,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (3 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15200,10 +16070,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 319,
+          "fat_g": 25.2,
+          "carbs_g": 21.4,
+          "protein_g": 2.8,
+          "sodium_mg": 26,
+          "fiber_g": 3.9,
+          "sugar_g": 15.6
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (10 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15265,10 +16147,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 1018,
+          "fat_g": 3.6,
+          "carbs_g": 252.0,
+          "protein_g": 6.0,
+          "sodium_mg": 17,
+          "fiber_g": 36.0,
+          "sugar_g": 202.0
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (4 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15328,10 +16222,22 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 132,
+          "fat_g": 8.0,
+          "carbs_g": 11.9,
+          "protein_g": 3.6,
+          "sodium_mg": 137,
+          "fiber_g": 0.3,
+          "sugar_g": 5.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Estimated from instruction text (6 ingredients identified)",
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15503,10 +16409,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 1.6,
+          "carbs_g": 7.9,
+          "protein_g": 2.9,
+          "sodium_mg": 24,
+          "fiber_g": 1.1,
+          "sugar_g": 4.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15601,10 +16518,23 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 0.6,
+          "carbs_g": 5.8,
+          "protein_g": 2.6,
+          "sodium_mg": 29,
+          "fiber_g": 0.6,
+          "sugar_g": 4.7
+        },
+        "missing_inputs": [
+          "juice of 1/2 lemon lemon juice"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15693,10 +16623,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 3.8,
+          "carbs_g": 11.2,
+          "protein_g": 3.1,
+          "sodium_mg": 43,
+          "fiber_g": 1.8,
+          "sugar_g": 6.5
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -15779,10 +16720,21 @@
         "temperature_c": ""
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 66,
+          "fat_g": 4.1,
+          "carbs_g": 5.2,
+          "protein_g": 2.8,
+          "sodium_mg": 24,
+          "fiber_g": 1.6,
+          "sugar_g": 3.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     }
   ]
