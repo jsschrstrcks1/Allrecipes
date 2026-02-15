@@ -10,7 +10,7 @@ A collection of digital cookbook recipes and magazine clippings, preserved with 
 
 This archive contains reference recipes from digital cookbooks, magazines, and other sources - collected and used with permission. This is part of the multi-repo Family Recipe Archive system.
 
-**Current Status:** 1546 recipes
+**Current Status:** 9,989 recipes
 
 ---
 
