@@ -1,4 +1,14 @@
-# API keys
-.env
-.env.*
-!.env.example
+__pycache__/
+
+# Processed images and logs (regeneratable)
+data/processed/
+data/processing_log_*.json
+!data/processed/img_5626.jpeg
+!data/processed/img_5650.jpeg
+
+# Duplicate/supplementary files in all/ (originals in data/)
+# Note: all/HTML/ is tracked (Project Gutenberg cookbooks)
+all/*.PNG
+all/*.jpeg
+all/PDFs/
+all/processed/

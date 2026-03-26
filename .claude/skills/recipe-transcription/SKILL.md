@@ -1,158 +1,127 @@
 # Recipe Transcription Skill
 
-**Purpose:** Transcribe handwritten recipe cards with maximum accuracy and fidelity to the original source.
+## Purpose
 
-**Activation:** This skill activates when reading images from `data/` or `data/processed/` directories, or when keywords like "transcribe", "OCR", "handwritten", or "recipe card" appear.
+Transcribe recipes from Kindle screenshots, magazine scans, and other digital sources into structured JSON format.
 
----
+## Activation Triggers
 
-## Core Principles
+- Working with files in `data/*.PNG`, `data/*.jpeg`, `data/processed/*.jpeg`
+- Keywords: transcribe, OCR, extract, screenshot, kindle, magazine, scan
 
-### 1. Accuracy Over Speed
-These are irreplaceable family heirlooms. Take time to get it right.
+## Pre-Flight Checklist
 
-### 2. Fidelity to Source
-Preserve grandma's exact wording, spelling, and style. Do NOT:
-- "Correct" her spelling
-- Modernize her language
-- Standardize her formatting
-- Add steps she didn't write
+Before transcribing any image:
 
-### 3. Honesty About Uncertainty
-When you can't read something clearly:
-- Use `[UNCLEAR]` marker
-- Optionally note possibilities: `[UNCLEAR: possibly "1/2" or "1/4"]`
-- NEVER guess or invent
+1. [ ] Check image dimensions via `python scripts/image_safeguards.py status`
+2. [ ] Use `data/processed/` version if image is oversized
+3. [ ] For Kindle screenshots, verify copyright/permission
+4. [ ] Identify source cookbook or publication
 
----
+## Transcription Workflow
 
-## Pre-Transcription Checklist
-
-Before reading any image:
+### Step 1: Image Assessment
 
 ```bash
-# 1. Check image dimensions (must be ≤2000px)
 python scripts/image_safeguards.py status
-
-# 2. Use processed version if available
-# PREFER: data/processed/filename.jpeg
-# AVOID:  data/filename.jpeg (may be oversized)
 ```
 
----
+Determine image type:
+- **Kindle screenshot**: Look for "Location X of Y" footer
+- **Magazine scan**: Printed text, professional layout
+- **Cookbook page**: Verify permission before processing
 
-## OCR Correction Standards
+### Step 2: Completeness Check
 
-### Character Confusion (Watch For)
+**DO NOT transcribe unless ALL THREE elements are visible:**
 
-| Often Misread As | Should Be | Context |
-|------------------|-----------|---------|
-| `l` (lowercase L) | `1` (one) | In numbers: `l cup` → `1 cup` |
-| `1` (one) | `l` (lowercase L) | In words: `mi1k` → `milk` |
-| `O` (letter O) | `0` (zero) | In temperatures: `35O°F` → `350°F` |
-| `0` (zero) | `O` (letter O) | In words: `0ven` → `Oven` |
-| `rn` | `m` | In words: `warrn` → `warm` |
-| `cl` | `d` | In words: `acld` → `add` |
+1. Recipe title
+2. At least partial ingredient list
+3. At least partial instructions
 
-### Critical Measurement Distinctions
+If incomplete, note as fragment and wait for adjacent images.
 
-| IF YOU READ | DOUBLE-CHECK | WHY |
-|-------------|--------------|-----|
-| `tbsp` | Could be `tsp`? | 3x difference in quantity! |
-| `tsp` | Could be `tbsp`? | 3x difference in quantity! |
-| `1/4` | Could be `1/2`? | 2x difference |
-| `oz` | Could be `fl oz`? | Weight vs volume |
+### Step 3: Extract Information
 
-### Measurement Standardization
+Capture in order:
+1. Title (exactly as shown)
+2. Source attribution (cookbook name, magazine, etc.)
+3. Yield/servings (if shown)
+4. Prep/cook times (if shown)
+5. Ingredients (quantity, unit, item, prep notes)
+6. Instructions (numbered steps)
+7. Tips, notes, variations
+8. Temperature and pan size
 
-Use these abbreviations consistently:
-- **Volume:** tsp, tbsp, cup, fl oz, pt, qt, gal
-- **Weight:** oz, lb
-- **Temperature:** Dual format `350°F (175°C)`
-- **Time:** min, hr (or spell out)
-
----
-
-## Transcription Output Format
+### Step 4: Create JSON Entry
 
 ```json
 {
-  "id": "recipe-slug-from-title",
+  "id": "recipe-name-slug",
   "collection": "all",
-  "collection_display": "Family Recipes",
-  "title": "Exact Title From Card",
-  "category": "desserts",
-  "image_refs": ["recipe-image-XX.jpeg"],
+  "collection_display": "Other Family Recipes",
+  "title": "Recipe Name",
+  "category": "category",
+  "source_note": "Source cookbook or magazine",
   "ingredients": [
-    "2 cups flour",
-    "1 tsp salt",
-    "[UNCLEAR] sugar"
+    {"item": "item", "quantity": "X", "unit": "cup", "prep_note": ""}
   ],
   "instructions": [
-    "Mix dry ingredients",
-    "Add wet ingredients",
-    "[UNCLEAR: possibly 'fold' or 'stir'] gently"
+    {"step": 1, "text": "First instruction."}
   ],
-  "notes": [
-    "Transcription confidence: high/medium/low",
-    "Image quality issues: [describe if any]"
-  ],
-  "confidence": "high"
+  "image_refs": ["original_filename.PNG"],
+  "confidence": {
+    "overall": "high",
+    "flags": []
+  }
 }
 ```
 
----
+### Step 5: Validate
 
-## Confidence Ratings
+```bash
+python scripts/validate-recipes.py
+```
 
-| Rating | Criteria |
-|--------|----------|
-| `high` | All text clearly readable, no guessing required |
-| `medium` | 1-3 unclear words, marked with `[UNCLEAR]` |
-| `low` | Significant portions unclear, multiple `[UNCLEAR]` markers |
+### Step 6: Mark Processed
 
----
+```bash
+python scripts/image_safeguards.py mark "IMG_XXXX.PNG" processed
+```
+
+## OCR Error Awareness
+
+| Looks Like | Might Be | Check |
+|------------|----------|-------|
+| `l` | `1` | Quantities |
+| `O` | `0` | Temperatures |
+| `rn` | `m` | Word context |
+| `tsp` | `tbsp` | **3x difference!** |
 
 ## Guardrails
 
-### MUST DO:
-- Use `[UNCLEAR]` for any text you cannot read with certainty
-- Preserve original spelling and grammar
-- Note image quality issues in recipe notes
-- Use processed images (≤2000px) when available
-- Run validation after adding recipe: `python scripts/validate-recipes.py`
+### MUST
 
-### MUST NOT:
-- Invent ingredients, steps, or measurements
-- Guess what unclear text says
-- "Improve" or modernize grandma's wording
-- Delete or modify handwritten image files
-- Skip the image dimension check
+- Mark unclear text as `[UNCLEAR]`
+- Preserve original measurements
+- Verify copyright for cookbooks
+- Use processed images for oversized files
 
----
+### MUST NOT
 
-## Post-Transcription Validation
+- Invent or guess content
+- Skip validation
+- Delete source images
+- Ignore dimension warnings
 
-After transcribing:
+## Quality Standards
 
-```bash
-# Validate the recipe was added correctly
-python scripts/validate-recipes.py
-
-# Check for common issues:
-# - Missing required fields (id, title, ingredients, instructions, category)
-# - Invalid category
-# - Suspicious measurements (too much salt, etc.)
-```
+| Confidence | Meaning |
+|------------|---------|
+| `high` | Everything clear |
+| `medium` | 1-3 unclear items (flagged) |
+| `low` | Significant uncertainty |
 
 ---
 
-## Resources
-
-- [OCR Correction Standards](../../CLAUDE.md#ocr-correction-standards)
-- [Recipe Schema](../../CLAUDE.md#recipe-schema)
-- [Valid Categories](../../CLAUDE.md#categories)
-
----
-
-*"Accuracy is more important than speed. These recipes matter deeply to this family."*
+*Accuracy is more important than speed.*

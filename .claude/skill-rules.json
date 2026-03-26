@@ -1,98 +1,109 @@
 {
-  "version": "1.0.0",
-  "description": "Auto-activation rules for Claude Code skills - Allrecipes aggregation hub",
   "skills": {
-    "orchestrate": {
-      "enabled": true,
-      "type": "domain",
-      "enforcement": "suggest",
-      "priority": "high",
-      "description": "Full multi-LLM pipeline orchestration. Runs the recipe pipeline (Generate \u2192 Expand \u2192 Safety \u2192 Creative) coordinating GPT, Gemini, Grok, and Claude.",
-      "promptTriggers": {
-        "keywords": [
-          "orchestrate",
-          "pipeline",
-          "multi-model",
-          "multi-llm",
-          "full pipeline",
-          "run pipeline",
-          "recipe pipeline"
+    "recipe-transcription": {
+      "description": "Transcribe recipes from Kindle screenshots and magazine scans",
+      "triggers": {
+        "file_patterns": ["data/*.jpeg", "data/*.jpg", "data/*.PNG", "data/processed/*.jpeg"],
+        "keywords": ["transcribe", "OCR", "extract", "screenshot", "kindle", "magazine", "scan"]
+      },
+      "guardrails": {
+        "must": [
+          "Mark unclear text as [UNCLEAR]",
+          "Preserve original measurements and temperatures",
+          "Verify copyright/permission for cookbook images",
+          "Check image dimensions before processing"
         ],
-        "intentPatterns": [
-          "(orchestrate|run pipeline|full pipeline).*?(recipe|generate)",
-          "(coordinate|consult).*?(multiple|all).*?model"
+        "must_not": [
+          "Invent or guess recipe content",
+          "Skip validation after transcription",
+          "Delete source images"
         ]
       },
-      "autoLoad": {
-        "mainFile": ".claude/skills/orchestrate/SKILL.md",
-        "maxLines": 200,
-        "loadOnFirstFileEdit": false
-      },
-      "activationMessage": "Orchestrator active. GPT leads recipe generation \u2014 Claude validates safety."
+      "activation": {
+        "auto": true,
+        "priority": "high"
+      }
     },
-    "consult": {
-      "enabled": true,
-      "type": "domain",
-      "enforcement": "suggest",
-      "priority": "high",
-      "description": "Quick multi-LLM second opinion. Sends a single prompt to GPT, Gemini, or Grok with a role-based system prompt and returns structured feedback.",
-      "promptTriggers": {
-        "keywords": [
-          "consult",
-          "second opinion",
-          "ask gpt",
-          "ask gemini",
-          "ask grok",
-          "challenge this",
-          "expand this",
-          "get feedback"
+    "recipe-validation": {
+      "description": "Validate recipe schema and data quality",
+      "triggers": {
+        "file_patterns": ["data/recipes.json"],
+        "keywords": ["validate", "check", "schema", "verify"]
+      },
+      "guardrails": {
+        "must": [
+          "Run validation before committing",
+          "Fix all errors before proceeding",
+          "Investigate warnings thoroughly"
         ],
-        "intentPatterns": [
-          "(consult|ask|query).*?(gpt|gemini|grok)",
-          "(second opinion|outside perspective|another model)"
+        "must_not": [
+          "Commit recipes with validation errors",
+          "Ignore sanity limit warnings",
+          "Invent data to pass validation"
         ]
       },
-      "autoLoad": {
-        "mainFile": ".claude/skills/consult/SKILL.md",
-        "maxLines": 100,
-        "loadOnFirstFileEdit": false
-      },
-      "activationMessage": "Consultation ready. One model, one question, structured feedback."
+      "activation": {
+        "auto": true,
+        "priority": "high"
+      }
     },
-    "icp-2": {
-      "enabled": true,
-      "type": "guardrail",
-      "enforcement": "block",
-      "priority": "critical",
-      "description": "ICP-2 \u2014 Human-First SEO & AEO standard for 2026. Supersedes ICP-Lite v1.4 and seo-optimizer. Blocks HTML edits that don't meet ICP-2 compliance.",
-      "fileTriggers": {
-        "pathPatterns": [
-          "*.html",
-          "**/*.html"
+    "image-safety": {
+      "description": "Check image dimensions before AI processing",
+      "triggers": {
+        "file_patterns": ["data/*.PNG", "data/*.jpeg", "data/*.jpg"],
+        "keywords": ["read image", "view image", "process image"]
+      },
+      "guardrails": {
+        "must": [
+          "Check manifest before reading images",
+          "Use processed/ versions for oversized images",
+          "Run image_safeguards.py for unknown images"
         ],
-        "exclude": [
-          "node_modules/**",
-          ".git/**",
-          "dist/**",
-          "build/**"
+        "must_not": [
+          "Read images >2000px directly",
+          "Skip dimension verification"
         ]
       },
-      "autoLoad": {
-        "mainFile": ".claude/skills/icp-2/SKILL.md",
-        "maxLines": 500,
-        "loadOnFirstFileEdit": true
+      "activation": {
+        "auto": true,
+        "priority": "critical"
+      }
+    },
+    "milk-substitution": {
+      "description": "Substitute milk types (cow, goat, sheep) in cheese-making recipes",
+      "triggers": {
+        "file_patterns": ["data/milk-substitution.json"],
+        "keywords": ["sheep milk", "goat milk", "cow milk", "substitute", "conversion", "cheese", "rennet", "curd"]
       },
-      "activationMessage": "ICP-2 guardrail active. HTML edits will be validated for SEO/AEO compliance. Non-compliance is a blocking error."
+      "guardrails": {
+        "must": [
+          "Use data from data/milk-substitution.json",
+          "Document all substitution assumptions",
+          "Note flavor/texture differences",
+          "Warn about ultra-pasteurized milk unsuitability"
+        ],
+        "must_not": [
+          "Invent conversion ratios without research basis",
+          "Ignore pH and acidity differences",
+          "Promise identical results when substituting",
+          "Recommend ultra-pasteurized milk for cheese"
+        ]
+      },
+      "activation": {
+        "auto": true,
+        "priority": "medium"
+      }
     }
   },
-  "globalSettings": {
-    "enableAutoActivation": true,
-    "verboseLogging": false,
-    "cacheSkillContext": true,
-    "maxConcurrentSkills": 2
+  "global": {
+    "auto_activate": true,
+    "max_concurrent_skills": 2,
+    "verbose_logging": false,
+    "skill_context_cache": true
   },
-  "notes": {
-    "project": "Allrecipes - Recipe aggregation hub",
-    "theological_foundation": "Soli Deo Gloria"
+  "philosophy": {
+    "principle": "Accuracy-First",
+    "motto": "Accuracy is more important than speed",
+    "ethos": "Soli Deo Gloria"
   }
 }

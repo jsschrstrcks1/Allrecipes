@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "description": "Butter-making template data for the Butter Builder wizard",
+    "version": "1.0",
+    "last_updated": "2026-01-28"
+  },
+  "cream_sources": {
+    "cow": {
+      "id": "cow",
+      "name": "Cow Cream",
+      "fat_content": "36-40%",
+      "flavor_profile": ["mild", "sweet", "familiar"],
+      "yield_notes": "1 pint heavy cream yields ~1 cup (8 oz) butter",
+      "best_for": ["sweet cream", "cultured", "compound", "ghee"],
+      "notes": "Most common and versatile. Use heavy cream (36%+) for best yield."
+    },
+    "goat": {
+      "id": "goat",
+      "name": "Goat Cream",
+      "fat_content": "30-35%",
+      "flavor_profile": ["tangy", "herbaceous", "bright"],
+      "yield_notes": "Lower yield than cow cream. Naturally homogenized - may need to collect cream over several milkings.",
+      "best_for": ["cultured", "compound", "fresh"],
+      "notes": "Naturally white (no beta-carotene). Tangier flavor. Harder to separate cream from milk - use a cream separator or let raw milk sit 24-48 hours."
+    },
+    "sheep": {
+      "id": "sheep",
+      "name": "Sheep Cream",
+      "fat_content": "45-55%",
+      "flavor_profile": ["rich", "nutty", "sweet"],
+      "yield_notes": "Highest fat content of common dairy animals. Excellent yield per pint.",
+      "best_for": ["cultured", "ghee", "compound"],
+      "notes": "Very rich with high fat. Makes incredibly flavorful butter. Seasonal availability (spring/summer)."
+    },
+    "buffalo": {
+      "id": "buffalo",
+      "name": "Water Buffalo Cream",
+      "fat_content": "48-55%",
+      "flavor_profile": ["rich", "creamy", "mild"],
+      "yield_notes": "Very high fat content. Exceptional yield.",
+      "best_for": ["ghee", "cultured", "sweet cream"],
+      "notes": "Traditional for Indian makhan and ghee. Very white, exceptionally creamy. Higher melting point than cow butter."
+    },
+    "yak": {
+      "id": "yak",
+      "name": "Yak Cream",
+      "fat_content": "45-52%",
+      "flavor_profile": ["rich", "earthy", "sweet"],
+      "yield_notes": "High fat, excellent yield. Traditional in Tibetan and Nepali cuisine.",
+      "best_for": ["butter tea", "ghee", "cultured"],
+      "notes": "Used in po cha (Tibetan butter tea). Strong, distinctive flavor. Naturally golden-yellow."
+    }
+  },
+  "butter_styles": {
+    "sweet_cream": {
+      "id": "sweet_cream",
+      "name": "Sweet Cream Butter",
+      "description": "Classic fresh butter churned from sweet (uncultured) cream. The most common homemade butter.",
+      "difficulty": "beginner",
+      "time": "20-30 min",
+      "shelf_life": "2 weeks refrigerated, 6 months frozen",
+      "key_steps": ["Chill cream", "Churn until butter separates", "Wash butter", "Knead and shape"],
+      "tips": [
+        "Cream should be 55-60°F (13-16°C) for best churning",
+        "Over-churning past separation makes butter greasy",
+        "Wash butter 3-4 times until water runs clear",
+        "Thorough washing removes buttermilk and extends shelf life"
+      ],
+      "compatible_milks": ["cow", "goat", "sheep", "buffalo", "yak"]
+    },
+    "cultured": {
+      "id": "cultured",
+      "name": "Cultured Butter",
+      "description": "European-style butter made from cream fermented with live cultures. Tangier, more complex flavor with higher butterfat.",
+      "difficulty": "intermediate",
+      "time": "24-48 hrs (culturing) + 30 min (churning)",
+      "shelf_life": "3 weeks refrigerated, 8 months frozen",
+      "key_steps": ["Culture cream 24-48 hours", "Chill cultured cream", "Churn", "Wash", "Knead and shape"],
+      "tips": [
+        "Add 2 tbsp buttermilk or yogurt per pint of cream as starter",
+        "Culture at 70-75°F (21-24°C) until thick and tangy",
+        "Longer culturing = more tangy flavor",
+        "This is how most European butter is made (French, Danish, Irish)"
+      ],
+      "compatible_milks": ["cow", "goat", "sheep", "buffalo", "yak"]
+    },
+    "compound": {
+      "id": "compound",
+      "name": "Compound Butter",
+      "description": "Finished butter mixed with herbs, spices, garlic, citrus, or other flavorings. A restaurant staple.",
+      "difficulty": "beginner",
+      "time": "15 min (plus base butter time)",
+      "shelf_life": "1 week refrigerated, 3 months frozen",
+      "key_steps": ["Soften butter", "Mix in flavorings", "Roll in parchment/plastic", "Chill to set"],
+      "tips": [
+        "Butter should be room temp but not melted when mixing",
+        "Finely mince all add-ins for even distribution",
+        "Roll into a log for easy slicing",
+        "Make multiple flavor rolls and freeze for later"
+      ],
+      "compatible_milks": ["cow", "goat", "sheep", "buffalo", "yak"]
+    },
+    "ghee": {
+      "id": "ghee",
+      "name": "Ghee (Clarified Butter)",
+      "description": "Butter cooked until water evaporates and milk solids brown and settle. Nutty flavor, very high smoke point. Sacred in Ayurvedic tradition.",
+      "difficulty": "intermediate",
+      "time": "30-45 min",
+      "shelf_life": "3 months at room temp, 1 year refrigerated",
+      "key_steps": ["Melt butter slowly", "Simmer until foam subsides", "Watch for golden milk solids", "Strain through cheesecloth"],
+      "tips": [
+        "Use unsalted butter for cleaner flavor",
+        "Low and slow - rushing causes burning",
+        "Golden-brown solids = nutty ghee; dark brown = bitter",
+        "Strain through cheesecloth or coffee filter",
+        "Traditional Indian ghee uses cultured butter (desi ghee)"
+      ],
+      "compatible_milks": ["cow", "buffalo", "sheep", "goat", "yak"]
+    },
+    "browned": {
+      "id": "browned",
+      "name": "Brown Butter (Beurre Noisette)",
+      "description": "Butter cooked until milk solids toast to a golden-brown, creating a nutty, caramelized flavor. French kitchen essential.",
+      "difficulty": "beginner",
+      "time": "10-15 min",
+      "shelf_life": "2 weeks refrigerated",
+      "key_steps": ["Melt butter in pan", "Swirl and watch for color change", "Remove when golden-brown and nutty", "Strain or use with solids"],
+      "tips": [
+        "Use a light-colored pan so you can see the color change",
+        "Swirl constantly - it goes from brown to burnt in seconds",
+        "The foam will subside when water has evaporated",
+        "Smells like toasted hazelnuts when ready"
+      ],
+      "compatible_milks": ["cow", "goat", "sheep", "buffalo", "yak"]
+    },
+    "whipped": {
+      "id": "whipped",
+      "name": "Whipped Butter",
+      "description": "Butter whipped with air (or sometimes milk/cream) for a lighter, more spreadable texture straight from the fridge.",
+      "difficulty": "beginner",
+      "time": "10 min",
+      "shelf_life": "2 weeks refrigerated",
+      "key_steps": ["Soften butter", "Whip with mixer until fluffy", "Optionally add cream or milk", "Transfer to container"],
+      "tips": [
+        "Room temperature butter whips best",
+        "Add 1-2 tbsp cream per stick for extra lightness",
+        "Don't over-whip or it will become greasy",
+        "Great for spreading - uses less butter per slice"
+      ],
+      "compatible_milks": ["cow", "goat", "sheep", "buffalo", "yak"]
+    },
+    "smen": {
+      "id": "smen",
+      "name": "Smen (North African Aged Butter)",
+      "description": "Moroccan/North African fermented and aged butter with a pungent, cheese-like flavor. Used in couscous, tagines, and special occasions.",
+      "difficulty": "advanced",
+      "time": "Weeks to months of aging",
+      "shelf_life": "Years (traditionally aged 7+ years for weddings)",
+      "key_steps": ["Churn butter from cultured cream", "Knead with salt and herbs", "Pack into sealed jar", "Age in cool dark place"],
+      "tips": [
+        "Traditional herbs: oregano, thyme, dried lavender",
+        "Must be completely airtight to age properly",
+        "Aged smen develops blue cheese-like flavor",
+        "Start with 1-month aging for milder flavor",
+        "Prized possession - families age smen for decades"
+      ],
+      "compatible_milks": ["cow", "goat", "sheep"]
+    },
+    "butter_tea": {
+      "id": "butter_tea",
+      "name": "Po Cha (Tibetan Butter Tea Butter)",
+      "description": "Butter specifically prepared for Tibetan butter tea - churned from whole milk or cream, often from yak or dri (female yak).",
+      "difficulty": "intermediate",
+      "time": "30 min churning + tea preparation",
+      "shelf_life": "1 week refrigerated",
+      "key_steps": ["Churn fresh cream or whole milk", "Do not wash extensively (some buttermilk adds flavor)", "Brew strong black tea", "Churn butter and salt into tea"],
+      "tips": [
+        "Traditional pu-erh or black tea is best",
+        "Add salt - this is a savory drink, not sweet",
+        "Churn tea and butter together with a chandong (traditional churn)",
+        "Essential nutrition at high altitude - the fat provides energy and warmth",
+        "Yak butter is traditional but cow butter works"
+      ],
+      "compatible_milks": ["yak", "cow", "buffalo"]
+    }
+  },
+  "flavor_additions": {
+    "savory_herbs": {
+      "name": "Savory Herbs",
+      "items": [
+        {"name": "Garlic & Herb", "ingredients": ["garlic", "parsley", "chives"], "pairs_with": "Steak, bread, roasted vegetables"},
+        {"name": "Fines Herbes", "ingredients": ["parsley", "chervil", "tarragon", "chives"], "pairs_with": "Fish, eggs, French cuisine"},
+        {"name": "Italian Herb", "ingredients": ["basil", "oregano", "rosemary", "thyme"], "pairs_with": "Pasta, bread, chicken"},
+        {"name": "Dill & Lemon", "ingredients": ["fresh dill", "lemon zest", "black pepper"], "pairs_with": "Salmon, potatoes, asparagus"},
+        {"name": "Sage & Brown Butter", "ingredients": ["fresh sage", "browned butter base"], "pairs_with": "Ravioli, gnocchi, pork"},
+        {"name": "Chimichurri", "ingredients": ["parsley", "oregano", "garlic", "red pepper flakes", "red wine vinegar"], "pairs_with": "Steak, grilled meats"},
+        {"name": "Za'atar", "ingredients": ["za'atar", "sesame seeds", "sumac"], "pairs_with": "Flatbread, eggs, roasted vegetables"},
+        {"name": "Ranch Herb", "ingredients": ["dill", "chives", "parsley", "garlic powder", "onion powder"], "pairs_with": "Baked potatoes, corn, chicken"}
+      ]
+    },
+    "spiced": {
+      "name": "Spiced",
+      "items": [
+        {"name": "Honey Cinnamon", "ingredients": ["honey", "cinnamon", "pinch of salt"], "pairs_with": "Toast, pancakes, sweet potatoes"},
+        {"name": "Cajun Spice", "ingredients": ["cayenne", "paprika", "garlic powder", "onion powder", "thyme"], "pairs_with": "Corn on the cob, seafood, rice"},
+        {"name": "Curry Butter", "ingredients": ["curry powder", "turmeric", "cumin"], "pairs_with": "Naan, rice, grilled chicken"},
+        {"name": "Smoky Chipotle", "ingredients": ["chipotle in adobo", "lime zest", "cumin"], "pairs_with": "Corn, steak, sweet potatoes"},
+        {"name": "Harissa", "ingredients": ["harissa paste", "cumin", "coriander"], "pairs_with": "Lamb, couscous, roasted vegetables"},
+        {"name": "Everything Bagel", "ingredients": ["sesame seeds", "poppy seeds", "garlic", "onion", "salt"], "pairs_with": "Bagels, toast, pretzels"},
+        {"name": "Pumpkin Spice", "ingredients": ["cinnamon", "nutmeg", "ginger", "allspice", "cloves"], "pairs_with": "Toast, pancakes, muffins, sweet potatoes"}
+      ]
+    },
+    "sweet": {
+      "name": "Sweet",
+      "items": [
+        {"name": "Honey Butter", "ingredients": ["honey", "pinch of sea salt"], "pairs_with": "Biscuits, cornbread, rolls"},
+        {"name": "Maple Butter", "ingredients": ["pure maple syrup", "pinch of cinnamon"], "pairs_with": "Pancakes, waffles, oatmeal"},
+        {"name": "Strawberry Butter", "ingredients": ["fresh strawberries", "powdered sugar"], "pairs_with": "Scones, toast, crepes"},
+        {"name": "Orange Honey", "ingredients": ["orange zest", "honey", "vanilla"], "pairs_with": "Toast, muffins, croissants"},
+        {"name": "Brown Sugar Cinnamon", "ingredients": ["brown sugar", "cinnamon", "vanilla"], "pairs_with": "Sweet potatoes, toast, oatmeal"},
+        {"name": "Lavender Honey", "ingredients": ["culinary lavender", "honey"], "pairs_with": "Scones, biscuits, shortbread"},
+        {"name": "Berry Butter", "ingredients": ["mixed berries", "honey", "lemon zest"], "pairs_with": "Pancakes, waffles, muffins"}
+      ]
+    },
+    "umami_bold": {
+      "name": "Umami & Bold",
+      "items": [
+        {"name": "Miso Butter", "ingredients": ["white miso paste", "mirin"], "pairs_with": "Corn, salmon, ramen, roasted vegetables"},
+        {"name": "Anchovy Butter", "ingredients": ["anchovy paste", "lemon zest", "parsley"], "pairs_with": "Steak, grilled fish, bread"},
+        {"name": "Blue Cheese Butter", "ingredients": ["crumbled blue cheese", "chives"], "pairs_with": "Steak, burgers, roasted potatoes"},
+        {"name": "Sun-Dried Tomato", "ingredients": ["sun-dried tomatoes", "basil", "garlic"], "pairs_with": "Pasta, bread, chicken"},
+        {"name": "Truffle Butter", "ingredients": ["truffle oil or shaved truffle", "sea salt"], "pairs_with": "Pasta, risotto, eggs, steak"},
+        {"name": "Roasted Garlic", "ingredients": ["roasted garlic", "thyme", "sea salt"], "pairs_with": "Bread, mashed potatoes, steak"}
+      ]
+    }
+  },
+  "base_recipes": {
+    "basic_sweet_cream": {
+      "title": "Basic Sweet Cream Butter",
+      "style": "sweet_cream",
+      "ingredients": [
+        {"item": "heavy cream (36%+ fat)", "quantity": "2", "unit": "cups"},
+        {"item": "salt (optional)", "quantity": "1/4", "unit": "tsp"},
+        {"item": "ice water for washing", "quantity": "2", "unit": "cups"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Pour cold heavy cream into a large bowl or stand mixer fitted with the whisk attachment. You can also use a food processor or mason jar."},
+        {"step": 2, "text": "Whip on medium-high speed. Cream will go through stages: soft peaks, stiff peaks, then grainy/curdled. Keep going. After 8-12 minutes, the butterfat will suddenly separate from the buttermilk with a splash."},
+        {"step": 3, "text": "Pour off the buttermilk through a fine strainer (save it for baking!). Squeeze the butter mass to expel more liquid."},
+        {"step": 4, "text": "Add ice water to the butter and knead/fold it to wash out remaining buttermilk. Pour off cloudy water. Repeat 3-4 times until water runs clear."},
+        {"step": 5, "text": "Knead in salt if desired. Shape into a block, log, or press into a butter mold. Wrap tightly in parchment or wax paper."},
+        {"step": 6, "text": "Refrigerate to firm up. Yields approximately 1 cup (8 oz / 225g) butter plus about 1 cup buttermilk."}
+      ],
+      "yield": "~8 oz butter + ~1 cup buttermilk",
+      "notes": [
+        "Save the buttermilk! Use it for pancakes, biscuits, salad dressings, or as a cultured cream starter.",
+        "Cream temperature matters: too cold and it takes forever; too warm and butter is soft and greasy. 55-60°F is ideal.",
+        "Mason jar method: fill jar 1/3 full, shake vigorously 15-20 minutes. Great arm workout!"
+      ]
+    },
+    "basic_cultured": {
+      "title": "Cultured European-Style Butter",
+      "style": "cultured",
+      "ingredients": [
+        {"item": "heavy cream (36%+ fat)", "quantity": "2", "unit": "cups"},
+        {"item": "live-culture buttermilk or plain yogurt (as starter)", "quantity": "2", "unit": "tbsp"},
+        {"item": "salt (optional)", "quantity": "1/4", "unit": "tsp"},
+        {"item": "ice water for washing", "quantity": "2", "unit": "cups"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Combine heavy cream and buttermilk/yogurt in a clean jar. Stir well. Cover loosely with cheesecloth or a coffee filter secured with a rubber band."},
+        {"step": 2, "text": "Let sit at room temperature (70-75°F / 21-24°C) for 24-48 hours. Cream will thicken and develop a pleasant tangy aroma. Longer = tangier."},
+        {"step": 3, "text": "Refrigerate cultured cream for at least 2 hours (overnight is best). Cold cream churns better."},
+        {"step": 4, "text": "Churn the cultured cream using a stand mixer, food processor, or mason jar until butter separates from buttermilk (8-15 minutes)."},
+        {"step": 5, "text": "Strain off the cultured buttermilk (this is real, live-culture buttermilk - liquid gold for baking). Squeeze butter to expel more."},
+        {"step": 6, "text": "Wash butter with ice water 3-4 times until water runs clear. Knead in salt if desired."},
+        {"step": 7, "text": "Shape and wrap. This butter has a more complex, tangy flavor than sweet cream butter and higher butterfat content."}
+      ],
+      "yield": "~8 oz butter + ~1 cup true cultured buttermilk",
+      "notes": [
+        "This is how butter is made in France, Denmark, and Ireland. The culture adds complexity and tang.",
+        "The cultured buttermilk byproduct is far superior to store-bought buttermilk for baking.",
+        "For stronger culture flavor, let cream ferment up to 72 hours.",
+        "Save 2 tbsp of the cultured buttermilk to start your next batch - perpetual culture!"
+      ]
+    },
+    "basic_ghee": {
+      "title": "Traditional Ghee",
+      "style": "ghee",
+      "ingredients": [
+        {"item": "unsalted butter", "quantity": "1", "unit": "lb"},
+        {"item": "cheesecloth for straining", "quantity": "", "unit": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Place butter in a heavy-bottomed saucepan over medium-low heat. Melt completely without stirring."},
+        {"step": 2, "text": "Once melted, reduce heat to low. The butter will begin to foam as water evaporates. Do not stir."},
+        {"step": 3, "text": "After 15-20 minutes, the foam will subside. You'll see clear golden liquid with milk solids settling to the bottom."},
+        {"step": 4, "text": "Continue cooking on low until milk solids turn golden-brown and the ghee has a nutty aroma (another 5-10 minutes). Watch carefully - it can burn quickly."},
+        {"step": 5, "text": "Remove from heat immediately when solids are golden (not dark brown). Let cool 5 minutes."},
+        {"step": 6, "text": "Strain through cheesecloth or a fine coffee filter into a clean, dry glass jar. Discard the browned solids."},
+        {"step": 7, "text": "Cool completely. Ghee will solidify to a golden-yellow semi-solid at room temperature. Store sealed."}
+      ],
+      "yield": "~12 oz ghee from 1 lb butter",
+      "notes": [
+        "Ghee has a very high smoke point (485°F/252°C) - excellent for frying and searing.",
+        "Removing milk solids makes ghee suitable for many who are lactose intolerant or casein sensitive.",
+        "Traditional desi ghee starts from cultured (fermented) cream butter for deeper flavor.",
+        "In Ayurvedic tradition, ghee is considered a sacred food that promotes health and longevity.",
+        "Store at room temperature for up to 3 months, refrigerated up to 1 year."
+      ]
+    },
+    "basic_compound": {
+      "title": "Classic Compound Butter",
+      "style": "compound",
+      "ingredients": [
+        {"item": "butter, softened to room temperature", "quantity": "1/2", "unit": "cup"},
+        {"item": "(your chosen flavorings)", "quantity": "", "unit": "to taste"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Allow butter to soften at room temperature for 30-45 minutes. It should be pliable but not melted or greasy."},
+        {"step": 2, "text": "Finely mince, grate, or chop all add-in ingredients. Pat dry any fresh herbs or moist ingredients."},
+        {"step": 3, "text": "Place softened butter in a bowl. Add all flavoring ingredients. Mix thoroughly with a fork or spatula until evenly distributed."},
+        {"step": 4, "text": "Taste and adjust seasoning. Season with salt and pepper if needed."},
+        {"step": 5, "text": "Spoon butter onto a sheet of parchment paper or plastic wrap. Roll into a log shape, twisting ends to seal."},
+        {"step": 6, "text": "Refrigerate at least 1 hour to firm up. Slice into rounds as needed. Freeze extra logs for up to 3 months."}
+      ],
+      "yield": "~1/2 cup compound butter",
+      "notes": [
+        "Keep a few compound butter logs in the freezer - instant flavor upgrade for any meal.",
+        "Slice frozen rounds directly onto hot steak, fish, or vegetables.",
+        "Mix and match flavors: the flavor additions section has ideas for every cuisine.",
+        "Compound butter also makes a beautiful homemade gift wrapped in parchment."
+      ]
+    },
+    "basic_browned": {
+      "title": "Brown Butter (Beurre Noisette)",
+      "style": "browned",
+      "ingredients": [
+        {"item": "unsalted butter", "quantity": "1/2", "unit": "cup"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Cut butter into pieces for even melting. Place in a light-colored saucepan or skillet over medium heat."},
+        {"step": 2, "text": "Butter will melt, then foam. Swirl the pan occasionally. The butter will begin to crackle as water evaporates."},
+        {"step": 3, "text": "Once the crackling stops, watch closely. Milk solids will start to turn golden on the bottom of the pan. Swirl constantly now."},
+        {"step": 4, "text": "When butter smells like toasted hazelnuts and solids are golden-amber (not dark brown), immediately remove from heat."},
+        {"step": 5, "text": "Pour into a heatproof bowl to stop cooking. Use immediately or store refrigerated."}
+      ],
+      "yield": "~6 tbsp brown butter",
+      "notes": [
+        "Brown butter goes from perfect to burnt in seconds - never walk away.",
+        "Use a light-colored pan so you can see the color change.",
+        "Brown butter transforms: pasta, cookies, cakes, vegetables, fish, rice.",
+        "The French call it beurre noisette (hazelnut butter) for its nutty aroma.",
+        "For beurre noir (black butter), cook slightly darker and add capers and vinegar - classic with skate fish."
+      ]
+    },
+    "basic_smen": {
+      "title": "Smen (Moroccan Aged Butter)",
+      "style": "smen",
+      "ingredients": [
+        {"item": "butter (preferably from cultured cream)", "quantity": "1", "unit": "lb"},
+        {"item": "salt", "quantity": "1", "unit": "tbsp"},
+        {"item": "dried oregano", "quantity": "1", "unit": "tbsp"},
+        {"item": "dried thyme", "quantity": "1", "unit": "tsp"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Melt butter over low heat. Skim off any foam. Pour through cheesecloth to remove milk solids (like making ghee)."},
+        {"step": 2, "text": "While still liquid, knead in salt, oregano, and thyme until thoroughly combined."},
+        {"step": 3, "text": "Pack tightly into a sterilized glass jar or clay pot, pressing out all air pockets."},
+        {"step": 4, "text": "Seal jar completely. Traditional smen is packed in a clay pot sealed with plaster."},
+        {"step": 5, "text": "Store in a cool, dark place. Age for a minimum of 1 month. Traditional smen ages for months or even years."},
+        {"step": 6, "text": "Use sparingly - a small amount adds tremendous depth to couscous, tagines, and rfissa."}
+      ],
+      "yield": "~12 oz smen",
+      "notes": [
+        "Smen develops a strong, funky, cheese-like flavor with age. Start with 1-month aged for mild smen.",
+        "In Morocco, families age smen for decades. Smen aged for a daughter's wedding is a prized tradition.",
+        "Always use a clean, dry utensil to scoop smen - moisture introduces spoilage.",
+        "The flavor is similar to aged Parmesan or very ripe Brie - intense but deeply savory.",
+        "A tiny amount transforms couscous and tagine the way fish sauce transforms Thai food."
+      ]
+    },
+    "basic_butter_tea": {
+      "title": "Po Cha (Tibetan Butter Tea)",
+      "style": "butter_tea",
+      "ingredients": [
+        {"item": "strong black tea or pu-erh tea", "quantity": "4", "unit": "cups"},
+        {"item": "butter (yak butter traditional, cow works)", "quantity": "2", "unit": "tbsp"},
+        {"item": "salt", "quantity": "1/4", "unit": "tsp"},
+        {"item": "whole milk or cream (optional)", "quantity": "1/4", "unit": "cup"}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Brew tea extra strong - use twice the normal amount of tea. Pu-erh or any robust black tea works. Steep 5-7 minutes."},
+        {"step": 2, "text": "Pour hot tea into a blender (or traditionally, a chandong - a narrow wooden churn). Add butter, salt, and milk if using."},
+        {"step": 3, "text": "Blend vigorously for 2-3 minutes until frothy and well-emulsified. The butter should be fully incorporated, not floating on top."},
+        {"step": 4, "text": "Pour into cups and serve immediately while hot. Sip slowly - it's meant to warm and sustain."}
+      ],
+      "yield": "4 cups",
+      "notes": [
+        "This is NOT a sweet drink - it's savory and salty, more like a broth than a tea.",
+        "At high altitudes in Tibet and Nepal, butter tea provides essential calories, fat, and hydration.",
+        "Traditionally made with yak butter (dri butter from female yaks), which has a distinctive flavor.",
+        "Tibetans may drink 40-60 cups per day at high altitude.",
+        "The fat helps prevent chapped lips at high altitude and extreme cold."
+      ]
+    },
+    "basic_whipped": {
+      "title": "Whipped Butter",
+      "style": "whipped",
+      "ingredients": [
+        {"item": "butter, softened", "quantity": "1/2", "unit": "cup"},
+        {"item": "heavy cream or milk (optional)", "quantity": "1-2", "unit": "tbsp"},
+        {"item": "salt (optional)", "quantity": "pinch", "unit": ""}
+      ],
+      "instructions": [
+        {"step": 1, "text": "Allow butter to soften at room temperature for 30-45 minutes. It should be very soft but not melted."},
+        {"step": 2, "text": "Place butter in a bowl. Using an electric mixer or stand mixer with whisk attachment, whip on medium-high speed."},
+        {"step": 3, "text": "Whip for 3-5 minutes until butter is light, fluffy, and increased in volume. Add cream a little at a time if desired for extra lightness."},
+        {"step": 4, "text": "Season with salt if desired. Transfer to a serving container."},
+        {"step": 5, "text": "Refrigerate to set slightly, but serve at cool room temperature for best spreadability."}
+      ],
+      "yield": "~3/4 cup whipped butter",
+      "notes": [
+        "Whipped butter is about 30-50% more volume than the same weight of stick butter.",
+        "Great for people who want to use less butter per serving - it spreads further.",
+        "Don't use whipped butter for baking - the air content changes ratios.",
+        "Add flavoring ingredients while whipping for a whipped compound butter."
+      ]
+    }
+  },
+  "adjacencies": {
+    "sweet_cream": {
+      "family": "fresh",
+      "adjacent": [
+        {"style": "cultured", "change": "Culture cream 24-48 hours before churning for tangy European flavor"},
+        {"style": "compound", "change": "Mix finished butter with herbs, spices, or other flavorings"},
+        {"style": "whipped", "change": "Whip finished butter with air for lighter, spreadable texture"},
+        {"style": "ghee", "change": "Slowly cook finished butter to remove water and milk solids"}
+      ]
+    },
+    "cultured": {
+      "family": "fermented",
+      "adjacent": [
+        {"style": "smen", "change": "Clarify the cultured butter, add herbs, and age for weeks/months"},
+        {"style": "sweet_cream", "change": "Skip the culturing step - churn fresh cream directly"},
+        {"style": "ghee", "change": "Cook the cultured butter to make desi ghee (traditional Indian)"},
+        {"style": "compound", "change": "Mix finished cultured butter with flavorings for complex compound butter"}
+      ]
+    },
+    "ghee": {
+      "family": "clarified",
+      "adjacent": [
+        {"style": "browned", "change": "Stop cooking earlier - keep some moisture, use solids"},
+        {"style": "smen", "change": "Add herbs and salt, age in sealed jar instead of straining"},
+        {"style": "cultured", "change": "Start from cultured cream butter for desi ghee tradition"}
+      ]
+    }
+  },
+  "tips_by_topic": {
+    "churning": [
+      "Temperature is everything: cream at 55-60°F (13-16°C) churns best",
+      "Stand mixer with whisk: medium-high, cover with towel to prevent splashing",
+      "Food processor: fastest method, 3-5 minutes pulse then run",
+      "Mason jar: fill 1/3 full, shake 15-20 min. Great with kids!",
+      "KitchenAid: use the splash guard or a towel when butter breaks",
+      "The 'break' happens suddenly - butterfat clumps and buttermilk splashes out",
+      "If cream won't churn, it may be too cold. Let it warm 5 minutes and try again"
+    ],
+    "washing": [
+      "Washing removes buttermilk proteins that cause butter to spoil quickly",
+      "Use ICE water - cold water keeps butter firm during washing",
+      "Knead and fold butter in the water, pour off cloudy water, repeat",
+      "Continue until wash water is completely clear (3-5 washes)",
+      "Unwashed butter spoils in days; well-washed butter keeps for weeks",
+      "Some traditional butters (like for butter tea) are intentionally not fully washed"
+    ],
+    "storage": [
+      "Wrap tightly in wax paper or parchment, then foil for freezing",
+      "Butter absorbs odors - keep away from strong-smelling foods",
+      "Salted butter keeps longer than unsalted (salt is a preservative)",
+      "A butter bell/crock keeps butter spreadable on the counter for ~30 days",
+      "Freeze butter for up to 6-8 months with no quality loss",
+      "Ghee stores at room temperature for months - no refrigeration needed"
+    ],
+    "troubleshooting": [
+      "Cream won't break? Too cold. Let it warm to 58-62°F",
+      "Butter is too soft? Cream was too warm. Chill and re-knead in ice water",
+      "Butter tastes sour? Buttermilk wasn't fully washed out",
+      "Butter is white not yellow? Normal for goat/buffalo milk. Cow butter yellows from beta-carotene in grass",
+      "Grainy texture? Over-churned past the break point. Knead smooth in ice water",
+      "Low yield? Cream fat content may be too low. Use heavy/double cream (36%+ fat)"
+    ],
+    "history": [
+      "Butter-making dates back at least 4,500 years to ancient Mesopotamia",
+      "Vikings and Celts buried butter in peat bogs to preserve it - 'bog butter' has been found still intact after centuries",
+      "In medieval Europe, butter was a luxury food taxed by the church during Lent",
+      "Ghee has been used in India for over 5,000 years - mentioned in the earliest Vedic texts",
+      "The word 'butter' comes from Greek 'boutyron' - possibly meaning 'cow cheese'",
+      "Before refrigeration, butter was heavily salted (5-10%) to prevent spoilage"
+    ]
+  }
+}
