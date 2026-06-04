@@ -1,14 +1,15 @@
 #!/bin/bash
-# Post-write validation hook for recipe files
-# Automatically validates recipes.json after modifications
+# Post-Write Validation Hook for Allrecipes Aggregator
+# Validates recipe data after any edit
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"
+PROJECT_DIR="$(dirname "$(dirname "$SCRIPT_DIR")")"
 
-# Check if the modified file is a recipe file
-if [[ "$CLAUDE_FILE_PATH" == *"recipes.json"* ]] || [[ "$CLAUDE_FILE_PATH" == *"data/"*".json"* ]]; then
+FILE_PATH="${CLAUDE_FILE_PATH:-}"
+
+if [[ "$FILE_PATH" == *"recipes"* && "$FILE_PATH" == *".json"* ]]; then
     cd "$PROJECT_DIR"
-
-    # Run validation and filter to show only errors
-    python scripts/validate-recipes.py 2>&1 | grep -E "(ERROR|FAIL|Invalid)" || true
+    if [[ -f "scripts/validate-recipes.py" ]]; then
+        python scripts/validate-recipes.py 2>&1 | grep -E "(ERROR|FAIL|Invalid)" || true
+    fi
 fi
