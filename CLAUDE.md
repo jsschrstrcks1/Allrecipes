@@ -12,6 +12,14 @@ the multi-repo Family Recipe Archive (Mom, Grandma, Granny, Reference).
 
 ---
 
+## Skills
+
+Full skill catalog (19 skills) is documented in [`SKILLS.md`](SKILLS.md) — human-facing index with activation modes, trigger keywords, and example prompts.
+
+**Read it at session start.** The recipe-domain skills (`recipe-transcription`, `recipe-validation`, `milk-substitution`) and the standard household kit (16 skills) are all configured under `.claude/skills/`. The activation rules and the non-negotiables enforced by each skill live in SKILLS.md.
+
+---
+
 ## Quick Start (read first)
 
 1. **Images are FLAT** in `data/` (no subdirs). Use `data/processed/` for AI reads.
@@ -43,6 +51,7 @@ Decision priority: **accuracy → preservation → fidelity → readability**.
 
 | File | What it covers |
 |---|---|
+| [`SKILLS.md`](SKILLS.md) | **Skills index — read at session start** |
 | [`.claude/ONBOARDING.md`](.claude/ONBOARDING.md) | Quick start guide for new sessions |
 | [`.claude/MAINTENANCE.md`](.claude/MAINTENANCE.md) | Step-by-step maintenance workflows |
 | [`.claude/mcp-servers.md`](.claude/mcp-servers.md) | Optional MCP server integrations |
@@ -56,10 +65,11 @@ Decision priority: **accuracy → preservation → fidelity → readability**.
 
 ```
 Allrecipes/
-├── CLAUDE.md                # This hub
-├── PENDING_TASKS.md         # Deferred work tracking
-├── CAREFUL.md               # Integrity guardrail
-├── README.md                # Public-facing overview
+├── SKILLS.md                 # Skills index (NEW)
+├── CLAUDE.md                 # This hub
+├── PENDING_TASKS.md          # Deferred work tracking
+├── CAREFUL.md                # Integrity guardrail
+├── README.md                 # Public-facing overview
 ├── index.html / recipe.html # Static site
 ├── styles.css / script.js   # Site bundle
 ├── butter-builder.{html,js} # Butter builder UI
@@ -76,9 +86,7 @@ Allrecipes/
 │   ├── hooks/
 │   │   ├── post-write-validate.sh
 │   │   └── image-safety-check.sh
-│   └── skills/
-│       ├── recipe-transcription/
-│       └── recipe-validation/
+│   └── skills/              # 19 skills (see SKILLS.md)
 ├── data/
 │   ├── *.jpeg               # Magazine scans (FLAT)
 │   ├── *.PNG                # Kindle screenshots (OVERSIZED!)
@@ -159,6 +167,7 @@ python scripts/validate-recipes.py --strict
 
 | Version | Date | Changes |
 |---|---|---|
+| 2.1 | 2026-05-10 | Added `SKILLS.md` skill index. CLAUDE.md references it. |
 | 2.0 | 2026-05-01 | Lean hub restructure. Extracted cheese / image-retention / compound / OCR / image / schema subfiles into `.claude/standards/`. CLAUDE.md cut from ~519 lines to ~155. |
 | 1.3 | Feb 2026 | Added handwritten-only image retention policy. |
 | 1.2 | Jan 2026 | Added `category: "cheese"` requirement and tool linkage. |
@@ -168,3 +177,31 @@ python scripts/validate-recipes.py --strict
 ---
 
 *"She looketh well to the ways of her household, and eateth not the bread of idleness."* — Proverbs 31:27
+
+---
+
+## Cognitive Memory — Slice 6 Observation Capture
+
+To enable always-on cognitive memory observation capture in this repo, register the canonical hook (lives in `ken`) in `.claude/settings.json`:
+
+```json
+"env": {
+  "MEMORY_OBSERVATIONS_ENABLED": "true",
+  "MEMORY_AUTO_OBSERVE_ENABLED": "true"
+},
+"hooks": {
+  "PostToolUse": [
+    {
+      "matcher": "*",
+      "hooks": [
+        {"type": "command",
+         "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"}
+      ]
+    }
+  ]
+}
+```
+
+Hook is **fail-closed**: any error → exit 0, never blocks the tool call. Args SHA256-hashed via `_compute_args_hash` before disk; raw values never persisted. Errors → `/tmp/observe-hook.err`. Surface candidates: call `memory_ops.extract_candidates_from_observations(session_id)` after a session.
+
+Setup memory: id `5a9c8ae1` (recall via `python3 /home/user/ken/orchestrator/memory_ops.py recall "Slice 6 always-on cognitive memory observation capture"`). Currently active in `ken/.claude/settings.json` (commit `ca78cad`); per-repo activation is opt-in via the absolute-path reference above.
