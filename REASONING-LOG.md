@@ -31,6 +31,47 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-07 — One HLS task filed against this repo (verification entry point)
+
+**Asked.** Ken directed a read of `github.com/maximem-ai` and then asked for any necessary repairs
+to be documented in HLS. The sweep itself and its ledger rows (UL-173–191) live in
+`open-claw-stuff`, which is the household SSOT; this entry records only the part that lands here.
+
+**Weighed.** One of the repairs is repo-local: `verification-before-completion` preaches
+evidence-before-assertions but leaves the agent to *choose* to verify, and this repo owns the
+validators (`link-integrity`, `seo-schema-audit`, `recipe-validation`, `accessibility-audit`)
+without a single entry point a skill could name. I verified the gap rather than assuming it —
+`ls /home/user/Allrecipes/scripts/verify*` returns nothing. The contrast that surfaced it was
+Maximem's agent skill, whose closing step is a runnable `scripts/verify_synap.py`, not a posture.
+
+I filed it against `Allrecipes` because that is the repo where I actually verified the gap. It
+almost certainly exists in the other four recipe repos too, but I did not check them and did not
+register four speculative twins.
+
+**Decided.** Registered `recipe-repo-verify-entrypoint` at priority 4 (household catalog + task
+index + this repo's `admin/UNFINISHED_TASKS.md`, which is the new file in this commit). Registered
+only — **not** checked out, since I am not doing the work this session and holding an unworked task
+is the collision the anti-collision doctrine exists to prevent. Deliberately scoped to a shell
+wrapper: making it a pre-commit or pre-push requirement is a separate decision and bundling it in
+would be scope creep.
+
+**Unsure.**
+
+- **The pre-commit guard did not run on this commit.** `git config core.hooksPath` is empty in this
+  container's clone, so `.githooks/reasoning-log-guard.sh` is present but inert — it is local repo
+  config that a fresh clone does not carry. That is now `githooks-inert-fresh-clone` (p2, UL-189).
+  I wrote this entry because the doctrine binds regardless of whether the machinery is watching,
+  which is the whole point; I did **not** arm the hook, because silently enabling a guard mid-session
+  is an operator call, not mine.
+- **Also unfixed here, and it is this repo's own pointer files:** `CLAUDE.md` and `AGENT.md` state a
+  mandatory read order pointing at `/Users/kenbaker/atlas-serve/…`, which does not exist off Ken's
+  Mac — 26 such references between the two files. Tracked as `pointer-read-order-offmac` (p2,
+  UL-173). A prior session in this very log recorded the same thing on 2026-07-30 and it was never
+  promoted, which is itself now `reasoning-log-to-ledger-promotion` (p4, UL-190).
+
+_Runtime: Claude Code (claude-opus-5) · patron melaan_
+
+
 ## 2026-07-30 — Reasoning log installed here (four layers, every runtime)
 
 **Asked.** Ken asked for the reasoning log to be stronger and to cover all 16 household
