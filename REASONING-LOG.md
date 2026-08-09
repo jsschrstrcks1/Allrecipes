@@ -31,6 +31,115 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-08 — Sophos now injects itself here, every session and every prompt
+
+**Asked.** Operator directive (Ken, 2026-08-08): "Sophos should be injected in like manner in
+every repo also." A cross-repo audit had found that InTheWake alone injected posture per-prompt,
+and that nothing anywhere loaded Sophos itself per-turn.
+
+**Weighed.** Two candidate models for "in like manner". InTheWake's `session-start-guardrail.sh`
+prompted the finding, but it `cat`s whole files into context on every prompt — right instinct,
+expensive mechanism. This household's own `reasoning-log-inject.sh` had already solved that with
+a two-mode shape: a full block once at SessionStart, ONE line per turn. I reused the second
+rather than inventing a third. Layer 0 is resolved at run time and the hook names which candidate
+won, rather than baking a path — hard-coding one authoring machine's layout is UL-173, which this
+household has already paid for once.
+
+**Decided.** `.claude/hooks/sophos-inject.sh` is installed and wired in this repo at SessionStart
+(five layers, hierarchy, publish gate, recall command) and UserPromptSubmit (one terse line), by
+`open-claw-stuff/admin/install-sophos-inject.mjs`. `core.hooksPath` was deliberately left unset
+here: the operator declined it separately, and arming it would be deciding for him.
+
+**Unsure.** Injection guarantees the posture is *present*; it can never guarantee it is *held* —
+this is suspenders, the belt is the bootstrap and dangerous-command guards. And in the same audit
+I recommended installing the P0 dangerous-command guard into this repo, which was wrong: it is
+already live via the user-level path, and that is the false-ABSENT error UL-203 had already
+recorded. Nothing was installed on that premise.
+
+
+## 2026-08-07 — Pointer read order no longer names a machine that isn't here
+
+**Asked.** Part of the operator-directed maximem-ai sweep: fix `pointer-read-order-offmac`
+(UL-173, p2). The sweep's ledger rows and the generator change live in `open-claw-stuff`, the
+household SSOT; this entry records what landed in this repo.
+
+**Weighed.** This repo's `CLAUDE.md` and `AGENT.md` stated a *mandatory* Layer 0 read order pointing
+at `/Users/kenbaker/atlas-serve/…` — a path that exists only on Ken's Mac. Claude Code never noticed,
+because its skills arrive bundled; Grok, Codex or a person in a container got a read order they
+could not follow, which silently voids P0 for exactly the runtimes the enforcement table claims to
+cover. The tempting fix was to inline Layer 0 here, but that duplicates what the rulebook forbids
+and would drift. The generator already had the right shape from UL-170 — mapped path first, then a
+fallback — so the fix reuses it rather than inventing one.
+
+**Decided.** Regenerated from `admin/render-agent-pointer.mjs`. The pointers now carry an `<OCS>`
+token plus a resolution order — `$HOUSEHOLD_OCS_ROOT`, then `../open-claw-stuff`, then the authoring
+machine's path — ending in an explicit **STOP** if none resolve, because an agent that cannot reach
+Layer 0 is ungoverned and must say so rather than proceed on the assumption that posture loaded.
+Zero absolute Mac paths remain in `CLAUDE.md`, `AGENT.md` or `admin/LIBRARY.md`. The P0 block is
+stamped `v3` so a stale leaf is now detectable by `--check`.
+
+Regeneration used to be destructive: it overwrote these files wholesale, and the guard added after
+that incident covered `CLAUDE.md` only, so hand-appended operator directives in `AGENT.md` were
+still being deleted silently. The generator is now **preserve-by-default** — every hand-appended
+section is carried forward verbatim in both files. The operator directives in this repo were
+preserved, and I verified the `## ` section list is byte-identical before and after.
+
+**Unsure.**
+
+- **The `<OCS>` token is a convention a reader must follow.** It is strictly better than a path that
+  resolves nowhere, but it is still instructions rather than a mechanism; nothing forces a runtime
+  to perform the resolution.
+- **Verified idempotent** — rendering twice leaves the files byte-identical — but the deployment ran
+  from a container, against these working trees, not on the Mac where the mapped paths resolve.
+- **This repo is not fully enforced**, measured by the new `admin/posture-status.mjs`:
+  `core.hooksPath` is unset here, so every `.githooks` guard is present but inert
+  (`githooks-inert-fresh-clone`, p2). I did not arm it — enabling a guard mid-session is an
+  operator call, not mine.
+
+_Runtime: Claude Code (claude-opus-5) · patron melaan_
+
+
+## 2026-08-07 — One HLS task filed against this repo (verification entry point)
+
+**Asked.** Ken directed a read of `github.com/maximem-ai` and then asked for any necessary repairs
+to be documented in HLS. The sweep itself and its ledger rows (UL-173–191) live in
+`open-claw-stuff`, which is the household SSOT; this entry records only the part that lands here.
+
+**Weighed.** One of the repairs is repo-local: `verification-before-completion` preaches
+evidence-before-assertions but leaves the agent to *choose* to verify, and this repo owns the
+validators (`link-integrity`, `seo-schema-audit`, `recipe-validation`, `accessibility-audit`)
+without a single entry point a skill could name. I verified the gap rather than assuming it —
+`ls /home/user/Allrecipes/scripts/verify*` returns nothing. The contrast that surfaced it was
+Maximem's agent skill, whose closing step is a runnable `scripts/verify_synap.py`, not a posture.
+
+I filed it against `Allrecipes` because that is the repo where I actually verified the gap. It
+almost certainly exists in the other four recipe repos too, but I did not check them and did not
+register four speculative twins.
+
+**Decided.** Registered `recipe-repo-verify-entrypoint` at priority 4 (household catalog + task
+index + this repo's `admin/UNFINISHED_TASKS.md`, which is the new file in this commit). Registered
+only — **not** checked out, since I am not doing the work this session and holding an unworked task
+is the collision the anti-collision doctrine exists to prevent. Deliberately scoped to a shell
+wrapper: making it a pre-commit or pre-push requirement is a separate decision and bundling it in
+would be scope creep.
+
+**Unsure.**
+
+- **The pre-commit guard did not run on this commit.** `git config core.hooksPath` is empty in this
+  container's clone, so `.githooks/reasoning-log-guard.sh` is present but inert — it is local repo
+  config that a fresh clone does not carry. That is now `githooks-inert-fresh-clone` (p2, UL-189).
+  I wrote this entry because the doctrine binds regardless of whether the machinery is watching,
+  which is the whole point; I did **not** arm the hook, because silently enabling a guard mid-session
+  is an operator call, not mine.
+- **Also unfixed here, and it is this repo's own pointer files:** `CLAUDE.md` and `AGENT.md` state a
+  mandatory read order pointing at `/Users/kenbaker/atlas-serve/…`, which does not exist off Ken's
+  Mac — 26 such references between the two files. Tracked as `pointer-read-order-offmac` (p2,
+  UL-173). A prior session in this very log recorded the same thing on 2026-07-30 and it was never
+  promoted, which is itself now `reasoning-log-to-ledger-promotion` (p4, UL-190).
+
+_Runtime: Claude Code (claude-opus-5) · patron melaan_
+
+
 ## 2026-07-30 — Reasoning log installed here (four layers, every runtime)
 
 **Asked.** Ken asked for the reasoning log to be stronger and to cover all 16 household
