@@ -31,6 +31,30 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — Follow-up A: the three broken Backcountry titles (syl)
+
+**Asked.** Operator: proceed with the open items from the dup/variant campaign; first the
+Allrecipes record whose title was a Meal-Master export header.
+
+**Weighed.** Investigation found THREE broken records from the same two-column PDF
+extraction, not one: the Meal-Master header record, plus two whose title field held the
+recipe's FIRST INGREDIENTS ROW (real data stranded in the wrong field). The true titles
+are unrecoverable — the source PDF is not in the repo and nothing else names them. The
+household way is to mark, not fake: each record now carries a descriptive name plus a
+note stating the original title was lost and quoting exactly what the title field held,
+so nothing is silently invented and nothing is silently discarded.
+
+**Decided.** (1) recipe-via-meal-master-v-800-backcountr → "Oat and Raisin Skillet Bread
+(Field or Oven)"; its closing pseudo-step "** Wilderness Ranger Cookbook US Forest
+Service **" was attribution in the wrong field — moved to attribution. (2)
+c-broccoli-chopped… → "Fresh Noodles with Stir-Fried Vegetables"; the old title line
+restored as the first ingredients row. (3) 8-t-butter… → "Garli-Ghetti Seasoned Butter
+with Bacon Bits"; old title line restored to ingredients; its "method not fully
+extracted" marker stays. Gates: dedup --check CLEAN, shards regenerated, validator exit 0.
+
+**Unsure.** The descriptive names are mine, not the source's — the notes say so on each
+record. If Ken ever finds the Backcountry Cookbook PDF, the real titles supersede these.
+
 ## 2026-08-30 — Variant tabs on the recipe page, phase 3 (syl)
 
 **Asked:** One listing per dish; versions as tabs with provenance (operator directive).

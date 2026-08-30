@@ -9,3 +9,9 @@
 
 <!-- library register 2026-08-30T01:37:48.983Z -->
 | recipe-variants-phase-2-link-same-title-clusters-to-canonical-pr | 2 | Recipe variants phase 2: link same-title clusters to canonical primary via variants/variant_of (4 recipe repos, human-centric canonical) |
+
+<!-- library register 2026-08-30T11:16:09.175Z -->
+| recipe-follow-up-a-fix-meal-master-export-header-title-in-allrec | 3 | Recipe follow-up A: fix Meal-Master export-header title in Allrecipes |
+
+<!-- library register 2026-08-30T11:16:10.475Z -->
+| recipe-follow-up-c-reviewed-pass-linking-different-title-same-di | 2 | Recipe follow-up C: reviewed pass linking different-title same-dish variants (attribution-stripped titles, judgment per cluster) |
