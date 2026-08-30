@@ -31,6 +31,26 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — Variant tabs on the recipe page, phase 3 (syl)
+
+**Asked:** One listing per dish; versions as tabs with provenance (operator directive).
+
+**Weighed:** This site already collapsed variants in the grid and A-Z index and resolved
+families in findVariants — but presented them as a <select> dropdown a reader must
+discover. Tabs put the versions in sight, labeled by attribution (then short
+source_note, then title), canonical first, active tab inert, hover shows the full title
+and variant_notes. The family resolution and grid collapse were already correct with the
+phase-2 links, so this pass touched presentation only.
+
+**Decided:** renderVariantsDropdown replaced by renderVariantTabs (dedup by id,
+canonical-first order, role=tablist for screen readers); click handler moved from the
+select change to the tab buttons; .variant-tab styles beside the old dropdown styles
+(kept — nothing else uses them, but removing working CSS is not this change).
+node --check clean.
+
+**Unsure:** Untested in a browser here; the logic mirrors the dropdown handler
+one-for-one, and the same hash navigation drives both.
+
 ## 2026-08-30 — Variant linking, phase 2 (syl)
 
 **Asked:** After exact-dup removal: link recipes that are the same dish but not identical

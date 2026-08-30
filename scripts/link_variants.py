@@ -120,12 +120,40 @@ def main():
         nonlocal added_variant_of
         if rec.get("id") == canon_id:
             return
+        target = by_id.get(canon_id)
+        # never mint a 2-cycle: a record whose canonical itself points back stays put
+        if target is not None and target.get("variant_of") == rec.get("id"):
+            return
         cur = rec.get("variant_of")
         if is_empty(cur):
             rec["variant_of"] = canon_id
             added_variant_of += 1
         elif cur != canon_id:
             conflicts.append({"id": rec.get("id"), "existing_variant_of": cur, "cluster_canonical": canon_id})
+
+    # Pass 0 — normalize MUTUAL variants claims (A lists B while B lists A, no
+    # direction at all — observed in Grandmasrecipes: blueberry-muffins pairs).
+    # Directionless peers can't drive a tabs UI; give the pair one canonical by
+    # the same human-centric score and rewrite the loser's claim to variant_of.
+    normalized_mutual = 0
+    pos_of = {r.get("id"): i for i, r in enumerate(recs)}
+    for r in recs:
+        vs = r.get("variants")
+        if not isinstance(vs, list):
+            continue
+        for vid in list(vs):
+            other = by_id.get(vid)
+            if other is None or not isinstance(other.get("variants"), list):
+                continue
+            if r.get("id") in other["variants"]:
+                a, b = sorted([r, other], key=lambda x: canonical_score(x, pos_of.get(x.get("id"), 0)))
+                # a wins: b stops claiming a as its variant and becomes a's variant
+                b["variants"] = [x for x in b["variants"] if x != a.get("id")]
+                if not b["variants"]:
+                    del b["variants"]
+                if is_empty(b.get("variant_of")):
+                    b["variant_of"] = a.get("id")
+                normalized_mutual += 1
 
     # Pass 1 — repair one-directional existing links (household-wide asymmetry).
     for r in recs:
@@ -141,14 +169,28 @@ def main():
         if len(members) < 2:
             continue
         group = [r for _, r in members]
+
+        # Follow variant_of chains to their root, so a record that is both a
+        # variant and a mini-canonical (A -> B while A also lists variants)
+        # never gets elected over its own parent. Cycle-guarded.
+        def root_of(rid):
+            seen = set()
+            while rid in by_id and rid not in seen:
+                seen.add(rid)
+                vo = by_id[rid].get("variant_of")
+                if not (isinstance(vo, str) and vo in by_id):
+                    return rid
+                rid = vo
+            return rid
+
         # adopt an established canonical when one exists inside or via links
         established = []
         for r in group:
             vo = r.get("variant_of")
             if isinstance(vo, str) and vo in by_id:
-                established.append(vo)
+                established.append(root_of(vo))
             if not is_empty(r.get("variants")):
-                established.append(r["id"])
+                established.append(root_of(r["id"]))
         if established:
             # most-claimed target wins; in-cluster preferred over out-of-cluster
             in_cluster = {r["id"] for r in group}
@@ -164,6 +206,13 @@ def main():
         linked_any = False
         for r in group:
             if r["id"] == canon_id:
+                continue
+            # A member already claimed by a DIFFERENT family keeps its family —
+            # linking it here too would put one record under two canonicals.
+            existing_vo = r.get("variant_of")
+            if isinstance(existing_vo, str) and existing_vo != canon_id and existing_vo in by_id:
+                conflicts.append({"id": r.get("id"), "existing_variant_of": existing_vo,
+                                  "cluster_canonical": canon_id})
                 continue
             before = (r.get("variant_of"), len(canon_rec.get("variants") or []))
             ensure_variant_of(r, canon_id)
@@ -184,6 +233,7 @@ def main():
             })
 
     print(f"master: {args.master}")
+    print(f"mutual variants claims normalized: {normalized_mutual}")
     print(f"clusters newly/further linked: {clusters_linked}")
     print(f"variant_of added: {added_variant_of} · variants entries added: {added_variants_entries}")
     print(f"conflicts (left untouched, reported): {len(conflicts)}")
