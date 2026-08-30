@@ -15,3 +15,6 @@
 
 <!-- library register 2026-08-30T11:16:10.475Z -->
 | recipe-follow-up-c-reviewed-pass-linking-different-title-same-di | 2 | Recipe follow-up C: reviewed pass linking different-title same-dish variants (attribution-stripped titles, judgment per cluster) |
+
+<!-- library register 2026-08-30T12:42:18.675Z -->
+| recipe-pages-reader-display-settings-recipe-nutrition-default-al | 2 | Recipe pages: reader display settings — recipe+nutrition default, all other sections opt-in (4 family sites) |
