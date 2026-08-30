@@ -62,7 +62,16 @@ def canon(x):
 
 
 def content_key(r):
-    return (norm_title(r.get("title")), canon(r.get("ingredients")), canon(r.get("instructions")))
+    # notes are part of the identity: reference-guide records (0 ingredients, 0
+    # instructions) carry their entire substance in notes — measured in
+    # Grandmasrecipes, where two different guide pages share one title and would
+    # otherwise collapse. A recipe differing only in notes is a VARIANT.
+    return (
+        norm_title(r.get("title")),
+        canon(r.get("ingredients")),
+        canon(r.get("instructions")),
+        canon(r.get("notes")),
+    )
 
 
 def is_empty(v):
