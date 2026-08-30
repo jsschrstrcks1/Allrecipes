@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "salads",
-    "count": 273,
+    "count": 266,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -1117,7 +1117,11 @@
         "vegetarian"
       ],
       "image_refs": [],
-      "source_note": "Lebanese Recipes digital cookbook"
+      "source_note": "Lebanese Recipes digital cookbook",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
     },
     {
       "id": "cucumber-tomato-salad",
@@ -6477,106 +6481,6 @@
         "missing_inputs": [
           "2 medium cucumbers"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "deviled-egg-salad-gutenberg-6429",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Deviled Egg Salad",
-      "category": "salads",
-      "attribution": "Rorer",
-      "source_note": "Many Ways for Cooking Eggs (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "eggs",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "lettuce",
-          "quantity": "1",
-          "unit": "head",
-          "prep_note": ""
-        },
-        {
-          "item": "pimiento",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of onion juice",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of paprika",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ful of chopped boiled tongue",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "saltspoonful of salt",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "saltspoonful of pepper",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Hard-boil the eggs, throw them into cold water, remove the shells, cut them lengthwise. Take out the yolks without breaking the whites. Rub the yolks through a sieve into a bowl, then add the tongue and all the seasoning. If the mixture is dry add a tablespoonful or two of cream or olive oil. Roll the mixture into balls that will fit the spaces from which they were taken in the whites, making each ball round. Arrange the lettuce over a platter, stand the whites in the lettuce, and at serving time baste thoroughly with French dressing."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 176,
-          "fat_g": 10.0,
-          "carbs_g": 8.1,
-          "protein_g": 13.8,
-          "sodium_mg": 206,
-          "fiber_g": 2.6,
-          "sugar_g": 4.4
-        },
-        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -16966,70 +16870,6 @@
       }
     },
     {
-      "id": "alla-macedoine-salad-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "\"Alla Macedoine\" Salad",
-      "category": "salads",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "one cold boiled beet",
-          "quantity": "",
-          "unit": "piece",
-          "prep_note": ""
-        },
-        {
-          "item": "cold cooked peas",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Cut into small pieces one cold boiled beet and half an onion. Add some cold boiled string-beans, some cold boiled asparagus tips, two tablespoons of cold cooked peas, one cold boiled carrot, and some celery. Mix them together, and pour over all a mayonnaise sauce. Add the juice of a lemon and serve."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 123,
-          "fat_g": 5.0,
-          "carbs_g": 1.6,
-          "protein_g": 16.3,
-          "sodium_mg": 63,
-          "fiber_g": 0.5,
-          "sugar_g": 1.1
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "alla-pollastra-salad-gutenberg",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -17102,76 +16942,6 @@
       }
     },
     {
-      "id": "alla-pollastra-salad-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "\"Alla Pollastra\" Salad",
-      "category": "salads",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "vinegar",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "mayonnaise sauce",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "capers",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Chop up six lettuce-leaves and three stalks of celery, cut up the remains of a cold fowl in small pieces, and mix with one tablespoon of vinegar and salt and pepper in a salad bowl. Pour a cup of mayonnaise sauce over, and garnish with quarters of hard-boiled egg, one tablespoon of capers, six stoned olives, and some small, tender lettuce-leaves."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 363,
-          "fat_g": 40.2,
-          "carbs_g": 0.1,
-          "protein_g": 0.5,
-          "sodium_mg": 337,
-          "fiber_g": 0.1,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "endive-salad-gutenberg",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -17217,70 +16987,6 @@
         "flags": [
           "vintage-recipe",
           "public-domain"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 91,
-          "fat_g": 10.5,
-          "carbs_g": 0.2,
-          "protein_g": 0.2,
-          "sodium_mg": 6,
-          "fiber_g": 0.2,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "endive-salad-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Endive Salad",
-      "category": "salads",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "endive",
-          "quantity": "1",
-          "unit": "head",
-          "prep_note": ""
-        },
-        {
-          "item": "good olive-oil",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Take a head of endive, wash it and dry it well, and put it into a salad-bowl. Pour over it three tablespoons of good olive-oil. Mix one tablespoon of honey (or sugar), one of vinegar, and salt and pepper in a cup, and pour over the salad just before serving."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
         ]
       },
       "image_refs": [],
@@ -17386,88 +17092,6 @@
       }
     },
     {
-      "id": "italian-salad-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Italian Salad",
-      "category": "salads",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "water",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "onion",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "potatoes",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "carrot",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "sauce",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Cut one carrot and one turnip into slices, and cook them in boiling soup. When cold, mix them with two cold boiled potatoes and one beet cut into strips. Add a very little chopped leeks or onion, pour some sauce, \"Lombarda\" (see Sauces, page 31), over the salad, and garnish with water-cress."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 64,
-          "fat_g": 0.5,
-          "carbs_g": 14.0,
-          "protein_g": 1.5,
-          "sodium_mg": 52,
-          "fiber_g": 2.0,
-          "sugar_g": 2.8
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "salad-del-prevosto-gutenberg",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -17552,88 +17176,6 @@
       }
     },
     {
-      "id": "salad-del-prevosto-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Salad \"Del Prevosto\"",
-      "category": "salads",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "white wine",
-          "quantity": "1/2",
-          "unit": "glass",
-          "prep_note": ""
-        },
-        {
-          "item": "parsley",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "potatoes",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "wine",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "capers",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Boil in their skins three good-sized potatoes, peel them and slice them, then put them into a salad bowl, and pour over them one-half a glass of white wine. Do this about two or three hours before they are wanted, so the potatoes will have time thoroughly to absorb the wine. From time to time mix them with a fork and spoon to let the wine permeate. A few minutes before the meal make a good French salad dressing, add some pickled peppers cut up, some capers, and some chopped-up parsley, pour on the French dressing, mix up well, and serve."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 62,
-          "fat_g": 0.3,
-          "carbs_g": 9.8,
-          "protein_g": 1.1,
-          "sodium_mg": 29,
-          "fiber_g": 1.1,
-          "sugar_g": 0.6
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "the-cardinals-salad-gutenberg",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -17697,88 +17239,6 @@
         "flags": [
           "vintage-recipe",
           "public-domain"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 90,
-          "fat_g": 6.1,
-          "carbs_g": 0.8,
-          "protein_g": 7.6,
-          "sodium_mg": 74,
-          "fiber_g": 0.0,
-          "sugar_g": 0.3
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "the-cardinals-salad-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "The Cardinal'S Salad",
-      "category": "salads",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "water-cress",
-          "quantity": "1",
-          "unit": "bunch",
-          "prep_note": ""
-        },
-        {
-          "item": "eggs",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "water",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "beef",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        },
-        {
-          "item": "sauce",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "mentioned in instructions"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Wash a good lettuce and a bunch of water-cress. Cut a cold boiled beef into strips, add six radishes, two hard-boiled eggs chopped up, and one small sliced cucumber. Arrange the lettuce-leaves in a salad-bowl, mix the other ingredients with a sufficient quantity of mayonnaise sauce, put them in the midst of the lettuce, and serve."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
         ]
       },
       "image_refs": [],

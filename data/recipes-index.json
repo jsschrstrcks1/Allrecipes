@@ -2,8 +2,8 @@
   "meta": {
     "title": "Other Family Recipes",
     "description": "Digital cookbook recipes and magazine clippings, preserved with love",
-    "total_recipes": 9989,
-    "last_updated": "2026-02-09",
+    "total_recipes": 9813,
+    "last_updated": "2026-08-30",
     "version": "3.0.0",
     "sharded": true,
     "shard_strategy": "by_category"
@@ -17,17 +17,17 @@
     {
       "category": "beverages",
       "file": "recipes-beverages.json",
-      "count": 149
+      "count": 147
     },
     {
       "category": "breads",
       "file": "recipes-breads.json",
-      "count": 454
+      "count": 452
     },
     {
       "category": "breakfast",
       "file": "recipes-breakfast.json",
-      "count": 635
+      "count": 600
     },
     {
       "category": "cheese",
@@ -37,22 +37,22 @@
     {
       "category": "desserts",
       "file": "recipes-desserts.json",
-      "count": 1349
+      "count": 1338
     },
     {
       "category": "mains",
       "file": "recipes-mains.json",
-      "count": 3141
+      "count": 3073
     },
     {
       "category": "salads",
       "file": "recipes-salads.json",
-      "count": 273
+      "count": 266
     },
     {
       "category": "sides",
       "file": "recipes-sides.json",
-      "count": 2621
+      "count": 2581
     },
     {
       "category": "snacks",
@@ -62,7 +62,7 @@
     {
       "category": "soups",
       "file": "recipes-soups.json",
-      "count": 320
+      "count": 309
     }
   ],
   "recipes": [
@@ -302,22 +302,6 @@
       "collection": "reference",
       "description": "Meat-based pasta sauces are popular throughout Italy. The most prominent, ragù alla Bolognese, originated in the northern city of Bologna. Even among residents of the city from which it hails, different variations abound.",
       "servings_yield": "6 servings",
-      "total_time": ""
-    },
-    {
-      "id": "french-onion-burgers",
-      "title": "French Onion Burgers",
-      "category": "mains",
-      "tags": [
-        "main",
-        "burger",
-        "french onion",
-        "beef",
-        "cheese"
-      ],
-      "collection": "reference",
-      "description": "",
-      "servings_yield": "4 servings",
       "total_time": ""
     },
     {
@@ -10448,110 +10432,6 @@
       "total_time": ""
     },
     {
-      "id": "ribbon-macaroni-gutenberg-6385",
-      "title": "Ribbon Macaroni",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Pasta fatta in Casa. Fettuccini",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "rice-with-peas-gutenberg-6385",
-      "title": "Rice With Peas",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "rice-alla-romana-gutenberg-6385",
-      "title": "Rice \"Alla Romana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Risotto alla Romana",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-gutenberg-6385",
-      "title": "Polenta",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Indian Meal",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-alla-toscana-gutenberg-6385",
-      "title": "Polenta \"Alla Toscana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-pasticciata-gutenberg-6385",
-      "title": "Polenta Pasticciata",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "gnocchi-of-farina-gutenberg-6385",
-      "title": "Gnocchi Of Farina",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Gnocchi di Semolina",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "english-drawn-butter-gutenberg-6429",
-      "title": "English Drawn Butter",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "cheese-and-jelly-tray-cottage-cheese",
       "title": "Cheese And Jelly Tray",
       "category": "mains",
@@ -17967,45 +17847,6 @@
       "total_time": ""
     },
     {
-      "id": "recipe-via-meal-master-v-800-thebackcou",
-      "title": "Recipe via Meal-Master ™ v 8.00",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "8-t-butter-or-margarine-4-t-garli-g-thebackcou",
-      "title": "8 T Butter or margarine 4 T Garli-Ghetti seasoning",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "c-broccoli-chopped-c-celery-root-ch-thebackcou",
-      "title": "¼ c Broccoli, chopped ¼ c Celery root, chopped",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe from The Back Country Recipe Book",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "patedeveau-theamerica",
       "title": "Patedeveau",
       "category": "mains",
@@ -23557,58 +23398,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "sweet-ravioli-gutenberg-6385",
-      "title": "Sweet Ravioli",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Ravioli Dolce",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-cake-gutenberg-6385",
-      "title": "Polenta Cake",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Migliaccio di Farina Gialla",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "gnocchi-of-milka-dessert-gutenberg-6385",
-      "title": "Gnocchi Of Milk—A Dessert",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "egg-pudding-gutenberg-6429",
-      "title": "Egg Pudding",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -34673,21 +34462,6 @@
       "total_time": ""
     },
     {
-      "id": "sausage-twist-ref",
-      "title": "Sausage Twist",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "sausage",
-        "pastry",
-        "savory"
-      ],
-      "collection": "reference",
-      "description": "This twist can be cut into individual pieces for a yummy breakfast.",
-      "servings_yield": "6 portions",
-      "total_time": ""
-    },
-    {
       "id": "stuffed-french-toast-ref",
       "title": "Stuffed French Toast",
       "category": "breakfast",
@@ -34800,22 +34574,6 @@
       "total_time": ""
     },
     {
-      "id": "breakfast-tacos-ref",
-      "title": "Breakfast Tacos",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "tacos",
-        "mexican",
-        "eggs",
-        "chorizo"
-      ],
-      "collection": "reference",
-      "description": "These delicious tacos make a hearty breakfast.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
       "id": "breakfast-parfait-ref",
       "title": "Breakfast Parfait",
       "category": "breakfast",
@@ -34828,21 +34586,6 @@
       ],
       "collection": "reference",
       "description": "These delicious parfaits can be made ahead and refrigerated for a quick breakfast.",
-      "servings_yield": "",
-      "total_time": ""
-    },
-    {
-      "id": "breakfast-quinoa-ref",
-      "title": "Breakfast Quinoa",
-      "category": "breakfast",
-      "tags": [
-        "breakfast",
-        "quinoa",
-        "healthy",
-        "vegan-option"
-      ],
-      "collection": "reference",
-      "description": "Try this breakfast quinoa, packed with fiber and protein, as a great alternative to your morning oatmeal.",
       "servings_yield": "",
       "total_time": ""
     },
@@ -37537,7 +37280,8 @@
       "tags": [
         "breakfast",
         "sausage",
-        "pastry"
+        "pastry",
+        "savory"
       ],
       "collection": "reference",
       "description": "This twist can be cut into individual pieces for a yummy breakfast.",
@@ -37672,7 +37416,8 @@
         "breakfast",
         "tacos",
         "chorizo",
-        "mexican"
+        "mexican",
+        "eggs"
       ],
       "collection": "reference",
       "description": "These delicious tacos make a hearty breakfast.",
@@ -39068,73 +38813,8 @@
       "total_time": ""
     },
     {
-      "id": "egg-chops-gutenberg-6429",
-      "title": "Egg Chops",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "scrambled-eggs-with-shrimps-gutenberg-6429",
       "title": "Scrambled Eggs With Shrimps",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "eggs-scrambled-with-fresh-tomatoes-gutenberg-6429",
-      "title": "Eggs Scrambled With Fresh Tomatoes",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "scrambled-eggs-with-asparagus-tips-gutenberg-6429",
-      "title": "Scrambled Eggs With Asparagus Tips",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-with-potatoes-gutenberg-6429",
-      "title": "Omelet With Potatoes",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-a-la-duchesse-gutenberg-6429",
-      "title": "Omelet A La Duchesse",
       "category": "breakfast",
       "tags": [
         "vintage",
@@ -42582,84 +42262,6 @@
       "total_time": ""
     },
     {
-      "id": "macaroni-with-tomato-sauce-gutenberg-6385",
-      "title": "Macaroni With Tomato Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Maccheroni al Sugo",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "ravioli-of-curds-and-spinach-gutenberg-6385",
-      "title": "Ravioli Of Curds And Spinach",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "sauce-bechamel-gutenberg-6429",
-      "title": "Sauce Bechamel",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "cream-or-white-sauce-gutenberg-6429",
-      "title": "Cream Or White Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "brown-butter-sauce-gutenberg-6429",
-      "title": "Brown Butter Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "sauce-perigueux-gutenberg-6429",
-      "title": "Sauce Perigueux",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "cottage-cheese-dressing-cottage-cheese",
       "title": "Cottage Cheese Dressing",
       "category": "sides",
@@ -46042,58 +45644,6 @@
       "total_time": ""
     },
     {
-      "id": "beef-soup-stock-gutenberg-6385",
-      "title": "Beef Soup Stock",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Brodo di Carne",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "rice-soup-gutenberg-6385",
-      "title": "Rice Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Minestra di Riso",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "stracciatella-soup-gutenberg-6385",
-      "title": "Stracciatella Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Minestra di Stracciatella",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "vegetable-chowder-gutenberg-6385",
-      "title": "Vegetable Chowder",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Minestrone alla Milanese",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "fish-broth-gutenberg-6385",
       "title": "Fish Broth",
       "category": "soups",
@@ -46103,58 +45653,6 @@
       ],
       "collection": "all",
       "description": "Vintage recipe: Brodo di Pesce",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "lentil-soup-gutenberg-6385",
-      "title": "Lentil Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Brodo di Lenticchie",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "lettuce-soup-gutenberg-6385",
-      "title": "Lettuce Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Zuppa di Lattuga",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "pumpkin-soup-gutenberg-6385",
-      "title": "Pumpkin Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Zuppa di Zucca",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "potato-soup-gutenberg-6385",
-      "title": "Potato Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Zuppa alla Provinciale",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -47925,19 +47423,6 @@
       "total_time": ""
     },
     {
-      "id": "deviled-egg-salad-gutenberg-6429",
-      "title": "Deviled Egg Salad",
-      "category": "salads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "two-decker-salad-cottage-cheese",
       "title": "Two-Decker Salad",
       "category": "salads",
@@ -49080,22 +48565,6 @@
       "total_time": ""
     },
     {
-      "id": "quick-fruity-breakfast-smoothie-ref",
-      "title": "Quick Fruity Breakfast Smoothie",
-      "category": "beverages",
-      "tags": [
-        "beverages",
-        "breakfast",
-        "smoothie",
-        "quick",
-        "healthy"
-      ],
-      "collection": "reference",
-      "description": "A quick and healthy breakfast smoothie with pineapple and strawberries.",
-      "servings_yield": "2 servings",
-      "total_time": ""
-    },
-    {
       "id": "yale-college-punch",
       "title": "Yale College Punch",
       "category": "beverages",
@@ -49370,7 +48839,8 @@
         "strawberry",
         "banana",
         "pineapple",
-        "healthy"
+        "healthy",
+        "quick"
       ],
       "collection": "reference",
       "description": "A quick and healthy smoothie with pineapple, banana, and strawberries.",
@@ -61132,21 +60602,6 @@
       "total_time": "Fresh"
     },
     {
-      "id": "requeijao-cremoso-2",
-      "title": "Requeijão Cremoso",
-      "category": "sides",
-      "tags": [
-        "cheese",
-        "Brazilian",
-        "requeijão",
-        "cremoso"
-      ],
-      "collection": "all",
-      "description": "Extra creamy requeijão.",
-      "servings_yield": "About 2 lbs",
-      "total_time": "Fresh"
-    },
-    {
       "id": "requeijao-culinario",
       "title": "Requeijão Culinário",
       "category": "sides",
@@ -64931,21 +64386,6 @@
       "total_time": "2-4 months"
     },
     {
-      "id": "samso",
-      "title": "Samsø",
-      "category": "sides",
-      "tags": [
-        "cheese",
-        "Danish",
-        "Samsø",
-        "Swiss-style"
-      ],
-      "collection": "all",
-      "description": "Danish Swiss-style.",
-      "servings_yield": "About 2 lbs",
-      "total_time": "3-6 months"
-    },
-    {
       "id": "norwegian-gamalost",
       "title": "Gamalost",
       "category": "sides",
@@ -64989,21 +64429,6 @@
       "description": "Norwegian Saint-Paulin style.",
       "servings_yield": "About 2 lbs",
       "total_time": "3-4 months"
-    },
-    {
-      "id": "nokkelost-2",
-      "title": "Nøkkelost",
-      "category": "sides",
-      "tags": [
-        "cheese",
-        "Norwegian",
-        "Nøkkelost",
-        "spiced"
-      ],
-      "collection": "all",
-      "description": "Norwegian Leiden-style with spices.",
-      "servings_yield": "About 2 lbs",
-      "total_time": "3-6 months"
     },
     {
       "id": "finnish-aura",
@@ -67814,22 +67239,6 @@
       "description": "Small producer Roquefort.",
       "servings_yield": "About 2 lbs",
       "total_time": "4-6 months"
-    },
-    {
-      "id": "stilton-cropwell-bishop",
-      "title": "Cropwell Bishop Stilton",
-      "category": "sides",
-      "tags": [
-        "cheese",
-        "British",
-        "Stilton",
-        "blue",
-        "PDO"
-      ],
-      "collection": "all",
-      "description": "Traditional Stilton producer.",
-      "servings_yield": "About 2 lbs",
-      "total_time": "9-12 weeks"
     },
     {
       "id": "stilton-long-clawson",
@@ -98806,19 +98215,6 @@
       "total_time": ""
     },
     {
-      "id": "agro-dolce-sauce-gutenberg-6385",
-      "title": "Agro Dolce Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "alla-macedoine-salad-gutenberg",
       "title": "\"Alla Macedoine\" Salad",
       "category": "salads",
@@ -98829,19 +98225,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "alla-macedoine-salad-gutenberg-6385",
-      "title": "\"Alla Macedoine\" Salad",
-      "category": "salads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -98860,19 +98243,6 @@
       "total_time": ""
     },
     {
-      "id": "alla-panna-sauce-gutenberg-6385",
-      "title": "\"Alla Panna\" Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "alla-pollastra-salad-gutenberg",
       "title": "\"Alla Pollastra\" Salad",
       "category": "salads",
@@ -98883,19 +98253,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "alla-pollastra-salad-gutenberg-6385",
-      "title": "\"Alla Pollastra\" Salad",
-      "category": "salads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -98981,19 +98338,6 @@
       "total_time": ""
     },
     {
-      "id": "anchovy-sauce-gutenberg-6429",
-      "title": "Anchovy Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "anchovy-saucefor-fish-gutenberg-34837",
       "title": "Anchovy Sauce—For Fish.",
       "category": "sides",
@@ -99073,19 +98417,6 @@
       "total_time": ""
     },
     {
-      "id": "aspie-a-term-used-for-savoury-jelly-in-which-cold--gutenberg-12327",
-      "title": "Aspie, A Term Used For Savoury Jelly, In Which Cold Poultry, Meat, &C., Is Often Served.",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "baked-pigeons-or-pigeons-la-crapaudine-gutenberg-34837",
       "title": "Baked Pigeons, Or Pigeons À La Crapaudine.",
       "category": "mains",
@@ -99153,19 +98484,6 @@
       "total_time": ""
     },
     {
-      "id": "bechamel-sauce-no-1-gutenberg-6385",
-      "title": "Bechamel Sauce No. 1",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "bechamel-sauce-no-2-gutenberg",
       "title": "Bechamel Sauce No. 2",
       "category": "sides",
@@ -99176,19 +98494,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "bechamel-sauce-no-2-gutenberg-6385",
-      "title": "Bechamel Sauce No. 2",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -99246,19 +98551,6 @@
       "total_time": ""
     },
     {
-      "id": "birds-nests-gutenberg-6429",
-      "title": "Birds' Nests",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "blancmange-in-eggs-gutenberg-34837",
       "title": "Blancmange In Eggs.",
       "category": "breakfast",
@@ -99295,19 +98587,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "bocconcini-gutenberg-6385",
-      "title": "Bocconcini",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -99482,19 +98761,6 @@
       "total_time": ""
     },
     {
-      "id": "butter-sauce-gutenberg-6385",
-      "title": "Butter Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "calfs-liver-fried-gutenberg",
       "title": "Calf'S Liver Fried",
       "category": "mains",
@@ -99505,19 +98771,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "calfs-liver-fried-gutenberg-6385",
-      "title": "Calf'S Liver Fried",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -99562,19 +98815,6 @@
       "total_time": ""
     },
     {
-      "id": "cauliflower-in-stufato-gutenberg-6385",
-      "title": "Cauliflower \"In Stufato\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "cauliflowers-with-cheese-gutenberg-34837",
       "title": "Cauliflowers With Cheese.",
       "category": "mains",
@@ -99602,19 +98842,6 @@
       "total_time": ""
     },
     {
-      "id": "celery-fried-gutenberg-6385",
-      "title": "Celery Fried",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "celery-with-tomato-sauce-gutenberg",
       "title": "Celery With Tomato Sauce",
       "category": "sides",
@@ -99629,19 +98856,6 @@
       "total_time": ""
     },
     {
-      "id": "celery-with-tomato-sauce-gutenberg-6385",
-      "title": "Celery With Tomato Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "chestnut-fritters-gutenberg",
       "title": "Chestnut Fritters",
       "category": "mains",
@@ -99652,19 +98866,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "chestnut-fritters-gutenberg-6385",
-      "title": "Chestnut Fritters",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -99696,19 +98897,6 @@
       "total_time": ""
     },
     {
-      "id": "chestnuts-alla-lucifero-gutenberg-6385",
-      "title": "Chestnuts \"Alla Lucifero\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "chicken-broth-gutenberg",
       "title": "Chicken Broth",
       "category": "soups",
@@ -99723,19 +98911,6 @@
       "total_time": ""
     },
     {
-      "id": "chicken-broth-gutenberg-6385",
-      "title": "Chicken Broth",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Brodo di Capone",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "chicken-with-polenta-gutenberg",
       "title": "Chicken With Polenta",
       "category": "mains",
@@ -99746,19 +98921,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "chicken-with-polenta-gutenberg-6385",
-      "title": "Chicken With Polenta",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -99864,19 +99026,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe: Zuppa di Merluzzo",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "codfish-soup-gutenberg-6385",
-      "title": "Codfish Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Zuppa di Merluzzo",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -100104,19 +99253,6 @@
       "total_time": ""
     },
     {
-      "id": "cucumbers-alla-toscana-gutenberg-6385",
-      "title": "Cucumbers \"Alla Toscana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "currant-and-red-raspberry-pie-gutenberg",
       "title": "Currant And Red Raspberry Pie",
       "category": "desserts",
@@ -100171,19 +99307,6 @@
       "total_time": ""
     },
     {
-      "id": "curry-sauce-gutenberg-6429",
-      "title": "Curry Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "cutlets-la-maintenon-gutenberg-34837",
       "title": "Cutlets À La Maintenon.",
       "category": "mains",
@@ -100224,19 +99347,6 @@
       "total_time": ""
     },
     {
-      "id": "directions-for-various-ways-of-dressing-meat-and-p-gutenberg-12327",
-      "title": "Directions For Various Ways Of Dressing Meat And Poultry.",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "drawn-butter-gutenberg-34837",
       "title": "Drawn Butter.",
       "category": "mains",
@@ -100260,19 +99370,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "dress-gutenberg-12327",
-      "title": "Dress.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -100332,19 +99429,6 @@
       "total_time": ""
     },
     {
-      "id": "effect-of-diet-on-complexion-gutenberg-12327",
-      "title": "Effect Of Diet On Complexion.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "egg-balls-for-soup-gutenberg",
       "title": "Egg Balls For Soup",
       "category": "soups",
@@ -100373,19 +99457,6 @@
       "total_time": ""
     },
     {
-      "id": "egg-balls-gutenberg-6429",
-      "title": "Egg Balls",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "egg-croquettes-gutenberg",
       "title": "Egg Croquettes",
       "category": "breakfast",
@@ -100396,19 +99467,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "egg-croquettes-gutenberg-6385",
-      "title": "Egg Croquettes",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -100427,19 +99485,6 @@
       "total_time": ""
     },
     {
-      "id": "egg-farci-gutenberg-6429",
-      "title": "Egg Farci",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "egg-flip-gutenberg",
       "title": "Egg Flip",
       "category": "breakfast",
@@ -100450,19 +99495,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "egg-flip-gutenberg-6429",
-      "title": "Egg Flip",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -100490,19 +99522,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "egg-timbales-gutenberg-6429",
-      "title": "Egg Timbales",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -101054,19 +100073,6 @@
       "total_time": ""
     },
     {
-      "id": "eggs-scrambled-with-rice-and-tomato-gutenberg-6429",
-      "title": "Eggs Scrambled With Rice And Tomato",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "eggs-steamed-in-the-shell-gutenberg-6429",
       "title": "Eggs Steamed In The Shell",
       "category": "breakfast",
@@ -101185,19 +100191,6 @@
       "total_time": ""
     },
     {
-      "id": "endive-salad-gutenberg-6385",
-      "title": "Endive Salad",
-      "category": "salads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "essence-of-game-gutenberg-34837",
       "title": "Essence Of Game.",
       "category": "mains",
@@ -101290,19 +100283,6 @@
       "total_time": ""
     },
     {
-      "id": "french-method-of-making-coffee-gutenberg-12327",
-      "title": "French Method Of Making Coffee.",
-      "category": "beverages",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "french-mustard-gutenberg-34837",
       "title": "French Mustard.",
       "category": "mains",
@@ -101339,19 +100319,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "fresh-codfish-al-vino-bianco-gutenberg-6385",
-      "title": "Fresh Codfish \"Al Vino Bianco\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -101396,19 +100363,6 @@
       "total_time": ""
     },
     {
-      "id": "fried-brains-gutenberg-6385",
-      "title": "Fried Brains",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "fried-bread-with-raisins-gutenberg",
       "title": "Fried Bread With Raisins",
       "category": "breads",
@@ -101419,19 +100373,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "fried-bread-with-raisins-gutenberg-6385",
-      "title": "Fried Bread With Raisins",
-      "category": "breads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -101529,19 +100470,6 @@
       "total_time": ""
     },
     {
-      "id": "fried-pumpkin-gutenberg-6385",
-      "title": "Fried Pumpkin",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "fried-squash-parsnips-celery-and-mushrooms-gutenberg",
       "title": "Fried Squash, Parsnips, Celery, And Mushrooms",
       "category": "mains",
@@ -101556,19 +100484,6 @@
       "total_time": ""
     },
     {
-      "id": "fried-squash-parsnips-celery-and-mushrooms-gutenberg-6385",
-      "title": "Fried Squash, Parsnips, Celery, And Mushrooms",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "fried-sweetbreads-croquettes-liver-etc-gutenberg",
       "title": "Fried Sweetbreads, Croquettes, Liver, Etc.",
       "category": "desserts",
@@ -101579,19 +100494,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe: Fritto Misto alla Romana",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "fried-sweetbreads-croquettes-liver-etc-gutenberg-6385",
-      "title": "Fried Sweetbreads, Croquettes, Liver, Etc.",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Fritto Misto alla Romana",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -101662,19 +100564,6 @@
       "total_time": ""
     },
     {
-      "id": "gnocchi-of-potato-gutenberg-6385",
-      "title": "Gnocchi Of Potato",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "godiveau-gutenberg-34837",
       "title": "Godiveau.",
       "category": "mains",
@@ -101698,19 +100587,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "golden-bread-gutenberg-6385",
-      "title": "Golden Bread",
-      "category": "breads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -101768,19 +100644,6 @@
       "total_time": ""
     },
     {
-      "id": "hands-gutenberg-12327",
-      "title": "Hands.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "hashed-fish-gutenberg-34837",
       "title": "Hashed Fish.",
       "category": "mains",
@@ -101808,19 +100671,6 @@
       "total_time": ""
     },
     {
-      "id": "havana-omelet-gutenberg-6429",
-      "title": "Havana Omelet",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "hazelnut-butter-gutenberg-34837",
       "title": "Hazelnut Butter.",
       "category": "mains",
@@ -101834,26 +100684,13 @@
       "total_time": ""
     },
     {
-      "id": "horseradish-sauce-gutenberg",
-      "title": "Horseradish Sauce",
-      "category": "sides",
-      "tags": [
-        "italian",
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "horseradish-sauce-gutenberg-6429",
       "title": "Horseradish Sauce",
       "category": "sides",
       "tags": [
         "vintage",
-        "public-domain"
+        "public-domain",
+        "italian"
       ],
       "collection": "all",
       "description": "Vintage recipe",
@@ -101875,19 +100712,6 @@
       "total_time": ""
     },
     {
-      "id": "hot-piquante-sauce-gutenberg-6385",
-      "title": "Hot Piquante Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "hot-wine-gutenberg",
       "title": "Hot Wine",
       "category": "mains",
@@ -101898,19 +100722,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "hot-wine-gutenberg-6385",
-      "title": "Hot Wine",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -101942,19 +100753,6 @@
       "total_time": ""
     },
     {
-      "id": "influence-of-the-mind-as-regards-beauty-gutenberg-12327",
-      "title": "Influence Of The Mind As Regards Beauty.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "involtini-of-beef-alla-siciliana-gutenberg",
       "title": "Involtini Of Beef \"Alla Siciliana\"",
       "category": "mains",
@@ -101965,19 +100763,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "involtini-of-beef-alla-siciliana-gutenberg-6385",
-      "title": "Involtini Of Beef \"Alla Siciliana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -101996,19 +100781,6 @@
       "total_time": ""
     },
     {
-      "id": "italian-salad-gutenberg-6385",
-      "title": "Italian Salad",
-      "category": "salads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "italian-sauce-gutenberg",
       "title": "Italian Sauce",
       "category": "sides",
@@ -102019,19 +100791,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "italian-sauce-gutenberg-6429",
-      "title": "Italian Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102129,19 +100888,6 @@
       "total_time": ""
     },
     {
-      "id": "lettuce-in-the-oven-gutenberg-6385",
-      "title": "Lettuce In The Oven",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "lightning-omelette-gutenberg",
       "title": "Lightning Omelette",
       "category": "breakfast",
@@ -102152,19 +100898,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "lightning-omelette-gutenberg-6385",
-      "title": "Lightning Omelette",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102183,19 +100916,6 @@
       "total_time": ""
     },
     {
-      "id": "lima-beans-with-ham-gutenberg-6385",
-      "title": "Lima Beans With Ham",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "little-filets-alla-napolitana-gutenberg",
       "title": "Little Filets \"Alla Napolitana\"",
       "category": "mains",
@@ -102206,19 +100926,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "little-filets-alla-napolitana-gutenberg-6385",
-      "title": "Little Filets \"Alla Napolitana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102289,19 +100996,6 @@
       "total_time": ""
     },
     {
-      "id": "lombarda-sauce-gutenberg-6385",
-      "title": "Lombarda Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "macaroni-alla-san-giovannello-gutenberg",
       "title": "Macaroni \"Alla San Giovannello\"",
       "category": "mains",
@@ -102312,19 +101006,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "macaroni-alla-san-giovannello-gutenberg-6385",
-      "title": "Macaroni \"Alla San Giovannello\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102343,19 +101024,6 @@
       "total_time": ""
     },
     {
-      "id": "macaroni-with-butter-and-cheese-gutenberg-6385",
-      "title": "Macaroni With Butter And Cheese",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Maccheroni al Burro",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "macaroni-with-meat-and-sauce-gutenberg",
       "title": "Macaroni With Meat And Sauce",
       "category": "sides",
@@ -102366,19 +101034,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe: Maccheroni al sugo di Carne",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "macaroni-with-meat-and-sauce-gutenberg-6385",
-      "title": "Macaroni With Meat And Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Maccheroni al sugo di Carne",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102462,19 +101117,6 @@
       "total_time": ""
     },
     {
-      "id": "meat-sauce-gutenberg-6385",
-      "title": "Meat Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "meat-with-ribbon-macaroni-gutenberg",
       "title": "Meat With Ribbon Macaroni",
       "category": "mains",
@@ -102485,19 +101127,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "meat-with-ribbon-macaroni-gutenberg-6385",
-      "title": "Meat With Ribbon Macaroni",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102525,19 +101154,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "milk-of-almond-ice-gutenberg-6385",
-      "title": "Milk Of Almond Ice",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102582,19 +101198,6 @@
       "total_time": ""
     },
     {
-      "id": "omelet-a-la-washington-gutenberg-6429",
-      "title": "Omelet A La Washington",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "omelet-jardiniere-gutenberg",
       "title": "Omelet Jardiniere",
       "category": "breakfast",
@@ -102605,19 +101208,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-jardiniere-gutenberg-6429",
-      "title": "Omelet Jardiniere",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102636,19 +101226,6 @@
       "total_time": ""
     },
     {
-      "id": "omelet-obrien-gutenberg-6429",
-      "title": "Omelet O'Brien",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "omelet-souffle-gutenberg",
       "title": "Omelet Souffle",
       "category": "breakfast",
@@ -102659,19 +101236,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-souffle-gutenberg-6429",
-      "title": "Omelet Souffle",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102690,19 +101254,6 @@
       "total_time": ""
     },
     {
-      "id": "omelet-with-asparagus-tips-gutenberg-6429",
-      "title": "Omelet With Asparagus Tips",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "omelet-with-cheese-gutenberg",
       "title": "Omelet With Cheese",
       "category": "breakfast",
@@ -102713,19 +101264,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-with-cheese-gutenberg-6429",
-      "title": "Omelet With Cheese",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102744,19 +101282,6 @@
       "total_time": ""
     },
     {
-      "id": "omelet-with-fine-herbs-gutenberg-6429",
-      "title": "Omelet With Fine Herbs",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "omelet-with-fresh-mushrooms-gutenberg",
       "title": "Omelet With Fresh Mushrooms",
       "category": "breakfast",
@@ -102767,19 +101292,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-with-fresh-mushrooms-gutenberg-6429",
-      "title": "Omelet With Fresh Mushrooms",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102798,19 +101310,6 @@
       "total_time": ""
     },
     {
-      "id": "omelet-with-green-peas-gutenberg-6429",
-      "title": "Omelet With Green Peas",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "omelet-with-ham-gutenberg",
       "title": "Omelet With Ham",
       "category": "breakfast",
@@ -102821,19 +101320,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-with-ham-gutenberg-6429",
-      "title": "Omelet With Ham",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102852,19 +101338,6 @@
       "total_time": ""
     },
     {
-      "id": "omelet-with-oysters-gutenberg-6429",
-      "title": "Omelet With Oysters",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "omelet-with-rum-gutenberg",
       "title": "Omelet With Rum",
       "category": "breakfast",
@@ -102875,19 +101348,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-with-rum-gutenberg-6429",
-      "title": "Omelet With Rum",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -102906,19 +101366,6 @@
       "total_time": ""
     },
     {
-      "id": "omelet-with-sweetbreads-gutenberg-6429",
-      "title": "Omelet With Sweetbreads",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "omelet-with-tomato-sauce-gutenberg",
       "title": "Omelet With Tomato Sauce",
       "category": "breakfast",
@@ -102933,19 +101380,6 @@
       "total_time": ""
     },
     {
-      "id": "omelet-with-tomato-sauce-gutenberg-6429",
-      "title": "Omelet With Tomato Sauce",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "omelet-with-tomatoes-gutenberg",
       "title": "Omelet With Tomatoes",
       "category": "breakfast",
@@ -102956,19 +101390,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "omelet-with-tomatoes-gutenberg-6429",
-      "title": "Omelet With Tomatoes",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -103000,19 +101421,6 @@
       "total_time": ""
     },
     {
-      "id": "onions-alla-veneziana-gutenberg-6385",
-      "title": "Onions \"Alla Veneziana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "onions-stewed-in-wine-gutenberg-34837",
       "title": "Onions Stewed In Wine.",
       "category": "soups",
@@ -103036,19 +101444,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "or-gutenberg-12327",
-      "title": "Or",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -103132,19 +101527,6 @@
       "total_time": ""
     },
     {
-      "id": "paprika-sauce-gutenberg-6429",
-      "title": "Paprika Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "partridges-with-cabbage-gutenberg-34837",
       "title": "Partridges With Cabbage.",
       "category": "mains",
@@ -103168,19 +101550,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "pastry-gutenberg-12327",
-      "title": "Pastry.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -103226,19 +101595,6 @@
       "total_time": ""
     },
     {
-      "id": "peaches-with-wine-gutenberg-6385",
-      "title": "Peaches With Wine",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "pease-soup-gutenberg-34837",
       "title": "Pease Soup.",
       "category": "soups",
@@ -103275,19 +101631,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "pickling-gutenberg-12327",
-      "title": "Pickling.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -103345,19 +101688,6 @@
       "total_time": ""
     },
     {
-      "id": "piquante-sauce-with-egg-gutenberg-6385",
-      "title": "Piquante Sauce With Egg",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "plain-sauce-hollandaise-gutenberg",
       "title": "Plain Sauce Hollandaise",
       "category": "sides",
@@ -103368,19 +101698,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "plain-sauce-hollandaise-gutenberg-6429",
-      "title": "Plain Sauce Hollandaise",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -103412,19 +101729,6 @@
       "total_time": ""
     },
     {
-      "id": "poached-eggs-on-fried-tomatoes-gutenberg-6429",
-      "title": "Poached Eggs On Fried Tomatoes",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "polenta-croquettes-gutenberg",
       "title": "Polenta Croquettes",
       "category": "mains",
@@ -103435,19 +101739,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polenta-croquettes-gutenberg-6385",
-      "title": "Polenta Croquettes",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -103466,19 +101757,6 @@
       "total_time": ""
     },
     {
-      "id": "polenta-fritters-gutenberg-6385",
-      "title": "Polenta Fritters",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "polenta-with-chopped-sausages-gutenberg",
       "title": "Polenta With Chopped Sausages",
       "category": "mains",
@@ -103493,19 +101771,6 @@
       "total_time": ""
     },
     {
-      "id": "polenta-with-chopped-sausages-gutenberg-6385",
-      "title": "Polenta With Chopped Sausages",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "polpettone-alla-napolitana-gutenberg",
       "title": "Polpettone \"Alla Napolitana\"",
       "category": "mains",
@@ -103516,19 +101781,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "polpettone-alla-napolitana-gutenberg-6385",
-      "title": "Polpettone \"Alla Napolitana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -103651,19 +101903,6 @@
       "total_time": ""
     },
     {
-      "id": "preserving-and-bottling-gutenberg-12327",
-      "title": "Preserving And Bottling.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "puff-paste-gutenberg-34837",
       "title": "Puff Paste.",
       "category": "mains",
@@ -103700,19 +101939,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "pumpkin-alla-parmegiana-gutenberg-6385",
-      "title": "Pumpkin \"Alla Parmegiana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -103913,19 +102139,6 @@
       "total_time": ""
     },
     {
-      "id": "ravioli-with-brains-gutenberg-6385",
-      "title": "Ravioli With Brains",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "ravioli-with-meat-gutenberg",
       "title": "Ravioli With Meat",
       "category": "mains",
@@ -103940,19 +102153,6 @@
       "total_time": ""
     },
     {
-      "id": "ravioli-with-meat-gutenberg-6385",
-      "title": "Ravioli With Meat",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "receipts-for-invalids-gutenberg",
       "title": "Receipts For Invalids.",
       "category": "mains",
@@ -103963,19 +102163,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "receipts-for-invalids-gutenberg-12327",
-      "title": "Receipts For Invalids.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -104034,19 +102221,6 @@
       "total_time": ""
     },
     {
-      "id": "rice-with-butter-and-cheese-gutenberg-6385",
-      "title": "Rice With Butter And Cheese",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Riso in Bianco",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "rice-with-mushrooms-gutenberg",
       "title": "Rice With Mushrooms",
       "category": "mains",
@@ -104057,19 +102231,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "rice-with-mushrooms-gutenberg-6385",
-      "title": "Rice With Mushrooms",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -104088,19 +102249,6 @@
       "total_time": ""
     },
     {
-      "id": "rice-with-tomatoes-all-indiana-gutenberg-6385",
-      "title": "Rice With Tomatoes \"All' Indiana\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "rice-with-tomatoes-gutenberg",
       "title": "Rice With Tomatoes",
       "category": "mains",
@@ -104111,19 +102259,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "rice-with-tomatoes-gutenberg-6385",
-      "title": "Rice With Tomatoes",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -104142,19 +102277,6 @@
       "total_time": ""
     },
     {
-      "id": "risotto-alla-nostrale-gutenberg-6385",
-      "title": "Risotto \"Alla Nostrale\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "risotto-with-ham-gutenberg",
       "title": "Risotto With Ham",
       "category": "mains",
@@ -104165,19 +102287,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "risotto-with-ham-gutenberg-6385",
-      "title": "Risotto With Ham",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -104326,19 +102435,6 @@
       "total_time": ""
     },
     {
-      "id": "salad-del-prevosto-gutenberg-6385",
-      "title": "Salad \"Del Prevosto\"",
-      "category": "salads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "salt-cod-fish-gutenberg-34837",
       "title": "Salt Cod-Fish.",
       "category": "mains",
@@ -104420,19 +102516,6 @@
       "total_time": ""
     },
     {
-      "id": "scrambled-eggs-with-chipped-beef-gutenberg-6429",
-      "title": "Scrambled Eggs With Chipped Beef",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "scripture-cake-gutenberg",
       "title": "Scripture Cake",
       "category": "desserts",
@@ -104483,19 +102566,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "sicilian-macaroni-with-eggplant-gutenberg-6385",
-      "title": "Sicilian Macaroni With Eggplant",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -104567,19 +102637,6 @@
       "total_time": ""
     },
     {
-      "id": "spanish-omelet-gutenberg-6429",
-      "title": "Spanish Omelet",
-      "category": "breakfast",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "spinach-alla-romana-gutenberg",
       "title": "Spinach \"Alla Romana\"",
       "category": "sides",
@@ -104590,19 +102647,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "spinach-alla-romana-gutenberg-6385",
-      "title": "Spinach \"Alla Romana\"",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -104634,19 +102678,6 @@
       "total_time": ""
     },
     {
-      "id": "spinach-in-a-mold-with-mushrooms-gutenberg-6385",
-      "title": "Spinach In A Mold With Mushrooms",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "spinach-in-riccioli-gutenberg",
       "title": "Spinach \"In Riccioli\"",
       "category": "sides",
@@ -104661,19 +102692,6 @@
       "total_time": ""
     },
     {
-      "id": "spinach-in-riccioli-gutenberg-6385",
-      "title": "Spinach \"In Riccioli\"",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "spinach-souffle-gutenberg",
       "title": "Spinach Souffle",
       "category": "sides",
@@ -104684,19 +102702,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "spinach-souffle-gutenberg-6385",
-      "title": "Spinach Souffle",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -104936,19 +102941,6 @@
       "total_time": ""
     },
     {
-      "id": "string-beans-in-fricassea-gutenberg-6385",
-      "title": "String-Beans \"In Fricassea\"",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "string-beans-with-tomatoes-gutenberg",
       "title": "String-Beans With Tomatoes",
       "category": "sides",
@@ -104959,19 +102951,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "string-beans-with-tomatoes-gutenberg-6385",
-      "title": "String-Beans With Tomatoes",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105055,19 +103034,6 @@
       "total_time": ""
     },
     {
-      "id": "sweet-dishes-puddings-cakes-c-gutenberg-12327",
-      "title": "Sweet Dishes, Puddings, Cakes, &C.",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "sweetbreads-gutenberg",
       "title": "Sweetbreads",
       "category": "desserts",
@@ -105078,19 +103044,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "sweetbreads-gutenberg-6385",
-      "title": "Sweetbreads",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105109,19 +103062,6 @@
       "total_time": ""
     },
     {
-      "id": "swiss-souffle-gutenberg-6429",
-      "title": "Swiss Souffle",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "tarragon-sauce-gutenberg",
       "title": "Tarragon Sauce",
       "category": "sides",
@@ -105132,19 +103072,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "tarragon-sauce-gutenberg-6429",
-      "title": "Tarragon Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105176,19 +103103,6 @@
       "total_time": ""
     },
     {
-      "id": "teeth-gutenberg-12327",
-      "title": "Teeth.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "the-cardinals-salad-gutenberg",
       "title": "The Cardinal'S Salad",
       "category": "salads",
@@ -105199,19 +103113,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "the-cardinals-salad-gutenberg-6385",
-      "title": "The Cardinal'S Salad",
-      "category": "salads",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105230,19 +103131,6 @@
       "total_time": ""
     },
     {
-      "id": "the-complexion-gutenberg-12327",
-      "title": "The Complexion.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "the-hair-gutenberg",
       "title": "The Hair.",
       "category": "mains",
@@ -105253,19 +103141,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "the-hair-gutenberg-12327",
-      "title": "The Hair.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105284,19 +103159,6 @@
       "total_time": ""
     },
     {
-      "id": "the-receipts-we-have-given-are-capable-of-being-va-gutenberg-12327",
-      "title": "The Receipts We Have Given Are Capable Of Being Varied And Modified By An Intelligent Pains-Taking Cook, To Suit The Tastes Of Her Employers.",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "timbale-of-macaroni-gutenberg",
       "title": "Timbale Of Macaroni",
       "category": "mains",
@@ -105307,19 +103169,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "timbale-of-macaroni-gutenberg-6385",
-      "title": "Timbale Of Macaroni",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105338,19 +103187,6 @@
       "total_time": ""
     },
     {
-      "id": "timbale-of-ribbon-macaroni-gutenberg-6385",
-      "title": "Timbale Of Ribbon Macaroni",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "timbale-of-vermicelli-with-tomatoes-gutenberg",
       "title": "Timbale Of Vermicelli With Tomatoes",
       "category": "mains",
@@ -105361,19 +103197,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe: Neapolitan Receipt",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "timbale-of-vermicelli-with-tomatoes-gutenberg-6385",
-      "title": "Timbale Of Vermicelli With Tomatoes",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Neapolitan Receipt",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105457,19 +103280,6 @@
       "total_time": ""
     },
     {
-      "id": "tomato-pudding-gutenberg-6385",
-      "title": "Tomato Pudding",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "tomato-sauce-gutenberg",
       "title": "Tomato Sauce",
       "category": "sides",
@@ -105480,19 +103290,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "tomato-sauce-gutenberg-6429",
-      "title": "Tomato Sauce",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105511,19 +103308,6 @@
       "total_time": ""
     },
     {
-      "id": "tomato-sauce-no-1-gutenberg-6385",
-      "title": "Tomato Sauce No. 1",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "tomato-sauce-no-2-gutenberg",
       "title": "Tomato Sauce No. 2",
       "category": "sides",
@@ -105534,19 +103318,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "tomato-sauce-no-2-gutenberg-6385",
-      "title": "Tomato Sauce No. 2",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105565,19 +103336,6 @@
       "total_time": ""
     },
     {
-      "id": "tomato-sauce-no-3-gutenberg-6385",
-      "title": "Tomato Sauce No. 3",
-      "category": "sides",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "tomatoes-alla-piemontese-gutenberg",
       "title": "Tomatoes \"Alla Piemontese\"",
       "category": "desserts",
@@ -105592,19 +103350,6 @@
       "total_time": ""
     },
     {
-      "id": "tomatoes-alla-piemontese-gutenberg-6385",
-      "title": "Tomatoes \"Alla Piemontese\"",
-      "category": "desserts",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "tomatoes-alla-spagnuola-gutenberg",
       "title": "Tomatoes \"Alla Spagnuola\"",
       "category": "mains",
@@ -105615,19 +103360,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "tomatoes-alla-spagnuola-gutenberg-6385",
-      "title": "Tomatoes \"Alla Spagnuola\"",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },
@@ -105750,19 +103482,6 @@
       "total_time": ""
     },
     {
-      "id": "vegetable-soup-gutenberg-6385",
-      "title": "Vegetable Soup",
-      "category": "soups",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe: Zuppa alla Primaverile",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "velout-or-velvet-essence-gutenberg-34837",
       "title": "Velouté, Or Velvet Essence.",
       "category": "mains",
@@ -105803,19 +103522,6 @@
       "total_time": ""
     },
     {
-      "id": "vermicelli-with-olive-oil-and-anchovies-gutenberg-6385",
-      "title": "Vermicelli With Olive-Oil And Anchovies",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
       "id": "vermicelli-with-olive-oil-olives-capers-and-anchov-gutenberg",
       "title": "Vermicelli With Olive-Oil, Olives, Capers, And Anchovies",
       "category": "mains",
@@ -105826,19 +103532,6 @@
       ],
       "collection": "all",
       "description": "Vintage Italian recipe",
-      "servings_yield": "4 servings",
-      "total_time": ""
-    },
-    {
-      "id": "vermicelli-with-olive-oil-olives-capers-and-anchov-gutenberg-6385",
-      "title": "Vermicelli With Olive-Oil, Olives, Capers, And Anchovies",
-      "category": "mains",
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "collection": "all",
-      "description": "Vintage recipe",
       "servings_yield": "4 servings",
       "total_time": ""
     },

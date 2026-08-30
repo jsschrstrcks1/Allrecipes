@@ -31,6 +31,36 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — Exact-duplicate removal, phase 1 of the dup/variant campaign (syl)
+
+**Asked:** Operator: we forgot duplicates aren't allowed (variants are — one recipe with
+tabs per variant + provenance). Screenshot: "Alla Panna" Sauce listed twice. Investigate
+blast radius, plan, register in HLS, execute.
+
+**Weighed:** Operator law recalled (memory 990f37e1/c865b442): duplicates = EXACT same
+recipe → remove; variants = keep + link `variants` to canonical primary; dedup key is
+name+source; canonical selection human-centric. Measured on SSOT masters only (first scan
+double-counted generated shards): Allrecipes 176 exact dups / 776 same-title clusters;
+Grandmas 7 / 983 (363 already variant-linked); Moms 5 / 478; Grannys 0 / 22. Root cause of
+the screenshot: Gutenberg re-import wrote `-6385`-suffixed twins instead of skipping.
+Considered fuzzy-title merging in the same pass — rejected: exact-content removal is
+mechanical and safe; title-cluster linking is phase 2; attribution-differing identical
+content is deliberately NOT removed (name+source rule) — 0 such groups here anyway.
+
+**Decided:** scripts/dedup_exact_duplicates.py — dry-run default, removable only when
+title+ingredients+instructions identical AND attributions compatible; keeper = most
+complete record (nutrition/images/notes weighted), loser fields merged in, never
+overwriting; every removal appended to admin/MERGED-AWAY.json WITH the full removed
+record; refs (variant_of/canonical_id/variants/components) repointed. Applied: 9989→9813.
+Shards + index regenerated (shardify), validate-recipes exit 0. HLS:
+recipe-dedup-phase-1-… checked out by syl; phases 2 (variant linking) and 3 (tabs UI)
+registered separately.
+
+**Unsure:** Completeness scoring picks the keeper mechanically; for the 176 groups the
+content was identical so no recipe text was at risk, but a human eye on MERGED-AWAY.json
+is welcome. "Recipe via Meal-Master ™ v 8.00" is a garbage title that also survived — a
+title-gate candidate, deliberately not fixed in this pass (scope).
+
 ## 2026-08-11 — rysn: household sync of soli-deo-gloria (a link that resolved in only one repo)
 
 **Asked.** Propagate the canonical `soli-deo-gloria` change made in the household SSOT. This repo's
