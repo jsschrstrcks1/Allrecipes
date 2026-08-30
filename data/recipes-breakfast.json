@@ -44536,7 +44536,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "cf-yogurt-whole-milk"
+      ]
     },
     {
       "id": "shakshuka-with-feta",
@@ -45119,7 +45122,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "homemade-yogurt"
     },
     {
       "id": "gordon-ramsay-brioche-french-toast",
@@ -59905,7 +59909,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variant_of": "bananas-gutenberg-28491"
     },
     {
       "id": "baked-peppers-gutenberg-26374",
@@ -60074,7 +60079,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variants": [
+        "baked-beans-quick-method-grandmas-molasses"
+      ]
     },
     {
       "id": "fish-balls-gutenberg-26374",
