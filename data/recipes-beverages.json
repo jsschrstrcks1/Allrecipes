@@ -87,7 +87,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "coffee-flavored-eggnog"
     },
     {
       "id": "fruity-smoothie-with-ground-flax-seed-ref",
@@ -168,7 +169,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "fruity-smoothie-with-ground-flax-seed"
     },
     {
       "id": "fruity-yogurt-smoothie-ref",
@@ -251,7 +253,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "fruity-yogurt-smoothie"
     },
     {
       "id": "mexican-breakfast-choco-drink-ref",
@@ -352,7 +355,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "mexican-breakfast-choco-drink"
     },
     {
       "id": "yale-college-punch",
@@ -1431,7 +1435,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "coffee-flavored-eggnog-ref"
+      ]
     },
     {
       "id": "fruity-smoothie-with-ground-flax-seed",
@@ -1514,7 +1521,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "fruity-smoothie-with-ground-flax-seed-ref"
+      ]
     },
     {
       "id": "fruity-yogurt-smoothie",
@@ -1601,7 +1611,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "fruity-yogurt-smoothie-ref"
+      ]
     },
     {
       "id": "mexican-breakfast-choco-drink",
@@ -1704,7 +1717,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "mexican-breakfast-choco-drink-ref"
+      ]
     },
     {
       "id": "quick-fruity-breakfast-smoothie",
@@ -5495,7 +5511,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "watermelon-smoothie-handwritten"
     },
     {
       "id": "sumac-lemonade-sioux-chef",
@@ -6790,7 +6807,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variant_of": "grape-juice-gutenberg-31102"
     },
     {
       "id": "champagne-punch-gutenberg-26374",
@@ -13512,7 +13530,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variant_of": "chocolate-cake-gutenberg-31102"
     },
     {
       "id": "tea-cakes-gutenberg-28491",
@@ -13734,7 +13753,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variant_of": "coffee-cake-gutenberg-31102"
     },
     {
       "id": "beefsteak-with-bacon-and-onions-gutenberg-28491",
@@ -14123,7 +14143,12 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variants": [
+        "grape-juice-gutenberg-15464",
+        "grape-juice-gutenberg-31102-2",
+        "grape-juice-gutenberg-31102-3"
+      ]
     },
     {
       "id": "grape-juice-lemonade-gutenberg-31102",
@@ -14355,7 +14380,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variant_of": "grape-juice-gutenberg-31102"
     },
     {
       "id": "grape-juice-gutenberg-31102-3",
@@ -14432,7 +14458,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variant_of": "grape-juice-gutenberg-31102"
     },
     {
       "id": "grape-juice-highball-gutenberg-31102",
@@ -15878,7 +15905,10 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "watermelon-smoothie"
+      ]
     },
     {
       "id": "morning-kefir-smoothie-red-berries",

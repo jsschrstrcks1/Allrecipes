@@ -31,6 +31,33 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — Variant linking, phase 2 (syl)
+
+**Asked:** After exact-dup removal: link recipes that are the same dish but not identical
+("even a little different") to a canonical primary, per operator law 990f37e1, so readers
+get one listing with variant tabs (phase 3).
+
+**Weighed:** Cluster rule = identical normalized title within this store; content is NOT
+compared because differing content is what a variant is (twins are already gone).
+Canonical selection is human-centric per the directive: family collections first (none in
+this store — collections here are all/reference), then completeness (nutrition, images,
+notes weighted), then a named source, then a clean id. The linker is additive-only: no
+existing variant_of is ever rewritten, existing variants lists are unioned, and an
+established canonical inside a cluster is adopted rather than re-elected. Different-title
+same-dish pairs (the "Grandma's X" vs "Chef Y's X" case) are NOT auto-linked — title
+normalization that strips attributions risks false merges; that set needs a reviewed
+pass, left open on the phase-2 HLS task.
+
+**Decided:** scripts/link_variants.py (dry-run default) linked 610 clusters: 831
+variant_of + 832 variants entries added. Post-checks: 0 cycles, 0 broken refs, 0 missing
+backlinks, 0 canonicals that are also variants. Report with every link:
+admin/VARIANTS-LINKED.json. Shards + index regenerated; validate exit 0; `variants` added
+to the validator's documented optional fields.
+
+**Unsure:** Canonical election among non-family sources is mechanical (completeness); a
+human may prefer a different member as the face of a cluster — the report lists every
+cluster so re-election is a one-field edit.
+
 ## 2026-08-30 — Exact-duplicate removal, phase 1 of the dup/variant campaign (syl)
 
 **Asked:** Operator: we forgot duplicates aren't allowed (variants are — one recipe with

@@ -560,7 +560,11 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "gouda-cheese",
+        "cheesemaking-gouda"
+      ]
     },
     {
       "id": "cf-cultured-mozzarella",
@@ -694,7 +698,11 @@
           "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
         ],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "psr-traditional-cultured-mozzarella",
+        "psr-cultured-mozzarella"
+      ]
     },
     {
       "id": "cf-queso-panela",
@@ -2042,7 +2050,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "jarlsberg-cheese"
     },
     {
       "id": "lgc-monterey-jack",
@@ -2174,7 +2183,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "monterey-jack"
     },
     {
       "id": "lgc-mysost",
@@ -2406,7 +2416,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "ricotta-salata"
     },
     {
       "id": "lgc-bel-paese",
@@ -3053,7 +3064,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "mascarpone-italian"
     },
     {
       "id": "lgc-petit-bleu",
@@ -3315,7 +3327,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "paneer-cheese"
+      ]
     },
     {
       "id": "lgc-lucys-feta",
@@ -3556,7 +3571,11 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "fcf-whole-milk-ricotta",
+        "th-whole-milk-ricotta"
+      ]
     },
     {
       "id": "lgc-farmhouse-cheddar",
@@ -3689,7 +3708,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "cheddar-cheese"
+      ]
     },
     {
       "id": "lgc-queso-fresco",
@@ -3827,7 +3849,11 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "queso-fresco",
+        "fcf-queso-fresco"
+      ]
     },
     {
       "id": "lgc-chili-queso-fresco",
@@ -4717,7 +4743,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "af-homemade-cream-cheese"
+      ]
     },
     {
       "id": "lgc-camembert",
@@ -5571,7 +5600,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "caerphilly-cheese"
     },
     {
       "id": "lgc-parmesan",
@@ -6160,7 +6190,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "pepper-jack-cheese"
+      ]
     },
     {
       "id": "taoc-homemade-ricotta",
@@ -6400,7 +6433,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "psr-homemade-cheddar-cheese"
     },
     {
       "id": "psr-farmhouse-cheddar-18th-century",
@@ -6679,7 +6713,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "cf-cultured-mozzarella"
     },
     {
       "id": "fcf-feta-cheese",
@@ -6831,7 +6866,10 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "feta-cheese"
+      ]
     },
     {
       "id": "cfs-italian-havarti",
@@ -7051,7 +7089,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "sour-cream-homemade"
     },
     {
       "id": "df-swiss-cheese",
@@ -7416,7 +7455,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-cream-cheese"
     },
     {
       "id": "fcf-queso-fresco",
@@ -7547,7 +7587,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-queso-fresco"
     },
     {
       "id": "fcf-panir-queso-blanco",
@@ -7856,7 +7897,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-whole-milk-ricotta"
     },
     {
       "id": "fcf-cottage-cheese",
@@ -9282,7 +9324,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "psr-homemade-cheddar-cheese"
     },
     {
       "id": "th-queso-blanco",
@@ -9475,7 +9518,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-whole-milk-ricotta"
     },
     {
       "id": "th-easy-mozzarella",
@@ -11305,7 +11349,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "crottin-de-chavignol"
+      ]
     },
     {
       "id": "nordic-mesost",
@@ -12205,7 +12252,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-caerphilly-welsh"
+      ]
     },
     {
       "id": "british-double-gloucester",
@@ -12621,7 +12671,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "british-cornish-yarg-classic"
+      ]
     },
     {
       "id": "scottish-dunlop",
@@ -15964,7 +16017,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "kajmak-serbian-cream-cheese"
+      ]
     },
     {
       "id": "bulgarian-sirene",
@@ -16094,7 +16150,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "sirene"
+      ]
     },
     {
       "id": "nepali-chhurpi-hard",
@@ -16200,7 +16259,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "chhurpi-himalayan"
+      ]
     },
     {
       "id": "ethiopian-ayib",
@@ -16300,7 +16362,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "ayib-ethiopian"
+      ]
     },
     {
       "id": "brazilian-queijo-coalho",
@@ -18137,7 +18202,11 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "danish-blue",
+        "danish-blue-danablu"
+      ]
     },
     {
       "id": "new-zealand-kapiti-blue",
@@ -18802,7 +18871,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "dutch-komijnekaas"
+      ]
     },
     {
       "id": "pecorino-peppercorn-black",
@@ -21081,7 +21153,10 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "apricot-stilton"
+      ]
     },
     {
       "id": "manchego-paprika-smoked",
@@ -22639,7 +22714,11 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "mozzarella-bufala-dop",
+        "mozzarella-di-bufala-campana"
+      ]
     },
     {
       "id": "aged-provolone-giant-mandarone",
@@ -23186,7 +23265,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "ita-scamorza-affumicata"
+      ]
     },
     {
       "id": "smoked-idiazabal",
@@ -24023,7 +24105,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "smoked-cheddar-hickory"
+      ]
     },
     {
       "id": "smoked-jack-cheese",
@@ -26998,7 +27083,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "blue-stilton-apricot"
     },
     {
       "id": "pistachio-crusted-chevre",
@@ -32059,7 +32145,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "provolone-valpadana-dop"
     },
     {
       "id": "ita-burrata-pugliese",
@@ -32502,7 +32589,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "caciocavallo-silano"
     },
     {
       "id": "ita-scamorza-affumicata",
@@ -32616,7 +32704,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "smoked-scamorza"
     },
     {
       "id": "ita-fontina-valdaosta",
@@ -32733,7 +32822,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "fontina-val-aosta-dop"
     },
     {
       "id": "ita-montasio-friulian",
@@ -32952,7 +33042,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "toma-piemontese-dop"
     },
     {
       "id": "ita-bitto-storico",
@@ -33652,7 +33743,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "ragusano-dop"
     },
     {
       "id": "artisan-french-comte",
@@ -35343,7 +35435,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "bleu-dauvergne-cheese"
     },
     {
       "id": "artisan-french-fourme-dambert",
@@ -35845,7 +35938,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "saint-marcellin"
     },
     {
       "id": "artisan-french-valencay",
@@ -40565,7 +40659,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "british-cornish-yarg"
     },
     {
       "id": "british-stinking-bishop-classic",
@@ -41808,7 +41903,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "stilton-white"
     },
     {
       "id": "british-single-gloucester",
@@ -42056,7 +42152,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "dorset-blue-vinny"
     },
     {
       "id": "british-y-fenni",
@@ -42436,7 +42533,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "danish-blue-cheese"
     },
     {
       "id": "danish-esrom",
@@ -43750,7 +43848,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "gouda-cumin-dutch"
     },
     {
       "id": "dutch-leidse-kaas",
@@ -49189,7 +49288,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "urda-romanian"
     },
     {
       "id": "kashkaval-bulgarian-cheese",
@@ -49506,7 +49606,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "serbian-kajmak"
     },
     {
       "id": "paski-sir-croatian-sheep",
@@ -56062,7 +56163,8 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-anari-cypriot"
     },
     {
       "id": "traditional-appenzeller-herbal-brine",
@@ -58051,7 +58153,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-bleu-dauvergne-volcanic"
+      ]
     },
     {
       "id": "traditional-bleu-dauvergne-volcanic",
@@ -58191,7 +58296,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-bleu-dauvergne-french"
     },
     {
       "id": "traditional-blue-dorset-vinney-english",
@@ -58590,7 +58696,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-fromage-de-meaux-brie"
+      ]
     },
     {
       "id": "traditional-brocciu-corsican-whey",
@@ -61275,7 +61384,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-casu-axedu-sardinian-sour"
+      ]
     },
     {
       "id": "traditional-casu-axedu-sardinian-sour",
@@ -61379,7 +61491,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-casu-axedu-sardinian"
     },
     {
       "id": "traditional-casu-marzu-sardinian",
@@ -62143,7 +62256,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-chhurpi-himalayan"
     },
     {
       "id": "traditional-circassian-cheese-adyghe",
@@ -62796,7 +62910,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-cotija-mexican"
     },
     {
       "id": "traditional-cottage-cheese-american",
@@ -64465,7 +64580,10 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-emmentaler-swiss-eyes"
+      ]
     },
     {
       "id": "traditional-emmentaler-swiss-eyes",
@@ -64598,7 +64716,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-emmental-swiss-holes"
     },
     {
       "id": "traditional-epoisses-burgundy-washed",
@@ -65941,7 +66060,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-brie-de-meaux-french-king"
     },
     {
       "id": "traditional-gamalost-norwegian",
@@ -67631,7 +67751,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-halloumi-cypriot-ancient"
+      ]
     },
     {
       "id": "traditional-halloumi-cypriot-ancient",
@@ -67766,7 +67889,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-halloumi-ancient-cypriot"
     },
     {
       "id": "traditional-halloumi-cyprus-grilling",
@@ -68815,7 +68939,10 @@
         "assumptions": [
           "Calculated for 9 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-jameed-jordanian-dried"
+      ]
     },
     {
       "id": "traditional-jameed-jordanian-dried",
@@ -68926,7 +69053,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-jameed-jordanian"
     },
     {
       "id": "traditional-jarlsberg-norwegian-swiss",
@@ -69066,7 +69194,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-jarlsberg-norwegian"
     },
     {
       "id": "traditional-jibneh-arabieh-gulf-white",
@@ -70509,7 +70638,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-kefalotyri-greek"
     },
     {
       "id": "traditional-klila-north-african",
@@ -72721,7 +72851,10 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-lor-turkish-whey-cheese"
+      ]
     },
     {
       "id": "traditional-lor-turkish-whey-cheese",
@@ -72830,7 +72963,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-lor-turkish-whey"
     },
     {
       "id": "traditional-mahon-menorcan",
@@ -75243,7 +75377,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-munster-french"
+      ]
     },
     {
       "id": "traditional-munster-french",
@@ -75382,7 +75519,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-munster-alsatian"
     },
     {
       "id": "traditional-nabulsi-palestinian-boiled",
@@ -75769,7 +75907,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-queso-oaxaca-stretched"
+      ]
     },
     {
       "id": "traditional-oscypek-polish-smoked-sheep",
@@ -76032,7 +76173,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-ossau-iraty-basque"
     },
     {
       "id": "traditional-paneer-indian-fresh",
@@ -80322,7 +80464,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-oaxaca-cheese-mexican-string"
     },
     {
       "id": "traditional-queso-palmero-canary",
@@ -83580,7 +83723,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-sbrinz-swiss-ancient-grana"
+      ]
     },
     {
       "id": "traditional-sbrinz-swiss-ancient-grana",
@@ -83703,7 +83849,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-sbrinz-swiss-ancient"
     },
     {
       "id": "traditional-scamorza-smoked-pear",
@@ -85217,7 +85364,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-sulguni-georgian-stretched"
+      ]
     },
     {
       "id": "traditional-sulguni-georgian-stretched",
@@ -85350,7 +85500,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "traditional-sulguni-georgian"
     },
     {
       "id": "traditional-taleggio-italian-washed",

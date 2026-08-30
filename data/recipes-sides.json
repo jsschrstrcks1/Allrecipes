@@ -83,7 +83,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "gordon-ramsay-roasted-brussels-sprouts"
     },
     {
       "id": "garlicky-broccoli-rabe",
@@ -1513,7 +1514,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "roasted-asparagus"
     },
     {
       "id": "sriracha-zucchini-ref",
@@ -3215,7 +3217,10 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "roasted-asparagus-ref"
+      ]
     },
     {
       "id": "pimiento-green-beans",
@@ -10537,7 +10542,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "scalloped-potatoes-theplainsa"
+      ]
     },
     {
       "id": "dutch-potato-croquettes-gutenberg",
@@ -11023,7 +11031,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "hashed-brown-potatoes-theplainsa"
+      ]
     },
     {
       "id": "baked-lima-beans-gutenberg",
@@ -11125,7 +11136,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "baked-lima-beans-grandmas-molasses"
     },
     {
       "id": "potato-doughnuts-gutenberg",
@@ -11233,7 +11245,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "potato-doughnuts-thewhysofc"
+      ]
     },
     {
       "id": "pickled-green-beans-gutenberg",
@@ -11662,7 +11677,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "white-sauce-gutenberg-15464"
     },
     {
       "id": "caper-sauce-carnation",
@@ -12300,7 +12316,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "dgf-thousand-island-dressing"
     },
     {
       "id": "butterscotch-sauce-carnation",
@@ -12510,7 +12527,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "dgf-barbecue-sauce"
     },
     {
       "id": "baked-lima-beans-grandmas-molasses",
@@ -12616,7 +12634,10 @@
         "assumptions": [
           "Calculated for 9 servings"
         ]
-      }
+      },
+      "variants": [
+        "baked-lima-beans-gutenberg"
+      ]
     },
     {
       "id": "baked-beans-quick-method-grandmas-molasses",
@@ -13359,7 +13380,11 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "french-dressing-auntcaroli",
+        "french-dressing-theplainsa"
+      ]
     },
     {
       "id": "fruit-french-dressing-harvester",
@@ -15988,7 +16013,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "dressing-goodandche"
+      ]
     },
     {
       "id": "sauce-fromscratc",
@@ -16248,7 +16276,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "dressing-fromscratc"
     },
     {
       "id": "alternate-dressing-goodandche",
@@ -17204,7 +17233,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "french-dressing-harvester"
     },
     {
       "id": "dixie-potatoes-auntcaroli",
@@ -19113,7 +19143,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "cheese-sauce-gutenberg-15464"
     },
     {
       "id": "tomato-sauce-scottsnort",
@@ -19223,7 +19254,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "tomato-sauce-gutenberg-15464"
     },
     {
       "id": "hammousse-with-sauce-scottsnort",
@@ -20494,7 +20526,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "sauces-wilsonscoo"
+      ]
     },
     {
       "id": "oyster-sauce-forfishorpoultry-scottsnort",
@@ -22248,7 +22283,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "stuffed-potatoes-gutenberg-31102"
     },
     {
       "id": "hashed-brown-potatoes-theplainsa",
@@ -22369,7 +22405,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "hashed-brown-potatoes-gutenberg"
     },
     {
       "id": "scalloped-potatoes-theplainsa",
@@ -22489,7 +22526,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scalloped-potatoes-gutenberg"
     },
     {
       "id": "french-dressing-theplainsa",
@@ -22591,7 +22629,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "french-dressing-harvester"
     },
     {
       "id": "boiled-dressing-theplainsa",
@@ -22727,7 +22766,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "boiled-dressing-gutenberg-31102"
     },
     {
       "id": "lemon-jelly-theplainsa",
@@ -23094,7 +23134,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "cranberry-sauce-sioux-chef"
     },
     {
       "id": "apple-sauce-theplainsa",
@@ -23460,7 +23501,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "potato-doughnuts-gutenberg"
     },
     {
       "id": "tomato-sauce-thewhysofc",
@@ -23528,7 +23570,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "tomato-sauce-gutenberg-15464"
     },
     {
       "id": "stuffed-potatoes-thewhysofc",
@@ -23613,7 +23656,8 @@
           "Estimated from instruction text (3 ingredients identified)",
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "stuffed-potatoes-gutenberg-31102"
     },
     {
       "id": "mayonnaise-dressing-olive-oil-thewhysofc",
@@ -24396,7 +24440,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "potato-dumplings-wilsonscoo"
+      ]
     },
     {
       "id": "brown-sauce-triedandtr",
@@ -24472,7 +24519,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "brown-sauce-gutenberg-15464"
     },
     {
       "id": "bechamel-sauce-triedandtr",
@@ -24688,7 +24736,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "hollandaise-sauce-gutenberg-31102"
     },
     {
       "id": "sauces-wilsonscoo",
@@ -24812,7 +24861,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "sauces-scottsnort"
     },
     {
       "id": "cream-horseradish-sauce-wilsonscoo",
@@ -25401,7 +25451,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "tomato-sauce-gutenberg-15464"
     },
     {
       "id": "canadian-sauce-wilsonscoo",
@@ -25535,7 +25586,8 @@
           "Paragraph-style recipe - ingredients embedded in instructions, unable to extract quantities"
         ],
         "assumptions": []
-      }
+      },
+      "variant_of": "potato-dumplings-thewingold"
     },
     {
       "id": "delmonte-dressing-wilsonscoo",
@@ -26254,7 +26306,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "currant-jelly-gutenberg-26374"
+      ]
     },
     {
       "id": "keep-green-peas-american-cookery-1796",
@@ -26552,7 +26607,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "curried-corn-with-chile-chile-bible"
+      ]
     },
     {
       "id": "cornfetti-casserole",
@@ -26683,7 +26741,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "cornfetti-casserole-chile-bible"
+      ]
     },
     {
       "id": "apple-and-eve-beets",
@@ -26798,7 +26859,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "apple-and-eve-beets-ancients"
+      ]
     },
     {
       "id": "southwest-baked-beans-chile-bible",
@@ -27121,7 +27185,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "curried-corn-with-chile"
     },
     {
       "id": "cornfetti-casserole-chile-bible",
@@ -27235,7 +27300,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "cornfetti-casserole"
     },
     {
       "id": "garbanzos-calientes-chile-bible",
@@ -28563,7 +28629,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "apple-and-eve-beets"
     },
     {
       "id": "carrots-and-turnips-zebulun-ancients",
@@ -29172,7 +29239,8 @@
         "assumptions": [
           "Calculated for 13 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-paneer"
     },
     {
       "id": "queso-blanco",
@@ -29357,7 +29425,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-queso-fresco"
     },
     {
       "id": "fromage-blanc",
@@ -29440,7 +29509,8 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variant_of": "psr-fromage-blanc"
     },
     {
       "id": "mascarpone",
@@ -29527,7 +29597,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "mascarpone-italian"
     },
     {
       "id": "chevre-goat-cheese",
@@ -29737,7 +29808,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "fcf-feta-cheese"
     },
     {
       "id": "halloumi",
@@ -30046,7 +30118,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "psr-farmers-cheese"
     },
     {
       "id": "basket-cheese",
@@ -30351,7 +30424,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-farmhouse-cheddar"
     },
     {
       "id": "gouda-cheese",
@@ -30461,7 +30535,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "cf-gouda-cheese"
     },
     {
       "id": "brie-cheese",
@@ -30912,7 +30987,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "psr-colby-cheese"
     },
     {
       "id": "pepper-jack-cheese",
@@ -31033,7 +31109,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-pepper-jack"
     },
     {
       "id": "havarti-cheese",
@@ -31146,7 +31223,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "cheesemaking-havarti"
     },
     {
       "id": "cottage-cheese",
@@ -31369,7 +31447,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "cream-cheese-gutenberg-31102"
     },
     {
       "id": "quark",
@@ -31556,7 +31635,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "psr-creme-fraiche"
+      ]
     },
     {
       "id": "swiss-baby-swiss-cheese",
@@ -31796,7 +31878,8 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variant_of": "cheesemaking-gruyere"
     },
     {
       "id": "provolone-cheese",
@@ -31915,7 +31998,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "cheesemaking-provolone"
     },
     {
       "id": "asiago-cheese",
@@ -43226,7 +43310,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "norwegian-jarlsberg"
+      ]
     },
     {
       "id": "spanish-manchego",
@@ -48418,7 +48505,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "norwegian-brunost-style"
+      ]
     },
     {
       "id": "scandinavian-danablu",
@@ -57523,7 +57613,10 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "cottage-cheese-dry-curd"
+      ]
     },
     {
       "id": "parmesan-style-cheese",
@@ -58467,7 +58560,12 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "bleu-auvergne",
+        "bleu-d-auvergne",
+        "artisan-french-bleu-dauvergne"
+      ]
     },
     {
       "id": "roquefort-style-cheese",
@@ -59132,7 +59230,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "queso-oaxaca"
+      ]
     },
     {
       "id": "triple-creme-cheese",
@@ -60147,7 +60248,11 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "fourme-ambert",
+        "fourme-d-ambert"
+      ]
     },
     {
       "id": "spanish-blue-cheese",
@@ -62623,7 +62728,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "lgc-caerphilly"
+      ]
     },
     {
       "id": "lancashire-cheese",
@@ -63186,7 +63294,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "crescenza-stracchino"
+      ]
     },
     {
       "id": "robiola-cheese",
@@ -65337,7 +65448,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "cfs-homemade-sour-cream"
+      ]
     },
     {
       "id": "cultured-butter",
@@ -65436,7 +65550,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "psr-cultured-butter"
+      ]
     },
     {
       "id": "pouligny-saint-pierre",
@@ -65800,7 +65917,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "lgc-jarlsberg"
+      ]
     },
     {
       "id": "canestrato-cheese",
@@ -66560,7 +66680,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "farmers-cheese"
+      ]
     },
     {
       "id": "psr-homemade-cheddar-cheese",
@@ -66691,7 +66814,11 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "psr-homemade-cheddar",
+        "hoa-cheddar-cheese"
+      ]
     },
     {
       "id": "psr-18th-century-farmhouse-cheddar",
@@ -66825,7 +66952,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "18th-century-farmhouse-cheddar"
+      ]
     },
     {
       "id": "psr-fromage-blanc",
@@ -66916,7 +67046,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "fromage-blanc"
+      ]
     },
     {
       "id": "psr-yogurt-cheese",
@@ -67122,7 +67255,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "colby-cheese"
+      ]
     },
     {
       "id": "psr-paneer",
@@ -67353,7 +67489,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "cf-cultured-mozzarella"
     },
     {
       "id": "psr-cultured-butter",
@@ -67448,7 +67585,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "cultured-butter"
     },
     {
       "id": "psr-creme-fraiche",
@@ -67528,7 +67666,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "creme-fraiche"
     },
     {
       "id": "reddit-potato-cheese-casserole",
@@ -68069,7 +68208,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "gruyere-cheese"
+      ]
     },
     {
       "id": "cheesemaking-emmental-swiss",
@@ -68332,7 +68474,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "cf-gouda-cheese"
     },
     {
       "id": "cheesemaking-havarti",
@@ -68458,7 +68601,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "havarti-cheese"
+      ]
     },
     {
       "id": "cheesemaking-provolone",
@@ -68591,7 +68737,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "provolone-cheese"
+      ]
     },
     {
       "id": "vintage-green-bean-casserole",
@@ -69371,7 +69520,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "requeson"
+      ]
     },
     {
       "id": "queso-anejo-seco",
@@ -72196,7 +72348,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "queso-costeno"
+      ]
     },
     {
       "id": "queso-campesino-colombian",
@@ -78241,7 +78396,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "uplands-cheese-pleasant-ridge"
+      ]
     },
     {
       "id": "rush-creek-reserve",
@@ -80699,7 +80857,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "british-white-stilton"
+      ]
     },
     {
       "id": "stilton-white-fruit",
@@ -82597,7 +82758,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "beaufort-ete"
     },
     {
       "id": "roquefort-papillon",
@@ -82882,7 +83044,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "fourme-dambert-cheese"
     },
     {
       "id": "bleu-auvergne",
@@ -82977,7 +83140,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "bleu-dauvergne-cheese"
     },
     {
       "id": "saint-agur",
@@ -84201,7 +84365,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "taleggio"
+      ]
     },
     {
       "id": "quadrello-di-bufala",
@@ -86190,7 +86357,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "valencay-2"
+      ]
     },
     {
       "id": "picodon",
@@ -87328,7 +87498,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "abbaye-de-belloc"
+      ]
     },
     {
       "id": "brebi-lou",
@@ -89033,7 +89206,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "crescenza-cheese"
     },
     {
       "id": "squacquerone",
@@ -89601,7 +89775,11 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "ragusano",
+        "ita-ragusano-dop"
+      ]
     },
     {
       "id": "vastedda-belice",
@@ -95301,7 +95479,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "artisan-french-saint-marcellin"
+      ]
     },
     {
       "id": "saint-felicien",
@@ -96905,7 +97086,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "gamalost"
+      ]
     },
     {
       "id": "norwegian-pultost",
@@ -96999,7 +97183,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "pultost"
+      ]
     },
     {
       "id": "norwegian-ridder",
@@ -97093,7 +97280,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "ridder"
+      ]
     },
     {
       "id": "finnish-aura",
@@ -104583,7 +104773,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "smoked-cheddar-applewood"
+      ]
     },
     {
       "id": "cheddar-port-wine",
@@ -104677,7 +104870,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "cheddar-port"
+      ]
     },
     {
       "id": "cheddar-horseradish",
@@ -110849,7 +111045,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "water-buffalo-mozzarella-campana"
     },
     {
       "id": "mozzarella-bufala-affumicata",
@@ -111134,7 +111331,11 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "bocconcini",
+        "bocconcini-gutenberg"
+      ]
     },
     {
       "id": "mozzarella-ciliegine",
@@ -111229,7 +111430,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "ciliegine"
+      ]
     },
     {
       "id": "mozzarella-ovoline",
@@ -112272,7 +112476,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "ricotta-di-bufala"
+      ]
     },
     {
       "id": "ricotta-salata-2month",
@@ -114266,7 +114473,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "gorgonzola-piccante"
+      ]
     },
     {
       "id": "gorgonzola-naturale",
@@ -115120,7 +115330,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "bleu-du-vercors-sassenage-aop"
+      ]
     },
     {
       "id": "maytag-blue",
@@ -116816,7 +117029,11 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "mascarpone",
+        "lgc-mascarpone"
+      ]
     },
     {
       "id": "mascarpone-double-cream",
@@ -117384,7 +117601,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "ita-provolone-valpadana-dop"
+      ]
     },
     {
       "id": "provolone-mandarone",
@@ -118329,7 +118549,11 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "fontina-val-d-aosta",
+        "ita-fontina-valdaosta"
+      ]
     },
     {
       "id": "fontina-fontal",
@@ -126781,7 +127005,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "queso-requeson"
     },
     {
       "id": "queso-chihuahua-aged",
@@ -128032,7 +128257,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "bleu-dauvergne-cheese"
     },
     {
       "id": "fourme-d-ambert",
@@ -128155,7 +128381,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "fourme-dambert-cheese"
     },
     {
       "id": "cantal",
@@ -128627,7 +128854,10 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "beaufort-ete-2"
+      ]
     },
     {
       "id": "fontina-val-d-aosta",
@@ -128746,7 +128976,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "fontina-val-aosta-dop"
     },
     {
       "id": "asiago-pressato",
@@ -129233,7 +129464,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "taleggio-dop"
     },
     {
       "id": "gorgonzola-piccante",
@@ -129356,7 +129588,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "gorgonzola-piccante-dop"
     },
     {
       "id": "manchego-curado",
@@ -130675,7 +130908,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "danish-blue-cheese"
     },
     {
       "id": "norwegian-jarlsberg",
@@ -130792,7 +131026,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "scandinavian-jarlsberg"
     },
     {
       "id": "old-amsterdam",
@@ -131249,7 +131484,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "samsoe"
+      ]
     },
     {
       "id": "nokkelost-norwegian-cheese",
@@ -131352,7 +131590,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "nokkelost"
+      ]
     },
     {
       "id": "cf-greek-tzatziki",
@@ -132121,7 +132362,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "french-crottin-chavignol"
     },
     {
       "id": "valencay-2",
@@ -132226,7 +132468,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "valencay"
     },
     {
       "id": "ossau-iraty",
@@ -133822,7 +134065,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "scandinavian-gjetost"
     },
     {
       "id": "tvorog",
@@ -134589,7 +134833,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "mozzarella-bocconcini"
     },
     {
       "id": "ovoline",
@@ -134823,7 +135068,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "mozzarella-ciliegine"
     },
     {
       "id": "perline",
@@ -136651,7 +136897,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "lgc-monterey-jack"
+      ]
     },
     {
       "id": "swiss-emmental",
@@ -137552,7 +137801,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "bulgarian-sirene"
     },
     {
       "id": "reblochon",
@@ -140618,7 +140868,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "ragusano-dop"
     },
     {
       "id": "vastedda-della-valle-del-belice",
@@ -142658,7 +142909,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "norwegian-gamalost"
     },
     {
       "id": "pultost",
@@ -142777,7 +143029,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "norwegian-pultost"
     },
     {
       "id": "blue-vein-aura",
@@ -145784,7 +146037,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "british-dorset-blue-vinny"
+      ]
     },
     {
       "id": "gruyere-premier-cru",
@@ -146110,7 +146366,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "lgc-ricotta-salata"
+      ]
     },
     {
       "id": "smoked-provolone",
@@ -146976,7 +147235,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "ita-caciocavallo-silano"
+      ]
     },
     {
       "id": "provola-dei-nebrodi",
@@ -149988,7 +150250,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "ita-toma-piemontese"
+      ]
     },
     {
       "id": "nostrano-valtrompia-dop",
@@ -150518,7 +150783,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "bleu-du-vercors-sassenage"
     },
     {
       "id": "chaource-aop",
@@ -157416,7 +157682,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "pleasant-ridge-reserve"
     },
     {
       "id": "andante-dairy-minuet",
@@ -159960,7 +160227,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "samso-danish-cheese"
     },
     {
       "id": "mycella",
@@ -160172,7 +160440,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "norwegian-ridder"
     },
     {
       "id": "gudbrandsdalsost",
@@ -160386,7 +160655,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "nokkelost-norwegian-cheese"
     },
     {
       "id": "lappi",
@@ -162502,7 +162772,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "queso-oaxaca-cheese"
     },
     {
       "id": "queso-panela-style",
@@ -163626,7 +163897,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "queso-costeno-colombian"
     },
     {
       "id": "domiati",
@@ -169036,7 +169308,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "cheddar-port-wine"
     },
     {
       "id": "cheddar-bacon",
@@ -180049,7 +180322,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "ricotta-fresca-buffalo"
     },
     {
       "id": "mascarpone-style",
@@ -180355,7 +180629,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "water-buffalo-mozzarella-campana"
     },
     {
       "id": "cottage-cheese-dry-curd",
@@ -180457,7 +180732,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "dry-curd-cottage-cheese"
     },
     {
       "id": "pot-cheese-style",
@@ -182703,7 +182979,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "abbaye-belloc"
     },
     {
       "id": "torta-del-casar-style",
@@ -184845,7 +185122,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "cheddar-applewood"
     },
     {
       "id": "smoked-cheddar-hickory",
@@ -184947,7 +185225,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "hickory-smoked-cheddar"
     },
     {
       "id": "smoked-mozzarella-light",
@@ -188485,7 +188764,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "ethiopian-ayib"
     },
     {
       "id": "wara-nigerian",
@@ -189159,7 +189439,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "nepali-chhurpi-hard"
     },
     {
       "id": "kurut-kazakh",
@@ -189425,7 +189706,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "urda-romanian-whey-cheese"
+      ]
     },
     {
       "id": "branza-de-burduf",
@@ -195192,7 +195476,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "roasted-brussels-sprouts-lemon"
+      ]
     },
     {
       "id": "gordon-ramsay-sundried-tomato-tapenade",
@@ -200127,7 +200414,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "homemade-buffalo-sauce-cpm"
+      ]
     },
     {
       "id": "cajun-potato-salad-cpm",
@@ -201461,7 +201751,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "buffalo-sauce-cpm"
     },
     {
       "id": "homemade-pizza-sauce-cpm",
@@ -207405,7 +207696,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "tomato-sauce-gutenberg-15464"
     },
     {
       "id": "tomato-sauce-no-1-gutenberg",
@@ -208006,7 +208298,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "swedish-meatball-sauce-annotated"
+      ]
     },
     {
       "id": "slow-cooker-ghost-pepper-hot-sauce",
@@ -208949,7 +209244,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "hot-pepper-salt-foragerchef"
+      ]
     },
     {
       "id": "hot-pepper-salt-foragerchef",
@@ -209051,7 +209349,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "hot-pepper-salt-forager"
     },
     {
       "id": "smoked-ghost-pepper-hot-sauce-tcb",
@@ -211933,7 +212232,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "cranberry-sauce-theplainsa"
+      ]
     },
     {
       "id": "raspberry-rose-hip-sauce-sioux-chef",
@@ -213270,7 +213572,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "annies-mustard-hells-kitchen"
     },
     {
       "id": "dgf-egg-noodles",
@@ -213379,7 +213682,10 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "egg-noodles-gutenberg"
+      ]
     },
     {
       "id": "dgf-mitchs-mashed-potatoes",
@@ -213754,7 +214060,10 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "barbecue-sauce-grandmas-molasses"
+      ]
     },
     {
       "id": "dgf-tomato-red-pepper-sauce-with-hot-italian-sausage",
@@ -214796,7 +215105,12 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "thousand-island-dressing-carnation",
+        "thousand-island-dressing-gutenberg-31102",
+        "thousand-island-dressing-gutenberg-31102-2"
+      ]
     },
     {
       "id": "dgf-sauerkraut",
@@ -217046,7 +217360,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "blackberry-jam-gutenberg-31102"
     },
     {
       "id": "dgf-sweetened-lemon-zest",
@@ -217277,7 +217592,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "orange-marmalade-gutenberg-31102"
     },
     {
       "id": "dgf-salsa-con-misho",
@@ -219886,7 +220202,11 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "cheese-sauce-scottsnort",
+        "cheese-sauce-gutenberg-65501"
+      ]
     },
     {
       "id": "tomato-cheese-sauce-gutenberg-15464",
@@ -220206,7 +220526,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "cheese-mold-gutenberg-15464-2"
+      ]
     },
     {
       "id": "corn-and-oyster-fritters-gutenberg-15464",
@@ -221046,7 +221369,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "apricot-and-raisin-marmalade-scottsnort"
+      ]
     },
     {
       "id": "extension-of-table-fats-gutenberg-15464",
@@ -221276,7 +221602,11 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "plain-pastry-carnation",
+        "plain-pastry-cookeryfor"
+      ]
     },
     {
       "id": "creole-rice-gutenberg-15464",
@@ -221615,7 +221945,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "dumplings-gutenberg"
+      ]
     },
     {
       "id": "white-sauce-gutenberg-15464",
@@ -221713,7 +222046,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "white-sauce-carnation"
+      ]
     },
     {
       "id": "white-sauce-with-cheese-gutenberg-15464",
@@ -222178,7 +222514,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "brown-sauce-triedandtr"
+      ]
     },
     {
       "id": "brown-sauce-with-olives-gutenberg-15464",
@@ -222426,7 +222765,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "mushroom-sauce-gutenberg-31102"
+      ]
     },
     {
       "id": "vegetable-sauces-gutenberg-15464",
@@ -222759,7 +223101,13 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "tomato-sauce-scottsnort",
+        "tomato-sauce-thewhysofc",
+        "tomato-sauce-wilsonscoo",
+        "tomato-sauce-gutenberg"
+      ]
     },
     {
       "id": "cocoanut-sauce-gutenberg-15464",
@@ -223538,7 +223886,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "hard-sauce-gutenberg-31102"
     },
     {
       "id": "lemon-or-orange-sauce-gutenberg-15464",
@@ -223877,7 +224226,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "cheese-mold-gutenberg-15464"
     },
     {
       "id": "scalloped-macaroni-with-peas-in-tomato-and-cheese-sauce-gutenberg-15464",
@@ -225892,7 +226242,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "apricot-jam-gutenberg-31102"
     },
     {
       "id": "isabella-grape-jam-gutenberg-26374",
@@ -226050,7 +226401,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "currant-jelly-american-cookery-1796"
     },
     {
       "id": "pineapple-preserve-gutenberg-26374",
@@ -226703,7 +227055,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "cucumber-pickles-gutenberg-31102"
     },
     {
       "id": "sweet-pickled-figs-gutenberg-26374",
@@ -227196,7 +227549,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "oil-pickles-gutenberg-31102"
     },
     {
       "id": "vermont-pickles-cucumbers-gutenberg-26374",
@@ -227405,7 +227759,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "tomato-soy-gutenberg-28491"
+      ]
     },
     {
       "id": "peach-chutney-gutenberg-26374",
@@ -243684,7 +244041,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "cheese-sauce-gutenberg-15464"
     },
     {
       "id": "pimiento-sauce-gutenberg-65501",
@@ -246882,7 +247240,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "eggs-au-gratin-gutenberg-6429"
+      ]
     },
     {
       "id": "tomatoes-au-gratin-gutenberg-14293",
@@ -247426,7 +247787,11 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "hollandaise-sauce-wilsonscoo",
+        "hollandaise-sauce-gutenberg-31102-2"
+      ]
     },
     {
       "id": "hollandaise-sauce-gutenberg-31102-2",
@@ -247503,7 +247868,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "hollandaise-sauce-gutenberg-31102"
     },
     {
       "id": "tartar-sauce-no-1-gutenberg-31102",
@@ -247969,7 +248335,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "mushroom-sauce-gutenberg-15464"
     },
     {
       "id": "tomato-celery-sauce-gutenberg-31102",
@@ -248523,7 +248890,11 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "stuffed-potatoes-theplainsa",
+        "stuffed-potatoes-thewhysofc"
+      ]
     },
     {
       "id": "a-different-dinner-gutenberg-31102",
@@ -249231,7 +249602,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "sweet-potato-croquettes-gutenberg"
+      ]
     },
     {
       "id": "potato-surprise-gutenberg-31102",
@@ -250006,7 +250380,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "scalloped-tomatoes-gutenberg"
+      ]
     },
     {
       "id": "italian-macaroni-gutenberg-31102",
@@ -250235,7 +250612,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "hominy-croquettes-gutenberg-15464"
     },
     {
       "id": "hominy-grits-gutenberg-31102",
@@ -250544,7 +250922,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "baked-tomatoes-wilsonscoo"
+      ]
     },
     {
       "id": "fried-tomatoes-gutenberg-31102",
@@ -250621,7 +251002,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "fried-tomatoes-gutenberg"
+      ]
     },
     {
       "id": "baked-noodles-gutenberg-31102",
@@ -250775,7 +251159,12 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "corn-pudding-gutenberg",
+        "corn-pudding-dudeskitch",
+        "corn-pudding-gutenberg-28491"
+      ]
     },
     {
       "id": "corn-oysters-gutenberg-31102",
@@ -251783,7 +252172,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "scalloped-cabbage-carnation"
+      ]
     },
     {
       "id": "cabbage-rolls-gutenberg-31102",
@@ -251860,7 +252252,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "cabbage-rolls"
+      ]
     },
     {
       "id": "cauliflower-au-gratin-gutenberg-31102",
@@ -253170,7 +253565,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "cucumber-pickles-gutenberg-26374"
+      ]
     },
     {
       "id": "cucumber-pickle-gutenberg-31102",
@@ -253480,7 +253878,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "oil-pickles-gutenberg-26374"
+      ]
     },
     {
       "id": "oil-cucumber-pickles-gutenberg-31102",
@@ -253948,7 +254349,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "pepper-relish-gutenberg"
+      ]
     },
     {
       "id": "pepper-hash-gutenberg-31102",
@@ -254342,7 +254746,14 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "corn-relish-gutenberg",
+        "corn-relish-auntcaroli",
+        "corn-relish-gutenberg-31102-2",
+        "corn-relish-gutenberg-31102-3",
+        "corn-relish-gutenberg-31102-4"
+      ]
     },
     {
       "id": "corn-relish-gutenberg-31102-2",
@@ -254422,7 +254833,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "corn-relish-gutenberg-31102"
     },
     {
       "id": "corn-relish-gutenberg-31102-3",
@@ -254502,7 +254914,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "corn-relish-gutenberg-31102"
     },
     {
       "id": "corn-relish-gutenberg-31102-4",
@@ -254581,7 +254994,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "corn-relish-gutenberg-31102"
     },
     {
       "id": "corn-salad-gutenberg-31102",
@@ -254740,7 +255154,11 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "chili-sauce-gutenberg-31102-2",
+        "chili-sauce-gutenberg-31102-3"
+      ]
     },
     {
       "id": "chili-sauce-gutenberg-31102-2",
@@ -254819,7 +255237,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "chili-sauce-gutenberg-31102"
     },
     {
       "id": "chili-sauce-gutenberg-31102-3",
@@ -254898,7 +255317,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "chili-sauce-gutenberg-31102"
     },
     {
       "id": "spiced-currants-gutenberg-31102",
@@ -255510,7 +255930,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "cranberry-conserve-gutenberg"
+      ]
     },
     {
       "id": "rhubarb-conserve-gutenberg-31102",
@@ -255664,7 +256087,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "plum-conserve-thewingold"
+      ]
     },
     {
       "id": "heavenly-hash-gutenberg-31102",
@@ -256051,7 +256477,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "dgf-blackberry-jam"
+      ]
     },
     {
       "id": "apricot-jam-gutenberg-31102",
@@ -256128,7 +256557,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "apricot-jam-gutenberg-26374"
+      ]
     },
     {
       "id": "yellow-tomato-preserves-gutenberg-31102",
@@ -256744,7 +257176,11 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "peach-marmalade-thewingold",
+        "peach-marmalade-gutenberg-31102-2"
+      ]
     },
     {
       "id": "peach-marmalade-gutenberg-31102-2",
@@ -256821,7 +257257,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "peach-marmalade-gutenberg-31102"
     },
     {
       "id": "pie-plant-marmalade-gutenberg-31102",
@@ -256975,7 +257412,12 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "dgf-orange-marmalade",
+        "orange-marmalade-gutenberg-31102-2",
+        "orange-marmalade-gutenberg-31102-3"
+      ]
     },
     {
       "id": "orange-marmalade-gutenberg-31102-2",
@@ -257052,7 +257494,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "orange-marmalade-gutenberg-31102"
     },
     {
       "id": "orange-marmalade-gutenberg-31102-3",
@@ -257129,7 +257572,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "orange-marmalade-gutenberg-31102"
     },
     {
       "id": "quick-orange-marmalade-gutenberg-31102",
@@ -257285,7 +257729,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "rhubarb-marmalade-gutenberg-31102-2"
+      ]
     },
     {
       "id": "rhubarb-marmalade-gutenberg-31102-2",
@@ -257362,7 +257809,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "rhubarb-marmalade-gutenberg-31102"
     },
     {
       "id": "spiced-rhubarb-gutenberg-31102",
@@ -257439,7 +257887,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "spiced-rhubarb-gutenberg-31102-2"
+      ]
     },
     {
       "id": "spiced-rhubarb-gutenberg-31102-2",
@@ -257516,7 +257967,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "spiced-rhubarb-gutenberg-31102"
     },
     {
       "id": "spiced-cherries-gutenberg-31102",
@@ -257670,7 +258122,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "spiced-grapes-gutenberg-28491"
+      ]
     },
     {
       "id": "spiced-grape-jelly-gutenberg-31102",
@@ -257905,7 +258360,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "quince-and-cranberry-jelly-gutenberg-31102-2"
+      ]
     },
     {
       "id": "mint-jelly-gutenberg-31102",
@@ -258138,7 +258596,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "quince-and-cranberry-jelly-gutenberg-31102"
     },
     {
       "id": "pickled-peaches-or-pears-gutenberg-31102",
@@ -258451,7 +258910,14 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "mince-meat-gutenberg-26374",
+        "mince-meat-gutenberg-31102-2",
+        "mince-meat-gutenberg-31102-3",
+        "mince-meat-gutenberg-31102-4",
+        "mince-meat-gutenberg-31102-5"
+      ]
     },
     {
       "id": "mince-meat-gutenberg-31102-2",
@@ -258528,7 +258994,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "mince-meat-gutenberg-31102"
     },
     {
       "id": "mince-meat-gutenberg-31102-3",
@@ -258605,7 +259072,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "mince-meat-gutenberg-31102"
     },
     {
       "id": "green-tomato-mince-meat-gutenberg-31102",
@@ -258759,7 +259227,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "mince-meat-gutenberg-31102"
     },
     {
       "id": "mince-meat-gutenberg-31102-5",
@@ -258839,7 +259308,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "mince-meat-gutenberg-31102"
     },
     {
       "id": "cheese-balls-gutenberg-31102",
@@ -258916,7 +259386,11 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "cheese-balls-gutenberg-31102-2",
+        "cheese-balls-gutenberg-31102-3"
+      ]
     },
     {
       "id": "cheese-souffle-gutenberg-31102",
@@ -258997,7 +259471,12 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "cheese-souffle-ref",
+        "cheese-souffle",
+        "cheese-souffle-gutenberg-31102-2"
+      ]
     },
     {
       "id": "cheese-souffle-gutenberg-31102-2",
@@ -259074,7 +259553,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "cheese-souffle-gutenberg-31102"
     },
     {
       "id": "frozen-cheese-gutenberg-31102",
@@ -259459,7 +259939,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "cheese-straws-gutenberg-15464"
     },
     {
       "id": "cheese-balls-gutenberg-31102-2",
@@ -259536,7 +260017,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "cheese-balls-gutenberg-31102"
     },
     {
       "id": "welsh-rarebit-gutenberg-31102",
@@ -259613,7 +260095,12 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "welsh-rarebit-carnation",
+        "welsh-rarebit-gutenberg-15464",
+        "welsh-rarebit-gutenberg-31102-2"
+      ]
     },
     {
       "id": "welsh-rarebit-gutenberg-31102-2",
@@ -259688,7 +260175,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "welsh-rarebit-gutenberg-31102"
     },
     {
       "id": "cheese-wafers-gutenberg-31102",
@@ -259842,7 +260330,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "cheese-balls-gutenberg-31102"
     },
     {
       "id": "forme-of-cury-ground-beans",
@@ -261048,7 +261537,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "onion-soup-swedish-meatball-sauce"
     },
     {
       "id": "annies-mustard-hells-kitchen",
@@ -261141,7 +261631,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "dgf-annies-mustard"
+      ]
     },
     {
       "id": "chimichurri-rojo",

@@ -924,7 +924,10 @@
         "assumptions": [
           "Data extracted from magazine clipping"
         ]
-      }
+      },
+      "variants": [
+        "broccoli-chicken-noodle-soup-lightened"
+      ]
     },
     {
       "id": "albondigas-soup",
@@ -1180,7 +1183,8 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variant_of": "broccoli-chicken-noodle-soup-lighten-up"
     },
     {
       "id": "easy-creamy-broccoli-soup",
@@ -1387,7 +1391,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "black-bean-soup-gutenberg-26374"
     },
     {
       "id": "borlotti-minestrone",
@@ -2324,7 +2329,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-tortilla-soup-cpm"
     },
     {
       "id": "taco-soup-ref",
@@ -2419,7 +2425,8 @@
         "assumptions": [
           "Calculated for 9 servings"
         ]
-      }
+      },
+      "variant_of": "taco-soup-cpm"
     },
     {
       "id": "lebanese-lemon-lentil-soup",
@@ -4889,7 +4896,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "split-pea-soup-gutenberg-31102"
     },
     {
       "id": "slow-cooker-split-pea-soup",
@@ -6094,7 +6102,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "lentil-soup-scottsnort"
+      ]
     },
     {
       "id": "lettuce-soup-gutenberg",
@@ -6282,7 +6293,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "potato-soup-gutenberg-31102"
     },
     {
       "id": "corn-chowder-gutenberg",
@@ -6396,7 +6408,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "corn-chowder-carnation"
+      ]
     },
     {
       "id": "dutch-country-bean-soup-gutenberg",
@@ -6606,7 +6621,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "split-pea-soup-gutenberg-31102"
     },
     {
       "id": "salsify-or-vegetable-oyster-soup-gutenberg",
@@ -7616,7 +7632,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "cream-of-celery-soup-gutenberg-26374"
     },
     {
       "id": "cream-of-mushroom-soup-carnation",
@@ -7716,7 +7733,8 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variant_of": "cream-of-mushroom-soup-gutenberg-31102"
     },
     {
       "id": "oyster-stew-carnation",
@@ -7828,7 +7846,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "oyster-stew"
     },
     {
       "id": "corn-chowder-carnation",
@@ -7948,7 +7967,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "corn-chowder-gutenberg"
     },
     {
       "id": "clam-chowder-carnation",
@@ -8062,7 +8082,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "clam-chowder"
     },
     {
       "id": "chicken-soup-wit-h-tiny-meatballs-chickenrec",
@@ -9163,7 +9184,11 @@
           "Estimated from instruction text (1 ingredients identified)",
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "soups-courseofle",
+        "soups-scottsnort"
+      ]
     },
     {
       "id": "soups-courseofle",
@@ -9263,7 +9288,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "soups-carolineki"
     },
     {
       "id": "beef-stew-dutchovenc",
@@ -9365,7 +9391,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "beef-stew-gutenberg-15464"
     },
     {
       "id": "chicken-gumbo-dutchovenc",
@@ -10717,7 +10744,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "cornchowder-themetropo"
+      ]
     },
     {
       "id": "oyster-stew-scottsnort",
@@ -10822,7 +10852,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "oyster-stew"
     },
     {
       "id": "oyster-chowder-scottsnort",
@@ -11150,7 +11181,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "soups-carolineki"
     },
     {
       "id": "lentil-soup-scottsnort",
@@ -11262,7 +11294,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "lentil-soup-gutenberg"
     },
     {
       "id": "lentil-chowder-scottsnort",
@@ -11466,7 +11499,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "fishchowder-themetropo"
+      ]
     },
     {
       "id": "suetdumpungs-toserve-withstews-scottsnort",
@@ -12391,7 +12427,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scotch-broth-gutenberg-31102"
     },
     {
       "id": "tomato-soup-themetropo",
@@ -12961,7 +12998,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "cornchowder-scottsnort"
     },
     {
       "id": "fishchowder-themetropo",
@@ -13087,7 +13125,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "fishchowder-scottsnort"
     },
     {
       "id": "soupstock-theplainsa",
@@ -13339,7 +13378,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "vegetable-soup-gutenberg"
     },
     {
       "id": "oyster-stew-theplainsa",
@@ -13451,7 +13491,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "oyster-stew"
     },
     {
       "id": "creole-soup-theplainsa",
@@ -13589,7 +13630,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "creole-soup-triedandtr"
+      ]
     },
     {
       "id": "irishstew-theplainsa",
@@ -13950,7 +13994,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "creole-soup-theplainsa"
     },
     {
       "id": "oxtail-soup-wilsonscoo",
@@ -14024,7 +14069,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "oxtail-soup-gutenberg-31102"
     },
     {
       "id": "mulligatawny-soup-wilsonscoo",
@@ -15902,7 +15948,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "chicken-tortilla-soup-ref"
+      ]
     },
     {
       "id": "hot-and-sour-soup-cpm",
@@ -16227,7 +16276,11 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "hungarian-goulash-dutchovenc",
+        "hungarian-goulash-thewingold"
+      ]
     },
     {
       "id": "kimchi-jjigae-cpm",
@@ -16816,7 +16869,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "taco-soup-ref"
+      ]
     },
     {
       "id": "gr-gazpacho",
@@ -20150,7 +20206,12 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "vegetable-soup-theplainsa",
+        "vegetable-soup-gutenberg-15464",
+        "vegetable-soup-gutenberg-28491"
+      ]
     },
     {
       "id": "creamy-white-chicken-chili",
@@ -23233,7 +23294,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "vegetable-soup-gutenberg"
     },
     {
       "id": "cream-of-carrot-soup-gutenberg-15464",
@@ -23730,7 +23792,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "bean-soup-gutenberg-26374"
+      ]
     },
     {
       "id": "potato-and-cheese-soup-gutenberg-15464",
@@ -24688,7 +24753,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "bean-soup-gutenberg-15464"
     },
     {
       "id": "black-bean-soup-gutenberg-26374",
@@ -24792,7 +24858,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "black-bean-soup-slow-cooker"
+      ]
     },
     {
       "id": "split-pea-soup-gutenberg-26374",
@@ -24896,7 +24965,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "split-pea-soup-gutenberg-31102"
     },
     {
       "id": "grandmother-sawtelles-pea-soup-gutenberg-26374",
@@ -25234,7 +25304,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "cream-of-celery-soup-carnation"
+      ]
     },
     {
       "id": "ox-tail-soup-gutenberg-26374",
@@ -25446,7 +25519,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "mushroom-soup-gutenberg-31102"
     },
     {
       "id": "soupe-a-lognon-gutenberg-26374",
@@ -25676,7 +25750,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "potato-soup-gutenberg-31102"
     },
     {
       "id": "asparagus-white-soup-gutenberg-26374",
@@ -26624,7 +26699,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "court-bouillon-gutenberg-31102"
     },
     {
       "id": "vegetable-soup-gutenberg-28491",
@@ -26702,7 +26778,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variant_of": "vegetable-soup-gutenberg"
     },
     {
       "id": "black-turtle-bean-soup-gutenberg-28491",
@@ -27566,7 +27643,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "cream-of-mushroom-soup-carnation"
+      ]
     },
     {
       "id": "mushroom-soup-gutenberg-31102",
@@ -27646,7 +27726,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "mushroom-soup-gutenberg-26374"
+      ]
     },
     {
       "id": "cream-of-rice-soup-gutenberg-31102",
@@ -28179,7 +28262,11 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "court-bouillon-wilsonscoo",
+        "court-bouillon-gutenberg-28491"
+      ]
     },
     {
       "id": "tomato-bouillon-gutenberg-31102",
@@ -28720,7 +28807,12 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "split-pea-soup",
+        "split-pea-soup-gutenberg",
+        "split-pea-soup-gutenberg-26374"
+      ]
     },
     {
       "id": "potato-soup-gutenberg-31102",
@@ -28797,7 +28889,12 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "potato-soup",
+        "potato-soup-gutenberg",
+        "potato-soup-gutenberg-26374"
+      ]
     },
     {
       "id": "meat-jelly-gutenberg-31102",
@@ -29105,7 +29202,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "oxtail-soup-wilsonscoo"
+      ]
     },
     {
       "id": "pea-puree-gutenberg-31102",
@@ -29413,7 +29513,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from soups category"
         ]
-      }
+      },
+      "variants": [
+        "scotch-broth-themetropo"
+      ]
     },
     {
       "id": "forme-of-cury-stuffed-gruel",
