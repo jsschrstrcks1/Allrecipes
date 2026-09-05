@@ -31,6 +31,27 @@ Newest entries go at the top.
 
 ---
 
+## 2026-09-05 — dead-path observe hook -> portable dispatch (yumi)
+
+**Asked.** Slice of hls-dead-path-hooks-in-9-repos: Allrecipes/.claude/settings.json ran a
+machine-absolute PostToolUse('*') hook `/home/user/ken/.claude/hooks/observe-tool-use.sh` —
+live only in the Linux container, silently dead on the operator's Mac (UL-173/UL-337).
+
+**Weighed.** Baking a Mac path just moves the rot; removing the hook loses observation
+everywhere; routing through the portable `household-hook-dispatch.sh` to the ocs-resident
+`observe-tool-use-dispatch.sh` is correct on both machines (InTheWake proven pattern, same as
+Project-Sophos PR #16). Reused the exact proven unit.
+
+**Decided.** Rewrote the one command to
+`bash $CLAUDE_PROJECT_DIR/.claude/hooks/household-hook-dispatch.sh observe-tool-use-dispatch.sh`;
+vendored the #3315 (~/ocs-work-aware) dispatch; added a text-invariant config-lock test (3/3 green).
+
+**Unsure.** Nothing about the wiring — verified live (dispatch resolved ocs and execed the observe
+dispatcher, exit 0). Honest limit: ken is at the iCloud path not `~/ken` on this Mac, so observe
+capture loud-degrades here until ken is resolvable (#3318); in the container the chain resolves and
+capture runs. Also surfaced: Allrecipes is not in the HLS REPO_MAP on this Mac (registered via
+ALLRECIPES_ROOT) — a separate HLS gap.
+
 ## 2026-08-30 — Reader display settings on recipe pages (syl)
 
 **Asked.** Operator: recipe pages show a LOT of data — add a settings area so readers

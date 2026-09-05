@@ -18,3 +18,6 @@
 
 <!-- library register 2026-08-30T12:42:18.675Z -->
 | recipe-pages-reader-display-settings-recipe-nutrition-default-al | 2 | Recipe pages: reader display settings — recipe+nutrition default, all other sections opt-in (4 family sites) |
+
+<!-- library register 2026-09-05T09:29:07.069Z -->
+| hls-dead-path-allrecipes-observe-dispatch | 1 | P1 slice of hls-dead-path-hooks-in-9-repos: Allrecipes/.claude/settings.json PostToolUse('*') runs dead machine-absolute /home/user/ken/.claude/hooks/observe-tool-use.sh (UL-173/UL-337). Fix = InTheWake pattern (same as Project-Sophos PR #16): vendor #3315 household-hook-dispatch.sh + route observe hook to observe-tool-use-dispatch.sh; config-lock test; fail-loud-not-fatal. Honest limit: observe loud-degrades on this Mac until ken resolvable (#3318). |
