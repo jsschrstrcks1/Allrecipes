@@ -61,14 +61,34 @@ export function getPatron() {
     || (getRuntime() === "grok" ? "grok1" : "claude-code");
 }
 
+// Household-repo markers — what makes the loud-bootstrap belt apply to a tree.
+// #3077 (yumi, 2026-09-03): the original three markers are things only a FULL open-claw-stuff
+// clone carries. Leaf repos onboarded per spec §5.2 (Project-Sophos, the recipe repos) carry
+// the hook trio and the synced front door under .claude/ and NONE of the three — so the guard
+// they carried answered "not a household repo", exited 0 on every unstamped mutation, and
+// bootstrap-dispatch (which keys "onboarded" on the guard FILE existing) reported them as
+// enforced. Measured live through the user-level dispatcher with inert probes: unstamped
+// Write, Edit and `git commit` into Project-Sophos ALLOWED; the same probes into ocs-work
+// DENIED. Four of 22 onboarded repos on the operator Mac had that shape. "Present is not
+// runnable" (UL-888 / UL-1016 class) sitting on the P0 mutation gate.
+// Rule: a marker must be something that STAYS (a moved document is UL-266 again), and the
+// onboarding itself is a marker — carrying this guard IS being a household repo, which is
+// the same definition bootstrap-dispatch.mjs uses for "onboarded". Named limit: a guard copy
+// dropped into any tree makes that tree guarded; that is the belt doing its job, not a false
+// positive — the dispatcher would already have spawned it.
+export const HOUSEHOLD_MARKERS = [
+  ".claude/hooks/bootstrap-guard.mjs", // the onboarding itself (spec §5.2) — dispatcher parity
+  ".claude/skills/sophos/SKILL.md",    // synced front door (leaf-repo layout)
+  "skills/sophos/SKILL.md",            // canonical front door (open-claw-stuff layout)
+  ".household-root",                   // machine-neutral discovery file (household-root-resolver step 3)
+  ".household-library",
+  "docs/SOPHOS-OPERATING-SYSTEM.md",
+];
+
 export function isHouseholdRepo(root) {
   if (!root) return false;
   try {
-    return (
-      fs.existsSync(path.join(root, "skills", "sophos", "SKILL.md"))
-      || fs.existsSync(path.join(root, ".household-library"))
-      || fs.existsSync(path.join(root, "docs", "SOPHOS-OPERATING-SYSTEM.md"))
-    );
+    return HOUSEHOLD_MARKERS.some((m) => fs.existsSync(path.join(root, ...m.split("/"))));
   } catch {
     return false;
   }
@@ -373,6 +393,12 @@ function withLibraryLock(file, fn) {
 export function appendEvent(ev, input = null) {
   try {
     const file = eventsPath(input);
+    // #3077: a repo with no library has no ledger to append to. Creating one on the first
+    // denial would plant an orphan .household-library/ (plus its .catalog.lock) in a leaf
+    // repo that no union-merge ever reaches. The denial itself stays loud on stderr; only
+    // the ledger row is skipped, and the caller is told (returns false) so it can say so.
+    // Env-overridden paths (tests, operator redirection) are always written.
+    if (!process.env.HOUSEHOLD_BOOTSTRAP_EVENTS && !fs.existsSync(path.dirname(file))) return false;
     withLibraryLock(file, () => {
       const payload = sealIfChainStarted(
         {
@@ -385,8 +411,10 @@ export function appendEvent(ev, input = null) {
       );
       fs.appendFileSync(file, JSON.stringify(payload) + "\n");
     });
+    return true;
   } catch {
     /* ledger append is best-effort */
+    return false;
   }
 }
 
