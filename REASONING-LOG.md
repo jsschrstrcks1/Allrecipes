@@ -8,6 +8,26 @@ You asked for a live stream of consciousness: when you ask me a question or hand
 task, you want to see how I reached the conclusion and why I made the calls I made. This
 file is that record.
 
+## 2026-09-03 — .household-root: the doctrine and runtime roots, discoverable by reading (open-claw-stuff #3098)
+
+**Asked.** Household loop (patron yumi): make this repo able to say where Sophos is from here.
+
+**Weighed.** Hooks fire unevenly across repos (this one registers few), so the discovery file exists precisely for the case where no hook runs — it is read, not executed. The generator writes layouts, never a machine path (UL-173/UL-337). Alternative of hand-writing the file: rejected, the generator is the SSOT and its output is what the household tests pin.
+
+**Decided.** Generated `.household-root` with `admin/write-household-root-file.mjs`; verified it names both roots, instructs fail-loud on non-resolution, and carries no absolute machine path. Stacked on this repo's open hook branch.
+
+**Unsure.** On this Mac the runtime clone is `~/ocs-work`, not `open-claw-stuff`, so the sibling/ancestor steps in the file do not find it by name here and a reader must say so — the standing naming mismatch (open-claw-stuff #2993), not something this file can fix.
+
+## 2026-09-03 — observe hook: dead container path replaced by machine-neutral dispatch (open-claw-stuff #3094)
+
+**Asked.** Household loop (patron yumi): close the dead-path defect the hls-dead-path-hooks task left open here.
+
+**Weighed.** The PostToolUse observe hook pointed at `/home/user/ken/...`, absent on this Mac, so observation capture never ran and nothing said so. Alternatives: point it at a Mac path (the same defect mirrored — rejected); drop the hook (capture is doctrine — rejected); the canonical dispatch, which resolves by layout and fails loud-not-fatal — chosen, the same fix Project-Sophos #13 applied.
+
+**Decided.** Installed `observe-tool-use-dispatch.sh` from canonical and repointed the settings entry to `$CLAUDE_PROJECT_DIR`. Probed: this layout → NOT FOUND on stderr, exit 0; inert fake ken via HOUSEHOLD_KEN_ROOT → runs, exit 0. No machine path remains in settings.
+
+**Unsure.** Until `HOUSEHOLD_KEN_ROOT` is exported or a ken checkout sits beside this repo, capture still does not run here — now loudly instead of silently; whether the operator wants it running on the Mac at all is their call.
+
 ## What this is (and an honest note on what it isn't)
 
 I can't literally pipe my raw internal tokens into a file — that verbatim inner monologue
@@ -30,6 +50,163 @@ Each entry follows the same shape so you can skim or dig:
 Newest entries go at the top.
 
 ---
+
+## 2026-08-30 — Reader display settings on recipe pages (syl)
+
+**Asked.** Operator: recipe pages show a LOT of data — add a settings area so readers
+pick sections. Default view: the recipe with instructions first, then nutrition facts;
+everything else unchecked. And (mid-work directive): with ALL settings on, the recipe
+still leads and nutrition still follows it. Also answered: no, this did not exist before
+— this session had only added variant tabs.
+
+**Weighed.** The four sites share one script lineage, so one transformation was verified
+on Allrecipes then applied with per-pattern exact-match counts (Grandmas needed its own
+function-signature anchor and had an unconditional milk-substitution div to wrap). The
+template was REORDERED, not just gated: description, source note, quick facts, and the
+milk-substitution panel moved from above the ingredients to after nutrition, so section
+order no longer depends on which toggles are on. The gear panel lists only sections the
+current page actually has; prefs persist in localStorage (per browser, never server).
+
+**Decided.** Defaults: nutrition ON; description, source, quick facts, milk-sub, notes,
+tags, tips, confidence/flags, original scan all OFF. Verified in a real browser
+(Playwright against a locally served copy): section order ingredients → instructions →
+nutrition → optionals; nutrition visible and quick facts hidden by default; the gear
+lists only present sections; checking Notes reveals it; the choice SURVIVES a reload.
+
+**Unsure.** A pre-existing page error fires on recipe.html opened without a recipe hash
+("Cannot read properties of null (reading style)") — reproduced on HEAD before this
+change, left for its own fix. The conversion-notes block stays tied to the metric button
+rather than the gear, deliberately — it already has a control.
+
+## 2026-08-30 — Follow-up C: cross-title same-dish variants, a REVIEWED pass (syl)
+
+**Asked.** Operator: proceed — the "Grandma's Beef Wellington vs Gordon Ramsay's Beef
+Wellington" class, deliberately left out of the mechanical phase 2.
+
+**Weighed.** Candidates come from stripping ONLY attribution markers (leading possessive
+names, trailing parentheticals); a cluster links ONLY when a bare-titled member exists to
+be the canonical — clusters without one (Cheese Cake (Lemon Jello) vs (Philadelphia)) may
+be different dishes and are DEFERRED to admin/CROSS-TITLE-VARIANTS-REVIEW.json, never
+auto-linked. The dry-run lists were read line by line, and review caught three real
+traps, each now a guard in the tool: dish-name possessives (Devil's Cake is not anyone's
+attribution of "Cake"; Millionaire's Shortbread is its own dish), generic cores (Min's
+Cake under a record titled just "Cake" claims more than titles know), and an
+ingredient-overlap check born from Bailey's Peppermint Cream — a liqueur drink that would
+have tabbed under a gelatin candy. Placeholder ingredient lists ("See instructions")
+count as no-data so sparse records are judged by title, not fake mismatch.
+
+**Decided.** Links applied additive-only with the phase-2 contract (no rewrites, no
+2-cycles, family roots adopted). Where the overlap guard deferred pairs that eyes-on
+review confirmed same-dish (apple pie 1796 vs modern, mix vs scratch biscuits,
+bread-machine versions, Chef's Hamburgers, Sara's ancients Sponge Cake, Ethelyn's Carrot
+Casserole), they were hand-linked and recorded as hand_reviewed_links in the report.
+Integrity after: 0 cycles, 0 broken refs, 0 one-directional links; dedup --check CLEAN;
+shards + indexes regenerated.
+
+**Unsure.** The deferred clusters in the review report are genuinely ambiguous and wait
+for Ken. The threshold (0.25 word overlap) is a judgment; its false-defers were caught by
+hand this pass, but a future pass should re-eyeball anything it defers.
+
+## 2026-08-30 — Follow-up A: the three broken Backcountry titles (syl)
+
+**Asked.** Operator: proceed with the open items from the dup/variant campaign; first the
+Allrecipes record whose title was a Meal-Master export header.
+
+**Weighed.** Investigation found THREE broken records from the same two-column PDF
+extraction, not one: the Meal-Master header record, plus two whose title field held the
+recipe's FIRST INGREDIENTS ROW (real data stranded in the wrong field). The true titles
+are unrecoverable — the source PDF is not in the repo and nothing else names them. The
+household way is to mark, not fake: each record now carries a descriptive name plus a
+note stating the original title was lost and quoting exactly what the title field held,
+so nothing is silently invented and nothing is silently discarded.
+
+**Decided.** (1) recipe-via-meal-master-v-800-backcountr → "Oat and Raisin Skillet Bread
+(Field or Oven)"; its closing pseudo-step "** Wilderness Ranger Cookbook US Forest
+Service **" was attribution in the wrong field — moved to attribution. (2)
+c-broccoli-chopped… → "Fresh Noodles with Stir-Fried Vegetables"; the old title line
+restored as the first ingredients row. (3) 8-t-butter… → "Garli-Ghetti Seasoned Butter
+with Bacon Bits"; old title line restored to ingredients; its "method not fully
+extracted" marker stays. Gates: dedup --check CLEAN, shards regenerated, validator exit 0.
+
+**Unsure.** The descriptive names are mine, not the source's — the notes say so on each
+record. If Ken ever finds the Backcountry Cookbook PDF, the real titles supersede these.
+
+## 2026-08-30 — Variant tabs on the recipe page, phase 3 (syl)
+
+**Asked:** One listing per dish; versions as tabs with provenance (operator directive).
+
+**Weighed:** This site already collapsed variants in the grid and A-Z index and resolved
+families in findVariants — but presented them as a <select> dropdown a reader must
+discover. Tabs put the versions in sight, labeled by attribution (then short
+source_note, then title), canonical first, active tab inert, hover shows the full title
+and variant_notes. The family resolution and grid collapse were already correct with the
+phase-2 links, so this pass touched presentation only.
+
+**Decided:** renderVariantsDropdown replaced by renderVariantTabs (dedup by id,
+canonical-first order, role=tablist for screen readers); click handler moved from the
+select change to the tab buttons; .variant-tab styles beside the old dropdown styles
+(kept — nothing else uses them, but removing working CSS is not this change).
+node --check clean.
+
+**Unsure:** Untested in a browser here; the logic mirrors the dropdown handler
+one-for-one, and the same hash navigation drives both.
+
+## 2026-08-30 — Variant linking, phase 2 (syl)
+
+**Asked:** After exact-dup removal: link recipes that are the same dish but not identical
+("even a little different") to a canonical primary, per operator law 990f37e1, so readers
+get one listing with variant tabs (phase 3).
+
+**Weighed:** Cluster rule = identical normalized title within this store; content is NOT
+compared because differing content is what a variant is (twins are already gone).
+Canonical selection is human-centric per the directive: family collections first (none in
+this store — collections here are all/reference), then completeness (nutrition, images,
+notes weighted), then a named source, then a clean id. The linker is additive-only: no
+existing variant_of is ever rewritten, existing variants lists are unioned, and an
+established canonical inside a cluster is adopted rather than re-elected. Different-title
+same-dish pairs (the "Grandma's X" vs "Chef Y's X" case) are NOT auto-linked — title
+normalization that strips attributions risks false merges; that set needs a reviewed
+pass, left open on the phase-2 HLS task.
+
+**Decided:** scripts/link_variants.py (dry-run default) linked 610 clusters: 831
+variant_of + 832 variants entries added. Post-checks: 0 cycles, 0 broken refs, 0 missing
+backlinks, 0 canonicals that are also variants. Report with every link:
+admin/VARIANTS-LINKED.json. Shards + index regenerated; validate exit 0; `variants` added
+to the validator's documented optional fields.
+
+**Unsure:** Canonical election among non-family sources is mechanical (completeness); a
+human may prefer a different member as the face of a cluster — the report lists every
+cluster so re-election is a one-field edit.
+
+## 2026-08-30 — Exact-duplicate removal, phase 1 of the dup/variant campaign (syl)
+
+**Asked:** Operator: we forgot duplicates aren't allowed (variants are — one recipe with
+tabs per variant + provenance). Screenshot: "Alla Panna" Sauce listed twice. Investigate
+blast radius, plan, register in HLS, execute.
+
+**Weighed:** Operator law recalled (memory 990f37e1/c865b442): duplicates = EXACT same
+recipe → remove; variants = keep + link `variants` to canonical primary; dedup key is
+name+source; canonical selection human-centric. Measured on SSOT masters only (first scan
+double-counted generated shards): Allrecipes 176 exact dups / 776 same-title clusters;
+Grandmas 7 / 983 (363 already variant-linked); Moms 5 / 478; Grannys 0 / 22. Root cause of
+the screenshot: Gutenberg re-import wrote `-6385`-suffixed twins instead of skipping.
+Considered fuzzy-title merging in the same pass — rejected: exact-content removal is
+mechanical and safe; title-cluster linking is phase 2; attribution-differing identical
+content is deliberately NOT removed (name+source rule) — 0 such groups here anyway.
+
+**Decided:** scripts/dedup_exact_duplicates.py — dry-run default, removable only when
+title+ingredients+instructions identical AND attributions compatible; keeper = most
+complete record (nutrition/images/notes weighted), loser fields merged in, never
+overwriting; every removal appended to admin/MERGED-AWAY.json WITH the full removed
+record; refs (variant_of/canonical_id/variants/components) repointed. Applied: 9989→9813.
+Shards + index regenerated (shardify), validate-recipes exit 0. HLS:
+recipe-dedup-phase-1-… checked out by syl; phases 2 (variant linking) and 3 (tabs UI)
+registered separately.
+
+**Unsure:** Completeness scoring picks the keeper mechanically; for the 176 groups the
+content was identical so no recipe text was at risk, but a human eye on MERGED-AWAY.json
+is welcome. "Recipe via Meal-Master ™ v 8.00" is a garbage title that also survived — a
+title-gate candidate, deliberately not fixed in this pass (scope).
 
 ## 2026-08-11 — rysn: household sync of soli-deo-gloria (a link that resolved in only one repo)
 
