@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "breads",
-    "count": 454,
+    "count": 452,
     "shard_of": "recipes-index.json"
   },
   "recipes": [
@@ -132,7 +132,10 @@
           "Whole milk used",
           "1 cup fresh peaches adds minimal calories"
         ]
-      }
+      },
+      "variants": [
+        "peach-muffins"
+      ]
     },
     {
       "id": "poppy-seed-muffins-ref",
@@ -260,7 +263,10 @@
           "Whole milk used",
           "2 tbsp poppy seeds add minimal calories"
         ]
-      }
+      },
+      "variants": [
+        "poppy-seed-muffins"
+      ]
     },
     {
       "id": "orange-cinnamon-muffins-ref",
@@ -396,7 +402,10 @@
           "Whole milk used",
           "Orange zest and cinnamon add negligible calories"
         ]
-      }
+      },
+      "variants": [
+        "orange-cinnamon-muffins"
+      ]
     },
     {
       "id": "peanut-butter-banana-muffins-ref",
@@ -532,7 +541,10 @@
           "2 medium bananas (~210g total)",
           "1/2 cup smooth peanut butter"
         ]
-      }
+      },
+      "variants": [
+        "peanut-butter-banana-muffins"
+      ]
     },
     {
       "id": "cheesy-corn-muffins-ref",
@@ -662,7 +674,10 @@
           "Whole milk used",
           "1 cup shredded cheddar cheese"
         ]
-      }
+      },
+      "variants": [
+        "cheesy-corn-muffins"
+      ]
     },
     {
       "id": "amaretto-muffins-ref",
@@ -793,7 +808,10 @@
           "1/2 cup Amaretto liqueur",
           "1/2 cup toasted almonds"
         ]
-      }
+      },
+      "variants": [
+        "amaretto-muffins"
+      ]
     },
     {
       "id": "lemon-raspberry-almond-muffins-ref",
@@ -937,7 +955,10 @@
           "1/4 cup raspberries",
           "1/4 cup toasted almonds"
         ]
-      }
+      },
+      "variants": [
+        "lemon-raspberry-almond-muffins"
+      ]
     },
     {
       "id": "apple-white-chocolate-muffins-ref",
@@ -1068,7 +1089,10 @@
           "1 cup diced green apple",
           "1 cup white chocolate chips"
         ]
-      }
+      },
+      "variants": [
+        "apple-white-chocolate-muffins"
+      ]
     },
     {
       "id": "chocolate-hazelnut-muffins-ref",
@@ -1194,7 +1218,10 @@
           "3/4 cup semi-sweet chocolate chips",
           "1 cup toasted chopped hazelnuts"
         ]
-      }
+      },
+      "variants": [
+        "chocolate-hazelnut-muffins"
+      ]
     },
     {
       "id": "peanut-butter-jelly-muffins-ref",
@@ -1314,7 +1341,10 @@
           "3/4 cup smooth peanut butter",
           "1/2 cup raspberry jam"
         ]
-      }
+      },
+      "variants": [
+        "peanut-butter-and-jelly-muffins"
+      ]
     },
     {
       "id": "bacon-cheese-muffins-ref",
@@ -1435,7 +1465,10 @@
           "1/2 cup cooked crumbled bacon",
           "1 cup shredded cheddar cheese"
         ]
-      }
+      },
+      "variants": [
+        "bacon-cheese-muffins"
+      ]
     },
     {
       "id": "blueberry-coconut-muffins-ref",
@@ -1578,7 +1611,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "blueberry-coconut-muffins"
+      ]
     },
     {
       "id": "raspberry-lemon-muffins-ref",
@@ -1715,7 +1751,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "raspberry-lemon-muffins"
+      ]
     },
     {
       "id": "southern-corn-muffins-ref",
@@ -2122,7 +2161,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "chai-spiced-muffins"
+      ]
     },
     {
       "id": "healthy-bran-apple-muffins-ref",
@@ -2264,7 +2306,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "healthy-bran-apple-muffins"
+      ]
     },
     {
       "id": "honey-bran-muffins-ref",
@@ -2390,7 +2435,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "honey-bran-muffins"
+      ]
     },
     {
       "id": "wholewheat-maple-bread-ref",
@@ -3510,7 +3558,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "honey-oatmeal-bread-ref"
+      ]
     },
     {
       "id": "oatmeal-molasses-rolls-ref",
@@ -7509,7 +7560,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "chocolate-hazelnut-muffins-ref"
     },
     {
       "id": "blackberry-chocolate-muffins-crumb-topping",
@@ -7922,7 +7974,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "triple-threat-berry-muffins-ref"
+      ]
     },
     {
       "id": "ginger-lemon-muffins",
@@ -8045,7 +8100,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "ginger-lemon-muffins-ref"
+      ]
     },
     {
       "id": "cinnamon-spice-muffins",
@@ -8171,7 +8229,11 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "cinnamon-and-spice-muffins",
+        "cinnamon-and-spice-muffins-ref"
+      ]
     },
     {
       "id": "apple-cranberry-muffins",
@@ -8291,7 +8353,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "apple-cranberry-muffins-ref"
+      ]
     },
     {
       "id": "cherry-chocolate-muffins",
@@ -8411,7 +8476,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "cherry-chocolate-muffins-ref"
+      ]
     },
     {
       "id": "candy-cane-muffins",
@@ -8527,7 +8595,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "candy-cane-muffins-ref"
+      ]
     },
     {
       "id": "nutella-muffins",
@@ -8637,7 +8708,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "nutella-muffins-ref"
+      ]
     },
     {
       "id": "maple-bacon-muffins",
@@ -8752,7 +8826,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "maple-bacon-muffins-ref"
+      ]
     },
     {
       "id": "eggnog-muffins",
@@ -8878,7 +8955,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "eggnog-muffins-ref"
+      ]
     },
     {
       "id": "coconut-muffins",
@@ -8991,7 +9071,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "coconut-muffins-ref"
+      ]
     },
     {
       "id": "peach-muffins",
@@ -9105,7 +9188,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "peach-muffins-ref"
     },
     {
       "id": "poppy-seed-muffins",
@@ -9218,7 +9302,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "poppy-seed-muffins-ref"
     },
     {
       "id": "orange-cinnamon-muffins",
@@ -9338,7 +9423,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "orange-cinnamon-muffins-ref"
     },
     {
       "id": "peanut-butter-banana-muffins",
@@ -9457,7 +9543,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "peanut-butter-banana-muffins-ref"
     },
     {
       "id": "cheesy-corn-muffins",
@@ -9573,7 +9660,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "cheesy-corn-muffins-ref"
     },
     {
       "id": "amaretto-muffins",
@@ -9688,7 +9776,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "amaretto-muffins-ref"
     },
     {
       "id": "peanut-butter-banana-bread",
@@ -11885,7 +11974,12 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "variant_of": "blueberry-coconut-muffins-ref"
     },
     {
       "id": "raspberry-lemon-muffins",
@@ -12005,7 +12099,12 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "variant_of": "raspberry-lemon-muffins-ref"
     },
     {
       "id": "traditional-blueberry-muffins",
@@ -12125,7 +12224,14 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "variants": [
+        "traditional-blueberry-muffins-ref"
+      ]
     },
     {
       "id": "banana-nut-breakfast-muffins",
@@ -12251,7 +12357,14 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "variants": [
+        "banana-nut-breakfast-muffins-ref"
+      ]
     },
     {
       "id": "morning-start-blueberry-oatmeal-muffins",
@@ -12377,7 +12490,14 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "variants": [
+        "morning-start-blueberry-oatmeal-muffins-ref"
+      ]
     },
     {
       "id": "tea-time-mini-muffins",
@@ -12478,6 +12598,10 @@
         "assumptions": [
           "Calculated for 24 servings"
         ]
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
       }
     },
     {
@@ -12602,7 +12726,12 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "variant_of": "chai-spiced-muffins-ref"
     },
     {
       "id": "chocolate-covered-banana-muffins",
@@ -12717,6 +12846,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
       }
     },
     {
@@ -12847,6 +12980,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
       }
     },
     {
@@ -12965,6 +13102,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
       }
     },
     {
@@ -13084,6 +13225,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
       }
     },
     {
@@ -13195,7 +13340,12 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "variant_of": "healthy-bran-apple-muffins-ref"
     },
     {
       "id": "honey-bran-muffins",
@@ -13310,7 +13460,12 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "variant_of": "honey-bran-muffins-ref"
     },
     {
       "id": "chocolate-peppermint-brownie-muffins",
@@ -13407,6 +13562,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
+      },
+      "confidence": {
+        "overall": "high",
+        "flags": []
       }
     },
     {
@@ -13545,7 +13704,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "cinnamon-spice-muffins"
     },
     {
       "id": "lemon-raspberry-almond-muffins",
@@ -13684,7 +13844,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "lemon-raspberry-almond-muffins-ref"
     },
     {
       "id": "apple-white-chocolate-muffins",
@@ -13823,7 +13984,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "apple-white-chocolate-muffins-ref"
     },
     {
       "id": "peanut-butter-and-jelly-muffins",
@@ -13950,7 +14112,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "peanut-butter-jelly-muffins-ref"
     },
     {
       "id": "bacon-cheese-muffins",
@@ -14077,7 +14240,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "bacon-cheese-muffins-ref"
     },
     {
       "id": "banana-bread-ref",
@@ -14458,7 +14622,10 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "applesauce-muffins-ref"
+      ]
     },
     {
       "id": "chicken-spring-rolls",
@@ -15617,7 +15784,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "cabbage-rolls-gutenberg-31102"
     },
     {
       "id": "pumpkin-oatmeal-muffins",
@@ -17441,7 +17609,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "blueberry-muffins-gutenberg-31102"
     },
     {
       "id": "bran-muffins-gutenberg",
@@ -17543,7 +17712,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "bran-muffins-gutenberg-31102"
     },
     {
       "id": "bacon-muffins-gutenberg",
@@ -18243,7 +18413,10 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variants": [
+        "plain-muffins-theplainsa"
+      ]
     },
     {
       "id": "graham-date-muffins-carnation",
@@ -18471,7 +18644,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "nut-bread-gutenberg-31102"
     },
     {
       "id": "baking-powder-biscuits-carnation",
@@ -18567,7 +18741,8 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variant_of": "baking-powder-biscuits-gutenberg-31102"
     },
     {
       "id": "pin-wheel-biscuits-carnation",
@@ -19238,7 +19413,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "dgf-french-toast"
     },
     {
       "id": "molasses-fruit-bread-grandmas-molasses",
@@ -20408,7 +20584,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "spoon-bread-gutenberg-31102"
     },
     {
       "id": "french-toast-auntcaroli",
@@ -20500,7 +20677,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "dgf-french-toast"
     },
     {
       "id": "mammys-graham-muffins-auntcaroli",
@@ -21804,7 +21982,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "bran-muffins-gutenberg-31102"
     },
     {
       "id": "corn-bread-dudeskitch",
@@ -22301,7 +22480,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "blueberry-muffins-gutenberg-31102"
     },
     {
       "id": "scones-easybaking",
@@ -22419,7 +22599,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scones-carnation"
     },
     {
       "id": "boston-brcfwn-bread-everywoman",
@@ -22705,7 +22886,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "bread-omelet-gutenberg-26374"
     },
     {
       "id": "twentieth-century-bread-mybest250r",
@@ -23579,7 +23761,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scones-carnation"
     },
     {
       "id": "creamed-eggs-inhollow-rolls-scottsnort",
@@ -24079,7 +24262,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "oatmeal-muffins-gutenberg-31102"
     },
     {
       "id": "potato-cornmeal-muffins-egoless-themetropo",
@@ -24575,7 +24759,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "boston-brown-bread-gutenberg-31102"
     },
     {
       "id": "steamed-oatmeal-bread-themetropo",
@@ -24919,7 +25104,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "oatmeal-bread-gutenberg-31102"
     },
     {
       "id": "buckwheat-bread-themetropo",
@@ -25180,7 +25366,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "branbread-wilsonscoo"
+      ]
     },
     {
       "id": "bread-omelet-themetropo",
@@ -25262,7 +25451,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "bread-omelet-gutenberg-26374"
     },
     {
       "id": "gingerbread-theplainsa",
@@ -25404,7 +25594,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "gingerbread-gutenberg-26374"
     },
     {
       "id": "baking-powder-biscuit-theplainsa",
@@ -25642,7 +25833,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "plain-muffins-carnation"
     },
     {
       "id": "blueberry-muffins-theplainsa",
@@ -25772,7 +25964,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "blueberry-muffins-gutenberg-31102"
     },
     {
       "id": "corn-bread-ormuffins-theplainsa",
@@ -26220,7 +26413,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "cornbread-gutenberg-33748"
     },
     {
       "id": "noisette-bread-thewhysofc",
@@ -26476,7 +26670,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "potato-biscuit-gutenberg-31102"
     },
     {
       "id": "nut-and-fruit-rolls-thewhysofc",
@@ -27947,7 +28142,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "graham-bread-gutenberg-31102"
     },
     {
       "id": "entire-wheat-bread-wilsonscoo",
@@ -28091,7 +28287,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "branbread-themetropo"
     },
     {
       "id": "parker-house-rolls-wilsonscoo",
@@ -28191,7 +28388,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "parker-house-rolls-gutenberg-31102"
     },
     {
       "id": "tomakebrioche-using-bread-dough-wilsonscoo",
@@ -28457,7 +28655,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "oatmeal-muffins-gutenberg-31102"
     },
     {
       "id": "branmuffins-wilsonscoo",
@@ -28903,7 +29102,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "dgf-biscuits"
     },
     {
       "id": "delicious-english-scones-wilsonscoo",
@@ -29747,7 +29947,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "gingerbread-gutenberg-26374"
     },
     {
       "id": "whole-wheat-muffins-wilsonscoo",
@@ -34748,88 +34949,6 @@
       }
     },
     {
-      "id": "fried-bread-with-raisins-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Fried Bread With Raisins",
-      "category": "breads",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "good raisins",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "raw ham chopped",
-          "quantity": "",
-          "unit": "slice",
-          "prep_note": ""
-        },
-        {
-          "item": "granulated sugar",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "good vinegar",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "fried bread",
-          "quantity": "",
-          "unit": "piece",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Take some rather stale bread, cut it into slices, removing the crust. Fry the bread in lard, and then arrange it on a platter; meanwhile prepare the raisins as follows: Take a small saucepan and put into it two tablespoons of good raisins, a good slice of raw ham chopped into small pieces, and a leaf of sage, also chopped up, one tablespoon of granulated sugar, and two tablespoons of good vinegar. Put these ingredients on the fire, and as soon as you have a syrup (stir constantly) pour the raisins onto the pieces of fried bread, and the sauce over and around them. Served with cold meat these are very nice."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 27,
-          "fat_g": 0.0,
-          "carbs_g": 6.7,
-          "protein_g": 0.1,
-          "sodium_mg": 0,
-          "fiber_g": 0.2,
-          "sugar_g": 5.8
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "gingerbread-gutenberg-34837",
       "collection": "all",
       "collection_display": "Other Family Recipes",
@@ -34975,96 +35094,6 @@
         "flags": [
           "vintage-recipe",
           "public-domain"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 20,
-          "fat_g": 0.2,
-          "carbs_g": 3.8,
-          "protein_g": 0.8,
-          "sodium_mg": 37,
-          "fiber_g": 0.1,
-          "sugar_g": 0.4
-        },
-        "missing_inputs": [
-          "can penetrate gradually"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "golden-bread-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Family Recipes",
-      "title": "Golden Bread",
-      "category": "breads",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "about",
-          "quantity": "",
-          "unit": "slice",
-          "prep_note": ""
-        },
-        {
-          "item": "cut little pieces about three",
-          "quantity": "",
-          "unit": "slice",
-          "prep_note": ""
-        },
-        {
-          "item": "into a bowl",
-          "quantity": "",
-          "unit": "piece",
-          "prep_note": ""
-        },
-        {
-          "item": "or deforming them",
-          "quantity": "",
-          "unit": "piece",
-          "prep_note": ""
-        },
-        {
-          "item": "bread",
-          "quantity": "",
-          "unit": "piece",
-          "prep_note": ""
-        },
-        {
-          "item": "penetrate gradually",
-          "quantity": "",
-          "unit": "can",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Choose bread which is elastic, but has no holes in it. Remove the crust and cut it in slices about one inch thick, and from these slices cut little pieces about three inches long and about one inch wide. Trim them off well, so they will not be ragged or uneven. Put these pieces into a bowl and throw on them some boiling water, then remove them immediately and throw them into a big bowl of cold water. This operation should be done quickly, so as to make the bread feel the impression of heat and cold, one directly after the other. Then take the bread between the hands and gently squeeze out the water without breaking the pieces or deforming them. Place them on a napkin to dry. Then dip them in egg which has been beaten up and seasoned with salt and pepper. Allow the egg to soak well into the bread. Fifteen minutes before serving put a frying-pan on with a quantity of lard, and as soon as the lard is lukewarm put in the pieces of bread, turn them as soon as they harden a little on one side. The bread must fry very slowly, and should remain on the fire at least ten minutes, so that the heat can penetrate gradually into the middle and make it light. This bread to be successful should be hollow inside like a fritter when finished. When the bread has taken a good golden color, remove from the lard, drain it on a napkin, add a little salt, and serve very hot."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
         ]
       },
       "image_refs": [],
@@ -37267,7 +37296,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "biscuits-wilsonscoo"
+      ]
     },
     {
       "id": "dgf-brioche-bread",
@@ -37910,7 +37942,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "spoon-bread-gutenberg-31102"
     },
     {
       "id": "cornmeal-ragged-robins-gutenberg-15464",
@@ -38584,7 +38617,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "oatmeal-bread-gutenberg-31102"
     },
     {
       "id": "oatmeal-nut-bread-gutenberg-15464",
@@ -38937,7 +38971,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "oatmeal-muffins-gutenberg-31102"
     },
     {
       "id": "rolled-oats-ragged-robins-gutenberg-15464",
@@ -40039,7 +40074,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "potato-biscuit-gutenberg-31102"
     },
     {
       "id": "potato-bread-gutenberg-15464",
@@ -40695,7 +40731,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "boston-brown-bread-gutenberg-31102"
     },
     {
       "id": "bread-muffins-gutenberg-15464",
@@ -41727,7 +41764,10 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "chocolate-bread-pudding-carnation"
+      ]
     },
     {
       "id": "cheese-sauce-on-bread-gutenberg-15464",
@@ -43244,7 +43284,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "coffee-cake-gutenberg-31102"
     },
     {
       "id": "parker-house-rolls-gutenberg-26374",
@@ -43349,7 +43390,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "parker-house-rolls-gutenberg-31102"
     },
     {
       "id": "french-rolls-gutenberg-26374",
@@ -43742,7 +43784,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "waffles-gutenberg-31102"
     },
     {
       "id": "apple-biscuit-gutenberg-26374",
@@ -44097,7 +44140,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "cinnamon-rolls-gutenberg-31102"
     },
     {
       "id": "soda-biscuit-gutenberg-28491",
@@ -44319,7 +44363,10 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "sweet-potato-biscuit-wilsonscoo"
+      ]
     },
     {
       "id": "waffles-gutenberg-28491",
@@ -44393,7 +44440,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "waffles-gutenberg-31102"
     },
     {
       "id": "plain-corn-bread-gutenberg-28491",
@@ -45322,7 +45370,10 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "cornbread-thewhysofc"
+      ]
     },
     {
       "id": "ginger-bread-gutenberg-33748",
@@ -45453,7 +45504,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "ginger-bread-gutenberg-31102"
     },
     {
       "id": "spoon-bread-gutenberg-31102",
@@ -45530,7 +45582,11 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "spoon-bread-auntcaroli",
+        "spoon-bread-gutenberg-15464"
+      ]
     },
     {
       "id": "oatmeal-bread-gutenberg-31102",
@@ -45607,7 +45663,11 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "oatmeal-bread-themetropo",
+        "oatmeal-bread-gutenberg-15464"
+      ]
     },
     {
       "id": "nut-bread-gutenberg-31102",
@@ -45684,7 +45744,13 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "nut-bread-carnation",
+        "nut-bread-gutenberg-31102-2",
+        "nut-bread-gutenberg-31102-3",
+        "nut-bread-gutenberg-31102-4"
+      ]
     },
     {
       "id": "nut-bread-gutenberg-31102-2",
@@ -45761,7 +45827,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "nut-bread-gutenberg-31102"
     },
     {
       "id": "nut-bread-gutenberg-31102-3",
@@ -45838,7 +45905,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "nut-bread-gutenberg-31102"
     },
     {
       "id": "nut-bread-gutenberg-31102-4",
@@ -45915,7 +45983,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "nut-bread-gutenberg-31102"
     },
     {
       "id": "nut-loaf-gutenberg-31102",
@@ -46069,7 +46138,10 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "graham-bread-wilsonscoo"
+      ]
     },
     {
       "id": "raisin-graham-bread-gutenberg-31102",
@@ -46377,7 +46449,11 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "boston-brown-bread-themetropo",
+        "boston-brown-bread-gutenberg-15464"
+      ]
     },
     {
       "id": "boston-brown-bread-no-2-gutenberg-31102",
@@ -46610,7 +46686,10 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "johnny-cake-gutenberg"
+      ]
     },
     {
       "id": "corn-cake-gutenberg-31102",
@@ -46918,7 +46997,10 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "baking-powder-biscuits-carnation"
+      ]
     },
     {
       "id": "parker-house-rolls-gutenberg-31102",
@@ -46995,7 +47077,11 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "parker-house-rolls-wilsonscoo",
+        "parker-house-rolls-gutenberg-26374"
+      ]
     },
     {
       "id": "oatmeal-gems-gutenberg-31102",
@@ -47228,7 +47314,11 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "potato-biscuit-thewhysofc",
+        "potato-biscuit-gutenberg-15464"
+      ]
     },
     {
       "id": "southern-potato-biscuits-gutenberg-31102",
@@ -47461,7 +47551,12 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "muffins-gutenberg-31102-2",
+        "muffins-gutenberg-31102-3",
+        "muffins-gutenberg-31102-4"
+      ]
     },
     {
       "id": "afternoon-tea-rolls-gutenberg-31102",
@@ -47615,7 +47710,13 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "oatmeal-muffins-themetropo",
+        "oatmeal-muffins-wilsonscoo",
+        "oatmeal-muffins-ref",
+        "oatmeal-muffins-gutenberg-15464"
+      ]
     },
     {
       "id": "bran-muffins-gutenberg-31102",
@@ -47692,7 +47793,12 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "bran-muffins-gutenberg",
+        "bran-muffins-dudeskitch",
+        "bran-muffins-ref"
+      ]
     },
     {
       "id": "muffins-gutenberg-31102-2",
@@ -47769,7 +47875,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "muffins-gutenberg-31102"
     },
     {
       "id": "muffins-gutenberg-31102-3",
@@ -47846,7 +47953,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "muffins-gutenberg-31102"
     },
     {
       "id": "blueberry-muffins-gutenberg-31102",
@@ -47923,7 +48031,12 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "blueberry-muffins-gutenberg",
+        "blueberry-muffins-dutchovenc",
+        "blueberry-muffins-theplainsa"
+      ]
     },
     {
       "id": "muffins-gutenberg-31102-4",
@@ -48000,7 +48113,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "muffins-gutenberg-31102"
     },
     {
       "id": "cold-water-muffins-gutenberg-31102",
@@ -48154,7 +48268,12 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "sally-lunn-gutenberg",
+        "sally-lunn-auntcaroli",
+        "sally-lunn-scottsnort"
+      ]
     },
     {
       "id": "french-coffee-cake-gutenberg-31102",
@@ -48316,7 +48435,14 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "coffee-cake-gutenberg",
+        "coffee-cake-thewhysofc",
+        "coffee-cake-gutenberg-26374",
+        "coffee-cake-gutenberg-26374-2",
+        "coffee-cake-gutenberg-28491"
+      ]
     },
     {
       "id": "cinnamon-cake-gutenberg-31102",
@@ -48393,7 +48519,11 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "cinnamon-cake-wilsonscoo",
+        "cinnamon-cake-gutenberg-31102-2"
+      ]
     },
     {
       "id": "cinnamon-rolls-gutenberg-31102",
@@ -48470,7 +48600,10 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "cinnamon-rolls-gutenberg-65501"
+      ]
     },
     {
       "id": "breakfast-puffs-gutenberg-31102",
@@ -48547,7 +48680,10 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "breakfast-puffs-gutenberg-14293"
+      ]
     },
     {
       "id": "toast-patty-cases-gutenberg-31102",
@@ -48855,7 +48991,13 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "popovers-courseofle",
+        "popovers-scottsnort",
+        "popovers-theplainsa",
+        "popovers-gutenberg-31102-2"
+      ]
     },
     {
       "id": "popovers-gutenberg-31102-2",
@@ -48932,7 +49074,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "popovers-gutenberg-31102"
     },
     {
       "id": "french-pancakes-gutenberg-31102",
@@ -49086,7 +49229,10 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "banana-pancakes-wilsonscoo"
+      ]
     },
     {
       "id": "raw-potato-pancakes-gutenberg-31102",
@@ -49240,7 +49386,11 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "potato-pancakes-gutenberg",
+        "potato-pancakes-gutenberg-15464"
+      ]
     },
     {
       "id": "bread-pancakes-gutenberg-31102",
@@ -49473,7 +49623,15 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variants": [
+        "waffles-carnation",
+        "waffles-dudeskitch",
+        "waffles-gutenberg-26374",
+        "waffles-gutenberg-28491",
+        "waffles-gutenberg-31102-2",
+        "waffles-gutenberg-31102-3"
+      ]
     },
     {
       "id": "waffles-gutenberg-31102-2",
@@ -49550,7 +49708,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "waffles-gutenberg-31102"
     },
     {
       "id": "waffles-gutenberg-31102-3",
@@ -49627,7 +49786,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "waffles-gutenberg-31102"
     },
     {
       "id": "carrie-watkins-waffles-gutenberg-31102",
