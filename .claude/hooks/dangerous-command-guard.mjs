@@ -1,4 +1,37 @@
 #!/usr/bin/env node
+// @gate name=dangerous-command-guard plane=harness event=PreToolUse Bash (Claude) and run_terminal_command (Grok), every shell command, main agent and sub-agents doc=skills/destructive-command-safety/SKILL.md#refusal-codes
+// @gate-code stdin-uninspectable: the tool call could not be read | remedy: retry the command; a call this guard has not read is not cleared
+// @gate-code command-over-review-ceiling: the command is longer than the review ceiling | remedy: put the long text in a file with the Write tool and run the file, or split the command
+// @gate-code detector-unavailable: the detector module failed to load | remedy: restore cluster/lib/dangerous-command.mjs or the copy beside this hook | override: DANGEROUS_COMMAND_GUARD_FAIL_OPEN=1 (operator)
+// @gate-code detector-unavailable-inline: the detector failed to load and an inline catastrophic pattern matched | remedy: restore the detector; do not run the command
+// @gate-code scan-deadline-exceeded: the review did not finish inside its budget | remedy: put the long text in a file and run the file, or split the command
+// @gate-code scan-child-failed: the scan child returned no usable verdict | remedy: read the error in the denial; put complex logic in a reviewed file
+// @gate-code detector-runtime-error: the detector threw while scanning | remedy: read the error the denial names; the command is not cleared
+// @gate-code rm-recursive-root: recursive force-delete of a filesystem root, home, or system dir | remedy: narrow the target; test this guard only with an INERT payload
+// @gate-code rm-variable-command-verb: recursive force-delete via a variable used as the command verb | remedy: narrow the target; do not hide rm behind a variable
+// @gate-code rm-cmdsub-verb: recursive force-delete via command-substitution used as the verb | remedy: narrow the target; do not hide rm behind a substitution
+// @gate-code chmod-chown-root: recursive permission or ownership change on a filesystem root | remedy: narrow the path
+// @gate-code secure-delete-catastrophic: irreversible secure-delete of a filesystem root or home | remedy: narrow the path; a real wipe is the operator's action
+// @gate-code no-preserve-root: --no-preserve-root, which exists to erase / | remedy: drop the flag
+// @gate-code disk-dd: dd writing to a raw device | remedy: do not write a device; a real wipe is the operator's action
+// @gate-code device-redirect: redirecting output onto a raw device | remedy: do not redirect onto a device
+// @gate-code mkfs: formatting a filesystem | remedy: do not format; a real format is the operator's action
+// @gate-code diskutil-erase: diskutil erase, zero, or reformat | remedy: do not erase a disk; that is the operator's action
+// @gate-code shred-device: shred against a raw device | remedy: do not shred a device
+// @gate-code fork-bomb: fork bomb | remedy: do not run it
+// @gate-code find-delete-root: find on a home or filesystem root with -delete or -exec rm | remedy: narrow the find target, or add a selecting predicate
+// @gate-code find-delete-cwd: unfiltered find in the current directory with -delete or -exec rm | remedy: add a selecting predicate such as -name
+// @gate-code force-push-protected: force-push to a protected branch | remedy: push the feature branch; do not force-push main, master, or prod
+// @gate-code git-clean-ignored: git clean that deletes ignored files | remedy: drop the force flag that deletes ignored files
+// @gate-code curl-pipe-shell: a network download piped into a shell or interpreter | remedy: save the file, read it, then run the file you read
+// @gate-code decoder-pipe-shell: a decoder piped into a shell or interpreter | remedy: decode to a file, read it, then run the file you read
+// @gate-code shell-c-download-sub: shell -c with a download inside a command substitution | remedy: save the download, read it, then run the file you read
+// @gate-code download-then-execute: download to a file and execute that path in the same command | remedy: download, read the file, then run it in a later command
+// @gate-code interpreter-download-substitution: an interpreter executing a freshly downloaded script via process substitution | remedy: save the file, read it, then run the file you read
+// @gate-code interpreter-embedded-rm: an interpreter one-liner embedding a recursive delete of a catastrophic path | remedy: do not embed that delete; narrow the target
+// @gate-code shell-structure-complexity: the shell structure exceeds the detector's review ceiling or could not be normalized | remedy: put the logic in a reviewed file and run the file
+// @gate-exit 0: allowed. Also: not a shell tool, empty or unparseable input, a scan that matched nothing, or the operator switch DANGEROUS_COMMAND_GUARD_FAIL_OPEN=1 when the detector cannot load and no inline pattern matched
+// @gate-exit 2: denied. stderr and the JSON decision print code=<slug> and name docs/GATE-REGISTRY.md. No agent override for a matched catastrophic command
 // A.B.O.R.T. destructive-command guard — PreToolUse hook (Claude + Grok).
 //
 // Inspects live shell commands only (Bash / run_terminal_command). Blocks exit 2
@@ -10,8 +43,15 @@
 //
 // Sophos OS §5 destructive_execution — operational gate outside sophosGovern.
 // HLS: destructive-command-hook-grok (dual-runtime extension of Claude belt).
+//
+// SUPERSET NOTE (2026-09-25): diffed line-for-line against Project-Sophos's copy. Every line there
+// is present here verbatim; this file additionally carries the 2026-09-20 scan-budget/deadline
+// hardening (#2744: CMD_MAX_CHARS ceiling, the SIGKILL-able child-process scan deadline) that
+// Project-Sophos's copy predates. A pure superset, not a union — nothing to merge in from there.
 
 import crypto from "node:crypto";
+import { spawnSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
 import {
   normalizeHookInput,
   appendEvent,
@@ -42,16 +82,57 @@ function envInt(name, fallback) {
 const STDIN_MS = envInt("DANGEROUS_COMMAND_GUARD_STDIN_MS", 5000);
 const STDIN_MAX_BYTES = envInt("DANGEROUS_COMMAND_GUARD_STDIN_MAX_BYTES", 1024 * 1024);
 
+// --- scan budget (#2744) -------------------------------------------------------------------------
+// The stdin bound above closes the read side. The SCAN side had no bound. Measured 2026-09-20 with inert
+// strings, scanCommand() is quadratic in command length for a single long token (131,077 chars: 190.8 s) and
+// for repeated wrappers (`eval eval ...`: 1.79 s at 2 KB, 7.24 s at 4 KB), and EXPONENTIAL for wrappers that
+// carry a command substitution: `eval $(a) eval $(a) ...` took 16 ms at 64 chars, 295 ms at 128, 31.9 s at
+// 192 and over 40 s at 256. The detector's own ceiling of 128 execution delimiters is far too high to bound
+// that. The harness PROCEEDS when a PreToolUse hook times out (this repo's settings.json gives this hook 10 s;
+// a user-level entry with no timeout runs 600 s), so a guard still scanning when its clock ends has, in
+// effect, allowed the command, and a command of about 200 characters is enough to get there.
+//
+// Two ties, on different planes, because the ceiling is NOT a time bound and the deadline is the only thing
+// that is. NO length is small enough to scan unguarded (the blow-up starts near 100 chars and a length
+// threshold is exactly what an attacker picks around), so EVERY scan runs under the deadline:
+//   DEADLINE: the scan runs in a child this process can SIGKILL, because the scan is synchronous JS and no
+//     timer can interrupt it. Only a well-formed verdict from the child inside the budget can allow; every
+//     other outcome (timeout, crash, garbage) is a DENY. The budget counts from PROCESS START (stdin wait,
+//     import, spawn, scan) and must stay under the smallest harness timeout;
+//     dangerous-command-scan-budget.test.mjs binds the two so they cannot drift.
+//   CEILING: a command longer than CMD_MAX_CHARS is denied before any scan starts. A resource bound and a
+//     second, size-based tie: it needs no child process, so it holds if spawning is what is broken. The
+//     detector already refuses unreviewable shell structure the same way ("put complex logic in a reviewed
+//     file"). Cost: a legitimate command over the ceiling is denied; use the Write tool for that text.
+//
+// A 0 for any knob is honoured (UL-895), but the budget has a floor so a 0 can never mean "no deadline".
+// Root cause (the exponential recursion in the detector) is NOT fixed here; this makes it unable to fail open.
+const CMD_MAX_CHARS = envInt("DANGEROUS_COMMAND_GUARD_CMD_MAX_CHARS", 65536);
+const BUDGET_MS = envInt("DANGEROUS_COMMAND_GUARD_BUDGET_MS", 8000);
+const BUDGET_FLOOR_MS = 250;
+// The CHILD half of the deadline. Selected by ARGV, never by env: an env switch that made the hook print a
+// verdict and exit 0 would be a bypass knob. Argv is only reachable by editing the hook's own settings entry.
+const VERDICT_MODE = process.argv[2] === "--scan-verdict";
+
+function codedDenial(msg, codes) {
+  const list = [...new Set((codes || []).filter(Boolean))];
+  const token = list.length ? `code=${list.join(" code=")}\n` : "";
+  const base = String(msg).replace(/\n+$/, "");
+  return `${base}\n${token}Key: docs/GATE-REGISTRY.md\n`;
+}
+
 function denyUninspectable(why) {
-  process.stderr.write(
+  const text = codedDenial(
     `\u26d4 A.B.O.R.T. destructive-command guard\n` +
       `BLOCKED (fail-closed): the guard could not read the tool call to inspect it — ${why}. ` +
-      `A command this guard has not read is a command it has not cleared.\n`,
+      `A command this guard has not read is a command it has not cleared.`,
+    ["stdin-uninspectable"],
   );
+  process.stderr.write(text);
   try {
     if (getRuntime() === "grok") {
       process.stdout.write(
-        JSON.stringify({ decision: "deny", reason: `guard could not read stdin: ${why}` }) + "\n",
+        JSON.stringify({ decision: "deny", reason: text.replace(/\n+$/, "") }) + "\n",
       );
     }
   } catch {
@@ -121,7 +202,14 @@ try {
 if (!command.trim()) process.exit(0);
 
 function deny(msg, meta = {}) {
-  process.stderr.write(msg);
+  const codes = Array.isArray(meta.codes) && meta.codes.length
+    ? meta.codes
+    : (meta.rule_id ? [meta.rule_id] : []);
+  const text = codedDenial(msg, codes);
+  process.stderr.write(text);
+  // The scan CHILD only reports. It exits 2 with no verdict on stdout, the PARENT treats that as a deny and
+  // writes the one ledger event, so a single denial is never recorded twice.
+  if (VERDICT_MODE) process.exit(2);
   // Best-effort ledger (never breaks the deny path).
   try {
     const sessionId = normalized?.session_id || "unknown";
@@ -143,13 +231,25 @@ function deny(msg, meta = {}) {
   try {
     if (getRuntime() === "grok") {
       process.stdout.write(
-        JSON.stringify({ decision: "deny", reason: msg.replace(/\n+$/, "") }) + "\n",
+        JSON.stringify({ decision: "deny", reason: text.replace(/\n+$/, "") }) + "\n",
       );
     }
   } catch {
     /* ignore */
   }
   process.exit(2);
+}
+
+// CEILING (#2744, see the scan-budget note above). Checked before the detector is even loaded, and not
+// in the child: the parent owns this decision.
+if (!VERDICT_MODE && command.length > CMD_MAX_CHARS) {
+  deny(
+    `⛔ A.B.O.R.T. destructive-command guard\n` +
+      `BLOCKED (fail-closed): this command is ${command.length} characters, over the review ceiling of ${CMD_MAX_CHARS}. ` +
+      `A command this guard cannot review inside its time budget is a command it has not cleared. ` +
+      `Put the long text in a file (the Write tool) and run the file, or split the command.\n`,
+    { rule_id: "command-over-review-ceiling" },
+  );
 }
 
 // Load the shared detector. On import failure DO NOT fail open — a guard-module
@@ -195,6 +295,7 @@ try {
   if (INLINE.some((re) => re.test(command))) {
     deny(
       `⛔ dangerous-command-guard: detector unavailable AND the command matches a catastrophic inline pattern — BLOCKED (fail-closed). ${e?.message || e}\n`,
+      { rule_id: "detector-unavailable-inline" },
     );
   }
   // Default: fail CLOSED on live shell when the detector cannot load.
@@ -209,12 +310,51 @@ try {
     `⛔ dangerous-command-guard: detector unavailable — BLOCKED (fail-closed). ` +
       `Fix the detector import path, or set DANGEROUS_COMMAND_GUARD_FAIL_OPEN=1 only if you mean to allow. ` +
       `${e?.message || e}\n`,
+    { rule_id: "detector-unavailable" },
+  );
+}
+
+// DEADLINE (#2744, see the scan-budget note above). Runs the scan in a child this process can SIGKILL and
+// returns its verdict; anything else is a DENY, because a scan the guard could not finish is a command it
+// has not cleared and the harness proceeds when THIS process times out. Never returns a non-verdict.
+function scanUnderDeadline() {
+  const remaining = Math.max(BUDGET_FLOOR_MS, BUDGET_MS - Math.round(process.uptime() * 1000));
+  const child = spawnSync(process.execPath, [fileURLToPath(import.meta.url), "--scan-verdict"], {
+    input: rawText,
+    encoding: "utf8",
+    timeout: remaining,
+    killSignal: "SIGKILL",
+    maxBuffer: 1024 * 1024,
+    windowsHide: true,
+  });
+  let verdict = null;
+  if (!child.error && child.status === 0) {
+    try { verdict = JSON.parse(child.stdout); } catch { verdict = null; }
+  }
+  if (verdict && typeof verdict.blocked === "boolean" && Array.isArray(verdict.matched)) return verdict;
+  const timedOut = child.error?.code === "ETIMEDOUT";
+  const why = timedOut
+    ? `the review of this ${command.length}-character command did not finish inside its ${remaining} ms budget`
+    : `the review of this ${command.length}-character command returned no usable verdict (${
+        String(child.error?.code || (child.signal ? `signal ${child.signal}` : `exit ${child.status}`))
+      }${child.stderr ? `: ${String(child.stderr).replace(/\s+/g, " ").slice(0, 160)}` : ""})`;
+  deny(
+    `⛔ A.B.O.R.T. destructive-command guard\n` +
+      `BLOCKED (fail-closed): ${why}. A command this guard has not finished reading is a command it has not cleared. ` +
+      `Put the long text in a file (the Write tool) and run the file, or split the command.\n`,
+    { rule_id: timedOut ? "scan-deadline-exceeded" : "scan-child-failed" },
   );
 }
 
 let result;
 try {
-  result = scanCommand(command);
+  if (VERDICT_MODE) {
+    // The CHILD half: report the detector's verdict as JSON and exit 0; the PARENT judges it.
+    const v = scanCommand(command);
+    process.stdout.write(JSON.stringify({ blocked: v.blocked === true, matched: Array.isArray(v.matched) ? v.matched : [] }));
+    process.exit(0);
+  }
+  result = scanUnderDeadline();
 } catch (error) {
   deny(
     `⛔ dangerous-command-guard: detector runtime error — BLOCKED (fail-closed). ` +
@@ -224,6 +364,9 @@ try {
 }
 if (result.blocked) {
   const body = "⛔ A.B.O.R.T. destructive-command guard\n" + explain(result) + "\n";
-  deny(body, { rule_id: result.matched?.[0]?.id || null });
+  deny(body, {
+    rule_id: result.matched?.[0]?.id || null,
+    codes: (result.matched || []).map((m) => m.id),
+  });
 }
 process.exit(0);

@@ -1953,7 +1953,29 @@ function matchDecoderPipeShell(cmd) {
 // substitution fed to -c, so there is no pipe token for curl-pipe-shell to see.
 function matchShellCDownloadSub(cmd) {
   const m = String(cmd).match(
-    /\b(sh|bash|zsh|dash|ksh|ash)\s+-[A-Za-z]*c\s+["']?\$\(\s*(curl|wget|fetch)\b/i,
+    /\b(sh|bash|zsh|dash|ksh|ash)\s+-[A-Za-z]*c\s+["']?\$\s*\(\s*(curl|wget|fetch)\b/i,
+  );
+  return m ? { sample: m[0].trim().slice(0, 120) } : null;
+}
+
+// Gap family B — the decoder twin of shell-c-download-sub: `eval "$(echo … | base64 -d)"` /
+// `sh -c "$(echo … | base64 -d)"`. The decoder is inside a command substitution fed to eval/-c,
+// so there is no pipe token for decoder-pipe-shell to see, and the decoded bytes reach a shell
+// exactly as the direct `… | base64 -d | sh` form does (p1-close-detector-bypass-routes, 2026-09-20).
+function matchDecoderSubstitutionShell(cmd) {
+  const m = String(cmd).match(
+    /\b(eval|sh|bash|zsh|dash|ksh|ash)\b[^\n;]*?\s+["']?\$\s*\(\s*[^;\n]*?\b(base64|xxd|uudecode|openssl)\b[^\n;]*?(?:-d\b|-r\s+-p\b|base64\s+-d\b)[^\n;]*?\)/i,
+  );
+  return m ? { sample: m[0].trim().slice(0, 120) } : null;
+}
+
+// Windows / PowerShell catastrophic shapes (p1-close-detector-bypass-routes, 2026-09-20):
+// recursive remove of the system drive, format of a drive, and cmd rd/del on the system drive.
+// These are the Windows twins of `rm -rf /` — a single command that irreversibly wipes a drive.
+function matchWindowsCatastrophic(cmd) {
+  const s = String(cmd);
+  const m = s.match(
+    /(?:powershell\s+-Command\s+["']?Remove-Item\s+-Recurse\s+-Force\s+[A-Za-z]:|cmd\s+\/c\s+["']?rd\s+\/s\s+\/q\s+[A-Za-z]:|del\s+\/f\s+\/s\s+\/q\s+[A-Za-z]:|format\s+[A-Za-z]:\s+\/q\s+\/y)/i,
   );
   return m ? { sample: m[0].trim().slice(0, 120) } : null;
 }
@@ -2188,6 +2210,16 @@ const RULES = [
     test: matchShellCDownloadSub,
   },
   {
+    id: "decoder-substitution-shell",
+    reason: "eval/shell -c over a command-substitution decoder pipe (base64/xxd inside $() reaching a shell)",
+    test: matchDecoderSubstitutionShell,
+  },
+  {
+    id: "windows-catastrophic",
+    reason: "Windows/PowerShell command that irreversibly wipes or formats a drive",
+    test: matchWindowsCatastrophic,
+  },
+  {
     id: "download-then-execute",
     reason: "download to a file then execute that path in the same command",
     test: matchDownloadThenExecute,
@@ -2199,15 +2231,32 @@ const RULES = [
     const m = c.match(/(?:(?:sudo\s+)?(?:sh|bash|zsh|dash|python3?|perl|ruby|node)\b|\bsource\b|(?:^|[\n;&|])\s*\.)\s+<\(\s*(curl|wget|fetch)\b/i);
     return m ? { sample: m[0].trim().slice(0, 120) } : null;
   } },
-  // Language -e/-c/-r one-liners that embed a recursive catastrophic rm (ruby/python/node/perl/php).
+  // Language -e/-c/-r one-liners that embed a recursive catastrophic rm (ruby/python/node/perl/php/awk).
   // The shell never sees `rm` at a command boundary — the interpreter executes it — so BOUNDARY+rm
-  // alone misses `ruby -e 'system "rm -rf /"'` (hostile residual after pipe/source pass).
+  // alone misses `ruby -e 'system "rm -rf /"'` (hostile residual after pipe/source pass). awk's
+  // `system()` is the same class (p1-close-detector-bypass-routes, 2026-09-20).
   { id: "interpreter-embedded-rm", reason: "interpreter one-liner embedding recursive delete of a catastrophic path", test: matchInterpreterEmbeddedRm },
-];
+  // Interpreter system()/exec() calls that embed a catastrophic rm WITHOUT a -e/-c flag: awk
+  // 'BEGIN{system("rm -rf /")}', python3 -c 'os.system("rm -rf /")' (the -c is covered above but
+  // the bare-program form is not), node -e 'child_process.exec("rm -rf /")'. The interpreter
+  // executes the string; the shell never sees rm at a command boundary
+  // (p1-close-detector-bypass-routes, 2026-09-20).
+  { id: "interpreter-system-call", reason: "interpreter system()/exec() embedding a recursive catastrophic rm", test: matchInterpreterSystemCall },
+  // Here-string into a shell: `sh <<< 'rm -rf /'` feeds the shell a command string without a
+  // heredoc marker. Its heredoc twin (`sh <<EOF`) is already denied; the here-string was the
+  // cheapest sibling (p1-close-detector-bypass-routes, 2026-09-20).
+  { id: "here-string-into-shell", reason: "here-string feeding a shell a command string (<<<)", test: matchHereStringIntoShell },
+  // Brace expansion assembles the command words: `{rm,-rf,/}` expands to `rm -rf /` at the shell.
+  // The verb never appears at a command boundary in the source (p1-close-detector-bypass-routes).
+  { id: "brace-expansion-command", reason: "brace expansion assembling a destructive command", test: matchBraceExpansionCommand },
+  // Empty-source refspec delete: `git push origin :main` deletes the remote branch. The force-push
+  // rule covers `+main` but not the empty-source colon form (p1-close-detector-bypass-routes).
+  { id: "git-refspec-delete", reason: "deleting a remote branch by empty-source refspec (git push origin :branch)", test: matchGitRefspecDelete },
+  ];
 
 function matchInterpreterEmbeddedRm(cmd) {
   // m[1] is the one-liner body, read below; cmdWord is all-non-capturing so it stays group 1.
-  const re = new RegExp(BOUNDARY + cmdWord("ruby|python3?|perl|node|php|lua") + "\\b([^\\n;&|]*)", "gi");
+  const re = new RegExp(BOUNDARY + cmdWord("ruby|python3?|perl|node|php|lua|awk") + "\\b([^\\n;&|]*)", "gi");
   let m;
   while ((m = re.exec(cmd))) {
     const body = m[1] || "";
@@ -2226,6 +2275,66 @@ function matchInterpreterEmbeddedRm(cmd) {
     if (catastrophic) return { sample: m[0].trim().slice(0, 120), detail: "interpreter embeds recursive catastrophic rm" };
   }
   return null;
+}
+
+// Interpreter system()/exec() calls that embed a catastrophic rm WITHOUT a -e/-c flag: awk
+// 'BEGIN{system("rm -rf /")}', python3 -c 'os.system("rm -rf /")' (the -c is covered above but the
+// bare-program form is not), node -e 'child_process.exec("rm -rf /")'. The interpreter executes the
+// string; the shell never sees rm at a command boundary (p1-close-detector-bypass-routes, 2026-09-20).
+function matchInterpreterSystemCall(cmd) {
+  // An interpreter invocation (awk/python/node/...), then a system()/exec()/popen()/spawn() call
+  // whose in-quotes argument embeds a recursive catastrophic rm. Using a regex literal with a
+  // back-referenced quote (~1) avoids double-in-double-quote escaping entirely.
+  const interp = new RegExp("(?<![A-Za-z0-9])(?:awk|ruby|python3?|perl|node|php|lua)(?![A-Za-z0-9])", "i");
+  if (!interp.test(cmd)) return null;
+  const m = String(cmd).match(/(?:system|exec|popen|spawn)\s*\(\s*(["'`])([\s\S]*?\brm\b[\s\S]*?)\1\s*\)?/i);
+  if (!m) return null;
+  const body = m[2] || "";
+  const catastrophic =
+    /(?:-rf|-fr|-[A-Za-z]*r[A-Za-z]*f)\s*\/(?:\s|["'`);,]|$)/i.test(body) ||
+    /rm\b[\s\S]{0,120}(?:\s|["'`(=])\/(?:\s|["'`);,]|$)/.test(body) ||
+    /rm\b[\s\S]{0,120}(?:~|\$\{?HOME\}?)(?:\s|["'`);,/]|$)/.test(body) ||
+    /rm\b[\s\S]{0,120}\/(?:Users|home|etc|var|usr|private|System|Library)\b/.test(body);
+  if (!catastrophic) return null;
+  return { sample: m[0].trim().slice(0, 120), detail: "interpreter system()/exec() embeds a recursive catastrophic rm" };
+}
+
+// Here-string into a shell: `sh <<< 'rm -rf /'` feeds the shell a command string without a heredoc
+// marker. The heredoc twin (`sh <<EOF`) is already denied; the here-string was the cheapest sibling
+// (p1-close-detector-bypass-routes, 2026-09-20). Match a shell verb followed by `<<<`.
+function matchHereStringIntoShell(cmd) {
+  const m = String(cmd).match(
+    new RegExp(BOUNDARY + cmdWord("sh|bash|zsh|dash|ksh|ash") + "\\b[^\\n;]*?<<<\\s*['\"]?([^'\"\\n]*)", "i"),
+  );
+  return m ? { sample: m[0].trim().slice(0, 120), detail: "here-string feeds a shell a command string" } : null;
+}
+
+// Brace expansion assembles the command words: `{rm,-rf,/}` expands to `rm -rf /` at the shell.
+// The verb never appears at a command boundary in the source, so BOUNDARY+rm misses it
+// (p1-close-detector-bypass-routes, 2026-09-20). Match a brace group whose first word is a
+// destructive verb and whose remaining words include a catastrophic path.
+function matchBraceExpansionCommand(cmd) {
+  const m = String(cmd).match(/\{([A-Za-z][A-Za-z0-9]*)((?:,[^,}]*)+)\}/g);
+  if (!m) return null;
+  for (const group of m) {
+    const inner = group.slice(1, -1).split(",").map((s) => s.trim()).filter(Boolean);
+    if (!inner.length) continue;
+    const verb = inner[0].toLowerCase();
+    if (!/^(rm|rmdir|shred|srm|wipe|mkfs|dd|chmod|chown)$/.test(verb)) continue;
+    const rest = inner.slice(1).join(" ");
+    if (/(?:-rf|-fr|-[A-Za-z]*r[A-Za-z]*f)\s*\/|(?:^|\s)\/(?:Users|home|etc|var|usr|private|System|Library)\b|(?:^|\s)~/.test(rest)) {
+      return { sample: group.slice(0, 120), detail: "brace expansion assembles a destructive command" };
+    }
+  }
+  return null;
+}
+
+// Empty-source refspec delete: `git push origin :main` deletes the remote branch. The force-push
+// rule covers `+main` but not the empty-source colon form (p1-close-detector-bypass-routes).
+function matchGitRefspecDelete(cmd) {
+  const m = String(cmd).match(/\bgit\s+push\b[^\n;]*?(?:\s|^):([A-Za-z0-9_.\/-]+)\b/g);
+  if (!m) return null;
+  return { sample: m[0].trim().slice(0, 120), detail: "empty-source refspec deletes a remote branch" };
 }
 
 /**
@@ -2299,6 +2408,9 @@ export function scanCommand(raw) {
     "rm-cmdsub-verb",
     "download-then-execute",
     "decoder-pipe-shell",
+    "decoder-substitution-shell",
+    "windows-catastrophic",
+    "interpreter-system-call",  // reads in-quotes system()/exec() payload — survives projection only in raw source
   ]);
   const matched = [];
   const seen = new Set();
