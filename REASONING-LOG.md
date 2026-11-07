@@ -8,6 +8,16 @@ You asked for a live stream of consciousness: when you ask me a question or hand
 task, you want to see how I reached the conclusion and why I made the calls I made. This
 file is that record.
 
+## 2026-11-07 — parse 18 Complete Book of Cheese paragraph-blob recipes into structured ingredients (Allrecipes P1 audit0827-all-single-ingredient-blobs)
+
+**Asked.** Ken directed the full measured cycle on the highest-priority open Argus task after a main fast-forward. Recommended and approved: `audit0827-all-single-ingredient-blobs` in Allrecipes — 1,616 recipes recorded as carrying <=1 ingredient entry.
+
+**Weighed.** Measured against canonical `origin/main` (24c5fac), the registered framing was stale: only **18** recipes actually carried a paragraph-length blob as their single ingredient (all pg14293 Complete Book of Cheese); the 861 Stevenson entries are legitimate single-ingredient/short records, and prior passes already converted the bulk. A blanket 1,598-recipe re-parse would have risked corrupting ~1,580 fine records — rejected, careful not clever. The narrative source text lives in-repo (`all/HTML/pg14293-h/pg14293-images.html`), so ground truth was available. The automated `fix_empty_ingredients.py` parser produced noisy output (mid-phrase truncations), so a hand-curated parse against the source narrative was chosen for each of the 18.
+
+**Decided.** Replaced the single paragraph blob in each of the 18 recipes with a hand-curated structured `{item, quantity, unit, prep_note}` array matching the repo's existing schema/style, then regenerated the rendered shards from `data/recipes.json` via the canonical `scripts/shardify_recipes.py`. Verified: 0 long-blob single-ingredient recipes remain; all 18 fixed recipes carry multi-ingredient arrays; all 18 changed recipes across the 7 touched shards are exactly the intended set (0 out-of-scope — no pre-existing drift swept in); all JSON parses; total count unchanged (9,813).
+
+**Unsure.** Whether the separate `ingredient-index.json` should be regenerated: I measured it was ALREADY drifted against `recipes.json` at HEAD (13484 committed vs 13481 from regeneration), so regenerating it would sweep unrelated drift into this commit — I left it untouched and out of this fix. Whether to open a PR or land directly depends on the repo's normal flow; I present the branch for review.
+
 ## 2026-09-03 — .household-root: the doctrine and runtime roots, discoverable by reading (open-claw-stuff #3098)
 
 **Asked.** Household loop (patron yumi): make this repo able to say where Sophos is from here.
