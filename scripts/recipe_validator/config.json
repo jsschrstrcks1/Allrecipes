@@ -1,0 +1,163 @@
+{
+  "repo_label": "Allrecipes (Other Family Recipes)",
+  "data_file": "data/recipes.json",
+  "image_dir": "data",
+  "required_fields": [
+    "id",
+    "title",
+    "ingredients",
+    "instructions",
+    "category"
+  ],
+  "optional_fields": [
+    "attribution",
+    "source_note",
+    "description",
+    "servings_yield",
+    "prep_time",
+    "cook_time",
+    "total_time",
+    "temperature",
+    "pan_size",
+    "notes",
+    "tips",
+    "substitutions",
+    "tags",
+    "confidence",
+    "image_refs",
+    "page_continuation",
+    "conversions",
+    "nutrition",
+    "variant_of",
+    "variants",
+    "variant_notes",
+    "canonical_id",
+    "frosting",
+    "oven_directions",
+    "components",
+    "component_of",
+    "is_component"
+  ],
+  "valid_categories": [
+    "appetizers",
+    "basics",
+    "beverages",
+    "breads",
+    "breakfast",
+    "cheese",
+    "desserts",
+    "mains",
+    "salads",
+    "sides",
+    "soups",
+    "snacks"
+  ],
+  "valid_confidence": [
+    "high",
+    "medium",
+    "low"
+  ],
+  "ingredient_optional_categories": [],
+  "empty_instructions_ok_categories": [],
+  "warn_missing_nutrition": false,
+  "sanity_limits": {
+    "sugar": {
+      "max_cups": 8
+    },
+    "flour": {
+      "max_cups": 12
+    },
+    "butter": {
+      "max_cups": 4,
+      "max_tbsp": 24
+    },
+    "baking soda": {
+      "max_tsp": 6
+    },
+    "baking powder": {
+      "max_tbsp": 6
+    }
+  },
+  "sanity_match": "word_boundary",
+  "sanity_skip_quantity_over": 50,
+  "quantity_parse": "simple",
+  "sanity_skip_item_substrings": [],
+  "limit_overrides": [],
+  "temperature_mode": "cheese_dual_range",
+  "temp_min": 200,
+  "temp_max": 550,
+  "temp_min_low": null,
+  "cheese_temp_min": 50,
+  "cheese_temp_max": 220,
+  "low_temp_categories": [
+    "cheese"
+  ],
+  "low_temp_tags": [
+    "cheese",
+    "cheesemaking",
+    "cheese-making",
+    "homemade cheese",
+    "fermented",
+    "cultured",
+    "yogurt",
+    "kefir",
+    "sourdough",
+    "yeast",
+    "bread",
+    "dough",
+    "ice cream",
+    "frozen",
+    "custard",
+    "crepes"
+  ],
+  "low_temp_title_terms": [
+    "yogurt",
+    "kefir",
+    "sour cream",
+    "cultured butter",
+    "creme fraiche",
+    "crème fraîche",
+    "buttermilk",
+    "dough",
+    "bread",
+    "rolls",
+    "ice cream",
+    "sherbet",
+    "sorbet",
+    "crepe"
+  ],
+  "low_temp_title_id_keywords": [],
+  "image_skip_urls": false,
+  "image_extensions": [
+    "",
+    ".PNG",
+    ".jpeg",
+    ".jpg",
+    ".png"
+  ],
+  "meta_count_fields": [
+    "total_count",
+    "total_recipes"
+  ],
+  "declared_unused": {
+    "SALT_LIMITS": {
+      "max_cups": 0.5,
+      "max_tbsp": 4,
+      "max_tsp": 8
+    },
+    "SALT_HEAVY_TAGS": [
+      "canning",
+      "pickling",
+      "preserving",
+      "brine",
+      "fermented",
+      "cured"
+    ]
+  },
+  "_notes": [
+    "Values copied from Allrecipes HEAD scripts/validate-recipes.py (24c5fac).",
+    "SALT_LIMITS and SALT_HEAVY_TAGS were declared by the fork but never applied; kept under declared_unused, not enforced.",
+    "low_temp_categories ['cheese'] encodes the fork's category == 'cheese' test.",
+    "image_extensions '' first encodes the fork's exact-path-then-extensions lookup."
+  ]
+}
